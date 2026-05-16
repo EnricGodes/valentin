@@ -2,8 +2,31 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Porsche 997 RUF Kompressor R · Valentin Motors</title>
+
+<meta name="description" content="Porsche 997 Carrera 4S convertido por RUF a especificación Kompressor R. Irish Green, cambio manual, historial documentado y disponible en Valentin Motors.">
+<link rel="canonical" href="https://valentin.up.railway.app/ruf.html">
+<meta property="og:title" content="Porsche 997 RUF Kompressor R · Valentin Motors">
+<meta property="og:description" content="Porsche 997 RUF Kompressor R en Irish Green. Conversión RUF documentada, 435 CV, cambio manual y disponible en Valentin Motors.">
+<meta property="og:image" content="https://valentin.up.railway.app/img/ruf/exterior1.jpg">
+<meta property="og:url" content="https://valentin.up.railway.app/ruf.html">
+<meta property="og:type" content="website">
+
+<script>
+  (function () {
+    const isEmbedded = window.self !== window.top;
+    const forcedEmbed = new URLSearchParams(window.location.search).get('embed') === '1';
+    if (isEmbedded || forcedEmbed) {
+      document.documentElement.classList.add('is-embedded');
+      document.addEventListener('DOMContentLoaded', function () {
+        const brand = document.getElementById('nav-brand-link');
+        if (brand) { brand.href = 'https://valentin.up.railway.app/'; brand.target = '_parent'; }
+      });
+    }
+  })();
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -141,7 +164,7 @@
   }
   #hero-bg {
     position: absolute; inset: 0;
-    background: url('img/ruf/hero.jpg') center center / cover no-repeat;
+    background: url('/img/ruf/hero.jpg') center center / cover no-repeat;
     transform: scale(1.06); transition: transform 9s ease-out;
   }
   #hero-bg.loaded { transform: scale(1); }
@@ -602,7 +625,7 @@
   }
   #closing-bg {
     position: absolute; inset: 0;
-    background: url('img/ruf/exterior3.jpg') center 40% / cover no-repeat;
+    background: url('/img/ruf/exterior3.jpg') center 40% / cover no-repeat;
     transform: scale(1.04); transition: transform 14s ease-out;
   }
   #closing-bg.loaded { transform: scale(1); }
@@ -655,6 +678,25 @@
     letter-spacing: 0.1em; color: rgba(167,162,154,0.4);
   }
 
+  /* ── EMBEDDED (iframe) ── */
+  html.is-embedded,
+  html.is-embedded body {
+    width: 100%;
+    min-height: 100%;
+    background: #050505;
+  }
+  html.is-embedded body {
+    margin: 0; padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  html.is-embedded img,
+  html.is-embedded video,
+  html.is-embedded canvas {
+    max-width: 100%;
+  }
+
   /* ── RESPONSIVE ── */
   @media (max-width: 960px) {
     nav { padding: 20px 24px; }
@@ -702,7 +744,7 @@
 
 <!-- Nav -->
 <nav>
-  <a class="nav-brand" href="index.html"><span>Valentin</span> Motors</a>
+  <a id="nav-brand-link" class="nav-brand" href="index.html"><span>Valentin</span> Motors</a>
   <ul class="nav-links">
     <li><a href="#engineering">Motor</a></li>
     <li><a href="#rufkit">RUF Kit</a></li>
@@ -793,27 +835,27 @@
   </div>
   <div class="gallery-stage" id="galleryStage">
     <div class="gallery-slide active">
-      <img src="img/ruf/exterior1.jpg" alt="Frontal 3/4">
+      <img src="/img/ruf/exterior1.jpg" alt="Frontal 3/4" decoding="async">
       <div class="gallery-slide-overlay"></div>
       <div class="gallery-caption">Frontal 3/4 · Irish Green</div>
     </div>
     <div class="gallery-slide">
-      <img src="img/ruf/exterior2.jpg" alt="Perfil lateral" loading="lazy">
+      <img src="/img/ruf/exterior2.jpg" alt="Perfil lateral" loading="lazy" decoding="async">
       <div class="gallery-slide-overlay"></div>
       <div class="gallery-caption">Perfil lateral · Llantas RUF 19"</div>
     </div>
     <div class="gallery-slide">
-      <img src="img/ruf/exterior3.jpg" alt="Trasera 3/4" loading="lazy">
+      <img src="/img/ruf/exterior3.jpg" alt="Trasera 3/4" loading="lazy" decoding="async">
       <div class="gallery-slide-overlay"></div>
       <div class="gallery-caption">Trasera 3/4 · Alerón RUF Rt 12</div>
     </div>
     <div class="gallery-slide">
-      <img src="img/ruf/exterior4.jpg" alt="Vista cenital" loading="lazy">
+      <img src="/img/ruf/exterior4.jpg" alt="Vista cenital" loading="lazy" decoding="async">
       <div class="gallery-slide-overlay"></div>
       <div class="gallery-caption">Vista cenital · Parachoques RUF</div>
     </div>
     <div class="gallery-slide">
-      <img src="img/ruf/exterior5.jpg" alt="Detalle exterior" loading="lazy">
+      <img src="/img/ruf/exterior5.jpg" alt="Detalle exterior" loading="lazy" decoding="async">
       <div class="gallery-slide-overlay"></div>
       <div class="gallery-caption">Detalle exterior · Pintura glass-out</div>
     </div>
@@ -935,19 +977,19 @@
     </div>
     <div class="closeup-grid reveal-scale delay-2">
       <div class="closeup-item">
-        <img src="img/ruf/close-up1.jpg" alt="Trasera RUF" loading="lazy">
+        <img src="/img/ruf/close-up1.jpg" alt="Trasera RUF" loading="lazy" decoding="async">
         <div class="closeup-caption">Trasera RUF Rt 12 · Escape cuádruple</div>
       </div>
       <div class="closeup-item">
-        <img src="img/ruf/close-up2.jpg" alt="Perfil lateral" loading="lazy">
+        <img src="/img/ruf/close-up2.jpg" alt="Perfil lateral" loading="lazy" decoding="async">
         <div class="closeup-caption">Perfil lateral · Llantas RUF 19" · Pinzas amarillas</div>
       </div>
       <div class="closeup-item">
-        <img src="img/ruf/close-up3.jpg" alt="Frontal 3/4" loading="lazy">
+        <img src="/img/ruf/close-up3.jpg" alt="Frontal 3/4" loading="lazy" decoding="async">
         <div class="closeup-caption">Frontal 3/4 · Parachoques RUF Rt 12</div>
       </div>
       <div class="closeup-item">
-        <img src="img/ruf/close-up4.jpg" alt="Detalle frontal" loading="lazy">
+        <img src="/img/ruf/close-up4.jpg" alt="Detalle frontal" loading="lazy" decoding="async">
         <div class="closeup-caption">Faro · Pinza de freno amarilla</div>
       </div>
     </div>
@@ -964,19 +1006,19 @@
     </div>
     <div class="interior-grid reveal-scale delay-1">
       <div class="interior-item">
-        <img src="img/ruf/interior1.jpg" alt="Umbral RUF y cabina" loading="lazy">
+        <img src="/img/ruf/interior1.jpg" alt="Umbral RUF y cabina" loading="lazy" decoding="async">
         <div class="interior-caption">Umbral RUF metálico · Cabina desde la puerta</div>
       </div>
       <div class="interior-item">
-        <img src="img/ruf/interior2.jpg" alt="Cuadro de mandos RUF" loading="lazy">
+        <img src="/img/ruf/interior2.jpg" alt="Cuadro de mandos RUF" loading="lazy" decoding="async">
         <div class="interior-caption">Instrumentación RUF · Esfera verde · Agujas rojas</div>
       </div>
       <div class="interior-item">
-        <img src="img/ruf/interior3.jpg" alt="Cabina completa" loading="lazy">
+        <img src="/img/ruf/interior3.jpg" alt="Cabina completa" loading="lazy" decoding="async">
         <div class="interior-caption">Cabina completa · Pedales y palanca manual</div>
       </div>
       <div class="interior-item">
-        <img src="img/ruf/interior4.jpg" alt="Salpicadero y cambio" loading="lazy">
+        <img src="/img/ruf/interior4.jpg" alt="Salpicadero y cambio" loading="lazy" decoding="async">
         <div class="interior-caption">Salpicadero · Pomo de madera · Cambio manual</div>
       </div>
     </div>
@@ -1106,7 +1148,7 @@
   <div class="jordi-inner">
     <div class="jordi-photo-col reveal-left">
       <div class="jordi-photo-wrap">
-        <img src="img/ruf/jordi.jpg" alt="Jordi Edo · Valentin Motors">
+        <img src="/img/ruf/jordi.jpg" alt="Jordi Edo · Valentin Motors" decoding="async">
         <div class="jordi-photo-border"></div>
       </div>
       <div class="jordi-name">Jordi Edo</div>
@@ -1203,10 +1245,10 @@
 
   // ── Hero bg load ──
   const heroBg = document.getElementById('hero-bg');
-  const img0 = new Image(); img0.src = 'img/ruf/hero.jpg';
+  const img0 = new Image(); img0.src = '/img/ruf/hero.jpg';
   img0.onload = () => heroBg.classList.add('loaded');
   const closingBg = document.getElementById('closing-bg');
-  const img1 = new Image(); img1.src = 'img/ruf/exterior3.jpg';
+  const img1 = new Image(); img1.src = '/img/ruf/exterior3.jpg';
   img1.onload = () => closingBg.classList.add('loaded');
 
   // ── Intersection observer for all reveal classes ──
