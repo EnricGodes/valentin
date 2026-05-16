@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Porsche 997 RUF Kompressor R · Valentin Motors</title>
+<title>Valentin Motors · Coches en Venta</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -12,12 +12,8 @@
     --black: #0B0B0B;
     --graphite: #1C1C1A;
     --charcoal: #2A2824;
-    --green-deep: #003E2C;
-    --green-brit: #004225;
     --bronze: #B28A5B;
     --concrete: #A7A29A;
-    --leather: #3A241C;
-    --yellow: #D9A400;
     --white: #F0EDE8;
   }
 
@@ -29,7 +25,7 @@
     color: var(--white);
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.7;
     overflow-x: hidden;
     cursor: none;
@@ -39,7 +35,7 @@
   #cursor {
     position: fixed;
     width: 10px; height: 10px;
-    background: var(--green-brit);
+    background: #004225;
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
@@ -63,7 +59,7 @@
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; justify-content: space-between; align-items: center;
     padding: 24px 48px;
-    background: linear-gradient(to bottom, rgba(11,11,11,0.95), transparent);
+    background: linear-gradient(to bottom, rgba(11,11,11,0.98), transparent);
   }
   .nav-brand {
     font-family: 'IBM Plex Mono', monospace;
@@ -71,575 +67,149 @@
     color: var(--concrete); text-transform: uppercase; text-decoration: none;
   }
   .nav-brand span { color: var(--bronze); }
-  .nav-links { display: flex; gap: 32px; list-style: none; }
-  .nav-links a {
+  .nav-tagline {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px; letter-spacing: 0.18em;
-    color: var(--concrete); text-decoration: none; text-transform: uppercase;
-    transition: color 0.3s;
+    font-size: 10px; letter-spacing: 0.15em;
+    color: rgba(167,162,154,0.4); text-transform: uppercase;
   }
-  .nav-links a:hover { color: var(--white); }
 
-  /* ── Animations ── */
-  .reveal {
-    opacity: 0; transform: translateY(36px);
-    transition: opacity 0.9s cubic-bezier(0.16,1,0.3,1), transform 0.9s cubic-bezier(0.16,1,0.3,1);
+  /* ── Hero strip ── */
+  .page-header {
+    padding: 160px 56px 88px;
+    max-width: 1200px; margin: 0 auto;
   }
-  .reveal.visible { opacity: 1; transform: translateY(0); }
-
-  .reveal-left {
-    opacity: 0; transform: translateX(-48px);
-    transition: opacity 0.9s cubic-bezier(0.16,1,0.3,1), transform 0.9s cubic-bezier(0.16,1,0.3,1);
-  }
-  .reveal-left.visible { opacity: 1; transform: translateX(0); }
-
-  .reveal-right {
-    opacity: 0; transform: translateX(48px);
-    transition: opacity 0.9s cubic-bezier(0.16,1,0.3,1), transform 0.9s cubic-bezier(0.16,1,0.3,1);
-  }
-  .reveal-right.visible { opacity: 1; transform: translateX(0); }
-
-  .reveal-scale {
-    opacity: 0; transform: scale(0.94);
-    transition: opacity 0.9s cubic-bezier(0.16,1,0.3,1), transform 0.9s cubic-bezier(0.16,1,0.3,1);
-  }
-  .reveal-scale.visible { opacity: 1; transform: scale(1); }
-
-  .delay-1 { transition-delay: 0.1s; }
-  .delay-2 { transition-delay: 0.2s; }
-  .delay-3 { transition-delay: 0.35s; }
-  .delay-4 { transition-delay: 0.5s; }
-  .delay-5 { transition-delay: 0.65s; }
-  .delay-6 { transition-delay: 0.8s; }
-
-  /* Shimmer line */
-  .shimmer-line {
-    height: 1px; background: var(--bronze); width: 0;
-    transition: width 1.2s cubic-bezier(0.16,1,0.3,1);
-    margin-bottom: 24px;
-  }
-  .shimmer-line.visible { width: 60px; }
-
-  /* ── Section base ── */
-  section { position: relative; }
-  .section-label {
+  .page-eyebrow {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px; letter-spacing: 0.25em;
-    color: var(--bronze); text-transform: uppercase; margin-bottom: 12px;
-  }
-  .section-title {
-    font-size: clamp(30px, 4vw, 54px);
-    font-weight: 300; line-height: 1.1; letter-spacing: -0.02em; color: var(--white);
-  }
-  .section-title strong { font-weight: 700; display: block; }
-
-  /* ── 1. HERO ── */
-  #hero {
-    height: 100vh; min-height: 700px;
-    display: flex; align-items: flex-end;
-    position: relative; overflow: hidden;
-  }
-  #hero-bg {
-    position: absolute; inset: 0;
-    background: url('img/hero.jpg') center center / cover no-repeat;
-    transform: scale(1.06); transition: transform 9s ease-out;
-  }
-  #hero-bg.loaded { transform: scale(1); }
-  #hero-overlay {
-    position: absolute; inset: 0;
-    background: linear-gradient(
-      to top,
-      rgba(11,11,11,0.97) 0%,
-      rgba(11,11,11,0.45) 45%,
-      rgba(11,11,11,0.1) 100%
-    );
-  }
-  #hero-content {
-    position: relative; z-index: 2;
-    width: 100%; padding: 0 56px 80px;
-  }
-  .hero-eyebrow {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px; letter-spacing: 0.3em;
+    font-size: 10px; letter-spacing: 0.28em;
     color: var(--bronze); text-transform: uppercase; margin-bottom: 20px;
   }
-  .hero-title {
-    font-size: clamp(48px, 9vw, 110px);
-    font-weight: 700; line-height: 0.93; letter-spacing: -0.03em; color: var(--white);
-    margin-bottom: 28px;
+  .page-title {
+    font-size: clamp(38px, 6vw, 78px);
+    font-weight: 700; line-height: 0.95; letter-spacing: -0.03em;
+    color: var(--white);
   }
-  .hero-title em {
-    font-style: normal; font-weight: 300; display: block;
-    font-size: 0.52em; letter-spacing: -0.01em;
-    color: var(--concrete); margin-bottom: 10px;
+  .page-title em {
+    font-style: normal; font-weight: 300;
+    color: var(--concrete); display: block; margin-bottom: 8px;
+    font-size: 0.5em; letter-spacing: 0em;
   }
-  .hero-claim {
-    font-size: 15px; color: var(--concrete);
-    font-weight: 300; letter-spacing: 0.06em;
-    max-width: 480px;
-  }
-  .hero-scroll {
-    position: absolute; bottom: 28px; left: 50%;
-    transform: translateX(-50%);
-    display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 3;
-  }
-  .hero-scroll span {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 9px; letter-spacing: 0.2em;
-    color: var(--concrete); text-transform: uppercase;
-  }
-  .scroll-line {
-    width: 1px; height: 52px;
-    background: linear-gradient(to bottom, var(--bronze), transparent);
-    animation: scrollPulse 2.2s ease-in-out infinite;
-  }
-  @keyframes scrollPulse {
-    0%, 100% { opacity: 0.25; transform: scaleY(1) translateY(0); }
-    50% { opacity: 1; transform: scaleY(1.1) translateY(4px); }
+  .page-sub {
+    margin-top: 28px;
+    font-size: 15px; color: var(--concrete); font-weight: 300;
+    max-width: 480px; line-height: 1.75;
   }
 
-  /* Floating badge in hero */
-  .hero-badge {
-    position: absolute; top: 40%; right: 56px; z-index: 3;
-    display: flex; flex-direction: column; align-items: flex-end; gap: 6px;
-    opacity: 0; animation: fadeInBadge 1.2s 1.8s forwards;
+  /* ── Divider ── */
+  .divider {
+    height: 1px; background: rgba(167,162,154,0.12);
+    margin: 0 56px;
   }
-  @keyframes fadeInBadge {
-    from { opacity: 0; transform: translateY(12px); }
-    to { opacity: 1; transform: translateY(0); }
+
+  /* ── Car grid ── */
+  .catalog {
+    padding: 72px 56px 120px;
+    max-width: 1200px; margin: 0 auto;
   }
-  .hero-badge-price {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: clamp(28px, 3vw, 44px); font-weight: 500;
-    color: var(--bronze); letter-spacing: -0.02em;
-  }
-  .hero-badge-label {
+  .catalog-meta {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 10px; letter-spacing: 0.2em;
-    color: var(--concrete); text-transform: uppercase;
+    color: rgba(167,162,154,0.4); text-transform: uppercase;
+    margin-bottom: 48px;
   }
 
-  /* ── 2. INTRO ── */
-  #intro {
-    padding: 128px 56px; background: var(--black);
-    max-width: 1200px; margin: 0 auto;
-    display: grid; grid-template-columns: 1fr 1fr; gap: 88px; align-items: center;
+  .cars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
   }
-  .intro-text p {
-    font-size: 17px; line-height: 1.85; color: var(--concrete); margin-bottom: 22px;
-  }
-  .intro-text p strong { color: var(--white); font-weight: 600; }
-  .intro-highlight {
-    border-left: 1px solid var(--bronze); padding-left: 24px; margin-top: 36px;
-  }
-  .intro-highlight p {
-    font-size: 19px; color: var(--white); font-weight: 300; font-style: italic; line-height: 1.6;
-  }
-  .intro-data-block {
-    background: var(--graphite); border: 1px solid rgba(178,138,91,0.15); padding: 44px;
-  }
-  .intro-data-row {
-    display: flex; justify-content: space-between; align-items: baseline;
-    padding: 15px 0; border-bottom: 1px solid rgba(167,162,154,0.1);
-  }
-  .intro-data-row:last-child { border-bottom: none; }
-  .intro-data-key {
-    font-family: 'IBM Plex Mono', monospace; font-size: 10px;
-    letter-spacing: 0.15em; color: var(--concrete); text-transform: uppercase;
-  }
-  .intro-data-val {
-    font-family: 'IBM Plex Mono', monospace; font-size: 14px;
-    color: var(--white); font-weight: 500; text-align: right;
-  }
-  .intro-data-val.accent { color: var(--bronze); }
 
-  /* ── 3. GALLERY (crossfade) ── */
-  #gallery { background: var(--graphite); padding: 88px 0; overflow: hidden; }
-  .gallery-header { padding: 0 56px 52px; }
-  .gallery-stage {
-    position: relative; height: 560px; overflow: hidden;
+  .car-card {
+    background: var(--graphite);
+    display: flex; flex-direction: column;
+    text-decoration: none; color: inherit;
+    transition: background 0.3s;
+    position: relative;
+    overflow: hidden;
   }
-  .gallery-slide {
-    position: absolute; inset: 0;
-    opacity: 0; transition: opacity 1s cubic-bezier(0.4,0,0.2,1);
-    pointer-events: none;
+  .car-card:hover { background: var(--charcoal); }
+  .car-card.available:hover .car-img-wrap img { transform: scale(1.05); }
+
+  .car-img-wrap {
+    position: relative;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background: var(--charcoal);
   }
-  .gallery-slide.active { opacity: 1; pointer-events: auto; }
-  .gallery-slide img {
+  .car-img-wrap img {
     width: 100%; height: 100%; object-fit: cover; display: block;
-    transform: scale(1.04); transition: transform 6s ease-out;
+    transition: transform 0.9s cubic-bezier(0.16,1,0.3,1);
   }
-  .gallery-slide.active img { transform: scale(1); }
-  .gallery-slide-overlay {
-    position: absolute; inset: 0;
-    background: linear-gradient(to top, rgba(11,11,11,0.65) 0%, transparent 60%);
-  }
-  .gallery-caption {
-    position: absolute; bottom: 32px; left: 56px; z-index: 2;
-    font-family: 'IBM Plex Mono', monospace; font-size: 11px;
-    letter-spacing: 0.18em; color: var(--concrete); text-transform: uppercase;
-    opacity: 0; transform: translateY(8px);
-    transition: opacity 0.6s 0.4s, transform 0.6s 0.4s;
-  }
-  .gallery-slide.active .gallery-caption { opacity: 1; transform: translateY(0); }
-  .gallery-controls {
-    display: flex; align-items: center; gap: 16px; padding: 32px 56px 0;
-  }
-  .gallery-btn {
-    width: 48px; height: 48px;
-    border: 1px solid rgba(167,162,154,0.3); background: transparent;
-    color: var(--white); cursor: none;
+  .car-img-placeholder {
+    width: 100%; height: 100%;
     display: flex; align-items: center; justify-content: center;
-    transition: border-color 0.3s, background 0.3s; font-size: 18px;
+    background: var(--charcoal);
   }
-  .gallery-btn:hover { border-color: var(--bronze); background: rgba(178,138,91,0.1); }
-  .gallery-counter {
-    font-family: 'IBM Plex Mono', monospace; font-size: 11px;
-    letter-spacing: 0.15em; color: var(--concrete);
-  }
-  .gallery-progress {
-    flex: 1; height: 1px; background: rgba(167,162,154,0.15); position: relative; overflow: hidden;
-  }
-  .gallery-progress-bar {
-    position: absolute; left: 0; top: 0; height: 100%;
-    background: var(--bronze); width: 0%;
-    transition: width 0.3s linear;
-  }
-  .gallery-dots { display: flex; gap: 6px; }
-  .gallery-dot {
-    width: 20px; height: 1px; background: rgba(167,162,154,0.3);
-    transition: background 0.3s, width 0.3s; cursor: none;
-  }
-  .gallery-dot.active { background: var(--bronze); width: 36px; }
-
-  /* ── 4. ENGINEERING ── */
-  #engineering { padding: 128px 56px; background: var(--black); }
-  .engineering-inner {
-    max-width: 1200px; margin: 0 auto;
-    display: grid; grid-template-columns: 1fr 1fr; gap: 88px; align-items: center;
-  }
-  .engineering-stats {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
-    background: rgba(167,162,154,0.1); border: 1px solid rgba(167,162,154,0.1);
-    margin-top: 52px;
-  }
-  .eng-stat { background: var(--black); padding: 36px; }
-  .eng-stat-val {
-    font-family: 'IBM Plex Mono', monospace; font-size: 40px;
-    font-weight: 500; color: var(--white); line-height: 1;
-  }
-  .eng-stat-val .unit { font-size: 18px; color: var(--concrete); margin-left: 4px; }
-  .eng-stat-label {
-    font-family: 'IBM Plex Mono', monospace; font-size: 9px;
-    letter-spacing: 0.2em; color: var(--concrete); text-transform: uppercase; margin-top: 10px;
-  }
-  .eng-stat.highlight { background: var(--green-deep); }
-  .eng-stat.highlight .eng-stat-val { color: var(--white); }
-  .engineering-text p {
-    font-size: 17px; line-height: 1.85; color: var(--concrete); margin-bottom: 22px;
-  }
-  .engineering-text p strong { color: var(--white); }
-  .eng-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 36px; }
-  .eng-tag {
-    font-family: 'IBM Plex Mono', monospace; font-size: 10px;
-    letter-spacing: 0.15em; color: var(--bronze);
-    border: 1px solid rgba(178,138,91,0.3); padding: 7px 14px;
-    text-transform: uppercase;
-    transition: background 0.3s, color 0.3s;
-  }
-  .eng-tag:hover { background: rgba(178,138,91,0.12); }
-
-  /* ── 5. RUF KIT ── */
-  #rufkit { padding: 128px 56px; background: var(--graphite); }
-  .rufkit-inner { max-width: 1200px; margin: 0 auto; }
-  .rufkit-header {
-    display: flex; justify-content: space-between; align-items: flex-end;
-    margin-bottom: 68px; flex-wrap: wrap; gap: 24px;
-  }
-  .rufkit-price {
-    font-family: 'IBM Plex Mono', monospace; font-size: 13px;
-    letter-spacing: 0.1em; color: var(--bronze);
-    border: 1px solid rgba(178,138,91,0.3); padding: 12px 20px;
-  }
-  .kit-categories {
-    display: grid; grid-template-columns: repeat(4, 1fr);
-    gap: 2px; background: rgba(167,162,154,0.08);
-  }
-  .kit-category {
-    background: var(--graphite); padding: 36px;
-    border-top: 1px solid rgba(178,138,91,0.2);
-    transition: background 0.4s;
-  }
-  .kit-category:hover { background: var(--charcoal); }
-  .kit-cat-title {
-    font-family: 'IBM Plex Mono', monospace; font-size: 9px;
-    letter-spacing: 0.25em; color: var(--bronze);
-    text-transform: uppercase; margin-bottom: 22px;
-  }
-  .kit-items { list-style: none; display: flex; flex-direction: column; gap: 11px; }
-  .kit-items li {
-    font-size: 14px; color: var(--concrete);
-    padding-left: 16px; position: relative; line-height: 1.45;
-    opacity: 0; transform: translateX(-8px);
-    transition: opacity 0.4s, transform 0.4s, color 0.3s;
-  }
-  .kit-items li.visible { opacity: 1; transform: translateX(0); }
-  .kit-items li:hover { color: var(--white); }
-  .kit-items li::before {
-    content: ''; position: absolute; left: 0; top: 9px;
-    width: 6px; height: 1px; background: var(--bronze);
-  }
-
-  /* ── 6. EXTERIOR ── */
-  #exterior { padding: 128px 56px; background: var(--black); }
-  .exterior-inner { max-width: 1200px; margin: 0 auto; }
-  .exterior-header { margin-bottom: 68px; }
-  .exterior-text {
-    max-width: 640px; margin-top: 22px;
-    font-size: 17px; line-height: 1.85; color: var(--concrete);
-  }
-  .exterior-text strong { color: var(--white); }
-
-  /* Magazine-style bento grid */
-  .closeup-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 420px 420px;
-    gap: 3px;
-  }
-  .closeup-item {
-    position: relative; overflow: hidden; cursor: none;
-  }
-  .closeup-item img {
-    width: 100%; height: 100%; object-fit: cover; object-position: center;
-    display: block;
-    transition: transform 1s cubic-bezier(0.16,1,0.3,1);
-  }
-  .closeup-item:hover img { transform: scale(1.05); }
-  .closeup-caption {
-    position: absolute; bottom: 0; left: 0; right: 0;
-    padding: 40px 20px 20px;
-    background: linear-gradient(to top, rgba(11,11,11,0.88), transparent);
-    font-family: 'IBM Plex Mono', monospace; font-size: 11px;
-    letter-spacing: 0.14em; color: var(--white); text-transform: uppercase;
-    transform: translateY(10px); opacity: 0;
-    transition: opacity 0.4s, transform 0.5s;
-  }
-  .closeup-item:hover .closeup-caption { opacity: 1; transform: translateY(0); }
-
-  /* ── 7. INTERIOR ── */
-  #interior { padding: 128px 56px; background: var(--leather); }
-  .interior-inner { max-width: 1200px; margin: 0 auto; }
-  .interior-header { margin-bottom: 68px; }
-  .interior-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 340px);
-    gap: 3px;
-  }
-  .interior-item { position: relative; overflow: hidden; cursor: none; }
-  .interior-item:first-child { grid-row: span 2; }
-  .interior-item img {
-    width: 100%; height: 100%; object-fit: cover; display: block;
-    transition: transform 1s cubic-bezier(0.16,1,0.3,1);
-  }
-  .interior-item:hover img { transform: scale(1.05); }
-  .interior-caption {
-    position: absolute; bottom: 0; left: 0; right: 0;
-    padding: 36px 20px 20px;
-    background: linear-gradient(to top, rgba(58,36,28,0.95), transparent);
-    font-family: 'IBM Plex Mono', monospace; font-size: 11px;
-    letter-spacing: 0.15em; color: var(--bronze); text-transform: uppercase;
-    transform: translateY(8px); opacity: 0;
-    transition: opacity 0.4s, transform 0.5s;
-  }
-  .interior-item:hover .interior-caption { opacity: 1; transform: translateY(0); }
-  .interior-editorial {
-    margin-top: 52px; border-left: 1px solid rgba(178,138,91,0.4);
-    padding-left: 24px; max-width: 640px;
-  }
-  .interior-editorial p {
-    font-size: 17px; line-height: 1.85;
-    color: rgba(240,237,232,0.7); font-style: italic;
-  }
-
-  /* ── 8. PROVENANCE ── */
-  #provenance { padding: 128px 56px; background: var(--black); }
-  .provenance-inner { max-width: 900px; margin: 0 auto; }
-  .timeline { position: relative; margin-top: 68px; padding-left: 44px; }
-  .timeline::before {
-    content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 1px;
-    background: linear-gradient(to bottom, var(--bronze), rgba(178,138,91,0.08));
-  }
-  .timeline-item { position: relative; padding-bottom: 60px; }
-  .timeline-item:last-child { padding-bottom: 0; }
-  .timeline-dot {
-    position: absolute; left: -48px; top: 5px;
-    width: 10px; height: 10px; border-radius: 50%;
-    background: var(--black); border: 1px solid var(--bronze);
-    transition: background 0.4s, transform 0.4s;
-  }
-  .timeline-item:hover .timeline-dot { background: var(--bronze); transform: scale(1.4); }
-  .timeline-year {
-    font-family: 'IBM Plex Mono', monospace; font-size: 11px;
-    letter-spacing: 0.2em; color: var(--bronze); text-transform: uppercase; margin-bottom: 10px;
-  }
-  .timeline-title {
-    font-size: 21px; font-weight: 600; color: var(--white);
-    margin-bottom: 14px; letter-spacing: -0.01em;
-  }
-  .timeline-body {
-    font-size: 15px; line-height: 1.8; color: var(--concrete); max-width: 600px;
-  }
-  .timeline-body strong { color: var(--white); }
-  .timeline-badge {
-    display: inline-block; font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px; letter-spacing: 0.1em; color: var(--yellow);
-    border: 1px solid rgba(217,164,0,0.3); padding: 4px 12px; margin-top: 14px;
-  }
-
-  /* ── 9. SPECS ── */
-  #specs { padding: 128px 56px; background: var(--graphite); }
-  .specs-inner { max-width: 1200px; margin: 0 auto; }
-  .specs-header { margin-bottom: 68px; }
-  .specs-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr);
-    gap: 2px; background: rgba(167,162,154,0.06);
-  }
-  .specs-group { background: var(--graphite); padding: 36px; }
-  .specs-group-title {
-    font-family: 'IBM Plex Mono', monospace; font-size: 9px;
-    letter-spacing: 0.25em; color: var(--bronze); text-transform: uppercase;
-    margin-bottom: 22px; padding-bottom: 14px; border-bottom: 1px solid rgba(178,138,91,0.2);
-  }
-  .spec-row {
-    display: flex; justify-content: space-between; align-items: baseline;
-    padding: 9px 0; border-bottom: 1px solid rgba(167,162,154,0.07);
-  }
-  .spec-row:last-child { border-bottom: none; }
-  .spec-key { font-size: 12px; color: var(--concrete); flex: 1; }
-  .spec-val {
-    font-family: 'IBM Plex Mono', monospace; font-size: 12px;
-    color: var(--white); text-align: right; flex: 1;
-  }
-
-  /* ── 10. JORDI REVIEW ── */
-  #jordi { padding: 128px 56px; background: var(--black); }
-  .jordi-inner {
-    max-width: 1200px; margin: 0 auto;
-    display: grid; grid-template-columns: 340px 1fr; gap: 88px; align-items: start;
-  }
-  .jordi-photo-col { position: sticky; top: 120px; }
-  .jordi-photo-wrap {
-    position: relative; overflow: hidden;
-    aspect-ratio: 3/4;
-  }
-  .jordi-photo-wrap img {
-    width: 100%; height: 100%; object-fit: cover; display: block;
-    filter: grayscale(20%) contrast(1.05);
-    transition: filter 0.6s;
-  }
-  .jordi-photo-wrap:hover img { filter: grayscale(0%) contrast(1); }
-  .jordi-photo-border {
-    position: absolute; inset: 0;
-    border: 1px solid rgba(178,138,91,0.2);
-    pointer-events: none;
-  }
-  .jordi-name {
-    font-size: 19px; font-weight: 600; color: var(--white);
-    margin-top: 24px; letter-spacing: -0.01em;
-  }
-  .jordi-role {
-    font-family: 'IBM Plex Mono', monospace; font-size: 10px;
-    letter-spacing: 0.18em; color: var(--bronze); text-transform: uppercase; margin-top: 8px;
-  }
-  .jordi-bio {
-    font-size: 14px; color: var(--concrete); margin-top: 14px; line-height: 1.7;
-  }
-
-  .jordi-review-col {}
-  .jordi-review-intro {
-    font-size: 20px; line-height: 1.7; color: var(--white);
-    font-weight: 300; font-style: italic; margin-bottom: 48px;
-    border-left: 1px solid var(--bronze); padding-left: 28px;
-  }
-  .jordi-body p {
-    font-size: 17px; line-height: 1.9; color: var(--concrete); margin-bottom: 22px;
-  }
-  .jordi-body p strong { color: var(--white); }
-  .jordi-verdict {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
-    margin-top: 52px; background: rgba(167,162,154,0.06);
-  }
-  .jordi-pros, .jordi-cons {
-    padding: 36px; background: var(--graphite);
-  }
-  .jordi-verdict-title {
-    font-family: 'IBM Plex Mono', monospace; font-size: 9px;
-    letter-spacing: 0.25em; text-transform: uppercase; margin-bottom: 24px;
-    padding-bottom: 14px; border-bottom: 1px solid rgba(178,138,91,0.2);
-  }
-  .jordi-pros .jordi-verdict-title { color: var(--bronze); }
-  .jordi-cons .jordi-verdict-title { color: var(--concrete); }
-  .verdict-list { list-style: none; display: flex; flex-direction: column; gap: 14px; }
-  .verdict-list li {
-    font-size: 15px; line-height: 1.5; padding-left: 20px; position: relative;
-  }
-  .jordi-pros .verdict-list li { color: var(--white); }
-  .jordi-cons .verdict-list li { color: var(--concrete); }
-  .jordi-pros .verdict-list li::before {
-    content: '+'; position: absolute; left: 0;
-    color: var(--bronze); font-weight: 700; font-size: 14px;
-  }
-  .jordi-cons .verdict-list li::before {
-    content: '/'; position: absolute; left: 0;
-    color: var(--concrete); font-weight: 400; font-size: 14px;
-  }
-
-  /* ── 11. CLOSING ── */
-  #closing {
-    position: relative; height: 88vh; min-height: 600px;
-    display: flex; align-items: center; justify-content: center; overflow: hidden;
-  }
-  #closing-bg {
-    position: absolute; inset: 0;
-    background: url('img/exterior3.jpg') center 40% / cover no-repeat;
-    transform: scale(1.04); transition: transform 14s ease-out;
-  }
-  #closing-bg.loaded { transform: scale(1); }
-  #closing-overlay { position: absolute; inset: 0; background: rgba(11,11,11,0.74); }
-  .closing-content {
-    position: relative; z-index: 2; text-align: center;
-    padding: 0 56px; max-width: 860px;
-  }
-  .closing-quote {
-    font-size: clamp(19px, 2.8vw, 34px); font-weight: 300; line-height: 1.45;
-    color: var(--white); letter-spacing: -0.01em; margin-bottom: 44px;
-  }
-  .closing-quote em { font-style: normal; color: var(--bronze); }
-  .closing-price {
+  .car-img-placeholder span {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: clamp(38px, 6vw, 76px); font-weight: 500;
-    color: var(--white); letter-spacing: -0.02em;
-    display: block; margin-bottom: 8px;
-  }
-  .closing-price-label {
-    font-family: 'IBM Plex Mono', monospace; font-size: 11px;
-    letter-spacing: 0.2em; color: var(--bronze); text-transform: uppercase;
-  }
-  .closing-divider {
-    width: 1px; height: 52px; background: var(--bronze);
-    margin: 36px auto; opacity: 0.35;
-  }
-  .closing-seller {
-    font-family: 'IBM Plex Mono', monospace; font-size: 11px;
-    letter-spacing: 0.25em; color: var(--concrete); text-transform: uppercase;
-  }
-  .closing-seller strong {
-    color: var(--white); display: block; font-size: 13px; margin-top: 6px;
+    font-size: 10px; letter-spacing: 0.2em;
+    color: rgba(167,162,154,0.25); text-transform: uppercase;
   }
 
-  /* ── FOOTER ── */
+  .car-status-badge {
+    position: absolute; top: 16px; left: 16px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; letter-spacing: 0.18em;
+    text-transform: uppercase; padding: 5px 10px;
+    z-index: 2;
+  }
+  .badge-available { background: rgba(0,66,37,0.9); color: #6dba8a; }
+  .badge-soon { background: rgba(28,28,26,0.85); color: var(--concrete); }
+  .badge-reserved { background: rgba(178,138,91,0.2); color: var(--bronze); border: 1px solid rgba(178,138,91,0.4); }
+
+  .car-body {
+    padding: 28px 28px 32px;
+    flex: 1; display: flex; flex-direction: column; gap: 6px;
+  }
+  .car-make {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; letter-spacing: 0.22em;
+    color: var(--bronze); text-transform: uppercase;
+  }
+  .car-name {
+    font-size: 18px; font-weight: 700; letter-spacing: -0.02em;
+    color: var(--white); line-height: 1.2;
+  }
+  .car-year {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; color: var(--concrete); letter-spacing: 0.05em;
+  }
+  .car-desc {
+    font-size: 13px; color: var(--concrete); line-height: 1.65;
+    margin-top: 4px; flex: 1;
+  }
+  .car-footer {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-top: 18px; padding-top: 18px;
+    border-top: 1px solid rgba(167,162,154,0.1);
+  }
+  .car-price {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px; font-weight: 500; color: var(--white);
+  }
+  .car-price.tbd {
+    font-size: 12px; color: var(--concrete); letter-spacing: 0.1em;
+  }
+  .car-cta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; letter-spacing: 0.15em;
+    color: var(--bronze); text-transform: uppercase;
+    opacity: 0; transform: translateX(-6px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .car-card:hover .car-cta { opacity: 1; transform: translateX(0); }
+  .car-card:not(.available) .car-cta { display: none; }
+
+  /* ── Footer ── */
   footer {
     background: var(--black); padding: 40px 56px;
     border-top: 1px solid rgba(167,162,154,0.1);
@@ -656,43 +226,32 @@
     letter-spacing: 0.1em; color: rgba(167,162,154,0.4);
   }
 
-  /* ── RESPONSIVE ── */
+  /* ── Reveal ── */
+  .reveal {
+    opacity: 0; transform: translateY(28px);
+    transition: opacity 0.85s cubic-bezier(0.16,1,0.3,1), transform 0.85s cubic-bezier(0.16,1,0.3,1);
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .delay-1 { transition-delay: 0.08s; }
+  .delay-2 { transition-delay: 0.16s; }
+  .delay-3 { transition-delay: 0.24s; }
+  .delay-4 { transition-delay: 0.32s; }
+  .delay-5 { transition-delay: 0.4s; }
+  .delay-6 { transition-delay: 0.48s; }
+
+  /* ── Responsive ── */
   @media (max-width: 960px) {
     nav { padding: 20px 24px; }
-    .nav-links { display: none; }
-    #hero-content { padding: 0 24px 64px; }
-    .hero-badge { display: none; }
-    #intro { grid-template-columns: 1fr; padding: 80px 24px; gap: 48px; }
-    .gallery-stage { height: 360px; }
-    .gallery-header, .gallery-controls { padding-left: 24px; padding-right: 24px; }
-    .engineering-inner { grid-template-columns: 1fr; gap: 52px; }
-    #engineering { padding: 80px 24px; }
-    .kit-categories { grid-template-columns: repeat(2,1fr); }
-    #rufkit { padding: 80px 24px; }
-    .closeup-grid { grid-template-columns: 1fr; grid-template-rows: repeat(4, 280px); }
-    #exterior { padding: 80px 24px; }
-    .interior-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
-    .interior-item:first-child { grid-row: span 1; height: 320px; }
-    .interior-item { height: 260px; }
-    #interior { padding: 80px 24px; }
-    #provenance { padding: 80px 24px; }
-    .specs-grid { grid-template-columns: 1fr; }
-    #specs { padding: 80px 24px; }
-    .jordi-inner { grid-template-columns: 1fr; gap: 48px; }
-    .jordi-photo-col { position: static; display: grid; grid-template-columns: 180px 1fr; gap: 24px; align-items: center; }
-    .jordi-photo-wrap { aspect-ratio: 1; border-radius: 0; }
-    #jordi { padding: 80px 24px; }
-    .jordi-verdict { grid-template-columns: 1fr; }
-    #closing, .closing-content { padding: 0 24px; }
+    .page-header { padding: 120px 24px 64px; }
+    .divider { margin: 0 24px; }
+    .catalog { padding: 52px 24px 80px; }
+    .cars-grid { grid-template-columns: repeat(2, 1fr); }
     footer { padding: 32px 24px; }
     body { cursor: auto; }
     #cursor, #cursor-ring { display: none; }
   }
-
   @media (max-width: 600px) {
-    .kit-categories { grid-template-columns: 1fr; }
-    .engineering-stats { grid-template-columns: 1fr 1fr; }
-    .closeup-grid { grid-template-rows: repeat(4, 240px); }
+    .cars-grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -701,484 +260,140 @@
 <div id="cursor"></div>
 <div id="cursor-ring"></div>
 
-<!-- Nav -->
 <nav>
-  <a class="nav-brand" href="#"><span>Valentin</span> Motors</a>
-  <ul class="nav-links">
-    <li><a href="#engineering">Motor</a></li>
-    <li><a href="#rufkit">RUF Kit</a></li>
-    <li><a href="#exterior">Exterior</a></li>
-    <li><a href="#interior">Interior</a></li>
-    <li><a href="#jordi">Opinión</a></li>
-    <li><a href="#specs">Ficha técnica</a></li>
-  </ul>
+  <a class="nav-brand" href="index.html"><span>Valentin</span> Motors</a>
+  <div class="nav-tagline">Especialista Porsche desde 1979</div>
 </nav>
 
-<!-- 1. HERO -->
-<section id="hero">
-  <div id="hero-bg"></div>
-  <div id="hero-overlay"></div>
-  <div id="hero-content">
-    <p class="hero-eyebrow reveal">Valentin Motors · Especialista Porsche desde 1979</p>
-    <h1 class="hero-title reveal delay-1">
-      <em>Porsche 997</em>
-      RUF<br>Kompressor R
-    </h1>
-    <p class="hero-claim reveal delay-2">Porsche 997. Irish Green. Ingeniería RUF Kompressor.</p>
-  </div>
-  <div class="hero-scroll">
-    <span>Scroll</span>
-    <div class="scroll-line"></div>
-  </div>
-</section>
+<div class="page-header">
+  <p class="page-eyebrow reveal">Valentin Motors · Selección actual</p>
+  <h1 class="page-title reveal delay-1">
+    <em>Coches en</em>
+    Venta
+  </h1>
+  <p class="page-sub reveal delay-2">Una selección curada de vehículos excepcionales, revisados y presentados por Valentin Motors.</p>
+</div>
 
-<!-- 2. INTRO -->
-<section>
-  <div id="intro">
-    <div class="intro-text">
-      <div class="shimmer-line reveal"></div>
-      <p class="section-label reveal">Historia del vehículo</p>
-      <h2 class="section-title reveal delay-1">Un capítulo<br><strong>documentado del<br>legado RUF.</strong></h2>
-      <div class="reveal delay-2" style="margin-top:36px;">
-        <p>Entregado originalmente en 2007 a través de <strong>Porsche Zentrum Essen</strong>, este 911 Carrera 4S, generación 997, comenzó su andadura como un sofisticado Gran Turismo en color <strong>Meteor Grey Metallic (LM7W)</strong> sobre un interior en cuero <strong>Classic Dark Brown</strong>.</p>
-        <p>En 2011, con solo <strong>12.234 km</strong> en el odómetro, su primer propietario envió el coche a las instalaciones de <strong>RUF Automobile en Pfaffenhausen</strong> para una conversión integral a la especificación <strong>Kompressor R</strong>. Esta transformación, con un coste de <strong>55.000 €</strong>, está meticulosamente documentada mediante la factura original de RUF.</p>
-        <p>El coche conserva su número de bastidor original de Porsche. El <strong>VIN original</strong>.</p>
-      </div>
-      <div class="intro-highlight reveal delay-3">
-        <p>No es simplemente un Porsche preparado. Es una conversión RUF documentada, realizada en Pfaffenhausen y conservando su VIN original Porsche.</p>
-      </div>
-    </div>
-    <div class="intro-data-block reveal-right">
-      <div class="intro-data-row">
-        <span class="intro-data-key">Modelo</span>
-        <span class="intro-data-val">RUF Kompressor R</span>
-      </div>
-      <div class="intro-data-row">
-        <span class="intro-data-key">Base</span>
-        <span class="intro-data-val">997 Carrera 4S</span>
-      </div>
-      <div class="intro-data-row">
-        <span class="intro-data-key">Año</span>
-        <span class="intro-data-val">09 / 2007</span>
-      </div>
-      <div class="intro-data-row">
-        <span class="intro-data-key">Kilómetros</span>
-        <span class="intro-data-val">52.492 km</span>
-      </div>
-      <div class="intro-data-row">
-        <span class="intro-data-key">Color exterior</span>
-        <span class="intro-data-val">Irish Green</span>
-      </div>
-      <div class="intro-data-row">
-        <span class="intro-data-key">Interior</span>
-        <span class="intro-data-val">Piel · cuero marrón</span>
-      </div>
-      <div class="intro-data-row">
-        <span class="intro-data-key">Cambio</span>
-        <span class="intro-data-val">Manual 6 vel.</span>
-      </div>
-      <div class="intro-data-row">
-        <span class="intro-data-key">Precio</span>
-        <span class="intro-data-val accent">200.000 €</span>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="divider"></div>
 
-<!-- 3. GALLERY -->
-<section id="gallery">
-  <div class="gallery-header">
-    <div class="shimmer-line reveal"></div>
-    <p class="section-label reveal">Galería</p>
-    <h2 class="section-title reveal delay-1">Irish Green.<br><strong>Carrocería verificada<br>por Valentin Motors.</strong></h2>
-  </div>
-  <div class="gallery-stage" id="galleryStage">
-    <div class="gallery-slide active">
-      <img src="img/exterior1.jpg" alt="Frontal 3/4">
-      <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Frontal 3/4 · Irish Green</div>
-    </div>
-    <div class="gallery-slide">
-      <img src="img/exterior2.jpg" alt="Perfil lateral" loading="lazy">
-      <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Perfil lateral · Llantas RUF 19"</div>
-    </div>
-    <div class="gallery-slide">
-      <img src="img/exterior3.jpg" alt="Trasera 3/4" loading="lazy">
-      <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Trasera 3/4 · Alerón RUF Rt 12</div>
-    </div>
-    <div class="gallery-slide">
-      <img src="img/exterior4.jpg" alt="Vista cenital" loading="lazy">
-      <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Vista cenital · Parachoques RUF</div>
-    </div>
-    <div class="gallery-slide">
-      <img src="img/exterior5.jpg" alt="Detalle exterior" loading="lazy">
-      <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Detalle exterior · Pintura glass-out</div>
-    </div>
-  </div>
-  <div class="gallery-controls">
-    <button class="gallery-btn" id="galleryPrev">&#8592;</button>
-    <button class="gallery-btn" id="galleryNext">&#8594;</button>
-    <span class="gallery-counter" id="galleryCounter">01 / 05</span>
-    <div class="gallery-progress"><div class="gallery-progress-bar" id="galleryProgressBar"></div></div>
-    <div class="gallery-dots" id="galleryDots">
-      <div class="gallery-dot active" data-idx="0"></div>
-      <div class="gallery-dot" data-idx="1"></div>
-      <div class="gallery-dot" data-idx="2"></div>
-      <div class="gallery-dot" data-idx="3"></div>
-      <div class="gallery-dot" data-idx="4"></div>
-    </div>
-  </div>
-</section>
+<div class="catalog">
+  <div class="catalog-meta reveal">6 vehículos · Actualizado mayo 2026</div>
 
-<!-- 4. ENGINEERING -->
-<section id="engineering">
-  <div class="engineering-inner">
-    <div>
-      <div class="shimmer-line reveal"></div>
-      <p class="section-label reveal">Motor y Rendimiento</p>
-      <h2 class="section-title reveal delay-1">Ingeniería<br><strong>RUF Kompressor.</strong><br>Sin lag.</h2>
-      <div class="engineering-stats reveal-scale delay-2">
-        <div class="eng-stat highlight">
-          <div class="eng-stat-val"><span class="count-up" data-target="435">0</span><span class="unit">CV</span></div>
-          <div class="eng-stat-label">Potencia</div>
+  <div class="cars-grid">
+
+    <!-- 1. RUF — disponible -->
+    <a href="ruf.html" class="car-card available reveal delay-1">
+      <div class="car-img-wrap">
+        <span class="car-status-badge badge-available">Disponible</span>
+        <img src="img/ruf/exterior1.jpg" alt="Porsche 997 RUF Kompressor R">
+      </div>
+      <div class="car-body">
+        <div class="car-make">Porsche · RUF</div>
+        <div class="car-name">997 RUF Kompressor R</div>
+        <div class="car-year">2007 · 52.492 km · Irish Green</div>
+        <p class="car-desc">Conversión RUF integral documentada. Factura original Pfaffenhausen 2011. Repintado glass-out Irish Green 2024. VIN Porsche conservado.</p>
+        <div class="car-footer">
+          <span class="car-price">200.000 €</span>
+          <span class="car-cta">Ver ficha →</span>
         </div>
-        <div class="eng-stat">
-          <div class="eng-stat-val"><span class="count-up" data-target="470">0</span><span class="unit">Nm</span></div>
-          <div class="eng-stat-label">Par motor</div>
-        </div>
-        <div class="eng-stat">
-          <div class="eng-stat-val">3.8<span class="unit">L</span></div>
-          <div class="eng-stat-label">Cilindrada</div>
-        </div>
-        <div class="eng-stat">
-          <div class="eng-stat-val">6<span class="unit">vel</span></div>
-          <div class="eng-stat-label">Manual</div>
+      </div>
+    </a>
+
+    <!-- 2. Placeholder -->
+    <div class="car-card reveal delay-2">
+      <div class="car-img-wrap">
+        <span class="car-status-badge badge-soon">Próximamente</span>
+        <div class="car-img-placeholder"><span>Foto próximamente</span></div>
+      </div>
+      <div class="car-body">
+        <div class="car-make">Porsche</div>
+        <div class="car-name">911 Carrera RS</div>
+        <div class="car-year">Por confirmar</div>
+        <p class="car-desc">Detalles de este vehículo disponibles en breve. Contacte con Valentin Motors para más información.</p>
+        <div class="car-footer">
+          <span class="car-price tbd">Precio a consultar</span>
         </div>
       </div>
     </div>
-    <div class="engineering-text reveal-right delay-1">
-      <p>El sistema <strong>RUF Kompressor</strong> transforma el carácter del seis cilindros bóxer sin recurrir a la respuesta más abrupta de un turbo tradicional. Al integrar un sistema de sobrealimentación Kompressor e intercooler, RUF logró una entrega de potencia <strong>lineal que elimina el lag</strong> característico de los turbocompresores convencionales.</p>
-      <p>La potencia se entrega de forma inmediata y precisa, reforzando el carácter de <strong>Gran Turismo deportivo</strong> de la base 997 Carrera 4S.</p>
-      <p>Transmisión: <strong>caja de cambios manual de 6 velocidades</strong>. Tracción: <strong>sistema AWD de tracción total</strong>.</p>
-      <div class="eng-tags">
-        <span class="eng-tag">Kompressor</span>
-        <span class="eng-tag">Intercooler</span>
-        <span class="eng-tag">Bóxer 6 cil.</span>
-        <span class="eng-tag">AWD</span>
-        <span class="eng-tag">Manual</span>
-        <span class="eng-tag">Sin lag</span>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- 5. RUF KIT -->
-<section id="rufkit">
-  <div class="rufkit-inner">
-    <div class="rufkit-header reveal">
-      <div>
-        <div class="shimmer-line reveal"></div>
-        <p class="section-label">2011 · RUF Kompressor R Kit</p>
-        <h2 class="section-title">Conversión integral<br><strong>realizada en Pfaffenhausen.</strong></h2>
+    <!-- 3. Placeholder -->
+    <div class="car-card reveal delay-3">
+      <div class="car-img-wrap">
+        <span class="car-status-badge badge-soon">Próximamente</span>
+        <div class="car-img-placeholder"><span>Foto próximamente</span></div>
       </div>
-      <div class="rufkit-price">55.113,42 € · Factura original RUF</div>
-    </div>
-    <div class="kit-categories">
-      <div class="kit-category reveal delay-1">
-        <div class="kit-cat-title">Mecánica</div>
-        <ul class="kit-items">
-          <li>Kit compresor RUF 435 CV / 320 kW</li>
-          <li>Intercooler RUF</li>
-          <li>Kit de escape RUF</li>
-          <li>Cubrebaterías RUF</li>
-        </ul>
-      </div>
-      <div class="kit-category reveal delay-2">
-        <div class="kit-cat-title">Dinámica</div>
-        <ul class="kit-items">
-          <li>Suspensión deportiva Bilstein RUF</li>
-          <li>Sistema de frenos RUF</li>
-          <li>Juego de llantas RUF 19"</li>
-        </ul>
-      </div>
-      <div class="kit-category reveal delay-3">
-        <div class="kit-cat-title">Estética</div>
-        <ul class="kit-items">
-          <li>Parachoques delantero RUF Rt 12</li>
-          <li>Alerón trasero RUF Rt 12</li>
-          <li>Parachoques trasero RUF Rt 12</li>
-          <li>Umbrales de puerta RUF</li>
-        </ul>
-      </div>
-      <div class="kit-category reveal delay-4">
-        <div class="kit-cat-title">Interior</div>
-        <ul class="kit-items">
-          <li>Instrumentación RUF</li>
-          <li>Volante deportivo RUF</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 6. EXTERIOR -->
-<section id="exterior">
-  <div class="exterior-inner">
-    <div class="exterior-header">
-      <div class="shimmer-line reveal"></div>
-      <p class="section-label reveal">Exterior</p>
-      <h2 class="section-title reveal delay-1">Irish Green.<br><strong>Repintado glass-out<br>en Valentin Motors.</strong></h2>
-      <p class="exterior-text reveal delay-2">En 2024, este RUF se sometió a un renacimiento estético en <strong>Valentin Motors</strong>. Con una inversión de más de <strong>30.000 €</strong>, el vehículo fue completamente desmontado y repintado en el icónico <strong>Irish Green</strong>, una tonalidad que rinde homenaje a la herencia más legendaria de RUF y Porsche. El Irish Green convierte esta unidad en una pieza visualmente contenida pero profundamente reconocible.</p>
-    </div>
-    <div class="closeup-grid reveal-scale delay-2">
-      <div class="closeup-item">
-        <img src="img/close-up1.jpg" alt="Trasera RUF" loading="lazy">
-        <div class="closeup-caption">Trasera RUF Rt 12 · Escape cuádruple</div>
-      </div>
-      <div class="closeup-item">
-        <img src="img/close-up2.jpg" alt="Perfil lateral" loading="lazy">
-        <div class="closeup-caption">Perfil lateral · Llantas RUF 19" · Pinzas amarillas</div>
-      </div>
-      <div class="closeup-item">
-        <img src="img/close-up3.jpg" alt="Frontal 3/4" loading="lazy">
-        <div class="closeup-caption">Frontal 3/4 · Parachoques RUF Rt 12</div>
-      </div>
-      <div class="closeup-item">
-        <img src="img/close-up4.jpg" alt="Detalle frontal" loading="lazy">
-        <div class="closeup-caption">Faro · Pinza de freno amarilla</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 7. INTERIOR -->
-<section id="interior">
-  <div class="interior-inner">
-    <div class="interior-header">
-      <div class="shimmer-line reveal"></div>
-      <p class="section-label reveal">Interior</p>
-      <h2 class="section-title reveal delay-1">Cuero marrón.<br><strong>Artesanía RUF<br>en cada detalle.</strong></h2>
-    </div>
-    <div class="interior-grid reveal-scale delay-1">
-      <div class="interior-item">
-        <img src="img/interior1.jpg" alt="Umbral RUF y cabina" loading="lazy">
-        <div class="interior-caption">Umbral RUF metálico · Cabina desde la puerta</div>
-      </div>
-      <div class="interior-item">
-        <img src="img/interior2.jpg" alt="Cuadro de mandos RUF" loading="lazy">
-        <div class="interior-caption">Instrumentación RUF · Esfera verde · Agujas rojas</div>
-      </div>
-      <div class="interior-item">
-        <img src="img/interior3.jpg" alt="Cabina completa" loading="lazy">
-        <div class="interior-caption">Cabina completa · Pedales y palanca manual</div>
-      </div>
-      <div class="interior-item">
-        <img src="img/interior4.jpg" alt="Salpicadero y cambio" loading="lazy">
-        <div class="interior-caption">Salpicadero · Pomo de madera · Cambio manual</div>
-      </div>
-    </div>
-    <div class="interior-editorial reveal delay-3">
-      <p>El interior combina la sobriedad del cuero marrón con detalles textiles verdes y componentes específicos RUF. La instrumentación, el volante y los umbrales convierten la cabina en una extensión directa de la conversión Kompressor R, manteniendo una lectura artesanal y técnica.</p>
-    </div>
-  </div>
-</section>
-
-<!-- 8. PROVENANCE -->
-<section id="provenance">
-  <div class="provenance-inner">
-    <div class="shimmer-line reveal"></div>
-    <p class="section-label reveal">Documentación y Procedencia</p>
-    <h2 class="section-title reveal delay-1">Historial<br><strong>completamente<br>documentado.</strong></h2>
-    <div class="timeline">
-      <div class="timeline-item reveal">
-        <div class="timeline-dot"></div>
-        <div class="timeline-year">2007 · Alemania</div>
-        <div class="timeline-title">Entrega original en Porsche Zentrum Essen</div>
-        <div class="timeline-body">
-          Este 911 Carrera 4S, generación 997, es entregado a través de <strong>Porsche Zentrum Essen</strong> en color <strong>Meteor Grey Metallic (LM7W)</strong> sobre interior en cuero <strong>Classic Dark Brown</strong>. País de primera entrega: Alemania.
-        </div>
-        <div class="timeline-badge">Documentación de entrega original</div>
-      </div>
-      <div class="timeline-item reveal delay-1">
-        <div class="timeline-dot"></div>
-        <div class="timeline-year">2011 · Pfaffenhausen, Alemania</div>
-        <div class="timeline-title">Conversión RUF Kompressor R</div>
-        <div class="timeline-body">
-          Con solo <strong>12.234 km</strong>, el vehículo es enviado a <strong>RUF Automobile en Pfaffenhausen</strong> para una conversión integral Kompressor R. La transformación incluye compresor, intercooler, llantas, frenos, suspensión, escape y kit carrocería RUF. El coche conserva su <strong>VIN original Porsche</strong>.
-        </div>
-        <div class="timeline-badge">Factura RUF · 55.113,42 €</div>
-      </div>
-      <div class="timeline-item reveal delay-2">
-        <div class="timeline-dot"></div>
-        <div class="timeline-year">2024 · España</div>
-        <div class="timeline-title">Renovación integral en Valentin Motors</div>
-        <div class="timeline-body">
-          Valentin Motors realiza una renovación estética y mecánica de más de <strong>30.000 €</strong>: desmontaje completo, repintado <strong>glass-out en Irish Green</strong>, renovación profunda del interior, inspección técnica mayor y servicio completo. Carrocería verificada íntegramente en Valentin Motors.
-        </div>
-        <div class="timeline-badge">Documentación Valentin Motors · 30.000 €</div>
-      </div>
-      <div class="timeline-item reveal delay-3">
-        <div class="timeline-dot"></div>
-        <div class="timeline-year">Hoy · Disponible</div>
-        <div class="timeline-title">Una pieza de colección lista para conducir</div>
-        <div class="timeline-body">
-          <strong>52.492 km</strong> totales. ITV vigente hasta enero de 2027. Sin accidentes. Números coincidentes. Libro de mantenimiento completo con sellos de especialistas <strong>Porsche y RUF</strong>. 3 propietarios. Ubicación: España.
-        </div>
-        <div class="timeline-badge">200.000 €</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 9. SPECS -->
-<section id="specs">
-  <div class="specs-inner">
-    <div class="specs-header">
-      <div class="shimmer-line reveal"></div>
-      <p class="section-label reveal">Ficha técnica</p>
-      <h2 class="section-title reveal delay-1">Especificaciones<br><strong>completas.</strong></h2>
-    </div>
-    <div class="specs-grid reveal-scale delay-2">
-      <div class="specs-group">
-        <div class="specs-group-title">Motor</div>
-        <div class="spec-row"><span class="spec-key">Tipo</span><span class="spec-val">Bóxer 6 cilindros</span></div>
-        <div class="spec-row"><span class="spec-key">Cilindrada</span><span class="spec-val">3.800 cc</span></div>
-        <div class="spec-row"><span class="spec-key">Sobrealimentación</span><span class="spec-val">RUF Kompressor</span></div>
-        <div class="spec-row"><span class="spec-key">Intercooler</span><span class="spec-val">Sí</span></div>
-        <div class="spec-row"><span class="spec-key">Potencia</span><span class="spec-val">435 CV / 320 kW</span></div>
-        <div class="spec-row"><span class="spec-key">Par motor</span><span class="spec-val">470 Nm</span></div>
-        <div class="spec-row"><span class="spec-key">Combustible</span><span class="spec-val">Gasolina</span></div>
-      </div>
-      <div class="specs-group">
-        <div class="specs-group-title">Transmisión y Chasis</div>
-        <div class="spec-row"><span class="spec-key">Cambio</span><span class="spec-val">Manual 6 vel.</span></div>
-        <div class="spec-row"><span class="spec-key">Tracción</span><span class="spec-val">AWD total</span></div>
-        <div class="spec-row"><span class="spec-key">Dirección</span><span class="spec-val">Izquierda</span></div>
-        <div class="spec-row"><span class="spec-key">Suspensión</span><span class="spec-val">Bilstein RUF</span></div>
-        <div class="spec-row"><span class="spec-key">Frenos</span><span class="spec-val">Sistema RUF</span></div>
-        <div class="spec-row"><span class="spec-key">Llantas</span><span class="spec-val">RUF 19"</span></div>
-        <div class="spec-row"><span class="spec-key">Dirección asistida</span><span class="spec-val">Sí</span></div>
-      </div>
-      <div class="specs-group">
-        <div class="specs-group-title">Carrocería y General</div>
-        <div class="spec-row"><span class="spec-key">Carrocería</span><span class="spec-val">Coupé</span></div>
-        <div class="spec-row"><span class="spec-key">Año</span><span class="spec-val">09 / 2007</span></div>
-        <div class="spec-row"><span class="spec-key">Kilómetros</span><span class="spec-val">52.492 km</span></div>
-        <div class="spec-row"><span class="spec-key">Color exterior</span><span class="spec-val">Irish Green 6406</span></div>
-        <div class="spec-row"><span class="spec-key">Interior</span><span class="spec-val">Cuero marrón</span></div>
-        <div class="spec-row"><span class="spec-key">Asientos</span><span class="spec-val">2+2</span></div>
-        <div class="spec-row"><span class="spec-key">ITV</span><span class="spec-val">Enero 2027</span></div>
-      </div>
-      <div class="specs-group">
-        <div class="specs-group-title">Procedencia</div>
-        <div class="spec-row"><span class="spec-key">Números coincidentes</span><span class="spec-val">Sí</span></div>
-        <div class="spec-row"><span class="spec-key">VIN original</span><span class="spec-val">Porsche</span></div>
-        <div class="spec-row"><span class="spec-key">Sin accidentes</span><span class="spec-val">Sí</span></div>
-        <div class="spec-row"><span class="spec-key">País entrega</span><span class="spec-val">Alemania</span></div>
-        <div class="spec-row"><span class="spec-key">Propietarios</span><span class="spec-val">3</span></div>
-        <div class="spec-row"><span class="spec-key">Ubicación</span><span class="spec-val">España</span></div>
-        <div class="spec-row"><span class="spec-key">Listo para conducir</span><span class="spec-val">Sí</span></div>
-      </div>
-      <div class="specs-group">
-        <div class="specs-group-title">Equipamiento</div>
-        <div class="spec-row"><span class="spec-key">ABS</span><span class="spec-val">Sí</span></div>
-        <div class="spec-row"><span class="spec-key">Airbag</span><span class="spec-val">Sí</span></div>
-        <div class="spec-row"><span class="spec-key">Aire acondicionado</span><span class="spec-val">Sí</span></div>
-        <div class="spec-row"><span class="spec-key">Navegación</span><span class="spec-val">Sí</span></div>
-        <div class="spec-row"><span class="spec-key">Techo solar</span><span class="spec-val">Sí</span></div>
-      </div>
-      <div class="specs-group">
-        <div class="specs-group-title">Inversiones documentadas</div>
-        <div class="spec-row"><span class="spec-key">Conversión RUF 2011</span><span class="spec-val">55.113,42 €</span></div>
-        <div class="spec-row"><span class="spec-key">Restauración 2024</span><span class="spec-val">&gt; 30.000 €</span></div>
-        <div class="spec-row"><span class="spec-key">Total invertido</span><span class="spec-val">&gt; 85.000 €</span></div>
-        <div class="spec-row"><span class="spec-key">Precio de venta</span><span class="spec-val">200.000 €</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 10. JORDI REVIEW -->
-<section id="jordi">
-  <div class="jordi-inner">
-    <div class="jordi-photo-col reveal-left">
-      <div class="jordi-photo-wrap">
-        <img src="img/jordi.jpg" alt="Jordi Edo · Valentin Motors">
-        <div class="jordi-photo-border"></div>
-      </div>
-      <div class="jordi-name">Jordi Edo</div>
-      <div class="jordi-role">Especialista Porsche · Valentin Motors</div>
-      <p class="jordi-bio">Más de 25 años de experiencia con Porsche de colección. Ha supervisado cientos de operaciones de compraventa de vehículos especiales, con especial foco en preparaciones RUF, Singer y Guntherwerks.</p>
-    </div>
-    <div class="jordi-review-col reveal-right delay-1">
-      <div class="shimmer-line reveal"></div>
-      <p class="section-label reveal">La opinión de Jordi</p>
-      <h2 class="section-title reveal delay-1">La visión<br><strong>del experto.</strong></h2>
-      <p class="jordi-review-intro reveal delay-2">
-        "Llevamos muchos años buscando un RUF Kompressor R en condición similar a este. Cuando lo vimos, la decisión fue inmediata."
-      </p>
-      <div class="jordi-body reveal delay-2">
-        <p>Lo primero que llama la atención de este coche no es la pintura, aunque el <strong>Irish Green</strong> sobre suelo de hormigón pulido sea de una belleza casi injusta. Lo que engancha es la coherencia del conjunto. Cada elemento habla el mismo idioma: la conversión RUF, la renovación de 2024 en Valentin Motors, la palanca corta, el cuadro verde con las agujas rojas. Nada está fuera de lugar.</p>
-        <p>El sistema <strong>RUF Kompressor</strong> cambia radicalmente la personalidad del 997 sin traicionar su carácter. No tienes la espera del turbo. La presión llega limpia, sin brusquedad, y el motor bóxer de 3,8 litros responde con una linealidad que pocos coches de esta potencia consiguen. Con el cambio <strong>manual de 6 velocidades</strong> y la <strong>tracción total</strong>, el resultado es un Gran Turismo que puedes conducir sin restricciones, en cualquier condición.</p>
-        <p>El historial es impecable. Tres propietarios, VIN original Porsche, factura RUF de 2011, documentación completa de la restauración de 2024. Para un coleccionista serio, eso es tan importante como el coche mismo.</p>
-      </div>
-      <div class="jordi-verdict reveal-scale delay-3">
-        <div class="jordi-pros">
-          <div class="jordi-verdict-title">Lo mejor</div>
-          <ul class="verdict-list">
-            <li>Conversión RUF genuina, documentada y certificada</li>
-            <li>Entrega de potencia lineal, sin el lag del turbo</li>
-            <li>Cambio manual en un RUF de tracción total: combinación excepcional</li>
-            <li>Irish Green es prácticamente único en el mercado actual</li>
-            <li>Tres inversiones documentadas que justifican el precio</li>
-            <li>VIN original Porsche conservado</li>
-          </ul>
-        </div>
-        <div class="jordi-cons">
-          <div class="jordi-verdict-title">A considerar</div>
-          <ul class="verdict-list">
-            <li>El precio sitúa este RUF en terreno de coleccionista, no de usuario cotidiano</li>
-<li>Un perfil más extremo puede preferir el CTR o el RGT de la misma era</li>
-          </ul>
+      <div class="car-body">
+        <div class="car-make">Porsche</div>
+        <div class="car-name">964 Turbo 3.6</div>
+        <div class="car-year">Por confirmar</div>
+        <p class="car-desc">Detalles de este vehículo disponibles en breve. Contacte con Valentin Motors para más información.</p>
+        <div class="car-footer">
+          <span class="car-price tbd">Precio a consultar</span>
         </div>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- 11. CLOSING -->
-<section id="closing">
-  <div id="closing-bg"></div>
-  <div id="closing-overlay"></div>
-  <div class="closing-content reveal">
-    <p class="closing-quote">
-      No es simplemente un Porsche preparado.<br>
-      Es <em>un capítulo documentado del legado RUF</em>,
-      presentado en una combinación de colores atemporal y listo para la colección más exigente.
-    </p>
-    <div class="closing-divider"></div>
-    <span class="closing-price">200.000 €</span>
-    <div class="closing-price-label">Porsche 997 RUF Kompressor R · Irish Green</div>
-    <div class="closing-divider"></div>
-    <div class="closing-seller">
-      Contacto
-      <strong>Valentin Motors · Especialista Porsche desde 1979</strong>
+    <!-- 4. Placeholder -->
+    <div class="car-card reveal delay-4">
+      <div class="car-img-wrap">
+        <span class="car-status-badge badge-soon">Próximamente</span>
+        <div class="car-img-placeholder"><span>Foto próximamente</span></div>
+      </div>
+      <div class="car-body">
+        <div class="car-make">Porsche</div>
+        <div class="car-name">993 Carrera 4S</div>
+        <div class="car-year">Por confirmar</div>
+        <p class="car-desc">Detalles de este vehículo disponibles en breve. Contacte con Valentin Motors para más información.</p>
+        <div class="car-footer">
+          <span class="car-price tbd">Precio a consultar</span>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
 
-<!-- FOOTER -->
+    <!-- 5. 356 B Cabriolet — disponible -->
+    <a href="356.html" class="car-card available reveal delay-5">
+      <div class="car-img-wrap">
+        <span class="car-status-badge badge-available">Disponible</span>
+        <img src="img/356/exterior1.jpg" alt="Porsche 356 B Cabriolet 1960">
+      </div>
+      <div class="car-body">
+        <div class="car-make">Porsche · KAAN</div>
+        <div class="car-name">356 B Cabriolet</div>
+        <div class="car-year">1960 · 100 km · Plata</div>
+        <p class="car-desc">Restauración completa por KAAN (Austria). Bóxer 4 cil. 1.582 cm³, 90 hp. Chasis 153.320. Interior negro restaurado. Garantía 12 meses.</p>
+        <div class="car-footer">
+          <span class="car-price">190.000 €</span>
+          <span class="car-cta">Ver ficha →</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- 6. Placeholder -->
+    <div class="car-card reveal delay-6">
+      <div class="car-img-wrap">
+        <span class="car-status-badge badge-soon">Próximamente</span>
+        <div class="car-img-placeholder"><span>Foto próximamente</span></div>
+      </div>
+      <div class="car-body">
+        <div class="car-make">Porsche</div>
+        <div class="car-name">911 GT3 RS</div>
+        <div class="car-year">Por confirmar</div>
+        <p class="car-desc">Detalles de este vehículo disponibles en breve. Contacte con Valentin Motors para más información.</p>
+        <div class="car-footer">
+          <span class="car-price tbd">Precio a consultar</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <footer>
   <div class="footer-brand"><span>Valentin</span> Motors · Especialista Porsche desde 1979</div>
-  <div class="footer-copy">Porsche 997 RUF Kompressor R &middot; Irish Green &middot; 200.000 &euro;</div>
+  <div class="footer-copy">Barcelona · España</div>
 </footer>
 
 <script>
-  // ── Custom cursor ──
   const cursor = document.getElementById('cursor');
   const ring = document.getElementById('cursor-ring');
   let mx = 0, my = 0, rx = 0, ry = 0;
@@ -1191,7 +406,7 @@
     ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
     requestAnimationFrame(animateRing);
   })();
-  document.querySelectorAll('a, button, .gallery-slide, .closeup-item, .interior-item, .kit-category, .jordi-photo-wrap').forEach(el => {
+  document.querySelectorAll('a, .car-card').forEach(el => {
     el.addEventListener('mouseenter', () => {
       cursor.style.transform = 'translate(-50%,-50%) scale(2.2)';
       ring.style.width = '60px'; ring.style.height = '60px'; ring.style.opacity = '0.85';
@@ -1202,134 +417,16 @@
     });
   });
 
-  // ── Hero bg load ──
-  const heroBg = document.getElementById('hero-bg');
-  const img0 = new Image(); img0.src = 'img/hero.jpg';
-  img0.onload = () => heroBg.classList.add('loaded');
-  const closingBg = document.getElementById('closing-bg');
-  const img1 = new Image(); img1.src = 'img/exterior3.jpg';
-  img1.onload = () => closingBg.classList.add('loaded');
-
-  // ── Intersection observer for all reveal classes ──
-  const allReveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale, .shimmer-line');
-  const revealObs = new IntersectionObserver((entries) => {
+  const allReveals = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
-      if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); }
+      if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
     });
-  }, { threshold: 0.1 });
-  allReveals.forEach(el => revealObs.observe(el));
+  }, { threshold: 0.08 });
+  allReveals.forEach(el => obs.observe(el));
 
-  // Hero reveals on load
-  document.querySelectorAll('#hero .reveal').forEach((el, i) => {
-    setTimeout(() => el.classList.add('visible'), 400 + i * 180);
-  });
-
-  // Kit items stagger
-  const kitObs = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (!e.isIntersecting) return;
-      e.target.querySelectorAll('.kit-items li').forEach((li, i) => {
-        setTimeout(() => li.classList.add('visible'), 100 + i * 80);
-      });
-      kitObs.unobserve(e.target);
-    });
-  }, { threshold: 0.2 });
-  document.querySelectorAll('.kit-category').forEach(el => kitObs.observe(el));
-
-  // ── Gallery (crossfade) ──
-  const slides = document.querySelectorAll('.gallery-slide');
-  const counter = document.getElementById('galleryCounter');
-  const dots = document.querySelectorAll('.gallery-dot');
-  const progressBar = document.getElementById('galleryProgressBar');
-  const INTERVAL = 5000;
-  let current = 0;
-  let autoTimer = null;
-  let progressTimer = null;
-  const total = slides.length;
-
-  function goTo(idx) {
-    slides[current].classList.remove('active');
-    dots[current].classList.remove('active');
-    current = (idx + total) % total;
-    slides[current].classList.add('active');
-    dots[current].classList.add('active');
-    counter.textContent = String(current + 1).padStart(2, '0') + ' / ' + String(total).padStart(2, '0');
-    startProgress();
-  }
-
-  function startProgress() {
-    progressBar.style.transition = 'none';
-    progressBar.style.width = '0%';
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      progressBar.style.transition = 'width ' + INTERVAL + 'ms linear';
-      progressBar.style.width = '100%';
-    }));
-  }
-
-  function startAuto() {
-    stopAuto();
-    autoTimer = setInterval(() => goTo(current + 1), INTERVAL);
-  }
-  function stopAuto() {
-    clearInterval(autoTimer); autoTimer = null;
-    progressBar.style.transition = 'none';
-    progressBar.style.width = '0%';
-  }
-
-  document.getElementById('galleryPrev').addEventListener('click', () => { stopAuto(); goTo(current - 1); startAuto(); });
-  document.getElementById('galleryNext').addEventListener('click', () => { stopAuto(); goTo(current + 1); startAuto(); });
-  dots.forEach(d => d.addEventListener('click', () => { stopAuto(); goTo(+d.dataset.idx); startAuto(); }));
-
-  const stageEl = document.getElementById('galleryStage');
-  stageEl.addEventListener('mouseenter', stopAuto);
-  stageEl.addEventListener('mouseleave', startAuto);
-
-  // Touch swipe
-  let touchX = 0;
-  stageEl.addEventListener('touchstart', e => touchX = e.touches[0].clientX, { passive: true });
-  stageEl.addEventListener('touchend', e => {
-    const dx = e.changedTouches[0].clientX - touchX;
-    if (Math.abs(dx) > 50) { stopAuto(); goTo(current + (dx < 0 ? 1 : -1)); startAuto(); }
-  });
-
-  goTo(0);
-  startAuto();
-
-  // ── Count-up ──
-  const countObs = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (!e.isIntersecting) return;
-      const el = e.target;
-      const target = +el.dataset.target;
-      const dur = 1600;
-      const start = performance.now();
-      (function step(now) {
-        const p = Math.min((now - start) / dur, 1);
-        const ease = 1 - Math.pow(1 - p, 3);
-        el.textContent = Math.round(ease * target);
-        if (p < 1) requestAnimationFrame(step);
-      })(performance.now());
-      countObs.unobserve(el);
-    });
-  }, { threshold: 0.5 });
-  document.querySelectorAll('.count-up').forEach(el => countObs.observe(el));
-
-  // ── Parallax hero ──
-  const heroBgEl = document.getElementById('hero-bg');
-  window.addEventListener('scroll', () => {
-    const y = window.scrollY;
-    heroBgEl.style.transform = `translateY(${y * 0.28}px)`;
-  }, { passive: true });
-
-  // ── Magnetic buttons ──
-  document.querySelectorAll('.gallery-btn').forEach(btn => {
-    btn.addEventListener('mousemove', e => {
-      const r = btn.getBoundingClientRect();
-      const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
-      const dx = (e.clientX - cx) * 0.35, dy = (e.clientY - cy) * 0.35;
-      btn.style.transform = `translate(${dx}px, ${dy}px)`;
-    });
-    btn.addEventListener('mouseleave', () => btn.style.transform = '');
+  document.querySelectorAll('.page-header .reveal').forEach((el, i) => {
+    setTimeout(() => el.classList.add('visible'), 300 + i * 150);
   });
 </script>
 </body>
