@@ -289,7 +289,7 @@
   }
   .gallery-slide.active { opacity: 1; pointer-events: auto; }
   .gallery-slide img {
-    width: 100%; height: 100%; object-fit: cover; display: block;
+    width: 100%; height: 100%; object-fit: contain; background: var(--graphite); display: block;
     transform: scale(1.04); transition: transform 6s ease-out;
   }
   .gallery-slide.active img { transform: scale(1); }
@@ -763,14 +763,10 @@
   <div id="hero-content">
     <p class="hero-eyebrow reveal">Porsche · 356 B · 1960</p>
     <h1 class="hero-title reveal delay-1">
-      <em>Porsche 356</em>
-      B<br>Cabriolet
+      <em>Porsche 356 B</em>
+      Cabriolet
     </h1>
     <p class="hero-claim reveal delay-2">El origen de una leyenda, restaurado por completo.</p>
-  </div>
-  <div class="hero-badge">
-    <div class="hero-badge-price">190.000 €</div>
-    <div class="hero-badge-label">Precio de venta</div>
   </div>
   <div class="hero-scroll">
     <span>Scroll</span>
@@ -1162,7 +1158,7 @@
         <div class="jordi-cons">
           <div class="jordi-verdict-title">A considerar</div>
           <ul class="verdict-list">
-            <li>Motor número 800.350: de época pero no el original de fábrica — documentado con precisión</li>
+            <li>Motor número 800.350: de época pero no el original de fábrica, documentado con precisión</li>
           </ul>
         </div>
       </div>
@@ -1175,12 +1171,7 @@
   <div id="closing-bg"></div>
   <div id="closing-overlay"></div>
   <div class="closing-content reveal">
-    <p class="closing-quote">
-      Un Porsche 356 B Cabriolet restaurado por completo,<br>
-      con <em>carrocería KAAN</em>, configuración europea<br>
-      y una presencia clásica que lo sitúa como pieza esencial<br>
-      para cualquier colección Porsche.
-    </p>
+    <p class="closing-quote">Un Porsche 356 B Cabriolet restaurado por completo, con <em>carrocería KAAN</em>, configuración europea y una presencia clásica que lo sitúa como pieza esencial para cualquier colección Porsche.</p>
     <div class="closing-divider"></div>
     <span class="closing-price">190.000 €</span>
     <div class="closing-price-label">Porsche 356 B Cabriolet · Plata · 1960</div>

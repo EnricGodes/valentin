@@ -126,6 +126,7 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 - **Bronce**: `#B28A5B` — acento cálido universal (shimmer lines, labels, badges)
 - **Color de realce**: específico de cada coche (reemplaza el verde del RUF)
 - **Tono verbal**: contenido, preciso, editorial. Sin exclamaciones, sin lenguaje de concesionario
+- **Puntuación**: no usar guiones largos (—) en los textos. En español se sustituyen por coma, punto y coma o dos puntos según el contexto
 - **Overlays**: solo en hero y closing. En galería y grids de fotos: sin oscurecimiento (o mínimo en captions)
 
 ---
