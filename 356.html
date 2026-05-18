@@ -2,8 +2,31 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Porsche 356 B Cabriolet · Valentin Motors</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Porsche 356 B Cabriolet 1960 · Valentin Motors</title>
+
+<meta name="description" content="Porsche 356 B Cabriolet 1960. Restauración completa con carrocería KAAN (Austria). Plata, interior negro, bóxer 4 cilindros 1.582 cm³, 90 hp. Disponible en Valentin Motors.">
+<link rel="canonical" href="https://valentin.up.railway.app/356.html">
+<meta property="og:title" content="Porsche 356 B Cabriolet 1960 · Valentin Motors">
+<meta property="og:description" content="Porsche 356 B Cabriolet 1960 con restauración completa y carrocería KAAN. Plata, interior negro, 90 hp. Disponible en Valentin Motors.">
+<meta property="og:image" content="https://valentin.up.railway.app/img/356/exterior1.jpg">
+<meta property="og:url" content="https://valentin.up.railway.app/356.html">
+<meta property="og:type" content="website">
+
+<script>
+  (function () {
+    const isEmbedded = window.self !== window.top;
+    const forcedEmbed = new URLSearchParams(window.location.search).get('embed') === '1';
+    if (isEmbedded || forcedEmbed) {
+      document.documentElement.classList.add('is-embedded');
+      document.addEventListener('DOMContentLoaded', function () {
+        const brand = document.getElementById('nav-brand-link');
+        if (brand) { brand.href = 'https://valentin.up.railway.app/'; brand.target = '_parent'; }
+      });
+    }
+  })();
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -16,7 +39,7 @@
     --silver-brit: #5A636B;
     --bronze: #B28A5B;
     --concrete: #A7A29A;
-    --ivory: #3A3530;
+    --leather: #3A241C;
     --yellow: #D9A400;
     --white: #F0EDE8;
   }
@@ -112,6 +135,7 @@
   .delay-5 { transition-delay: 0.65s; }
   .delay-6 { transition-delay: 0.8s; }
 
+  /* Shimmer line */
   .shimmer-line {
     height: 1px; background: var(--bronze); width: 0;
     transition: width 1.2s cubic-bezier(0.16,1,0.3,1);
@@ -140,7 +164,7 @@
   }
   #hero-bg {
     position: absolute; inset: 0;
-    background: url('img/356/hero.jpg') center center / cover no-repeat;
+    background: url('/img/356/hero.jpg') center center / cover no-repeat;
     transform: scale(1.06); transition: transform 9s ease-out;
   }
   #hero-bg.loaded { transform: scale(1); }
@@ -197,6 +221,27 @@
     50% { opacity: 1; transform: scaleY(1.1) translateY(4px); }
   }
 
+  /* Floating badge in hero */
+  .hero-badge {
+    position: absolute; top: 40%; right: 56px; z-index: 3;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 6px;
+    opacity: 0; animation: fadeInBadge 1.2s 1.8s forwards;
+  }
+  @keyframes fadeInBadge {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero-badge-price {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: clamp(28px, 3vw, 44px); font-weight: 500;
+    color: var(--bronze); letter-spacing: -0.02em;
+  }
+  .hero-badge-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; letter-spacing: 0.2em;
+    color: var(--concrete); text-transform: uppercase;
+  }
+
   /* ── 2. INTRO ── */
   #intro {
     padding: 128px 56px; background: var(--black);
@@ -231,7 +276,7 @@
   }
   .intro-data-val.accent { color: var(--bronze); }
 
-  /* ── 3. GALLERY ── */
+  /* ── 3. GALLERY (crossfade) ── */
   #gallery { background: var(--graphite); padding: 88px 0; overflow: hidden; }
   .gallery-header { padding: 0 56px 52px; }
   .gallery-stage {
@@ -248,14 +293,15 @@
     transform: scale(1.04); transition: transform 6s ease-out;
   }
   .gallery-slide.active img { transform: scale(1); }
-  .gallery-slide-overlay { display: none; }
+  .gallery-slide-overlay {
+    display: none;
+  }
   .gallery-caption {
     position: absolute; bottom: 32px; left: 56px; z-index: 2;
     font-family: 'IBM Plex Mono', monospace; font-size: 11px;
     letter-spacing: 0.18em; color: var(--concrete); text-transform: uppercase;
     opacity: 0; transform: translateY(8px);
     transition: opacity 0.6s 0.4s, transform 0.6s 0.4s;
-    text-shadow: 0 1px 8px rgba(0,0,0,0.8);
   }
   .gallery-slide.active .gallery-caption { opacity: 1; transform: translateY(0); }
   .gallery-controls {
@@ -327,12 +373,12 @@
 
   /* ── 5. RESTAURACIÓN ── */
   #restauracion { padding: 128px 56px; background: var(--graphite); }
-  .restauracion-inner { max-width: 1200px; margin: 0 auto; }
-  .restauracion-header {
+  .rufkit-inner { max-width: 1200px; margin: 0 auto; }
+  .rufkit-header {
     display: flex; justify-content: space-between; align-items: flex-end;
     margin-bottom: 68px; flex-wrap: wrap; gap: 24px;
   }
-  .restauracion-badge {
+  .rufkit-price {
     font-family: 'IBM Plex Mono', monospace; font-size: 13px;
     letter-spacing: 0.1em; color: var(--bronze);
     border: 1px solid rgba(178,138,91,0.3); padding: 12px 20px;
@@ -376,6 +422,7 @@
   }
   .exterior-text strong { color: var(--white); }
 
+  /* Magazine-style bento grid */
   .closeup-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -403,16 +450,17 @@
   .closeup-item:hover .closeup-caption { opacity: 1; transform: translateY(0); }
 
   /* ── 7. INTERIOR ── */
-  #interior { padding: 128px 56px; background: var(--ivory); }
+  #interior { padding: 128px 56px; background: var(--leather); }
   .interior-inner { max-width: 1200px; margin: 0 auto; }
   .interior-header { margin-bottom: 68px; }
   .interior-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 420px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 420px);
     gap: 3px;
   }
   .interior-item { position: relative; overflow: hidden; cursor: none; }
+  .interior-item:first-child { grid-row: span 2; }
   .interior-item img {
     width: 100%; height: 100%; object-fit: cover; display: block;
     transition: transform 1s cubic-bezier(0.16,1,0.3,1);
@@ -421,7 +469,7 @@
   .interior-caption {
     position: absolute; bottom: 0; left: 0; right: 0;
     padding: 36px 20px 20px;
-    background: linear-gradient(to top, rgba(58,53,48,0.7) 0%, rgba(58,53,48,0.15) 50%, transparent 75%);
+    background: linear-gradient(to top, rgba(58,36,28,0.7) 0%, rgba(58,36,28,0.15) 50%, transparent 75%);
     font-family: 'IBM Plex Mono', monospace; font-size: 11px;
     letter-spacing: 0.15em; color: var(--bronze); text-transform: uppercase;
     transform: translateY(8px); opacity: 0;
@@ -530,6 +578,7 @@
   .jordi-bio {
     font-size: 14px; color: var(--concrete); margin-top: 14px; line-height: 1.7;
   }
+
   .jordi-review-col {}
   .jordi-review-intro {
     font-size: 20px; line-height: 1.7; color: var(--white);
@@ -573,10 +622,11 @@
   #closing {
     position: relative; height: 88vh; min-height: 600px;
     display: flex; align-items: center; justify-content: center; overflow: hidden;
+    padding-bottom: 80px;
   }
   #closing-bg {
     position: absolute; inset: 0;
-    background: url('img/356/exterior2.jpg') center 40% / cover no-repeat;
+    background: url('/img/356/exterior5.jpg') center 40% / cover no-repeat;
     transform: scale(1.04); transition: transform 14s ease-out;
   }
   #closing-bg.loaded { transform: scale(1); }
@@ -601,8 +651,8 @@
     letter-spacing: 0.2em; color: var(--bronze); text-transform: uppercase;
   }
   .closing-divider {
-    width: 1px; height: 52px; background: var(--bronze);
-    margin: 36px auto; opacity: 0.35;
+    width: 1px; height: 32px; background: var(--bronze);
+    margin: 20px auto; opacity: 0.35;
   }
   .closing-seller {
     font-family: 'IBM Plex Mono', monospace; font-size: 11px;
@@ -629,11 +679,31 @@
     letter-spacing: 0.1em; color: rgba(167,162,154,0.4);
   }
 
+  /* ── EMBEDDED (iframe) ── */
+  html.is-embedded,
+  html.is-embedded body {
+    width: 100%;
+    min-height: 100%;
+    background: #050505;
+  }
+  html.is-embedded body {
+    margin: 0; padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  html.is-embedded img,
+  html.is-embedded video,
+  html.is-embedded canvas {
+    max-width: 100%;
+  }
+
   /* ── RESPONSIVE ── */
   @media (max-width: 960px) {
     nav { padding: 20px 24px; }
     .nav-links { display: none; }
     #hero-content { padding: 0 24px 64px; }
+    .hero-badge { display: none; }
     #intro { grid-template-columns: 1fr; padding: 80px 24px; gap: 48px; }
     .gallery-stage { height: 480px; }
     .gallery-header, .gallery-controls { padding-left: 24px; padding-right: 24px; }
@@ -644,14 +714,15 @@
     .closeup-grid { grid-template-columns: 1fr; grid-template-rows: repeat(4, 340px); }
     #exterior { padding: 80px 24px; }
     .interior-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
-    .interior-item { height: 300px; }
+    .interior-item:first-child { grid-row: span 1; height: 320px; }
+    .interior-item { height: 260px; }
     #interior { padding: 80px 24px; }
     #provenance { padding: 80px 24px; }
     .specs-grid { grid-template-columns: 1fr; }
     #specs { padding: 80px 24px; }
     .jordi-inner { grid-template-columns: 1fr; gap: 48px; }
     .jordi-photo-col { position: static; display: grid; grid-template-columns: 180px 1fr; gap: 24px; align-items: center; }
-    .jordi-photo-wrap { aspect-ratio: 1; }
+    .jordi-photo-wrap { aspect-ratio: 1; border-radius: 0; }
     #jordi { padding: 80px 24px; }
     .jordi-verdict { grid-template-columns: 1fr; }
     #closing, .closing-content { padding: 0 24px; }
@@ -673,8 +744,8 @@
 <div id="cursor-ring"></div>
 
 <!-- Nav -->
-<nav>
-  <a class="nav-brand" href="index.html"><span>Valentin</span> Motors</a>
+<nav style="display:none">
+  <a id="nav-brand-link" class="nav-brand" href="index.html"><span>Valentin</span> Motors</a>
   <ul class="nav-links">
     <li><a href="#engineering">Motor</a></li>
     <li><a href="#restauracion">Restauración</a></li>
@@ -690,12 +761,16 @@
   <div id="hero-bg"></div>
   <div id="hero-overlay"></div>
   <div id="hero-content">
-    <p class="hero-eyebrow reveal">Valentin Motors · Especialista Porsche desde 1979</p>
+    <p class="hero-eyebrow reveal">Porsche · 356 B · 1960</p>
     <h1 class="hero-title reveal delay-1">
-      <em>Porsche 356 B</em>
-      Cabriolet<br>1960
+      <em>Porsche 356</em>
+      B<br>Cabriolet
     </h1>
-    <p class="hero-claim reveal delay-2">Un clásico esencial de Porsche, restaurado por completo.</p>
+    <p class="hero-claim reveal delay-2">El origen de una leyenda, restaurado por completo.</p>
+  </div>
+  <div class="hero-badge">
+    <div class="hero-badge-price">190.000 €</div>
+    <div class="hero-badge-label">Precio de venta</div>
   </div>
   <div class="hero-scroll">
     <span>Scroll</span>
@@ -709,14 +784,13 @@
     <div class="intro-text">
       <div class="shimmer-line reveal"></div>
       <p class="section-label reveal">Historia del vehículo</p>
-      <h2 class="section-title reveal delay-1">El origen<br><strong>de una leyenda,<br>restaurado.</strong></h2>
+      <h2 class="section-title reveal delay-1">Un clásico<br><strong>fundacional de Porsche,<br>íntegramente restaurado.</strong></h2>
       <div class="reveal delay-2" style="margin-top:36px;">
-        <p>El <strong>Porsche 356 B</strong> fue la evolución de la serie A, con cambios que el mercado acogió con gran éxito. Esta unidad corresponde al <strong>chasis 153.320</strong>, del año <strong>1960</strong>, y equipa una mecánica bóxer de <strong>1.582 cm³</strong> que desarrolla <strong>90 hp</strong>.</p>
-        <p>El motor no es el mismo que salió de fábrica, pero sí corresponde a su época, identificado con el número <strong>800.350</strong>. La carrocería ha sido realizada por los austríacos de <strong>KAAN</strong>, especialistas en restauración de clásicos de la más alta exigencia.</p>
-        <p>Se presenta como una interpretación fiel del 356 B Cabriolet, restaurada íntegramente y conservando el espíritu técnico y estético del modelo fundacional de Porsche.</p>
+        <p>El <strong>Porsche 356 B</strong> fue la evolución de la serie A con varios cambios que el mercado acogió con gran éxito. Esta unidad corresponde al <strong>chasis 153.320</strong>, fabricada en <strong>1960</strong> y destinada al mercado alemán. Equipa una mecánica <strong>bóxer de 4 cilindros y 1.582 cm³</strong> que desarrolla <strong>90 hp</strong>.</p>
+        <p>La carrocería ha sido realizada por los austríacos de <strong>KAAN</strong>, referencia en restauración de clásicos Porsche, con plena fidelidad al carácter original del modelo. El interior, en <strong>negro</strong>, ha sido restaurado completamente.</p>
       </div>
       <div class="intro-highlight reveal delay-3">
-        <p>No es simplemente un Porsche clásico. Es el punto de partida de la identidad Porsche, restaurado a la más alta exigencia por especialistas europeos.</p>
+        <p>No es simplemente un clásico restaurado. Es una interpretación fiel del 356 B Cabriolet, con la carrocería artesanal de KAAN y el espíritu técnico de la etapa fundacional de Porsche.</p>
       </div>
     </div>
     <div class="intro-data-block reveal-right">
@@ -725,28 +799,28 @@
         <span class="intro-data-val">356 B Cabriolet</span>
       </div>
       <div class="intro-data-row">
-        <span class="intro-data-key">Chasis</span>
-        <span class="intro-data-val">153.320</span>
-      </div>
-      <div class="intro-data-row">
         <span class="intro-data-key">Año</span>
         <span class="intro-data-val">1960</span>
       </div>
       <div class="intro-data-row">
-        <span class="intro-data-key">Kilómetros</span>
-        <span class="intro-data-val">100 km (restauración)</span>
+        <span class="intro-data-key">Chasis</span>
+        <span class="intro-data-val">153.320</span>
       </div>
       <div class="intro-data-row">
-        <span class="intro-data-key">Color exterior</span>
-        <span class="intro-data-val">Plata</span>
+        <span class="intro-data-key">Motor</span>
+        <span class="intro-data-val">Bóxer 4 cil. · 1.582 cm³</span>
       </div>
       <div class="intro-data-row">
-        <span class="intro-data-key">Interior</span>
-        <span class="intro-data-val">Negro</span>
+        <span class="intro-data-key">Potencia</span>
+        <span class="intro-data-val">90 hp · 5.200 rpm</span>
       </div>
       <div class="intro-data-row">
-        <span class="intro-data-key">Cambio</span>
-        <span class="intro-data-val">Manual 4 vel.</span>
+        <span class="intro-data-key">Transmisión</span>
+        <span class="intro-data-val">Manual 4 velocidades</span>
+      </div>
+      <div class="intro-data-row">
+        <span class="intro-data-key">Color</span>
+        <span class="intro-data-val">Plata · Interior negro</span>
       </div>
       <div class="intro-data-row">
         <span class="intro-data-key">Precio</span>
@@ -761,33 +835,33 @@
   <div class="gallery-header">
     <div class="shimmer-line reveal"></div>
     <p class="section-label reveal">Galería</p>
-    <h2 class="section-title reveal delay-1">Plata.<br><strong>Carrocería KAAN<br>restaurada íntegramente.</strong></h2>
+    <h2 class="section-title reveal delay-1">Plata.<br><strong>Carrocería KAAN<br>sobre chasis 153.320.</strong></h2>
   </div>
   <div class="gallery-stage" id="galleryStage">
     <div class="gallery-slide active">
-      <img src="img/356/exterior1.jpg" alt="Vista frontal">
+      <img src="/img/356/exterior1.jpg" alt="Exterior frontal" decoding="async">
       <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Vista frontal · Plata · Cromados clásicos</div>
+      <div class="gallery-caption">Vista frontal · Plata · Carrocería KAAN</div>
     </div>
     <div class="gallery-slide">
-      <img src="img/356/exterior2.jpg" alt="Frontal bajo 3/4" loading="lazy">
+      <img src="/img/356/exterior2.jpg" alt="Perfil cabriolet" loading="lazy" decoding="async">
       <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Frontal 3/4 · Carrocería KAAN</div>
+      <div class="gallery-caption">Perfil cabriolet · Líneas clásicas del 356</div>
     </div>
     <div class="gallery-slide">
-      <img src="img/356/exterior3.jpg" alt="Vista elevada 3/4" loading="lazy">
+      <img src="/img/356/exterior3.jpg" alt="Vista frontal directa" loading="lazy" decoding="async">
       <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Vista elevada · Cabriolet con capota recogida</div>
+      <div class="gallery-caption">Frontal · Cromados restaurados</div>
     </div>
     <div class="gallery-slide">
-      <img src="img/356/exterior4.jpg" alt="Vista trasera" loading="lazy">
+      <img src="/img/356/interior1.jpg" alt="Habitáculo restaurado" loading="lazy" decoding="async">
       <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Vista trasera · Silueta clásica 356</div>
+      <div class="gallery-caption">Habitáculo negro · Restauración completa</div>
     </div>
     <div class="gallery-slide">
-      <img src="img/356/exterior5.jpg" alt="Perfil lateral" loading="lazy">
+      <img src="/img/356/exterior4.jpg" alt="Vista lateral" loading="lazy" decoding="async">
       <div class="gallery-slide-overlay"></div>
-      <div class="gallery-caption">Perfil lateral · Proporciones originales</div>
+      <div class="gallery-caption">Vista lateral · Proporciones cabriolet originales</div>
     </div>
   </div>
   <div class="gallery-controls">
@@ -811,18 +885,18 @@
     <div>
       <div class="shimmer-line reveal"></div>
       <p class="section-label reveal">Motor y Mecánica</p>
-      <h2 class="section-title reveal delay-1">Bóxer<br><strong>de cuatro cilindros.</strong><br>La esencia.</h2>
+      <h2 class="section-title reveal delay-1">Mecánica<br><strong>bóxer de época.</strong><br>La esencia.</h2>
       <div class="engineering-stats reveal-scale delay-2">
         <div class="eng-stat highlight">
-          <div class="eng-stat-val">90<span class="unit">hp</span></div>
+          <div class="eng-stat-val"><span class="count-up" data-target="90">0</span><span class="unit">HP</span></div>
           <div class="eng-stat-label">Potencia</div>
         </div>
         <div class="eng-stat">
-          <div class="eng-stat-val">123<span class="unit">Nm</span></div>
+          <div class="eng-stat-val"><span class="count-up" data-target="123">0</span><span class="unit">Nm</span></div>
           <div class="eng-stat-label">Par motor</div>
         </div>
         <div class="eng-stat">
-          <div class="eng-stat-val">1.6<span class="unit">L</span></div>
+          <div class="eng-stat-val">1.582<span class="unit">cc</span></div>
           <div class="eng-stat-label">Cilindrada</div>
         </div>
         <div class="eng-stat">
@@ -832,16 +906,15 @@
       </div>
     </div>
     <div class="engineering-text reveal-right delay-1">
-      <p>El <strong>bóxer de cuatro cilindros</strong> de 1.582 cm³ representa la mecánica fundacional de Porsche: ligero, equilibrado, de bajas vibraciones. La <strong>carburación</strong> y la entrega progresiva de los 90 hp a 5.200 rpm definen un carácter de conducción puro, directo y profundamente conectado con el conductor.</p>
-      <p>El motor lleva el número <strong>800.350</strong>. No es el original de fábrica, pero corresponde íntegramente a su época, una práctica habitual y aceptada en el mercado de clásicos Porsche 356 de alto nivel. La caja <strong>manual de cuatro velocidades</strong> completa una mecánica que no ha necesitado ser reinventada.</p>
-      <p>Par máximo de <strong>123 Nm entre 3.500 y 3.800 rpm</strong>. Alimentación por carburación. Mercado alemán de origen.</p>
+      <p>El <strong>bóxer de 4 cilindros</strong> con 1.582 cm³ y carburación representa la mecánica originaria de Porsche: eficiente, directa y sin filtros. A 5.200 rpm entrega sus <strong>90 hp</strong> con una respuesta natural que define el carácter de los primeros deportivos de la marca.</p>
+      <p>El motor identificado con el número <strong>800.350</strong> corresponde a la época del vehículo, aunque no es el original de fábrica. La <strong>caja manual de 4 velocidades</strong> conecta al conductor con la mecánica de forma inmediata, sin intermediarios.</p>
+      <p>Alimentación: <strong>carburación</strong>. Mercado de origen: <strong>Alemania</strong>.</p>
       <div class="eng-tags">
         <span class="eng-tag">Bóxer 4 cil.</span>
         <span class="eng-tag">Carburación</span>
         <span class="eng-tag">Manual</span>
-        <span class="eng-tag">Restaurado</span>
-        <span class="eng-tag">KAAN</span>
-        <span class="eng-tag">Alemán</span>
+        <span class="eng-tag">Motor de época</span>
+        <span class="eng-tag">Clásico</span>
       </div>
     </div>
   </div>
@@ -849,50 +922,46 @@
 
 <!-- 5. RESTAURACIÓN -->
 <section id="restauracion">
-  <div class="restauracion-inner">
-    <div class="restauracion-header reveal">
+  <div class="rufkit-inner">
+    <div class="rufkit-header reveal">
       <div>
         <div class="shimmer-line reveal"></div>
-        <p class="section-label">Restauración completa</p>
-        <h2 class="section-title">Carrocería KAAN.<br><strong>Restauración íntegra<br>de alto nivel.</strong></h2>
+        <p class="section-label">Restauración completa · Carrocería KAAN</p>
+        <h2 class="section-title">Restauración integral<br><strong>realizada en Austria.</strong></h2>
       </div>
-      <div class="restauracion-badge">Chasis 153.320 · Motor 800.350</div>
+      <div class="rufkit-price">190.000 € · Garantía 12 meses</div>
     </div>
     <div class="kit-categories">
       <div class="kit-category reveal delay-1">
         <div class="kit-cat-title">Carrocería</div>
         <ul class="kit-items">
           <li>Realizada por KAAN (Austria)</li>
-          <li>Plata — restauración completa</li>
-          <li>Cromados clásicos recuperados</li>
-          <li>Cabriolet — capota restaurada</li>
+          <li>Carrocería cabriolet</li>
+          <li>Fidelidad al original 356 B</li>
         </ul>
       </div>
       <div class="kit-category reveal delay-2">
-        <div class="kit-cat-title">Motor</div>
+        <div class="kit-cat-title">Exterior</div>
         <ul class="kit-items">
-          <li>Bóxer 4 cil. 1.582 cm³</li>
-          <li>Motor de época nº 800.350</li>
-          <li>90 hp a 5.200 rpm</li>
-          <li>Carburación original</li>
+          <li>Color plata</li>
+          <li>Cromados clásicos restaurados</li>
+          <li>Proporciones originales conservadas</li>
         </ul>
       </div>
       <div class="kit-category reveal delay-3">
         <div class="kit-cat-title">Interior</div>
         <ul class="kit-items">
-          <li>Interior negro restaurado</li>
-          <li>Cubre capota incluido</li>
-          <li>Tonneau cover incluido</li>
-          <li>Instrumentación original</li>
+          <li>Interior negro restaurado completamente</li>
+          <li>Cubre capota</li>
+          <li>Tonneau cover</li>
         </ul>
       </div>
       <div class="kit-category reveal delay-4">
-        <div class="kit-cat-title">Documentación</div>
+        <div class="kit-cat-title">Mecánica</div>
         <ul class="kit-items">
-          <li>Chasis original 153.320</li>
-          <li>Primera matriculación Alemania 1960</li>
-          <li>Garantía mecánica 12 meses</li>
-          <li>Ubicación: Madrid</li>
+          <li>Motor bóxer 1.582 cm³ · nº 800.350</li>
+          <li>Motor de época documentado</li>
+          <li>Caja manual 4 velocidades</li>
         </ul>
       </div>
     </div>
@@ -905,25 +974,25 @@
     <div class="exterior-header">
       <div class="shimmer-line reveal"></div>
       <p class="section-label reveal">Exterior</p>
-      <h2 class="section-title reveal delay-1">Plata.<br><strong>Silueta cabriolet<br>atemporal.</strong></h2>
-      <p class="exterior-text reveal delay-2">La carrocería en <strong>plata</strong> sitúa esta unidad dentro de una lectura sobria y atemporal del 356. Las formas limpias, los cromados y la proporción ligera del cabriolet permiten entender por qué el modelo se convirtió rápidamente en una de las siluetas más reconocibles de la historia de Porsche. La restauración fue realizada íntegramente por <strong>KAAN</strong>, especialistas austríacos de referencia en carrocería clásica.</p>
+      <h2 class="section-title reveal delay-1">Plata.<br><strong>Cabriolet clásico<br>restaurado íntegramente.</strong></h2>
+      <p class="exterior-text reveal delay-2">La carrocería en <strong>plata</strong> sitúa esta unidad dentro de una lectura sobria y atemporal del 356. Las formas limpias, los <strong>cromados clásicos</strong> y la proporción ligera del cabriolet permiten entender por qué el modelo se convirtió rápidamente en una de las siluetas más reconocibles de la historia de Porsche. La carrocería, realizada por <strong>KAAN</strong>, refuerza el valor artesanal del conjunto.</p>
     </div>
     <div class="closeup-grid reveal-scale delay-2">
       <div class="closeup-item">
-        <img src="img/356/close-up1.jpg" alt="Detalle interior" loading="lazy">
-        <div class="closeup-caption">Detalle interior · Restauración completa</div>
+        <img src="/img/356/close-up1.jpg" alt="Detalle frontal" loading="lazy" decoding="async">
+        <div class="closeup-caption">Detalle frontal · Cromados y línea de capó</div>
       </div>
       <div class="closeup-item">
-        <img src="img/356/close-up2.jpg" alt="Detalle asientos" loading="lazy">
-        <div class="closeup-caption">Asientos · Interior negro original</div>
+        <img src="/img/356/close-up2.jpg" alt="Detalle lateral" loading="lazy" decoding="async">
+        <div class="closeup-caption">Detalle lateral · Carrocería en plata</div>
       </div>
       <div class="closeup-item">
-        <img src="img/356/close-up3.jpg" alt="Salpicadero" loading="lazy">
-        <div class="closeup-caption">Salpicadero · Instrumentación de época</div>
+        <img src="/img/356/close-up3.jpg" alt="Vista cabriolet" loading="lazy" decoding="async">
+        <div class="closeup-caption">Vista cabriolet · Proporciones originales</div>
       </div>
       <div class="closeup-item">
-        <img src="img/356/exterior4.jpg" alt="Trasera del 356" loading="lazy">
-        <div class="closeup-caption">Trasera · Cromados recuperados · Plata</div>
+        <img src="/img/356/close-up4.jpg" alt="Perfil trasero" loading="lazy" decoding="async">
+        <div class="closeup-caption">Perfil trasero · Silueta inconfundible</div>
       </div>
     </div>
   </div>
@@ -939,20 +1008,20 @@
     </div>
     <div class="interior-grid reveal-scale delay-1">
       <div class="interior-item">
-        <img src="img/356/interior1.jpg" alt="Interior desde arriba" loading="lazy">
-        <div class="interior-caption">Habitáculo · Vista cenital</div>
+        <img src="/img/356/interior1.jpg" alt="Habitáculo completo" loading="lazy" decoding="async">
+        <div class="interior-caption">Habitáculo · Interior negro restaurado</div>
       </div>
       <div class="interior-item">
-        <img src="img/356/interior2.jpg" alt="Interior completo cabriolet" loading="lazy">
-        <div class="interior-caption">Interior completo · Capota recogida</div>
+        <img src="/img/356/interior2.jpg" alt="Asientos y tapicería" loading="lazy" decoding="async">
+        <div class="interior-caption">Asientos · Tapicería clásica negra</div>
       </div>
       <div class="interior-item">
-        <img src="img/356/interior3.jpg" alt="Detalle asientos" loading="lazy">
-        <div class="interior-caption">Asientos · Tapicería negra restaurada</div>
+        <img src="/img/356/interior3.jpg" alt="Salpicadero e instrumentación" loading="lazy" decoding="async">
+        <div class="interior-caption">Salpicadero · Instrumentación de época</div>
       </div>
     </div>
     <div class="interior-editorial reveal delay-3">
-      <p>El interior negro mantiene la lectura clásica y funcional del 356. La restauración completa devuelve al habitáculo su carácter original: sencillo, directo y profundamente mecánico, con una conducción centrada en la relación entre conductor, volante, cambio y motor bóxer. Incluye cubre capota y tonneau cover.</p>
+      <p>El interior negro mantiene la lectura clásica y funcional del 356. La restauración completa devuelve al habitáculo su carácter original: sencillo, directo y profundamente mecánico. Con cubre capota y tonneau cover incluidos, la unidad se presenta lista para disfrutar en cualquier condición.</p>
     </div>
   </div>
 </section>
@@ -962,34 +1031,34 @@
   <div class="provenance-inner">
     <div class="shimmer-line reveal"></div>
     <p class="section-label reveal">Documentación y Procedencia</p>
-    <h2 class="section-title reveal delay-1">Historial<br><strong>verificado desde<br>1960.</strong></h2>
+    <h2 class="section-title reveal delay-1">Origen<br><strong>documentado.<br>Alemania, 1960.</strong></h2>
     <div class="timeline">
       <div class="timeline-item reveal">
         <div class="timeline-dot"></div>
         <div class="timeline-year">1960 · Alemania</div>
-        <div class="timeline-title">Primera matriculación</div>
+        <div class="timeline-title">Fabricación y primera matriculación</div>
         <div class="timeline-body">
-          Unidad correspondiente al <strong>chasis 153.320</strong>, matriculada por primera vez en Alemania en 1960. Porsche 356 B Cabriolet del mercado alemán, con motor bóxer de <strong>1.582 cm³ y 90 hp</strong>.
+          Unidad fabricada en <strong>1960</strong> correspondiente al chasis <strong>153.320</strong>. Destinada al mercado alemán y matriculada por primera vez en Alemania ese mismo año.
         </div>
         <div class="timeline-badge">Chasis 153.320 · Mercado alemán</div>
       </div>
       <div class="timeline-item reveal delay-1">
         <div class="timeline-dot"></div>
-        <div class="timeline-year">Restauración · KAAN, Austria</div>
-        <div class="timeline-title">Restauración completa por KAAN</div>
+        <div class="timeline-year">Restauración · Austria</div>
+        <div class="timeline-title">Restauración completa con carrocería KAAN</div>
         <div class="timeline-body">
-          Restauración íntegra del vehículo. La carrocería fue realizada por los austríacos de <strong>KAAN</strong>, especialistas de alto nivel en clásicos Porsche. Motor de época <strong>nº 800.350</strong>, bóxer 4 cilindros 1.582 cm³. Interior negro restaurado completamente.
+          Restauración integral del vehículo. La carrocería ha sido realizada por los austríacos de <strong>KAAN</strong>, referencia en la restauración de clásicos Porsche. El interior negro ha sido completamente restaurado. Motor número <strong>800.350</strong>, correspondiente a la época aunque no el original de fábrica.
         </div>
-        <div class="timeline-badge">Carrocería KAAN · Motor 800.350</div>
+        <div class="timeline-badge">Carrocería KAAN · Restauración completa</div>
       </div>
       <div class="timeline-item reveal delay-2">
         <div class="timeline-dot"></div>
         <div class="timeline-year">Hoy · Madrid</div>
         <div class="timeline-title">Disponible en Valentin Motors</div>
         <div class="timeline-body">
-          <strong>100 km</strong> desde restauración. Sin accidentes. Garantía mecánica de motor y caja de cambios de <strong>12 meses</strong>. Incluye cubre capota y tonneau cover. Ubicación: Madrid.
+          <strong>100 km</strong> desde la restauración. Ubicación: Madrid. Garantía mecánica de <strong>motor y caja de cambios, 12 meses</strong>. Revisado y presentado por Valentin Motors.
         </div>
-        <div class="timeline-badge">190.000 € · Garantía 12 meses</div>
+        <div class="timeline-badge">190.000 €</div>
       </div>
     </div>
   </div>
@@ -1009,30 +1078,46 @@
         <div class="spec-row"><span class="spec-key">Tipo</span><span class="spec-val">Bóxer 4 cilindros</span></div>
         <div class="spec-row"><span class="spec-key">Cilindrada</span><span class="spec-val">1.582 cm³</span></div>
         <div class="spec-row"><span class="spec-key">Alimentación</span><span class="spec-val">Carburación</span></div>
-        <div class="spec-row"><span class="spec-key">Potencia</span><span class="spec-val">90 hp a 5.200 rpm</span></div>
+        <div class="spec-row"><span class="spec-key">Potencia</span><span class="spec-val">90 hp · 5.200 rpm</span></div>
         <div class="spec-row"><span class="spec-key">Par motor</span><span class="spec-val">123 Nm · 3.500–3.800 rpm</span></div>
-        <div class="spec-row"><span class="spec-key">Número motor</span><span class="spec-val">800.350</span></div>
-        <div class="spec-row"><span class="spec-key">Motor matching</span><span class="spec-val">De época, no original</span></div>
+        <div class="spec-row"><span class="spec-key">N.º motor</span><span class="spec-val">800.350</span></div>
       </div>
       <div class="specs-group">
-        <div class="specs-group-title">Transmisión y Carrocería</div>
-        <div class="spec-row"><span class="spec-key">Cambio</span><span class="spec-val">Manual 4 vel.</span></div>
-        <div class="spec-row"><span class="spec-key">Carrocería</span><span class="spec-val">Cabriolet</span></div>
-        <div class="spec-row"><span class="spec-key">Color exterior</span><span class="spec-val">Plata</span></div>
-        <div class="spec-row"><span class="spec-key">Interior</span><span class="spec-val">Negro</span></div>
+        <div class="specs-group-title">Transmisión y Chasis</div>
+        <div class="spec-row"><span class="spec-key">Cambio</span><span class="spec-val">Manual 4 velocidades</span></div>
+        <div class="spec-row"><span class="spec-key">Tracción</span><span class="spec-val">Trasera</span></div>
         <div class="spec-row"><span class="spec-key">Chasis</span><span class="spec-val">153.320</span></div>
-        <div class="spec-row"><span class="spec-key">Mercado origen</span><span class="spec-val">Alemán</span></div>
+        <div class="spec-row"><span class="spec-key">Tipo carrocería</span><span class="spec-val">Cabriolet</span></div>
       </div>
       <div class="specs-group">
-        <div class="specs-group-title">Estado y Condiciones</div>
+        <div class="specs-group-title">Carrocería y General</div>
         <div class="spec-row"><span class="spec-key">Año</span><span class="spec-val">1960</span></div>
-        <div class="spec-row"><span class="spec-key">Kilómetros</span><span class="spec-val">100 km (restauración)</span></div>
+        <div class="spec-row"><span class="spec-key">Kilómetros</span><span class="spec-val">100 km desde restauración</span></div>
+        <div class="spec-row"><span class="spec-key">Color exterior</span><span class="spec-val">Plata</span></div>
+        <div class="spec-row"><span class="spec-key">Interior</span><span class="spec-val">Negro restaurado</span></div>
+        <div class="spec-row"><span class="spec-key">Carrocería por</span><span class="spec-val">KAAN (Austria)</span></div>
+      </div>
+      <div class="specs-group">
+        <div class="specs-group-title">Restauración</div>
+        <div class="spec-row"><span class="spec-key">Restauración</span><span class="spec-val">Completa</span></div>
+        <div class="spec-row"><span class="spec-key">Carrocería KAAN</span><span class="spec-val">Sí</span></div>
+        <div class="spec-row"><span class="spec-key">Cubre capota</span><span class="spec-val">Incluido</span></div>
+        <div class="spec-row"><span class="spec-key">Tonneau cover</span><span class="spec-val">Incluido</span></div>
+        <div class="spec-row"><span class="spec-key">Interior</span><span class="spec-val">Restaurado completamente</span></div>
+      </div>
+      <div class="specs-group">
+        <div class="specs-group-title">Procedencia</div>
         <div class="spec-row"><span class="spec-key">Primera matric.</span><span class="spec-val">Alemania, 1960</span></div>
-        <div class="spec-row"><span class="spec-key">Restauración</span><span class="spec-val">Completa · KAAN</span></div>
+        <div class="spec-row"><span class="spec-key">Mercado</span><span class="spec-val">Alemán</span></div>
         <div class="spec-row"><span class="spec-key">Libro de servicio</span><span class="spec-val">No dispone</span></div>
-        <div class="spec-row"><span class="spec-key">Garantía</span><span class="spec-val">Motor y caja 12 meses</span></div>
         <div class="spec-row"><span class="spec-key">Ubicación</span><span class="spec-val">Madrid</span></div>
+      </div>
+      <div class="specs-group">
+        <div class="specs-group-title">Condiciones de venta</div>
         <div class="spec-row"><span class="spec-key">Precio</span><span class="spec-val">190.000 €</span></div>
+        <div class="spec-row"><span class="spec-key">Garantía</span><span class="spec-val">12 meses</span></div>
+        <div class="spec-row"><span class="spec-key">Garantía cubre</span><span class="spec-val">Motor y caja de cambios</span></div>
+        <div class="spec-row"><span class="spec-key">Listo para conducir</span><span class="spec-val">Sí</span></div>
       </div>
     </div>
   </div>
@@ -1043,43 +1128,41 @@
   <div class="jordi-inner">
     <div class="jordi-photo-col reveal-left">
       <div class="jordi-photo-wrap">
-        <img src="img/ruf/jordi.jpg" alt="Jordi Edo · Valentin Motors">
+        <img src="/img/ruf/jordi.jpg" alt="Jordi Edo · Valentin Motors" decoding="async">
         <div class="jordi-photo-border"></div>
       </div>
       <div class="jordi-name">Jordi Edo</div>
       <div class="jordi-role">Especialista Porsche · Valentin Motors</div>
-      <p class="jordi-bio">Más de 25 años de experiencia con Porsche de colección. Ha supervisado cientos de operaciones de compraventa de vehículos especiales, con especial foco en preparaciones RUF, Singer y Guntherwerks.</p>
+      <p class="jordi-bio">Más de 25 años de experiencia con Porsche de colección. Ha supervisado cientos de operaciones de compraventa de vehículos especiales, con especial foco en clásicos fundacionales de la marca.</p>
     </div>
     <div class="jordi-review-col reveal-right delay-1">
       <div class="shimmer-line reveal"></div>
       <p class="section-label reveal">La opinión de Jordi</p>
       <h2 class="section-title reveal delay-1">La visión<br><strong>del experto.</strong></h2>
       <p class="jordi-review-intro reveal delay-2">
-        "El Porsche 356 actualmente debe estar en cualquier colección o semi colección de un apasionado de la marca."
+        "El Porsche 356 debe estar en cualquier colección de un apasionado de la marca. Punto."
       </p>
       <div class="jordi-body reveal delay-2">
-        <p>El gran éxito comercial del modelo, sobre todo en Estados Unidos y a través de su importador <strong>Max Hoffmann</strong>, requirió a Porsche el desarrollo de un modelo más económico para el mercado americano. De ahí nació el <strong>356 Speedster</strong>, que más adelante se convirtió también en icono de la marca por la historia del legendario actor <strong>James Dean</strong>.</p>
-        <p>Por contra, en Europa, el departamento comercial de la marca observó que las versiones cabriolet circulaban muy a menudo con la capota puesta. Este detalle les alentó a fabricar la versión <strong>hardtop</strong>, diseñada por el afamado carrocero <strong>Karmann</strong>, que no era más que un 356 carrozado pero con la estética de un hardtop.</p>
-        <p>Esta unidad, con chasis <strong>153.320</strong> y restauración completa por <strong>KAAN</strong>, representa exactamente el tipo de pieza que define una colección seria: historia documentada, carrocería de referencia y una mecánica honesta y correspondiente a su época.</p>
+        <p>El <strong>356</strong> representa el origen de todo. La primera vez que Porsche fabricó un coche de producción propio, con identidad propia, y lo situó en un segmento de precio alto por razones estrictamente ligadas a la ingeniería de su tiempo. Su éxito fue inmediato y global, y su impacto en la cultura del automóvil deportivo todavía se siente.</p>
+        <p>El gran éxito comercial del modelo, sobre todo en Estados Unidos a través de su importador <strong>Max Hoffmann</strong>, empujó a Porsche a desarrollar una versión más accesible para el mercado americano. De ahí nació el <strong>356 Speedster</strong>, que más adelante se convirtió también en icono de la marca gracias a la historia del legendario actor <strong>James Dean</strong>.</p>
+        <p>En Europa, el departamento comercial de la marca observó que las versiones cabriolet circulaban habitualmente con la capota puesta. Este dato les llevó a fabricar la versión <strong>hardtop</strong>, diseñada por el afamado carrocero <strong>Karmann</strong>. Un cabriolet con la estética de un hardtop: pura lógica Porsche.</p>
+        <p>Esta unidad, con carrocería <strong>KAAN</strong> y restauración completa, ofrece el 356 en su forma más honesta: listo para disfrutar, con la garantía de que cada elemento ha sido revisado y restituido con criterio.</p>
       </div>
       <div class="jordi-verdict reveal-scale delay-3">
         <div class="jordi-pros">
           <div class="jordi-verdict-title">Lo mejor</div>
           <ul class="verdict-list">
-            <li>Restauración completa por KAAN — referencia europea en clásicos Porsche</li>
-            <li>Chasis 153.320 documentado, primera matriculación Alemania 1960</li>
-            <li>Motor de época correspondiente, identificado con número 800.350</li>
-            <li>Plata sobre negro: combinación sobria y atemporal</li>
-            <li>Garantía mecánica de 12 meses sobre motor y caja de cambios</li>
-            <li>Pieza fundacional de la identidad Porsche — imprescindible en colección</li>
+            <li>Restauración completa con carrocería KAAN de Austria</li>
+            <li>Cabriolet puro: la variante más deseada del 356</li>
+            <li>Configuración europea, mercado alemán original</li>
+            <li>Mecánica bóxer de época, carburación y cambio manual</li>
+            <li>Garantía mecánica de 12 meses incluida</li>
           </ul>
         </div>
         <div class="jordi-cons">
           <div class="jordi-verdict-title">A considerar</div>
           <ul class="verdict-list">
-            <li>Motor no matching: de época pero no el original de fábrica</li>
-            <li>Sin libro de servicio completo</li>
-            <li>100 km desde restauración — kilómetros a validar antes de compra</li>
+            <li>Motor número 800.350: de época pero no el original de fábrica — documentado con precisión</li>
           </ul>
         </div>
       </div>
@@ -1094,22 +1177,23 @@
   <div class="closing-content reveal">
     <p class="closing-quote">
       Un Porsche 356 B Cabriolet restaurado por completo,<br>
-      con <em>carrocería KAAN, configuración europea</em><br>
-      y una presencia clásica que lo sitúa como pieza esencial<br>para cualquier colección Porsche.
+      con <em>carrocería KAAN</em>, configuración europea<br>
+      y una presencia clásica que lo sitúa como pieza esencial<br>
+      para cualquier colección Porsche.
     </p>
     <div class="closing-divider"></div>
     <span class="closing-price">190.000 €</span>
-    <div class="closing-price-label">Porsche 356 B Cabriolet · Plata · Madrid</div>
+    <div class="closing-price-label">Porsche 356 B Cabriolet · Plata · 1960</div>
     <div class="closing-divider"></div>
     <div class="closing-seller">
-      Contacto
-      <strong>Valentin Motors · Especialista Porsche desde 1979</strong>
+      <a href="https://www.valentinmotors.es/contacto" target="_parent" style="display:inline-block;margin-top:20px;font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:var(--black);background:var(--bronze);padding:18px 48px;text-decoration:none;font-weight:600;transition:background 0.3s,transform 0.2s;" onmouseover="this.style.background='#c9a070';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='var(--bronze)';this.style.transform='translateY(0)'">Más información</a>
     </div>
   </div>
 </section>
+<div style="height:150px;background:#0B0B0B;"></div>
 
-<!-- FOOTER -->
-<footer>
+<!-- FOOTER hidden when embedded -->
+<footer style="display:none">
   <div class="footer-brand"><span>Valentin</span> Motors · Especialista Porsche desde 1979</div>
   <div class="footer-copy">Porsche 356 B Cabriolet &middot; Plata &middot; 190.000 &euro;</div>
 </footer>
@@ -1141,13 +1225,13 @@
 
   // ── Hero bg load ──
   const heroBg = document.getElementById('hero-bg');
-  const img0 = new Image(); img0.src = 'img/356/hero.jpg';
+  const img0 = new Image(); img0.src = '/img/356/hero.jpg';
   img0.onload = () => heroBg.classList.add('loaded');
   const closingBg = document.getElementById('closing-bg');
-  const img1 = new Image(); img1.src = 'img/356/exterior2.jpg';
+  const img1 = new Image(); img1.src = '/img/356/exterior5.jpg';
   img1.onload = () => closingBg.classList.add('loaded');
 
-  // ── Intersection observer ──
+  // ── Intersection observer for all reveal classes ──
   const allReveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale, .shimmer-line');
   const revealObs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
@@ -1156,6 +1240,7 @@
   }, { threshold: 0.1 });
   allReveals.forEach(el => revealObs.observe(el));
 
+  // Hero reveals on load
   document.querySelectorAll('#hero .reveal').forEach((el, i) => {
     setTimeout(() => el.classList.add('visible'), 400 + i * 180);
   });
@@ -1172,7 +1257,7 @@
   }, { threshold: 0.2 });
   document.querySelectorAll('.kit-category').forEach(el => kitObs.observe(el));
 
-  // ── Gallery ──
+  // ── Gallery (crossfade) ──
   const slides = document.querySelectorAll('.gallery-slide');
   const counter = document.getElementById('galleryCounter');
   const dots = document.querySelectorAll('.gallery-dot');
@@ -1180,6 +1265,7 @@
   const INTERVAL = 5000;
   let current = 0;
   let autoTimer = null;
+  let progressTimer = null;
   const total = slides.length;
 
   function goTo(idx) {
@@ -1219,6 +1305,7 @@
   stageEl.addEventListener('mouseenter', stopAuto);
   stageEl.addEventListener('mouseleave', startAuto);
 
+  // Touch swipe
   let touchX = 0;
   stageEl.addEventListener('touchstart', e => touchX = e.touches[0].clientX, { passive: true });
   stageEl.addEventListener('touchend', e => {
@@ -1229,10 +1316,30 @@
   goTo(0);
   startAuto();
 
+  // ── Count-up ──
+  const countObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = +el.dataset.target;
+      const dur = 1600;
+      const start = performance.now();
+      (function step(now) {
+        const p = Math.min((now - start) / dur, 1);
+        const ease = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(ease * target);
+        if (p < 1) requestAnimationFrame(step);
+      })(performance.now());
+      countObs.unobserve(el);
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('.count-up').forEach(el => countObs.observe(el));
+
   // ── Parallax hero ──
   const heroBgEl = document.getElementById('hero-bg');
   window.addEventListener('scroll', () => {
-    heroBgEl.style.transform = `translateY(${window.scrollY * 0.28}px)`;
+    const y = window.scrollY;
+    heroBgEl.style.transform = `translateY(${y * 0.28}px)`;
   }, { passive: true });
 
   // ── Magnetic buttons ──
@@ -1240,7 +1347,8 @@
     btn.addEventListener('mousemove', e => {
       const r = btn.getBoundingClientRect();
       const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
-      btn.style.transform = `translate(${(e.clientX - cx) * 0.35}px, ${(e.clientY - cy) * 0.35}px)`;
+      const dx = (e.clientX - cx) * 0.35, dy = (e.clientY - cy) * 0.35;
+      btn.style.transform = `translate(${dx}px, ${dy}px)`;
     });
     btn.addEventListener('mouseleave', () => btn.style.transform = '');
   });
