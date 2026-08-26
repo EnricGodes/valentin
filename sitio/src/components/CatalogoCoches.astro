@@ -1,0 +1,65 @@
+---
+import type { Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import type { Coche } from '../datos/coche';
+
+interface Props { coches: Coche[]; idioma: Idioma; }
+const { coches, idioma } = Astro.props;
+const t = traductor(idioma);
+
+const ETIQUETA_ESTADO = {
+  disponible: t('estado.disponible'),
+  reservado: t('estado.reservado'),
+  vendido: t('estado.vendido'),
+  proximamente: t('estado.disponible'),
+} as const;
+
+const disponibles = coches.filter((c) => c.catalogo?.estado !== 'vendido').length;
+const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'numeric' })
+  .format(new Date());
+---
+<header class="page-header">
+  <div class="shimmer-line reveal"></div>
+  <h1 class="page-title reveal">
+    <em>Valentin Motors</em>
+    {t('nav.coches')}
+  </h1>
+  <p class="catalog-meta reveal delay-1">
+    {disponibles} {disponibles === 1 ? 'vehiculo' : 'vehiculos'} &middot; {actualizado}
+  </p>
+</header>
+
+<div class="cars-grid">
+  {coches.map((c, i) => {
+    const cat = c.catalogo;
+    if (!cat) return null;
+    const vendido = cat.estado === 'vendido';
+    return (
+      <a class={`car-card ${cat.estado} reveal delay-${Math.min(i + 1, 6)}`}
+         href={url('coches', idioma, c.slug)}>
+        <div class="car-img-wrap">
+          <span class={`car-status-badge badge-${cat.estado}`}>
+            {cat.estadoTexto || ETIQUETA_ESTADO[cat.estado]}
+          </span>
+          <img src={cat.imagen} alt={`${cat.marca} ${cat.nombre}`}
+               width={cat.imagenAncho} height={cat.imagenAlto}
+               loading={i < 3 ? 'eager' : 'lazy'} decoding="async">
+        </div>
+        <div class="car-body">
+          <p class="car-make">{cat.marca}</p>
+          <p class="car-name">{cat.nombre}</p>
+          <p class="car-year">{cat.detalle}</p>
+          <p class="car-desc">{cat.descripcion}</p>
+          <div class="car-footer">
+            {/* Un coche vendido conserva su ficha y su URL, pero no su precio */}
+            <span class={`car-price${cat.precioPorConsultar || vendido ? ' tbd' : ''}`}>
+              {vendido ? t('estado.vendido') : cat.precio}
+            </span>
+            <span class="car-cta">{t('cta.ficha')} &rarr;</span>
+          </div>
+        </div>
+      </a>
+    );
+  })}
+</div>

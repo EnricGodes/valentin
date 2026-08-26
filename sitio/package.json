@@ -4,11 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "npm run validar && astro build",
+    "dev": "npm run assets && astro dev",
+    "build": "npm run validar && npm run assets && astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "validar": "node scripts/validar-rutas.ts"
+    "validar": "node scripts/validar-rutas.ts",
+    "assets": "node scripts/sincronizar-imagenes.mjs"
   },
   "dependencies": {
     "astro": "^5.14.1",

@@ -16,18 +16,18 @@ const idioma = 'es' as const;
 const foto = (n: string) => `/muestra/${n}.jpg`;
 
 const fotos = [
-  { src: foto('exterior1'), alt: 'Tres cuartos delantero', caption: 'Tres cuartos delantero' },
-  { src: foto('exterior2'), alt: 'Perfil lateral', caption: 'Perfil lateral' },
-  { src: foto('interior1'), alt: 'Puesto de conduccion', caption: 'Puesto de conduccion' },
-  { src: foto('close-up1'), alt: 'Detalle de la pinza de freno', caption: 'Pinza de freno' },
-  { src: foto('exterior3'), alt: 'Zaga', caption: 'Zaga' },
+  { src: foto('exterior1'), alt: 'Tres cuartos delantero', caption: 'Tres cuartos delantero', ancho: 1600, alto: 900 },
+  { src: foto('exterior2'), alt: 'Perfil lateral', caption: 'Perfil lateral', ancho: 1600, alto: 900 },
+  { src: foto('interior1'), alt: 'Puesto de conduccion', caption: 'Puesto de conduccion', ancho: 1600, alto: 900 },
+  { src: foto('close-up1'), alt: 'Detalle de la pinza de freno', caption: 'Pinza de freno', ancho: 1600, alto: 900 },
+  { src: foto('exterior3'), alt: 'Zaga', caption: 'Zaga', ancho: 1600, alto: 900 },
 ];
 
 const stats = [
-  { valor: 435, unidad: 'CV', etiqueta: 'Potencia', destacada: true },
-  { valor: 570, unidad: 'Nm', etiqueta: 'Par maximo' },
-  { valor: 3824, unidad: 'cc', etiqueta: 'Cilindrada' },
-  { valor: 6, etiqueta: 'Velocidades' },
+  { valor: 435, animado: true, unidad: 'CV', etiqueta: 'Potencia', destacada: true },
+  { valor: 570, animado: true, unidad: 'Nm', etiqueta: 'Par maximo', destacada: false },
+  { valor: 3824, animado: true, unidad: 'cc', etiqueta: 'Cilindrada', destacada: false },
+  { valor: 'PASM', animado: false, unidad: '', etiqueta: 'Suspension', destacada: false },
 ];
 ---
 <Base

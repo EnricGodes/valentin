@@ -1,8 +1,9 @@
 ---
 interface Props {
   eyebrow: string;
-  /** El <em> del titulo es el subtitulo: se pasa aparte, no como HTML. */
+  /** Subtitulo: se pinta dentro del <em> del titulo, como en el original. */
   subtitulo?: string;
+  /** HTML del titulo: puede llevar <br> y <strong>. */
   titulo: string;
   claim?: string;
   imagen: string;
@@ -23,10 +24,9 @@ const { eyebrow, subtitulo, titulo, claim, imagen, precio,
 
   <div class="hero-content">
     <p class="hero-eyebrow reveal">{eyebrow}</p>
-    <h1 class="hero-title reveal">
-      {subtitulo && <em>{subtitulo}</em>}
-      {titulo}
-    </h1>
+    <h1 class="hero-title reveal" set:html={
+      (subtitulo ? `<em>${subtitulo}</em>` : '') + titulo
+    } />
     {claim && <p class="hero-claim reveal">{claim}</p>}
   </div>
 

@@ -2,7 +2,7 @@
 import type { Idioma } from '../i18n/config';
 import { traductor } from '../i18n/ui';
 
-export interface Foto { src: string; alt: string; caption?: string; ancho?: number; alto?: number; }
+import type { Foto } from '../datos/coche';
 interface Props { fotos: Foto[]; idioma: Idioma; }
 const { fotos, idioma } = Astro.props;
 const t = traductor(idioma);
@@ -16,7 +16,7 @@ const dosCifras = (n: number) => String(n).padStart(2, '0');
            aria-label={`${i + 1} / ${fotos.length}`}>
         {/* width y height explicitos: sin ellos el navegador no reserva sitio
             y la pagina salta al cargar (CLS). Las fichas actuales no los llevan. */}
-        <img src={f.src} alt={f.alt} width={f.ancho ?? 1400} height={f.alto ?? 933}
+        <img src={f.src} alt={f.alt} width={f.ancho} height={f.alto}
              loading={i === 0 ? 'eager' : 'lazy'} decoding="async"
              fetchpriority={i === 0 ? 'high' : 'auto'}>
         {f.caption && <p class="gallery-caption">{f.caption}</p>}

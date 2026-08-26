@@ -1,0 +1,75 @@
+---
+/**
+ * Ruta general del sitio, resuelta desde el manifiesto src/i18n/routes.ts.
+ *
+ * Existe una sola pagina para todos los idiomas: los slugs traducidos salen del
+ * manifiesto, no de la estructura de carpetas. Asi anadir un idioma es anadir
+ * una columna al manifiesto, no duplicar el arbol de src/pages.
+ */
+import { IDIOMAS, type Idioma } from '../i18n/config';
+import { url, SEGMENTOS } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Pie from '../components/Pie.astro';
+import FichaCoche from '../components/FichaCoche.astro';
+import CatalogoCoches from '../components/CatalogoCoches.astro';
+import { COCHES, type Coche } from '../datos/coche';
+
+export async function getStaticPaths() {
+  const rutas: any[] = [];
+  const sinBarra = (u: string) => u.replace(/^\//, '');
+
+  for (const idioma of IDIOMAS) {
+    // Listado de coches en venta
+    rutas.push({
+      params: { ruta: sinBarra(url('coches', idioma)) },
+      props: { tipo: 'catalogo', idioma },
+    });
+
+    // Una ficha por coche. El slug del coche NO se traduce: son designaciones
+    // de modelo ("porsche-997-manual"), iguales en los seis mercados, y en
+    // espanol ademas estan congeladas porque ya posicionan.
+    for (const coche of COCHES) {
+      rutas.push({
+        params: { ruta: sinBarra(url('coches', idioma, coche.slug)) },
+        props: { tipo: 'ficha', idioma, coche },
+      });
+    }
+  }
+  return rutas;
+}
+
+type Props =
+  | { tipo: 'catalogo'; idioma: Idioma }
+  | { tipo: 'ficha'; idioma: Idioma; coche: Coche };
+
+const props = Astro.props as Props;
+const { idioma } = props;
+const t = traductor(idioma);
+
+const esFicha = props.tipo === 'ficha';
+const coche = esFicha ? props.coche : undefined;
+
+const titulo = coche ? coche.meta.titulo : `${t('nav.coches')} · Valentin Motors`;
+const descripcion = coche
+  ? coche.meta.descripcion
+  : 'Seleccion de Porsche de coleccion verificados por Valentin Motors, especialistas Porsche desde 1979.';
+const extra = coche ? [coche.slug] : [];
+---
+<Base
+  idioma={idioma}
+  rutaId="coches"
+  extra={extra}
+  titulo={titulo}
+  descripcion={descripcion}
+  realce={coche?.realce ?? ''}
+  imagen={coche?.hero.imagen}
+>
+  <Nav slot="nav" idioma={idioma} rutaId="coches" extra={extra} />
+  <Pie slot="pie" idioma={idioma} />
+
+  {coche
+    ? <FichaCoche coche={coche} idioma={idioma} />
+    : <CatalogoCoches coches={COCHES} idioma={idioma} />}
+</Base>

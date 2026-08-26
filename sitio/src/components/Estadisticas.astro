@@ -1,17 +1,19 @@
 ---
-export interface Estadistica {
-  valor: number; unidad?: string; etiqueta: string;
-  /** La primera suele ir en el color de realce del vehiculo. */
-  destacada?: boolean;
-}
+import type { Estadistica } from '../datos/coche';
+
 interface Props { datos: Estadistica[]; }
 const { datos } = Astro.props;
 ---
-<div class="engineering-stats reveal">
+<div class="engineering-stats reveal-scale delay-2">
   {datos.map((d) => (
     <div class={`eng-stat${d.destacada ? ' highlight' : ''}`}>
       <p class="eng-stat-val">
-        <span class="count-up" data-target={d.valor}>0</span>
+        {/* No todas las cifras son numeros: "PASM", "911/01" o "20" con comilla
+            de pulgadas no se pueden animar, y pasarlas por el contador las
+            dejaria en cero. */}
+        {d.animado
+          ? <span class="count-up" data-target={d.valor}>0</span>
+          : <span>{d.valor}</span>}
         {d.unidad && <span class="unit">{d.unidad}</span>}
       </p>
       <p class="eng-stat-label">{d.etiqueta}</p>

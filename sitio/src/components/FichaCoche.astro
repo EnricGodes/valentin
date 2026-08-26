@@ -1,0 +1,243 @@
+---
+import type { Idioma } from '../i18n/config';
+import { traductor } from '../i18n/ui';
+import CabeceraSeccion from './CabeceraSeccion.astro';
+import Hero from './Hero.astro';
+import Galeria from './Galeria.astro';
+import Estadisticas from './Estadisticas.astro';
+import type { Coche } from '../datos/coche';
+
+interface Props { coche: Coche; idioma: Idioma; }
+const { coche: c, idioma } = Astro.props;
+const t = traductor(idioma);
+/** Los textos editoriales llevan enfasis (<strong>, <em>, <br>) que es parte
+    del contenido, no del markup: se extrajeron tal cual del original. */
+---
+<Hero
+  eyebrow={c.hero.eyebrow}
+  subtitulo={c.hero.subtitulo}
+  titulo={c.hero.titulo}
+  claim={c.hero.claim}
+  imagen={c.hero.imagen}
+  precio={c.hero.precio}
+  precioLabel={c.hero.precioLabel}
+  scrollLabel={c.hero.scrollLabel || t('scroll')}
+/>
+
+{/* ── Historia ── */}
+<section class="seccion" id="historia">
+  <div class="contenedor dos-columnas">
+    <div>
+      <CabeceraSeccion {...c.intro} />
+      <div class="texto-editorial reveal delay-2" style="margin-top:36px">
+        {c.intro.parrafos.map((p) => <p set:html={p} />)}
+      </div>
+      {c.intro.cita && (
+        <div class="intro-highlight reveal delay-3"><p set:html={c.intro.cita} /></div>
+      )}
+    </div>
+    <div class="intro-data-block reveal-right delay-2">
+      {c.intro.datos.map((d) => (
+        <div class="intro-data-row">
+          <span class="intro-data-key">{d.clave}</span>
+          <span class={`intro-data-val${d.acento ? ' accent' : ''}`}>{d.valor}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* ── Galeria ── */}
+<section class="gallery" id="galeria">
+  <div class="gallery-header"><CabeceraSeccion {...c.galeria} /></div>
+  <Galeria fotos={c.galeria.fotos} idioma={idioma} />
+</section>
+
+{/* ── Ingenieria ── */}
+<section class="seccion" id="ingenieria">
+  <div class="contenedor dos-columnas">
+    <div>
+      <CabeceraSeccion {...c.ingenieria} />
+      <Estadisticas datos={c.ingenieria.stats} />
+    </div>
+    <div class="reveal-right delay-1">
+      <div class="texto-editorial">
+        {c.ingenieria.parrafos.map((p) => <p set:html={p} />)}
+      </div>
+      {c.ingenieria.tags.length > 0 && (
+        <div class="eng-tags">
+          {c.ingenieria.tags.map((x) => <span class="eng-tag">{x}</span>)}
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+{/* ── Kit o restauracion ── */}
+{c.kit && (
+  <section class="seccion kit" id={c.kit.ancla}>
+    <div class="contenedor">
+      <div class="kit-header reveal">
+        <CabeceraSeccion {...c.kit} />
+        {c.kit.precio && <span class="kit-price">{c.kit.precio}</span>}
+      </div>
+      <div class="kit-categories">
+        {c.kit.categorias.map((cat, i) => (
+          <div class={`kit-category reveal delay-${Math.min(i + 1, 6)}`}>
+            <p class="kit-cat-title">{cat.titulo}</p>
+            <ul class="kit-items">{cat.items.map((it) => <li>{it}</li>)}</ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+{/* ── Exterior ── */}
+<section class="seccion" id="exterior">
+  <div class="contenedor">
+    <div class="exterior-header">
+      <CabeceraSeccion {...c.exterior} />
+      {c.exterior.texto && (
+        <div class="exterior-text reveal delay-2" set:html={c.exterior.texto} />
+      )}
+    </div>
+    <div class="closeup-grid">
+      {c.exterior.fotos.map((f) => (
+        <figure class="closeup-item reveal-scale">
+          <img src={f.src} alt={f.alt} width={f.ancho} height={f.alto}
+               loading="lazy" decoding="async">
+          {f.caption && <figcaption class="closeup-caption">{f.caption}</figcaption>}
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* ── Interior ── */}
+<section class="seccion interior" id="interior">
+  <div class="contenedor">
+    <div class="interior-header"><CabeceraSeccion {...c.interior} /></div>
+    <div class="interior-grid">
+      {c.interior.fotos.map((f) => (
+        <figure class="interior-item reveal-scale">
+          <img src={f.src} alt={f.alt} width={f.ancho} height={f.alto}
+               loading="lazy" decoding="async">
+          {f.caption && <figcaption class="interior-caption">{f.caption}</figcaption>}
+        </figure>
+      ))}
+    </div>
+    {c.interior.editorial && (
+      <div class="interior-editorial reveal"><p set:html={c.interior.editorial} /></div>
+    )}
+  </div>
+</section>
+
+{/* ── Procedencia ── */}
+<section class="seccion" id="procedencia">
+  <div class="contenedor" style="max-width:900px">
+    <CabeceraSeccion {...c.procedencia} />
+    <ol class="timeline">
+      {c.procedencia.hitos.map((h) => (
+        <li class="timeline-item reveal">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <p class="timeline-year">{h.anio}</p>
+          <h3 class="timeline-title">{h.titulo}</h3>
+          <p class="timeline-body" set:html={h.cuerpo} />
+          {h.badge && <span class="timeline-badge">{h.badge}</span>}
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+{/* ── Ficha tecnica ── */}
+<section class="seccion specs" id="ficha-tecnica">
+  <div class="contenedor">
+    <div class="specs-header"><CabeceraSeccion {...c.specs} /></div>
+    <div class="specs-grid">
+      {c.specs.grupos.map((g) => (
+        <div class="specs-group reveal">
+          <p class="specs-group-title">{g.titulo}</p>
+          {g.filas.map((f) => (
+            <div class="spec-row">
+              <span class="spec-key">{f.clave}</span>
+              <span class="spec-val">{f.valor}</span>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* ── Opinion del especialista ── */}
+{c.opinion && (
+  <section class="seccion" id="opinion">
+    <div class="contenedor">
+      <CabeceraSeccion {...c.opinion} />
+      <div class="jordi-inner" style="margin-top:68px">
+        <div class="jordi-photo-col reveal-left">
+          <div class="jordi-photo-wrap">
+            <img src={c.opinion.foto} alt={c.opinion.nombre}
+                 width={c.opinion.fotoAncho} height={c.opinion.fotoAlto}
+                 loading="lazy" decoding="async">
+            <span class="jordi-photo-border" aria-hidden="true"></span>
+          </div>
+          <div>
+            <p class="jordi-name">{c.opinion.nombre}</p>
+            <p class="jordi-role">{c.opinion.rol}</p>
+            {c.opinion.bio && <p class="jordi-bio" set:html={c.opinion.bio} />}
+          </div>
+        </div>
+        <div class="jordi-review-col reveal-right delay-1">
+          {c.opinion.intro && <p class="jordi-review-intro" set:html={c.opinion.intro} />}
+          <div class="jordi-body texto-editorial">
+            {c.opinion.parrafos.map((p) => <p set:html={p} />)}
+          </div>
+          <div class="jordi-verdict">
+            <div class="jordi-pros">
+              <p class="jordi-verdict-title">{c.opinion.prosTitulo}</p>
+              <ul class="verdict-list">{c.opinion.pros.map((x) => <li>{x}</li>)}</ul>
+            </div>
+            <div class="jordi-cons">
+              <p class="jordi-verdict-title">{c.opinion.contrasTitulo}</p>
+              <ul class="verdict-list">{c.opinion.contras.map((x) => <li>{x}</li>)}</ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+)}
+
+{/* ── Cierre ── */}
+<section class="closing" id="cierre">
+  <div class="closing-bg" data-fondo={c.cierre.imagen}
+       style={`background-image:url('${c.cierre.imagen}')`}></div>
+  <div class="closing-overlay"></div>
+  <div class="closing-content">
+    <p class="closing-quote reveal" set:html={c.cierre.cita} />
+    <div class="closing-divider"></div>
+    {c.cierre.precio && (
+      <>
+        <span class={`closing-price reveal delay-1${c.cierre.precioTachado ? ' tachado' : ''}`}>
+          {c.cierre.precio}
+        </span>
+        <span class="closing-price-label">{c.cierre.precioLabel}</span>
+      </>
+    )}
+    {/* Un coche reservado o vendido lo dice aqui: sin este aviso la ficha
+        seguiria pareciendo una oferta activa. */}
+    {c.cierre.aviso && <p class="closing-aviso">{c.cierre.aviso}</p>}
+    {c.cierre.nota && (
+      <>
+        <div class="closing-divider"></div>
+        <p class="closing-nota">{c.cierre.nota}</p>
+      </>
+    )}
+    {c.cierre.ctaTexto && (
+      <div><a class="cta" href={c.cierre.ctaHref}>{c.cierre.ctaTexto}</a></div>
+    )}
+  </div>
+</section>

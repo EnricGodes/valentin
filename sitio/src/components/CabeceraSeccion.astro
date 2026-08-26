@@ -1,23 +1,22 @@
 ---
 interface Props {
   etiqueta: string;
-  titulo: string;
-  /** Segunda linea del titulo, en negrita: es el patron del sistema. */
+  /** HTML del titulo. Lleva <strong> y <br> porque el salto de linea y el peso
+      tipografico son parte del contenido editorial, no del maquetado: se
+      extraen tal cual de la ficha original. */
+  titulo?: string;
+  /** Atajo para el patron habitual "titulo normal + segunda linea en negrita". */
   destacado?: string;
   shimmer?: boolean;
-  /** Clase extra para el envoltorio. */
   clase?: string;
 }
-const { etiqueta, titulo, destacado, shimmer = true, clase = '' } = Astro.props;
+const { etiqueta, titulo = '', destacado, shimmer = true, clase = '' } = Astro.props;
+const html = destacado ? `${titulo}<strong>${destacado}</strong>` : titulo;
 ---
-{/* El envoltorio no es decorativo: sin el, al meter la cabecera dentro de un
-    contenedor flex (como .kit-header) sus tres elementos se convertian en tres
-    items de flex y se repartian a lo ancho de la fila. */}
+{/* El envoltorio no es decorativo: sin el, dentro de un contenedor flex como
+    .kit-header los tres elementos se repartian a lo ancho de la fila. */}
 <div class={`cabecera-seccion ${clase}`.trim()}>
   {shimmer && <div class="shimmer-line"></div>}
   <p class="section-label reveal">{etiqueta}</p>
-  <h2 class="section-title reveal delay-1">
-    {titulo}
-    {destacado && <strong>{destacado}</strong>}
-  </h2>
+  <h2 class="section-title reveal delay-1" set:html={html} />
 </div>

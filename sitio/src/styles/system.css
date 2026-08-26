@@ -632,3 +632,113 @@ section { position: relative; }
   .kit-categories { grid-template-columns: 1fr; }
   .closeup-grid { grid-auto-rows: 300px; }
 }
+
+/* ── Catalogo de coches ───────────────────────────────────────────────────── */
+.page-header {
+  padding: 160px var(--pad-lateral) 88px;
+  max-width: var(--ancho-max); margin: 0 auto;
+}
+.page-title {
+  font-size: clamp(38px, 6vw, 78px); font-weight: 700; line-height: 0.95;
+  letter-spacing: -0.03em; color: var(--blanco); text-wrap: balance;
+}
+.page-title em {
+  font-style: normal; font-weight: 300; color: var(--concreto);
+  display: block; margin-bottom: 8px; font-size: 0.5em; letter-spacing: 0;
+}
+.catalog-meta {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-nav);
+  color: rgba(167, 162, 154, 0.4); text-transform: uppercase; margin-bottom: 48px;
+}
+
+.cars-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px;
+  max-width: var(--ancho-max); margin: 0 auto; padding: 0 var(--pad-lateral) 96px;
+}
+.car-card {
+  background: var(--grafito); display: flex; flex-direction: column;
+  text-decoration: none; color: inherit; position: relative; overflow: hidden;
+  transition: background 0.3s;
+}
+.car-card:hover { background: var(--carbon); }
+.car-img-wrap {
+  position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--carbon);
+}
+.car-img-wrap img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.9s var(--ease);
+}
+.car-card:hover .car-img-wrap img { transform: scale(1.05); }
+.car-card.vendido .car-img-wrap img { filter: grayscale(1); opacity: 0.55; }
+
+.car-status-badge {
+  position: absolute; top: 16px; left: 16px; z-index: 2;
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.18em;
+  text-transform: uppercase; padding: 5px 10px;
+}
+.badge-disponible   { background: rgba(0, 66, 37, 0.9); color: #6DBA8A; }
+.badge-proximamente { background: rgba(28, 28, 26, 0.85); color: var(--concreto); }
+.badge-reservado {
+  background: rgba(178, 138, 91, 0.2); color: var(--bronce);
+  border: 1px solid rgba(178, 138, 91, 0.4);
+}
+/* Un coche vendido no se borra: su ficha sigue viva y capta la long tail */
+.badge-vendido {
+  background: rgba(11, 11, 11, 0.85); color: var(--concreto);
+  border: 1px solid var(--linea-fuerte);
+}
+
+.car-body {
+  padding: 28px 28px 32px; flex: 1;
+  display: flex; flex-direction: column; gap: 6px;
+}
+.car-make {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.22em;
+  color: var(--bronce); text-transform: uppercase;
+}
+.car-name {
+  font-size: 18px; font-weight: 700; letter-spacing: -0.02em;
+  color: var(--blanco); line-height: 1.2;
+}
+.car-year {
+  font-family: var(--mono); font-size: 11px; color: var(--concreto); letter-spacing: 0.05em;
+}
+.car-desc {
+  font-size: 13px; color: var(--concreto); line-height: 1.65; margin-top: 4px; flex: 1;
+}
+.car-footer {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--linea);
+}
+.car-price {
+  font-family: var(--mono); font-size: 16px; font-weight: 500;
+  color: var(--blanco); font-variant-numeric: tabular-nums;
+}
+.car-price.tbd { font-size: 12px; color: var(--concreto); letter-spacing: 0.1em; }
+.car-cta {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.15em;
+  color: var(--bronce); text-transform: uppercase;
+  opacity: 0; transform: translateX(-6px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.car-card:hover .car-cta, .car-card:focus-visible .car-cta {
+  opacity: 1; transform: none;
+}
+
+@media (max-width: 960px) {
+  .page-header { padding: 120px var(--pad-lateral) 64px; }
+  .cars-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) { .cars-grid { grid-template-columns: 1fr; } }
+
+/* Estado del vehiculo en el cierre: reservado o vendido */
+.closing-price.tachado { text-decoration: line-through; opacity: 0.6; }
+.closing-aviso {
+  margin-top: 14px; font-family: var(--mono); font-size: var(--t-dato);
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--bronce); font-weight: 700;
+}
+.closing-nota {
+  font-family: var(--mono); font-size: 13px; letter-spacing: 0.1em;
+  color: var(--concreto);
+}
