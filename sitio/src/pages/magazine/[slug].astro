@@ -1,0 +1,61 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Pie from '../../components/Pie.astro';
+import CabeceraSeccion from '../../components/CabeceraSeccion.astro';
+import { url } from '../../i18n/routes';
+
+/* De momento el Magazine solo existe en espanol: la traduccion es la fase
+   siguiente. Por eso las paginas declaran un unico idioma publicado y no
+   emiten hreflang hacia versiones que todavia no existen. */
+export async function getStaticPaths() {
+  const posts = await getCollection('magazine');
+  return posts.map((post) => ({ params: { slug: post.data.slugFinal }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const idioma = 'es' as const;
+
+const fecha = new Intl.DateTimeFormat('es', { dateStyle: 'long' }).format(post.data.date);
+const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+const descripcion = limpio(post.data.excerpt).slice(0, 300)
+  || `${post.data.title} · Magazine de Valentin Motors.`;
+---
+<Base
+  idioma={idioma}
+  rutaId="magazine"
+  extra={[post.data.slugFinal]}
+  idiomasPublicados={['es']}
+  titulo={`${post.data.title} · Valentin Motors`}
+  descripcion={descripcion}
+>
+  <Nav slot="nav" idioma={idioma} rutaId="magazine" />
+  <Pie slot="pie" idioma={idioma} />
+
+  <article class="post">
+    <header class="post-header">
+      <div class="shimmer-line"></div>
+      <p class="post-meta reveal">
+        <time datetime={post.data.date.toISOString()}>{fecha}</time>
+        {post.data.categories.map((c) => (
+          <> &middot; <a href={url('magazine', idioma, 'category', c)}>{c}</a></>
+        ))}
+      </p>
+      <h1 class="post-title reveal delay-1">{post.data.title}</h1>
+    </header>
+
+    <div class="post-cuerpo reveal delay-2"><Content /></div>
+
+    {post.data.ctas.length > 0 && (
+      <div class="post-ctas">
+        {post.data.ctas.map((c) => <a class="cta" href={c.href}>{c.texto}</a>)}
+      </div>
+    )}
+
+    <footer class="post-pie">
+      <a class="post-volver" href={url('magazine', idioma)}>&larr; Magazine</a>
+    </footer>
+  </article>
+</Base>

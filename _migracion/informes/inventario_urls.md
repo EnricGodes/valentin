@@ -6,8 +6,8 @@
 
 | Accion | URLs |
 |---|---:|
-| CONSERVAR | 67 |
-| 301 | 41 |
+| 301 | 55 |
+| CONSERVAR | 53 |
 | REVIVIR | 7 |
 
 ## Tipos
@@ -73,7 +73,7 @@
 | `/magazine/category/restauraciones` | categoria blog | 25 | 0 | 0 | CONSERVAR | |
 | `/magazine/restauracion964backdating2023-kdlc4-mjz6r` | post | 24 | 0 | 0 | 301 | `/magazine/backdating-964-2023` |
 | `/magazine/restauracion-pinzas-freno` | post | 23 | 0 | 0 | CONSERVAR | |
-| `/porsche-en-venta/category/911` | categoria coches | 23 | 0 | 0 | CONSERVAR | |
+| `/porsche-en-venta/category/911` | categoria coches | 23 | 0 | 0 | 301 | `/porsche-en-venta` |
 | `/magazine/nuevo-centro-valentin-motors-en-madrid` | post | 19 | 0 | 0 | CONSERVAR | |
 | `/magazine/porscheclassicseries2023-z4gbf` | post | 19 | 0 | 0 | 301 | `/magazine/9-eleven-headlights-964` |
 | `/magazine/restauracion-de-un-porsche-911-930-turbo` | post | 19 | 0 | 0 | CONSERVAR | |
@@ -118,23 +118,23 @@
 | `/contactez-nous` | 404 heredado | 0 | 0 | 0 | 301 | `/contacto` |
 | `/diagnostico-global-porsche-gratis-en-valentin-barcelona` | pagina | 0 | 0 | 0 | 301 | `/barcelona` |
 | `/home` | pagina | 0 | 0 | 0 | 301 | `/` |
-| `/magazine/category/930` | categoria blog | 0 | 0 | 0 | CONSERVAR | |
-| `/magazine/category/IMS` | categoria blog | 0 | 0 | 0 | CONSERVAR | |
-| `/magazine/category/Modelos` | categoria blog | 0 | 0 | 0 | CONSERVAR | |
-| `/magazine/category/art%C3%ADculos` | categoria blog | 0 | 0 | 0 | CONSERVAR | |
-| `/magazine/category/bore+scoring` | categoria blog | 0 | 0 | 0 | CONSERVAR | |
-| `/magazine/category/compra+veh%C3%ADculos` | categoria blog | 0 | 0 | 0 | CONSERVAR | |
-| `/magazine/category/taller` | categoria blog | 0 | 0 | 0 | CONSERVAR | |
+| `/magazine/category/930` | categoria blog | 0 | 0 | 0 | 301 | `/magazine` |
+| `/magazine/category/IMS` | categoria blog | 0 | 0 | 0 | 301 | `/magazine/que-es-el-ims-de-porsche` |
+| `/magazine/category/Modelos` | categoria blog | 0 | 0 | 0 | 301 | `/magazine` |
+| `/magazine/category/art%C3%ADculos` | categoria blog | 0 | 0 | 0 | 301 | `/magazine/category/articulos` |
+| `/magazine/category/bore+scoring` | categoria blog | 0 | 0 | 0 | 301 | `/magazine/porsche-bore-scoring` |
+| `/magazine/category/compra+veh%C3%ADculos` | categoria blog | 0 | 0 | 0 | 301 | `/porsche-en-venta` |
+| `/magazine/category/taller` | categoria blog | 0 | 0 | 0 | 301 | `/taller-porsche` |
 | `/magazine/porscheroturasmotorm96valentin-ey2wg` | post | 0 | 0 | 0 | 301 | `/magazine/rehabilitacion-motor-32-serie-g-1985` |
 | `/magazine/reparacion-motor-ims` | 404 heredado | 0 | 0 | 0 | 301 | `/magazine/que-es-el-ims-de-porsche` |
 | `/magazine/restauracion-motor-930-turbo-30-1988` | post | 0 | 0 | 0 | CONSERVAR | |
 | `/magazine/restauracion-motor-964-turbo-dfc3x` | 404 heredado | 0 | 0 | 0 | 301 | `/magazine/restauracion-porsche-964-turbo-1991` |
-| `/porsche-en-venta/category/911+3.2` | categoria coches | 0 | 0 | 0 | CONSERVAR | |
-| `/porsche-en-venta/category/966` | categoria coches | 0 | 0 | 0 | CONSERVAR | |
-| `/porsche-en-venta/category/992` | categoria coches | 0 | 0 | 0 | CONSERVAR | |
-| `/porsche-en-venta/category/993` | categoria coches | 0 | 0 | 0 | CONSERVAR | |
-| `/porsche-en-venta/category/996` | categoria coches | 0 | 0 | 0 | CONSERVAR | |
-| `/porsche-en-venta/category/997` | categoria coches | 0 | 0 | 0 | CONSERVAR | |
+| `/porsche-en-venta/category/911+3.2` | categoria coches | 0 | 0 | 0 | 301 | `/porsche-en-venta` |
+| `/porsche-en-venta/category/966` | categoria coches | 0 | 0 | 0 | 301 | `/porsche-en-venta` |
+| `/porsche-en-venta/category/992` | categoria coches | 0 | 0 | 0 | 301 | `/porsche-en-venta` |
+| `/porsche-en-venta/category/993` | categoria coches | 0 | 0 | 0 | 301 | `/porsche-en-venta` |
+| `/porsche-en-venta/category/996` | categoria coches | 0 | 0 | 0 | 301 | `/porsche-en-venta` |
+| `/porsche-en-venta/category/997` | categoria coches | 0 | 0 | 0 | 301 | `/porsche-en-venta` |
 | `/porsche-en-venta/porsche-911-22-t-targa-nbpl5` | 404 heredado | 0 | 0 | 0 | 301 | `/porsche-en-venta/porsche-911-22-t-targa` |
 | `/porsche-en-venta/porsche-997-carrera-4s-triptonic` | 404 heredado | 0 | 0 | 0 | 301 | `/porsche-en-venta/porsche-997-carrera-4s-triptronic` |
 | `/porsche-en-venta/porsche-997-manual-f682k` | 404 heredado | 0 | 0 | 0 | 301 | `/porsche-en-venta/porsche-997-manual` |

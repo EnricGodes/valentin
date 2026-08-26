@@ -1,0 +1,65 @@
+{
+  "total": 6,
+  "videos": [
+    {
+      "post": "porsche-bore-scoring",
+      "id": "50d3ab26-a347-4c15-b660-c5b52653486b",
+      "playlist": "https://video.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/50d3ab26-a347-4c15-b660-c5b52653486b/playlist.m3u8",
+      "aspectRatio": 0.5625,
+      "duracion": 72.338933,
+      "variantes": "1080:1920,360:640",
+      "fichero": "/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4",
+      "bytes": 28386820
+    },
+    {
+      "post": "porscheclassicseries2023",
+      "id": "b391ceaa-fb20-46b9-8823-cb282a693f02",
+      "playlist": "https://video.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/b391ceaa-fb20-46b9-8823-cb282a693f02/playlist.m3u8",
+      "aspectRatio": 1.7777777777777777,
+      "duracion": 57.833333,
+      "variantes": "1920:1080,640:360",
+      "fichero": "/video/magazine/b391ceaa-fb20-46b9-8823-cb282a693f02.mp4",
+      "bytes": 23368549
+    },
+    {
+      "post": "que-es-el-ims-de-porsche",
+      "id": "50c872f5-1065-49ca-8dab-91fa2e7d20f2",
+      "playlist": "https://video.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/50c872f5-1065-49ca-8dab-91fa2e7d20f2/playlist.m3u8",
+      "aspectRatio": 0.5625,
+      "duracion": 43.043,
+      "variantes": "1080:1920,360:640",
+      "fichero": "/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4",
+      "bytes": 17326954
+    },
+    {
+      "post": "que-es-el-ims-de-porsche",
+      "id": "81cdb106-0a7f-40e8-9417-ef5657bea23f",
+      "playlist": "https://video.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/81cdb106-0a7f-40e8-9417-ef5657bea23f/playlist.m3u8",
+      "aspectRatio": 0.5625,
+      "duracion": 104.233333,
+      "variantes": "1080:1920,360:640",
+      "fichero": "/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4",
+      "bytes": 41917268
+    },
+    {
+      "post": "restauracion-incendio-930-turbo-1976",
+      "id": "f9771a7c-5554-48b6-a5b0-93b67af14a77",
+      "playlist": "https://video.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/f9771a7c-5554-48b6-a5b0-93b67af14a77/playlist.m3u8",
+      "aspectRatio": 1.7777777777777777,
+      "duracion": 60.06,
+      "variantes": "1920:1080,640:360",
+      "fichero": "/video/magazine/f9771a7c-5554-48b6-a5b0-93b67af14a77.mp4",
+      "bytes": 24510073
+    },
+    {
+      "post": "revision-gratuita-esenciales",
+      "id": "4977a90b-40d6-4c8b-b531-5263a57eddbc",
+      "playlist": "https://video.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/4977a90b-40d6-4c8b-b531-5263a57eddbc/playlist.m3u8",
+      "aspectRatio": 1.7777777777777777,
+      "duracion": 14.866667,
+      "variantes": "1920:1080,640:360",
+      "fichero": "/video/magazine/4977a90b-40d6-4c8b-b531-5263a57eddbc.mp4",
+      "bytes": 6526481
+    }
+  ]
+}

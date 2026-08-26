@@ -78,6 +78,26 @@ DECISION = {
  "/nuevo-centro-valentin-motors-madrid": ("301", "/madrid", "duplica el post del Magazine"),
  "/porsche-macan-mantenimiento-taller-1": ("301", "/porsche-cayenne-macan-mantenimiento-taller-1", "fusion: dos paginas casi identicas"),
  "/proyecto-rs": ("301", "/restauraciones", "sin trafico ni impresiones"),
+
+ # Categorias del Magazine que ya no tiene ningun post. Estaban en el sitemap y
+ # siguen indexadas, asi que no pueden quedarse en 404.
+ "/magazine/category/930": ("301", "/magazine", "categoria sin posts"),
+ "/magazine/category/IMS": ("301", "/magazine/que-es-el-ims-de-porsche", "categoria sin posts: al articulo de referencia"),
+ "/magazine/category/Modelos": ("301", "/magazine", "categoria sin posts"),
+ "/magazine/category/art%C3%ADculos": ("301", "/magazine/category/articulos", "misma categoria con la tilde codificada"),
+ "/magazine/category/bore+scoring": ("301", "/magazine/porsche-bore-scoring", "categoria sin posts: al articulo de referencia"),
+ "/magazine/category/compra+veh%C3%ADculos": ("301", "/porsche-en-venta", "categoria sin posts"),
+ "/magazine/category/taller": ("301", "/taller-porsche", "categoria sin posts"),
+
+ # Categorias del listado de coches: Squarespace las generaba solas y no
+ # aportan nada que el listado no cubra.
+ "/porsche-en-venta/category/911": ("301", "/porsche-en-venta", "categoria del listado"),
+ "/porsche-en-venta/category/911+3.2": ("301", "/porsche-en-venta", "categoria del listado"),
+ "/porsche-en-venta/category/966": ("301", "/porsche-en-venta", "categoria del listado"),
+ "/porsche-en-venta/category/992": ("301", "/porsche-en-venta", "categoria del listado"),
+ "/porsche-en-venta/category/993": ("301", "/porsche-en-venta", "categoria del listado"),
+ "/porsche-en-venta/category/996": ("301", "/porsche-en-venta", "categoria del listado"),
+ "/porsche-en-venta/category/997": ("301", "/porsche-en-venta", "categoria del listado"),
 }
 
 SLUGS_NUEVOS = {
@@ -212,6 +232,10 @@ def main():
             "/porsche-en-venta/porsche-981-cayman-gts-*  /porsche-en-venta/porsche-981-cayman-gts  301",
             "/archives/*  /magazine  301", "/administrator/*  /  301"]
     (INF / "_redirects.borrador").write_text("\n".join(red) + "\n")
+    publico = ROOT.parent / "sitio" / "public" / "_redirects"
+    if publico.parent.exists():
+        publico.write_text("\n".join(red) + "\n")
+        print(f"escrito tambien en {publico.relative_to(ROOT.parent)}")
 
     print(f"URLs inventariadas: {len(filas)}")
     for k, v in ca.most_common():

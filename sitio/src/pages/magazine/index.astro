@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Pie from '../../components/Pie.astro';
+import { url } from '../../i18n/routes';
+
+const idioma = 'es' as const;
+const posts = (await getCollection('magazine'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const fmt = new Intl.DateTimeFormat('es', { month: 'short', year: 'numeric' });
+const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+
+/** Primera imagen del cuerpo, como portada de la tarjeta. */
+const portada = (cuerpo: string) => cuerpo.match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1] ?? '';
+---
+<Base
+  idioma={idioma}
+  rutaId="magazine"
+  idiomasPublicados={['es']}
+  titulo="Magazine · Valentin Motors"
+  descripcion="Restauraciones, mecanica y modelos Porsche contados por los especialistas de Valentin Motors."
+>
+  <Nav slot="nav" idioma={idioma} rutaId="magazine" />
+  <Pie slot="pie" idioma={idioma} />
+
+  <header class="page-header">
+    <div class="shimmer-line reveal"></div>
+    <h1 class="page-title reveal">
+      <em>Valentin Motors</em>
+      Magazine
+    </h1>
+    <p class="catalog-meta reveal delay-1">{posts.length} articulos</p>
+  </header>
+
+  <div class="posts-grid">
+    {posts.map((p, i) => {
+      const img = portada(p.body ?? '');
+      return (
+        <a class={`post-card reveal delay-${Math.min(i + 1, 6)}`}
+           href={url('magazine', idioma, p.data.slugFinal)}>
+          <div class="post-card-img">
+            {img
+              ? <img src={img} alt="" width="800" height="600" loading={i < 6 ? 'eager' : 'lazy'} decoding="async">
+              : <span class="post-card-sinfoto"></span>}
+          </div>
+          <div class="post-card-body">
+            <p class="post-card-meta">
+              {fmt.format(p.data.date)}
+              {p.data.categories[0] && <> &middot; {p.data.categories[0]}</>}
+            </p>
+            <h2 class="post-card-title">{p.data.title}</h2>
+            <p class="post-card-desc">{limpio(p.data.excerpt).slice(0, 150)}</p>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</Base>

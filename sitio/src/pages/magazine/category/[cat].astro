@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Nav from '../../../components/Nav.astro';
+import Pie from '../../../components/Pie.astro';
+import { url } from '../../../i18n/routes';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('magazine');
+  const cats = new Map<string, typeof posts>();
+  for (const p of posts) {
+    for (const c of p.data.categories) {
+      cats.set(c, [...(cats.get(c) ?? []), p]);
+    }
+  }
+  return [...cats].map(([cat, lista]) => ({
+    params: { cat },
+    props: { cat, posts: lista.sort((a, b) => b.data.date.getTime() - a.data.date.getTime()) },
+  }));
+}
+
+const { cat, posts } = Astro.props;
+const idioma = 'es' as const;
+const fmt = new Intl.DateTimeFormat('es', { month: 'short', year: 'numeric' });
+const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+---
+<Base
+  idioma={idioma}
+  rutaId="magazine"
+  extra={['category', cat]}
+  idiomasPublicados={['es']}
+  titulo={`${cat} · Magazine · Valentin Motors`}
+  descripcion={`Articulos de la categoria ${cat} en el Magazine de Valentin Motors.`}
+>
+  <Nav slot="nav" idioma={idioma} rutaId="magazine" />
+  <Pie slot="pie" idioma={idioma} />
+
+  <header class="page-header">
+    <div class="shimmer-line reveal"></div>
+    <h1 class="page-title reveal">
+      <em>Magazine</em>
+      {cat}
+    </h1>
+    <p class="catalog-meta reveal delay-1">
+      {posts.length} {posts.length === 1 ? 'articulo' : 'articulos'} &middot;
+      <a href={url('magazine', idioma)}>ver todos</a>
+    </p>
+  </header>
+
+  <div class="posts-grid">
+    {posts.map((p, i) => (
+      <a class={`post-card reveal delay-${Math.min(i + 1, 6)}`}
+         href={url('magazine', idioma, p.data.slugFinal)}>
+        <div class="post-card-body">
+          <p class="post-card-meta">{fmt.format(p.data.date)}</p>
+          <h2 class="post-card-title">{p.data.title}</h2>
+          <p class="post-card-desc">{limpio(p.data.excerpt).slice(0, 150)}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</Base>

@@ -24,7 +24,7 @@ BASURA = ("style", "script", "noscript", "svg", "button")
 # texto solo para lectores de pantalla del lightbox de galeria ("Ver tamano completo")
 CHROME_CLASES = ("v6-visually-hidden", "sr-only", "visually-hidden")
 BLOQUE = {"h1", "h2", "h3", "h4", "h5", "h6", "p", "ul", "ol", "figure", "hr",
-          "blockquote", "table", "img", "iframe"}
+          "blockquote", "table", "img", "iframe", "video"}
 
 
 # ---------------------------------------------------------------- utilidades
@@ -176,7 +176,15 @@ def bloques(soup, imgs):
         elif n == "iframe":
             src = el.get("src") or el.get("data-src") or ""
             if src:
-                out.append(f"<iframe src=\"{src}\" loading=\"lazy\"></iframe>")
+                out.append(f"<iframe src=\"{src}\" loading=\"lazy\" "
+                           f"allowfullscreen></iframe>")
+
+        elif n == "video":
+            attrs = " ".join(
+                k if v == "" else f'{k}="{v}"'
+                for k, v in el.attrs.items() if k in
+                ("src", "width", "height", "controls", "preload", "playsinline"))
+            out.append(f"<video {attrs}></video>")
 
     # deduplica bloques contiguos identicos (Squarespace repite imagenes en noscript)
     limpio = []
@@ -187,8 +195,45 @@ def bloques(soup, imgs):
     return limpio
 
 
+def normalizar_videos(soup):
+    """Convierte los bloques de video de Squarespace en un <video> normal.
+
+    Seis posts llevan video alojado en Squarespace (`sqs-native-video`,
+    servido por HLS). El fichero MP4 lo rescata 10_descargar_videos.py y lo
+    nombra por su systemDataId, asi que aqui se puede apuntar a el sin
+    consultarlo. Sin esto, el post del IMS tenia un titulo "Video explicativo
+    sobre el IMS" seguido de nada.
+    """
+    import html as _html
+    for v in soup.select('.sqs-native-video'):
+        cfg = v.get('data-config-video')
+        if not cfg:
+            continue
+        try:
+            c = json.loads(_html.unescape(cfg))
+        except json.JSONDecodeError:
+            continue
+        vid = c.get('systemDataId') or c.get('id')
+        if not vid:
+            continue
+        # systemDataVariants viene como "1080:1920,360:640" (ancho:alto).
+        # aspectRatio existe pero es un float, asi que no sirve para el markup.
+        variantes = str(c.get('systemDataVariants') or '')
+        medida = variantes.split(',')[0].split(':')
+        nuevo = soup.new_tag('video', src=f'/video/magazine/{vid}.mp4')
+        nuevo.attrs.update({'controls': '', 'preload': 'metadata', 'playsinline': ''})
+        if len(medida) == 2 and all(x.isdigit() for x in medida):
+            nuevo.attrs['width'], nuevo.attrs['height'] = medida[0], medida[1]
+        # Se sustituye el bloque entero, no solo el nodo, para no dejar el
+        # andamiaje de Squarespace alrededor
+        contenedor = v.find_parent(class_='sqs-block') or v
+        contenedor.replace_with(nuevo)
+    return soup
+
+
 def limpiar(soup):
     """Elimina el chrome de Squarespace que no es contenido editorial."""
+    normalizar_videos(soup)
     for t in soup.find_all(BASURA):
         t.decompose()
     for c in CHROME_CLASES:
