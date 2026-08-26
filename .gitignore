@@ -1,2 +1,9 @@
 docs/
 .DS_Store
+
+# Originales del blog descargados del CDN de Squarespace (415 MB).
+# Destino definitivo: Sanity (fase 3). Hasta entonces viven en Synology Drive.
+# El inventario, el mapa de rutas y los checksums SI estan versionados:
+#   _migracion/contenido/imagenes_mapa.json
+#   _migracion/contenido/imagenes_integridad.json
+_migracion/contenido/imagenes/
