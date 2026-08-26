@@ -1,0 +1,35 @@
+{
+  "capturado": "2026-08-26",
+  "fuentes": {
+    "ga4": { "propiedad": "Valentin Motors website", "id": "308117519", "cuenta": "223744515", "periodo": "2026-07-01 a 2026-08-25" },
+    "gsc": { "propiedad": "https://www.valentinmotors.es/", "tipo": "prefijo de URL", "periodo": "ultimos 3 meses (2026-05-25 a 2026-08-24)" }
+  },
+  "ga4": {
+    "usuarios_activos_28d": 1600,
+    "sesiones_56d": 4978,
+    "engagement_rate_pct": 64.68,
+    "vistas_56d": 13328,
+    "paginas_con_trafico": 110,
+    "eventos_56d": 35123,
+    "key_events": 0
+  },
+  "gsc": {
+    "clics_3m": 3390,
+    "impresiones_3m": 76000,
+    "ctr_pct": 4.5,
+    "posicion_media": 9.5,
+    "paginas_con_impresiones": 84,
+    "indexadas": 89,
+    "no_indexadas": 42,
+    "no_indexadas_detalle": {
+      "not_found_404": 14, "blocked_robots": 5, "noindex": 4,
+      "alt_canonical": 2, "crawled_not_indexed": 11, "discovered_not_indexed": 6
+    },
+    "dispositivo_clics": { "movil": 2072, "desktop": 1244, "tablet": 78 },
+    "core_web_vitals": {
+      "movil": { "good": 19, "need_improvement": 35, "poor": 0 },
+      "desktop": { "good": 54, "need_improvement": 0, "poor": 0 }
+    }
+  },
+  "umbral_alarma_post_migracion": "caida >15% de clics organicos sostenida 7 dias"
+}
