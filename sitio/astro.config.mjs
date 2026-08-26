@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import rehypeMedios from './plugins/rehype-medios.mjs';
 
 /**
  * El espanol vive en la raiz, sin prefijo, para que ninguna de las URLs que hoy
@@ -17,4 +18,5 @@ export default defineConfig({
     routing: { prefixDefaultLocale: false, redirectToDefaultLocale: false },
   },
   image: { responsiveStyles: true },
+  markdown: { rehypePlugins: [rehypeMedios] },
 });

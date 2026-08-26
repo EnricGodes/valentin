@@ -9,10 +9,13 @@
     "preview": "astro preview",
     "check": "astro check",
     "validar": "node scripts/validar-rutas.ts",
-    "assets": "node scripts/sincronizar-imagenes.mjs"
+    "assets": "node scripts/sincronizar-imagenes.mjs && node scripts/optimizar-imagenes.mjs"
   },
   "dependencies": {
     "astro": "^5.14.1",
     "sharp": "^0.34.4"
+  },
+  "devDependencies": {
+    "unist-util-visit": "^5.1.0"
   }
 }

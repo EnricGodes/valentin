@@ -12,8 +12,13 @@ const posts = (await getCollection('magazine'))
 const fmt = new Intl.DateTimeFormat('es', { month: 'short', year: 'numeric' });
 const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 
-/** Primera imagen del cuerpo, como portada de la tarjeta. */
-const portada = (cuerpo: string) => cuerpo.match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1] ?? '';
+/** Primera imagen del cuerpo, como portada de la tarjeta.
+    Se sirve el derivado de 600px de /img/magazine/card/, no el de 1400 del
+    cuerpo: con 42 tarjetas la diferencia es de megas, no de kilobytes. */
+const portada = (cuerpo: string) => {
+  const src = cuerpo.match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1] ?? '';
+  return src.replace('/img/magazine/', '/img/magazine/card/');
+};
 ---
 <Base
   idioma={idioma}
@@ -42,7 +47,8 @@ const portada = (cuerpo: string) => cuerpo.match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1] 
            href={url('magazine', idioma, p.data.slugFinal)}>
           <div class="post-card-img">
             {img
-              ? <img src={img} alt="" width="800" height="600" loading={i < 6 ? 'eager' : 'lazy'} decoding="async">
+              ? <img src={img} alt="" width="600" height="450"
+                     loading={i < 6 ? 'eager' : 'lazy'} decoding="async">
               : <span class="post-card-sinfoto"></span>}
           </div>
           <div class="post-card-body">
