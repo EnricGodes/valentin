@@ -1,0 +1,44 @@
+---
+interface Props {
+  eyebrow: string;
+  /** El <em> del titulo es el subtitulo: se pasa aparte, no como HTML. */
+  subtitulo?: string;
+  titulo: string;
+  claim?: string;
+  imagen: string;
+  precio?: string;
+  precioLabel?: string;
+  scrollLabel: string;
+  /** Intensidad del parallax; 0 lo desactiva. */
+  parallax?: number;
+}
+const { eyebrow, subtitulo, titulo, claim, imagen, precio,
+        precioLabel, scrollLabel, parallax = 0.28 } = Astro.props;
+---
+<section class="hero">
+  <div class="hero-parallax" data-parallax={parallax}>
+    <div class="hero-bg" data-fondo={imagen} style={`background-image:url('${imagen}')`}></div>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow reveal">{eyebrow}</p>
+    <h1 class="hero-title reveal">
+      {subtitulo && <em>{subtitulo}</em>}
+      {titulo}
+    </h1>
+    {claim && <p class="hero-claim reveal">{claim}</p>}
+  </div>
+
+  {precio && (
+    <div class="hero-badge">
+      <span class="hero-badge-price">{precio}</span>
+      {precioLabel && <span class="hero-badge-label">{precioLabel}</span>}
+    </div>
+  )}
+
+  <div class="hero-scroll" aria-hidden="true">
+    <span>{scrollLabel}</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>

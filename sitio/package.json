@@ -1,0 +1,17 @@
+{
+  "name": "valentinmotors",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run validar && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "validar": "node scripts/validar-rutas.ts"
+  },
+  "dependencies": {
+    "astro": "^5.14.1",
+    "sharp": "^0.34.4"
+  }
+}

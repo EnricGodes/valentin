@@ -1,0 +1,163 @@
+---
+/**
+ * Pagina de prueba del sistema de diseno. No forma parte del sitio publico:
+ * existe para ver todos los patrones juntos y detectar regresiones visuales
+ * de un vistazo. Lleva noindex.
+ */
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Pie from '../components/Pie.astro';
+import Hero from '../components/Hero.astro';
+import CabeceraSeccion from '../components/CabeceraSeccion.astro';
+import Galeria from '../components/Galeria.astro';
+import Estadisticas from '../components/Estadisticas.astro';
+
+const idioma = 'es' as const;
+const foto = (n: string) => `/muestra/${n}.jpg`;
+
+const fotos = [
+  { src: foto('exterior1'), alt: 'Tres cuartos delantero', caption: 'Tres cuartos delantero' },
+  { src: foto('exterior2'), alt: 'Perfil lateral', caption: 'Perfil lateral' },
+  { src: foto('interior1'), alt: 'Puesto de conduccion', caption: 'Puesto de conduccion' },
+  { src: foto('close-up1'), alt: 'Detalle de la pinza de freno', caption: 'Pinza de freno' },
+  { src: foto('exterior3'), alt: 'Zaga', caption: 'Zaga' },
+];
+
+const stats = [
+  { valor: 435, unidad: 'CV', etiqueta: 'Potencia', destacada: true },
+  { valor: 570, unidad: 'Nm', etiqueta: 'Par maximo' },
+  { valor: 3824, unidad: 'cc', etiqueta: 'Cilindrada' },
+  { valor: 6, etiqueta: 'Velocidades' },
+];
+---
+<Base
+  idioma={idioma}
+  rutaId="home"
+  titulo="Sistema de diseno — Valentin Motors"
+  descripcion="Pagina interna de verificacion del sistema de diseno."
+  realce="realce--ruf"
+  noindex
+>
+  <Nav slot="nav" idioma={idioma} rutaId="home" />
+  <Pie slot="pie" idioma={idioma} />
+
+  <Hero
+    eyebrow="Sistema de diseno"
+    subtitulo="Porsche 997"
+    titulo="RUF Kompressor R"
+    claim="Pagina de verificacion: todos los patrones del sistema, en una sola pantalla."
+    imagen={foto('hero')}
+    precio="200.000 EUR"
+    precioLabel="Precio de venta"
+    scrollLabel="Desliza"
+  />
+
+  <section class="seccion">
+    <div class="contenedor dos-columnas">
+      <div>
+        <CabeceraSeccion etiqueta="Intro" titulo="Texto editorial" destacado="y bloque de datos" />
+        <div class="texto-editorial reveal delay-2" style="margin-top:32px">
+          <p>Parrafo de cuerpo con un <strong>fragmento destacado</strong> dentro, para
+          comprobar el contraste entre el gris concreto y el blanco.</p>
+          <p>Segundo parrafo, que verifica el ritmo vertical entre bloques de texto.</p>
+        </div>
+        <div class="intro-highlight reveal delay-3">
+          <p>Cita editorial con el borde de bronce a la izquierda.</p>
+        </div>
+      </div>
+      <div class="intro-data-block reveal-right delay-2">
+        <div class="intro-data-row"><span class="intro-data-key">Ano</span><span class="intro-data-val">2007</span></div>
+        <div class="intro-data-row"><span class="intro-data-key">Kilometros</span><span class="intro-data-val">48.200</span></div>
+        <div class="intro-data-row"><span class="intro-data-key">Color</span><span class="intro-data-val">Basalto</span></div>
+        <div class="intro-data-row"><span class="intro-data-key">Precio</span><span class="intro-data-val accent">200.000 EUR</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="gallery-header">
+      <CabeceraSeccion etiqueta="Galeria" titulo="Crossfade" destacado="con autoplay y swipe" />
+    </div>
+    <Galeria fotos={fotos} idioma={idioma} />
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor dos-columnas">
+      <div>
+        <CabeceraSeccion etiqueta="Ingenieria" titulo="Contadores" destacado="con easing cubico" />
+        <div class="eng-tags reveal delay-2">
+          <span class="eng-tag">Compresor</span>
+          <span class="eng-tag">Intercooler</span>
+          <span class="eng-tag">Escape RUF</span>
+        </div>
+      </div>
+      <Estadisticas datos={stats} />
+    </div>
+  </section>
+
+  <section class="seccion kit">
+    <div class="contenedor">
+      <div class="kit-header">
+        <CabeceraSeccion etiqueta="Kit" titulo="Listas" destacado="en cascada" />
+        <span class="kit-price">Incluido</span>
+      </div>
+      <div class="kit-categories">
+        {['Motor', 'Chasis', 'Frenos', 'Interior'].map((c) => (
+          <div class="kit-category">
+            <p class="kit-cat-title">{c}</p>
+            <ul class="kit-items">
+              <li>Primer elemento de la lista</li>
+              <li>Segundo elemento</li>
+              <li>Tercer elemento</li>
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor" style="max-width:900px">
+      <CabeceraSeccion etiqueta="Procedencia" titulo="Linea" destacado="de tiempo" />
+      <div class="timeline">
+        {[['2007', 'Primera matriculacion'], ['2013', 'Transformacion RUF'], ['2024', 'Revision integral']].map(([a, t]) => (
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <p class="timeline-year">{a}</p>
+            <h3 class="timeline-title">{t}</h3>
+            <p class="timeline-body">Descripcion del hito, con <strong>datos verificados</strong>.</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion specs">
+    <div class="contenedor">
+      <CabeceraSeccion etiqueta="Ficha" titulo="Datos" destacado="tecnicos" />
+      <div class="specs-grid" style="margin-top:52px">
+        {['Motor', 'Transmision', 'Chasis'].map((g) => (
+          <div class="specs-group reveal">
+            <p class="specs-group-title">{g}</p>
+            <div class="spec-row"><span class="spec-key">Configuracion</span><span class="spec-val">Boxer 6</span></div>
+            <div class="spec-row"><span class="spec-key">Cilindrada</span><span class="spec-val">3.824 cc</span></div>
+            <div class="spec-row"><span class="spec-key">Potencia</span><span class="spec-val">435 CV</span></div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="closing-bg" data-fondo={foto('exterior3')}
+         style={`background-image:url('${foto('exterior3')}')`}></div>
+    <div class="closing-overlay"></div>
+    <div class="closing-content">
+      <p class="closing-quote reveal">Un cierre editorial con una palabra en <em>bronce</em>.</p>
+      <div class="closing-divider"></div>
+      <span class="closing-price reveal delay-1">200.000 EUR</span>
+      <span class="closing-price-label">Precio de venta</span>
+      <div><a class="cta" href="/contacto">Mas informacion</a></div>
+    </div>
+  </section>
+</Base>

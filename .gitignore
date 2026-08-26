@@ -7,3 +7,8 @@ docs/
 #   _migracion/contenido/imagenes_mapa.json
 #   _migracion/contenido/imagenes_integridad.json
 _migracion/contenido/imagenes/
+
+# Proyecto Astro del sitio nuevo
+sitio/node_modules/
+sitio/dist/
+sitio/.astro/

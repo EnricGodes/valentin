@@ -1,0 +1,33 @@
+---
+import { IDIOMAS, NOMBRE_IDIOMA, type Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+
+interface Props {
+  idioma: Idioma;
+  rutaId: string;
+  extra?: string[];
+  idiomasPublicados?: readonly Idioma[];
+}
+const { idioma, rutaId, extra = [], idiomasPublicados = IDIOMAS } = Astro.props;
+const t = traductor(idioma);
+---
+{/* Cada enlace apunta a la MISMA pagina en el otro idioma, nunca a la home:
+    mandar todo a la portada es el error clasico que Google lee como mala
+    experiencia y que hace que ignore las alternantes. */}
+<nav class="selector-idioma" aria-label={t('a11y.idioma')}>
+  {idiomasPublicados.map((i) => (
+    <a href={url(rutaId, i, ...extra)} hreflang={i} lang={i}
+       aria-current={i === idioma ? 'true' : undefined}>{i.toUpperCase()}</a>
+  ))}
+</nav>
+<style>
+  .selector-idioma { display: flex; gap: 14px; }
+  .selector-idioma a {
+    font-family: var(--mono); font-size: var(--t-micro);
+    letter-spacing: 0.14em; color: var(--concreto);
+    text-decoration: none; transition: color .3s;
+  }
+  .selector-idioma a:hover { color: var(--blanco); }
+  .selector-idioma a[aria-current='true'] { color: var(--bronce); }
+</style>

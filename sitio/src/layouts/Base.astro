@@ -1,0 +1,78 @@
+---
+import { IDIOMAS, HREFLANG, DOMINIO, type Idioma } from '../i18n/config';
+import { alternantes, xDefault, urlAbsoluta } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import Cursor from '../components/Cursor.astro';
+import '../styles/tokens.css';
+import '../styles/system.css';
+
+interface Props {
+  idioma: Idioma;
+  /** Id de ruta en el manifiesto: de aqui salen canonical y hreflang. */
+  rutaId: string;
+  /** Segmentos extra ya traducidos (slug de post, de coche, de categoria). */
+  extra?: string[];
+  /** Idiomas realmente publicados de esta pagina. Nunca se declara un
+      hreflang hacia algo que no existe. */
+  idiomasPublicados?: readonly Idioma[];
+  titulo: string;
+  descripcion: string;
+  /** Clase de realce del vehiculo, p. ej. "realce--ruf". */
+  realce?: string;
+  imagen?: string;
+  noindex?: boolean;
+}
+
+const {
+  idioma, rutaId, extra = [], idiomasPublicados = IDIOMAS,
+  titulo, descripcion, realce = '', imagen, noindex = false,
+} = Astro.props;
+
+const t = traductor(idioma);
+const canonical = urlAbsoluta(rutaId, idioma, ...extra);
+const alt = alternantes(rutaId, idiomasPublicados, ...extra);
+const og = imagen ? new URL(imagen, DOMINIO).href : undefined;
+---
+<!doctype html>
+<html lang={idioma} class={realce}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{titulo}</title>
+  <meta name="description" content={descripcion}>
+  <link rel="canonical" href={canonical}>
+  {noindex && <meta name="robots" content="noindex, nofollow">}
+
+  {/* Cada version de idioma es canonica de si misma y declara a todas las
+      demas, incluida ella. Sin reciprocidad Google ignora el conjunto. */}
+  {alt.map(({ idioma: i, href }) => (
+    <link rel="alternate" hreflang={HREFLANG[i]} href={href}>
+  ))}
+  <link rel="alternate" hreflang="x-default" href={xDefault(rutaId, ...extra)}>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content={titulo}>
+  <meta property="og:description" content={descripcion}>
+  <meta property="og:url" content={canonical}>
+  <meta property="og:locale" content={idioma}>
+  {og && <meta property="og:image" content={og}>}
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;600;700&display=swap">
+
+  <slot name="head" />
+</head>
+<body>
+  <a class="saltar" href="#contenido">{t('a11y.saltar')}</a>
+  <Cursor />
+  <slot name="nav" />
+  <main id="contenido"><slot /></main>
+  <slot name="pie" />
+  <script>
+    import '../scripts/index';
+  </script>
+</body>
+</html>

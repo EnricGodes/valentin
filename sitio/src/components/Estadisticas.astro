@@ -1,0 +1,20 @@
+---
+export interface Estadistica {
+  valor: number; unidad?: string; etiqueta: string;
+  /** La primera suele ir en el color de realce del vehiculo. */
+  destacada?: boolean;
+}
+interface Props { datos: Estadistica[]; }
+const { datos } = Astro.props;
+---
+<div class="engineering-stats reveal">
+  {datos.map((d) => (
+    <div class={`eng-stat${d.destacada ? ' highlight' : ''}`}>
+      <p class="eng-stat-val">
+        <span class="count-up" data-target={d.valor}>0</span>
+        {d.unidad && <span class="unit">{d.unidad}</span>}
+      </p>
+      <p class="eng-stat-label">{d.etiqueta}</p>
+    </div>
+  ))}
+</div>

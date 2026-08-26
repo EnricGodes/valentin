@@ -1,0 +1,43 @@
+---
+import type { Idioma } from '../i18n/config';
+import { traductor } from '../i18n/ui';
+
+export interface Foto { src: string; alt: string; caption?: string; ancho?: number; alto?: number; }
+interface Props { fotos: Foto[]; idioma: Idioma; }
+const { fotos, idioma } = Astro.props;
+const t = traductor(idioma);
+const dosCifras = (n: number) => String(n).padStart(2, '0');
+---
+<div class="gallery-envoltorio" data-galeria role="group" aria-roledescription="carrusel"
+     aria-label={t('a11y.galeria')}>
+  <div class="gallery-stage">
+    {fotos.map((f, i) => (
+      <div class="gallery-slide" role="group" aria-roledescription="diapositiva"
+           aria-label={`${i + 1} / ${fotos.length}`}>
+        {/* width y height explicitos: sin ellos el navegador no reserva sitio
+            y la pagina salta al cargar (CLS). Las fichas actuales no los llevan. */}
+        <img src={f.src} alt={f.alt} width={f.ancho ?? 1400} height={f.alto ?? 933}
+             loading={i === 0 ? 'eager' : 'lazy'} decoding="async"
+             fetchpriority={i === 0 ? 'high' : 'auto'}>
+        {f.caption && <p class="gallery-caption">{f.caption}</p>}
+      </div>
+    ))}
+  </div>
+
+  <div class="gallery-controls">
+    <button type="button" class="gallery-btn" data-galeria-prev data-magnetico
+            aria-label={t('a11y.anterior')}>&#8592;</button>
+    <button type="button" class="gallery-btn" data-galeria-next data-magnetico
+            aria-label={t('a11y.siguiente')}>&#8594;</button>
+    <span class="gallery-counter" aria-live="polite">
+      {dosCifras(1)} / {dosCifras(fotos.length)}
+    </span>
+    <div class="gallery-progress"><div class="gallery-progress-bar"></div></div>
+    <div class="gallery-dots" role="tablist">
+      {fotos.map((_, i) => (
+        <button type="button" class="gallery-dot" role="tab" aria-selected={i === 0}
+                aria-label={`${t('a11y.irFoto')} ${i + 1}`}></button>
+      ))}
+    </div>
+  </div>
+</div>

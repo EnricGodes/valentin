@@ -1,0 +1,94 @@
+/* ===========================================================================
+   Valentin Motors — tokens
+   Fuente unica de verdad del sistema visual. Hasta ahora estos valores vivian
+   repetidos dentro de un <style> en cada una de las seis fichas de coche.
+   Ver docs/design_system.md para la direccion de arte.
+   =========================================================================== */
+
+:root {
+  /* ── Superficies ──────────────────────────────────────────────────────── */
+  --negro:     #0B0B0B;   /* fondo principal, negro carbon */
+  --grafito:   #1C1C1A;   /* bloques secundarios, galeria, specs */
+  --carbon:    #2A2824;   /* tarjetas y superficies calidas */
+  --cuero:     #3A241C;   /* modulos de interior */
+
+  /* ── Tinta ────────────────────────────────────────────────────────────── */
+  --blanco:    #F0EDE8;   /* texto principal */
+  --concreto:  #A7A29A;   /* texto secundario, captions, labels */
+
+  /* ── Acentos ──────────────────────────────────────────────────────────── */
+  --bronce:    #B28A5B;   /* acento calido universal: shimmer, labels, CTA */
+  --ambar:     #D9A400;   /* microacento (pinzas de freno, avisos) */
+
+  /* Color de realce, propio de cada coche. Por defecto es el bronce, para que
+     cualquier pagina sin realce definido siga siendo coherente. Cada ficha lo
+     redefine con la clase .realce--<slug> mas abajo. */
+  --realce:       var(--bronce);
+  --realce-hondo: #2A2824;
+
+  /* ── Lineas ───────────────────────────────────────────────────────────── */
+  --linea:        rgba(167, 162, 154, 0.10);
+  --linea-fuerte: rgba(167, 162, 154, 0.22);
+  --linea-bronce: rgba(178, 138, 91, 0.20);
+
+  /* ── Tipografia ───────────────────────────────────────────────────────── */
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Escala tipografica fluida; los clamp() salen del CSS actual de las fichas */
+  --t-hero:    clamp(48px, 9vw, 110px);
+  --t-titulo:  clamp(30px, 4vw, 54px);
+  --t-cita:    clamp(19px, 2.8vw, 34px);
+  --t-precio:  clamp(38px, 6vw, 76px);
+  --t-badge:   clamp(28px, 3vw, 44px);
+  --t-cuerpo:  17px;
+  --t-dato:    14px;
+  --t-label:   10px;
+  --t-micro:    9px;
+
+  /* Tracking: es el rasgo mas reconocible del sistema */
+  --tr-nav:     0.20em;
+  --tr-label:   0.25em;
+  --tr-eyebrow: 0.30em;
+
+  /* ── Espaciado ────────────────────────────────────────────────────────── */
+  --pad-lateral:  56px;
+  --pad-seccion:  128px;
+  --ancho-max:    1200px;
+  --gap-columnas: 88px;
+
+  /* ── Movimiento ───────────────────────────────────────────────────────── */
+  --ease:       cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-reveal: 0.9s;
+  --dur-lenta:  1.2s;
+  --dur-kenburns: 9s;
+}
+
+@media (max-width: 960px) {
+  :root {
+    --pad-lateral:  24px;
+    --pad-seccion:   80px;
+    --gap-columnas:  48px;
+  }
+}
+
+/* Ninguna animacion es imprescindible para entender la pagina: si el sistema
+   pide movimiento reducido se desactivan todas, y los reveals quedan visibles
+   de entrada (ver system.css). Esto hoy no existe en ninguna de las fichas. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-reveal:   0.01ms;
+    --dur-lenta:    0.01ms;
+    --dur-kenburns: 0.01ms;
+  }
+}
+
+/* ── Colores de realce por vehiculo ──────────────────────────────────────
+   Se aplican en <body class="realce--ruf"> y sustituyen al verde original.
+   Extraidos de las seis fichas existentes. */
+.realce--ruf         { --realce: #004225; --realce-hondo: #003E2C; }
+.realce--356         { --realce: #5A636B; --realce-hondo: #4A5057; }
+.realce--911targa    { --realce: #B8541E; --realce-hondo: #7A3418; }
+.realce--991scabrio  { --realce: #6E6D62; --realce-hondo: #3E3D38; }
+.realce--997         { --realce: #54585C; --realce-hondo: #3D4145; }
+.realce--997tiptronic{ --realce: #6B6E70; --realce-hondo: #33363A; }
