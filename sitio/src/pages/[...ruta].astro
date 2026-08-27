@@ -7,7 +7,7 @@
  * una columna al manifiesto, no duplicar el arbol de src/pages.
  */
 import { IDIOMAS, type Idioma } from '../i18n/config';
-import { url, SEGMENTOS } from '../i18n/routes';
+import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
@@ -16,10 +16,11 @@ import FichaCoche from '../components/FichaCoche.astro';
 import CatalogoCoches from '../components/CatalogoCoches.astro';
 import SeccionesPagina from '../components/SeccionesPagina.astro';
 import Acordeon from '../components/Acordeon.astro';
+import Formulario from '../components/Formulario.astro';
 import NegocioLocal from '../components/seo/NegocioLocal.astro';
 import Vehiculo from '../components/seo/Vehiculo.astro';
 import Migas from '../components/seo/Migas.astro';
-import { COCHES, cochesDe, idiomasDeCoche, idiomasConCatalogo, type Coche } from '../datos/coche';
+import { cochesDe, idiomasDeCoche, idiomasConCatalogo, type Coche } from '../datos/coche';
 import { PAGINAS_CONTENIDO, idiomasDe, type Pagina } from '../datos/pagina';
 import { VENDIDOS, type Vendido } from '../datos/vendido';
 import FichaVendido from '../components/FichaVendido.astro';
@@ -143,6 +144,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   <Pie slot="pie" idioma={idioma} />
 
   {coche && <FichaCoche coche={coche} idioma={idioma} />}
+  {coche && <Formulario idioma={idioma} coche={coche.slug}
+                        cocheNombre={coche.catalogo?.nombre ?? coche.slug} />}
   {vendido && <FichaVendido coche={vendido} idioma={idioma} />}
 
   {pagina && (
@@ -159,4 +162,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   )}
 
   {props.tipo === 'catalogo' && <CatalogoCoches coches={cochesDe(idioma)} idioma={idioma} />}
+
+  {(pagina?.tipo === 'contacto' || esCentro || vendido) && <Formulario idioma={idioma}
+      coche={vendido?.slug} cocheNombre={vendido?.nombre} />}
 </Base>

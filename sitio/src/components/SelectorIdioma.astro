@@ -19,6 +19,7 @@ const t = traductor(idioma);
 <nav class="selector-idioma" aria-label={t('a11y.idioma')}>
   {idiomasPublicados.map((i) => (
     <a href={url(rutaId, i, ...extra)} hreflang={i} lang={i}
+       title={NOMBRE_IDIOMA[i]} aria-label={NOMBRE_IDIOMA[i]}
        aria-current={i === idioma ? 'true' : undefined}>{i.toUpperCase()}</a>
   ))}
 </nav>

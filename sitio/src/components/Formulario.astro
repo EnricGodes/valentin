@@ -1,0 +1,325 @@
+---
+/**
+ * Formulario de contacto. Envia a /api/contacto, que es una Pages Function
+ * de Cloudflare (functions/api/contacto.ts): Resend a los tres buzones mas
+ * aviso instantaneo al movil.
+ *
+ * Funciona sin JavaScript: el <form> tiene action y method, asi que si el JS
+ * no carga el navegador hace el POST y la Function responde con una pagina
+ * de gracias. Con JS se envia por fetch y no se pierde el scroll.
+ */
+import { traductor } from '../i18n/ui.ts';
+import { url } from '../i18n/routes.ts';
+import { POR_DEFECTO, type Idioma } from '../i18n/config.ts';
+
+interface Props {
+  idioma: Idioma;
+  /** Slug del coche, cuando el formulario se abre desde una ficha. */
+  coche?: string;
+  /** Nombre legible del coche, para prerrellenar el mensaje. */
+  cocheNombre?: string;
+}
+const { idioma, coche, cocheNombre } = Astro.props;
+const t = traductor(idioma);
+
+// Las paginas legales existen solo en espanol: el enlace apunta siempre alli.
+const privacidad = url('privacidad', POR_DEFECTO);
+
+const motivos = [
+  ['taller', t('form.asunto.taller')],
+  ['compra', t('form.asunto.compra')],
+  ['venta', t('form.asunto.venta')],
+  ['restauracion', t('form.asunto.restauracion')],
+  ['otro', t('form.asunto.otro')],
+] as const;
+---
+<section class="formulario" id="contacto">
+  <div class="shimmer-line reveal"></div>
+  <h2 class="form-titulo reveal">{t('form.titulo')}</h2>
+  <p class="form-intro reveal">{t('form.intro')}</p>
+
+  <form class="form reveal" method="post" action="/api/contacto" novalidate
+        data-idioma={idioma} data-coche={coche}>
+    <input type="hidden" name="idioma" value={idioma} />
+    <input type="hidden" name="pagina" value={Astro.url.pathname} />
+    {coche && <input type="hidden" name="coche" value={coche} />}
+
+    {/* Trampa para bots: invisible y fuera del orden de tabulacion. Un humano
+        nunca lo rellena; casi todos los bots rellenan todo lo que encuentran. */}
+    <div class="miel" aria-hidden="true">
+      <label for="f-web">No rellenar</label>
+      <input id="f-web" type="text" name="web" tabindex="-1" autocomplete="off" />
+    </div>
+
+    <div class="campos">
+      <p class="campo">
+        <label for="f-nombre">{t('form.nombre')}</label>
+        <input id="f-nombre" name="nombre" type="text" required autocomplete="name"
+               maxlength="120" />
+      </p>
+      <p class="campo">
+        <label for="f-email">{t('form.email')}</label>
+        <input id="f-email" name="email" type="email" required autocomplete="email"
+               maxlength="180" inputmode="email" />
+      </p>
+      <p class="campo">
+        <label for="f-telefono">
+          {t('form.telefono')} <span class="opcional">{t('form.opcional')}</span>
+        </label>
+        <input id="f-telefono" name="telefono" type="tel" autocomplete="tel"
+               maxlength="40" inputmode="tel" />
+      </p>
+      <p class="campo">
+        <label for="f-asunto">{t('form.asunto')}</label>
+        <select id="f-asunto" name="asunto">
+          {motivos.map(([valor, etiqueta]) => (
+            <option value={valor} selected={coche ? valor === 'compra' : valor === 'taller'}>
+              {etiqueta}
+            </option>
+          ))}
+        </select>
+      </p>
+      <p class="campo">
+        <label for="f-modelo">
+          {t('form.modelo')} <span class="opcional">{t('form.opcional')}</span>
+        </label>
+        <input id="f-modelo" name="modelo" type="text" maxlength="120"
+               placeholder={t('form.modelo.ayuda')} />
+      </p>
+      <p class="campo">
+        <label for="f-centro">{t('form.centro')}</label>
+        <select id="f-centro" name="centro">
+          <option value="barcelona">Barcelona</option>
+          <option value="madrid">Madrid</option>
+          <option value="">{t('form.centro.cualquiera')}</option>
+        </select>
+      </p>
+      <p class="campo campo--ancho">
+        <label for="f-mensaje">{t('form.mensaje')}</label>
+        <textarea id="f-mensaje" name="mensaje" rows="5" required maxlength="4000"
+        >{cocheNombre ? `${t('form.interes')}: ${cocheNombre}.\n\n` : ''}</textarea>
+      </p>
+    </div>
+
+    <p class="rgpd">
+      <input id="f-rgpd" name="rgpd" type="checkbox" required value="si" />
+      <label for="f-rgpd">
+        {t('form.rgpd')} <a href={privacidad} lang="es" hreflang="es">{t('form.rgpd.enlace')}</a>.
+      </label>
+    </p>
+
+    {/* Turnstile invisible. Sin clave configurada el widget no se pinta y la
+        Function acepta el envio: el honeypot sigue filtrando. */}
+    <div class="cf-turnstile" data-sitekey={import.meta.env.PUBLIC_TURNSTILE_KEY}
+         data-theme="dark" data-size="flexible"></div>
+
+    <div class="acciones">
+      <button type="submit" class="boton-enviar">
+        <span data-enviar={t('form.enviar')} data-enviando={t('form.enviando')}
+        >{t('form.enviar')}</span>
+      </button>
+      <p class="aviso" role="status" aria-live="polite"
+         data-ok={t('form.ok')} data-error={t('form.error')} data-faltan={t('form.faltan')}></p>
+    </div>
+  </form>
+</section>
+
+{import.meta.env.PUBLIC_TURNSTILE_KEY && (
+  <script is:inline defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
+)}
+
+<script>
+  import { evento } from '../scripts/eventos.ts';
+
+  const form = document.querySelector<HTMLFormElement>('.form');
+  if (form) {
+    const boton  = form.querySelector<HTMLButtonElement>('.boton-enviar')!;
+    const span   = boton.querySelector<HTMLSpanElement>('span')!;
+    const aviso  = form.querySelector<HTMLParagraphElement>('.aviso')!;
+
+    const decir = (clave: 'ok' | 'error' | 'faltan') => {
+      aviso.textContent = aviso.dataset[clave] ?? '';
+      aviso.dataset.estado = clave;
+    };
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      aviso.dataset.estado = '';
+      aviso.textContent = '';
+
+      // Validacion nativa, pero con el mensaje en el idioma de la pagina.
+      if (!form.checkValidity()) {
+        form.classList.add('tocado');
+        decir('faltan');
+        form.querySelector<HTMLElement>(':invalid')?.focus();
+        return;
+      }
+
+      boton.disabled = true;
+      span.textContent = span.dataset.enviando ?? '';
+
+      try {
+        const r = await fetch(form.action, {
+          method: 'POST',
+          headers: { Accept: 'application/json' },
+          body: new FormData(form),
+        });
+        if (!r.ok) throw new Error(String(r.status));
+
+        decir('ok');
+        evento('generate_lead', {
+          idioma: form.dataset.idioma,
+          asunto: (form.elements.namedItem('asunto') as HTMLSelectElement)?.value,
+          coche:  form.dataset.coche || undefined,
+        });
+        form.querySelectorAll('input, select, textarea').forEach((c) => {
+          const campo = c as HTMLInputElement;
+          if (campo.type !== 'hidden' && campo.type !== 'checkbox') campo.value = '';
+        });
+        form.hidden = true;
+        aviso.hidden = false;
+        form.parentElement?.append(aviso);
+      } catch {
+        decir('error');
+      } finally {
+        boton.disabled = false;
+        span.textContent = span.dataset.enviar ?? '';
+      }
+    });
+  }
+</script>
+
+<style>
+  .formulario {
+    max-width: var(--ancho-max);
+    margin: 0 auto;
+    padding: var(--pad-seccion) var(--pad-lateral);
+  }
+  .form-titulo {
+    font-size: var(--t-titulo);
+    font-weight: 200;
+    letter-spacing: -0.02em;
+    margin: 28px 0 0;
+  }
+  .form-intro {
+    color: var(--concreto);
+    font-size: var(--t-cuerpo);
+    line-height: 1.7;
+    max-width: 46ch;
+    margin: 14px 0 48px;
+  }
+
+  .form { max-width: 780px; }
+
+  .campos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 32px;
+  }
+  .campo { margin: 0; display: flex; flex-direction: column; gap: 9px; }
+  .campo--ancho { grid-column: 1 / -1; }
+
+  label {
+    font-family: var(--mono);
+    font-size: var(--t-label);
+    letter-spacing: var(--tr-label);
+    text-transform: uppercase;
+    color: var(--concreto);
+  }
+  .opcional { color: var(--linea-fuerte); letter-spacing: var(--tr-nav); }
+
+  input, select, textarea {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--linea-fuerte);
+    padding: 10px 0;
+    color: var(--blanco);
+    font-family: var(--sans);
+    font-size: var(--t-cuerpo);
+    border-radius: 0;
+    transition: border-color 0.3s var(--ease);
+  }
+  textarea { resize: vertical; line-height: 1.65; }
+  input::placeholder, textarea::placeholder { color: rgba(167, 162, 154, 0.45); }
+
+  /* El select nativo hereda el fondo del sistema en el desplegable: el
+     option necesita su propio color o queda texto claro sobre claro. */
+  select { appearance: none; cursor: pointer; padding-right: 24px;
+    background-image: linear-gradient(45deg, transparent 50%, var(--concreto) 50%),
+                      linear-gradient(135deg, var(--concreto) 50%, transparent 50%);
+    background-position: right 8px center, right 3px center;
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat; }
+  option { background: var(--grafito); color: var(--blanco); }
+
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-bottom-color: var(--bronce);
+  }
+  input:focus-visible, select:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--bronce);
+    outline-offset: 4px;
+  }
+  /* Solo tras intentar enviar: marcar en rojo mientras se escribe es hostil. */
+  .form.tocado :invalid { border-bottom-color: rgba(217, 90, 60, 0.7); }
+
+  .miel { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+  .rgpd {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 36px 0 0;
+  }
+  .rgpd input { width: 16px; height: 16px; flex: 0 0 auto; margin-top: 2px;
+    accent-color: var(--bronce); border-bottom: 0; }
+  .rgpd label {
+    font-family: var(--sans);
+    font-size: var(--t-dato);
+    letter-spacing: 0;
+    text-transform: none;
+    line-height: 1.6;
+    color: var(--concreto);
+  }
+  .rgpd a { color: var(--bronce); text-underline-offset: 3px; }
+
+  .cf-turnstile { margin-top: 28px; }
+
+  .acciones {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .boton-enviar {
+    background: var(--bronce);
+    color: var(--negro);
+    border: 0;
+    padding: 17px 52px;
+    font-family: var(--mono);
+    font-size: var(--t-dato);
+    letter-spacing: var(--tr-nav);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s var(--ease), transform 0.3s var(--ease);
+  }
+  .boton-enviar:hover { background: var(--ambar); transform: translateY(-2px); }
+  .boton-enviar:disabled { opacity: 0.5; cursor: wait; transform: none; }
+
+  .aviso {
+    margin: 0;
+    font-size: var(--t-dato);
+    line-height: 1.6;
+    max-width: 42ch;
+  }
+  .aviso[data-estado='ok']     { color: var(--bronce); }
+  .aviso[data-estado='error'],
+  .aviso[data-estado='faltan'] { color: #D95A3C; }
+
+  @media (max-width: 720px) {
+    .campos { grid-template-columns: 1fr; }
+    .boton-enviar { width: 100%; }
+  }
+</style>

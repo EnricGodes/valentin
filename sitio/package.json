@@ -18,6 +18,9 @@
     "sharp": "^0.34.4"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@cloudflare/workers-types": "^5.20260827.1",
+    "typescript": "^5.9.3",
     "unist-util-visit": "^5.1.0"
   }
 }

@@ -73,6 +73,95 @@ export const UI = {
     fr: 'Voir les Porsche disponibles', it: 'Vedi le Porsche disponibili',
     de: 'Verfügbare Porsche ansehen', ca: 'Veure els Porsche disponibles' },
 
+  // --- Formulario de contacto ---
+  'form.titulo': {
+    es: 'Escríbenos', en: 'Write to us', fr: 'Écrivez-nous',
+    it: 'Scrivici', de: 'Schreiben Sie uns', ca: 'Escriu-nos' },
+  'form.intro': {
+    es: 'Cuéntanos qué necesitas. Te contestamos el mismo día laborable, en tu idioma.',
+    en: 'Tell us what you need. We reply the same working day, in your language.',
+    fr: 'Dites-nous ce dont vous avez besoin. Nous répondons le jour ouvré même, dans votre langue.',
+    it: 'Ci dica di cosa ha bisogno. Rispondiamo entro la stessa giornata lavorativa, nella sua lingua.',
+    de: 'Sagen Sie uns, was Sie brauchen. Wir antworten am selben Werktag, in Ihrer Sprache.',
+    ca: 'Explica’ns què necessites. Et contestem el mateix dia laborable, en el teu idioma.' },
+  'form.nombre': {
+    es: 'Nombre', en: 'Name', fr: 'Nom', it: 'Nome', de: 'Name', ca: 'Nom' },
+  'form.email': {
+    es: 'Email', en: 'Email', fr: 'E-mail', it: 'Email', de: 'E-Mail', ca: 'Correu' },
+  'form.telefono': {
+    es: 'Teléfono', en: 'Phone', fr: 'Téléphone', it: 'Telefono', de: 'Telefon', ca: 'Telèfon' },
+  'form.opcional': {
+    es: 'opcional', en: 'optional', fr: 'facultatif', it: 'facoltativo', de: 'optional', ca: 'opcional' },
+  'form.asunto': {
+    es: 'Motivo', en: 'Subject', fr: 'Motif', it: 'Motivo', de: 'Anliegen', ca: 'Motiu' },
+  'form.asunto.taller': {
+    es: 'Cita de taller', en: 'Workshop appointment', fr: 'Rendez-vous atelier',
+    it: 'Appuntamento in officina', de: 'Werkstatttermin', ca: 'Cita de taller' },
+  'form.asunto.compra': {
+    es: 'Comprar un Porsche', en: 'Buying a Porsche', fr: 'Acheter une Porsche',
+    it: 'Comprare una Porsche', de: 'Einen Porsche kaufen', ca: 'Comprar un Porsche' },
+  'form.asunto.venta': {
+    es: 'Vender mi Porsche', en: 'Selling my Porsche', fr: 'Vendre ma Porsche',
+    it: 'Vendere la mia Porsche', de: 'Meinen Porsche verkaufen', ca: 'Vendre el meu Porsche' },
+  'form.asunto.restauracion': {
+    es: 'Restauración', en: 'Restoration', fr: 'Restauration',
+    it: 'Restauro', de: 'Restaurierung', ca: 'Restauració' },
+  'form.asunto.otro': {
+    es: 'Otro', en: 'Other', fr: 'Autre', it: 'Altro', de: 'Sonstiges', ca: 'Altre' },
+  'form.modelo': {
+    es: 'Tu Porsche', en: 'Your Porsche', fr: 'Votre Porsche',
+    it: 'La sua Porsche', de: 'Ihr Porsche', ca: 'El teu Porsche' },
+  'form.modelo.ayuda': {
+    es: 'Modelo y año. Por ejemplo: 997 Carrera S, 2006',
+    en: 'Model and year. For example: 997 Carrera S, 2006',
+    fr: 'Modèle et année. Par exemple : 997 Carrera S, 2006',
+    it: 'Modello e anno. Per esempio: 997 Carrera S, 2006',
+    de: 'Modell und Baujahr. Zum Beispiel: 997 Carrera S, 2006',
+    ca: 'Model i any. Per exemple: 997 Carrera S, 2006' },
+  'form.centro': {
+    es: 'Centro', en: 'Location', fr: 'Centre', it: 'Sede', de: 'Standort', ca: 'Centre' },
+  'form.centro.cualquiera': {
+    es: 'Me da igual', en: 'No preference', fr: 'Peu importe',
+    it: 'Indifferente', de: 'Egal', ca: 'M’és igual' },
+  'form.mensaje': {
+    es: 'Mensaje', en: 'Message', fr: 'Message', it: 'Messaggio', de: 'Nachricht', ca: 'Missatge' },
+  'form.rgpd': {
+    es: 'He leído y acepto la',
+    en: 'I have read and accept the',
+    fr: 'J’ai lu et j’accepte la',
+    it: 'Ho letto e accetto l’',
+    de: 'Ich habe die Datenschutzerklärung gelesen und akzeptiere sie',
+    ca: 'He llegit i accepto la' },
+  'form.rgpd.enlace': {
+    es: 'política de privacidad', en: 'privacy policy', fr: 'politique de confidentialité',
+    it: 'informativa sulla privacy', de: 'Datenschutzerklärung', ca: 'política de privacitat' },
+  'form.enviar': {
+    es: 'Enviar', en: 'Send', fr: 'Envoyer', it: 'Invia', de: 'Senden', ca: 'Envia' },
+  'form.enviando': {
+    es: 'Enviando', en: 'Sending', fr: 'Envoi', it: 'Invio', de: 'Wird gesendet', ca: 'Enviant' },
+  'form.ok': {
+    es: 'Mensaje recibido. Te contestamos en breve.',
+    en: 'Message received. We will reply shortly.',
+    fr: 'Message reçu. Nous vous répondons sous peu.',
+    it: 'Messaggio ricevuto. Le risponderemo a breve.',
+    de: 'Nachricht erhalten. Wir melden uns in Kürze.',
+    ca: 'Missatge rebut. Et contestem ben aviat.' },
+  'form.error': {
+    es: 'No hemos podido enviar el mensaje. Escríbenos a info@valentinmotors.es o llámanos al 933 479 856.',
+    en: 'We could not send the message. Write to info@valentinmotors.es or call +34 933 479 856.',
+    fr: 'Nous n’avons pas pu envoyer le message. Écrivez à info@valentinmotors.es ou appelez le +34 933 479 856.',
+    it: 'Non siamo riusciti a inviare il messaggio. Scriva a info@valentinmotors.es o chiami il +34 933 479 856.',
+    de: 'Die Nachricht konnte nicht gesendet werden. Schreiben Sie an info@valentinmotors.es oder rufen Sie +34 933 479 856 an.',
+    ca: 'No hem pogut enviar el missatge. Escriu-nos a info@valentinmotors.es o truca al 933 479 856.' },
+  'form.faltan': {
+    es: 'Revisa los campos marcados.', en: 'Please check the highlighted fields.',
+    fr: 'Vérifiez les champs signalés.', it: 'Controlli i campi segnalati.',
+    de: 'Bitte prüfen Sie die markierten Felder.', ca: 'Revisa els camps marcats.' },
+  'form.interes': {
+    es: 'Me interesa este Porsche', en: 'I am interested in this Porsche',
+    fr: 'Cette Porsche m’intéresse', it: 'Mi interessa questa Porsche',
+    de: 'Ich interessiere mich für diesen Porsche', ca: 'M’interessa aquest Porsche' },
+
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 
