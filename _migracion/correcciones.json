@@ -84,5 +84,18 @@
         "reemplazar": "instalaciones totalmente equipadas de más de 2.500 m²"
       }
     ]
+  },
+  "direcciones": {
+    "motivo": "El post del taller nuevo escribia 'Varsovia 63' en un parrafo y 'Varsovia, 65' en otro. La direccion correcta es Varsovia, 65, 08041 Barcelona, la misma que consta en la pagina del centro.",
+    "reglas": [
+      {
+        "buscar": "La apertura del taller en Varsovia 63",
+        "reemplazar": "La apertura del taller en Varsòvia 65"
+      },
+      {
+        "buscar": "la calle **Varsovia, 65**",
+        "reemplazar": "la calle **Varsòvia, 65**"
+      }
+    ]
   }
 }
