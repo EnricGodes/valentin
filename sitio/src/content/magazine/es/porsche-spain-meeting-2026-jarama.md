@@ -1,6 +1,6 @@
 ---
 title: "Porsche Spain Meeting 2026 Jarama Madrid"
-slug: "porsche968-abx98"
+slugSquarespace: "porsche968-abx98"
 slugFinal: "porsche-spain-meeting-2026-jarama"
 slugOriginal: "porsche968-abx98"
 date: 2026-07-22T11:16:02.567000Z

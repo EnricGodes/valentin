@@ -1,6 +1,6 @@
 ---
 title: "Motor 1971 2.2"
-slug: "restauracion-motor-1971-22"
+slugSquarespace: "restauracion-motor-1971-22"
 slugFinal: "restauracion-motor-1971-22"
 slugOriginal: "restauracion-motor-1971-22"
 date: 2022-10-10T12:52:17.712000Z

@@ -1,6 +1,6 @@
 ---
 title: "Porsche 911 G"
-slug: "porsche-911g"
+slugSquarespace: "porsche-911g"
 date: 2021-12-08T17:45:02.820000Z
 lang: es
 categories: ["iconos"]

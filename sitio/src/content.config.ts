@@ -11,8 +11,9 @@ const magazine = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/magazine' }),
   schema: z.object({
     title: z.string(),
-    /** Slug que tenia en Squarespace. */
-    slug: z.string(),
+    /** Slug que tenia en Squarespace. NO se llama "slug": Astro reserva ese
+     *  nombre como id de la entrada y las seis versiones de idioma colisionaban. */
+    slugSquarespace: z.string(),
     /** Slug con el que se publica. Distinto solo en los 18 ilegibles. */
     slugFinal: z.string(),
     slugOriginal: z.string(),

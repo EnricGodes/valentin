@@ -1,6 +1,6 @@
 ---
 title: "Reconstrucción motor 968"
-slug: "porsche968"
+slugSquarespace: "porsche968"
 date: 2026-01-23T14:38:06.787000Z
 lang: es
 categories: ["articulos"]

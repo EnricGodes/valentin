@@ -6,7 +6,7 @@ import Pie from '../../components/Pie.astro';
 import { url } from '../../i18n/routes';
 
 const idioma = 'es' as const;
-const posts = (await getCollection('magazine'))
+const posts = (await getCollection('magazine', (p) => p.data.lang === 'es'))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
 const fmt = new Intl.DateTimeFormat('es', { month: 'short', year: 'numeric' });
@@ -27,7 +27,7 @@ const portada = (cuerpo: string) => {
   titulo="Magazine · Valentin Motors"
   descripcion="Restauraciones, mecanica y modelos Porsche contados por los especialistas de Valentin Motors."
 >
-  <Nav slot="nav" idioma={idioma} rutaId="magazine" />
+  <Nav slot="nav" idioma={idioma} rutaId="magazine" idiomasPublicados={['es']} />
   <Pie slot="pie" idioma={idioma} />
 
   <header class="page-header">

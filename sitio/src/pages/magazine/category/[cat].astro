@@ -6,7 +6,7 @@ import Pie from '../../../components/Pie.astro';
 import { url } from '../../../i18n/routes';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('magazine');
+  const posts = await getCollection('magazine', (p) => p.data.lang === 'es');
   const cats = new Map<string, typeof posts>();
   for (const p of posts) {
     for (const c of p.data.categories) {
@@ -32,7 +32,7 @@ const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').tri
   titulo={`${cat} · Magazine · Valentin Motors`}
   descripcion={`Articulos de la categoria ${cat} en el Magazine de Valentin Motors.`}
 >
-  <Nav slot="nav" idioma={idioma} rutaId="magazine" />
+  <Nav slot="nav" idioma={idioma} rutaId="magazine" idiomasPublicados={['es']} />
   <Pie slot="pie" idioma={idioma} />
 
   <header class="page-header">

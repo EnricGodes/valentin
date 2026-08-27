@@ -1,6 +1,6 @@
 ---
 title: "Nose lift system para 997.1 (sistema de alzado tren delantero)"
-slug: "porsche9971noselift-f3whn-trwdw"
+slugSquarespace: "porsche9971noselift-f3whn-trwdw"
 date: 2023-12-11T18:12:47.621000Z
 lang: es
 categories: ["articulos"]

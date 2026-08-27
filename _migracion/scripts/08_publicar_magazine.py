@@ -41,7 +41,7 @@ def main():
     cambiados = 0
     for md in sorted(ORIGEN.glob('*.md')):
         texto = md.read_text()
-        m = re.search(r'^slug: "([^"]+)"', texto, re.M)
+        m = re.search(r'^slugSquarespace: "([^"]+)"', texto, re.M)
         if not m:
             sys.exit(f'{md.name}: sin slug en el frontmatter')
         viejo = m.group(1)
@@ -49,7 +49,8 @@ def main():
 
         # slugFinal es el que se publica; slugOriginal alimenta el _redirects
         extra = f'slugFinal: "{nuevo}"\nslugOriginal: "{viejo}"\n'
-        texto = texto.replace(f'slug: "{viejo}"\n', f'slug: "{viejo}"\n{extra}', 1)
+        texto = texto.replace(f'slugSquarespace: "{viejo}"\n',
+                              f'slugSquarespace: "{viejo}"\n{extra}', 1)
 
         nombre = re.sub(r'[^A-Za-z0-9._-]', '-', nuevo) + '.md'
         (DESTINO / nombre).write_text(texto)

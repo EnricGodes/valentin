@@ -1,6 +1,6 @@
 ---
 title: "Rehabilitación completa motor 2.2  1970 serie F"
-slug: "rehabilitacion-motor-22-1970-serief"
+slugSquarespace: "rehabilitacion-motor-22-1970-serief"
 date: 2022-10-10T12:48:20.445000Z
 lang: es
 categories: ["restauraciones"]

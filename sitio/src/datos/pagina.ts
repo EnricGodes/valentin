@@ -33,12 +33,31 @@ export interface Pagina {
   contacto: { telefonos: string[]; emails: string[] };
 }
 
+import { POR_DEFECTO, esIdioma, type Idioma } from '../i18n/config';
+
+/**
+ * Convencion de nombres: `taller.json` es el espanol y `taller.en.json` el
+ * ingles. El espanol no lleva sufijo porque es el idioma de origen y vive en
+ * la raiz del sitio.
+ */
 const modulos = import.meta.glob<Pagina>('./paginas/*.json', { eager: true, import: 'default' });
 
-export const PAGINAS: Pagina[] = Object.values(modulos);
+function idiomaDe(ruta: string): Idioma {
+  const partes = ruta.split('/').pop()!.replace(/\.json$/, '').split('.');
+  const sufijo = partes.length > 1 ? partes.at(-1)! : '';
+  return esIdioma(sufijo) ? sufijo : POR_DEFECTO;
+}
 
-export const paginaPorRuta = (rutaId: string): Pagina | undefined =>
-  PAGINAS.find((p) => p.rutaId === rutaId);
+export const PAGINAS: { idioma: Idioma; pagina: Pagina }[] =
+  Object.entries(modulos).map(([ruta, pagina]) => ({ idioma: idiomaDe(ruta), pagina }));
+
+export const paginaPorRuta = (rutaId: string, idioma: Idioma = POR_DEFECTO): Pagina | undefined =>
+  PAGINAS.find((x) => x.idioma === idioma && x.pagina.rutaId === rutaId)?.pagina;
+
+/** Idiomas en los que una pagina existe de verdad. Alimenta el hreflang: no se
+ *  declara una alternante hacia algo que no se ha traducido todavia. */
+export const idiomasDe = (rutaId: string): Idioma[] =>
+  PAGINAS.filter((x) => x.pagina.rutaId === rutaId).map((x) => x.idioma);
 
 /** Las que se sirven por la ruta general; la home tiene pagina propia. */
-export const PAGINAS_CONTENIDO = PAGINAS.filter((p) => p.tipo !== 'home');
+export const PAGINAS_CONTENIDO = PAGINAS.filter((x) => x.pagina.tipo !== 'home');

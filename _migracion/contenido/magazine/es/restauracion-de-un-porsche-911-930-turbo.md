@@ -1,6 +1,6 @@
 ---
 title: "Restauración integral de Porsche 911 930 Turbo"
-slug: "restauracion-de-un-porsche-911-930-turbo"
+slugSquarespace: "restauracion-de-un-porsche-911-930-turbo"
 date: 2022-01-08T10:21:45.070000Z
 lang: es
 categories: ["restauraciones"]

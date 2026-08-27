@@ -1,6 +1,6 @@
 ---
 title: "Motor serie G 3.2"
-slug: "porschem9738a40-y4b85"
+slugSquarespace: "porschem9738a40-y4b85"
 slugFinal: "motor-serie-g-32"
 slugOriginal: "porschem9738a40-y4b85"
 date: 2025-09-18T11:03:04.182000Z

@@ -1,6 +1,6 @@
 ---
 title: "El nuevo centro Valentin Motors de Madrid ofrece un servicio integral Porsche en la capital"
-slug: "nuevo-centro-valentin-motors-en-madrid"
+slugSquarespace: "nuevo-centro-valentin-motors-en-madrid"
 slugFinal: "nuevo-centro-valentin-motors-en-madrid"
 slugOriginal: "nuevo-centro-valentin-motors-en-madrid"
 date: 2023-12-29T11:29:37.395000Z

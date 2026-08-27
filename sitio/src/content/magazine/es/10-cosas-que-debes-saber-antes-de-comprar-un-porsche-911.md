@@ -1,6 +1,6 @@
 ---
 title: "Diez cosas que debes saber antes de comprar un Porsche 911"
-slug: "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"
+slugSquarespace: "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"
 slugFinal: "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"
 slugOriginal: "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"
 date: 2019-08-28T17:04:00.360000Z

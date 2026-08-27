@@ -1,6 +1,6 @@
 ---
 title: "Rehabilitación completa motor  964 M64"
-slug: "restauracion-motor-964-m64"
+slugSquarespace: "restauracion-motor-964-m64"
 slugFinal: "restauracion-motor-964-m64"
 slugOriginal: "restauracion-motor-964-m64"
 date: 2022-10-10T12:44:29.816000Z

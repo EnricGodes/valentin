@@ -1,6 +1,6 @@
 ---
 title: "Restauración pinzas de freno"
-slug: "restauracion-pinzas-freno"
+slugSquarespace: "restauracion-pinzas-freno"
 date: 2022-10-10T12:25:50.146000Z
 lang: es
 categories: ["restauraciones"]

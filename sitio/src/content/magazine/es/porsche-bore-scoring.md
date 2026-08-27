@@ -1,6 +1,6 @@
 ---
 title: "¿Qué es el Porsche Bore Scoring?"
-slug: "porsche-bore-scoring"
+slugSquarespace: "porsche-bore-scoring"
 slugFinal: "porsche-bore-scoring"
 slugOriginal: "porsche-bore-scoring"
 date: 2023-01-21T09:03:06.642000Z

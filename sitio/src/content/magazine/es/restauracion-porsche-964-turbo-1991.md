@@ -1,6 +1,6 @@
 ---
 title: "Restauración completa 964 turbo (965) 1991"
-slug: "restauracion-porsche-964-turbo-1991"
+slugSquarespace: "restauracion-porsche-964-turbo-1991"
 slugFinal: "restauracion-porsche-964-turbo-1991"
 slugOriginal: "restauracion-porsche-964-turbo-1991"
 date: 2022-04-20T09:44:35.670000Z

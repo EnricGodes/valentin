@@ -200,8 +200,45 @@ def extraer(fichero, ruta_id, tipo):
     return d
 
 
+def mapa_redirecciones():
+    """Enlaces internos que apuntan a una URL redirigida.
+
+    La pagina de servicios enlaza a /magazine/restauracion-motor-964-turbo-dfc3x,
+    que hoy es un 404. Dejar enlaces internos hacia redirecciones (o hacia 404)
+    gasta presupuesto de rastreo y manda al usuario por un salto de mas.
+    """
+    import csv
+    ruta = RAIZ / '_migracion' / 'informes' / 'inventario_urls.csv'
+    if not ruta.exists():
+        return {}
+    fuera = {}
+    for f in csv.DictReader(ruta.open()):
+        if f['accion'] == '301' and f['destino'] and f['url'] != f['destino']:
+            fuera[f['url']] = f['destino']
+    return fuera
+
+
+def arreglar_enlaces(d, mapa):
+    n = 0
+    def sustituye(txt):
+        nonlocal n
+        for viejo, nuevo in mapa.items():
+            for pat in (f'"{viejo}"', f'"https://www.valentinmotors.es{viejo}"'):
+                if pat in txt:
+                    txt = txt.replace(pat, f'"{nuevo}"')
+                    n += 1
+        return txt
+    for s in d['secciones']:
+        s['parrafos'] = [sustituye(p) for p in s['parrafos']]
+    for a in d.get('acordeones', []):
+        a['parrafos'] = [sustituye(p) for p in a['parrafos']]
+    return n
+
+
 def main():
     DEST.mkdir(parents=True, exist_ok=True)
+    redir = mapa_redirecciones()
+    arreglados = 0
     print(f'{"pagina":42} {"tipo":14} {"secc":>5} {"parr":>5} {"items":>6} {"imgs":>5} {"acord":>6}')
     print('-' * 90)
     faltan = []
@@ -210,6 +247,7 @@ def main():
             faltan.append(fichero)
             continue
         d = extraer(fichero, ruta_id, tipo)
+        arreglados += arreglar_enlaces(d, redir)
         (DEST / f'{ruta_id}.json').write_text(json.dumps(d, indent=2, ensure_ascii=False) + '\n')
         p = sum(len(x['parrafos']) for x in d['secciones'])
         i = sum(len(x['items']) for x in d['secciones'])
@@ -219,6 +257,7 @@ def main():
     if faltan:
         print(f'\nNo encontradas en el snapshot: {faltan}', file=sys.stderr)
     print(f'\n{len(PAGINAS) - len(faltan)} paginas extraidas en {DEST.relative_to(RAIZ)}')
+    print(f'{arreglados} enlaces internos redirigidos a su destino final')
 
 
 if __name__ == '__main__':

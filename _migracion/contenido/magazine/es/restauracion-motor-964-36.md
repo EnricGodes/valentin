@@ -1,6 +1,6 @@
 ---
 title: "Rehabilitación completa motor 964 (M6401 3.6 ) "
-slug: "restauracion-motor-964-36"
+slugSquarespace: "restauracion-motor-964-36"
 date: 2022-05-09T16:56:46.117000Z
 lang: es
 categories: ["restauraciones"]

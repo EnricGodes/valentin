@@ -1,0 +1,67 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Nav from '../../../components/Nav.astro';
+import Pie from '../../../components/Pie.astro';
+import { url } from '../../../i18n/routes';
+import { IDIOMAS, POR_DEFECTO, type Idioma } from '../../../i18n/config';
+
+/* El Magazine en los cinco idiomas con prefijo. El espanol vive en la raiz y lo
+   sirve src/pages/magazine/[slug].astro. Solo se generan las paginas de los
+   posts realmente traducidos: un idioma sin traduccion no aparece, y por tanto
+   tampoco se declara en el hreflang. */
+export async function getStaticPaths() {
+  const todos = await getCollection('magazine');
+  return todos
+    .filter((p) => p.data.lang !== POR_DEFECTO && IDIOMAS.includes(p.data.lang as Idioma))
+    .map((post) => ({
+      params: { lang: post.data.lang, slug: post.data.slugFinal },
+      props: {
+        post,
+        idiomas: todos.filter((p) => p.data.slugFinal === post.data.slugFinal)
+          .map((p) => p.data.lang as Idioma),
+      },
+    }));
+}
+
+const { post, idiomas } = Astro.props;
+const { Content } = await render(post);
+const idioma = post.data.lang as Idioma;
+
+const fecha = new Intl.DateTimeFormat(idioma, { dateStyle: 'long' }).format(post.data.date);
+const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+---
+<Base
+  idioma={idioma}
+  rutaId="magazine"
+  extra={[post.data.slugFinal]}
+  idiomasPublicados={idiomas}
+  titulo={`${post.data.title} · Valentin Motors`}
+  descripcion={limpio(post.data.excerpt).slice(0, 300)}
+>
+  <Nav slot="nav" idioma={idioma} rutaId="magazine" extra={[post.data.slugFinal]}
+       idiomasPublicados={idiomas} />
+  <Pie slot="pie" idioma={idioma} />
+
+  <article class="post">
+    <header class="post-header">
+      <div class="shimmer-line"></div>
+      <p class="post-meta reveal">
+        <time datetime={post.data.date.toISOString()}>{fecha}</time>
+      </p>
+      <h1 class="post-title reveal delay-1">{post.data.title}</h1>
+    </header>
+
+    <div class="post-cuerpo reveal delay-2"><Content /></div>
+
+    {post.data.ctas.length > 0 && (
+      <div class="post-ctas">
+        {post.data.ctas.map((c) => <a class="cta" href={url('contacto', idioma)}>{c.texto}</a>)}
+      </div>
+    )}
+
+    <footer class="post-pie">
+      <a class="post-volver" href={url('magazine', idioma)}>&larr; Magazine</a>
+    </footer>
+  </article>
+</Base>

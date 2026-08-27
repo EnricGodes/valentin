@@ -1,6 +1,6 @@
 ---
 title: "Proceso standart pintura en 964 "
-slug: "porschepinturaclasica964-9fcrx"
+slugSquarespace: "porschepinturaclasica964-9fcrx"
 slugFinal: "proceso-pintura-964"
 slugOriginal: "porschepinturaclasica964-9fcrx"
 date: 2025-03-27T08:37:05.012000Z

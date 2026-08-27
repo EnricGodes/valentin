@@ -1,6 +1,6 @@
 ---
 title: "Porsche 964"
-slug: "porsche-964"
+slugSquarespace: "porsche-964"
 date: 2021-12-09T18:19:00.252000Z
 lang: es
 categories: ["iconos"]

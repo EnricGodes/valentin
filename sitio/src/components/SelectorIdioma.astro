@@ -15,12 +15,14 @@ const t = traductor(idioma);
 {/* Cada enlace apunta a la MISMA pagina en el otro idioma, nunca a la home:
     mandar todo a la portada es el error clasico que Google lee como mala
     experiencia y que hace que ignore las alternantes. */}
+{idiomasPublicados.length > 1 && (
 <nav class="selector-idioma" aria-label={t('a11y.idioma')}>
   {idiomasPublicados.map((i) => (
     <a href={url(rutaId, i, ...extra)} hreflang={i} lang={i}
        aria-current={i === idioma ? 'true' : undefined}>{i.toUpperCase()}</a>
   ))}
 </nav>
+)}
 <style>
   .selector-idioma { display: flex; gap: 14px; }
   .selector-idioma a {

@@ -1,6 +1,6 @@
 ---
 title: "996 M96 3.4 reparación motor por rotura árbol intermedio IMS"
-slug: "porscheroturasmotorm96valentin"
+slugSquarespace: "porscheroturasmotorm96valentin"
 date: 2024-01-23T18:02:45.751000Z
 lang: es
 categories: ["articulos"]

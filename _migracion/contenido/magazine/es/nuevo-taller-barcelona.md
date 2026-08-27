@@ -1,6 +1,6 @@
 ---
 title: "Valentín Motors celebra su 45 aniversario con la apertura de un nuevo taller en Barcelona"
-slug: "nuevo-taller-barcelona"
+slugSquarespace: "nuevo-taller-barcelona"
 date: 2025-04-24T17:23:03.310000Z
 lang: es
 categories: []

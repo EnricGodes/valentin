@@ -1,6 +1,6 @@
 ---
 title: "997 M9701  3.8 a 4.0 (Nickies)"
-slug: "porscheupgard40m97-bore-scoring-f3whn"
+slugSquarespace: "porscheupgard40m97-bore-scoring-f3whn"
 date: 2023-12-07T13:25:29.012000Z
 lang: es
 categories: ["articulos"]

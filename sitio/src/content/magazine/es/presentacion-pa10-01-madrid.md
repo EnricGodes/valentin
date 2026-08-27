@@ -1,6 +1,6 @@
 ---
 title: "Presentación del Evento PA10/01 en Madrid"
-slug: "presentacionpa10-01/madrid"
+slugSquarespace: "presentacionpa10-01/madrid"
 slugFinal: "presentacion-pa10-01-madrid"
 slugOriginal: "presentacionpa10-01/madrid"
 date: 2025-11-28T12:10:36.719000Z

@@ -5,11 +5,12 @@
   "private": true,
   "scripts": {
     "dev": "npm run assets && astro dev",
-    "build": "npm run validar && npm run assets && astro build",
+    "build": "npm run validar && npm run assets && astro build && npm run validar:hreflang",
     "preview": "astro preview",
     "check": "astro check",
     "validar": "node scripts/validar-rutas.ts",
-    "assets": "node scripts/sincronizar-imagenes.mjs && node scripts/optimizar-imagenes.mjs"
+    "assets": "node scripts/sincronizar-imagenes.mjs && node scripts/optimizar-imagenes.mjs",
+    "validar:hreflang": "node scripts/validar-hreflang.mjs"
   },
   "dependencies": {
     "astro": "^5.14.1",

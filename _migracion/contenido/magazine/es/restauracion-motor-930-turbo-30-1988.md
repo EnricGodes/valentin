@@ -1,6 +1,6 @@
 ---
 title: "Motor 930 turbo 3.0 1988"
-slug: "restauracion-motor-930-turbo-30-1988"
+slugSquarespace: "restauracion-motor-930-turbo-30-1988"
 date: 2022-10-10T12:39:22.451000Z
 lang: es
 categories: ["restauraciones"]

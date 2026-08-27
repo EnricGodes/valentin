@@ -1,6 +1,6 @@
 ---
 title: "Proceso standart pintura en 911 clase G."
-slug: "porschepinturaclasica911"
+slugSquarespace: "porschepinturaclasica911"
 date: 2025-02-12T09:09:51.840000Z
 lang: es
 categories: ["articulos"]

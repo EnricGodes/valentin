@@ -1,6 +1,6 @@
 ---
 title: "Restauración por incendio 911 930 turbo 1975"
-slug: "restauracion-incendio-930-turbo-1976"
+slugSquarespace: "restauracion-incendio-930-turbo-1976"
 date: 2022-10-11T05:48:02.030000Z
 lang: es
 categories: ["restauraciones"]

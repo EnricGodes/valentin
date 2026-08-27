@@ -1,6 +1,6 @@
 ---
 title: "997.1 turbo  (Rehabilitación motor por avería)"
-slug: "porsche9971turbo"
+slugSquarespace: "porsche9971turbo"
 date: 2024-10-22T12:34:45.654000Z
 lang: es
 categories: ["articulos"]

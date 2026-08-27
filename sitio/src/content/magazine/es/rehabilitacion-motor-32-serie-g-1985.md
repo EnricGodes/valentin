@@ -1,6 +1,6 @@
 ---
 title: "Rehabilitación motor completo 3.2 serie G coupe 1985"
-slug: "porscheroturasmotorm96valentin-ey2wg"
+slugSquarespace: "porscheroturasmotorm96valentin-ey2wg"
 slugFinal: "rehabilitacion-motor-32-serie-g-1985"
 slugOriginal: "porscheroturasmotorm96valentin-ey2wg"
 date: 2024-10-21T15:43:36.532000Z

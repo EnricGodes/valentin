@@ -1,6 +1,6 @@
 ---
 title: "Motor M97 3.8 a 4.0"
-slug: "porschem9738a40"
+slugSquarespace: "porschem9738a40"
 date: 2024-11-26T16:01:14.563000Z
 lang: es
 categories: ["articulos"]

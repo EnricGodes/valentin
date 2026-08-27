@@ -1,6 +1,6 @@
 ---
 title: "Doble victoria en la Porsche Classic Series"
-slug: "porscheclassicseries2023"
+slugSquarespace: "porscheclassicseries2023"
 date: 2023-04-27T11:42:24.984000Z
 lang: es
 categories: ["eventos"]

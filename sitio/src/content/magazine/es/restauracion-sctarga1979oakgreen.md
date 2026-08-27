@@ -1,6 +1,6 @@
 ---
 title: "Restauración 3.0 SC Targa 1979"
-slug: "restauracion-sctarga1979oakgreen"
+slugSquarespace: "restauracion-sctarga1979oakgreen"
 slugFinal: "restauracion-sctarga1979oakgreen"
 slugOriginal: "restauracion-sctarga1979oakgreen"
 date: 2023-03-31T08:34:36.240000Z

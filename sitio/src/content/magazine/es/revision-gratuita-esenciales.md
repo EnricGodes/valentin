@@ -1,6 +1,6 @@
 ---
 title: "Revisión gratuita: esenciales"
-slug: "revision-gratuita-esenciales"
+slugSquarespace: "revision-gratuita-esenciales"
 slugFinal: "revision-gratuita-esenciales"
 slugOriginal: "revision-gratuita-esenciales"
 date: 2023-02-16T10:37:47.238000Z

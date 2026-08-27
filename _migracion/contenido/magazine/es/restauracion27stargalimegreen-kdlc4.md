@@ -1,6 +1,6 @@
 ---
 title: "Restauración 2.7 S 1975 nacional (N8 verde lima)"
-slug: "restauracion27stargalimegreen-kdlc4"
+slugSquarespace: "restauracion27stargalimegreen-kdlc4"
 date: 2023-04-27T08:45:49.131000Z
 lang: es
 categories: ["restauraciones"]

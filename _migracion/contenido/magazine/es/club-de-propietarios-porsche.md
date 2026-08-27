@@ -1,6 +1,6 @@
 ---
 title: "Club de propietarios Porsche"
-slug: "club-de-propietarios-porsche"
+slugSquarespace: "club-de-propietarios-porsche"
 date: 2022-01-23T06:37:58.730000Z
 lang: es
 categories: ["eventos"]

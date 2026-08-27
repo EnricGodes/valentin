@@ -1,11 +1,18 @@
 ---
-import type { Idioma } from '../i18n/config';
+import { IDIOMAS, type Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import SelectorIdioma from './SelectorIdioma.astro';
 
-interface Props { idioma: Idioma; rutaId: string; extra?: string[]; }
-const { idioma, rutaId, extra = [] } = Astro.props;
+interface Props {
+  idioma: Idioma;
+  rutaId: string;
+  extra?: string[];
+  /** Idiomas en los que ESTA pagina existe. El selector no puede ofrecer un
+      idioma sin traducir: seria un enlace a un 404. */
+  idiomasPublicados?: readonly Idioma[];
+}
+const { idioma, rutaId, extra = [], idiomasPublicados = IDIOMAS } = Astro.props;
 const t = traductor(idioma);
 
 const enlaces = [
@@ -27,5 +34,6 @@ const enlaces = [
       </li>
     ))}
   </ul>
-  <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra} />
+  <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}
+                  idiomasPublicados={idiomasPublicados} />
 </nav>

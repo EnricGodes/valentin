@@ -72,7 +72,19 @@ export interface Coche {
   };
 }
 
+import { POR_DEFECTO, esIdioma, type Idioma } from '../i18n/config';
+
+/** `997.json` es el espanol; `997.de.json`, el aleman. */
 const modulos = import.meta.glob<Coche>('./coches/*.json', { eager: true, import: 'default' });
+
+function idiomaDe(ruta: string): Idioma {
+  const partes = ruta.split('/').pop()!.replace(/\.json$/, '').split('.');
+  const sufijo = partes.length > 1 ? partes.at(-1)! : '';
+  return esIdioma(sufijo) ? sufijo : POR_DEFECTO;
+}
+
+const TODOS: { idioma: Idioma; coche: Coche }[] =
+  Object.entries(modulos).map(([ruta, coche]) => ({ idioma: idiomaDe(ruta), coche }));
 
 /** Orden de aparicion en el catalogo. Los que no estan aqui van al final. */
 const ORDEN = [
@@ -84,9 +96,28 @@ const ORDEN = [
   'porsche-997-carrera-4s-triptronic',
 ];
 
-export const COCHES: Coche[] = Object.values(modulos).sort(
-  (a, b) => (ORDEN.indexOf(a.slug) + 1 || 99) - (ORDEN.indexOf(b.slug) + 1 || 99),
-);
+const porOrden = (a: Coche, b: Coche) =>
+  (ORDEN.indexOf(a.slug) + 1 || 99) - (ORDEN.indexOf(b.slug) + 1 || 99);
 
-export const cochePorSlug = (slug: string): Coche | undefined =>
-  COCHES.find((c) => c.slug === slug);
+/** Fichas realmente publicadas en un idioma.
+ *
+ *  No se publica una ficha en aleman con el texto en espanol: seria contenido
+ *  duplicado en cinco URLs y, sobre todo, esa pagina no podria declararse a si
+ *  misma en el hreflang. Un idioma sin traducir sencillamente no tiene ficha. */
+export const cochesDe = (idioma: Idioma): Coche[] =>
+  TODOS.filter((x) => x.idioma === idioma).map((x) => x.coche).sort(porOrden);
+
+/** Idiomas en los que el catalogo tiene algo que enseñar. */
+export const idiomasConCatalogo = (): Idioma[] => {
+  const con = new Set(TODOS.map((x) => x.idioma));
+  return [...con];
+};
+
+export const COCHES: Coche[] = cochesDe(POR_DEFECTO);
+
+export const idiomasDeCoche = (slug: string): Idioma[] =>
+  TODOS.filter((x) => x.coche.slug === slug).map((x) => x.idioma);
+
+export const cochePorSlug = (slug: string, idioma: Idioma = POR_DEFECTO): Coche | undefined =>
+  TODOS.find((x) => x.idioma === idioma && x.coche.slug === slug)?.coche
+  ?? TODOS.find((x) => x.idioma === POR_DEFECTO && x.coche.slug === slug)?.coche;

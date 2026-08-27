@@ -1,6 +1,6 @@
 ---
 title: "¿Qué es el IMS de Porsche?"
-slug: "que-es-el-ims-de-porsche"
+slugSquarespace: "que-es-el-ims-de-porsche"
 date: 2021-12-26T09:55:45.416000Z
 lang: es
 categories: ["articulos"]

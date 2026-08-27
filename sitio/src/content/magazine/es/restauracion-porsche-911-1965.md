@@ -1,6 +1,6 @@
 ---
 title: "Restauración integral de Porsche 911 serie F 1965"
-slug: "restauracion-porsche-911-1965"
+slugSquarespace: "restauracion-porsche-911-1965"
 slugFinal: "restauracion-porsche-911-1965"
 slugOriginal: "restauracion-porsche-911-1965"
 date: 2022-04-13T06:38:25.602000Z

@@ -359,7 +359,10 @@ def main():
         fm = [
             "---",
             f"title: {yaml_esc(it['title'])}",
-            f"slug: {yaml_esc(it['urlId'])}",
+            # No usar "slug": Astro lo trata como identificador reservado de la
+            # entrada, asi que las seis versiones de idioma colisionaban en el
+            # mismo id y solo sobrevivia una.
+            f"slugSquarespace: {yaml_esc(it['urlId'])}",
             f"date: {fecha}",
             f"lang: es",
             "categories: [" + ", ".join(yaml_esc(c) for c in (it.get("categories") or [])) + "]",

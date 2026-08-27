@@ -1,6 +1,6 @@
 ---
 title: "Trabajos de tapicería original de 911 serie F"
-slug: "tapicera-original-de-911-serie-f"
+slugSquarespace: "tapicera-original-de-911-serie-f"
 slugFinal: "tapicera-original-de-911-serie-f"
 slugOriginal: "tapicera-original-de-911-serie-f"
 date: 2022-10-10T12:32:30.077000Z
