@@ -5,6 +5,9 @@ import Nav from '../../components/Nav.astro';
 import Pie from '../../components/Pie.astro';
 import CabeceraSeccion from '../../components/CabeceraSeccion.astro';
 import { url } from '../../i18n/routes';
+import Articulo from '../../components/seo/Articulo.astro';
+import Migas from '../../components/seo/Migas.astro';
+import { DOMINIO } from '../../i18n/config';
 import type { Idioma } from '../../i18n/config';
 
 /* Esta ruta sirve el espanol, que vive en la raiz. Los demas idiomas los
@@ -29,6 +32,7 @@ const idioma = 'es' as const;
 
 const fecha = new Intl.DateTimeFormat('es', { dateStyle: 'long' }).format(post.data.date);
 const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+const portada = (post.body ?? '').match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1];
 const descripcion = limpio(post.data.excerpt).slice(0, 300)
   || `${post.data.title} · Magazine de Valentin Motors.`;
 ---
@@ -40,6 +44,17 @@ const descripcion = limpio(post.data.excerpt).slice(0, 300)
   titulo={`${post.data.title} · Valentin Motors`}
   descripcion={descripcion}
 >
+  <Fragment slot="head">
+    <Articulo titulo={post.data.title}
+              descripcion={limpio(post.data.excerpt).slice(0, 300)}
+              fecha={post.data.date} autor={post.data.author}
+              url={DOMINIO + url('magazine', idioma, post.data.slugFinal)}
+              imagen={portada} idioma={idioma} />
+    <Migas idioma={idioma} migas={[
+      { nombre: 'Magazine', rutaId: 'magazine' },
+      { nombre: post.data.title, rutaId: 'magazine', extra: [post.data.slugFinal] },
+    ]} />
+  </Fragment>
   <Nav slot="nav" idioma={idioma} rutaId="magazine" extra={[post.data.slugFinal]}
        idiomasPublicados={idiomas} />
   <Pie slot="pie" idioma={idioma} />

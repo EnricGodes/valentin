@@ -1,0 +1,27 @@
+# Valentin Motors — https://www.valentinmotors.es
+
+User-agent: *
+Allow: /
+
+# Los crawlers de IA se permiten a proposito.
+#
+# Squarespace los bloqueaba todos por defecto (ClaudeBot, GPTBot, PerplexityBot,
+# Google-Extended, Applebot-Extended...) mientras GA4 ya registraba un canal
+# "AI Assistant" con 81 sesiones en 56 dias. Para un especialista Porsche,
+# aparecer en las respuestas de un asistente es distribucion gratuita.
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Rutas sin valor para un buscador
+Disallow: /sistema
+Disallow: /api/
+
+Sitemap: https://www.valentinmotors.es/sitemap-index.xml

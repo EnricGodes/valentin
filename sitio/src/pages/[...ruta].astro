@@ -17,6 +17,8 @@ import CatalogoCoches from '../components/CatalogoCoches.astro';
 import SeccionesPagina from '../components/SeccionesPagina.astro';
 import Acordeon from '../components/Acordeon.astro';
 import NegocioLocal from '../components/seo/NegocioLocal.astro';
+import Vehiculo from '../components/seo/Vehiculo.astro';
+import Migas from '../components/seo/Migas.astro';
 import { COCHES, cochesDe, idiomasDeCoche, idiomasConCatalogo, type Coche } from '../datos/coche';
 import { PAGINAS_CONTENIDO, idiomasDe, type Pagina } from '../datos/pagina';
 
@@ -84,6 +86,14 @@ const idiomasPublicados = pagina
   ? idiomasDe(pagina.rutaId)
   : coche ? idiomasDeCoche(coche.slug) : idiomasConCatalogo();
 
+// Migas de pan: la ficha cuelga del catalogo, la pagina cuelga de la home
+const migas = coche
+  ? [{ nombre: t('nav.coches'), rutaId: 'coches' },
+     { nombre: coche.catalogo?.nombre ?? coche.slug, rutaId: 'coches', extra: [coche.slug] }]
+  : pagina
+    ? [{ nombre: pagina.h1 || titulo, rutaId: pagina.rutaId }]
+    : [{ nombre: t('nav.coches'), rutaId: 'coches' }];
+
 const esCentro = pagina?.tipo === 'centro';
 const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
 ---
@@ -97,9 +107,11 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   realce={coche?.realce ?? ''}
   imagen={coche?.hero.imagen}
 >
-  {(esCentro || pagina?.tipo === 'contacto') && (
-    <NegocioLocal slot="head" centro={centro} />
-  )}
+  <Fragment slot="head">
+    {(esCentro || pagina?.tipo === 'contacto') && <NegocioLocal centro={centro} />}
+    {coche && <Vehiculo coche={coche} idioma={idioma} />}
+    <Migas migas={migas} idioma={idioma} />
+  </Fragment>
   <Nav slot="nav" idioma={idioma} rutaId={rutaId} extra={extra}
        idiomasPublicados={idiomasPublicados} />
   <Pie slot="pie" idioma={idioma} />

@@ -1,0 +1,73 @@
+---
+import { DOMINIO, type Idioma } from '../../i18n/config';
+import { urlAbsoluta } from '../../i18n/routes';
+import type { Coche } from '../../datos/coche';
+
+/**
+ * JSON-LD de una ficha de coche.
+ *
+ * Un especialista Porsche con stock que no marca sus coches como Vehicle con
+ * su Offer se pierde los resultados enriquecidos de Google para vehiculos. Es
+ * el hallazgo numero 10 de la auditoria.
+ */
+interface Props { coche: Coche; idioma: Idioma; }
+const { coche: c, idioma } = Astro.props;
+
+const url = urlAbsoluta('coches', idioma, c.slug);
+const cat = c.catalogo;
+
+/** "200.000 €" -> 200000. Sin precio no se emite Offer. */
+const precio = (() => {
+  const m = (c.cierre.precio || cat?.precio || '').replace(/[^\d.,]/g, '');
+  if (!m) return null;
+  const n = Number(m.replace(/\./g, '').replace(',', '.'));
+  return Number.isFinite(n) && n > 0 ? n : null;
+})();
+
+const ESTADO = {
+  disponible: 'https://schema.org/InStock',
+  reservado: 'https://schema.org/PreOrder',
+  vendido: 'https://schema.org/SoldOut',
+  proximamente: 'https://schema.org/PreOrder',
+} as const;
+
+const dato = (clave: RegExp) =>
+  c.intro.datos.find((d) => clave.test(d.clave))?.valor;
+
+const anio = dato(/^(año|jahr|year|anno|any)/i)?.match(/\d{4}/)?.[0];
+const km = dato(/(kil|km|mileage|chilom)/i)?.replace(/[^\d]/g, '');
+// La etiqueta se sustituye por un espacio, no se borra: "RUF<br/>Kompressor R"
+// quitando el <br/> a secas daba "RUFKompressor R".
+const sinHtml = (s: string) => s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+
+const datos: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Vehicle',
+  '@id': `${url}#vehiculo`,
+  name: sinHtml(`${c.hero.subtitulo} ${c.hero.titulo}`),
+  description: c.meta.descripcion,
+  url,
+  inLanguage: idioma,
+  brand: { '@type': 'Brand', name: 'Porsche' },
+  image: c.galeria.fotos.slice(0, 6).map((f) => DOMINIO + f.src),
+  vehicleConfiguration: cat?.nombre,
+};
+if (anio) datos.productionDate = anio;
+if (km) datos.mileageFromOdometer = { '@type': 'QuantitativeValue', value: Number(km), unitCode: 'KMT' };
+if (dato(/^(color|außen|exterior|colore)/i)) datos.color = dato(/^(color|außen|exterior|colore)/i);
+if (dato(/(cambio|getriebe|gearbox|boîte|caixa)/i)) {
+  datos.vehicleTransmission = dato(/(cambio|getriebe|gearbox|boîte|caixa)/i);
+}
+if (precio) {
+  datos.offers = {
+    '@type': 'Offer',
+    price: precio,
+    priceCurrency: 'EUR',
+    availability: ESTADO[cat?.estado ?? 'disponible'],
+    url,
+    seller: { '@id': `${DOMINIO}#organizacion` },
+    itemCondition: 'https://schema.org/UsedCondition',
+  };
+}
+---
+<script type="application/ld+json" set:html={JSON.stringify(datos)} is:inline></script>

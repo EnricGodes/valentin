@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import rehypeMedios from './plugins/rehype-medios.mjs';
+import sitemap from '@astrojs/sitemap';
 
 /**
  * El espanol vive en la raiz, sin prefijo, para que ninguna de las URLs que hoy
@@ -17,6 +18,18 @@ export default defineConfig({
     defaultLocale: 'es',
     routing: { prefixDefaultLocale: false, redirectToDefaultLocale: false },
   },
+  integrations: [
+    sitemap({
+      // La pagina interna de verificacion del sistema no entra en el sitemap
+      filter: (url) => !url.includes('/sistema'),
+      i18n: {
+        defaultLocale: 'es',
+        locales: { es: 'es-ES', en: 'en', fr: 'fr', it: 'it', de: 'de', ca: 'ca' },
+      },
+      changefreq: 'weekly',
+      lastmod: new Date(),
+    }),
+  ],
   image: { responsiveStyles: true },
   markdown: { rehypePlugins: [rehypeMedios] },
 });

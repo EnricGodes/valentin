@@ -1,0 +1,26 @@
+---
+import { DOMINIO, type Idioma } from '../../i18n/config';
+import { urlAbsoluta } from '../../i18n/routes';
+
+/** Migas de pan para Google: sustituyen la URL cruda bajo el titulo del
+ *  resultado por la ruta legible del sitio. */
+export interface Miga { nombre: string; rutaId?: string; extra?: string[]; url?: string; }
+interface Props { migas: Miga[]; idioma: Idioma; }
+const { migas, idioma } = Astro.props;
+
+const datos = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Valentín Motors',
+      item: DOMINIO + (idioma === 'es' ? '/' : `/${idioma}`) },
+    ...migas.map((m, i) => ({
+      '@type': 'ListItem',
+      position: i + 2,
+      name: m.nombre,
+      item: m.url ?? (m.rutaId ? urlAbsoluta(m.rutaId, idioma, ...(m.extra ?? [])) : undefined),
+    })),
+  ],
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(datos)} is:inline></script>

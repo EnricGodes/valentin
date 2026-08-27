@@ -1,0 +1,30 @@
+---
+import { DOMINIO, type Idioma } from '../../i18n/config';
+
+interface Props {
+  titulo: string;
+  descripcion: string;
+  fecha: Date;
+  autor: string;
+  url: string;
+  imagen?: string;
+  idioma: Idioma;
+}
+const { titulo, descripcion, fecha, autor, url, imagen, idioma } = Astro.props;
+
+const datos = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  '@id': `${url}#articulo`,
+  headline: titulo.slice(0, 110),
+  description: descripcion,
+  datePublished: fecha.toISOString(),
+  dateModified: fecha.toISOString(),
+  inLanguage: idioma,
+  author: { '@type': 'Person', name: autor || 'Valentín Motors' },
+  publisher: { '@id': `${DOMINIO}#organizacion` },
+  mainEntityOfPage: url,
+  ...(imagen ? { image: DOMINIO + imagen } : {}),
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(datos)} is:inline></script>
