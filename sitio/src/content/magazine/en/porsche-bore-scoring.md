@@ -1,5 +1,7 @@
 ---
 title: "What is Porsche bore scoring?"
+metaTitulo: "Porsche bore scoring: causes, symptoms and the fix"
+metaDescripcion: "Bore scoring affects the M96 and M97 from 1997 to 2008. How to spot it, why the sixth cylinder suffers most and why NSC sleeving is the only fix."
 slugSquarespace: "porsche-bore-scoring"
 slugFinal: "porsche-bore-scoring"
 slugOriginal: "porsche-bore-scoring"

@@ -1,5 +1,7 @@
 ---
 title: "Què és l’IMS de Porsche?"
+metaTitulo: "IMS Porsche: com saber si el teu cotxe està afectat i com es repara"
+metaDescripcion: "L’IMS afecta els motors M96 i M97 del 1997 al 2008: 996, 997, Boxster i Cayman. Com saber si el teu Porsche està afectat i quina solució té."
 slugSquarespace: "que-es-el-ims-de-porsche"
 slugFinal: "que-es-el-ims-de-porsche"
 slugOriginal: "que-es-el-ims-de-porsche"

@@ -1,5 +1,7 @@
 ---
 title: "10 films de ce siècle avec des Porsche"
+metaTitulo: "10 films de ce siècle avec une Porsche à l’écran"
+metaDescripcion: "Une sélection sans spoilers : dix films de ce siècle où une Porsche vole la scène. Quel modèle apparaît dans chacun, et dans quelle scène."
 slugSquarespace: "10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche"
 slugFinal: "10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche"
 slugOriginal: "10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche"

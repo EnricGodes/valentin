@@ -1,5 +1,7 @@
 ---
 title: "Qu’est-ce que le bore scoring sur Porsche ?"
+metaTitulo: "Bore scoring Porsche : causes, symptômes et solution"
+metaDescripcion: "Le bore scoring touche les M96 et M97 de 1997 à 2008. Comment le reconnaître, pourquoi le sixième cylindre souffre et pourquoi le NSC est la solution."
 slugSquarespace: "porsche-bore-scoring"
 slugFinal: "porsche-bore-scoring"
 slugOriginal: "porsche-bore-scoring"

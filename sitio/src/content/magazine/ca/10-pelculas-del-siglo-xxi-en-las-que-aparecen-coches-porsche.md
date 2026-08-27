@@ -1,5 +1,7 @@
 ---
 title: "10 pel·lícules del segle XXI en què apareixen cotxes Porsche"
+metaTitulo: "10 pel·lícules d’aquest segle amb un Porsche en escena"
+metaDescripcion: "Una selecció sense spoilers: deu pel·lícules d’aquest segle en què un Porsche es porta el pla. Quin model surt a cadascuna, i en quina escena."
 slugSquarespace: "10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche"
 slugFinal: "10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche"
 slugOriginal: "10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche"

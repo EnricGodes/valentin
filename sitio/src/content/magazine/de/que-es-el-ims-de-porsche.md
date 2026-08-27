@@ -1,5 +1,7 @@
 ---
 title: "Was ist die IMS bei Porsche?"
+metaTitulo: "Porsche IMS: erkennen, ob Ihr Fahrzeug betroffen ist, und reparieren"
+metaDescripcion: "Die IMS betrifft die Motoren M96 und M97 von 1997 bis 2008: 996, 997, Boxster und Cayman. Wie Sie erkennen, ob Ihrer betroffen ist, und die Lösung."
 slugSquarespace: "que-es-el-ims-de-porsche"
 slugFinal: "que-es-el-ims-de-porsche"
 slugOriginal: "que-es-el-ims-de-porsche"
