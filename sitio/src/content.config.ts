@@ -11,6 +11,15 @@ const magazine = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/magazine' }),
   schema: z.object({
     title: z.string(),
+    /** Titulo para el <title> y para Google, cuando debe decir algo distinto
+     *  del titular del articulo. El H1 del post sigue usando `title`.
+     *  Caso real: el articulo se titula "¿Que es el IMS de Porsche?", pero
+     *  quien busca "ims porsche" ya sabe que es; lo que quiere saber es si le
+     *  afecta y cuanto cuesta arreglarlo. */
+    metaTitulo: z.string().optional(),
+    /** Meta description propia, cuando el excerpt no es lo que conviene
+     *  ensenar en el resultado de busqueda. */
+    metaDescripcion: z.string().optional(),
     /** Slug que tenia en Squarespace. NO se llama "slug": Astro reserva ese
      *  nombre como id de la entrada y las seis versiones de idioma colisionaban. */
     slugSquarespace: z.string(),

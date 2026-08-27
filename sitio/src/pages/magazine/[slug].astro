@@ -42,12 +42,12 @@ const descripcion = limpio(post.data.excerpt).slice(0, 300)
   rutaId="magazine"
   extra={[post.data.slugFinal]}
   idiomasPublicados={idiomas}
-  titulo={`${post.data.title} · Valentin Motors`}
-  descripcion={descripcion}
+  titulo={post.data.metaTitulo ?? `${post.data.title} · Valentin Motors`}
+  descripcion={post.data.metaDescripcion ?? descripcion}
 >
   <Fragment slot="head">
     <Articulo titulo={post.data.title}
-              descripcion={limpio(post.data.excerpt).slice(0, 300)}
+              descripcion={post.data.metaDescripcion ?? limpio(post.data.excerpt).slice(0, 300)}
               fecha={post.data.date} autor={post.data.author}
               url={DOMINIO + url('magazine', idioma, post.data.slugFinal)}
               imagen={portada} idioma={idioma} />

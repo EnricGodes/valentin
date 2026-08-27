@@ -90,11 +90,13 @@ const extra = coche ? [coche.slug] : vendido ? [vendido.slug] : [];
 const titulo = coche?.meta.titulo
   ?? pagina?.meta.titulo
   ?? (vendido ? `${vendido.nombre} · ${t('estado.vendido')} · Valentin Motors` : null)
-  ?? `${t('nav.coches')} · Valentin Motors`;
+  ?? t('catalogo.titulo');
+// El listado no tenia meta description en Squarespace, asi que Google se
+// inventaba el texto del resultado a partir del contenido de la pagina.
 const descripcion = coche?.meta.descripcion
   ?? pagina?.meta.descripcion
   ?? vendido?.descripcion
-  ?? 'Seleccion de Porsche de coleccion verificados por Valentin Motors, especialistas Porsche desde 1979.';
+  ?? t('catalogo.descripcion');
 
 /* Solo se declaran las alternantes que existen de verdad. Declarar un hreflang
    hacia una pagina no publicada es uno de los tres errores que hacen que Google

@@ -30,6 +30,21 @@ export const UI = {
   'pie.cookies':     { es: 'Cookies', en: 'Cookies', fr: 'Cookies', it: 'Cookie', de: 'Cookies', ca: 'Cookies' },
   'pie.soloEspanol': { es: '', en: 'in Spanish', fr: 'en espagnol', it: 'in spagnolo', de: 'auf Spanisch', ca: 'en castella' },
 
+  'catalogo.titulo': {
+    es: 'Porsche de colección en venta · Valentín Motors',
+    en: 'Collector Porsche for sale · Valentín Motors',
+    fr: 'Porsche de collection à vendre · Valentín Motors',
+    it: 'Porsche da collezione in vendita · Valentín Motors',
+    de: 'Sammler-Porsche zu verkaufen · Valentín Motors',
+    ca: 'Porsche de col·lecció en venda · Valentín Motors' },
+  'catalogo.descripcion': {
+    es: 'Selección de Porsche verificados por un especialista independiente desde 1979. Cada coche con historial documentado y 12 meses de garantía.',
+    en: 'A selection of Porsche vetted by an independent specialist since 1979. Every car with documented history and a 12-month warranty.',
+    fr: 'Une sélection de Porsche vérifiées par un spécialiste indépendant depuis 1979. Chaque voiture avec historique documenté et douze mois de garantie.',
+    it: 'Una selezione di Porsche verificate da uno specialista indipendente dal 1979. Ogni vettura con storia documentata e dodici mesi di garanzia.',
+    de: 'Eine Auswahl von Porsche, geprüft von einem freien Spezialisten seit 1979. Jedes Fahrzeug mit dokumentierter Historie und zwölf Monaten Garantie.',
+    ca: 'Selecció de Porsche verificats per un especialista independent des de 1979. Cada cotxe amb historial documentat i dotze mesos de garantia.' },
+
   'cookies.titulo':  { es: 'Cookies', en: 'Cookies', fr: 'Cookies', it: 'Cookie', de: 'Cookies', ca: 'Galetes' },
   'cookies.texto': {
     es: 'Usamos analítica sin cookies para saber qué páginas se leen. Si aceptas, añadimos Google Analytics para entender mejor de dónde llegas.',
