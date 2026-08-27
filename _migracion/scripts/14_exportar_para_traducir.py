@@ -75,6 +75,11 @@ def exportar_paginas():
             for j, it in enumerate(s['items']):
                 fuera.append(entrada(f'pagina:{nombre}:s{i}.i{j}', 'elemento-lista',
                     f'{ctx} — lista de "{s["titulo"][:40]}"', it, pend))
+            for j, im in enumerate(s['imagenes']):
+                if im.get('alt'):
+                    fuera.append(entrada(f'pagina:{nombre}:s{i}.alt{j}', 'texto-alternativo',
+                        f'{ctx} — texto alternativo de una foto', im['alt'], pend,
+                        nota='Lo lee un lector de pantalla y lo indexa Google Imagenes.'))
 
         for i, a in enumerate(d.get('acordeones', [])):
             fuera.append(entrada(f'pagina:{nombre}:a{i}.modelo', 'nombre-modelo',
@@ -120,6 +125,12 @@ def exportar_coches():
             if val:
                 fuera.append(entrada(f'coche:{eid}', tipo, f'{ctx} — {que}', val, pend, limite=lim))
 
+        # Lo que NO se traduce y por que:
+        #   hero.titulo / hero.subtitulo  designacion de modelo ("RUF Kompressor R")
+        #   catalogo.marca / .nombre      designacion de modelo
+        #   opinion.nombre                nombre de una persona
+        #   intro.datos[].valor           colores oficiales, matriculas y cifras
+        #   specs...filas[].valor         valores tecnicos
         for bloque in ('intro', 'galeria', 'ingenieria', 'exterior', 'interior',
                        'procedencia', 'specs', 'opinion', 'kit'):
             b = d.get(bloque)
@@ -135,6 +146,88 @@ def exportar_coches():
             for j, p in enumerate(b.get('parrafos', [])):
                 fuera.append(entrada(f'coche:{slug}:{bloque}.p{j}', 'parrafo',
                     f'{ctx} — {bloque}', p, pend))
+        # ── bloques que faltaban
+        if d['intro'].get('cita'):
+            fuera.append(entrada(f'coche:{slug}:intro.cita', 'frase',
+                f'{ctx} — cita destacada de la introduccion', d['intro']['cita'], pend))
+        if d['exterior'].get('texto'):
+            fuera.append(entrada(f'coche:{slug}:exterior.texto', 'parrafo',
+                f'{ctx} — texto editorial de exterior', d['exterior']['texto'], pend))
+        if d['interior'].get('editorial'):
+            fuera.append(entrada(f'coche:{slug}:interior.editorial', 'parrafo',
+                f'{ctx} — texto editorial de interior', d['interior']['editorial'], pend))
+        for j, t in enumerate(d['ingenieria'].get('tags', [])):
+            fuera.append(entrada(f'coche:{slug}:ingenieria.tag{j}', 'etiqueta',
+                f'{ctx} — etiqueta tecnica bajo el texto de ingenieria', t, pend,
+                nota='Kompressor, Intercooler y AWD no se traducen; "Sin lag" o "Manual" si.'))
+        for j, st in enumerate(d['ingenieria'].get('stats', [])):
+            fuera.append(entrada(f'coche:{slug}:ingenieria.stat{j}', 'etiqueta',
+                f'{ctx} — nombre de una cifra destacada (la cifra no se toca)',
+                st['etiqueta'], pend, limite=20))
+        for j, h in enumerate(d['procedencia'].get('hitos', [])):
+            fuera.append(entrada(f'coche:{slug}:procedencia.h{j}.titulo', 'titulo-seccion',
+                f'{ctx} — hito del historial', h['titulo'], pend))
+            fuera.append(entrada(f'coche:{slug}:procedencia.h{j}.cuerpo', 'parrafo',
+                f'{ctx} — hito del historial "{h["titulo"][:34]}"', h['cuerpo'], pend))
+            if h.get('badge'):
+                fuera.append(entrada(f'coche:{slug}:procedencia.h{j}.badge', 'etiqueta',
+                    f'{ctx} — sello del hito', h['badge'], pend, limite=42))
+        for j, c in enumerate(d.get('kit', {}).get('categorias', [])):
+            fuera.append(entrada(f'coche:{slug}:kit.c{j}.titulo', 'titulo-seccion',
+                f'{ctx} — categoria del equipamiento', c['titulo'], pend, limite=24))
+            for k, it in enumerate(c['items']):
+                fuera.append(entrada(f'coche:{slug}:kit.c{j}.i{k}', 'elemento-lista',
+                    f'{ctx} — equipamiento de "{c["titulo"]}"', it, pend))
+        op = d.get('opinion')
+        if op:
+            for campo, tipo, que, lim in (
+                    ('rol', 'etiqueta', 'cargo de quien firma la opinion', 48),
+                    ('bio', 'parrafo', 'biografia breve', None),
+                    ('intro', 'frase', 'entradilla de la opinion', None),
+                    ('prosTitulo', 'titulo-seccion', 'titulo de la columna de pros', 20),
+                    ('contrasTitulo', 'titulo-seccion', 'titulo de la columna de contras', 20)):
+                if op.get(campo):
+                    fuera.append(entrada(f'coche:{slug}:opinion.{campo}', tipo,
+                        f'{ctx} — {que}', op[campo], pend, limite=lim))
+            for j, x in enumerate(op.get('pros', [])):
+                fuera.append(entrada(f'coche:{slug}:opinion.pro{j}', 'elemento-lista',
+                    f'{ctx} — punto a favor', x, pend))
+            for j, x in enumerate(op.get('contras', [])):
+                fuera.append(entrada(f'coche:{slug}:opinion.contra{j}', 'elemento-lista',
+                    f'{ctx} — punto a considerar', x, pend))
+        for campo, que in (('aviso', 'aviso de estado en el cierre'),
+                           ('nota', 'nota de disponibilidad en el cierre')):
+            if d['cierre'].get(campo):
+                fuera.append(entrada(f'coche:{slug}:cierre.{campo}', 'frase',
+                    f'{ctx} — {que}', d['cierre'][campo], pend))
+        cat = d.get('catalogo')
+        if cat:
+            fuera.append(entrada(f'coche:{slug}:catalogo.estadoTexto', 'etiqueta',
+                f'{ctx} — estado en la tarjeta del catalogo', cat['estadoTexto'], pend, limite=16))
+            if cat.get('detalle'):
+                fuera.append(entrada(f'coche:{slug}:catalogo.detalle', 'etiqueta',
+                    f'{ctx} — linea de datos de la tarjeta (anio, km y color)',
+                    cat['detalle'], pend, limite=44,
+                    nota=('Traduce solo el color si esta en espanol ("Negro", "Plata"). '
+                          'Los colores oficiales Porsche (Irish Green, Agate Grey, '
+                          'Tangerine) no se traducen. El anio y los km no se tocan.')))
+            if cat.get('descripcion'):
+                fuera.append(entrada(f'coche:{slug}:catalogo.descripcion', 'parrafo',
+                    f'{ctx} — descripcion corta en la tarjeta del catalogo',
+                    cat['descripcion'], pend, limite=180))
+        # alt de todas las fotos
+        for bloque in ('galeria', 'exterior', 'interior'):
+            for j, x in enumerate(d[bloque]['fotos']):
+                if x.get('alt'):
+                    fuera.append(entrada(f'coche:{slug}:{bloque}.alt{j}', 'texto-alternativo',
+                        f'{ctx} — texto alternativo de una foto de {bloque}', x['alt'], pend,
+                        nota='Lo lee un lector de pantalla y lo indexa Google Imagenes.'))
+        for bloque in ('exterior', 'interior'):
+            for j, x in enumerate(d[bloque]['fotos']):
+                if x.get('caption'):
+                    fuera.append(entrada(f'coche:{slug}:{bloque}.cap{j}', 'pie-de-foto',
+                        f'{ctx} — pie de foto de {bloque}', x['caption'], pend))
+
         # datos, captions y specs
         for j, x in enumerate(d['intro']['datos']):
             fuera.append(entrada(f'coche:{slug}:intro.dato{j}', 'etiqueta',

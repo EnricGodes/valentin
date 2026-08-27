@@ -99,7 +99,31 @@ def textos(d):
     if 'hero' in d:
         fuera += [d['hero'].get(k, '') for k in ('eyebrow', 'claim', 'precioLabel')]
     if 'cierre' in d:
-        fuera += [d['cierre'].get(k, '') for k in ('cita', 'precioLabel', 'ctaTexto')]
+        fuera += [d['cierre'].get(k, '') for k in ('cita', 'precioLabel', 'ctaTexto', 'aviso', 'nota')]
+    if 'intro' in d:
+        fuera.append(d['intro'].get('cita', ''))
+    if 'exterior' in d:
+        fuera.append(d['exterior'].get('texto', ''))
+        fuera += [f.get('caption', '') for f in d['exterior'].get('fotos', [])]
+    if 'interior' in d:
+        fuera.append(d['interior'].get('editorial', ''))
+        fuera += [f.get('caption', '') for f in d['interior'].get('fotos', [])]
+    if 'ingenieria' in d:
+        fuera += d['ingenieria'].get('tags', [])
+        fuera += [x['etiqueta'] for x in d['ingenieria'].get('stats', [])]
+    for h in d.get('procedencia', {}).get('hitos', []):
+        fuera += [h.get('titulo', ''), h.get('cuerpo', ''), h.get('badge', '')]
+    for c in d.get('kit', {}).get('categorias', []):
+        fuera += [c['titulo']] + c['items']
+    op = d.get('opinion') or {}
+    fuera += [op.get(k, '') for k in ('rol', 'bio', 'intro', 'prosTitulo', 'contrasTitulo')]
+    fuera += op.get('pros', []) + op.get('contras', [])
+    cat = d.get('catalogo') or {}
+    fuera += [cat.get(k, '') for k in ('estadoTexto', 'descripcion', 'detalle')]
+    for b in ('galeria', 'exterior', 'interior'):
+        fuera += [f.get('alt', '') for f in d.get(b, {}).get('fotos', [])]
+    for s in d.get('secciones', []):
+        fuera += [i.get('alt', '') for i in s.get('imagenes', [])]
     return [x for x in fuera if x and len(x) > 3]
 
 
@@ -127,6 +151,7 @@ def aplica_pagina(destino, idioma, texto, cache):
     elif m := re.fullmatch(r's(\d+)\.titulo', campo):  d['secciones'][int(m[1])]['titulo'] = texto
     elif m := re.fullmatch(r's(\d+)\.p(\d+)', campo):  d['secciones'][int(m[1])]['parrafos'][int(m[2])] = texto
     elif m := re.fullmatch(r's(\d+)\.i(\d+)', campo):  d['secciones'][int(m[1])]['items'][int(m[2])] = texto
+    elif m := re.fullmatch(r's(\d+)\.alt(\d+)', campo): d['secciones'][int(m[1])]['imagenes'][int(m[2])]['alt'] = texto
     elif m := re.fullmatch(r'a(\d+)\.modelo', campo):  d['acordeones'][int(m[1])]['modelo'] = texto
     elif m := re.fullmatch(r'a(\d+)\.p(\d+)', campo):  d['acordeones'][int(m[1])]['parrafos'][int(m[2])] = texto
     elif m := re.fullmatch(r'a(\d+)\.i(\d+)', campo):  d['acordeones'][int(m[1])]['items'][int(m[2])] = texto
@@ -150,6 +175,25 @@ def aplica_coche(destino, idioma, texto, cache):
     elif m := re.fullmatch(r'galeria\.cap(\d+)', campo): d['galeria']['fotos'][int(m[1])]['caption'] = texto
     elif m := re.fullmatch(r'specs\.g(\d+)\.titulo', campo): d['specs']['grupos'][int(m[1])]['titulo'] = texto
     elif m := re.fullmatch(r'specs\.g(\d+)\.f(\d+)', campo): d['specs']['grupos'][int(m[1])]['filas'][int(m[2])]['clave'] = texto
+    elif campo == 'intro.cita':        d['intro']['cita'] = texto
+    elif campo == 'exterior.texto':    d['exterior']['texto'] = texto
+    elif campo == 'interior.editorial': d['interior']['editorial'] = texto
+    elif m := re.fullmatch(r'ingenieria\.tag(\d+)', campo):  d['ingenieria']['tags'][int(m[1])] = texto
+    elif m := re.fullmatch(r'ingenieria\.stat(\d+)', campo): d['ingenieria']['stats'][int(m[1])]['etiqueta'] = texto
+    elif m := re.fullmatch(r'procedencia\.h(\d+)\.(titulo|cuerpo|badge)', campo):
+        d['procedencia']['hitos'][int(m[1])][m[2]] = texto
+    elif m := re.fullmatch(r'kit\.c(\d+)\.titulo', campo): d['kit']['categorias'][int(m[1])]['titulo'] = texto
+    elif m := re.fullmatch(r'kit\.c(\d+)\.i(\d+)', campo): d['kit']['categorias'][int(m[1])]['items'][int(m[2])] = texto
+    elif m := re.fullmatch(r'opinion\.pro(\d+)', campo):    d['opinion']['pros'][int(m[1])] = texto
+    elif m := re.fullmatch(r'opinion\.contra(\d+)', campo): d['opinion']['contras'][int(m[1])] = texto
+    elif m := re.fullmatch(r'opinion\.(rol|bio|intro|prosTitulo|contrasTitulo)', campo):
+        d['opinion'][m[1]] = texto
+    elif m := re.fullmatch(r'catalogo\.(estadoTexto|descripcion|detalle)', campo):
+        d['catalogo'][m[1]] = texto
+    elif m := re.fullmatch(r'(galeria|exterior|interior)\.alt(\d+)', campo):
+        d[m[1]]['fotos'][int(m[2])]['alt'] = texto
+    elif m := re.fullmatch(r'(exterior|interior)\.cap(\d+)', campo):
+        d[m[1]]['fotos'][int(m[2])]['caption'] = texto
     else: raise KeyError(f'campo desconocido en {destino}')
 
 
@@ -232,14 +276,31 @@ def main():
         base = COCHES / f'{f.stem.split(".")[0]}.json'
         d['traduccion'] = cobertura(d, json.loads(base.read_text()))
         f.write_text(json.dumps(d, indent=2, ensure_ascii=False) + '\n')
+    # Un articulo solo se escribe si su CUERPO esta traducido.
+    #
+    # Sin esto, traducir una cadena compartida como "Mas informacion" -cuyo
+    # texto vive en el boton de trece articulos distintos- creaba trece
+    # ficheros ingleses con el cuerpo entero en espanol, y se publicaban.
+    escritos_post, saltados = 0, []
     for (slug, idioma), d in cache_post.items():
+        cuerpo_es = (MAGAZINE / 'es' / f'{slug}.md').read_text().split('---', 2)[2].strip()
+        ya_existe = (MAGAZINE / idioma / f'{slug}.md').exists()
+        if d['cuerpo'].strip() == cuerpo_es and not ya_existe:
+            saltados.append(f'{idioma}/{slug}')
+            continue
         fm = re.sub(r'^lang: .*$', f'lang: {idioma}', d['fm'], 1, re.M)
         destino = MAGAZINE / idioma / f'{slug}.md'
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text('---' + fm + '---\n' + d['cuerpo'] + '\n')
+        escritos_post += 1
 
     print(f'\nEscritos: {len(cache_pag)} paginas, {len(cache_coche)} fichas, '
-          f'{len(cache_post)} articulos')
+          f'{escritos_post} articulos')
+    if saltados:
+        print(f'\n{len(saltados)} articulos sin escribir: solo llego una cadena '
+              f'suelta y el cuerpo seguia en espanol.')
+        for x in saltados[:8]:
+            print(f'  {x}')
     incompletas = [(f.name, d['traduccion']) for f, d in
                    list(cache_pag.items()) + list(cache_coche.items())
                    if not d['traduccion']['completa']]
