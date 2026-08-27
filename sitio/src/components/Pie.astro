@@ -1,5 +1,5 @@
 ---
-import type { Idioma } from '../i18n/config';
+import { POR_DEFECTO, type Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 
@@ -7,12 +7,25 @@ interface Props { idioma: Idioma; }
 const { idioma } = Astro.props;
 const t = traductor(idioma);
 const anio = new Date().getFullYear();
+
+/* Las paginas legales existen SOLO en espanol: son textos juridicos bajo ley
+   espanola y la version vinculante es esa. Por eso el pie enlaza siempre al
+   espanol, con lang="es" para que el navegador y el lector de pantalla sepan
+   en que idioma esta lo que hay al otro lado. Enlazar a /en/legal-notice era
+   enlazar a un 404. */
+const legal = (id: string) => url(id, POR_DEFECTO);
+const otroIdioma = idioma !== POR_DEFECTO;
 ---
 <footer class="pie">
   <p class="footer-brand">Valentin<span>Motors</span> &middot; {t('footer.desde')}</p>
   <p class="footer-copy">
-    <a href={url('aviso-legal', idioma)}>Legal</a> &middot;
-    <a href={url('privacidad', idioma)}>Privacidad</a> &middot;
-    VM German Engineering, S.L. &copy; {anio}
+    <a href={legal('aviso-legal')} lang="es" hreflang="es">{t('pie.legal')}</a> &middot;
+    <a href={legal('privacidad')} lang="es" hreflang="es">{t('pie.privacidad')}</a> &middot;
+    <a href={legal('cookies')} lang="es" hreflang="es">{t('pie.cookies')}</a>
+    {otroIdioma && <span class="footer-nota">({t('pie.soloEspanol')})</span>}
+    &middot; VM German Engineering, S.L. &copy; {anio}
   </p>
 </footer>
+<style>
+  .footer-nota { opacity: .65; }
+</style>

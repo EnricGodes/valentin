@@ -25,6 +25,11 @@ export const UI = {
   'cta.info':        { es: 'Mas informacion', en: 'Enquire', fr: 'Plus d’informations', it: 'Maggiori informazioni', de: 'Mehr erfahren', ca: 'Mes informacio' },
   'cta.ficha':       { es: 'Ver ficha', en: 'View details', fr: 'Voir la fiche', it: 'Vedi scheda', de: 'Details ansehen', ca: 'Veure fitxa' },
 
+  'pie.legal':       { es: 'Aviso legal', en: 'Legal notice', fr: 'Mentions legales', it: 'Note legali', de: 'Impressum', ca: 'Avis legal' },
+  'pie.privacidad':  { es: 'Privacidad', en: 'Privacy', fr: 'Confidentialite', it: 'Privacy', de: 'Datenschutz', ca: 'Privacitat' },
+  'pie.cookies':     { es: 'Cookies', en: 'Cookies', fr: 'Cookies', it: 'Cookie', de: 'Cookies', ca: 'Cookies' },
+  'pie.soloEspanol': { es: '', en: 'in Spanish', fr: 'en espagnol', it: 'in spagnolo', de: 'auf Spanisch', ca: 'en castella' },
+
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Specialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 
