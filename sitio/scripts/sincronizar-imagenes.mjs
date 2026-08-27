@@ -42,14 +42,6 @@ if (existsSync(pags)) {
   console.log(`fotos de paginas: ${(await readdir(pagsDest)).length} ficheros`);
 }
 
-// Videos rescatados de Squarespace, que se servian por HLS y no sobreviven a
-// la cancelacion de la cuenta.
-const videos = resolve(aqui, '../../_migracion/contenido/videos');
-const videosDest = resolve(aqui, '../public/video/magazine');
-if (existsSync(videos)) {
-  await rm(videosDest, { recursive: true, force: true });
-  await mkdir(videosDest, { recursive: true });
-  await cp(videos, videosDest, { recursive: true });
-  const n = (await readdir(videosDest)).length;
-  console.log(`videos del magazine: ${n} ficheros -> ${videosDest}`);
-}
+// El video del Magazine lo gestiona scripts/optimizar-videos.mjs, que es el
+// unico dueno de public/video/magazine: copiar aqui los originales encima
+// deshacia la recodificacion y devolvia ficheros de 40 MB al deploy.
