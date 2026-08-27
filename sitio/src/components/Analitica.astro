@@ -1,0 +1,50 @@
+---
+/**
+ * Medicion del sitio.
+ *
+ * Dos capas, por una razon: en Espana entre el 20% y el 40% de los visitantes
+ * rechaza las cookies, y con GA4 a secas esa gente sencillamente no existe en
+ * los informes.
+ *
+ *   Cloudflare Web Analytics  sin cookies, sin banner, mide al 100%
+ *   GA4                       solo tras consentimiento, conserva el historico
+ *                             y los key events
+ */
+interface Props { ga4?: string; cloudflare?: string; }
+const {
+  ga4 = import.meta.env.PUBLIC_GA4_ID ?? 'G-7BXF6VQQMP',
+  cloudflare = import.meta.env.PUBLIC_CF_BEACON ?? '',
+} = Astro.props;
+---
+{cloudflare && (
+  <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={`{"token": "${cloudflare}"}`}></script>
+)}
+
+<script is:inline define:vars={{ ga4 }}>
+  // Consent Mode v2: gtag se configura SIEMPRE, pero arranca denegado. Asi, en
+  // cuanto el usuario acepta, no hace falta recargar para empezar a medir.
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    wait_for_update: 500,
+  });
+
+  const CLAVE = 'vm-consentimiento';
+  let leido = null;
+  try { leido = localStorage.getItem(CLAVE); } catch (e) { /* modo privado */ }
+
+  if (leido === 'aceptado') {
+    gtag('consent', 'update', { analytics_storage: 'granted' });
+    const s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4;
+    document.head.appendChild(s);
+    gtag('js', new Date());
+    gtag('config', ga4, { anonymize_ip: true });
+  }
+</script>

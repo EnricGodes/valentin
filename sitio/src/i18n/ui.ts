@@ -30,6 +30,34 @@ export const UI = {
   'pie.cookies':     { es: 'Cookies', en: 'Cookies', fr: 'Cookies', it: 'Cookie', de: 'Cookies', ca: 'Cookies' },
   'pie.soloEspanol': { es: '', en: 'in Spanish', fr: 'en espagnol', it: 'in spagnolo', de: 'auf Spanisch', ca: 'en castella' },
 
+  'cookies.titulo':  { es: 'Cookies', en: 'Cookies', fr: 'Cookies', it: 'Cookie', de: 'Cookies', ca: 'Galetes' },
+  'cookies.texto': {
+    es: 'Usamos analítica sin cookies para saber qué páginas se leen. Si aceptas, añadimos Google Analytics para entender mejor de dónde llegas.',
+    en: 'We use cookieless analytics to see which pages get read. If you accept, we add Google Analytics to better understand where you come from.',
+    fr: 'Nous utilisons une analyse sans cookies pour savoir quelles pages sont lues. Si vous acceptez, nous ajoutons Google Analytics pour mieux comprendre d’où vous venez.',
+    it: 'Usiamo analisi senza cookie per sapere quali pagine vengono lette. Se accetta, aggiungiamo Google Analytics per capire meglio da dove arriva.',
+    de: 'Wir nutzen eine Analyse ohne Cookies, um zu sehen, welche Seiten gelesen werden. Wenn Sie zustimmen, ergänzen wir Google Analytics, um besser zu verstehen, woher Sie kommen.',
+    ca: 'Fem servir analítica sense galetes per saber quines pàgines es llegeixen. Si ho acceptes, hi afegim Google Analytics per entendre millor d’on arribes.' },
+  'cookies.aceptar':  { es: 'Aceptar', en: 'Accept', fr: 'Accepter', it: 'Accetto', de: 'Zustimmen', ca: 'Accepta' },
+  'cookies.rechazar': { es: 'Solo lo necesario', en: 'Essential only', fr: 'Strictement nécessaire', it: 'Solo il necessario', de: 'Nur das Nötige', ca: 'Només el necessari' },
+  'cookies.masInfo':  { es: 'Política de cookies', en: 'Cookie policy', fr: 'Politique de cookies', it: 'Informativa cookie', de: 'Cookie-Richtlinie', ca: 'Política de galetes' },
+
+  'vendido.explicacion': {
+    es: 'Este Porsche ya se ha vendido. Mantenemos su página porque forma parte del stock que ha pasado por nuestras manos, y porque quien buscaba este modelo merece encontrar algo mejor que un error.',
+    en: 'This Porsche has been sold. We keep its page because it is part of the stock that has passed through our hands, and because anyone searching for this model deserves to find something better than an error.',
+    fr: 'Cette Porsche a été vendue. Nous conservons sa page parce qu’elle fait partie des voitures passées entre nos mains, et parce que celui qui cherchait ce modèle mérite mieux qu’une page d’erreur.',
+    it: 'Questa Porsche è stata venduta. Manteniamo la sua pagina perché fa parte delle vetture passate per le nostre mani, e perché chi cercava questo modello merita qualcosa di meglio di un errore.',
+    de: 'Dieser Porsche ist verkauft. Wir behalten seine Seite, weil er zu den Fahrzeugen gehört, die durch unsere Hände gegangen sind, und weil wer dieses Modell sucht Besseres verdient als eine Fehlerseite.',
+    ca: 'Aquest Porsche ja s’ha venut. Mantenim la seva pàgina perquè forma part de l’estoc que ha passat per les nostres mans, i perquè qui buscava aquest model mereix trobar alguna cosa millor que un error.' },
+  'vendido.avisame': {
+    es: 'Avísame si entra uno similar', en: 'Tell me if a similar one comes in',
+    fr: 'Prévenez-moi si une similaire arrive', it: 'Avvisatemi se ne arriva una simile',
+    de: 'Benachrichtigen Sie mich bei einem ähnlichen', ca: 'Avisa’m si n’entra un de similar' },
+  'vendido.verStock': {
+    es: 'Ver los Porsche disponibles', en: 'See available Porsche',
+    fr: 'Voir les Porsche disponibles', it: 'Vedi le Porsche disponibili',
+    de: 'Verfügbare Porsche ansehen', ca: 'Veure els Porsche disponibles' },
+
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Specialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 

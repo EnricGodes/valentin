@@ -1,0 +1,49 @@
+---
+import type { Idioma } from '../../i18n/config';
+
+/**
+ * FAQPage a partir de los encabezados que son preguntas.
+ *
+ * Es la palanca directa contra el problema de CTR que encontro la auditoria:
+ * el articulo del IMS tiene 13.548 impresiones y solo convierte al 2,96%.
+ * Rankea, pero el resultado no invita a entrar. Un FAQPage bien formado
+ * despliega las preguntas bajo el resultado y ocupa mas espacio en la pagina.
+ *
+ * Solo se emite si hay al menos dos preguntas con respuesta de verdad: un
+ * FAQPage con una sola entrada o con respuestas vacias es peor que ninguno.
+ */
+interface Props { markdown: string; url: string; idioma: Idioma; }
+const { markdown, url, idioma } = Astro.props;
+
+const sinFormato = (s: string) =>
+  s.replace(/!\[[^\]]*\]\([^)]*\)/g, '')          // imagenes
+   .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')       // enlaces -> texto
+   .replace(/<[^>]+>/g, ' ')
+   .replace(/[*_`#>]/g, '')
+   .replace(/\s+/g, ' ')
+   .trim();
+
+/** Trocea el cuerpo por ## y se queda con los que preguntan. */
+const secciones = markdown.split(/^##\s+/m).slice(1);
+const faq = secciones
+  .map((s) => {
+    const corte = s.indexOf('\n');
+    const titulo = sinFormato(s.slice(0, corte < 0 ? undefined : corte));
+    const cuerpo = sinFormato(corte < 0 ? '' : s.slice(corte)).slice(0, 900);
+    return { titulo, cuerpo };
+  })
+  .filter((x) => x.titulo.includes('?') && x.cuerpo.length > 60);
+
+const datos = faq.length >= 2 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  '@id': `${url}#faq`,
+  inLanguage: idioma,
+  mainEntity: faq.map((x) => ({
+    '@type': 'Question',
+    name: x.titulo,
+    acceptedAnswer: { '@type': 'Answer', text: x.cuerpo },
+  })),
+} : null;
+---
+{datos && <script type="application/ld+json" set:html={JSON.stringify(datos)} is:inline></script>}

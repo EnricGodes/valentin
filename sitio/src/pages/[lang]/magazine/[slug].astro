@@ -6,6 +6,7 @@ import Pie from '../../../components/Pie.astro';
 import { url } from '../../../i18n/routes';
 import Articulo from '../../../components/seo/Articulo.astro';
 import Migas from '../../../components/seo/Migas.astro';
+import Faq from '../../../components/seo/Faq.astro';
 import { DOMINIO } from '../../../i18n/config';
 import { IDIOMAS, POR_DEFECTO, type Idioma } from '../../../i18n/config';
 
@@ -53,6 +54,8 @@ const portada = (post.body ?? '').match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1];
       { nombre: 'Magazine', rutaId: 'magazine' },
       { nombre: post.data.title, rutaId: 'magazine', extra: [post.data.slugFinal] },
     ]} />
+    <Faq markdown={post.body ?? ''}
+         url={DOMINIO + url('magazine', idioma, post.data.slugFinal)} idioma={idioma} />
   </Fragment>
   <Nav slot="nav" idioma={idioma} rutaId="magazine" extra={[post.data.slugFinal]}
        idiomasPublicados={idiomas} />

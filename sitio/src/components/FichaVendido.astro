@@ -1,0 +1,32 @@
+---
+import type { Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import type { Vendido } from '../datos/vendido';
+import CabeceraSeccion from './CabeceraSeccion.astro';
+
+interface Props { coche: Vendido; idioma: Idioma; }
+const { coche, idioma } = Astro.props;
+const t = traductor(idioma);
+---
+<article class="pagina vendido">
+  <header class="page-header">
+    <div class="shimmer-line reveal"></div>
+    <p class="section-label reveal">{t('estado.vendido')}</p>
+    <h1 class="page-title reveal delay-1">{coche.nombre}</h1>
+    <p class="catalog-meta reveal delay-2">{coche.detalle}</p>
+  </header>
+
+  <div class="contenido">
+    <div class="bloque">
+      <div class="texto-editorial reveal">
+        <p>{coche.descripcion}</p>
+        <p>{t('vendido.explicacion')}</p>
+      </div>
+      <div class="vendido-cta reveal delay-1">
+        <a class="cta" href={url('contacto', idioma)}>{t('vendido.avisame')}</a>
+        <a class="enlace-mono" href={url('coches', idioma)}>{t('vendido.verStock')} &rarr;</a>
+      </div>
+    </div>
+  </div>
+</article>

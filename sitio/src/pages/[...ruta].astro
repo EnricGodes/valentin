@@ -21,6 +21,8 @@ import Vehiculo from '../components/seo/Vehiculo.astro';
 import Migas from '../components/seo/Migas.astro';
 import { COCHES, cochesDe, idiomasDeCoche, idiomasConCatalogo, type Coche } from '../datos/coche';
 import { PAGINAS_CONTENIDO, idiomasDe, type Pagina } from '../datos/pagina';
+import { VENDIDOS, type Vendido } from '../datos/vendido';
+import FichaVendido from '../components/FichaVendido.astro';
 
 export async function getStaticPaths() {
   const rutas: any[] = [];
@@ -45,6 +47,17 @@ export async function getStaticPaths() {
     }
   }
 
+  // Coches vendidos sin ficha recuperable, en los seis idiomas: su texto vive
+  // en ui.ts, asi que existen en todos.
+  for (const idioma of IDIOMAS) {
+    for (const v of VENDIDOS) {
+      rutas.push({
+        params: { ruta: sinBarra(url('coches', idioma, v.slug)) },
+        props: { tipo: 'vendido', idioma, vendido: v },
+      });
+    }
+  }
+
   // Servicios, tarifas, centros, institucional y legales: una entrada por cada
   // idioma en el que la pagina EXISTE. Las que aun no estan traducidas no se
   // publican en ese idioma, y por tanto tampoco se declaran en el hreflang.
@@ -60,7 +73,8 @@ export async function getStaticPaths() {
 type Props =
   | { tipo: 'catalogo'; idioma: Idioma }
   | { tipo: 'ficha'; idioma: Idioma; coche: Coche }
-  | { tipo: 'pagina'; idioma: Idioma; pagina: Pagina };
+  | { tipo: 'pagina'; idioma: Idioma; pagina: Pagina }
+  | { tipo: 'vendido'; idioma: Idioma; vendido: Vendido };
 
 const props = Astro.props as Props;
 const { idioma } = props;
@@ -68,15 +82,18 @@ const t = traductor(idioma);
 
 const coche = props.tipo === 'ficha' ? props.coche : undefined;
 const pagina = props.tipo === 'pagina' ? props.pagina : undefined;
+const vendido = props.tipo === 'vendido' ? props.vendido : undefined;
 
 const rutaId = pagina ? pagina.rutaId : 'coches';
-const extra = coche ? [coche.slug] : [];
+const extra = coche ? [coche.slug] : vendido ? [vendido.slug] : [];
 
 const titulo = coche?.meta.titulo
   ?? pagina?.meta.titulo
+  ?? (vendido ? `${vendido.nombre} · ${t('estado.vendido')} · Valentin Motors` : null)
   ?? `${t('nav.coches')} · Valentin Motors`;
 const descripcion = coche?.meta.descripcion
   ?? pagina?.meta.descripcion
+  ?? vendido?.descripcion
   ?? 'Seleccion de Porsche de coleccion verificados por Valentin Motors, especialistas Porsche desde 1979.';
 
 /* Solo se declaran las alternantes que existen de verdad. Declarar un hreflang
@@ -84,12 +101,17 @@ const descripcion = coche?.meta.descripcion
    descarte el grupo entero. */
 const idiomasPublicados = pagina
   ? idiomasDe(pagina.rutaId)
-  : coche ? idiomasDeCoche(coche.slug) : idiomasConCatalogo();
+  : coche ? idiomasDeCoche(coche.slug)
+  : vendido ? IDIOMAS
+  : idiomasConCatalogo();
 
 // Migas de pan: la ficha cuelga del catalogo, la pagina cuelga de la home
 const migas = coche
   ? [{ nombre: t('nav.coches'), rutaId: 'coches' },
      { nombre: coche.catalogo?.nombre ?? coche.slug, rutaId: 'coches', extra: [coche.slug] }]
+  : vendido
+  ? [{ nombre: t('nav.coches'), rutaId: 'coches' },
+     { nombre: vendido.nombre, rutaId: 'coches', extra: [vendido.slug] }]
   : pagina
     ? [{ nombre: pagina.h1 || titulo, rutaId: pagina.rutaId }]
     : [{ nombre: t('nav.coches'), rutaId: 'coches' }];
@@ -106,6 +128,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   descripcion={descripcion}
   realce={coche?.realce ?? ''}
   imagen={coche?.hero.imagen}
+  tipoPagina={coche ? 'ficha' : vendido ? 'vendido' : pagina?.tipo ?? 'catalogo'}
+  coche={coche?.slug ?? vendido?.slug}
 >
   <Fragment slot="head">
     {(esCentro || pagina?.tipo === 'contacto') && <NegocioLocal centro={centro} />}
@@ -117,6 +141,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   <Pie slot="pie" idioma={idioma} />
 
   {coche && <FichaCoche coche={coche} idioma={idioma} />}
+  {vendido && <FichaVendido coche={vendido} idioma={idioma} />}
 
   {pagina && (
     <article class="pagina">

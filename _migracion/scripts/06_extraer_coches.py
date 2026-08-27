@@ -23,6 +23,10 @@ FICHAS = {
     '997tiptronic': ('porsche-997-carrera-4s-triptronic',  'realce--997tiptronic'),
     '911targa':     ('porsche-911-22-t-targa',             'realce--911targa'),
     '991scabrio':   ('porsche-porsche-991-carrera-s-cabrio','realce--991scabrio'),
+    # Vendido. Su ficha se recupero del commit 7fc2d2e, que la borro. Seguia
+    # recibiendo 108 visitas al mes dando 404: borrar el coche vendido tira la
+    # autoridad acumulada y deja fuera la long tail de quien busca ese modelo.
+    'cayman':       ('porsche-981-cayman-gts', 'realce--cayman'),
 }
 
 PERMITIDAS = {'strong', 'em', 'br', 'span'}
@@ -347,15 +351,44 @@ def tarjetas():
     return fuera
 
 
+def tarjeta_de_vendido(d, slug):
+    """Tarjeta de catalogo para un coche ya vendido.
+
+    Su tarjeta desaparecio de index.html al venderse, asi que se reconstruye
+    desde la propia ficha. El precio no se publica: un coche vendido no tiene
+    precio, tiene historia."""
+    limpiar = lambda t: re.sub(r'<[^>]+>', ' ', t or '')
+    nombre = limpio(limpiar(f"{d['hero']['subtitulo']} {d['hero']['titulo']}"))
+    dato = lambda pat: next((x['valor'] for x in d['intro']['datos']
+                             if re.search(pat, x['clave'], re.I)), '')
+    partes = [x for x in (dato(r'^a.o'), dato(r'kil.metros'), dato(r'color')) if x]
+    return {
+        'estado': 'vendido', 'estadoTexto': 'Vendido',
+        'marca': 'Porsche', 'nombre': nombre.replace('Porsche ', '', 1),
+        'detalle': ' · '.join(partes),
+        'descripcion': limpio(limpiar(d['meta']['descripcion']))[:180],
+        'precio': '', 'precioPorConsultar': False,
+        'imagen': d['galeria']['fotos'][0]['src'] if d['galeria']['fotos'] else '',
+        'imagenAncho': d['galeria']['fotos'][0]['ancho'] if d['galeria']['fotos'] else 0,
+        'imagenAlto': d['galeria']['fotos'][0]['alto'] if d['galeria']['fotos'] else 0,
+    }
+
+
 def main():
     DEST.mkdir(parents=True, exist_ok=True)
     cat = tarjetas()
     resumen = []
     for archivo, (slug, realce) in FICHAS.items():
         d = extraer(archivo, slug, realce)
-        d['catalogo'] = cat.get(archivo)
-        if d['catalogo'] is None:
-            print(f'  aviso: {archivo}.html no tiene tarjeta en index.html', file=sys.stderr)
+        d['catalogo'] = cat.get(archivo) or tarjeta_de_vendido(d, slug)
+        if d['catalogo']['estado'] == 'vendido':
+            # El cierre deja de ser una oferta: precio tachado y aviso claro
+            d['cierre']['precioTachado'] = True
+            d['cierre']['aviso'] = 'Vehículo vendido'
+            d['cierre']['nota'] = ('Este vehículo ya no está disponible. '
+                                   'Escríbenos si buscas una unidad similar.')
+            d['hero']['precio'] = ''
+            d['hero']['precioLabel'] = ''
         (DEST / f'{slug}.json').write_text(json.dumps(d, indent=2, ensure_ascii=False) + '\n')
         resumen.append((slug, len(d['galeria']['fotos']), len(d['intro']['parrafos']),
                         len(d.get('kit', {}).get('categorias', [])),

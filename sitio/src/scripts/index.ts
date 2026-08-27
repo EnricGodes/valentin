@@ -4,6 +4,7 @@ import { iniciarFondos } from './fondos.ts';
 import { iniciarGalerias } from './galeria.ts';
 import { iniciarContadores } from './contador.ts';
 import { iniciarMagneticos } from './magnetico.ts';
+import { iniciarEventos } from './eventos.ts';
 
 /**
  * Arranque unico del sitio. Cada modulo comprueba por su cuenta si tiene algo
@@ -17,6 +18,7 @@ function iniciar(): void {
   iniciarGalerias();
   iniciarContadores();
   iniciarMagneticos();
+  iniciarEventos();
 }
 
 iniciar();

@@ -6,22 +6,22 @@
 
 | Accion | URLs |
 |---|---:|
-| 301 | 55 |
+| 301 | 56 |
 | CONSERVAR | 53 |
-| REVIVIR | 7 |
+| REVIVIR | 6 |
 
 ## Tipos
 
 | Tipo | URLs |
 |---|---:|
 | post | 42 |
-| 404 heredado | 12 |
+| 404 heredado | 13 |
 | pagina | 11 |
 | categoria blog | 11 |
 | tarifa | 7 |
-| ficha coche (vendido) | 7 |
 | categoria coches | 7 |
 | ficha coche | 6 |
+| ficha coche (vendido) | 6 |
 | servicio | 4 |
 | landing SEO | 3 |
 | centro | 2 |
@@ -142,7 +142,7 @@
 | `/porsche-en-venta/porsche718boxsters76d2-lztlp-fre2j` | 404 heredado | 0 | 0 | 0 | 301 | `/porsche-en-venta` |
 | `/porsche-en-venta/porsche912pepita1966` | ficha coche (vendido) | 0 | 0 | 0 | REVIVIR | `/porsche-en-venta/porsche912pepita1966` |
 | `/porsche-en-venta/porsche930turbo1977r4granprixwhite` | ficha coche (vendido) | 0 | 0 | 0 | REVIVIR | `/porsche-en-venta/porsche930turbo1977r4granprixwhite` |
-| `/porsche-en-venta/porsche981gtscaymanamarillo` | ficha coche (vendido) | 0 | 0 | 0 | REVIVIR | `/porsche-en-venta/porsche981gtscaymanamarillo` |
+| `/porsche-en-venta/porsche981gtscaymanamarillo` | 404 heredado | 0 | 0 | 0 | 301 | `/porsche-en-venta/porsche-981-cayman-gts` |
 | `/porsche-en-venta/porsche986boxstersspeedgelb` | ficha coche (vendido) | 0 | 0 | 0 | REVIVIR | `/porsche-en-venta/porsche986boxstersspeedgelb` |
 | `/porsche-en-venta/porsche993carrerausa` | ficha coche (vendido) | 0 | 0 | 0 | REVIVIR | `/porsche-en-venta/porsche993carrerausa` |
 | `/porsche-en-venta/porsche996coupecarreratiptronic` | ficha coche (vendido) | 0 | 0 | 0 | REVIVIR | `/porsche-en-venta/porsche996coupecarreratiptronic` |

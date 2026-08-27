@@ -127,11 +127,13 @@ SLUGS_NUEVOS = {
 # 404 heredados que se revivien como ficha VENDIDO
 REVIVIR = [
  "/porsche-en-venta/porsche-981-cayman-gts", "/porsche-en-venta/porsche912pepita1966",
- "/porsche-en-venta/porsche996coupecarreratiptronic", "/porsche-en-venta/porsche981gtscaymanamarillo",
+ "/porsche-en-venta/porsche996coupecarreratiptronic",
  "/porsche-en-venta/porsche986boxstersspeedgelb",
  "/porsche-en-venta/porsche930turbo1977r4granprixwhite", "/porsche-en-venta/porsche993carrerausa",
 ]
 REDIR_404 = {
+ # Dos URLs de Squarespace para el mismo coche: el 981 Cayman GTS Amarillo P3
+ "/porsche-en-venta/porsche981gtscaymanamarillo": "/porsche-en-venta/porsche-981-cayman-gts",
  "/porsche-en-venta/porschrrkompressorruf": "/porsche-en-venta/997-ruf-kompressor",
  "/porsche-en-venta/porsche356cabriolet": "/porsche-en-venta/porsche-356-b-cabriolet-1960",
  "/magazine/restauracion-motor-964-turbo-dfc3x": "/magazine/restauracion-porsche-964-turbo-1991",

@@ -1,0 +1,45 @@
+{
+  "_nota": "Coches vendidos cuya ficha vivia solo en Squarespace y no se pudo recuperar. Cada URL seguia dando 404 con enlaces y busquedas apuntando a ella. Los datos salen del slug y de lo que consta en el inventario de la migracion; los campos marcados PENDIENTE los tiene que completar Valentin. Los que si tienen ficha completa (el 981 Cayman GTS) viven en datos/coches/ como un coche mas, con estado vendido.",
+  "coches": [
+    {
+      "slug": "porsche912pepita1966",
+      "nombre": "Porsche 912",
+      "anio": "1966",
+      "detalle": "1966 · Interior pepita",
+      "descripcion": "Porsche 912 de 1966 con la característica tapicería de cuadro pepita, vendido por Valentín Motors.",
+      "pendiente": ["color exterior", "kilometraje", "historia"]
+    },
+    {
+      "slug": "porsche996coupecarreratiptronic",
+      "nombre": "Porsche 996 Carrera Coupé Tiptronic",
+      "anio": "",
+      "detalle": "Coupé · Tiptronic",
+      "descripcion": "Porsche 996 Carrera Coupé con cambio Tiptronic, vendido por Valentín Motors.",
+      "pendiente": ["año", "color exterior", "kilometraje"]
+    },
+    {
+      "slug": "porsche986boxstersspeedgelb",
+      "nombre": "Porsche 986 Boxster S",
+      "anio": "",
+      "detalle": "Boxster S · Speed Yellow",
+      "descripcion": "Porsche 986 Boxster S en Speed Yellow, vendido por Valentín Motors.",
+      "pendiente": ["año", "kilometraje"]
+    },
+    {
+      "slug": "porsche930turbo1977r4granprixwhite",
+      "nombre": "Porsche 930 Turbo",
+      "anio": "1977",
+      "detalle": "1977 · Grand Prix White",
+      "descripcion": "Porsche 930 Turbo de 1977 en Grand Prix White, vendido por Valentín Motors.",
+      "pendiente": ["kilometraje", "historia"]
+    },
+    {
+      "slug": "porsche993carrerausa",
+      "nombre": "Porsche 993 Carrera",
+      "anio": "",
+      "detalle": "Carrera · Versión USA",
+      "descripcion": "Porsche 993 Carrera de especificación USA, vendido por Valentín Motors.",
+      "pendiente": ["año", "color exterior", "kilometraje"]
+    }
+  ]
+}
