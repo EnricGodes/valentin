@@ -24,6 +24,8 @@ export type TipoPagina =
 
 export interface Pagina {
   rutaId: string;
+  /** Solo en los ficheros traducidos. Lo calcula el importador. */
+  traduccion?: { hechas: number; total: number; completa: boolean };
   tipo: TipoPagina;
   ficheroOriginal: string;
   meta: { titulo: string; descripcion: string; ogImagen: string };
@@ -54,10 +56,19 @@ export const PAGINAS: { idioma: Idioma; pagina: Pagina }[] =
 export const paginaPorRuta = (rutaId: string, idioma: Idioma = POR_DEFECTO): Pagina | undefined =>
   PAGINAS.find((x) => x.idioma === idioma && x.pagina.rutaId === rutaId)?.pagina;
 
-/** Idiomas en los que una pagina existe de verdad. Alimenta el hreflang: no se
- *  declara una alternante hacia algo que no se ha traducido todavia. */
+/** Idiomas en los que una pagina existe Y esta entera.
+ *
+ *  Una traduccion a medias no se publica: seria una pagina alemana con el
+ *  noventa por ciento del texto en espanol, que ademas no podria declararse a
+ *  si misma en el hreflang. Alimenta tanto el enrutado como las alternantes. */
 export const idiomasDe = (rutaId: string): Idioma[] =>
-  PAGINAS.filter((x) => x.pagina.rutaId === rutaId).map((x) => x.idioma);
+  PAGINAS.filter((x) => x.pagina.rutaId === rutaId &&
+                        (x.idioma === POR_DEFECTO || x.pagina.traduccion?.completa !== false))
+         .map((x) => x.idioma);
+
+/** Paginas listas para publicar, con su idioma. */
+export const publicables = () =>
+  PAGINAS.filter((x) => x.idioma === POR_DEFECTO || x.pagina.traduccion?.completa !== false);
 
 /** Las que se sirven por la ruta general; la home tiene pagina propia. */
-export const PAGINAS_CONTENIDO = PAGINAS.filter((x) => x.pagina.tipo !== 'home');
+export const PAGINAS_CONTENIDO = publicables().filter((x) => x.pagina.tipo !== 'home');
