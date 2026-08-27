@@ -1,0 +1,480 @@
+{
+  "slug": "porsche-997-manual",
+  "archivoOriginal": "997.html",
+  "realce": "realce--997",
+  "meta": {
+    "titulo": "Porsche 997.1 Carrera 4S Schalter | Valentin Motors",
+    "descripcion": "Porsche 911 Carrera 4S 997.1, 2008, 3.8/355 hp, Sechsgang-Schalter, 93.000 km. Historie bei Valentin Motors seit 2022, Bore Scoring negativ. 64.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2008",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera 4S",
+    "claim": "3,8 Liter, Schaltgetriebe und Allradantrieb.",
+    "imagen": "/img/997/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scrollen"
+  },
+  "intro": {
+    "etiqueta": "Fahrzeughistorie",
+    "titulo": "Die Balance<br/><strong>zwischen dem klassischen 911<br/>und dem modernen Porsche.</strong>",
+    "parrafos": [
+      "Der <strong>Porsche 911 Carrera 4S</strong> der 997.1-Generation stellt einen der attraktivsten Punkte in der jüngeren Geschichte dar 911. Es behält ein direktes und mechanisches Fahrgefühl bei, verfügt aber über das Niveau an Leistung, Stabilität und Alltagstauglichkeit, das von einem modernen Porsche erwartet wird.",
+      "Sein Boxer-Saugmotor mit <strong>3,8 Litern und 355 hp</strong> ist mit einem <strong>Sechsgang-Schaltgetriebe</strong> verbunden, eine Kombination, die besonders von Enthusiasten in einem Markt geschätzt wird, der zunehmend von Automatikgetrieben und überfütterten Motoren dominiert wird."
+    ],
+    "cita": "Dieses Gerät fügt die Präsenz des Carrera 4S mit Karosserie und Allradantrieb zu einer langen Geschichte bei Valentin Motors hinzu 2022, sehr gut gepflegt und mit negativem Bore Scoring-Check.",
+    "datos": [
+      {
+        "clave": "Modell",
+        "valor": "911 Carrera 4S Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generation",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Produktionsdatum",
+        "valor": "06/03/2008",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bóxer 6 cil. · 3,8 L",
+        "acento": false
+      },
+      {
+        "clave": "Leistung",
+        "valor": "355 hp",
+        "acento": false
+      },
+      {
+        "clave": "Übertragung",
+        "valor": "Manual 6 velocidades",
+        "acento": false
+      },
+      {
+        "clave": "Farbe",
+        "valor": "Negro · Interior piel negra",
+        "acento": false
+      },
+      {
+        "clave": "Kilometerstand",
+        "valor": "93.000 km",
+        "acento": false
+      },
+      {
+        "clave": "Preis",
+        "valor": "64.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galerie",
+    "titulo": "Schwarz.<br/><strong>Karosserie breit<br/>Carrera 4S.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997/exterior1.jpg",
+        "alt": "Vorne außen",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vorderansicht · Schwarz · Carrera 4S"
+      },
+      {
+        "src": "/img/997/exterior2.jpg",
+        "alt": "Seitenprofil",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Seitenprofil · Breite Finnen des 4S"
+      },
+      {
+        "src": "/img/997/exterior3.jpg",
+        "alt": "Rückansicht",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Hinten vier Auspuffauslässe"
+      },
+      {
+        "src": "/img/997/interior1.jpg",
+        "alt": "Kabine",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Kabine · Schwarzes Leder und Schaltgetriebe"
+      },
+      {
+        "src": "/img/997/close-up1.jpg",
+        "alt": "Felgen- und Bremssatteldetails",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detail · Schwarze Felge und roter Bremssattel"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor und Mechanik",
+    "titulo": "Boxer atmosphärisch.<br/><strong>Schaltgetriebe.</strong><br/>Allradantrieb.",
+    "stats": [
+      {
+        "valor": 355,
+        "animado": true,
+        "unidad": "HP",
+        "etiqueta": "Leistung",
+        "destacada": true
+      },
+      {
+        "valor": "3,8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Hubraum",
+        "destacada": false
+      },
+      {
+        "valor": "6",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "Schaltgetriebe",
+        "destacada": false
+      },
+      {
+        "valor": "4",
+        "animado": false,
+        "unidad": "x4",
+        "etiqueta": "Allradantrieb",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Der Boxer atmosphärische <strong>3,8 Liter</strong> reagiert linear, gewinnt mit steigender Drehzahl an Intensität und behält eine direkte Beziehung zwischen Gaspedal, Sound und Schub bei. Es leistet <strong>355 hp</strong> ohne beteiligten turbo oder Kompressor.",
+      "Das <strong>Sechsgang-Schaltgetriebe</strong> ermöglicht eine präzise Ausnutzung des Motors und macht jeden Gangwechsel zum Erlebnis. Der <strong>Allradantrieb</strong> sorgt für mehr Mobilität und Souveränität, insbesondere am Kurvenausgang, ohne den Heckcharakter des 911 zu beeinträchtigen. Das <strong>PASM</strong> vereint sportliches Ansprechverhalten mit vernünftiger Straßentauglichkeit."
+    ],
+    "tags": [
+      "Boxer 3.8 atmosphärisch",
+      "Manuelle 6 Geschwindigkeit.",
+      "Allradantrieb",
+      "PASM",
+      "XLF-Sportauspuff"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Vertrauensblock",
+    "titulo": "Bore Scoring.<br/><strong>Negative Prüfung.</strong>",
+    "ancla": "restauracion",
+    "precio": "Seguimiento en Valentin Motors desde 2022",
+    "categorias": [
+      {
+        "titulo": "Bore Scoring",
+        "items": [
+          "Spezifische Prüfung durchgeführt",
+          "Negatives Ergebnis",
+          "Es wurden keine Anzeichen für das Problem festgestellt"
+        ]
+      },
+      {
+        "titulo": "Mechanischer Zustand",
+        "items": [
+          "Sehr gut gepflegt",
+          "Keine ausstehenden Arbeiten",
+          "93.000 km"
+        ]
+      },
+      {
+        "titulo": "Geschichte",
+        "items": [
+          "Tracking bei Valentin Motors ab 2022",
+          "Bekannte und dokumentierte Einheit",
+          "Kontinuität über eine spezifische Inspektion hinaus"
+        ]
+      },
+      {
+        "titulo": "Reifen",
+        "items": [
+          "Aktuelle Konfiguration: Multiradius schwarz",
+          "Polierter Außenring",
+          "Erhältlich mit Silber-Finish"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Außen",
+    "titulo": "Schwarz.<br/><strong>Carrera 4S mit <br/>Bremssättel.</strong>",
+    "texto": "Die Karosserie in <strong>Schwarz</strong> mit den ausgestellten Flossen des <strong>Carrera 4S</strong> verleiht diesem Gerät eine besondere Präsenz. Für den 997 typische ovale Scheinwerfer, schwarze Mehrspeichenräder mit poliertem Außenring, Bremssättel und vier Auspuffendrohre runden ein nüchternes, technisches und zeitloses Bild ab.",
+    "fotos": [
+      {
+        "src": "/img/997/close-up1.jpg",
+        "alt": "Felgen- und Bremssatteldetails",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Schwarze Felge · Roter Bremssattel"
+      },
+      {
+        "src": "/img/997/close-up2.jpg",
+        "alt": "Rückendetail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Hinten Carrera 4S und vier Auspuffanlagen"
+      },
+      {
+        "src": "/img/997/close-up3.jpg",
+        "alt": "Leuchtturm-Detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detail · Ovaler Scheinwerfer 997"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Innenraum",
+    "titulo": "Schwarzes Leder.<br/><strong>Schaltgetriebe<br/>und weiße Zifferblätter.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997/interior1.jpg",
+        "alt": "Komplette Kabine",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Kabine · Schwarzes Leder und Mittelkonsole"
+      },
+      {
+        "src": "/img/997/interior2.jpg",
+        "alt": "Sportsitze",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Sportsitze · Schwarzes Leder"
+      },
+      {
+        "src": "/img/997/interior3.jpg",
+        "alt": "Schaltgetriebe und Instrumentierung",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Schaltgetriebe · Weiße Zifferblätter · Sport Chrono"
+      }
+    ],
+    "editorial": "Ein analoger, kompakter und fahrerorientierter Innenraum. Sportsitze aus schwarzem Leder, Dreispeichenlenkrad, weiße Zifferblätter, Sport Chrono-Uhr auf dem Armaturenbrett und ein Schaltgetriebe mit Metallknauf, die den Charakter dieses Geräts zusammenfassen."
+  },
+  "procedencia": {
+    "etiqueta": "Dokumentation und Herkunft",
+    "titulo": "Geschichte<br/><strong>bekannt seit<br/>2022.</strong>",
+    "hitos": [
+      {
+        "anio": "06/03/2008",
+        "titulo": "Herstellung",
+        "cuerpo": "Einheit hergestellt am <strong>6 März 2008</strong>, Generation <strong>997.1</strong>, in der Carrera-Konfiguration 4S: Karosserie, Allradantrieb und Sechsgang-Schaltgetriebe.",
+        "badge": "997.1 Carrera 4S"
+      },
+      {
+        "anio": "Desde 2022",
+        "titulo": "Tracking bei Valentin Motors",
+        "cuerpo": "Das Gerät hat eine <strong>lange Geschichte bei Valentin Motors seit 2022</strong>, die es uns ermöglicht, seine Entwicklung, Wartung und den aktuellen Status über eine spezifische Inspektion hinaus zu kennen.",
+        "badge": "Tracking seit 2022"
+      },
+      {
+        "anio": "Hoy",
+        "titulo": "Erhältlich bei Valentin Motors",
+        "cuerpo": "<strong>93.000 km</strong>, sehr gut gewartet und ohne ausstehende Arbeiten. Negative <strong>Bore Scoring Prüfung</strong>.",
+        "badge": "64.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Technisches Datenblatt",
+    "titulo": "Spezifikationen<br/><strong>vollständig.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Typ",
+            "valor": "Bóxer atmosférico 6 cil."
+          },
+          {
+            "clave": "Hubraum",
+            "valor": "3,8 litros"
+          },
+          {
+            "clave": "Leistung",
+            "valor": "355 hp"
+          },
+          {
+            "clave": "Flucht",
+            "valor": "Sistema deportivo XLF"
+          },
+          {
+            "clave": "Bore Scoring",
+            "valor": "Chequeo negativo"
+          }
+        ]
+      },
+      {
+        "titulo": "Getriebe und Fahrwerk",
+        "filas": [
+          {
+            "clave": "Getriebe",
+            "valor": "Manual 6 velocidades"
+          },
+          {
+            "clave": "Traktion",
+            "valor": "Integral"
+          },
+          {
+            "clave": "Fahrwerk",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Stabilität",
+            "valor": "PSM"
+          },
+          {
+            "clave": "Reifen",
+            "valor": "19\" Sport"
+          }
+        ]
+      },
+      {
+        "titulo": "Karosserie und Allgemein",
+        "filas": [
+          {
+            "clave": "Generation",
+            "valor": "997.1"
+          },
+          {
+            "clave": "Produktionsdatum",
+            "valor": "06/03/2008"
+          },
+          {
+            "clave": "Kilometer",
+            "valor": "93.000 km"
+          },
+          {
+            "clave": "Außenfarbe",
+            "valor": "Negro"
+          },
+          {
+            "clave": "Innenraum",
+            "valor": "Piel negra"
+          }
+        ]
+      },
+      {
+        "titulo": "Ausgewählte Ausrüstung",
+        "filas": [
+          {
+            "clave": "454",
+            "valor": "Tempomat"
+          },
+          {
+            "clave": "601",
+            "valor": "Faros de xenón"
+          },
+          {
+            "clave": "375 / 376",
+            "valor": "Asientos Sport"
+          },
+          {
+            "clave": "475 / 476",
+            "valor": "PASM / PSM"
+          },
+          {
+            "clave": "XRR",
+            "valor": "Llantas Sport 19\""
+          }
+        ]
+      },
+      {
+        "titulo": "Geschichte",
+        "filas": [
+          {
+            "clave": "Verfolgung",
+            "valor": "Valentin Motors desde 2022"
+          },
+          {
+            "clave": "Mechanischer Zustand",
+            "valor": "Muy bien mantenido"
+          },
+          {
+            "clave": "Ausstehende Jobs",
+            "valor": "Ninguno"
+          }
+        ]
+      },
+      {
+        "titulo": "Verkaufsbedingungen",
+        "filas": [
+          {
+            "clave": "Preis",
+            "valor": "64.000 €"
+          },
+          {
+            "clave": "Reifenoption",
+            "valor": "Acabado silver disponible"
+          },
+          {
+            "clave": "Fahrbereit",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "Jordis Meinung",
+    "titulo": "Die Vision<br/><strong>des Experten.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Spezialist Porsche · Valentin Motors",
+    "bio": "Mehr als 25 Jahre Erfahrung mit Sammler-Porsche. Er hat Hunderte von Verkaufs- und Einkaufsvorgängen von Spezialfahrzeugen betreut, mit besonderem Schwerpunkt auf 911 analoger Generationen.",
+    "intro": "„Es ist ein Gerät für alle, die einen 911 fahren und nicht nur besitzen möchten.“",
+    "parrafos": [
+      "Der <strong>997 Carrera 4S mit Schaltgetriebe</strong> ist einer dieser Porsche, deren Attraktivität im Laufe der Zeit zugenommen hat. Er behält die Größe, Sichtbarkeit und das mechanische Gefühl bei, die viele Enthusiasten mit einem wirklich brauchbaren 911 assoziieren, bietet aber genug Leistung und Stabilität, um ihn auf jeder Art von Straße zu genießen.",
+      "Manuelles Schalten ist ein wesentlicher Teil seiner Persönlichkeit. Es zwingt Sie dazu, mit dem Motor zu arbeiten, ermöglicht Ihnen die genaue Wahl der Geschwindigkeit und stärkt die Verbindung zwischen Fahrer und Auto. Gerade diese Konfiguration gewinnt bei Enthusiasten immer mehr an Bedeutung, während der Markt zunehmend von Automatikgetrieben und Kompressormotoren dominiert wird.",
+      "Die Karosserie des 4S verleiht ihm eine besondere Präsenz, während der Allradantrieb für Sicherheit sorgt, ohne ihn in ein fernes Auto zu verwandeln. Es ist ein Gerät zum Fahren, Behalten und Genießen, mit dem Mehrwert einer bekannten Geschichte bei Valentin Motors seit 2022 und einer negativen Bore Scoring-Prüfung."
+    ],
+    "prosTitulo": "Das Beste",
+    "pros": [
+      "Sechsgang-Schaltgetriebe: zunehmend gefragte Konfiguration",
+      "Saugmotor 3,8 Liter, 355 hp, ohne turbo oder Kompressor",
+      "Karosserie mit breitem Carrera 4S und Allradantrieb",
+      "Bekannte Geschichte bei Valentin Motors seit 2022",
+      "Negative Bore Scoring-Prüfung",
+      "Sehr gut gepflegt, keine ausstehenden Arbeiten"
+    ],
+    "contrasTitulo": "Zu bedenken",
+    "contras": [
+      "Aktuelle schwarze Felgen; Silber-Finish-Option auf Anfrage erhältlich"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997/exterior2.jpg",
+    "cita": "Ein Porsche 997.1 Carrera 4S mit <em>Sechsgang-Schaltgetriebe</em>, Saugmotor 3,8 Liter und eine bekannte Geschichte bei Valentin Motors seit 2022.",
+    "precio": "64.000 €",
+    "precioTachado": true,
+    "precioLabel": "Porsche 997.1 Carrera 4S · Schwarz · 2008",
+    "aviso": "Reserviertes Fahrzeug",
+    "nota": "Dieses Fahrzeug steht nicht mehr zum Verkauf.",
+    "ctaTexto": "",
+    "ctaHref": ""
+  },
+  "catalogo": {
+    "estado": "reservado",
+    "estadoTexto": "Reserviert",
+    "marca": "Porsche · 4S",
+    "nombre": "997.1 Carrera 4S",
+    "detalle": "2008 · 93.000 km · Schwarz",
+    "descripcion": "Boxer atmosphärischer 3,8 L · 355 hp · 6 Schaltgetriebe · Allradantrieb. Geschichte bei Valentin Motors seit 2022. Negative Bore Scoring-Prüfung.",
+    "precio": "64.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 149,
+    "total": 149,
+    "completa": true
+  }
+}

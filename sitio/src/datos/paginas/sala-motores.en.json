@@ -1,0 +1,209 @@
+{
+  "rutaId": "sala-motores",
+  "tipo": "servicio",
+  "ficheroOriginal": "sala-motores",
+  "meta": {
+    "titulo": "Engine room classics and competition — Valentín Motors",
+    "descripcion": "Classic engine repairs for all makes: Porsche, Mercedes, Jaguar, Ferrari, Bentley, Aston Martin, Lamborghini and Alfa Romeo.",
+    "ogImagen": ""
+  },
+  "h1": "Engine room: classics and competition",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Engine room: classics and competition",
+      "parrafos": [
+        "With the help of Iván Bascuñana, head of the engine department, we have extensive experience in repairing classic engines of all brands. We also prepare engines for competition.",
+        "Our engine room",
+        "The following engines have passed through the hands of our motorcyclist, Iván Bascuñana:"
+      ],
+      "items": [
+        "Aston Martin DBS, DB4, DB5, DB6",
+        "Austin Healey",
+        "Bentley Continental",
+        "De Tomaso Pantera 351 Cleveland",
+        "Ferrari Dino, 250 GTE, 308 GT",
+        "Ford MK1, MK2 Pinto and BDG",
+        "Jaguar XK 120/140/150, MKII, MK7, E-Type,",
+        "Lamborghini 400 2+2, Islero",
+        "Maserati 3500 GT",
+        "Mercedes 300SL, 280SL, 250SE, 190SL",
+        "Peugeot 404",
+        "Rolls Royce Silver Shadow"
+      ],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/ca9f612f-6ce2-451d-a5d0-9013ed3a78c1/DSC03453.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "We have experience repairing classic engines of any brand",
+      "parrafos": [
+        "One of the departments we are most proud of is our engine room where we <strong> restore and upgrade the power and gearboxes</strong> of all 911 and classic Porsche.",
+        "In fact, our commercial name Valentín Motors comes from the name of the founder and “motors”, a symbol of the technical capacity that our company has had since 1979.",
+        "<strong>An engine room is very expensive at a technical and knowledge level</strong>, in fact not even the official dealers of the brands have one.",
+        "We have plenty of experience in Porsche engines, both air-cooled from the 356 to the modern GT3 and CUP; We do not limit ourselves to restoring and assembling according to original specifications but we also improve and enhance according to our calculations and data."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "A workshop with engine room allows us not to depend on third parties, ensuring the warranty and the quality with which we execute our projects.",
+      "parrafos": [
+        "— Jordi Edo"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/84615e04-ddba-404c-86c5-425d78f54320/IMG_0973.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/1665406305167-SQNB06QTD7KOKKBU3BA9/motor2.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Examples of engine repairs",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Complete engine rehabilitation 964",
+      "parrafos": [
+        "Throughout the 964 generation Porsche used the 3.600 cc that provided so much reliability and satisfaction to its owners."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/b3a7171b-1495-4c34-b487-2d1f56c825f9/964.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Restoration complete engine 965 (964 turbo)",
+      "parrafos": [
+        "In the year 1991 the 911 turbo model was powered by a supercharged engine of 3,3 liters and 320 CV."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/77af23c4-7364-4fdf-9256-0fd9c93250af/965.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Our services",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche",
+      "parrafos": [
+        "We follow the maintenance plans <strong>specified by the manufacturer,</strong> using <strong>original spare parts</strong> and the Porsche guidelines."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/b2e4afbe-87cd-4621-b7e2-0c790e121b12/PHOTO-2022-04-12-12-56-42.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Classic engines of any brand",
+      "parrafos": [
+        "For 40 years our specialty has been mechanics and specifically engines. <br/><br/><strong>We restore, renew and repair any type of engine</strong> of the brand. We have a nationwide engine collection service and delivery of them once finished.",
+        "We have the necessary machinery and tools for any type of restoration, mechanization and parts location department if required."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/44aec76b-4d3b-48fe-b5f9-7c9f336ff0d2/taller_motores.jpg",
+          "alt": "Restoration of engines"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Manual gearboxes",
+      "parrafos": [
+        "<strong>We restore all types of gearboxes</strong> Porsche, from the first of the 356, 915, G50 to the most modern of the 991 generation and 992.<br/>We also provide <strong>service and repair of automatic gearboxes</strong> without the need to purchase new ones."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/5749a98a-69fa-47d8-9212-b94be55cf56e/Cajas+de+cambio+Porsche",
+          "alt": "gearboxes"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preparation of engines for competition",
+      "parrafos": [
+        "For 40 years our specialty has been mechanics and specifically engines. <br/><br/><strong>We restore, renew and repair any type of engine</strong> of the brand. We have a nationwide engine collection service and delivery of them once finished.",
+        "We have the necessary machinery and tools for any type of restoration, mechanization and parts location department if required.",
+        "Interview with our chief motorcyclist",
+        "<strong>What moment is the most crucial or stressful in the process?<br/></strong>The moment of applying oil pressure already with the engine assembled and subsequently starting, which is where the result of the complete work is seen. There is a high degree of responsibility in the entire process since the costs are high.<br/><br/><strong>What is the main quality that a motorcyclist has?<br/></strong>Mainly passion and continuous search for perfection.",
+        "<strong>What methodology for you is key?<br/></strong>Order and methodology of processes are key to the final result, the engine room is a closed, neat space in which everything is in harmony.",
+        "<strong>What is important to you, experience or technique? <br/></strong>The sum of the two is key, every day is a search for perfection and every day is a challenge."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/5408128d-30c9-483d-81ab-13c6bb900f5a/WhatsApp+Image+2024-03-28+at+08.43.16+%281%29.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/ce3f8773-97a5-4473-8883-7809d76e9619/IMG_0977.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Iván Bascuñana, more than 20 years restoring engines",
+      "parrafos": [
+        "<strong>What are the processes carried out in the engine room? <br/></strong>Disassembly, diagnosis of each part and checking of all engine elements.",
+        "<strong>What is the most important phase of disassembling or assembling an engine?<br/></strong>The most important phase of disassembly is the acquisition of information about the engine: making a prior diagnosis that will help focus on the process.<br/>And in the assembly the verification of the motor tolerances. Tolerances of pistons and cylinders and oil clearance between crankshaft and connecting rod.",
+        "<strong>What type of measurements are made? <br/></strong>The entire set of measurements are important at the same level, piston/cylinder tolerances are the most important, but oil clearance and valve lift are also key.",
+        "<strong>Can we modify the factory parameters safely?</strong><br/>As a rule, all motors have a safety margin, the manufacturer abuses material and can be optimized without problems.",
+        "<strong>What advantages does a workshop have with a engine room?<br/></strong>Mainly, there is no dependence on third parties, which is a key issue in warranty and quality. It completely affects the quality that you want to offer to the customer.",
+        "<strong>Which process is the most complex? <br/></strong>Without a doubt it is the timing or drafting of timing at the time of assembly."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/8ef44d70-d0fd-452a-a149-bb0b3d66026e/IMG_0978.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 55,
+    "total": 55,
+    "completa": true
+  }
+}

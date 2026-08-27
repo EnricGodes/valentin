@@ -1,0 +1,48 @@
+{
+  "rutaId": "quienes-somos",
+  "tipo": "institucional",
+  "ficheroOriginal": "quienes-somos",
+  "meta": {
+    "titulo": "Qui som — Valentín Motors",
+    "descripcion": "40 anys donant servei als amants i apassionats del món Porsche.",
+    "ogImagen": ""
+  },
+  "h1": "Més de 45 anys d'història",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Més de 45 anys d'història",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Valentin Motors va néixer a 1979, donant servei als clients Porsche amb vehicles per a ús diari i per a la competició els caps de setmana.",
+      "parrafos": [
+        "Als anys 70 el Porsche 911 era el vehicle esportiu perfecte per utilitzar tant en el dia a dia com a la competició durant el cap de setmana.",
+        "En aquella època ens vam especialitzar en preparacions Sport i Racing per a 911 i 914.",
+        "Aquest any passat 2024 Valentin ha complert 45 anys, el millor regal ha estat poder complir el somni de l'obertura de les noves instal·lacions de Madrid.",
+        "Amb aquestes noves instal·lacions pretenem poder arribar al client Porsche de tot Espanya amb més facilitat i poder donar el servei que pretenem.",
+        "En tots aquests anys la família Valentin ha anat creixent a poc a poc fins avui formant un gran equip tècnic i humà."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/b04b4719-7df2-4663-a769-107a6ffcf494/foto+equipo+2024.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 10,
+    "total": 10,
+    "completa": true
+  }
+}

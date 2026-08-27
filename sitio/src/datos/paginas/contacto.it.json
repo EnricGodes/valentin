@@ -1,0 +1,80 @@
+{
+  "rutaId": "contacto",
+  "tipo": "contacto",
+  "ficheroOriginal": "contacto",
+  "meta": {
+    "titulo": "Contatto — Valentín Motors",
+    "descripcion": "Officina Porsche nell'Eixample di Barcellona. Varsòvia, 65. 08041 Barcellona. +34 933 479 856",
+    "ogImagen": ""
+  },
+  "h1": "Ci contatti",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Ci contatti",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ci contatti",
+      "parrafos": [
+        "Ci racconti quali sono le Sue esigenze, siamo sicuri di poterLa aiutare."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Officina Porsche a Madrid (Leganés)",
+      "parrafos": [
+        "<strong>VALENTIN MOTORS MADRID</strong>",
+        "<strong>Ubicazione:</strong> Puig Adam, 10<br/> Parque Sur / 28914 Leganés (Madrid)",
+        "<strong>Telefono:</strong> (+34) 913 017 575",
+        "<strong>E-mail:</strong> madrid@valentinmotors.es",
+        "<strong>Orari:</strong> dal lunedì al venerdì",
+        "Officina: dalle 8:30 alle 18:00 / Vendite: dalle 8:30 alle 19:00",
+        "<strong>Tempi per il officina:</strong>",
+        "<strong> </strong>Centro di Madrid / Stazione Atocha <strong>— </strong>20 minuti",
+        "Aeroporto di Barajas <strong>— </strong>22 minuti",
+        "<strong> </strong>Zona Nord di Madrid <strong>— </strong>22 / 26 minuti circa."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Officina Porsche a Barcellona",
+      "parrafos": [
+        "<strong>VALENTIN MOTORS BARCELLONA</strong>",
+        "<strong>Ubicazione: </strong>Calle Varsovia, 65 <br/> Ospedale Sant Pau / 08041 Barcellona",
+        "<strong>Telefono: </strong>(+34) 933 479 856 / (+34) 679 081 019",
+        "<strong>E-mail: </strong>info@valentinmotors.es",
+        "<strong>Orari: </strong>dal lunedì al venerdì / Officina: dalle 8:00 alle 18:00",
+        "<strong>Tempi per il officina: </strong>",
+        "<strong>‍ ‍</strong>Aeroporto El Prat <strong>—</strong> 30 minuti",
+        "Sants Estacio <strong>—</strong> 26 minuti"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "679 081 019",
+      "913 017 575",
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es",
+      "madrid@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 26,
+    "total": 26,
+    "completa": true
+  }
+}

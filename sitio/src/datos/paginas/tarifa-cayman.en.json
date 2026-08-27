@@ -1,0 +1,88 @@
+{
+  "rutaId": "tarifa-cayman",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-cayman-boxster-mantenimiento-taller",
+  "meta": {
+    "titulo": "servicing Porsche Cayman and Boxster — Valentín Motors",
+    "descripcion": "Service rates for Boxster and Cayman models. Check the most frequent problems and our prices",
+    "ogImagen": ""
+  },
+  "h1": "servicing for Cayman and Boxster models",
+  "acordeones": [
+    {
+      "modelo": "Boxster 986",
+      "parrafos": [
+        "<strong><br/>Minor service</strong>:(Oil filter + engine oil + pollen filter + 23 check list points) <strong>from</strong> <strong>525,00€</strong><br/><strong>Major service </strong>:(Includes Minor service + air filter + 30 points check list) <strong>from 635,00 €</strong><br/>Service brake fluid: <strong>92 €</strong><br/>Geometries: <strong>117€</strong><br/>Pre-purchase inspection: <strong>375,00 €</strong>",
+        "Check Bore Scoring: <strong>196/343<br/><br/></strong><em>Prices excluding VAT.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster and Cayman 987",
+      "parrafos": [
+        "<strong><br/>Minor service</strong> (Oil filter + engine oil + pollen filter + check list of 23 points)<strong> from 525,00€</strong><br/><strong>Major service: </strong>(Includes Minor service+ air filter + check list of 30 points) <strong>from 635,00 €</strong><br/>Service brake fluid: <strong>92 €</strong><br/>Geometries: <strong>117 €</strong><br/>Pre-purchase inspection: <strong>375,00 €</strong>",
+        "<strong><br/><br/></strong><em>Prices excluding VAT.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster and Cayman 981",
+      "parrafos": [
+        "The most common points to check in 981 are:",
+        "Blocked drains",
+        "Clutch press in manual transmission.",
+        "<strong><br/>Minor service:</strong>(Oil filter + engine oil + pollen filter + check list of 23 points) <strong>from 595,00 €</strong><br/><strong>Major service: from 720,00 €</strong><br/>Service brake fluid: <strong>92 €</strong><br/>Geometries: <strong>117 €</strong><br/>Pre-purchase inspection: <strong>375,00 €</strong>",
+        "<em>Prices excluding VAT.</em>"
+      ],
+      "items": [
+        "Blocked drains",
+        "Clutch press in manual transmission."
+      ]
+    },
+    {
+      "modelo": "Boxster and Cayman 718",
+      "parrafos": [
+        "<strong><br/>Minor service: </strong>(Oil filter + engine oil + pollen filter + check list of 23 points) <strong>from 690,00 €</strong><br/><strong>Major service:(</strong>Includes Minor service + air filter + check list of 30 points) <strong>from 850,00€</strong><br/>Service brake fluid: <strong>92 €</strong><br/>Geometries: <strong>117 €</strong><br/>Pre-purchase inspection: <strong>375,00 €</strong>",
+        "<em>Prices excluding VAT.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "servicing for Cayman and Boxster models",
+      "parrafos": [
+        "No car is 100 % reliable and, based on our experience of work, service and fault diagnosis.",
+        "The team can advise you on the best servicing actions. The technicians at Valentín Motors can provide well-designed solutions that will solve the problem.<br/><br/>",
+        "Prices are subject to VAT but include parts and labor. Prices for Porsche parts are subject to change without notice. An environmental and miscellaneous item charge is added to each invoice. Your vehicle will be disinfected and cleaned, ready for collection.",
+        "Select a model"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Make a reservation",
+      "parrafos": [
+        "Leave us the information of your model, type of service you require and our team will contact you to confirm the appointment"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 27,
+    "total": 27,
+    "completa": true
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "rutaId": "tarifa-gt",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-gt-mantenimiento-taller",
+  "meta": {
+    "titulo": "entretien Porsche GT — Valentín Motors",
+    "descripcion": "Tarifs de service pour les modèles GT. Consultez les problèmes les plus fréquents et nos tarifs",
+    "ogImagen": ""
+  },
+  "h1": "entretien pour les modèles GT",
+  "acordeones": [
+    {
+      "modelo": "996 GT3 MK1",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 611 €</strong><br/>Grand entretien : <strong>à partir de 1.093 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117€</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT3 MK2",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>611 €</strong><br/>Grand entretien : <strong>1.092 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : 117<strong>€</strong><br/>Inspection avant achat : <strong>375€</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 740 €</strong><br/>Grand entretien : <strong>à partir de 1.093 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117€</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 GT3",
+      "parrafos": [
+        "<strong>Tarifs<br/></strong>Petit entretien : <strong>à partir de 691€</strong><br/>Grand entretien : <strong>à partir de 1.001€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>240 €</strong><br/>Inspection avant achat : <strong>375€</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 464€</strong><br/>Grand entretien : <strong>à partir de 1.184€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien:<strong> à partir de 602€</strong><br/>Grand entretien:<strong> à partir de 1.029€</strong><br/>Service liquide de frein: <strong>92 €</strong><br/>Géométrie: <strong>117€</strong><br/>Inspection avant achat: <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 802€</strong><br/>Grand entretien : <strong>à partir de 1.030€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117€</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 691€</strong><br/>Grand entretien : <strong>à partir de 1.259€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 GT3 RS",
+      "parrafos": [
+        "<strong>Tarifs<br/></strong>Petit entretien : <strong>370</strong> <strong>€</strong><br/>Grand entretien : <strong>920</strong> <strong>€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117€</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 641 €</strong><br/>Grand entretien : <strong>à partir de 1.438€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : 117<strong> €</strong><br/>Inspection avant achat : <strong>375€</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien :<strong>à partir de 640€</strong><br/>Grand entretien :<strong>à partir de 1.495€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375€</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 540€</strong><br/>Grand entretien : <strong>à partir de 1.437€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong> à partir de 540€</strong><br/>Grand entretien : <strong>à partir de 1.437€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "993 GT",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien :<strong>à partir de 822€</strong><br/>Grand entretien :<strong>à partir de 1.295€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien :<strong>à partir de 680€</strong><br/>Grand entretien :<strong>à partir de 1.334€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien :<strong>à partir de 603€</strong><br/>Grand entretien :<strong>à partir de </strong> <strong>1.149€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997 GT2 RS",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 857€</strong><br/>Grand entretien : <strong>à partir du 1.216 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117€</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991 GT2 RS",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 656€</strong><br/>Grand entretien : <strong>à partir de 1.702€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "981 CAYMAN GT4",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien :<strong> à partir de 683€</strong><br/>Grand entretien :<strong>à partir de 1029€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "718 CAYMAN GT4",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 695€</strong><br/>Grand entretien :<strong>à partir de 1.030€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "718 CAYMAN GT4 RS",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong> à partir de 695€</strong><br/>Grand entretien : <strong>à partir de 1.030€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : 117€<br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "entretien pour les modèles GT",
+      "parrafos": [
+        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience professionnelle, le service et le diagnostic sont la clé du processus pour nous guider vers un travail réussi.",
+        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être livré.",
+        "Sélectionnez un modèle"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Faire une réservation",
+      "parrafos": [
+        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 70,
+    "total": 70,
+    "completa": true
+  }
+}

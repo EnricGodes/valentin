@@ -1,0 +1,90 @@
+{
+  "rutaId": "competicion",
+  "tipo": "servicio",
+  "ficheroOriginal": "competicion",
+  "meta": {
+    "titulo": "Préparation compétition — Valentín Motors",
+    "descripcion": "Valentín Motors participe aux courses depuis 1979. La compétition fait partie de notre ADN et de notre histoire.",
+    "ogImagen": ""
+  },
+  "h1": "Préparation des véhicules pour la compétition",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Préparation des véhicules pour la compétition",
+      "parrafos": [
+        "Nous sommes des partenaires techniques et des spécialistes de l'installation avec certains des <strong>meilleurs noms du monde automobile</strong>. Cela comprend les suspensions KW et Bilstein, les pneus Michelin, AP Racing, Performance Friction Corporation, Heigo et une liste d'excellents fournisseurs de pièces de rechange. <strong>Tous les produits sont largement testés et évalués</strong> par Valentín Motors dans le cadre de nos opérations de recherche et développement.",
+        "En plus des produits de rechange, <strong>nous avons développé un vaste catalogue de nos propres solutions </strong>sur mesure conçues pour améliorer votre véhicule avec des produits allant des conversions de couronne et de pignon, aux systèmes d'extinction complets, aux géométries et configurations spécifiques."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Préparatifs Track Day",
+      "parrafos": [
+        "<strong>L'esprit de la marque est sportif</strong> et c'est sur un circuit où Porsche démontre son potentiel, transmettant des sensations impossibles à obtenir en conduite urbaine. Réaliser des courses dans un environnement contrôlé, c'est lorsque le pilote et le véhicule atteignent la symbiose avec laquelle ils ont été conçus.",
+        "Nous effectuons des <strong> adaptations de véhicules </strong> à tout niveau pour satisfaire aux conditions de piste requises et à l'état demandé par le client."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/f7d234c2-32b6-4307-8bbf-1eb7aa37479d/DSC07852.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Championnats GT et Gentlemen Driver",
+      "parrafos": [
+        "Nous sommes présents dans les véhicules GT3, GT3 et carrera CUP de différentes générations, fournissant des <strong>services d'assistance et de support avec l'ingénierie de piste </strong>et les opérateurs réguliers de championnat."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/4e60d379-37f9-4e52-8d0c-59fd91eeb5fd/DSC08039.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Rallye",
+      "parrafos": [
+        "La chose la plus courante est de penser à des véhicules Porsche sur une route bien pavée et roulant à grande vitesse. Mais la vérité est qu’il n’est pas étrange de les voir sur l’asphalte. Tout au long de leur histoire, ils ont couru dans tous types de situations et de surfaces, remportant un Paris-Dakar en 1984.",
+        "Une partie de la <strong>préparation d'un 911 pour les rallyes</strong> implique :"
+      ],
+      "items": [
+        "Alléger son poids : supprimer les pièces inutiles, les morceaux de fibre de verre,…",
+        "Ajoutez des éléments de sécurité : arceau de sécurité, harnais, baquets,…",
+        "Améliorer les performances : modifications du moteur, des amortisseurs, des pneus, …"
+      ],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/d99de2c0-b26e-4cdb-93b1-09edd359f4c7/DSC07759.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Découvrez l'adrénaline",
+      "parrafos": [
+        "Conduire une 911 de manière sportive ne ressemble à aucune sensation antérieure. C'est découvrir pour la première fois la véritable adrénaline."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "slug": "porsche-997-manual",
+  "archivoOriginal": "997.html",
+  "realce": "realce--997",
+  "meta": {
+    "titulo": "Porsche 997.1 Carrera 4S Manual for sale | Valentin Motors",
+    "descripcion": "Porsche 911 Carrera 4S 997.1, 2008, 3.8/355 hp, six-speed manual, 93.000 km. Valentin Motors history since 2022, negative Bore Scoring. 64.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2008",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera 4S",
+    "claim": "3,8 liters, manual transmission and all-wheel drive.",
+    "imagen": "/img/997/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Vehicle history",
+    "titulo": "The balance<br/><strong>between the classic 911<br/>and the modern Porsche.</strong>",
+    "parrafos": [
+      "The <strong>Porsche 911 Carrera 4S</strong> of the 997.1 generation represents one of the most attractive points in recent history of 911. It retains a direct and mechanical driving experience, but incorporates the level of performance, stability and everyday usability expected from a modern Porsche.",
+      "Its flat-six naturally aspirated engine of <strong>3,8 liters and 355 hp</strong> is associated with a <strong>six-speed manual transmission</strong>, a combination especially valued by enthusiasts in a market increasingly dominated by automatic transmissions and engines overfed."
+    ],
+    "cita": "This unit adds the presence of the Carrera 4S, with body and all-wheel drive, to a long history at Valentin Motors since 2022, very well maintained and with a negative Bore Scoring check.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera 4S Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generation",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Production date",
+        "valor": "06/03/2008",
+        "acento": false
+      },
+      {
+        "clave": "Engine",
+        "valor": "Bóxer 6 cil. · 3,8 L",
+        "acento": false
+      },
+      {
+        "clave": "Power",
+        "valor": "355 hp",
+        "acento": false
+      },
+      {
+        "clave": "Transmission",
+        "valor": "Manual 6 velocidades",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Negro · Interior piel negra",
+        "acento": false
+      },
+      {
+        "clave": "Mileage",
+        "valor": "93.000 km",
+        "acento": false
+      },
+      {
+        "clave": "Price",
+        "valor": "64.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Gallery",
+    "titulo": "Black.<br/><strong>Body wide<br/>Carrera 4S.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997/exterior1.jpg",
+        "alt": "Front exterior",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Front view · Black · Carrera 4S"
+      },
+      {
+        "src": "/img/997/exterior2.jpg",
+        "alt": "Side profile",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Side profile · Wide fins of the 4S"
+      },
+      {
+        "src": "/img/997/exterior3.jpg",
+        "alt": "rear view",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Rear Four exhaust outlets"
+      },
+      {
+        "src": "/img/997/interior1.jpg",
+        "alt": "Cabin",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabin · Black leather and manual transmission"
+      },
+      {
+        "src": "/img/997/close-up1.jpg",
+        "alt": "Rim and brake caliper detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detail · Black rim and red caliper"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Engine and Mechanics",
+    "titulo": "Flat-six atmospheric.<br/><strong>Manual transmission.</strong><br/>All-wheel drive.",
+    "stats": [
+      {
+        "valor": 355,
+        "animado": true,
+        "unidad": "HP",
+        "etiqueta": "Power",
+        "destacada": true
+      },
+      {
+        "valor": "3,8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Displacement",
+        "destacada": false
+      },
+      {
+        "valor": "6",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "Manual",
+        "destacada": false
+      },
+      {
+        "valor": "4",
+        "animado": false,
+        "unidad": "x4",
+        "etiqueta": "All-wheel drive",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "The flat-six atmospheric <strong>3,8 liters</strong> responds linearly, gaining intensity as the revs rise and maintaining a direct relationship between accelerator, sound and thrust. It delivers <strong>355 hp</strong> without turbo or supercharger involved.",
+      "The <strong>six-speed manual gearbox</strong> allows the engine to be exploited with precision and turns each gear change into part of the experience. The <strong>all-wheel drive</strong> adds mobility and poise, especially when exiting curves, without eliminating the rear character of the 911. The <strong>PASM</strong> combines sporty response with reasonable road use."
+    ],
+    "tags": [
+      "Flat-six 3.8 atmospheric",
+      "Manual 6 speed.",
+      "All-wheel drive",
+      "PASM",
+      "XLF sports exhaust"
+    ]
+  },
+  "kit": {
+    "etiqueta": "trust block",
+    "titulo": "Bore Scoring.<br/><strong>Negative check.</strong>",
+    "ancla": "restauracion",
+    "precio": "Seguimiento en Valentin Motors desde 2022",
+    "categorias": [
+      {
+        "titulo": "Bore Scoring",
+        "items": [
+          "Specific check carried out",
+          "Negative result",
+          "No signs of the problem detected"
+        ]
+      },
+      {
+        "titulo": "Mechanical condition",
+        "items": [
+          "Very well maintained",
+          "No pending work",
+          "93.000 km"
+        ]
+      },
+      {
+        "titulo": "History",
+        "items": [
+          "Tracking at Valentin Motors from 2022",
+          "Known and documented unit",
+          "Continuity beyond a specific inspection"
+        ]
+      },
+      {
+        "titulo": "Tires",
+        "items": [
+          "Current configuration: multi-radius black",
+          "Polished outer ring",
+          "Available with silver finish option"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Black.<br/><strong>Carrera 4S with <br/>brake calipers.</strong>",
+    "texto": "The body in <strong>black</strong> with the flared fins of the <strong>Carrera 4S</strong> gives this unit a special presence. Oval headlights typical of the 997, black multi-spoke wheels with polished outer ring, brake calipers and four exhaust outlets complete a sober, technical and timeless reading.",
+    "fotos": [
+      {
+        "src": "/img/997/close-up1.jpg",
+        "alt": "Rim and brake caliper detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Black rim · Red brake caliper"
+      },
+      {
+        "src": "/img/997/close-up2.jpg",
+        "alt": "Back detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Rear Carrera 4S and four exhausts"
+      },
+      {
+        "src": "/img/997/close-up3.jpg",
+        "alt": "Lighthouse detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detail · Oval headlight 997"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Black leather.<br/><strong>Manual gearbox<br/>and white dials.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997/interior1.jpg",
+        "alt": "Complete cabin",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabin · Black leather and center console"
+      },
+      {
+        "src": "/img/997/interior2.jpg",
+        "alt": "Sport seats",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Sport seats · Black leather"
+      },
+      {
+        "src": "/img/997/interior3.jpg",
+        "alt": "Manual transmission and instrumentation",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Manual transmission · White dials · Sport Chrono"
+      }
+    ],
+    "editorial": "An analogue, compact and driver-focused interior. Sport seats in black leather, three-spoke steering wheel, white dials, Sport Chrono clock on the dashboard and a manual transmission with a metal knob that summarizes the character of this unit."
+  },
+  "procedencia": {
+    "etiqueta": "Documentation and Origin",
+    "titulo": "History<br/><strong>known since<br/>2022.</strong>",
+    "hitos": [
+      {
+        "anio": "06/03/2008",
+        "titulo": "Manufacturing",
+        "cuerpo": "Unit produced on <strong>6 March 2008</strong>, generation <strong>997.1</strong>, in Carrera configuration 4S: body, all-wheel drive and six-speed manual transmission.",
+        "badge": "997.1 Carrera 4S"
+      },
+      {
+        "anio": "Desde 2022",
+        "titulo": "Tracking at Valentin Motors",
+        "cuerpo": "The unit has a <strong>long history at Valentin Motors since 2022</strong>, which allows us to know its evolution, servicing and current status beyond a specific inspection.",
+        "badge": "Tracking since 2022"
+      },
+      {
+        "anio": "Hoy",
+        "titulo": "Available at Valentin Motors",
+        "cuerpo": "<strong>93.000 km</strong>, very well maintained and without pending work. Negative <strong>Bore Scoring check</strong>.",
+        "badge": "64.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Technical sheet",
+    "titulo": "Specifications<br/><strong>complete.</strong>",
+    "grupos": [
+      {
+        "titulo": "Engine",
+        "filas": [
+          {
+            "clave": "Type",
+            "valor": "Bóxer atmosférico 6 cil."
+          },
+          {
+            "clave": "Displacement",
+            "valor": "3,8 litros"
+          },
+          {
+            "clave": "Power",
+            "valor": "355 hp"
+          },
+          {
+            "clave": "Escape",
+            "valor": "Sistema deportivo XLF"
+          },
+          {
+            "clave": "Bore Scoring",
+            "valor": "Chequeo negativo"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmission and Chassis",
+        "filas": [
+          {
+            "clave": "Gearbox",
+            "valor": "Manual 6 velocidades"
+          },
+          {
+            "clave": "Traction",
+            "valor": "Integral"
+          },
+          {
+            "clave": "Suspension",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Stability",
+            "valor": "PSM"
+          },
+          {
+            "clave": "Tires",
+            "valor": "19\" Sport"
+          }
+        ]
+      },
+      {
+        "titulo": "Body and General",
+        "filas": [
+          {
+            "clave": "Generation",
+            "valor": "997.1"
+          },
+          {
+            "clave": "Production date",
+            "valor": "06/03/2008"
+          },
+          {
+            "clave": "Kilometers",
+            "valor": "93.000 km"
+          },
+          {
+            "clave": "Exterior color",
+            "valor": "Negro"
+          },
+          {
+            "clave": "Interior",
+            "valor": "Piel negra"
+          }
+        ]
+      },
+      {
+        "titulo": "Featured equipment",
+        "filas": [
+          {
+            "clave": "454",
+            "valor": "Tempomat"
+          },
+          {
+            "clave": "601",
+            "valor": "Faros de xenón"
+          },
+          {
+            "clave": "375 / 376",
+            "valor": "Asientos Sport"
+          },
+          {
+            "clave": "475 / 476",
+            "valor": "PASM / PSM"
+          },
+          {
+            "clave": "XRR",
+            "valor": "Llantas Sport 19\""
+          }
+        ]
+      },
+      {
+        "titulo": "History",
+        "filas": [
+          {
+            "clave": "Tracking",
+            "valor": "Valentin Motors desde 2022"
+          },
+          {
+            "clave": "Mechanical condition",
+            "valor": "Muy bien mantenido"
+          },
+          {
+            "clave": "Pending jobs",
+            "valor": "Ninguno"
+          }
+        ]
+      },
+      {
+        "titulo": "Conditions of sale",
+        "filas": [
+          {
+            "clave": "Price",
+            "valor": "64.000 €"
+          },
+          {
+            "clave": "Tire option",
+            "valor": "Acabado silver disponible"
+          },
+          {
+            "clave": "Ready to drive",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "Jordi's opinion",
+    "titulo": "The vision<br/><strong>of the expert.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Specialist Porsche · Valentin Motors",
+    "bio": "More than 25 years of experience with collectible Porsche. He has supervised hundreds of sales and purchase operations of special vehicles, with a special focus on 911 of analog generations.",
+    "intro": "\"It's a unit for anyone looking to drive a 911, not just own it.\"",
+    "parrafos": [
+      "The <strong>997 Carrera 4S manual</strong> is one of those Porsche whose appeal has grown over time. It maintains the size, visibility and mechanical feel that many enthusiasts associate with a truly usable 911, but offers enough performance and stability to enjoy it on any type of road.",
+      "Manual shifting is an essential part of its personality. It forces you to work with the engine, allows you to choose the exact speed and reinforces the connection between driver and car. It is precisely this configuration that is gaining more market among enthusiasts, in the face of a market increasingly dominated by automatic transmissions and supercharged engines.",
+      "The body of the 4S gives it a special presence, while the all-wheel drive provides security without turning it into a distant car. It is a unit to drive, keep and enjoy, with the added value of a known history at Valentin Motors since 2022 and a negative Bore Scoring check."
+    ],
+    "prosTitulo": "The best",
+    "pros": [
+      "Six-speed manual transmission: increasingly sought-after configuration",
+      "Naturally aspirated engine 3,8 liters, 355 hp, without turbo or supercharger",
+      "Body wide Carrera 4S and all-wheel drive",
+      "Known history at Valentin Motors since 2022",
+      "Negative Bore Scoring check",
+      "Very well maintained, no pending work"
+    ],
+    "contrasTitulo": "To consider",
+    "contras": [
+      "Current black rims; silver finish option available upon request"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997/exterior2.jpg",
+    "cita": "A Porsche 997.1 Carrera 4S with <em>six-speed manual transmission</em>, naturally aspirated engine 3,8 liters and a known history at Valentin Motors since 2022.",
+    "precio": "64.000 €",
+    "precioTachado": true,
+    "precioLabel": "Porsche 997.1 Carrera 4S · Black · 2008",
+    "aviso": "Reserved vehicle",
+    "nota": "This vehicle is no longer available for sale.",
+    "ctaTexto": "",
+    "ctaHref": ""
+  },
+  "catalogo": {
+    "estado": "reservado",
+    "estadoTexto": "Reserved",
+    "marca": "Porsche · 4S",
+    "nombre": "997.1 Carrera 4S",
+    "detalle": "2008 · 93.000 km · Black",
+    "descripcion": "Flat-six atmospheric 3,8 L · 355 hp · 6 speed manual · All-wheel drive. History at Valentin Motors since 2022. Negative Bore Scoring check.",
+    "precio": "64.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 149,
+    "total": 149,
+    "completa": true
+  }
+}

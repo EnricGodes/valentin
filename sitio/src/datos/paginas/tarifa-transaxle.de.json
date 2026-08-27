@@ -1,0 +1,81 @@
+{
+  "rutaId": "tarifa-transaxle",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-transaxle-mantenimiento-taller",
+  "meta": {
+    "titulo": "Wartung Porsche Transaxle – Valentín Motors",
+    "descripcion": "Servicetarife für die Modelle 924, 944, 968, 928. Sehen Sie sich die häufigsten Probleme und unsere Preise an",
+    "ogImagen": ""
+  },
+  "h1": "Wartung für Transaxle-Modelle",
+  "acordeones": [
+    {
+      "modelo": "924",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 401 €</strong><br/>Große Inspektion: <strong>ab 598 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>240 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "944",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>502 €</strong><br/>Große Inspektion: <strong>898 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>240 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "968",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>601 €</strong><br/>Große Inspektion: <strong>898 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>240 €</strong><br/>Ankaufsuntersuchung: <strong>375€</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "928",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>601 €</strong><br/>Große Inspektion: <strong>898 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>240</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Wartung für Transaxle-Modelle",
+      "parrafos": [
+        "Kein Auto ist 100 % zuverlässig und basierend auf unserer Berufserfahrung konzentrieren wir uns bei Service und Fehlerdiagnose auf eine klare und effektive Diagnose als Schlüssel zum gesamten Reparaturprozess.",
+        "Die Preise unterliegen der Mehrwertsteuer, beinhalten jedoch Teile und Arbeit. Die Preise für Porsche-Teile können ohne vorherige Ankündigung geändert werden. Jeder Rechnung wird eine Gebühr für Umwelt- und sonstige Artikel hinzugefügt. Ihr Fahrzeug wird desinfiziert und gereinigt und steht zur Auslieferung bereit",
+        "Wählen Sie ein Modell aus"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Machen Sie eine Reservierung",
+      "parrafos": [
+        "Hinterlassen Sie uns die Informationen zu Ihrem Modell und der Art der gewünschten Dienstleistung und unser Team wird sich mit Ihnen in Verbindung setzen, um den Termin zu bestätigen"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 21,
+    "total": 21,
+    "completa": true
+  }
+}

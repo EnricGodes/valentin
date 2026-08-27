@@ -1,0 +1,544 @@
+{
+  "slug": "997-ruf-kompressor",
+  "archivoOriginal": "ruf.html",
+  "realce": "realce--ruf",
+  "meta": {
+    "titulo": "Porsche 997 RUF Kompressor R · Valentin Motors",
+    "descripcion": "Porsche 997 Carrera 4S by RUF, specifica Kompressor R, Irish Green, cambio manuale e storia documentata. Da Valentin Motors.",
+    "ogImagen": "https://valentin.up.railway.app/img/ruf/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Valentin Motors · Specialista Porsche dal 1979",
+    "subtitulo": "Porsche 997",
+    "titulo": "RUF<br/>Kompressor R",
+    "claim": "Porsche 997. Irish Green. Ingegneria RUF Kompressor.",
+    "imagen": "/img/ruf/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scorri"
+  },
+  "intro": {
+    "etiqueta": "Storia del veicolo",
+    "titulo": "Un capitolo <br/><strong> documentato dell'eredità <br/>RUF.</strong>",
+    "parrafos": [
+      "Consegnata originariamente nel 2007 tramite <strong>Porsche Zentrum Essen</strong>, questa 911 Carrera 4S, La generazione 997 ha iniziato il suo viaggio come sofisticata Gran Turismo in <strong>grigio meteora metallizzato (LM7W)</strong> con interni in pelle <strong>classico marrone scuro</strong>.",
+      "Nel 2011, con soli <strong>12.234 km</strong> sul contachilometri, il suo primo proprietario ha inviato l'auto allo <strong>RUF stabilimento automobilistico di Pfaffenhausen</strong> per una conversione completa alle specifiche <strong>Kompressor R</strong>. Questa trasformazione, dal costo di <strong>55.000 €</strong>, è meticolosamente documentata dalla fattura originale RUF.",
+      "L'auto conserva il suo numero di telaio originale della Porsche. Il <strong>VIN originale</strong>."
+    ],
+    "cita": "Non è solo una Porsche preparata. Si tratta di una conversione RUF documentata, effettuata a Pfaffenhausen e che conserva il suo VIN Porsche originale.",
+    "datos": [
+      {
+        "clave": "Modello",
+        "valor": "RUF Kompressor R",
+        "acento": false
+      },
+      {
+        "clave": "Base",
+        "valor": "997 Carrera 4S",
+        "acento": false
+      },
+      {
+        "clave": "Anno",
+        "valor": "09 / 2007",
+        "acento": false
+      },
+      {
+        "clave": "Chilometri",
+        "valor": "52.492 km",
+        "acento": false
+      },
+      {
+        "clave": "Colore esterno",
+        "valor": "Irish Green",
+        "acento": false
+      },
+      {
+        "clave": "Interno",
+        "valor": "Piel · cuero marrón",
+        "acento": false
+      },
+      {
+        "clave": "Cambio",
+        "valor": "Manual 6 vel.",
+        "acento": false
+      },
+      {
+        "clave": "Prezzo",
+        "valor": "200.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galleria",
+    "titulo": "Irish Green.<br/><strong>Carrozzeria verificata<br/>da Valentin Motors.</strong>",
+    "fotos": [
+      {
+        "src": "/img/ruf/exterior1.jpg",
+        "alt": "3/4 anteriore",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "3/4 anteriore · Irish Green"
+      },
+      {
+        "src": "/img/ruf/exterior2.jpg",
+        "alt": "Profilo laterale",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Profilo laterale · Cerchi RUF 19\""
+      },
+      {
+        "src": "/img/ruf/exterior3.jpg",
+        "alt": "Posteriore 3/4",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Posteriore 3/4 · Spoiler RUF Dx 12"
+      },
+      {
+        "src": "/img/ruf/exterior4.jpg",
+        "alt": "vista dall'alto",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Vista dall'alto · Paraurti RUF"
+      },
+      {
+        "src": "/img/ruf/exterior5.jpg",
+        "alt": "Dettaglio esterno",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Dettagli esterni · Vernice per vetri"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motore e prestazioni",
+    "titulo": "Engineering<br/><strong>RUF Kompressor.</strong><br/>Nessun ritardo.",
+    "stats": [
+      {
+        "valor": 435,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Potenza",
+        "destacada": true
+      },
+      {
+        "valor": 470,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Coppia",
+        "destacada": false
+      },
+      {
+        "valor": "3.8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrata",
+        "destacada": false
+      },
+      {
+        "valor": "6",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "Manuale",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Il sistema <strong>RUF Kompressor</strong> trasforma il carattere del boxer a sei cilindri senza la risposta brusca di un Turbo tradizionale. Con sovralimentazione Kompressor e intercooler, RUF ottiene un’erogazione di potenza <strong>lineare che elimina il ritardo</strong> dei turbocompressori convenzionali.",
+      "La potenza viene erogata immediatamente e con precisione, rafforzando il carattere di <strong>auto sportiva Gran Turismo</strong> della base 997 Carrera 4S.",
+      "Trasmissione: <strong>cambio manuale 6 velocità</strong>. Trazione: <strong>sistema AWD a trazione integrale</strong>."
+    ],
+    "tags": [
+      "Compressore",
+      "intercooler",
+      "Boxer 6 cil.",
+      "trazione integrale",
+      "Manuale",
+      "Nessun ritardo"
+    ]
+  },
+  "kit": {
+    "etiqueta": "2011 · RUF Kit Kompressor R",
+    "titulo": "Conversione completa<br/><strong>eseguita a Pfaffenhausen.</strong>",
+    "ancla": "rufkit",
+    "precio": "55.113,42 € · Factura original RUF",
+    "categorias": [
+      {
+        "titulo": "Meccanica",
+        "items": [
+          "Kit compressore volumetrico RUF 435 CV / 320 kW",
+          "Intercooler RUF",
+          "Kit scarico RUF",
+          "Copri batteria RUF"
+        ]
+      },
+      {
+        "titulo": "Dinamica",
+        "items": [
+          "Sospensioni Bilstein Sports RUF",
+          "Sistema frenante RUF",
+          "Set ruote RUF 19\""
+        ]
+      },
+      {
+        "titulo": "Estetica",
+        "items": [
+          "Paraurti anteriore RUF Dt 12",
+          "Spoiler posteriore RUF Rt 12",
+          "Paraurti posteriore RUF Dx 12",
+          "Soglie delle porte RUF"
+        ]
+      },
+      {
+        "titulo": "Interno",
+        "items": [
+          "Strumentazione RUF",
+          "Volante sportivo RUF"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Esterno",
+    "titulo": "Irish Green.<br/><strong>Glass-out riverniciata<br/>presso Valentin Motors.</strong>",
+    "texto": "Nel 2024, questo RUF ha subito una rinascita estetica presso <strong>Valentin Motors</strong>. Con un investimento di oltre <strong>30.000 €</strong>, il veicolo è stato completamente smontato e riverniciato nell'iconico <strong>Irish Green</strong>, una tonalità che rende omaggio all'eredità più leggendaria di RUF e Porsche. Il Irish Green trasforma questa unità in un pezzo visivamente contenuto ma profondamente riconoscibile.",
+    "fotos": [
+      {
+        "src": "/img/ruf/close-up1.jpg",
+        "alt": "RUF posteriore",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Posteriore RUF Dx 12 · Scarico quadruplo"
+      },
+      {
+        "src": "/img/ruf/close-up2.jpg",
+        "alt": "Profilo laterale",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Profilo laterale · Cerchi RUF 19\" · Pinze gialle"
+      },
+      {
+        "src": "/img/ruf/close-up3.jpg",
+        "alt": "3/4 anteriore",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Anteriore 3/4 · Paraurti RUF Dx 12"
+      },
+      {
+        "src": "/img/ruf/close-up4.jpg",
+        "alt": "Dettaglio frontale",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Faro anteriore Pinza freno gialla"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interno",
+    "titulo": "Pelle marrone.<br/><strong>Artigianalità RUF<br/>in ogni dettaglio.</strong>",
+    "fotos": [
+      {
+        "src": "/img/ruf/interior1.jpg",
+        "alt": "Soglia RUF e cabina",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Soglia RUF in metallo · Cabina dalla porta"
+      },
+      {
+        "src": "/img/ruf/interior2.jpg",
+        "alt": "Pannello di controllo RUF",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Strumentazione RUF · Quadrante verde · Lancette rosse"
+      },
+      {
+        "src": "/img/ruf/interior3.jpg",
+        "alt": "Cabina completa",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Cabina completa · Pedali e leva manuale"
+      },
+      {
+        "src": "/img/ruf/interior4.jpg",
+        "alt": "Cruscotto e cambio",
+        "ancho": 1600,
+        "alto": 900,
+        "caption": "Cruscotto · Pomello in legno · Cambio manuale"
+      }
+    ],
+    "editorial": "Gli interni combinano la sobrietà della pelle marrone con dettagli in tessuto verde e componenti specifici RUF. La strumentazione, il volante e le soglie trasformano l'abitacolo in una diretta estensione della conversione del Kompressor R, mantenendone una lettura artigianale e tecnica."
+  },
+  "procedencia": {
+    "etiqueta": "Documentazione e origine",
+    "titulo": "Storia<br/><strong>completamente<br/>documentata.</strong>",
+    "hitos": [
+      {
+        "anio": "2007 · Alemania",
+        "titulo": "Consegna originale presso Porsche Zentrum Essen",
+        "cuerpo": "Questa 911 Carrera 4S, generazione 997, viene consegnata da <strong>Porsche Zentrum Essen</strong> a colori <strong>Grigio meteora metallizzato (LM7W)</strong> su <strong>Interni classici in pelle marrone scuro</strong>. Paese di prima consegna: Germania.",
+        "badge": "Documentazione di consegna originale"
+      },
+      {
+        "anio": "2011 · Pfaffenhausen, Alemania",
+        "titulo": "Conversione RUF Kompressor R",
+        "cuerpo": "Con soli <strong>12.234 km</strong>, il veicolo viene inviato a <strong>RUF Automobile a Pfaffenhausen</strong> per una conversione completa del Kompressor R. La trasformazione include compressore volumetrico, intercooler, pneumatici, freni, sospensioni, scarico e carrozzeria RUF. L'auto conserva il suo <strong>VIN Porsche</strong> originale.",
+        "badge": "Fattura RUF · 55.113,42 €"
+      },
+      {
+        "anio": "2024 · España",
+        "titulo": "Rinnovo completo presso Valentin Motors",
+        "cuerpo": "Valentin Motors effettua un rinnovamento estetico e meccanico di oltre <strong>30.000 €</strong>: smantellamento completo, riverniciatura <strong>glass-out in Irish Green</strong>, profondo rinnovamento degli interni, importante ispezione tecnica e tagliando completo. Carrozzeria completamente verificata presso Valentin Motors.",
+        "badge": "Documentazione Valentin Motors · 30.000 €"
+      },
+      {
+        "anio": "Hoy · Disponible",
+        "titulo": "Un oggetto da collezione pronto da guidare",
+        "cuerpo": "<strong>52.492 km</strong> totali. MOT valido fino a gennaio 2027. Nessun incidente. Numeri corrispondenti. manutenzione completo di timbri degli specialisti <strong>Porsche e RUF</strong>. 3 proprietari. Luogo: Spagna.",
+        "badge": "200.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Scheda tecnica",
+    "titulo": "Specifiche<br/><strong>complete.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motore",
+        "filas": [
+          {
+            "clave": "Digitare",
+            "valor": "Bóxer 6 cilindros"
+          },
+          {
+            "clave": "Cilindrata",
+            "valor": "3.800 cc"
+          },
+          {
+            "clave": "Sovralimentazione",
+            "valor": "RUF Kompressor"
+          },
+          {
+            "clave": "intercooler",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Potenza",
+            "valor": "435 CV / 320 kW"
+          },
+          {
+            "clave": "Coppia",
+            "valor": "470 Nm"
+          },
+          {
+            "clave": "Carburante",
+            "valor": "Gasolina"
+          }
+        ]
+      },
+      {
+        "titulo": "Trasmissione e telaio",
+        "filas": [
+          {
+            "clave": "Cambio",
+            "valor": "Manual 6 vel."
+          },
+          {
+            "clave": "Trazione",
+            "valor": "AWD total"
+          },
+          {
+            "clave": "Indirizzo",
+            "valor": "Izquierda"
+          },
+          {
+            "clave": "Sospensioni",
+            "valor": "Bilstein RUF"
+          },
+          {
+            "clave": "Freni",
+            "valor": "Sistema RUF"
+          },
+          {
+            "clave": "Pneumatici",
+            "valor": "RUF 19\""
+          },
+          {
+            "clave": "Servosterzo",
+            "valor": "Sí"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrozzeria e Generale",
+        "filas": [
+          {
+            "clave": "Carrozzeria",
+            "valor": "Coupé"
+          },
+          {
+            "clave": "Anno",
+            "valor": "09 / 2007"
+          },
+          {
+            "clave": "Chilometri",
+            "valor": "52.492 km"
+          },
+          {
+            "clave": "Colore esterno",
+            "valor": "Irish Green 6406"
+          },
+          {
+            "clave": "Interno",
+            "valor": "Cuero marrón"
+          },
+          {
+            "clave": "Sedili",
+            "valor": "2+2"
+          },
+          {
+            "clave": "MOT",
+            "valor": "Enero 2027"
+          }
+        ]
+      },
+      {
+        "titulo": "Origine",
+        "filas": [
+          {
+            "clave": "Numeri corrispondenti",
+            "valor": "Sí"
+          },
+          {
+            "clave": "VIN originale",
+            "valor": "Porsche"
+          },
+          {
+            "clave": "Nessun incidente",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Paese di consegna",
+            "valor": "Alemania"
+          },
+          {
+            "clave": "Proprietari",
+            "valor": "3"
+          },
+          {
+            "clave": "Posizione",
+            "valor": "España"
+          },
+          {
+            "clave": "Pronto a guidare",
+            "valor": "Sí"
+          }
+        ]
+      },
+      {
+        "titulo": "Attrezzatura",
+        "filas": [
+          {
+            "clave": "ABS",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Airbag",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Aria condizionata",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Navigazione",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Tetto apribile",
+            "valor": "Sí"
+          }
+        ]
+      },
+      {
+        "titulo": "Investimenti documentati",
+        "filas": [
+          {
+            "clave": "Conversione RUF 2011",
+            "valor": "55.113,42 €"
+          },
+          {
+            "clave": "Restauro 2024",
+            "valor": "> 30.000 €"
+          },
+          {
+            "clave": "Totale investito",
+            "valor": "> 85.000 €"
+          },
+          {
+            "clave": "Prezzo di vendita",
+            "valor": "200.000 €"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "L'opinione di Jordi",
+    "titulo": "La visione<br/><strong>dell'esperto.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Specialista Porsche · Valentin Motors",
+    "bio": "Più di 25 anni di esperienza con Porsche da collezione. Ha supervisionato centinaia di operazioni di acquisto e vendita di veicoli speciali, con particolare attenzione ai preparativi.",
+    "intro": "\"Abbiamo cercato per molti anni un RUF Kompressor R in condizioni simili a questo. Quando l'abbiamo visto, la decisione è stata immediata.\"",
+    "parrafos": [
+      "La prima cosa che attira la Sua attenzione di questa vettura non è la vernice, anche se il <strong>Irish Green</strong> su un pavimento di cemento lucido è quasi ingiustamente bello. Ciò che è coinvolgente è la coerenza dell’insieme. Ogni elemento parla la stessa lingua: la conversione RUF, il rinnovamento del 2024 in Valentin Motors, la leva corta, la scatola verde con le lancette rosse. Niente è fuori posto.",
+      "Il sistema <strong>RUF Kompressor</strong> cambia radicalmente la personalità della 997 senza tradirne il carattere. Non c’è ritardo del turbo. La pressione cresce in modo pulito e progressivo, e il boxer da 3,8 litri offre una linearità che poche vetture di questa potenza eguagliano. Con il <strong>cambio manuale a 6 marce</strong> e la <strong>trazione integrale</strong>, il risultato è una Gran Turismo utilizzabile senza limitazioni in qualsiasi condizione.",
+      "La registrazione è impeccabile. Tre proprietari, VIN originale Porsche, fattura RUF del 2011, documentazione completa del restauro del 2024. Per un collezionista serio, questo è importante quanto l'auto stessa."
+    ],
+    "prosTitulo": "Il migliore",
+    "pros": [
+      "Conversione RUF autentica, documentata e certificata",
+      "Erogazione di potenza lineare, senza turbo",
+      "Cambio manuale nella trazione integrale RUF: combinazione eccezionale",
+      "Irish Green è praticamente unico oggi sul mercato",
+      "Tre investimenti documentati che giustificano il prezzo",
+      "VIN originale Porsche conservato"
+    ],
+    "contrasTitulo": "Da considerare",
+    "contras": [
+      "Il prezzo colloca questo RUF nel regno di un collezionista, non di un utente quotidiano",
+      "Un profilo più estremo potrebbe preferire il CTR o l'RGT della stessa epoca"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/ruf/exterior3.jpg",
+    "cita": "Non è solo una Porsche preparata.<br/> È <em>un capitolo documentato dell'eredità RUF</em>, presentato in una combinazione di colori senza tempo e pronto per la collezione più esigente.",
+    "precio": "200.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997 RUF Kompressor R · Irish Green",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Maggiori informazioni",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponibile",
+    "marca": "Porsche · RUF",
+    "nombre": "997 RUF Kompressor R",
+    "detalle": "2007 · 52.492 km · Irish Green",
+    "descripcion": "Conversione RUF integrale documentata. Fattura originale Pfaffenhausen 2011. Vetro ridipinto Irish Green 2024. VIN Porsche conservato.",
+    "precio": "200.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/ruf/exterior1.jpg",
+    "imagenAncho": 1600,
+    "imagenAlto": 900
+  },
+  "traduccion": {
+    "hechas": 170,
+    "total": 170,
+    "completa": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "rutaId": "competicion",
+  "tipo": "servicio",
+  "ficheroOriginal": "competicion",
+  "meta": {
+    "titulo": "Preparazione auto da competizione — Valentín Motors",
+    "descripcion": "Valentín Motors è presente dal 1979 nel mondo delle corse. Il DNA del brand è la competizione, luogo dove siamo sempre stati presenti.",
+    "ogImagen": ""
+  },
+  "h1": "Preparazione dei veicoli per la competizione",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Preparazione dei veicoli per la competizione",
+      "parrafos": [
+        "Siamo partner tecnici e specialisti di installazione con alcuni dei <strong>migliori nomi nel mondo automobilistico</strong>. Ciò include sospensioni KW e Bilstein, pneumatici Michelin, AP racing, Performance Friction Corporation, Heigo e un elenco di eccellenti fornitori di pezzi di ricambio. <strong>Tutti i prodotti sono ampiamente testati e valutati</strong> da Valentín Motors come parte delle nostre operazioni di ricerca e sviluppo.",
+        "Oltre ai prodotti aftermarket, <strong>abbiamo sviluppato un ampio catalogo delle nostre soluzioni </strong>progettate su misura per migliorare il Suo veicolo con prodotti che vanno dalle conversioni di corona e pignone, sistemi di spegnimento completi, geometrie e configurazioni specifiche."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preparativi Track Day",
+      "parrafos": [
+        "<strong>Lo spirito del marchio è sportivo</strong> ed è su un circuito dove Porsche dimostra il suo potenziale, trasmettendo sensazioni impossibili da ottenere nella guida urbana. L'esecuzione di corse in un ambiente controllato è il momento in cui il pilota e il veicolo raggiungono la simbiosi con la quale sono stati concepiti.",
+        "Effettuiamo <strong> adattamenti del veicolo </strong> a qualsiasi livello per soddisfare le condizioni della pista richieste e lo stato richiesto dal cliente."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/f7d234c2-32b6-4307-8bbf-1eb7aa37479d/DSC07852.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Campionati GT e Gentlemen Driver",
+      "parrafos": [
+        "Siamo presenti nei veicoli GT3, GT3 e carrera CUP di varie generazioni, fornendo <strong>servizi di assistenza e supporto con ingegneria di pista </strong>e operatori regolari del campionato."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/4e60d379-37f9-4e52-8d0c-59fd91eeb5fd/DSC08039.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Rally",
+      "parrafos": [
+        "La cosa più comune è pensare ai veicoli Porsche su una strada ben asfaltata e che viaggiano ad alta velocità. Ma la verità è che non è strano vederli fuori dall'asfalto. Nel corso della loro storia hanno corso in tutti i tipi di situazioni e superfici, vincendo una Parigi-Dakar nel 1984.",
+        "Parte della <strong>preparazione di un 911 per le manifestazioni</strong> prevede:"
+      ],
+      "items": [
+        "Alleggerisci il suo peso: rimuovi le parti non necessarie, i pezzi di fibra di vetro,..",
+        "Aggiungi componenti di sicurezza: roll-bar, imbracature, secchi,..",
+        "Migliorare le prestazioni: modifiche al motore, ammortizzatori, pneumatici,.."
+      ],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/d99de2c0-b26e-4cdb-93b1-09edd359f4c7/DSC07759.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Scopra l'adrenalina",
+      "parrafos": [
+        "Guidare una 911 in modo sportivo è una sensazione diversa da qualsiasi altra sensazione precedente. È scoprire per la prima volta la vera adrenalina."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

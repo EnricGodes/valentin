@@ -1,0 +1,215 @@
+{
+  "rutaId": "tarifa-gt",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-gt-mantenimiento-taller",
+  "meta": {
+    "titulo": "Wartung Porsche GT – Valentín Motors",
+    "descripcion": "Servicepreise für GT-Modelle. Sehen Sie sich die häufigsten Probleme und unsere Preise an",
+    "ogImagen": ""
+  },
+  "h1": "Wartung für GT-Modelle",
+  "acordeones": [
+    {
+      "modelo": "996 GT3 MK1",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 611 €</strong><br/>Große Inspektion: <strong>ab 1.093 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117€</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT3 MK2",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>611 €</strong><br/>Große Inspektion: <strong>1.092 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: 117<strong>€</strong><br/>Ankaufsuntersuchung: <strong>375€</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 740 €</strong><br/>Große Inspektion: <strong>ab 1.093 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117€</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 GT3",
+      "parrafos": [
+        "<strong>Preise<br/></strong>Kleine Inspektion: <strong>ab 691€</strong><br/>Große Inspektion: <strong>ab 1.001€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>240 €</strong><br/>Ankaufsuntersuchung: <strong>375€</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 464€</strong><br/>Große Inspektion: <strong>ab 1.184€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion:<strong> ab 602€</strong><br/>Große Inspektion:<strong> ab 1.029€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Achsvermessung: <strong>117€</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 802€</strong><br/>Große Inspektion: <strong>ab 1.030€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117€</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 691€</strong><br/>Große Inspektion: <strong>ab 1.259€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 GT3 RS",
+      "parrafos": [
+        "<strong>Preise<br/></strong>Kleine Inspektion: <strong>370</strong> <strong>€</strong><br/>Große Inspektion: <strong>920</strong> <strong>€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117€</strong><br/>Ankaufsuntersuchung: <strong>250 €<br/><br/></strong><em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 641 €</strong><br/>Große Inspektion: <strong>ab 1.438€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: 117<strong> €</strong><br/>Ankaufsuntersuchung: <strong>375€</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion:<strong>ab 640€</strong><br/>Große Inspektion:<strong>ab 1.495€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375€</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 540€</strong><br/>Große Inspektion: <strong>ab1.437€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong> ab 540€</strong><br/>Große Inspektion: <strong>ab 1.437€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "993 GT",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion:<strong>ab 822€</strong><br/>Große Inspektion:<strong>ab 1.295€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion:<strong>ab 680€</strong><br/>Große Inspektion:<strong>ab 1.334€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion:<strong>ab 603€</strong><br/>Große Inspektion:<strong>ab </strong> <strong>1.149€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997 GT2 RS",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 857€</strong><br/>Große Inspektion: <strong>ab 1.216 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117€</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991 GT2 RS",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 656€</strong><br/>Große Inspektion: <strong>ab 1.702€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "981 CAYMAN GT4",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion:<strong> ab 683€</strong><br/>Große Inspektion:<strong>ab 1029€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €<br/><br/></strong><em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "718 CAYMAN GT4",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong>ab 695€</strong><br/>Große Inspektion:<strong>ab 1.030€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "718 CAYMAN GT4 RS",
+      "parrafos": [
+        "<strong><br/></strong>Kleine Inspektion: <strong> ab 695€</strong><br/>Große Inspektion: <strong>ab 1.030€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: 117€<br/>Ankaufsuntersuchung: <strong>375 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Wartung für GT-Modelle",
+      "parrafos": [
+        "Kein Auto ist 100 % zuverlässig und, basierend auf unserer Berufserfahrung, sind Service und Diagnose der Schlüssel zum Prozess, der uns zu einer erfolgreichen Arbeit führt.",
+        "Die Preise unterliegen der Mehrwertsteuer, beinhalten jedoch Teile und Arbeit. Die Preise für Porsche-Teile können ohne vorherige Ankündigung geändert werden. Jeder Rechnung wird eine Gebühr für Umwelt- und sonstige Artikel hinzugefügt. Ihr Fahrzeug wird desinfiziert und gereinigt und steht zur Auslieferung bereit.",
+        "Wählen Sie ein Modell aus"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Machen Sie eine Reservierung",
+      "parrafos": [
+        "Hinterlassen Sie uns die Informationen zu Ihrem Modell und der Art der gewünschten Dienstleistung und unser Team wird sich mit Ihnen in Verbindung setzen, um den Termin zu bestätigen"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 70,
+    "total": 70,
+    "completa": true
+  }
+}

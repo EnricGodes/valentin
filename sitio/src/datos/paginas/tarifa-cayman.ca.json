@@ -1,0 +1,88 @@
+{
+  "rutaId": "tarifa-cayman",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-cayman-boxster-mantenimiento-taller",
+  "meta": {
+    "titulo": "Manteniment Porsche Cayman i Boxster — Valentín Motors",
+    "descripcion": "Tarifes dels serveis per als models Boxster i Cayman. Consulteu els problemes més freqüents i els nostres preus",
+    "ogImagen": ""
+  },
+  "h1": "Preus de manteniment per als models Cayman i Boxster",
+  "acordeones": [
+    {
+      "modelo": "Boxster 986",
+      "parrafos": [
+        "<strong><br/>Servei menor</strong>:(Filtre d'oli + oli motor + filtre de pol·len+ 23 punts check list ) <strong>des</strong> <strong>525,00€</strong><br/><strong>Servei major </strong>:(Inclou Servei menor + filtre d'aire + 30 punts check list ) <strong>des de 635,00 €</strong><br/>Servei líquid de frens: <strong>92 €</strong><br/>Geometries: <strong>117€</strong><br/>Inspecció prèvia a la compra: <strong>375,00 €</strong>",
+        "Revisió Bore Scoring: <strong>196/343<br/><br/></strong><em>Preus sense IVA.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster i Cayman 987",
+      "parrafos": [
+        "<strong><br/>Servei menor</strong> (Filtre d'oli + oli motor + filtre de pol·len + check list de 23 punts)<strong> des de 525,00€</strong><br/><strong>Servei major: </strong>(Inclou Servei menor+ filtre d'aire + check list de 30 punts ) <strong>des de 635,00 €</strong><br/>Servei líquid de frens: <strong>92 €</strong><br/>Geometries: <strong>117 €</strong><br/>Inspecció prèvia a la compra: <strong>375,00 €</strong>",
+        "<strong><br/><br/></strong><em>Preus sense IVA.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster i Cayman 981",
+      "parrafos": [
+        "Els punts més comuns a revisar al 981 són:",
+        "Drenatges bloquejats",
+        "Premsa d'embragatge per contra manual.",
+        "<strong><br/>Servei menor:</strong>(Filtre d'oli + oli motor + filtre de pol·len + check list de 23 punts ) <strong>des de 595,00 €</strong><br/><strong>Servei major: des de 720,00 €</strong><br/>Servei líquid de frens: <strong>92 €</strong><br/>Geometries: <strong>117 €</strong><br/>Inspecció prèvia a la compra: <strong>375,00 €</strong>",
+        "<em>Preus sense IVA.</em>"
+      ],
+      "items": [
+        "Drenatges bloquejats",
+        "Premsa d'embragatge per contra manual."
+      ]
+    },
+    {
+      "modelo": "Boxster i Cayman 718",
+      "parrafos": [
+        "<strong><br/>Servei menor:</strong>(Filtre d'oli+oli motor+filtre de pol·len + check list de 23 punts ) <strong>des de 690,00 €</strong><br/><strong>Servei major:(</strong>Inclou Servei menor + filtre d'aire + check list de 30 punts ) <strong>des de 850,00€</strong><br/>Servei líquid de frens: <strong>92 €</strong><br/>Geometries: <strong>117 €</strong><br/>Inspecció prèvia a la compra: <strong>375,00 €</strong>",
+        "<em>Preus sense IVA.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Preus de manteniment per als models Cayman i Boxster",
+      "parrafos": [
+        "Cap automòbil és 100 % fiable i, a partir de la nostra experiència de treball, servei i diagnòstic de fallades.",
+        "L'equip us pot assessorar sobre les millors accions de manteniment preventiu. Els tècnics de Valentín Motors poden proporcionar solucions ben dissenyades que solucionaran el problema.<br/><br/>",
+        "Els preus estan subjectes a IVA, però inclouen peces i mà d'obra. Els preus de les peces de Porsche estan subjectes a canvis sense avís previ. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos. El seu vehicle es desinfectarà i netejarà, llest per a la recol·lecció.",
+        "Selecciona un model"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Fes una reserva",
+      "parrafos": [
+        "Deixa'ns les dades del teu model, tipus de servei que requereixes i el nostre equip contactarà amb tu per confirmar la cita"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 27,
+    "total": 27,
+    "completa": true
+  }
+}

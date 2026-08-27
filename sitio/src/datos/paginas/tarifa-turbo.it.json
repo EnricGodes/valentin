@@ -1,0 +1,129 @@
+{
+  "rutaId": "tarifa-turbo",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-turbo-mantenimiento-taller",
+  "meta": {
+    "titulo": "manutenzione Porsche Turbo — Valentín Motors",
+    "descripcion": "Tariffe di servizio per i modelli Turbo. Controlli i problemi più frequenti e i nostri prezzi",
+    "ogImagen": ""
+  },
+  "h1": "manutenzione per i modelli Turbo",
+  "acordeones": [
+    {
+      "modelo": "930 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 582 €</strong><br/>Tagliando maggiore:<strong>da 1.203 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "964 3.3 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 628€</strong><br/>Tagliando maggiore:<strong>da 1093 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117€</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "964 3.6 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 685 €</strong><br/>Tagliando maggiore: <strong>da 950 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "993 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 695 €</strong><br/>Tagliando maggiore: <strong>da 1438€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 Turbo",
+      "parrafos": [
+        "<strong>Prezzi<br/></strong>Tagliando minore: <strong>da 674 €</strong><br/>Tagliando maggiore: <strong>da 1242 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie:<strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 657 €</strong><br/>Tagliando maggiore: <strong>da 1.131€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 680 €</strong><br/>Tagliando maggiore: <strong>da 1.163 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 449 €</strong><br/>Tagliando maggiore: <strong>da 979 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>240 €<br/></strong>Assistenza AA:<strong> 98 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 703€</strong><br/>Tagliando maggiore: <strong>da 1.012 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>240 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 540 €</strong><br/>Tagliando maggiore: <strong>da 1.283 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "manutenzione per i modelli Turbo",
+      "parrafos": [
+        "Nessuna auto è affidabile al 100 % e, in base alla nostra esperienza lavorativa, l'assistenza e la diagnosi dei guasti sono fondamentali per individuare chiaramente il guasto e la sua origine.",
+        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo verrà disinfettato e pulito, pronto per la consegna.",
+        "Seleziona un modello"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Effettua una prenotazione",
+      "parrafos": [
+        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 39,
+    "total": 39,
+    "completa": true
+  }
+}

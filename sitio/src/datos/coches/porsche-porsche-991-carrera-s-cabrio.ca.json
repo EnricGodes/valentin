@@ -1,0 +1,504 @@
+{
+  "slug": "porsche-porsche-991-carrera-s-cabrio",
+  "archivoOriginal": "991scabrio.html",
+  "realce": "realce--991scabrio",
+  "meta": {
+    "titulo": "Porsche 991 Carrera S Cabrio · Valentin Motors",
+    "descripcion": "Porsche 911 Carrera S Cabrio 991.1, 2014, manual de 7 marxes, 122.000 km, Agate Grey, llibre complet, garantia de 12 mesos. Preu: 89.900 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/991scabrio/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 991.1 · Carrera S Cabrio",
+    "subtitulo": "Porsche 991",
+    "titulo": "Carrera S Cabrio",
+    "claim": "Manual de 7 velocitats. Cel obert i caràcter S.",
+    "imagen": "/img/991scabrio/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Història del vehicle",
+    "titulo": "Set velocitats.<br/><strong>Cel obert.</strong>",
+    "parrafos": [
+      "Aquest <strong>Porsche 911 Carrera S Cabrio</strong> de la generació 991.1 combina la silueta oberta del 911 amb una configuració especialment orientada a la conducció: <strong>canvi manual de set velocitats</strong>, <strong>diferencial autoblocant al 40 %</strong>, suspensió adaptativa <strong>PASM</strong> i llantes <strong>Carrera Classic II de 20 polzades</strong>.",
+      "Produït el <strong>27 de juny de 2013</strong> com a model <strong>2014</strong>, es presenta en color <strong>Agate Grey M7S</strong>, combinat amb interior negre, seients esportius Plus, calefacció a les places davanteres i paquet de so BOSE."
+    ],
+    "cita": "Un Carrera S Cabri manual amb historial complet i una configuració dinàmica especialment equilibrada.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera S Cabrio",
+        "acento": false
+      },
+      {
+        "clave": "Generació",
+        "valor": "991.1",
+        "acento": false
+      },
+      {
+        "clave": "Producció",
+        "valor": "27.06.2013 · Modelo 2014",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bóxer 3,8 L · 400 CV",
+        "acento": false
+      },
+      {
+        "clave": "Transmissió",
+        "valor": "Manual de 7 velocidades",
+        "acento": false
+      },
+      {
+        "clave": "Quilometratge",
+        "valor": "122.000 km",
+        "acento": false
+      },
+      {
+        "clave": "Color exterior",
+        "valor": "Agate Grey · M7S",
+        "acento": false
+      },
+      {
+        "clave": "Llandes",
+        "valor": "Carrera Classic II 20\"",
+        "acento": false
+      },
+      {
+        "clave": "Historial",
+        "valor": "Libro de servicio completo",
+        "acento": false
+      },
+      {
+        "clave": "Garantia",
+        "valor": "12 meses",
+        "acento": false
+      },
+      {
+        "clave": "Preu",
+        "valor": "89.900 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galeria",
+    "titulo": "Agate Grey.<br/><strong>Manual i caràcter<br/>Carrera S.</strong>",
+    "fotos": [
+      {
+        "src": "/img/991scabrio/exterior1.jpg",
+        "alt": "Frontal 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Frontal 3/4 · Agate Grey · Sostre obert"
+      },
+      {
+        "src": "/img/991scabrio/exterior2.jpg",
+        "alt": "Perfil complet",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil complet · Llandes Carrera Classic II"
+      },
+      {
+        "src": "/img/991scabrio/exterior3.jpg",
+        "alt": "Del darrere 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Del darrere 3/4 · Tub d'escapament central"
+      },
+      {
+        "src": "/img/991scabrio/interior1.jpg",
+        "alt": "Lloc de conducció",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Lloc de conducció · Canvi manual"
+      },
+      {
+        "src": "/img/991scabrio/interior3.jpg",
+        "alt": "Vista des de darrere dels seients",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabri obert · Vista des dels seients del darrere"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Canvi manual i control dinàmic",
+    "titulo": "Participació<br/><strong>del conductor.</strong><br/>Sense filtres.",
+    "stats": [
+      {
+        "valor": "7",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "Canvi manual",
+        "destacada": true
+      },
+      {
+        "valor": "PASM",
+        "animado": false,
+        "unidad": "",
+        "etiqueta": "Suspensió adaptativa",
+        "destacada": false
+      },
+      {
+        "valor": "40",
+        "animado": false,
+        "unidad": "%",
+        "etiqueta": "Bloqueig diferencial",
+        "destacada": false
+      },
+      {
+        "valor": "20",
+        "animado": false,
+        "unidad": "\"",
+        "etiqueta": "Carrera Classic II",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El <strong>motor bòxer atmosfèric de 3,8 litres</strong> desenvolupa <strong>400 CV</strong> i es gestiona a través d'una <strong>transmissió manual de set velocitats</strong>, codi d'opció 487, un dels elements que defineix aquesta unitat. Permet gestionar directament el lliurament del motor i converteix cada canvi de relació en una part activa de la conducció, encaixant especialment bé amb el caràcter obert del Carrera S Cabrio.",
+      "El sistema <strong>PASM</strong> (codi 475) permet adaptar la resposta de la suspensió, combinant un ús confortable amb un ajustament més ferm quan es desitja una conducció més ferma. El <strong>diferencial autoblocant al 40 %</strong> (codi 220) contribueix a gestionar la tracció de l'eix posterior.",
+      "El resultat és una configuració equilibrada entre conducció esportiva, ús a la carretera i gaudi quotidià, recolzada a les llantes <strong>Carrera Classic II de 20 polzades</strong> i les pinces de fre vermelles."
+    ],
+    "tags": [
+      "Manual 7 vel.",
+      "PASM",
+      "Diferencial 40%",
+      "Carrera Classic II",
+      "991.1"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Opcions de fàbrica documentades",
+    "titulo": "Una configuració<br/><strong>pensada per conduir.</strong>",
+    "ancla": "restauracion",
+    "precio": "89.900 € · Libro de servicio completo",
+    "categorias": [
+      {
+        "titulo": "Transmissió i tracció",
+        "items": [
+          "Canvi manual de 7 velocitats (487)",
+          "Bloqueig diferencial al 40 % (220)"
+        ]
+      },
+      {
+        "titulo": "Suspensió i frens",
+        "items": [
+          "Regulació elèctrica PASM (475)",
+          "Pinces de fre vermelles"
+        ]
+      },
+      {
+        "titulo": "Confort",
+        "items": [
+          "Seients esportius Plus (319 / 320)",
+          "Calefacció de seients davanters (342)",
+          "Paquet de so BOSE (680)"
+        ]
+      },
+      {
+        "titulo": "Il·luminació i llantes",
+        "items": [
+          "Llum de xenó (601)",
+          "Rentafars (288)",
+          "Llandes Carrera Classic II 20\" (427)"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Agate Grey.<br/><strong>Sobrietat<br/>amb accent tècnic.</strong>",
+    "texto": "El color <strong>Agate Grey</strong> aporta profunditat a les superfícies del 991.1 i permet llegir amb claredat la transició entre el capó, les aletes davanteres, les portes i els passos de roda posteriors. Les llantes <strong>Carrera Classic II de 20 polzades</strong> introdueixen un contrast tècnic mitjançant els seus radis foscos i superfícies mecanitzades, mentre que les <strong>pinces vermelles</strong> aporten un accent visible sense alterar la sobrietat general de la configuració. Amb la capota oberta, la línia del cotxe es fa més horitzontal.",
+    "fotos": [
+      {
+        "src": "/img/991scabrio/close-up1.jpg",
+        "alt": "Far, para-xocs i roda davantera",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Xenó i rentafars · Llanta Carrera Classic II · Pinça vermella"
+      },
+      {
+        "src": "/img/991scabrio/close-up2.jpg",
+        "alt": "Detall del darrere",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Pilot estret · Inscripció Porsche · Tub d'escapament central"
+      },
+      {
+        "src": "/img/991scabrio/close-up3.jpg",
+        "alt": "Volant i quadre d'instruments",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Volant esportiu · Quadre Carrera S de cinc esferes"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Interior negre.<br/><strong>Construït<br/>al voltant del canvi.</strong>",
+    "fotos": [
+      {
+        "src": "/img/991scabrio/interior2.jpg",
+        "alt": "Vista general de l'habitacle",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitatge · Pell negra i consola 991.1"
+      },
+      {
+        "src": "/img/991scabrio/interior1.jpg",
+        "alt": "Lloc de conducció",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Lloc de conducció · Palanca manual metàl·lica"
+      },
+      {
+        "src": "/img/991scabrio/interior3.jpg",
+        "alt": "Vista des de darrere dels seients",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Configuració Cabrio abierta · Cockpit complet"
+      }
+    ],
+    "editorial": "L'interior conserva l'arquitectura envoltant del 991.1, amb una consola central elevada que agrupa els controls al voltant del conductor. Els seients esportius Plus combinen suport lateral amb una configuració utilitzable a la carretera, mentre que la calefacció davantera millora el confort durant la conducció oberta en dies frescos. La palanca manual de set velocitats ocupa un lloc protagonista: és l'element que resumeix millor el caràcter d'aquesta unitat."
+  },
+  "procedencia": {
+    "etiqueta": "Historial, documentació i garantia",
+    "titulo": "122.000 km.<br/><strong>Llibre de servei<br/>complet.</strong>",
+    "hitos": [
+      {
+        "anio": "27.06.2013 · Producción",
+        "titulo": "Fabricació com a model 2014",
+        "cuerpo": "Unitat produïda el <strong>27 de juny de 2013</strong> i comercialitzada com a model <strong>2014</strong>, amb número de bastidor <strong>WP0ZZZ99ZES145561</strong> i configuració Carrera S Càbrir de la generació 991.1.",
+        "badge": "991320 · A103 · G9100"
+      },
+      {
+        "anio": "Historial · Mantenimiento",
+        "titulo": "Llibre de servei complet",
+        "cuerpo": "La unitat disposa de <strong>llibre de servei complet</strong>, un element essencial per contextualitzar el seu recorregut i les operacions de manteniment realitzades al llarg del temps. Quilometratge actual: <strong>122.000 km</strong>.",
+        "badge": "122.000 km"
+      },
+      {
+        "anio": "Garantía · 12 meses",
+        "titulo": "12 mesos de garantia",
+        "cuerpo": "La unitat s'ofereix amb <strong>12 mesos de garantia</strong>, segons les condicions contractuals aplicables. Cobertura subjecta als termes, límits, exclusions i condicions recollits al contracte de garantia.",
+        "badge": "89.900 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fitxa tècnica",
+    "titulo": "Especificacions<br/><strong>completes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Identificació",
+        "filas": [
+          {
+            "clave": "Model",
+            "valor": "911 Carrera S Cabrio"
+          },
+          {
+            "clave": "Generació",
+            "valor": "991.1"
+          },
+          {
+            "clave": "Any model",
+            "valor": "2014"
+          },
+          {
+            "clave": "Data de producció",
+            "valor": "27.06.2013"
+          },
+          {
+            "clave": "Número de bastidor",
+            "valor": "WP0ZZZ99ZES145561"
+          },
+          {
+            "clave": "Tipus / referència",
+            "valor": "991320"
+          }
+        ]
+      },
+      {
+        "titulo": "Motor i Transmissió",
+        "filas": [
+          {
+            "clave": "Motor",
+            "valor": "Bóxer atmosférico 3,8 L"
+          },
+          {
+            "clave": "Potència",
+            "valor": "400 CV"
+          },
+          {
+            "clave": "Transmissió",
+            "valor": "Manual"
+          },
+          {
+            "clave": "Nombre de velocitats",
+            "valor": "7"
+          },
+          {
+            "clave": "Codi de motor",
+            "valor": "A103"
+          },
+          {
+            "clave": "Codi de transmissió",
+            "valor": "G9100"
+          },
+          {
+            "clave": "Suspensió",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Diferencial",
+            "valor": "Bloqueo al 40 %"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosseria i General",
+        "filas": [
+          {
+            "clave": "Quilometratge",
+            "valor": "122.000 km"
+          },
+          {
+            "clave": "Color exterior",
+            "valor": "Agate Grey"
+          },
+          {
+            "clave": "Codi de pintura",
+            "valor": "M7S"
+          },
+          {
+            "clave": "Interior",
+            "valor": "Negro"
+          },
+          {
+            "clave": "Seients",
+            "valor": "Deportivos Plus, 4 vías"
+          },
+          {
+            "clave": "Llandes",
+            "valor": "Carrera Classic II 20\""
+          }
+        ]
+      },
+      {
+        "titulo": "Equipament",
+        "filas": [
+          {
+            "clave": "Calefacció",
+            "valor": "Asientos delanteros"
+          },
+          {
+            "clave": "Il·luminació",
+            "valor": "Xenón con lavafaros"
+          },
+          {
+            "clave": "So",
+            "valor": "Paquete BOSE"
+          },
+          {
+            "clave": "Combinació seients",
+            "valor": "GDC"
+          },
+          {
+            "clave": "Codi estoreta",
+            "valor": "A75"
+          }
+        ]
+      },
+      {
+        "titulo": "Historial",
+        "filas": [
+          {
+            "clave": "Historial",
+            "valor": "Libro de servicio completo"
+          },
+          {
+            "clave": "Garantia",
+            "valor": "12 meses"
+          }
+        ]
+      },
+      {
+        "titulo": "Condicions de venda",
+        "filas": [
+          {
+            "clave": "Preu",
+            "valor": "89.900 €"
+          },
+          {
+            "clave": "Garantia",
+            "valor": "12 meses"
+          },
+          {
+            "clave": "A punt per conduir",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "L'opinió de Jordi",
+    "titulo": "La visió<br/><strong>de l'expert.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Especialista Porsche · Valentin Motors",
+    "bio": "Més de 25 anys d'experiència amb Porsche de col·lecció. Ha supervisat centenars d'operacions de compravenda de vehicles especials, amb un focus especial en configuracions dinàmiques de la gamma 911.",
+    "intro": "\"El 991.1 Carrera S Cabri amb canvi manual és la configuració que torna al conductor un paper central, sense renunciar al cel obert.\"",
+    "parrafos": [
+      "El Porsche <strong>991</strong> va suposar una evolució important en refinament, estabilitat i utilització diària, però aquesta unitat conserva un component especialment mecànic gràcies al seu <strong>motor bòxer atmosfèric de 3,8 litres i 400 CV</strong>, gestionat per una <strong>transmissió manual de set velocitats</strong>. El canvi exigeix una participació més gran del conductor i estableix una relació més directa entre el règim del motor, la velocitat i la resposta del cotxe.",
+      "En una carrosseria <strong>Cabri</strong>, aquesta interacció es combina amb una experiència oberta i sensorial. El sistema <strong>PASM</strong> permet variar la resposta de la suspensió, mentre que el <strong>diferencial autoblocant</strong> contribueix a gestionar la tracció de l'eix posterior.",
+      "El color <strong>Agate Grey</strong>, les llantes <strong>Carrera Classic II</strong> i les pinces vermelles completen una configuració exterior sòbria però amb accents tècnics ben definits. Per dins, els seients esportius Plus calefactats i el paquet BOSE aporten un equipament dús quotidià coherent amb el caràcter esportiu de la unitat.",
+      "El valor principal d'aquesta unitat és a la combinació de <strong>Carrera S, Cabri i canvi manual</strong>, recolzada per un <strong>llibre de servei complet</strong> i 12 mesos de garantia."
+    ],
+    "prosTitulo": "El millor",
+    "pros": [
+      "Motor bòxer atmosfèric de 3,8 litres i 400 CV",
+      "Canvi manual de set velocitats, poc habitual al mercat",
+      "Diferencial autoblocant al 40 % i suspensió PASM",
+      "Carrosseria Cabri amb capota funcional i ben conservada",
+      "Llibre de servei complet i 12 mesos de garantia",
+      "Configuració documentada mitjançant codis Porsche originals"
+    ],
+    "contrasTitulo": "A considerar",
+    "contras": []
+  },
+  "cierre": {
+    "imagen": "/img/991scabrio/exterior3.jpg",
+    "cita": "Un Porsche 991 Carrera S Cabrio amb una configuració coherent, oberta i especialment <em>participativa</em>: canvi manual de set velocitats, Agate Grey i llibre de servei complet.",
+    "precio": "89.900 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 991 Carrera S Cabrio · Agate Grey · 2014",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Més informació",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · 991.1",
+    "nombre": "Carrera S Cabrio",
+    "detalle": "2014 · Agate Grey · 122.000 km",
+    "descripcion": "Manual de 7 velocitats · PASM · Diferencial autoblocant al 40 % · Llandes Carrera Classic II. Llibre de servei complet i 12 mesos de garantia.",
+    "precio": "89.900 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/991scabrio/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 153,
+    "total": 153,
+    "completa": true
+  }
+}

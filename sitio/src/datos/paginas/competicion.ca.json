@@ -1,0 +1,90 @@
+{
+  "rutaId": "competicion",
+  "tipo": "servicio",
+  "ficheroOriginal": "competicion",
+  "meta": {
+    "titulo": "Preparació de vehicles per a competició — Valentín Motors",
+    "descripcion": "Valentín Motors és present des de 1979 al món de les carreres. L'ADN de la marca és la competició, lloc on sempre hi hem estat presents.",
+    "ogImagen": ""
+  },
+  "h1": "Preparació de vehicles per a competició",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Preparació de vehicles per a competició",
+      "parrafos": [
+        "Som socis tècnics i especialistes en instal·lació amb alguns dels <strong>millors noms al món automotriu</strong>. Això inclou suspensions KW i Bilstein, pneumàtics Michelin, AP racing, Performance Friction Corporation, Heigo i una llista d'excel·lents proveïdors de recanvis. <strong>Tots els productes són àmpliament provats i avaluats</strong> per Valentín Motors com a part de les nostres operacions de recerca i desenvolupament.",
+        "A més dels productes del mercat de recanvis, <strong>hem desenvolupat un extens catàleg de les nostres pròpies solucions </strong>dissenyades a mida per millorar el teu vehicle amb productes que van des de conversions de roda de corona i pinyó, sistemes integrals d'extinció, geometries específiques i set ups."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preparacions Track Day",
+      "parrafos": [
+        "<strong>L'esperit de la marca és esportiu</strong> i és en un circuit on Porsche demostra el seu potencial i transmet sensacions impossibles d'aconseguir en una conducció urbana. Realitzant tandes en un entorn controlat és quan pilot i vehicle aconsegueixen la simbiosi amb què van ser concebuts.",
+        "Fem<strong> adaptacions de vehicles</strong> a qualsevol nivell per satisfer les condicions de pista requerides ia l'estat que el client sol·liciti."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/f7d234c2-32b6-4307-8bbf-1eb7aa37479d/DSC07852.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Campionats GT i Gentlemen Driver",
+      "parrafos": [
+        "Estem presents en vehicles GT3 , GT3 i carrera CUP de diverses generacions prestant <strong>serveis d'assistència i suport amb enginyeria de pista </strong>i operaris habituals."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/4e60d379-37f9-4e52-8d0c-59fd91eeb5fd/DSC08039.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ral·li",
+      "parrafos": [
+        "El més habitual és pensar en vehicles Porsche sobre una carretera ben asfaltada i rodant a altes velocitats. Però la veritat és que no és estrany veure'ls fora de l'asfalt. Al llarg de la seva història han corregut en tota mena de situacions i ferms, arribant a guanyar un París-Dakar a 1984.",
+        "Part de la <strong>preparació d'un 911 per a ral·lis</strong> passa per:"
+      ],
+      "items": [
+        "Alleugerir el seu pes : treure parts innecessàries, peces en fibra de vidre, …",
+        "Afegir components de seguretat: gàbia antibolcada, arnesos, baquets, …",
+        "Millorar el performance : modificacions al motor, amortidors, pneumàtics, …"
+      ],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/d99de2c0-b26e-4cdb-93b1-09edd359f4c7/DSC07759.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Descobrir l'adrenalina",
+      "parrafos": [
+        "Conduir un 911 de manera esportiva no s'assembla a cap sensació prèvia. És descobrir per primer cop l'autèntica adrenalina."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

@@ -86,7 +86,7 @@
     ]
   },
   "direcciones": {
-    "motivo": "El post del taller nuevo escribia 'Varsovia 63' en un parrafo y 'Varsovia, 65' en otro. La direccion correcta es Varsovia, 65, 08041 Barcelona, la misma que consta en la pagina del centro.",
+    "motivo": "El post del taller nuevo escribia 'Varsovia 63' en un parrafo y 'Varsovia, 65' en otro. La direccion correcta es Varsovia, 65, 08041 Barcelona, la misma que consta en la pagina del centro. La pagina de vender tu Porsche seguia dando la direccion de Gran Via 752, el taller que dejo de atender al publico al abrir Varsovia 65. Se corrige en los seis idiomas. El aviso legal SI conserva Gran Via 752, porque ahi es el domicilio social de la sociedad, no el taller.",
     "reglas": [
       {
         "buscar": "La apertura del taller en Varsovia 63",
@@ -95,6 +95,26 @@
       {
         "buscar": "la calle **Varsovia, 65**",
         "reemplazar": "la calle **Varsòvia, 65**"
+      },
+      {
+        "buscar": "Gran Via de les Corts Catalanes, 752",
+        "reemplazar": "Varsòvia, 65",
+        "ambito": "paginas-no-legales"
+      },
+      {
+        "buscar": "08013 Barcelona",
+        "reemplazar": "08041 Barcelona",
+        "ambito": "paginas-no-legales"
+      },
+      {
+        "buscar": "08013 Barcelone",
+        "reemplazar": "08041 Barcelone",
+        "ambito": "paginas-no-legales"
+      },
+      {
+        "buscar": "08013 Barcellona",
+        "reemplazar": "08041 Barcellona",
+        "ambito": "paginas-no-legales"
       }
     ]
   }

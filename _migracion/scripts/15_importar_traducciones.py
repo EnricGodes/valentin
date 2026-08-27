@@ -54,10 +54,12 @@ def valida(e, idioma, texto, fuente):
     if texto.strip() == es.strip() and e['tipo'] not in ('nombre-modelo', 'etiqueta'):
         p.append('identica al espanol (¿sin traducir?)')
 
+    # Con limite de palabra: sin el, "inscripciones" contenia "NSC" y
+    # "Panamera" contenia... nada, pero el falso positivo era real y ruidoso.
     es_p, tx_p = plano(es), plano(texto)
     for t in INVARIANTES:
-        tp = plano(t)
-        if es_p.count(tp) > tx_p.count(tp):
+        pat = r'\b' + re.escape(plano(t)) + r'\b'
+        if len(re.findall(pat, es_p)) > len(re.findall(pat, tx_p)):
             p.append(f'falta el termino invariante "{t}"')
 
     if sorted(ETIQUETAS.findall(es)) != sorted(ETIQUETAS.findall(texto)):
@@ -68,8 +70,17 @@ def valida(e, idioma, texto, fuente):
     if rutas_es - rutas_tr:
         p.append(f'faltan rutas: {sorted(rutas_es - rutas_tr)[:3]}')
 
-    # Las cifras se conservan; el separador de miles puede cambiar por idioma
-    norm = lambda s: {re.sub(r'[.,\s]', '', x) for x in CIFRAS.findall(s) if len(x) > 1}
+    # Las cifras se conservan; el separador de miles cambia segun el idioma.
+    # La puntuacion se quita ANTES de medir la longitud: si no, "tracción 4,"
+    # daba la cifra "4," de dos caracteres en el original y "4" de uno en la
+    # traduccion, y parecia que faltaba.
+    def norm(s):
+        fuera = set()
+        for x in CIFRAS.findall(s):
+            limpio = re.sub(r'[.,\s]', '', x)
+            if len(limpio) > 1:
+                fuera.add(limpio)
+        return fuera
     faltan = norm(es) - norm(texto)
     if faltan:
         p.append(f'faltan cifras del original: {sorted(faltan)[:4]}')
@@ -127,14 +138,16 @@ def textos(d):
     return [x for x in fuera if x and len(x) > 3]
 
 
-def cobertura(traducido, espanol):
-    """Que parte de la pagina esta realmente en el otro idioma."""
-    a, b = textos(espanol), textos(traducido)
-    n = min(len(a), len(b))
-    distintos = sum(1 for i in range(n) if a[i].strip() != b[i].strip())
-    total = max(len(a), 1)
-    return {'hechas': distintos, 'total': total,
-            'completa': distintos >= total * 0.9}
+def cobertura(recibidas, esperadas):
+    """Cuantas de las cadenas que esta pagina tiene en el export han llegado.
+
+    La primera version contaba cuantas cadenas DIFIERAN del espanol, y daba
+    falsos negativos: "Interior", "Motor" o "Perfil lateral" son identicas en
+    catalan, y una pagina bien traducida se quedaba por debajo del umbral.
+    Lo que importa no es que el texto cambie, sino que el traductor lo haya
+    revisado."""
+    return {'hechas': recibidas, 'total': esperadas,
+            'completa': recibidas >= esperadas}
 
 
 # ─────────────────────────────────────────────────────── escritura por destino
@@ -258,23 +271,37 @@ def main():
             print('\nNo se ha escrito nada. Corrige el fichero o repite con --forzar.')
             return 1
 
+    # Cuantas cadenas espera cada pagina o ficha, segun el export
+    esperadas = defaultdict(int)
+    for e in ref.values():
+        for d in e.get('destinos', [e['id']]):
+            partes = d.split(':')
+            if partes[0] in ('pagina', 'coche'):
+                esperadas[(partes[0], partes[1])] += 1
+
     cache_pag, cache_coche, cache_post = {}, {}, {}
+    recibidas = defaultdict(int)
     for destinos, idioma, texto in aplicables:
         for destino in destinos:
-            tipo = destino.split(':', 1)[0]
+            tipo, clave = destino.split(':')[0], destino.split(':')[1]
             if tipo == 'pagina':  aplica_pagina(destino, idioma, texto, cache_pag)
             elif tipo == 'coche': aplica_coche(destino, idioma, texto, cache_coche)
             elif tipo == 'post':  aplica_post(destino, idioma, texto, cache_post)
+            if tipo in ('pagina', 'coche'):
+                recibidas[(tipo, clave, idioma)] += 1
 
     # Una pagina solo se publica en un idioma cuando esta ENTERA en ese idioma.
     # Si no, se publicaria una pagina "alemana" con el 90% del texto en espanol:
     # contenido duplicado y una mala experiencia para quien llegue por Google.
     for f, d in cache_pag.items():
-        d['traduccion'] = cobertura(d, json.loads((PAGINAS / f'{f.stem.split(".")[0]}.json').read_text()))
+        nombre, idioma = f.stem.rsplit('.', 1)
+        d['traduccion'] = cobertura(recibidas[('pagina', nombre, idioma)],
+                                    esperadas[('pagina', nombre)])
         f.write_text(json.dumps(d, indent=2, ensure_ascii=False) + '\n')
     for f, d in cache_coche.items():
-        base = COCHES / f'{f.stem.split(".")[0]}.json'
-        d['traduccion'] = cobertura(d, json.loads(base.read_text()))
+        _, idioma = f.stem.rsplit('.', 1)
+        d['traduccion'] = cobertura(recibidas[('coche', d['slug'], idioma)],
+                                    esperadas[('coche', d['slug'])])
         f.write_text(json.dumps(d, indent=2, ensure_ascii=False) + '\n')
     # Un articulo solo se escribe si su CUERPO esta traducido.
     #

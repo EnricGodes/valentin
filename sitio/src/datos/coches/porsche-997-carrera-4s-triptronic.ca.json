@@ -1,0 +1,483 @@
+{
+  "slug": "porsche-997-carrera-4s-triptronic",
+  "archivoOriginal": "997tiptronic.html",
+  "realce": "realce--997tiptronic",
+  "meta": {
+    "titulo": "Porsche 997.1 Carrera 4S Tiptronic en venda Valentin Motors",
+    "descripcion": "Porsche 911 Carrera 4S 997.1 Tiptronic, 04/2007, negre Z4. Manteniment a Valentin Motors, Bore Scoring negatiu, garantia de 12 mesos. Preu: 54.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997tiptronic/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2007",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera 4S",
+    "claim": "Tiptronic. Negre Z4. Conegut, mantingut i revisat.",
+    "imagen": "/img/997tiptronic/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Història del vehicle",
+    "titulo": "La presència del 4S,<br/><strong>amb la facilitat<br/>del Tiptronic.</strong>",
+    "parrafos": [
+      "Aquest <strong>Porsche 911 Carrera 4S Coupé</strong> de la generació 997.1 combina la imatge ampla i musculosa del 4S amb la facilitat d'ús de la transmissió <strong>Tiptronic</strong>. Produït a <strong>abril de 2007</strong>, presenta una configuració sòbria i coherent: carrosseria a <strong>negre Z4</strong>, llantes <strong>Carrera S de 19 polzades</strong>, suspensió <strong>PASM</strong> i sistema multimèdia <strong>PCM 2</strong>.",
+      "Es tracta d'una unitat coneguda per <strong>Valentin Motors</strong>, amb un llarg historial de manteniment, i disposa d'un <strong>revisió de Bore Scoring negatiu</strong>, una comprovació especialment rellevant en vehicles daquesta generació."
+    ],
+    "cita": "No és una versió inferior a la manual: és un 4S orientat a qui cerca la presència de la carrosseria ampla, la seguretat de la tracció integral i una conducció còmoda i fluida.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera 4S Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generació",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Data de producció",
+        "valor": "04/2007",
+        "acento": false
+      },
+      {
+        "clave": "Codi de motor",
+        "valor": "9701",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bóxer 6 cil. · 3,8 L",
+        "acento": false
+      },
+      {
+        "clave": "Potència",
+        "valor": "355 hp",
+        "acento": false
+      },
+      {
+        "clave": "Transmissió",
+        "valor": "Tiptronic",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Negro Z4",
+        "acento": false
+      },
+      {
+        "clave": "Quilometratge",
+        "valor": "122.000 km",
+        "acento": false
+      },
+      {
+        "clave": "Bore Scoring",
+        "valor": "Chequeo negativo",
+        "acento": false
+      },
+      {
+        "clave": "Preu",
+        "valor": "54.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galeria",
+    "titulo": "Negre Z4.<br/><strong>Carrosseria ampla<br/>Carrera 4S.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997tiptronic/exterior1.jpg",
+        "alt": "Exterior frontal",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vista frontal · Negre Z4 · Carrera 4S"
+      },
+      {
+        "src": "/img/997tiptronic/exterior2.jpg",
+        "alt": "Perfil lateral",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil lateral · Aletes amples del 4S"
+      },
+      {
+        "src": "/img/997tiptronic/exterior3.jpg",
+        "alt": "Vista posterior",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Del darrere · Quatre sortides d'escapament"
+      },
+      {
+        "src": "/img/997tiptronic/interior1.jpg",
+        "alt": "Habitatge",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitatge · Pell negra i selector Tiptronic"
+      },
+      {
+        "src": "/img/997tiptronic/close-up1.jpg",
+        "alt": "Detall exterior",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detall · Llanta Carrera S de 19\""
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor i Transmissió",
+    "titulo": "Tiptronic.<br/><strong>La facilitat<br/>del Gran Turisme.</strong>",
+    "stats": [
+      {
+        "valor": 355,
+        "animado": true,
+        "unidad": "HP",
+        "etiqueta": "Potència",
+        "destacada": true
+      },
+      {
+        "valor": "3,8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrada",
+        "destacada": false
+      },
+      {
+        "valor": "122.000",
+        "animado": false,
+        "unidad": "km",
+        "etiqueta": "Quilometratge",
+        "destacada": false
+      },
+      {
+        "valor": "4",
+        "animado": false,
+        "unidad": "x4",
+        "etiqueta": "Tracció integral",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El bòxer atmosfèric de <strong>3,8 litres</strong> (codi de motor <strong>9701</strong>) lliurament <strong>355 hp</strong> amb la resposta lineal característica de la generació 997.1. La transmissió <strong>Tiptronic</strong> reforça el caràcter polivalent del Carrera 4S: permet una conducció relaxada i progressa: permet una conducció relaxada i progressa alhora que conserva la possibilitat d'intervenir manualment a la selecció de marxes.",
+      "La <strong>tracció integral</strong> afegeix motricitat i aplom sense eliminar el caràcter posterior del 911. El sistema <strong>PASM</strong> permet adaptar la resposta de la suspensió i combinar un ús confortable a la carretera amb un comportament més ferm quan es vol una conducció esportiva. La transmissió forma part del conjunt mecànic cobert per la garantia de 12 mesos sobre motor i caixa de canvis."
+    ],
+    "tags": [
+      "Tiptronic",
+      "Tracció integral",
+      "PASM",
+      "PCM 2",
+      "Garantia 12 mesos"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Bloc de confiança",
+    "titulo": "Bore Scoring.<br/><strong>Xequeig negatiu.</strong>",
+    "ancla": "restauracion",
+    "precio": "Conocido por Valentin Motors",
+    "categorias": [
+      {
+        "titulo": "Bore Scoring",
+        "items": [
+          "Revisió específica realitzada",
+          "Resultat negatiu",
+          "Sense signes del problema detectats"
+        ]
+      },
+      {
+        "titulo": "Historial",
+        "items": [
+          "Vehicle conegut per Valentin Motors",
+          "Llarg historial de manteniment",
+          "Seguiment continuat de l'especialista"
+        ]
+      },
+      {
+        "titulo": "Garantia",
+        "items": [
+          "12 mesos de garantia mecànica",
+          "Cobertura sobre motor i caixa de canvis",
+          "Subjecta a condicions contractuals"
+        ]
+      },
+      {
+        "titulo": "Configuració",
+        "items": [
+          "Llandes Carrera S de 19\"",
+          "Sense sostre elèctric",
+          "PCM 2 i PASM"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Negre Z4.<br/><strong>Carrera 4S amb<br/>llantes Carrera S.</strong>",
+    "texto": "La carrosseria a <strong>negre Z4</strong> amb les aletes eixamplades del <strong>Carrera 4S</strong> dóna a aquesta unitat una presència especial. Fars ovalats propis del 997, llantes <strong>Carrera S de 19 polzades</strong>, sostre sense obertura elèctrica i quatre sortides de fuita completen una lectura sòbria, tècnica i atemporal.",
+    "fotos": [
+      {
+        "src": "/img/997tiptronic/close-up1.jpg",
+        "alt": "Detall exterior",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta Carrera S de 19\""
+      },
+      {
+        "src": "/img/997tiptronic/close-up2.jpg",
+        "alt": "Detall del darrere",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Del darrere · Carrera 4S i quatre fuites"
+      },
+      {
+        "src": "/img/997tiptronic/close-up3.jpg",
+        "alt": "Detall far",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detall · Far ovalat 997"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Pell negra.<br/><strong>Selector Tiptronic<br/>i cèrcols platejats.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997tiptronic/interior1.jpg",
+        "alt": "Habitatge complet",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitatge · Pell negra i selector Tiptronic"
+      },
+      {
+        "src": "/img/997tiptronic/interior2.jpg",
+        "alt": "Quadre d'instruments i consola",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cèrcols platejats · PCM 2"
+      }
+    ],
+    "editorial": "Un interior fidel a la configuració original del 997.1: seients de pell negra, volant amb radis metàl·lics, cèrcols del quadre d'instruments en color plata, sistema PCM 2 i selector Tiptronic."
+  },
+  "procedencia": {
+    "etiqueta": "Documentació i Procedència",
+    "titulo": "Un vehicle<br/><strong>conegut per<br/>l'especialista.</strong>",
+    "hitos": [
+      {
+        "anio": "04/2007",
+        "titulo": "Fabricació",
+        "cuerpo": "Unitat produïda a <strong>abril de 2007</strong>, generació <strong>997.1</strong>, en configuració Carrera 4S: carrosseria ampla, tracció integral i transmissió Tiptronic. Codi de motor <strong>9701</strong>.",
+        "badge": "997.1 Carrera 4S Tiptronic"
+      },
+      {
+        "anio": "Historial conocido",
+        "titulo": "Llarg historial de manteniment a Valentin Motors",
+        "cuerpo": "La unitat és <strong>coneguda per Valentin Motors</strong>, amb un llarg historial de manteniment que aporta context sobre la seva evolució i permet presentar el cotxe amb més coneixement del seu estat.",
+        "badge": "Vehicle conegut"
+      },
+      {
+        "anio": "Hoy",
+        "titulo": "Disponible a Valentin Motors",
+        "cuerpo": "<strong>122.000 km</strong>. Revisió de <strong>Bore Scoring negatiu</strong> i <strong>12 mesos de garantia mecànica</strong> sobre motor i caixa de canvis, segons les condicions contractuals aplicables.",
+        "badge": "54.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fitxa tècnica",
+    "titulo": "Especificacions<br/><strong>completes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Tipus",
+            "valor": "Bóxer atmosférico 6 cil."
+          },
+          {
+            "clave": "Cilindrada",
+            "valor": "3,8 litros"
+          },
+          {
+            "clave": "Potència màxima",
+            "valor": "355 hp"
+          },
+          {
+            "clave": "Codi de motor",
+            "valor": "9701"
+          },
+          {
+            "clave": "Bore Scoring",
+            "valor": "Chequeo negativo"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmissió i Xassís",
+        "filas": [
+          {
+            "clave": "Caixa de canvis",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "Tracció",
+            "valor": "Integral"
+          },
+          {
+            "clave": "Suspensió",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Llandes",
+            "valor": "Carrera S 19\""
+          },
+          {
+            "clave": "Sostre elèctric",
+            "valor": "No equipado"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosseria i General",
+        "filas": [
+          {
+            "clave": "Generació",
+            "valor": "997.1"
+          },
+          {
+            "clave": "Data de producció",
+            "valor": "04/2007"
+          },
+          {
+            "clave": "Quilòmetres",
+            "valor": "122.000 km"
+          },
+          {
+            "clave": "Color exterior",
+            "valor": "Negro Z4"
+          },
+          {
+            "clave": "Multimèdia",
+            "valor": "PCM 2"
+          }
+        ]
+      },
+      {
+        "titulo": "Opcions de fàbrica",
+        "filas": [
+          {
+            "clave": "023",
+            "valor": "Aros de relojes en plata"
+          },
+          {
+            "clave": "249",
+            "valor": "Transmisión Tiptronic"
+          },
+          {
+            "clave": "403",
+            "valor": "Llantas Carrera S 19\""
+          },
+          {
+            "clave": "475",
+            "valor": "PASM"
+          },
+          {
+            "clave": "652",
+            "valor": "Sin techo eléctrico"
+          },
+          {
+            "clave": "670",
+            "valor": "PCM 2"
+          }
+        ]
+      },
+      {
+        "titulo": "Historial",
+        "filas": [
+          {
+            "clave": "Seguiment",
+            "valor": "Conocido por Valentin Motors"
+          },
+          {
+            "clave": "Manteniment",
+            "valor": "Largo historial"
+          }
+        ]
+      },
+      {
+        "titulo": "Condicions de venda",
+        "filas": [
+          {
+            "clave": "Preu",
+            "valor": "54.000 €"
+          },
+          {
+            "clave": "Garantia",
+            "valor": "12 meses"
+          },
+          {
+            "clave": "Garantia cobreix",
+            "valor": "Motor y caja de cambios"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "L'opinió de Jordi",
+    "titulo": "La visió<br/><strong>de l'expert.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Especialista Porsche · Valentin Motors",
+    "bio": "Més de 25 anys d'experiència amb Porsche de col·lecció. Ha supervisat centenars d'operacions de compravenda de vehicles especials, amb un focus especial en 911 de generacions analògiques.",
+    "intro": "\"Un Porsche 997 preparat per gaudir, recolzat per historial, inspecció i garantia.\"",
+    "parrafos": [
+      "El Carrera 4S afegeix a la silueta clàssica del 911 una carrosseria posterior més ampla. La comunicació d'aquesta unitat no s'ha de comparar amb la versió manual com si una fos superior a l'altra: el valor d'aquest 4S està en la facilitat d'ús, l'estat conegut i la configuració equilibrada.",
+      "La transmissió <strong>Tiptronic</strong> afavoreix una conducció còmoda i fluida, especialment a ciutat, trajectes llargs i ús quotidià, sense renunciar a la possibilitat de gestionar les relacions de canvi de forma manual. Juntament amb el sistema <strong>PASM</strong>, el resultat és un 911 utilitzable, estable i amb un caràcter gran turisme més marcat que el d'una configuració purament analògica.",
+      "Aquesta unitat no arriba a Valentin Motors únicament per a una revisió prèvia a la venda: és un vehicle conegut per l'especialista, amb un llarg historial de manteniment, una revisió de Bore Scoring garantia mecànica de 12 mesos sobre motor i caixa de canvis."
+    ],
+    "prosTitulo": "El millor",
+    "pros": [
+      "Bòxer atmosfèric 3,8 litres i 355 hp, sense turbo ni compressor",
+      "Carrosseria ampla Carrera 4S i tracció integral",
+      "Transmissió Tiptronic: conducció còmoda i fluida",
+      "Vehicle conegut per Valentin Motors, llarg historial de manteniment",
+      "Revisió de Bore Scoring negatiu",
+      "12 mesos de garantia mecànica sobre motor i caixa"
+    ],
+    "contrasTitulo": "A considerar",
+    "contras": [
+      "122.000 km: per sobre de la mitjana de la generació, compensat per l'historial conegut"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997tiptronic/exterior2.jpg",
+    "cita": "Un Porsche 997.1 Carrera 4S amb transmissió <em>Tiptronic</em>, historial conegut per Valentin Motors, revisió Bore Scoring negatiu i 12 mesos de garantia mecànica.",
+    "precio": "54.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997.1 Carrera 4S Tiptronic · Negre Z4 · 2007",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Més informació",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · 4S",
+    "nombre": "997.1 Carrera 4S Tiptronic",
+    "detalle": "2007 · 122.000 km · Negre Z4",
+    "descripcion": "Bòxer atmosfèric 3,8 L · 355 hp · Tiptronic · Llandes Carrera S 19\". Conegut per Valentin Motors, llarg historial de manteniment i revisió Bore Scoring negatiu.",
+    "precio": "54.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997tiptronic/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 148,
+    "total": 148,
+    "completa": true
+  }
+}

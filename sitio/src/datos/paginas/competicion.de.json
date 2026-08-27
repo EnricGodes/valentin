@@ -1,0 +1,90 @@
+{
+  "rutaId": "competicion",
+  "tipo": "servicio",
+  "ficheroOriginal": "competicion",
+  "meta": {
+    "titulo": "Rennfahrzeug-Vorbereitung — Valentín Motors",
+    "descripcion": "Valentín Motors ist seit 1979 in der Welt des Rennsports präsent. Die DNA der Marke ist der Wettbewerb, ein Ort, an dem wir schon immer präsent waren.",
+    "ogImagen": ""
+  },
+  "h1": "Vorbereitung von Fahrzeugen für den Wettbewerb",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Vorbereitung von Fahrzeugen für den Wettbewerb",
+      "parrafos": [
+        "Wir sind technische Partner und Installationsspezialisten mit einigen der <strong>besten Namen der Automobilwelt</strong>. Dazu gehören KW- und Bilstein-Aufhängungen, Michelin-Reifen, AP Racing, Performance Friction Corporation, Heigo und eine Liste hervorragender Ersatzteillieferanten. <strong>Alle Produkte werden von Valentín Motors im Rahmen unserer Forschungs- und Entwicklungsaktivitäten umfassend getestet und bewertet</strong>.",
+        "Zusätzlich zu den Aftermarket-Produkten <strong>haben wir einen umfangreichen Katalog unserer eigenen Lösungen </strong>entwickelt, die speziell darauf ausgelegt sind, Ihr Fahrzeug mit Produkten aufzuwerten, die von Tellerrad- und Ritzelumbauten über umfassende Löschsysteme bis hin zu spezifischen Geometrien und Aufbauten reichen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Vorbereitungen Track Day",
+      "parrafos": [
+        "<strong>Der Geist der Marke ist sportlich</strong> und auf einer Rennstrecke zeigt Porsche sein Potenzial und vermittelt Empfindungen, die im Stadtverkehr unmöglich sind. Bei der Durchführung von Fahrten in einer kontrollierten Umgebung erreichen Pilot und Fahrzeug die Symbiose, für die sie konzipiert wurden.",
+        "Wir nehmen <strong> Fahrzeuganpassungen </strong> auf jeder Ebene vor, um den erforderlichen Streckenbedingungen und dem vom Kunden gewünschten Zustand gerecht zu werden."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/f7d234c2-32b6-4307-8bbf-1eb7aa37479d/DSC07852.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "GT- und Gentlemen-Fahrermeisterschaften",
+      "parrafos": [
+        "Wir sind in GT3-, GT3- und carrera-CUP-Fahrzeugen verschiedener Generationen vertreten und bieten <strong>Unterstützungs- und Unterstützungsdienste bei der Streckentechnik </strong>und regelmäßige Meisterschaftsbetreiber an."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/4e60d379-37f9-4e52-8d0c-59fd91eeb5fd/DSC08039.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Rallye",
+      "parrafos": [
+        "Am häufigsten denkt man an Porsche-Fahrzeuge, die auf einer gut asphaltierten Straße fahren und mit hoher Geschwindigkeit fahren. Aber die Wahrheit ist, dass es nicht verwunderlich ist, sie auch abseits des Asphalts zu sehen. Im Laufe ihrer Geschichte sind sie in allen möglichen Situationen und auf allen Oberflächen gefahren und haben 1984 eine Paris-Dakar gewonnen.",
+        "Ein Teil der <strong>Vorbereitung eines 911 für Rallyes</strong> umfasst:"
+      ],
+      "items": [
+        "Reduzieren Sie das Gewicht: Entfernen Sie unnötige Teile, Glasfaserstücke usw.",
+        "Fügen Sie Sicherheitskomponenten hinzu: Überrollkäfig, Gurte, Eimer usw.",
+        "Leistung verbessern: Modifikationen am Motor, Stoßdämpfer, Reifen, …"
+      ],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/d99de2c0-b26e-4cdb-93b1-09edd359f4c7/DSC07759.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Entdecken Sie Adrenalin",
+      "parrafos": [
+        "Einen 911 sportlich zu fahren, ist anders als jede andere Sensation zuvor. Es ist die Entdeckung des wahren Adrenalins zum ersten Mal."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

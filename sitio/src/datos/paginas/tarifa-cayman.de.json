@@ -1,0 +1,88 @@
+{
+  "rutaId": "tarifa-cayman",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-cayman-boxster-mantenimiento-taller",
+  "meta": {
+    "titulo": "Wartung Porsche Cayman und Boxster – Valentín Motors",
+    "descripcion": "Servicetarife für die Modelle Boxster und Cayman. Sehen Sie sich die häufigsten Probleme und unsere Preise an",
+    "ogImagen": ""
+  },
+  "h1": "Wartung für die Modelle Cayman und Boxster",
+  "acordeones": [
+    {
+      "modelo": "Boxster 986",
+      "parrafos": [
+        "<strong><br/>Kleine Inspektion</strong>:(Ölfilter + Motoröl + Pollenfilter + 23 Checklistenpunkte) <strong>von</strong> <strong>525,00€</strong><br/><strong>Große Inspektion </strong>: (Beinhaltet Kleine Inspektion + Luftfilter + 30 Punkte-Checkliste) <strong>von 635,00 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117€</strong><br/>Ankaufsuntersuchung: <strong>375,00 €</strong>",
+        "Überprüfen Sie Bore Scoring: <strong>196/343<br/><br/></strong><em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster und Cayman 987",
+      "parrafos": [
+        "<strong><br/>Kleine Inspektion</strong> (Ölfilter + Motoröl + Pollenfilter + Checkliste mit 23 Punkten)<strong> ab 525,00€</strong><br/><strong>Große Inspektion: </strong>(Beinhaltet Kleine Inspektion+ Luftfilter + Checkliste mit 30 Punkten) <strong>ab 635,00 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375,00 €</strong>",
+        "<strong><br/><br/></strong><em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster und Cayman 981",
+      "parrafos": [
+        "Die am häufigsten zu überprüfenden Punkte 981 sind:",
+        "Verstopfte Abflüsse",
+        "Kupplungsdruck im Schaltgetriebe.",
+        "<strong><br/>Kleine Inspektion:</strong>(Ölfilter + Motoröl + Pollenfilter + Checkliste mit 23 Punkten) <strong>ab 595,00 €</strong><br/><strong>Große Inspektion: ab 720,00 €</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375,00 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": [
+        "Verstopfte Abflüsse",
+        "Kupplungsdruck im Schaltgetriebe."
+      ]
+    },
+    {
+      "modelo": "Boxster und Cayman 718",
+      "parrafos": [
+        "<strong><br/>Kleine Inspektion: </strong>(Ölfilter + Motoröl + Pollenfilter + Checkliste mit 23 Punkten) <strong>ab 690,00 €</strong><br/><strong>Große Inspektion:(</strong>Inklusive Kleine Inspektion + Luftfilter + Checkliste mit 30 Punkten) <strong>ab 850,00€</strong><br/>Service Bremsflüssigkeit: <strong>92 €</strong><br/>Geometrien: <strong>117 €</strong><br/>Ankaufsuntersuchung: <strong>375,00 €</strong>",
+        "<em>Preise zzgl. MwSt.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Wartung für die Modelle Cayman und Boxster",
+      "parrafos": [
+        "Kein Auto ist 100 % zuverlässig und, basierend auf unserer Erfahrung in Arbeit, Service und Fehlerdiagnose.",
+        "Das Team kann Sie über die besten Maßnahmen zur Wartung beraten. Die Techniker von Valentín Motors können durchdachte Lösungen anbieten, die das Problem lösen.<br/><br/>",
+        "Die Preise unterliegen der Mehrwertsteuer, beinhalten jedoch Teile und Arbeit. Die Preise für Porsche-Teile können ohne vorherige Ankündigung geändert werden. Jeder Rechnung wird eine Gebühr für Umwelt- und sonstige Artikel hinzugefügt. Ihr Fahrzeug wird desinfiziert und gereinigt und steht zur Abholung bereit.",
+        "Wählen Sie ein Modell aus"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Machen Sie eine Reservierung",
+      "parrafos": [
+        "Hinterlassen Sie uns die Informationen zu Ihrem Modell und der Art der gewünschten Dienstleistung und unser Team wird sich mit Ihnen in Verbindung setzen, um den Termin zu bestätigen"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 27,
+    "total": 27,
+    "completa": true
+  }
+}

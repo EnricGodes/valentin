@@ -1,0 +1,88 @@
+{
+  "rutaId": "tarifa-cayman",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-cayman-boxster-mantenimiento-taller",
+  "meta": {
+    "titulo": "entretien Porsche Cayman et Boxster — Valentín Motors",
+    "descripcion": "Tarifs de service pour les modèles Boxster et Cayman. Consultez les problèmes les plus fréquents et nos tarifs",
+    "ogImagen": ""
+  },
+  "h1": "entretien pour les modèles Cayman et Boxster",
+  "acordeones": [
+    {
+      "modelo": "Boxster 986",
+      "parrafos": [
+        "<strong><br/>Petit entretien</strong> :(Filtre à huile + huile moteur + filtre à pollen + 23 points de liste de contrôle) <strong>de</strong> <strong>525,00€</strong><br/><strong>Grand entretien </strong> :(Comprend Petit entretien + filtre à air + liste de contrôle 30 points) <strong>à partir de 635,00 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117€</strong><br/>Inspection avant achat : <strong>375,00 €</strong>",
+        "Vérifiez Bore Scoring : <strong>196/343<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster et Cayman 987",
+      "parrafos": [
+        "<strong><br/>Petit entretien</strong> (Filtre à huile + huile moteur + filtre à pollen + check list de 23 points)<strong> à partir de 525,00€</strong><br/><strong>Grand entretien : </strong>(Comprend Petit entretien+ filtre à air + liste de contrôle de 30 points) <strong>à partir de 635,00 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375,00 €</strong>",
+        "<strong><br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster et Cayman 981",
+      "parrafos": [
+        "Les points les plus courants à vérifier dans 981 sont :",
+        "Canalisations bouchées",
+        "Presse à embrayage en transmission manuelle.",
+        "<strong><br/>Petit entretien :</strong>(Filtre à huile + huile moteur + filtre à pollen + check list de 23 points) <strong>à partir de 595,00 €</strong><br/><strong>Grand entretien : à partir de 720,00 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375,00 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": [
+        "Canalisations bouchées",
+        "Presse à embrayage en transmission manuelle."
+      ]
+    },
+    {
+      "modelo": "Boxster et Cayman 718",
+      "parrafos": [
+        "<strong><br/>Petit entretien : </strong>(Filtre à huile + huile moteur + filtre à pollen + check list de 23 points) <strong>à partir de 690,00 €</strong><br/><strong>Grand entretien :(</strong>Comprend Petit entretien + filtre à air + liste de contrôle de 30 points) <strong>à partir de 850,00€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>117 €</strong><br/>Inspection avant achat : <strong>375,00 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "entretien pour les modèles Cayman et Boxster",
+      "parrafos": [
+        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience en matière de travail, de service et de diagnostic des pannes.",
+        "L'équipe peut vous conseiller sur les meilleures actions de entretien. Les techniciens de Valentín Motors peuvent fournir des solutions bien conçues qui résoudront le problème.<br/><br/>",
+        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être récupéré.",
+        "Sélectionnez un modèle"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Faire une réservation",
+      "parrafos": [
+        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 27,
+    "total": 27,
+    "completa": true
+  }
+}

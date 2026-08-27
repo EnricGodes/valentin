@@ -1,0 +1,504 @@
+{
+  "slug": "porsche-porsche-991-carrera-s-cabrio",
+  "archivoOriginal": "991scabrio.html",
+  "realce": "realce--991scabrio",
+  "meta": {
+    "titulo": "Porsche 991 Carrera S Cabrio · Valentin Motors",
+    "descripcion": "Porsche 911 Carrera S Cabrio 991.1, 2014, manuale 7 marce, 122.000 km, Agate Grey, libretto completo, garanzia 12 mesi. Prezzo: 89.900 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/991scabrio/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 991.1 · Carrera S Cabriolet",
+    "subtitulo": "Porsche 991",
+    "titulo": "Carrera S Cabrio",
+    "claim": "7 manuale di velocità. Cielo aperto e carattere S.",
+    "imagen": "/img/991scabrio/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scorri"
+  },
+  "intro": {
+    "etiqueta": "Storia del veicolo",
+    "titulo": "Sette velocità.<br/><strong>Cielo aperto.</strong>",
+    "parrafos": [
+      "Questa <strong>Porsche 911 Carrera S Cabrio</strong> della generazione 991.1 combina la silhouette aperta della 911 con una configurazione particolarmente orientata alla guida: <strong>cambio manuale a sette marce</strong>, <strong>differenziale autobloccante al 40 %</strong>, sospensioni <strong>PASM</strong> e ruote <strong>Carrera Classic II da 20 pollici</strong>.",
+      "Prodotto il <strong>27 giugno 2013</strong> come modello <strong>2014</strong>, è disponibile nel colore <strong>Agate Grey M7S</strong>, abbinato ad interni neri, colori sportivi sedili Plus, riscaldamento nei sedili anteriori e pacchetto audio BOSE."
+    ],
+    "cita": "Una Carrera S decappottabile manuale con storico completo e un assetto dinamico particolarmente equilibrato.",
+    "datos": [
+      {
+        "clave": "Modello",
+        "valor": "911 Carrera S Cabrio",
+        "acento": false
+      },
+      {
+        "clave": "Generazione",
+        "valor": "991.1",
+        "acento": false
+      },
+      {
+        "clave": "Produzione",
+        "valor": "27.06.2013 · Modelo 2014",
+        "acento": false
+      },
+      {
+        "clave": "Motore",
+        "valor": "Bóxer 3,8 L · 400 CV",
+        "acento": false
+      },
+      {
+        "clave": "Trasmissione",
+        "valor": "Manual de 7 velocidades",
+        "acento": false
+      },
+      {
+        "clave": "Chilometraggio",
+        "valor": "122.000 km",
+        "acento": false
+      },
+      {
+        "clave": "Colore esterno",
+        "valor": "Agate Grey · M7S",
+        "acento": false
+      },
+      {
+        "clave": "Pneumatici",
+        "valor": "Carrera Classic II 20\"",
+        "acento": false
+      },
+      {
+        "clave": "Storia",
+        "valor": "Libro de servicio completo",
+        "acento": false
+      },
+      {
+        "clave": "Garanzia",
+        "valor": "12 meses",
+        "acento": false
+      },
+      {
+        "clave": "Prezzo",
+        "valor": "89.900 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galleria",
+    "titulo": "Agate Grey.<br/><strong>Manuale e personaggio<br/>Carrera S.</strong>",
+    "fotos": [
+      {
+        "src": "/img/991scabrio/exterior1.jpg",
+        "alt": "3/4 anteriore",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Anteriore 3/4 · Agate Grey · Tetto aperto"
+      },
+      {
+        "src": "/img/991scabrio/exterior2.jpg",
+        "alt": "Profilo completo",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profilo completo · Cerchi Carrera Classic II"
+      },
+      {
+        "src": "/img/991scabrio/exterior3.jpg",
+        "alt": "Posteriore 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posteriore 3/4 · Tubo di scarico centrale"
+      },
+      {
+        "src": "/img/991scabrio/interior1.jpg",
+        "alt": "Posizione di guida",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Posizione di guida · Cambio manuale"
+      },
+      {
+        "src": "/img/991scabrio/interior3.jpg",
+        "alt": "Vista da dietro i sedili",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabriolet aperta · Vista dai sedili posteriori"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Cambio manuale e controllo dinamico",
+    "titulo": "Partecipazione<br/><strong>del conducente.</strong><br/>Nessun filtro.",
+    "stats": [
+      {
+        "valor": "7",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "cambio manuale",
+        "destacada": true
+      },
+      {
+        "valor": "PASM",
+        "animado": false,
+        "unidad": "",
+        "etiqueta": "Sospensioni",
+        "destacada": false
+      },
+      {
+        "valor": "40",
+        "animado": false,
+        "unidad": "%",
+        "etiqueta": "Blocco differenziale",
+        "destacada": false
+      },
+      {
+        "valor": "20",
+        "animado": false,
+        "unidad": "\"",
+        "etiqueta": "Carrera Classico II",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Il <strong>motore boxer atmosferico 3,8 litri</strong> si sviluppa <strong>400 CV</strong> ed è gestito attraverso a <strong>cambio manuale a sette marce</strong>, codice opzione 487, uno degli elementi che definisce questa unità. Permette di gestire direttamente l'erogazione del motore e trasforma ogni cambio di rapporto in una parte attiva della guida, sposandosi particolarmente bene con il carattere aperto della Carrera S Cabrio.",
+      "Il sistema <strong>PASM</strong> (codice 475) consente di adattare la risposta della sospensioni, combinando un utilizzo confortevole con una vestibilità più salda quando si desidera una guida sportiva. Il <strong>differenziale autobloccante al 40 %</strong> (codice 220) contribuisce a gestire la trazione dell'asse posteriore.",
+      "Il risultato è una configurazione equilibrata tra guida sportiva, uso stradale e divertimento quotidiano, supportata dai cerchi <strong>Carrera Classic II da 20 pollici</strong> e dalle loro pinze freno rosse."
+    ],
+    "tags": [
+      "Velocità 7 manuale.",
+      "PASM",
+      "Differenziale 40%",
+      "Carrera Classico II",
+      "991.1"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Opzioni di fabbrica documentate",
+    "titulo": "Una configurazione<br/><strong>progettata per la guida.</strong>",
+    "ancla": "restauracion",
+    "precio": "89.900 € · Libro de servicio completo",
+    "categorias": [
+      {
+        "titulo": "Trasmissione e trazione",
+        "items": [
+          "Cambio manuale a 7 velocità (487)",
+          "Blocco differenziale al 40 % (220)"
+        ]
+      },
+      {
+        "titulo": "Sospensioni e freni",
+        "items": [
+          "Regolazione elettrica PASM (475)",
+          "Pinze freno rosse"
+        ]
+      },
+      {
+        "titulo": "Conforto",
+        "items": [
+          "Sedili sportivi Plus (319 / 320)",
+          "Riscaldamento sedile anteriore (342)",
+          "Pacchetto audio BOSE (680)"
+        ]
+      },
+      {
+        "titulo": "Luci e cerchi",
+        "items": [
+          "Luce allo xeno (601)",
+          "Lavafari (288)",
+          "Cerchi Carrera Classic II 20\" (427)"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Esterno",
+    "titulo": "Agate Grey.<br/><strong>Sobrietà<br/>con un accento tecnico.</strong>",
+    "texto": "Il colore <strong>Agate Grey</strong> aggiunge profondità alle superfici della 991.1 e permette di leggere chiaramente il passaggio tra cofano, parafanghi anteriori, porte e passaruota posteriori. Le ruote <strong>Carrera Classic II da 20 pollici</strong> introducono un contrasto tecnico attraverso le razze scure e le superfici lavorate, mentre le <strong>pinze rosse</strong> forniscono un accento visibile senza alterare la sobrietà generale della configurazione. Con la capote aperta la linea della vettura diventa più orizzontale.",
+    "fotos": [
+      {
+        "src": "/img/991scabrio/close-up1.jpg",
+        "alt": "Faro, paraurti e ruota anteriore",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Xenon e lavafari · Cerchio Carrera Classic II · Pinza rossa"
+      },
+      {
+        "src": "/img/991scabrio/close-up2.jpg",
+        "alt": "Dettaglio della schiena",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Pilota stretto · Scritta Porsche · Tubo di scarico centrale"
+      },
+      {
+        "src": "/img/991scabrio/close-up3.jpg",
+        "alt": "Volante e quadro strumenti",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Volante sportivo · Cornice Carrera S a cinque sfere"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interno",
+    "titulo": "Interni neri.<br/><strong>Costruito<br/>in base al cambiamento.</strong>",
+    "fotos": [
+      {
+        "src": "/img/991scabrio/interior2.jpg",
+        "alt": "Vista generale della cabina",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabina · Pelle nera e console 991.1"
+      },
+      {
+        "src": "/img/991scabrio/interior1.jpg",
+        "alt": "Posizione di guida",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Posizione di guida · Leva manuale in metallo"
+      },
+      {
+        "src": "/img/991scabrio/interior3.jpg",
+        "alt": "Vista da dietro i sedili",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Configurazione Open Cabrio · Cabina di pilotaggio completa"
+      }
+    ],
+    "editorial": "Gli interni mantengono l'architettura avvolgente della 991.1, con una console centrale rialzata che raggruppa i controlli attorno al conducente. I sedili sportivi Plus combinano il supporto laterale con una configurazione utilizzabile su strada, mentre il riscaldamento anteriore migliora il comfort durante la guida all'aperto nelle giornate fresche. La leva manuale a sette velocità occupa un posto di primo piano: è l'elemento che meglio sintetizza il carattere di questa unità."
+  },
+  "procedencia": {
+    "etiqueta": "Storia, documentazione e garanzia",
+    "titulo": "122.000 km.<br/><strong>Libretto tagliandi<br/>completo.</strong>",
+    "hitos": [
+      {
+        "anio": "27.06.2013 · Producción",
+        "titulo": "Prodotto come modello 2014",
+        "cuerpo": "Unità prodotta il <strong>27 giugno 2013</strong> e commercializzata come modello <strong>2014</strong>, con numero di telaio <strong>WP0ZZZ99ZES145561</strong> e configurazione Carrera S Convertible della generazione 991.1.",
+        "badge": "991320 · A103 · G9100"
+      },
+      {
+        "anio": "Historial · Mantenimiento",
+        "titulo": "Libretto di servizio completo",
+        "cuerpo": "L'unità è dotata di <strong>libretto tagliandi completo</strong>, elemento essenziale per contestualizzare il suo percorso e gli manutenzione effettuati nel tempo. Chilometraggio: <strong>122.000 km</strong>.",
+        "badge": "122.000 km"
+      },
+      {
+        "anio": "Garantía · 12 meses",
+        "titulo": "12 mesi di garanzia",
+        "cuerpo": "L'unità viene offerta con <strong>12 mesi di garanzia</strong>, in conformità con le condizioni contrattuali applicabili. Copertura soggetta ai termini, limiti, esclusioni e condizioni inclusi nel garanzia.",
+        "badge": "89.900 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Scheda tecnica",
+    "titulo": "Specifiche<br/><strong>complete.</strong>",
+    "grupos": [
+      {
+        "titulo": "Identificazione",
+        "filas": [
+          {
+            "clave": "Modello",
+            "valor": "911 Carrera S Cabrio"
+          },
+          {
+            "clave": "Generazione",
+            "valor": "991.1"
+          },
+          {
+            "clave": "Anno del modello",
+            "valor": "2014"
+          },
+          {
+            "clave": "Data di produzione",
+            "valor": "27.06.2013"
+          },
+          {
+            "clave": "numero di telaio",
+            "valor": "WP0ZZZ99ZES145561"
+          },
+          {
+            "clave": "Tipo/riferimento",
+            "valor": "991320"
+          }
+        ]
+      },
+      {
+        "titulo": "Motore e trasmissione",
+        "filas": [
+          {
+            "clave": "Motore",
+            "valor": "Bóxer atmosférico 3,8 L"
+          },
+          {
+            "clave": "Potenza",
+            "valor": "400 CV"
+          },
+          {
+            "clave": "Trasmissione",
+            "valor": "Manual"
+          },
+          {
+            "clave": "Numero di velocità",
+            "valor": "7"
+          },
+          {
+            "clave": "codice motore",
+            "valor": "A103"
+          },
+          {
+            "clave": "Codice di trasmissione",
+            "valor": "G9100"
+          },
+          {
+            "clave": "Sospensioni",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Differenziale",
+            "valor": "Bloqueo al 40 %"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrozzeria e Generale",
+        "filas": [
+          {
+            "clave": "Chilometraggio",
+            "valor": "122.000 km"
+          },
+          {
+            "clave": "Colore esterno",
+            "valor": "Agate Grey"
+          },
+          {
+            "clave": "Codice vernice",
+            "valor": "M7S"
+          },
+          {
+            "clave": "Interno",
+            "valor": "Negro"
+          },
+          {
+            "clave": "Sedili",
+            "valor": "Deportivos Plus, 4 vías"
+          },
+          {
+            "clave": "Pneumatici",
+            "valor": "Carrera Classic II 20\""
+          }
+        ]
+      },
+      {
+        "titulo": "Attrezzatura",
+        "filas": [
+          {
+            "clave": "Riscaldamento",
+            "valor": "Asientos delanteros"
+          },
+          {
+            "clave": "Illuminazione",
+            "valor": "Xenón con lavafaros"
+          },
+          {
+            "clave": "Suono",
+            "valor": "Paquete BOSE"
+          },
+          {
+            "clave": "Combinazione di sedili",
+            "valor": "GDC"
+          },
+          {
+            "clave": "Codice tappetino",
+            "valor": "A75"
+          }
+        ]
+      },
+      {
+        "titulo": "Storia",
+        "filas": [
+          {
+            "clave": "Storia",
+            "valor": "Libro de servicio completo"
+          },
+          {
+            "clave": "Garanzia",
+            "valor": "12 meses"
+          }
+        ]
+      },
+      {
+        "titulo": "Condizioni di vendita",
+        "filas": [
+          {
+            "clave": "Prezzo",
+            "valor": "89.900 €"
+          },
+          {
+            "clave": "Garanzia",
+            "valor": "12 meses"
+          },
+          {
+            "clave": "Pronto a guidare",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "L'opinione di Jordi",
+    "titulo": "La visione<br/><strong>dell'esperto.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Specialista Porsche · Valentin Motors",
+    "bio": "Più di 25 anni di esperienza con Porsche da collezione. Ha supervisionato centinaia di operazioni di acquisto e vendita di veicoli speciali, con particolare attenzione alle configurazioni dinamiche della gamma 911.",
+    "intro": "\"La 991.1 Carrera S Cabrio con cambio manuale è la configurazione che restituisce al conducente un ruolo centrale, senza rinunciare al cielo aperto.\"",
+    "parrafos": [
+      "La Porsche <strong>991</strong> Ha rappresentato un'evoluzione importante in termini di raffinatezza, stabilità e utilizzo quotidiano, ma questa unità conserva una componente particolarmente meccanica grazie alla sua <strong>motore boxer atmosferico 3,8 litri e 400 CV</strong>, gestito dall'a <strong>cambio manuale a sette marce</strong>. Il cambiamento richiede una maggiore partecipazione del conducente e stabilisce una relazione più diretta tra regime del motore, velocità e risposta dell’auto.",
+      "In una carrozzeria <strong>Cabriolet</strong>, questa interazione è combinata con un'esperienza sensoriale aperta. Il sistema <strong>PASM</strong> permette di variare la risposta della sospensioni, mentre il <strong>differenziale autobloccante</strong> contribuisce a gestire la trazione dell'asse posteriore.",
+      "Il colore <strong>Agate Grey</strong>, i cerchi <strong>Carrera Classic II</strong> e le pinze rosse completano una configurazione esterna sobria ma con accenti tecnici ben definiti. All'interno, i sedili sportivi Plus riscaldati e il pacchetto BOSE offrono un equipaggiamento quotidiano in linea con il carattere sportivo dell'unità.",
+      "Il valore principale di questa unità sta nella combinazione di <strong>Carrera S, decappottabile e cambio manuale</strong>, coperta da un <strong>libretto di servizio completo</strong> e 12 mesi di garanzia."
+    ],
+    "prosTitulo": "Il migliore",
+    "pros": [
+      "Motore boxer aspirato da 3,8 litri e 400 CV",
+      "Cambio manuale a sette marce, insolito sul mercato",
+      "Differenziale autobloccante al 40 % e sospensioni PASM",
+      "Carrozzeria Convertibile con capote funzionale e ben conservata",
+      "Libretto di manutenzione completo e 12 mesi di garanzia",
+      "Configurazione documentata dai codici Porsche originali"
+    ],
+    "contrasTitulo": "Da considerare",
+    "contras": []
+  },
+  "cierre": {
+    "imagen": "/img/991scabrio/exterior3.jpg",
+    "cita": "Una Porsche 991 Carrera S Cabrio con una configurazione coerente, aperta e soprattutto <em>partecipativa</em>: cambio manuale a sette marce, Agate Grey e libretto dei tagliandi completo.",
+    "precio": "89.900 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 991 Carrera S Cabrio · Agate Grey · 2014",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Maggiori informazioni",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponibile",
+    "marca": "Porsche · 991.1",
+    "nombre": "Carrera S Cabrio",
+    "detalle": "2014 · Agate Grey · 122.000 km",
+    "descripcion": "Manuale a 7 velocità · PASM · Differenziale autobloccante al 40 % · Cerchi Carrera Classic II. Libretto di manutenzione completo e 12 mesi di garanzia.",
+    "precio": "89.900 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/991scabrio/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 153,
+    "total": 153,
+    "completa": true
+  }
+}

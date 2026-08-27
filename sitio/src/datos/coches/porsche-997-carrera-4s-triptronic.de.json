@@ -1,0 +1,483 @@
+{
+  "slug": "porsche-997-carrera-4s-triptronic",
+  "archivoOriginal": "997tiptronic.html",
+  "realce": "realce--997tiptronic",
+  "meta": {
+    "titulo": "Porsche 997.1 Carrera 4S Tiptronic | Valentin Motors",
+    "descripcion": "Porsche 911 Carrera 4S 997.1 Tiptronic, 04/2007, Schwarz Z4. Wartung bei Valentin Motors, Bore Scoring negativ, 12 Monate Garantie. Preis: 54.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997tiptronic/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2007",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera 4S",
+    "claim": "Tiptronic. Schwarz Z4. Bekannt, gepflegt und überprüft.",
+    "imagen": "/img/997tiptronic/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scrollen"
+  },
+  "intro": {
+    "etiqueta": "Fahrzeughistorie",
+    "titulo": "Das Vorhandensein des 4S,<br/><strong>mit der Leichtigkeit<br/>der Tiptronic.</strong>",
+    "parrafos": [
+      "Dies <strong>Porsche 911 Carrera 4S Coupé</strong> der 997.1-Generation vereint das breite, muskulöse Image des 4S mit der Benutzerfreundlichkeit des Getriebes <strong>Tiptronic</strong>. Hergestellt in <strong>April 2007</strong>, präsentiert eine nüchterne und kohärente Konfiguration: Karosserie in <strong>schwarz Z4</strong>, Reifen <strong>Carrera S von 19 Zoll</strong>, Fahrwerk <strong>PASM</strong> und Multimediasystem <strong>PCM 2</strong>.",
+      "Dabei handelt es sich um ein von <strong>Valentin Motors</strong> bekanntes Gerät mit einer langen Wartung und einem <strong>negativen Bore Scoring-Check</strong>, einem besonders relevanten Check bei Fahrzeugen dieser Generation."
+    ],
+    "cita": "Dabei handelt es sich nicht um eine schlechtere Version als das Handbuch: Es handelt sich um einen 4S, der sich an diejenigen richtet, die das Vorhandensein der Karosserie, die Sicherheit des Allradantrieb und komfortables und flüssiges Fahren im Alltag suchen.",
+    "datos": [
+      {
+        "clave": "Modell",
+        "valor": "911 Carrera 4S Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generation",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Produktionsdatum",
+        "valor": "04/2007",
+        "acento": false
+      },
+      {
+        "clave": "Motorcode",
+        "valor": "9701",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bóxer 6 cil. · 3,8 L",
+        "acento": false
+      },
+      {
+        "clave": "Leistung",
+        "valor": "355 hp",
+        "acento": false
+      },
+      {
+        "clave": "Übertragung",
+        "valor": "Tiptronic",
+        "acento": false
+      },
+      {
+        "clave": "Farbe",
+        "valor": "Negro Z4",
+        "acento": false
+      },
+      {
+        "clave": "Kilometerstand",
+        "valor": "122.000 km",
+        "acento": false
+      },
+      {
+        "clave": "Bore Scoring",
+        "valor": "Chequeo negativo",
+        "acento": false
+      },
+      {
+        "clave": "Preis",
+        "valor": "54.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galerie",
+    "titulo": "Schwarz Z4.<br/><strong>Karosserie breit<br/>Carrera 4S.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997tiptronic/exterior1.jpg",
+        "alt": "Vorne außen",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vorderansicht · Schwarz Z4 · Carrera 4S"
+      },
+      {
+        "src": "/img/997tiptronic/exterior2.jpg",
+        "alt": "Seitenprofil",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Seitenprofil · Breite Finnen des 4S"
+      },
+      {
+        "src": "/img/997tiptronic/exterior3.jpg",
+        "alt": "Rückansicht",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Hinten vier Auspuffauslässe"
+      },
+      {
+        "src": "/img/997tiptronic/interior1.jpg",
+        "alt": "Kabine",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Kabine · Schwarzes Leder und Tiptronic-Wähler"
+      },
+      {
+        "src": "/img/997tiptronic/close-up1.jpg",
+        "alt": "Außendetails",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detail · Rad Carrera S von 19\""
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor und Getriebe",
+    "titulo": "Tiptronic.<br/><strong>Die Leichtigkeit<br/>von Gran Turismo.</strong>",
+    "stats": [
+      {
+        "valor": 355,
+        "animado": true,
+        "unidad": "HP",
+        "etiqueta": "Leistung",
+        "destacada": true
+      },
+      {
+        "valor": "3,8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Hubraum",
+        "destacada": false
+      },
+      {
+        "valor": "122.000",
+        "animado": false,
+        "unidad": "km",
+        "etiqueta": "Kilometerstand",
+        "destacada": false
+      },
+      {
+        "valor": "4",
+        "animado": false,
+        "unidad": "x4",
+        "etiqueta": "Allradantrieb",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Der atmosphärische Boxer <strong>3,8 Liter</strong> (Motorcode <strong>9701</strong>) Lieferung <strong>355 hp</strong> mit der linearen Antwortcharakteristik der 997.1-Generation. Die Übertragung <strong>Tiptronic</strong> verstärkt den vielseitigen Charakter des Carrera 4S: Es ermöglicht entspanntes und progressives Fahren, insbesondere in der Stadt, auf langen Strecken und im Alltag, behält aber die Möglichkeit, manuell in die Gangwahl einzugreifen.",
+      "Der <strong>Allradantrieb</strong> sorgt für mehr Mobilität und Souveränität, ohne den Heckcharakter des 911 zu zerstören. Mit dem <strong>PASM</strong>-System können Sie das Ansprechverhalten der Fahrwerk anpassen und eine komfortable Nutzung auf der Straße mit einem strafferen Verhalten kombinieren, wenn sportliches Fahren gewünscht ist. Das Getriebe ist Teil der mechanischen Baugruppe, die von der Garantie von 12 auf Motor und Getriebe abgedeckt wird."
+    ],
+    "tags": [
+      "Tiptronic",
+      "Allradantrieb",
+      "PASM",
+      "PCM 2",
+      "Garantie 12 Monate"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Vertrauensblock",
+    "titulo": "Bore Scoring.<br/><strong>Negative Prüfung.</strong>",
+    "ancla": "restauracion",
+    "precio": "Conocido por Valentin Motors",
+    "categorias": [
+      {
+        "titulo": "Bore Scoring",
+        "items": [
+          "Spezifische Prüfung durchgeführt",
+          "Negatives Ergebnis",
+          "Es wurden keine Anzeichen für das Problem festgestellt"
+        ]
+      },
+      {
+        "titulo": "Geschichte",
+        "items": [
+          "Fahrzeug bekannt als Valentin Motors",
+          "Lange Wartung",
+          "Kontinuierliche Überwachung des Spezialisten"
+        ]
+      },
+      {
+        "titulo": "Garantie",
+        "items": [
+          "12 Monate Garantie",
+          "Motor- und Getriebe",
+          "Vorbehaltlich vertraglicher Bedingungen"
+        ]
+      },
+      {
+        "titulo": "Einstellungen",
+        "items": [
+          "Carrera S Felgen ab 19\"",
+          "Ohne elektrisches Dach",
+          "PCM 2 und PASM"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Außen",
+    "titulo": "Schwarz Z4.<br/><strong>Carrera 4S mit <br/>Felgen Carrera S.</strong>",
+    "texto": "Der Karosserie in <strong>schwarzem Z4</strong> mit den ausgestellten Flossen des <strong>Carrera 4S</strong> verleiht dieser Einheit eine besondere Präsenz. Für den 997 typische ovale Scheinwerfer, <strong>Carrera S-Räder von 19</strong>, ein Dach ohne elektrische Öffnung und vier Auspuffrohre runden ein nüchternes, technisches und zeitloses Bild ab.",
+    "fotos": [
+      {
+        "src": "/img/997tiptronic/close-up1.jpg",
+        "alt": "Außendetails",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Rad Carrera S von 19\""
+      },
+      {
+        "src": "/img/997tiptronic/close-up2.jpg",
+        "alt": "Rückendetail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Hinten Carrera 4S und vier Auspuffanlagen"
+      },
+      {
+        "src": "/img/997tiptronic/close-up3.jpg",
+        "alt": "Leuchtturm-Detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detail · Ovaler Scheinwerfer 997"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Innenraum",
+    "titulo": "Schwarzes Leder.<br/><strong>Wahlschalter Tiptronic<br/>und silberne Ringe.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997tiptronic/interior1.jpg",
+        "alt": "Komplette Kabine",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Kabine · Schwarzes Leder und Tiptronic-Wähler"
+      },
+      {
+        "src": "/img/997tiptronic/interior2.jpg",
+        "alt": "Instrumententafel und Konsole",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Silberreifen · PCM 2"
+      }
+    ],
+    "editorial": "Ein Innenraum, der der Originalkonfiguration des 997.1 treu bleibt: schwarze Ledersitze, Lenkrad mit Metallspeichen, silberne Armaturenbrettringe, PCM-System 2 und Tiptronic-Wähler auf der Mittelkonsole."
+  },
+  "procedencia": {
+    "etiqueta": "Dokumentation und Herkunft",
+    "titulo": "Ein Fahrzeug<br/><strong>, das<br/>dem Spezialisten bekannt ist.</strong>",
+    "hitos": [
+      {
+        "anio": "04/2007",
+        "titulo": "Herstellung",
+        "cuerpo": "Einheit hergestellt im <strong>April 2007</strong>, Generation <strong>997.1</strong>, in der Konfiguration Carrera 4S: Karosserie, Allradantrieb und Tiptronic-Getriebe. Motorcode <strong>9701</strong>.",
+        "badge": "997.1 Carrera 4S Tiptronic"
+      },
+      {
+        "anio": "Historial conocido",
+        "titulo": "Lange Geschichte der Wartung bei Valentin Motors",
+        "cuerpo": "Das Gerät ist <strong>von Valentin Motors</strong> bekannt und verfügt über eine lange Wartung, die Kontext zu seiner Entwicklung liefert und es ermöglicht, das Auto mit einem besseren Wissen über seinen Zustand zu präsentieren.",
+        "badge": "Bekanntes Fahrzeug"
+      },
+      {
+        "anio": "Hoy",
+        "titulo": "Erhältlich bei Valentin Motors",
+        "cuerpo": "<strong>122.000 km</strong>. Überprüfung von <strong>Bore Scoring negativ</strong> und <strong>12 Monate Garantie</strong> auf Motor und Getriebe, gemäß den geltenden Vertragsbedingungen.",
+        "badge": "54.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Technisches Datenblatt",
+    "titulo": "Spezifikationen<br/><strong>vollständig.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Typ",
+            "valor": "Bóxer atmosférico 6 cil."
+          },
+          {
+            "clave": "Hubraum",
+            "valor": "3,8 litros"
+          },
+          {
+            "clave": "Leistung",
+            "valor": "355 hp"
+          },
+          {
+            "clave": "Motorcode",
+            "valor": "9701"
+          },
+          {
+            "clave": "Bore Scoring",
+            "valor": "Chequeo negativo"
+          }
+        ]
+      },
+      {
+        "titulo": "Getriebe und Fahrwerk",
+        "filas": [
+          {
+            "clave": "Getriebe",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "Traktion",
+            "valor": "Integral"
+          },
+          {
+            "clave": "Fahrwerk",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Reifen",
+            "valor": "Carrera S 19\""
+          },
+          {
+            "clave": "elektrisches Dach",
+            "valor": "No equipado"
+          }
+        ]
+      },
+      {
+        "titulo": "Karosserie und Allgemein",
+        "filas": [
+          {
+            "clave": "Generation",
+            "valor": "997.1"
+          },
+          {
+            "clave": "Produktionsdatum",
+            "valor": "04/2007"
+          },
+          {
+            "clave": "Kilometer",
+            "valor": "122.000 km"
+          },
+          {
+            "clave": "Außenfarbe",
+            "valor": "Negro Z4"
+          },
+          {
+            "clave": "Multimedial",
+            "valor": "PCM 2"
+          }
+        ]
+      },
+      {
+        "titulo": "Werksoptionen",
+        "filas": [
+          {
+            "clave": "023",
+            "valor": "Aros de relojes en plata"
+          },
+          {
+            "clave": "249",
+            "valor": "Transmisión Tiptronic"
+          },
+          {
+            "clave": "403",
+            "valor": "Llantas Carrera S 19\""
+          },
+          {
+            "clave": "475",
+            "valor": "PASM"
+          },
+          {
+            "clave": "652",
+            "valor": "Sin techo eléctrico"
+          },
+          {
+            "clave": "670",
+            "valor": "PCM 2"
+          }
+        ]
+      },
+      {
+        "titulo": "Geschichte",
+        "filas": [
+          {
+            "clave": "Verfolgung",
+            "valor": "Conocido por Valentin Motors"
+          },
+          {
+            "clave": "Wartung",
+            "valor": "Largo historial"
+          }
+        ]
+      },
+      {
+        "titulo": "Verkaufsbedingungen",
+        "filas": [
+          {
+            "clave": "Preis",
+            "valor": "54.000 €"
+          },
+          {
+            "clave": "Garantie",
+            "valor": "12 meses"
+          },
+          {
+            "clave": "Garantie deckt ab",
+            "valor": "Motor y caja de cambios"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "Jordis Meinung",
+    "titulo": "Die Vision<br/><strong>des Experten.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Spezialist Porsche · Valentin Motors",
+    "bio": "Mehr als 25 Jahre Erfahrung mit Sammler-Porsche. Er hat Hunderte von Verkaufs- und Einkaufsvorgängen von Spezialfahrzeugen betreut, mit besonderem Schwerpunkt auf 911 analoger Generationen.",
+    "intro": "„Ein Porsche 997, bereit zum Genießen, mit Geschichte, Inspektion und Garantie.“",
+    "parrafos": [
+      "Die Carrera 4S ergänzt die klassische Silhouette des 911 eins Karosserie breiteres Heck und eine besonders erkennbare Präsenz. Die Kommunikation dieses Geräts sollte nicht mit der manuellen Version verglichen werden, als ob das eine dem anderen überlegen wäre: der Wert davon 4S Es zeichnet sich durch seine Benutzerfreundlichkeit, seinen Bekanntheitsgrad und seine ausgewogene Konfiguration aus.",
+      "Das <strong>Tiptronic</strong>-Getriebe sorgt für komfortables und flüssiges Fahren, insbesondere in der Stadt, auf langen Fahrten und im Alltagsgebrauch, ohne auf die Möglichkeit zu verzichten, die Übersetzungsverhältnisse manuell zu steuern. Zusammen mit dem <strong>PASM</strong>-System entsteht ein 911, der benutzbar, stabil und mit ausgeprägterem Gran Turismo-Charakter ist als der einer rein analogen Konfiguration.",
+      "Dieses Gerät kommt nicht nur für eine Vorverkaufsinspektion zu Valentin Motors: Es handelt sich um ein dem Fachmann bekanntes Fahrzeug mit einer langen Wartung, einer negativen Bore Scoring-Prüfung und einer Garantie 12 auf Motor und Getriebe."
+    ],
+    "prosTitulo": "Das Beste",
+    "pros": [
+      "Boxer atmosphärisch 3,8 Liter und 355 hp, ohne turbo oder Kompressor",
+      "Karosserie mit breitem Carrera 4S und Allradantrieb",
+      "Tiptronic-Getriebe: komfortables und flüssiges Fahren",
+      "Fahrzeug bekannt durch Valentin Motors, lange Geschichte der Wartung",
+      "Negative Bore Scoring-Prüfung",
+      "12 Monate Garantie auf Motor und Getriebe"
+    ],
+    "contrasTitulo": "Zu bedenken",
+    "contras": [
+      "122.000 km: über dem Generationsdurchschnitt, kompensiert durch die bekannte Historie"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997tiptronic/exterior2.jpg",
+    "cita": "Ein Porsche 997.1 Carrera 4S mit <em>Tiptronic</em> Getriebe, bekannte Geschichte Valentin Motors, negativer Bore Scoring-Check und 12 Monate Garantie auf die Mechanik.",
+    "precio": "54.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997.1 Carrera 4S Tiptronic · Schwarz Z4 · 2007",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Weitere Informationen",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Verfügbar",
+    "marca": "Porsche · 4S",
+    "nombre": "997.1 Carrera 4S Tiptronic",
+    "detalle": "2007 · 122.000 km · Schwarzer Z4",
+    "descripcion": "Boxer atmosphärisch 3,8 L · 355 hp · Tiptronic · Felgen Carrera S 19\". Bekannt für Valentin Motors, lange Geschichte der Wartung und negative Bore Scoring überprüfen.",
+    "precio": "54.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997tiptronic/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 148,
+    "total": 148,
+    "completa": true
+  }
+}

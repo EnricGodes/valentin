@@ -1,0 +1,128 @@
+{
+  "rutaId": "tarifa-cayenne-macan",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-cayenne-macan-mantenimiento-taller-1",
+  "meta": {
+    "titulo": "entretien Porsche Cayenne et Macan — Valentín Motors",
+    "descripcion": "Tarifs de service pour les modèles Cayenne et Macan. Consultez les problèmes les plus fréquents et nos tarifs",
+    "ogImagen": ""
+  },
+  "h1": "entretien pour les modèles Cayenne et Macan",
+  "acordeones": [
+    {
+      "modelo": "Cayenne Diesel 2011 à 2014",
+      "parrafos": [
+        "<strong>Prix à partir de :</strong>",
+        "<strong>SERVICE RAPIDE : 310,00€</strong>",
+        "<strong><br/></strong>Petit entretien : <strong>390 €</strong><br/>Grand entretien : <strong>560€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Cayenne Diesel S 2011 à 2014",
+      "parrafos": [
+        "<strong>Prix à partir de :</strong>",
+        "<strong>SERVICE RAPIDE : 390,00€</strong>",
+        "<strong><br/></strong>Petit entretien : <strong>460 €</strong><br/>Grand entretien : <strong>610€</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Cayenne Diesel 2015 à 2017",
+      "parrafos": [
+        "<strong>Tarifs à partir de :<br/></strong>Petit entretien : <strong>490 €</strong><br/>Grand entretien : <strong>720</strong> <strong>€</strong><br/>Service liquide de frein : <strong>92 €<br/></strong>Plaquettes de frein avant : <strong>430 €<br/></strong>Plaquettes de frein frein arrière : <strong> 310 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Cayenne Diesel S 2015 à 2017",
+      "parrafos": [
+        "<strong>Prix à partir de :</strong>",
+        "<strong>SERVICE RAPIDE : 400,00€</strong>",
+        "<strong><br/></strong>Petit entretien : <strong>490 €</strong><br/>Grand entretien : <strong>720€</strong><br/>Service liquide de frein : <strong>92 €<br/></strong>Plaquettes de frein avant : <strong>490 €<br/></strong>Plaquettes de frein arrière : <strong> 363 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Macan 2014 à 2017",
+      "parrafos": [
+        "<strong>Prix à partir de :</strong>",
+        "<strong>SERVICE RAPIDE : 300,00€</strong>",
+        "<strong><br/></strong>Petit entretien : <strong>360 €</strong><br/>Grand entretien : <strong>420€</strong><br/>Service liquide de frein : <strong>92 €<br/></strong>Plaquettes de frein avant : <strong>320 €<br/></strong>Plaquettes de frein arrière<strong> : 210 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Macan GTS 2014 à 2017",
+      "parrafos": [
+        "<strong>Prix à partir de :</strong>",
+        "<strong>SERVICE RAPIDE : 390,00€<br/></strong>Petit entretien : <strong>490 €</strong><br/>Grand entretien : <strong>530€</strong><br/>Service liquide de frein : <strong>92 €<br/></strong>Plaquettes de frein avant : <strong>390 €<br/></strong>Plaquettes de frein arrière : <strong> 210 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Macan S 2014 à 2017",
+      "parrafos": [
+        "<strong>Prix à partir de :</strong>",
+        "<strong>SERVICE RAPIDE : 320,00€</strong>",
+        "<strong><br/></strong>Petit entretien : <strong>490 €</strong><br/>Grand entretien : <strong>590€</strong><br/>Service liquide de frein : <strong>92 €<br/></strong>Plaquettes de frein avant : <strong>390 €<br/></strong>Plaquettes de frein arrière : <strong>210 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Macan Turbo 2014 à 2017",
+      "parrafos": [
+        "<strong>Prix à partir de :</strong>",
+        "<strong>SERVICE RAPIDE : 390,00€</strong>",
+        "<strong><br/></strong>Petit entretien : <strong>490 €</strong><br/>Grand entretien : <strong>590€</strong><br/>Service liquide de frein : <strong>92 €<br/></strong>Plaquettes de frein avant : <strong>390 €<br/></strong>Plaquettes de frein arrière : <strong> 299 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Macan Diesel 2014 à 2017",
+      "parrafos": [
+        "<strong>Prix à partir de :</strong>",
+        "<strong>SERVICE RAPIDE : 380,00€</strong>",
+        "<strong><br/></strong>Petit entretien : <strong>430 €</strong><br/>Grand entretien : <strong>590€</strong><br/>Service liquide de frein : <strong>92 €<br/></strong>Plaquettes de frein avant : <strong>375 €<br/></strong>Plaquettes de frein arrière : <strong> 230 €</strong><br/>Inspection avant achat : <strong>250 €<br/><br/></strong><em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "entretien pour les modèles Cayenne et Macan",
+      "parrafos": [
+        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience du travail, le service et le diagnostic des pannes sont la clé du processus.",
+        "Les techniciens de Valentín Motors peuvent fournir des solutions bien conçues qui résoudront le problème.<br/><br/>",
+        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être récupéré.",
+        "Sélectionnez un modèle"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Faire une réservation",
+      "parrafos": [
+        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 43,
+    "total": 43,
+    "completa": true
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "rutaId": "tarifa-cayman",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-cayman-boxster-mantenimiento-taller",
+  "meta": {
+    "titulo": "manutenzione Porsche Cayman e Boxster — Valentín Motors",
+    "descripcion": "Tariffe di servizio per i modelli Boxster e Cayman. Controlli i problemi più frequenti e i nostri prezzi",
+    "ogImagen": ""
+  },
+  "h1": "manutenzione per i modelli Cayman e Boxster",
+  "acordeones": [
+    {
+      "modelo": "Boxster 986",
+      "parrafos": [
+        "<strong><br/>Tagliando minore</strong>: (filtro olio + olio motore + filtro antipolline + 23 punti della lista di controllo) <strong>da</strong> <strong>525,00€</strong><br/><strong>Tagliando maggiore </strong>:(Include Tagliando minore + filtro dell'aria + 30 check list punti) <strong>da 635,00 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117€</strong><br/>Ispezione pre-acquisto: <strong>375,00 €</strong>",
+        "Controlli Bore Scoring: <strong>196/343<br/><br/></strong><em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster e Cayman 987",
+      "parrafos": [
+        "<strong><br/>Tagliando minore</strong> (Filtro olio + olio motore + filtro antipolline + check list di 23 punti)<strong> da 525,00€</strong><br/><strong>Tagliando maggiore: </strong>(Include Tagliando minore+ filtro dell'aria + lista di controllo di 30 punti) <strong>da 635,00 €</strong><br/> Tagliando liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375,00 €</strong>",
+        "<strong><br/><br/></strong><em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster e Cayman 981",
+      "parrafos": [
+        "I punti più comuni da verificare in 981 sono:",
+        "Scarichi ostruiti",
+        "Pressa frizione nel cambio manuale.",
+        "<strong><br/>Tagliando minore:</strong>(Filtro olio + olio motore + filtro antipolline + check list di 23 punti) <strong>da 595,00 €</strong><br/><strong>Tagliando maggiore: da 720,00 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375,00 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": [
+        "Scarichi ostruiti",
+        "Pressa frizione nel cambio manuale."
+      ]
+    },
+    {
+      "modelo": "Boxster e Cayman 718",
+      "parrafos": [
+        "<strong><br/>Tagliando minore: </strong>(Filtro olio + olio motore + filtro antipolline + check list di 23 punti) <strong>da 690,00 €</strong><br/><strong>Tagliando maggiore:(</strong>Include Tagliando minore + filtro dell'aria + check list di 30 punti) <strong>da 850,00€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375,00 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "manutenzione per i modelli Cayman e Boxster",
+      "parrafos": [
+        "Nessuna auto è affidabile al 100 % e, in base alla nostra esperienza di lavoro, assistenza e diagnosi dei guasti.",
+        "Il team può consigliarLa sulle migliori azioni di manutenzione. I tecnici di Valentín Motors possono fornire soluzioni ben progettate che risolveranno il problema.<br/><br/>",
+        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo sarà disinfettato e pulito, pronto per il ritiro.",
+        "Seleziona un modello"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Effettua una prenotazione",
+      "parrafos": [
+        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 27,
+    "total": 27,
+    "completa": true
+  }
+}

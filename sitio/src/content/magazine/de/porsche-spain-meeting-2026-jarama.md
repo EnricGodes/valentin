@@ -1,0 +1,25 @@
+---
+title: "Porsche Spanien Treffen 2026 Jarama Madrid"
+slugSquarespace: "porsche968-abx98"
+slugFinal: "porsche-spain-meeting-2026-jarama"
+slugOriginal: "porsche968-abx98"
+date: 2026-07-22T11:16:02.567000Z
+lang: de
+categories: ["articulos"]
+excerpt: "Porsche Jarama"
+author: "Jordi Edo"
+squarespaceId: "6a60a3eb4f1e5e738e69490c"
+originalUrl: "https://www.valentinmotors.es/magazine/porsche968-abx98"
+ctas:
+  - texto: "Weitere Informationen"
+    href: "/contacto"
+---
+![27 Valentins Team auf dem Jarama Boxes Circuit](/img/magazine/1aab446a-WhatsApp-Image-2026-07-22-at-13.11.57.jpeg)
+
+*27 Juni Valentins Team auf dem Jarama Boxes Circuit*
+
+## Valentin Motors Porsche Madrid
+
+![WhatsApp-Bild 2026-07-22 unter 13.12.17.jpeg](/img/magazine/bcc926fa-WhatsApp-Image-2026-07-22-at-13.12.17.jpeg)
+
+![WhatsApp-Bild 2026-07-22 um 13.12.30.jpeg](/img/magazine/f4d23137-WhatsApp-Image-2026-07-22-at-13.12.30.jpeg)

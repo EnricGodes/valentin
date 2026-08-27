@@ -1,0 +1,80 @@
+{
+  "rutaId": "contacto",
+  "tipo": "contacto",
+  "ficheroOriginal": "contacto",
+  "meta": {
+    "titulo": "Contact — Valentín Motors",
+    "descripcion": "Atelier Porsche dans l'Eixample de Barcelone. Gran Vía de les Corts Catalanes, 752. 08041 Barcelone. +34 933 479 856",
+    "ogImagen": ""
+  },
+  "h1": "Contactez-nous",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Contactez-nous",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Contactez-nous",
+      "parrafos": [
+        "Dites-nous quels sont vos besoins, nous sommes sûrs de pouvoir vous aider."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Atelier Porsche à Madrid (Leganés)",
+      "parrafos": [
+        "<strong>VALENTIN MOTORS MADRID</strong>",
+        "<strong>Lieu :</strong> Puig Adam, 10<br/> Parque Sur / 28914 Leganés (Madrid)",
+        "<strong>Téléphone :</strong> (+34) 913 017 575",
+        "<strong>E-mail :</strong> madrid@valentinmotors.es",
+        "<strong>Heures :</strong> du lundi au vendredi",
+        "Atelier : 8:30 à 18:00 / Ventes : 8:30 à 19:00",
+        "<strong>Horaires pour atelier :</strong>",
+        "<strong> </strong>Centre de Madrid / Gare d'Atocha <strong>— </strong>20 minutes",
+        "Aéroport de Barajas <strong>— </strong>22 minutes",
+        "<strong> </strong>Zone Nord de Madrid <strong>— </strong>22 / 26 minutes environ."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Atelier Porsche à Barcelone",
+      "parrafos": [
+        "<strong>VALENTIN MOTORS BARCELONE</strong>",
+        "<strong>Emplacement : </strong>Calle Varsovia, 65 <br/> Hôpital Sant Pau / 08041 Barcelone",
+        "<strong>Téléphone : </strong>(+34) 933 479 856 / (+34) 679 081 019",
+        "<strong>E-mail : </strong>info@valentinmotors.es",
+        "<strong>Horaires : </strong>Du lundi au vendredi / Atelier : 8:00 à 18:00",
+        "<strong>Horaires pour atelier : </strong>",
+        "<strong>‍ ‍</strong>Aéroport El Prat <strong>—</strong> 30 minutes",
+        "Estacio Sants <strong>—</strong> 26 minutes"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "679 081 019",
+      "913 017 575",
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es",
+      "madrid@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 26,
+    "total": 26,
+    "completa": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "rutaId": "competicion",
+  "tipo": "servicio",
+  "ficheroOriginal": "competicion",
+  "meta": {
+    "titulo": "Preparation of vehicles for competition — Valentín Motors",
+    "descripcion": "Valentín Motors has been present since 1979 in the world of racing. The DNA of the brand is competition, a place where we have always been present.",
+    "ogImagen": ""
+  },
+  "h1": "Preparation of vehicles for competition",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Preparation of vehicles for competition",
+      "parrafos": [
+        "We are technical partners and installation specialists with some of the <strong>best names in the automotive world</strong>. This includes KW and Bilstein suspensions, Michelin tires, AP racing, Performance Friction Corporation, Heigo and a list of excellent spare parts suppliers. <strong>All products are extensively tested and evaluated</strong> by Valentín Motors as part of our research and development operations.",
+        "In addition to aftermarket products, <strong>we have developed an extensive catalog of our own solutions </strong>custom designed to enhance your vehicle with products ranging from crown wheel and pinion conversions, comprehensive extinguishing systems, specific geometries and set ups."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preparations Track Day",
+      "parrafos": [
+        "<strong>The spirit of the brand is sporty</strong> and it is on a circuit where Porsche demonstrates its potential, transmitting sensations impossible to achieve in urban driving. Carrying out runs in a controlled environment is when pilot and vehicle achieve the symbiosis with which they were conceived.",
+        "We make <strong> vehicle adaptations </strong> at any level to satisfy the required track conditions and the state that the client requests."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/f7d234c2-32b6-4307-8bbf-1eb7aa37479d/DSC07852.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "GT and Gentlemen Driver Championships",
+      "parrafos": [
+        "We are present in GT3, GT3 and carrera CUP vehicles of various generations, providing <strong>assistance and support services with track engineering </strong>and regular championship operators."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/4e60d379-37f9-4e52-8d0c-59fd91eeb5fd/DSC08039.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Rally",
+      "parrafos": [
+        "The most common thing is to think of Porsche vehicles on a well-paved road and traveling at high speeds. But the truth is that it is not strange to see them off the asphalt. Throughout their history they have raced in all types of situations and surfaces, winning a Paris-Dakar in 1984.",
+        "Part of the <strong>preparation of a 911 for rallies</strong> involves:"
+      ],
+      "items": [
+        "Lighten its weight: remove unnecessary parts, fiberglass pieces,…",
+        "Add safety components: roll cage, harnesses, buckets,…",
+        "Improve performance: modifications to the engine, dampers, tires, …"
+      ],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/d99de2c0-b26e-4cdb-93b1-09edd359f4c7/DSC07759.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Discover adrenaline",
+      "parrafos": [
+        "Driving a 911 in a sporty manner is unlike any previous sensation. It is discovering true adrenaline for the first time."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

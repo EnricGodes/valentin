@@ -1,0 +1,444 @@
+{
+  "rutaId": "home",
+  "tipo": "home",
+  "ficheroOriginal": "_home",
+  "meta": {
+    "titulo": "Porsche-Werkstatt Barcelona & Madrid | Valentín Motors",
+    "descripcion": "Werkstatt Porsche in Barcelona und Madrid. Seit mehr als 40 Jahren im Dienste von Liebhabern und Enthusiasten der Welt Porsche",
+    "ogImagen": "http://static1.squarespace.com/static/61adc6456a92100cab5d4e4d/t/65520364275e635d7cd126c6/1699873636738/logo_valentin.png?format=1500w"
+  },
+  "h1": "Porsche Spezialisten seit 1979",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche Spezialisten seit 1979",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 1,
+      "titulo": "„45 Jubiläum“",
+      "parrafos": [
+        "<strong>„Wir verleihen dem PORSCHE neues Leben, indem wir Handwerkskunst, Exzellenz und Leidenschaft vereinen.“</strong>",
+        "In unseren Einrichtungen <a href=\"/barcelona\">Barcelona</a> und <a href=\"/madrid\">Madrid</a>Wir betreuen die gesamte Porsche-Reihe mit einer Hingabe, die traditionelles Wissen und Leidenschaft vereint, wobei wir uns auf das 911-Modell von 1965 bis zum aktuellen 2025 konzentrieren.",
+        "Wir sind stolz darauf, unseren Kunden jeglichen Service rund um ihr Porsche-Auto anbieten zu können.",
+        "Wir sind eine <strong>Familie, die sich aus den Konzepten von Handwerkskunst, Exzellenz und Leidenschaft zusammensetzt.</strong>"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Entdecken Sie unsere Zentren",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Barcelona",
+      "parrafos": [
+        "In c/Varsòvia 65, in der Nähe von Ronda del Mig"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/9e7f99f9-159b-4c04-ae59-fe61632eaf07/Barcelona",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Madrid",
+      "parrafos": [
+        "In c/Puig Adam 10, gelegen in Leganés"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/06367d2d-90de-43b2-964f-28c45c538038/fachada_madrid.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Aktuelle Nachrichten",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Neue Werkstatt in Barcelona, neben der Ronda del Mig",
+      "parrafos": [
+        "Wir haben unsere zweite Werkstatt in Barcelona mit mehr als 1.300 m² eröffnet, mit Bügel- und Malerservice."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/e572356a-e5b3-4b01-bf10-ad57227f42ee/vm.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Doppelsieg in der Porsche Classic Series",
+      "parrafos": [
+        "Valentin Motors zeigte seine erste Veranstaltung 2023 im Bereich MotorSport mit 3 Einheiten in der Box."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/a712f5fa-5d94-4dd8-b309-a3d2bc12246f/DSC07854.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "10 Dinge, die Sie wissen sollten, bevor Sie einen Porsche kaufen",
+      "parrafos": [
+        "In unserem neuesten Artikel erfahren Sie, was jeder Käufer wissen sollte, bevor er ein Auto kauft"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/60243d86-86bc-4a7d-ad9b-8f95678d55f5/10-cosas-comprar-porsche.jpg",
+          "alt": "10 Dinge, die Sie wissen sollten, bevor Sie einen porsche kaufen"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche Besitzerclub. Erfahrungen teilen",
+      "parrafos": [
+        "Für alle zugängliche Aktivitäten: Rennstreckentage, Fahrkurse, kulturelle Besichtigungen, Outlaw-Ausflüge usw."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/f1e9bf25-1c1a-4710-a804-293dc333e5a7/club-propietarios.jpg",
+          "alt": "Porsche"
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "titulo": "Entdecken Sie alle unsere Neuigkeiten in Form von Artikeln in unserem Magazin",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "„Seitdem ich Valentín Motors kenne, überraschen sie mich jeden Tag aufs Neue mit ihrer Arbeit, ihrem Engagement und der erhaltenen Behandlung. Ich war nicht auf der Suche nach einer Werkstatt, um mein Auto zu warten, sondern nach einem langfristigen Projekt mit Service, Professionalität und Qualität, und all das habe ich bei Valentín Motors gefunden.“",
+      "parrafos": [
+        "-DANIEL A."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Auswahl an Porsche-Fahrzeugen zum Verkauf",
+      "parrafos": [
+        "7 Schaltgetriebe · PASM · Selbstsperrdifferenzial bei 40 % · Carrera Classic II-Räder. Vollständiges Servicebuch und 12 Monate Garantie.",
+        "Boxer 2,2 L · 5 Dach Targa. Restaurierung von Karosserie (2014), Motor und Getriebe (2015) und Bremsen (2021). Stadion 2.",
+        "Boxer atmosphärisch 3,8 L · 355 hp · Tiptronic · Felgen Carrera S 19\". Bekannt für Valentin Motors, lange Geschichte der Wartung und negative Bore Scoring überprüfen.",
+        "Boxer atmosphärischer 3,8 L · 355 hp · 6 Schaltgetriebe · Allradantrieb. Geschichte bei Valentin Motors seit 2022. Negative Bore Scoring-Prüfung.",
+        "Restaurierung durch KAAN (Österreich). Boxer 4 Zyl. 1.582 cm³, 90 hp. Fahrgestell 153.320. Restauriertes schwarzes Interieur. Garantie 12 Monate.",
+        "Dokumentierte integrale RUF-Konvertierung. Originalrechnung Pfaffenhausen 2011. Neu lackiertes Glas in Irish Green 2024. Fahrgestellnummer Porsche erhalten."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/609858f3-8799-4a24-8b2b-9c62972653e6/daniel.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/1785516028992-EVZP9YF1RBZJA1EDJI18/hero.png",
+          "alt": "991 Carrera S Cabrio"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/1784214523610-LITLQVZLW5VYSKAI1ZIF/hero.jpg",
+          "alt": "911 2.2 T Targa"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/1784138836602-PPHOCD2HK3MX8YBDJ8I3/hero.jpg",
+          "alt": "Porsche 997.1 Carrera 4S Triptonic"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/1784030271212-UJOZKTEQT3YNUFX4E6UB/hero.jpg",
+          "alt": "Porsche 997.1 Carrera 4S"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/1784214744530-SOCDKD3AU2N9A6QSRYYG/close-up3.jpg",
+          "alt": "Porsche 356 B Cabriolet 1960"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/1779011633368-Z1OW5PLZR1BC6UV7K01S/hero.jpg",
+          "alt": "997 RUF Kompressor R"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Werkstatt Mechaniker Porsche",
+      "parrafos": [
+        "Seit 1979 arbeiten wir mit denselben Fahrzeugen. Es ist daher nicht verwunderlich, dass wir sie perfekt kennen. Unsere Spezialisierung umfasst ausnahmslos alle Modelle der Marke, vom ersten 356 bis hin zu zeitgenössischen Modellen."
+      ],
+      "items": [
+        "Fahrzeug Wartung",
+        "Restaurierung von Motoren",
+        "Getriebe",
+        "Fahrzeuginspektion vor dem Kauf",
+        "Nationaler technischer Dienst",
+        "IMS",
+        "Repariert Bore Scoring",
+        "Erstklassiger Lackier- und Karosserie-Service"
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Restaurierung Fahrzeuge Porsche",
+      "parrafos": [
+        "Bei Valentín Motors betrachten wir jedes Restaurierung als eine Erweiterung zeitloser Werte, als eine Schuld an die Vergangenheit, als eine Hommage an eine vergangene Zeit."
+      ],
+      "items": [
+        "Restaurierungen",
+        "Anpassungen",
+        "Ideenlabor",
+        "Backdating"
+      ],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/daf35232-a097-4edf-a790-51dd369d5631/taller01.jpg",
+          "alt": "taller01.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/e88d62e1-1684-4be2-b009-57bba564c07c/taller3.jpg",
+          "alt": "taller3.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/e2c4b8b5-c083-4eaf-ab5b-a306c451ea93/taller6.jpg",
+          "alt": "taller6.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/2549503a-4f2e-469f-98ff-27b7aa2daffa/DSC00747.jpg",
+          "alt": "DSC00747.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/e817a6da-1a1b-4c09-8e60-5660cd0e2f70/taller4.jpg",
+          "alt": "taller4.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/d9e272a3-97a6-4e38-b48a-fb845cde8822/taller7.jpg",
+          "alt": "taller7.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Vorbereitung von Porsche-Fahrzeugen für den Wettbewerb",
+      "parrafos": [
+        "Es ist eine Rennstrecke, auf der ein Porsche-Fahrzeug den ultimativen Zweck demonstrieren kann, für den es entwickelt wurde. Eine Maschine, die einzigartige Empfindungen vermittelt, die in einer städtischen Umgebung ihresgleichen suchen."
+      ],
+      "items": [
+        "Vorbereitungen Track Day",
+        "GT- und Gentlemen-Fahrermeisterschaften",
+        "Rallye"
+      ],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/fa6092f2-66e1-435c-b8bc-994a7587b0b2/271855619_697720067882094_6512529372697218830_n.jpg",
+          "alt": "271855619_697720067882094_6512529372697218830_n.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/53d5ac90-440d-4722-b21f-8d63076c3492/DSC00735.jpg",
+          "alt": "DSC00735.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/385f688a-b7ea-4ce6-884e-bbee96457943/DSC00738.jpg",
+          "alt": "DSC00738.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/28715efc-496f-48ce-8e5d-57352db4e073/DSC00829.jpg",
+          "alt": "DSC00829.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/a016cb2a-bab0-4843-8e6b-249f273ecb42/DSC00920.jpg",
+          "alt": "DSC00920.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/e8c4b137-4a55-4dab-b4f9-efae6d71bc3a/DSC03497.jpg",
+          "alt": "DSC03497.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/a261bd82-966b-47dd-898e-3ae6e92a4a37/272169829_1091904554942523_2838449507233107538_n.jpg",
+          "alt": "272169829_1091904554942523_2838449507233107538_n.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Spezialisiert auf historische Porsche",
+      "parrafos": [
+        "Unsere Ikonen sind 8 Modelle, die eine Ära in der Entwicklung der Marke markiert haben."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/efb1c85f-4398-4385-8c49-f73768003a43/DSC00494.jpg",
+          "alt": "DSC00494.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/b8f97945-ea4b-4c86-882e-61e61a8d4ad3/DSC00560.jpg",
+          "alt": "DSC00560.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/1a048ebc-cccb-413b-9c2a-3ffcc9e42edd/DSC02932.jpg",
+          "alt": "DSC02932.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/5f30b77e-fdcd-4f68-b02f-acea3af6bf36/DSC03174.jpg",
+          "alt": "DSC03174.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/39c5ba26-2bd2-4fe6-8606-be0a845a8eb4/DSC03351.jpg",
+          "alt": "DSC03351.jpg"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/077f1754-6837-4df1-804b-96e51c6d8a35/DSC03557.jpg",
+          "alt": "DSC03557.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 356",
+      "parrafos": [
+        "Seine Herstellung begann im 1948 bis 1966. Mit den Versionen 356 A, 356 B und 356 C."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/6f676228-0ecd-4068-b6b7-78815d78a1a0/porsche-356.jpg",
+          "alt": "Porsche 356"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 911 F",
+      "parrafos": [
+        "In Produktion von 1963 bis 1973. Es wurden 111.995 Einheiten mit Sechszylindermotor hergestellt."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/7d67ffc8-395f-40a1-af16-7f57c97b27a5/porsche-normal.jpg",
+          "alt": "Porsche 911 F"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 911 G",
+      "parrafos": [
+        "Das Modell der zweiten Generation wurde von 1973 bis 1989 hergestellt und komplett überarbeitet. 198.496 Einheiten."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/7022a55a-c50e-47c3-9cd3-46939cf01701/Porsche-911G.jpg",
+          "alt": "Porsche 911 G"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 964",
+      "parrafos": [
+        "Wichtigste neue Funktionen: 4 Traktion, ABS-System und Servolenkung. Es wird im 1988 mit einem 3.6-Motor mit 250 CV Doppelzündung vorgestellt, um eine höhere Zuverlässigkeit zu erreichen, der aerodynamische Effekt wird durch einen einziehbaren Heckspoiler korrigiert."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/ab1fc6b2-2354-4f59-a71a-67e0134927ae/porsche-964.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 997",
+      "parrafos": [
+        "Präsentiert im 2004, mit neuer kreisförmiger Optik hinter einer ovalen transparenten Abdeckung und stärker ausgeprägten Radkästen im oberen Bereich."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/4fce7aff-3ea4-46b7-be7c-2d3192163617/porsche-997.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 993",
+      "parrafos": [
+        "Die vierte Generation stellte sowohl in technischer Hinsicht als auch im äußeren Erscheinungsbild eine deutliche Verbesserung dar. Mit einem neuen 3,6-Liter-Motor mit einer anfänglichen Leistung von 272 CV, die auf 285 CV anstieg"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/4882fa14-d2fb-47b9-a004-0ce89a9cdee0/porsche-993.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 991",
+      "parrafos": [
+        "In Produktion seit 2011 mit einem Boxermotor von 6 Zylindern und mit einer Leistung von 350 bis 700 CV stellten den höchsten bis dahin erreichten Entwicklungsstand dar."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/503f0356-e129-4e4c-8a84-6f1bfecec2b3/porsche-991.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 996",
+      "parrafos": [
+        "Eine der wichtigsten Neuerungen seiner Zeit war der wassergekühlte Motor mit Hinterradantrieb und einem Sechsgang-Schaltgetriebe. Sechszylindermotor mit 3,4 Litern und 300 CV."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/e33ef71c-3aad-4245-8235-95d5a85564c9/porsche-996.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 102,
+    "total": 102,
+    "completa": true
+  }
+}

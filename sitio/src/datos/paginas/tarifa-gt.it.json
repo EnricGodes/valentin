@@ -1,0 +1,215 @@
+{
+  "rutaId": "tarifa-gt",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-gt-mantenimiento-taller",
+  "meta": {
+    "titulo": "manutenzione Porsche GT — Valentín Motors",
+    "descripcion": "Tariffe di servizio per i modelli GT. Controlli i problemi più frequenti e i nostri prezzi",
+    "ogImagen": ""
+  },
+  "h1": "manutenzione per i modelli GT",
+  "acordeones": [
+    {
+      "modelo": "996 GT3 MK1",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 611 €</strong><br/>Tagliando maggiore: <strong>da 1.093 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117€</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT3 MK2",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>611 €</strong><br/>Tagliando maggiore: <strong>1.092 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: 117<strong>€</strong><br/>Ispezione pre-acquisto: <strong>375€</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 740 €</strong><br/>Tagliando maggiore: <strong>da 1.093 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117€</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 GT3",
+      "parrafos": [
+        "<strong>Prezzi<br/></strong>Tagliando minore: <strong>da 691€</strong><br/>Tagliando maggiore: <strong>da 1.001€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>240 €</strong><br/>Ispezione pre-acquisto: <strong>375€</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 464€</strong><br/>Tagliando maggiore: <strong>da 1.184€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore:<strong> da 602€</strong><br/>Tagliando maggiore:<strong> da 1.029€</strong><br/>Servizio liquido freni: <strong>92 €</strong><br/>Assetto: <strong>117€</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 802€</strong><br/>Tagliando maggiore: <strong>da 1.030€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117€</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 691€</strong><br/>Tagliando maggiore: <strong>da 1.259€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 GT3 RS",
+      "parrafos": [
+        "<strong>Prezzi<br/></strong>Tagliando minore: <strong>370</strong> <strong>€</strong><br/>Tagliando maggiore: <strong>920</strong> <strong>€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117€</strong><br/>Ispezione pre-acquisto: <strong>250 €<br/><br/></strong><em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 641 €</strong><br/>Tagliando maggiore: <strong>da 1.438€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: 117<strong> €</strong><br/>Ispezione pre-acquisto: <strong>375€</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore:<strong>da 640€</strong><br/>Tagliando maggiore:<strong>da 1.495€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375€</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 540€</strong><br/>Tagliando maggiore: <strong>da 1.437€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong> da 540€</strong><br/>Tagliando maggiore: <strong>da 1.437€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "993 GT",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore:<strong>da 822€</strong><br/>Tagliando maggiore:<strong>da 1.295€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore:<strong>da 680€</strong><br/>Tagliando maggiore:<strong>da 1.334€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore:<strong>da 603€</strong><br/>Tagliando maggiore:<strong>da </strong> <strong>1.149€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997 GT2 RS",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 857€</strong><br/>Tagliando maggiore: <strong>da1.216 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117€</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991 GT2 RS",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 656€</strong><br/>Tagliando maggiore: <strong>da 1.702€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "981 CAYMAN GT4",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore:<strong> da 683€</strong><br/>Tagliando maggiore:<strong>da 1029€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €<br/><br/></strong><em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "718 CAYMAN GT4",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 695€</strong><br/>Tagliando maggiore:<strong>da 1.030€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>117 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "718 CAYMAN GT4 RS",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong> da 695€</strong><br/>Tagliando maggiore: <strong>da 1.030€</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: 117€<br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "manutenzione per i modelli GT",
+      "parrafos": [
+        "Nessuna auto è affidabile al 100 % e, in base alla nostra esperienza lavorativa, l'assistenza e la diagnosi sono la chiave del processo per guidarci verso un lavoro di successo.",
+        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo verrà disinfettato e pulito, pronto per la consegna.",
+        "Seleziona un modello"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Effettua una prenotazione",
+      "parrafos": [
+        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 70,
+    "total": 70,
+    "completa": true
+  }
+}

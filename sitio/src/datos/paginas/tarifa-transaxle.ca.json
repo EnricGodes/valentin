@@ -1,0 +1,81 @@
+{
+  "rutaId": "tarifa-transaxle",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-transaxle-mantenimiento-taller",
+  "meta": {
+    "titulo": "Tarifes manteniment Porsche Transaxle — Valentín Motors",
+    "descripcion": "Tarifes dels serveis per als models 924, 944, 968, 928. Consulteu els problemes més freqüents i els nostres preus",
+    "ogImagen": ""
+  },
+  "h1": "Preus de manteniment per als models Transaxle",
+  "acordeones": [
+    {
+      "modelo": "924",
+      "parrafos": [
+        "<strong><br/></strong>Servei menor: <strong>des de 401 €</strong><br/>Servei major: <strong>des de 598 €</strong><br/>Servei líquid de frens: <strong>92 €</strong><br/>Geometries: <strong>240 €</strong><br/>Inspecció prèvia a la compra: <strong>375 €</strong>",
+        "<em>Preus sense IVA.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "944",
+      "parrafos": [
+        "<strong><br/></strong>Servei menor: <strong>502 €</strong><br/>Servei major: <strong>898 €</strong><br/>Servei líquid de frens: <strong>92 €</strong><br/>Geometries: <strong>240 €</strong><br/>Inspecció prèvia a la compra: <strong>375 €</strong>",
+        "<em>Preus sense IVA.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "968",
+      "parrafos": [
+        "<strong><br/></strong>Servei menor: <strong>601 €</strong><br/>Servei major: <strong>898 €</strong><br/>Servei líquid de frens: <strong>92 €</strong><br/>Geometries: <strong>240 €</strong><br/>Inspecció prèvia a la compra: <strong>375€</strong>",
+        "<em>Preus sense IVA.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "928",
+      "parrafos": [
+        "<strong><br/></strong>Servei menor: <strong>601 €</strong><br/>Servei major: <strong>898 €</strong><br/>Servei líquid de frens: <strong>92 €</strong><br/>Geometries: <strong>240</strong><br/>Inspecció prèvia a la compra: <strong>375 €</strong>",
+        "<em>Preus sense IVA.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Preus de manteniment per als models Transaxle",
+      "parrafos": [
+        "Cap automòbil és 100 % fiable i, a partir de la nostra experiència de treball, servei i diagnòstic de fallades centrades en un diagnòstic clar i efectiu com a clau de tot el procés de reparació.",
+        "Els preus estan subjectes a IVA, però inclouen peces i mà d'obra. Els preus de les peces de Porsche estan subjectes a canvis sense avís previ. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos. El seu vehicle es desinfectarà i netejarà, llest per al lliurament",
+        "Selecciona un model"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Fes una reserva",
+      "parrafos": [
+        "Deixa'ns les dades del teu model, tipus de servei que requereixes i el nostre equip contactarà amb tu per confirmar la cita"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 21,
+    "total": 21,
+    "completa": true
+  }
+}

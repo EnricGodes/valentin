@@ -1,0 +1,81 @@
+{
+  "rutaId": "tarifa-transaxle",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-transaxle-mantenimiento-taller",
+  "meta": {
+    "titulo": "servicing Porsche Transaxle — Valentín Motors",
+    "descripcion": "Service rates for models 924, 944, 968, 928. Check the most frequent problems and our prices",
+    "ogImagen": ""
+  },
+  "h1": "servicing for Transaxle models",
+  "acordeones": [
+    {
+      "modelo": "924",
+      "parrafos": [
+        "<strong><br/></strong>Minor service: <strong>from 401 €</strong><br/>Major service: <strong>from 598 €</strong><br/>Service brake fluid: <strong>92 €</strong><br/>Geometries: <strong>240 €</strong><br/>Pre-purchase inspection: <strong>375 €</strong>",
+        "<em>Prices excluding VAT.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "944",
+      "parrafos": [
+        "<strong><br/></strong>Minor service: <strong>502 €</strong><br/>Major service: <strong>898 €</strong><br/>Service brake fluid: <strong>92 €</strong><br/>Geometries: <strong>240 €</strong><br/>Pre-purchase inspection: <strong>375 €</strong>",
+        "<em>Prices excluding VAT.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "968",
+      "parrafos": [
+        "<strong><br/></strong>Minor service: <strong>601 €</strong><br/>Major service: <strong>898 €</strong><br/>Service brake fluid: <strong>92 €</strong><br/>Geometries: <strong>240 €</strong><br/>Pre-purchase inspection: <strong>375€</strong>",
+        "<em>Prices excluding VAT.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "928",
+      "parrafos": [
+        "<strong><br/></strong>Minor service: <strong>601 €</strong><br/>Major service: <strong>898 €</strong><br/>Service brake fluid: <strong>92 €</strong><br/>Geometries: <strong>240</strong><br/>Pre-purchase inspection: <strong>375 €</strong>",
+        "<em>Prices excluding VAT.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "servicing for Transaxle models",
+      "parrafos": [
+        "No car is 100 % reliable and, based on our work experience, service and fault diagnosis focused on a clear and effective diagnosis as the key to the entire repair process.",
+        "Prices are subject to VAT but include parts and labor. Prices for Porsche parts are subject to change without notice. An environmental and miscellaneous item charge is added to each invoice. Your vehicle will be disinfected and cleaned, ready for delivery",
+        "Select a model"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/c595f2a2-455e-4ff1-b2eb-2bba8eb08ecf/DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Make a reservation",
+      "parrafos": [
+        "Leave us the information of your model, type of service you require and our team will contact you to confirm the appointment"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 21,
+    "total": 21,
+    "completa": true
+  }
+}

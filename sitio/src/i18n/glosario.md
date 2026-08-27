@@ -87,6 +87,23 @@ fábrica o anglicismos que el mercado usa tal cual, también en español.
 | presupuesto | quote | devis | preventivo | Kostenvoranschlag | pressupost |
 | cita previa | appointment | rendez-vous | appuntamento | Termin | cita prèvia |
 | precios sin IVA | prices excluding VAT | prix hors taxes | prezzi IVA esclusa | Preise zzgl. MwSt. | preus sense IVA |
+| cambio (la caja) | gearbox | boîte de vitesses | cambio | Getriebe | caixa de canvis |
+| manual (la caja) | manual | manuelle | manuale | Schaltgetriebe | manual |
+| automático (la caja) | automatic | automatique | automatico | Automatikgetriebe | automàtic |
+| rally | rally | rallye | rally | Rallye | ral·li |
+| historial | history | historique | storia | Historie | historial |
+| procedencia | provenance | provenance | provenienza | Provenienz | procedència |
+| estética | styling | esthétique | estetica | Optik | estètica |
+| dinámica | chassis | châssis | telaio | Fahrwerk | dinàmica |
+
+### Palabras cortas que engañan
+
+Estas aparecen solas en etiquetas y claves de tabla, sin frase alrededor, y es
+donde la traduccion automatica se equivoca:
+
+- **Cambio** en una ficha de coche es la caja de cambios, no un cambio.
+- **Manual** es la caja manual, no un manual de instrucciones.
+- **Dinámica** y **Estética** son categorías de equipamiento, no conceptos abstractos.
 
 ---
 

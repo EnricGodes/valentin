@@ -1,0 +1,491 @@
+{
+  "slug": "porsche-356-b-cabriolet-1960",
+  "archivoOriginal": "356.html",
+  "realce": "realce--356",
+  "meta": {
+    "titulo": "Porsche 356 B Cabriolet 1960 · Valentin Motors",
+    "descripcion": "Porsche 356 B Cabriolet 1960. Restauration, carrosserie KAAN (Autriche). Argent, intérieur noir, flat-four 4 cylindres 1.582 cm³, 90 hp. Valentin Motors.",
+    "ogImagen": "https://valentin.up.railway.app/img/356/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 356 B · 1960",
+    "subtitulo": "Porsche 356 B",
+    "titulo": "Cabriolet",
+    "claim": "L'origine d'une légende, entièrement restaurée.",
+    "imagen": "/img/356/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Faire défiler"
+  },
+  "intro": {
+    "etiqueta": "Historique du véhicule",
+    "titulo": "Une <br/><strong>une Porsche,<br/>entièrement restaurée.</strong>",
+    "parrafos": [
+      "La <strong>Porsche 356 B</strong> était l'évolution de la série A avec plusieurs changements que le marché a accueillis avec beaucoup de succès. Cet ensemble correspond au <strong>châssis 153.320</strong>, fabriqué en <strong>1960</strong> et destiné au marché allemand. Il est équipé d'un moteur <strong>flat-six de 4 cylindres et 1.582 cm³</strong> qui développe <strong>90 hp</strong>.",
+      "La carrosserie a été réalisée par les Autrichiens de <strong>KAAN</strong>, une référence en restauration des Porsche classiques, en toute fidélité au caractère original du modèle. L'intérieur, en <strong>noir</strong>, a été entièrement restauré."
+    ],
+    "cita": "Ce n'est pas seulement un classique restauré. Il s'agit d'une interprétation fidèle de la 356 B Cabriolet, avec la carrosserie fabriquée à la main par KAAN et l'esprit technique de l'étape fondatrice de Porsche.",
+    "datos": [
+      {
+        "clave": "Modèle",
+        "valor": "356 B Cabriolet",
+        "acento": false
+      },
+      {
+        "clave": "Année",
+        "valor": "1960",
+        "acento": false
+      },
+      {
+        "clave": "Châssis",
+        "valor": "153.320",
+        "acento": false
+      },
+      {
+        "clave": "Moteur",
+        "valor": "Bóxer 4 cil. · 1.582 cm³",
+        "acento": false
+      },
+      {
+        "clave": "Puissance",
+        "valor": "90 hp · 5.200 rpm",
+        "acento": false
+      },
+      {
+        "clave": "Transmission",
+        "valor": "Manual 4 velocidades",
+        "acento": false
+      },
+      {
+        "clave": "Couleur",
+        "valor": "Plata · Interior negro",
+        "acento": false
+      },
+      {
+        "clave": "Prix",
+        "valor": "190.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galerie",
+    "titulo": "Argent.<br/><strong>Carrosserie KAAN<br/>sur châssis 153.320.</strong>",
+    "fotos": [
+      {
+        "src": "/img/356/exterior1.jpg",
+        "alt": "Extérieur avant",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Vue de face · Argent · Carrosserie KAAN"
+      },
+      {
+        "src": "/img/356/exterior2.jpg",
+        "alt": "Profil cabriolet",
+        "ancho": 1120,
+        "alto": 1400,
+        "caption": "Profil cabriolet · Lignes classiques du 356"
+      },
+      {
+        "src": "/img/356/exterior3.jpg",
+        "alt": "Vue directe de face",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Avant · Chrome restauré"
+      },
+      {
+        "src": "/img/356/interior1.jpg",
+        "alt": "Cabane restaurée",
+        "ancho": 1120,
+        "alto": 1400,
+        "caption": "Cabine noire · Restauration"
+      },
+      {
+        "src": "/img/356/exterior4.jpg",
+        "alt": "vue de côté",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Vue latérale · Proportions originales du cabriolet"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Moteur et mécanique",
+    "titulo": "Mécanique <br/><strong>flat-six d'époque.</strong><br/>L'essence.",
+    "stats": [
+      {
+        "valor": 90,
+        "animado": true,
+        "unidad": "HP",
+        "etiqueta": "Puissance",
+        "destacada": true
+      },
+      {
+        "valor": 123,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Couple",
+        "destacada": false
+      },
+      {
+        "valor": "1.582",
+        "animado": false,
+        "unidad": "cc",
+        "etiqueta": "Cylindrée",
+        "destacada": false
+      },
+      {
+        "valor": "4",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "Manuelle",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Le <strong>flat-six à 4 cylindres</strong> avec 1.582 cm³ et carburation représente la mécanique originale de Porsche : efficace, directe et sans filtres. À 5.200 rpm, elle délivre ses <strong>90 hp</strong> avec une réponse naturelle qui définit le caractère des premières voitures de sport de la marque.",
+      "Le moteur identifié avec le numéro <strong>800.350</strong> Il correspond à l'époque du véhicule, bien qu'il ne s'agisse pas de l'original d'usine. Le <strong>Transmission manuelle 4</strong> Il met en relation immédiatement le conducteur et les mécaniciens, sans intermédiaires.",
+      "Alimentation : <strong>carburation</strong>. Marché d'origine : <strong>Allemagne</strong>."
+    ],
+    "tags": [
+      "Flat-six 4 cyl.",
+      "Carburation",
+      "Manuelle",
+      "moteur d'époque",
+      "Classique"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Restauration terminée · Carrosserie KAAN",
+    "titulo": "Restauration<br/><strong>réalisée en Autriche.</strong>",
+    "ancla": "restauracion",
+    "precio": "190.000 € · Garantía 12 meses",
+    "categorias": [
+      {
+        "titulo": "Carrosserie",
+        "items": [
+          "Fabriqué par KAAN (Autriche)",
+          "Carrosserie cabriolet",
+          "Fidélité à l'original 356 B"
+        ]
+      },
+      {
+        "titulo": "Extérieur",
+        "items": [
+          "Couleur argent",
+          "Chrome classique restauré",
+          "Proportions originales préservées"
+        ]
+      },
+      {
+        "titulo": "Intérieur",
+        "items": [
+          "Intérieur noir entièrement restauré",
+          "Couverture de capot",
+          "Couvre-caisse"
+        ]
+      },
+      {
+        "titulo": "Mécanique",
+        "items": [
+          "Moteur flat-six 1.582 cm³ · numéro 800.350",
+          "Moteur vintage documenté",
+          "Boîte de vitesses manuelle 4 rapports"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Extérieur",
+    "titulo": "Argent.<br/><strong>Cabriolet classique <br/>entièrement restauré.</strong>",
+    "texto": "La carrosserie en <strong>argent</strong> inscrit cet appareil dans une lecture sobre et intemporelle du 356. Les formes épurées, le <strong>chrome classique</strong> et les proportions légères du cabriolet permettent de comprendre facilement pourquoi le modèle est rapidement devenu l'une des silhouettes les plus reconnaissables de l'histoire de Porsche. La carrosserie, réalisée par <strong>KAAN</strong>, renforce la valeur artisanale de l'ensemble.",
+    "fotos": [
+      {
+        "src": "/img/356/close-up1.jpg",
+        "alt": "Détail du devant",
+        "ancho": 1120,
+        "alto": 1400,
+        "caption": "Détail avant · Chrome et ligne de capot"
+      },
+      {
+        "src": "/img/356/close-up2.jpg",
+        "alt": "Détail latéral",
+        "ancho": 1120,
+        "alto": 1400,
+        "caption": "Détail latéral · Carrosserie en argent"
+      },
+      {
+        "src": "/img/356/close-up3.jpg",
+        "alt": "Voir le cabriolet",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vue cabriolet · Proportions originales"
+      },
+      {
+        "src": "/img/356/close-up4.jpg",
+        "alt": "Profil arrière",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profil arrière · Silhouette incomparable"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Intérieur",
+    "titulo": "Intérieur noir.<br/><strong>Entièrement restauré<br/>.</strong>",
+    "fotos": [
+      {
+        "src": "/img/356/interior1.jpg",
+        "alt": "Cabine complète",
+        "ancho": 1120,
+        "alto": 1400,
+        "caption": "Cabine · Intérieur noir restauré"
+      },
+      {
+        "src": "/img/356/interior2.jpg",
+        "alt": "Sièges et sellerie",
+        "ancho": 1120,
+        "alto": 1400,
+        "caption": "Sièges · Sellerie noir classique"
+      },
+      {
+        "src": "/img/356/interior3.jpg",
+        "alt": "Tableau de bord et instrumentation",
+        "ancho": 1120,
+        "alto": 1400,
+        "caption": "Tableau de bord · Instrumentation d'époque"
+      }
+    ],
+    "editorial": "L'intérieur noir conserve la lecture classique et fonctionnelle du 356. La restauration complète redonne à l'habitacle son caractère d'origine : simple, direct et profondément mécanique. Avec capot et couvre-tonneau inclus, l'unité est prête à être utilisée dans toutes les conditions."
+  },
+  "procedencia": {
+    "etiqueta": "Documentation et origine",
+    "titulo": "Origine<br/><strong>documentée.<br/>Allemagne, 1960.</strong>",
+    "hitos": [
+      {
+        "anio": "1960 · Alemania",
+        "titulo": "Fabrication et premier immatriculation",
+        "cuerpo": "Unité fabriquée en <strong>1960</strong> correspondant au châssis <strong>153.320</strong>. Destinée au marché allemand et immatriculée pour la première fois en Allemagne la même année.",
+        "badge": "Châssis 153.320 · Marché allemand"
+      },
+      {
+        "anio": "Restauración · Austria",
+        "titulo": "Restauration complète avec carrosserie KAAN",
+        "cuerpo": "Restauration du véhicule. La carrosserie a été réalisée par les Autrichiens de <strong>KAAN</strong>, une référence dans la restauration des Porsche classiques. L'intérieur noir a été entièrement restauré. Numéro de moteur <strong>800.350</strong>, correspondant à l'époque bien qu'il ne s'agisse pas de l'original d'usine.",
+        "badge": "Carrosserie KAAN · Restauration terminée"
+      },
+      {
+        "anio": "Hoy · Madrid",
+        "titulo": "Disponible chez Valentin Motors",
+        "cuerpo": "<strong>100 km</strong> depuis la restauration. Localisation : Madrid. Garantie mécanique du <strong>moteur et boîte de vitesses, 12 mois</strong>. Révisé et présenté par Valentin Motors.",
+        "badge": "190.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fiche technique",
+    "titulo": "Spécifications<br/><strong>complètes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Moteur",
+        "filas": [
+          {
+            "clave": "Tapez",
+            "valor": "Bóxer 4 cilindros"
+          },
+          {
+            "clave": "Cylindrée",
+            "valor": "1.582 cm³"
+          },
+          {
+            "clave": "Nourriture",
+            "valor": "Carburación"
+          },
+          {
+            "clave": "Puissance",
+            "valor": "90 hp · 5.200 rpm"
+          },
+          {
+            "clave": "Couple",
+            "valor": "123 Nm · 3.500–3.800 rpm"
+          },
+          {
+            "clave": "Moteur n°",
+            "valor": "800.350"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmission et châssis",
+        "filas": [
+          {
+            "clave": "Boîte de vitesses",
+            "valor": "Manual 4 velocidades"
+          },
+          {
+            "clave": "Traction",
+            "valor": "Trasera"
+          },
+          {
+            "clave": "Châssis",
+            "valor": "153.320"
+          },
+          {
+            "clave": "Tapez carrosserie",
+            "valor": "Cabriolet"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosserie et Général",
+        "filas": [
+          {
+            "clave": "Année",
+            "valor": "1960"
+          },
+          {
+            "clave": "Kilomètres",
+            "valor": "100 km desde restauración"
+          },
+          {
+            "clave": "Couleur extérieure",
+            "valor": "Plata"
+          },
+          {
+            "clave": "Intérieur",
+            "valor": "Negro restaurado"
+          },
+          {
+            "clave": "Carrosserie par",
+            "valor": "KAAN (Austria)"
+          }
+        ]
+      },
+      {
+        "titulo": "Restauration",
+        "filas": [
+          {
+            "clave": "Restauration",
+            "valor": "Completa"
+          },
+          {
+            "clave": "Carrosserie KAAN",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Couverture de capot",
+            "valor": "Incluido"
+          },
+          {
+            "clave": "Couvre-caisse",
+            "valor": "Incluido"
+          },
+          {
+            "clave": "Intérieur",
+            "valor": "Restaurado completamente"
+          }
+        ]
+      },
+      {
+        "titulo": "Origine",
+        "filas": [
+          {
+            "clave": "Première matrice",
+            "valor": "Alemania, 1960"
+          },
+          {
+            "clave": "Marché",
+            "valor": "Alemán"
+          },
+          {
+            "clave": "Carnet d'entretien",
+            "valor": "No dispone"
+          },
+          {
+            "clave": "Emplacement",
+            "valor": "Madrid"
+          }
+        ]
+      },
+      {
+        "titulo": "Conditions de vente",
+        "filas": [
+          {
+            "clave": "Prix",
+            "valor": "190.000 €"
+          },
+          {
+            "clave": "Garantie",
+            "valor": "12 meses"
+          },
+          {
+            "clave": "La Garantie couvre",
+            "valor": "Motor y caja de cambios"
+          },
+          {
+            "clave": "Prêt à conduire",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "L'avis de Jordi",
+    "titulo": "La vision<br/><strong>de l'expert.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Spécialiste Porsche · Valentin Motors",
+    "bio": "Plus de 25 ans d'expérience avec des Porsche de collection. Il a supervisé des centaines d'opérations d'achat et de vente de véhicules spéciaux, avec un focus particulier sur les classiques fondateurs de la marque.",
+    "intro": "\"La Porsche 356 devrait figurer dans n'importe quelle collection d'un fan de la marque. Point final.\"",
+    "parrafos": [
+      "Le <strong>356</strong> représente l'origine de tout. C'est la première fois que Porsche fabriquait sa propre voiture de série, avec sa propre identité, et la plaçait dans un segment de prix élevé pour des raisons strictement liées à l'ingénierie de son époque. Son succès fut immédiat et mondial, et son impact sur la culture des voitures de sport se fait encore sentir.",
+      "Le grand succès commercial du modèle, notamment aux États-Unis via son importateur <strong>Max Hoffmann</strong>, a poussé Porsche à développer une version plus accessible pour le marché américain. C'est ainsi qu'est née la <strong>356 Speedster</strong>, qui deviendra plus tard également une icône de la marque grâce à l'histoire de l'acteur légendaire <strong>James Dean</strong>.",
+      "En Europe, le service commercial de la marque a constaté que les versions cabriolet circulaient généralement avec la version supérieure. Ces informations les ont amenés à fabriquer la version <strong>hardtop</strong>, conçue par le célèbre carrossier <strong>Karmann</strong>. Un cabriolet à l'esthétique d'un toit rigide : pure logique Porsche.",
+      "Cette unité, avec carrosserie <strong>KAAN</strong> et restauration complète, offre le 356 dans sa forme la plus honnête : prête à être appréciée, avec la garantie que chaque élément a été judicieusement revu et restauré."
+    ],
+    "prosTitulo": "Le meilleur",
+    "pros": [
+      "Restauration complète avec carrosserie KAAN d'Autriche",
+      "Le pur Cabriolet : la variante la plus recherchée du 356",
+      "Configuration européenne, marché allemand d'origine",
+      "Mécanique flat-six d'époque, carburation et transmission manuelle",
+      "Garantie de 12 mois incluse"
+    ],
+    "contrasTitulo": "A considérer",
+    "contras": [
+      "Numéro de moteur 800.350 : vintage mais pas l'original d'usine, documenté avec précision"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/356/exterior5.jpg",
+    "cita": "Une Porsche 356 B Cabriolet entièrement restaurée, avec <em>carrosserie KAAN</em>, une configuration européenne et une présence classique qui la place comme une pièce essentielle de toute collection Porsche.",
+    "precio": "190.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 356 B Cabriolet · Argent · 1960",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Plus d'informations",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · KAAN",
+    "nombre": "356 B Cabriolet",
+    "detalle": "1960 · 100 km · Argent",
+    "descripcion": "Restauration par KAAN (Autriche). Flat-six 4 cyl. 1.582 cm³, 90 hp. Châssis 153.320. Intérieur noir restauré. Garantie 12 mois.",
+    "precio": "190.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/356/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 1050
+  },
+  "traduccion": {
+    "hechas": 152,
+    "total": 152,
+    "completa": true
+  }
+}

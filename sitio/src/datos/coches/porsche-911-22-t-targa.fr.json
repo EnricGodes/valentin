@@ -1,0 +1,485 @@
+{
+  "slug": "porsche-911-22-t-targa",
+  "archivoOriginal": "911targa.html",
+  "realce": "realce--911targa",
+  "meta": {
+    "titulo": "Porsche 911 2.2 T Targa Tangerine · Valentin Motors",
+    "descripcion": "Porsche 911 2.2 T Targa Tangerine, boîte manuelle 5 rapports. Restauration: carrosserie, moteur, boîte de vitesses, freins et intérieur. Prix: 94.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/911targa/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 911 2.2 T · Targa",
+    "subtitulo": "Porsche 911 2.2 T",
+    "titulo": "Targa",
+    "claim": "Tangerine. 5 vitesse manuelle. Restauration.",
+    "imagen": "/img/911targa/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Faire défiler"
+  },
+  "intro": {
+    "etiqueta": "Historique du véhicule",
+    "titulo": "Un<br/><strong>classique incontournable de la première 911,<br/>entièrement restauré.</strong>",
+    "parrafos": [
+      "Cette <strong>Porsche 911 2.2 T Targa</strong> réunit une architecture de moteur arrière, une transmission manuelle et une carrosserie Targa qui vous permet de profiter d'une conduite ouverte sans céder. rehausse la silhouette caractéristique du modèle. Produit en <strong>janvier 1971</strong>, il est équipé d'un moteur <strong>flat-six de 2,2 litres</strong> et d'une <strong>boîte de vitesses manuelle de 5 vitesses</strong>.",
+      "La carrosserie et la peinture ont été entièrement restaurées en <strong>2014</strong>, le moteur et la boîte de vitesses en <strong>2015</strong>, et le système de freinage en <strong>2021</strong>. L'intérieur, en <strong>noir</strong>, est en très bon état."
+    ],
+    "cita": "Une configuration classique de la première 911 : carrosserie Tangerine, toit Targa, cinq vitesses et une mécanique qui demande de la participation. Restauré dans ses sections principales et entièrement fonctionnel.",
+    "datos": [
+      {
+        "clave": "Modèle",
+        "valor": "911 2.2 T Targa",
+        "acento": false
+      },
+      {
+        "clave": "Fabrication",
+        "valor": "01/1971",
+        "acento": false
+      },
+      {
+        "clave": "NIV",
+        "valor": "9111111582",
+        "acento": false
+      },
+      {
+        "clave": "Moteur",
+        "valor": "Bóxer trasero · 2,2 litros",
+        "acento": false
+      },
+      {
+        "clave": "Transmission",
+        "valor": "Manual de 5 velocidades",
+        "acento": false
+      },
+      {
+        "clave": "Type de boîte",
+        "valor": "911/01 · 7115778 / 901",
+        "acento": false
+      },
+      {
+        "clave": "Couleur",
+        "valor": "Tangerine 2310 · Interior negro",
+        "acento": false
+      },
+      {
+        "clave": "Statut",
+        "valor": "Estadio 2",
+        "acento": false
+      },
+      {
+        "clave": "Prix",
+        "valor": "94.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galerie",
+    "titulo": "Tangerine.<br/><strong>Targa et cinq<br/>vitesses manuelles.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911targa/exterior1.jpg",
+        "alt": "Extérieur avant 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Avant 3/4 · Tangerine · Toit Targa noir"
+      },
+      {
+        "src": "/img/911targa/exterior2.jpg",
+        "alt": "Profil Targa",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profil complet · Noeud Targa et bande PORSCHE"
+      },
+      {
+        "src": "/img/911targa/exterior3.jpg",
+        "alt": "Vue arrière 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Arrière 3/4 · Calandre et inscriptions 911T"
+      },
+      {
+        "src": "/img/911targa/interior1.jpg",
+        "alt": "Cabane restaurée",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabine noire · Restauration"
+      },
+      {
+        "src": "/img/911targa/exterior4.jpg",
+        "alt": "Vue directe de face",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Avant direct · Phare chromé et rond"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Moteur et mécanique",
+    "titulo": "Mécanique<br/><strong>flat-six arrière.</strong><br/>Pas de filtres.",
+    "stats": [
+      {
+        "valor": "2.2",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cylindrée",
+        "destacada": true
+      },
+      {
+        "valor": "5",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "Manuelle",
+        "destacada": false
+      },
+      {
+        "valor": "911/01",
+        "animado": false,
+        "unidad": "",
+        "etiqueta": "Type de boîte",
+        "destacada": false
+      },
+      {
+        "valor": "2021",
+        "animado": false,
+        "unidad": "",
+        "etiqueta": "Freins restaurés",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Le moteur <strong>flat-six fesses 2,2 litres</strong> Il conserve l'architecture refroidie par air qui définit l'identité technique du 911. La boîte <strong>manuelle à cinq vitesses</strong>, identifié comme <strong>tapez 911/01 / 7115778 / 901</strong>, renforce le caractère analogique de l'appareil.",
+      "Le moteur et la boîte de vitesses ont été <strong>restaurés en 2015</strong> et, selon les informations disponibles, sont en bon état de fonctionnement. Le système de freinage a été restauré récemment, en <strong>2021</strong>.",
+      "L'unité intègre d'usine des <strong>stabilisateurs avant et arrière</strong> (code 405), qui renforcent le contrôle de la carrosserie dans une voiture légère et compacte."
+    ],
+    "tags": [
+      "Flat-six arrière",
+      "Vitesse manuelle 5.",
+      "refroidissement par air",
+      "Stabilisateurs 405",
+      "Classique"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Restauration par tranches · 2014, 2015 et 2021",
+    "titulo": "Chronologie<br/><strong>de la restauration documentée.</strong>",
+    "ancla": "restauracion",
+    "precio": "94.000 € · Estadio 2",
+    "categorias": [
+      {
+        "titulo": "Carrosserie · 2014",
+        "items": [
+          "Restauration de la carrosserie et peinture",
+          "Couleur Tangerine, code 2310",
+          "Fidélité à l'original du premier 911"
+        ]
+      },
+      {
+        "titulo": "Moteur & boîte · 2015",
+        "items": [
+          "Moteur flat-six 2,2 litres restauré",
+          "Boîte de vitesses manuelle 5, type 911/01",
+          "Fonctionnement correct documenté"
+        ]
+      },
+      {
+        "titulo": "Freins · 2021",
+        "items": [
+          "Système de freinage restauré",
+          "Intervention mécanique la plus récente",
+          "Stabilisateurs avant et arrière"
+        ]
+      },
+      {
+        "titulo": "Intérieur",
+        "items": [
+          "Intérieur noir restauré",
+          "Sellerie perforé et nervuré",
+          "Radio Blaupunkt Vintage"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Extérieur",
+    "titulo": "Tangerine.<br/><strong>Une présence<br/>typique des années soixante-dix.</strong>",
+    "texto": "La couleur <strong>Tangerine 2310</strong> définit visuellement cette unité et renforce son caractère d'époque. La teinte rouge orangé crée un fort contraste avec le panneau de toit noir, le <strong>arc Targa</strong> métal, moulures chromées et bande latérale noire avec inscription <strong>PORSCHE</strong>. La restauration de la carrosserie et la peinture de 2014 vous permettent d'apprécier clairement les surfaces compactes et la légèreté visuelle des premiers 911.",
+    "fotos": [
+      {
+        "src": "/img/911targa/close-up1.jpg",
+        "alt": "Détail du devant",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Détail avant · Phare rond et chrome"
+      },
+      {
+        "src": "/img/911targa/close-up2.jpg",
+        "alt": "Détail du dos",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Calandre arrière · Inscriptions PORSCHE et 911T"
+      },
+      {
+        "src": "/img/911targa/close-up3.jpg",
+        "alt": "Compartiment moteur",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Compartiment moteur · Flat-six 2,2 litres"
+      },
+      {
+        "src": "/img/911targa/close-up4.jpg",
+        "alt": "Avant 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Avant 3/4 · Roues Fuchs de 14 pouces"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Intérieur",
+    "titulo": "Intérieur noir.<br/><strong>Simple<br/>et mécanique.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911targa/interior1.jpg",
+        "alt": "Cabine complète",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabine · Sellerie"
+      },
+      {
+        "src": "/img/911targa/interior2.jpg",
+        "alt": "Poste de conduite",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Poste de conduite · Tableau de cinq horloges"
+      },
+      {
+        "src": "/img/911targa/interior3.jpg",
+        "alt": "Tableau de bord et instrumentation",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Tableau de bord · Volant classique et levier long"
+      }
+    ],
+    "editorial": "L'intérieur noir conserve l'approche fonctionnelle de la première 911. Le tableau de bord horizontal, le cadran à cinq cadrans, le volant à jante fine et le long levier manuel placent toutes les commandes essentielles autour du conducteur. D'après les informations fournies, l'intérieur a été restauré et est en parfait état."
+  },
+  "procedencia": {
+    "etiqueta": "Documentation et origine",
+    "titulo": "Restauration<br/><strong>documentée.<br/>2014, 2015 et 2021.</strong>",
+    "hitos": [
+      {
+        "anio": "2014 · Carrocería y pintura",
+        "titulo": "Restauration de la carrosserie",
+        "cuerpo": "L'unité a reçu une intervention complète dans la section extérieure, comprenant carrosserie et peinture en couleur <strong>Tangerine, code 2310</strong>.",
+        "badge": "Carrosserie et peinture"
+      },
+      {
+        "anio": "2015 · Motor y caja de cambios",
+        "titulo": "Restauration du moteur et de la boîte de vitesses",
+        "cuerpo": "La mécanique principale a été restaurée l'année qui a suivi la carrosserie. D'après les informations fournies, son fonctionnement actuel est correct. Boîte de vitesses manuelle <strong>5 vitesses, type 911/01</strong>.",
+        "badge": "Moteur et boîte restaurés"
+      },
+      {
+        "anio": "2021 · Sistema de frenos",
+        "titulo": "Restauration du système de freinage",
+        "cuerpo": "L'intervention la plus récente documentée correspond à l'ensemble de freinage. L'unité se situe actuellement dans un <strong>stade 2</strong> de conservation, avec quelques points précis qui pourraient être améliorés.",
+        "badge": "94.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fiche technique",
+    "titulo": "Spécifications<br/><strong>complètes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Moteur",
+        "filas": [
+          {
+            "clave": "Tapez",
+            "valor": "Bóxer trasero"
+          },
+          {
+            "clave": "Cylindrée",
+            "valor": "2,2 litros"
+          },
+          {
+            "clave": "Réfrigération",
+            "valor": "Por aire"
+          },
+          {
+            "clave": "Restauration",
+            "valor": "2015"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmission et châssis",
+        "filas": [
+          {
+            "clave": "Boîte de vitesses",
+            "valor": "Manual 5 velocidades"
+          },
+          {
+            "clave": "Type de boîte",
+            "valor": "911/01"
+          },
+          {
+            "clave": "Référence de la boîte",
+            "valor": "7115778 / 901"
+          },
+          {
+            "clave": "Tapez carrosserie",
+            "valor": "Targa"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosserie et Général",
+        "filas": [
+          {
+            "clave": "Fabrication",
+            "valor": "01/1971"
+          },
+          {
+            "clave": "NIV",
+            "valor": "9111111582"
+          },
+          {
+            "clave": "Couleur extérieure",
+            "valor": "Tangerine · 2310"
+          },
+          {
+            "clave": "Intérieur",
+            "valor": "Negro restaurado"
+          },
+          {
+            "clave": "Pneus",
+            "valor": "Aluminio 5½ × 14\""
+          }
+        ]
+      },
+      {
+        "titulo": "Restauration",
+        "filas": [
+          {
+            "clave": "Carrosserie et peinture",
+            "valor": "2014"
+          },
+          {
+            "clave": "Moteur et boite",
+            "valor": "2015"
+          },
+          {
+            "clave": "Freins",
+            "valor": "2021"
+          },
+          {
+            "clave": "Etat indiqué",
+            "valor": "Estadio 2"
+          },
+          {
+            "clave": "Intérieur",
+            "valor": "Restaurado"
+          }
+        ]
+      },
+      {
+        "titulo": "Options d'usine",
+        "filas": [
+          {
+            "clave": "405",
+            "valor": "Estabilizadora del. y tras."
+          },
+          {
+            "clave": "452 / 470",
+            "valor": "Radio Blaupunkt / Comfort"
+          },
+          {
+            "clave": "568 / 571",
+            "valor": "Cristales tintados / antiniebla"
+          },
+          {
+            "clave": "975",
+            "valor": "Llantas aluminio 14\""
+          }
+        ]
+      },
+      {
+        "titulo": "Conditions de vente",
+        "filas": [
+          {
+            "clave": "Prix",
+            "valor": "94.000 €"
+          },
+          {
+            "clave": "État mécanique",
+            "valor": "Funcionamiento correcto"
+          },
+          {
+            "clave": "Prêt à conduire",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "L'avis de Jordi",
+    "titulo": "La vision<br/><strong>de l'expert.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Spécialiste Porsche · Valentin Motors",
+    "bio": "Plus de 25 ans d'expérience avec des Porsche de collection. Il a supervisé des centaines d'opérations d'achat et de vente de véhicules spéciaux, avec un focus particulier sur les classiques fondateurs de la marque.",
+    "intro": "\"La 2.2 T Targa est la 911 dans sa forme la plus directe : sans filtres, sans concessions, avec le toit ouvert.\"",
+    "parrafos": [
+      "Le <strong>911 2.2 T</strong> représente l'une des interprétations les plus essentielles du classique 911. Sans la sophistication des versions S, elle propose une mécanique qui demande de la participation et un habitacle construit autour des commandes fondamentales : volant, levier et cinq horloges. Rien d'autre.",
+      "La carrosserie <strong>Targa</strong> ajoute une dimension particulière à l'expérience. Le panneau de toit amovible permet d'ouvrir l'habitacle, tandis que l'arche arrière conserve une image immédiatement reconnaissable et sa propre structure visuelle au sein de la gamme 911.",
+      "La couleur <strong>Tangerine</strong> renforce le caractère d'époque de l'unité et rend particulièrement visibles les formes originales de la carrosserie, le chrome et le contraste avec le toit noir, l'arceau Targa et la bande latérale.",
+      "Cette unité arrive avec une chronologie de restauration claire et documentée : carrosserie en 2014, moteur et boîte de vitesses en 2015 et freins en 2021. Une étape honnête 2, avec des marges d'amélioration, pas un exercice de compétition."
+    ],
+    "prosTitulo": "Le meilleur",
+    "pros": [
+      "Configuration Targa couleur Tangerine, très photogénique",
+      "Transmission manuelle à cinq vitesses, type 911/01",
+      "Restauration documentée dans la carrosserie, moteur, transmission et freins",
+      "Stabilisateurs avant et arrière d'usine",
+      "Mécanique flat-six arrière d'époque, sans filtres"
+    ],
+    "contrasTitulo": "A considérer",
+    "contras": [
+      "Unité en étape 2, avec quelques points précis d'amélioration",
+      "Désignation de l'année (1970/1971) et kilométrage à vérifier avant la visite"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/911targa/exterior5.jpg",
+    "cita": "Une Porsche 911 2.2 T Targa de couleur <em>Tangerine</em>, avec transmission manuelle à cinq vitesses et restaurations documentées dans la carrosserie, mécanique, boîte de vitesses, freins et intérieur.",
+    "precio": "94.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 911 2.2 T Targa · Tangerine · 1971",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Plus d'informations",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · 911T",
+    "nombre": "911 2.2 T Targa",
+    "detalle": "1971 · Tangerine",
+    "descripcion": "Flat-six 2,2 L · 5 Toit Targa. Restauration de la carrosserie (2014), du moteur et de la boîte de vitesses (2015) et des freins (2021). Stade 2.",
+    "precio": "94.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/911targa/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 151,
+    "total": 151,
+    "completa": true
+  }
+}

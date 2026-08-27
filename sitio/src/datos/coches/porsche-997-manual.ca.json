@@ -1,0 +1,480 @@
+{
+  "slug": "porsche-997-manual",
+  "archivoOriginal": "997.html",
+  "realce": "realce--997",
+  "meta": {
+    "titulo": "Porsche 997.1 Carrera 4S Manual en venda | Valentin Motors",
+    "descripcion": "Porsche 911 Carrera 4S 997.1, 2008, 3.8/355 hp, manual de sis marxes, 93.000 km. Historial Valentin Motors des de 2022, Bore Scoring negatiu. 64.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2008",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera 4S",
+    "claim": "3,8 litres, canvi manual i tracció total.",
+    "imagen": "/img/997/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Història del vehicle",
+    "titulo": "L'equilibri<br/><strong>entre el 911 clàssic<br/>i el Porsche modern.</strong>",
+    "parrafos": [
+      "El <strong>Porsche 911 Carrera 4S</strong> de la generació 997.1 representa un dels punts més atractius de la història recent del 911. Conserva una experiència de conducció directa i mecànica, però incorpora el nivell de prestacions, estabilitat i ús quotidià que s'espera d'un Porsche modern.",
+      "El vostre motor bòxer atmosfèric de <strong>3,8 litres i 355 hp</strong> està associat a una caixa <strong>manual de sis velocitats</strong>, una combinació especialment valorada pels entusiastes en un mercat cada cop més dominat per transmissions automàtiques i motors sobrealimentats."
+    ],
+    "cita": "Aquesta unitat afegeix la presència del Carrera 4S, amb carrosseria ampla i tracció integral, a un historial prolongat a Valentin Motors des de 2022, molt ben mantinguda i amb una revisió de Bore Scoring negatiu.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera 4S Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generació",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Data de producció",
+        "valor": "06/03/2008",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bóxer 6 cil. · 3,8 L",
+        "acento": false
+      },
+      {
+        "clave": "Potència",
+        "valor": "355 hp",
+        "acento": false
+      },
+      {
+        "clave": "Transmissió",
+        "valor": "Manual 6 velocidades",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Negro · Interior piel negra",
+        "acento": false
+      },
+      {
+        "clave": "Quilometratge",
+        "valor": "93.000 km",
+        "acento": false
+      },
+      {
+        "clave": "Preu",
+        "valor": "64.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galeria",
+    "titulo": "Negre.<br/><strong>Carrosseria ampla<br/>Carrera 4S.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997/exterior1.jpg",
+        "alt": "Exterior frontal",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vista frontal · Negre · Carrera 4S"
+      },
+      {
+        "src": "/img/997/exterior2.jpg",
+        "alt": "Perfil lateral",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil lateral · Aletes amples del 4S"
+      },
+      {
+        "src": "/img/997/exterior3.jpg",
+        "alt": "Vista posterior",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Del darrere · Quatre sortides d'escapament"
+      },
+      {
+        "src": "/img/997/interior1.jpg",
+        "alt": "Habitatge",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitatge · Pell negra i canvi manual"
+      },
+      {
+        "src": "/img/997/close-up1.jpg",
+        "alt": "Detall llanta i pinça de fre",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detall · Llanta negra i pinça vermella"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor i Mecànica",
+    "titulo": "Bòxer atmosfèric.<br/><strong>Canvi manual.</strong><br/>Tracció total.",
+    "stats": [
+      {
+        "valor": 355,
+        "animado": true,
+        "unidad": "HP",
+        "etiqueta": "Potència",
+        "destacada": true
+      },
+      {
+        "valor": "3,8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrada",
+        "destacada": false
+      },
+      {
+        "valor": "6",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "Manual",
+        "destacada": false
+      },
+      {
+        "valor": "4",
+        "animado": false,
+        "unidad": "x4",
+        "etiqueta": "Tracció integral",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El bòxer atmosfèric de <strong>3,8 litres</strong> respon de forma lineal, guanya intensitat a mesura que puja de revolucions i manté una relació directa entre accelerador, so i empenta. Lliurament <strong>355 hp</strong> sense turbo ni compressor pel mig.",
+      "La <strong>caixa manual de sis velocitats</strong> permet explotar el motor amb precisió i converteix cada canvi de marxa en part de lexperiència. La <strong>tracció integral</strong> afegeix motricitat i aplom, especialment a la sortida de les corbes, sense eliminar el caràcter posterior del 911. El <strong>PASM</strong> combina resposta esportiva amb un ús raonable a la carretera."
+    ],
+    "tags": [
+      "Bòxer 3.8 atmosfèric",
+      "Manual 6 vel.",
+      "Tracció integral",
+      "PASM",
+      "Escape esportiu XLF"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Bloc de confiança",
+    "titulo": "Bore Scoring.<br/><strong>Xequeig negatiu.</strong>",
+    "ancla": "restauracion",
+    "precio": "Seguimiento en Valentin Motors desde 2022",
+    "categorias": [
+      {
+        "titulo": "Bore Scoring",
+        "items": [
+          "Revisió específica realitzada",
+          "Resultat negatiu",
+          "Sense signes del problema detectats"
+        ]
+      },
+      {
+        "titulo": "Estat mecànic",
+        "items": [
+          "Molt bé mantingut",
+          "Sense feines pendents",
+          "93.000 km"
+        ]
+      },
+      {
+        "titulo": "Historial",
+        "items": [
+          "Seguiment a Valentin Motors des de 2022",
+          "Unitat coneguda i documentada",
+          "Continuïtat més enllà d´una inspecció puntual"
+        ]
+      },
+      {
+        "titulo": "Llandes",
+        "items": [
+          "Configuració actual: negres multiradi",
+          "Cèrcol exterior polit",
+          "Disponible amb opció en acabat silver"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Negre.<br/><strong>Carrera 4S amb<br/>pinces de fre vermelles.</strong>",
+    "texto": "La carrosseria a <strong>negre</strong> amb les aletes eixamplades del <strong>Carrera 4S</strong> dóna a aquesta unitat una presència especial. Fars ovalats propis del 997, llantes negres multiradi amb cèrcol exterior polit, pinces de fre vermelles i quatre sortides d'escapament.",
+    "fotos": [
+      {
+        "src": "/img/997/close-up1.jpg",
+        "alt": "Detall llanta i pinça de fre",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta negra · Pinça de fre vermella"
+      },
+      {
+        "src": "/img/997/close-up2.jpg",
+        "alt": "Detall del darrere",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Del darrere · Carrera 4S i quatre fuites"
+      },
+      {
+        "src": "/img/997/close-up3.jpg",
+        "alt": "Detall far",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detall · Far ovalat 997"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Pell negra.<br/><strong>Canvi manual<br/>i esferes blanques.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997/interior1.jpg",
+        "alt": "Habitatge complet",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitatge · Pell negra i consola central"
+      },
+      {
+        "src": "/img/997/interior2.jpg",
+        "alt": "Seients Sport",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Seients Sport · Pell negra"
+      },
+      {
+        "src": "/img/997/interior3.jpg",
+        "alt": "Canvi manual i instrumentació",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Canvi manual · Esferes blanques · Sport Chrono"
+      }
+    ],
+    "editorial": "Un interior analògic, compacte i centrat al conductor. Seients Sport en pell negra, volant de tres ràdios, esferes blanques, rellotge Sport Chrono sobre el tauler de control i un canvi manual amb pom metàl·lic que resumeix el caràcter d'aquesta unitat."
+  },
+  "procedencia": {
+    "etiqueta": "Documentació i Procedència",
+    "titulo": "Historial<br/><strong>conegut des de<br/>2022.</strong>",
+    "hitos": [
+      {
+        "anio": "06/03/2008",
+        "titulo": "Fabricació",
+        "cuerpo": "Unitat produïda el <strong>6 de març de 2008</strong>, generació <strong>997.1</strong>, en configuració Carrera 4S: carrosseria ampla, tracció integral i canvi manual de sis velocitats.",
+        "badge": "997.1 Carrera 4S"
+      },
+      {
+        "anio": "Desde 2022",
+        "titulo": "Seguiment a Valentin Motors",
+        "cuerpo": "La unitat compta amb un <strong>llarg historial a Valentin Motors des de 2022</strong>, cosa que permet conèixer la seva evolució, manteniment i estat actual més enllà d'una inspecció.",
+        "badge": "Seguiment des de 2022"
+      },
+      {
+        "anio": "Hoy",
+        "titulo": "Disponible a Valentin Motors",
+        "cuerpo": "<strong>93.000 km</strong>, molt ben mantinguda i sense feines pendents. Revisió de <strong>Bore Scoring negatiu</strong>.",
+        "badge": "64.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fitxa tècnica",
+    "titulo": "Especificacions<br/><strong>completes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Tipus",
+            "valor": "Bóxer atmosférico 6 cil."
+          },
+          {
+            "clave": "Cilindrada",
+            "valor": "3,8 litros"
+          },
+          {
+            "clave": "Potència màxima",
+            "valor": "355 hp"
+          },
+          {
+            "clave": "Escape",
+            "valor": "Sistema deportivo XLF"
+          },
+          {
+            "clave": "Bore Scoring",
+            "valor": "Chequeo negativo"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmissió i Xassís",
+        "filas": [
+          {
+            "clave": "Caixa de canvis",
+            "valor": "Manual 6 velocidades"
+          },
+          {
+            "clave": "Tracció",
+            "valor": "Integral"
+          },
+          {
+            "clave": "Suspensió",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Estabilitat",
+            "valor": "PSM"
+          },
+          {
+            "clave": "Llandes",
+            "valor": "19\" Sport"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosseria i General",
+        "filas": [
+          {
+            "clave": "Generació",
+            "valor": "997.1"
+          },
+          {
+            "clave": "Data de producció",
+            "valor": "06/03/2008"
+          },
+          {
+            "clave": "Quilòmetres",
+            "valor": "93.000 km"
+          },
+          {
+            "clave": "Color exterior",
+            "valor": "Negro"
+          },
+          {
+            "clave": "Interior",
+            "valor": "Piel negra"
+          }
+        ]
+      },
+      {
+        "titulo": "Equipament destacat",
+        "filas": [
+          {
+            "clave": "454",
+            "valor": "Tempomat"
+          },
+          {
+            "clave": "601",
+            "valor": "Faros de xenón"
+          },
+          {
+            "clave": "375 / 376",
+            "valor": "Asientos Sport"
+          },
+          {
+            "clave": "475 / 476",
+            "valor": "PASM / PSM"
+          },
+          {
+            "clave": "XRR",
+            "valor": "Llantas Sport 19\""
+          }
+        ]
+      },
+      {
+        "titulo": "Historial",
+        "filas": [
+          {
+            "clave": "Seguiment",
+            "valor": "Valentin Motors desde 2022"
+          },
+          {
+            "clave": "Estat mecànic",
+            "valor": "Muy bien mantenido"
+          },
+          {
+            "clave": "Treballs pendents",
+            "valor": "Ninguno"
+          }
+        ]
+      },
+      {
+        "titulo": "Condicions de venda",
+        "filas": [
+          {
+            "clave": "Preu",
+            "valor": "64.000 €"
+          },
+          {
+            "clave": "Opció llantes",
+            "valor": "Acabado silver disponible"
+          },
+          {
+            "clave": "A punt per conduir",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "L'opinió de Jordi",
+    "titulo": "La visió<br/><strong>de l'expert.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Especialista Porsche · Valentin Motors",
+    "bio": "Més de 25 anys d'experiència amb Porsche de col·lecció. Ha supervisat centenars d'operacions de compravenda de vehicles especials, amb un focus especial en 911 de generacions analògiques.",
+    "intro": "\"És una unitat per a qui busca conduir un 911, no simplement posseir-lo.\"",
+    "parrafos": [
+      "El <strong>997 Carrera 4S manual</strong> és un d'aquells Porsche. Manté la mida, la visibilitat i la sensació mecànica que molts aficionats associen a un 911 autènticament utilitzable, però ofereix prestacions i estabilitat suficients per gaudir-lo a qualsevol tipus de carretera.",
+      "El canvi manual és una part essencial de la vostra personalitat. Obliga a treballar amb el motor, permet escollir el règim exacte i reforça la connexió entre el conductor i el cotxe. És precisament aquesta configuració la que està guanyant més mercat entre els entusiastes, davant d'un mercat cada cop més dominat per transmissions automàtiques i motors sobrealimentats.",
+      "La carrosseria ampla del 4S li dóna una presència especial, mentre que la tracció integral aporta seguretat sense convertir-lo en un cotxe distant. És una unitat per conduir, conservar i gaudir, amb el valor afegit d'un historial conegut a Valentin Motors des de 2022 i una revisió de Bore Scoring negatiu."
+    ],
+    "prosTitulo": "El millor",
+    "pros": [
+      "Canvi manual de sis velocitats: configuració cada cop més buscada",
+      "Motor atmosfèric 3,8 litres, 355 hp, sense turbo ni compressor",
+      "Carrosseria ampla Carrera 4S i tracció integral",
+      "Historial conegut a Valentin Motors des de 2022",
+      "Revisió de Bore Scoring negatiu",
+      "Molt bé mantingut, sense feines pendents"
+    ],
+    "contrasTitulo": "A considerar",
+    "contras": [
+      "Llandes actuals en negre; disponible opció en acabat silver sota demanda"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997/exterior2.jpg",
+    "cita": "Un Porsche 997.1 Carrera 4S amb <em>canvi manual de sis velocitats</em>, motor atmosfèric de 3,8 litres i un historial conegut a Valentin Motors des 2022.",
+    "precio": "64.000 €",
+    "precioTachado": true,
+    "precioLabel": "Porsche 997.1 Carrera 4S · Negre · 2008",
+    "aviso": "Vehicle reservat",
+    "nota": "Aquest vehicle ja no està disponible per a la venda.",
+    "ctaTexto": "",
+    "ctaHref": ""
+  },
+  "catalogo": {
+    "estado": "reservado",
+    "estadoTexto": "Reservat",
+    "marca": "Porsche · 4S",
+    "nombre": "997.1 Carrera 4S",
+    "detalle": "2008 · 93.000 km · Negre",
+    "descripcion": "Bòxer atmosfèric 3,8 L · 355 hp · Manual de 6 velocitats · Tracció integral. Historial a Valentin Motors des de 2022. Revisió Bore Scoring negatiu.",
+    "precio": "64.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 149,
+    "total": 149,
+    "completa": true
+  }
+}
