@@ -51,9 +51,12 @@ def bajar(url):
 def main():
     DEST.mkdir(parents=True, exist_ok=True)
     jsons = sorted(DATOS.glob('*.json'))
+    # Solo lo que aun vive en el CDN. Los ficheros ya traducidos llevan rutas
+    # locales (/img/paginas/...) y no hay nada que descargar en ellos.
     urls = sorted({i['url'] for f in jsons
                    for s in json.loads(f.read_text())['secciones']
-                   for i in s['imagenes']})
+                   for i in s['imagenes']
+                   if i['url'].startswith('http')})
     if not urls:
         print('No hay imagenes que rescatar.')
         return 0

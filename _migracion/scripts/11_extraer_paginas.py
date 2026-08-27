@@ -200,6 +200,43 @@ def extraer(fichero, ruta_id, tipo):
     return d
 
 
+def correcciones():
+    """Correcciones de contenido aprobadas por el cliente.
+
+    Viven en _migracion/correcciones.json y se aplican DESPUES de extraer, de
+    modo que regenerar los datos desde el snapshot de Squarespace no las pierda.
+    Sin esto, cada `python3 11_extraer_paginas.py` reintroduciria las cifras
+    viejas.
+    """
+    ruta = RAIZ / '_migracion' / 'correcciones.json'
+    if not ruta.exists():
+        return []
+    datos = json.loads(ruta.read_text())
+    return [r for bloque in datos.values() if isinstance(bloque, dict)
+            for r in bloque.get('reglas', [])]
+
+
+def aplicar_correcciones(d, reglas):
+    n = 0
+    def corrige(txt):
+        nonlocal n
+        for r in reglas:
+            if r['buscar'] in txt:
+                txt = txt.replace(r['buscar'], r['reemplazar'])
+                n += 1
+        return txt
+    d['h1'] = corrige(d['h1'])
+    d['meta']['descripcion'] = corrige(d['meta']['descripcion'])
+    for s_ in d['secciones']:
+        s_['titulo'] = corrige(s_['titulo'])
+        s_['parrafos'] = [corrige(x) for x in s_['parrafos']]
+        s_['items'] = [corrige(x) for x in s_['items']]
+    for a in d.get('acordeones', []):
+        a['parrafos'] = [corrige(x) for x in a['parrafos']]
+        a['items'] = [corrige(x) for x in a['items']]
+    return n
+
+
 def mapa_redirecciones():
     """Enlaces internos que apuntan a una URL redirigida.
 
@@ -238,7 +275,8 @@ def arreglar_enlaces(d, mapa):
 def main():
     DEST.mkdir(parents=True, exist_ok=True)
     redir = mapa_redirecciones()
-    arreglados = 0
+    reglas = correcciones()
+    arreglados = corregidos = 0
     print(f'{"pagina":42} {"tipo":14} {"secc":>5} {"parr":>5} {"items":>6} {"imgs":>5} {"acord":>6}')
     print('-' * 90)
     faltan = []
@@ -248,6 +286,7 @@ def main():
             continue
         d = extraer(fichero, ruta_id, tipo)
         arreglados += arreglar_enlaces(d, redir)
+        corregidos += aplicar_correcciones(d, reglas)
         (DEST / f'{ruta_id}.json').write_text(json.dumps(d, indent=2, ensure_ascii=False) + '\n')
         p = sum(len(x['parrafos']) for x in d['secciones'])
         i = sum(len(x['items']) for x in d['secciones'])
@@ -258,6 +297,7 @@ def main():
         print(f'\nNo encontradas en el snapshot: {faltan}', file=sys.stderr)
     print(f'\n{len(PAGINAS) - len(faltan)} paginas extraidas en {DEST.relative_to(RAIZ)}')
     print(f'{arreglados} enlaces internos redirigidos a su destino final')
+    print(f'{corregidos} correcciones de contenido aplicadas')
 
 
 if __name__ == '__main__':

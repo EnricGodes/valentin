@@ -32,7 +32,7 @@ Hemos venido a poner nuestro granito de arena en hacer más grande si es posible
 
 **¿Por qué habéis elegido Madrid para expandir una empresa familiar como VALENTIN Motors, que ahora se encuentra en su segunda generación?**
 
-En el proyecto de expansión de VALENTIN tenemos tres objetivos: Marbella, Andorra y Madrid. Al final Madrid se ha adelantado en la carrera porque encontramos en Leganés el local perfecto para nuestro negocio: unas instalaciones de más de 3.000 metros cuadrados donde hay cabida para todas las áreas del taller, para la venta de unidades PORSCHE de ocasión e incluso para un futuro servicio de Storage de vehículos para quien quiera dejar su coche en pupilaje con nosotros.
+En el proyecto de expansión de VALENTIN tenemos tres objetivos: Marbella, Andorra y Madrid. Al final Madrid se ha adelantado en la carrera porque encontramos en Leganés el local perfecto para nuestro negocio: unas instalaciones de más de 2.500 m² donde hay cabida para todas las áreas del taller, para la venta de unidades PORSCHE de ocasión e incluso para un futuro servicio de Storage de vehículos para quien quiera dejar su coche en pupilaje con nosotros.
 
 **¿A qué gama Porsche os orientáis? Sois conocidos por vuestros**[**proyectos de restauración**](https://www.valentinmotors.es/restauraciones)**, pero también dais servicios a los modelos contemporáneos, verdad?**
 

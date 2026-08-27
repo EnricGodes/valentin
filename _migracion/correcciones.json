@@ -1,0 +1,84 @@
+{
+  "_nota": "Correcciones de contenido aprobadas por Valentin Motors. Se aplican despues de extraer, para que sobrevivan a regenerar los datos desde el snapshot de Squarespace. Cada entrada dice por que se corrige.",
+  "superficies": {
+    "motivo": "La superficie de los dos talleres estaba publicada con tres cifras distintas segun la pagina: Barcelona como 1.320, 1.800 y 'mas de 1.300 m2'; Madrid como 2.500 y 3.000. Enric fija las buenas el 2026-08-27: Barcelona mas de 1.300 m2, Madrid mas de 2.500 m2.",
+    "reglas": [
+      {
+        "buscar": "con sus instalaciones de más de 1.800 metros cuadrados",
+        "reemplazar": "con sus instalaciones de más de 1.300 m²"
+      },
+      {
+        "buscar": "3.000 metros cuadrados de servicio integral",
+        "reemplazar": "más de 2.500 m² de servicio integral"
+      },
+      {
+        "buscar": "contamos con 1.320 metros cuadrados",
+        "reemplazar": "contamos con más de 1.300 m²"
+      },
+      {
+        "buscar": "nuestro centro de 1.320 m2",
+        "reemplazar": "nuestro centro de más de 1.300 m²"
+      },
+      {
+        "buscar": "nuestro centro de 2.500 m2",
+        "reemplazar": "nuestro centro de más de 2.500 m²"
+      },
+      {
+        "buscar": "segundo taller en Barcelona de más de 1.300 m2",
+        "reemplazar": "segundo taller en Barcelona de más de 1.300 m²"
+      },
+      {
+        "buscar": "Con **1.320 metros cuadrados distribuidos",
+        "reemplazar": "Con **más de 1.300 m² distribuidos"
+      },
+      {
+        "buscar": "unas instalaciones de más de 3.000 metros cuadrados",
+        "reemplazar": "unas instalaciones de más de 2.500 m²"
+      },
+      {
+        "buscar": "taller en Barcelona de más de 1.300 m2",
+        "reemplazar": "taller en Barcelona de más de 1.300 m²"
+      },
+      {
+        "buscar": "with premises of more than 1,800 square metres",
+        "reemplazar": "with premises of more than 1,300 m²"
+      },
+      {
+        "buscar": "3,000 square metres of full service in",
+        "reemplazar": "more than 2,500 m² of full service in"
+      },
+      {
+        "buscar": "avec des installations de plus de 1 800 mètres carrés",
+        "reemplazar": "avec des installations de plus de 1 300 m²"
+      },
+      {
+        "buscar": "3 000 mètres carrés de service intégral à",
+        "reemplazar": "plus de 2 500 m² de service intégral à"
+      },
+      {
+        "buscar": "mit mehr als 1.800 Quadratmetern",
+        "reemplazar": "mit mehr als 1.300 m²"
+      },
+      {
+        "buscar": "3.000 Quadratmetern Komplettservice in",
+        "reemplazar": "mehr als 2.500 m² Komplettservice in"
+      },
+      {
+        "buscar": "con oltre 1.800 metri quadrati",
+        "reemplazar": "con oltre 1.300 m²"
+      },
+      {
+        "buscar": "3.000 metri quadrati di servizio integrale a",
+        "reemplazar": "oltre 2.500 m² di servizio integrale a"
+      },
+      {
+        "buscar": "amb instal·lacions de més de 1.800 metres quadrats",
+        "reemplazar": "amb instal·lacions de més de 1.300 m²"
+      },
+      {
+        "buscar": "3.000 metres quadrats de servei integral a",
+        "reemplazar": "més de 2.500 m² de servei integral a"
+      }
+    ]
+  }
+}

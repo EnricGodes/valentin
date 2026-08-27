@@ -21,7 +21,7 @@ Este nuevo espacio representa una evolución natural en la trayectoria de Valent
 ## Una nueva etapa con más espacio y más servicios
 
 La apertura del taller en Varsovia 63 no solo responde al deseo de ofrecer unas instalaciones más accesibles y modernas, sino también a la necesidad de ampliar su capacidad operativa.
- Con **1.320 metros cuadrados distribuidos en dos plantas**, el nuevo centro **duplica el espacio** del taller anterior y permite incorporar nuevos servicios clave como:
+ Con **más de 1.300 m² distribuidos en dos plantas**, el nuevo centro **duplica el espacio** del taller anterior y permite incorporar nuevos servicios clave como:
 
 - **Plancha y pintura**
 - **Electromecánica**
