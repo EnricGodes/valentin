@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "check": "astro check",
     "validar": "node scripts/validar-rutas.ts",
-    "assets": "node scripts/sincronizar-imagenes.mjs && node scripts/optimizar-imagenes.mjs",
+    "assets": "node scripts/sincronizar-imagenes.mjs && node scripts/optimizar-imagenes.mjs && node scripts/optimizar-videos.mjs",
     "validar:hreflang": "node scripts/validar-hreflang.mjs"
   },
   "dependencies": {
