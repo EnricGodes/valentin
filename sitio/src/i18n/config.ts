@@ -5,7 +5,7 @@ export type Idioma = (typeof IDIOMAS)[number];
 export const POR_DEFECTO: Idioma = 'es';
 
 export const NOMBRE_IDIOMA: Record<Idioma, string> = {
-  es: 'Espanol', en: 'English', fr: 'Francais', it: 'Italiano', de: 'Deutsch', ca: 'Catala',
+  es: 'Español', en: 'English', fr: 'Français', it: 'Italiano', de: 'Deutsch', ca: 'Català',
 };
 
 /** Etiqueta hreflang de cada idioma. */
