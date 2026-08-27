@@ -35,13 +35,25 @@ SOSPECHOSO = {
 }
 
 
+def desempaqueta(seccion):
+    """Una seccion traducida es [titulo, parrafos] o [titulo, parrafos, items].
+    Las imagenes no se traducen: se heredan del espanol."""
+    titulo = seccion[0]
+    parrafos = seccion[1] if len(seccion) > 1 else []
+    items = seccion[2] if len(seccion) > 2 else []
+    return titulo, parrafos, items
+
+
 def comprueba(idioma, base, trad):
     fallos = []
     if len(trad['secciones']) != len(base['secciones']):
         fallos.append(f"{len(trad['secciones'])} secciones frente a {len(base['secciones'])}")
-    for i, (s, (titulo, parrafos)) in enumerate(zip(base['secciones'], trad['secciones'])):
+    for i, (s, sec) in enumerate(zip(base['secciones'], trad['secciones'])):
+        titulo, parrafos, items = desempaqueta(sec)
         if len(parrafos) != len(s['parrafos']):
             fallos.append(f"seccion {i} ({titulo[:26]}): {len(parrafos)} parrafos frente a {len(s['parrafos'])}")
+        if len(items) != len(s['items']):
+            fallos.append(f"seccion {i} ({titulo[:26]}): {len(items)} items frente a {len(s['items'])}")
 
     texto = json.dumps(trad, ensure_ascii=False)
     base_txt = json.dumps(base, ensure_ascii=False)
@@ -70,9 +82,12 @@ def aplicar(pagina, idioma):
     base['meta']['titulo'] = trad['meta_titulo']
     base['meta']['descripcion'] = trad['meta_desc']
     base['h1'] = trad['h1']
-    for s, (titulo, parrafos) in zip(base['secciones'], trad['secciones']):
+    for s, sec in zip(base['secciones'], trad['secciones']):
+        titulo, parrafos, items = desempaqueta(sec)
         s['titulo'] = titulo
         s['parrafos'] = parrafos
+        if items:
+            s['items'] = items
     destino = DATOS / f'{pagina}.{idioma}.json'
     destino.write_text(json.dumps(base, indent=2, ensure_ascii=False) + '\n')
     return destino, []

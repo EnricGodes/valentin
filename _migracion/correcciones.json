@@ -78,6 +78,10 @@
       {
         "buscar": "3.000 metres quadrats de servei integral a",
         "reemplazar": "més de 2.500 m² de servei integral a"
+      },
+      {
+        "buscar": "instalaciones totalmente equipadas de más de 2.500mts",
+        "reemplazar": "instalaciones totalmente equipadas de más de 2.500 m²"
       }
     ]
   }
