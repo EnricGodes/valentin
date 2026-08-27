@@ -1,0 +1,124 @@
+{
+  "rutaId": "tarifa-turbo",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-turbo-mantenimiento-taller",
+  "meta": {
+    "titulo": "Tarifas mantenimiento Porsche Turbo — Valentín Motors",
+    "descripcion": "Tarifas de los servicios para los modelos Turbo. Consulte los problemas más frecuentes y nuestros precios",
+    "ogImagen": ""
+  },
+  "h1": "Precios de mantenimiento para los modelos Turbo",
+  "acordeones": [
+    {
+      "modelo": "930 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 582 €</strong><br/>Servicio mayor:<strong>desde 1.203 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "964 3.3 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 628€</strong><br/>Servicio mayor:<strong>desde 1093 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "964 3.6 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 685 €</strong><br/>Servicio mayor: <strong>desde 950 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "993 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 695 €</strong><br/>Servicio mayor: <strong>desde 1438€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 Turbo",
+      "parrafos": [
+        "<strong>Precios<br/></strong>Servicio menor: <strong>desde 674 €</strong><br/>Servicio mayor: <strong>desde 1242 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías:<strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 657 €</strong><br/>Servicio mayor: <strong>desde 1.131€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 680 €</strong><br/>Servicio mayor: <strong>desde 1.163 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 449 €</strong><br/>Servicio mayor: <strong>desde 979 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>240 €<br/></strong>Servicio AA:<strong> 98 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 703€</strong><br/>Servicio mayor: <strong>desde 1.012 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>240 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 Turbo",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 540 €</strong><br/>Servicio mayor: <strong>desde 1.283 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Precios de mantenimiento para los modelos Turbo",
+      "parrafos": [
+        "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia de trabajo, servicio y diagnóstico de fallos como clave del proceso de localización clara de la avería y de su origen.",
+        "Los precios están sujetos a IVA pero incluyen piezas y mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y de artículos varios. Su vehículo se desinfectará y limpiará, listo para entrega.",
+        "Selecciona un modelo"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0cb2d02e-DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Haz una reserva",
+      "parrafos": [
+        "Déjanos los datos de tu modelo, tipo de servicio que requieres y nuestro equipo contactará contigo para confirmar la cita"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

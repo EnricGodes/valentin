@@ -1,0 +1,75 @@
+{
+  "rutaId": "contacto",
+  "tipo": "contacto",
+  "ficheroOriginal": "contacto",
+  "meta": {
+    "titulo": "Contacto — Valentín Motors",
+    "descripcion": "Taller Porsche en el Eixample de Barcelona. Gran Via de les Corts Catalanes, 752. 08013 Barcelona. +34 933 479 856",
+    "ogImagen": ""
+  },
+  "h1": "Contacta con nosotros",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Contacta con nosotros",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Contáctanos",
+      "parrafos": [
+        "Cuéntanos cuáles son tus necesidades, ¡seguro que podemos ayudarte!"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Taller Porsche en Madrid (Leganés)",
+      "parrafos": [
+        "<strong>VALENTIN MOTORS MADRID</strong>",
+        "<strong>Ubicación:</strong> Puig Adam, 10<br/> Parque Sur / 28914 Leganés (Madrid)",
+        "<strong>Teléfono:</strong> (+34) 913 017 575",
+        "<strong>Correo:</strong> madrid@valentinmotors.es",
+        "<strong>Horarios:</strong> Lunes a viernes",
+        "Taller: 8:30 a 18:00 / Ventas: 8:30 a 19:00",
+        "<strong>Tiempos a taller:</strong>",
+        "<strong> </strong>Madrid Centro / Estación Atocha <strong>— </strong>20 minutos",
+        "Aeropuerto Barajas <strong>— </strong>22 minutos",
+        "<strong> </strong>Zona Madrid Norte <strong>— </strong>22 / 26 minutos aprox."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Taller Porsche en Barcelona",
+      "parrafos": [
+        "<strong>VALENTIN MOTORS BARCELONA</strong>",
+        "<strong>Ubicación: </strong>Calle Varsovia, 65 <br/> Hospital Sant Pau / 08041 Barcelona",
+        "<strong>Teléfono: </strong>(+34) 933 479 856 / (+34) 679 081 019",
+        "<strong>Correo: </strong>info@valentinmotors.es",
+        "<strong>Horarios: </strong>Lunes a viernes / Taller: 8:00 a 18:00",
+        "<strong>Tiempos a taller: </strong>",
+        "<strong>‍ ‍</strong>Aeropuerto el Prat <strong>—</strong> 30 minutos",
+        "Sants Estacio <strong>—</strong> 26 minutos"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "679 081 019",
+      "913 017 575",
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es",
+      "madrid@valentinmotors.es"
+    ]
+  }
+}

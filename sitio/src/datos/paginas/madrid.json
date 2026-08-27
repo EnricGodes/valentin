@@ -1,0 +1,116 @@
+{
+  "rutaId": "madrid",
+  "tipo": "centro",
+  "ficheroOriginal": "madrid",
+  "meta": {
+    "titulo": "Madrid: Taller Especialista Porsche desde 1979 — Valentín Motors",
+    "descripcion": "Servicio integral Porsche en Leganés - Madrid. Mantenimiento, restauración, compra-venta. Más de 40 años de experiencia con Porsche.",
+    "ogImagen": ""
+  },
+  "h1": "Valentin Motors Madrid. Taller especialista Porsche desde 1979",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Valentin Motors Madrid. Taller especialista Porsche desde 1979",
+      "parrafos": [
+        "<strong>Valentin Motors Madrid</strong> somos un<strong> taller especialista de la marca Porsche 100% independiente </strong>que el pasado 2024 cumplimos 45 años dando servicio.",
+        "En Valentín Madrid somos porschistas como tú, apasionados de la marca te damos servicio en nuestras instalaciones totalmente equipadas de más de 2.500mts.",
+        "Nuestra misión es : <strong>“Fusionamos tradición en innovación para liderar la restauración de</strong> <strong>Porsche clásicos, 911 en toda su generación con una actitud audaz que nos sirve de inspiración para seguir trabajando en nuestra pasión\".”</strong>"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c5f42fd5-madrid_entrada.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios",
+      "parrafos": [
+        "En <strong>Valentin Motors Madrid</strong> te ofrecemos un <strong>servicio integral Porsche</strong> que incluye:",
+        "• <strong>Mantenimiento.</strong> Consulta nuestros precios cerrados según modelos.",
+        "• <strong>Reparaciones. </strong>Nuestro servicio técnico es especialista en motores clásicos refrigerados por aire y los más actuales con refrigeración líquida.",
+        "• <strong>Restauraciones integrales o parciales.</strong>",
+        "• <strong>Personalizaciones y upgrades.</strong>",
+        "• <strong>Backdating y Restomods.</strong>",
+        "• <strong>Preparaciones para circuito. </strong>Preparamos tu Porsche para el circuito, tanto si solo quieres realizar tandas ocasionales como si quieres competir en un campeonato.",
+        "• <strong>Motorsport. </strong>Somos tu equipo técnico en el circuito. Tenemos experiencia en competición desde 1979.",
+        "• <strong>Organizamos Track Days</strong> con la comunidad Valentin. Únete a nosotros.",
+        "• <strong>Compra-venta de vehículos Porsche de ocasión. </strong>Seleccionamos, probamos y optimizamos las mejores unidades del mercado. Te las ofrecemos al mejor precio y con 12 meses de garantía."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Equipo Valentín Motors",
+      "parrafos": [
+        "El equipo de Valentin Motors Madrid está formado por <strong>dos ingenieros y</strong> <strong>oficiales especialistas</strong> de motores con gran experiencia con vehículos Porsche.",
+        "<strong>Tenemos dos equipos diferenciados</strong>: uno para clásicos y restauraciones y otro especialista en youngtimers y modelos actuales."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cf185986-DSC03460.jpeg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Recambios, piezas y componentes originales y de primeras marcas",
+      "parrafos": [
+        "Somos distribuidores e instaladores autorizados de la prestigiosa firma Alemana <strong>TECHART</strong>.",
+        "Además, utilizamos habitualmente componentes de primeras marcas como las suspensiones <strong>KW</strong> y <strong>Bilstein</strong>; los neumáticos <strong>Michelin</strong>; los frenos y embragues AP <strong>Racing</strong>; los frenos <strong>PFC</strong>; las barras antivuelco <strong>Heigo</strong> y una larga lista de proveedores top.",
+        "Todos los productos que ofrecemos a nuestros clientes han sido ampliamente probados y evaluados por el equipo de Valentin como parte de nuestras operaciones de investigación y desarrollo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Dónde estamos",
+      "parrafos": [
+        "Ven a conocernos a nuestro centro de 2.500 m2 en Leganés, a 20 minutos del centro de Madrid:",
+        "<strong>Valentin Motors Madrid<br/></strong>Puig Adam, 10<br/>28914 Leganés<br/>Madrid",
+        "<strong>Teléfono:</strong> +34 913 017 575",
+        "<strong>Horario: </strong>De lunes a viernes, de 8:30 a 18:00 (19:00 ventas)"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/b02c577e-fachada_madrid.jpg",
+          "alt": "fachada_madrid.jpg"
+        },
+        {
+          "url": "/img/paginas/269f0bfa-fachada3.jpg",
+          "alt": "fachada3.jpg"
+        },
+        {
+          "url": "/img/paginas/e02a9316-madrid_entrada.jpg",
+          "alt": "madrid_entrada.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Pide una cita",
+      "parrafos": [
+        "Déjanos tus datos y nos pondremos en contacto contigo para concertar una cita",
+        "También puedes llamarnos al número de teléfono 913 017 575."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+34 913 017 575",
+      "913 017 575"
+    ],
+    "emails": []
+  }
+}

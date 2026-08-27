@@ -1,0 +1,38 @@
+---
+import type { SeccionPagina } from '../datos/pagina';
+
+interface Props { secciones: SeccionPagina[]; }
+const { secciones } = Astro.props;
+
+/** La primera seccion suele repetir el h1: no se pinta dos veces. */
+const utiles = secciones.filter((s, i) =>
+  !(i === 0 && s.nivel === 1) &&
+  (s.titulo || s.parrafos.length || s.items.length || s.imagenes.length));
+---
+<div class="contenido">
+  {utiles.map((s, i) => (
+    <section class={`bloque${s.imagenes.length ? ' bloque--con-foto' : ''}`}>
+      <div class="bloque-texto">
+        {s.titulo && (s.nivel <= 2
+          ? <h2 class="bloque-titulo reveal">{s.titulo}</h2>
+          : <h3 class="bloque-subtitulo reveal">{s.titulo}</h3>)}
+        {s.parrafos.length > 0 && (
+          <div class="texto-editorial reveal delay-1">
+            {s.parrafos.map((p) => <p set:html={p} />)}
+          </div>
+        )}
+        {s.items.length > 0 && (
+          <ul class="bloque-lista reveal delay-1">{s.items.map((x) => <li>{x}</li>)}</ul>
+        )}
+      </div>
+      {s.imagenes.length > 0 && (
+        <div class={`bloque-fotos bloque-fotos--${Math.min(s.imagenes.length, 3)}`}>
+          {s.imagenes.map((im, j) => (
+            <img src={im.url} alt={im.alt} loading={i === 0 && j === 0 ? 'eager' : 'lazy'}
+                 decoding="async" class="reveal-scale">
+          ))}
+        </div>
+      )}
+    </section>
+  ))}
+</div>

@@ -34,6 +34,14 @@ if (existsSync(blog)) {
   console.warn('  Ejecuta _migracion/scripts/03_descargar_imagenes.py');
 }
 
+// Imagenes de las paginas (home, servicios, centros) rescatadas del CDN
+const pags = resolve(aqui, '../../_migracion/contenido/imagenes-paginas');
+const pagsDest = resolve(destino, 'paginas');
+if (existsSync(pags)) {
+  await cp(pags, pagsDest, { recursive: true });
+  console.log(`fotos de paginas: ${(await readdir(pagsDest)).length} ficheros`);
+}
+
 // Videos rescatados de Squarespace, que se servian por HLS y no sobreviven a
 // la cancelacion de la cuenta.
 const videos = resolve(aqui, '../../_migracion/contenido/videos');

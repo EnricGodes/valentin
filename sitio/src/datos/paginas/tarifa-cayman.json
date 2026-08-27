@@ -1,0 +1,83 @@
+{
+  "rutaId": "tarifa-cayman",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-cayman-boxster-mantenimiento-taller",
+  "meta": {
+    "titulo": "Tarifas mantenimiento Porsche Cayman y Boxster — Valentín Motors",
+    "descripcion": "Tarifas de los servicios para los modelos Boxster y Cayman. Consulte los problemas más frecuentes y nuestros precios",
+    "ogImagen": ""
+  },
+  "h1": "Precios de mantenimiento para los modelos Cayman y Boxster",
+  "acordeones": [
+    {
+      "modelo": "Boxster 986",
+      "parrafos": [
+        "<strong><br/>Servicio menor</strong>:(Filtro de aceite + aceite motor+ filtro de polen+ 23 puntos check list ) <strong>desde</strong> <strong>525,00€</strong><br/><strong>Servicio Mayor </strong>:(Incluye Servicio Menor + filtro de aire + 30 puntos check list ) <strong>desde 635,00 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375,00 €</strong>",
+        "Chequeo Bore Scoring: <strong>196/343<br/><br/></strong><em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster y Cayman 987",
+      "parrafos": [
+        "<strong><br/>Servicio Menor</strong> (Filtro de aceite + aceite motor+ filtro de polen + check list de 23 puntos)<strong> desde 525,00€</strong><br/><strong>Servicio Mayor: </strong>(Incluye Servicio Menor+ filtro de aire + check list de 30 puntos ) <strong>desde 635,00 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375,00 €</strong>",
+        "<strong><br/><br/></strong><em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "Boxster y Cayman 981",
+      "parrafos": [
+        "Los puntos más comunes a revisar en el 981 son:",
+        "Drenajes bloqueados",
+        "Prensa de embrague en cambio manual.",
+        "<strong><br/>Servicio Menor:</strong>(Filtro de aceite + aceite motor+ filtro de polen + check list de 23 puntos ) <strong>desde 595,00 €</strong><br/><strong>Servicio Mayor: desde 720,00 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375,00 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": [
+        "Drenajes bloqueados",
+        "Prensa de embrague en cambio manual."
+      ]
+    },
+    {
+      "modelo": "Boxster y Cayman 718",
+      "parrafos": [
+        "<strong><br/>Servicio Menor:</strong>(Filtro de aceite+ aceite motor+filtro de polen + check list de 23 puntos ) <strong>desde 690,00 €</strong><br/><strong>Servicio Mayor:(</strong>Incluye Servicio Menor + filtro de aire + check list de 30 puntos ) <strong>desde 850,00€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375,00 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Precios de mantenimiento para los modelos Cayman y Boxster",
+      "parrafos": [
+        "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia de trabajo, servicio y diagnóstico de fallos.",
+        "El equipo te puede asesorar sobre las mejores acciones de mantenimiento preventivo. Los técnicos de Valentín Motors pueden proporcionar soluciones bien diseñadas que solventarán el problema.<br/><br/>",
+        "Los precios están sujetos a IVA pero incluyen piezas y mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y de artículos varios. Su vehículo se desinfectará y limpiará, listo para su recolección.",
+        "Selecciona un modelo"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0cb2d02e-DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Haz una reserva",
+      "parrafos": [
+        "Déjanos los datos de tu modelo, tipo de servicio que requieres y nuestro equipo contactará contigo para confirmar la cita"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

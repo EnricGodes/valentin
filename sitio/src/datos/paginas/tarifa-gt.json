@@ -1,0 +1,210 @@
+{
+  "rutaId": "tarifa-gt",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-gt-mantenimiento-taller",
+  "meta": {
+    "titulo": "Tarifas mantenimiento Porsche GT — Valentín Motors",
+    "descripcion": "Tarifas de los servicios para los modelos GT. Consulte los problemas más frecuentes y nuestros precios",
+    "ogImagen": ""
+  },
+  "h1": "Precios de mantenimiento para los modelos GT",
+  "acordeones": [
+    {
+      "modelo": "996 GT3 MK1",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 611 €</strong><br/>Servicio mayor: <strong>desde 1.093 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT3 MK2",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>611 €</strong><br/>Servicio mayor: <strong>1.092 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: 117<strong>€</strong><br/>Inspección pre compra: <strong>375€</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 740 €</strong><br/>Servicio mayor: <strong>desde 1.093 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 GT3",
+      "parrafos": [
+        "<strong>Precios<br/></strong>Servicio menor: <strong>desde 691€</strong><br/>Servicio mayor: <strong>desde 1.001€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>240 €</strong><br/>Inspección pre compra: <strong>375€</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.1 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 464€</strong><br/>Servicio mayor: <strong>desde 1.184€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong> desde 602€</strong><br/>Servicio mayor:d<strong>esde 1.029€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997.2 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 802€</strong><br/>Servicio mayor: <strong>desde 1.030€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 691€</strong><br/>Servicio mayor: <strong>desde 1.259€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.1 GT3 RS",
+      "parrafos": [
+        "<strong>Precios<br/></strong>Servicio menor: <strong>370</strong> <strong>€</strong><br/>Servicio mayor: <strong>920</strong> <strong>€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>250 €<br/><br/></strong><em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 641 €</strong><br/>Servicio mayor: <strong>desde 1.438€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: 117<strong> €</strong><br/>Inspección pre compra: <strong>375€</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991.2 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 640€</strong><br/>Servicio mayor:<strong>desde 1.495€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375€</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 GT3",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 540€</strong><br/>Servicio mayor: <strong>desde1.437€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "992 GT3 RS",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong> desde 540€</strong><br/>Servicio mayor: <strong>desde 1.437€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra:<strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "993 GT",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 822€</strong><br/>Servicio mayor:<strong>desde 1.295€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "996 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 680€</strong><br/>Servicio mayor:<strong>desde 1.334€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997 GT2",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong>desde 603€</strong><br/>Servicio mayor:<strong>desde </strong> <strong>1.149€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "997 GT2 RS",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 857€</strong><br/>Servicio mayor: <strong>desde1.216 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "991 GT2 RS",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 656€</strong><br/>Servicio mayor: <strong>desde 1.702€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "981 CAYMAN GT4",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong> desde 683€</strong><br/>Servicio mayor:<strong>desde 1029€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €<br/><br/></strong><em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "718 CAYMAN GT4",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor: <strong>desde 695€</strong><br/>Servicio mayor:<strong>desde 1.030€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "718 CAYMAN GT4 RS",
+      "parrafos": [
+        "<strong><br/></strong>Servicio menor:<strong> desde 695€</strong><br/>Servicio mayor: <strong>desde 1.030€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: 117€<br/>Inspección pre compra: <strong>375 €</strong>",
+        "<em>Precios sin IVA incluido.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Precios de mantenimiento para los modelos GT",
+      "parrafos": [
+        "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia de trabajo, servicio y diagnóstico como clave del proceso para orientarnos hacia un trabajo exitoso.",
+        "Los precios están sujetos a IVA pero incluyen piezas y mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y de artículos varios. Su vehículo se desinfectará y limpiará, listo para su entrega.",
+        "Selecciona un modelo"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0cb2d02e-DSC07457.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Haz una reserva",
+      "parrafos": [
+        "Déjanos los datos de tu modelo, tipo de servicio que requieres y nuestro equipo contactará contigo para confirmar la cita"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

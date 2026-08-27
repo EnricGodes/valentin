@@ -1,0 +1,235 @@
+---
+/**
+ * Home. Es la pagina con mas trafico del sitio: 1.311 clics organicos y 15.749
+ * impresiones en tres meses.
+ *
+ * A diferencia del resto de paginas de contenido, no se renderiza en bloque
+ * desde el JSON extraido: se compone a mano y toma los coches y los articulos
+ * de sus fuentes vivas, para que no haya que tocar la home cada vez que entra
+ * un coche o se publica un post.
+ */
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Pie from '../components/Pie.astro';
+import Hero from '../components/Hero.astro';
+import CabeceraSeccion from '../components/CabeceraSeccion.astro';
+import NegocioLocal from '../components/seo/NegocioLocal.astro';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import { COCHES } from '../datos/coche';
+import { paginaPorRuta } from '../datos/pagina';
+
+const idioma = 'es' as const;
+const t = traductor(idioma);
+const home = paginaPorRuta('home')!;
+const sec = (titulo: string) =>
+  home.secciones.find((s) => s.titulo.toLowerCase().startsWith(titulo.toLowerCase()));
+
+const enVenta = COCHES.filter((c) => c.catalogo?.estado !== 'vendido').slice(0, 3);
+const posts = (await getCollection('magazine'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+const fmt = new Intl.DateTimeFormat('es', { month: 'short', year: 'numeric' });
+const sinHtml = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+
+const CENTROS = [
+  {
+    id: 'barcelona', nombre: 'Barcelona',
+    direccion: 'Varsòvia, 65 · 08041 Barcelona',
+    detalle: 'Junto a la Ronda del Mig. 1.320 m² de taller.',
+    telefono: '933 479 856', tel: '+34933479856',
+    horario: 'Lunes a viernes, 8:00 a 18:00',
+    foto: '/img/paginas/80791f9a-Barcelona.jpg',
+  },
+  {
+    id: 'madrid', nombre: 'Madrid',
+    direccion: 'Puig Adam, 10 · 28914 Leganés',
+    detalle: 'Pol. Butarque, a 20 minutos del centro. 2.500 m².',
+    telefono: '913 017 575', tel: '+34913017575',
+    horario: 'Lunes a viernes, 8:30 a 18:00',
+    foto: '/img/paginas/9fcf69d9-fachada_madrid.jpg',
+  },
+];
+
+const SERVICIOS = [
+  { id: 'taller', titulo: 'Taller mecánico', foto: '/img/paginas/47048331-taller01.jpg',
+    texto: 'Desde 1979 con los mismos vehículos. Mantenimiento, IMS, bore scoring y servicio técnico nacional.' },
+  { id: 'restauraciones', titulo: 'Restauración', foto: '/img/paginas/d8878214-271855619_697720067882094_6512529372697218830_n.jpg',
+    texto: 'Cada proyecto se afronta como lo que es: devolver a un coche el estado que tuvo, con criterio y documentación.' },
+  { id: 'competicion', titulo: 'Competición', foto: '/img/paginas/c33a5e29-DSC00494.jpg',
+    texto: 'Preparación para track days, campeonatos GT y rally. El circuito es donde un Porsche demuestra para qué se hizo.' },
+  { id: 'sala-motores', titulo: 'Sala de motores', foto: '/img/paginas/87b8ab68-DSC07854.jpg',
+    texto: 'Banco y sala dedicada al desmontaje, medición y reconstrucción de motores, tornillo a tornillo.' },
+];
+
+const ICONOS = home.secciones
+  .filter((s) => /^Porsche (356|911 F|911 G|964|993|996|997|991)$/.test(s.titulo))
+  .map((s) => ({ nombre: s.titulo, texto: sinHtml(s.parrafos[0] ?? '') }));
+
+const testimonio = sec('“Desde que conozco');
+---
+<Base
+  idioma={idioma}
+  rutaId="home"
+  idiomasPublicados={['es']}
+  titulo="Taller especialista Porsche en Barcelona y Madrid · Valentín Motors"
+  descripcion="Especialistas Porsche desde 1979. Mantenimiento, restauración, reparación de IMS y bore scoring, competición y venta de Porsche de colección en Barcelona y Madrid."
+  imagen="/img/paginas/47048331-taller01.jpg"
+>
+  <NegocioLocal slot="head" centro="ambos" />
+  <Nav slot="nav" idioma={idioma} rutaId="home" />
+  <Pie slot="pie" idioma={idioma} />
+
+  <Hero
+    eyebrow="Valentin Motors · Barcelona y Madrid"
+    titulo="Especialistas Porsche<br>desde 1979"
+    claim="Damos nueva vida al legado Porsche combinando artesanía, excelencia y pasión."
+    imagen="/img/paginas/47048331-taller01.jpg"
+    scrollLabel={t('scroll')}
+    parallax={0.22}
+  />
+
+  {/* ── Centros ── */}
+  <section class="seccion" id="centros">
+    <div class="contenedor">
+      <CabeceraSeccion etiqueta="Dónde estamos" titulo="Dos centros," destacado="un mismo criterio." />
+      <div class="centros">
+        {CENTROS.map((c, i) => (
+          <a class={`centro reveal delay-${i + 1}`} href={url(c.id, idioma)}>
+            <div class="centro-foto">
+              <img src={c.foto} alt={`Taller Valentin Motors ${c.nombre}`}
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="centro-cuerpo">
+              <h3 class="centro-nombre">{c.nombre}</h3>
+              <p class="centro-dir">{c.direccion}</p>
+              <p class="centro-detalle">{c.detalle}</p>
+              <dl class="centro-datos">
+                <dt>Teléfono</dt><dd>{c.telefono}</dd>
+                <dt>Horario</dt><dd>{c.horario}</dd>
+              </dl>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* ── Coches en venta, en vivo ── */}
+  <section class="seccion kit" id="venta">
+    <div class="contenedor">
+      <div class="kit-header reveal">
+        <CabeceraSeccion etiqueta="En venta" titulo="Porsche" destacado="de colección." />
+        <a class="enlace-mono" href={url('coches', idioma)}>Ver todos &rarr;</a>
+      </div>
+      <div class="cars-grid cars-grid--home">
+        {enVenta.map((c, i) => (
+          <a class={`car-card ${c.catalogo!.estado} reveal delay-${i + 1}`}
+             href={url('coches', idioma, c.slug)}>
+            <div class="car-img-wrap">
+              <span class={`car-status-badge badge-${c.catalogo!.estado}`}>
+                {c.catalogo!.estadoTexto}
+              </span>
+              <img src={c.catalogo!.imagen} alt={`${c.catalogo!.marca} ${c.catalogo!.nombre}`}
+                   width={c.catalogo!.imagenAncho} height={c.catalogo!.imagenAlto}
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="car-body">
+              <p class="car-make">{c.catalogo!.marca}</p>
+              <p class="car-name">{c.catalogo!.nombre}</p>
+              <p class="car-year">{c.catalogo!.detalle}</p>
+              <div class="car-footer">
+                <span class="car-price">{c.catalogo!.precio}</span>
+                <span class="car-cta">{t('cta.ficha')} &rarr;</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* ── Servicios ── */}
+  <section class="seccion" id="servicios">
+    <div class="contenedor">
+      <CabeceraSeccion etiqueta="Qué hacemos" titulo="Todo lo que un Porsche" destacado="necesita en su vida." />
+      <div class="servicios">
+        {SERVICIOS.map((s, i) => (
+          <a class={`servicio reveal delay-${i + 1}`} href={url(s.id, idioma)}>
+            <div class="servicio-foto">
+              <img src={s.foto} alt={s.titulo} loading="lazy" decoding="async">
+            </div>
+            <h3 class="servicio-titulo">{s.titulo}</h3>
+            <p class="servicio-texto">{s.texto}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* ── Iconos ── */}
+  {ICONOS.length > 0 && (
+    <section class="seccion specs" id="iconos">
+      <div class="contenedor">
+        <CabeceraSeccion etiqueta="Ocho generaciones" titulo="Los modelos que" destacado="conocemos de memoria." />
+        <div class="iconos">
+          {ICONOS.map((m) => (
+            <div class="icono reveal">
+              <p class="icono-nombre">{m.nombre}</p>
+              <p class="icono-texto">{m.texto}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {/* ── Magazine, en vivo ── */}
+  <section class="seccion" id="magazine">
+    <div class="contenedor">
+      <div class="kit-header reveal">
+        <CabeceraSeccion etiqueta="Magazine" titulo="Lo que pasa" destacado="dentro del taller." />
+        <a class="enlace-mono" href={url('magazine', idioma)}>Ver todos &rarr;</a>
+      </div>
+      <div class="posts-grid posts-grid--home">
+        {posts.map((p, i) => {
+          const img = (p.body ?? '').match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1]
+            ?.replace('/img/magazine/', '/img/magazine/card/') ?? '';
+          return (
+            <a class={`post-card reveal delay-${i + 1}`}
+               href={url('magazine', idioma, p.data.slugFinal)}>
+              {img && (
+                <div class="post-card-img">
+                  <img src={img} alt="" width="600" height="450" loading="lazy" decoding="async">
+                </div>
+              )}
+              <div class="post-card-body">
+                <p class="post-card-meta">{fmt.format(p.data.date)}</p>
+                <h3 class="post-card-title">{p.data.title}</h3>
+                <p class="post-card-desc">{sinHtml(p.data.excerpt).slice(0, 130)}</p>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  {/* ── Cierre ── */}
+  <section class="closing" id="cierre">
+    <div class="closing-bg" data-fondo="/img/ruf/exterior3.jpg"
+         style="background-image:url('/img/ruf/exterior3.jpg')"></div>
+    <div class="closing-overlay"></div>
+    <div class="closing-content">
+      {testimonio && (
+        <p class="closing-quote reveal">
+          {sinHtml(testimonio.titulo).replace(/^“|”$/g, '')}
+        </p>
+      )}
+      <div class="closing-divider"></div>
+      <span class="closing-price-label">Daniel A. · cliente</span>
+      <div><a class="cta" href={url('contacto', idioma)}>Pide cita</a></div>
+    </div>
+  </section>
+</Base>

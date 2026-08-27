@@ -1,0 +1,88 @@
+---
+import { DOMINIO } from '../../i18n/config';
+
+/**
+ * JSON-LD de los dos centros.
+ *
+ * La direccion que publicaba Squarespace en el LocalBusiness de la home era
+ * "Gran Via de les Corts Catalanes 752, 08013", que es el DOMICILIO SOCIAL de
+ * la sociedad (asi consta en el aviso legal), no el taller. El taller de
+ * Barcelona esta en Varsovia 65, 08041. Publicar una direccion y tener otra es
+ * lo que hunde el paquete local, y encaja con que Barcelona convierta al 1,06%
+ * frente al 3,1% de Madrid.
+ */
+interface Props { centro?: 'barcelona' | 'madrid' | 'ambos'; }
+const { centro = 'ambos' } = Astro.props;
+
+const CENTROS = {
+  barcelona: {
+    '@type': 'AutoRepair',
+    '@id': `${DOMINIO}/barcelona#taller`,
+    name: 'Valentin Motors Barcelona',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Carrer de Varsòvia, 65',
+      addressLocality: 'Barcelona',
+      postalCode: '08041',
+      addressRegion: 'Barcelona',
+      addressCountry: 'ES',
+    },
+    telephone: '+34933479856',
+    url: `${DOMINIO}/barcelona`,
+    openingHours: 'Mo-Fr 08:00-18:00',
+  },
+  madrid: {
+    '@type': 'AutoRepair',
+    '@id': `${DOMINIO}/madrid#taller`,
+    name: 'Valentin Motors Madrid',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Calle Puig Adam, 10, Pol. Butarque',
+      addressLocality: 'Leganés',
+      postalCode: '28914',
+      addressRegion: 'Madrid',
+      addressCountry: 'ES',
+    },
+    telephone: '+34913017575',
+    email: 'madrid@valentinmotors.es',
+    url: `${DOMINIO}/madrid`,
+    openingHours: 'Mo-Fr 08:30-18:00',
+  },
+} as const;
+
+const comunes = {
+  priceRange: '$$$',
+  email: 'info@valentinmotors.es',
+  brand: { '@type': 'Brand', name: 'Porsche' },
+  areaServed: { '@type': 'Country', name: 'España' },
+  knowsAbout: [
+    'Mantenimiento Porsche', 'Restauración Porsche', 'Reparación IMS',
+    'Bore scoring', 'Preparación para competición', 'Backdating',
+  ],
+};
+
+const lista = centro === 'ambos'
+  ? [CENTROS.barcelona, CENTROS.madrid]
+  : [CENTROS[centro]];
+
+const datos = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': `${DOMINIO}#organizacion`,
+      name: 'Valentín Motors',
+      legalName: 'VM German Engineering, S.L.',
+      url: DOMINIO,
+      foundingDate: '1979',
+      description: 'Especialistas Porsche desde 1979, con talleres en Barcelona y Madrid.',
+      department: lista.map((c) => ({ '@id': c['@id'] })),
+    },
+    ...lista.map((c) => ({
+      ...comunes, ...c,
+      parentOrganization: { '@id': `${DOMINIO}#organizacion` },
+    })),
+  ],
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(datos)} is:inline></script>

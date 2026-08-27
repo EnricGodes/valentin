@@ -14,7 +14,11 @@ import Nav from '../components/Nav.astro';
 import Pie from '../components/Pie.astro';
 import FichaCoche from '../components/FichaCoche.astro';
 import CatalogoCoches from '../components/CatalogoCoches.astro';
+import SeccionesPagina from '../components/SeccionesPagina.astro';
+import Acordeon from '../components/Acordeon.astro';
+import NegocioLocal from '../components/seo/NegocioLocal.astro';
 import { COCHES, type Coche } from '../datos/coche';
+import { PAGINAS_CONTENIDO, type Pagina } from '../datos/pagina';
 
 export async function getStaticPaths() {
   const rutas: any[] = [];
@@ -37,39 +41,77 @@ export async function getStaticPaths() {
       });
     }
   }
+
+  // Servicios, tarifas, centros, institucional y legales. De momento solo en
+  // espanol: la traduccion es la fase siguiente y no se declara un hreflang
+  // hacia una pagina que no existe.
+  for (const pagina of PAGINAS_CONTENIDO) {
+    rutas.push({
+      params: { ruta: sinBarra(url(pagina.rutaId, 'es')) },
+      props: { tipo: 'pagina', idioma: 'es', pagina },
+    });
+  }
   return rutas;
 }
 
 type Props =
   | { tipo: 'catalogo'; idioma: Idioma }
-  | { tipo: 'ficha'; idioma: Idioma; coche: Coche };
+  | { tipo: 'ficha'; idioma: Idioma; coche: Coche }
+  | { tipo: 'pagina'; idioma: Idioma; pagina: Pagina };
 
 const props = Astro.props as Props;
 const { idioma } = props;
 const t = traductor(idioma);
 
-const esFicha = props.tipo === 'ficha';
-const coche = esFicha ? props.coche : undefined;
+const coche = props.tipo === 'ficha' ? props.coche : undefined;
+const pagina = props.tipo === 'pagina' ? props.pagina : undefined;
 
-const titulo = coche ? coche.meta.titulo : `${t('nav.coches')} · Valentin Motors`;
-const descripcion = coche
-  ? coche.meta.descripcion
-  : 'Seleccion de Porsche de coleccion verificados por Valentin Motors, especialistas Porsche desde 1979.';
+const rutaId = pagina ? pagina.rutaId : 'coches';
 const extra = coche ? [coche.slug] : [];
+
+const titulo = coche?.meta.titulo
+  ?? pagina?.meta.titulo
+  ?? `${t('nav.coches')} · Valentin Motors`;
+const descripcion = coche?.meta.descripcion
+  ?? pagina?.meta.descripcion
+  ?? 'Seleccion de Porsche de coleccion verificados por Valentin Motors, especialistas Porsche desde 1979.';
+
+/** Mientras no haya traduccion, las paginas de contenido solo existen en espanol. */
+const idiomasPublicados = pagina ? (['es'] as const) : IDIOMAS;
+
+const esCentro = pagina?.tipo === 'centro';
+const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
 ---
 <Base
   idioma={idioma}
-  rutaId="coches"
+  rutaId={rutaId}
   extra={extra}
+  idiomasPublicados={idiomasPublicados}
   titulo={titulo}
   descripcion={descripcion}
   realce={coche?.realce ?? ''}
   imagen={coche?.hero.imagen}
 >
-  <Nav slot="nav" idioma={idioma} rutaId="coches" extra={extra} />
+  {(esCentro || pagina?.tipo === 'contacto') && (
+    <NegocioLocal slot="head" centro={centro} />
+  )}
+  <Nav slot="nav" idioma={idioma} rutaId={rutaId} extra={extra} />
   <Pie slot="pie" idioma={idioma} />
 
-  {coche
-    ? <FichaCoche coche={coche} idioma={idioma} />
-    : <CatalogoCoches coches={COCHES} idioma={idioma} />}
+  {coche && <FichaCoche coche={coche} idioma={idioma} />}
+
+  {pagina && (
+    <article class="pagina">
+      <header class="page-header">
+        <div class="shimmer-line reveal"></div>
+        <h1 class="page-title reveal">{pagina.h1 || titulo}</h1>
+      </header>
+      <SeccionesPagina secciones={pagina.secciones} />
+      {pagina.acordeones.length > 0 && (
+        <div class="contenido"><Acordeon items={pagina.acordeones} /></div>
+      )}
+    </article>
+  )}
+
+  {props.tipo === 'catalogo' && <CatalogoCoches coches={COCHES} idioma={idioma} />}
 </Base>

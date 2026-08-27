@@ -1,0 +1,24 @@
+---
+import type { Acordeon } from '../datos/pagina';
+
+interface Props { items: Acordeon[]; }
+const { items } = Astro.props;
+---
+{/* <details> nativo: sin JavaScript, accesible con teclado de serie y
+    buscable con Ctrl+F, que un acordeon de JavaScript no permite. */}
+<div class="acordeon">
+  {items.map((a, i) => (
+    <details class="acordeon-item" name="tarifas" open={i === 0}>
+      <summary class="acordeon-titulo">
+        <span>{a.modelo}</span>
+        <span class="acordeon-signo" aria-hidden="true"></span>
+      </summary>
+      <div class="acordeon-cuerpo">
+        {a.parrafos.map((p) => <p set:html={p} />)}
+        {a.items.length > 0 && (
+          <ul class="acordeon-lista">{a.items.map((x) => <li>{x}</li>)}</ul>
+        )}
+      </div>
+    </details>
+  ))}
+</div>

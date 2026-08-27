@@ -20,15 +20,24 @@ INVENTARIO = RAIZ / '_migracion' / 'informes' / 'inventario_urls.csv'
 
 
 def paginas():
-    """Rutas que el sitio nuevo sirve, tal y como quedan en dist/."""
+    """Rutas que el sitio nuevo sirve, tal y como quedan en dist/.
+
+    La raiz NO se da por servida: se comprueba que exista dist/index.html como
+    cualquier otra. La primera version de este script la anadia a mano y por eso
+    informaba de "0 clics en riesgo" mientras faltaba la home, que es la pagina
+    con mas trafico del sitio. Una red de seguridad que miente es peor que no
+    tenerla.
+    """
     fuera = set()
     for f in DIST.rglob('*.html'):
         r = '/' + str(f.relative_to(DIST)).replace('\\', '/')
         r = r[:-len('.html')]
+        if r == '/index':
+            fuera.add('/')
+            continue
         fuera.add(r)
         if r.endswith('/index'):
-            fuera.add(r[:-len('/index')] or '/')
-    fuera.add('/')
+            fuera.add(r[:-len('/index')])
     return fuera
 
 
