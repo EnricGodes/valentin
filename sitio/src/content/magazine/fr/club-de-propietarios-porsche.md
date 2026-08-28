@@ -167,14 +167,14 @@ Divisé en deux parties et **8 étapes** couvrant des sections célèbres de lin
 Nous recherchons une journée avec «**un point de dureté**», adaptée à tous les niveaux et avec la garantie de sécurité de nos sorties guidées avec road-book, en respectant toujours les règles élémentaires de sécurité.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![WhatsApp-Image-2018-10-29-at-10.34.11.jpeg](/img/magazine/d538038e-WhatsApp-Image-2018-10-29-at-10.34.11.jpeg)
-![WhatsApp-Image-2018-10-27-at-10.10.37.jpeg](/img/magazine/1cafc126-WhatsApp-Image-2018-10-27-at-10.10.37.jpeg)
-![WhatsApp-Image-2018-10-27-at-14.57.21.jpeg](/img/magazine/74e74049-WhatsApp-Image-2018-10-27-at-14.57.21.jpeg)
-![WhatsApp-Image-2018-10-29-at-10.32.48-3.jpeg](/img/magazine/d0f31c91-WhatsApp-Image-2018-10-29-at-10.32.48-3.jpeg)
-![WhatsApp-Image-2018-10-29-at-10.47.22-5.jpeg](/img/magazine/7981dfc4-WhatsApp-Image-2018-10-29-at-10.47.22-5.jpeg)
-![WhatsApp-Image-2018-10-29-at-13.26.02.jpeg](/img/magazine/95ad9df1-WhatsApp-Image-2018-10-29-at-13.26.02.jpeg)
-![WhatsApp-Image-2018-10-29-at-13.26.03-1.jpeg](/img/magazine/1ce63271-WhatsApp-Image-2018-10-29-at-13.26.03-1.jpeg)
-![Panoramica.jpeg](/img/magazine/fd817d7a-Panoramica.jpeg)
+![Les Porsche du II Endurance garées le long d'un rempart, une 991 GT3 RS argent devant](/img/magazine/d538038e-WhatsApp-Image-2018-10-29-at-10.34.11.jpeg)
+![Briefing du II Endurance dans le salon de l'atelier, participants assis](/img/magazine/1cafc126-WhatsApp-Image-2018-10-27-at-10.10.37.jpeg)
+![Photo de groupe du II Endurance à l'atelier, devant le présentoir de pneus](/img/magazine/74e74049-WhatsApp-Image-2018-10-27-at-14.57.21.jpeg)
+![Les Porsche du II Endurance arrêtées sur le bas-côté d'une route de montagne en automne](/img/magazine/d0f31c91-WhatsApp-Image-2018-10-29-at-10.32.48-3.jpeg)
+![Détail de l'écusson Porsche et des bandes bleues sur un capot mouillé de pluie](/img/magazine/7981dfc4-WhatsApp-Image-2018-10-29-at-10.47.22-5.jpeg)
+![Une 996 bleue et un Boxster garés le long d'un mur de pierre, au II Endurance](/img/magazine/95ad9df1-WhatsApp-Image-2018-10-29-at-13.26.02.jpeg)
+![Une 996 Turbo bleue sur un rond-point, un village de montagne au fond, au II Endurance](/img/magazine/1ce63271-WhatsApp-Image-2018-10-29-at-13.26.03-1.jpeg)
+![Panorama des Porsche du II Endurance à l'arrêt sur une hauteur du parcours](/img/magazine/fd817d7a-Panoramica.jpeg)
 :::
 
 ### I Tournée d'endurance
@@ -189,7 +189,7 @@ Les sections sélectionnées étaient légendaires lors des tests de motorsport 
 Le programme consistait en un départ vendredi de Barcelone et s'est terminé samedi à 12:00h au Boulou. Itinéraire guidé avec contrôles de passage pour contrôler la visite.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![1-images-noticias-TIPS911-1consejos-viajar-porsche-911-paisaje-ruta-964.jpg](/img/magazine/38de7a2d-1-images-noticias-TIPS911-1consejos-viajar-porsche-911-paisaje-ruta-964.jpg)
+![Route sinueuse vue depuis l'habitacle d'une Porsche, au I Endurance Tour](/img/magazine/38de7a2d-1-images-noticias-TIPS911-1consejos-viajar-porsche-911-paisaje-ruta-964.jpg)
 :::
 
 ### Événement Porsche : Rioja Alta
@@ -206,9 +206,9 @@ Des routes qui vous permettent de profiter de la splendeur verte qui se marie pa
 Après ce voyage, nous pouvons vous assurer qu'il y a plusieurs rendez-vous incontournables : Las Bodegas Rioja Alta, Restaurante 4 Arcos, Museo Vivanco et les monastères de Yuso et Suso. *Entre vins et côtes levées* on découvre la naissance du Castillan, ou saint patron de l'Espagne : San Millán.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![4-evento-taller-porsche-barcelona.jpeg](/img/magazine/25c1bfa5-4-evento-taller-porsche-barcelona.jpeg)
-![1-evento-taller-porsche-barcelona.jpeg](/img/magazine/3264b7bd-1-evento-taller-porsche-barcelona.jpeg)
-![3-evento-taller-porsche-barcelona.jpeg](/img/magazine/bb274302-3-evento-taller-porsche-barcelona.jpeg)
+![Les Porsche de l'événement de la Rioja Alta garées dans une rue, l'église au fond](/img/magazine/25c1bfa5-4-evento-taller-porsche-barcelona.jpeg)
+![Les participants de l'événement de la Rioja Alta à un belvédère, voitures garées](/img/magazine/3264b7bd-1-evento-taller-porsche-barcelona.jpeg)
+![Rue animée pendant l'événement de la Rioja Alta, les Porsche alignées](/img/magazine/bb274302-3-evento-taller-porsche-barcelona.jpeg)
 :::
 
 ### Winter Ride 2017 : collection Porsche
@@ -229,10 +229,10 @@ Nous avons également visité les vignobles d'Otazu. Une cathédrale viticole qu
 Découvrir Roncevaux, la Sierra de Irati et se laisser emporter par les légendes de la Vallée du Baztan est un rêve devenu réalité. En résumé; Une compagnie et des routes spectaculaires, ainsi qu'une cuisine exquise, en ont fait un week-end unique.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![IMG_0197.jpg](/img/magazine/f707ed0b-IMG_0197.jpg)
-![IMG_0188.jpg](/img/magazine/55dd5a64-IMG_0188.jpg)
-![IMG_0198.jpg](/img/magazine/5666327f-IMG_0198.jpg)
-![IMG_0302.jpg](/img/magazine/ab2e4502-IMG_0302.jpg)
+![Les Porsche du Winter Ride 2017 alignées sur la pelouse devant une ferme](/img/magazine/f707ed0b-IMG_0197.jpg)
+![Visite d'une collection privée pendant le Winter Ride 2017, une 911 rouge au premier plan](/img/magazine/55dd5a64-IMG_0188.jpg)
+![Les Porsche du Winter Ride 2017 garées dans une rue de village, en file le long du mur](/img/magazine/5666327f-IMG_0198.jpg)
+![Vignobles vus depuis la bodega Otazu, halte du Winter Ride 2017](/img/magazine/ab2e4502-IMG_0302.jpg)
 :::
 
 ### Trackday Sensations : circuit de Castellolí
@@ -257,11 +257,11 @@ Valentin Motors a présenté pour la première fois les derniers **travaux de re
 L'unité Porsche 3.2 de l'année 72 a été conduite par David et Jordi pour corroborer l'excellent travail de l'équipe technique de Valentin Motors. Profitant de l'occasion, un reportage a été réalisé qui paraîtra bientôt dans l'une des éditions du seul magazine en espagnol spécialisé dans Porsche, [**9ONCE Plus.**](http://9onceplus.com/)
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![_EDC5602.jpg](/img/magazine/5315f5e4-_EDC5602.jpg)
-![_EDC5513.jpg](/img/magazine/10033e1e-_EDC5513.jpg)
-![_EDC5519---copia.jpg](/img/magazine/71a25292-_EDC5519-copia.jpg)
-![_EDC5529.jpg](/img/magazine/85b2c53f-_EDC5529.jpg)
-![_EDC5580.jpg](/img/magazine/3aa18d1d-_EDC5580.jpg)
+![Une 911 Targa argent à bande orange en piste sur le circuit de Castellolí](/img/magazine/5315f5e4-_EDC5602.jpg)
+![Présentation technique sur la gamme Michelin Pilot Sport avant le trackday de Castellolí](/img/magazine/10033e1e-_EDC5513.jpg)
+![Plusieurs Porsche en piste à Castellolí, dont une 993 argent et une 911 vert menthe](/img/magazine/71a25292-_EDC5519-copia.jpg)
+![Changement de roues aux stands pendant le trackday de Castellolí](/img/magazine/85b2c53f-_EDC5529.jpg)
+![Une Porsche 968 jaune en pleine courbe sur le circuit de Castellolí](/img/magazine/3aa18d1d-_EDC5580.jpg)
 :::
 
 ### Summer Ride 2017 : niveau supérieur
@@ -278,8 +278,8 @@ Parfois, sur la route, nous arrivons à des situations à haut risque et, en ign
 Les coureurs recevront des instructions et des corrections des instructeurs via talkie-walkie.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![DSC_9196.jpg](/img/magazine/247b59fc-DSC_9196.jpg)
-![DSC_9229.jpg](/img/magazine/0d5f0c5b-DSC_9229.jpg)
-![DSC_9254.jpg](/img/magazine/a8a0e988-DSC_9254.jpg)
-![DSC_9311.jpg](/img/magazine/c7a7f652-DSC_9311.jpg)
+![Les Porsche du Summer Ride 2017 garées en bord de piste, parmi les pins](/img/magazine/247b59fc-DSC_9196.jpg)
+![Une 993 argent en action au Summer Ride 2017](/img/magazine/0d5f0c5b-DSC_9229.jpg)
+![Une 911 rouge d'époque et une 996 blanche au paddock du Summer Ride 2017](/img/magazine/a8a0e988-DSC_9254.jpg)
+![Les participants du Summer Ride 2017 autour d'une 964 noire au paddock](/img/magazine/c7a7f652-DSC_9311.jpg)
 :::

@@ -37,11 +37,11 @@ Throughout this process we guide the client in choosing interiors, carpets, upho
 We adapt the wheels that you like and suit the most along with the design of the door panels, seats and parts of the dashboard.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![IMG_1221.jpg](/img/magazine/7c7a3934-IMG_1221.jpg)
-![IMG_1222.jpg](/img/magazine/c34ae0c7-IMG_1222.jpg)
-![IMG_1224.jpg](/img/magazine/e39b8eec-IMG_1224.jpg)
-![IMG_1225.jpg](/img/magazine/5d6f9887-IMG_1225.jpg)
-![IMG_1226.jpg](/img/magazine/bf166a44-IMG_1226.jpg)
+![The 964-based backdated 911 in British racing green, front three-quarter](/img/magazine/7c7a3934-IMG_1221.jpg)
+![Front of the green backdated 911, with round headlights and period indicators](/img/magazine/c34ae0c7-IMG_1222.jpg)
+![The green backdated 911 in rear three-quarter, on Fuchs wheels](/img/magazine/e39b8eec-IMG_1224.jpg)
+![Rear of the green backdated 911, with the engine grille and F-series tail lights](/img/magazine/5d6f9887-IMG_1225.jpg)
+![The green backdated 911 in rear profile, with the F-series roofline](/img/magazine/bf166a44-IMG_1226.jpg)
 :::
 
 If you want [more information](/contacto), contact us about a similar project, we will help you.

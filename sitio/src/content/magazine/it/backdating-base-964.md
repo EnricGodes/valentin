@@ -37,11 +37,11 @@ Durante tutto questo processo guidiamo il cliente nella scelta degli interni, de
 Adattiamo le ruote che Le piacciono e che più si adattano insieme al design dei pannelli delle porte, dei sedili e delle parti del cruscotto.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![IMG_1221.jpg](/img/magazine/7c7a3934-IMG_1221.jpg)
-![IMG_1222.jpg](/img/magazine/c34ae0c7-IMG_1222.jpg)
-![IMG_1224.jpg](/img/magazine/e39b8eec-IMG_1224.jpg)
-![IMG_1225.jpg](/img/magazine/5d6f9887-IMG_1225.jpg)
-![IMG_1226.jpg](/img/magazine/bf166a44-IMG_1226.jpg)
+![La 911 backdating su base 964, in verde inglese, tre quarti anteriore](/img/magazine/7c7a3934-IMG_1221.jpg)
+![Frontale della 911 backdating verde, con fari tondi e frecce d'epoca](/img/magazine/c34ae0c7-IMG_1222.jpg)
+![La 911 backdating verde in tre quarti posteriore, con cerchi Fuchs](/img/magazine/e39b8eec-IMG_1224.jpg)
+![Coda della 911 backdating verde, con griglia motore e fanali serie F](/img/magazine/5d6f9887-IMG_1225.jpg)
+![La 911 backdating verde di profilo posteriore, con la linea di tetto serie F](/img/magazine/bf166a44-IMG_1226.jpg)
 :::
 
 Se desideri [ulteriori informazioni](/contacto), Ci contatti per un progetto simile, La aiuteremo.

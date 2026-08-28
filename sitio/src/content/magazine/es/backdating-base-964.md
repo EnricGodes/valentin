@@ -37,11 +37,11 @@ En todo este proceso guiamos al cliente en la elección de los interiores, moque
 Adaptamos las llantas que más gusten y convengan junto con el diseño de paneles de puertas, asientos y partes del salpicadero.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![IMG_1221.jpg](/img/magazine/7c7a3934-IMG_1221.jpg)
-![IMG_1222.jpg](/img/magazine/c34ae0c7-IMG_1222.jpg)
-![IMG_1224.jpg](/img/magazine/e39b8eec-IMG_1224.jpg)
-![IMG_1225.jpg](/img/magazine/5d6f9887-IMG_1225.jpg)
-![IMG_1226.jpg](/img/magazine/bf166a44-IMG_1226.jpg)
+![El 911 backdating sobre base 964, en verde inglés, tres cuartos delantero](/img/magazine/7c7a3934-IMG_1221.jpg)
+![Frontal del 911 backdating verde, con los faros redondos y los intermitentes de época](/img/magazine/c34ae0c7-IMG_1222.jpg)
+![El 911 backdating verde de tres cuartos trasero, con llantas Fuchs](/img/magazine/e39b8eec-IMG_1224.jpg)
+![Zaga del 911 backdating verde, con la rejilla del motor y los pilotos de serie F](/img/magazine/5d6f9887-IMG_1225.jpg)
+![El 911 backdating verde de perfil trasero, con la línea de techo de serie F](/img/magazine/bf166a44-IMG_1226.jpg)
 :::
 
 Si deseas [más información](/contacto), contacta con nosotros de un proyecto similar te ayudaremos ¡¡¡

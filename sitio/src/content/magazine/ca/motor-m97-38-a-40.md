@@ -29,7 +29,7 @@ Bore Scoring
 Compressió motor i BS
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![2bbded00-2bc8-458e-95de-ca890ea35ef4.jpg](/img/magazine/9de21a34-2bbded00-2bc8-458e-95de-ca890ea35ef4.jpg)
+![Mitja carcassa del motor M97 3.8 amb els tres cilindres i la cadena muntada](/img/magazine/9de21a34-2bbded00-2bc8-458e-95de-ca890ea35ef4.jpg)
 ![3c395192-3523-401c-a510-adf050e8fa07.jpg](/img/magazine/cc2ced96-3c395192-3523-401c-a510-adf050e8fa07.jpg)
 ![9cba2370-2290-4399-94ca-0396b636d260.jpg](/img/magazine/ddaaf684-9cba2370-2290-4399-94ca-0396b636d260.jpg)
 ![16ccc75c-6737-42ef-82bc-e1c27b557e16.jpg](/img/magazine/d227e2f1-16ccc75c-6737-42ef-82bc-e1c27b557e16.jpg)

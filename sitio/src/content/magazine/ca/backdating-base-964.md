@@ -37,11 +37,11 @@ En tot aquest procés guiem el client a l'elecció dels interiors, moquetes, ent
 Adaptem les llantes que més agradin i convinguin juntament amb el disseny de panells de portes, seients i parts del tauler de control.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![IMG_1221.jpg](/img/magazine/7c7a3934-IMG_1221.jpg)
-![IMG_1222.jpg](/img/magazine/c34ae0c7-IMG_1222.jpg)
-![IMG_1224.jpg](/img/magazine/e39b8eec-IMG_1224.jpg)
-![IMG_1225.jpg](/img/magazine/5d6f9887-IMG_1225.jpg)
-![IMG_1226.jpg](/img/magazine/bf166a44-IMG_1226.jpg)
+![El 911 backdating sobre base 964, en verd anglès, tres quarts davanter](/img/magazine/7c7a3934-IMG_1221.jpg)
+![Frontal del 911 backdating verd, amb els fars rodons i els intermitents d'època](/img/magazine/c34ae0c7-IMG_1222.jpg)
+![El 911 backdating verd de tres quarts posterior, amb llantes Fuchs](/img/magazine/e39b8eec-IMG_1224.jpg)
+![Zaga del 911 backdating verd, amb la reixa del motor i els pilots de sèrie F](/img/magazine/5d6f9887-IMG_1225.jpg)
+![El 911 backdating verd de perfil posterior, amb la línia de sostre de sèrie F](/img/magazine/bf166a44-IMG_1226.jpg)
 :::
 
 Si vols [més informació](/contacto), contacta amb nosaltres d'un projecte similar t'ajudarem.
