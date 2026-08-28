@@ -37,7 +37,14 @@ function navegacion(galeria: HTMLElement) {
 
 function lightbox() {
   const galerias = [...document.querySelectorAll<HTMLElement>('.mod-galeria[data-lightbox]')];
-  if (!galerias.length) return;
+
+  /* Las fotos sueltas del articulo, las que no van en galeria. Se tratan
+     como un unico conjunto para que las flechas las recorran: abrir una y
+     encontrarse un callejon sin salida es peor que no poder ampliarla. */
+  const sueltas = [...document.querySelectorAll<HTMLImageElement>(
+    '.post-cuerpo img[data-suelta]')].filter((i) => !i.closest('.mod-galeria'));
+
+  if (!galerias.length && !sueltas.length) return;
 
   const lupa = document.createElement('div');
   lupa.className = 'mod-lupa';
@@ -71,8 +78,8 @@ function lightbox() {
     luego.disabled = i === fotos.length - 1;
   };
 
-  const abrir = (galeria: HTMLElement, indice: number) => {
-    fotos = [...galeria.querySelectorAll<HTMLImageElement>('.mod-foto img')];
+  const abrir = (conjunto: HTMLImageElement[], indice: number) => {
+    fotos = conjunto;
     i = indice;
     foco.anterior = document.activeElement as HTMLElement;
     lupa.setAttribute('open', '');
@@ -88,10 +95,13 @@ function lightbox() {
   const salir = () => {
     lupa.removeAttribute('open');
     document.body.style.overflow = '';
-    // Devolver el foco a la foto de la que se salio. Sin esto se queda en el
-    // boton de cerrar, que ya esta oculto, y quien navega con teclado
-    // reaparece al principio del documento.
-    (foco.anterior ?? fotos[i])?.focus();
+    // El foco vuelve a la foto que se estaba mirando, no a la que se abrio:
+    // si has avanzado cinco fotos con las flechas, al cerrar quieres estar
+    // en esa. Sin esto el foco se queda en el boton de cerrar, que ya esta
+    // oculto, y quien navega con teclado reaparece al principio del
+    // documento. `foco.anterior` queda de reserva por si la foto ya no esta.
+    (fotos[i] ?? foco.anterior)?.focus();
+    fotos[i]?.scrollIntoView({ block: 'center', behavior: 'instant' });
   };
 
   const mover = (paso: number) => {
@@ -104,7 +114,7 @@ function lightbox() {
       const objetivo = (e.target as HTMLElement).closest<HTMLImageElement>('.mod-foto img');
       if (!objetivo) return;
       const todas = [...g.querySelectorAll<HTMLImageElement>('.mod-foto img')];
-      abrir(g, todas.indexOf(objetivo));
+      abrir(todas, todas.indexOf(objetivo));
     };
 
     g.addEventListener('click', desde);
@@ -117,6 +127,15 @@ function lightbox() {
       if (!(e.target as HTMLElement).closest('.mod-foto img')) return;
       e.preventDefault();
       desde(e);
+    });
+  }
+
+  for (const foto of sueltas) {
+    foto.addEventListener('click', () => abrir(sueltas, sueltas.indexOf(foto)));
+    foto.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      e.preventDefault();
+      abrir(sueltas, sueltas.indexOf(foto));
     });
   }
 

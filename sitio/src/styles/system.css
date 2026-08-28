@@ -1138,7 +1138,13 @@ section { position: relative; }
   margin: 14px 0 0;
 }
 
-.mod-galeria[data-lightbox] .mod-foto img { cursor: zoom-in; }
+.mod-galeria[data-lightbox] .mod-foto img,
+.post-cuerpo img[data-suelta] { cursor: zoom-in; }
+.mod-galeria[data-lightbox] .mod-foto img:focus-visible,
+.post-cuerpo img[data-suelta]:focus-visible {
+  outline: 2px solid var(--bronce);
+  outline-offset: 4px;
+}
 
 .mod-video, .mod-incrustado { margin: 56px 0; }
 .mod-video video { width: 100%; height: auto; display: block; background: var(--negro); }
