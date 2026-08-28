@@ -35,9 +35,9 @@ En variant s991 i 992 el fabricant ho ofereix com a opció de fàbrica i sobreto
 Estem convençuts que és un upgrade que no afecta la originalitat i sí la comoditat del sistema.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![099977DF-48D2-4AAB-9D23-F30138669EED.JPG](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)
-![IMG_9764.jpg](/img/magazine/f65940b6-IMG_9764.jpg)
-![IMG_9765.jpg](/img/magazine/5db11e6a-IMG_9765.jpg)
-![IMG_9766.jpg](/img/magazine/73741cf4-IMG_9766.jpg)
-![IMG_9767.jpg](/img/magazine/31fb0c9f-IMG_9767.jpg)
+![Amortidors regulables KW a la seva caixa, per al nose lift del 997.1](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)
+![Joc complet de suspensió KW amb molles grogues, sobre la seva safata de muntatge](/img/magazine/f65940b6-IMG_9764.jpg)
+![Amortidors KW i el grup hidràulic del sistema d'elevació de morro](/img/magazine/5db11e6a-IMG_9765.jpg)
+![La bomba hidràulica del nose lift entre els amortidors KW](/img/magazine/73741cf4-IMG_9766.jpg)
+![Detall del dipòsit i el bloc hidràulic del nose lift KW, amb la seva referència](/img/magazine/31fb0c9f-IMG_9767.jpg)
 :::

@@ -35,9 +35,9 @@ In the s991 and 992 variant the manufacturer offers it as a factory option and a
 We are convinced that it is an upgrade that does not affect the originality and does affect the comfort of the system.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![099977DF-48D2-4AAB-9D23-F30138669EED.JPG](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)
-![IMG_9764.jpg](/img/magazine/f65940b6-IMG_9764.jpg)
-![IMG_9765.jpg](/img/magazine/5db11e6a-IMG_9765.jpg)
-![IMG_9766.jpg](/img/magazine/73741cf4-IMG_9766.jpg)
-![IMG_9767.jpg](/img/magazine/31fb0c9f-IMG_9767.jpg)
+![Adjustable KW dampers in their case, for the 997.1 nose lift](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)
+![Complete KW suspension kit with yellow springs, on its assembly tray](/img/magazine/f65940b6-IMG_9764.jpg)
+![KW dampers and the hydraulic unit of the nose lift system](/img/magazine/5db11e6a-IMG_9765.jpg)
+![The nose lift hydraulic pump among the KW dampers](/img/magazine/73741cf4-IMG_9766.jpg)
+![Detail of the KW nose lift reservoir and hydraulic block, with its part number](/img/magazine/31fb0c9f-IMG_9767.jpg)
 :::

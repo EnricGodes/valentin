@@ -35,9 +35,9 @@ En variante s991 y 992 el fabricante lo ofrece como opción de fábrica y sobre 
 Estamos convencidos qeu es un upgrade que no afecta ala originalidad y sí a la comodidad del sistema.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![099977DF-48D2-4AAB-9D23-F30138669EED.JPG](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)
-![IMG_9764.jpg](/img/magazine/f65940b6-IMG_9764.jpg)
-![IMG_9765.jpg](/img/magazine/5db11e6a-IMG_9765.jpg)
-![IMG_9766.jpg](/img/magazine/73741cf4-IMG_9766.jpg)
-![IMG_9767.jpg](/img/magazine/31fb0c9f-IMG_9767.jpg)
+![Amortiguadores regulables KW en su caja, para el nose lift del 997.1](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)
+![Juego completo de suspensión KW con muelles amarillos, sobre su bandeja de montaje](/img/magazine/f65940b6-IMG_9764.jpg)
+![Amortiguadores KW y el grupo hidráulico del sistema de elevación de morro](/img/magazine/5db11e6a-IMG_9765.jpg)
+![La bomba hidráulica del nose lift entre los amortiguadores KW](/img/magazine/73741cf4-IMG_9766.jpg)
+![Detalle del depósito y el bloque hidráulico del nose lift KW, con su referencia](/img/magazine/31fb0c9f-IMG_9767.jpg)
 :::

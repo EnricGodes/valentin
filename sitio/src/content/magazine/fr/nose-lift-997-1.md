@@ -35,9 +35,9 @@ Dans la variante s991 et 992 le constructeur le propose en option d'usine et sur
 Nous sommes convaincus qu'il s'agit d'une mise à niveau qui n'altère pas l'originalité mais affecte le confort du système.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![099977DF-48D2-4AAB-9D23-F30138669EED.JPG](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)
-![IMG_9764.jpg](/img/magazine/f65940b6-IMG_9764.jpg)
-![IMG_9765.jpg](/img/magazine/5db11e6a-IMG_9765.jpg)
-![IMG_9766.jpg](/img/magazine/73741cf4-IMG_9766.jpg)
-![IMG_9767.jpg](/img/magazine/31fb0c9f-IMG_9767.jpg)
+![Amortisseurs réglables KW dans leur coffret, pour le nose lift de la 997.1](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)
+![Kit de suspension KW complet à ressorts jaunes, sur son plateau de montage](/img/magazine/f65940b6-IMG_9764.jpg)
+![Amortisseurs KW et groupe hydraulique du système de relevage d'avant](/img/magazine/5db11e6a-IMG_9765.jpg)
+![La pompe hydraulique du nose lift entre les amortisseurs KW](/img/magazine/73741cf4-IMG_9766.jpg)
+![Détail du réservoir et du bloc hydraulique du nose lift KW, avec sa référence](/img/magazine/31fb0c9f-IMG_9767.jpg)
 :::

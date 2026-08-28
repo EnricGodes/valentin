@@ -21,6 +21,6 @@ ctas:
 ## Valentin Motors Porsche Madrid
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![WhatsApp-Bild 2026-07-22 unter 13.12.17.jpeg](/img/magazine/bcc926fa-WhatsApp-Image-2026-07-22-at-13.12.17.jpeg)
-![WhatsApp-Bild 2026-07-22 um 13.12.30.jpeg](/img/magazine/f4d23137-WhatsApp-Image-2026-07-22-at-13.12.30.jpeg)
+![Porsche-Reihe in der Boxengasse von Jarama beim Porsche Spain Meeting 2026](/img/magazine/bcc926fa-WhatsApp-Image-2026-07-22-at-13.12.17.jpeg)
+![Die Porsche vor der Haupttribüne von Jarama beim Porsche Spain Meeting 2026](/img/magazine/f4d23137-WhatsApp-Image-2026-07-22-at-13.12.30.jpeg)
 :::
