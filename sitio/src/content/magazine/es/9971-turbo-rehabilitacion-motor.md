@@ -14,7 +14,7 @@ ctas:
   - texto: "Más información"
     href: "/contacto"
 ---
-![](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
+![El motor del 997.1 Turbo embalado en un palé, dentro de la furgoneta](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
 
 Proceso completo de rehabilitación de motor de 997.1 turbo
 
@@ -27,16 +27,16 @@ Ruido interno motor
 Compresión motor y endoscopio cilindros.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240315_143644.jpg](/img/magazine/8ca378e5-20240315_143644.jpg)
-![20240315_143650.jpg](/img/magazine/7b269585-20240315_143650.jpg)
-![20240315_143656.jpg](/img/magazine/40598fe8-20240315_143656.jpg)
-![20240315_143702.jpg](/img/magazine/92637a7c-20240315_143702.jpg)
-![20240315_143706.jpg](/img/magazine/97bbd243-20240315_143706.jpg)
-![20240315_143713.jpg](/img/magazine/595dd588-20240315_143713.jpg)
-![20240315_143716.jpg](/img/magazine/5e3ad7f9-20240315_143716.jpg)
-![20240315_143848.jpg](/img/magazine/7c468a07-20240315_143848.jpg)
-![20240315_143858.jpg](/img/magazine/292cce20-20240315_143858.jpg)
-![20240315_143909.jpg](/img/magazine/b67cfbdc-20240315_143909.jpg)
+![Motor del 997.1 Turbo recién descargado, con la caja del filtro de aire encima](/img/magazine/8ca378e5-20240315_143644.jpg)
+![El motor del 997.1 Turbo montado en el caballete, con el cableado aún sin retirar](/img/magazine/7b269585-20240315_143650.jpg)
+![Frontal del motor del 997.1 Turbo con las poleas y la correa de accesorios](/img/magazine/40598fe8-20240315_143656.jpg)
+![Vista lateral del motor del 997.1 Turbo con la admisión y el mazo de cables](/img/magazine/92637a7c-20240315_143702.jpg)
+![El motor del 997.1 Turbo por el lado de los colectores, antes de despiezarlo](/img/magazine/97bbd243-20240315_143706.jpg)
+![Detalle del colector de admisión y la mariposa del 997.1 Turbo](/img/magazine/595dd588-20240315_143713.jpg)
+![Tuberías y manguitos sobre la culata del 997.1 Turbo](/img/magazine/5e3ad7f9-20240315_143716.jpg)
+![Detalle de la bomba y su circuito de tubos en el motor del 997.1 Turbo](/img/magazine/7c468a07-20240315_143848.jpg)
+![Parte alta del motor del 997.1 Turbo con las bobinas y las líneas de combustible](/img/magazine/292cce20-20240315_143858.jpg)
+![Detalle del colector de escape del 997.1 Turbo visto desde abajo](/img/magazine/b67cfbdc-20240315_143909.jpg)
 ![20240315_162454.jpg](/img/magazine/acdc813a-20240315_162454.jpg)
 ![20240315_162648.jpg](/img/magazine/0ec302d2-20240315_162648.jpg)
 ![20240318_083910.jpg](/img/magazine/1f57b34d-20240318_083910.jpg)

@@ -151,10 +151,10 @@ Disfrutamos a lo grande de la jornada, con plazas totalmente cubiertas y una gra
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Los Porsche del III Endurance aparcados en un mirador, con un 996 Turbo de llantas doradas en primer plano](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
 ![Foto de grupo del III Endurance al anochecer, entre un 997 negro y un 964 Cabriolet rojo](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
-![WhatsApp-Image-2018-12-17-at-10.59.35.jpeg](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
-![WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
-![WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)
-![WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg](/img/magazine/d5cb71ae-WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg)
+![Panorámica del III Endurance en un alto, con un 993 azul y un 964 Carrera 4 rojo sobre campos de cultivo](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
+![Los participantes del III Endurance rodean un 964 Carrera rojo en una parada de la ruta](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
+![Un 993 azul marino abre la marcha por una carretera de curvas entre pinos, en el III Endurance](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)
+![Zagas de 964 y 993 aparcados en una explanada de tierra durante el III Endurance](/img/magazine/d5cb71ae-WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg)
 :::
 
 ### II Endurance Tour “Le Tech”

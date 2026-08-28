@@ -14,7 +14,7 @@ ctas:
   - texto: "Maggiori informazioni"
     href: "/contacto"
 ---
-![](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
+![Il motore della 997.1 Turbo imballato su un pallet, dentro il furgone](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
 
 Processo completo di revisione motore di 997.1 turbo
 
@@ -27,16 +27,16 @@ Rumore interno del motore
 Compressione del cilindro del motore e dell'endoscopio.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240315_143644.jpg](/img/magazine/8ca378e5-20240315_143644.jpg)
-![20240315_143650.jpg](/img/magazine/7b269585-20240315_143650.jpg)
-![20240315_143656.jpg](/img/magazine/40598fe8-20240315_143656.jpg)
-![20240315_143702.jpg](/img/magazine/92637a7c-20240315_143702.jpg)
-![20240315_143706.jpg](/img/magazine/97bbd243-20240315_143706.jpg)
-![20240315_143713.jpg](/img/magazine/595dd588-20240315_143713.jpg)
-![20240315_143716.jpg](/img/magazine/5e3ad7f9-20240315_143716.jpg)
-![20240315_143848.jpg](/img/magazine/7c468a07-20240315_143848.jpg)
-![20240315_143858.jpg](/img/magazine/292cce20-20240315_143858.jpg)
-![20240315_143909.jpg](/img/magazine/b67cfbdc-20240315_143909.jpg)
+![Motore della 997.1 Turbo appena scaricato, con la scatola filtro sopra](/img/magazine/8ca378e5-20240315_143644.jpg)
+![Il motore della 997.1 Turbo montato sul cavalletto, con il cablaggio ancora al suo posto](/img/magazine/7b269585-20240315_143650.jpg)
+![Frontale del motore della 997.1 Turbo con le pulegge e la cinghia servizi](/img/magazine/40598fe8-20240315_143656.jpg)
+![Vista laterale del motore della 997.1 Turbo con l'aspirazione e il cablaggio](/img/magazine/92637a7c-20240315_143702.jpg)
+![Il motore della 997.1 Turbo dal lato dei collettori, prima dello smontaggio](/img/magazine/97bbd243-20240315_143706.jpg)
+![Dettaglio del collettore di aspirazione e della farfalla della 997.1 Turbo](/img/magazine/595dd588-20240315_143713.jpg)
+![Tubazioni e manicotti sopra la testata della 997.1 Turbo](/img/magazine/5e3ad7f9-20240315_143716.jpg)
+![Dettaglio della pompa e del suo circuito di tubi sul motore della 997.1 Turbo](/img/magazine/7c468a07-20240315_143848.jpg)
+![Parte alta del motore della 997.1 Turbo con le bobine e le linee carburante](/img/magazine/292cce20-20240315_143858.jpg)
+![Dettaglio del collettore di scarico della 997.1 Turbo visto dal basso](/img/magazine/b67cfbdc-20240315_143909.jpg)
 ![20240315_162454.jpg](/img/magazine/acdc813a-20240315_162454.jpg)
 ![20240315_162648.jpg](/img/magazine/0ec302d2-20240315_162648.jpg)
 ![20240318_083910.jpg](/img/magazine/1f57b34d-20240318_083910.jpg)

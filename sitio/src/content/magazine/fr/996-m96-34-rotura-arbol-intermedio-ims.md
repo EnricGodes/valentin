@@ -43,13 +43,13 @@ Nous devons accorder une attention particulière aux directives des entretien à
 Le démontage complet des culasses et la fabrication des sièges et guides de soupapes sont la clé du processus.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![photo 2.jpg](/img/magazine/fd76012d-foto-2.jpg)
-![photo 3.jpg](/img/magazine/192ae06b-foto-3.jpg)
-![photo 4.jpg](/img/magazine/dc331b3b-foto-4.jpg)
-![photo 5.jpg](/img/magazine/3ebd1ae2-foto-5.jpg)
-![photo 6.jpg](/img/magazine/564aff33-foto-6.jpg)
-![photo 7.jpg](/img/magazine/68709cb8-foto-7.jpg)
-![photo portada.jpg](/img/magazine/eb9deec1-foto-portada.jpg)
+![Bloc moteur M96 3.4 sur son support, cylindres à nu](/img/magazine/fd76012d-foto-2.jpg)
+![Culasse, chaîne de distribution et collecteurs du M96 disposés sur le plateau](/img/magazine/192ae06b-foto-3.jpg)
+![Démontage complet du M96 trié en bacs : arbres à cames, culasse et visserie](/img/magazine/dc331b3b-foto-4.jpg)
+![Carter d'huile du M96 nettoyé, posé sur la feuille de mesures du moteur](/img/magazine/3ebd1ae2-foto-5.jpg)
+![Masquage de la culasse du M96 avant application du produit de nettoyage](/img/magazine/564aff33-foto-6.jpg)
+![Détail du logement de l'arbre intermédiaire, la pièce à l'origine de la panne](/img/magazine/68709cb8-foto-7.jpg)
+![Le bloc du M96 3.4 fixé sur l'outillage, prêt au remontage](/img/magazine/eb9deec1-foto-portada.jpg)
 ![moteur 1 (1).jpg](/img/magazine/6ab79100-motor-1-1-.jpg)
 ![moteur 1 (2).jpg](/img/magazine/fd0e476a-motor-1-2-.jpg)
 ![moteur 1 (3).jpg](/img/magazine/4ad02b71-motor-1-3-.jpg)
@@ -57,7 +57,7 @@ Le démontage complet des culasses et la fabrication des sièges et guides de so
 ![moteur 1 (5).jpg](/img/magazine/0d8fcbb1-motor-1-5-.jpg)
 ![moteur 1 (6).jpg](/img/magazine/ff38cc20-motor-1-6-.jpg)
 ![moteur 1 (7).jpg](/img/magazine/103ca9b7-motor-1-7-.jpg)
-![PHOTO-2024-01-24-18-08-04.jpg](/img/magazine/3c3f99a1-PHOTO-2024-01-24-18-08-04.jpg)
+![Bloc du M96 avec l'échangeur d'huile monté, sur le support d'atelier](/img/magazine/3c3f99a1-PHOTO-2024-01-24-18-08-04.jpg)
 :::
 
 ## Entretien du IMS

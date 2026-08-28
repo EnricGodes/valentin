@@ -43,13 +43,13 @@ Hemos de tener especial precaución en las pautas de los servicios de mantenimie
 Desmontar completamente culatas y realizar asientos de válvulas y guias es clave en el proceso.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![foto 2.jpg](/img/magazine/fd76012d-foto-2.jpg)
-![foto 3.jpg](/img/magazine/192ae06b-foto-3.jpg)
-![foto 4.jpg](/img/magazine/dc331b3b-foto-4.jpg)
-![foto 5.jpg](/img/magazine/3ebd1ae2-foto-5.jpg)
-![foto 6.jpg](/img/magazine/564aff33-foto-6.jpg)
-![foto 7.jpg](/img/magazine/68709cb8-foto-7.jpg)
-![foto portada.jpg](/img/magazine/eb9deec1-foto-portada.jpg)
+![Bloque del motor M96 3.4 sobre el caballete, con los cilindros a la vista](/img/magazine/fd76012d-foto-2.jpg)
+![Culata, cadena de distribución y colectores del M96 ordenados sobre la bandeja](/img/magazine/192ae06b-foto-3.jpg)
+![Despiece completo del M96 clasificado en bandejas: árboles de levas, culata y tornillería](/img/magazine/dc331b3b-foto-4.jpg)
+![Cárter de aceite del M96 limpio, sobre la hoja de mediciones del motor](/img/magazine/3ebd1ae2-foto-5.jpg)
+![Enmascarado de la culata del M96 antes de aplicar el producto de limpieza](/img/magazine/564aff33-foto-6.jpg)
+![Detalle del alojamiento del árbol intermedio, la pieza que provoca la avería](/img/magazine/68709cb8-foto-7.jpg)
+![El bloque del M96 3.4 sujeto en el útil de trabajo, listo para el montaje](/img/magazine/eb9deec1-foto-portada.jpg)
 ![motor 1 (1).jpg](/img/magazine/6ab79100-motor-1-1-.jpg)
 ![motor 1 (2).jpg](/img/magazine/fd0e476a-motor-1-2-.jpg)
 ![motor 1 (3).jpg](/img/magazine/4ad02b71-motor-1-3-.jpg)
@@ -57,7 +57,7 @@ Desmontar completamente culatas y realizar asientos de válvulas y guias es clav
 ![motor 1 (5).jpg](/img/magazine/0d8fcbb1-motor-1-5-.jpg)
 ![motor 1 (6).jpg](/img/magazine/ff38cc20-motor-1-6-.jpg)
 ![motor 1 (7).jpg](/img/magazine/103ca9b7-motor-1-7-.jpg)
-![PHOTO-2024-01-24-18-08-04.jpg](/img/magazine/3c3f99a1-PHOTO-2024-01-24-18-08-04.jpg)
+![Bloque del M96 con el intercambiador de aceite montado, sobre el caballete del taller](/img/magazine/3c3f99a1-PHOTO-2024-01-24-18-08-04.jpg)
 :::
 
 ## Mantenimiento preventivo del IMS

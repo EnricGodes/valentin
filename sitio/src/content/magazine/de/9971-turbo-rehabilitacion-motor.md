@@ -14,7 +14,7 @@ ctas:
   - texto: "Weitere Informationen"
     href: "/contacto"
 ---
-![](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
+![Der Motor des 997.1 Turbo auf einer Palette verpackt, im Transporter](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
 
 Vollständiger Prozess der Motorüberholung von 997.1 turbo
 
@@ -27,16 +27,16 @@ Internes Motorgeräusch
 Kompression von Motor und Endoskopzylinder.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240315_143644.jpg](/img/magazine/8ca378e5-20240315_143644.jpg)
-![20240315_143650.jpg](/img/magazine/7b269585-20240315_143650.jpg)
-![20240315_143656.jpg](/img/magazine/40598fe8-20240315_143656.jpg)
-![20240315_143702.jpg](/img/magazine/92637a7c-20240315_143702.jpg)
-![20240315_143706.jpg](/img/magazine/97bbd243-20240315_143706.jpg)
-![20240315_143713.jpg](/img/magazine/595dd588-20240315_143713.jpg)
-![20240315_143716.jpg](/img/magazine/5e3ad7f9-20240315_143716.jpg)
-![20240315_143848.jpg](/img/magazine/7c468a07-20240315_143848.jpg)
-![20240315_143858.jpg](/img/magazine/292cce20-20240315_143858.jpg)
-![20240315_143909.jpg](/img/magazine/b67cfbdc-20240315_143909.jpg)
+![Gerade abgeladener Motor des 997.1 Turbo, darauf der Luftfilterkasten](/img/magazine/8ca378e5-20240315_143644.jpg)
+![Der Motor des 997.1 Turbo auf dem Ständer, der Kabelbaum noch montiert](/img/magazine/7b269585-20240315_143650.jpg)
+![Stirnseite des 997.1 Turbo Motors mit Riemenscheiben und Nebenaggregateriemen](/img/magazine/40598fe8-20240315_143656.jpg)
+![Seitenansicht des 997.1 Turbo Motors mit Ansaugtrakt und Kabelbaum](/img/magazine/92637a7c-20240315_143702.jpg)
+![Der 997.1 Turbo Motor von der Krümmerseite, vor der Zerlegung](/img/magazine/97bbd243-20240315_143706.jpg)
+![Detail von Saugrohr und Drosselklappe des 997.1 Turbo](/img/magazine/595dd588-20240315_143713.jpg)
+![Leitungen und Schläuche über dem Zylinderkopf des 997.1 Turbo](/img/magazine/5e3ad7f9-20240315_143716.jpg)
+![Detail der Pumpe und ihrer Leitungen am 997.1 Turbo Motor](/img/magazine/7c468a07-20240315_143848.jpg)
+![Oberseite des 997.1 Turbo Motors mit Zündspulen und Kraftstoffleitungen](/img/magazine/292cce20-20240315_143858.jpg)
+![Detail des Abgaskrümmers des 997.1 Turbo von unten](/img/magazine/b67cfbdc-20240315_143909.jpg)
 ![20240315_162454.jpg](/img/magazine/acdc813a-20240315_162454.jpg)
 ![20240315_162648.jpg](/img/magazine/0ec302d2-20240315_162648.jpg)
 ![20240318_083910.jpg](/img/magazine/1f57b34d-20240318_083910.jpg)

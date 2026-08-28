@@ -151,10 +151,10 @@ Gaudim en gran de la jornada, amb places totalment cobertes i una gran participa
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Els Porsche del III Endurance aparcats en un mirador, amb un 996 Turbo de llantes daurades en primer pla](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
 ![Foto de grup del III Endurance al capvespre, entre un 997 negre i un 964 Cabriolet vermell](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
-![WhatsApp-Image-2018-12-17-at-10.59.35.jpeg](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
-![WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
-![WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)
-![WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg](/img/magazine/d5cb71ae-WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg)
+![Panoràmica del III Endurance en un alt, amb un 993 blau i un 964 Carrera 4 vermell sobre camps de conreu](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
+![Els participants del III Endurance envolten un 964 Carrera vermell en una parada de la ruta](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
+![Un 993 blau marí obre la marxa per una carretera de corbes entre pins, al III Endurance](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)
+![Zagues de 964 i 993 aparcats en una esplanada de terra durant el III Endurance](/img/magazine/d5cb71ae-WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg)
 :::
 
 ### II Endurance Tour “Le Tech”

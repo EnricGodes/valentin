@@ -14,7 +14,7 @@ ctas:
   - texto: "More information"
     href: "/contacto"
 ---
-![](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
+![The 997.1 Turbo engine crated on a pallet, inside the van](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
 
 Complete process of engine rebuild of 997.1 turbo
 
@@ -27,16 +27,16 @@ Internal engine noise
 Engine and endoscope cylinder compression.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240315_143644.jpg](/img/magazine/8ca378e5-20240315_143644.jpg)
-![20240315_143650.jpg](/img/magazine/7b269585-20240315_143650.jpg)
-![20240315_143656.jpg](/img/magazine/40598fe8-20240315_143656.jpg)
-![20240315_143702.jpg](/img/magazine/92637a7c-20240315_143702.jpg)
-![20240315_143706.jpg](/img/magazine/97bbd243-20240315_143706.jpg)
-![20240315_143713.jpg](/img/magazine/595dd588-20240315_143713.jpg)
-![20240315_143716.jpg](/img/magazine/5e3ad7f9-20240315_143716.jpg)
-![20240315_143848.jpg](/img/magazine/7c468a07-20240315_143848.jpg)
-![20240315_143858.jpg](/img/magazine/292cce20-20240315_143858.jpg)
-![20240315_143909.jpg](/img/magazine/b67cfbdc-20240315_143909.jpg)
+![997.1 Turbo engine just unloaded, with the airbox on top](/img/magazine/8ca378e5-20240315_143644.jpg)
+![The 997.1 Turbo engine mounted on the stand, wiring still in place](/img/magazine/7b269585-20240315_143650.jpg)
+![Front of the 997.1 Turbo engine with the pulleys and accessory belt](/img/magazine/40598fe8-20240315_143656.jpg)
+![Side view of the 997.1 Turbo engine with the intake and wiring loom](/img/magazine/92637a7c-20240315_143702.jpg)
+![The 997.1 Turbo engine from the manifold side, before teardown](/img/magazine/97bbd243-20240315_143706.jpg)
+![Detail of the 997.1 Turbo's intake plenum and throttle body](/img/magazine/595dd588-20240315_143713.jpg)
+![Pipework and hoses over the 997.1 Turbo's cylinder head](/img/magazine/5e3ad7f9-20240315_143716.jpg)
+![Detail of the pump and its pipework on the 997.1 Turbo engine](/img/magazine/7c468a07-20240315_143848.jpg)
+![Top of the 997.1 Turbo engine with the coils and fuel lines](/img/magazine/292cce20-20240315_143858.jpg)
+![Detail of the 997.1 Turbo's exhaust manifold seen from below](/img/magazine/b67cfbdc-20240315_143909.jpg)
 ![20240315_162454.jpg](/img/magazine/acdc813a-20240315_162454.jpg)
 ![20240315_162648.jpg](/img/magazine/0ec302d2-20240315_162648.jpg)
 ![20240318_083910.jpg](/img/magazine/1f57b34d-20240318_083910.jpg)

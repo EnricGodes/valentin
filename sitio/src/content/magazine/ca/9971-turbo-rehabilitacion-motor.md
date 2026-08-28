@@ -14,7 +14,7 @@ ctas:
   - texto: "Més informació"
     href: "/contacto"
 ---
-![](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
+![El motor del 997.1 Turbo embalat en un palet, dins la furgoneta](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
 
 Procés complet de rehabilitació de motor de 997.1 turbo
 
@@ -27,16 +27,16 @@ Soroll intern motor
 Compressió motor i endoscopi cilindres.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240315_143644.jpg](/img/magazine/8ca378e5-20240315_143644.jpg)
-![20240315_143650.jpg](/img/magazine/7b269585-20240315_143650.jpg)
-![20240315_143656.jpg](/img/magazine/40598fe8-20240315_143656.jpg)
-![20240315_143702.jpg](/img/magazine/92637a7c-20240315_143702.jpg)
-![20240315_143706.jpg](/img/magazine/97bbd243-20240315_143706.jpg)
-![20240315_143713.jpg](/img/magazine/595dd588-20240315_143713.jpg)
-![20240315_143716.jpg](/img/magazine/5e3ad7f9-20240315_143716.jpg)
-![20240315_143848.jpg](/img/magazine/7c468a07-20240315_143848.jpg)
-![20240315_143858.jpg](/img/magazine/292cce20-20240315_143858.jpg)
-![20240315_143909.jpg](/img/magazine/b67cfbdc-20240315_143909.jpg)
+![Motor del 997.1 Turbo acabat de descarregar, amb la caixa del filtre d'aire a sobre](/img/magazine/8ca378e5-20240315_143644.jpg)
+![El motor del 997.1 Turbo muntat al cavallet, amb el cablejat encara sense retirar](/img/magazine/7b269585-20240315_143650.jpg)
+![Frontal del motor del 997.1 Turbo amb les politges i la corretja d'accessoris](/img/magazine/40598fe8-20240315_143656.jpg)
+![Vista lateral del motor del 997.1 Turbo amb l'admissió i el feix de cables](/img/magazine/92637a7c-20240315_143702.jpg)
+![El motor del 997.1 Turbo pel costat dels col·lectors, abans de desmuntar-lo](/img/magazine/97bbd243-20240315_143706.jpg)
+![Detall del col·lector d'admissió i la papallona del 997.1 Turbo](/img/magazine/595dd588-20240315_143713.jpg)
+![Canonades i maneguets sobre la culata del 997.1 Turbo](/img/magazine/5e3ad7f9-20240315_143716.jpg)
+![Detall de la bomba i el seu circuit de tubs al motor del 997.1 Turbo](/img/magazine/7c468a07-20240315_143848.jpg)
+![Part alta del motor del 997.1 Turbo amb les bobines i les línies de combustible](/img/magazine/292cce20-20240315_143858.jpg)
+![Detall del col·lector d'escapament del 997.1 Turbo vist des de baix](/img/magazine/b67cfbdc-20240315_143909.jpg)
 ![20240315_162454.jpg](/img/magazine/acdc813a-20240315_162454.jpg)
 ![20240315_162648.jpg](/img/magazine/0ec302d2-20240315_162648.jpg)
 ![20240318_083910.jpg](/img/magazine/1f57b34d-20240318_083910.jpg)
