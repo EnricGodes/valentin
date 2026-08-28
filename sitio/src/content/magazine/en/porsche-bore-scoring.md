@@ -54,9 +54,9 @@ Below, an example of an M97 block sleeved with Nickies (NIKASIL), ready for asse
 In this case the displacement was also taken from 3.8 to 4.0.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![M97 block sleeved with Nickies](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-![Detail of the sleeved block](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-![Block ready for assembly](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+![Sleeved cylinder bores of an M97 engine block, with the honing crosshatch visible](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
+![Three cylinder bores of an M97 block seen from the cylinder head face](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
+![Close-up of a finished sleeved bore, beside the block's threaded hole](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
 :::
 
 ## Preventing bore scoring

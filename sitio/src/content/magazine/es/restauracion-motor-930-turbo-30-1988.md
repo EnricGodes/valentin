@@ -20,7 +20,7 @@ ctas: []
 
 Ejemplod e restauración de motor 930 turbo 3.0 en Valentin Motors
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 

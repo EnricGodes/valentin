@@ -24,7 +24,7 @@ Wir haben uns entschieden, eine Restaurierung in allen Bereichen des Fahrzeugs d
 
 *Auftritt des Geräts direkt vor der Lackierkabine*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Am Steuer eines Porsche auf der Autobahn, am späten Nachmittag](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordis Meinung
 

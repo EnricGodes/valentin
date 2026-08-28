@@ -54,9 +54,9 @@ Debajo ejemplo de bloque motor M97 encamisado con Nickies (Nicasil) , listo para
 En este caso también aumentado de cubicaje de 3.8 a 4.0.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-![a732127c-94e7-4e9e-b015-55dcf021fdef.jpg](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-![c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+![Cilindros encamisados de un bloque motor M97, con el rayado de bruñido a la vista](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
+![Tres cilindros de un bloque M97 vistos desde el plano de culata](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
+![Detalle de un cilindro encamisado terminado, junto al orificio roscado del bloque](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
 :::
 
 ## Mantenimiento preventivo del Bore Scoring

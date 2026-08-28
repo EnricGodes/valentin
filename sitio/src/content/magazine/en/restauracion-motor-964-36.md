@@ -28,7 +28,7 @@ The Mezger block is the standard of design and reliability both used on the stre
 
 Here we have a common example of massive oil leaks from engine block which forces us to open the entire engine.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![At the wheel of a Porsche on the motorway, late in the afternoon](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordi's opinion
 

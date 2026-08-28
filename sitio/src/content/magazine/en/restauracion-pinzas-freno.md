@@ -22,7 +22,7 @@ The brake system is stripped completely, then the parts are blasted with every o
 
 The part is prepared for paint and the decals are applied. In some cases it is worth replacing the piston repair kit, so that fluid flow through the system is exactly right.
 
-![Caliper during the work](/img/magazine/49e62d8d-IMG_5792.JPG)
+![At the wheel of a Porsche on the motorway, late in the afternoon](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordi’s view
 

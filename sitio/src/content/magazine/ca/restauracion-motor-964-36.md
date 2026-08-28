@@ -28,7 +28,7 @@ El bloc Mezger és l'estendard de disseny i fiabilitat tant usat al carrer com a
 
 Aquí tenim un exemple comú de fuites d'oli massives per bloc motor cosa que ens obliga a obrir motor complet.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volant d'un Porsche per autopista, a última hora de la tarda](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinió de Jordi
 

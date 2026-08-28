@@ -54,9 +54,9 @@ Unten ein M97 Block, mit Nickies (NIKASIL) gebüchst und bereit zum Zusammenbau.
 In diesem Fall wurde der Hubraum zugleich von 3,8 auf 4,0 vergrößert.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![Mit Nickies gebüchster M97 Block](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-![Detail des gebüchsten Blocks](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-![Block bereit zum Zusammenbau](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+![Gebüchste Zylinder eines M97 Motorblocks mit sichtbarem Honbild](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
+![Drei Zylinder eines M97 Blocks von der Zylinderkopfebene aus](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
+![Detail einer fertig gebüchsten Zylinderlaufbahn neben der Gewindebohrung des Blocks](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
 :::
 
 ## Vorbeugung gegen Bore Scoring

@@ -12,7 +12,7 @@ squarespaceId: "658d71ca44f03b70c0181754"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-centro-valentin-motors-en-madrid"
 ctas: []
 ---
-![](/img/magazine/d137f571-IMG_9271.JPG)
+![Dos personas conversan en la nave del centro de Leganés, con un coche cubierto al fondo](/img/magazine/d137f571-IMG_9271.JPG)
 
 ***Tras más de cuatro décadas de trabajo ininterrumpido en Barcelona, a principios de noviembre abrió el nuevo centro valentin Motors en Leganés para dar servicio a los porschistas de toda el área de Madrid y la zona centro de España. Este es un paso muy importante para esta empresa familiar de apasionados de la marca alemana, que se convierte así en el único taller especialista PORSCHE independiente de España con***[***centros en Barcelona***](https://www.valentinmotors.es/barcelona)***y Madrid. En esta entrevista, Jordi Edo, director de la empresa, nos explica los***[***servicios y actividades que VALENTIN Motors ofrece desde ya en Madrid***](https://www.valentinmotors.es/madrid)***. Porque la idea es crear también aquí una comunidad de fans de PORSCHE.***
 
@@ -38,7 +38,7 @@ En el proyecto de expansión de VALENTIN tenemos tres objetivos: Marbella, Andor
 
 Nuestro portfolio de servicios es muy extenso, ofrecemos soluciones para toda la gama PORSCHE desde el primer 356, pasando por los transaxle, hasta los modernos 718, 992 Panamera y los SUVS de la marca. En el taller [contamos con tecnología de última generación para dar servicio a cualquier modelo PORSCHE de cualquier época](https://www.valentinmotors.es/taller-porsche). Contamos con un equipo de profesionales especializados en la marca y estamos suscritos a la plataforma oficial Porsche Partner Network, así que trabajamos con toda la información técnica directa del fabricante.
 
-![](/img/magazine/84dfa9eb-IMG_9273.JPG)
+![Porsche 964 rojo enmascarado para pintura junto a la cabina del centro de Leganés](/img/magazine/84dfa9eb-IMG_9273.JPG)
 
 ## “Queremos dar un impulso importante a la compra-venta de Porsche de ocasión”
 
@@ -50,7 +50,7 @@ Este es un servicio que llevamos ofreciendo desde hace años y al que ahora quer
 
 Sin duda, queremos extender la comunidad VALENTIN al área de Madrid. Igual que llevamos años haciendo en Barcelona, aquí seguiremos con nuestros eventos, charlas y coloquios sobre temas de interés para los conductores PORSCHE. También estamos empezando a preparar el primer Trackday, porque a todos los porschistas lo que más nos gusta es encontrarnos sobre el asfalto.
 
-![](/img/magazine/fe34fa7b-IMG_9274.JPG)
+![Porsche 911 gris con el vano motor abierto sobre el elevador del taller de Leganés](/img/magazine/fe34fa7b-IMG_9274.JPG)
 
 ## “Llevamos desde 1979 trabajando exclusivamente con vehículos de la marca Porsche”
 

@@ -25,7 +25,7 @@ Il tempo è fondamentale negli incendi e questa volta ha distrutto completamente
 
 *Aspetto dell'unità recentemente arrivata nei nostri laboratori sulla Gran Via di Barcellona nel luglio 2022*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante di una Porsche in autostrada, nel tardo pomeriggio](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinione di Jordi
 

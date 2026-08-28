@@ -26,7 +26,7 @@ Les novetats que van fer del model un èxit: tracció integral, sistema d’ABS 
 
 Es presenta el 1988 amb un motor 3.6 de 250 CV de doble encesa per aconseguir més fiabilitat, es corregeix l’efecte aerodinàmic amb un spoiler posterior retràctil i en versió 4. El 1989 apareix la versió Carrera 2.
 
-![964 a la carretera](/img/magazine/7d05824d-nika-qufarashvili-3NZ2LuVpKeI-unsplash.jpg)
+![Porsche 964 Turbo negre en marxa per una carretera de muntanya](/img/magazine/7d05824d-nika-qufarashvili-3NZ2LuVpKeI-unsplash.jpg)
 
 Amb el 964 tenim una explosió de colors: fins a 58 colors en diferents versions, alguns recuperats d’altres versions però la majoria nous — 80K indischrot, 40D espressobraun, 37B taubenblau i un llarg etcètera. Alhora, podem parlar d’un vehicle amb **pensament ecològic**: per primera vegada la pintura és **a l’aigua**, sense dissolvents, i el 80% dels plàstics es poden **reciclar**.
 
@@ -36,7 +36,7 @@ Amb el 964 tenim una explosió de colors: fins a 58 colors en diferents versions
 
 Parlant de les versions Turbo, cal destacar les diferents motoritzacions: Turbo 3.3 amb 320 CV, Turbo S 3.3 amb 381 CV i, el 1993, Turbo 3.6 amb 360 CV. Però hi ha diferents versions que han fet d’aquest model un esperit d’esportivitat: Speedster, RS de curses i de carrer, vehicles austers i preparats per a la competició, amb motoritzacions de 275 CV i tracció només posterior.
 
-![Detall del 964](/img/magazine/6328b22b-valentin-b-kremer-mhrZmA_2eEg-unsplash.jpg)
+![Porsche 911 Turbo negre aparcat de perfil davant d'una façana de maó](/img/magazine/6328b22b-valentin-b-kremer-mhrZmA_2eEg-unsplash.jpg)
 
 Un total de 63.762 unitats han fet d’aquest model un dels preferits pels amants de la marca. Senzill, lleuger, ràpid i fiable són les seves característiques més grans, que fan les delícies dels propietaris.
 

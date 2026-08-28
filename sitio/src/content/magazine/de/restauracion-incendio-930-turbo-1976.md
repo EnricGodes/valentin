@@ -25,7 +25,7 @@ Bei Bränden ist Zeit entscheidend und dieses Mal wurden 75% der Motorkomponente
 
 *Aussehen der Einheit, die kürzlich im Juli 2022* in unseren Werkstätten auf der Gran Via in Barcelona eingetroffen ist*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Am Steuer eines Porsche auf der Autobahn, am späten Nachmittag](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordis Meinung
 

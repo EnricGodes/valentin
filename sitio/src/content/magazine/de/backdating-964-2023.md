@@ -39,9 +39,9 @@ Trotzdem ziehen wir die roten Linien selbst, mit Blick auf das, was später komm
 Das Spenderfahrzeug war ein 964 Carrera 4 von 1991.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![Ausgangszustand des 964](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
-![Ausgangszustand des 964](/img/magazine/a50fbad1-adcc2326-2511-4237-88ec-8bf24964d64f.jpg)
-![Ausgangszustand des 964](/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg)
+![Nachtblauer Porsche 964 mit Valentín Motors Beschriftung, dahinter ein Boxermotor auf dem Ständer](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
+![Seitenansicht des nachtblauen 964 mit weißem Spiegel und halb abgezogener Abdeckung](/img/magazine/a50fbad1-adcc2326-2511-4237-88ec-8bf24964d64f.jpg)
+![Front des nachtblauen Porsche 964 mit Rundscheinwerfern und dreiteiligen Felgen](/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg)
 :::
 
 ## Technik
@@ -49,12 +49,12 @@ Das Spenderfahrzeug war ein 964 Carrera 4 von 1991.
 Bei diesem Projekt vergrößern wir den Hubraum des 964 nicht auf 3,8. Das Upgrade ist eine Stage 1: EPROM Chip, Luftmengenmesser, spezieller Luftfilter und Sportauspuffanlage.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![Motorarbeiten](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
-![Motorarbeiten](/img/magazine/0a078660-9a860b68-1ec1-48e6-986a-9210f12d1338.jpg)
-![Motorarbeiten](/img/magazine/2ca28776-49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg)
-![Motorarbeiten](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
-![Motorarbeiten](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
-![Motorarbeiten](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
+![Frisch elfenbein lackiertes Gebläserad neben dem schwarzen Gebläsegehäuse](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
+![Geschlossenes Boxer-Kurbelgehäuse auf der Werkbank, ringsum die Durchgangsbolzen](/img/magazine/0a078660-9a860b68-1ec1-48e6-986a-9210f12d1338.jpg)
+![Drei Ansaugstutzen mit neuen Dichtungen, bereit zur Montage](/img/magazine/2ca28776-49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg)
+![Block, Kurbelwelle mit Pleueln und Nockenwellen zerlegt auf der Wanne](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
+![Die sechs Kolben mit ihren Zylindern und die Zylinderköpfe, zerlegt auf der Werkbank](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
+![Boxermotor im Zusammenbau mit freiliegenden Steuerketten](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
 ![Motorarbeiten](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
 ![Motorarbeiten](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
 ![Motorarbeiten](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)

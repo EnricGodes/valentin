@@ -28,7 +28,7 @@ Der Mezger-Block ist der Maßstab für Design und Zuverlässigkeit sowohl im Str
 
 Hier haben wir ein häufiges Beispiel für massive Öllecks am Motorblock, die uns dazu zwingen, den gesamten Motor zu öffnen.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Am Steuer eines Porsche auf der Autobahn, am späten Nachmittag](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordis Meinung
 

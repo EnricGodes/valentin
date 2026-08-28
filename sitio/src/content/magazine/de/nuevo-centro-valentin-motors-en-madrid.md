@@ -12,7 +12,7 @@ squarespaceId: "658d71ca44f03b70c0181754"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-centro-valentin-motors-en-madrid"
 ctas: []
 ---
-![Das neue Valentin Motors Zentrum in Leganés](/img/magazine/d137f571-IMG_9271.JPG)
+![Zwei Personen im Gespräch in der Halle in Leganés, im Hintergrund ein abgedecktes Fahrzeug](/img/magazine/d137f571-IMG_9271.JPG)
 
 ***Nach mehr als vier Jahrzehnten ununterbrochener Arbeit in Barcelona hat Anfang November das neue Valentin Motors Zentrum in Leganés eröffnet, um Porsche Fahrer im gesamten Raum Madrid und in der Mitte Spaniens zu betreuen. Für dieses Familienunternehmen von Anhängern der deutschen Marke ist das ein wichtiger Schritt: Es wird damit zur einzigen freien Porsche Fachwerkstatt Spaniens mit*** [***Standorten in Barcelona***](/barcelona) ***und Madrid. In diesem Gespräch erklärt Jordi Edo, der das Unternehmen führt, die*** [***Leistungen und Aktivitäten, die Valentin Motors ab sofort in Madrid anbietet***](/madrid)***. Denn die Idee ist, auch hier eine Gemeinschaft von Porsche Menschen aufzubauen.***
 
@@ -38,7 +38,7 @@ Unser Wachstumsplan hat drei Ziele: Marbella, Andorra und Madrid. Madrid ist am 
 
 Unser Leistungsspektrum ist sehr breit: Wir bieten Lösungen für das gesamte Porsche Programm, vom ersten 356 über die Transaxle Modelle bis zu den aktuellen 718, 992, Panamera und den SUV der Marke. In der Werkstatt haben wir [Technik auf dem neuesten Stand, um jedes Porsche Modell aus jeder Epoche zu betreuen](/taller-porsche). Wir haben ein Team von Fachleuten für die Marke und sind an die offizielle Plattform Porsche Partner Network angeschlossen, arbeiten also mit technischen Informationen direkt vom Hersteller.
 
-![Fahrzeuge im neuen Zentrum](/img/magazine/84dfa9eb-IMG_9273.JPG)
+![Roter Porsche 964, für die Lackierung abgeklebt, neben der Lackierkabine in Leganés](/img/magazine/84dfa9eb-IMG_9273.JPG)
 
 ## „Wir wollen dem An- und Verkauf gebrauchter Porsche deutlich mehr Gewicht geben“
 
@@ -50,7 +50,7 @@ Diesen Service bieten wir seit Jahren an, und ihm wollen wir jetzt deutlich mehr
 
 Ganz sicher. Wir wollen die Valentin Gemeinschaft auf den Raum Madrid ausdehnen. So wie wir es seit Jahren in Barcelona tun, führen wir auch hier unsere Veranstaltungen, Vorträge und Gesprächsrunden zu Themen fort, die Porsche Fahrer interessieren. Wir bereiten außerdem den ersten Track Day vor, denn was Porsche Menschen am liebsten mögen, ist sich auf Asphalt zu treffen.
 
-![Das Team im neuen Zentrum](/img/magazine/fe34fa7b-IMG_9274.JPG)
+![Grauer Porsche 911 mit geöffnetem Motorraum auf der Hebebühne in Leganés](/img/magazine/fe34fa7b-IMG_9274.JPG)
 
 ## „Seit 1979 arbeiten wir ausschließlich an Porsche“
 

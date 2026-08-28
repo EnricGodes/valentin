@@ -54,9 +54,9 @@ Qui sotto, un esempio di monoblocco M97 ricannato con Nickies (NIKASIL), pronto 
 In questo caso la cilindrata è stata anche portata da 3.8 a 4.0.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![Monoblocco M97 ricannato con Nickies](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-![Dettaglio del monoblocco ricannato](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-![Monoblocco pronto per il montaggio](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+![Cilindri canneggiati di un monoblocco M97, con la levigatura a vista](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
+![Tre cilindri di un monoblocco M97 visti dal piano testata](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
+![Dettaglio di un cilindro canneggiato finito, accanto al foro filettato del monoblocco](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
 :::
 
 ## Prevenzione del bore scoring

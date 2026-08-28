@@ -25,7 +25,7 @@ El temps és clau en els incendis i aquesta vegada va destruir completament el 7
 
 *Aspecte de la unitat nouvinguda als nostres tallers de la Gran Via de Barcelona al juliol 2022*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volant d'un Porsche per autopista, a última hora de la tarda](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinió de Jordi
 

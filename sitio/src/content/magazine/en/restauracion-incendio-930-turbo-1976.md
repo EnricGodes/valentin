@@ -25,7 +25,7 @@ Time is key in fires and this time it completely destroyed 75% of the engine com
 
 *Appearance of the unit that recently arrived at our workshops on Gran Via in Barcelona in July 2022*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![At the wheel of a Porsche on the motorway, late in the afternoon](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordi's opinion
 

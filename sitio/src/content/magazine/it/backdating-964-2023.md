@@ -39,9 +39,9 @@ Ciononostante, le linee rosse le tracciamo noi, in vista di quello che potrà su
 La vettura donatrice è stata una 964 Carrera 4 del 1991.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![Stato di partenza della 964](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
-![Stato di partenza della 964](/img/magazine/a50fbad1-adcc2326-2511-4237-88ec-8bf24964d64f.jpg)
-![Stato di partenza della 964](/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg)
+![Porsche 964 blu notte con adesivi Valentín Motors e un boxer sul cavalletto sullo sfondo](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
+![Fiancata della 964 blu notte con specchietto bianco e il telo a metà](/img/magazine/a50fbad1-adcc2326-2511-4237-88ec-8bf24964d64f.jpg)
+![Frontale della Porsche 964 blu notte con fari tondi e cerchi a tre pezzi](/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg)
 :::
 
 ## Meccanica
@@ -49,12 +49,12 @@ La vettura donatrice è stata una 964 Carrera 4 del 1991.
 In questo progetto non porteremo la cilindrata di questa 964 a 3.8: l’upgrade sarà uno Stage 1 con chip EPROM, misuratore di portata, filtro aria dedicato e impianto di scarico sportivo.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![Lavori al motore](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
-![Lavori al motore](/img/magazine/0a078660-9a860b68-1ec1-48e6-986a-9210f12d1338.jpg)
-![Lavori al motore](/img/magazine/2ca28776-49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg)
-![Lavori al motore](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
-![Lavori al motore](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
-![Lavori al motore](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
+![Ventola di raffreddamento appena verniciata in avorio accanto alla scatola ventola nera](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
+![Basamento del boxer richiuso sul banco, con i tiranti passanti tutt'intorno](/img/magazine/0a078660-9a860b68-1ec1-48e6-986a-9210f12d1338.jpg)
+![Tre manicotti di aspirazione con guarnizioni nuove, pronti al montaggio](/img/magazine/2ca28776-49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg)
+![Monoblocco, albero motore con bielle e alberi a camme smontati sul vassoio](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
+![I sei pistoni con i loro cilindri e le testate, smontati sul banco](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
+![Boxer in fase di montaggio con le catene di distribuzione a vista](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
 ![Lavori al motore](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
 ![Lavori al motore](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
 ![Lavori al motore](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)

@@ -22,7 +22,7 @@ El treball als interiors dels 911 clàssics és complet a nivell de recerca i de
 
 L'elecció dels materials i de la seva col·locació és clau i afecta el valor de la unitat en un alt índex.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volant d'un Porsche per autopista, a última hora de la tarda](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinió de Jordi
 

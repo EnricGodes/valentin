@@ -24,7 +24,7 @@ We decided to carry out a restoration in all sections of the vehicle.
 
 *Appearance of the unit just outside the paint booth*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![At the wheel of a Porsche on the motorway, late in the afternoon](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordi's opinion
 

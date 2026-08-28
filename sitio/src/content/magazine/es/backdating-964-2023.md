@@ -39,9 +39,9 @@ Aún así, las líneas rojas las marcamos nosotros en favor de lo que puedas pas
 El donante ha sido un 964 Carrera 4 de 1991
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![356411aa-9447-4774-8a6c-6ccd06db6827.jpg](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
-![adcc2326-2511-4237-88ec-8bf24964d64f.jpg](/img/magazine/a50fbad1-adcc2326-2511-4237-88ec-8bf24964d64f.jpg)
-![ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg](/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg)
+![Porsche 964 azul noche con vinilo de Valentín Motors y un motor bóxer en el caballete al fondo](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
+![Lateral del 964 azul noche con retrovisor blanco y la funda a medio retirar](/img/magazine/a50fbad1-adcc2326-2511-4237-88ec-8bf24964d64f.jpg)
+![Frontal del Porsche 964 azul noche con faros redondos y llantas de tres piezas](/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg)
 :::
 
 ## Mecánica
@@ -49,12 +49,12 @@ El donante ha sido un 964 Carrera 4 de 1991
 En este proyecto no vamos a aumentar la cilindrada de este 964 a 3.8, el upgrade va a ser un Stage 1 con chip EPROM, caudalímetro, filtro Aire especial y sistema de escape deportivo.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![7b35d37a-d062-462c-8dcb-3960bad1e318.jpg](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
-![9a860b68-1ec1-48e6-986a-9210f12d1338.jpg](/img/magazine/0a078660-9a860b68-1ec1-48e6-986a-9210f12d1338.jpg)
-![49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg](/img/magazine/2ca28776-49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg)
-![fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
-![c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
-![9738e64b-52f0-4a35-b37d-3afd5290025b.jpg](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
+![Turbina de refrigeración recién pintada en marfil junto a la carcasa del ventilador en negro](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
+![Cárter del motor bóxer cerrado sobre el banco, con los espárragos pasantes alrededor](/img/magazine/0a078660-9a860b68-1ec1-48e6-986a-9210f12d1338.jpg)
+![Tres manguitos de admisión con juntas nuevas, listos para montar](/img/magazine/2ca28776-49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg)
+![Bloque, cigüeñal con bielas y árboles de levas despiezados sobre la bandeja](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
+![Los seis pistones con sus cilindros y las culatas, desmontados sobre el banco](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
+![Motor bóxer en montaje con las cadenas de distribución al descubierto](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
 ![96008b08-f73e-4a67-9519-eed8e5b52331.jpg](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
 ![37871ceb-125f-4ec6-9c54-264872662634.jpg](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
 ![b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)

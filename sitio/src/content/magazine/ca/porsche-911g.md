@@ -34,7 +34,7 @@ La nova generació del 911 va sortir al mercat al setembre de 1973. El seu nou d
 
 Mentre que a la Sèrie F encara es podien veure signes visuals dels anys 60, el nou 911 es presentava clarament com un cotxe dels anys 70. La part del darrere a penes va canviar, però el nou para-xocs amb manxa, juntament amb un reflector vermell amb el logotip de Porsche situat entre els pilots, **van crear una aparença completament nova i significativament més moderna.** El nou model també es va beneficiar d'un sistema d'escapament amb més protecció contra l'òxid.
 
-![](/img/magazine/6f4845fd-img_10-1024x576.jpg)
+![Porsche 911 Cabriolet sèrie G blanc amb la capota plegada, tres quarts posterior](/img/magazine/6f4845fd-img_10-1024x576.jpg)
 
 A l'interior, l'estil va rebre contorns més definits. Els **seients esportius amb reposacaps integrats,** que segueixen sent tan familiars avui dia, es van utilitzar per primera vegada a 1973. Es van estrenar les **tapes per als compartiments de les portes,** que es convertirien en una característica reconeguda de Porsche. El volant i les palanques de llums eren noves i hi havia dues reixetes d'aire addicionals.
 
@@ -42,7 +42,7 @@ En el pla mecànic, el Porsche 911 de Sèrie G muntava el **bloc de sis cilindre
 
 ## Sis versions del Porsche 911 sèrie G
 
-![](/img/magazine/046425b4-img_6-1024x576.jpg)
+![Porsche 911 Carrera sèrie G blanc amb aleró de gall, vista lateral zenital](/img/magazine/046425b4-img_6-1024x576.jpg)
 
 El canvi de generació també es va saldar amb la creació de noves versions, a més de les tradicionals RS i Targa, cosa que va aportar una major versatilitat a l'esportiu germànic.
 

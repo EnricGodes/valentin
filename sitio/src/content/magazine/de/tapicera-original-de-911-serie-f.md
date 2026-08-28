@@ -22,7 +22,7 @@ Die Arbeiten an der Innenausstattung des klassischen 911 sind hinsichtlich Forsc
 
 Die Auswahl der Materialien und deren Platzierung ist von entscheidender Bedeutung und beeinflusst in hohem Maße den Wert des Geräts.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Am Steuer eines Porsche auf der Autobahn, am späten Nachmittag](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordis Meinung
 

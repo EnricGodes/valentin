@@ -54,9 +54,9 @@ Ci-dessous, un exemple de bloc M97 chemisé en Nickies (NIKASIL), prêt au remon
 Dans ce cas, la cylindrée est également passée de 3,8 à 4,0.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![Bloc M97 chemisé en Nickies](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-![Détail du bloc chemisé](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-![Bloc prêt au remontage](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+![Cylindres chemisés d'un bloc moteur M97, avec les traces de rodage visibles](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
+![Trois cylindres d'un bloc M97 vus depuis le plan de culasse](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
+![Détail d'un cylindre chemisé terminé, à côté du trou fileté du bloc](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
 :::
 
 ## Prévention du bore scoring

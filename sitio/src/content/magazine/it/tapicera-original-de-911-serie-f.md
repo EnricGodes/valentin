@@ -22,7 +22,7 @@ Il lavoro sugli interni della classica 911 è completo in termini di ricerca e q
 
 La scelta dei materiali e il loro posizionamento sono fondamentali e influiscono in larga misura sul valore dell'unità.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante di una Porsche in autostrada, nel tardo pomeriggio](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinione di Jordi
 

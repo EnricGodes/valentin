@@ -25,7 +25,7 @@ Le temps est la clé des incendies et cette fois il a complètement détruit 75%
 
 *Apparition de l'unité récemment arrivée dans nos ateliers de la Gran Via de Barcelone en juillet 2022*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Au volant d'une Porsche sur l'autoroute, en fin d'après-midi](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'avis de Jordi
 

@@ -22,7 +22,7 @@ Desmontaje completo del sistema de frenos, posteriormente chorreo o arenado de l
 
 preparación de la pieza para pintura y colocación stickers, en algunos casos si ay es conveniente sustituir el juego de reparación de pistones para tener un perfecto caudal de líquido en el sistema.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 

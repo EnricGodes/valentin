@@ -28,7 +28,7 @@ Le bloc Mezger est la norme de conception et de fiabilité utilisée aussi bien 
 
 Nous avons ici un exemple courant de fuites d'huile massives du bloc moteur qui nous oblige à ouvrir tout le moteur.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Au volant d'une Porsche sur l'autoroute, en fin d'après-midi](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'avis de Jordi
 

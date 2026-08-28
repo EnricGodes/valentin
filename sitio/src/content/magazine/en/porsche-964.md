@@ -26,7 +26,7 @@ The changes that made the car a success: all-wheel drive, ABS and power steering
 
 It was presented in 1988 with a 3.6-litre engine producing 250 hp and twin ignition for greater reliability. The aerodynamics were addressed with a retractable rear spoiler, and the car came in the 4 version. In 1989 the Carrera 2 appeared.
 
-![964 on the road](/img/magazine/7d05824d-nika-qufarashvili-3NZ2LuVpKeI-unsplash.jpg)
+![Black Porsche 964 Turbo on the move along a mountain road](/img/magazine/7d05824d-nika-qufarashvili-3NZ2LuVpKeI-unsplash.jpg)
 
 With the 964 came an explosion of colour: up to 58 shades across the versions, some brought back from earlier cars but most of them new — 80K indischrot, 40D espressobraun, 37B taubenblau and a long list besides. It was also a car with **an eye on the environment**: for the first time the paint was **water-based**, without solvents, and 80% of the plastics could be **recycled**.
 
@@ -36,7 +36,7 @@ It was a distinctive model that opened a new chapter for Porsche, a prosperous o
 
 On the subject of the Turbo versions, the range is worth noting: Turbo 3.3 with 320 hp, Turbo S 3.3 with 381 hp and, in 1993, Turbo 3.6 with 360 hp. But there were other versions that gave this model its sporting character: the Speedster and the RS in road and racing form, spare cars built for competition, with 275 hp and rear-wheel drive only.
 
-![964 detail](/img/magazine/6328b22b-valentin-b-kremer-mhrZmA_2eEg-unsplash.jpg)
+![Black Porsche 911 Turbo parked in profile against a brick facade](/img/magazine/6328b22b-valentin-b-kremer-mhrZmA_2eEg-unsplash.jpg)
 
 A total of 63,762 cars have made this one of the favourites among enthusiasts of the marque. Simple, light, quick and reliable: the qualities its owners value most.
 

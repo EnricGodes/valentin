@@ -28,7 +28,7 @@ El bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la call
 
 Aquí tenemos un ejemplo común de fugas de aceite masivas por bloque motor lo cual nos obliga a abrir motor completo.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 

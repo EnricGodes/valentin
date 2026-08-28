@@ -34,7 +34,7 @@ Die neue Generation des 911 kam im September 1973 auf den Markt. Sein neues Desi
 
 Während bei der F-Serie noch optische Zeichen der Jahre zu erkennen waren 60, das Neue 911 Es präsentierte sich eindeutig als ein Auto aus den vergangenen Jahren 70. Der hintere Teil hat sich kaum verändert, aber der neue Balgstoßfänger, dazu ein roter Reflektor mit dem Logo Porsche befindet sich zwischen den Piloten, **Sie schufen einen völlig neuen und deutlich moderneren Look.** Das neue Modell profitierte außerdem von einer Abgasanlage mit höherem Rostschutz.
 
-![](/img/magazine/6f4845fd-img_10-1024x576.jpg)
+![Weißes Porsche 911 Cabriolet der G-Serie mit geöffnetem Verdeck, Heckansicht schräg](/img/magazine/6f4845fd-img_10-1024x576.jpg)
 
 Im Inneren erhielt der Stil klarere Konturen. Die **Sportsitze mit integrierten Kopfstützen,** die heute noch so geläufig sind, wurden erstmals in verwendet 1973. Die **Abdeckungen für Türfächer,** was zu einem anerkannten Merkmal von werden würde Porsche. Das Lenkrad und die Lichtschalter waren neu und es gab zwei zusätzliche Lüftungsschlitze.
 
@@ -42,7 +42,7 @@ Auf mechanischer Ebene ist die Porsche 911 Serie G montiert die **Sechszylinderb
 
 ## Sechs Versionen der Porsche 911 G-Serie
 
-![](/img/magazine/046425b4-img_6-1024x576.jpg)
+![Weißer Porsche 911 Carrera der G-Serie mit Entenbürzel, seitliche Aufsicht](/img/magazine/046425b4-img_6-1024x576.jpg)
 
 Der Generationswechsel führte neben den traditionellen Modellen RS und Targa auch zur Entstehung neuer Versionen, die dem deutschen Sportwagen eine größere Vielseitigkeit verliehen.
 

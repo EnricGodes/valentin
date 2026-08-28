@@ -12,7 +12,7 @@ squarespaceId: "680a72ef13f4b6087499ac85"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-taller-barcelona"
 ctas: []
 ---
-![Le nouvel atelier Valentin Motors à Barcelone](/img/magazine/6898818b-vm.jpg)
+![Façade de l'atelier Valentín Motors à Barcelone, avec une 911 en vitrine](/img/magazine/6898818b-vm.jpg)
 
 L’année où elle fête ses **45 ans d’histoire**, Valentin Motors, référence de l’entretien, de la restauration et de la personnalisation des Porsche en Espagne, franchit une étape de plus avec l’ouverture d’un **nouvel atelier à Barcelone**, situé rue **Varsòvia, 65**.
 

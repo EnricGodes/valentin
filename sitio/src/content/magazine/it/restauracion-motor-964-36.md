@@ -28,7 +28,7 @@ Il blocco Mezger è lo standard di design e affidabilità sia utilizzato su stra
 
 Qui abbiamo un esempio comune di massicce perdite di olio dal monoblocco che ci costringe ad aprire l'intero motore.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante di una Porsche in autostrada, nel tardo pomeriggio](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinione di Jordi
 

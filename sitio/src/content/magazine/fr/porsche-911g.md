@@ -34,7 +34,7 @@ La nouvelle génération de la 911 est arrivée sur le marché en septembre 1973
 
 Alors que les signes visuels des années 60 étaient encore visibles sur la Série F, la nouvelle 911 se présentait clairement comme une voiture des 70. L'arrière n'a pratiquement pas été modifié, mais le nouveau pare-chocs à soufflet, associé à un réflecteur rouge avec le logo Porsche situé entre les feux arrière, **créait une apparence complètement nouvelle et nettement plus moderne.** Le nouveau modèle bénéficiait également d'un système d'échappement avec une protection accrue contre la rouille.
 
-![](/img/magazine/6f4845fd-img_10-1024x576.jpg)
+![Porsche 911 Cabriolet série G blanche capote repliée, trois quarts arrière](/img/magazine/6f4845fd-img_10-1024x576.jpg)
 
 À l’intérieur, le style reçoit des contours plus définis. Le **sièges sport avec appuis-tête intégrés,** qui sont encore si familiers aujourd'hui, ont été utilisés pour la première fois dans 1973. Le **couvercles pour compartiments de porte,** qui deviendrait une caractéristique reconnue de Porsche. Le volant et les manettes d'éclairage étaient neufs et il y avait deux bouches d'aération supplémentaires.
 
@@ -42,7 +42,7 @@ Sur le plan mécanique, le Porsche 911 La série G a monté le **bloc six cylind
 
 ## Six versions de la série Porsche 911 G
 
-![](/img/magazine/046425b4-img_6-1024x576.jpg)
+![Porsche 911 Carrera série G blanche à aileron ducktail, vue latérale en plongée](/img/magazine/046425b4-img_6-1024x576.jpg)
 
 Le changement de génération a également entraîné la création de nouvelles versions, en plus des traditionnelles RS et Targa, qui ont apporté une plus grande polyvalence à la voiture de sport allemande.
 

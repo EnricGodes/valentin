@@ -26,7 +26,7 @@ Le novità che hanno reso il modello un successo: trazione integrale, ABS e serv
 
 Viene presentata nel 1988 con un motore 3.6 da 250 CV a doppia accensione, per una maggiore affidabilità. L’aerodinamica viene corretta con uno spoiler posteriore a scomparsa, in versione 4. Nel 1989 arriva la Carrera 2.
 
-![964 su strada](/img/magazine/7d05824d-nika-qufarashvili-3NZ2LuVpKeI-unsplash.jpg)
+![Porsche 964 Turbo nera in marcia su una strada di montagna](/img/magazine/7d05824d-nika-qufarashvili-3NZ2LuVpKeI-unsplash.jpg)
 
 Con la 964 arriva un’esplosione di colori: fino a 58 tinte nelle varie versioni, alcune riprese da modelli precedenti ma per lo più nuove — 80K indischrot, 40D espressobraun, 37B taubenblau e un lungo elenco. Allo stesso tempo è una vettura con **un’attenzione ecologica**: per la prima volta la vernice è **all’acqua**, senza solventi, e l’80% delle plastiche è **riciclabile**.
 
@@ -36,7 +36,7 @@ Con la 964 arriva un’esplosione di colori: fino a 58 tinte nelle varie version
 
 A proposito delle versioni Turbo, vanno segnalate le diverse motorizzazioni: Turbo 3.3 da 320 CV, Turbo S 3.3 da 381 CV e, nel 1993, Turbo 3.6 da 360 CV. Ma altre versioni hanno dato a questo modello il suo spirito sportivo: Speedster, RS da corsa e da strada, vetture essenziali e preparate per la competizione, con 275 CV e sola trazione posteriore.
 
-![Dettaglio della 964](/img/magazine/6328b22b-valentin-b-kremer-mhrZmA_2eEg-unsplash.jpg)
+![Porsche 911 Turbo nera parcheggiata di profilo davanti a una facciata in mattoni](/img/magazine/6328b22b-valentin-b-kremer-mhrZmA_2eEg-unsplash.jpg)
 
 In totale 63.762 esemplari hanno reso questo modello uno dei preferiti dagli appassionati della casa. Semplice, leggera, veloce e affidabile: sono le qualità che i proprietari apprezzano di più.
 

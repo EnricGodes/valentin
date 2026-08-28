@@ -26,7 +26,7 @@ Die Neuerungen, die das Modell erfolgreich machten: Allradantrieb, ABS und Servo
 
 Vorgestellt wurde er 1988 mit einem 3,6-Liter-Motor mit 250 PS und Doppelzündung für mehr Zuverlässigkeit. Die Aerodynamik wurde mit einem ausfahrbaren Heckspoiler korrigiert, angeboten in der Version 4. 1989 kam der Carrera 2.
 
-![964 auf der Straße](/img/magazine/7d05824d-nika-qufarashvili-3NZ2LuVpKeI-unsplash.jpg)
+![Schwarzer Porsche 964 Turbo in Fahrt auf einer Bergstraße](/img/magazine/7d05824d-nika-qufarashvili-3NZ2LuVpKeI-unsplash.jpg)
 
 Mit dem 964 kam eine Explosion an Farben: bis zu 58 Töne über die Versionen hinweg, einige aus früheren Modellen übernommen, die meisten neu — 80K Indischrot, 40D Espressobraun, 37B Taubenblau und eine lange Liste mehr. Zugleich war es ein Fahrzeug mit **ökologischem Anspruch**: erstmals war der Lack **wasserbasiert**, ohne Lösungsmittel, und 80% der Kunststoffe waren **recycelbar**.
 
@@ -36,7 +36,7 @@ Ein prägendes Modell, das für die Marke einen neuen Abschnitt eröffnete, eine
 
 Bei den Turbo Versionen sind die verschiedenen Motorisierungen hervorzuheben: Turbo 3.3 mit 320 PS, Turbo S 3.3 mit 381 PS und, 1993, Turbo 3.6 mit 360 PS. Daneben gaben andere Versionen dem Modell seinen sportlichen Charakter: Speedster, RS als Renn- und Straßenversion, karge und für den Wettbewerb vorbereitete Fahrzeuge mit 275 PS und reinem Heckantrieb.
 
-![Detail des 964](/img/magazine/6328b22b-valentin-b-kremer-mhrZmA_2eEg-unsplash.jpg)
+![Schwarzer Porsche 911 Turbo im Profil vor einer Backsteinfassade geparkt](/img/magazine/6328b22b-valentin-b-kremer-mhrZmA_2eEg-unsplash.jpg)
 
 Insgesamt 63.762 Fahrzeuge haben dieses Modell zu einem der beliebtesten unter den Anhängern der Marke gemacht. Einfach, leicht, schnell und zuverlässig: das sind die Eigenschaften, die seine Besitzer am meisten schätzen.
 

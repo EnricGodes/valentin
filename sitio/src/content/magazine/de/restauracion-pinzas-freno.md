@@ -22,7 +22,7 @@ Die Bremsanlage wird vollständig zerlegt, anschließend werden die Teile gestra
 
 Das Teil wird für die Lackierung vorbereitet und die Schriftzüge werden aufgebracht. In manchen Fällen lohnt es sich, den Kolbenreparatursatz zu ersetzen, damit der Flüssigkeitsdurchsatz im System genau stimmt.
 
-![Bremssattel während der Arbeit](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Am Steuer eines Porsche auf der Autobahn, am späten Nachmittag](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordis Sicht
 

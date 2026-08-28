@@ -20,7 +20,7 @@ ctas: []
 
 Exemple de restauration du moteur 930 turbo 3.0 chez Valentin Motors
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Au volant d'une Porsche sur l'autoroute, en fin d'après-midi](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'avis de Jordi
 

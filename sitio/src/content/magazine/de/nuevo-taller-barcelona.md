@@ -12,7 +12,7 @@ squarespaceId: "680a72ef13f4b6087499ac85"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-taller-barcelona"
 ctas: []
 ---
-![Die neue Werkstatt von Valentin Motors in Barcelona](/img/magazine/6898818b-vm.jpg)
+![Fassade der Werkstatt von Valentín Motors in Barcelona, mit einem 911 im Schaufenster](/img/magazine/6898818b-vm.jpg)
 
 Im Jahr seines **45-jährigen Bestehens** geht Valentin Motors, eine feste Größe bei Wartung, Restaurierung und Personalisierung von Porsche in Spanien, einen weiteren Schritt: mit der Eröffnung einer **neuen Werkstatt in Barcelona**, in der **Carrer de Varsòvia 65**.
 

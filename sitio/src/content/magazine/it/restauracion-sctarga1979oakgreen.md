@@ -24,7 +24,7 @@ Abbiamo deciso di effettuare un restauro in tutte le sezioni del veicolo.
 
 *Aspetto dell'unità appena fuori dalla cabina di verniciatura*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante di una Porsche in autostrada, nel tardo pomeriggio](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinione di Jordi
 

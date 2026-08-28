@@ -39,9 +39,9 @@ Malgré cela, les lignes rouges, c’est nous qui les traçons, en vue de ce qui
 La voiture donneuse est une 964 Carrera 4 de 1991.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![État de départ de la 964](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
-![État de départ de la 964](/img/magazine/a50fbad1-adcc2326-2511-4237-88ec-8bf24964d64f.jpg)
-![État de départ de la 964](/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg)
+![Porsche 964 bleu nuit aux stickers Valentín Motors, un flat-six sur son support au fond](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
+![Flanc de la 964 bleu nuit, rétroviseur blanc et housse à demi retirée](/img/magazine/a50fbad1-adcc2326-2511-4237-88ec-8bf24964d64f.jpg)
+![Face avant de la Porsche 964 bleu nuit, phares ronds et jantes trois pièces](/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg)
 :::
 
 ## Mécanique
@@ -49,12 +49,12 @@ La voiture donneuse est une 964 Carrera 4 de 1991.
 Sur ce projet, nous n’allons pas porter cette 964 à 3,8. L’évolution sera un Stage 1 : puce EPROM, débitmètre, filtre à air spécifique et ligne d’échappement sport.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![Travaux moteur](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
-![Travaux moteur](/img/magazine/0a078660-9a860b68-1ec1-48e6-986a-9210f12d1338.jpg)
-![Travaux moteur](/img/magazine/2ca28776-49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg)
-![Travaux moteur](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
-![Travaux moteur](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
-![Travaux moteur](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
+![Turbine de refroidissement fraîchement peinte en ivoire à côté du carter de ventilateur noir](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
+![Carter du flat-six refermé sur l'établi, goujons traversants disposés autour](/img/magazine/0a078660-9a860b68-1ec1-48e6-986a-9210f12d1338.jpg)
+![Trois manchons d'admission avec joints neufs, prêts au montage](/img/magazine/2ca28776-49c16b1d-bbe1-4049-b7ed-e55012585fb7.jpg)
+![Bloc, vilebrequin avec bielles et arbres à cames démontés sur le plateau](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
+![Les six pistons avec leurs cylindres et les culasses, démontés sur l'établi](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
+![Flat-six en cours de remontage, chaînes de distribution à nu](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
 ![Travaux moteur](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
 ![Travaux moteur](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
 ![Travaux moteur](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)

@@ -20,7 +20,7 @@ ctas: []
 
 Example of restoration of engine 930 turbo 3.0 at Valentin Motors
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![At the wheel of a Porsche on the motorway, late in the afternoon](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordi's opinion
 

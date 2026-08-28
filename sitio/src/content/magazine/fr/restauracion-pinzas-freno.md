@@ -22,7 +22,7 @@ Démontage complet du système de freinage, puis sablage des pièces, tous les o
 
 Préparation de la pièce pour la peinture et pose des autocollants. Dans certains cas, il est utile de remplacer le kit de réparation des pistons, afin d’obtenir un débit de liquide parfait dans le circuit.
 
-![Étrier en cours d’intervention](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Au volant d'une Porsche sur l'autoroute, en fin d'après-midi](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L’avis de Jordi
 

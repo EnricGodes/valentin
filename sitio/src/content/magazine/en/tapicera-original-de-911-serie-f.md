@@ -22,7 +22,7 @@ The work on the interiors of the classic 911 is complete in terms of research an
 
 The choice of materials and their placement is key and affects the value of the unit to a high degree.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![At the wheel of a Porsche on the motorway, late in the afternoon](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordi's opinion
 

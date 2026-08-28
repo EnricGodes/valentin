@@ -25,7 +25,7 @@ El tiempo es clave en los incendios y esta vez destruyó por completo el 75% de 
 
 *Aspecto de la unidad recién llegada a nuestros talleres de la Gran Via de Barcelona en julio 2022*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 

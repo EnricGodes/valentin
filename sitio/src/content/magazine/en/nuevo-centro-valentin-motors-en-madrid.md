@@ -12,7 +12,7 @@ squarespaceId: "658d71ca44f03b70c0181754"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-centro-valentin-motors-en-madrid"
 ctas: []
 ---
-![The new Valentin Motors centre in Leganés](/img/magazine/d137f571-IMG_9271.JPG)
+![Two people talking in the Leganés workshop, with a covered car in the background](/img/magazine/d137f571-IMG_9271.JPG)
 
 ***After more than four decades of unbroken work in Barcelona, at the beginning of November the new Valentin Motors centre opened in Leganés, to serve Porsche owners across the Madrid area and central Spain. It is an important step for this family business of enthusiasts of the German marque, which becomes the only independent Porsche specialist workshop in Spain with*** [***centres in Barcelona***](/barcelona) ***and Madrid. In this interview, Jordi Edo, who runs the company, explains the*** [***services and activities Valentin Motors now offers in Madrid***](/madrid)***. Because the idea is to build a community of Porsche people here too.***
 
@@ -38,7 +38,7 @@ Our expansion plan has three targets: Marbella, Andorra and Madrid. In the end M
 
 Our range of services is very broad. We offer solutions across the whole Porsche range, from the first 356 through the transaxle cars to the modern 718, 992, Panamera and the marque's SUVs. In the workshop we have [current-generation equipment to service any Porsche model of any period](/taller-porsche). We have a team of specialists in the marque, and we are subscribed to the official Porsche Partner Network platform, so we work with technical information straight from the manufacturer.
 
-![Cars at the new centre](/img/magazine/84dfa9eb-IMG_9273.JPG)
+![Red Porsche 964 masked for paint beside the spray booth at the Leganés centre](/img/magazine/84dfa9eb-IMG_9273.JPG)
 
 ## "We want to give a real push to buying and selling used Porsche"
 
@@ -50,7 +50,7 @@ This is a service we have offered for years and one we now want to push properly
 
 Certainly. We want to extend the Valentin community to the Madrid area. As we have done for years in Barcelona, we will carry on with our events, talks and discussions on subjects that interest Porsche drivers. We are also starting to prepare the first track day, because what Porsche people like most is meeting on tarmac.
 
-![The team at the new centre](/img/magazine/fe34fa7b-IMG_9274.JPG)
+![Grey Porsche 911 with the engine bay open on the lift at the Leganés workshop](/img/magazine/fe34fa7b-IMG_9274.JPG)
 
 ## "We have worked exclusively on Porsche since 1979"
 

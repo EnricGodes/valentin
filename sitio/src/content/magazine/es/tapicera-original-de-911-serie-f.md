@@ -22,7 +22,7 @@ El trabajo en los interiores de los 911 clásicos es completo a nivel de investi
 
 La elección de los materiales y de su colocación es clave y afecta al valor de la unidad en eun alto índice.
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 

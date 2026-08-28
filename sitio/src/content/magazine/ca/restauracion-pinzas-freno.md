@@ -22,7 +22,7 @@ Desmuntatge complet del sistema de frens i, tot seguit, raig de sorra de les pec
 
 Preparació de la peça per a la pintura i col·locació d’adhesius. En alguns casos convé substituir el joc de reparació de pistons per tenir un cabal de líquid perfecte al circuit.
 
-![Pinça durant la intervenció](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Al volant d'un Porsche per autopista, a última hora de la tarda](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L’opinió d’en Jordi
 

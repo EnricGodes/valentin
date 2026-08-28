@@ -24,7 +24,7 @@ Nous avons décidé d'effectuer une restauration dans toutes les sections du vé
 
 *Apparition de l'unité juste à l'extérieur de la cabine de peinture*
 
-![](/img/magazine/49e62d8d-IMG_5792.JPG)
+![Au volant d'une Porsche sur l'autoroute, en fin d'après-midi](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'avis de Jordi
 
