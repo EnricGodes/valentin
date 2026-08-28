@@ -119,10 +119,10 @@ Ubicazione: Solsonés e Cerdanya
 Questa volta, il nostro tour si è concentrato su una mattinata intensa, di cui abbiamo approfittato per percorrere le spettacolari strade di **Solsonés**, passando per le pendici del **Cadí**, e arrivando così a **Seu D'Urgell**, con paesaggi che ci hanno lasciato senza fiato. Dopo un viaggio intenso ma gratificante, siamo arrivati a **El Paller de Queixans**, a Puigcerdà, per gustare la sua cucina tipica e poterci riposare, senza fretta né preoccupazioni, prima di ritornare a casa.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
-![WhatsApp-Image-2019-04-03-at-10.37.10.jpeg](/img/magazine/609caa04-WhatsApp-Image-2019-04-03-at-10.37.10.jpeg)
-![WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg](/img/magazine/ac26c85a-WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg)
-![WhatsApp-Image-2019-03-30.jpeg](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
+![Veduta aerea delle Porsche del V Endurance allineate sulla strada accanto a una chiesa romanica](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
+![Briefing del V Endurance in officina, davanti all'espositore di pneumatici](/img/magazine/609caa04-WhatsApp-Image-2019-04-03-at-10.37.10.jpeg)
+![Veduta aerea del V Endurance che attraversa un borgo in pietra ai piedi della montagna](/img/magazine/ac26c85a-WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg)
+![Veduta dall'alto di una quindicina di Porsche del V Endurance parcheggiate, da una 930 Turbo bianca a una 991](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
 :::
 
 ### IV Endurance "Il bacio alla francese"
@@ -133,12 +133,12 @@ Localizzazione: Vallespir e Francia meridionale
 Un sabato molto intenso ma divertente, dove ci siamo divertiti molto sulle strade di Vallespir e del sud della Francia, con tratti più tecnici ma spettacolari.
 
 :::galeria{diseno="pase" porFila="4" proporcion="square"}
-![IMG_4316.jpg](/img/magazine/8f3ff3a5-IMG_4316.jpg)
-![IMG_4339.jpg](/img/magazine/d4c5c4ed-IMG_4339.jpg)
-![IMG_4340.jpg](/img/magazine/7cb08b89-IMG_4340.jpg)
-![BUBU6605.jpg](/img/magazine/fd051e77-BUBU6605.jpg)
-![IMG_4286.jpg](/img/magazine/90b16360-IMG_4286.jpg)
-![IMG_4346.jpg](/img/magazine/5d5c6a9d-IMG_4346.jpg)
+![Le Porsche del IV Endurance parcheggiate in una piana tra le montagne, con una 964 Carrera rossa in primo piano](/img/magazine/8f3ff3a5-IMG_4316.jpg)
+![Sosta del IV Endurance ai piedi di una chiesa imbiancata, i partecipanti accanto alle auto](/img/magazine/d4c5c4ed-IMG_4339.jpg)
+![La fila del IV Endurance attraversa un paese francese al tramonto, con la fortezza sul pendio](/img/magazine/7cb08b89-IMG_4340.jpg)
+![I soci del club riuniti nel negozio dell'officina prima di un'uscita](/img/magazine/fd051e77-BUBU6605.jpg)
+![Un gregge di pecore taglia la strada davanti a una 996 Carrera 4S argento, al IV Endurance](/img/magazine/90b16360-IMG_4286.jpg)
+![Code delle Porsche del IV Endurance parcheggiate in fila sul ciglio della strada](/img/magazine/5d5c6a9d-IMG_4346.jpg)
 :::
 
 ### III Tour di resistenza "The Mods".
@@ -149,8 +149,8 @@ Località: Igualada
 Abbiamo apprezzato moltissimo la giornata, con posti completamente coperti e grande partecipazione da parte dei nostri ciclisti. Un successo di cui siamo molto orgogliosi. Il tour è stato caratterizzato da un mix di strade di tutti i tipi intorno alla zona di Igualada, con un format più concentrato, che ha richiesto un maggiore coinvolgimento da parte dei corridori.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![WhatsApp-Image-2018-12-17-at-10.59.49.jpeg](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
-![WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
+![Le Porsche del III Endurance parcheggiate a un belvedere, con una 996 Turbo dai cerchi dorati in primo piano](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
+![Foto di gruppo del III Endurance all'imbrunire, tra una 997 nera e una 964 Cabriolet rossa](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.35.jpeg](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)

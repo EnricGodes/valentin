@@ -119,10 +119,10 @@ Lugar: Solsonés y Cerdanya
 Esta vez, nuestro tour se centró en una intensa mañana, que aprovechamos para recorrer las espectaculares carreteras del **Solsonés**, pasando por la falda del **Cadí**, y así llegando a la**Seu D'Urgell**, con unos paisajes que nos dejaron sin aliento. Después de un intenso pero gratificante trayecto, llegamos a **El Paller de Queixans**, en Puigcerdà, para deleitar su típica cocina y poder descansar, sin prisas ni preocupaciones, antes de volver a casa.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
-![WhatsApp-Image-2019-04-03-at-10.37.10.jpeg](/img/magazine/609caa04-WhatsApp-Image-2019-04-03-at-10.37.10.jpeg)
-![WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg](/img/magazine/ac26c85a-WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg)
-![WhatsApp-Image-2019-03-30.jpeg](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
+![Vista aérea de los Porsche del V Endurance alineados en la carretera junto a una iglesia románica](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
+![Briefing del V Endurance en el taller, ante el expositor de neumáticos](/img/magazine/609caa04-WhatsApp-Image-2019-04-03-at-10.37.10.jpeg)
+![Vista aérea del V Endurance atravesando un pueblo de piedra al pie de la montaña](/img/magazine/ac26c85a-WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg)
+![Vista cenital de una quincena de Porsche del V Endurance aparcados, de un 930 Turbo blanco a un 991](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
 :::
 
 ### IV Endurance "The French Kiss"
@@ -133,12 +133,12 @@ Lugar: Vallespir y sur de Francia
 Un sábado muy intenso pero divertido, donde disfrutamos muchísimo de las carreteras del Vallespir y del sur de Francia, con tramos más técnicos pero espectaculares.
 
 :::galeria{diseno="pase" porFila="4" proporcion="square"}
-![IMG_4316.jpg](/img/magazine/8f3ff3a5-IMG_4316.jpg)
-![IMG_4339.jpg](/img/magazine/d4c5c4ed-IMG_4339.jpg)
-![IMG_4340.jpg](/img/magazine/7cb08b89-IMG_4340.jpg)
-![BUBU6605.jpg](/img/magazine/fd051e77-BUBU6605.jpg)
-![IMG_4286.jpg](/img/magazine/90b16360-IMG_4286.jpg)
-![IMG_4346.jpg](/img/magazine/5d5c6a9d-IMG_4346.jpg)
+![Los Porsche del IV Endurance aparcados en un llano entre montañas, con un 964 Carrera rojo en primer plano](/img/magazine/8f3ff3a5-IMG_4316.jpg)
+![Parada del IV Endurance al pie de una iglesia encalada, con los participantes junto a los coches](/img/magazine/d4c5c4ed-IMG_4339.jpg)
+![La fila del IV Endurance cruza un pueblo francés al atardecer, con la fortaleza sobre la ladera](/img/magazine/7cb08b89-IMG_4340.jpg)
+![Los socios del club reunidos en la tienda del taller antes de una salida](/img/magazine/fd051e77-BUBU6605.jpg)
+![Un rebaño de ovejas corta la carretera ante un 996 Carrera 4S plata, en el IV Endurance](/img/magazine/90b16360-IMG_4286.jpg)
+![Zagas de los Porsche del IV Endurance aparcados en fila al borde de la carretera](/img/magazine/5d5c6a9d-IMG_4346.jpg)
 :::
 
 ### III Endurance "The Mods" Tour
@@ -149,8 +149,8 @@ Lugar: Igualada
 Disfrutamos a lo grande de la jornada, con plazas totalmente cubiertas y una gran participación de nuestros riders. Un éxito del que estamos muy orgullosos. El tour fue caracterizado por una mezcla de carreteras de todo tipo alrededor de la zona de Igualada, con un formato más concentrado, que exigió a los riders más implicación.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![WhatsApp-Image-2018-12-17-at-10.59.49.jpeg](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
-![WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
+![Los Porsche del III Endurance aparcados en un mirador, con un 996 Turbo de llantas doradas en primer plano](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
+![Foto de grupo del III Endurance al anochecer, entre un 997 negro y un 964 Cabriolet rojo](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.35.jpeg](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)

@@ -119,10 +119,10 @@ Standort: Solsonés und Cerdanya
 Dieses Mal konzentrierte sich unsere Tour auf einen intensiven Vormittag, den wir nutzten, um die spektakulären Straßen von **Solsonés** zu befahren, durch die Ausläufer des **Cadí** zu fahren und so in **Seu D'Urgell** anzukommen, mit Landschaften, die uns den Atem raubten. Nach einer intensiven, aber lohnenden Reise kamen wir im **El Paller de Queixans** in Puigcerdà an, um die typische Küche zu genießen und uns ohne Eile und Sorgen ausruhen zu können, bevor wir nach Hause zurückkehrten.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
-![WhatsApp-Image-2019-04-03-at-10.37.10.jpeg](/img/magazine/609caa04-WhatsApp-Image-2019-04-03-at-10.37.10.jpeg)
-![WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg](/img/magazine/ac26c85a-WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg)
-![WhatsApp-Image-2019-03-30.jpeg](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
+![Luftaufnahme der Porsche der V Endurance, aufgereiht an der Straße neben einer romanischen Kirche](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
+![Besprechung der V Endurance in der Werkstatt, vor dem Reifenregal](/img/magazine/609caa04-WhatsApp-Image-2019-04-03-at-10.37.10.jpeg)
+![Luftaufnahme der V Endurance bei der Durchfahrt eines Steindorfs am Fuß des Berges](/img/magazine/ac26c85a-WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg)
+![Aufsicht auf rund fünfzehn geparkte Porsche der V Endurance, vom weißen 930 Turbo bis zum 991](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
 :::
 
 ### IV Endurance "The French Kiss"
@@ -133,12 +133,12 @@ Location: Vallespir and southern France
 Ein sehr intensiver, aber unterhaltsamer Samstag, an dem wir die Straßen von Vallespir und Südfrankreich mit technisch anspruchsvolleren, aber spektakuläreren Abschnitten wirklich genossen haben.
 
 :::galeria{diseno="pase" porFila="4" proporcion="square"}
-![IMG_4316.jpg](/img/magazine/8f3ff3a5-IMG_4316.jpg)
-![IMG_4339.jpg](/img/magazine/d4c5c4ed-IMG_4339.jpg)
-![IMG_4340.jpg](/img/magazine/7cb08b89-IMG_4340.jpg)
-![BUBU6605.jpg](/img/magazine/fd051e77-BUBU6605.jpg)
-![IMG_4286.jpg](/img/magazine/90b16360-IMG_4286.jpg)
-![IMG_4346.jpg](/img/magazine/5d5c6a9d-IMG_4346.jpg)
+![Die Porsche der IV Endurance auf einer Ebene zwischen den Bergen, im Vordergrund ein roter 964 Carrera](/img/magazine/8f3ff3a5-IMG_4316.jpg)
+![Halt der IV Endurance unterhalb einer weiß getünchten Kirche, die Teilnehmer bei den Fahrzeugen](/img/magazine/d4c5c4ed-IMG_4339.jpg)
+![Die Kolonne der IV Endurance durchquert ein französisches Dorf in der Dämmerung, oberhalb die Festung](/img/magazine/7cb08b89-IMG_4340.jpg)
+![Clubmitglieder im Werkstattladen versammelt vor einer Ausfahrt](/img/magazine/fd051e77-BUBU6605.jpg)
+![Eine Schafherde kreuzt die Straße vor einem silbernen 996 Carrera 4S, bei der IV Endurance](/img/magazine/90b16360-IMG_4286.jpg)
+![Hecks der Porsche der IV Endurance, aufgereiht am Straßenrand geparkt](/img/magazine/5d5c6a9d-IMG_4346.jpg)
 :::
 
 ### III Endurance „The Mods“ Tour
@@ -149,8 +149,8 @@ Standort: Igualada
 Wir haben den Tag sehr genossen, mit vollständig belegten Plätzen und toller Beteiligung unserer Fahrer. Ein Erfolg, auf den wir sehr stolz sind. Die Tour zeichnete sich durch eine Mischung aus Straßen aller Art rund um das Igualada-Gebiet aus, mit einem konzentrierteren Format, das ein stärkeres Engagement der Fahrer erforderte.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![WhatsApp-Image-2018-12-17-at-10.59.49.jpeg](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
-![WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
+![Die Porsche der III Endurance an einem Aussichtspunkt, im Vordergrund ein 996 Turbo mit goldenen Felgen](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
+![Gruppenfoto der III Endurance in der Dämmerung, zwischen einem schwarzen 997 und einem roten 964 Cabriolet](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.35.jpeg](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
 ![WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)
