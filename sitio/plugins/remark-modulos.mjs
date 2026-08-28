@@ -41,12 +41,16 @@ function galeria(atributos, imagenes) {
   const diseno = atributos.diseno || 'cuadricula';
   const porFila = Number(atributos.porFila) || 3;
   const proporcion = PROPORCIONES[atributos.proporcion] || PROPORCIONES.standard;
-  const lightbox = 'lightbox' in atributos;
+  // Activo salvo que se apague a proposito. Squarespace lo traia desactivado
+  // en 33 de las 67 galerias, y el lector que pincha una foto espera que se
+  // abra: no abrirse no se lee como una decision, se lee como algo roto.
+  const lightbox = atributos.lightbox !== 'no';
 
   const items = imagenes.map((f, i) => `
     <figure class="mod-foto">
       <img src="${esc(f.src)}" alt="${esc(f.alt)}" loading="lazy" decoding="async"
-           ${lightbox ? `data-lightbox="${i}"` : ''}>
+           ${lightbox ? `data-lightbox="${i}" tabindex="0" role="button"
+           aria-label="Ampliar la fotografía ${i + 1} de ${imagenes.length}"` : ''}>
       ${f.pie ? `<figcaption>${esc(f.pie)}</figcaption>` : ''}
     </figure>`).join('');
 

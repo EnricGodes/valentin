@@ -1149,8 +1149,14 @@ section { position: relative; }
 .mod-lupa {
   position: fixed;
   inset: 0;
-  z-index: 90;
-  background: rgba(11, 11, 10, 0.96);
+  /* Por encima del nav (100) y del banner de cookies (200), que si no se
+     quedan flotando sobre la foto ampliada. Por debajo del cursor propio
+     (9998), que debe seguir dibujandose encima. */
+  z-index: 300;
+  /* Casi opaco y con desenfoque: al 96% se leia el menu por detras de
+     la foto, y eso no se lee como un velo, se lee como un fallo. */
+  background: rgba(11, 11, 10, 0.985);
+  backdrop-filter: blur(10px);
   display: grid;
   place-items: center;
   padding: 40px;

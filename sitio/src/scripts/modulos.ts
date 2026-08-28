@@ -78,13 +78,20 @@ function lightbox() {
     lupa.setAttribute('open', '');
     document.body.style.overflow = 'hidden';
     pintar();
-    cerrar.focus();
+    // El dialogo tarda un fotograma en dejar de ser `visibility: hidden`, y
+    // un elemento invisible no acepta el foco: sin esta espera el foco se
+    // queda en el body y quien navega con teclado se queda fuera del
+    // lightbox, con el resto de la pagina detras.
+    requestAnimationFrame(() => cerrar.focus());
   };
 
   const salir = () => {
     lupa.removeAttribute('open');
     document.body.style.overflow = '';
-    foco.anterior?.focus();
+    // Devolver el foco a la foto de la que se salio. Sin esto se queda en el
+    // boton de cerrar, que ya esta oculto, y quien navega con teclado
+    // reaparece al principio del documento.
+    (foco.anterior ?? fotos[i])?.focus();
   };
 
   const mover = (paso: number) => {
@@ -93,11 +100,23 @@ function lightbox() {
   };
 
   for (const g of galerias) {
-    g.addEventListener('click', (e) => {
+    const desde = (e: Event) => {
       const objetivo = (e.target as HTMLElement).closest<HTMLImageElement>('.mod-foto img');
       if (!objetivo) return;
       const todas = [...g.querySelectorAll<HTMLImageElement>('.mod-foto img')];
       abrir(g, todas.indexOf(objetivo));
+    };
+
+    g.addEventListener('click', desde);
+
+    // Las fotos llevan tabindex y role="button": sin esto se anuncian como
+    // pulsables y luego no responden al teclado, que es peor que no
+    // anunciarlas. Espacio ademas hace scroll si no se frena.
+    g.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      if (!(e.target as HTMLElement).closest('.mod-foto img')) return;
+      e.preventDefault();
+      desde(e);
     });
   }
 
