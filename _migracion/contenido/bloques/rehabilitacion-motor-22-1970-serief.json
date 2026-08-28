@@ -1,0 +1,38 @@
+{
+  "slugSquarespace": "rehabilitacion-motor-22-1970-serief",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/4507843c-motor-1.jpg",
+      "alt": "",
+      "ancho": 640,
+      "alto": 360,
+      "pie": "Aspecto final motor ya acoplado"
+    },
+    {
+      "tipo": "texto",
+      "md": "## Motor 2.2\n\nRehabilitación completa motor 1970\n\nSiempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.\n\n## Rehabilitación del motor\n\nCabe diferenciar dos conceptos distintos:\n\n-Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.\n\n-Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo."
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 3,
+      "proporcion": "standard",
+      "lightbox": true,
+      "fotos": [
+        {
+          "src": "/img/magazine/d4e57210-motor-1.jpg",
+          "alt": "motor 1.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/3da7064e-motor-2.jpg",
+          "alt": "motor 2.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    }
+  ]
+}

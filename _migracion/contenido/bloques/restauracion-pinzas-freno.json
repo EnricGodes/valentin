@@ -1,0 +1,28 @@
+{
+  "slugSquarespace": "restauracion-pinzas-freno",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/3f98310e-pinzas-2.jpg",
+      "alt": "",
+      "ancho": 480,
+      "alto": 640,
+      "pie": "Aspecto final pinza de freno color rojo BREMBO"
+    },
+    {
+      "tipo": "texto",
+      "md": "## Proceso\n\nDesmontaje completo del sistema de frenos, posteriormente chorreo o arenado de las piezas con todos los orificios bien estancos.\n\npreparación de la pieza para pintura y colocación stickers, en algunos casos si ay es conveniente sustituir el juego de reparación de pistones para tener un perfecto caudal de líquido en el sistema."
+    },
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/49e62d8d-IMG_5792.JPG",
+      "alt": "",
+      "ancho": 960,
+      "alto": 720
+    },
+    {
+      "tipo": "texto",
+      "md": "### La opinión de Jordi\n\nSí son los calipers uno de los elementos visibles claros a través de las llantas de nuestros vehículos.\n\nMuchos de ellos afectados por los años y con desperfectos en la base de las pinzas.\n\nTenerlos en perfecto estado es un elemento visible que gusta.\n\nProceso de montaje"
+    }
+  ]
+}

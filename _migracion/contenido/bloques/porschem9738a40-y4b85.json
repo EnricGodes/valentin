@@ -1,0 +1,97 @@
+{
+  "slugSquarespace": "porschem9738a40-y4b85",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/6da1e3ca-WhatsApp-Image-2025-09-10-at-18.05.26-1-.jpeg",
+      "alt": "",
+      "ancho": 2048,
+      "alto": 1536
+    },
+    {
+      "tipo": "texto",
+      "md": "Proceso completo de rehabilitación de motor 3.2"
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 2,
+      "proporcion": "square",
+      "lightbox": false,
+      "fotos": [
+        {
+          "src": "/img/magazine/32fa31a1-WhatsApp-Image-2025-06-07-at-08.20.55.jpeg",
+          "alt": "WhatsApp Image 2025-06-07 at 08.20.55.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/5d8a3dc4-WhatsApp-Image-2025-06-07-at-08.20.56-1-.jpeg",
+          "alt": "WhatsApp Image 2025-06-07 at 08.20.56 (1).jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/cfafebeb-WhatsApp-Image-2025-06-07-at-08.20.56.jpeg",
+          "alt": "WhatsApp Image 2025-06-07 at 08.20.56.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/b270099a-WhatsApp-Image-2025-06-10-at-12.20.33-1-.jpeg",
+          "alt": "WhatsApp Image 2025-06-10 at 12.20.33 (1).jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/65af6587-WhatsApp-Image-2025-06-10-at-12.20.33.jpeg",
+          "alt": "WhatsApp Image 2025-06-10 at 12.20.33.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/2e4ded03-WhatsApp-Image-2025-06-10-at-14.17.43.jpeg",
+          "alt": "WhatsApp Image 2025-06-10 at 14.17.43.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/b8f9a25c-WhatsApp-Image-2025-06-10-at-15.38.11.jpeg",
+          "alt": "WhatsApp Image 2025-06-10 at 15.38.11.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/07322ce4-WhatsApp-Image-2025-06-17-at-15.49.19.jpeg",
+          "alt": "WhatsApp Image 2025-06-17 at 15.49.19.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/13fddc2e-WhatsApp-Image-2025-06-17-at-15.49.29.jpeg",
+          "alt": "WhatsApp Image 2025-06-17 at 15.49.29.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/7136d6ed-WhatsApp-Image-2025-07-09-at-11.57.47.jpeg",
+          "alt": "WhatsApp Image 2025-07-09 at 11.57.47.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/21b2f673-WhatsApp-Image-2025-09-10-at-18.05.26-1-.jpeg",
+          "alt": "WhatsApp Image 2025-09-10 at 18.05.26 (1).jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/a39cf752-WhatsApp-Image-2025-09-10-at-18.05.26.jpeg",
+          "alt": "WhatsApp Image 2025-09-10 at 18.05.26.jpeg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    }
+  ]
+}

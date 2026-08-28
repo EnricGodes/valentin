@@ -1,0 +1,38 @@
+{
+  "slugSquarespace": "restauracion-motor-1971-22",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/3f3f8ed2-motor-1.jpg",
+      "alt": "",
+      "ancho": 640,
+      "alto": 360,
+      "pie": "Aspecto final motor ya acabado"
+    },
+    {
+      "tipo": "texto",
+      "md": "## Motor 2.2  1971\n\nReconstrucción total motor 2.2 1971"
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 3,
+      "proporcion": "standard",
+      "lightbox": true,
+      "fotos": [
+        {
+          "src": "/img/magazine/9a95c90f-motor-3.jpg",
+          "alt": "motor 3.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/50280633-motor2.jpg",
+          "alt": "motor2.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    }
+  ]
+}

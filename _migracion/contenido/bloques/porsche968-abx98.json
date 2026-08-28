@@ -1,0 +1,38 @@
+{
+  "slugSquarespace": "porsche968-abx98",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/1aab446a-WhatsApp-Image-2026-07-22-at-13.11.57.jpeg",
+      "alt": "",
+      "ancho": 1200,
+      "alto": 1600,
+      "pie": "27 Junio Equipo de Valentin en el Circuito del Jarama Boxes"
+    },
+    {
+      "tipo": "texto",
+      "md": "## Valentin Motors Porsche Madrid"
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 2,
+      "proporcion": "square",
+      "lightbox": false,
+      "fotos": [
+        {
+          "src": "/img/magazine/bcc926fa-WhatsApp-Image-2026-07-22-at-13.12.17.jpeg",
+          "alt": "WhatsApp Image 2026-07-22 at 13.12.17.jpeg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/f4d23137-WhatsApp-Image-2026-07-22-at-13.12.30.jpeg",
+          "alt": "WhatsApp Image 2026-07-22 at 13.12.30.jpeg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    }
+  ]
+}

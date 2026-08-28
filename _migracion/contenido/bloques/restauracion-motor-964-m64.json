@@ -1,0 +1,50 @@
+{
+  "slugSquarespace": "restauracion-motor-964-m64",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/18437657-mot-1.jpg",
+      "alt": "",
+      "ancho": 640,
+      "alto": 360,
+      "pie": "Aspecto final motor 964.2"
+    },
+    {
+      "tipo": "texto",
+      "md": "## M64\n\nEn toda la generación 964 Porsche usó el bloque  de 3.600 cc que tanta fiabilidad y satisfacciones ha proporcionado a sus propietarios.\n\nPropulsor disposición boxer de 6 cilindros con 2 válvulas por cabeza y doble encendido.\n\nEl bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la calle como en la competición.\n\n## 964.2\n\nAlgunos cambios internos y externos sufrieron la generación de motor 964.\n\nSiempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.\n\n## Rehabilitación del motor\n\nCabe diferenciar dos conceptos distintos:\n\n-Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.\n\n-Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo."
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 3,
+      "proporcion": "standard",
+      "lightbox": true,
+      "fotos": [
+        {
+          "src": "/img/magazine/29529723-mot-2.jpg",
+          "alt": "mot 2.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/c7130da3-mot-3.jpg",
+          "alt": "mot 3.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/d9a78aaa-mot-4.jpg",
+          "alt": "mot 4.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/725cdf3d-mot-5.jpg",
+          "alt": "mot 5.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slugSquarespace": "porscheroturasmotorm96valentin-9pb35",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/f3414aff-IMG_1221.jpg",
+      "alt": "",
+      "ancho": 4032,
+      "alto": 3024,
+      "pie": "backdating en forest green"
+    },
+    {
+      "tipo": "texto",
+      "md": "Singer cambió las reglas del juego\n\nUn backdating es unir la linea pura del 911 entre 1965 y 1973 con un 911 más llevable, un 964.\n\n## Porqué la base 964?\n\nEl 964 es la plataforma perfecta porque aúna las lineas 911 clásicas junto con unas prestaciones y equipamiento más modernos.\n\n## Motor?\n\nTenemos varias opciones respecto al 3.6 de 250 hp original, subirlo a 3.8 con 300 hp o acoplar al 3.6 un compresor volumétrico que desarrolla 350 hp.\n\n## Completo diseño por parte del cliente.\n\nEn  todo este proceso guiamos al cliente en la elección de los interiores, moquetas, tapizados, pieles y sobre todo color exterior custom.\n\nAdaptamos las llantas que más gusten y convengan junto con el diseño de paneles de puertas, asientos y partes del salpicadero."
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 2,
+      "proporcion": "square",
+      "lightbox": false,
+      "fotos": [
+        {
+          "src": "/img/magazine/7c7a3934-IMG_1221.jpg",
+          "alt": "IMG_1221.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/c34ae0c7-IMG_1222.jpg",
+          "alt": "IMG_1222.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/e39b8eec-IMG_1224.jpg",
+          "alt": "IMG_1224.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/5d6f9887-IMG_1225.jpg",
+          "alt": "IMG_1225.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/bf166a44-IMG_1226.jpg",
+          "alt": "IMG_1226.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "md": "Si deseas [más información](/contacto), contacta con nosotros de un proyecto similar te ayudaremos ¡¡¡"
+    }
+  ]
+}

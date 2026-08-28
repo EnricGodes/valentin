@@ -1,0 +1,116 @@
+{
+  "slugSquarespace": "restauracion27stargalimegreen-kdlc4",
+  "bloques": [
+    {
+      "tipo": "texto",
+      "md": "## El estado inicial\n\nSí, es correcto… no nos equivocamos aunque veáis este brown metallic , el color original de esta unidad cuando se matriculó por primera vez en Barcelona era el precioso N8 Lime green.\n\nEmpezamos este proyecto de restauración de un 2.7  S targa nacional y de un sólo propietario desde el primer dia hasta la fecha.\n\nEl encargo de la propiedad es de restauración completa de carrocería, mecánica e interiores."
+    },
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/23f1922a-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg",
+      "alt": "",
+      "ancho": 2048,
+      "alto": 1152,
+      "pie": "Aspecto de la unidad en proceso de desmontaje"
+    },
+    {
+      "tipo": "texto",
+      "md": "### La opinión de Jordi\n\nDevolver estas unidades a su estado inicial siempre son retos motivadores.\n\nLa única titularidad de de este 2.7 se aprecia en todos los rincones del vehículo.\n\nLa primera fase de desmontaje es importante para verificar el estado de todos lo componentes y planificar el proceso de restauración.\n\n## Estado inicial del proceso\n\nAquí mostramos algunas imágenes del estado inicial del proyecto y su magnitud."
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 3,
+      "proporcion": "standard",
+      "lightbox": true,
+      "fotos": [
+        {
+          "src": "/img/magazine/fdf35c04-7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg",
+          "alt": "7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/2d92162c-c10fb057-1a92-43aa-808b-e80f6a673800.jpg",
+          "alt": "c10fb057-1a92-43aa-808b-e80f6a673800.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "md": "## Mecánica: restauración del motor\n\nTrabajos asociados al proceso de restauración del motor"
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 2,
+      "proporcion": "standard",
+      "lightbox": true,
+      "fotos": [
+        {
+          "src": "/img/magazine/c33888e6-b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg",
+          "alt": "b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/ea30a821-bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg",
+          "alt": "bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/f05f904b-d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg",
+          "alt": "d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/7abadd20-1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg",
+          "alt": "1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/66513a38-2c393468-f356-46aa-99ee-83e12aced6a6.jpg",
+          "alt": "2c393468-f356-46aa-99ee-83e12aced6a6.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/191ee4dd-8e205f18-801e-4289-8f61-dbb795ce6a80.jpg",
+          "alt": "8e205f18-801e-4289-8f61-dbb795ce6a80.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "md": "## Carrocería\n\nProceso de desmontaje"
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 2,
+      "proporcion": "standard",
+      "lightbox": true,
+      "fotos": [
+        {
+          "src": "/img/magazine/a54476d8-9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg",
+          "alt": "9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/7a85d24f-324aebbf-cc98-48ba-82a0-a162643cceab.jpg",
+          "alt": "324aebbf-cc98-48ba-82a0-a162643cceab.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    }
+  ]
+}

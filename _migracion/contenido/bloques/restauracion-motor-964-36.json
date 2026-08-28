@@ -1,0 +1,144 @@
+{
+  "slugSquarespace": "restauracion-motor-964-36",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/0aad4e31-foto-14.jpg",
+      "alt": "",
+      "ancho": 2048,
+      "alto": 1152,
+      "pie": "Aspecto final motor ya acoplado"
+    },
+    {
+      "tipo": "texto",
+      "md": "## M6401\n\nEn toda la generación 964 Porsche usó el bloque  de 3.600 cc que tanta fiabilidad y satisfacciones ha proporcionado a sus propietarios.\n\nPropulsor disposición boxer de 6 cilindros con 2 válvulas por cabeza y doble encendido.\n\nEl bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la calle como en la competición.\n\n## El estado inicial\n\nAquí tenemos un  ejemplo común de fugas de aceite masivas por bloque motor lo cual nos obliga a abrir motor completo."
+    },
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/49e62d8d-IMG_5792.JPG",
+      "alt": "",
+      "ancho": 960,
+      "alto": 720
+    },
+    {
+      "tipo": "texto",
+      "md": "### La opinión de Jordi\n\nSi nuestro 964 ya fuga a ceite por el bloque no nos queda otra que la rehabilitación completa.\n\nEllo obliga a desmontaje completo del motor y sustituir piezas internas de desgaste como segmentos, cojinetes de biela, bancada, semicojinetes de bomba , cadenas y juego de juntas completo parte alta y baja.\n\nRecomendamos sustituir los 24 espárragos de bloque por los de “dilavar” para evitar una inesperada rotura de uno de ellos.\n\nLos cilindros al Nicasil nos dan una vida casi ilimitada.\n\nEn nuestro caso, el proceso de limpieza, descarbonización , verificación y pesaje de piezas es clave.\n\nSiempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.\n\n## Rehabilitación del motor\n\nCabe diferenciar dos conceptos distintos:\n\n-Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.\n\n-Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo."
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 3,
+      "proporcion": "standard",
+      "lightbox": true,
+      "fotos": [
+        {
+          "src": "/img/magazine/ce5c9824-foto-1.jpg",
+          "alt": "foto 1.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/3ed7f693-foto-2.jpg",
+          "alt": "foto 2.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/a9b2ab1f-foto-3.jpg",
+          "alt": "foto 3.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/dc81fac2-foto-4.jpg",
+          "alt": "foto 4.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/dd763a29-foto-5.jpg",
+          "alt": "foto 5.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/3bed9dd4-foto-6.jpg",
+          "alt": "foto 6.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/30dbb0b9-foto-7.jpg",
+          "alt": "foto 7.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/b3e0a823-foto-8.jpg",
+          "alt": "foto 8.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/7f7f24f4-foto-9.jpg",
+          "alt": "foto 9.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/f029fa7f-foto-10.jpg",
+          "alt": "foto 10.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/2ac8a7c8-foto-11.jpg",
+          "alt": "foto 11.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/74ff9c3b-foto-12.jpg",
+          "alt": "foto 12.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/547a6585-foto-13.jpg",
+          "alt": "foto 13.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/1d0df587-foto-14.jpg",
+          "alt": "foto 14.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "md": "Proceso de montaje"
+    },
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/ead23d0d-foto-12.jpg",
+      "alt": "",
+      "ancho": 1152,
+      "alto": 2048,
+      "pie": "Momento del acoplamiento del motor"
+    },
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/776aa0e5-foto-jordi-2.jpg",
+      "alt": "",
+      "ancho": 640,
+      "alto": 480
+    },
+    {
+      "tipo": "texto",
+      "md": "### El tip tecnico de Jordi\n\nRecomendamos sustituir siempre la correa del delco que distribuye los dos encendidos.\n\nHasta la fecha no se suministra en origen pero se puede encontrar fácilmente aftermarket.\n\nRealizar siempre guías y asientos de válvulas y sobre todo líneas de los culatines."
+    }
+  ]
+}

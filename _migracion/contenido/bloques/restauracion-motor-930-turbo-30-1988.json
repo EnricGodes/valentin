@@ -1,0 +1,55 @@
+{
+  "slugSquarespace": "restauracion-motor-930-turbo-30-1988",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/db271d14-mot-1.jpg",
+      "alt": "",
+      "ancho": 640,
+      "alto": 480,
+      "pie": "Aspecto casi final motor"
+    },
+    {
+      "tipo": "texto",
+      "md": "## Turbo intercooler\n\nEjemplod e restauración de motor 930 turbo 3.0 en Valentin Motors"
+    },
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/49e62d8d-IMG_5792.JPG",
+      "alt": "",
+      "ancho": 960,
+      "alto": 720
+    },
+    {
+      "tipo": "texto",
+      "md": "### La opinión de Jordi\n\nClave en la restauración de estos motores analizar pieza a pieza, descarbonizar , pesaje y equilibrado.\n\nSiempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.\n\n## Rehabilitación del motor\n\nCabe diferenciar dos conceptos distintos:\n\n-Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.\n\n-Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo."
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 3,
+      "proporcion": "standard",
+      "lightbox": true,
+      "fotos": [
+        {
+          "src": "/img/magazine/362b9dd8-mot-2.jpg",
+          "alt": "mot 2.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/05f7f2ae-mot-3.jpg",
+          "alt": "mot 3.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/6eff915c-mot-4.jpg",
+          "alt": "mot 4.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    }
+  ]
+}

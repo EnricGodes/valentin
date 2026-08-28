@@ -1,0 +1,62 @@
+{
+  "slugSquarespace": "porschepinturaclasica964-9fcrx",
+  "bloques": [
+    {
+      "tipo": "imagen",
+      "src": "/img/magazine/7061f8b9-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg",
+      "alt": "",
+      "ancho": 900,
+      "alto": 1600,
+      "pie": "Carrocería 964 RS"
+    },
+    {
+      "tipo": "texto",
+      "md": "Proceso standart de carrocería y pintura en 911 clásico\n\n## Motivos principales?\n\nRestauraciones o refresco de pintura completa en clásicos 911 que ya precisan estos trabajos.\n\n## Cuando realizarlo?\n\nEs posiblemente una de las decisiones más complejas de tomar a la hora de acometer refresco de pintura externo en los 911 clásicos.\n\nTrabajos de desmontar vehículo completo para una buena preparación de la carrocería y fondeo."
+    },
+    {
+      "tipo": "galeria",
+      "diseno": "cuadricula",
+      "porFila": 2,
+      "proporcion": "square",
+      "lightbox": false,
+      "fotos": [
+        {
+          "src": "/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg",
+          "alt": "0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg",
+          "alt": "18f75a19-a594-4d64-b924-c07b50a4d468.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg",
+          "alt": "56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg",
+          "alt": "b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg",
+          "alt": "d64d2602-8f6b-448f-b923-f6967fcc727a.jpg",
+          "ancho": null,
+          "alto": null
+        },
+        {
+          "src": "/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg",
+          "alt": "d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg",
+          "ancho": null,
+          "alto": null
+        }
+      ]
+    }
+  ]
+}
