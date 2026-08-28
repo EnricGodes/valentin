@@ -26,8 +26,6 @@ Ce projet nous est venu par l'intermédiaire d'un client du sud de l'Espagne qui
 
 L'huile moteur qui goutte au sol et le manque de finesse et de puissance du moteur l'ont incité à nous contacter et à se mettre au travail.
 
----
-
 ![](/img/magazine/ff41b840-foto-jordi.jpg)
 
 ### L'avis de Jordi
@@ -39,8 +37,6 @@ En réalité et honnêtement, il s'agit d'une machine indomptée créée à Zuff
 Lorsque l'énorme turbo a la bonne vitesse autour de 2.800 rpm, vous devez être très clair sur ce que vous faites et où vous vous trouvez afin de ne pas avoir de sérieux ennuis.
 
 Peu de machines émettent un sentiment de peur comme celui-ci.
-
----
 
 La première phase consiste toujours à tester, tester l'unité dans son état actuel et voir les points qui nécessitent vraiment un travail en profondeur ou qui ont cessé d'être opérationnels au fil du temps.
 
@@ -60,35 +56,25 @@ Il convient de distinguer deux concepts différents :
 
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![PHOTO-2022-02-15-10-56-04.jpg](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
-
 ![PHOTO-2022-02-15-16-31-20.jpg](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
-
 ![PHOTO-2022-02-16-09-13-10.jpg](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
-
 ![PHOTO-2022-02-16-09-14-00.jpg](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
-
 ![PHOTO-2022-02-22-09-46-55.jpg](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
-
 ![PHOTO-2022-02-23-16-05-09.jpg](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
-
 ![PHOTO-2022-02-23-16-06-30.jpg](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
-
 ![PHOTO-2022-02-23-16-35-14.jpg](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
-
 ![PHOTO-2022-02-23-16-35-21.jpg](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
-
 ![PHOTO-2022-02-24-17-00-41.jpg](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
-
 ![PHOTO-2022-02-28-11-30-44.jpg](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
+:::
 
 Finalement le moteur était dans un état impeccable, nous avons un comparatif avant/après :
 
 ![État du bloc déjà en cours d'assemblage](/img/magazine/f907bdb4-PHOTO-2022-03-04-16-21-30.jpg)
 
 *État du bloc déjà en montage*
-
----
 
 ![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
@@ -97,5 +83,3 @@ Finalement le moteur était dans un état impeccable, nous avons un comparatif a
 La beauté des moteurs équipés d'un seul turbo réside dans le **LAG** que vous devez contrôler et ressentir correctement au moment et dans la situation dans laquelle vous vous trouvez.
 
 Il existe des options pour *« minimiser »* ce **retard** comme un ressort de décharge spécial ou la soupape de pression, mais là nous altérons déjà l'essence de ce moteur.
-
----

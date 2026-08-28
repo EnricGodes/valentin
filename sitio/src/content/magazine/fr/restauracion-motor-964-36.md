@@ -28,8 +28,6 @@ Le bloc Mezger est la norme de conception et de fiabilité utilisée aussi bien 
 
 Nous avons ici un exemple courant de fuites d'huile massives du bloc moteur qui nous oblige à ouvrir tout le moteur.
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'avis de Jordi
@@ -44,8 +42,6 @@ Les cylindres Nicasil nous offrent une durée de vie presque illimitée.
 
 Dans notre cas, le processus de nettoyage, de décarbonisation, de vérification et de pesée des pièces est essentiel.
 
----
-
 La première phase de démontage est toujours importante pour vérifier l'état de tous les composants et pouvoir diagnostiquer les éventuels problèmes cachés.
 
 ## Réhabilitation moteur
@@ -56,41 +52,28 @@ Il convient de distinguer deux concepts différents :
 
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![photo 1.jpg](/img/magazine/ce5c9824-foto-1.jpg)
-
 ![photo 2.jpg](/img/magazine/3ed7f693-foto-2.jpg)
-
 ![photo 3.jpg](/img/magazine/a9b2ab1f-foto-3.jpg)
-
 ![photo 4.jpg](/img/magazine/dc81fac2-foto-4.jpg)
-
 ![photo 5.jpg](/img/magazine/dd763a29-foto-5.jpg)
-
 ![photo 6.jpg](/img/magazine/3bed9dd4-foto-6.jpg)
-
 ![photo 7.jpg](/img/magazine/30dbb0b9-foto-7.jpg)
-
 ![photo 8.jpg](/img/magazine/b3e0a823-foto-8.jpg)
-
 ![photo 9.jpg](/img/magazine/7f7f24f4-foto-9.jpg)
-
 ![photo 10.jpg](/img/magazine/f029fa7f-foto-10.jpg)
-
 ![photo 11.jpg](/img/magazine/2ac8a7c8-foto-11.jpg)
-
 ![photo 12.jpg](/img/magazine/74ff9c3b-foto-12.jpg)
-
 ![photo 13.jpg](/img/magazine/547a6585-foto-13.jpg)
-
 ![photo 14.jpg](/img/magazine/1d0df587-foto-14.jpg)
+:::
 
 Processus d'assemblage
 
 ![Moment d'accouplement du moteur](/img/magazine/ead23d0d-foto-12.jpg)
 
 *Moment de couplage moteur*
-
----
 
 ![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
@@ -101,5 +84,3 @@ Nous recommandons de toujours remplacer la courroie delco qui distribue les deux
 A ce jour il n'est pas fourni d'origine mais on peut facilement le trouver en aftermarket.
 
 Fabriquez toujours des guides et des sièges de soupapes et surtout des conduites d'encoche.
-
----

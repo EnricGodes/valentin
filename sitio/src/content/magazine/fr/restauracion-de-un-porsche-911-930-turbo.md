@@ -28,15 +28,11 @@ Ce projet nous est venu par l'intermédiaire d'un nouveau client qui venait d'ac
 
 Son premier propriétaire était un mannequin de Tenerife qui a remporté le concours Miss Espagne dans les 80 et nous avons pu vérifier que son kilométrage était réel et maintenait de nombreux aspects importants en matière d'investissement et de valeur future.
 
----
-
 ![Olga Delgado](/img/magazine/8edb2bd6-olga.jpg)
 
 ### L'avis d'Olga
 
 Après plusieurs appels téléphoniques et conversations, l'unité est arrivée à l'atelier et nous avons pu vérifier qu'elle était dans son état d'origine mais avec quelques travaux effectués sans enthousiasme et qu'elle présentait les défauts et dommages d'unités qui existaient depuis de nombreuses années sans entretien ni soin.
-
----
 
 La première phase consiste toujours à tester, tester l'unité dans son état actuel et voir les points qui nécessitent vraiment un travail en profondeur ou qui ont cessé d'être opérationnels au fil du temps.
 
@@ -58,29 +54,20 @@ Il convient de distinguer deux concepts différents :
 
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg](/img/magazine/ed0e7f8d-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg](/img/magazine/214da708-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg](/img/magazine/1979dbfd-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg](/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg](/img/magazine/c7f4232c-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg](/img/magazine/a18b8de9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg](/img/magazine/aab8a3e1-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg](/img/magazine/b252d4bf-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg](/img/magazine/3e51b7e7-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg](/img/magazine/615324e8-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg](/img/magazine/d94052ca-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg](/img/magazine/f3c9e0fa-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg)
+:::
 
 Finalement le moteur était dans un état impeccable, nous avons un comparatif avant/après :
 
@@ -88,11 +75,10 @@ Finalement le moteur était dans un état impeccable, nous avons un comparatif a
 
 *Comparaison de l'état initial du moteur avec le résultat final*
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg](/img/magazine/3c04a686-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
-
----
+:::
 
 ![](/img/magazine/755aa9de-valenti.jpg)
 
@@ -100,35 +86,33 @@ Finalement le moteur était dans un état impeccable, nous avons un comparatif a
 
 Dans l'année modèle 1989, la boîte de vitesses 4 a été remplacée par une 5 vitesses, ce qui a rendu la reconstruction plus simple puisque nous les connaissons. types de changements parfaitement, proches des véhicules des années 1990.
 
----
-
 ## La carrosserie et la peinture du 930 Turbo
 
 Une de nos obsessions est de laisser les véhicules selon leurs spécifications d'origine. Nous pouvons ainsi raccourcir le passage du temps et donner à un véhicule de plus de quarante ans l’apparence d’un modèle tout juste sorti d’usine. Le processus passe par :
 
 ### Démonter les composants
 
+:::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg](/img/magazine/bf4d89c9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg](/img/magazine/3b01ab68-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg](/img/magazine/eec89f14-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg)
+:::
 
 ### Ponçage et préparation de la carrosserie
 
+:::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg](/img/magazine/ad63bc2b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg](/img/magazine/d8301e50-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg)
+:::
 
 ### Assemblage et intérieur
 
+:::galeria{diseno="apilada" porFila="2" proporcion="standard" lightbox}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg](/img/magazine/25c2650b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg](/img/magazine/63f66963-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg](/img/magazine/c174018f-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg](/img/magazine/082b6e57-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg)
+:::
 
 ## Le résultat final : 911 Turbo restauration
 

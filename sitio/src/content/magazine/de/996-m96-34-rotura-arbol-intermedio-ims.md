@@ -42,35 +42,23 @@ In den Richtlinien für Wartung müssen wir besonders auf die Überprüfung und 
 
 Der Schlüssel zum Prozess liegt in der vollständigen Demontage von Zylinderköpfen und der Herstellung von Ventilsitzen und -führungen.
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Foto 2.jpg](/img/magazine/fd76012d-foto-2.jpg)
-
 ![Foto 3.jpg](/img/magazine/192ae06b-foto-3.jpg)
-
 ![Foto 4.jpg](/img/magazine/dc331b3b-foto-4.jpg)
-
 ![Foto 5.jpg](/img/magazine/3ebd1ae2-foto-5.jpg)
-
 ![Foto 6.jpg](/img/magazine/564aff33-foto-6.jpg)
-
 ![Foto 7.jpg](/img/magazine/68709cb8-foto-7.jpg)
-
 ![Foto portada.jpg](/img/magazine/eb9deec1-foto-portada.jpg)
-
 ![Motor 1 (1).jpg](/img/magazine/6ab79100-motor-1-1-.jpg)
-
 ![Motor 1 (2).jpg](/img/magazine/fd0e476a-motor-1-2-.jpg)
-
 ![Motor 1 (3).jpg](/img/magazine/4ad02b71-motor-1-3-.jpg)
-
 ![Motor 1 (4).jpg](/img/magazine/093b6de3-motor-1-4-.jpg)
-
 ![Motor 1 (5).jpg](/img/magazine/0d8fcbb1-motor-1-5-.jpg)
-
 ![Motor 1 (6).jpg](/img/magazine/ff38cc20-motor-1-6-.jpg)
-
 ![Motor 1 (7).jpg](/img/magazine/103ca9b7-motor-1-7-.jpg)
-
 ![PHOTO-2024-01-24-18-08-04.jpg](/img/magazine/3c3f99a1-PHOTO-2024-01-24-18-08-04.jpg)
+:::
 
 ## Wartung des IMS
 

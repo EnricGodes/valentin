@@ -28,8 +28,6 @@ El bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la call
 
 Algunos cambios internos y externos sufrieron la generación de motor 964.
 
----
-
 Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
 
 ## Rehabilitación del motor
@@ -40,12 +38,9 @@ Cabe diferenciar dos conceptos distintos:
 
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-
 ![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
-
----
+:::

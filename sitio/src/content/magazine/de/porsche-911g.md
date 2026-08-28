@@ -58,42 +58,22 @@ Im Juli 1989 markierte ein **Porsche 911 Coupé** das Ende der G-Serie. In Grand
 
 ## Restaurierungen Porsche 911 G-Serie
 
-![Backdating 964 (2023)](/img/magazine/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg)
-
 Befolgen Sie den Restaurierung dieser backdating von 964
-
-![Restaurierung 2.7 S 1975 national (N8 grün lima)](/img/magazine/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg)
 
 Folgen Sie dem Restaurierung dieses 2.7 s Targa von 1975
 
-![Restaurierung 3.0 SC Targa 1979](/img/magazine/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg)
-
 Verfolgen Sie den Restaurierung dieses SC Targa aus 1979, den wir zum Verkauf vorbereiten.
-
-![Restaurierung durch Feuer 911 930 turbo 1975](/img/magazine/4f053492-f-1.jpg)
 
 Verfolgen Sie den Restaurierung dieses wunderschönen 930, der nach einem Brand im Motorbereich bei uns eintraf.
 
-![Motor 1971 2.2](/img/magazine/d10780ce-motor-1.jpg)
-
 Engine 2.2
-
-![Komplette Restaurierung des 2.2 1970 Motors der F-Serie](/img/magazine/8ca01a5d-motor-1.jpg)
 
 Motor 2.2 1970
 
-![Komplette Motorsanierung 964 M64](/img/magazine/64d909b1-mot-2.jpg)
-
 Motorüberholung 964 Typ M64
-
-![Motor 930 turbo 3.0 1988](/img/magazine/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg)
 
 Motor 930 turbo 3.0 1988
 
-![Original Polsterung aus der 911 F-Serie](/img/magazine/40d663dd-tap-8.jpg)
-
 Die Polsterung eines 911 ist ein wichtiger Bestandteil der Restaurierung.
-
-![Restaurierung Bremssättel](/img/magazine/3420a5d5-pinzas-3.jpg)
 
 Restaurierung von Bremssättel

@@ -26,8 +26,6 @@ Zu uns kam dieses Projekt durch einen Kunden aus Südspanien, der schon seit ein
 
 Das auf den Boden tropfende Motoröl und der Mangel an Finesse und Leistung des Motors ermutigten ihn, Kontakt zu uns aufzunehmen und sich an die Arbeit zu machen.
 
----
-
 ![](/img/magazine/ff41b840-foto-jordi.jpg)
 
 ### Jordis Meinung
@@ -39,8 +37,6 @@ Im Grunde ist es eine ungezähmte Maschine aus Zuffenhausen.
 Wenn der riesige turbo die richtige Drehzahl um 2.800 rpm erreicht hat, muss man sich sehr darüber im Klaren sein, was man tut und wo man sich befindet, um nicht in ernsthafte Schwierigkeiten zu geraten.
 
 Nur wenige Maschinen strahlen ein Gefühl der Angst aus wie diese.
-
----
 
 In der ersten Phase geht es immer darum, das Gerät in seinem aktuellen Zustand zu testen und die Punkte zu erkennen, die wirklich eingehender Arbeit bedürfen oder die im Laufe der Zeit nicht mehr betriebsbereit sind.
 
@@ -60,35 +56,25 @@ Es lohnt sich, zwei verschiedene Konzepte zu unterscheiden:
 
 -Große Inspektion: Hier bei Valentin Motors bezeichnen wir als große Inspektion den Eingriffsprozess der Motor- und Getriebeentkopplung und des Protokolls zur vollständigen Systemüberprüfung, jedoch ohne Demontage des gesamten Motors.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![PHOTO-2022-02-15-10-56-04.jpg](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
-
 ![PHOTO-2022-02-15-16-31-20.jpg](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
-
 ![PHOTO-2022-02-16-09-13-10.jpg](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
-
 ![PHOTO-2022-02-16-09-14-00.jpg](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
-
 ![PHOTO-2022-02-22-09-46-55.jpg](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
-
 ![PHOTO-2022-02-23-16-05-09.jpg](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
-
 ![PHOTO-2022-02-23-16-06-30.jpg](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
-
 ![PHOTO-2022-02-23-16-35-14.jpg](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
-
 ![PHOTO-2022-02-23-16-35-21.jpg](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
-
 ![PHOTO-2022-02-24-17-00-41.jpg](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
-
 ![PHOTO-2022-02-28-11-30-44.jpg](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
+:::
 
 Endlich war der Motor in einwandfreiem Zustand, wir haben einen Vorher-Nachher-Vergleich:
 
 ![Status des Blocks, der bereits zusammengebaut wird](/img/magazine/f907bdb4-PHOTO-2022-03-04-16-21-30.jpg)
 
 *Zustand des Blocks bereits im Zusammenbau*
-
----
 
 ![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
@@ -97,5 +83,3 @@ Endlich war der Motor in einwandfreiem Zustand, wir haben einen Vorher-Nachher-V
 Das Schöne an Motoren mit einem einzigen turbo ist die **LAG**, die Sie im Moment und in der Situation, in der Sie sich befinden, kontrollieren und richtig spüren müssen.
 
 Es gibt Optionen für*„minimieren“* dies **Verzögerung** wie eine spezielle Entlastungsfeder oder das Druckventil, aber da verfälschen wir schon das Wesen dieses Motors.
-
----

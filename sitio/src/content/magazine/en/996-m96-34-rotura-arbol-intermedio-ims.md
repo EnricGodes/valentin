@@ -42,35 +42,23 @@ We must take special care in the guidelines of servicing with the verification a
 
 Completely disassembling cylinder heads and making valve seats and guides is key to the process.
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![photo 2.jpg](/img/magazine/fd76012d-foto-2.jpg)
-
 ![photo 3.jpg](/img/magazine/192ae06b-foto-3.jpg)
-
 ![photo 4.jpg](/img/magazine/dc331b3b-foto-4.jpg)
-
 ![photo 5.jpg](/img/magazine/3ebd1ae2-foto-5.jpg)
-
 ![photo 6.jpg](/img/magazine/564aff33-foto-6.jpg)
-
 ![photo 7.jpg](/img/magazine/68709cb8-foto-7.jpg)
-
 ![photo portada.jpg](/img/magazine/eb9deec1-foto-portada.jpg)
-
 ![motor 1 (1).jpg](/img/magazine/6ab79100-motor-1-1-.jpg)
-
 ![motor 1 (2).jpg](/img/magazine/fd0e476a-motor-1-2-.jpg)
-
 ![motor 1 (3).jpg](/img/magazine/4ad02b71-motor-1-3-.jpg)
-
 ![motor 1 (4).jpg](/img/magazine/093b6de3-motor-1-4-.jpg)
-
 ![motor 1 (5).jpg](/img/magazine/0d8fcbb1-motor-1-5-.jpg)
-
 ![motor 1 (6).jpg](/img/magazine/ff38cc20-motor-1-6-.jpg)
-
 ![motor 1 (7).jpg](/img/magazine/103ca9b7-motor-1-7-.jpg)
-
 ![PHOTO-2024-01-24-18-08-04.jpg](/img/magazine/3c3f99a1-PHOTO-2024-01-24-18-08-04.jpg)
+:::
 
 ## Servicing of the IMS
 

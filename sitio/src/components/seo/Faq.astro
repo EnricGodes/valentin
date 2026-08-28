@@ -16,7 +16,8 @@ interface Props { markdown: string; url: string; idioma: Idioma; }
 const { markdown, url, idioma } = Astro.props;
 
 const sinFormato = (s: string) =>
-  s.replace(/!\[[^\]]*\]\([^)]*\)/g, '')          // imagenes
+  s.replace(/^:::.*$/gm, '')                     // directivas de modulo
+   .replace(/!\[[^\]]*\]\([^)]*\)/g, '')          // imagenes
    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')       // enlaces -> texto
    .replace(/<[^>]+>/g, ' ')
    .replace(/[*_`#>]/g, '')

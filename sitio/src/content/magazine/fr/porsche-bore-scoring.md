@@ -42,7 +42,8 @@ La lubrification des cylindres peut également être compromise si l’huile n�
 - Consommation d’huile excessive.
 - Davantage de fumée à l’échappement.
 
-<video src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" ancho="1080" alto="1920"}
+:::
 
 ## Modèles Porsche concernés par le bore scoring
 
@@ -52,11 +53,11 @@ Ci-dessous, un exemple de bloc M97 chemisé en Nickies (NIKASIL), prêt au remon
 
 Dans ce cas, la cylindrée est également passée de 3,8 à 4,0.
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Bloc M97 chemisé en Nickies](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-
 ![Détail du bloc chemisé](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-
 ![Bloc prêt au remontage](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+:::
 
 ## Prévention du bore scoring
 

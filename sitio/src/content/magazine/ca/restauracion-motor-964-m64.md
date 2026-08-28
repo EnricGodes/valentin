@@ -28,8 +28,6 @@ El bloc Mezger és l'estendard de disseny i fiabilitat tant usat al carrer com a
 
 Alguns canvis interns i externs van patir la generació de motor 964.
 
----
-
 Sempre la primera fase de desmuntatge és important per verificar l'estat de tots els components i poder diagnosticar algun problema ocult.
 
 ## Rehabilitació del motor
@@ -40,12 +38,9 @@ Cal diferenciar dos conceptes diferents:
 
 -Gran aturada: aquí a Valentin Motors anomenem gran aturada el procés d'intervenció de desacoblament motor i caixa i protocol de revisió completa de sistemes però sense desmuntar el motor complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-
 ![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
-
----
+:::

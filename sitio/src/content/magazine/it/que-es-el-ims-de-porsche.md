@@ -46,15 +46,17 @@ Nei motori *watercooled* citati, Porsche monta un cuscinetto a doppia corona di 
 
 ![**Posizione dell’IMS** La freccia indica la posizione del cuscinetto](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
-***Posizione dell’IMS** La freccia indica la posizione del cuscinetto*
+*Posizione dell’IMS** La freccia indica la posizione del cuscinetto*
 
 ## **Video esplicativo sull’IMS**
 
 Nel video seguente il nostro direttore generale, Jordi Edo, spiega nel dettaglio qual è il problema dell’IMS e le soluzioni proposte da Valentin Motors.
 
-<video src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" ancho="1080" alto="1920"}
+:::
 
-<video src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
+:::
 
 ## **Quali vetture sono interessate?**
 
@@ -81,7 +83,7 @@ L’olio è determinante: la sua qualità e la regolarità del cambio.
 
 ![Riparazione IMS Porsche](/img/magazine/69931237-IMS-PORSCHE-911.jpeg)
 
-***La nostra esperienza** Come si vede nell’immagine, abbiamo sostituito moltissimi IMS: quasi 320 interventi dal 2005.*
+*La nostra esperienza** Come si vede nell’immagine, abbiamo sostituito moltissimi IMS: quasi 320 interventi dal 2005.*
 
 Per questo **in Valentin Motors offriamo il controllo dello stato dell’IMS**.
 

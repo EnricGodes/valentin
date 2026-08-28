@@ -58,42 +58,22 @@ En juillet 1989, une **Porsche 911 Coupé** marque la fin de la Série G. De cou
 
 ## Restaurations Porsche 911 série G
 
-![Backdating 964 (2023)](/img/magazine/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg)
-
 Suivez le restauration de cet backdating de 964
-
-![Restauration 2.7 S 1975 nationale (N8 vert Lima)](/img/magazine/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg)
 
 Suivez le restauration de ce 2.7 s Targa de 1975
 
-![Restauration 3.0 SC Targa 1979](/img/magazine/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg)
-
 Suivez le restauration de cette SC Targa de 1979 que nous préparons à la vente.
-
-![Restauration par le feu 911 930 turbo 1975](/img/magazine/4f053492-f-1.jpg)
 
 Suivez le restauration de cette belle 930, qui est arrivée dans nos installations après avoir subi un incendie dans la zone moteur.
 
-![Moteur 1971 2.2](/img/magazine/d10780ce-motor-1.jpg)
-
 Moteur 2.2
-
-![Restauration complète du moteur 2.2 1970 série F](/img/magazine/8ca01a5d-motor-1.jpg)
 
 moteur 2.2 1970
 
-![Réhabilitation complète moteur 964 M64](/img/magazine/64d909b1-mot-2.jpg)
-
 Réfection moteur 964 type M64
-
-![Moteur 930 turbo 3.0 1988](/img/magazine/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg)
 
 Moteur 930 turbo 3.0 1988
 
-![Travail de rembourrage original sellerie de la série 911 F](/img/magazine/40d663dd-tap-8.jpg)
-
 La sellerie d'une 911 est un élément clé de la restauration.
-
-![Restauration étriers de frein](/img/magazine/3420a5d5-pinzas-3.jpg)
 
 Restauration des étriers de frein

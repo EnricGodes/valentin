@@ -64,27 +64,13 @@ El sábado 11 de noviembre, desde Valentin Motors quisimos rendir tributo a esta
 
 Ni más ni menos que **20 magníficos** vehículos nos siguieron por la carreteras de la Catalunya interior, en un recorrido que dividimos en 5 espectaculares tramos: Pinos, Hostalnou, Vilaredes, Taurons y La Bassa. Disfrutamos conduciendo, a muy buen ritmo, por unas bellas y técnicas carreteras, aptas para todos los conductores. Una mañana en la que nos encontramos con niebla y nubes, pero al final el sol nos sonrió en buena parte de la jornada, la cual acabamos con una comida en el reputado restaurante **Aligué**, toda una delicia para nuestros paladares. El final perfecto para un día tan memorable, porque era nuestro día.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-11-at-11.44.09.jpeg](/img/magazine/63216172-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-11-at-11.44.09.jpeg)
-
 ![1-images-911.REBELRIDE-GOPR0886.jpg](/img/magazine/8507ea4b-1-images-911.REBELRIDE-GOPR0886.jpg)
-
 ![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-09-at-17.45.27---copia.jpeg](/img/magazine/1b27c10e-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-09-at-17.45.27-copia.jpeg)
-
 ![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.17.15---copia.jpeg](/img/magazine/7b3cf2d0-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.17.15-copia.jpeg)
-
 ![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.22.32-3---copia.jpeg](/img/magazine/d9699daa-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.22.32-3-copia.jpeg)
-
-![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-11-at-11.44.09.jpeg](/img/magazine/63216172-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-11-at-11.44.09.jpeg)
-
-![1-images-911.REBELRIDE-GOPR0886.jpg](/img/magazine/8507ea4b-1-images-911.REBELRIDE-GOPR0886.jpg)
-
-![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-09-at-17.45.27---copia.jpeg](/img/magazine/1b27c10e-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-09-at-17.45.27-copia.jpeg)
-
-![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.17.15---copia.jpeg](/img/magazine/7b3cf2d0-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.17.15-copia.jpeg)
-
-![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.22.32-3---copia.jpeg](/img/magazine/d9699daa-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.22.32-3-copia.jpeg)
-
----
+:::
 
 ### VI Endurance "The French Connection"
 
@@ -93,31 +79,14 @@ Lugar: Rosellón, Francia
 
 Después del briefing y un buen desayuno, salimos hacia la carretera bajo una mañana oscura y lluviosa, dirigiéndonos al primer control de reagrupamiento en la gasolinera **Q8 de Matadepera**. A partir de ahí seguimos nuestra ruta por unos espectaculares paisajes y montañas, hasta llegar al restaurante **Mitic**, donde paramos para descansar y recargar energías con una deliciosa comida. La tarde la dirigimos hacia los preciosos tramos franceses del **Vallespir**, finalizando en la localidad de **Le Boulou**. No podíamos acabar de otra manera la intensa jornada, que cenando en el espectacular restaurante el **Solomillo**, todo un lujo que se merece nuestra VI Endurance.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-09.24.22.jpeg](/img/magazine/00e9b3c7-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-09.24.22.jpeg)
-
 ![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-16.07.30.jpeg](/img/magazine/0d93073f-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-16.07.30.jpeg)
-
 ![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-21.06.32.jpeg](/img/magazine/f41f0414-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-21.06.32.jpeg)
-
 ![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.05.30.jpeg](/img/magazine/4eb93a46-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.05.30.jpeg)
-
 ![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.07.40-1.jpeg](/img/magazine/52687015-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.07.40-1.jpeg)
-
 ![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-24-at-10.15.50.jpeg](/img/magazine/eb7375bf-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-24-at-10.15.50.jpeg)
-
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-09.24.22.jpeg](/img/magazine/00e9b3c7-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-09.24.22.jpeg)
-
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-16.07.30.jpeg](/img/magazine/0d93073f-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-16.07.30.jpeg)
-
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-21.06.32.jpeg](/img/magazine/f41f0414-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-21.06.32.jpeg)
-
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.05.30.jpeg](/img/magazine/4eb93a46-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.05.30.jpeg)
-
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.07.40-1.jpeg](/img/magazine/52687015-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.07.40-1.jpeg)
-
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-24-at-10.15.50.jpeg](/img/magazine/eb7375bf-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-24-at-10.15.50.jpeg)
-
----
+:::
 
 ### The Grand Tour Tribute by VM
 
@@ -128,51 +97,19 @@ Esta vez decidimos darle un giro a nuestras míticas rutas por carretera y hacer
 
 Un día esplendido de sol nos acompañó toda la jornada, la cuál empezó con puntualidad a las 10 de la mañana. Después del briefing habitual, los 3 grupos en los que se dividieron los asistentes, se dirigieron cada uno a su zona. El aeropuerto se dividió **en 3 espectaculares circuitos**, uno de ellos más exigente, con mayor recorrido y acompañado de una curva pasada por agua, el otro destacó por sus divertidos eslalon, y finalmente el último y el más diferente, donde nuestros participantes tuvieron que dejar de lado los Porsche para subirse a un Beetle que convertimos en un tracción trasera, teniendo que hacer un ejercicio para aprender a hacer contravolante, ya que el eje trasero llevaba las ruedas locas, ¡todo un reto! Una vez finalizada la mañana, nos dirigimos a comer y a descansar en el espléndido Aravell Golf & Country Club, donde finalizamos el día.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-05-at-16.36.09.jpeg](/img/magazine/195d1c88-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-05-at-16.36.09.jpeg)
-
 ![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-09.46.09.jpeg](/img/magazine/dda7a33c-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-09.46.09.jpeg)
-
 ![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43.jpeg](/img/magazine/9c09b135-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43.jpeg)
-
 ![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-4.jpeg](/img/magazine/f2f350a5-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-4.jpeg)
-
 ![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-5.jpeg](/img/magazine/61d3eeb3-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-5.jpeg)
-
 ![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-15.50.07.jpeg](/img/magazine/afa7ced9-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-15.50.07.jpeg)
-
 ![1-images-THEGRANDTOUR-GOPR0692.jpg](/img/magazine/c694fd18-1-images-THEGRANDTOUR-GOPR0692.jpg)
-
 ![1-images-THEGRANDTOUR-GOPR0696.jpg](/img/magazine/fcbbb19c-1-images-THEGRANDTOUR-GOPR0696.jpg)
-
 ![1-images-THEGRANDTOUR-GOPR0742.jpg](/img/magazine/345b6f64-1-images-THEGRANDTOUR-GOPR0742.jpg)
-
 ![1-images-THEGRANDTOUR-GOPR0811.jpg](/img/magazine/5cda033d-1-images-THEGRANDTOUR-GOPR0811.jpg)
-
 ![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-04-at-21.47.24.jpeg](/img/magazine/b7608cc8-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-04-at-21.47.24.jpeg)
-
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-05-at-16.36.09.jpeg](/img/magazine/195d1c88-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-05-at-16.36.09.jpeg)
-
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-09.46.09.jpeg](/img/magazine/dda7a33c-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-09.46.09.jpeg)
-
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43.jpeg](/img/magazine/9c09b135-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43.jpeg)
-
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-4.jpeg](/img/magazine/f2f350a5-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-4.jpeg)
-
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-5.jpeg](/img/magazine/61d3eeb3-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-5.jpeg)
-
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-15.50.07.jpeg](/img/magazine/afa7ced9-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-15.50.07.jpeg)
-
-![1-images-THEGRANDTOUR-GOPR0692.jpg](/img/magazine/c694fd18-1-images-THEGRANDTOUR-GOPR0692.jpg)
-
-![1-images-THEGRANDTOUR-GOPR0696.jpg](/img/magazine/fcbbb19c-1-images-THEGRANDTOUR-GOPR0696.jpg)
-
-![1-images-THEGRANDTOUR-GOPR0742.jpg](/img/magazine/345b6f64-1-images-THEGRANDTOUR-GOPR0742.jpg)
-
-![1-images-THEGRANDTOUR-GOPR0811.jpg](/img/magazine/5cda033d-1-images-THEGRANDTOUR-GOPR0811.jpg)
-
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-04-at-21.47.24.jpeg](/img/magazine/b7608cc8-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-04-at-21.47.24.jpeg)
-
----
+:::
 
 ### V Endurance "Band of Speed Hunters"
 
@@ -181,23 +118,12 @@ Lugar: Solsonés y Cerdanya
 
 Esta vez, nuestro tour se centró en una intensa mañana, que aprovechamos para recorrer las espectaculares carreteras del **Solsonés**, pasando por la falda del **Cadí**, y así llegando a la**Seu D'Urgell**, con unos paisajes que nos dejaron sin aliento. Después de un intenso pero gratificante trayecto, llegamos a **El Paller de Queixans**, en Puigcerdà, para deleitar su típica cocina y poder descansar, sin prisas ni preocupaciones, antes de volver a casa.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
-
 ![WhatsApp-Image-2019-04-03-at-10.37.10.jpeg](/img/magazine/609caa04-WhatsApp-Image-2019-04-03-at-10.37.10.jpeg)
-
 ![WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg](/img/magazine/ac26c85a-WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg)
-
 ![WhatsApp-Image-2019-03-30.jpeg](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
-
-![WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
-
-![WhatsApp-Image-2019-04-03-at-10.37.10.jpeg](/img/magazine/609caa04-WhatsApp-Image-2019-04-03-at-10.37.10.jpeg)
-
-![WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg](/img/magazine/ac26c85a-WhatsApp-Image-2019-03-30-at-17.31.34-4.jpeg)
-
-![WhatsApp-Image-2019-03-30.jpeg](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
-
----
+:::
 
 ### IV Endurance "The French Kiss"
 
@@ -206,31 +132,14 @@ Lugar: Vallespir y sur de Francia
 
 Un sábado muy intenso pero divertido, donde disfrutamos muchísimo de las carreteras del Vallespir y del sur de Francia, con tramos más técnicos pero espectaculares.
 
+:::galeria{diseno="pase" porFila="4" proporcion="square"}
 ![IMG_4316.jpg](/img/magazine/8f3ff3a5-IMG_4316.jpg)
-
 ![IMG_4339.jpg](/img/magazine/d4c5c4ed-IMG_4339.jpg)
-
 ![IMG_4340.jpg](/img/magazine/7cb08b89-IMG_4340.jpg)
-
 ![BUBU6605.jpg](/img/magazine/fd051e77-BUBU6605.jpg)
-
 ![IMG_4286.jpg](/img/magazine/90b16360-IMG_4286.jpg)
-
 ![IMG_4346.jpg](/img/magazine/5d5c6a9d-IMG_4346.jpg)
-
-![IMG_4316.jpg](/img/magazine/8f3ff3a5-IMG_4316.jpg)
-
-![IMG_4339.jpg](/img/magazine/d4c5c4ed-IMG_4339.jpg)
-
-![IMG_4340.jpg](/img/magazine/7cb08b89-IMG_4340.jpg)
-
-![BUBU6605.jpg](/img/magazine/fd051e77-BUBU6605.jpg)
-
-![IMG_4286.jpg](/img/magazine/90b16360-IMG_4286.jpg)
-
-![IMG_4346.jpg](/img/magazine/5d5c6a9d-IMG_4346.jpg)
-
----
+:::
 
 ### III Endurance "The Mods" Tour
 
@@ -239,31 +148,14 @@ Lugar: Igualada
 
 Disfrutamos a lo grande de la jornada, con plazas totalmente cubiertas y una gran participación de nuestros riders. Un éxito del que estamos muy orgullosos. El tour fue caracterizado por una mezcla de carreteras de todo tipo alrededor de la zona de Igualada, con un formato más concentrado, que exigió a los riders más implicación.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![WhatsApp-Image-2018-12-17-at-10.59.49.jpeg](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
-
 ![WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
-
 ![WhatsApp-Image-2018-12-17-at-10.59.35.jpeg](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
-
 ![WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
-
 ![WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)
-
 ![WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg](/img/magazine/d5cb71ae-WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg)
-
-![WhatsApp-Image-2018-12-17-at-10.59.49.jpeg](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
-
-![WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg](/img/magazine/3f5a6aba-WhatsApp-Image-2018-12-15-at-17.09.10-1.jpeg)
-
-![WhatsApp-Image-2018-12-17-at-10.59.35.jpeg](/img/magazine/e378ee47-WhatsApp-Image-2018-12-17-at-10.59.35.jpeg)
-
-![WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg](/img/magazine/89ef20b5-WhatsApp-Image-2018-12-17-at-10.59.36-1.jpeg)
-
-![WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg](/img/magazine/77874061-WhatsApp-Image-2018-12-17-at-10.59.39-1.jpeg)
-
-![WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg](/img/magazine/d5cb71ae-WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg)
-
----
+:::
 
 ### II Endurance Tour “Le Tech”
 
@@ -274,39 +166,16 @@ Dividido en dos partes y **8 stages** recorriendo famosos tramos de enlaces cono
 
 Buscamos una jornada con “**un punto de dureza**”, apta para todos los niveles y con la garantía de seguridad de nuestras salidas guiadas con road-book, siempre siguiendo las normas de seguridad básicas.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![WhatsApp-Image-2018-10-29-at-10.34.11.jpeg](/img/magazine/d538038e-WhatsApp-Image-2018-10-29-at-10.34.11.jpeg)
-
 ![WhatsApp-Image-2018-10-27-at-10.10.37.jpeg](/img/magazine/1cafc126-WhatsApp-Image-2018-10-27-at-10.10.37.jpeg)
-
 ![WhatsApp-Image-2018-10-27-at-14.57.21.jpeg](/img/magazine/74e74049-WhatsApp-Image-2018-10-27-at-14.57.21.jpeg)
-
 ![WhatsApp-Image-2018-10-29-at-10.32.48-3.jpeg](/img/magazine/d0f31c91-WhatsApp-Image-2018-10-29-at-10.32.48-3.jpeg)
-
 ![WhatsApp-Image-2018-10-29-at-10.47.22-5.jpeg](/img/magazine/7981dfc4-WhatsApp-Image-2018-10-29-at-10.47.22-5.jpeg)
-
 ![WhatsApp-Image-2018-10-29-at-13.26.02.jpeg](/img/magazine/95ad9df1-WhatsApp-Image-2018-10-29-at-13.26.02.jpeg)
-
 ![WhatsApp-Image-2018-10-29-at-13.26.03-1.jpeg](/img/magazine/1ce63271-WhatsApp-Image-2018-10-29-at-13.26.03-1.jpeg)
-
 ![Panoramica.jpeg](/img/magazine/fd817d7a-Panoramica.jpeg)
-
-![WhatsApp-Image-2018-10-29-at-10.34.11.jpeg](/img/magazine/d538038e-WhatsApp-Image-2018-10-29-at-10.34.11.jpeg)
-
-![WhatsApp-Image-2018-10-27-at-10.10.37.jpeg](/img/magazine/1cafc126-WhatsApp-Image-2018-10-27-at-10.10.37.jpeg)
-
-![WhatsApp-Image-2018-10-27-at-14.57.21.jpeg](/img/magazine/74e74049-WhatsApp-Image-2018-10-27-at-14.57.21.jpeg)
-
-![WhatsApp-Image-2018-10-29-at-10.32.48-3.jpeg](/img/magazine/d0f31c91-WhatsApp-Image-2018-10-29-at-10.32.48-3.jpeg)
-
-![WhatsApp-Image-2018-10-29-at-10.47.22-5.jpeg](/img/magazine/7981dfc4-WhatsApp-Image-2018-10-29-at-10.47.22-5.jpeg)
-
-![WhatsApp-Image-2018-10-29-at-13.26.02.jpeg](/img/magazine/95ad9df1-WhatsApp-Image-2018-10-29-at-13.26.02.jpeg)
-
-![WhatsApp-Image-2018-10-29-at-13.26.03-1.jpeg](/img/magazine/1ce63271-WhatsApp-Image-2018-10-29-at-13.26.03-1.jpeg)
-
-![Panoramica.jpeg](/img/magazine/fd817d7a-Panoramica.jpeg)
-
----
+:::
 
 ### I Endurance Tour
 
@@ -319,9 +188,9 @@ Los tramos seleccionados fueron lo míticos en pruebas de motorsport de la zona.
 
 El programa consistió en salida viernes desde Barcelona y finalizó sábado a las 12:00h en Le Boulou. Ruta guiada con controles de paso para el control del tour.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![1-images-noticias-TIPS911-1consejos-viajar-porsche-911-paisaje-ruta-964.jpg](/img/magazine/38de7a2d-1-images-noticias-TIPS911-1consejos-viajar-porsche-911-paisaje-ruta-964.jpg)
-
----
+:::
 
 ### Evento Porsche: Rioja Alta
 
@@ -336,19 +205,11 @@ Carreteras que permiten disfrutar del esplendor verde que se compenetra perfecta
 
 Después de este viaje, podemos asegurar que hay varias citas imprescindibles: Las Bodegas Rioja Alta, Restaurante 4 arcos, Museo Vivanco y los Monasterios de Yuso y Suso. *Entre vinos y costillas* descubrimos el nacimiento del castellano, o el patrón de España: San Millán.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![4-evento-taller-porsche-barcelona.jpeg](/img/magazine/25c1bfa5-4-evento-taller-porsche-barcelona.jpeg)
-
 ![1-evento-taller-porsche-barcelona.jpeg](/img/magazine/3264b7bd-1-evento-taller-porsche-barcelona.jpeg)
-
 ![3-evento-taller-porsche-barcelona.jpeg](/img/magazine/bb274302-3-evento-taller-porsche-barcelona.jpeg)
-
-![4-evento-taller-porsche-barcelona.jpeg](/img/magazine/25c1bfa5-4-evento-taller-porsche-barcelona.jpeg)
-
-![1-evento-taller-porsche-barcelona.jpeg](/img/magazine/3264b7bd-1-evento-taller-porsche-barcelona.jpeg)
-
-![3-evento-taller-porsche-barcelona.jpeg](/img/magazine/bb274302-3-evento-taller-porsche-barcelona.jpeg)
-
----
+:::
 
 ### Winter Ride 2017: colección Porsche
 
@@ -367,23 +228,12 @@ También visitamos las Bodegas Otazu. Una catedral del vino que integra las más
 
 Descubrir Roncesvalles, la Sierra de Irati y dejarnos llevar por las leyendas del Valle de Baztan es un sueño cumplido. En resumen; espectacular compañía y carreteras, junto con una exquisita gastronomía ha hecho que sea un fin de semana único.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![IMG_0197.jpg](/img/magazine/f707ed0b-IMG_0197.jpg)
-
 ![IMG_0188.jpg](/img/magazine/55dd5a64-IMG_0188.jpg)
-
 ![IMG_0198.jpg](/img/magazine/5666327f-IMG_0198.jpg)
-
 ![IMG_0302.jpg](/img/magazine/ab2e4502-IMG_0302.jpg)
-
-![IMG_0197.jpg](/img/magazine/f707ed0b-IMG_0197.jpg)
-
-![IMG_0188.jpg](/img/magazine/55dd5a64-IMG_0188.jpg)
-
-![IMG_0198.jpg](/img/magazine/5666327f-IMG_0198.jpg)
-
-![IMG_0302.jpg](/img/magazine/ab2e4502-IMG_0302.jpg)
-
----
+:::
 
 ### Trackday Sensations: circuito Castellolí
 
@@ -406,27 +256,13 @@ Valentin Motors presentó en primicia el último trabajo de **reconstrucción de
 
 La unidad Porsche 3.2 del año 72 fue conducida por David y Jordi para corroborar el excelente trabajo del equipo técnico de Valentin Motors. Aprovechando la ocasión se realizó un reportaje que saldrá próximamente en una de las ediciones de la única revista en español especializada en Porsche, [**9ONCE Plus.**](http://9onceplus.com/)
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![_EDC5602.jpg](/img/magazine/5315f5e4-_EDC5602.jpg)
-
 ![_EDC5513.jpg](/img/magazine/10033e1e-_EDC5513.jpg)
-
 ![_EDC5519---copia.jpg](/img/magazine/71a25292-_EDC5519-copia.jpg)
-
 ![_EDC5529.jpg](/img/magazine/85b2c53f-_EDC5529.jpg)
-
 ![_EDC5580.jpg](/img/magazine/3aa18d1d-_EDC5580.jpg)
-
-![_EDC5602.jpg](/img/magazine/5315f5e4-_EDC5602.jpg)
-
-![_EDC5513.jpg](/img/magazine/10033e1e-_EDC5513.jpg)
-
-![_EDC5519---copia.jpg](/img/magazine/71a25292-_EDC5519-copia.jpg)
-
-![_EDC5529.jpg](/img/magazine/85b2c53f-_EDC5529.jpg)
-
-![_EDC5580.jpg](/img/magazine/3aa18d1d-_EDC5580.jpg)
-
----
+:::
 
 ### Summer Ride 2017: Next Level
 
@@ -441,18 +277,9 @@ En ocasiones en la carretera llegamos a situaciones de alto riesgo y con el desc
 
 Los riders recibirán las instrucciones y correcciones de los instructores mediante un walkie-talkie.
 
+:::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![DSC_9196.jpg](/img/magazine/247b59fc-DSC_9196.jpg)
-
 ![DSC_9229.jpg](/img/magazine/0d5f0c5b-DSC_9229.jpg)
-
 ![DSC_9254.jpg](/img/magazine/a8a0e988-DSC_9254.jpg)
-
 ![DSC_9311.jpg](/img/magazine/c7a7f652-DSC_9311.jpg)
-
-![DSC_9196.jpg](/img/magazine/247b59fc-DSC_9196.jpg)
-
-![DSC_9229.jpg](/img/magazine/0d5f0c5b-DSC_9229.jpg)
-
-![DSC_9254.jpg](/img/magazine/a8a0e988-DSC_9254.jpg)
-
-![DSC_9311.jpg](/img/magazine/c7a7f652-DSC_9311.jpg)
+:::

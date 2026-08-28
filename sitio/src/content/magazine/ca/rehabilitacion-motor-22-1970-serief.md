@@ -20,8 +20,6 @@ ctas: []
 
 Rehabilitació completa motor 1970
 
----
-
 Sempre la primera fase de desmuntatge és important per verificar l'estat de tots els components i poder diagnosticar algun problema ocult.
 
 ## Rehabilitació del motor
@@ -32,8 +30,7 @@ Cal diferenciar dos conceptes diferents:
 
 -Gran aturada: aquí a Valentin Motors anomenem gran aturada el procés d'intervenció de desacoblament motor i caixa i protocol de revisió completa de sistemes però sense desmuntar el motor complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![motor 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-
 ![motor 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
-
----
+:::

@@ -28,8 +28,6 @@ El bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la call
 
 Aquí tenemos un ejemplo común de fugas de aceite masivas por bloque motor lo cual nos obliga a abrir motor completo.
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
@@ -44,8 +42,6 @@ Los cilindros al Nicasil nos dan una vida casi ilimitada.
 
 En nuestro caso, el proceso de limpieza, descarbonización , verificación y pesaje de piezas es clave.
 
----
-
 Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
 
 ## Rehabilitación del motor
@@ -56,41 +52,28 @@ Cabe diferenciar dos conceptos distintos:
 
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![foto 1.jpg](/img/magazine/ce5c9824-foto-1.jpg)
-
 ![foto 2.jpg](/img/magazine/3ed7f693-foto-2.jpg)
-
 ![foto 3.jpg](/img/magazine/a9b2ab1f-foto-3.jpg)
-
 ![foto 4.jpg](/img/magazine/dc81fac2-foto-4.jpg)
-
 ![foto 5.jpg](/img/magazine/dd763a29-foto-5.jpg)
-
 ![foto 6.jpg](/img/magazine/3bed9dd4-foto-6.jpg)
-
 ![foto 7.jpg](/img/magazine/30dbb0b9-foto-7.jpg)
-
 ![foto 8.jpg](/img/magazine/b3e0a823-foto-8.jpg)
-
 ![foto 9.jpg](/img/magazine/7f7f24f4-foto-9.jpg)
-
 ![foto 10.jpg](/img/magazine/f029fa7f-foto-10.jpg)
-
 ![foto 11.jpg](/img/magazine/2ac8a7c8-foto-11.jpg)
-
 ![foto 12.jpg](/img/magazine/74ff9c3b-foto-12.jpg)
-
 ![foto 13.jpg](/img/magazine/547a6585-foto-13.jpg)
-
 ![foto 14.jpg](/img/magazine/1d0df587-foto-14.jpg)
+:::
 
 Proceso de montaje
 
 ![Momento del acoplamiento del motor](/img/magazine/ead23d0d-foto-12.jpg)
 
 *Momento del acoplamiento del motor*
-
----
 
 ![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
@@ -101,5 +84,3 @@ Recomendamos sustituir siempre la correa del delco que distribuye los dos encend
 Hasta la fecha no se suministra en origen pero se puede encontrar fácilmente aftermarket.
 
 Realizar siempre guías y asientos de válvulas y sobre todo líneas de los culatines.
-
----

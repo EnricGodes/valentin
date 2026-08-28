@@ -24,8 +24,6 @@ Aquest projecte ens va arribar de la pitjor manera possible, en caixes desordena
 
 Si hi ha un moment important a l'hora d'una restauració és el moment de desmuntar components i parts, l'ordre i la classificació és molt important per a nosaltres.
 
----
-
 ![](/img/magazine/4d0ec249-IMG_5792.JPG)
 
 ### L'opinió de Jordi
@@ -34,21 +32,18 @@ Si hi ha un moment important a l'hora d'una restauració és el moment de desmun
 
 Entre les característiques dels primers Porsche 901/911 estava la seva curta distància entre eixos de només 2.111 mm, només 11 mm més que la del 356. Amb un motor força més pesat i que, a més, col·locat més encara per darrere de l'eix del darrere, el comportament dinàmic dels primers Porsche 911 era massa nerviós i va rebre nombroses crítiques, sobretot al mercat més important, l'americà.
 
----
-
 Vam començar amb un inventari bàsic de components i peces i la tasca laboriosa d'identificar les peces perdudes durant els trasllats i es van començar a posar les bases de les tres partides, carrosseria, mecànica i electricitat.
 
 ## Rehabilitació del motor
 
 En aquest cas el procediment va començar a descarbonitzar i analitzar peça a peça per reconstruir segons els estàndards de la marca aquest propulsor de 2.000cms cúbics i 6 cilindres amb 130hp.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![DSC04842.JPG](/img/magazine/444711eb-DSC04842.JPG)
-
 ![DSC04843.JPG](/img/magazine/0a0f7de8-DSC04843.JPG)
-
 ![DSC04844.JPG](/img/magazine/19179e03-DSC04844.JPG)
-
 ![DSC04845.JPG](/img/magazine/f3ce3b7c-DSC04845.JPG)
+:::
 
 Aquesta és la imatge del motor un cop acabat i instal·lat.
 
@@ -56,15 +51,12 @@ Aquesta és la imatge del motor un cop acabat i instal·lat.
 
 *Foto motor instal·lat*
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![PHOTO-2022-04-12-12-56-42.jpg](/img/magazine/a197e09c-PHOTO-2022-04-12-12-56-42.jpg)
-
 ![IMG_3472.jpg](/img/magazine/e7148acd-IMG_3472.jpg)
-
 ![IMG_3473.jpg](/img/magazine/ccccf42e-IMG_3473.jpg)
-
 ![7F929CA7-FC8E-4B3C-9577-F5B51D7BA64F.JPG](/img/magazine/09a00aae-7F929CA7-FC8E-4B3C-9577-F5B51D7BA64F.JPG)
-
----
+:::
 
 ![](/img/magazine/6f0bf629-IMG_5792.JPG)
 
@@ -72,36 +64,28 @@ Aquesta és la imatge del motor un cop acabat i instal·lat.
 
 Per als més puristes, els 911 de xassís curt són una cosa així com el Sant Grial del model i, encara que els models posteriors tenen millors prestacions, el motor 2 litres resulta molt alegre agafant voltes, el so de la seva fuita aen règim alt enamora i aquell temperat en aquest alt enamora i aquest temperat.
 
----
-
 ## Els detalls de l'interior són la clau
 
 Una de les nostres obsessions és deixar els vehicles segons les especificacions originals. D'aquesta manera, podem tallar el pas del temps i un vehicle de més de quaranta anys tenir l'aparença d'un model acabat de sortir de fàbrica. El procés passa per conèixer cada detall del seu interior.
 
 **El valor de la restauració està en els detalls.**
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="square" lightbox}
 ![PHOTO-2021-04-16-12-36-05.jpg](/img/magazine/feb978bf-PHOTO-2021-04-16-12-36-05.jpg)
-
 ![PHOTO-2021-04-16-12-36-06.jpg](/img/magazine/3c63841f-PHOTO-2021-04-16-12-36-06.jpg)
-
 ![PHOTO-2021-04-16-12-36-07.jpg](/img/magazine/5b360861-PHOTO-2021-04-16-12-36-07.jpg)
-
 ![PHOTO-2021-04-16-12-36-08.jpg](/img/magazine/0e533030-PHOTO-2021-04-16-12-36-08.jpg)
-
 ![PHOTO-2021-04-16-12-36-09.jpg](/img/magazine/e785e6da-PHOTO-2021-04-16-12-36-09.jpg)
-
 ![PHOTO-2021-04-16-12-36-10.jpg](/img/magazine/c6439c76-PHOTO-2021-04-16-12-36-10.jpg)
+:::
 
 ### Muntatge i interior
 
+:::galeria{diseno="apilada" porFila="2" proporcion="standard" lightbox}
 ![PHOTO-2021-06-28-13-19-11 (0000000E).jpg](/img/magazine/01ef2cb5-PHOTO-2021-06-28-13-19-11-0000000E-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11 (0000000F).jpg](/img/magazine/805bb457-PHOTO-2021-06-28-13-19-11-0000000F-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11 (00000005).jpg](/img/magazine/d6b303ff-PHOTO-2021-06-28-13-19-11-00000005-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11 (00000007).jpg](/img/magazine/c8a0b58b-PHOTO-2021-06-28-13-19-11-00000007-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11 (00000010).jpg](/img/magazine/e7cebe3a-PHOTO-2021-06-28-13-19-11-00000010-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11.jpg](/img/magazine/4781cc72-PHOTO-2021-06-28-13-19-11.jpg)
+:::

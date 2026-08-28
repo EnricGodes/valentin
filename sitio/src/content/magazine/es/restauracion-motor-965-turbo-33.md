@@ -26,8 +26,6 @@ Este proyecto nos llegó a través de un cliente del sur de España que hacía t
 
 El degoteo de aceite motor al suelo y la falta de finura y potencia del propulsor le animó a contactar con nosotros y ponernos manos a la obra.
 
----
-
 ![](/img/magazine/ff41b840-foto-jordi.jpg)
 
 ### La opinión de Jordi
@@ -39,8 +37,6 @@ Realmente y con sinceridad es una maquina sin domar creada en Zuffenhausen .
 Cuando el enorme turbo tiene la velocidad adecuada allá sobre las 2.800 rpm has de tener muy claro lo que estas haciendo y donde estas para no meterte en un lío serio.
 
 Pocas maquinas emiten sensación de miedo como esta.
-
----
 
 Siempre la primera fase es de pruebas, probar la unidad en el estado que viene y ver los puntos que realmente necesitan trabajos a fondo o que han dejado de ser operativos en el tiempo.
 
@@ -60,35 +56,25 @@ Cabe diferenciar dos conceptos distintos:
 
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![PHOTO-2022-02-15-10-56-04.jpg](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
-
 ![PHOTO-2022-02-15-16-31-20.jpg](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
-
 ![PHOTO-2022-02-16-09-13-10.jpg](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
-
 ![PHOTO-2022-02-16-09-14-00.jpg](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
-
 ![PHOTO-2022-02-22-09-46-55.jpg](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
-
 ![PHOTO-2022-02-23-16-05-09.jpg](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
-
 ![PHOTO-2022-02-23-16-06-30.jpg](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
-
 ![PHOTO-2022-02-23-16-35-14.jpg](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
-
 ![PHOTO-2022-02-23-16-35-21.jpg](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
-
 ![PHOTO-2022-02-24-17-00-41.jpg](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
-
 ![PHOTO-2022-02-28-11-30-44.jpg](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
+:::
 
 Finalmente el motor quedó en un estado impecable, tenemos una comparativa del antes / después:
 
 ![Estado del bloque ya en montaje](/img/magazine/f907bdb4-PHOTO-2022-03-04-16-21-30.jpg)
 
 *Estado del bloque ya en montaje*
-
----
 
 ![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
@@ -97,5 +83,3 @@ Finalmente el motor quedó en un estado impecable, tenemos una comparativa del a
 La gracia de tos motores con un sólo turbo es el **LAG** que tienes que controlar y sentir justo en el momento y en la situación que estes.
 
 Existen opciones de*“minimizar”* este **lag** como un muelle de descarga especial o la válvula de presión, pero ahí ya estamos adulterando la esencia de este motor.
-
----

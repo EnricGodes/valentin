@@ -20,8 +20,6 @@ ctas: []
 
 Complete engine rehabilitation 1970
 
----
-
 The first phase of disassembly is always important to verify the condition of all the components and be able to diagnose any hidden problems.
 
 ## Engine Rehabilitation
@@ -32,8 +30,7 @@ It is worth distinguishing two different concepts:
 
 -Major overhaul: here at Valentin Motors we call major overhaul the intervention process of engine and gearbox decoupling and complete systems review protocol but without disassembling the complete engine.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![motor 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-
 ![motor 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
-
----
+:::

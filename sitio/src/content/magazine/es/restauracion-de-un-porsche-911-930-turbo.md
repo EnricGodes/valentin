@@ -28,15 +28,11 @@ Este proyecto nos llegó a través de un cliente nuevo que acababa de adquirir e
 
 Su primer propietario fue una modelo tinerfeña ganadora del concurso de Miss España allá por los años 80 y pudimos verificar que su kilometraje era real y mantenía muchos aspectos importantes de inversión y valor futuro.
 
----
-
 ![Olga Delgado](/img/magazine/8edb2bd6-olga.jpg)
 
 ### La opinión de Olga
 
 Después de varias llamadas telefónicas y conversaciones nos llegó la unidad al taller y pudimos comprobar que estaba en un estado original pero con algunos trabajos realizados a medias y que presentaba los defectos y desperfectos de unidades con muchos años sin mantenimiento ni cuidados.
-
----
 
 Siempre la primera fase es de pruebas, probar la unidad en el estado que viene y ver los puntos que realmente necesitan trabajos a fondo o que han dejado de ser operativos en el tiempo.
 
@@ -58,29 +54,20 @@ Cabe diferenciar dos conceptos distintos:
 
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg](/img/magazine/ed0e7f8d-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg](/img/magazine/214da708-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg](/img/magazine/1979dbfd-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg](/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg](/img/magazine/c7f4232c-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg](/img/magazine/a18b8de9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg](/img/magazine/aab8a3e1-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg](/img/magazine/b252d4bf-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg](/img/magazine/3e51b7e7-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg](/img/magazine/615324e8-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg](/img/magazine/d94052ca-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg](/img/magazine/f3c9e0fa-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg)
+:::
 
 Finalmente el motor quedó en un estado impecable, tenemos una comparativa del antes / después:
 
@@ -88,11 +75,10 @@ Finalmente el motor quedó en un estado impecable, tenemos una comparativa del a
 
 *Comparativa del estado inicial del motor con el resultado final*
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg](/img/magazine/3c04a686-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
-
----
+:::
 
 ![](/img/magazine/755aa9de-valenti.jpg)
 
@@ -100,35 +86,33 @@ Finalmente el motor quedó en un estado impecable, tenemos una comparativa del a
 
 En el año modelo 1989 la caja de cambios manual de 4 velocidades se sustituyó por una de 5 velocidades, eso hizo que la reconstrucción fuera más sencilla ya que conocemos a la perfección estos tipo de cambio, cercanos a los vehículos de los años 1990.
 
----
-
 ## La carrocería y la pintura del 930 Turbo
 
 Una de nuestras obsesiones es dejar los vehículos según sus especificaciones originales. De esta forma, podemos atajar el paso del tiempo y un vehículo de más de cuarenta años tener la apariencia de un modelo recién salido de fábrica. El proceso pasa por:
 
 ### Desmontar los componentes
 
+:::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg](/img/magazine/bf4d89c9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg](/img/magazine/3b01ab68-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg](/img/magazine/eec89f14-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg)
+:::
 
 ### Lijado y preparación de la carrocería
 
+:::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg](/img/magazine/ad63bc2b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg](/img/magazine/d8301e50-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg)
+:::
 
 ### Montaje e interior
 
+:::galeria{diseno="apilada" porFila="2" proporcion="standard" lightbox}
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg](/img/magazine/25c2650b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg](/img/magazine/63f66963-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg](/img/magazine/c174018f-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg)
-
 ![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg](/img/magazine/082b6e57-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg)
+:::
 
 ## El resultado final: 911 Turbo restauración integral
 

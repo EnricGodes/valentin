@@ -20,15 +20,11 @@ ctas: []
 
 Beispiel einer Restaurierung des Motors 930 turbo 3.0 bei Valentin Motors
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordis Meinung
 
 Der Schlüssel zur Restaurierung dieser Motoren liegt in der Analyse Stück für Stück, der Dekarbonisierung, dem Wiegen und dem Auswuchten.
-
----
 
 Die erste Phase der Demontage ist immer wichtig, um den Zustand aller Komponenten zu überprüfen und versteckte Probleme diagnostizieren zu können.
 
@@ -40,10 +36,8 @@ Es lohnt sich, zwei verschiedene Konzepte zu unterscheiden:
 
 -Große Inspektion: Hier bei Valentin Motors bezeichnen wir als große Inspektion den Eingriffsprozess der Motor- und Getriebeentkopplung und des Protokolls zur vollständigen Systemüberprüfung, jedoch ohne Demontage des gesamten Motors.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
-
----
+:::

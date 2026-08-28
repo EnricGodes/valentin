@@ -36,14 +36,12 @@ Tout au long de ce processus, nous guidons le client dans le choix des intérieu
 
 Nous adaptons les roues qui vous plaisent et vous conviennent le plus ainsi que le design des panneaux de porte, des sièges et des parties du tableau de bord.
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![IMG_1221.jpg](/img/magazine/7c7a3934-IMG_1221.jpg)
-
 ![IMG_1222.jpg](/img/magazine/c34ae0c7-IMG_1222.jpg)
-
 ![IMG_1224.jpg](/img/magazine/e39b8eec-IMG_1224.jpg)
-
 ![IMG_1225.jpg](/img/magazine/5d6f9887-IMG_1225.jpg)
-
 ![IMG_1226.jpg](/img/magazine/bf166a44-IMG_1226.jpg)
+:::
 
 Si vous souhaitez [plus d'informations](/contacto), contactez-nous pour un projet similaire, nous vous aiderons.

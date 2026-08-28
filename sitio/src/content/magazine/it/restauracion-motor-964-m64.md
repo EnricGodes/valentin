@@ -28,8 +28,6 @@ Il blocco Mezger è lo standard di design e affidabilità sia utilizzato su stra
 
 Alcune modifiche interne ed esterne hanno subito la generazione del motore 964.
 
----
-
 La prima fase dello smontaggio è sempre importante per verificare lo stato di tutti i componenti e poter diagnosticare eventuali problemi nascosti.
 
 ## Riabilitazione del motore
@@ -40,12 +38,9 @@ La prima fase dello smontaggio è sempre importante per verificare lo stato di t
 
 -Tagliando maggiore: qui a Valentin Motors chiamiamo tagliando maggiore il processo di intervento di disaccoppiamento del motore e del cambio e il protocollo di revisione dei sistemi completi ma senza smontare il motore completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-
 ![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
-
----
+:::

@@ -28,8 +28,6 @@ Le bloc Mezger est la norme de conception et de fiabilité utilisée aussi bien 
 
 Certains changements internes et externes ont subi la génération du moteur 964.
 
----
-
 La première phase de démontage est toujours importante pour vérifier l'état de tous les composants et pouvoir diagnostiquer les éventuels problèmes cachés.
 
 ## Réhabilitation moteur
@@ -40,12 +38,9 @@ Il convient de distinguer deux concepts différents :
 
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-
 ![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
-
----
+:::

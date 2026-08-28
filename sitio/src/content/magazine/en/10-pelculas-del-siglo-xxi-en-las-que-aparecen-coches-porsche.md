@@ -16,7 +16,7 @@ ctas: []
 ---
 ![The **Porsche 911 S from 1973 from Top Gun Maverick (2022).**](/img/magazine/c6a355f7-Captura-de-Pantalla-2023-11-30-a-las-17.10.38.png)
 
-*The **Porsche 911 S from 1973 from Top Gun Maverick (2022).***
+*The **Porsche 911 S from 1973 from Top Gun Maverick (2022).*
 
 Porsche It is an iconic brand. Therefore, **Throughout the history of cinema, many Porsche They have had stellar appearances in films.** In the seventh art, the Porsche They are real steal actors **scenes that end up capturing all the viewer's attention** either for its style or its features.
 
@@ -28,13 +28,15 @@ But in this article we have decided to focus on the most recent films. **This sp
 
 Many Porsche from different eras appear in this film in which **Nicolas Cage** is a retired expert thief who, to save his brother's life, is forced to steal 50 cars in one night. But perhaps the most shocking scene is the one that begins the film, in which a **Boxster** goes through the window of a Los Angeles dealership.
 
-<iframe src="https://www.youtube.com/embed/vqCyZV_Wneo?si=IAiVVrPO98nfb6Oo" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="vqCyZV_Wneo"}
+:::
 
 ## **2.- Anything Else (2003)**
 
 Nor has **Woody Allen** been able to resist including a Porsche in the cast of some of his films. In this one, released in Spain with the title ***Everything Else***, Allen himself plays a neurotic New York writer. We can't help but put his problems in perspective, because he drives a **Porsche 356 Cabrio.**
 
-<iframe src="https://www.youtube.com/embed/abeGU_SENAs?si=eatASdIlE7MIWdCb" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="abeGU_SENAs"}
+:::
 
 ## **3.- Cars (2006)**
 
@@ -42,19 +44,22 @@ Also in animated films reigns Porsche. And if you have to create a sexy and attr
 
 In 2022 Porsche collaborated with Pixar to create the 911 GTS Sally Special, a unique unit inspired by the popular cartoon character that was awarded for 3,6 million euros at a charity auction.
 
-<iframe src="https://www.youtube.com/embed/HckCoq8sT6s?si=ddOmaXnev_FU8pvc" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="HckCoq8sT6s"}
+:::
 
 ## **4.- The Belgrade Phantom (2009)**
 
 This is one of the most unknown titles in this selection. But we believe that every Porsche fan has to know this thriller that explains **the true story of Vlada Vasiljević.** In 1979 this Belgrade resident stole a **Porsche 911 Targa S** and for ten nights he kept the communist police in check with his reckless driving.
 
-<iframe src="https://www.youtube.com/embed/fTOyGoHBwSo?si=3lbWQjaVmwEJd_bl" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="fTOyGoHBwSo"}
+:::
 
 ## **5.- Fast & Furious 5 (2011)**
 
 In the fifth installment of the Fast & Furious franchise, the late actor **Paul Walker** appears driving what appears to be a **Porsche 911 GT3 RS**. In reality it is a **911 Carrera from the second generation of the 996** series modified with a graphics package. We leave you a video of the making of:
 
-<iframe src="https://www.youtube.com/embed/wqRhqj5Pego?si=KtrCabx9xx63hqfz" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="wqRhqj5Pego"}
+:::
 
 ## **6.- Fracture (2007)**
 
@@ -62,19 +67,21 @@ Sir **Anthony Hopkins** drives a **Porsche Carrera GT** in this film in which he
 
 ![**Anthony Hopkins** driving a **Porsche Carrera GT** in the movie ***Fracture*** (2007).](/img/magazine/c7953564-Captura-de-Pantalla-2023-11-30-a-las-16.51.58.png)
 
-***Anthony Hopkins** at the wheel of a **Porsche Carrera GT** in the movie ***Fracture*** (2007).*
+*Anthony Hopkins** at the wheel of a **Porsche Carrera GT** in the movie ***Fracture*** (2007).*
 
 ## **7.- Spy Game (2001)**
 
 ***Spy Game*** brought together in 2001 two of the most charismatic actors in history: **Robert Redford and Brad Pitt.** In this spectacular thriller the veteran CIA agent played by Redford drives a classic **Porsche 912 1968** in oak green that has a stellar scene at the end of the film.
 
-<iframe src="https://www.youtube.com/embed/ZanpFcWcHF4?si=Tk2tNFD_nJkMX10L" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="ZanpFcWcHF4"}
+:::
 
 ## **8.- I want you (2011)**
 
 Also in Spanish cinema we find cameos by Porsche. An example is this sequel to ***Three Meters Above the Sky*** located in Barcelona in which **Mario Casas**'s character has a very special date and his brother leaves him a **997 Turbo** to impress the girl played by **Clara Lago**.
 
-<iframe src="https://www.youtube.com/embed/iCasG8vGYJ0?si=K-0R-5MORuzZWJ-a" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="iCasG8vGYJ0"}
+:::
 
 ## **9.- Top Gun Maverick (2022)**
 
@@ -84,10 +91,12 @@ In the recent sequel **Jennifer Connelly** has gotten behind the wheel of an aut
 
 To celebrate the reunion of ***Top Gun*** and **Porsche**, the German brand created a very special promotional video:
 
-<iframe src="https://www.youtube.com/embed/-O8f2dorq08?si=NpFWtbkNM5lhbv79" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="-O8f2dorq08"}
+:::
 
 ## **10.- I'm flying (2006)**
 
 This is the biopic of **Juan Carlos Delgado “el Pera”**, a petty criminal who throughout the years 70 and 80 was arrested more than 150 times. In this tribute to the quinqui cinema of the years 70 and 80 many cars appear. But a **Porsche 924 coupé 2+2** shines with its own light, which was one of the brand's first models with a front engine and rear-wheel drive.
 
-<iframe src="https://www.youtube.com/embed/YsVqWr8v1_E?si=rZ2E36q4sZnoPI2w" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="YsVqWr8v1_E"}
+:::

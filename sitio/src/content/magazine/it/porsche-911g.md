@@ -58,42 +58,22 @@ Nel luglio 1989, una **Porsche 911 Coupé** segnò la fine della Serie G. In bia
 
 ## Restauri Porsche 911 Serie G
 
-![Backdating 964 (2023)](/img/magazine/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg)
-
 Segui il restauro di questo backdating di 964
-
-![Restauro 2.7 S 1975 nazionale (N8 verde Lima)](/img/magazine/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg)
 
 Segui il restauro di questa 2.7 s Targa del 1975
 
-![Restauro 3.0 SC Targa 1979](/img/magazine/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg)
-
 Segui il restauro di questa SC Targa del 1979 che stiamo preparando per la vendita.
-
-![Restauro mediante incendio 911 930 turbo 1975](/img/magazine/4f053492-f-1.jpg)
 
 Segui il restauro di questo bellissimo 930, arrivato presso le nostre strutture dopo aver subito un incendio nell'area del motore.
 
-![Motore 1971 2.2](/img/magazine/d10780ce-motor-1.jpg)
-
 Motore 2.2
-
-![Restauro completo motore 2.2 1970 serie F](/img/magazine/8ca01a5d-motor-1.jpg)
 
 motore 2.2 1970
 
-![Riabilitazione completa del motore 964 M64](/img/magazine/64d909b1-mot-2.jpg)
-
 Revisione motore 964 tipo M64
-
-![Motore 930 turbo 3.0 1988](/img/magazine/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg)
 
 Motore 930 turbo 3.0 1988
 
-![tappezzeria originale della serie 911 F](/img/magazine/40d663dd-tap-8.jpg)
-
 Il rivestimento di una 911 è una parte fondamentale del restauro.
-
-![Restauro pinze freno](/img/magazine/3420a5d5-pinzas-3.jpg)
 
 Restauro di pinze freno

@@ -22,8 +22,6 @@ Desmontaje completo del sistema de frenos, posteriormente chorreo o arenado de l
 
 preparación de la pieza para pintura y colocación stickers, en algunos casos si ay es conveniente sustituir el juego de reparación de pistones para tener un perfecto caudal de líquido en el sistema.
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
@@ -34,8 +32,4 @@ Muchos de ellos afectados por los años y con desperfectos en la base de las pin
 
 Tenerlos en perfecto estado es un elemento visible que gusta.
 
----
-
 Proceso de montaje
-
----

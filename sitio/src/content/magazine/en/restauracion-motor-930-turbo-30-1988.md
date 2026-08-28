@@ -20,15 +20,11 @@ ctas: []
 
 Example of restoration of engine 930 turbo 3.0 at Valentin Motors
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordi's opinion
 
 Key to the restoration of these engines is analyzing piece by piece, decarbonizing, weighing and balancing.
-
----
 
 The first phase of disassembly is always important to verify the condition of all the components and be able to diagnose any hidden problems.
 
@@ -40,10 +36,8 @@ It is worth distinguishing two different concepts:
 
 -Major overhaul: here at Valentin Motors we call major overhaul the intervention process of engine and gearbox decoupling and complete systems review protocol but without disassembling the complete engine.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
-
----
+:::

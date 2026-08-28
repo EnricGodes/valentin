@@ -24,8 +24,6 @@ Ce projet nous est parvenu de la pire des manières, dans des cartons désorgani
 
 S'il y a un moment important lorsqu'il s'agit d'une restauration c'est bien le moment du démontage des composants et des pièces, leur ordre et leur classification sont très importants pour nous.
 
----
-
 ![](/img/magazine/4d0ec249-IMG_5792.JPG)
 
 ### L'avis de Jordi
@@ -34,21 +32,18 @@ S'il y a un moment important lorsqu'il s'agit d'une restauration c'est bien le m
 
 Parmi les caractéristiques de la première Porsche 901/911 figurait son empattement court de seulement 2.111 mm, soit seulement 11 mm de plus que celui de la 356. Avec un moteur beaucoup plus lourd et, de plus, placé encore plus en arrière de l'essieu arrière, le comportement dynamique de la première Porsche 911 était trop nerveux et a suscité de nombreuses critiques, notamment sur le marché le plus important, celui des États-Unis.
 
----
-
 Nous avons commencé par un inventaire de base des composants et des pièces et la tâche laborieuse d'identification des pièces perdues lors des transferts et les bases des trois éléments ont commencé à être posées, carrosserie, mécanique et électricité.
 
 ## Réhabilitation moteur
 
 Dans ce cas, la procédure a commencé par une décarbonation et une analyse pièce par pièce pour reconstruire ce moteur selon les normes de la marque. 2.000cm cubes et 6 cylindres avec 130hp.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![DSC04842.JPG](/img/magazine/444711eb-DSC04842.JPG)
-
 ![DSC04843.JPG](/img/magazine/0a0f7de8-DSC04843.JPG)
-
 ![DSC04844.JPG](/img/magazine/19179e03-DSC04844.JPG)
-
 ![DSC04845.JPG](/img/magazine/f3ce3b7c-DSC04845.JPG)
+:::
 
 C'est l'image du moteur une fois terminé et installé.
 
@@ -56,15 +51,12 @@ C'est l'image du moteur une fois terminé et installé.
 
 *Photo moteur installé*
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![PHOTO-2022-04-12-12-56-42.jpg](/img/magazine/a197e09c-PHOTO-2022-04-12-12-56-42.jpg)
-
 ![IMG_3472.jpg](/img/magazine/e7148acd-IMG_3472.jpg)
-
 ![IMG_3473.jpg](/img/magazine/ccccf42e-IMG_3473.jpg)
-
 ![7F929CA7-FC8E-4B3C-9577-F5B51D7BA64F.JPG](/img/magazine/09a00aae-7F929CA7-FC8E-4B3C-9577-F5B51D7BA64F.JPG)
-
----
+:::
 
 ![](/img/magazine/6f0bf629-IMG_5792.JPG)
 
@@ -72,36 +64,28 @@ C'est l'image du moteur une fois terminé et installé.
 
 Pour les plus puristes, les châssis courts 911 sont en quelque sorte le Saint Graal du modèle et, bien que les modèles ultérieurs aient de meilleures performances, le moteur 2 litres est très heureux dans les virages, le bruit de son échappement à grande vitesse fait tomber amoureux et ce tempérament d'empattement si court « excite » beaucoup les fans.
 
----
-
 ## Les détails intérieurs sont la clé
 
 Une de nos obsessions est de laisser les véhicules selon leurs spécifications d'origine. Nous pouvons ainsi raccourcir le passage du temps et donner à un véhicule de plus de quarante ans l’apparence d’un modèle tout juste sorti d’usine. Le processus implique de connaître chaque détail de son intérieur.
 
 **La valeur de la restauration est dans les détails.**
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="square" lightbox}
 ![PHOTO-2021-04-16-12-36-05.jpg](/img/magazine/feb978bf-PHOTO-2021-04-16-12-36-05.jpg)
-
 ![PHOTO-2021-04-16-12-36-06.jpg](/img/magazine/3c63841f-PHOTO-2021-04-16-12-36-06.jpg)
-
 ![PHOTO-2021-04-16-12-36-07.jpg](/img/magazine/5b360861-PHOTO-2021-04-16-12-36-07.jpg)
-
 ![PHOTO-2021-04-16-12-36-08.jpg](/img/magazine/0e533030-PHOTO-2021-04-16-12-36-08.jpg)
-
 ![PHOTO-2021-04-16-12-36-09.jpg](/img/magazine/e785e6da-PHOTO-2021-04-16-12-36-09.jpg)
-
 ![PHOTO-2021-04-16-12-36-10.jpg](/img/magazine/c6439c76-PHOTO-2021-04-16-12-36-10.jpg)
+:::
 
 ### Assemblage et intérieur
 
+:::galeria{diseno="apilada" porFila="2" proporcion="standard" lightbox}
 ![PHOTO-2021-06-28-13-19-11 (0000000E).jpg](/img/magazine/01ef2cb5-PHOTO-2021-06-28-13-19-11-0000000E-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11 (0000000F).jpg](/img/magazine/805bb457-PHOTO-2021-06-28-13-19-11-0000000F-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11 (00000005).jpg](/img/magazine/d6b303ff-PHOTO-2021-06-28-13-19-11-00000005-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11 (00000007).jpg](/img/magazine/c8a0b58b-PHOTO-2021-06-28-13-19-11-00000007-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11 (00000010).jpg](/img/magazine/e7cebe3a-PHOTO-2021-06-28-13-19-11-00000010-.jpg)
-
 ![PHOTO-2021-06-28-13-19-11.jpg](/img/magazine/4781cc72-PHOTO-2021-06-28-13-19-11.jpg)
+:::

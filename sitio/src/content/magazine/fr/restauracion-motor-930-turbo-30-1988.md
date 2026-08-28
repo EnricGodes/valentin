@@ -20,15 +20,11 @@ ctas: []
 
 Exemple de restauration du moteur 930 turbo 3.0 chez Valentin Motors
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'avis de Jordi
 
 La clé de la restauration de ces moteurs consiste à analyser pièce par pièce, à décarboner, à peser et à équilibrer.
-
----
 
 La première phase de démontage est toujours importante pour vérifier l'état de tous les composants et pouvoir diagnostiquer les éventuels problèmes cachés.
 
@@ -40,10 +36,8 @@ Il convient de distinguer deux concepts différents :
 
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
-
----
+:::

@@ -20,10 +20,7 @@ ctas: []
 
 Reconstruction totale du moteur 2.2 1971
 
----
-
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![moteur 3.jpg](/img/magazine/9a95c90f-motor-3.jpg)
-
 ![motor2.jpg](/img/magazine/50280633-motor2.jpg)
-
----
+:::

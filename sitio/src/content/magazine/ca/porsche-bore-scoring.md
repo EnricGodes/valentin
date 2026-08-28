@@ -42,7 +42,8 @@ A més, la lubricació dels cilindres també pot quedar compromesa si l’oli es
 - Consum excessiu d’oli.
 - Més fum a l’escapament.
 
-<video src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" ancho="1080" alto="1920"}
+:::
 
 ## Models Porsche afectats pel bore scoring
 
@@ -52,11 +53,11 @@ A sota, un exemple de bloc motor M97 encamisat amb Nickies (NIKASIL), a punt per
 
 En aquest cas també se’n va augmentar la cilindrada de 3.8 a 4.0.
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Bloc M97 encamisat amb Nickies](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-
 ![Detall del bloc encamisat](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-
 ![Bloc a punt per al muntatge](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+:::
 
 ## Manteniment preventiu del bore scoring
 

@@ -14,7 +14,8 @@ ctas:
   - texto: "Demana una cita"
     href: "/contacto"
 ---
-<video src="/video/magazine/4977a90b-40d6-4c8b-b531-5263a57eddbc.mp4" controls preload="metadata" playsinline width="1920" height="1080"></video>
+:::video{src="/video/magazine/4977a90b-40d6-4c8b-b531-5263a57eddbc.mp4" ancho="1920" alto="1080"}
+:::
 
 Revisió **gratuïta** dels punts essencials per a prevenció de fallades comunes i problemes freqüents a:
 

@@ -1038,3 +1038,167 @@ section { position: relative; }
   .cookies-botones { justify-content: stretch; }
   .cookies-btn { flex: 1; }
 }
+
+/* ============================================================
+   Modulos del Magazine
+   Las 67 galerias que Squarespace servia (49 cuadriculas, 12 pases,
+   4 carruseles, 2 apiladas) y que la primera extraccion aplano en
+   imagenes sueltas. El diseno de cada una viene del snapshot.
+   ============================================================ */
+
+.mod-galeria { margin: 56px 0; position: relative; }
+.mod-foto { margin: 0; }
+.mod-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  aspect-ratio: var(--proporcion, 4 / 3);
+  background: var(--carbon);
+}
+.mod-foto figcaption {
+  font-family: var(--mono);
+  font-size: var(--t-micro);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--concreto);
+  padding-top: 10px;
+  line-height: 1.6;
+}
+
+/* Cuadricula: el caso de 49 de las 67 */
+.mod-galeria--cuadricula .mod-pista {
+  display: grid;
+  grid-template-columns: repeat(var(--por-fila, 3), minmax(0, 1fr));
+  gap: 10px;
+}
+
+/* Apilada: una debajo de otra, a ancho completo */
+.mod-galeria--apilada .mod-pista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mod-galeria--apilada .mod-foto img { aspect-ratio: auto; }
+
+/* Pase y carrusel: desplazamiento horizontal con anclaje */
+.mod-galeria--pase .mod-pista,
+.mod-galeria--carrusel .mod-pista {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+.mod-galeria--pase .mod-pista::-webkit-scrollbar,
+.mod-galeria--carrusel .mod-pista::-webkit-scrollbar { display: none; }
+.mod-galeria--pase .mod-foto { flex: 0 0 100%; scroll-snap-align: center; }
+.mod-galeria--carrusel .mod-foto {
+  flex: 0 0 calc((100% - 20px) / 3);
+  scroll-snap-align: start;
+}
+
+.mod-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--linea-fuerte);
+  background: rgba(11, 11, 10, 0.72);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: background 0.3s var(--ease), border-color 0.3s var(--ease);
+}
+.mod-nav:hover { background: var(--bronce); border-color: var(--bronce); }
+.mod-nav--antes { left: 12px; }
+.mod-nav--luego { right: 12px; }
+.mod-nav::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 9px;
+  height: 9px;
+  border-top: 1px solid var(--blanco);
+  border-right: 1px solid var(--blanco);
+}
+.mod-nav--antes::before { transform: rotate(-135deg) translate(-2px, -2px); }
+.mod-nav--luego::before { transform: rotate(45deg) translate(-2px, -2px); }
+.mod-nav:hover::before { border-color: var(--negro); }
+.mod-nav[disabled] { opacity: 0.25; pointer-events: none; }
+
+.mod-contador {
+  font-family: var(--mono);
+  font-size: var(--t-micro);
+  letter-spacing: 0.18em;
+  color: var(--concreto);
+  text-align: center;
+  margin: 14px 0 0;
+}
+
+.mod-galeria[data-lightbox] .mod-foto img { cursor: zoom-in; }
+
+.mod-video, .mod-incrustado { margin: 56px 0; }
+.mod-video video { width: 100%; height: auto; display: block; background: var(--negro); }
+.mod-incrustado { position: relative; aspect-ratio: 16 / 9; }
+.mod-incrustado iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Lightbox: uno solo para toda la pagina, no uno por galeria */
+.mod-lupa {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(11, 11, 10, 0.96);
+  display: grid;
+  place-items: center;
+  padding: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s var(--ease), visibility 0.35s;
+}
+.mod-lupa[open] { opacity: 1; visibility: visible; }
+.mod-lupa img { max-width: 100%; max-height: 88vh; object-fit: contain; }
+.mod-lupa-pie {
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: var(--mono);
+  font-size: var(--t-micro);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--concreto);
+  padding: 0 40px;
+}
+.mod-lupa-cerrar { position: absolute; top: 22px; right: 26px; }
+.mod-lupa .mod-nav--antes { left: 22px; }
+.mod-lupa .mod-nav--luego { right: 22px; }
+.mod-lupa-cerrar::before,
+.mod-lupa-cerrar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 15px;
+  height: 1px;
+  background: var(--blanco);
+  border: 0;
+}
+.mod-lupa-cerrar::before { transform: rotate(45deg); }
+.mod-lupa-cerrar::after { transform: rotate(-45deg); }
+.mod-lupa-cerrar:hover::before,
+.mod-lupa-cerrar:hover::after { background: var(--negro); }
+
+@media (max-width: 860px) {
+  .mod-galeria--cuadricula .mod-pista { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mod-galeria--carrusel .mod-foto { flex-basis: calc((100% - 10px) / 2); }
+}
+@media (max-width: 560px) {
+  .mod-galeria--cuadricula .mod-pista { grid-template-columns: 1fr; }
+  .mod-galeria--carrusel .mod-foto { flex-basis: 86%; }
+  .mod-galeria { margin: 40px 0; }
+  .mod-lupa { padding: 16px; }
+}

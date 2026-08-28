@@ -22,8 +22,6 @@ The brake system is stripped completely, then the parts are blasted with every o
 
 The part is prepared for paint and the decals are applied. In some cases it is worth replacing the piston repair kit, so that fluid flow through the system is exactly right.
 
----
-
 ![Caliper during the work](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Jordi’s view
@@ -34,8 +32,4 @@ Many of them suffer with the years, with damage around the caliper body.
 
 Having them in proper condition is a visible detail, and a satisfying one.
 
----
-
 Assembly process
-
----

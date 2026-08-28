@@ -58,42 +58,22 @@ En julio de 1989, un **Porsche 911 Coupé** marcó el final de la Serie G. En co
 
 ## Restauraciones Porsche 911 serie G
 
-![Backdating 964 (2023)](/img/magazine/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg)
-
 Sigue el proceso de restauración de este backdating de 964
-
-![Restauración 2.7 S 1975 nacional (N8 verde lima)](/img/magazine/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg)
 
 Sigue el proceso de restauración de este 2.7 s Targa de 1975
 
-![Restauración 3.0 SC Targa 1979](/img/magazine/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg)
-
 Sigue el proceso de restauración de este SC Targa de 1979 que estamos preparando para su venta.
-
-![Restauración por incendio 911 930 turbo 1975](/img/magazine/4f053492-f-1.jpg)
 
 Sigue el proceso de restauración de este precioso 930, que llegó a nuestras instalaciones después de haber sufrido un incendio en la zona motor.
 
-![Motor 1971 2.2](/img/magazine/d10780ce-motor-1.jpg)
-
 Motor 2.2
-
-![Rehabilitación completa motor 2.2 1970 serie F](/img/magazine/8ca01a5d-motor-1.jpg)
 
 motor 2.2 1970
 
-![Rehabilitación completa motor 964 M64](/img/magazine/64d909b1-mot-2.jpg)
-
 Rehabilitación de motor 964 tipo M64
-
-![Motor 930 turbo 3.0 1988](/img/magazine/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg)
 
 Motor 930 turbo 3.0 1988
 
-![Trabajos de tapicería original de 911 serie F](/img/magazine/40d663dd-tap-8.jpg)
-
 Los tapizados de un 911 son parte clave de la restauración.
-
-![Restauración pinzas de freno](/img/magazine/3420a5d5-pinzas-3.jpg)
 
 Restauración de pinzas de freno

@@ -16,7 +16,7 @@ ctas: []
 ---
 ![El **Porsche 911 S de 1973 de Top Gun Maverick (2022).**](/img/magazine/c6a355f7-Captura-de-Pantalla-2023-11-30-a-las-17.10.38.png)
 
-*El **Porsche 911 S de 1973 de Top Gun Maverick (2022).***
+*El **Porsche 911 S de 1973 de Top Gun Maverick (2022).*
 
 Porsche és una marca icònica. Per això, **al llarg de la història del cinema, molts Porsche han tingut aparicions estel·lars en pel·lícules.** En el setè art, els Porsche són autèntics actors roba **escenes que acaben acaparant tota latenció de lespectador** ja sigui pel seu estil o per les prestacions.
 
@@ -28,13 +28,15 @@ Però en aquest article hem quedat centrar-nos en els films més recents. **Aque
 
 Molts Porsche de diferents èpoques apareixen en aquesta pel·lícula en què **Nicolas Cage** és un expert lladre jubilat que, per salvar la vida del seu germà, es veu forçat a robar 50 cotxes en una nit. Però potser l'escena més impactant és la que comença el film, en què un **Boxster** travessa l'aparador d'un concessionari de Los Angeles.
 
-<iframe src="https://www.youtube.com/embed/vqCyZV_Wneo?si=IAiVVrPO98nfb6Oo" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="vqCyZV_Wneo"}
+:::
 
 ## **2.- Anything Else (2003)**
 
 Tampoc **Woody Allen** no s'ha pogut resistir a incloure un Porsche en el repartiment d'alguna de les seves pel·lícules. En aquesta, estrenada a Espanya amb el títol de ***Tot la resta***, el mateix Allen interpreta un neuròtic escriptor novaiorquès. No podem evitar posar els seus problemes en perspectiva, perquè condueix un **Porsche 356 Cabrio.**
 
-<iframe src="https://www.youtube.com/embed/abeGU_SENAs?si=eatASdIlE7MIWdCb" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="abeGU_SENAs"}
+:::
 
 ## **3.- Cars (2006)**
 
@@ -42,19 +44,22 @@ També a les pel·lícules d'animació reina Porsche. I si cal crear un personat
 
 A 2022 Porsche va col·laborar amb Pixar en la creació del 911 GTS Sally Special, una unitat única inspirada en el popular personatge de dibuixos animats que es va adjudicar per 3,6 milions d?euros en una subhasta benèfica.
 
-<iframe src="https://www.youtube.com/embed/HckCoq8sT6s?si=ddOmaXnev_FU8pvc" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="HckCoq8sT6s"}
+:::
 
 ## **4.- The Belgrade Phantom (2009)**
 
 Aquest és un dels títols més desconeguts de la selecció. Però creiem que tot porschista ha de conèixer aquest thriller que explica **la història real de Vlada Vasiljević.** A 1979 aquest veí de Belgrad va robar un **Porsche 911 Targa S** i durant deu nits va tenir en perill la policia comunista amb la seva conducció temerària.
 
-<iframe src="https://www.youtube.com/embed/fTOyGoHBwSo?si=3lbWQjaVmwEJd_bl" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="fTOyGoHBwSo"}
+:::
 
 ## **5.- Fast & Furious 5 (2011)**
 
 A la cinquena entrega de la franquícia Fast & Furious, el malaguanyat actor **Paul Walker** apareix pilotant el que sembla ser un **Porsche 911 GT3 RS**. En realitat és un **911 Carrera de la segona generació de la sèrie 996** modificat amb un paquet gràfic. Et deixem un vídeo del making of:
 
-<iframe src="https://www.youtube.com/embed/wqRhqj5Pego?si=KtrCabx9xx63hqfz" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="wqRhqj5Pego"}
+:::
 
 ## **6.- Fracture (2007)**
 
@@ -62,19 +67,21 @@ Sir **Anthony Hopkins** condueix un **Porsche Carrera GT** en aquesta pel·lícu
 
 ![**Anthony Hopkins** al volant d'un **Porsche Carrera GT** a la pel·lícula ***Fracture*** (2007).](/img/magazine/c7953564-Captura-de-Pantalla-2023-11-30-a-las-16.51.58.png)
 
-***Anthony Hopkins** al volant d'un **Porsche Carrera GT** a la pel·lícula ***Fracture*** (2007).*
+*Anthony Hopkins** al volant d'un **Porsche Carrera GT** a la pel·lícula ***Fracture*** (2007).*
 
 ## **7.- Spy Game (2001)**
 
 ***Joc d'espies*** va reunir a 2001 dos dels actors més carismàtics de la història: **Robert Redford i Brad Pitt.** En aquest thriller espectacular el veterà agent de la CIA que interpreta Redford condueix un clàssic **Porsche 912 de 1968** en color verd oak que té una escena estel·lar al final del film.
 
-<iframe src="https://www.youtube.com/embed/ZanpFcWcHF4?si=Tk2tNFD_nJkMX10L" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="ZanpFcWcHF4"}
+:::
 
 ## **8.- Tinc ganes de tu (2011)**
 
 També al cinema espanyol trobem cameos de Porsche. Un exemple és aquesta seqüela de ***Tres metres sobre el cel*** localitzada a Barcelona on el personatge de **Mario Casas** té una cita molt especial i el seu germà li deixa un **997 Turbo** per impressionar la noia interpretada per **Clara Llac**.
 
-<iframe src="https://www.youtube.com/embed/iCasG8vGYJ0?si=K-0R-5MORuzZWJ-a" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="iCasG8vGYJ0"}
+:::
 
 ## **9.- Top Gun Maverick (2022)**
 
@@ -84,10 +91,12 @@ A la recent seqüela **Jennifer Connelly** sí que s'ha posat al volant d'un aut
 
 Per celebrar el retrobament de ***Top Gun*** i **Porsche**, la marca alemanya va crear un vídeo promocional molt especial:
 
-<iframe src="https://www.youtube.com/embed/-O8f2dorq08?si=NpFWtbkNM5lhbv79" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="-O8f2dorq08"}
+:::
 
 ## **10.- Volant vaig (2006)**
 
 Aquest és el biopic de **Juan Carlos Delgado “el Pera”**, un petit delinqüent que al llarg dels anys 70 i 80 va ser detingut més de 150 vegades. En aquest homenatge al cinema quinqui dels anys 70 i 80 apareixen molts cotxes. Però brilla amb llum pròpia un **Porsche 924 coupé 2+2** que va ser un dels primers models de la marca amb motor davanter i tracció del darrere.
 
-<iframe src="https://www.youtube.com/embed/YsVqWr8v1_E?si=rZ2E36q4sZnoPI2w" loading="lazy" allowfullscreen></iframe>
+:::youtube{id="YsVqWr8v1_E"}
+:::

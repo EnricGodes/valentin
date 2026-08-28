@@ -46,15 +46,17 @@ Sur les moteurs *watercooled* évoqués plus haut, Porsche monte un roulement à
 
 ![**Emplacement de l’IMS** La flèche indique la position du roulement](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
-***Emplacement de l’IMS** La flèche indique la position du roulement*
+*Emplacement de l’IMS** La flèche indique la position du roulement*
 
 ## **Vidéo explicative sur l’IMS**
 
 Dans la vidéo suivante, notre directeur général, Jordi Edo, explique en détail le problème de l’IMS et les solutions proposées chez Valentin Motors.
 
-<video src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" ancho="1080" alto="1920"}
+:::
 
-<video src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
+:::
 
 ## **Quels véhicules sont concernés ?**
 
@@ -81,7 +83,7 @@ L’huile est déterminante : sa qualité et la régularité des vidanges.
 
 ![Réparation IMS Porsche](/img/magazine/69931237-IMS-PORSCHE-911.jpeg)
 
-***Notre expérience** Comme le montre l’image, nous avons remplacé un grand nombre d’IMS : près de 320 interventions depuis 2005.*
+*Notre expérience** Comme le montre l’image, nous avons remplacé un grand nombre d’IMS : près de 320 interventions depuis 2005.*
 
 C’est pourquoi **chez Valentin Motors nous proposons un contrôle de l’état de l’IMS**.
 

@@ -72,6 +72,11 @@ const portada = (post.body ?? '').match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1];
 
     <div class="post-cuerpo reveal delay-2"><Content /></div>
 
+    <script>
+      import { iniciarModulos } from '../../../scripts/modulos.ts';
+      iniciarModulos();
+    </script>
+
     {post.data.ctas.length > 0 && (
       <div class="post-ctas">
         {post.data.ctas.map((c) => <a class="cta" href={url('contacto', idioma)}>{c.texto}</a>)}

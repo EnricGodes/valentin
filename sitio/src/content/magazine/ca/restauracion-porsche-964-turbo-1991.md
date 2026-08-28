@@ -28,8 +28,6 @@ A l'apartat mecànic teníem preses d'aire per l'admissió, problemes d'arrencad
 
 L'encàrrec va ser global i l'objectiu clar, tornar la unitat al màxim esplendor però amb una petició especial per part del client: disposar de 400 hp en lloc dels 320 hp.
 
----
-
 ![](/img/magazine/e5b5db46-IMG_5792.JPG)
 
 ### L'opinió de jordi
@@ -41,8 +39,6 @@ Aquesta posició a l'assegut encara alta amb aquest volant “lluny” i aquesta
 Sí, cal estar molt atent i molt concentrat per portar bé un 964 turbo. Saber on tenim els pesos just en el moment que el lliurament de potència és molt alt en un marge de rpms molt curt és la clau.
 
 Suar, se sua molt. Pur *motorsport*.
-
----
 
 Sempre la primera fase és de proves, provar la unitat a l'estat que ve i veure els punts que realment necessiten treballs a fons o que han deixat de ser operatius en el temps.
 
@@ -64,21 +60,16 @@ Cal diferenciar dos conceptes diferents:
 
 -Gran aturada: aquí a Valentin Motors anomenem gran aturada el procés d'intervenció de desacoblament motor i caixa i protocol de revisió completa de sistemes però sense desmuntar el motor complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![7.jpg](/img/magazine/f08b69d5-7.jpg)
-
 ![PHOTO-2021-01-12-19-57-40.jpg](/img/magazine/a23ddf93-PHOTO-2021-01-12-19-57-40.jpg)
-
 ![PHOTO-2021-01-12-19-58-06.jpg](/img/magazine/892e20c5-PHOTO-2021-01-12-19-58-06.jpg)
-
 ![PHOTO-2021-01-19-16-44-35.jpg](/img/magazine/232ff212-PHOTO-2021-01-19-16-44-35.jpg)
-
 ![PHOTO-2021-01-19-16-44-42.jpg](/img/magazine/db948d23-PHOTO-2021-01-19-16-44-42.jpg)
-
 ![PHOTO-2021-01-26-10-49-51.jpg](/img/magazine/6f0e7c2c-PHOTO-2021-01-26-10-49-51.jpg)
-
 ![PHOTO-2021-01-28-13-20-26.jpg](/img/magazine/e70b68c8-PHOTO-2021-01-28-13-20-26.jpg)
-
 ![PHOTO-2021-02-03-13-16-27.jpg](/img/magazine/b910747d-PHOTO-2021-02-03-13-16-27.jpg)
+:::
 
 Fases del procés de desmuntat i muntat del motor
 
@@ -86,15 +77,12 @@ Fases del procés de desmuntat i muntat del motor
 
 *Estat final abans de l'acoblament al vehicle*
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![InkedInkedPHOTO-2021-04-30-08-10-58_LI.jpg](/img/magazine/44a883e6-InkedInkedPHOTO-2021-04-30-08-10-58_LI.jpg)
-
 ![PHOTO-2021-05-19-15-44-41.jpg](/img/magazine/c418c8e7-PHOTO-2021-05-19-15-44-41.jpg)
-
 ![PHOTO-2021-05-19-15-44-50.jpg](/img/magazine/5267c35c-PHOTO-2021-05-19-15-44-50.jpg)
-
 ![PHOTO-2021-06-02-13-08-29.jpg](/img/magazine/1f15592c-PHOTO-2021-06-02-13-08-29.jpg)
-
----
+:::
 
 ![](/img/magazine/2c5d568a-foto-jordi-2.jpg)
 
@@ -111,43 +99,35 @@ La preparació mecànica d'aquesta mecànica per assolir els 400 hp principalmen
 
 A dalt podeu veure alguna fotografia dels components de la preparació i del sistema d'escapament instal·lat.
 
----
-
 ## La carrosseria i la pintura del 964 turbo
 
+:::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
 ![PHOTO-2021-01-14-13-38-34.jpg](/img/magazine/007ed919-PHOTO-2021-01-14-13-38-34.jpg)
+:::
 
 ### Preparació de la carrosseria
 
+:::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
 ![PHOTO-2021-03-05-11-49-32.jpg](/img/magazine/e284dbb1-PHOTO-2021-03-05-11-49-32.jpg)
-
 ![PHOTO-2021-03-05-11-49-33.jpg](/img/magazine/9dde0a5c-PHOTO-2021-03-05-11-49-33.jpg)
-
 ![PHOTO-2021-03-05-11-49-34.jpg](/img/magazine/644c4d4f-PHOTO-2021-03-05-11-49-34.jpg)
-
 ![PHOTO-2021-03-08-09-53-30.jpg](/img/magazine/4ba1a10a-PHOTO-2021-03-08-09-53-30.jpg)
-
 ![PHOTO-2021-03-09-17-24-48.jpg](/img/magazine/49646b3f-PHOTO-2021-03-09-17-24-48.jpg)
+:::
 
 ### Restauració de llantes , Rearwing i Calipers
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![PHOTO-2021-04-12-20-56-14.jpg](/img/magazine/f055d12e-PHOTO-2021-04-12-20-56-14.jpg)
-
 ![PHOTO-2021-04-12-20-56-28.jpg](/img/magazine/12811ffa-PHOTO-2021-04-12-20-56-28.jpg)
-
 ![PHOTO-2021-06-18-11-25-09 (00000002).jpg](/img/magazine/094945d8-PHOTO-2021-06-18-11-25-09-00000002-.jpg)
-
 ![PHOTO-2021-06-18-11-25-09 (00000005).jpg](/img/magazine/7d9b1f98-PHOTO-2021-06-18-11-25-09-00000005-.jpg)
-
 ![PHOTO-2021-06-18-11-25-09 (00000007).jpg](/img/magazine/5a3971a3-PHOTO-2021-06-18-11-25-09-00000007-.jpg)
-
 ![PHOTO-2021-06-18-11-25-09 (00000009).jpg](/img/magazine/ef290e6c-PHOTO-2021-06-18-11-25-09-00000009-.jpg)
-
 ![PHOTO-2021-01-20-09-30-27.jpg](/img/magazine/8f353df3-PHOTO-2021-01-20-09-30-27.jpg)
-
 ![PHOTO-2021-02-16-16-28-31.jpg](/img/magazine/7bdafb13-PHOTO-2021-02-16-16-28-31.jpg)
-
 ![PHOTO-2021-02-16-16-41-50.jpg](/img/magazine/9c77f2cd-PHOTO-2021-02-16-16-41-50.jpg)
+:::
 
 ## El resultat final: 911 Turbo restauració integral
 

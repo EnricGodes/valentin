@@ -20,8 +20,6 @@ ctas: []
 
 Komplette Motorsanierung 1970
 
----
-
 Die erste Phase der Demontage ist immer wichtig, um den Zustand aller Komponenten zu überprüfen und versteckte Probleme diagnostizieren zu können.
 
 ## Motorsanierung
@@ -32,8 +30,7 @@ Es lohnt sich, zwei verschiedene Konzepte zu unterscheiden:
 
 -Große Inspektion: Hier bei Valentin Motors bezeichnen wir als große Inspektion den Eingriffsprozess der Motor- und Getriebeentkopplung und des Protokolls zur vollständigen Systemüberprüfung, jedoch ohne Demontage des gesamten Motors.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Motor 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-
 ![Motor 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
-
----
+:::

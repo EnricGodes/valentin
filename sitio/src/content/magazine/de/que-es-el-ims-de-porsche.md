@@ -46,15 +46,17 @@ In den genannten *watercooled* Motoren verbaute Porsche im MKI ein zweireihiges 
 
 ![**Lage der IMS** Der Pfeil markiert die Position des Lagers](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
-***Lage der IMS** Der Pfeil markiert die Position des Lagers*
+*Lage der IMS** Der Pfeil markiert die Position des Lagers*
 
 ## **Video zur IMS**
 
 Im folgenden Video erklärt unser Geschäftsführer Jordi Edo im Detail, worin das Problem der IMS besteht und welche Lösungen wir bei Valentin Motors vorschlagen.
 
-<video src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" ancho="1080" alto="1920"}
+:::
 
-<video src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
+:::
 
 ## **Welche Fahrzeuge sind betroffen?**
 
@@ -81,7 +83,7 @@ Entscheidend ist das Öl: seine Qualität und wie oft es gewechselt wird.
 
 ![Porsche IMS Reparatur](/img/magazine/69931237-IMS-PORSCHE-911.jpeg)
 
-***Unsere Erfahrung** Wie das Bild zeigt, haben wir sehr viele IMS ersetzt: knapp 320 Arbeiten seit 2005.*
+*Unsere Erfahrung** Wie das Bild zeigt, haben wir sehr viele IMS ersetzt: knapp 320 Arbeiten seit 2005.*
 
 Deshalb bieten wir **bei Valentin Motors eine Zustandsprüfung der IMS an**.
 

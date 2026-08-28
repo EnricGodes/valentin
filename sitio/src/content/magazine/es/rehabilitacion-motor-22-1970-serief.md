@@ -20,8 +20,6 @@ ctas: []
 
 Rehabilitación completa motor 1970
 
----
-
 Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
 
 ## Rehabilitación del motor
@@ -32,8 +30,7 @@ Cabe diferenciar dos conceptos distintos:
 
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![motor 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-
 ![motor 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
-
----
+:::

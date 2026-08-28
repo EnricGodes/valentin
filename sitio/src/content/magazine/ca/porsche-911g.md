@@ -58,42 +58,22 @@ Al juliol de 1989, un **Porsche 911 Coupé** va marcar el final de la Sèrie G. 
 
 ## Restauracions Porsche 911 sèrie G
 
-![Backdating 964 (2023)](/img/magazine/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg)
-
 Segueix el procés de restauració d'aquest backdating de 964
-
-![Restauració 2.7 S 1975 nacional (N8 verd llima)](/img/magazine/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg)
 
 Segueix el procés de restauració d'aquest 2.7 s Targa de 1975
 
-![Restauració 3.0 SC Targa 1979](/img/magazine/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg)
-
 Segueix el procés de restauració d'aquest SC Targa de 1979 que estem preparant per a la venda.
-
-![Restauració per incendi 911 930 turbo 1975](/img/magazine/4f053492-f-1.jpg)
 
 Segueix el procés de restauració d'aquest preciós 930, que va arribar a les nostres instal·lacions després d'haver patit un incendi a la zona motor.
 
-![Motor 1971 2.2](/img/magazine/d10780ce-motor-1.jpg)
-
 Motor 2.2
-
-![Rehabilitació completa motor 2.2 1970 sèrie F](/img/magazine/8ca01a5d-motor-1.jpg)
 
 motor 2.2 1970
 
-![Rehabilitació completa motor 964 M64](/img/magazine/64d909b1-mot-2.jpg)
-
 Rehabilitació de motor 964 tipus M64
-
-![Motor 930 turbo 3.0 1988](/img/magazine/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg)
 
 Motor 930 turbo 3.0 1988
 
-![Treballs de tapisseria original de 911 sèrie F](/img/magazine/40d663dd-tap-8.jpg)
-
 Els entapissats d'un 911 són part clau de la restauració.
-
-![Restauració pinces de fre](/img/magazine/3420a5d5-pinzas-3.jpg)
 
 Restauració de pinces de fre

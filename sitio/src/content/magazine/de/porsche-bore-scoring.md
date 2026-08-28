@@ -42,7 +42,8 @@ Auch die Schmierung der Zylinder kann leiden, wenn das Öl nur alle zwei Jahre g
 - Übermäßiger Ölverbrauch.
 - Mehr Rauch aus dem Auspuff.
 
-<video src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" ancho="1080" alto="1920"}
+:::
 
 ## Vom Bore Scoring betroffene Porsche Modelle
 
@@ -52,11 +53,11 @@ Unten ein M97 Block, mit Nickies (NIKASIL) gebüchst und bereit zum Zusammenbau.
 
 In diesem Fall wurde der Hubraum zugleich von 3,8 auf 4,0 vergrößert.
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Mit Nickies gebüchster M97 Block](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-
 ![Detail des gebüchsten Blocks](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-
 ![Block bereit zum Zusammenbau](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+:::
 
 ## Vorbeugung gegen Bore Scoring
 

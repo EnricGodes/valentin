@@ -46,15 +46,17 @@ In the *watercooled* engines mentioned above, Porsche fitted a double-row steel 
 
 ![**IMS location** The arrow marks the position of the bearing](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
-***IMS location** The arrow marks the position of the bearing*
+*IMS location** The arrow marks the position of the bearing*
 
 ## **Video explaining the IMS**
 
 In the following video our managing director, Jordi Edo, explains in detail what the problem with the IMS is and the solutions we propose at Valentin Motors.
 
-<video src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" ancho="1080" alto="1920"}
+:::
 
-<video src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
+:::
 
 ## **Which cars are affected?**
 
@@ -81,7 +83,7 @@ Oil is critical: its quality and how often it is renewed.
 
 ![Porsche IMS repair](/img/magazine/69931237-IMS-PORSCHE-911.jpeg)
 
-***Our experience** As the image shows, we have replaced a great many IMS units: close to 320 jobs since 2005.*
+*Our experience** As the image shows, we have replaced a great many IMS units: close to 320 jobs since 2005.*
 
 That is why **at Valentin Motors we offer an IMS condition check**.
 

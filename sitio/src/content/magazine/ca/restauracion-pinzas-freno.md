@@ -22,8 +22,6 @@ Desmuntatge complet del sistema de frens i, tot seguit, raig de sorra de les pec
 
 Preparació de la peça per a la pintura i col·locació d’adhesius. En alguns casos convé substituir el joc de reparació de pistons per tenir un cabal de líquid perfecte al circuit.
 
----
-
 ![Pinça durant la intervenció](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L’opinió d’en Jordi
@@ -34,8 +32,4 @@ Moltes pateixen amb els anys, amb desperfectes a la base de la pinça.
 
 Tenir-les en perfecte estat és un element visible, i que agrada.
 
----
-
 Procés de muntatge
-
----

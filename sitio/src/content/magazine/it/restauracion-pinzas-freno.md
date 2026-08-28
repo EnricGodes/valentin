@@ -22,8 +22,6 @@ Smontaggio completo dell’impianto frenante, poi sabbiatura dei componenti con 
 
 Preparazione del pezzo per la verniciatura e applicazione degli adesivi. In alcuni casi conviene sostituire il kit di revisione dei pistoni, per avere una portata del liquido perfetta nel circuito.
 
----
-
 ![Pinza durante l’intervento](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### Il parere di Jordi
@@ -34,8 +32,4 @@ Molte soffrono con gli anni, con danni sul corpo della pinza.
 
 Averle in perfetto stato è un dettaglio visibile, e piacevole.
 
----
-
 Fase di montaggio
-
----

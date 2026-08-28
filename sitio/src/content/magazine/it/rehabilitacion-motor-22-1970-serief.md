@@ -20,8 +20,6 @@ ctas: []
 
 Riabilitazione completa del motore 1970
 
----
-
 La prima fase dello smontaggio è sempre importante per verificare lo stato di tutti i componenti e poter diagnosticare eventuali problemi nascosti.
 
 ## Riabilitazione del motore
@@ -32,8 +30,7 @@ La prima fase dello smontaggio è sempre importante per verificare lo stato di t
 
 -Tagliando maggiore: qui a Valentin Motors chiamiamo tagliando maggiore il processo di intervento di disaccoppiamento del motore e del cambio e il protocollo di revisione dei sistemi completi ma senza smontare il motore completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![motore 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-
 ![motore 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
-
----
+:::

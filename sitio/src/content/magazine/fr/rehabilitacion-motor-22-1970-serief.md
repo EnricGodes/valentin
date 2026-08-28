@@ -20,8 +20,6 @@ ctas: []
 
 Réhabilitation complète moteur 1970
 
----
-
 La première phase de démontage est toujours importante pour vérifier l'état de tous les composants et pouvoir diagnostiquer les éventuels problèmes cachés.
 
 ## Réhabilitation moteur
@@ -32,8 +30,7 @@ Il convient de distinguer deux concepts différents :
 
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![moteur 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-
 ![moteur 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
-
----
+:::

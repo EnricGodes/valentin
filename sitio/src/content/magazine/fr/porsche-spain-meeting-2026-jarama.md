@@ -20,6 +20,7 @@ ctas:
 
 ## Valentin Motors Porsche Madrid
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Image WhatsApp 2026-07-22 à 13.12.17.jpeg](/img/magazine/bcc926fa-WhatsApp-Image-2026-07-22-at-13.12.17.jpeg)
-
 ![Image WhatsApp 2026-07-22 à 13.12.30.jpeg](/img/magazine/f4d23137-WhatsApp-Image-2026-07-22-at-13.12.30.jpeg)
+:::

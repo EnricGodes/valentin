@@ -20,15 +20,11 @@ ctas: []
 
 Ejemplod e restauración de motor 930 turbo 3.0 en Valentin Motors
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 
 Clave en la restauración de estos motores analizar pieza a pieza, descarbonizar , pesaje y equilibrado.
-
----
 
 Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
 
@@ -40,10 +36,8 @@ Cabe diferenciar dos conceptos distintos:
 
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
-
----
+:::

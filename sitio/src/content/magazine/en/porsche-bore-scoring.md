@@ -42,7 +42,8 @@ Cylinder lubrication can also be compromised if the oil is only changed every tw
 - Excessive oil consumption.
 - More smoke from the exhaust.
 
-<video src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" ancho="1080" alto="1920"}
+:::
 
 ## Porsche models affected by bore scoring
 
@@ -52,11 +53,11 @@ Below, an example of an M97 block sleeved with Nickies (NIKASIL), ready for asse
 
 In this case the displacement was also taken from 3.8 to 4.0.
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![M97 block sleeved with Nickies](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-
 ![Detail of the sleeved block](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-
 ![Block ready for assembly](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+:::
 
 ## Preventing bore scoring
 

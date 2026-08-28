@@ -20,15 +20,11 @@ ctas: []
 
 Esempio di restauro del motore 930 turbo 3.0 presso Valentin Motors
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinione di Jordi
 
 La chiave per il restauro di questi motori è l'analisi pezzo per pezzo, la decarbonizzazione, la pesatura e il bilanciamento.
-
----
 
 La prima fase dello smontaggio è sempre importante per verificare lo stato di tutti i componenti e poter diagnosticare eventuali problemi nascosti.
 
@@ -40,10 +36,8 @@ La prima fase dello smontaggio è sempre importante per verificare lo stato di t
 
 -Tagliando maggiore: qui a Valentin Motors chiamiamo tagliando maggiore il processo di intervento di disaccoppiamento del motore e del cambio e il protocollo di revisione dei sistemi completi ma senza smontare il motore completo.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
-
----
+:::

@@ -42,7 +42,8 @@ Además, la lubricación de los cilindros también puede verse comprometida si e
 - Consumo aceite excesivo.
 - Aumento en la emisión de humo del escape.
 
-<video src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50d3ab26-a347-4c15-b660-c5b52653486b.mp4" ancho="1080" alto="1920"}
+:::
 
 ## Modelos Porsche afectados por el Bore Scoring
 
@@ -52,11 +53,11 @@ Debajo ejemplo de bloque motor M97 encamisado con Nickies (Nicasil) , listo para
 
 En este caso también aumentado de cubicaje de 3.8 a 4.0.
 
+:::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)
-
 ![a732127c-94e7-4e9e-b015-55dcf021fdef.jpg](/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg)
-
 ![c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg](/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg)
+:::
 
 ## Mantenimiento preventivo del Bore Scoring
 

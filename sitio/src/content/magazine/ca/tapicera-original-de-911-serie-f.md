@@ -22,32 +22,21 @@ El treball als interiors dels 911 clàssics és complet a nivell de recerca i de
 
 L'elecció dels materials i de la seva col·locació és clau i afecta el valor de la unitat en un alt índex.
 
----
-
 ![](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### L'opinió de Jordi
 
 Un dels moments més delicats a la restauració són els interiors. Triar bé les teles, la qualitat i el treball és un procés clau en qualsevol restauració.
 
----
-
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![tapisseria 2.jpg](/img/magazine/e26cff74-tap-2.jpg)
-
 ![tapisseria 3.jpg](/img/magazine/4b2fd54f-tap-3.jpg)
-
 ![tapisseria 4.jpg](/img/magazine/9689f6e7-tap-4.jpg)
-
 ![tapisseria 5.jpg](/img/magazine/c6d39c99-tap-5.jpg)
-
 ![tapisseria 6.jpg](/img/magazine/f6b78c95-tap-6.jpg)
-
 ![tapisseria 7.jpg](/img/magazine/88d19d98-tap-7.jpg)
-
 ![tapisseria 8.jpg](/img/magazine/acc0048b-tap-8.jpg)
-
 ![tapisseria 9.jpg](/img/magazine/c8547faf-tap-9.jpg)
+:::
 
 Procés de muntatge
-
----

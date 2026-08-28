@@ -28,8 +28,6 @@ The Mezger block is the standard of design and reliability both used on the stre
 
 Some internal and external changes underwent the 964 engine generation.
 
----
-
 The first phase of disassembly is always important to verify the condition of all the components and be able to diagnose any hidden problems.
 
 ## Engine Rehabilitation
@@ -40,12 +38,9 @@ It is worth distinguishing two different concepts:
 
 -Major overhaul: here at Valentin Motors we call major overhaul the intervention process of engine and gearbox decoupling and complete systems review protocol but without disassembling the complete engine.
 
+:::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-
 ![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-
 ![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-
 ![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
-
----
+:::

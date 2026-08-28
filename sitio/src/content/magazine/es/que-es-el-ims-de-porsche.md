@@ -46,15 +46,17 @@ En los *watercooled* antes mencionados, Porsche instala un rodamiento de doble h
 
 ![**Ubicación del IMS** La flecha indica la posición del rodamiento](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
-***Ubicación del IMS** La flecha indica la posición del rodamiento*
+*Ubicación del IMS** La flecha indica la posición del rodamiento*
 
 ## **Video explicativo sobre el IMS**
 
 En el siguiente video, nuestro director general, Jordi Edo, explica en detalle cuál es el problema en el IMS y las soluciones propuestas en Valentin Motors.
 
-<video src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" ancho="1080" alto="1920"}
+:::
 
-<video src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
+:::
 
 ## **¿Qué vehículos están afectados?**
 
@@ -81,7 +83,7 @@ Es vital el aceite, calidad y asiduidad en su reposición.
 
 ![Reparación IMS Porsche](/img/magazine/69931237-IMS-PORSCHE-911.jpeg)
 
-***Nuestra experiencia** Tal y como se ve en la imagen, llevamos una gran cantidad de IMS sustituidos, casi 320 intervenciones desde 2005.*
+*Nuestra experiencia** Tal y como se ve en la imagen, llevamos una gran cantidad de IMS sustituidos, casi 320 intervenciones desde 2005.*
 
 Es por ello que en **Valentin Motors ofrecemos el servicio de comprobación de estado de IMS**.
 

@@ -46,15 +46,17 @@ En els *watercooled* esmentats, Porsche instal·la un rodament de doble filera d
 
 ![**Ubicació de l’IMS** La fletxa indica la posició del rodament](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
-***Ubicació de l’IMS** La fletxa indica la posició del rodament*
+*Ubicació de l’IMS** La fletxa indica la posició del rodament*
 
 ## **Vídeo explicatiu sobre l’IMS**
 
 En el vídeo següent, el nostre director general, Jordi Edo, explica en detall quin és el problema de l’IMS i les solucions proposades a Valentin Motors.
 
-<video src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" ancho="1080" alto="1920"}
+:::
 
-<video src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" controls preload="metadata" playsinline width="1080" height="1920"></video>
+:::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
+:::
 
 ## **Quins vehicles estan afectats?**
 
@@ -81,7 +83,7 @@ L’oli és vital: la qualitat i l’assiduïtat en la reposició.
 
 ![Reparació IMS Porsche](/img/magazine/69931237-IMS-PORSCHE-911.jpeg)
 
-***La nostra experiència** Tal com es veu a la imatge, portem una gran quantitat d’IMS substituïts: gairebé 320 intervencions des del 2005.*
+*La nostra experiència** Tal com es veu a la imatge, portem una gran quantitat d’IMS substituïts: gairebé 320 intervencions des del 2005.*
 
 És per això que a **Valentin Motors oferim el servei de comprovació de l’estat de l’IMS**.
 
