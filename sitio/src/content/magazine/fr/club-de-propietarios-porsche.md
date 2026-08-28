@@ -65,11 +65,11 @@ Samedi 11 novembre, de la part de Valentin Motors nous avons voulu rendre hommag
 Ni plus ni moins de **20 magnifiques** véhicules nous ont suivis sur les routes de l'intérieur de la Catalogne, sur un itinéraire que nous avons divisé en 5 tronçons spectaculaires : Pinos, Hostalnou, Vilaredes, Taurons et La Bassa. Nous avons apprécié rouler, à un très bon rythme, sur des routes belles et techniques, adaptées à tous les pilotes. Une matinée où nous avons rencontré du brouillard et des nuages, mais au final le soleil nous a souri pendant une bonne partie de la journée, que nous avons terminée par un repas au célèbre restaurant **Aligué**, un délice pour nos palais. La fin parfaite d’une journée aussi mémorable, car c’était notre journée.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-11-at-11.44.09.jpeg](/img/magazine/63216172-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-11-at-11.44.09.jpeg)
-![1-images-911.REBELRIDE-GOPR0886.jpg](/img/magazine/8507ea4b-1-images-911.REBELRIDE-GOPR0886.jpg)
-![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-09-at-17.45.27---copia.jpeg](/img/magazine/1b27c10e-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-09-at-17.45.27-copia.jpeg)
-![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.17.15---copia.jpeg](/img/magazine/7b3cf2d0-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.17.15-copia.jpeg)
-![1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.22.32-3---copia.jpeg](/img/magazine/d9699daa-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.22.32-3-copia.jpeg)
+![File de Porsche garées dans une rue pendant la sortie 9/11 Rebel Ride, une 991 Carrera blanche au premier plan](/img/magazine/63216172-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-11-at-11.44.09.jpeg)
+![Vue depuis l'habitacle dans le rétroviseur pendant la route du 9/11 Rebel Ride](/img/magazine/8507ea4b-1-images-911.REBELRIDE-GOPR0886.jpg)
+![Une 996 Turbo argent ouvre la file sur une route de montagne lors du 9/11 Rebel Ride](/img/magazine/1b27c10e-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-09-at-17.45.27-copia.jpeg)
+![File de Porsche sur un chemin entre les champs, montagnes en fond, lors du 9/11 Rebel Ride](/img/magazine/7b3cf2d0-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.17.15-copia.jpeg)
+![Les participants du 9/11 Rebel Ride attendent sur le bas-côté avant de repartir](/img/magazine/d9699daa-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.22.32-3-copia.jpeg)
 :::
 
 ### VI Endurance "La French Connection"
@@ -80,12 +80,12 @@ Lieu : Roussillon, France
 Après le briefing et un bon petit-déjeuner, nous prenons la route sous une matinée sombre et pluvieuse, direction le premier contrôle de regroupement à la station service **Q8 de Matadepera**. De là, nous avons continué notre route à travers des paysages et des montagnes spectaculaires, jusqu'à atteindre le restaurant **Mitic**, où nous nous sommes arrêtés pour nous reposer et recharger nos batteries avec un délicieux repas. Nous nous sommes dirigés l'après-midi vers les belles étendues françaises du **Vallespir**, pour terminer dans la ville de **Le Boulou**. Nous ne pouvions pas terminer cette journée intense autrement qu'avec un dîner au spectaculaire restaurant **Solomillo**, un luxe que mérite notre VI Endurance.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-09.24.22.jpeg](/img/magazine/00e9b3c7-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-09.24.22.jpeg)
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-16.07.30.jpeg](/img/magazine/0d93073f-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-16.07.30.jpeg)
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-21.06.32.jpeg](/img/magazine/f41f0414-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-21.06.32.jpeg)
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.05.30.jpeg](/img/magazine/4eb93a46-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.05.30.jpeg)
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.07.40-1.jpeg](/img/magazine/52687015-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.07.40-1.jpeg)
-![1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-24-at-10.15.50.jpeg](/img/magazine/eb7375bf-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-24-at-10.15.50.jpeg)
+![Briefing de départ du VI Endurance à l'atelier, les voitures prêtes au fond](/img/magazine/00e9b3c7-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-09.24.22.jpeg)
+![Déjeuner des participants du VI Endurance autour d'une longue table de pierre et de bois](/img/magazine/0d93073f-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-16.07.30.jpeg)
+![Les Porsche du VI Endurance alignées le long d'une haie après la pluie](/img/magazine/f41f0414-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-21.06.32.jpeg)
+![Le convoi du VI Endurance sur la voie rapide sous un ciel couvert](/img/magazine/4eb93a46-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.05.30.jpeg)
+![Mas en pierre où s'est arrêté le VI Endurance, terrasse vide après la pluie](/img/magazine/52687015-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-22-at-20.07.40-1.jpeg)
+![Une 991 Carrera blanche ferme la file sur une route bordée de pins lors du VI Endurance](/img/magazine/eb7375bf-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-24-at-10.15.50.jpeg)
 :::
 
 ### L'hommage du Grand Tour par VM
@@ -98,17 +98,17 @@ Cette fois, nous avons décidé de donner une tournure à nos mythiques itinéra
 Une splendide journée de soleil nous a accompagnés toute la journée, qui a commencé ponctuellement à 10 du matin. Après le briefing habituel, les 3 groupes dans lesquels les participants étaient répartis, chacun s'est rendu dans sa zone. L'aéroport était divisé **en 3 circuits spectaculaires**, l'un d'eux plus exigeant, avec un parcours plus long et accompagné d'une courbe passée dans l'eau, l'autre se distinguait par son slalom amusant, et enfin le dernier et le plus différent, où nos participants ont dû laisser de côté la Porsche pour monter dans une Beetle que nous avons transformée en propulsion arrière, en devant faire un exercice pour apprendre à le faire. contre-braquage, puisque l'essieu arrière avait les roues folles, tout un défi. Une fois la matinée terminée, nous nous dirigerons vers le splendide Aravell Golf & Country Club pour manger et nous reposer, où nous terminerons la journée.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-05-at-16.36.09.jpeg](/img/magazine/195d1c88-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-05-at-16.36.09.jpeg)
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-09.46.09.jpeg](/img/magazine/dda7a33c-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-09.46.09.jpeg)
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43.jpeg](/img/magazine/9c09b135-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43.jpeg)
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-4.jpeg](/img/magazine/f2f350a5-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-4.jpeg)
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-5.jpeg](/img/magazine/61d3eeb3-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-5.jpeg)
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-15.50.07.jpeg](/img/magazine/afa7ced9-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-15.50.07.jpeg)
-![1-images-THEGRANDTOUR-GOPR0692.jpg](/img/magazine/c694fd18-1-images-THEGRANDTOUR-GOPR0692.jpg)
-![1-images-THEGRANDTOUR-GOPR0696.jpg](/img/magazine/fcbbb19c-1-images-THEGRANDTOUR-GOPR0696.jpg)
-![1-images-THEGRANDTOUR-GOPR0742.jpg](/img/magazine/345b6f64-1-images-THEGRANDTOUR-GOPR0742.jpg)
-![1-images-THEGRANDTOUR-GOPR0811.jpg](/img/magazine/5cda033d-1-images-THEGRANDTOUR-GOPR0811.jpg)
-![1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-04-at-21.47.24.jpeg](/img/magazine/b7608cc8-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-04-at-21.47.24.jpeg)
+![Une 911 Turbo noire à côté d'un avion léger sur le tarmac, montagnes enneigées au fond, au Grand Tour](/img/magazine/195d1c88-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-05-at-16.36.09.jpeg)
+![Photo de groupe des participants du Grand Tour sur le tarmac de l'aérodrome](/img/magazine/dda7a33c-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-09.46.09.jpeg)
+![Trois Porsche noires attendent leur tour dans la zone de plots de l'aérodrome, au Grand Tour](/img/magazine/9c09b135-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43.jpeg)
+![Un cabriolet rouge équipé de roues folles pour l'exercice de contrôle de glisse, au Grand Tour](/img/magazine/f2f350a5-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-4.jpeg)
+![Les Porsche du Grand Tour garées sur la pelouse, la vallée et la forêt en fond](/img/magazine/61d3eeb3-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-11.12.43-5.jpeg)
+![Un camion de pompiers arrose la piste pour l'exercice sur sol mouillé du Grand Tour](/img/magazine/afa7ced9-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-06-at-15.50.07.jpeg)
+![Une 997 Turbo Cabriolet blanche attend sous la tente de départ du Grand Tour](/img/magazine/c694fd18-1-images-THEGRANDTOUR-GOPR0692.jpg)
+![Une 996 noire enchaîne le parcours de plots sur le tarmac mouillé, au Grand Tour](/img/magazine/fcbbb19c-1-images-THEGRANDTOUR-GOPR0696.jpg)
+![Vue d'ensemble de l'aérodrome pendant le Grand Tour, voitures au paddock et tour de contrôle au fond](/img/magazine/345b6f64-1-images-THEGRANDTOUR-GOPR0742.jpg)
+![Les Porsche du Grand Tour exposées sur la pelouse devant un bâtiment en pierre pavoisé](/img/magazine/5cda033d-1-images-THEGRANDTOUR-GOPR0811.jpg)
+![Une 997 Carrera noire sur le parcours de plots, chaîne enneigée en fond, au Grand Tour](/img/magazine/b7608cc8-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-04-at-21.47.24.jpeg)
 :::
 
 ### V Endurance "Bande de chasseurs de vitesse"

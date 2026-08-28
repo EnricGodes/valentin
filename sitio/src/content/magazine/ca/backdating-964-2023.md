@@ -55,10 +55,10 @@ En aquest projecte no augmentarem la cilindrada d’aquest 964 a 3.8; l’upgrad
 ![Bloc, cigonyal amb bieles i arbres de lleves desmuntats sobre la safata](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
 ![Els sis pistons amb els seus cilindres i les culates, desmuntats sobre el banc](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
 ![Motor bòxer en muntatge amb les cadenes de distribució al descobert](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
-![Treballs de motor](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
-![Treballs de motor](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
-![Treballs de motor](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
-![Treballs de motor](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
+![Carcassa i turbina del ventilador en alumini nu, abans de pintar](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
+![Els sis conjunts de pistó i cilindre alineats al banc, amb bieles, balancins i cargoleria classificada](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
+![Muntatge del motor amb les molles de vàlvula a la vista i la distribució en curs](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
+![Vano motor del 964 amb la turbina de refrigeració en marfil ja muntada](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
 :::
 
 ## Carrosseria backdating
@@ -66,11 +66,11 @@ En aquest projecte no augmentarem la cilindrada d’aquest 964 a 3.8; l’upgrad
 Procés de transformació a sèrie F.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![Transformació de la carrosseria](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
-![Transformació de la carrosseria](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
-![Transformació de la carrosseria](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
-![Transformació de la carrosseria](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
-![Transformació de la carrosseria](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
-![Transformació de la carrosseria](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
-![Transformació de la carrosseria](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
+![Frontal del 964 amb el para-xocs desmuntat i una peça blanca en proves d'ajust](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
+![Zaga del 964 desmuntada, amb la suspensió posterior i el panell posterior a la vista](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
+![Zaga del 964 en massilla, amb la tapa de motor llisa tipus CS i la lluneta desmuntada](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
+![Aleta davantera polida i en massilla, amb el vano motor obert al fons](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
+![Detall de l'eixamplament d'aleta posterior, amb la unió de xapa en preparació](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
+![Carrosseria en preparació sobre cavallets, amb el volant i el salpicador desmuntats](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
+![El 964 en preparació dins la nau, entre altres cotxes en procés](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
 :::

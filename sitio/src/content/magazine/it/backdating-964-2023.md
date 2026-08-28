@@ -55,10 +55,10 @@ In questo progetto non porteremo la cilindrata di questa 964 a 3.8: l’upgrade 
 ![Monoblocco, albero motore con bielle e alberi a camme smontati sul vassoio](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
 ![I sei pistoni con i loro cilindri e le testate, smontati sul banco](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
 ![Boxer in fase di montaggio con le catene di distribuzione a vista](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
-![Lavori al motore](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
-![Lavori al motore](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
-![Lavori al motore](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
-![Lavori al motore](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
+![Scatola e ventola in alluminio grezzo, prima della verniciatura](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
+![I sei gruppi pistone-cilindro allineati sul banco, con bielle, bilancieri e minuteria divisa](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
+![Montaggio del motore con le molle valvole a vista e la distribuzione in corso](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
+![Vano motore della 964 con la ventola di raffreddamento avorio già montata](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
 :::
 
 ## Carrozzeria backdating
@@ -66,11 +66,11 @@ In questo progetto non porteremo la cilindrata di questa 964 a 3.8: l’upgrade 
 Processo di trasformazione all’estetica serie F.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![Trasformazione della carrozzeria](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
-![Trasformazione della carrozzeria](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
-![Trasformazione della carrozzeria](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
-![Trasformazione della carrozzeria](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
-![Trasformazione della carrozzeria](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
-![Trasformazione della carrozzeria](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
-![Trasformazione della carrozzeria](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
+![Frontale della 964 con il paraurti smontato e un pezzo bianco in prova di accoppiamento](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
+![Posteriore della 964 smontato, con le sospensioni posteriori e il pannello a vista](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
+![Posteriore della 964 in stucco, con il cofano motore liscio tipo CS e il lunotto smontato](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
+![Parafango anteriore carteggiato e stuccato, con il vano motore aperto sullo sfondo](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
+![Dettaglio dell'allargamento del parafango posteriore, con il raccordo in lavorazione](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
+![Scocca in preparazione sui cavalletti, con volante e cruscotto smontati](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
+![La 964 in preparazione nel capannone, tra altre vetture in lavorazione](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
 :::

@@ -55,10 +55,10 @@ On this project we are not taking the 964 out to 3.8. The upgrade is a Stage 1: 
 ![Block, crankshaft with rods and camshafts stripped out onto the tray](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
 ![The six pistons with their cylinders and the heads, stripped out on the bench](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
 ![Flat-six being assembled with the timing chains exposed](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
-![Engine work](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
-![Engine work](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
-![Engine work](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
-![Engine work](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
+![Fan housing and impeller in bare aluminium, before painting](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
+![The six piston and cylinder assemblies lined up on the bench, with rods, rockers and sorted hardware](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
+![Engine being assembled with the valve springs exposed and the timing under way](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
+![Engine bay of the 964 with the ivory cooling fan already fitted](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
 :::
 
 ## Backdating the body
@@ -66,11 +66,11 @@ On this project we are not taking the 964 out to 3.8. The upgrade is a Stage 1: 
 Conversion to F-series looks.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![Bodywork conversion](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
-![Bodywork conversion](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
-![Bodywork conversion](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
-![Bodywork conversion](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
-![Bodywork conversion](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
-![Bodywork conversion](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
-![Bodywork conversion](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
+![Front of the 964 with the bumper removed and a white panel being trial-fitted](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
+![Rear of the 964 stripped down, with the rear suspension and back panel exposed](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
+![Rear of the 964 in filler, with the smooth CS-style engine lid and the rear screen removed](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
+![Front wing sanded and in filler, with the engine bay open behind](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
+![Detail of the widened rear wing, with the panel joint being prepared](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
+![Bodyshell being prepared on stands, with the steering wheel and dashboard stripped out](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
+![The 964 under preparation inside the workshop, among other cars in progress](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
 :::

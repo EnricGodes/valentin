@@ -55,10 +55,10 @@ Bei diesem Projekt vergrößern wir den Hubraum des 964 nicht auf 3,8. Das Upgra
 ![Block, Kurbelwelle mit Pleueln und Nockenwellen zerlegt auf der Wanne](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
 ![Die sechs Kolben mit ihren Zylindern und die Zylinderköpfe, zerlegt auf der Werkbank](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
 ![Boxermotor im Zusammenbau mit freiliegenden Steuerketten](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
-![Motorarbeiten](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
-![Motorarbeiten](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
-![Motorarbeiten](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
-![Motorarbeiten](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
+![Gebläsegehäuse und Gebläserad in blankem Aluminium, vor der Lackierung](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
+![Die sechs Kolben-Zylinder-Einheiten aufgereiht auf der Werkbank, mit Pleueln, Kipphebeln und sortierten Schrauben](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
+![Motormontage mit freiliegenden Ventilfedern und laufender Steuerzeiteneinstellung](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
+![Motorraum des 964 mit bereits montiertem elfenbeinfarbenem Gebläserad](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
 :::
 
 ## Karosserie im Backdating
@@ -66,11 +66,11 @@ Bei diesem Projekt vergrößern wir den Hubraum des 964 nicht auf 3,8. Das Upgra
 Umbau auf die Optik der F-Serie.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![Umbau der Karosserie](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
-![Umbau der Karosserie](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
-![Umbau der Karosserie](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
-![Umbau der Karosserie](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
-![Umbau der Karosserie](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
-![Umbau der Karosserie](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
-![Umbau der Karosserie](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
+![Front des 964 mit demontierter Stoßstange und einem weißen Teil bei der Passprobe](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
+![Heck des 964 zerlegt, mit freiliegender Hinterachse und Rückwand](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
+![Heck des 964 in Spachtel, mit glattem Motordeckel im CS-Stil und ausgebauter Heckscheibe](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
+![Vorderer Kotflügel geschliffen und gespachtelt, dahinter der offene Motorraum](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
+![Detail der verbreiterten Hinterkotflügel, die Blechnaht in Vorbereitung](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
+![Karosserie auf Böcken in Vorbereitung, Lenkrad und Armaturenbrett ausgebaut](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
+![Der 964 in Vorbereitung in der Halle, zwischen weiteren Fahrzeugen in Arbeit](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
 :::

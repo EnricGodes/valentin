@@ -55,10 +55,10 @@ Sur ce projet, nous n’allons pas porter cette 964 à 3,8. L’évolution sera 
 ![Bloc, vilebrequin avec bielles et arbres à cames démontés sur le plateau](/img/magazine/459653a2-fa6b24f3-80c8-4f6b-ad64-6c053e45f692.jpg)
 ![Les six pistons avec leurs cylindres et les culasses, démontés sur l'établi](/img/magazine/ab9f807d-c1c9b5cc-40b1-497f-93da-ded586f43caa.jpg)
 ![Flat-six en cours de remontage, chaînes de distribution à nu](/img/magazine/8ea937a1-9738e64b-52f0-4a35-b37d-3afd5290025b.jpg)
-![Travaux moteur](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
-![Travaux moteur](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
-![Travaux moteur](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
-![Travaux moteur](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
+![Carter et turbine de ventilateur en aluminium brut, avant peinture](/img/magazine/c6c12162-96008b08-f73e-4a67-9519-eed8e5b52331.jpg)
+![Les six ensembles piston-cylindre alignés sur l'établi, avec bielles, culbuteurs et visserie triée](/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg)
+![Remontage du moteur, ressorts de soupape à nu et distribution en cours](/img/magazine/c6d3be86-b6d65a9f-c1b1-4085-96f0-6662fc5c096a.jpg)
+![Compartiment moteur de la 964 avec la turbine de refroidissement ivoire montée](/img/magazine/a1bb3daf-c81d1d2a-e4cb-40b4-a0f3-8c587a99c8e2.jpg)
 :::
 
 ## Carrosserie backdating
@@ -66,11 +66,11 @@ Sur ce projet, nous n’allons pas porter cette 964 à 3,8. L’évolution sera 
 Transformation vers l’esthétique série F.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![Transformation de la carrosserie](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
-![Transformation de la carrosserie](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
-![Transformation de la carrosserie](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
-![Transformation de la carrosserie](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
-![Transformation de la carrosserie](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
-![Transformation de la carrosserie](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
-![Transformation de la carrosserie](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
+![Avant de la 964, pare-chocs déposé et une pièce blanche en essai d'ajustage](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)
+![Arrière de la 964 démonté, suspension arrière et panneau de custode à nu](/img/magazine/1a842123-74a7433b-9fba-43e4-b236-7dff73209a4b.jpg)
+![Arrière de la 964 en mastic, capot moteur lisse type CS et lunette déposée](/img/magazine/30438c21-77e21393-e890-4c94-a31b-5de1bdd8be34.jpg)
+![Aile avant poncée et masticée, compartiment moteur ouvert au fond](/img/magazine/1494cf50-315d2aa5-725d-44fb-aff9-afb44db3268d.jpg)
+![Détail de l'élargissement d'aile arrière, raccord de tôle en préparation](/img/magazine/62312344-899b8d03-4fcd-4ed2-b0e8-1493f4d33c03.jpg)
+![Caisse en préparation sur chandelles, volant et planche de bord déposés](/img/magazine/e940bc19-0058459b-bc89-465f-9fb7-6212164136e5.jpg)
+![La 964 en préparation dans l'atelier, parmi d'autres voitures en cours](/img/magazine/beae94f5-acf205c2-ff58-4f5f-aee9-80b3648d7891.jpg)
 :::
