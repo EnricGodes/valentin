@@ -80,7 +80,7 @@ Finally the engine was in impeccable condition, we have a before/after compariso
 ![New seals, trim and parts for the 930 Turbo, sorted and labelled](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
 :::
 
-![](/img/magazine/755aa9de-valenti.jpg)
+![Portrait of Valentín in the workshop, during the 930 Turbo restoration](/img/magazine/755aa9de-valenti.jpg)
 
 ### Valenti's opinion
 
@@ -93,25 +93,25 @@ One of our obsessions is leaving vehicles according to their original specificat
 ### Disassemble the components
 
 :::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg](/img/magazine/bf4d89c9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg](/img/magazine/3b01ab68-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg](/img/magazine/eec89f14-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg)
+![The maroon 930 Turbo without engine or bumpers, on the lift](/img/magazine/bf4d89c9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg)
+![Bumpers and trim of the 930 Turbo removed, resting on the floor](/img/magazine/3b01ab68-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg)
+![The 930 Turbo's whale tail spoiler removed, with its grille](/img/magazine/eec89f14-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg)
 :::
 
 ### Sanding and preparation of the body
 
 :::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg](/img/magazine/ad63bc2b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg](/img/magazine/d8301e50-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg)
+![The 930 Turbo bodyshell in filler, wings under preparation](/img/magazine/ad63bc2b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg)
+![Detail of a sanded body panel on the 930 Turbo before painting](/img/magazine/d8301e50-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg)
 :::
 
 ### Assembly and interior
 
 :::galeria{diseno="apilada" porFila="2" proporcion="standard" lightbox}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg](/img/magazine/25c2650b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg](/img/magazine/63f66963-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg](/img/magazine/c174018f-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg](/img/magazine/082b6e57-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg)
+![The 930 Turbo's two seats retrimmed in black leather](/img/magazine/25c2650b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg)
+![The freshly painted maroon 930 Turbo, on stands and without glass](/img/magazine/63f66963-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg)
+![The painted 930 Turbo, windscreen ready to fit in the foreground](/img/magazine/c174018f-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg)
+![The maroon 930 Turbo reassembled, front three-quarter in the workshop](/img/magazine/082b6e57-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg)
 :::
 
 ## The final result: 911 Turbo restoration

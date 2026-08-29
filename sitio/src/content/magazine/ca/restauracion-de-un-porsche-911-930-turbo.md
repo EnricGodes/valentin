@@ -80,7 +80,7 @@ Finalment el motor va quedar en un estat impecable, tenim una comparativa de l'a
 ![Juntes, motllures i peces noves del 930 Turbo, ordenades i etiquetades](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
 :::
 
-![](/img/magazine/755aa9de-valenti.jpg)
+![Retrat de Valentín al taller, durant la restauració del 930 Turbo](/img/magazine/755aa9de-valenti.jpg)
 
 ### L'opinió de Valentí
 
@@ -93,25 +93,25 @@ Una de les nostres obsessions és deixar els vehicles segons les especificacions
 ### Desmuntar els components
 
 :::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg](/img/magazine/bf4d89c9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg](/img/magazine/3b01ab68-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg](/img/magazine/eec89f14-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg)
+![El 930 Turbo granat sense motor ni para-xocs, sobre l'elevador](/img/magazine/bf4d89c9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg)
+![Para-xocs i motllures del 930 Turbo desmuntats, recolzats a terra](/img/magazine/3b01ab68-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg)
+![L'aleró de cua de balena del 930 Turbo desmuntat, amb la reixa](/img/magazine/eec89f14-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg)
 :::
 
 ### Polit i preparació de la carrosseria
 
 :::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg](/img/magazine/ad63bc2b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg](/img/magazine/d8301e50-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg)
+![La carrosseria del 930 Turbo en massilla, amb les aletes en preparació](/img/magazine/ad63bc2b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg)
+![Detall d'una zona de xapa del 930 Turbo polida abans de pintar](/img/magazine/d8301e50-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg)
 :::
 
 ### Muntatge i interior
 
 :::galeria{diseno="apilada" porFila="2" proporcion="standard" lightbox}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg](/img/magazine/25c2650b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg](/img/magazine/63f66963-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg](/img/magazine/c174018f-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg](/img/magazine/082b6e57-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg)
+![Els dos seients del 930 Turbo retapissats en cuir negre](/img/magazine/25c2650b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg)
+![El 930 Turbo granat acabat de pintar, sobre cavallets i sense vidres](/img/magazine/63f66963-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg)
+![El 930 Turbo pintat, amb el parabrisa a punt per muntar en primer pla](/img/magazine/c174018f-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg)
+![El 930 Turbo granat ja muntat, de tres quarts davanter al taller](/img/magazine/082b6e57-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg)
 :::
 
 ## El resultat final: 911 Turbo restauració integral

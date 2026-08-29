@@ -80,7 +80,7 @@ Finalmente il motore era in condizioni impeccabili, abbiamo un confronto prima/d
 ![Guarnizioni, modanature e pezzi nuovi della 930 Turbo, ordinati ed etichettati](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
 :::
 
-![](/img/magazine/755aa9de-valenti.jpg)
+![Ritratto di Valentín in officina, durante il restauro della 930 Turbo](/img/magazine/755aa9de-valenti.jpg)
 
 ### L'opinione di Valenti
 
@@ -93,25 +93,25 @@ Una delle nostre ossessioni è lasciare i veicoli secondo le loro specifiche ori
 ### Smontare i componenti
 
 :::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg](/img/magazine/bf4d89c9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg](/img/magazine/3b01ab68-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg](/img/magazine/eec89f14-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg)
+![La 930 Turbo bordeaux senza motore né paraurti, sul sollevatore](/img/magazine/bf4d89c9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37-4.jpeg)
+![Paraurti e modanature della 930 Turbo smontati, appoggiati a terra](/img/magazine/3b01ab68-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-3.jpeg)
+![L'alettone a coda di balena della 930 Turbo smontato, con la griglia](/img/magazine/eec89f14-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-5.jpeg)
 :::
 
 ### Levigatura e preparazione della carrozzeria
 
 :::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg](/img/magazine/ad63bc2b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg](/img/magazine/d8301e50-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg)
+![La scocca della 930 Turbo in stucco, con i parafanghi in preparazione](/img/magazine/ad63bc2b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39-1.jpeg)
+![Dettaglio di una zona di lamiera della 930 Turbo carteggiata prima della verniciatura](/img/magazine/d8301e50-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.39.jpeg)
 :::
 
 ### Assemblaggio e interni
 
 :::galeria{diseno="apilada" porFila="2" proporcion="standard" lightbox}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg](/img/magazine/25c2650b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg](/img/magazine/63f66963-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg](/img/magazine/c174018f-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg](/img/magazine/082b6e57-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg)
+![I due sedili della 930 Turbo rivestiti in pelle nera](/img/magazine/25c2650b-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.38-2.jpeg)
+![La 930 Turbo bordeaux appena verniciata, sui cavalletti e senza vetri](/img/magazine/63f66963-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31.jpeg)
+![La 930 Turbo verniciata, con il parabrezza pronto al montaggio in primo piano](/img/magazine/c174018f-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.31-1.jpeg)
+![La 930 Turbo bordeaux rimontata, tre quarti anteriore in officina](/img/magazine/082b6e57-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-2.jpeg)
 :::
 
 ## Il risultato finale: 911 Turbo restauro
