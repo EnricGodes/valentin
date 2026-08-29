@@ -15,7 +15,7 @@ ctas: []
 **Valentin Motors Madrid** presents the **PA10/01** in its new event: A **unique** masterpiece, the first **Porsche 911** Comprehensively Reimagined in the capital. Representing the fusion between the iconic heritage of the **911** and the contemporary vision of **Valentin**, each element has been designed and executed with a single purpose: To offer an unrepeatable experience reserved for those who understand that true exclusivity is not bought, it is **created**.
 
 :::galeria{diseno="cuadricula" porFila="4" proporcion="three-four-vertical" lightbox}
-![DSC03509.jpg](/img/magazine/a530bcb4-DSC03509.jpg)
+![Two 911s parked at night under a terrace's string lights](/img/magazine/a530bcb4-DSC03509.jpg)
 ![DSC03556.jpg](/img/magazine/dc57c760-DSC03556.jpg)
 ![DSC03559.jpg](/img/magazine/0bca650e-DSC03559.jpg)
 ![DSC03610.jpg](/img/magazine/8a03a163-DSC03610.jpg)

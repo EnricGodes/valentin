@@ -15,7 +15,7 @@ ctas: []
 **Valentin Motors Madrid** presenta el **PA10/01** en su nuevo evento: Una obra maestra **única**, el primer **Porsche 911** Reimaginado de forma Integral en la capital. Representa la fusión entre la herencia icónica del **911** y la visión contemporánea de **Valentin**, cada elemento ha sido diseñado y ejecutado con un único propósito: Ofrecer una experiencia irrepetible reservada para quienes entienden que la verdadera exclusividad no se compra, se **crea**.
 
 :::galeria{diseno="cuadricula" porFila="4" proporcion="three-four-vertical" lightbox}
-![DSC03509.jpg](/img/magazine/a530bcb4-DSC03509.jpg)
+![Dos 911 aparcados de noche bajo las guirnaldas de luces de una terraza](/img/magazine/a530bcb4-DSC03509.jpg)
 ![DSC03556.jpg](/img/magazine/dc57c760-DSC03556.jpg)
 ![DSC03559.jpg](/img/magazine/0bca650e-DSC03559.jpg)
 ![DSC03610.jpg](/img/magazine/8a03a163-DSC03610.jpg)
