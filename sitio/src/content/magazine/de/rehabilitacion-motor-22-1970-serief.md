@@ -31,6 +31,6 @@ Es lohnt sich, zwei verschiedene Konzepte zu unterscheiden:
 -Große Inspektion: Hier bei Valentin Motors bezeichnen wir als große Inspektion den Eingriffsprozess der Motor- und Getriebeentkopplung und des Protokolls zur vollständigen Systemüberprüfung, jedoch ohne Demontage des gesamten Motors.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![Motor 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-![Motor 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
+![Motorraum des roten 911 der F-Serie mit eingebautem 2.2 und goldenem Gebläserad](/img/magazine/d4e57210-motor-1.jpg)
+![Der eingebaute 2.2-Motor des 911 der F-Serie mit Vergasern und Kabelbaum](/img/magazine/3da7064e-motor-2.jpg)
 :::

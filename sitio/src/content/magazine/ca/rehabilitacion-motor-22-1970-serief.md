@@ -31,6 +31,6 @@ Cal diferenciar dos conceptes diferents:
 -Gran aturada: aquí a Valentin Motors anomenem gran aturada el procés d'intervenció de desacoblament motor i caixa i protocol de revisió completa de sistemes però sense desmuntar el motor complet.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![motor 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-![motor 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
+![Vano motor del 911 sèrie F vermell amb el motor 2.2 muntat i la turbina daurada](/img/magazine/d4e57210-motor-1.jpg)
+![El motor 2.2 del 911 sèrie F ja instal·lat, amb els carburadors i el cablejat](/img/magazine/3da7064e-motor-2.jpg)
 :::

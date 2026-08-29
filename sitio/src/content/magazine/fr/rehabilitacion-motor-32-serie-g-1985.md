@@ -35,14 +35,14 @@ Les plus probables sont les caches distribution et la partie inférieure, bien q
 Si les fuites d'huile proviennent du bloc, cela nous oblige à effectuer une réparation complète du moteur.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240328_084511.jpg](/img/magazine/be4e380c-20240328_084511.jpg)
-![20240328_084518.jpg](/img/magazine/dae302b5-20240328_084518.jpg)
-![20240328_084524.jpg](/img/magazine/b3bc4786-20240328_084524.jpg)
-![20240328_084532.jpg](/img/magazine/85282730-20240328_084532.jpg)
-![20240328_084537.jpg](/img/magazine/3b7c10b6-20240328_084537.jpg)
-![20240328_084542.jpg](/img/magazine/7d7fa6c3-20240328_084542.jpg)
-![20240328_084548.jpg](/img/magazine/f96ec540-20240328_084548.jpg)
-![20240328_114440.jpg](/img/magazine/7511fdcc-20240328_114440.jpg)
+![Le moteur 3.2 série G tel qu'il est arrivé à l'atelier, sur le support](/img/magazine/be4e380c-20240328_084511.jpg)
+![Le 3.2 série G côté admission avant démontage](/img/magazine/dae302b5-20240328_084518.jpg)
+![Le volant moteur et l'embrayage du 3.2 série G, encore montés](/img/magazine/b3bc4786-20240328_084524.jpg)
+![Le 3.2 série G vu du côté du filtre à air, carrosserie en fond](/img/magazine/85282730-20240328_084532.jpg)
+![Le silencieux et les tubulures d'échappement du 3.2 série G, avant dépose](/img/magazine/3b7c10b6-20240328_084537.jpg)
+![Le 3.2 série G avec le filtre à air et l'admission au complet](/img/magazine/7d7fa6c3-20240328_084542.jpg)
+![Vue avant du 3.2 série G avec la turbine de refroidissement et l'échappement](/img/magazine/f96ec540-20240328_084548.jpg)
+![Le 3.2 série G, admission déposée, au début du démontage](/img/magazine/7511fdcc-20240328_114440.jpg)
 ![20240328_114443.jpg](/img/magazine/5fd2a478-20240328_114443.jpg)
 ![20240328_114449.jpg](/img/magazine/8054d054-20240328_114449.jpg)
 ![20240328_114458.jpg](/img/magazine/d5c18ca1-20240328_114458.jpg)

@@ -35,14 +35,14 @@ The most likely are the timing and lower part rocker covers, although the upper 
 If the oil leaks are from the block, it forces us to carry out a complete engine repair.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240328_084511.jpg](/img/magazine/be4e380c-20240328_084511.jpg)
-![20240328_084518.jpg](/img/magazine/dae302b5-20240328_084518.jpg)
-![20240328_084524.jpg](/img/magazine/b3bc4786-20240328_084524.jpg)
-![20240328_084532.jpg](/img/magazine/85282730-20240328_084532.jpg)
-![20240328_084537.jpg](/img/magazine/3b7c10b6-20240328_084537.jpg)
-![20240328_084542.jpg](/img/magazine/7d7fa6c3-20240328_084542.jpg)
-![20240328_084548.jpg](/img/magazine/f96ec540-20240328_084548.jpg)
-![20240328_114440.jpg](/img/magazine/7511fdcc-20240328_114440.jpg)
+![The 3.2 G-series engine as it arrived at the workshop, on the stand](/img/magazine/be4e380c-20240328_084511.jpg)
+![The 3.2 G-series from the intake side before teardown](/img/magazine/dae302b5-20240328_084518.jpg)
+![The 3.2 G-series flywheel and clutch, still fitted](/img/magazine/b3bc4786-20240328_084524.jpg)
+![The 3.2 G-series seen from the air filter side, bodywork behind](/img/magazine/85282730-20240328_084532.jpg)
+![The 3.2 G-series silencer and exhaust pipes, before removal](/img/magazine/3b7c10b6-20240328_084537.jpg)
+![The 3.2 G-series with the air filter and intake complete](/img/magazine/7d7fa6c3-20240328_084542.jpg)
+![Front view of the 3.2 G-series with the cooling fan and exhaust](/img/magazine/f96ec540-20240328_084548.jpg)
+![The 3.2 G-series with the intake removed, at the start of the teardown](/img/magazine/7511fdcc-20240328_114440.jpg)
 ![20240328_114443.jpg](/img/magazine/5fd2a478-20240328_114443.jpg)
 ![20240328_114449.jpg](/img/magazine/8054d054-20240328_114449.jpg)
 ![20240328_114458.jpg](/img/magazine/d5c18ca1-20240328_114458.jpg)

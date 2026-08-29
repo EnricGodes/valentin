@@ -35,14 +35,14 @@ Am wahrscheinlichsten sind die Steuerzeiten und der untere Teil der Kipphebelabd
 Wenn das Öl aus dem Block austritt, sind wir gezwungen, eine komplette Motorreparatur durchzuführen.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240328_084511.jpg](/img/magazine/be4e380c-20240328_084511.jpg)
-![20240328_084518.jpg](/img/magazine/dae302b5-20240328_084518.jpg)
-![20240328_084524.jpg](/img/magazine/b3bc4786-20240328_084524.jpg)
-![20240328_084532.jpg](/img/magazine/85282730-20240328_084532.jpg)
-![20240328_084537.jpg](/img/magazine/3b7c10b6-20240328_084537.jpg)
-![20240328_084542.jpg](/img/magazine/7d7fa6c3-20240328_084542.jpg)
-![20240328_084548.jpg](/img/magazine/f96ec540-20240328_084548.jpg)
-![20240328_114440.jpg](/img/magazine/7511fdcc-20240328_114440.jpg)
+![Der 3.2 G-Serie Motor im Anlieferungszustand auf dem Ständer](/img/magazine/be4e380c-20240328_084511.jpg)
+![Der 3.2 G-Serie von der Ansaugseite vor der Zerlegung](/img/magazine/dae302b5-20240328_084518.jpg)
+![Schwungrad und Kupplung des 3.2 G-Serie, noch montiert](/img/magazine/b3bc4786-20240328_084524.jpg)
+![Der 3.2 G-Serie von der Luftfilterseite, dahinter die Karosserie](/img/magazine/85282730-20240328_084532.jpg)
+![Schalldämpfer und Auspuffrohre des 3.2 G-Serie vor dem Ausbau](/img/magazine/3b7c10b6-20240328_084537.jpg)
+![Der 3.2 G-Serie mit vollständigem Luftfilter und Ansaugtrakt](/img/magazine/7d7fa6c3-20240328_084542.jpg)
+![Frontansicht des 3.2 G-Serie mit Gebläserad und Auspuff](/img/magazine/f96ec540-20240328_084548.jpg)
+![Der 3.2 G-Serie mit ausgebautem Ansaugtrakt zu Beginn der Zerlegung](/img/magazine/7511fdcc-20240328_114440.jpg)
 ![20240328_114443.jpg](/img/magazine/5fd2a478-20240328_114443.jpg)
 ![20240328_114449.jpg](/img/magazine/8054d054-20240328_114449.jpg)
 ![20240328_114458.jpg](/img/magazine/d5c18ca1-20240328_114458.jpg)

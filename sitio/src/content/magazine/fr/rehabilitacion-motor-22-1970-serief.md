@@ -31,6 +31,6 @@ Il convient de distinguer deux concepts différents :
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![moteur 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-![moteur 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
+![Compartiment moteur de la 911 série F rouge avec le 2.2 monté et la turbine dorée](/img/magazine/d4e57210-motor-1.jpg)
+![Le moteur 2.2 de la 911 série F installé, avec les carburateurs et le faisceau](/img/magazine/3da7064e-motor-2.jpg)
 :::

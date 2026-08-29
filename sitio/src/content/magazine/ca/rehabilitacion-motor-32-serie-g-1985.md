@@ -35,14 +35,14 @@ Les més propenses són les de distribució i tapes de balancins part baixa, enc
 Si les fuites d'oli són per bloc ja ens obliga a fer motor complet.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240328_084511.jpg](/img/magazine/be4e380c-20240328_084511.jpg)
-![20240328_084518.jpg](/img/magazine/dae302b5-20240328_084518.jpg)
-![20240328_084524.jpg](/img/magazine/b3bc4786-20240328_084524.jpg)
-![20240328_084532.jpg](/img/magazine/85282730-20240328_084532.jpg)
-![20240328_084537.jpg](/img/magazine/3b7c10b6-20240328_084537.jpg)
-![20240328_084542.jpg](/img/magazine/7d7fa6c3-20240328_084542.jpg)
-![20240328_084548.jpg](/img/magazine/f96ec540-20240328_084548.jpg)
-![20240328_114440.jpg](/img/magazine/7511fdcc-20240328_114440.jpg)
+![El motor 3.2 sèrie G tal com va arribar al taller, sobre el cavallet](/img/magazine/be4e380c-20240328_084511.jpg)
+![El 3.2 sèrie G pel costat de l'admissió abans de desmuntar-lo](/img/magazine/dae302b5-20240328_084518.jpg)
+![El volant motor i l'embragatge del 3.2 sèrie G, encara muntats](/img/magazine/b3bc4786-20240328_084524.jpg)
+![El 3.2 sèrie G vist des del costat del filtre d'aire, amb la carrosseria al fons](/img/magazine/85282730-20240328_084532.jpg)
+![El silenciador i els tubs d'escapament del 3.2 sèrie G, abans de retirar-los](/img/magazine/3b7c10b6-20240328_084537.jpg)
+![El 3.2 sèrie G amb el filtre d'aire i l'admissió complets](/img/magazine/7d7fa6c3-20240328_084542.jpg)
+![Vista frontal del 3.2 sèrie G amb la turbina de refrigeració i l'escapament](/img/magazine/f96ec540-20240328_084548.jpg)
+![El 3.2 sèrie G amb l'admissió ja retirada, a l'inici del desmuntatge](/img/magazine/7511fdcc-20240328_114440.jpg)
 ![20240328_114443.jpg](/img/magazine/5fd2a478-20240328_114443.jpg)
 ![20240328_114449.jpg](/img/magazine/8054d054-20240328_114449.jpg)
 ![20240328_114458.jpg](/img/magazine/d5c18ca1-20240328_114458.jpg)

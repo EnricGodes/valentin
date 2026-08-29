@@ -35,14 +35,14 @@ I più probabili sono la distribuzione e i coperchi bilancieri della parte infer
 Se le perdite d'olio provengono dal blocco, siamo costretti ad effettuare una riparazione completa del motore.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![20240328_084511.jpg](/img/magazine/be4e380c-20240328_084511.jpg)
-![20240328_084518.jpg](/img/magazine/dae302b5-20240328_084518.jpg)
-![20240328_084524.jpg](/img/magazine/b3bc4786-20240328_084524.jpg)
-![20240328_084532.jpg](/img/magazine/85282730-20240328_084532.jpg)
-![20240328_084537.jpg](/img/magazine/3b7c10b6-20240328_084537.jpg)
-![20240328_084542.jpg](/img/magazine/7d7fa6c3-20240328_084542.jpg)
-![20240328_084548.jpg](/img/magazine/f96ec540-20240328_084548.jpg)
-![20240328_114440.jpg](/img/magazine/7511fdcc-20240328_114440.jpg)
+![Il motore 3.2 serie G come è arrivato in officina, sul cavalletto](/img/magazine/be4e380c-20240328_084511.jpg)
+![Il 3.2 serie G dal lato aspirazione prima dello smontaggio](/img/magazine/dae302b5-20240328_084518.jpg)
+![Il volano e la frizione del 3.2 serie G, ancora montati](/img/magazine/b3bc4786-20240328_084524.jpg)
+![Il 3.2 serie G visto dal lato del filtro aria, con la carrozzeria sullo sfondo](/img/magazine/85282730-20240328_084532.jpg)
+![Il silenziatore e i tubi di scarico del 3.2 serie G, prima della rimozione](/img/magazine/3b7c10b6-20240328_084537.jpg)
+![Il 3.2 serie G con il filtro aria e l'aspirazione al completo](/img/magazine/7d7fa6c3-20240328_084542.jpg)
+![Vista frontale del 3.2 serie G con la ventola di raffreddamento e lo scarico](/img/magazine/f96ec540-20240328_084548.jpg)
+![Il 3.2 serie G con l'aspirazione già rimossa, all'inizio dello smontaggio](/img/magazine/7511fdcc-20240328_114440.jpg)
 ![20240328_114443.jpg](/img/magazine/5fd2a478-20240328_114443.jpg)
 ![20240328_114449.jpg](/img/magazine/8054d054-20240328_114449.jpg)
 ![20240328_114458.jpg](/img/magazine/d5c18ca1-20240328_114458.jpg)

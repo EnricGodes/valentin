@@ -31,6 +31,6 @@ Cabe diferenciar dos conceptos distintos:
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![motor 1.jpg](/img/magazine/d4e57210-motor-1.jpg)
-![motor 2.jpg](/img/magazine/3da7064e-motor-2.jpg)
+![Vano motor del 911 serie F rojo con el motor 2.2 montado y la turbina dorada](/img/magazine/d4e57210-motor-1.jpg)
+![El motor 2.2 del 911 serie F ya instalado, con los carburadores y el cableado](/img/magazine/3da7064e-motor-2.jpg)
 :::
