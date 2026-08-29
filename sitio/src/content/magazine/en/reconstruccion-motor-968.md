@@ -25,11 +25,11 @@ Complete process of engine rebuild of 968 due to lack of oil pressure
 Lack of engine oil pressure due to pump failure
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![0bbaf15e-eebb-456c-85f6-4d60cbe1fc13.jpg](/img/magazine/6e767ff7-0bbaf15e-eebb-456c-85f6-4d60cbe1fc13.jpg)
-![3f891236-ca29-4597-86b3-a5c94bad3dec.jpg](/img/magazine/1ebe8260-3f891236-ca29-4597-86b3-a5c94bad3dec.jpg)
-![4b9679db-1309-4800-ad24-68faedb1ed2c.jpg](/img/magazine/f802f689-4b9679db-1309-4800-ad24-68faedb1ed2c.jpg)
-![4f46fcda-447c-4f3a-afe1-9de823cd3cfb.jpg](/img/magazine/0bad783a-4f46fcda-447c-4f3a-afe1-9de823cd3cfb.jpg)
-![bb570df9-418d-4643-a1bd-15a482d7ec3d.jpg](/img/magazine/b7ff9ff8-bb570df9-418d-4643-a1bd-15a482d7ec3d.jpg)
+![The 968's engine block opened up, bores and bearings exposed](/img/magazine/6e767ff7-0bbaf15e-eebb-456c-85f6-4d60cbe1fc13.jpg)
+![The 968's cylinder head with the camshafts fitted, on the bench](/img/magazine/1ebe8260-3f891236-ca29-4597-86b3-a5c94bad3dec.jpg)
+![The 968's cylinder head stripped, combustion chambers exposed](/img/magazine/f802f689-4b9679db-1309-4800-ad24-68faedb1ed2c.jpg)
+![The four bores of the 968's block seen from the head face](/img/magazine/0bad783a-4f46fcda-447c-4f3a-afe1-9de823cd3cfb.jpg)
+![The 968 block with the head studs in place, ready for assembly](/img/magazine/b7ff9ff8-bb570df9-418d-4643-a1bd-15a482d7ec3d.jpg)
 ![17b2225a-8f44-46c2-b458-ad0d3b7f04a0.jpg](/img/magazine/18fddf28-17b2225a-8f44-46c2-b458-ad0d3b7f04a0.jpg)
 ![20d997ca-5fa8-4f72-ad46-5221eace1c2f.jpg](/img/magazine/cad7ce93-20d997ca-5fa8-4f72-ad46-5221eace1c2f.jpg)
 ![27abb2a1-3312-4f92-8024-f64e15d8a68d.jpg](/img/magazine/20896319-27abb2a1-3312-4f92-8024-f64e15d8a68d.jpg)

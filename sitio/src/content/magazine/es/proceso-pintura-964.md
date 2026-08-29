@@ -31,10 +31,10 @@ Es posiblemente una de las decisiones más complejas de tomar a la hora de acome
 Trabajos de desmontar vehículo completo para una buena preparación de la carrocería y fondeo.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)
-![18f75a19-a594-4d64-b924-c07b50a4d468.jpg](/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg)
-![56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg](/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg)
-![b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg](/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)
-![d64d2602-8f6b-448f-b923-f6967fcc727a.jpg](/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg)
-![d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg](/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg)
+![Piezas del 964 recién pintadas en rojo: aros de faro, retrovisores y soportes](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)
+![Salpicadero del 964 colocado sobre la carrocería roja recién pintada](/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg)
+![Detalle del tirador de puerta sobre la carrocería roja del 964](/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg)
+![La carrocería del 964 pintada de rojo, aún sin cristales ni interior](/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)
+![Maletero delantero del 964 rojo con el depósito y los aros de faro montados](/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg)
+![Vano motor del 964 rojo con la suspensión trasera y las transmisiones a la vista](/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg)
 :::

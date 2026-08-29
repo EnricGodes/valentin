@@ -31,10 +31,10 @@ Dies ist möglicherweise eine der komplexesten Entscheidungen bei der externen L
 Komplette Fahrzeugdemontage zur ordnungsgemäßen Vorbereitung der Karosserie und Verankerung.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)
-![18f75a19-a594-4d64-b924-c07b50a4d468.jpg](/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg)
-![56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg](/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg)
-![b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg](/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)
-![d64d2602-8f6b-448f-b923-f6967fcc727a.jpg](/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg)
-![d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg](/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg)
+![Frisch rot lackierte 964-Teile: Scheinwerferringe, Spiegel und Halter](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)
+![Armaturenbrett des 964 auf der frisch rot lackierten Karosserie](/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg)
+![Detail des Türgriffs auf der roten Karosserie des 964](/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg)
+![Die rot lackierte Karosserie des 964, noch ohne Scheiben und Innenausstattung](/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)
+![Vorderer Kofferraum des roten 964 mit Tank und montierten Scheinwerferringen](/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg)
+![Motorraum des roten 964 mit freiliegender Hinterachse und Antriebswellen](/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg)
 :::

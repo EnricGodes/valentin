@@ -25,11 +25,11 @@ Procés complet de rehabilitació de motor de 968 per manca de pressió d'oli
 Manca de pressió d'oli motor per error de bomba
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![0bbaf15e-eebb-456c-85f6-4d60cbe1fc13.jpg](/img/magazine/6e767ff7-0bbaf15e-eebb-456c-85f6-4d60cbe1fc13.jpg)
-![3f891236-ca29-4597-86b3-a5c94bad3dec.jpg](/img/magazine/1ebe8260-3f891236-ca29-4597-86b3-a5c94bad3dec.jpg)
-![4b9679db-1309-4800-ad24-68faedb1ed2c.jpg](/img/magazine/f802f689-4b9679db-1309-4800-ad24-68faedb1ed2c.jpg)
-![4f46fcda-447c-4f3a-afe1-9de823cd3cfb.jpg](/img/magazine/0bad783a-4f46fcda-447c-4f3a-afe1-9de823cd3cfb.jpg)
-![bb570df9-418d-4643-a1bd-15a482d7ec3d.jpg](/img/magazine/b7ff9ff8-bb570df9-418d-4643-a1bd-15a482d7ec3d.jpg)
+![Bloc del motor del 968 obert, amb els cilindres i els coixinets a la vista](/img/magazine/6e767ff7-0bbaf15e-eebb-456c-85f6-4d60cbe1fc13.jpg)
+![Culata del 968 amb els arbres de lleves muntats, sobre el banc](/img/magazine/1ebe8260-3f891236-ca29-4597-86b3-a5c94bad3dec.jpg)
+![Culata del 968 desmuntada, amb les cambres de combustió a la vista](/img/magazine/f802f689-4b9679db-1309-4800-ad24-68faedb1ed2c.jpg)
+![Els quatre cilindres del bloc del 968 vistos des del pla de culata](/img/magazine/0bad783a-4f46fcda-447c-4f3a-afe1-9de823cd3cfb.jpg)
+![Bloc del 968 amb els espàrrecs de culata col·locats, a punt per al muntatge](/img/magazine/b7ff9ff8-bb570df9-418d-4643-a1bd-15a482d7ec3d.jpg)
 ![17b2225a-8f44-46c2-b458-ad0d3b7f04a0.jpg](/img/magazine/18fddf28-17b2225a-8f44-46c2-b458-ad0d3b7f04a0.jpg)
 ![20d997ca-5fa8-4f72-ad46-5221eace1c2f.jpg](/img/magazine/cad7ce93-20d997ca-5fa8-4f72-ad46-5221eace1c2f.jpg)
 ![27abb2a1-3312-4f92-8024-f64e15d8a68d.jpg](/img/magazine/20896319-27abb2a1-3312-4f92-8024-f64e15d8a68d.jpg)

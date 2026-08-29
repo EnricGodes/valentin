@@ -31,10 +31,10 @@ Restauracions o refresc de pintura completa en clàssics 911 que ja necessiten a
 Treballs de desmuntar vehicle complet per a una bona preparació de la carrosseria i fondeig.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)
-![18f75a19-a594-4d64-b924-c07b50a4d468.jpg](/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg)
-![56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg](/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg)
-![b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg](/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)
-![d64d2602-8f6b-448f-b923-f6967fcc727a.jpg](/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg)
-![d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg](/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg)
+![Peces del 964 acabades de pintar en vermell: anells de far, retrovisors i suports](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)
+![Salpicador del 964 col·locat sobre la carrosseria vermella acabada de pintar](/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg)
+![Detall del tirador de porta sobre la carrosseria vermella del 964](/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg)
+![La carrosseria del 964 pintada de vermell, encara sense vidres ni interior](/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)
+![Maleter davanter del 964 vermell amb el dipòsit i els anells de far muntats](/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg)
+![Vano motor del 964 vermell amb la suspensió posterior i les transmissions a la vista](/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg)
 :::

@@ -31,10 +31,10 @@ It is possibly one of the most complex decisions to make when undertaking extern
 Complete vehicle disassembly work for proper preparation of the body and anchoring.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
-![0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)
-![18f75a19-a594-4d64-b924-c07b50a4d468.jpg](/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg)
-![56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg](/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg)
-![b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg](/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)
-![d64d2602-8f6b-448f-b923-f6967fcc727a.jpg](/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg)
-![d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg](/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg)
+![Freshly painted red 964 parts: headlight rings, mirrors and brackets](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)
+![The 964's dashboard set on the freshly painted red bodyshell](/img/magazine/228c18aa-18f75a19-a594-4d64-b924-c07b50a4d468.jpg)
+![Detail of the door handle on the 964's red bodywork](/img/magazine/c00bac8b-56f3c6a9-b99e-45d0-8e17-532e24f2e664.jpg)
+![The 964's bodyshell painted red, still without glass or interior](/img/magazine/dd685e0e-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)
+![Front boot of the red 964 with the tank and headlight rings fitted](/img/magazine/a8cc6e75-d64d2602-8f6b-448f-b923-f6967fcc727a.jpg)
+![Engine bay of the red 964 with the rear suspension and driveshafts exposed](/img/magazine/6421e575-d0282a94-8594-4a35-ba3e-61d2c0f67120.jpg)
 :::

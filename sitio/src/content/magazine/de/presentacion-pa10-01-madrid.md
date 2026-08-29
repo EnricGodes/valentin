@@ -16,23 +16,23 @@ ctas: []
 
 :::galeria{diseno="cuadricula" porFila="4" proporcion="three-four-vertical" lightbox}
 ![Zwei 911 bei Nacht unter den Lichterketten einer Terrasse geparkt](/img/magazine/a530bcb4-DSC03509.jpg)
-![DSC03556.jpg](/img/magazine/dc57c760-DSC03556.jpg)
-![DSC03559.jpg](/img/magazine/0bca650e-DSC03559.jpg)
-![DSC03610.jpg](/img/magazine/8a03a163-DSC03610.jpg)
+![Heck des cremefarbenen PA10/01 bei der Präsentation in Madrid, ringsum die Gäste](/img/magazine/dc57c760-DSC03556.jpg)
+![Ein Gast betrachtet den Innenraum des PA10/01 während der Präsentation](/img/magazine/0bca650e-DSC03559.jpg)
+![Ein weißer 911 GT3 auf roten Felgen bei der Präsentation in Madrid](/img/magazine/8a03a163-DSC03610.jpg)
 :::
 
 :::galeria{diseno="cuadricula" porFila="4" proporcion="widescreen" lightbox}
-![DSC03588.jpg](/img/magazine/733f162a-DSC03588.jpg)
-![DSC03580.jpg](/img/magazine/00bc42d4-DSC03580.jpg)
-![DSC03633.jpg](/img/magazine/a5df9cfc-DSC03633.jpg)
-![DSC03539.jpg](/img/magazine/b5380634-DSC03539.jpg)
+![Zwei Gäste im Gespräch neben dem PA10/01 mit geöffneter Tür](/img/magazine/733f162a-DSC03588.jpg)
+![Stimmung bei der Präsentation des PA10/01 im Zentrum von Madrid](/img/magazine/00bc42d4-DSC03580.jpg)
+![Zwei Gäste posieren vor dem PA10/01 bei der Präsentation](/img/magazine/a5df9cfc-DSC03633.jpg)
+![Der volle Saal während der Präsentation des PA10/01](/img/magazine/b5380634-DSC03539.jpg)
 :::
 
 :::galeria{diseno="cuadricula" porFila="4" proporcion="three-four-vertical" lightbox}
-![DSC03540.jpg](/img/magazine/d4aef0d6-DSC03540.jpg)
-![DSC03567.jpg](/img/magazine/bd5040ee-DSC03567.jpg)
-![DSC03566.jpg](/img/magazine/59c84175-DSC03566.jpg)
-![DSC03597.jpg](/img/magazine/c5de310e-DSC03597.jpg)
+![Eine Besucherin betrachtet den PA10/01 im Ausstellungsraum](/img/magazine/d4aef0d6-DSC03540.jpg)
+![Gäste um einen silbernen 356 bei der Präsentation in Madrid](/img/magazine/bd5040ee-DSC03567.jpg)
+![Eine Besucherin betrachtet einen 356 neben dem orangen Renn-911](/img/magazine/59c84175-DSC03566.jpg)
+![Ein Gast posiert neben dem PA10/01, dahinter das Rennplakat](/img/magazine/c5de310e-DSC03597.jpg)
 :::
 
 Der **PA10/01** wurde auf unserer privaten Veranstaltung in den **Madrid-Einrichtungen** vorgestellt, die ausgewählten Kunden, Fachpresse und Automobilbegeisterten vorbehalten war, die unsere Vision von Exzellenz teilen.
