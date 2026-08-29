@@ -55,18 +55,18 @@ L'assemblaggio del motore è stato effettuato secondo i più alti standard di qu
 -Tagliando maggiore: qui a Valentin Motors chiamiamo tagliando maggiore il processo di intervento di disaccoppiamento del motore e del cambio e il protocollo di revisione dei sistemi completi ma senza smontare il motore completo.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg](/img/magazine/ed0e7f8d-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg](/img/magazine/214da708-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg](/img/magazine/1979dbfd-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg](/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg](/img/magazine/c7f4232c-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg](/img/magazine/a18b8de9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg](/img/magazine/aab8a3e1-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg](/img/magazine/b252d4bf-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg](/img/magazine/3e51b7e7-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg](/img/magazine/615324e8-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg](/img/magazine/d94052ca-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg](/img/magazine/f3c9e0fa-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg)
+![Il motore della 930 Turbo montato sull'auto rossa, con turbo e aspirazione](/img/magazine/ed0e7f8d-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg)
+![Il motore completo della 930 Turbo sul supporto, pronto per l'installazione](/img/magazine/214da708-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg)
+![Gruppo motore e cambio della 930 Turbo, come uscito dall'auto](/img/magazine/1979dbfd-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg)
+![Motore e cambio della 930 Turbo visti da dietro, sul sollevatore](/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg)
+![Il gruppo motore-cambio della 930 Turbo in officina, prima di separarli](/img/magazine/c7f4232c-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg)
+![Fiancata del motore della 930 Turbo con il cambio accoppiato e il turbo a vista](/img/magazine/a18b8de9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg)
+![Il motore della 930 Turbo con la ventola di raffreddamento e lo scambiatore](/img/magazine/aab8a3e1-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg)
+![Frontale del motore della 930 Turbo con i collettori e il cablaggio](/img/magazine/b252d4bf-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg)
+![Il motore della 930 Turbo con lo scarico arrugginito e la ventola scoperta](/img/magazine/3e51b7e7-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg)
+![Il motore della 930 Turbo smontato, con cilindri e lamiera a vista](/img/magazine/615324e8-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg)
+![Cilindri e testate della 930 Turbo smontati sul motore](/img/magazine/d94052ca-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg)
+![Il motore della 930 Turbo sul supporto, con il turbo e le tubazioni](/img/magazine/f3c9e0fa-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg)
 :::
 
 Finalmente il motore era in condizioni impeccabili, abbiamo un confronto prima/dopo:
@@ -76,8 +76,8 @@ Finalmente il motore era in condizioni impeccabili, abbiamo un confronto prima/d
 *Confronto dello stato iniziale del motore con il risultato finale*
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg](/img/magazine/3c04a686-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
+![Motore e cambio della 930 Turbo accoppiati sul supporto di lavoro](/img/magazine/3c04a686-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg)
+![Guarnizioni, modanature e pezzi nuovi della 930 Turbo, ordinati ed etichettati](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
 :::
 
 ![](/img/magazine/755aa9de-valenti.jpg)

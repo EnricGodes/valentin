@@ -37,8 +37,8 @@ Die erste Phase der Demontage ist wichtig, um den Status aller Komponenten zu ü
 Hier zeigen wir einige Bilder vom Anfangszustand des Projekts und seiner Größenordnung.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg](/img/magazine/fdf35c04-7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg)
-![c10fb057-1a92-43aa-808b-e80f6a673800.jpg](/img/magazine/2d92162c-c10fb057-1a92-43aa-808b-e80f6a673800.jpg)
+![Motorraum des 2.7 S Targa, unter dem braunen Lack kommt das originale Grün durch](/img/magazine/fdf35c04-7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg)
+![Die Karosserie des 2.7 S Targa auf Böcken, ohne Räder und Technik](/img/magazine/2d92162c-c10fb057-1a92-43aa-808b-e80f6a673800.jpg)
 :::
 
 ## Mechanik: Restaurierung des Motors
@@ -46,12 +46,12 @@ Hier zeigen wir einige Bilder vom Anfangszustand des Projekts und seiner Größe
 Mit dem Engine-Restaurierung verknüpfte Jobs
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg](/img/magazine/c33888e6-b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg)
-![bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg](/img/magazine/ea30a821-bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg)
-![d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg](/img/magazine/f05f904b-d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg)
-![1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg](/img/magazine/7abadd20-1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg)
-![2c393468-f356-46aa-99ee-83e12aced6a6.jpg](/img/magazine/66513a38-2c393468-f356-46aa-99ee-83e12aced6a6.jpg)
-![8e205f18-801e-4289-8f61-dbb795ce6a80.jpg](/img/magazine/191ee4dd-8e205f18-801e-4289-8f61-dbb795ce6a80.jpg)
+![Der Motor des 2.7 S Targa auf dem Ständer, vor der Zerlegung](/img/magazine/c33888e6-b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg)
+![Der zerlegte 2.7 S Motor mit ausgebautem Gebläsegehäuse](/img/magazine/ea30a821-bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg)
+![Die abgeklebten Zylinderköpfe des 2.7 S am Motor während der Zerlegung](/img/magazine/f05f904b-d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg)
+![Kurbelwelle, Pleuel und Zwischenwelle des 2.7 S im geöffneten Gehäuse](/img/magazine/7abadd20-1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg)
+![Das geöffnete Kurbelgehäuse des 2.7 S auf der Werkbank mit freiliegendem Steuertrieb](/img/magazine/66513a38-2c393468-f356-46aa-99ee-83e12aced6a6.jpg)
+![Öltank und Zylinder des 2.7 S, ausgebaut und bereit zur Prüfung](/img/magazine/191ee4dd-8e205f18-801e-4289-8f61-dbb795ce6a80.jpg)
 :::
 
 ## Karosserie
@@ -59,6 +59,6 @@ Mit dem Engine-Restaurierung verknüpfte Jobs
 Demontagevorgang
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg](/img/magazine/a54476d8-9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg)
-![324aebbf-cc98-48ba-82a0-a162643cceab.jpg](/img/magazine/7a85d24f-324aebbf-cc98-48ba-82a0-a162643cceab.jpg)
+![Der 2.7 S Targa im Ausstellungsraum von Valentín Motors, Karosserie in Braun](/img/magazine/a54476d8-9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg)
+![Heckdreiviertel der Karosserie des 2.7 S Targa, ohne Bügel und Scheiben](/img/magazine/7a85d24f-324aebbf-cc98-48ba-82a0-a162643cceab.jpg)
 :::

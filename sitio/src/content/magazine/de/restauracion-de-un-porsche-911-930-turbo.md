@@ -55,18 +55,18 @@ Es lohnt sich, zwei verschiedene Konzepte zu unterscheiden:
 -Große Inspektion: Hier bei Valentin Motors bezeichnen wir als große Inspektion den Eingriffsprozess der Motor- und Getriebeentkopplung und des Protokolls zur vollständigen Systemüberprüfung, jedoch ohne Demontage des gesamten Motors.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg](/img/magazine/ed0e7f8d-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg](/img/magazine/214da708-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg](/img/magazine/1979dbfd-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg](/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg](/img/magazine/c7f4232c-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg](/img/magazine/a18b8de9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg](/img/magazine/aab8a3e1-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg](/img/magazine/b252d4bf-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg](/img/magazine/3e51b7e7-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg](/img/magazine/615324e8-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg](/img/magazine/d94052ca-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg](/img/magazine/f3c9e0fa-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg)
+![Der Motor des 930 Turbo im roten Fahrzeug, mit Turbolader und Ansaugtrakt](/img/magazine/ed0e7f8d-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-6.jpeg)
+![Der komplette 930 Turbo Motor auf dem Ständer, einbaufertig](/img/magazine/214da708-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35.jpeg)
+![Motor-Getriebe-Einheit des 930 Turbo, wie aus dem Fahrzeug ausgebaut](/img/magazine/1979dbfd-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-1.jpeg)
+![Motor und Getriebe des 930 Turbo von hinten, auf der Hebebühne](/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg)
+![Motor und Getriebe des 930 Turbo in der Werkstatt, vor dem Trennen](/img/magazine/c7f4232c-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-3.jpeg)
+![Seite des 930 Turbo Motors mit angeflanschtem Getriebe und sichtbarem Turbolader](/img/magazine/a18b8de9-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36.jpeg)
+![Der 930 Turbo Motor mit Gebläserad und Wärmetauscher](/img/magazine/aab8a3e1-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-1.jpeg)
+![Stirnseite des 930 Turbo Motors mit Krümmern und Kabelbaum](/img/magazine/b252d4bf-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-2.jpeg)
+![Der 930 Turbo Motor mit verrostetem Auspuff und freiliegendem Gebläserad](/img/magazine/3e51b7e7-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-3.jpeg)
+![Der zerlegte 930 Turbo Motor mit freiliegenden Zylindern und Blechen](/img/magazine/615324e8-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.36-4.jpeg)
+![Zylinder und Köpfe des 930 Turbo am Motor zerlegt](/img/magazine/d94052ca-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.37.jpeg)
+![Der 930 Turbo Motor auf dem Ständer, mit Turbolader und Leitungen](/img/magazine/f3c9e0fa-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-5.jpeg)
 :::
 
 Endlich war der Motor in einwandfreiem Zustand, wir haben einen Vorher-Nachher-Vergleich:
@@ -76,8 +76,8 @@ Endlich war der Motor in einwandfreiem Zustand, wir haben einen Vorher-Nachher-V
 *Vergleich des Ausgangszustands des Motors mit dem Endergebnis*
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg](/img/magazine/3c04a686-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg)
-![1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
+![Motor und Getriebe des 930 Turbo verbunden auf dem Montageständer](/img/magazine/3c04a686-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.40.32-4.jpeg)
+![Neue Dichtungen, Zierleisten und Teile für den 930 Turbo, sortiert und beschriftet](/img/magazine/fb0e212e-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.40-1.jpeg)
 :::
 
 ![](/img/magazine/755aa9de-valenti.jpg)

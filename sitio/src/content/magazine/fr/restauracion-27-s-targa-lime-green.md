@@ -37,8 +37,8 @@ La première phase de démontage est importante pour vérifier l'état de tous l
 Nous montrons ici quelques images de l’état initial du projet et de son ampleur.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg](/img/magazine/fdf35c04-7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg)
-![c10fb057-1a92-43aa-808b-e80f6a673800.jpg](/img/magazine/2d92162c-c10fb057-1a92-43aa-808b-e80f6a673800.jpg)
+![Compartiment moteur de la Targa 2.7 S, le vert d'origine apparaissant sous la peinture brune](/img/magazine/fdf35c04-7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg)
+![La caisse de la Targa 2.7 S sur chandelles, sans roues ni mécanique](/img/magazine/2d92162c-c10fb057-1a92-43aa-808b-e80f6a673800.jpg)
 :::
 
 ## Mécanique : restauration du moteur
@@ -46,12 +46,12 @@ Nous montrons ici quelques images de l’état initial du projet et de son ample
 Travaux associés au processus de restauration du moteur
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg](/img/magazine/c33888e6-b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg)
-![bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg](/img/magazine/ea30a821-bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg)
-![d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg](/img/magazine/f05f904b-d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg)
-![1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg](/img/magazine/7abadd20-1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg)
-![2c393468-f356-46aa-99ee-83e12aced6a6.jpg](/img/magazine/66513a38-2c393468-f356-46aa-99ee-83e12aced6a6.jpg)
-![8e205f18-801e-4289-8f61-dbb795ce6a80.jpg](/img/magazine/191ee4dd-8e205f18-801e-4289-8f61-dbb795ce6a80.jpg)
+![Le moteur de la Targa 2.7 S sur son support, avant démontage](/img/magazine/c33888e6-b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg)
+![Le moteur de la 2.7 S démonté, carter de ventilateur déposé](/img/magazine/ea30a821-bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg)
+![Les culasses de la 2.7 S masquées sur le moteur pendant le démontage](/img/magazine/f05f904b-d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg)
+![Vilebrequin, bielles et arbre intermédiaire de la 2.7 S dans le carter ouvert](/img/magazine/7abadd20-1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg)
+![Le carter de la 2.7 S ouvert sur l'établi, distribution à nu](/img/magazine/66513a38-2c393468-f356-46aa-99ee-83e12aced6a6.jpg)
+![Réservoir d'huile et cylindres de la 2.7 S, déposés et prêts à contrôler](/img/magazine/191ee4dd-8e205f18-801e-4289-8f61-dbb795ce6a80.jpg)
 :::
 
 ## Carrosserie
@@ -59,6 +59,6 @@ Travaux associés au processus de restauration du moteur
 Processus de démontage
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg](/img/magazine/a54476d8-9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg)
-![324aebbf-cc98-48ba-82a0-a162643cceab.jpg](/img/magazine/7a85d24f-324aebbf-cc98-48ba-82a0-a162643cceab.jpg)
+![La Targa 2.7 S dans le showroom Valentín Motors, carrosserie en brun](/img/magazine/a54476d8-9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg)
+![Trois quarts arrière de la caisse de la Targa 2.7 S, sans arceau ni vitrage](/img/magazine/7a85d24f-324aebbf-cc98-48ba-82a0-a162643cceab.jpg)
 :::

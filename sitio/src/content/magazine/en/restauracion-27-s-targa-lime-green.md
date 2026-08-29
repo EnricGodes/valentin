@@ -37,8 +37,8 @@ The first phase of disassembly is important to verify the status of all componen
 Here we show some images of the initial state of the project and its magnitude.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg](/img/magazine/fdf35c04-7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg)
-![c10fb057-1a92-43aa-808b-e80f6a673800.jpg](/img/magazine/2d92162c-c10fb057-1a92-43aa-808b-e80f6a673800.jpg)
+![Engine bay of the 2.7 S Targa with the original green showing under the brown paint](/img/magazine/fdf35c04-7054c872-e6c3-4059-bb9b-ae010c7c23de.jpg)
+![The 2.7 S Targa bodyshell on stands, stripped of wheels and running gear](/img/magazine/2d92162c-c10fb057-1a92-43aa-808b-e80f6a673800.jpg)
 :::
 
 ## Mechanics: restoration of the engine
@@ -46,12 +46,12 @@ Here we show some images of the initial state of the project and its magnitude.
 Jobs associated with the engine restoration process
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg](/img/magazine/c33888e6-b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg)
-![bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg](/img/magazine/ea30a821-bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg)
-![d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg](/img/magazine/f05f904b-d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg)
-![1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg](/img/magazine/7abadd20-1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg)
-![2c393468-f356-46aa-99ee-83e12aced6a6.jpg](/img/magazine/66513a38-2c393468-f356-46aa-99ee-83e12aced6a6.jpg)
-![8e205f18-801e-4289-8f61-dbb795ce6a80.jpg](/img/magazine/191ee4dd-8e205f18-801e-4289-8f61-dbb795ce6a80.jpg)
+![The 2.7 S Targa's engine on the stand, before teardown](/img/magazine/c33888e6-b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg)
+![The 2.7 S engine stripped, fan housing removed](/img/magazine/ea30a821-bd38b9dc-6abc-479d-83d9-4b7f1c48a309.jpg)
+![The 2.7 S cylinder heads masked on the engine during teardown](/img/magazine/f05f904b-d82c47a4-86dd-4327-b8d6-37abdbaddbc3.jpg)
+![Crankshaft, rods and intermediate shaft of the 2.7 S in the opened crankcase](/img/magazine/7abadd20-1c43eac8-f5f4-4239-a5ce-3bb87cf15dc7.jpg)
+![The 2.7 S crankcase opened on the bench, timing gear exposed](/img/magazine/66513a38-2c393468-f356-46aa-99ee-83e12aced6a6.jpg)
+![Oil tank and cylinders of the 2.7 S, removed and ready for inspection](/img/magazine/191ee4dd-8e205f18-801e-4289-8f61-dbb795ce6a80.jpg)
 :::
 
 ## Body
@@ -59,6 +59,6 @@ Jobs associated with the engine restoration process
 Disassembly process
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
-![9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg](/img/magazine/a54476d8-9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg)
-![324aebbf-cc98-48ba-82a0-a162643cceab.jpg](/img/magazine/7a85d24f-324aebbf-cc98-48ba-82a0-a162643cceab.jpg)
+![The 2.7 S Targa in the Valentín Motors showroom, body in brown](/img/magazine/a54476d8-9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg)
+![Rear three-quarter of the 2.7 S Targa shell, without the roll hoop or glass](/img/magazine/7a85d24f-324aebbf-cc98-48ba-82a0-a162643cceab.jpg)
 :::
