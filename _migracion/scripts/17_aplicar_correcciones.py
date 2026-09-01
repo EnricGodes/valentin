@@ -10,6 +10,12 @@ ejecutar cuantas veces haga falta.
 Las reglas con `ambito: paginas-no-legales` no tocan el aviso legal, la
 politica de privacidad ni la de cookies: ahi la direccion de Gran Via 752 es
 correcta, porque es el domicilio social de la sociedad y no el taller.
+
+Incluye el modelo de bloques. Se quedo fuera al principio y el resultado fue
+que `nuevo-taller-barcelona` guardaba todavia "Varsovia 63" y "1.320 metros
+cuadrados": el Markdown publicado estaba bien, pero cualquier pasada de
+23_aplicar_bloques.py habria resucitado la direccion equivocada y una cifra
+que Enric ya habia corregido.
 """
 import json, sys
 from pathlib import Path
@@ -19,6 +25,7 @@ CORRECCIONES = RAIZ / '_migracion' / 'correcciones.json'
 PAGINAS = RAIZ / 'sitio' / 'src' / 'datos' / 'paginas'
 COCHES = RAIZ / 'sitio' / 'src' / 'datos' / 'coches'
 MAGAZINE = RAIZ / 'sitio' / 'src' / 'content' / 'magazine'
+BLOQUES = RAIZ / '_migracion' / 'contenido' / 'bloques'
 LEGALES = {'aviso-legal', 'privacidad', 'cookies'}
 
 
@@ -39,7 +46,7 @@ def aplicables(rs, nombre):
 def main():
     rs = reglas()
     tocados = cambios = 0
-    for carpeta in (PAGINAS, COCHES):
+    for carpeta in (PAGINAS, COCHES, BLOQUES):
         for f in sorted(carpeta.glob('*.json')):
             nombre = f.stem.split('.')[0]
             t = original = f.read_text()

@@ -4,9 +4,17 @@ Criterio de aceptacion del modelo de bloques: NO se pierde ni una palabra ni
 una foto respecto al Markdown ya publicado, que a su vez se verifico palabra
 por palabra contra Squarespace en la migracion.
 
-Compara dos cosas, y las dos tienen que dar cero:
+Compara tres cosas, y las tres tienen que dar cero:
   1. Las palabras del texto plano.
   2. El conjunto de rutas de imagen.
+  3. El conjunto de videos y de YouTube incrustados.
+
+Las directivas `:::video{...}` y `:::youtube{...}` son marcado, no prosa, igual
+que las etiquetas HTML y las imagenes: el modelo de bloques las representa como
+un bloque con sus campos, no como texto. Contar "youtube", "id" y el
+identificador del video como palabras perdidas daba 74 falsos positivos en tres
+posts y escondia debajo la unica perdida real, la atribucion de una cita. Se
+descuentan del texto y se comprueban aparte, por su fuente.
 """
 import json, re, sys
 from pathlib import Path
@@ -18,6 +26,7 @@ MD = RAIZ / 'sitio/src/content/magazine/es'
 
 def palabras(t):
     t = re.sub(r'!\[[^\]]*\]\([^)]*\)', ' ', t)          # imagenes fuera
+    t = re.sub(r':::\w*(?:\{[^}]*\})?', ' ', t)           # directivas fuera
     t = re.sub(r'<[^>]+>', ' ', t)                        # html fuera
     t = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', t)        # enlaces -> su texto
     t = re.sub(r'[#>*_`\-]', ' ', t)
@@ -28,9 +37,19 @@ def imgs_md(t):
     return set(re.findall(r'!\[[^\]]*\]\(([^)\s]+)', t))
 
 
+def medios_md(t):
+    """Videos propios y YouTube incrustados, por su fuente."""
+    return (set(re.findall(r':::video\{[^}]*src="([^"]+)"', t))
+            | set(re.findall(r':::youtube\{[^}]*id="([^"]+)"', t)))
+
+
 def de_bloques(bs):
-    pal, im = [], set()
+    pal, im, me = [], set(), set()
     for b in bs:
+        if b['tipo'] == 'video':
+            me.add(b['src'])
+        elif b['tipo'] == 'youtube':
+            me.add(b['id'])
         if b['tipo'] in ('texto', 'cita'):
             pal += palabras(b['md'])
         elif b['tipo'] == 'imagen':
@@ -40,7 +59,7 @@ def de_bloques(bs):
             im |= {f['src'] for f in b['fotos']}
             pal += [w for f in b['fotos']
                     for w in (palabras(f.get('pie', '')) or palabras(f.get('alt', '')))]
-    return pal, im
+    return pal, im, me
 
 
 idx = {}
@@ -68,11 +87,12 @@ for f in sorted(BLOQUES.glob('*.json')):
         print(f'SIN MARKDOWN  {slug}')
         fallos += 1
         continue
-    pb, ib = de_bloques(d['bloques'])
+    pb, ib, mb = de_bloques(d['bloques'])
     cuerpo = idx[slug]
-    pm, im = palabras(cuerpo), imgs_md(cuerpo)
+    pm, im, me = palabras(cuerpo), imgs_md(cuerpo), medios_md(cuerpo)
 
     faltan_img = im - ib
+    faltan_med = me - mb
     faltan_pal = len(pm) - len(pb)
 
     if faltan_img and len(faltan_img) == ESPERADAS.get(slug):
@@ -84,6 +104,12 @@ for f in sorted(BLOQUES.glob('*.json')):
         for x in list(faltan_img)[:3]:
             print(f'    {x}')
         fallos += 1
+    if faltan_med:
+        print(f'FALTAN VIDEOS {slug}: {len(faltan_med)}')
+        for x in sorted(faltan_med)[:3]:
+            print(f'    {x}')
+        fallos += 1
+
     # Un margen del 2% absorbe pies de foto y adornos; por debajo no se avisa.
     if faltan_pal > max(6, len(pm) * 0.02):
         print(f'FALTA TEXTO   {slug}: {faltan_pal} palabras de {len(pm)}')

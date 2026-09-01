@@ -30,7 +30,7 @@ Además, su ubicación estratégica, a tan solo **dos minutos de la Ronda del Mi
 
 ## Reorganización operativa en Barcelona
 
-Con esta apertura, el emblemático taller de **Gran Via de les Corts Catalanes**, que ha sido durante décadas el núcleo operativo de la marca en Barcelona, **dejará de atender al público**. Toda la actividad se trasladará a la nueva sede de Varsovia, 65, donde se centralizarán tanto los servicios técnicos como la atención al cliente.
+Con esta apertura, el emblemático taller de **Gran Via de les Corts Catalanes**, que ha sido durante décadas el núcleo operativo de la marca en Barcelona, **dejará de atender al público**. Toda la actividad se trasladará a la nueva sede de Varsòvia, 65, donde se centralizarán tanto los servicios técnicos como la atención al cliente.
 
 ## Compromiso con los clásicos y los modernos
 

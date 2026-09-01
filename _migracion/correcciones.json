@@ -86,7 +86,7 @@
     ]
   },
   "direcciones": {
-    "motivo": "El post del taller nuevo escribia 'Varsovia 63' en un parrafo y 'Varsovia, 65' en otro. La direccion correcta es Varsovia, 65, 08041 Barcelona, la misma que consta en la pagina del centro. La pagina de vender tu Porsche seguia dando la direccion de Gran Via 752, el taller que dejo de atender al publico al abrir Varsovia 65. Se corrige en los seis idiomas. El aviso legal SI conserva Gran Via 752, porque ahi es el domicilio social de la sociedad, no el taller.",
+    "motivo": "El post del taller nuevo escribia 'Varsovia 63' en un parrafo y 'Varsovia, 65' en otro. La direccion correcta es Varsovia, 65, 08041 Barcelona, la misma que consta en la pagina del centro. La pagina de vender tu Porsche seguia dando la direccion de Gran Via 752, el taller que dejo de atender al publico al abrir Varsovia 65. Se corrige en los seis idiomas. El aviso legal SI conserva Gran Via 752, porque ahi es el domicilio social de la sociedad, no el taller. Ampliado el 2026-09-01: la regla original solo cubria dos de las tres menciones del post y dejaba \"Varsovia, 65\" sin acento en el tercer parrafo del castellano y en la pagina de contacto de seis idiomas, que escribia la misma calle de dos maneras en el mismo fichero. El nombre oficial de la calle es catalan, Varsovia, y asi lo escriben ya las paginas de centro y las cinco traducciones del post.",
     "reglas": [
       {
         "buscar": "La apertura del taller en Varsovia 63",
@@ -95,6 +95,10 @@
       {
         "buscar": "la calle **Varsovia, 65**",
         "reemplazar": "la calle **Varsòvia, 65**"
+      },
+      {
+        "buscar": "Varsovia, 65",
+        "reemplazar": "Varsòvia, 65"
       },
       {
         "buscar": "Gran Via de les Corts Catalanes, 752",
