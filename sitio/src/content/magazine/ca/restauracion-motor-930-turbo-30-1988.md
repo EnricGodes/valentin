@@ -37,7 +37,7 @@ Cal diferenciar dos conceptes diferents:
 -Gran aturada: aquí a Valentin Motors anomenem gran aturada el procés d'intervenció de desacoblament motor i caixa i protocol de revisió completa de sistemes però sense desmuntar el motor complet.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
+![Motor bòxer amb injecció mecànica i turbina daurada, sobre el suport](/img/magazine/362b9dd8-mot-2.jpg)
+![Motor bòxer amb les tapes de balancins daurades i els cables de bugia nous](/img/magazine/05f7f2ae-mot-3.jpg)
+![Motor bòxer amb la bomba d'injecció i l'escapament muntats, a punt per instal·lar](/img/magazine/6eff915c-mot-4.jpg)
 :::

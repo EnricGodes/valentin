@@ -37,7 +37,7 @@ Il convient de distinguer deux concepts différents :
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
+![Flat-six à injection mécanique et turbine dorée, sur le support](/img/magazine/362b9dd8-mot-2.jpg)
+![Flat-six aux cache-culbuteurs dorés et fils de bougies neufs](/img/magazine/05f7f2ae-mot-3.jpg)
+![Flat-six avec la pompe d'injection et l'échappement montés, prêt à installer](/img/magazine/6eff915c-mot-4.jpg)
 :::

@@ -21,6 +21,6 @@ ctas: []
 Total engine rebuild 2.2 1971
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![motor 3.jpg](/img/magazine/9a95c90f-motor-3.jpg)
-![motor2.jpg](/img/magazine/50280633-motor2.jpg)
+![Flat-six with twin-choke carburettors and orange tinware, finished on the bench](/img/magazine/9a95c90f-motor-3.jpg)
+![Flat-six with carburettors and cooling fan, on the pallet](/img/magazine/50280633-motor2.jpg)
 :::

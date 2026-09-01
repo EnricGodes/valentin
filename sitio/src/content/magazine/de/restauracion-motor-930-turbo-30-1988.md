@@ -37,7 +37,7 @@ Es lohnt sich, zwei verschiedene Konzepte zu unterscheiden:
 -Große Inspektion: Hier bei Valentin Motors bezeichnen wir als große Inspektion den Eingriffsprozess der Motor- und Getriebeentkopplung und des Protokolls zur vollständigen Systemüberprüfung, jedoch ohne Demontage des gesamten Motors.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
+![Boxermotor mit mechanischer Einspritzung und goldenem Gebläserad auf dem Ständer](/img/magazine/362b9dd8-mot-2.jpg)
+![Boxermotor mit goldenen Ventildeckeln und neuen Zündkabeln](/img/magazine/05f7f2ae-mot-3.jpg)
+![Boxermotor mit montierter Einspritzpumpe und Auspuff, einbaufertig](/img/magazine/6eff915c-mot-4.jpg)
 :::

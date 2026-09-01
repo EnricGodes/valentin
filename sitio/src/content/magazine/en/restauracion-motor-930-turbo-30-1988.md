@@ -37,7 +37,7 @@ It is worth distinguishing two different concepts:
 -Major overhaul: here at Valentin Motors we call major overhaul the intervention process of engine and gearbox decoupling and complete systems review protocol but without disassembling the complete engine.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
+![Flat-six with mechanical injection and gold fan, on the stand](/img/magazine/362b9dd8-mot-2.jpg)
+![Flat-six with gold rocker covers and new plug leads](/img/magazine/05f7f2ae-mot-3.jpg)
+![Flat-six with the injection pump and exhaust fitted, ready to install](/img/magazine/6eff915c-mot-4.jpg)
 :::

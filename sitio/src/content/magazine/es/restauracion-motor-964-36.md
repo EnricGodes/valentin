@@ -53,7 +53,7 @@ Cabe diferenciar dos conceptos distintos:
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![foto 1.jpg](/img/magazine/ce5c9824-foto-1.jpg)
+![Motor bóxer despiezado sobre la bancada, con el colector y el escape a la vista](/img/magazine/ce5c9824-foto-1.jpg)
 ![foto 2.jpg](/img/magazine/3ed7f693-foto-2.jpg)
 ![foto 3.jpg](/img/magazine/a9b2ab1f-foto-3.jpg)
 ![foto 4.jpg](/img/magazine/dc81fac2-foto-4.jpg)

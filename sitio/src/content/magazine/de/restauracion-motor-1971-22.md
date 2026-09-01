@@ -21,6 +21,6 @@ ctas: []
 Komplette Motorüberholung 2.2 1971
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![Motor 3.jpg](/img/magazine/9a95c90f-motor-3.jpg)
-![motor2.jpg](/img/magazine/50280633-motor2.jpg)
+![Boxermotor mit Doppelvergasern und orangem Blech, fertig auf der Werkbank](/img/magazine/9a95c90f-motor-3.jpg)
+![Boxermotor mit Vergasern und Gebläserad auf der Palette](/img/magazine/50280633-motor2.jpg)
 :::

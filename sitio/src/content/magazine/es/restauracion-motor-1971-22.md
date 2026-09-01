@@ -21,6 +21,6 @@ ctas: []
 Reconstrucción total motor 2.2 1971
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![motor 3.jpg](/img/magazine/9a95c90f-motor-3.jpg)
-![motor2.jpg](/img/magazine/50280633-motor2.jpg)
+![Motor bóxer con carburadores de doble cuerpo y chapa naranja, listo en el banco](/img/magazine/9a95c90f-motor-3.jpg)
+![Motor bóxer con carburadores y turbina de refrigeración, sobre el palé](/img/magazine/50280633-motor2.jpg)
 :::

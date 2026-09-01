@@ -37,7 +37,7 @@ La prima fase dello smontaggio è sempre importante per verificare lo stato di t
 -Tagliando maggiore: qui a Valentin Motors chiamiamo tagliando maggiore il processo di intervento di disaccoppiamento del motore e del cambio e il protocollo di revisione dei sistemi completi ma senza smontare il motore completo.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/362b9dd8-mot-2.jpg)
-![mot 3.jpg](/img/magazine/05f7f2ae-mot-3.jpg)
-![mot 4.jpg](/img/magazine/6eff915c-mot-4.jpg)
+![Boxer con iniezione meccanica e ventola dorata, sul supporto](/img/magazine/362b9dd8-mot-2.jpg)
+![Boxer con i coperchi punterie dorati e i cavi candela nuovi](/img/magazine/05f7f2ae-mot-3.jpg)
+![Boxer con pompa di iniezione e scarico montati, pronto per l'installazione](/img/magazine/6eff915c-mot-4.jpg)
 :::
