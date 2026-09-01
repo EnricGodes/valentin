@@ -42,7 +42,11 @@ function lightbox() {
      como un unico conjunto para que las flechas las recorran: abrir una y
      encontrarse un callejon sin salida es peor que no poder ampliarla. */
   const sueltas = [...document.querySelectorAll<HTMLImageElement>(
-    '.post-cuerpo img[data-suelta]')].filter((i) => !i.closest('.mod-galeria'));
+    '.post-cuerpo img[data-suelta]')]
+    .filter((i) => !i.closest('.mod-galeria'))
+    // La foto de apertura esta oculta en el cuerpo porque vive en la portada:
+    // dejarla en el recorrido daria una diapositiva que nadie ha pulsado.
+    .filter((i) => !i.closest('[data-portada]'));
 
   if (!galerias.length && !sueltas.length) return;
 

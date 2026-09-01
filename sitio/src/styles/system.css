@@ -771,71 +771,256 @@ section { position: relative; }
 }
 .post-card-desc { font-size: 13px; line-height: 1.6; color: var(--concreto); }
 
-/* ── Post ─────────────────────────────────────────────────────────────────── */
-.post { max-width: 780px; margin: 0 auto; padding: 160px var(--pad-lateral) 96px; }
-.post-header { margin-bottom: 52px; }
-.post-meta {
-  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.2em;
-  color: var(--bronce); text-transform: uppercase; margin-bottom: 18px;
-}
-.post-meta a { color: inherit; }
-.post-title {
-  font-size: clamp(32px, 5vw, 56px); font-weight: 700; line-height: 1.08;
-  letter-spacing: -0.03em; color: var(--blanco); text-wrap: balance;
+/* ── Post: articulo editorial ──────────────────────────────────────────────
+   La rejilla tiene dos columnas y la lectura va en la de la derecha. La
+   izquierda no esta vacia por descuido: es donde entran las fotos, los pies
+   y la numeracion de seccion, y es lo que separa un articulo de una ficha.
+   Quien coloca cada bloque es plugins/rehype-editorial.mjs.
+   ------------------------------------------------------------------------ */
+.post { padding-bottom: 120px; }
+
+/* Barra de progreso de lectura: un pelo de bronce, arriba del todo */
+.post-progreso {
+  position: fixed; top: 0; left: 0; height: 2px; width: 100%;
+  transform: scaleX(0); transform-origin: 0 50%;
+  background: var(--bronce); z-index: 120; pointer-events: none;
 }
 
-/* El cuerpo viene de Markdown, asi que se estila por elemento y no por clase */
-.post-cuerpo { font-size: var(--t-cuerpo); line-height: 1.85; color: var(--concreto); }
-.post-cuerpo > * + * { margin-top: 26px; }
+/* ── Portada a sangre ─────────────────────────────────────────────────── */
+.post-portada {
+  position: relative; overflow: hidden;
+  min-height: min(92vh, 880px);
+  display: grid; align-content: center;
+  padding: 168px var(--pad-lateral) 92px;
+  background: var(--grafito);
+}
+.post-portada--texto { min-height: min(58vh, 560px); background: var(--negro); }
+
+.post-portada-foto { position: absolute; inset: 0; }
+.post-portada-foto img {
+  width: 100%; height: 100%; object-fit: cover;
+  opacity: 0; transform: scale(1.10);
+  transition: opacity 1.4s var(--ease), transform var(--dur-kenburns) var(--ease);
+}
+.post-portada.visible .post-portada-foto img { opacity: 1; transform: scale(1); }
+/* Dos paradas de negro: arriba para que respire el nav, abajo para que la
+   ficha de creditos se lea sobre cualquier foto. */
+.post-portada-foto::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg,
+    rgba(11, 11, 10, 0.78) 0%, rgba(11, 11, 10, 0.28) 34%,
+    rgba(11, 11, 10, 0.52) 66%, rgba(11, 11, 10, 0.94) 100%);
+}
+
+.post-portada-texto { position: relative; text-align: center; }
+.post-portada--texto .post-portada-texto { text-align: left; }
+
+.post-eyebrow {
+  font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: var(--tr-eyebrow); text-transform: uppercase;
+  color: var(--bronce); margin-bottom: 26px;
+}
+.post-eyebrow a { color: inherit; text-decoration: none; }
+.post-eyebrow a:hover { color: var(--blanco); }
+
+.post-title {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(38px, 5.6vw, 76px); line-height: 1.04;
+  letter-spacing: -0.015em; color: var(--blanco);
+  text-wrap: balance; max-width: 22ch;
+}
+.post-portada-texto .post-title { margin-inline: auto; }
+
+/* Ficha de creditos: etiqueta a la izquierda, dato a la derecha, un pelo
+   entre filas. Es la tabla de una ficha tecnica aplicada a un articulo. */
+.post-credito {
+  position: relative; margin: 72px auto 0; width: min(360px, 100%);
+  display: grid; gap: 0;
+}
+.post-portada--texto .post-credito { margin-inline: 0; }
+.post-credito > div {
+  display: flex; justify-content: space-between; gap: 20px;
+  padding: 11px 0; border-top: 1px solid var(--linea-fuerte);
+}
+.post-credito dt {
+  font-family: var(--mono); font-size: var(--t-micro);
+  letter-spacing: var(--tr-label); text-transform: uppercase;
+  color: var(--concreto);
+}
+.post-credito dd {
+  font-family: var(--mono); font-size: var(--t-micro);
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--blanco); text-align: right;
+}
+.post-credito dd a { color: inherit; text-decoration: none; }
+.post-credito dd a:hover { color: var(--bronce); }
+
+/* ── Entradilla ───────────────────────────────────────────────────────── */
+.post-entradilla {
+  font-family: var(--serif); font-weight: 300;
+  font-size: clamp(21px, 2.4vw, 30px); line-height: 1.42;
+  color: var(--blanco); text-wrap: pretty;
+  max-width: 26ch;
+}
+
+/* ── Rejilla del cuerpo ───────────────────────────────────────────────── */
+.post-cuerpo,
+.post-reja {
+  display: grid;
+  align-items: start;
+  grid-template-columns:
+    [sangre-i] minmax(var(--pad-lateral), 1fr)
+    [lateral-i] minmax(0, var(--lateral))
+    [lateral-f] var(--gap-columnas)
+    [texto-i] minmax(0, var(--medida))
+    [texto-f] minmax(var(--pad-lateral), 1fr) [sangre-f];
+}
+.post-reja { padding: 88px 0 0; }
+.post-cuerpo { padding: 96px 0 0; counter-reset: seccion; }
+
+/* Todo nace en la columna de lectura; lo demas es una excepcion declarada */
+.post-cuerpo > *,
+.post-reja > * { grid-column: texto-i / texto-f; }
+.post-reja > .ancha { grid-column: lateral-i / texto-f; }
+.post-cuerpo > .ancha     { grid-column: lateral-i / texto-f; }
+/* Una sola fila. Probado con `grid-row: span 2` para que acompanase a mas de
+   un parrafo: reparte el alto de la foto entre dos filas y lo que aparece son
+   huecos ENTRE parrafos, que se leen como un fallo. El hueco al lado de la
+   foto, en cambio, se lee como aire. */
+.post-cuerpo > .en-lateral{ grid-column: lateral-i / lateral-f; }
+.post-cuerpo > .a-sangre  { grid-column: sangre-i / sangre-f; }
+
+/* El hueco entre bloques va en el bloque, no en la rejilla: las fotos piden
+   mas aire que los parrafos y una fila uniforme no lo daria. */
+.post-cuerpo > * { margin-top: 28px; }
+.post-cuerpo > :first-child { margin-top: 0; }
+.post-cuerpo > .ancha,
+.post-cuerpo > .en-lateral,
+.post-cuerpo > .a-sangre { margin-top: 72px; margin-bottom: 44px; }
+.post-cuerpo > .mod-pie { margin-top: 12px; margin-bottom: 0; }
+
+/* ── Tipografia del cuerpo ────────────────────────────────────────────── */
+.post-cuerpo {
+  font-size: 19px; line-height: 1.72; color: var(--concreto);
+  letter-spacing: -0.003em;
+}
 .post-cuerpo h2 {
-  font-size: clamp(23px, 3vw, 31px); font-weight: 300; line-height: 1.2;
-  letter-spacing: -0.02em; color: var(--blanco); margin-top: 56px; text-wrap: balance;
+  position: relative;
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(27px, 3.2vw, 40px); line-height: 1.14;
+  letter-spacing: -0.015em; color: var(--blanco);
+  margin-top: 92px; text-wrap: balance;
+  counter-increment: seccion;
+}
+/* El numero de seccion se sale a la columna de la izquierda. Es el unico
+   sitio del sistema donde la rejilla se ve, y por eso esta. */
+.post-cuerpo h2::before {
+  content: counter(seccion, decimal-leading-zero);
+  position: absolute; right: 100%; top: 0.5em;
+  margin-right: var(--gap-columnas);
+  font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: var(--tr-label); color: var(--bronce);
 }
 .post-cuerpo h3 {
-  font-size: 19px; font-weight: 600; color: var(--blanco); margin-top: 42px;
+  font-size: 20px; font-weight: 600; color: var(--blanco); margin-top: 52px;
 }
 .post-cuerpo strong { color: var(--blanco); font-weight: 600; }
 .post-cuerpo a { color: var(--bronce); text-underline-offset: 3px; }
 .post-cuerpo ul, .post-cuerpo ol { padding-left: 22px; }
 .post-cuerpo li + li { margin-top: 8px; }
-.post-cuerpo blockquote {
-  border-left: 1px solid var(--bronce); padding-left: 24px;
-  font-size: 19px; font-weight: 300; font-style: italic; color: var(--blanco);
-}
-.post-cuerpo blockquote p + p { margin-top: 10px; font-size: 15px; color: var(--concreto); }
-.post-cuerpo img {
-  width: 100%; height: auto; display: block;
-  margin-top: 36px; margin-bottom: 10px;
-}
-/* Los pies de foto quedaron en cursiva al convertir de Squarespace */
-.post-cuerpo img + em, .post-cuerpo p > em:only-child {
-  display: block; font-family: var(--mono); font-size: 11px;
-  letter-spacing: 0.12em; color: var(--concreto); font-style: normal;
-  text-transform: uppercase;
-}
-.post-cuerpo hr { border: 0; border-top: 1px solid var(--linea); margin: 48px 0; }
-.post-cuerpo iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; margin-top: 36px; }
 
-.post-ctas { margin-top: 56px; display: flex; gap: 14px; flex-wrap: wrap; }
-.post-pie { margin-top: 72px; padding-top: 28px; border-top: 1px solid var(--linea); }
+/* ── Cita destacada ──────────────────────────────────────────────────── */
+.post-cuerpo .cita {
+  font-family: var(--serif); font-weight: 300; font-style: normal;
+  font-size: clamp(23px, 2.6vw, 34px); line-height: 1.34;
+  color: var(--blanco); border: 0; padding: 0;
+  border-top: 1px solid var(--linea-bronce);
+  padding-top: 40px; margin-top: 80px; text-wrap: pretty;
+}
+.post-cuerpo .cita p + p { margin-top: 16px; }
+.post-cuerpo .cita-firma {
+  border: 0; padding: 0; margin-top: 20px; margin-bottom: 80px;
+  font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: var(--tr-label); text-transform: uppercase;
+  color: var(--bronce);
+}
+
+/* ── Fotografia suelta ───────────────────────────────────────────────── */
+.post-cuerpo .mod-suelta { margin-inline: 0; }
+.post-cuerpo .mod-suelta img { width: 100%; height: auto; display: block; }
+/* La foto de apertura y su pie viven ya en la portada a sangre */
+.post-cuerpo [data-portada] { display: none; }
+
+/* Pies de foto: mono, en minuscula alta, alineados con su foto */
+.post-cuerpo .mod-pie,
+.post-cuerpo img + em {
+  display: block; font-family: var(--mono); font-size: var(--t-micro);
+  letter-spacing: 0.14em; color: var(--concreto);
+  font-style: normal; text-transform: uppercase; line-height: 1.7;
+}
+.post-cuerpo .mod-pie em { font-style: normal; }
+
+.post-cuerpo hr {
+  border: 0; border-top: 1px solid var(--linea);
+  margin-top: 80px; margin-bottom: 80px;
+}
+.post-cuerpo iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; }
+
+/* ── Cierre ──────────────────────────────────────────────────────────── */
+.post-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 24px; }
+.post-pie { margin-top: 96px; padding-top: 28px; border-top: 1px solid var(--linea); }
 .post-volver {
   font-family: var(--mono); font-size: 11px; letter-spacing: var(--tr-nav);
   color: var(--bronce); text-transform: uppercase; text-decoration: none;
 }
 
-@media (max-width: 960px) {
-  .posts-grid { grid-template-columns: repeat(2, 1fr); }
-  .post { padding-top: 120px; }
+/* Entrada de la fotografia: la foto se revela desde dentro de su marco, no
+   empujando el bloque. Asi la pagina no se mueve al hacer scroll. */
+.reveal-foto { overflow: hidden; }
+.reveal-foto img {
+  opacity: 0; transform: scale(1.06);
+  transition: opacity 1s var(--ease), transform 1.5s var(--ease);
 }
-@media (max-width: 600px) { .posts-grid { grid-template-columns: 1fr; } }
+.reveal-foto.visible img { opacity: 1; transform: none; }
+.reveal-foto .mod-foto:nth-child(2) img { transition-delay: 0.08s; }
+.reveal-foto .mod-foto:nth-child(3) img { transition-delay: 0.16s; }
+.reveal-foto .mod-foto:nth-child(4) img { transition-delay: 0.24s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-foto img { opacity: 1; transform: none; }
+  .post-portada-foto img { opacity: 1; transform: none; }
+  .post-progreso { display: none; }
+}
+
+/* ── Una sola columna ─────────────────────────────────────────────────── */
+@media (max-width: 1120px) {
+  .post-cuerpo,
+  .post-reja {
+    grid-template-columns:
+      [sangre-i] var(--pad-lateral)
+      [lateral-i texto-i] minmax(0, 1fr)
+      [lateral-f texto-f] var(--pad-lateral) [sangre-f];
+  }
+  .post-cuerpo > .ancha,
+  .post-cuerpo > .en-lateral { grid-column: texto-i / texto-f; }
+  .post-cuerpo h2::before {
+    position: static; display: block; margin: 0 0 14px;
+  }
+}
+@media (max-width: 860px) {
+  .post-portada { min-height: min(80vh, 640px); padding-top: 128px; }
+  .post-title { font-size: clamp(32px, 8vw, 48px); }
+  .post-cuerpo { font-size: 17px; padding-top: 64px; }
+  .post-cuerpo > .ancha,
+  .post-cuerpo > .en-lateral,
+  .post-cuerpo > .a-sangre { margin-top: 48px; margin-bottom: 28px; }
+  .post-cuerpo h2 { margin-top: 64px; }
+}
 
 /* Video del Magazine, rescatado de Squarespace */
 .post-cuerpo video {
-  width: 100%; height: auto; display: block;
-  margin-top: 36px; background: var(--negro);
+  width: 100%; height: auto; display: block; background: var(--negro);
 }
-/* Los verticales no deben ocupar la pantalla entera */
-.post-cuerpo video[height="1920"] { max-width: 420px; margin-inline: auto; }
 
 /* ── Paginas de contenido: servicios, tarifas, centros, legales ───────────── */
 .pagina { padding-bottom: 96px; }

@@ -10,20 +10,27 @@ export function iniciarReveals(): void {
 
   if (sinMovimiento()) {
     document
-      .querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale, .shimmer-line, .kit-items li')
+      .querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale, .reveal-foto, .shimmer-line, .kit-items li')
       .forEach(marcar);
     return;
   }
 
   observarUnaVez(
     document.querySelectorAll(
-      '.reveal, .reveal-left, .reveal-right, .reveal-scale, .shimmer-line',
+      '.reveal, .reveal-left, .reveal-right, .reveal-scale, .reveal-foto, .shimmer-line',
     ),
     marcar,
   );
 
-  // Hero: visible de entrada, escalonado en el tiempo
-  document.querySelectorAll('.hero .reveal').forEach((el, i) => {
+  /* La portada del articulo ya esta en pantalla al cargar: si esperase al
+     observador, la foto entraria despues del primer scroll y se veria el
+     salto. Entra sola, como el hero de las fichas. */
+  document.querySelectorAll('.post-portada').forEach((el) => {
+    window.setTimeout(() => marcar(el), 80);
+  });
+
+  // Hero y portada: visibles de entrada, escalonados en el tiempo
+  document.querySelectorAll('.hero .reveal, .post-portada .reveal').forEach((el, i) => {
     window.setTimeout(() => marcar(el), 400 + i * 180);
   });
 

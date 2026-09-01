@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import rehypeMedios from './plugins/rehype-medios.mjs';
+import rehypeEditorial from './plugins/rehype-editorial.mjs';
 import remarkDirective from 'remark-directive';
 import remarkModulos from './plugins/remark-modulos.mjs';
 import sitemap from '@astrojs/sitemap';
@@ -37,6 +38,8 @@ export default defineConfig({
     // El orden importa: remarkDirective parsea `::: galeria`, y
     // remarkModulos lo convierte en el HTML del modulo.
     remarkPlugins: [remarkDirective, remarkModulos],
-    rehypePlugins: [rehypeMedios],
+    // rehypeMedios prepara cada media; rehypeEditorial coloca el bloque
+    // entero en la rejilla del articulo. Primero el contenido, luego el sitio.
+    rehypePlugins: [rehypeMedios, rehypeEditorial],
   },
 });

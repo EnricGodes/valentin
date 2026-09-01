@@ -25,6 +25,11 @@ export const UI = {
   'cta.info':        { es: 'Más información', en: 'Enquire', fr: 'Plus d’informations', it: 'Maggiori informazioni', de: 'Mehr erfahren', ca: 'Més informació' },
   'cta.ficha':       { es: 'Ver ficha', en: 'View details', fr: 'Voir la fiche', it: 'Vedi scheda', de: 'Details ansehen', ca: 'Veure fitxa' },
 
+  'post.fecha':      { es: 'Fecha', en: 'Date', fr: 'Date', it: 'Data', de: 'Datum', ca: 'Data' },
+  'post.seccion':    { es: 'Sección', en: 'Section', fr: 'Rubrique', it: 'Sezione', de: 'Rubrik', ca: 'Secció' },
+  'post.texto':      { es: 'Texto', en: 'Words', fr: 'Texte', it: 'Testo', de: 'Text', ca: 'Text' },
+  'post.volver':     { es: 'Volver al Magazine', en: 'Back to Magazine', fr: 'Retour au Magazine', it: 'Torna al Magazine', de: 'Zurück zum Magazine', ca: 'Torna al Magazine' },
+
   'pie.legal':       { es: 'Aviso legal', en: 'Legal notice', fr: 'Mentions légales', it: 'Note legali', de: 'Impressum', ca: 'Avis legal' },
   'pie.privacidad':  { es: 'Privacidad', en: 'Privacy', fr: 'Confidentialité', it: 'Privacy', de: 'Datenschutz', ca: 'Privacitat' },
   'pie.cookies':     { es: 'Cookies', en: 'Cookies', fr: 'Cookies', it: 'Cookie', de: 'Cookies', ca: 'Cookies' },

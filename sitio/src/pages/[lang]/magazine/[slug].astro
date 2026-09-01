@@ -4,6 +4,7 @@ import Base from '../../../layouts/Base.astro';
 import Nav from '../../../components/Nav.astro';
 import Pie from '../../../components/Pie.astro';
 import { url } from '../../../i18n/routes';
+import { traductor } from '../../../i18n/ui';
 import Articulo from '../../../components/seo/Articulo.astro';
 import Migas from '../../../components/seo/Migas.astro';
 import Faq from '../../../components/seo/Faq.astro';
@@ -31,10 +32,18 @@ export async function getStaticPaths() {
 const { post, idiomas } = Astro.props;
 const { Content } = await render(post);
 const idioma = post.data.lang as Idioma;
+const t = traductor(idioma);
 
 const fecha = new Intl.DateTimeFormat(idioma, { dateStyle: 'long' }).format(post.data.date);
 const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-const portada = (post.body ?? '').match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1];
+
+/* Ver la version en castellano: la portada solo toma la foto cuando el
+   articulo empieza por una, que es la misma condicion con la que
+   rehype-editorial la oculta en el cuerpo. */
+const cuerpoMd = (post.body ?? '').trim();
+const abre = /^!\[[^\]]*\]\(([^)\s]+)/.exec(cuerpoMd.split(/\n\s*\n/)[0].trim());
+const heroFoto = abre?.[1];
+const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
 ---
 <Base
   idioma={idioma}
@@ -62,29 +71,52 @@ const portada = (post.body ?? '').match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1];
   <Pie slot="pie" idioma={idioma} />
 
   <article class="post">
-    <header class="post-header">
-      <div class="shimmer-line"></div>
-      <p class="post-meta reveal">
-        <time datetime={post.data.date.toISOString()}>{fecha}</time>
-      </p>
-      <h1 class="post-title reveal delay-1">{post.data.title}</h1>
+    <div class="post-progreso" data-progreso></div>
+
+    <header class:list={['post-portada', !heroFoto && 'post-portada--texto']}>
+      {heroFoto && (
+        <div class="post-portada-foto">
+          <img src={heroFoto} alt="" fetchpriority="high" decoding="async">
+        </div>
+      )}
+
+      <div class="post-portada-texto">
+        <h1 class="post-title reveal delay-1">{post.data.title}</h1>
+      </div>
+
+      <dl class="post-credito reveal delay-3">
+        <div>
+          <dt>{t('post.fecha')}</dt>
+          <dd><time datetime={post.data.date.toISOString()}>{fecha}</time></dd>
+        </div>
+        {post.data.author && (
+          <div><dt>{t('post.texto')}</dt><dd>{post.data.author}</dd></div>
+        )}
+      </dl>
     </header>
 
-    <div class="post-cuerpo reveal delay-2"><Content /></div>
+    {post.data.excerpt && (
+      <div class="post-reja">
+        <p class="post-entradilla ancha reveal">{limpio(post.data.excerpt)}</p>
+      </div>
+    )}
+
+    <div class="post-cuerpo"><Content /></div>
 
     <script>
       import { iniciarModulos } from '../../../scripts/modulos.ts';
       iniciarModulos();
     </script>
 
-    {post.data.ctas.length > 0 && (
-      <div class="post-ctas">
-        {post.data.ctas.map((c) => <a class="cta" href={url('contacto', idioma)}>{c.texto}</a>)}
-      </div>
-    )}
-
-    <footer class="post-pie">
-      <a class="post-volver" href={url('magazine', idioma)}>&larr; Magazine</a>
-    </footer>
+    <div class="post-reja">
+      {post.data.ctas.length > 0 && (
+        <div class="post-ctas">
+          {post.data.ctas.map((c) => <a class="cta" href={url('contacto', idioma)}>{c.texto}</a>)}
+        </div>
+      )}
+      <footer class="post-pie">
+        <a class="post-volver" href={url('magazine', idioma)}>&larr; {t('post.volver')}</a>
+      </footer>
+    </div>
   </article>
 </Base>

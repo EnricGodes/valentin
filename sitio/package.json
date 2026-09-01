@@ -9,9 +9,9 @@
     "preview": "astro preview",
     "check": "astro check",
     "validar": "node scripts/validar-rutas.ts",
-    "assets": "node scripts/sincronizar-imagenes.mjs && node scripts/optimizar-imagenes.mjs && node scripts/optimizar-videos.mjs",
+    "assets": "node scripts/sincronizar-imagenes.mjs && node scripts/optimizar-imagenes.mjs && node scripts/optimizar-videos.mjs && node scripts/medir-imagenes.mjs",
     "validar:hreflang": "node scripts/validar-hreflang.mjs",
-    "medios": "node scripts/verificar-medios.mjs",
+    "medios": "node scripts/verificar-medios.mjs && node scripts/medir-imagenes.mjs",
     "glosario": "node scripts/validar-glosario.ts"
   },
   "dependencies": {

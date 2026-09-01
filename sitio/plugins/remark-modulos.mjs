@@ -24,6 +24,17 @@ const PROPORCIONES = {
   widescreen: '16 / 9',
 };
 
+/* Donde se coloca cada modulo en la rejilla editorial del articulo. El pase
+   y el carrusel se van a sangre porque son secuencias: ocupan la pantalla y
+   el lector deja de leer para mirar. La cuadricula y la pila se quedan en el
+   ancho de las dos columnas, que es donde acompanan al texto. */
+const COLOCACION = {
+  pase: 'a-sangre',
+  carrusel: 'a-sangre',
+  cuadricula: 'ancha',
+  apilada: 'ancha',
+};
+
 const esc = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
            .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -55,7 +66,7 @@ function galeria(atributos, imagenes) {
     </figure>`).join('');
 
   // El pase y el carrusel necesitan saber cuantas hay para los indicadores.
-  return `<div class="mod-galeria mod-galeria--${esc(diseno)}"
+  return `<div class="mod-galeria mod-galeria--${esc(diseno)} ${COLOCACION[diseno] || 'ancha'} reveal-foto"
     data-diseno="${esc(diseno)}" data-total="${imagenes.length}"
     ${lightbox ? 'data-lightbox' : ''}
     style="--por-fila:${porFila};--proporcion:${proporcion}">
@@ -84,7 +95,10 @@ export default function remarkModulos() {
 
       if (nodo.name === 'video') {
         nodo.type = 'html';
-        nodo.value = `<div class="mod-video">
+        // Los verticales de taller (1080x1920) caben en la columna lateral y
+        // dejan el texto a su lado; los apaisados piden las dos columnas.
+        const vertical = Number(at.alto) > Number(at.ancho);
+        nodo.value = `<div class="mod-video ${vertical ? 'en-lateral' : 'ancha'} reveal">
           <video src="${esc(at.src)}" controls preload="metadata" playsinline
                  ${at.ancho ? `width="${esc(at.ancho)}"` : ''}
                  ${at.alto ? `height="${esc(at.alto)}"` : ''}></video>
@@ -95,7 +109,7 @@ export default function remarkModulos() {
 
       if (nodo.name === 'youtube') {
         nodo.type = 'html';
-        nodo.value = `<div class="mod-incrustado">
+        nodo.value = `<div class="mod-incrustado ancha reveal">
           <iframe src="https://www.youtube-nocookie.com/embed/${esc(at.id)}"
                   title="Vídeo de YouTube" loading="lazy" allowfullscreen
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>

@@ -34,6 +34,10 @@
   /* ── Tipografia ───────────────────────────────────────────────────────── */
   --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  /* Serif editorial, solo para el Magazine: titulares, citas y entradilla.
+     Es lo que separa un articulo de una ficha de producto. Inter sigue
+     llevando el cuerpo, que es donde se lee de verdad. */
+  --serif: 'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
 
   /* Escala tipografica fluida; los clamp() salen del CSS actual de las fichas */
   --t-hero:    clamp(48px, 9vw, 110px);
@@ -52,6 +56,12 @@
   --tr-eyebrow: 0.30em;
 
   /* ── Espaciado ────────────────────────────────────────────────────────── */
+  /* Rejilla del articulo: una columna de fotografia y una de lectura, con la
+     de lectura a la derecha. La medida sale de contar caracteres, no pixeles:
+     34rem a 19px son unos 62 por linea, que es el optimo de lectura larga. */
+  --medida:  34rem;
+  --lateral: 30rem;
+
   --pad-lateral:  56px;
   --pad-seccion:  128px;
   --ancho-max:    1200px;

@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Nav from '../../components/Nav.astro';
 import Pie from '../../components/Pie.astro';
 import { url } from '../../i18n/routes';
+import { traductor } from '../../i18n/ui';
 import Articulo from '../../components/seo/Articulo.astro';
 import Migas from '../../components/seo/Migas.astro';
 import Faq from '../../components/seo/Faq.astro';
@@ -29,10 +30,19 @@ export async function getStaticPaths() {
 const { post, idiomas } = Astro.props;
 const { Content } = await render(post);
 const idioma = 'es' as const;
+const t = traductor(idioma);
 
 const fecha = new Intl.DateTimeFormat('es', { dateStyle: 'long' }).format(post.data.date);
 const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-const portada = (post.body ?? '').match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1];
+
+/* La foto de apertura sube a la portada a sangre. Se coge solo si el articulo
+   EMPIEZA por una foto suelta (33 de los 42): asi coincide con la que
+   rehype-editorial oculta en el cuerpo y nadie la ve dos veces. Los nueve que
+   abren con texto o con una galeria llevan portada tipografica. */
+const cuerpoMd = (post.body ?? '').trim();
+const abre = /^!\[[^\]]*\]\(([^)\s]+)/.exec(cuerpoMd.split(/\n\s*\n/)[0].trim());
+const heroFoto = abre?.[1];
+const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
 const descripcion = limpio(post.data.excerpt).slice(0, 300)
   || `${post.data.title} · Magazine de Valentin Motors.`;
 ---
@@ -62,32 +72,64 @@ const descripcion = limpio(post.data.excerpt).slice(0, 300)
   <Pie slot="pie" idioma={idioma} />
 
   <article class="post">
-    <header class="post-header">
-      <div class="shimmer-line"></div>
-      <p class="post-meta reveal">
-        <time datetime={post.data.date.toISOString()}>{fecha}</time>
-        {post.data.categories.map((c) => (
-          <> &middot; <a href={url('magazine', idioma, 'category', c)}>{c}</a></>
-        ))}
-      </p>
-      <h1 class="post-title reveal delay-1">{post.data.title}</h1>
+    <div class="post-progreso" data-progreso></div>
+
+    <header class:list={['post-portada', !heroFoto && 'post-portada--texto']}>
+      {heroFoto && (
+        <div class="post-portada-foto">
+          <img src={heroFoto} alt="" fetchpriority="high" decoding="async">
+        </div>
+      )}
+
+      <div class="post-portada-texto">
+        <p class="post-eyebrow reveal">
+          {post.data.categories.map((c, i) => (
+            <>{i > 0 && ' · '}<a href={url('magazine', idioma, 'category', c)}>{c}</a></>
+          ))}
+        </p>
+        <h1 class="post-title reveal delay-1">{post.data.title}</h1>
+      </div>
+
+      <dl class="post-credito reveal delay-3">
+        <div>
+          <dt>{t('post.fecha')}</dt>
+          <dd><time datetime={post.data.date.toISOString()}>{fecha}</time></dd>
+        </div>
+        {post.data.categories.length > 0 && (
+          <div>
+            <dt>{t('post.seccion')}</dt>
+            <dd><a href={url('magazine', idioma, 'category', post.data.categories[0])}>
+              {post.data.categories[0]}</a></dd>
+          </div>
+        )}
+        {post.data.author && (
+          <div><dt>{t('post.texto')}</dt><dd>{post.data.author}</dd></div>
+        )}
+      </dl>
     </header>
 
-    <div class="post-cuerpo reveal delay-2"><Content /></div>
+    {post.data.excerpt && (
+      <div class="post-reja">
+        <p class="post-entradilla ancha reveal">{limpio(post.data.excerpt)}</p>
+      </div>
+    )}
+
+    <div class="post-cuerpo"><Content /></div>
 
     <script>
       import { iniciarModulos } from '../../scripts/modulos.ts';
       iniciarModulos();
     </script>
 
-    {post.data.ctas.length > 0 && (
-      <div class="post-ctas">
-        {post.data.ctas.map((c) => <a class="cta" href={c.href}>{c.texto}</a>)}
-      </div>
-    )}
-
-    <footer class="post-pie">
-      <a class="post-volver" href={url('magazine', idioma)}>&larr; Magazine</a>
-    </footer>
+    <div class="post-reja">
+      {post.data.ctas.length > 0 && (
+        <div class="post-ctas">
+          {post.data.ctas.map((c) => <a class="cta" href={c.href}>{c.texto}</a>)}
+        </div>
+      )}
+      <footer class="post-pie">
+        <a class="post-volver" href={url('magazine', idioma)}>&larr; {t('post.volver')}</a>
+      </footer>
+    </div>
   </article>
 </Base>

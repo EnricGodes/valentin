@@ -1,4 +1,17 @@
 import { visit } from 'unist-util-visit';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+
+/* Medidas reales de las 858 fotos del Magazine, de scripts/medir-imagenes.mjs.
+   Si el manifiesto no esta, se sigue sin el: se pierde la reserva de espacio,
+   no la pagina. */
+let MEDIDAS = {};
+try {
+  MEDIDAS = JSON.parse(readFileSync(
+    fileURLToPath(new URL('../src/datos/medidas-magazine.json', import.meta.url)), 'utf8'));
+} catch {
+  console.warn('rehype-medios: sin medidas-magazine.json, las fotos sueltas no reservaran espacio');
+}
 
 /**
  * Prepara las imagenes y videos que vienen del Markdown del Magazine.
@@ -9,6 +22,11 @@ import { visit } from 'unist-util-visit';
  *
  * La primera se deja en carga inmediata porque suele ser la imagen principal
  * del articulo y es la que mide el LCP.
+ *
+ * Tambien les pone el ancho y el alto. En Markdown no hay donde escribirlos,
+ * asi que hasta ahora una foto suelta valia cero de alto hasta descargarse: la
+ * pagina saltaba al cargar y, en la rejilla editorial, la columna se colapsaba
+ * y la foto ya no llegaba a entrar nunca en pantalla.
  *
  * Aqui solo pasan las fotos SUELTAS: las de galeria las emite
  * remark-modulos.mjs como HTML y no llegan a este arbol. Se marcan para que
@@ -39,6 +57,12 @@ export default function rehypeMedios() {
       }
       // Sin alt, una imagen decorativa es ruido para un lector de pantalla
       if (!nodo.properties.alt) nodo.properties.alt = '';
+
+      const medida = MEDIDAS[nodo.properties.src];
+      if (medida) {
+        nodo.properties.width = medida[0];
+        nodo.properties.height = medida[1];
+      }
 
       // Enfocable y anunciada: si se anuncia como pulsable tiene que
       // responder al teclado, y de eso se encarga scripts/modulos.ts.
