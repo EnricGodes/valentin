@@ -1,0 +1,458 @@
+{
+  "slug": "porsche-981-cayman-gts",
+  "archivoOriginal": "cayman.html",
+  "realce": "realce--cayman",
+  "meta": {
+    "titulo": "Porsche 981 Cayman GTS kaufen · Valentin Motors",
+    "descripcion": "Porsche 981 Cayman GTS 2015 in P3-Gelb. 3,4-Liter-Saugmotor, 340 PS, PDK, Leder/Alcantara schwarz. Lückenloses Scheckheft. Bei Valentin Motors.",
+    "ogImagen": "https://valentin.up.railway.app/img/cayman/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 981 Cayman GTS · 2015",
+    "subtitulo": "Porsche 981",
+    "titulo": "Cayman<br/>GTS",
+    "claim": "Mittelmotor als Saugmotor. 340 PS. P3-Gelb.",
+    "imagen": "/img/cayman/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scrollen"
+  },
+  "intro": {
+    "etiqueta": "Fahrzeughistorie",
+    "titulo": "Mittelmotor,<br/><strong>Saugmotor<br/>und GTS-DNA.</strong>",
+    "parrafos": [
+      "Der <strong>Porsche Cayman 981 GTS</strong> gehört zu den ausgewogensten Sportwagen der modernen Porsche Baureihen. Mittelmotor, 3,4-Liter-Sechszylinder-Boxer, durchweg saugender Charakter und <strong>340 PS</strong> an die Hinterachse, über das <strong>PDK</strong> Getriebe.",
+      "Dieses Fahrzeug in <strong>P3-Gelb</strong>, Interieur in Leder und Alcantara schwarz, stammt aus dem spanischen Markt und hat <strong>51.157 km</strong> gelaufen. Das Scheckheft ist original und lückenlos, mit vier dokumentierten Arbeiten im Porsche Zentrum und bei Valentin Motors."
+    ],
+    "cita": "Ein Sportwagen zum Fahren: präzise, klangstark, ausgewogen. Alltagstauglich, ohne den Charakter aufzugeben, der die GTS Modelle von Porsche ausmacht.",
+    "datos": [
+      {
+        "clave": "Modell",
+        "valor": "981 Cayman GTS",
+        "acento": false
+      },
+      {
+        "clave": "Baujahr",
+        "valor": "2015",
+        "acento": false
+      },
+      {
+        "clave": "Kilometerstand",
+        "valor": "51.157 km",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bóxer 6 cil. · 3.400 cm³",
+        "acento": false
+      },
+      {
+        "clave": "Leistung",
+        "valor": "340 CV",
+        "acento": false
+      },
+      {
+        "clave": "Getriebe",
+        "valor": "PDK",
+        "acento": false
+      },
+      {
+        "clave": "Farbe",
+        "valor": "Amarillo P3 · Interior negro",
+        "acento": false
+      },
+      {
+        "clave": "Preis",
+        "valor": "74.900 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galerie",
+    "titulo": "P3-Gelb.<br/><strong>Schwarze Räder.<br/>Rote Bremssättel.</strong>",
+    "fotos": [
+      {
+        "src": "/img/cayman/exterior1.jpg",
+        "alt": "Front, Dreiviertelansicht",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Dreiviertelansicht vorn · P3-Gelb · Abgedunkelte Scheinwerfer"
+      },
+      {
+        "src": "/img/cayman/exterior2.jpg",
+        "alt": "Seitenprofil",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Seitenprofil · Mittelmotor-Proportionen"
+      },
+      {
+        "src": "/img/cayman/exterior3.jpg",
+        "alt": "Heck, Dreiviertelansicht",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Heck · Doppelte Mittelauspuffanlage · Cayman GTS"
+      },
+      {
+        "src": "/img/cayman/exterior4.jpg",
+        "alt": "Detail außen",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Detail außen · Schwarze Räder · Roter Bremssattel"
+      },
+      {
+        "src": "/img/cayman/interior1.jpg",
+        "alt": "GTS Interieur",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Interieur · Leder / Alcantara schwarz · GTS Sitze"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor und Leistung",
+    "titulo": "Boxer<br/><strong>als Saugmotor.<br/>Mittelmotor.</strong>",
+    "stats": [
+      {
+        "valor": 340,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Leistung",
+        "destacada": true
+      },
+      {
+        "valor": "3.4",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Hubraum",
+        "destacada": false
+      },
+      {
+        "valor": "4.9",
+        "animado": false,
+        "unidad": "s",
+        "etiqueta": "0 auf 100 km/h",
+        "destacada": false
+      },
+      {
+        "valor": "285",
+        "animado": false,
+        "unidad": "km/h",
+        "etiqueta": "Höchstgeschw.",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Der <strong>3,4-Liter-Sechszylinder-Boxer</strong> des Cayman GTS braucht keine Aufladung für Emotion. Sein Charakter ist durchweg saugend: direktes Ansprechen ab mittleren Drehzahlen, mit mehr Nachdruck und mehr Klang, je weiter er ausgedreht wird. Am besten oberhalb von <strong>4.000 U/min</strong>.",
+      "Das <strong>PDK</strong> Getriebe führt die 340 PS mit millimetergenauer Präzision, mit schnellen Schaltvorgängen im Sport-Modus und ruhigem Lauf im Alltag. Der Antrieb erfolgt über die <strong>Hinterachse</strong> und stärkt die Verbindung zwischen Fahrer und Fahrwerk."
+    ],
+    "tags": [
+      "Sechszylinder-Boxer",
+      "Saugmotor",
+      "Mittelmotor",
+      "PDK",
+      "Hinterradantrieb",
+      "Sport Chrono"
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterieur",
+    "titulo": "P3-Gelb.<br/><strong>Flach, breit<br/>und präzise.</strong>",
+    "texto": "<strong>P3-Gelb</strong> macht diesen Cayman zu einer direkten optischen Ansage. Die GTS Ausstattung ergänzt die Wagenfarbe um abgedunkelte Scheinwerfer, schwarze Mehrspeichenräder, rote Bremssättel und einen schwarzen Heckdiffusor. Das ergibt ein Bild aus maximalem Kontrast und sportlicher Präsenz. Karosserie geprüft, unfallfrei.",
+    "fotos": [
+      {
+        "src": "/img/cayman/close-up1.jpg",
+        "alt": "GTS Detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "GTS Detail · Seitlicher Schriftzug"
+      },
+      {
+        "src": "/img/cayman/close-up2.jpg",
+        "alt": "Rad und Bremssattel",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Schwarzes Rad · Roter Bremssattel"
+      },
+      {
+        "src": "/img/cayman/exterior3.jpg",
+        "alt": "Heck",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Heck · Doppelte Mittelauspuffanlage · Schwarzer Diffusor"
+      },
+      {
+        "src": "/img/cayman/exterior4.jpg",
+        "alt": "GTS Front",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "GTS Front · Schwarze Lufteinlässe · Abgedunkelte Scheinwerfer"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interieur",
+    "titulo": "Leder und Alcantara.<br/><strong>GTS Cockpit.</strong>",
+    "fotos": [
+      {
+        "src": "/img/cayman/interior1.jpg",
+        "alt": "GTS Cockpit",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cockpit · Leder / Alcantara schwarz · GTS Sitze"
+      },
+      {
+        "src": "/img/cayman/interior2.jpg",
+        "alt": "Mittelkonsole und Lenkrad",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "PDK Konsole · Lenkrad mit Schaltwippen · Sport Chrono"
+      },
+      {
+        "src": "/img/cayman/interior3.jpg",
+        "alt": "Instrumente",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Instrumententräger · Cayman GTS Grafik"
+      }
+    ],
+    "editorial": "Der GTS Innenraum verbindet Leder und Alcantara in Schwarz mit Kontrastnähten. Die Sportsitze mit GTS Schriftzug, das Lenkrad mit PDK Schaltwippen und das Sport Chrono ergeben ein kompaktes, technisches, auf den Fahrer ausgerichtetes Cockpit."
+  },
+  "procedencia": {
+    "etiqueta": "Scheckheft",
+    "titulo": "Historie<br/><strong>dokumentiert<br/>im Porsche Zentrum.</strong>",
+    "hitos": [
+      {
+        "anio": "18/06/2015 · Barcelona",
+        "titulo": "Erstzulassung",
+        "cuerpo": "Zugelassen in Spanien am <strong>18. Juni 2015</strong>. Spanischer Markt. Werksseitige GTS Konfiguration in P3-Gelb, Interieur in Leder und Alcantara schwarz.",
+        "badge": "Spanischer Markt · GTS Konfiguration"
+      },
+      {
+        "anio": "13.329 km y 23.249 km · Centro Porsche",
+        "titulo": "Erste Wartungen im Porsche Zentrum",
+        "cuerpo": "Das Fahrzeug absolviert die ersten beiden Inspektionen im <strong>Porsche Zentrum</strong>, das Serviceheft ist bei beiden Arbeiten korrekt gestempelt.",
+        "badge": "Offizielles Porsche Zentrum"
+      },
+      {
+        "anio": "39.901 km · Centro Porsche",
+        "titulo": "Dritte Inspektion im Porsche Zentrum",
+        "cuerpo": "Dritte dokumentierte Arbeit im <strong>Porsche Zentrum</strong>. Lückenlose Historie mit offiziellem Stempel.",
+        "badge": "Offizielles Porsche Zentrum"
+      },
+      {
+        "anio": "51.011 km · Valentin Motors",
+        "titulo": "Große Inspektion mit Zündkerzen bei Valentin Motors",
+        "cuerpo": "Große Inspektion bei <strong>Valentin Motors</strong>, einschließlich Wechsel der Zündkerzen. Das Fahrzeug ist durchgesehen und übergabebereit.",
+        "badge": "74.900 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Technische Daten",
+    "titulo": "Vollständige<br/><strong>Spezifikationen.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Typ",
+            "valor": "Bóxer 6 cilindros"
+          },
+          {
+            "clave": "Hubraum",
+            "valor": "3.400 cm³"
+          },
+          {
+            "clave": "Gemischaufbereitung",
+            "valor": "Inyección directa"
+          },
+          {
+            "clave": "Aufladung",
+            "valor": "Atmosférico"
+          },
+          {
+            "clave": "Leistung",
+            "valor": "340 CV"
+          },
+          {
+            "clave": "Einbaulage",
+            "valor": "Central"
+          }
+        ]
+      },
+      {
+        "titulo": "Getriebe und Fahrwerk",
+        "filas": [
+          {
+            "clave": "Getriebe",
+            "valor": "PDK"
+          },
+          {
+            "clave": "Antrieb",
+            "valor": "Trasera"
+          },
+          {
+            "clave": "Fahrwerk",
+            "valor": "PASM activa"
+          },
+          {
+            "clave": "Sport Chrono",
+            "valor": "Incluido"
+          }
+        ]
+      },
+      {
+        "titulo": "Fahrleistungen",
+        "filas": [
+          {
+            "clave": "0 auf 100 km/h",
+            "valor": "4,9 s"
+          },
+          {
+            "clave": "Höchstgeschwindigkeit",
+            "valor": "285 km/h"
+          },
+          {
+            "clave": "Verbrauch kombiniert",
+            "valor": "9 l / 100 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Karosserie und Allgemeines",
+        "filas": [
+          {
+            "clave": "Karosserie",
+            "valor": "Coupé biplaza"
+          },
+          {
+            "clave": "Baujahr",
+            "valor": "2015"
+          },
+          {
+            "clave": "Erstzulassung",
+            "valor": "18/06/2015"
+          },
+          {
+            "clave": "Kilometerstand",
+            "valor": "51.157 km"
+          },
+          {
+            "clave": "Außenfarbe",
+            "valor": "Amarillo P3"
+          },
+          {
+            "clave": "Interieur",
+            "valor": "Piel / Alcántara negro"
+          }
+        ]
+      },
+      {
+        "titulo": "Provenienz",
+        "filas": [
+          {
+            "clave": "Markt",
+            "valor": "Español"
+          },
+          {
+            "clave": "Unfallfrei",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Scheckheft",
+            "valor": "Original y completo"
+          },
+          {
+            "clave": "Besitzer",
+            "valor": "Por confirmar"
+          },
+          {
+            "clave": "Standort",
+            "valor": "Barcelona"
+          }
+        ]
+      },
+      {
+        "titulo": "Verkaufsbedingungen",
+        "filas": [
+          {
+            "clave": "Preis",
+            "valor": "74.900 €"
+          },
+          {
+            "clave": "Garantie",
+            "valor": "12 meses"
+          },
+          {
+            "clave": "Garantie deckt",
+            "valor": "Motor y caja de cambios"
+          },
+          {
+            "clave": "Übergabebereit",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "Jordis Einschätzung",
+    "titulo": "Der Blick<br/><strong>des Fachmanns.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Porsche Spezialist · Valentin Motors",
+    "bio": "Mehr als 25 Jahre Erfahrung mit Porsche Sammlerfahrzeugen und hochwertigen Sportwagen. Hunderte begleitete Verkäufe, mit besonderem Augenmerk auf GTS Modelle und Sondereditionen.",
+    "intro": "„Auf der Straße wirkt der 981 Cayman GTS wie ein sehr präziser Sportwagen, der sich dennoch leicht schnell bewegen lässt.“",
+    "parrafos": [
+      "Das Fahrwerk ist sehr ausgewogen: Der Wagen geht dorthin, wohin man lenkt, und bleibt auch bei zügigem Tempo ruhig. Die Reaktionen sind <strong>progressiv</strong>, nie ruppig. Das schafft ein Vertrauen, das zum Weitermachen einlädt. Dieses Auto definiert sich nicht über Tempo, sondern über die Qualität seiner Rückmeldung.",
+      "Der <strong>Saugmotor</strong> hat einen Charakter, den kein Turbo nachbildet: lineares Ansprechen, entschlossener Drehzahlaufbau und ein Klang, der die Beschleunigung deutlich begleitet. Man muss ihn drehen lassen. Oberhalb von <strong>4.000 U/min</strong> verwandelt sich der Wagen.",
+      "Dieses Fahrzeug hat zudem die ideale Historie: vier dokumentierte Wartungen, drei im offiziellen Porsche Zentrum und die letzte bei Valentin Motors. Man weiß genau, was wann gemacht wurde. Für Käuferinnen und Käufer, die wissen, was sie suchen, ist das viel wert."
+    ],
+    "prosTitulo": "Das Beste",
+    "pros": [
+      "Saugmotor mit echtem Charakter und echtem Klang",
+      "GTS Fahrwerk: der Sweet Spot des 981",
+      "Lückenloses Scheckheft mit Stempeln des Porsche Zentrums",
+      "P3-Gelb mit vollständiger GTS Ausstattung",
+      "Spanischer Markt, unfallfrei",
+      "Alltagstauglich, ohne den sportlichen Charakter aufzugeben"
+    ],
+    "contrasTitulo": "Zu bedenken",
+    "contras": [
+      "PDK, kein Schaltgetriebe, für alle, die den Hebel bevorzugen",
+      "Das Gelb fällt auf, nichts für alle, die Zurückhaltung suchen"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/cayman/exterior2.jpg",
+    "cita": "Ein Porsche 981 Cayman GTS mit Mittelmotor als Saugmotor, <em>340 PS</em>, im Porsche Zentrum dokumentierter Historie und vollständiger GTS Ausstattung in P3-Gelb.",
+    "precio": "74.900 €",
+    "precioTachado": true,
+    "precioLabel": "Porsche 981 Cayman GTS · P3-Gelb · 2015",
+    "aviso": "Fahrzeug verkauft",
+    "nota": "Dieses Fahrzeug ist nicht mehr verfügbar. Schreiben Sie uns, wenn Sie ein vergleichbares Fahrzeug suchen.",
+    "ctaTexto": "Weitere Informationen",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "vendido",
+    "estadoTexto": "Verkauft",
+    "marca": "Porsche",
+    "nombre": "981 Cayman GTS",
+    "detalle": "2015 · 51.157 km · P3-Gelb · Interieur schwarz",
+    "descripcion": "Porsche 981 Cayman GTS 2015 in P3-Gelb. 3,4-Liter-Saugmotor, 340 PS, PDK, Interieur Leder/Alcantara schwarz. Lückenloses Scheckheft. Verfügbar bei Valentin Motors.",
+    "precio": "",
+    "precioPorConsultar": false,
+    "imagen": "/img/cayman/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 140,
+    "total": 140,
+    "completa": true
+  }
+}

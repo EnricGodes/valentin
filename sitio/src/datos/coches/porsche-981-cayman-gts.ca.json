@@ -1,0 +1,458 @@
+{
+  "slug": "porsche-981-cayman-gts",
+  "archivoOriginal": "cayman.html",
+  "realce": "realce--cayman",
+  "meta": {
+    "titulo": "Porsche 981 Cayman GTS en venda · Valentin Motors",
+    "descripcion": "Porsche 981 Cayman GTS 2015 en Groc P3. Bòxer atmosfèric 3,4 litres, 340 CV, PDK, pell/Alcantara negre. Llibre de servei complet. A Valentin Motors.",
+    "ogImagen": "https://valentin.up.railway.app/img/cayman/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 981 Cayman GTS · 2015",
+    "subtitulo": "Porsche 981",
+    "titulo": "Cayman<br/>GTS",
+    "claim": "Motor central atmosfèric. 340 CV. Groc P3.",
+    "imagen": "/img/cayman/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Desplaça"
+  },
+  "intro": {
+    "etiqueta": "Història del vehicle",
+    "titulo": "Motor central,<br/><strong>bòxer atmosfèric<br/>i ADN GTS.</strong>",
+    "parrafos": [
+      "El <strong>Porsche Cayman 981 GTS</strong> és un dels esportius més equilibrats de la gamma moderna de Porsche. Motor central, bòxer de sis cilindres i 3,4 litres, caràcter completament atmosfèric i <strong>340 CV</strong> transmesos a l'eix posterior mitjançant caixa <strong>PDK</strong>.",
+      "Aquesta unitat, en <strong>Groc P3</strong>, amb interior en pell i Alcantara negre, prové del mercat espanyol i acumula <strong>51.157 km</strong> amb llibre de servei original i complet, incloent-hi quatre intervencions documentades a Centre Porsche i Valentin Motors."
+    ],
+    "cita": "Un esportiu pensat per conduir: precís, sonor, equilibrat. Polivalent sense renunciar al caràcter que defineix els GTS de Porsche.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "981 Cayman GTS",
+        "acento": false
+      },
+      {
+        "clave": "Any",
+        "valor": "2015",
+        "acento": false
+      },
+      {
+        "clave": "Quilòmetres",
+        "valor": "51.157 km",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bóxer 6 cil. · 3.400 cm³",
+        "acento": false
+      },
+      {
+        "clave": "Potència",
+        "valor": "340 CV",
+        "acento": false
+      },
+      {
+        "clave": "Transmissió",
+        "valor": "PDK",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Amarillo P3 · Interior negro",
+        "acento": false
+      },
+      {
+        "clave": "Preu",
+        "valor": "74.900 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galeria",
+    "titulo": "Groc P3.<br/><strong>Llantes negres.<br/>Pinces vermelles.</strong>",
+    "fotos": [
+      {
+        "src": "/img/cayman/exterior1.jpg",
+        "alt": "Frontal 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Frontal 3/4 · Groc P3 · Fars enfosquits"
+      },
+      {
+        "src": "/img/cayman/exterior2.jpg",
+        "alt": "Perfil lateral",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil lateral · Proporcions motor central"
+      },
+      {
+        "src": "/img/cayman/exterior3.jpg",
+        "alt": "Posterior 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posterior · Escapament central doble · Cayman GTS"
+      },
+      {
+        "src": "/img/cayman/exterior4.jpg",
+        "alt": "Detall exterior",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Detall exterior · Llantes negres · Pinça vermella"
+      },
+      {
+        "src": "/img/cayman/interior1.jpg",
+        "alt": "Interior GTS",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Interior · Pell / Alcantara negre · Seients GTS"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor i rendiment",
+    "titulo": "Bòxer<br/><strong>atmosfèric.<br/>Motor central.</strong>",
+    "stats": [
+      {
+        "valor": 340,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Potència",
+        "destacada": true
+      },
+      {
+        "valor": "3.4",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrada",
+        "destacada": false
+      },
+      {
+        "valor": "4.9",
+        "animado": false,
+        "unidad": "s",
+        "etiqueta": "0 a 100 km/h",
+        "destacada": false
+      },
+      {
+        "valor": "285",
+        "animado": false,
+        "unidad": "km/h",
+        "etiqueta": "Velocitat màx.",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El <strong>bòxer de sis cilindres i 3,4 litres</strong> del Cayman GTS no depèn de la sobrealimentació per generar emoció. El seu caràcter és completament atmosfèric: resposta directa des de mig règim, guanyant decisió i so a mesura que s'estiren les revolucions, amb el millor moment del lliurament per damunt de les <strong>4.000 rpm</strong>.",
+      "La caixa <strong>PDK</strong> gestiona els 340 CV amb precisió mil·limètrica, permetent canvis ràpids en mode Sport o una conducció fluida en ús quotidià. La tracció és <strong>posterior</strong>, reforçant la connexió entre el conductor i el xassís."
+    ],
+    "tags": [
+      "Bòxer 6 cil.",
+      "Atmosfèric",
+      "Motor central",
+      "PDK",
+      "Tracció posterior",
+      "Sport Chrono"
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Groc P3.<br/><strong>Baix, ample<br/>i precís.</strong>",
+    "texto": "El <strong>Groc P3</strong> converteix aquest Cayman en una declaració visual directa. L'especificació GTS afegeix al color de carrosseria els fars enfosquits, les llantes negres multiradi, les pinces de fre vermelles i el difusor posterior negre, construint un conjunt de màxim contrast i presència esportiva. Carrosseria verificada sense accidents.",
+    "fotos": [
+      {
+        "src": "/img/cayman/close-up1.jpg",
+        "alt": "Detall GTS",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detall GTS · Inscripció lateral"
+      },
+      {
+        "src": "/img/cayman/close-up2.jpg",
+        "alt": "Llanta i pinça",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta negra · Pinça de fre vermella"
+      },
+      {
+        "src": "/img/cayman/exterior3.jpg",
+        "alt": "Posterior",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posterior · Escapament central doble · Difusor negre"
+      },
+      {
+        "src": "/img/cayman/exterior4.jpg",
+        "alt": "Frontal GTS",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Frontal GTS · Preses negres · Fars enfosquits"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Pell i Alcantara.<br/><strong>Cockpit GTS.</strong>",
+    "fotos": [
+      {
+        "src": "/img/cayman/interior1.jpg",
+        "alt": "Cockpit GTS",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cockpit · Pell / Alcantara negre · Seients GTS"
+      },
+      {
+        "src": "/img/cayman/interior2.jpg",
+        "alt": "Consola i volant",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Consola PDK · Volant amb lleves · Sport Chrono"
+      },
+      {
+        "src": "/img/cayman/interior3.jpg",
+        "alt": "Instrumentació",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Quadre d'instruments · Gràfica Cayman GTS"
+      }
+    ],
+    "editorial": "L'habitacle del GTS combina pell i Alcantara negre amb costures de contrast. Els seients esportius amb inscripció GTS, el volant amb lleves PDK i el Sport Chrono componen un cockpit compacte, tècnic i centrat en el conductor."
+  },
+  "procedencia": {
+    "etiqueta": "Llibre de servei",
+    "titulo": "Historial<br/><strong>documentat<br/>al Centre Porsche.</strong>",
+    "hitos": [
+      {
+        "anio": "18/06/2015 · Barcelona",
+        "titulo": "Primera matriculació",
+        "cuerpo": "Unitat matriculada a Espanya el <strong>18 de juny de 2015</strong>. Mercat espanyol. Configuració GTS de fàbrica en Groc P3 amb interior pell i Alcantara negre.",
+        "badge": "Mercat espanyol · Configuració GTS"
+      },
+      {
+        "anio": "13.329 km y 23.249 km · Centro Porsche",
+        "titulo": "Primers serveis a Centre Porsche",
+        "cuerpo": "El vehicle completa les seves dues primeres revisions a <strong>Centre Porsche</strong>, amb el llibre de manteniment correctament segellat en ambdues intervencions.",
+        "badge": "Centre Porsche oficial"
+      },
+      {
+        "anio": "39.901 km · Centro Porsche",
+        "titulo": "Tercera revisió a Centre Porsche",
+        "cuerpo": "Tercera intervenció documentada a <strong>Centre Porsche</strong>. Historial íntegre amb segell oficial.",
+        "badge": "Centre Porsche oficial"
+      },
+      {
+        "anio": "51.011 km · Valentin Motors",
+        "titulo": "Servei major amb bugies a Valentin Motors",
+        "cuerpo": "Servei major realitzat a <strong>Valentin Motors</strong>, incloent-hi la substitució de bugies. El cotxe es presenta revisat i llest per lliurar.",
+        "badge": "74.900 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fitxa tècnica",
+    "titulo": "Especificacions<br/><strong>completes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Tipus",
+            "valor": "Bóxer 6 cilindros"
+          },
+          {
+            "clave": "Cilindrada",
+            "valor": "3.400 cm³"
+          },
+          {
+            "clave": "Alimentació",
+            "valor": "Inyección directa"
+          },
+          {
+            "clave": "Sobrealimentació",
+            "valor": "Atmosférico"
+          },
+          {
+            "clave": "Potència",
+            "valor": "340 CV"
+          },
+          {
+            "clave": "Posició",
+            "valor": "Central"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmissió i xassís",
+        "filas": [
+          {
+            "clave": "Caixa de canvis",
+            "valor": "PDK"
+          },
+          {
+            "clave": "Tracció",
+            "valor": "Trasera"
+          },
+          {
+            "clave": "Suspensió",
+            "valor": "PASM activa"
+          },
+          {
+            "clave": "Sport Chrono",
+            "valor": "Incluido"
+          }
+        ]
+      },
+      {
+        "titulo": "Prestacions",
+        "filas": [
+          {
+            "clave": "0 a 100 km/h",
+            "valor": "4,9 s"
+          },
+          {
+            "clave": "Velocitat màx.",
+            "valor": "285 km/h"
+          },
+          {
+            "clave": "Consum mixt",
+            "valor": "9 l / 100 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosseria i general",
+        "filas": [
+          {
+            "clave": "Carrosseria",
+            "valor": "Coupé biplaza"
+          },
+          {
+            "clave": "Any",
+            "valor": "2015"
+          },
+          {
+            "clave": "Primera matric.",
+            "valor": "18/06/2015"
+          },
+          {
+            "clave": "Quilòmetres",
+            "valor": "51.157 km"
+          },
+          {
+            "clave": "Color exterior",
+            "valor": "Amarillo P3"
+          },
+          {
+            "clave": "Interior",
+            "valor": "Piel / Alcántara negro"
+          }
+        ]
+      },
+      {
+        "titulo": "Procedència",
+        "filas": [
+          {
+            "clave": "Mercat",
+            "valor": "Español"
+          },
+          {
+            "clave": "Sense accidents",
+            "valor": "Sí"
+          },
+          {
+            "clave": "Llibre de servei",
+            "valor": "Original y completo"
+          },
+          {
+            "clave": "Propietaris",
+            "valor": "Por confirmar"
+          },
+          {
+            "clave": "Ubicació",
+            "valor": "Barcelona"
+          }
+        ]
+      },
+      {
+        "titulo": "Condicions de venda",
+        "filas": [
+          {
+            "clave": "Preu",
+            "valor": "74.900 €"
+          },
+          {
+            "clave": "Garantia",
+            "valor": "12 meses"
+          },
+          {
+            "clave": "La garantia cobreix",
+            "valor": "Motor y caja de cambios"
+          },
+          {
+            "clave": "Llest per lliurar",
+            "valor": "Sí"
+          }
+        ]
+      }
+    ]
+  },
+  "opinion": {
+    "etiqueta": "L'opinió d'en Jordi",
+    "titulo": "La visió<br/><strong>de l'expert.</strong>",
+    "foto": "/img/ruf/jordi.jpg",
+    "fotoAncho": 800,
+    "fotoAlto": 999,
+    "nombre": "Jordi Edo",
+    "rol": "Especialista Porsche · Valentin Motors",
+    "bio": "Més de 25 anys d'experiència amb Porsche de col·lecció i esportius d'alta gamma. Centenars d'operacions supervisades, amb especial atenció als models GTS i d'edicions especials.",
+    "intro": "\"En conducció, el 981 Cayman GTS se sent com un esportiu molt precís, però encara fàcil de portar ràpid.\"",
+    "parrafos": [
+      "El xassís és molt equilibrat: entra on apuntes el volant i es nota molt aplomat fins i tot a bon ritme. Les reaccions són <strong>progressives</strong>, gens brusques, cosa que genera una confiança que convida a seguir prement. El que més defineix aquest cotxe no és la velocitat, sinó la qualitat de la informació que et dona.",
+      "El <strong>motor atmosfèric</strong> té el caràcter que el turbo no pot replicar: resposta lineal, pujada de voltes amb decisió i un so que acompanya l'acceleració de manera molt present. És un motor que cal portar a les rpm. Per damunt de les <strong>4.000 rpm</strong> el cotxe es transforma.",
+      "Aquesta unitat té a més l'historial ideal: quatre serveis documentats, tres a Centre Porsche oficial i el darrer a Valentin Motors. És un cotxe del qual se sap exactament què s'hi ha fet i quan. Per a un comprador que sap què busca, això té un valor enorme."
+    ],
+    "prosTitulo": "El millor",
+    "pros": [
+      "Motor atmosfèric amb caràcter i so genuïns",
+      "Xassís GTS: el punt més dolç del 981",
+      "Llibre de servei complet amb segells de Centre Porsche",
+      "Groc P3 amb especificació GTS completa",
+      "Mercat espanyol, sense accidents",
+      "Polivalent sense renunciar al caràcter esportiu"
+    ],
+    "contrasTitulo": "A considerar",
+    "contras": [
+      "PDK, no manual, per a qui prefereix la palanca",
+      "El groc és cridaner, no apte per a qui busca discreció"
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/cayman/exterior2.jpg",
+    "cita": "Un Porsche 981 Cayman GTS amb motor central atmosfèric, <em>340 CV</em>, historial documentat al Centre Porsche i una especificació GTS completa en Groc P3.",
+    "precio": "74.900 €",
+    "precioTachado": true,
+    "precioLabel": "Porsche 981 Cayman GTS · Groc P3 · 2015",
+    "aviso": "Vehicle venut",
+    "nota": "Aquest vehicle ja no està disponible. Escriu-nos si busques una unitat similar.",
+    "ctaTexto": "Més informació",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "vendido",
+    "estadoTexto": "Venut",
+    "marca": "Porsche",
+    "nombre": "981 Cayman GTS",
+    "detalle": "2015 · 51.157 km · Groc P3 · Interior negre",
+    "descripcion": "Porsche 981 Cayman GTS 2015 en Groc P3. Bòxer atmosfèric 3,4 litres, 340 CV, PDK, interior pell/Alcantara negre. Llibre de servei complet. Disponible a Valentin Motors.",
+    "precio": "",
+    "precioPorConsultar": false,
+    "imagen": "/img/cayman/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 140,
+    "total": 140,
+    "completa": true
+  }
+}
