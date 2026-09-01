@@ -138,6 +138,7 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 2. **Tonneau cover**: la fuente escribe "tuneeau" — normalizado a "tonneau cover" en la web
 3. **100 km**: aparece como kilómetros desde restauración — validar con Valentin si es el dato comercial correcto
 4. **Garantía**: unificada como "garantía mecánica de motor y caja de cambios, 12 meses"
+5. **Carrocería KAAN**: es KAAN, el especialista austriaco. No es Karmann. Confirmado por Enric el 2026-09-01; queda cerrado, no volver a plantearlo
 
 ### Porsche 997 RUF Kompressor R (ruf.html)
 - Sin notas pendientes

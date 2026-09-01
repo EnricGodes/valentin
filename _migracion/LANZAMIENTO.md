@@ -115,4 +115,3 @@ la única vuelta atrás.
   `pendiente` de `sitio/src/datos/vendidos.json`.
 - Cuenta de Meta Business verificada y número remitente, para el aviso a
   WhatsApp del formulario. La alternativa sin verificación es Telegram.
-- Confirmar si "Porsche · KAAN" del 356 debería decir Karmann.
