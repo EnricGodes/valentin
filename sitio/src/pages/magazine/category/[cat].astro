@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Nav from '../../../components/Nav.astro';
 import Pie from '../../../components/Pie.astro';
+import ListaMagazine from '../../../components/ListaMagazine.astro';
 import { url } from '../../../i18n/routes';
 
 export async function getStaticPaths() {
@@ -15,14 +16,16 @@ export async function getStaticPaths() {
   }
   return [...cats].map(([cat, lista]) => ({
     params: { cat },
-    props: { cat, posts: lista.sort((a, b) => b.data.date.getTime() - a.data.date.getTime()) },
+    props: {
+      cat,
+      posts: lista.sort((a, b) => b.data.date.getTime() - a.data.date.getTime()),
+      secciones: [...cats.keys()].sort(),
+    },
   }));
 }
 
-const { cat, posts } = Astro.props;
+const { cat, posts, secciones } = Astro.props;
 const idioma = 'es' as const;
-const fmt = new Intl.DateTimeFormat('es', { month: 'short', year: 'numeric' });
-const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 ---
 <Base
   idioma={idioma}
@@ -35,28 +38,24 @@ const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').tri
   <Nav slot="nav" idioma={idioma} rutaId="magazine" idiomasPublicados={['es']} />
   <Pie slot="pie" idioma={idioma} />
 
-  <header class="page-header">
-    <div class="shimmer-line reveal"></div>
-    <h1 class="page-title reveal">
+  <header class="post-reja mag-cabecera">
+    <h1 class="mag-titulo ancha reveal">
       <em>Magazine</em>
       {cat}
     </h1>
-    <p class="catalog-meta reveal delay-1">
-      {posts.length} {posts.length === 1 ? 'articulo' : 'articulos'} &middot;
-      <a href={url('magazine', idioma)}>ver todos</a>
-    </p>
+    <nav class="mag-filtros ancha reveal delay-1">
+      <span>{posts.length} {posts.length === 1 ? 'artículo' : 'artículos'}</span>
+      <a href={url('magazine', idioma)}>Todos</a>
+      {secciones.map((c) => (
+        <a href={url('magazine', idioma, 'category', c)}
+           aria-current={c === cat ? 'page' : undefined}>{c}</a>
+      ))}
+    </nav>
   </header>
 
-  <div class="posts-grid">
-    {posts.map((p, i) => (
-      <a class={`post-card reveal delay-${Math.min(i + 1, 6)}`}
-         href={url('magazine', idioma, p.data.slugFinal)}>
-        <div class="post-card-body">
-          <p class="post-card-meta">{fmt.format(p.data.date)}</p>
-          <h2 class="post-card-title">{p.data.title}</h2>
-          <p class="post-card-desc">{limpio(p.data.excerpt).slice(0, 150)}</p>
-        </div>
-      </a>
-    ))}
+  <div class="post-reja">
+    {/* Sin pieza destacada: aqui ya se ha elegido seccion, y destacar una
+        dentro de la eleccion vuelve a decidir por quien ya decidio. */}
+    <ListaMagazine posts={posts} idioma={idioma} columnas={2} urgentes={4} />
   </div>
 </Base>

@@ -1,0 +1,81 @@
+---
+/**
+ * Listado de articulos del Magazine.
+ *
+ * Existia tres veces con tres formas distintas: el indice con foto, la
+ * categoria sin ella y el avance de la portada. Un archivo, una categoria y un
+ * avance son el mismo objeto editorial y deben leerse igual, asi que ahora son
+ * el mismo componente.
+ *
+ * La tarjeta sigue la gramatica del articulo: foto, dato en mono, titular en
+ * serif. Sin caja gris ni borde: la foto ya delimita, y una caja alrededor de
+ * cada pieza convierte un archivo en un catalogo de producto.
+ */
+import type { CollectionEntry } from 'astro:content';
+import type { Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+
+interface Props {
+  posts: CollectionEntry<'magazine'>[];
+  idioma: Idioma;
+  /** El mas reciente, a lo ancho y con entradilla. */
+  destacado?: boolean;
+  /** Columnas del listado; la portada muestra tres, el archivo dos. */
+  columnas?: number;
+  /** Cuantas fotos se cargan sin esperar al scroll. */
+  urgentes?: number;
+  /** Clase extra para el listado, p. ej. fuera de la rejilla del articulo. */
+  clase?: string;
+}
+
+const { posts, idioma, destacado = false, columnas = 2, urgentes = 4, clase = '' } = Astro.props;
+
+const fmt = new Intl.DateTimeFormat(idioma, { month: 'short', year: 'numeric' });
+const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+
+/* El derivado de 700 px, no el de 1600 del cuerpo: con 42 tarjetas la
+   diferencia es de megas, no de kilobytes. */
+const foto = (cuerpo: string) =>
+  (cuerpo.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1] ?? '')
+    .replace('/img/magazine/', '/img/magazine/card/');
+
+const lider = destacado ? posts[0] : null;
+const resto = destacado ? posts.slice(1) : posts;
+---
+{lider && (
+  <a class="mag-lider ancha reveal-foto" href={url('magazine', idioma, lider.data.slugFinal)}>
+    <div class="mag-lider-foto">
+      {foto(lider.body ?? '') && (
+        <img src={foto(lider.body ?? '')} alt="" width="700" height="525"
+             loading="eager" fetchpriority="high" decoding="async">
+      )}
+    </div>
+    <div class="mag-lider-texto">
+      <p class="mag-meta">
+        {fmt.format(lider.data.date)}
+        {lider.data.categories[0] && <> &middot; {lider.data.categories[0]}</>}
+      </p>
+      <h2 class="mag-lider-titulo">{lider.data.title}</h2>
+      <p class="mag-lider-deck">{limpio(lider.data.excerpt).slice(0, 220)}</p>
+    </div>
+  </a>
+)}
+
+<div class:list={['mag-lista', 'ancha', clase]} style={`--columnas:${columnas}`}>
+  {resto.map((p, i) => (
+    <a class="mag-card reveal-foto" href={url('magazine', idioma, p.data.slugFinal)}>
+      <div class="mag-card-foto">
+        {foto(p.body ?? '')
+          ? <img src={foto(p.body ?? '')} alt="" width="700" height="525"
+                 loading={i < urgentes ? 'eager' : 'lazy'} decoding="async">
+          : <span class="mag-card-sinfoto"></span>}
+      </div>
+      <p class="mag-meta">
+        {fmt.format(p.data.date)}
+        {p.data.categories[0] && <> &middot; {p.data.categories[0]}</>}
+      </p>
+      <h3 class="mag-card-titulo">{p.data.title}</h3>
+      <p class="mag-card-deck">{limpio(p.data.excerpt).slice(0, 130)}</p>
+    </a>
+  ))}
+</div>

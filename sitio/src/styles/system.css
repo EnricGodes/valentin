@@ -743,33 +743,114 @@ section { position: relative; }
   color: var(--concreto);
 }
 
-/* ── Magazine ─────────────────────────────────────────────────────────────── */
-.posts-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px;
-  max-width: var(--ancho-max); margin: 0 auto; padding: 0 var(--pad-lateral) 96px;
+/* ── Magazine: cabecera y listado ──────────────────────────────────────────
+   El indice comparte la rejilla del articulo (.post-reja) para que el archivo
+   y la pieza se lean como el mismo sitio: misma medida, mismo serif, mismo
+   dato en mono. Ver src/components/ListaMagazine.astro.
+   ------------------------------------------------------------------------ */
+.mag-cabecera { padding: 168px 0 0; }
+.mag-titulo {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(46px, 8vw, 104px); line-height: 0.96;
+  letter-spacing: -0.025em; color: var(--blanco); text-wrap: balance;
 }
-.post-card {
-  background: var(--grafito); text-decoration: none; color: inherit;
-  display: flex; flex-direction: column; overflow: hidden;
-  transition: background 0.3s;
+.mag-titulo em {
+  display: block; font-style: normal; font-family: var(--mono);
+  font-size: var(--t-label); letter-spacing: var(--tr-eyebrow);
+  text-transform: uppercase; color: var(--bronce); margin-bottom: 26px;
 }
-.post-card:hover { background: var(--carbon); }
-.post-card-img { aspect-ratio: 4 / 3; overflow: hidden; background: var(--carbon); }
-.post-card-img img {
+
+/* Filtros: el archivo tiene 42 piezas y cuatro secciones. Sin esta fila hay
+   que bajar hasta el final para descubrir que existen las categorias. */
+.mag-filtros {
+  display: flex; flex-wrap: wrap; gap: 10px 26px; align-items: baseline;
+  margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--linea-fuerte);
+  font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: var(--tr-label); text-transform: uppercase;
+}
+.mag-filtros span { color: rgba(167, 162, 154, 0.45); margin-right: auto; }
+.mag-filtros a { color: var(--concreto); text-decoration: none; transition: color 0.3s; }
+.mag-filtros a:hover, .mag-filtros a[aria-current='page'] { color: var(--bronce); }
+
+/* ── Pieza destacada ─────────────────────────────────────────────────────── */
+.mag-lider {
+  display: grid; grid-template-columns: 1.35fr 1fr; gap: var(--gap-columnas);
+  align-items: center; text-decoration: none; color: inherit;
+  margin: 72px 0 96px; padding-bottom: 96px; border-bottom: 1px solid var(--linea);
+}
+.mag-lider-foto { overflow: hidden; background: var(--carbon); aspect-ratio: 4 / 3; }
+.mag-lider-foto img {
   width: 100%; height: 100%; object-fit: cover;
-  transition: transform 0.9s var(--ease);
+  transition: transform 1.1s var(--ease);
 }
-.post-card:hover .post-card-img img { transform: scale(1.05); }
-.post-card-body { padding: 26px 26px 30px; display: flex; flex-direction: column; gap: 8px; }
-.post-card-meta {
-  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.2em;
-  color: var(--bronce); text-transform: uppercase;
+.mag-lider:hover .mag-lider-foto img { transform: scale(1.03); }
+.mag-lider-titulo {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(28px, 3.4vw, 46px); line-height: 1.1;
+  letter-spacing: -0.015em; color: var(--blanco);
+  margin-top: 18px; text-wrap: balance;
 }
-.post-card-title {
-  font-size: 17px; font-weight: 600; line-height: 1.3;
-  letter-spacing: -0.01em; color: var(--blanco); text-wrap: balance;
+.mag-lider:hover .mag-lider-titulo { color: var(--bronce); }
+.mag-lider-deck {
+  font-size: 17px; line-height: 1.65; color: var(--concreto); margin-top: 18px;
 }
-.post-card-desc { font-size: 13px; line-height: 1.6; color: var(--concreto); }
+
+/* ── Tarjeta ─────────────────────────────────────────────────────────────── */
+.mag-lista {
+  display: grid;
+  grid-template-columns: repeat(var(--columnas, 2), minmax(0, 1fr));
+  gap: 72px var(--gap-columnas);
+  padding-bottom: 120px;
+}
+.mag-card { text-decoration: none; color: inherit; display: block; }
+.mag-card-foto {
+  overflow: hidden; background: var(--carbon); aspect-ratio: 4 / 3; margin-bottom: 20px;
+}
+.mag-card-foto img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 1.1s var(--ease);
+}
+.mag-card:hover .mag-card-foto img { transform: scale(1.04); }
+.mag-card-sinfoto {
+  display: block; width: 100%; height: 100%;
+  background: linear-gradient(135deg, var(--carbon), var(--grafito));
+}
+.mag-card-titulo {
+  font-family: var(--serif); font-weight: 400;
+  font-size: 24px; line-height: 1.18; letter-spacing: -0.01em;
+  color: var(--blanco); margin-top: 12px; text-wrap: balance;
+  transition: color 0.3s;
+}
+.mag-card:hover .mag-card-titulo { color: var(--bronce); }
+.mag-card-deck {
+  font-size: 15px; line-height: 1.6; color: var(--concreto); margin-top: 10px;
+}
+
+.mag-meta {
+  font-family: var(--mono); font-size: var(--t-micro);
+  letter-spacing: var(--tr-label); text-transform: uppercase; color: var(--bronce);
+}
+
+/* La foto entra revelandose dentro de su marco, como en el articulo */
+.mag-lider.reveal-foto, .mag-card.reveal-foto { overflow: visible; }
+.mag-lider.reveal-foto .mag-lider-foto,
+.mag-card.reveal-foto .mag-card-foto { overflow: hidden; }
+
+/* En la portada el listado no vive en la rejilla del articulo */
+.mag-lista--home { padding: 0; margin-top: 52px; gap: 44px 40px; }
+
+@media (max-width: 1120px) {
+  .mag-cabecera { padding-top: 128px; }
+  .mag-lider { grid-template-columns: 1fr; gap: 28px; margin-bottom: 72px; padding-bottom: 72px; }
+}
+@media (max-width: 860px) {
+  .mag-lista { grid-template-columns: 1fr; gap: 56px; }
+  .mag-lista--home { grid-template-columns: 1fr; }
+  .mag-card-titulo { font-size: 21px; }
+}
+@media (min-width: 861px) and (max-width: 1120px) {
+  .mag-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 
 /* ── Post: articulo editorial ──────────────────────────────────────────────
    La rejilla tiene dos columnas y la lectura va en la de la derecha. La

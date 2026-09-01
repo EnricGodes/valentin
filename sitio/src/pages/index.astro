@@ -10,6 +10,7 @@
  */
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import ListaMagazine from '../components/ListaMagazine.astro';
 import Nav from '../components/Nav.astro';
 import Pie from '../components/Pie.astro';
 import Hero from '../components/Hero.astro';
@@ -27,7 +28,10 @@ const sec = (titulo: string) =>
   home.secciones.find((s) => s.titulo.toLowerCase().startsWith(titulo.toLowerCase()));
 
 const enVenta = COCHES.filter((c) => c.catalogo?.estado !== 'vendido').slice(0, 3);
-const posts = (await getCollection('magazine'))
+/* Filtrado por idioma: sin esto getCollection devuelve las 252 entradas de
+   los seis idiomas y los tres mas recientes son el MISMO articulo en espanol,
+   aleman e ingles. Se veia en la portada como tres tarjetas repetidas. */
+const posts = (await getCollection('magazine', (p) => p.data.lang === idioma))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 3);
 const fmt = new Intl.DateTimeFormat('es', { month: 'short', year: 'numeric' });
@@ -192,27 +196,8 @@ const testimonio = sec('“Desde que conozco');
         <CabeceraSeccion etiqueta="Magazine" titulo="Lo que pasa" destacado="dentro del taller." />
         <a class="enlace-mono" href={url('magazine', idioma)}>Ver todos &rarr;</a>
       </div>
-      <div class="posts-grid posts-grid--home">
-        {posts.map((p, i) => {
-          const img = (p.body ?? '').match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1]
-            ?.replace('/img/magazine/', '/img/magazine/card/') ?? '';
-          return (
-            <a class={`post-card reveal delay-${i + 1}`}
-               href={url('magazine', idioma, p.data.slugFinal)}>
-              {img && (
-                <div class="post-card-img">
-                  <img src={img} alt="" width="600" height="450" loading="lazy" decoding="async">
-                </div>
-              )}
-              <div class="post-card-body">
-                <p class="post-card-meta">{fmt.format(p.data.date)}</p>
-                <h3 class="post-card-title">{p.data.title}</h3>
-                <p class="post-card-desc">{sinHtml(p.data.excerpt).slice(0, 130)}</p>
-              </div>
-            </a>
-          );
-        })}
-      </div>
+      <ListaMagazine posts={posts} idioma={idioma} columnas={3}
+                     urgentes={0} clase="mag-lista--home" />
     </div>
   </section>
 
