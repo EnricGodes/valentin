@@ -107,6 +107,16 @@ export default function remarkModulos() {
         return;
       }
 
+      /* Herramienta incrustada. Solo deja el hueco: el componente lo pinta
+         Astro una vez y el script lo mueve aqui, para no tener el formulario
+         escrito dos veces ni el motor de reglas duplicado. */
+      if (nodo.name === 'herramienta') {
+        nodo.type = 'html';
+        nodo.value = `<div class="ancha" data-ims-hueco="${esc(at.id)}"></div>`;
+        nodo.children = [];
+        return;
+      }
+
       if (nodo.name === 'youtube') {
         nodo.type = 'html';
         nodo.value = `<div class="mod-incrustado ancha reveal">

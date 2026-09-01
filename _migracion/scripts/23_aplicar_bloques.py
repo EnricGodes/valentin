@@ -196,6 +196,11 @@ def escribir(bloques, parrafos, indices, alts):
         elif b['tipo'] == 'youtube':
             salida.append(directiva('youtube', {'id': b['id']}))
 
+        elif b['tipo'] == 'herramienta':
+            # Calculadora incrustada. Va en el modelo de bloques y no solo en
+            # el Markdown para que una pasada de este script no la borre.
+            salida.append(directiva('herramienta', {'id': b['id']}))
+
     # Lo que quede sin colocar va al final antes que perderse.
     resto = parrafos[cursor:]
     if resto:

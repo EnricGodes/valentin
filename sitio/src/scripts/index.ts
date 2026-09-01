@@ -6,6 +6,7 @@ import { iniciarContadores } from './contador.ts';
 import { iniciarMagneticos } from './magnetico.ts';
 import { iniciarEventos } from './eventos.ts';
 import { iniciarProgreso } from './progreso.ts';
+import { iniciarCalculadoraIms } from './calculadora-ims.ts';
 
 /**
  * Arranque unico del sitio. Cada modulo comprueba por su cuenta si tiene algo
@@ -21,6 +22,7 @@ function iniciar(): void {
   iniciarMagneticos();
   iniciarEventos();
   iniciarProgreso();
+  iniciarCalculadoraIms();
 }
 
 iniciar();

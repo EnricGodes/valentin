@@ -58,6 +58,9 @@ En el siguiente video, nuestro director general, Jordi Edo, explica en detalle c
 :::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
 :::
 
+:::herramienta{id="calculadora-ims"}
+:::
+
 ## **¿Qué vehículos están afectados?**
 
 Genéricamente están afectados los motores tipo M96 desde 1998 - 2004 y los tipo M97 2004 -2008 y todos los Boxster Cayman 986 y 987.

@@ -20,6 +20,9 @@ const enlaces = [
   { id: 'taller', texto: t('nav.taller') },
   { id: 'restauraciones', texto: t('nav.servicios') },
   { id: 'magazine', texto: t('nav.magazine') },
+  // Las herramientas solo existen en castellano por ahora. Enlazarlas desde el
+  // menu aleman seria ofrecer un 404 en el sitio principal.
+  ...(idioma === 'es' ? [{ id: 'herramientas', texto: t('nav.herramientas') }] : []),
   { id: 'quienes-somos', texto: t('nav.nosotros') },
   { id: 'contacto', texto: t('nav.contacto') },
 ];

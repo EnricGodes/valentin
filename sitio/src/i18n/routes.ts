@@ -111,6 +111,19 @@ export const RUTAS: Ruta[] = [
   { id: 'magazine', seccion: 'magazine',
     slugs: SEGMENTOS.magazine },
 
+  // ── Herramientas ────────────────────────────────────────────────────────
+  // La v1 de la calculadora esta solo en castellano (los textos viven en
+  // logica/ims/textos.es.ts). Los slugs de los otros cinco idiomas ya estan
+  // aqui para cuando se traduzca, pero esas paginas NO se generan todavia y
+  // el menu no las ofrece: ver Nav.astro.
+  { id: 'herramientas', seccion: 'herramientas',
+    slugs: { es: 'herramientas', en: 'tools', fr: 'outils',
+             it: 'strumenti', de: 'werkzeuge', ca: 'eines' } },
+  { id: 'calculadora-ims', seccion: 'herramientas',
+    slugs: { es: 'herramientas/calculadora-ims-porsche', en: 'tools/porsche-ims-calculator',
+             fr: 'outils/calculateur-ims-porsche', it: 'strumenti/calcolatore-ims-porsche',
+             de: 'werkzeuge/porsche-ims-rechner', ca: 'eines/calculadora-ims-porsche' } },
+
   // ── Legales ─────────────────────────────────────────────────────────────
   { id: 'aviso-legal', seccion: 'legal',
     slugs: { es: 'aviso-legal', en: 'legal-notice', fr: 'mentions-legales',

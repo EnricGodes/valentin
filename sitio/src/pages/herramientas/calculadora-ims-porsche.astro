@@ -1,0 +1,52 @@
+---
+/**
+ * Calculadora IMS, URL propia y compartible.
+ *
+ * Solo en castellano en la v1: los textos viven en logica/ims/textos.es.ts.
+ * Cuando existan textos.en.ts y hermanos, esta pagina pasa a generarse por
+ * idioma desde el manifiesto y se quita el filtro del menu en Nav.astro.
+ */
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Pie from '../../components/Pie.astro';
+import CalculadoraIms from '../../components/CalculadoraIms.astro';
+import Migas from '../../components/seo/Migas.astro';
+import { url } from '../../i18n/routes';
+
+const idioma = 'es' as const;
+const articulo = url('magazine', idioma, 'que-es-el-ims-de-porsche');
+---
+<Base
+  idioma={idioma}
+  rutaId="calculadora-ims"
+  idiomasPublicados={['es']}
+  tipoPagina="herramienta"
+  titulo="Calculadora IMS Porsche: comprueba modelo y año · Valentin Motors"
+  descripcion="Selecciona tu modelo y año para saber qué tipo de IMS puede montar, su nivel de afectación y qué comprobaciones necesita."
+>
+  <Fragment slot="head">
+    <Migas idioma={idioma} migas={[
+      { nombre: 'Herramientas', rutaId: 'herramientas' },
+      { nombre: 'Calculadora IMS', rutaId: 'calculadora-ims' },
+    ]} />
+  </Fragment>
+  <Nav slot="nav" idioma={idioma} rutaId="herramientas" idiomasPublicados={['es']} />
+  <Pie slot="pie" idioma={idioma} />
+
+  <header class="post-reja mag-cabecera">
+    <h1 class="mag-titulo ancha reveal">
+      <em>Herramienta</em>
+      ¿Tu Porsche está afectado por el IMS?
+    </h1>
+    <p class="ims-intro ancha reveal delay-1">
+      Selecciona modelo y año. En las unidades de transición te pediremos un dato
+      adicional: preferimos una pregunta más a una respuesta engañosa.
+    </p>
+  </header>
+
+  <div class="post-reja ims-envoltorio">
+    <div class="ancha">
+      <CalculadoraIms enlaceArticulo={articulo} />
+    </div>
+  </div>
+</Base>

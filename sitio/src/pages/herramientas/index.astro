@@ -1,0 +1,59 @@
+---
+/**
+ * Indice de herramientas.
+ *
+ * Hoy hay una. Existe igualmente porque el menu dice "Herramientas" y llevar
+ * ese menu directo a una calculadora concreta obliga a renombrarlo el dia que
+ * haya una segunda. La lista se declara aqui, no en el menu.
+ */
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Pie from '../../components/Pie.astro';
+import { url } from '../../i18n/routes';
+
+const idioma = 'es' as const;
+
+const herramientas = [
+  {
+    id: 'calculadora-ims',
+    nombre: 'Calculadora IMS Porsche',
+    eyebrow: 'Diagnóstico orientativo',
+    descripcion: 'Comprueba, a partir del modelo y el año, qué tipo de rodamiento del eje intermedio puede montar tu Porsche, cuál es su incidencia relativa y qué hace falta para confirmarlo.',
+    para: '911 996 y 997.1 · Boxster 986 y 987.1 · Cayman 987.1',
+  },
+];
+---
+<Base
+  idioma={idioma}
+  rutaId="herramientas"
+  idiomasPublicados={['es']}
+  titulo="Herramientas · Valentin Motors"
+  descripcion="Herramientas de consulta para propietarios de Porsche, hechas por los especialistas de Valentin Motors."
+>
+  <Nav slot="nav" idioma={idioma} rutaId="herramientas" idiomasPublicados={['es']} />
+  <Pie slot="pie" idioma={idioma} />
+
+  <header class="post-reja mag-cabecera">
+    <h1 class="mag-titulo ancha reveal">
+      <em>Valentin Motors</em>
+      Herramientas
+    </h1>
+    <p class="ims-intro ancha reveal delay-1">
+      Consultas que resolvemos a diario en el taller, puestas donde puedas
+      hacerlas tú. Son orientativas: ninguna sustituye a mirar el coche.
+    </p>
+  </header>
+
+  <div class="post-reja">
+    <div class="herramientas ancha">
+      {herramientas.map((h) => (
+        <a class="herramienta reveal" href={url(h.id, idioma)}>
+          <p class="mag-meta">{h.eyebrow}</p>
+          <h2 class="herramienta-nombre">{h.nombre}</h2>
+          <p class="herramienta-desc">{h.descripcion}</p>
+          <p class="herramienta-para">{h.para}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

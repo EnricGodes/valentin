@@ -7,6 +7,7 @@ export const UI = {
   'nav.servicios':   { es: 'Servicios', en: 'Services', fr: 'Services', it: 'Servizi', de: 'Leistungen', ca: 'Serveis' },
   'nav.tarifas':     { es: 'Tarifas', en: 'Pricing', fr: 'Tarifs', it: 'Tariffe', de: 'Preise', ca: 'Tarifes' },
   'nav.magazine':    { es: 'Magazine', en: 'Magazine', fr: 'Magazine', it: 'Magazine', de: 'Magazine', ca: 'Magazine' },
+  'nav.herramientas': { es: 'Herramientas', en: 'Tools', fr: 'Outils', it: 'Strumenti', de: 'Werkzeuge', ca: 'Eines' },
   'nav.nosotros':    { es: 'Nosotros', en: 'About', fr: 'À propos', it: 'Chi siamo', de: 'Über uns', ca: 'Nosaltres' },
   'nav.contacto':    { es: 'Contacto', en: 'Contact', fr: 'Contact', it: 'Contatti', de: 'Kontakt', ca: 'Contacte' },
 

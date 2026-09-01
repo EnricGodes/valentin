@@ -1,0 +1,112 @@
+---
+/**
+ * Calculadora IMS: formulario y hueco del resultado.
+ *
+ * El componente solo pinta. Toda la logica tecnica vive en src/logica/ims y la
+ * comparte con la pagina y con el articulo: un unico motor de reglas, dos
+ * sitios donde se usa.
+ *
+ * El formulario se sirve completo desde el servidor. Sin JavaScript se ve y se
+ * entiende, aunque no calcule: es una herramienta de consulta, no un tramite.
+ */
+import { OPCIONES, UI, AVISO } from '../logica/ims/textos.es.ts';
+import { MOTORES, VERSION_REGLAS, REVISADO } from '../logica/ims/reglas.ts';
+import { url } from '../i18n/routes';
+
+interface Props {
+  /** Dentro del artículo la calculadora se presenta con menos aparato. */
+  compacta?: boolean;
+  /** Enlace al artículo; se omite cuando ya estamos dentro de él. */
+  enlaceArticulo?: string;
+}
+const { compacta = false, enlaceArticulo } = Astro.props;
+
+const anoMax = new Date().getFullYear() + 1;
+---
+<section class:list={['ims', compacta && 'ims--compacta']} data-ims
+         data-version={VERSION_REGLAS}>
+  <form class="ims-form" data-ims-form novalidate>
+    <div class="ims-campos">
+      <p class="ims-campo">
+        <label for="ims-familia">{UI.modelo}</label>
+        <select id="ims-familia" name="familia" required>
+          {OPCIONES.familia.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
+        </select>
+      </p>
+
+      <p class="ims-campo">
+        <label for="ims-ano">{UI.ano}</label>
+        <input id="ims-ano" name="ano" type="number" inputmode="numeric"
+               min="1948" max={anoMax} required
+               aria-describedby="ims-ano-ayuda">
+        <span class="ims-ayuda" id="ims-ano-ayuda">{UI.anoAyuda}</span>
+      </p>
+
+      <p class="ims-campo">
+        <label for="ims-base">{UI.baseAno}</label>
+        <select id="ims-base" name="baseAno">
+          {OPCIONES.baseAno.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
+        </select>
+      </p>
+    </div>
+
+    {/* Solo se muestran cuando el evaluador las pide. */}
+    <div class="ims-extra" data-ims-extra hidden>
+      <p class="ims-campo" data-ims-campo="generacion" hidden>
+        <label for="ims-generacion">{UI.generacion}</label>
+        <select id="ims-generacion" name="generacion"></select>
+      </p>
+      <p class="ims-campo" data-ims-campo="variante" hidden>
+        <label for="ims-variante">{UI.variante}</label>
+        <select id="ims-variante" name="variante">
+          {OPCIONES.variante.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
+        </select>
+      </p>
+    </div>
+
+    <p class="ims-error" data-ims-error role="alert" hidden></p>
+
+    <button class="cta ims-enviar" type="submit">{UI.calcular}</button>
+  </form>
+
+  {/* aria-live: quien usa lector de pantalla tiene que enterarse del
+      resultado sin ir a buscarlo. */}
+  <div class="ims-resultado" data-ims-resultado aria-live="polite" hidden></div>
+
+  <details class="ims-afinar" data-ims-afinar hidden>
+    <summary>{UI.afinar}</summary>
+    <div class="ims-campos">
+      <p class="ims-campo">
+        <label for="ims-original">{UI.motorOriginal}</label>
+        <select id="ims-original" name="originalidadMotor">
+          {OPCIONES.originalidad.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
+        </select>
+      </p>
+      <p class="ims-campo">
+        <label for="ims-intervencion">{UI.intervencion}</label>
+        <select id="ims-intervencion" name="intervencionIms">
+          {OPCIONES.intervencion.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
+        </select>
+      </p>
+      <p class="ims-campo">
+        <label for="ims-codigo">{UI.codigoMotor}</label>
+        <select id="ims-codigo" name="codigoMotor">
+          <option value="">No lo sé</option>
+          {MOTORES.map((m) => <option value={m.codigo} data-familias={m.familias.join(',')}>{m.etiqueta}</option>)}
+        </select>
+      </p>
+      <p class="ims-campo">
+        <label for="ims-serie">{UI.serieMotor}</label>
+        <input id="ims-serie" name="serieMotor" type="text" autocomplete="off"
+               spellcheck="false" aria-describedby="ims-serie-ayuda">
+        <span class="ims-ayuda" id="ims-serie-ayuda">{UI.serieAyuda}</span>
+      </p>
+    </div>
+  </details>
+
+  <p class="ims-aviso">{AVISO}</p>
+  <p class="ims-version">
+    Reglas v{VERSION_REGLAS} · revisadas el {REVISADO}
+    {enlaceArticulo && <> · <a href={enlaceArticulo}>{UI.ctaArticulo}</a></>}
+  </p>
+</section>

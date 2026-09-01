@@ -8,6 +8,7 @@ import { traductor } from '../../i18n/ui';
 import Articulo from '../../components/seo/Articulo.astro';
 import Migas from '../../components/seo/Migas.astro';
 import Faq from '../../components/seo/Faq.astro';
+import CalculadoraIms from '../../components/CalculadoraIms.astro';
 import { DOMINIO } from '../../i18n/config';
 import type { Idioma } from '../../i18n/config';
 
@@ -43,6 +44,11 @@ const cuerpoMd = (post.body ?? '').trim();
 const abre = /^!\[[^\]]*\]\(([^)\s]+)/.exec(cuerpoMd.split(/\n\s*\n/)[0].trim());
 const heroFoto = abre?.[1];
 const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
+/* Herramientas incrustadas en el articulo. El cuerpo deja el hueco con la
+   directiva `:::herramienta` y el script mueve el componente hasta el. Se
+   declara aqui, y no en el Markdown, porque el componente es de Astro. */
+const llevaCalculadoraIms = (post.body ?? '').includes('herramienta{id="calculadora-ims"}');
+
 const descripcion = limpio(post.data.excerpt).slice(0, 300)
   || `${post.data.title} · Magazine de Valentin Motors.`;
 ---
@@ -120,6 +126,12 @@ const descripcion = limpio(post.data.excerpt).slice(0, 300)
       import { iniciarModulos } from '../../scripts/modulos.ts';
       iniciarModulos();
     </script>
+
+    {llevaCalculadoraIms && (
+      <div class="post-reja ims-envoltorio">
+        <div class="ancha"><CalculadoraIms compacta /></div>
+      </div>
+    )}
 
     <div class="post-reja">
       {post.data.ctas.length > 0 && (

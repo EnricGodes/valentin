@@ -1480,3 +1480,136 @@ section { position: relative; }
   .mod-galeria { margin: 40px 0; }
   .mod-lupa { padding: 16px; }
 }
+
+/* ── Herramientas ──────────────────────────────────────────────────────────
+   Indice de la seccion y calculadora IMS. Reutiliza la rejilla del articulo
+   (.post-reja) y el mono de los datos tecnicos: una herramienta del taller no
+   deberia parecer de otro sitio.
+   ------------------------------------------------------------------------ */
+.ims-intro {
+  font-family: var(--serif); font-weight: 300;
+  font-size: clamp(19px, 2.1vw, 26px); line-height: 1.45;
+  color: var(--concreto); max-width: 34ch; margin-top: 36px;
+}
+
+.herramientas { display: grid; gap: 2px; padding-bottom: 120px; }
+.herramienta {
+  display: block; text-decoration: none; color: inherit;
+  background: var(--grafito); padding: 40px 44px;
+  transition: background 0.3s var(--ease);
+}
+.herramienta:hover { background: var(--carbon); }
+.herramienta-nombre {
+  font-family: var(--serif); font-weight: 400; font-size: clamp(24px, 2.6vw, 34px);
+  line-height: 1.14; color: var(--blanco); margin-top: 12px;
+}
+.herramienta-desc { font-size: 17px; line-height: 1.65; color: var(--concreto); margin-top: 14px; max-width: 62ch; }
+.herramienta-para {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--concreto); margin-top: 18px;
+}
+
+.ims-envoltorio { padding-bottom: 24px; }
+.ims { margin: 48px 0 0; }
+.ims--compacta { margin: 0; }
+
+.ims-form { background: var(--grafito); padding: 36px 40px; }
+.ims-campos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px 32px; }
+.ims-campo { display: flex; flex-direction: column; gap: 8px; margin: 0; }
+/* `display:flex` gana al `display:none` que el navegador aplica a [hidden], y
+   los campos condicionales se veian vacios antes de que nadie los pidiera. */
+.ims [hidden] { display: none; }
+.ims-campo label {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce);
+}
+.ims select, .ims input[type="text"], .ims input[type="number"] {
+  font-family: var(--sans); font-size: 16px; color: var(--blanco);
+  background: var(--negro); border: 1px solid var(--linea-fuerte);
+  padding: 12px 14px; width: 100%; border-radius: 0;
+  transition: border-color 0.25s var(--ease);
+}
+.ims select:hover, .ims input:hover { border-color: var(--linea-bronce); }
+.ims select:focus-visible, .ims input:focus-visible,
+.ims summary:focus-visible, .ims button:focus-visible {
+  outline: 2px solid var(--bronce); outline-offset: 2px; border-color: var(--bronce);
+}
+.ims-ayuda { font-size: 13px; line-height: 1.5; color: var(--concreto); }
+.ims-extra { margin-top: 24px; }
+.ims-error {
+  margin-top: 20px; padding: 12px 16px; font-size: 15px;
+  color: var(--blanco); border-left: 2px solid var(--ambar); background: rgba(217, 164, 0, 0.08);
+}
+.ims-enviar { margin-top: 28px; }
+
+/* ── Resultado ───────────────────────────────────────────────────────────── */
+.ims-resultado { margin-top: 2px; }
+.ims-res { background: var(--carbon); padding: 40px 44px; border-top: 2px solid var(--concreto); }
+/* El estado NO se comunica solo con color: cada uno lleva etiqueta, titular y
+   explicacion. La banda superior es un refuerzo, no el mensaje. */
+.ims-res--si { border-top-color: var(--ambar); }
+.ims-res--si_menor_incidencia { border-top-color: var(--bronce); }
+.ims-res--posible { border-top-color: var(--concreto); }
+.ims-res--no { border-top-color: #4E7A5B; }
+.ims-res--desconocida { border-top-color: var(--linea-fuerte); }
+
+.ims-res-etiqueta {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce);
+}
+.ims-res-titular {
+  font-family: var(--serif); font-weight: 400; font-size: clamp(24px, 2.8vw, 36px);
+  line-height: 1.14; color: var(--blanco); margin-top: 14px; text-wrap: balance;
+}
+.ims-res-cuerpo { font-size: 17px; line-height: 1.7; color: var(--concreto); margin-top: 18px; max-width: 62ch; }
+
+.ims-res-datos {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1px; background: var(--linea); margin-top: 32px;
+}
+.ims-res-datos > div { background: var(--carbon); padding: 16px 18px; }
+.ims-res-datos dt {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--concreto);
+}
+.ims-res-datos dd { font-size: 15px; line-height: 1.45; color: var(--blanco); margin-top: 8px; }
+
+.ims-res-bloque { margin-top: 32px; }
+.ims-res-bloque h4 {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce); margin-bottom: 12px;
+}
+.ims-res-bloque ul { padding-left: 20px; }
+.ims-res-bloque li { font-size: 16px; line-height: 1.65; color: var(--concreto); }
+.ims-res-bloque li + li { margin-top: 8px; }
+.ims-res-retro { border-left: 2px solid var(--bronce); padding-left: 22px; }
+.ims-res-retro p { font-size: 16px; line-height: 1.65; color: var(--concreto); }
+.ims-res-retro p + p { margin-top: 8px; }
+.ims-res-nota { font-size: 16px; line-height: 1.65; color: var(--blanco); margin-top: 28px; max-width: 62ch; }
+
+.ims-cta { margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--linea-fuerte); }
+.ims-cta-titulo { font-size: 19px; font-weight: 600; color: var(--blanco); }
+.ims-cta-texto { font-size: 16px; line-height: 1.6; color: var(--concreto); margin-top: 8px; max-width: 58ch; }
+.ims-cta .cta { margin-top: 22px; }
+.ims-res-aviso, .ims-aviso {
+  font-size: 13px; line-height: 1.6; color: var(--concreto);
+  margin-top: 28px; max-width: 74ch;
+}
+
+.ims-afinar { margin-top: 2px; background: var(--grafito); padding: 0 40px; }
+.ims-afinar[open] { padding-bottom: 36px; }
+.ims-afinar summary {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce); cursor: pointer; padding: 22px 0;
+}
+.ims-version {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.14em;
+  text-transform: uppercase; color: rgba(167, 162, 154, 0.45); margin-top: 18px;
+}
+.ims-version a { color: var(--bronce); }
+
+@media (max-width: 700px) {
+  .ims-form, .ims-res { padding: 28px 22px; }
+  .ims-afinar { padding-inline: 22px; }
+  .herramienta { padding: 28px 24px; }
+}
