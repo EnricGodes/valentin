@@ -26,7 +26,7 @@ Questo progetto ci è arrivato tramite un cliente del sud della Spagna che da te
 
 L'olio motore che gocciolava a terra e la mancanza di finezza e potenza del motore lo hanno incoraggiato a contattarci e mettersi al lavoro.
 
-![](/img/magazine/ff41b840-foto-jordi.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 2](/img/magazine/ff41b840-foto-jordi.jpg)
 
 ### L'opinione di Jordi
 
@@ -57,17 +57,17 @@ L'assemblaggio del motore è stato effettuato secondo i più alti standard di qu
 -Tagliando maggiore: qui a Valentin Motors chiamiamo tagliando maggiore il processo di intervento di disaccoppiamento del motore e del cambio e il protocollo di revisione dei sistemi completi ma senza smontare il motore completo.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![PHOTO-2022-02-15-10-56-04.jpg](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
-![PHOTO-2022-02-15-16-31-20.jpg](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
-![PHOTO-2022-02-16-09-13-10.jpg](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
-![PHOTO-2022-02-16-09-14-00.jpg](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
-![PHOTO-2022-02-22-09-46-55.jpg](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
-![PHOTO-2022-02-23-16-05-09.jpg](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
-![PHOTO-2022-02-23-16-06-30.jpg](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
-![PHOTO-2022-02-23-16-35-14.jpg](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
-![PHOTO-2022-02-23-16-35-21.jpg](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
-![PHOTO-2022-02-24-17-00-41.jpg](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
-![PHOTO-2022-02-28-11-30-44.jpg](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 3](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 4](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 5](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 6](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 7](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 8](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 9](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 10](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 11](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 12](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
+![Restauro motore completo 965 (964 turbo 3.3), 13](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
 :::
 
 Finalmente il motore era in condizioni impeccabili, abbiamo un confronto prima/dopo:
@@ -76,7 +76,7 @@ Finalmente il motore era in condizioni impeccabili, abbiamo un confronto prima/d
 
 *Stato del blocco già in montaggio*
 
-![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
 ### Il consiglio tecnico di Jordi
 

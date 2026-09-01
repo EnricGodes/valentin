@@ -39,8 +39,8 @@ It is worth distinguishing two different concepts:
 -Major overhaul: here at Valentin Motors we call major overhaul the intervention process of engine and gearbox decoupling and complete systems review protocol but without disassembling the complete engine.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
+![Complete engine rehabilitation 964 M64, 2](/img/magazine/29529723-mot-2.jpg)
+![Complete engine rehabilitation 964 M64, 3](/img/magazine/c7130da3-mot-3.jpg)
+![Complete engine rehabilitation 964 M64, 4](/img/magazine/d9a78aaa-mot-4.jpg)
+![Complete engine rehabilitation 964 M64, 5](/img/magazine/725cdf3d-mot-5.jpg)
 :::

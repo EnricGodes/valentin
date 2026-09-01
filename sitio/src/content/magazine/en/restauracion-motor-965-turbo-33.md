@@ -26,7 +26,7 @@ This project came to us through a client from the south of Spain who had been wa
 
 The engine oil dripping onto the ground and the lack of finesse and power of the engine encouraged him to contact us and get to work.
 
-![](/img/magazine/ff41b840-foto-jordi.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 2](/img/magazine/ff41b840-foto-jordi.jpg)
 
 ### Jordi's opinion
 
@@ -57,17 +57,17 @@ It is worth distinguishing two different concepts:
 -Major overhaul: here at Valentin Motors we call major overhaul the intervention process of engine and gearbox decoupling and complete systems review protocol but without disassembling the complete engine.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![PHOTO-2022-02-15-10-56-04.jpg](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
-![PHOTO-2022-02-15-16-31-20.jpg](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
-![PHOTO-2022-02-16-09-13-10.jpg](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
-![PHOTO-2022-02-16-09-14-00.jpg](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
-![PHOTO-2022-02-22-09-46-55.jpg](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
-![PHOTO-2022-02-23-16-05-09.jpg](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
-![PHOTO-2022-02-23-16-06-30.jpg](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
-![PHOTO-2022-02-23-16-35-14.jpg](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
-![PHOTO-2022-02-23-16-35-21.jpg](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
-![PHOTO-2022-02-24-17-00-41.jpg](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
-![PHOTO-2022-02-28-11-30-44.jpg](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 3](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 4](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 5](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 6](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 7](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 8](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 9](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 10](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 11](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 12](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
+![Restoration complete engine 965 (964 turbo 3.3), 13](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
 :::
 
 Finally the engine was in impeccable condition, we have a before/after comparison:
@@ -76,7 +76,7 @@ Finally the engine was in impeccable condition, we have a before/after compariso
 
 *State of the block already in assembly*
 
-![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
 ### Jordi's technical tip
 

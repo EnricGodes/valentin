@@ -39,8 +39,8 @@ Es lohnt sich, zwei verschiedene Konzepte zu unterscheiden:
 -Große Inspektion: Hier bei Valentin Motors bezeichnen wir als große Inspektion den Eingriffsprozess der Motor- und Getriebeentkopplung und des Protokolls zur vollständigen Systemüberprüfung, jedoch ohne Demontage des gesamten Motors.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
+![Komplette Motorsanierung 964 M64, 2](/img/magazine/29529723-mot-2.jpg)
+![Komplette Motorsanierung 964 M64, 3](/img/magazine/c7130da3-mot-3.jpg)
+![Komplette Motorsanierung 964 M64, 4](/img/magazine/d9a78aaa-mot-4.jpg)
+![Komplette Motorsanierung 964 M64, 5](/img/magazine/725cdf3d-mot-5.jpg)
 :::

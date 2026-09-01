@@ -26,7 +26,7 @@ Aquest projecte ens va arribar a través d'un client del sud d'Espanya que feia 
 
 El degoteig d'oli motor a terra i la manca de finor i potència del propulsor el va animar a contactar amb nosaltres i posar-nos fil a l'agulla.
 
-![](/img/magazine/ff41b840-foto-jordi.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 2](/img/magazine/ff41b840-foto-jordi.jpg)
 
 ### L'opinió de Jordi
 
@@ -57,17 +57,17 @@ Cal diferenciar dos conceptes diferents:
 -Gran aturada: aquí a Valentin Motors anomenem gran aturada el procés d'intervenció de desacoblament motor i caixa i protocol de revisió completa de sistemes però sense desmuntar el motor complet.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![PHOTO-2022-02-15-10-56-04.jpg](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
-![PHOTO-2022-02-15-16-31-20.jpg](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
-![PHOTO-2022-02-16-09-13-10.jpg](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
-![PHOTO-2022-02-16-09-14-00.jpg](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
-![PHOTO-2022-02-22-09-46-55.jpg](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
-![PHOTO-2022-02-23-16-05-09.jpg](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
-![PHOTO-2022-02-23-16-06-30.jpg](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
-![PHOTO-2022-02-23-16-35-14.jpg](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
-![PHOTO-2022-02-23-16-35-21.jpg](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
-![PHOTO-2022-02-24-17-00-41.jpg](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
-![PHOTO-2022-02-28-11-30-44.jpg](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 3](/img/magazine/4fd92095-PHOTO-2022-02-15-10-56-04.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 4](/img/magazine/5d8d67af-PHOTO-2022-02-15-16-31-20.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 5](/img/magazine/2b357a9f-PHOTO-2022-02-16-09-13-10.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 6](/img/magazine/fa38b2aa-PHOTO-2022-02-16-09-14-00.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 7](/img/magazine/9e4de585-PHOTO-2022-02-22-09-46-55.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 8](/img/magazine/85d30984-PHOTO-2022-02-23-16-05-09.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 9](/img/magazine/278dc714-PHOTO-2022-02-23-16-06-30.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 10](/img/magazine/1db025ef-PHOTO-2022-02-23-16-35-14.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 11](/img/magazine/bf2da63d-PHOTO-2022-02-23-16-35-21.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 12](/img/magazine/eb74e6b3-PHOTO-2022-02-24-17-00-41.jpg)
+![Restauració completa motor 965 (964 turbo 3.3), 13](/img/magazine/df72751a-PHOTO-2022-02-28-11-30-44.jpg)
 :::
 
 Finalment el motor va quedar en un estat impecable, tenim una comparativa de l'abans/després:
@@ -76,7 +76,7 @@ Finalment el motor va quedar en un estat impecable, tenim una comparativa de l'a
 
 *Estat del bloc ja en muntatge*
 
-![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
+![Rehabilitació completa motor 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
 ### El tip tecnic de Jordi
 

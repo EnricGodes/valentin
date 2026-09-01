@@ -54,19 +54,19 @@ La prima fase dello smontaggio è sempre importante per verificare lo stato di t
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Boxer smontato sul telaietto, con collettore e scarico a vista](/img/magazine/ce5c9824-foto-1.jpg)
-![foto 2.jpg](/img/magazine/3ed7f693-foto-2.jpg)
-![foto 3.jpg](/img/magazine/a9b2ab1f-foto-3.jpg)
-![foto 4.jpg](/img/magazine/dc81fac2-foto-4.jpg)
-![foto 5.jpg](/img/magazine/dd763a29-foto-5.jpg)
-![foto 6.jpg](/img/magazine/3bed9dd4-foto-6.jpg)
-![foto 7.jpg](/img/magazine/30dbb0b9-foto-7.jpg)
-![foto 8.jpg](/img/magazine/b3e0a823-foto-8.jpg)
-![foto 9.jpg](/img/magazine/7f7f24f4-foto-9.jpg)
-![foto 10.jpg](/img/magazine/f029fa7f-foto-10.jpg)
-![foto 11.jpg](/img/magazine/2ac8a7c8-foto-11.jpg)
-![foto 12.jpg](/img/magazine/74ff9c3b-foto-12.jpg)
-![foto 13.jpg](/img/magazine/547a6585-foto-13.jpg)
-![foto 14.jpg](/img/magazine/1d0df587-foto-14.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 4](/img/magazine/3ed7f693-foto-2.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 5](/img/magazine/a9b2ab1f-foto-3.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 6](/img/magazine/dc81fac2-foto-4.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 7](/img/magazine/dd763a29-foto-5.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 8](/img/magazine/3bed9dd4-foto-6.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 9](/img/magazine/30dbb0b9-foto-7.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 10](/img/magazine/b3e0a823-foto-8.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 11](/img/magazine/7f7f24f4-foto-9.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 12](/img/magazine/f029fa7f-foto-10.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 13](/img/magazine/2ac8a7c8-foto-11.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 14](/img/magazine/74ff9c3b-foto-12.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 15](/img/magazine/547a6585-foto-13.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 16](/img/magazine/1d0df587-foto-14.jpg)
 :::
 
 Processo di assemblaggio
@@ -75,7 +75,7 @@ Processo di assemblaggio
 
 *Momento di accoppiamento motore*
 
-![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
+![Riabilitazione completa del motore 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
 ### Il consiglio tecnico di Jordi
 

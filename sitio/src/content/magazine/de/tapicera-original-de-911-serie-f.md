@@ -29,14 +29,14 @@ Die Auswahl der Materialien und deren Platzierung ist von entscheidender Bedeutu
 Einer der heikelsten Momente bei der Restaurierung sind die Innenräume. Die Auswahl der Stoffe, der Qualität und der guten Verarbeitung ist ein wichtiger Prozess bei jeder Restaurierung.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![Polsterung 2.jpg](/img/magazine/e26cff74-tap-2.jpg)
-![Polsterung 3.jpg](/img/magazine/4b2fd54f-tap-3.jpg)
-![Polsterung 4.jpg](/img/magazine/9689f6e7-tap-4.jpg)
-![Polsterung 5.jpg](/img/magazine/c6d39c99-tap-5.jpg)
-![Polsterung 6.jpg](/img/magazine/f6b78c95-tap-6.jpg)
-![Polsterung 7.jpg](/img/magazine/88d19d98-tap-7.jpg)
-![Polsterung 8.jpg](/img/magazine/acc0048b-tap-8.jpg)
-![Polsterung 9.jpg](/img/magazine/c8547faf-tap-9.jpg)
+![Originale Polsterung der 911 Serie F, 3](/img/magazine/e26cff74-tap-2.jpg)
+![Originale Polsterung der 911 Serie F, 4](/img/magazine/4b2fd54f-tap-3.jpg)
+![Originale Polsterung der 911 Serie F, 5](/img/magazine/9689f6e7-tap-4.jpg)
+![Originale Polsterung der 911 Serie F, 6](/img/magazine/c6d39c99-tap-5.jpg)
+![Originale Polsterung der 911 Serie F, 7](/img/magazine/f6b78c95-tap-6.jpg)
+![Originale Polsterung der 911 Serie F, 8](/img/magazine/88d19d98-tap-7.jpg)
+![Originale Polsterung der 911 Serie F, 9](/img/magazine/acc0048b-tap-8.jpg)
+![Originale Polsterung der 911 Serie F, 10](/img/magazine/c8547faf-tap-9.jpg)
 :::
 
 Montageprozess

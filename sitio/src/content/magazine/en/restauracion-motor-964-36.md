@@ -54,19 +54,19 @@ It is worth distinguishing two different concepts:
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Flat-six stripped on its subframe, manifold and exhaust exposed](/img/magazine/ce5c9824-foto-1.jpg)
-![photo 2.jpg](/img/magazine/3ed7f693-foto-2.jpg)
-![photo 3.jpg](/img/magazine/a9b2ab1f-foto-3.jpg)
-![photo 4.jpg](/img/magazine/dc81fac2-foto-4.jpg)
-![photo 5.jpg](/img/magazine/dd763a29-foto-5.jpg)
-![photo 6.jpg](/img/magazine/3bed9dd4-foto-6.jpg)
-![photo 7.jpg](/img/magazine/30dbb0b9-foto-7.jpg)
-![photo 8.jpg](/img/magazine/b3e0a823-foto-8.jpg)
-![photo 9.jpg](/img/magazine/7f7f24f4-foto-9.jpg)
-![photo 10.jpg](/img/magazine/f029fa7f-foto-10.jpg)
-![photo 11.jpg](/img/magazine/2ac8a7c8-foto-11.jpg)
-![photo 12.jpg](/img/magazine/74ff9c3b-foto-12.jpg)
-![photo 13.jpg](/img/magazine/547a6585-foto-13.jpg)
-![photo 14.jpg](/img/magazine/1d0df587-foto-14.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 4](/img/magazine/3ed7f693-foto-2.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 5](/img/magazine/a9b2ab1f-foto-3.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 6](/img/magazine/dc81fac2-foto-4.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 7](/img/magazine/dd763a29-foto-5.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 8](/img/magazine/3bed9dd4-foto-6.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 9](/img/magazine/30dbb0b9-foto-7.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 10](/img/magazine/b3e0a823-foto-8.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 11](/img/magazine/7f7f24f4-foto-9.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 12](/img/magazine/f029fa7f-foto-10.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 13](/img/magazine/2ac8a7c8-foto-11.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 14](/img/magazine/74ff9c3b-foto-12.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 15](/img/magazine/547a6585-foto-13.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 16](/img/magazine/1d0df587-foto-14.jpg)
 :::
 
 Assembly process
@@ -75,7 +75,7 @@ Assembly process
 
 *Motor coupling moment*
 
-![](/img/magazine/776aa0e5-foto-jordi-2.jpg)
+![Complete engine rehabilitation 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
 ### Jordi's technical tip
 

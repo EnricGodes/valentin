@@ -29,14 +29,14 @@ La scelta dei materiali e il loro posizionamento sono fondamentali e influiscono
 Uno dei momenti più delicati del restauro sono gli interni. Scegliere i tessuti, la qualità e il buon lavoro è un processo chiave in qualsiasi restauro.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![tappezzeria 2.jpg](/img/magazine/e26cff74-tap-2.jpg)
-![tappezzeria 3.jpg](/img/magazine/4b2fd54f-tap-3.jpg)
-![tappezzeria 4.jpg](/img/magazine/9689f6e7-tap-4.jpg)
-![tappezzeria 5.jpg](/img/magazine/c6d39c99-tap-5.jpg)
-![tappezzeria 6.jpg](/img/magazine/f6b78c95-tap-6.jpg)
-![tappezzeria 7.jpg](/img/magazine/88d19d98-tap-7.jpg)
-![tappezzeria 8.jpg](/img/magazine/acc0048b-tap-8.jpg)
-![tappezzeria 9.jpg](/img/magazine/c8547faf-tap-9.jpg)
+![tappezzeria originale della 911 serie F, 3](/img/magazine/e26cff74-tap-2.jpg)
+![tappezzeria originale della 911 serie F, 4](/img/magazine/4b2fd54f-tap-3.jpg)
+![tappezzeria originale della 911 serie F, 5](/img/magazine/9689f6e7-tap-4.jpg)
+![tappezzeria originale della 911 serie F, 6](/img/magazine/c6d39c99-tap-5.jpg)
+![tappezzeria originale della 911 serie F, 7](/img/magazine/f6b78c95-tap-6.jpg)
+![tappezzeria originale della 911 serie F, 8](/img/magazine/88d19d98-tap-7.jpg)
+![tappezzeria originale della 911 serie F, 9](/img/magazine/acc0048b-tap-8.jpg)
+![tappezzeria originale della 911 serie F, 10](/img/magazine/c8547faf-tap-9.jpg)
 :::
 
 Processo di assemblaggio

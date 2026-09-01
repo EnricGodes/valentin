@@ -39,8 +39,8 @@ Il convient de distinguer deux concepts différents :
 -Grande révision : ici chez Valentin Motors nous appelons grande révision le processus d'intervention de découplage moteur et boîte de vitesses et protocole de révision des systèmes complets mais sans démonter le moteur complet.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
+![Réhabilitation complète moteur 964 M64, 2](/img/magazine/29529723-mot-2.jpg)
+![Réhabilitation complète moteur 964 M64, 3](/img/magazine/c7130da3-mot-3.jpg)
+![Réhabilitation complète moteur 964 M64, 4](/img/magazine/d9a78aaa-mot-4.jpg)
+![Réhabilitation complète moteur 964 M64, 5](/img/magazine/725cdf3d-mot-5.jpg)
 :::

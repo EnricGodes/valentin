@@ -39,8 +39,8 @@ Cal diferenciar dos conceptes diferents:
 -Gran aturada: aquí a Valentin Motors anomenem gran aturada el procés d'intervenció de desacoblament motor i caixa i protocol de revisió completa de sistemes però sense desmuntar el motor complet.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![mot 2.jpg](/img/magazine/29529723-mot-2.jpg)
-![mot 3.jpg](/img/magazine/c7130da3-mot-3.jpg)
-![mot 4.jpg](/img/magazine/d9a78aaa-mot-4.jpg)
-![mot 5.jpg](/img/magazine/725cdf3d-mot-5.jpg)
+![Rehabilitació completa motor 964 M64, 2](/img/magazine/29529723-mot-2.jpg)
+![Rehabilitació completa motor 964 M64, 3](/img/magazine/c7130da3-mot-3.jpg)
+![Rehabilitació completa motor 964 M64, 4](/img/magazine/d9a78aaa-mot-4.jpg)
+![Rehabilitació completa motor 964 M64, 5](/img/magazine/725cdf3d-mot-5.jpg)
 :::
