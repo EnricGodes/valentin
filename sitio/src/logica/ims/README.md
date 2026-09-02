@@ -28,6 +28,30 @@ node --test src/logica/ims/evaluador.test.ts
 un `<=` escrito como `<` manda a media flota al tramo equivocado y no lo nota
 nadie.
 
+## Como se comporta la interfaz
+
+Tres estados, y en pantalla solo lo que hace falta para el siguiente:
+
+1. **Formulario.** Modelo, año y tipo de año. Nada más.
+2. **Aclaración**, si el año no basta. Una línea que dice por qué se pregunta y
+   las opciones **reales de ese coche** (`generacionesCandidatas`), sin nada
+   preseleccionado. Elegir resuelve: no hay que volver a pulsar el botón.
+3. **Resultado.** Veredicto, una línea, los datos que aportan algo en ESE caso,
+   y la acción. La explicación larga, el porqué y el aviso legal viven dentro
+   de «Ver el detalle técnico».
+
+El resultado se adapta:
+
+- Las filas de datos que dirían «no aplica» no se pintan.
+- La caja de afinado solo sale si puede cambiar ESE resultado, y solo con los
+  campos que lo cambian: número de motor en una transición, historial en un
+  afectado, nada en un Cayenne.
+- Los motores del desplegable se filtran por modelo.
+- Si el resultado es `no`, no se ofrece el diagnóstico IMS: no se le vende a
+  quien no lo necesita.
+- Contestar «No lo sé» a una aclaración devuelve un resultado que lo dice, no
+  la misma pregunta otra vez.
+
 ## Modificar una regla
 
 1. Toca `REGLAS` o `CORTES` en `reglas.ts`. Nunca en el evaluador ni en el

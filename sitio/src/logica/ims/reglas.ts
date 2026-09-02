@@ -61,6 +61,24 @@ export function generacionPorAno(familia: Familia, ano: number): Generacion | nu
   return tramos.find((t) => ano >= t.desde && ano <= t.hasta)?.generacion ?? null;
 }
 
+/**
+ * Generaciones que ese modelo pudo tener ese ano. Se toman los tramos que
+ * tocan la ventana [ano-1, ano+1]: sirve tanto para un ano modelo solapado
+ * (911 de 2005: 996 o 997.1) como para uno de matriculacion en la frontera.
+ *
+ * Preguntar con la lista completa era ofrecer imposibles: un 911 de 2005 no
+ * puede ser un 993, y ahi estaba, ademas preseleccionado.
+ */
+export function generacionesCandidatas(familia: Familia, ano: number): Generacion[] {
+  const tramos = TRAMOS[familia as keyof typeof TRAMOS];
+  if (!tramos) return [];
+  const vistas = new Set<Generacion>();
+  for (const tr of tramos) {
+    if (tr.generacion && ano + 1 >= tr.desde && ano - 1 <= tr.hasta) vistas.add(tr.generacion);
+  }
+  return [...vistas];
+}
+
 /* El ano de matriculacion se adelanta o se retrasa respecto al de modelo, asi
    que alrededor de un cambio de generacion deja de servir para decidir. */
 export const ANOS_AMBIGUOS_POR_MATRICULACION: Record<string, number[]> = {
