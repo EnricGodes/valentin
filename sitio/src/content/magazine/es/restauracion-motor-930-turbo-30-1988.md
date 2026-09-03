@@ -1,12 +1,12 @@
 ---
-title: "Motor 930 turbo 3.0 1988"
+title: "Motor 930 Turbo 3.0 de 1988"
 slugSquarespace: "restauracion-motor-930-turbo-30-1988"
 slugFinal: "restauracion-motor-930-turbo-30-1988"
 slugOriginal: "restauracion-motor-930-turbo-30-1988"
 date: 2022-10-10T12:39:22.451000Z
 lang: es
 categories: ["restauraciones"]
-excerpt: "Motor 930 turbo 3.0 1988"
+excerpt: "Motor 930 Turbo 3.0 de 1988"
 author: "Enric Godes"
 squarespaceId: "63441166ef6080482674180b"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-930-turbo-30-1988"
@@ -14,7 +14,7 @@ ctas: []
 ---
 ![Aspecto casi final motor](/img/magazine/db271d14-mot-1.jpg)
 
-*Aspecto casi final motor*
+*Aspecto casi final del motor*
 
 ## Turbo intercooler
 

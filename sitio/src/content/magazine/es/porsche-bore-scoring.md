@@ -1,5 +1,5 @@
 ---
-title: "¿Qué es el Porsche Bore Scoring?"
+title: "¿Qué es el Bore Scoring de Porsche?"
 metaTitulo: "Bore scoring en Porsche: causas, síntomas y solución"
 metaDescripcion: "El bore scoring afecta a los M96 y M97 de 1997 a 2008. Cómo reconocerlo, por qué le pasa al sexto cilindro y por qué encamisar en NSC es la única solución."
 slugSquarespace: "porsche-bore-scoring"
@@ -20,7 +20,7 @@ ctas:
 
 El Bore Scoring es un problema que, entre 1997 y 2008, afecta a todos los Boxster, Cayman y modelos 911 con motor M96 y M97.
 
-La principal causa es el desprendimiento del coating de los pistones.
+La principal causa es el desprendimiento del recubrimiento de los pistones.
 
 En Valentin Motors encamisamos el bloque con una **solución definitiva** para este problema: el **NSC**.
 

@@ -1,5 +1,5 @@
 ---
-title: "Restauración integral de Porsche 911 serie F 1965"
+title: "Restauración integral de un Porsche 911 serie F de 1965"
 slugSquarespace: "restauracion-porsche-911-1965"
 slugFinal: "restauracion-porsche-911-1965"
 slugOriginal: "restauracion-porsche-911-1965"
@@ -49,7 +49,7 @@ Esta es la imagen del motor una vez acabado e instalado.
 
 ![Foto motor instalado](/img/magazine/07326bfa-PHOTO-2022-04-12-12-56-21.jpg)
 
-*Foto motor instalado*
+*Foto del motor instalado*
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![Restauración integral de Porsche 911 serie F 1965, 8](/img/magazine/a197e09c-PHOTO-2022-04-12-12-56-42.jpg)

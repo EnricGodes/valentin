@@ -1,12 +1,12 @@
 ---
-title: "997.1 turbo  (Rehabilitación motor por avería)"
+title: "997.1 Turbo (rehabilitación del motor por avería)"
 slugSquarespace: "porsche9971turbo"
 slugFinal: "9971-turbo-rehabilitacion-motor"
 slugOriginal: "porsche9971turbo"
 date: 2024-10-22T12:34:45.654000Z
 lang: es
 categories: ["articulos"]
-excerpt: "Reparación motor 997.1 turbo"
+excerpt: "Reparación del motor 997.1 Turbo"
 author: "Jordi Edo"
 squarespaceId: "671772daf31416031694012b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971turbo"
@@ -20,7 +20,7 @@ Proceso completo de rehabilitación del motor de un 997.1 Turbo.
 
 ## ¿Motivos principales?
 
-Ruido interno motor
+Ruido interno del motor.
 
 ## ¿Pruebas?
 

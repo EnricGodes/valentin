@@ -29,7 +29,7 @@ Jordi Edo con 991 GT3 Cup **primer puesto absoluto**.
 
 ![Castelloli 22/4](/img/magazine/f22462ab-DSC07842.jpg)
 
-*Castelloli 22/4*
+*Castellolí, 22/4*
 
 ### Asistencia en circuito
 

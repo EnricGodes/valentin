@@ -40,7 +40,7 @@ A partir del **997.2 2008 ya quedó totalmente resuelto** el problema.
 
 > “Si el rodamiento intermedio falla, se desprende el eje, se descuelgan las cadenas y puede producir la rotura del motor, por eso es importante revisar periódicamente el estado del IMS. La mala calidad del aceite afecta el sellado del cojinete y provoca la rotura final. Es clave reducir la perioricidad de los intervalos de aceite y usar lubricante sintético de primera calidad. Recomendamos encarecidamente servicio anual o 10.000 kms y en la medida de lo posible semestralmente. El aceite se contamina dentro del motor, principalmente de agua i combustible”
 
-> — Jordi Edo
+> Jordi Edo
 
 En los *watercooled* antes mencionados, Porsche instalaba un rodamiento de doble hilera de bolas de acero en los MKI y uno de hilera simple en los MKII.
 

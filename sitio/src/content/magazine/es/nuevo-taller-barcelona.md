@@ -26,7 +26,7 @@ Con **más de 1.300 m² distribuidos en dos plantas**, el nuevo centro **duplica
 - **Plancha y pintura**
 - **Electromecánica**
 
-Además, su ubicación estratégica, a tan solo **dos minutos de la Ronda del Mig**, facilita enormemente el acceso desde cualquier punto de la ciudad.
+Además, su ubicación, a tan solo **dos minutos de la Ronda del Mig**, facilita el acceso desde cualquier punto de la ciudad.
 
 ## Reorganización operativa en Barcelona
 

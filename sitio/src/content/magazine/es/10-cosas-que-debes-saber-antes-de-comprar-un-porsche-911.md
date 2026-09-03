@@ -104,6 +104,6 @@ Un coche que ha sufrido un accidente grave puede tener el chasis afectado. Si ha
 
 El término *matching numbers*se aplica cuando el número de chasis coincide con el **número de motor y caja de cambio**con la que el vehículo salió de la fábrica. Las unidades cuyos números no coinciden tienen un valor de apreciación más bajo o son indicativos de que ha sufrido reparaciones importantes.
 
-## 10. ¡Pruébalo!
+## 10. Pruébalo
 
 Exige **probar el coche**. Es solo mediante un *test drive* donde podrás comprobar la respuesta del motor, la firmeza de la dirección, la fiabilidad de los frenos, el comportamiento general. Además de confirmar lo que has podido observar externamente, te servirá para saber si el coche te enamora. **Recuerda que al adquisición de un Porsche se realiza desde el corazón.**

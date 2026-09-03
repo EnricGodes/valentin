@@ -19,9 +19,9 @@
     },
     {
       "nivel": 1,
-      "titulo": "“45 aniversario”",
+      "titulo": "45 aniversario",
       "parrafos": [
-        "<strong>“DAMOS NUEVA VIDA AL LEGADO PORSCHE COMBINANDO ARTESANIA,EXCELENCIA Y PASION.”</strong>",
+        "<strong>Damos nueva vida al legado Porsche combinando artesanía, excelencia y pasión.</strong>",
         "En nuestras instalaciones de <a href=\"/barcelona\">Barcelona</a> y <a href=\"/madrid\">Madrid</a>, damos servicio a toda la gama Porsche con una dedicación que combina conocimiento tradicional y pasión, enfocándonos en el modelo 911 desde 1965 hasta el actual 2025.",
         "Estamos orgullosos de poder ofrecer al cliente cualquier servicio para su automóvil Porsche.",
         "Somos una <strong>familia compuesta por los conceptos de artesanía excelencia y pasión.</strong>"
@@ -40,7 +40,7 @@
       "nivel": 3,
       "titulo": "Barcelona",
       "parrafos": [
-        "En c/Varsòvia 65, cerca de la Ronda del Mig"
+        "En la c/ Varsòvia, 65, cerca de la Ronda del Mig"
       ],
       "items": [],
       "imagenes": [
@@ -54,7 +54,7 @@
       "nivel": 3,
       "titulo": "Madrid",
       "parrafos": [
-        "En c/Puig Adam 10, situado en Leganés"
+        "En la c/ Puig Adam, 10, en Leganés"
       ],
       "items": [],
       "imagenes": [
@@ -115,7 +115,7 @@
     },
     {
       "nivel": 3,
-      "titulo": "Club propietarios Porsche. Compartiendo experiencias",
+      "titulo": "Club de propietarios de Porsche: compartiendo experiencias",
       "parrafos": [
         "Actividades abiertas a todo el mundo: track days, cursos de conducción, visitas culturales, salidas outlaws, etc."
       ],
@@ -123,7 +123,7 @@
       "imagenes": [
         {
           "url": "https://images.squarespace-cdn.com/content/v1/61adc6456a92100cab5d4e4d/f1e9bf25-1c1a-4710-a804-293dc333e5a7/club-propietarios.jpg",
-          "alt": "Club propietarios Porsche"
+          "alt": "Club de propietarios de Porsche"
         }
       ]
     },
@@ -138,7 +138,7 @@
       "nivel": 3,
       "titulo": "“Desde que conozco a Valentín Motors, no han dejado de sorprenderme día a día con sus trabajos, con su implicación y por el trato recibido. Yo no buscaba un taller que me mantuviera el coche, buscaba un proyecto a largo plazo de servicio, profesionalidad y calidad, y todo esto lo he encontrado en Valentín Motors.”",
       "parrafos": [
-        "— DANIEL A."
+        "Daniel A."
       ],
       "items": [],
       "imagenes": []
@@ -196,11 +196,11 @@
         "Plan de mantenimiento de vehículos",
         "Restauración de motores",
         "Cajas de cambios",
-        "Inspección de vehículos pre-compra",
+        "Inspección precompra de vehículos",
         "Servicio técnico a nivel nacional",
         "Reparaciones de IMS",
-        "Reparaciones Bore Scoring",
-        "Servicio de pintura y carrocería premium"
+        "Reparaciones de Bore Scoring",
+        "Servicio de pintura y carrocería"
       ],
       "imagenes": []
     },
@@ -250,7 +250,7 @@
         "Es un circuito donde un vehículo Porsche puede demostrar el fin último por el que fue diseñado. Una máquina que transmite unas sensaciones únicas, incomparables en un entorno urbano."
       ],
       "items": [
-        "Preparaciones Track Day",
+        "Preparaciones para track days",
         "Campeonatos GT y Gentlemen Driver",
         "Rally"
       ],

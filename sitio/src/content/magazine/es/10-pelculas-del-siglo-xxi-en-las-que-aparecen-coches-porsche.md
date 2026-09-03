@@ -71,7 +71,7 @@ Sir **Anthony Hopkins** conduce un **Porsche Carrera GT** en esta película, que
 
 ## **7. Spy Game (2001)**
 
-***Juego de espías*** reunió en 2001 a dos de los actores más carismáticos de la historia: **Robert Redford y Brad Pitt.** En este thriller espectacular el veterano agente de la CIA al que interpreta Redford conduce un clásico**Porsche 912 de 1968** en color verde oak que tiene una escena estelar al final del film.
+***Juego de espías*** reunió en 2001 a dos de los actores más carismáticos de la historia: **Robert Redford y Brad Pitt.** En este thriller, el veterano agente de la CIA al que interpreta Redford conduce un clásico **Porsche 912 de 1968** en color verde oak que protagoniza una escena destacada al final de la película.
 
 :::youtube{id="ZanpFcWcHF4"}
 :::

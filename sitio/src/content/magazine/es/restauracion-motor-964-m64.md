@@ -14,13 +14,13 @@ ctas: []
 ---
 ![Aspecto final motor 964.2](/img/magazine/18437657-mot-1.jpg)
 
-*Aspecto final motor 964.2*
+*Aspecto final del motor 964.2*
 
 ## M64
 
 En toda la generación 964 Porsche usó el bloque de 3.600 cc que tanta fiabilidad y satisfacciones ha proporcionado a sus propietarios.
 
-Propulsor disposición boxer de 6 cilindros con 2 válvulas por cabeza y doble encendido.
+Propulsor bóxer de 6 cilindros, con 2 válvulas por cilindro y doble encendido.
 
 El bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la calle como en la competición.
 

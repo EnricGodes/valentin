@@ -26,7 +26,7 @@ Cada dos meses, si las circunstancias sociosanitarias lo permiten, realizamos al
 
 > «El Club es una buena manera de compartir tiempo con gente que tiene los mismos gustos, la misma pasión. Siempre hay gastronomía de por medio, mi otra pasión. Me gusta mucho cuando hacemos tramos históricos de rally y cómo preparáis los roadbooks».
 
-> — Carlos A.
+> Carlos A.
 
 ### Track days
 
@@ -46,7 +46,7 @@ Aprovechando que somos un grupo de personas con intereses comunes, buscamos comb
 
 ### Outlaws
 
-Un formato de salida en un grupo reducido normalmente entre semana con una cierta dosis de improvisación.
+Es un formato de salida en un grupo reducido, normalmente entre semana y con cierta dosis de improvisación.
 
 ## Cómo apuntarse
 

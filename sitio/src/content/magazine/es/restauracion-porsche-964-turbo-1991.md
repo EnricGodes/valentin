@@ -32,13 +32,13 @@ El encargo fue global y el objetivo claro, devolver la unidad a su máximo esple
 
 ### La opinión de Jordi
 
-*Oldschool*es la palabra que nos resume toda la esencia del 964 turbo.
+*Oldschool* es la palabra que resume la esencia del 964 Turbo.
 
 Esa posición al sentado aún alta con ese volante “lejos” y esa sensación de que no sube de vueltas hasta que haya algo que te empuja de manera sobrenatural hacia adelante y todo se te acumula de golpe.
 
 Sí , hay que estar muy atento y muy concentrado para llevar bien un 964 turbo. Saber dónde tenemos los pesos justo en el momento que la entrega de potencia es muy alta en un margen de rpms muy corto es la clave.
 
-Sudar, se suda mucho. Puro *motorsport*.
+Se suda mucho. Puro *motorsport*.
 
 Siempre la primera fase es de pruebas, probar la unidad en el estado que viene y ver los puntos que realmente necesitan trabajos a fondo o que han dejado de ser operativos en el tiempo.
 

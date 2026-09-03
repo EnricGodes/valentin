@@ -22,7 +22,7 @@ En los años modelo 1991-92, el 911 Turbo se impulsaba con un motor sobrealiment
 
 ## El estado inicial
 
-Este proyecto nos llegó a través de un cliente del sur de España que hacía tiempo que quería renovar el estado mecánico de su excelente unidad .
+Este proyecto llegó a través de un cliente del sur de España que hacía tiempo que quería renovar el estado mecánico de su unidad.
 
 El degoteo de aceite motor al suelo y la falta de finura y potencia del propulsor le animó a contactar con nosotros y ponernos manos a la obra.
 
@@ -78,7 +78,7 @@ Finalmente el motor quedó en un estado impecable, tenemos una comparativa del a
 
 ![Rehabilitación completa motor 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
-### El tip técnico de Jordi
+### El consejo técnico de Jordi
 
 La gracia de tos motores con un sólo turbo es el **LAG** que tienes que controlar y sentir justo en el momento y en la situación que estes.
 

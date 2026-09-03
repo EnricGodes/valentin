@@ -1,12 +1,12 @@
 ---
-title: "996 M96 3.4 reparación motor por rotura árbol intermedio IMS"
+title: "996 M96 3.4: reparación del motor por rotura del árbol intermedio IMS"
 slugSquarespace: "porscheroturasmotorm96valentin"
 slugFinal: "996-m96-34-rotura-arbol-intermedio-ims"
 slugOriginal: "porscheroturasmotorm96valentin"
 date: 2024-01-23T18:02:45.751000Z
 lang: es
 categories: ["articulos"]
-excerpt: "Reparación motor 3.4"
+excerpt: "Reparación del motor 3.4"
 author: "Jordi Edo"
 squarespaceId: "65aff891e50d1d7bd0f4368e"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin"
@@ -30,7 +30,7 @@ Encontrar partículas metálicas en el aceite es signo de alarma para verificar 
 
 Desmontar caja y ver zona RMS + IMS
 
-## ¿Ruidos?
+## ¿Hay ruidos?
 
 Auscultar la zona entre motor y caja para verificar algún ruido adicional de fricción.
 
@@ -68,7 +68,7 @@ Desmontar completamente culatas y realizar asientos de válvulas y guias es clav
 - Sellar libro de mantenimiento con fecha e intervención.
 - Cambiar el aceite de forma regular **cada 12 meses.**
 
-## Qué IMS llevo en un bloque motor nuevo aligerado.
+## ¿Qué IMS lleva un bloque motor nuevo aligerado?
 
 Aunque la unidad sea de 1998 hasta el 2004 con genereaciones de IMS primera y segunda, un motor aligerado nuevo nos vendrás con la solución IMS de tercera gerenación.
 

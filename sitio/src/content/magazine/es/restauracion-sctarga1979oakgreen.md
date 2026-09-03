@@ -14,7 +14,7 @@ ctas: []
 ---
 ## El estado inicial
 
-Este SC de 1979 nos atrajo por su carrocería Targa y sobre todo por su preciosos color original verde Oak Green.
+Este SC de 1979 nos atrajo por su carrocería Targa y, sobre todo, por su color original Oak Green.
 
 Mantenía un estatus de nunca restaurado, pátina original y en todos los componentes motor necesitaba trabajos urgentes.
 
@@ -22,7 +22,7 @@ Decidimos realizar una restauración integral en todos los apartados del vehícu
 
 ![Aspecto de la unidad justo salida de cabina de pintura](/img/magazine/3ba88f8b-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg)
 
-*Aspecto de la unidad justo salida de cabina de pintura*
+*Aspecto de la unidad recién salida de la cabina de pintura*
 
 ![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
@@ -68,7 +68,7 @@ Trabajos asociados al proceso de restauración del motor.
 
 ## Carrocería
 
-Resultado de trabajos de pintura
+Resultado de los trabajos de pintura.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![Restauración 3.0 SC Targa 1979, 21](/img/magazine/d593e747-1a5482c8-c31b-4f14-ac74-5c676b4fe9e5.jpg)

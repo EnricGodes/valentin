@@ -6,7 +6,7 @@ slugOriginal: "porschepinturaclasica911"
 date: 2025-02-12T09:09:51.840000Z
 lang: es
 categories: ["articulos"]
-excerpt: "proceso de pintura standart en 911 G"
+excerpt: "Proceso estándar de pintura en un 911 G"
 author: "Jordi Edo"
 squarespaceId: "6761b49781b18979ffb114a9"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica911"
@@ -18,7 +18,7 @@ ctas:
 
 *911 G*
 
-Proceso standart de carrocería y pintura en 911 clásico
+Proceso estándar de carrocería y pintura en un 911 clásico.
 
 ## ¿Motivos principales?
 

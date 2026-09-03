@@ -1,5 +1,5 @@
 ---
-title: "Nose lift system para 997.1 (sistema de alzado tren delantero)"
+title: "Nose lift system para 997.1 (sistema de elevación del tren delantero)"
 slugSquarespace: "porsche9971noselift-f3whn-trwdw"
 slugFinal: "nose-lift-997-1"
 slugOriginal: "porsche9971noselift-f3whn-trwdw"

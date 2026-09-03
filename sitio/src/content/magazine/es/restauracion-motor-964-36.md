@@ -14,13 +14,13 @@ ctas: []
 ---
 ![Aspecto final motor ya acoplado](/img/magazine/0aad4e31-foto-14.jpg)
 
-*Aspecto final motor ya acoplado*
+*Aspecto final del motor ya acoplado*
 
 ## M6401
 
 En toda la generación 964 Porsche usó el bloque de 3.600 cc que tanta fiabilidad y satisfacciones ha proporcionado a sus propietarios.
 
-Propulsor disposición boxer de 6 cilindros con 2 válvulas por cabeza y doble encendido.
+Propulsor bóxer de 6 cilindros, con 2 válvulas por cilindro y doble encendido.
 
 El bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la calle como en la competición.
 
@@ -77,7 +77,7 @@ Proceso de montaje.
 
 ![Rehabilitación completa motor 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
-### El tip técnico de Jordi
+### El consejo técnico de Jordi
 
 Recomendamos sustituir siempre la correa del delco que distribuye los dos encendidos.
 

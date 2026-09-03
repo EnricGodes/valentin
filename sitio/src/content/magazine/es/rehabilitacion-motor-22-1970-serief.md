@@ -1,12 +1,12 @@
 ---
-title: "Rehabilitación completa motor 2.2 1970 serie F"
+title: "Rehabilitación completa del motor 2.2 de 1970, serie F"
 slugSquarespace: "rehabilitacion-motor-22-1970-serief"
 slugFinal: "rehabilitacion-motor-22-1970-serief"
 slugOriginal: "rehabilitacion-motor-22-1970-serief"
 date: 2022-10-10T12:48:20.445000Z
 lang: es
 categories: ["restauraciones"]
-excerpt: "motor 2.2 1970"
+excerpt: "Motor 2.2 de 1970"
 author: "Enric Godes"
 squarespaceId: "634413e4c53d3164dc911915"
 originalUrl: "https://www.valentinmotors.es/magazine/rehabilitacion-motor-22-1970-serief"
@@ -14,11 +14,11 @@ ctas: []
 ---
 ![Aspecto final motor ya acoplado](/img/magazine/4507843c-motor-1.jpg)
 
-*Aspecto final motor ya acoplado*
+*Aspecto final del motor ya acoplado*
 
 ## Motor 2.2
 
-Rehabilitación completa motor 1970
+Rehabilitación completa del motor de 1970.
 
 Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
 

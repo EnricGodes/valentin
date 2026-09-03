@@ -1,12 +1,12 @@
 ---
-title: "Reconstrucción motor 968"
+title: "Reconstrucción del motor 968"
 slugSquarespace: "porsche968"
 slugFinal: "reconstruccion-motor-968"
 slugOriginal: "porsche968"
 date: 2026-01-23T14:38:06.787000Z
 lang: es
 categories: ["articulos"]
-excerpt: "motor 968"
+excerpt: "Motor 968"
 author: "Jordi Edo"
 squarespaceId: "697386404e017262ea3e3595"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968"
@@ -16,7 +16,7 @@ ctas:
 ---
 ![Motor terminado listo para entrega](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
 
-*Motor terminado listo para entrega*
+*Motor terminado y listo para la entrega*
 
 Proceso completo de rehabilitación del motor de un 968 por falta de presión de aceite.
 

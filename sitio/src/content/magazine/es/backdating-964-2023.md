@@ -22,13 +22,13 @@ Es aquí donde Valentin Motors incide más y enfoca el proyecto, en que ese 911 
 
 ![En proceso el resultado final](/img/magazine/19ddc780-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg)
 
-*En proceso el resultado final*
+*El resultado final, en proceso*
 
 ### La opinión de Jordi
 
 Si os digo la verdad, nadie sabe qué va a pasar con estas conversiones. Sí sabemos lo que vale un SINGER nuevo, también sabemos lo que valen ahora de ocasión, y también sabemos qeu en España es imposible de homologar un SINGER , (milagros a parte).
 
-Sabemos los ejercicios de Gunters, Kienles, Kreizels… etc
+Conocemos los ejercicios de Gunters, Kienles, Kreizels, etc.
 
 Un backdating es un ejercicio de estilo y personalidad, quien lo hace suele ser alguien ene l cual poco vas a influir… , saben lo que quieren y punto.
 

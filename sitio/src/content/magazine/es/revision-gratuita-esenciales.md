@@ -23,4 +23,4 @@ Revisión **gratuita** de los puntos esenciales para prevenir fallos comunes y p
 - 964
 - 993
 - 997
-- 991 ¡Solo hasta el 31 de julio!
+- 991. Promoción válida solo hasta el 31 de julio.

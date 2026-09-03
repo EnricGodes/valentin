@@ -320,7 +320,7 @@
         ]
       },
       {
-        "titulo": "Carrocería y General",
+        "titulo": "Carrocería y datos generales",
         "filas": [
           {
             "clave": "Carrocería",
@@ -344,7 +344,7 @@
           },
           {
             "clave": "Interior",
-            "valor": "Piel / Alcántara negro"
+            "valor": "Piel y Alcántara en negro"
           }
         ]
       },

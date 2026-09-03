@@ -21,7 +21,7 @@
       "nivel": 2,
       "titulo": "Contáctanos",
       "parrafos": [
-        "Cuéntanos cuáles son tus necesidades, ¡seguro que podemos ayudarte!"
+        "Cuéntanos cuáles son tus necesidades. Podemos ayudarte."
       ],
       "items": [],
       "imagenes": []
@@ -30,13 +30,13 @@
       "nivel": 2,
       "titulo": "Taller Porsche en Madrid (Leganés)",
       "parrafos": [
-        "<strong>VALENTIN MOTORS MADRID</strong>",
-        "<strong>Ubicación:</strong> Puig Adam, 10<br/> Parque Sur / 28914 Leganés (Madrid)",
+        "<strong>Valentin Motors Madrid</strong>",
+        "<strong>Ubicación:</strong> calle Puig Adam, 10<br/>Parque Sur, 28914 Leganés (Madrid)",
         "<strong>Teléfono:</strong> (+34) 913 017 575",
         "<strong>Correo:</strong> madrid@valentinmotors.es",
         "<strong>Horarios:</strong> lunes a viernes",
-        "Taller: 8:30 a 18:00 / Ventas: 8:30 a 19:00",
-        "<strong>Tiempos a taller:</strong>",
+        "Taller: de 8:30 a 18:00; ventas: de 8:30 a 19:00.",
+        "<strong>Tiempos hasta el taller:</strong>",
         "Madrid Centro / Estación Atocha: 20 minutos",
         "Aeropuerto de Barajas: 22 minutos",
         "Zona Madrid Norte: 22 / 26 minutos aprox."
@@ -48,14 +48,14 @@
       "nivel": 2,
       "titulo": "Taller Porsche en Barcelona",
       "parrafos": [
-        "<strong>VALENTIN MOTORS BARCELONA</strong>",
+        "<strong>Valentin Motors Barcelona</strong>",
         "<strong>Ubicación: </strong>calle Varsòvia, 65<br/>Hospital Sant Pau, 08041 Barcelona",
         "<strong>Teléfono: </strong>(+34) 933 479 856 / (+34) 679 081 019",
         "<strong>Correo: </strong>info@valentinmotors.es",
-        "<strong>Horarios: </strong>Lunes a viernes / Taller: 8:00 a 18:00",
+        "<strong>Horarios: </strong>lunes a viernes; taller: de 8:00 a 18:00.",
         "<strong>Tiempos a taller: </strong>",
         "Aeropuerto de El Prat: 30 minutos",
-        "Sants Estacio: 26 minutos"
+        "Estación de Sants: 26 minutos"
       ],
       "items": [],
       "imagenes": []

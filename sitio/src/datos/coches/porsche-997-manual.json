@@ -192,9 +192,9 @@
       {
         "titulo": "Llantas",
         "items": [
-          "Configuración actual: negras multirradio",
+          "Llantas negras multirradio",
           "Aro exterior pulido",
-          "Disponible con opción en acabado silver"
+          "Disponible con opción en acabado plateado"
         ]
       }
     ]
@@ -334,7 +334,7 @@
         ]
       },
       {
-        "titulo": "Carrocería y General",
+        "titulo": "Carrocería y datos generales",
         "filas": [
           {
             "clave": "Generación",
@@ -409,7 +409,7 @@
           },
           {
             "clave": "Opción llantas",
-            "valor": "Acabado silver disponible"
+            "valor": "Acabado plateado disponible"
           },
           {
             "clave": "Listo para conducir",
@@ -445,7 +445,7 @@
     ],
     "contrasTitulo": "A considerar",
     "contras": [
-      "Llantas actuales en negro; disponible opción en acabado silver bajo demanda"
+      "Llantas actuales en negro; disponible una opción en acabado plateado bajo demanda"
     ]
   },
   "cierre": {

@@ -16,7 +16,7 @@ ctas: []
 
 *Piezas de la carrocería preparadas para su instalación*
 
-## 911 Turbo un icono Porsche
+## El 911 Turbo, un icono de Porsche
 
 En el año 1975 Porsche lanzó al mercado el modelo 930, un vehículo turboalimentado con gases de escape. El 930 tenía un spoiler trasero que le confirió su silueta característica.
 

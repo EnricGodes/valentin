@@ -6,7 +6,7 @@ slugOriginal: "porschepinturaclasica964-9fcrx"
 date: 2025-03-27T08:37:05.012000Z
 lang: es
 categories: ["articulos"]
-excerpt: "proceso de pintura standart en 964"
+excerpt: "Proceso estándar de pintura en un 964"
 author: "Jordi Edo"
 squarespaceId: "67ac64971d833a36f15f5734"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica964-9fcrx"
@@ -18,7 +18,7 @@ ctas:
 
 *Carrocería 964 RS*
 
-Proceso standart de carrocería y pintura en 911 clásico
+Proceso estándar de carrocería y pintura en un 911 clásico.
 
 ## ¿Motivos principales?
 

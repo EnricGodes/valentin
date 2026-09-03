@@ -18,13 +18,13 @@ ctas:
 
 *Plato sonda antes y después*
 
-Proceso completo de restauración completa sistema CIS
+Proceso completo de restauración del sistema CIS.
 
 ## ¿Motivos principales?
 
 Cuando reconstruimos un motor completo no solo son las piezas mecánicas, la inyección cuenta un papel principal en todo el proceso y en el funcionamiento final del trabajo.
 
-**REALIZAMOS RESTAURACIONES DEL SISTEMA PARA OTROS TALLERES**
+**Realizamos restauraciones del sistema para otros talleres**
 
 ## Componentes
 

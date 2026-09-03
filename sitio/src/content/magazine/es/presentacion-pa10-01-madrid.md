@@ -1,5 +1,5 @@
 ---
-title: "Presentación del Evento PA10/01 en Madrid"
+title: "Presentación del PA10/01 en Madrid"
 slugSquarespace: "presentacionpa10-01/madrid"
 slugFinal: "presentacion-pa10-01-madrid"
 slugOriginal: "presentacionpa10-01/madrid"
