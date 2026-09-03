@@ -13,7 +13,9 @@
     "validar:hreflang": "node scripts/validar-hreflang.mjs",
     "medios": "node scripts/verificar-medios.mjs && node scripts/medir-imagenes.mjs",
     "glosario": "node scripts/validar-glosario.ts",
-    "ortotipografia": "node scripts/validar-ortotipografia.ts"
+    "ortotipografia": "node scripts/validar-ortotipografia.ts",
+    "revision:exportar": "node scripts/exportar-revision.ts",
+    "revision:importar": "node scripts/importar-revision.ts"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

@@ -1,0 +1,597 @@
+[
+  {
+    "id": "src/datos/paginas/tarifa-cayman.json#.secciones[0].parrafos[2]",
+    "texto": "Los precios están sujetos a IVA pero incluyen piezas y mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y de artículos varios. Su vehículo se desinfectará y limpiará, listo para su recolección.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-cayman.json#.secciones[0].parrafos[3]",
+    "texto": "Selecciona un modelo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-cayman.json#.secciones[1].titulo",
+    "texto": "Haz una reserva",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-cayman.json#.secciones[1].parrafos[0]",
+    "texto": "Déjanos los datos de tu modelo, tipo de servicio que requieres y nuestro equipo contactará contigo para confirmar la cita",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.ficheroOriginal",
+    "texto": "porsche-gt-mantenimiento-taller",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.meta.titulo",
+    "texto": "Mantenimiento Porsche GT3 y GT2 · Precios cerrados",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.meta.descripcion",
+    "texto": "Precios cerrados para los 21 GT, del 996 GT3 al 718 Cayman GT4 RS. Servicio menor desde 611 €, servicio mayor desde 1.093 €.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.h1",
+    "texto": "Precios de mantenimiento para los modelos GT",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[0].modelo",
+    "texto": "996 GT3 MK1",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[0].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 611 €</strong><br/>Servicio mayor: <strong>desde 1.093 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[0].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[1].modelo",
+    "texto": "996 GT3 MK2",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[1].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>611 €</strong><br/>Servicio mayor: <strong>1.092 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: 117<strong>€</strong><br/>Inspección pre compra: <strong>375€</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[1].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[2].modelo",
+    "texto": "996 GT3 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[2].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 740 €</strong><br/>Servicio mayor: <strong>desde 1.093 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[2].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[3].modelo",
+    "texto": "997.1 GT3",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[3].parrafos[0]",
+    "texto": "<strong>Precios<br/></strong>Servicio menor: <strong>desde 691€</strong><br/>Servicio mayor: <strong>desde 1.001€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>240 €</strong><br/>Inspección pre compra: <strong>375€</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[3].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[4].modelo",
+    "texto": "997.1 GT3 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[4].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 464€</strong><br/>Servicio mayor: <strong>desde 1.184€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[4].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[5].modelo",
+    "texto": "997.2 GT2",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[5].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong> desde 602€</strong><br/>Servicio mayor:d<strong>esde 1.029€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[5].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[6].modelo",
+    "texto": "997.2 GT3 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[6].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong>desde 802€</strong><br/>Servicio mayor: <strong>desde 1.030€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[6].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[7].modelo",
+    "texto": "991.1 GT3",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[7].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong>desde 691€</strong><br/>Servicio mayor: <strong>desde 1.259€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[7].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[8].modelo",
+    "texto": "991.1 GT3 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[8].parrafos[0]",
+    "texto": "<strong>Precios<br/></strong>Servicio menor: <strong>370</strong> <strong>€</strong><br/>Servicio mayor: <strong>920</strong> <strong>€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>250 €<br/><br/></strong><em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[9].modelo",
+    "texto": "991.2 GT3",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[9].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 641 €</strong><br/>Servicio mayor: <strong>desde 1.438€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: 117<strong> €</strong><br/>Inspección pre compra: <strong>375€</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[9].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[10].modelo",
+    "texto": "991.2 GT3 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[10].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong>desde 640€</strong><br/>Servicio mayor:<strong>desde 1.495€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375€</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[10].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[11].modelo",
+    "texto": "992 GT3",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[11].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 540€</strong><br/>Servicio mayor: <strong>desde1.437€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[11].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[12].modelo",
+    "texto": "992 GT3 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[12].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong> desde 540€</strong><br/>Servicio mayor: <strong>desde 1.437€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra:<strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[12].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[13].modelo",
+    "texto": "993 GT",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[13].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong>desde 822€</strong><br/>Servicio mayor:<strong>desde 1.295€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[13].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[14].modelo",
+    "texto": "996 GT2",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[14].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong>desde 680€</strong><br/>Servicio mayor:<strong>desde 1.334€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[14].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[15].modelo",
+    "texto": "997 GT2",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[15].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong>desde 603€</strong><br/>Servicio mayor:<strong>desde </strong> <strong>1.149€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[15].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[16].modelo",
+    "texto": "997 GT2 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[16].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 857€</strong><br/>Servicio mayor: <strong>desde1.216 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[16].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[17].modelo",
+    "texto": "991 GT2 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[17].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 656€</strong><br/>Servicio mayor: <strong>desde 1.702€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[17].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[18].modelo",
+    "texto": "981 CAYMAN GT4",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[18].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong> desde 683€</strong><br/>Servicio mayor:<strong>desde 1029€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €<br/><br/></strong><em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[19].modelo",
+    "texto": "718 CAYMAN GT4",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[19].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 695€</strong><br/>Servicio mayor:<strong>desde 1.030€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[19].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[20].modelo",
+    "texto": "718 CAYMAN GT4 RS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[20].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong> desde 695€</strong><br/>Servicio mayor: <strong>desde 1.030€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: 117€<br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.acordeones[20].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.secciones[0].titulo",
+    "texto": "Precios de mantenimiento para los modelos GT",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.secciones[0].parrafos[0]",
+    "texto": "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia de trabajo, servicio y diagnóstico como clave del proceso para orientarnos hacia un trabajo exitoso.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.secciones[0].parrafos[1]",
+    "texto": "Los precios están sujetos a IVA pero incluyen piezas y mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y de artículos varios. Su vehículo se desinfectará y limpiará, listo para su entrega.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.secciones[0].parrafos[2]",
+    "texto": "Selecciona un modelo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.secciones[1].titulo",
+    "texto": "Haz una reserva",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-gt.json#.secciones[1].parrafos[0]",
+    "texto": "Déjanos los datos de tu modelo, tipo de servicio que requieres y nuestro equipo contactará contigo para confirmar la cita",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.ficheroOriginal",
+    "texto": "porsche-transaxle-mantenimiento-taller",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.meta.titulo",
+    "texto": "Mantenimiento Porsche 924, 944, 968 y 928 · Precios cerrados",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.meta.descripcion",
+    "texto": "Precios cerrados para los transaxle: 924, 944, 968 y 928. Servicio menor desde 401 €, servicio mayor desde 598 €. Barcelona y Madrid.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.h1",
+    "texto": "Precios de mantenimiento para los modelos Transaxle",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.acordeones[0].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 401 €</strong><br/>Servicio mayor: <strong>desde 598 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>240 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.acordeones[0].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.acordeones[1].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>502 €</strong><br/>Servicio mayor: <strong>898 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>240 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.acordeones[1].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.acordeones[2].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>601 €</strong><br/>Servicio mayor: <strong>898 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>240 €</strong><br/>Inspección pre compra: <strong>375€</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.acordeones[2].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.acordeones[3].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>601 €</strong><br/>Servicio mayor: <strong>898 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>240</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.acordeones[3].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.secciones[0].titulo",
+    "texto": "Precios de mantenimiento para los modelos Transaxle",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.secciones[0].parrafos[0]",
+    "texto": "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia de trabajo, servicio y diagnóstico de fallos centrados en un diagnóstico claro y efectivo como clave de todo el proceso de reparación.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.secciones[0].parrafos[1]",
+    "texto": "Los precios están sujetos a IVA pero incluyen piezas y mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y de artículos varios. Su vehículo se desinfectará y limpiará, listo para su entrega",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.secciones[0].parrafos[2]",
+    "texto": "Selecciona un modelo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.secciones[1].titulo",
+    "texto": "Haz una reserva",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-transaxle.json#.secciones[1].parrafos[0]",
+    "texto": "Déjanos los datos de tu modelo, tipo de servicio que requieres y nuestro equipo contactará contigo para confirmar la cita",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.ficheroOriginal",
+    "texto": "porsche-turbo-mantenimiento-taller",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.meta.titulo",
+    "texto": "Mantenimiento Porsche Turbo · Precios cerrados por modelo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.meta.descripcion",
+    "texto": "Precios cerrados del 930 Turbo al 992 Turbo. Servicio menor desde 582 €, servicio mayor desde 1.203 €. Barcelona y Madrid.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.h1",
+    "texto": "Precios de mantenimiento para los modelos Turbo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[0].modelo",
+    "texto": "930 Turbo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[0].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 582 €</strong><br/>Servicio mayor:<strong>desde 1.203 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[0].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[1].modelo",
+    "texto": "964 3.3 Turbo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[1].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 628€</strong><br/>Servicio mayor:<strong>desde 1093 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117€</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[1].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[2].modelo",
+    "texto": "964 3.6 Turbo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[2].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 685 €</strong><br/>Servicio mayor: <strong>desde 950 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[2].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[3].modelo",
+    "texto": "993 Turbo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[3].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 695 €</strong><br/>Servicio mayor: <strong>desde 1438€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[3].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[4].modelo",
+    "texto": "996 Turbo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[4].parrafos[0]",
+    "texto": "<strong>Precios<br/></strong>Servicio menor: <strong>desde 674 €</strong><br/>Servicio mayor: <strong>desde 1242 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías:<strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[4].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[5].modelo",
+    "texto": "997.1 Turbo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[5].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor: <strong>desde 657 €</strong><br/>Servicio mayor: <strong>desde 1.131€</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[5].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[6].modelo",
+    "texto": "997.2 Turbo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[6].parrafos[0]",
+    "texto": "<strong><br/></strong>Servicio menor:<strong>desde 680 €</strong><br/>Servicio mayor: <strong>desde 1.163 €</strong><br/>Servicio líquido de frenos: <strong>92 €</strong><br/>Geometrías: <strong>117 €</strong><br/>Inspección pre compra: <strong>375 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[6].parrafos[1]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-turbo.json#.acordeones[7].modelo",
+    "texto": "991.1 Turbo",
+    "corregido": ""
+  }
+]
