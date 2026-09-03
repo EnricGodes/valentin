@@ -1627,11 +1627,6 @@ section { position: relative; }
 .ims-res-retro strong { color: var(--blanco); }
 
 .ims-acciones { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; margin-top: 32px; }
-.ims-enlace {
-  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
-  text-transform: uppercase; color: var(--bronce); text-decoration: none;
-}
-.ims-enlace:hover { color: var(--blanco); }
 
 /* ── Afinado: solo los campos que pueden cambiar ESTE resultado ──────────── */
 .ims-afinar { margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--linea-fuerte); }
@@ -1664,12 +1659,6 @@ section { position: relative; }
   text-transform: uppercase; color: var(--concreto) !important;
 }
 .ims-aviso { margin-top: 24px; font-size: 13px !important; line-height: 1.6; opacity: 0.75; }
-
-.ims-version {
-  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.14em;
-  text-transform: uppercase; color: rgba(167, 162, 154, 0.4); margin-top: 16px;
-}
-.ims-version a { color: rgba(178, 138, 91, 0.7); }
 
 @media (max-width: 860px) {
   .ims-campos { grid-template-columns: 1fr; }

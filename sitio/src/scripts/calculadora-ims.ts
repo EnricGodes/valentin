@@ -1,7 +1,7 @@
 import { evaluarIms } from '../logica/ims/evaluador.ts';
 import type { Evaluacion, Vehiculo } from '../logica/ims/tipos.ts';
 import {
-  ACCIONES, AFINAR, AVISO, CONFIANZA, ESTADOS, GENERACION, INCIDENCIA, MOTIVOS,
+  ACCIONES, AFINAR, AVISO, ESTADOS, GENERACION, MOTIVOS,
   OPCIONES, PREGUNTAS, RETROFIT, RODAMIENTOS, SUSTITUIBILIDAD, UI,
 } from '../logica/ims/textos.es.ts';
 import { generacionesCandidatas } from '../logica/ims/reglas.ts';
@@ -30,29 +30,23 @@ function datos(r: Evaluacion): [string, string][] {
   if (!fuera.has(r.sustituibilidad)) {
     filas.push([UI.sustitucion, SUSTITUIBILIDAD[r.sustituibilidad]]);
   }
-  if (r.incidenciaRelativa === 'mayor' || r.incidenciaRelativa === 'menor') {
-    filas.push([UI.incidencia, INCIDENCIA[r.incidenciaRelativa]]);
-  }
-  filas.push([UI.confianza, CONFIANZA[r.confianza]]);
   return filas;
 }
 
 /**
- * Que campos pueden cambiar ESTE resultado. Ofrecer el numero de motor a un
- * Cayenne, o el historial a un motor que no lleva IMS, es pedir datos que no
- * van a servir para nada.
+ * Que campos pueden cambiar ESTE resultado. Solo la transicion se afina: ahi el
+ * numero de motor decide entre un rodamiento y otro. Cuando el veredicto ya
+ * esta cerrado no se pide nada mas; preguntar por el historial despues de un
+ * "Si" no cambiaba la respuesta y alargaba el formulario.
  */
 function afinables(r: Evaluacion): { modo: keyof typeof AFINAR; campos: string[] } | null {
   if (r.estado === 'TRANSICION_DOBLE_O_SIMPLE' || r.estado === 'TRANSICION_SIMPLE_O_GRANDE') {
     return { modo: 'transicion', campos: ['originalidadMotor', 'codigoMotor', 'serieMotor'] };
   }
-  if (r.estado.startsWith('AFECTADO_')) {
-    return { modo: 'historial', campos: ['originalidadMotor', 'intervencionIms'] };
-  }
   return null;
 }
 
-function pintaResultado(r: Evaluacion, v: Vehiculo, articulo?: string): string {
+function pintaResultado(r: Evaluacion, v: Vehiculo): string {
   const t = ESTADOS[r.estado];
   const retro = r.estadoActual ? RETROFIT[r.estadoActual] : null;
   const motivos = r.motivos.map((m) => MOTIVOS[m]).filter(Boolean) as string[];
@@ -65,7 +59,7 @@ function pintaResultado(r: Evaluacion, v: Vehiculo, articulo?: string): string {
   const afinar = afinables(r);
 
   /* A un coche que no tiene este problema no se le ofrece un diagnostico de
-     este problema. Se queda el enlace al articulo, que si le sirve. */
+     este problema. */
   return `
     <div class="ims-res ims-res--${r.respuesta}">
       <div class="ims-veredicto">
@@ -86,7 +80,6 @@ function pintaResultado(r: Evaluacion, v: Vehiculo, articulo?: string): string {
       <div class="ims-acciones">
         ${r.respuesta === 'no' ? '' :
           `<a class="cta" href="${cta}" data-ims-cta>${esc(UI.ctaBoton)}</a>`}
-        ${articulo ? `<a class="ims-enlace" href="${articulo}">${esc(UI.ctaArticulo)}</a>` : ''}
       </div>
 
       ${afinar ? `
@@ -128,7 +121,6 @@ export function iniciarCalculadoraIms(): void {
   const zonaPregunta = raiz.querySelector<HTMLElement>('[data-ims-pregunta]')!;
   const salida = raiz.querySelector<HTMLElement>('[data-ims-resultado]')!;
   const error = raiz.querySelector<HTMLElement>('[data-ims-error]')!;
-  const articulo = raiz.dataset.articulo || undefined;
 
   /** Lo respondido fuera de los tres campos fijos. Sobrevive al repintado. */
   const memoria: Record<string, string> = {};
@@ -246,7 +238,6 @@ export function iniciarCalculadoraIms(): void {
     if (!caja || !cfg) return;
     const etiquetas: Record<string, string> = {
       originalidadMotor: UI.motorOriginal,
-      intervencionIms: UI.intervencion,
       codigoMotor: UI.codigoMotor,
       serieMotor: UI.serieMotor,
     };
@@ -275,7 +266,7 @@ export function iniciarCalculadoraIms(): void {
          vez es no hacer nada a ojos de quien la usa. Se responde lo que se
          puede responder: que sin ese dato no se sabe, y como se resuelve. */
       if (memoria[r.siguientePregunta] === 'desconocida') {
-        salida.innerHTML = pintaResultado(r, v, articulo);
+        salida.innerHTML = pintaResultado(r, v);
         salida.hidden = false;
         return;
       }
@@ -290,7 +281,7 @@ export function iniciarCalculadoraIms(): void {
        devolverlo despues: si no, quien navega con teclado vuelve al principio. */
     const foco = (document.activeElement as HTMLElement)?.getAttribute?.('name');
 
-    salida.innerHTML = pintaResultado(r, v, articulo);
+    salida.innerHTML = pintaResultado(r, v);
     salida.hidden = false;
     pintaAfinado(r, v);
 

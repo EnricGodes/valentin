@@ -15,17 +15,16 @@
  * pagina y el articulo: un unico motor de reglas.
  */
 import { OPCIONES, UI } from '../logica/ims/textos.es.ts';
-import { MOTORES, VERSION_REGLAS, REVISADO } from '../logica/ims/reglas.ts';
+import { MOTORES, VERSION_REGLAS } from '../logica/ims/reglas.ts';
 
 interface Props {
   compacta?: boolean;
-  enlaceArticulo?: string;
 }
-const { compacta = false, enlaceArticulo } = Astro.props;
+const { compacta = false } = Astro.props;
 const anoMax = new Date().getFullYear() + 1;
 ---
 <section class:list={['ims', compacta && 'ims--compacta']} data-ims
-         data-version={VERSION_REGLAS} data-articulo={enlaceArticulo}>
+         data-version={VERSION_REGLAS}>
   <form class="ims-form" data-ims-form novalidate>
     <div class="ims-campos">
       <p class="ims-campo">
@@ -62,11 +61,6 @@ const anoMax = new Date().getFullYear() + 1;
 
   <div class="ims-salida" data-ims-resultado aria-live="polite" hidden></div>
 
-  <p class="ims-version">
-    Reglas v{VERSION_REGLAS} · revisadas el {REVISADO}
-    {enlaceArticulo && <> · <a href={enlaceArticulo}>{UI.ctaArticulo}</a></>}
-  </p>
-
   {/* Plantillas del afinado. Se declaran en el servidor para no escribir
       <select> a mano en el script. La aclaracion no usa plantilla: son
       opciones a la vista, y sus valores dependen del coche. */}
@@ -85,11 +79,6 @@ const anoMax = new Date().getFullYear() + 1;
   <template data-ims-plantilla="originalidadMotor">
     <select name="originalidadMotor" id="ims-original">
       {OPCIONES.originalidad.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
-    </select>
-  </template>
-  <template data-ims-plantilla="intervencionIms">
-    <select name="intervencionIms" id="ims-intervencion">
-      {OPCIONES.intervencion.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
     </select>
   </template>
 </section>

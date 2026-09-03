@@ -26,7 +26,7 @@ export interface TextoEstado {
 export const ESTADOS: Record<Estado, TextoEstado> = {
   AFECTADO_SIMPLE_SUSTITUIBLE: {
     veredicto: 'Sí',
-    matiz: 'es el grupo con más incidencia',
+    matiz: 'esta unidad está afectada',
     resumen: 'Monta el rodamiento 6204 de una hilera. Se sustituye sin abrir el bloque.',
     etiqueta: 'IMS 6204 · una hilera · sustituible',
     cuerpo: 'Con motor original, esta configuración montaba normalmente el rodamiento IMS pequeño de una hilera. Es la revisión con mayor incidencia histórica. Puede sustituirse preventivamente sin abrir el bloque, aunque hay que retirar la transmisión y el volante motor o el flexplate.',
@@ -103,24 +103,11 @@ export const RODAMIENTOS: Record<Rodamiento, string> = {
   desconocido: 'Sin determinar',
 };
 
-export const INCIDENCIA: Record<string, string> = {
-  mayor: 'La mayor de las tres revisiones',
-  menor: 'Menor que la del 6204, no nula',
-  no_es_este_fallo: 'No es este modo de fallo',
-  desconocida: 'Sin determinar',
-};
-
 export const SUSTITUIBILIDAD: Record<string, string> = {
   sin_abrir_el_bloque: 'Sin abrir el bloque',
   desmontando_el_motor: 'Exige desmontar el motor',
   no_aplica: 'No aplica',
   desconocida: 'Sin determinar',
-};
-
-export const CONFIANZA: Record<string, string> = {
-  alta: 'Alta',
-  media: 'Media',
-  baja: 'Baja',
 };
 
 /** Por que la calculadora ha llegado a este resultado. */
@@ -182,15 +169,12 @@ export const RETROFIT = {
 /** Aviso fijo, siempre visible junto al resultado. */
 export const AVISO = 'Resultado orientativo basado en la configuración de fábrica. El año de matriculación, un motor sustituido o una intervención previa pueden cambiarlo. La calculadora no diagnostica el estado mecánico del coche ni sustituye una inspección especializada.';
 
-/* Titulos de la caja de afinado, segun lo que ese resultado pueda cambiar. */
+/* Titulo de la caja de afinado. Solo la hay donde el dato cambia el resultado:
+   en un año de transicion. Con el veredicto cerrado no se pregunta nada mas. */
 export const AFINAR = {
   transicion: {
     titulo: 'Resuélvelo con el número de motor',
     ayuda: 'Es lo único que distingue un rodamiento del otro sin desmontar nada.',
-  },
-  historial: {
-    titulo: 'Ajusta con el historial del coche',
-    ayuda: 'Un motor sustituido o un IMS ya intervenido cambian la lectura.',
   },
 };
 
@@ -206,22 +190,18 @@ export const UI = {
   generacion: 'Generación',
   variante: 'Versión',
   motorOriginal: '¿Conserva el motor original?',
-  intervencion: '¿Consta una intervención en el IMS?',
   codigoMotor: 'Tipo de motor',
   serieMotor: 'Número de motor',
   serieAyuda: 'Se queda en tu navegador. No se guarda ni se envía.',
   deFabrica: 'De fábrica',
   configuracion: 'Configuración',
-  incidencia: 'Incidencia relativa',
   sustitucion: 'Sustitución',
-  confianza: 'Confianza del dato',
   porQue: 'Por qué',
   siguientePaso: 'Siguiente paso',
   situacionActual: 'Situación declarada',
   ctaTitulo: '¿Quieres confirmarlo en tu unidad?',
   ctaTexto: 'Revisamos el historial y la configuración de tu motor antes de recomendar cualquier intervención.',
   ctaBoton: 'Solicitar diagnóstico IMS',
-  ctaArticulo: 'Entender cómo funciona el IMS',
   errorAno: 'Introduce un año entre 1948 y ' + (new Date().getFullYear() + 1) + '.',
   errorModelo: 'Elige un modelo.',
 };
@@ -293,11 +273,5 @@ export const OPCIONES = {
     { valor: 'desconocida', etiqueta: 'No lo sé' },
     { valor: 'original', etiqueta: 'Sí, el original' },
     { valor: 'sustituido', etiqueta: 'No, se sustituyó' },
-  ],
-  intervencion: [
-    { valor: 'ninguna', etiqueta: 'No' },
-    { valor: 'documentada', etiqueta: 'Sí, con documentación' },
-    { valor: 'sin_documentar', etiqueta: 'Sí, pero sin saber cuál' },
-    { valor: 'desconocida', etiqueta: 'No lo sé' },
   ],
 };
