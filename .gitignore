@@ -16,3 +16,7 @@ sitio/public/img/
 sitio/public/muestra/
 sitio/public/video/
 _migracion/contenido/videos/
+
+# Las tandas de revision del castellano se regeneran con npm run revision:exportar
+# y se borran cuando estan aplicadas: no son fuente, son un apero.
+sitio/revision/
