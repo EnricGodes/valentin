@@ -14,7 +14,7 @@ import type { Vehiculo } from './tipos.ts';
  */
 
 const v = (p: Partial<Vehiculo>): Vehiculo => ({
-  familia: 'boxster', ano: 2003, baseAno: 'modelo', originalidadMotor: 'original', ...p,
+  familia: 'boxster', ano: 2003, baseAno: 'modelo', ...p,
 });
 
 // ── 1–2, 9, 33–34: clasificacion de fabrica ────────────────────────────────
@@ -285,7 +285,7 @@ test('32. Numero con marca de remanufacturado: no se aplica el corte', () => {
   assert.ok(r.motivos.includes('serie_remanufacturado'));
 });
 
-test('El corte no se aplica si el motor no se declara original', () => {
+test('El corte no se aplica si consta que el motor se sustituyo', () => {
   const r = evaluarIms(v({
     ano: 2000, generacion: '986', codigoMotor: 'M96.22', serieMotor: '65112852',
     originalidadMotor: 'sustituido',

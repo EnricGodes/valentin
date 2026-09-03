@@ -209,7 +209,10 @@ export function evaluarIms(entrada: Vehiculo): Evaluacion {
   // ── 6. Afinado por numero de motor, solo en transiciones ─────────────────
   const enTransicion = salida.estado === 'TRANSICION_DOBLE_O_SIMPLE'
     || salida.estado === 'TRANSICION_SIMPLE_O_GRANDE';
-  const motorPropio = (v.originalidadMotor ?? 'desconocida') === 'original';
+  /* Ya no se pregunta si el motor es el de fabrica: un motor sustituido es
+     raro, y condicionar el corte a una afirmacion que casi nadie hace dejaba
+     el afinado sin efecto. Se asume el de fabrica salvo que conste lo otro. */
+  const motorPropio = v.originalidadMotor !== 'sustituido';
 
   if (enTransicion && motorPropio) salida = aplicaCorte(v, salida);
   if (enTransicion && salida.confianza === 'alta') salida.confianza = 'baja';
@@ -225,10 +228,6 @@ export function evaluarIms(entrada: Vehiculo): Evaluacion {
       motivos: [...salida.motivos, 'motor_sustituido'],
       acciones: [...salida.acciones, 'identificar_motor_actual'],
     };
-  } else if (v.originalidadMotor === 'desconocida' && salida.confianza === 'alta'
-             && salida.rodamientoDeFabrica !== 'sin_ims'
-             && salida.rodamientoDeFabrica !== 'no_aplica') {
-    salida = { ...salida, confianza: 'media', motivos: [...salida.motivos, 'originalidad_desconocida'] };
   }
 
   // ── 8. La intervencion modifica el estado ACTUAL, no el de fabrica ───────

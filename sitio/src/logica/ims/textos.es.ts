@@ -24,12 +24,12 @@ export const ESTADOS: Record<Estado, TextoEstado> = {
   AFECTADO_SIMPLE_SUSTITUIBLE: {
     veredicto: 'Sí, esta unidad está afectada',
     resumen: 'Monta el rodamiento 6204 de una hilera. Se sustituye sin abrir el bloque.',
-    cuerpo: 'Con motor original, esta configuración montaba normalmente el rodamiento IMS pequeño de una hilera. Es la revisión con mayor incidencia histórica. Puede sustituirse preventivamente sin abrir el bloque, aunque hay que retirar la transmisión y el volante motor o el flexplate.',
+    cuerpo: 'Esta configuración montaba normalmente el rodamiento IMS pequeño de una hilera. Es la revisión con mayor incidencia histórica. Puede sustituirse preventivamente sin abrir el bloque, aunque hay que retirar la transmisión y el volante motor o el flexplate.',
   },
   AFECTADO_DOBLE_SUSTITUIBLE: {
     veredicto: 'Sí, esta unidad está afectada',
     resumen: 'Monta el rodamiento de doble hilera. Se sustituye sin abrir el bloque.',
-    cuerpo: 'Con motor original, esta configuración montaba normalmente un rodamiento IMS de doble hilera. Ha mostrado menor incidencia que el 6204 simple, pero la antigüedad y el historial siguen siendo relevantes.',
+    cuerpo: 'Esta configuración montaba normalmente un rodamiento IMS de doble hilera. Ha mostrado menor incidencia que el 6204 simple, pero la antigüedad y el historial siguen siendo relevantes.',
     accion: 'Verifica la documentación e incluye el IMS en una inspección especializada; valora la sustitución según estado, uso e historial.',
   },
   TRANSICION_DOBLE_O_SIMPLE: {
@@ -68,7 +68,7 @@ export const ESTADOS: Record<Estado, TextoEstado> = {
   DATOS_INSUFICIENTES: {
     veredicto: 'No se sabe',
     resumen: 'Sin ese dato no se puede decir cuál monta. Lo resuelve el número de motor o una inspección de la brida.',
-    cuerpo: 'En este año convivieron motores o generaciones diferentes, o el motor fue sustituido. Preferimos decirlo a darte una certeza falsa.',
+    cuerpo: 'En este año convivieron motores o generaciones diferentes. Preferimos decirlo a darte una certeza falsa.',
   },
 };
 
@@ -145,7 +145,7 @@ export const RETROFIT = {
 };
 
 /** Aviso fijo, siempre visible junto al resultado. */
-export const AVISO = 'Resultado orientativo basado en la configuración de fábrica. El año de matriculación, un motor sustituido o una intervención previa pueden cambiarlo. La calculadora no diagnostica el estado mecánico del coche ni sustituye una inspección especializada.';
+export const AVISO = 'Resultado orientativo basado en la configuración de fábrica. La calculadora no diagnostica el estado mecánico del coche ni sustituye una inspección especializada.';
 
 /* Titulo de la caja de afinado. Solo la hay donde el dato cambia el resultado:
    en un año de transicion. Con el veredicto cerrado no se pregunta nada mas. */
@@ -166,7 +166,6 @@ export const UI = {
   porqueEsto: 'Por qué sale esto',
   generacion: 'Generación',
   variante: 'Versión',
-  motorOriginal: '¿Conserva el motor original?',
   codigoMotor: 'Tipo de motor',
   codigoAyuda: 'Cada motor tiene su propio corte de serie: el tipo dice cuál aplica.',
   ladoDelCorte: 'Número de motor',
@@ -246,14 +245,5 @@ export const OPCIONES = {
     { valor: 'gt2', etiqueta: 'GT2' },
     { valor: 'gt3', etiqueta: 'GT3 / GT3 RS' },
     { valor: 'desconocida', etiqueta: 'No lo sé' },
-  ],
-  /* "No lo sé" va primero a proposito: es el valor por defecto de un campo
-     que nadie ha contestado todavia. Con "Sí, el original" delante, la
-     calculadora daba confianza ALTA por un dato que el usuario no habia
-     afirmado, y la confianza alta es justo lo que no se puede regalar. */
-  originalidad: [
-    { valor: 'desconocida', etiqueta: 'No lo sé' },
-    { valor: 'original', etiqueta: 'Sí, el original' },
-    { valor: 'sustituido', etiqueta: 'No, se sustituyó' },
   ],
 };

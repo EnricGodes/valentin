@@ -41,7 +41,7 @@ function datos(r: Evaluacion): [string, string][] {
  */
 function afinables(r: Evaluacion): { modo: keyof typeof AFINAR; campos: string[] } | null {
   if (r.estado === 'TRANSICION_DOBLE_O_SIMPLE' || r.estado === 'TRANSICION_SIMPLE_O_GRANDE') {
-    return { modo: 'transicion', campos: ['originalidadMotor', 'codigoMotor', 'ladoDelCorte'] };
+    return { modo: 'transicion', campos: ['codigoMotor', 'ladoDelCorte'] };
   }
   return null;
 }
@@ -206,8 +206,6 @@ export function iniciarCalculadoraIms(): void {
       variante: limpia(memoria.variante) as Vehiculo['variante'],
       codigoMotor: memoria.codigoMotor || undefined,
       ladoDelCorte: (memoria.ladoDelCorte || undefined) as Vehiculo['ladoDelCorte'],
-      originalidadMotor: (memoria.originalidadMotor
-        || 'desconocida') as Vehiculo['originalidadMotor'],
       intervencionIms: (memoria.intervencionIms || 'ninguna') as Vehiculo['intervencionIms'],
     };
   }
@@ -264,7 +262,6 @@ export function iniciarCalculadoraIms(): void {
     const cfg = afinables(r);
     if (!caja || !cfg) return;
     const etiquetas: Record<string, string> = {
-      originalidadMotor: UI.motorOriginal,
       codigoMotor: UI.codigoMotor,
     };
     const ayudas: Record<string, string> = {
