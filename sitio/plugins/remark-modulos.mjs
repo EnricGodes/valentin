@@ -1,7 +1,12 @@
+import { readFileSync, existsSync } from 'node:fs';
+import { basename, dirname, resolve } from 'node:path';
 import { visit } from 'unist-util-visit';
 
 /**
  * Convierte las directivas de modulo del Magazine en HTML.
+ *
+ *   ::: articulos {ids=backdating-964-2023,restauracion-pinzas-freno}
+ *   :::
  *
  *   ::: galeria {diseno=cuadricula porFila=3 proporcion=square lightbox}
  *   ![alt](/img/a.jpg "pie")
@@ -78,8 +83,84 @@ function galeria(atributos, imagenes) {
   </div>`;
 }
 
+/* Solo lo que hace falta para una tarjeta. No se parsea YAML entero: el
+   frontmatter del Magazine lo escribe la migracion y es plano. */
+function frontmatter(texto) {
+  const fm = /^---\r?\n([\s\S]*?)\r?\n---/.exec(texto);
+  if (!fm) return null;
+  const campo = (k) => {
+    const m = new RegExp(`^${k}:\\s*(.*)$`, 'm').exec(fm[1]);
+    if (!m) return '';
+    return m[1].trim().replace(/^"(.*)"$/s, '$1').trim();
+  };
+  return {
+    title: campo('title'),
+    excerpt: campo('excerpt').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(),
+    slugFinal: campo('slugFinal'),
+    date: campo('date'),
+    categoria: (/^categories:\s*\[\s*"([^"]+)"/m.exec(fm[1]) || [])[1] || '',
+    cuerpo: texto.slice(fm[0].length),
+  };
+}
+
+/**
+ * Tarjetas de otros articulos del Magazine.
+ *
+ * En Squarespace esto era un "bloque de resumen": el editor elegia articulos y
+ * el bloque pintaba foto, titulo y entradilla de cada uno. La migracion lo
+ * aplano a parrafos sueltos sin foto ni enlace.
+ *
+ * Se pinta con los datos del articulo enlazado, no con texto copiado: asi el
+ * titulo y la entradilla salen ya en el idioma de la pagina y no hay que
+ * mantener diez frases repetidas en seis ficheros. Las clases son las del
+ * listado del Magazine, para que una tarjeta se lea igual en todas partes.
+ */
+function articulos(atributos, rutaDelPost) {
+  const ids = String(atributos.ids || '').split(',').map((s) => s.trim()).filter(Boolean);
+  if (!ids.length) return '';
+
+  const carpeta = dirname(rutaDelPost);
+  const idioma = basename(carpeta);
+  const fmt = new Intl.DateTimeFormat(idioma, { month: 'short', year: 'numeric' });
+  const prefijo = idioma === 'es' ? '' : `/${idioma}`;
+
+  const tarjetas = ids.map((id) => {
+    // Si el articulo aun no esta traducido, la ficha se toma del castellano:
+    // mejor una tarjeta en el idioma de origen que un hueco.
+    const propio = resolve(carpeta, `${id}.md`);
+    const ruta = existsSync(propio) ? propio : resolve(carpeta, '..', 'es', `${id}.md`);
+    if (!existsSync(ruta)) return '';
+
+    const d = frontmatter(readFileSync(ruta, 'utf8'));
+    if (!d) return '';
+
+    const foto = (d.cuerpo.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1] ?? '')
+      .replace('/img/magazine/', '/img/magazine/card/');
+    const fecha = d.date ? fmt.format(new Date(d.date)) : '';
+    const href = `${prefijo}/magazine/${d.slugFinal || id}`;
+
+    return `
+      <a class="mag-card reveal-foto" href="${esc(href)}">
+        <div class="mag-card-foto">
+          ${foto
+            ? `<img src="${esc(foto)}" alt="" width="700" height="525"
+                    loading="lazy" decoding="async">`
+            : '<span class="mag-card-sinfoto"></span>'}
+        </div>
+        ${fecha || d.categoria ? `<p class="mag-meta">${esc(fecha)}${
+          d.categoria ? ` &middot; ${esc(d.categoria)}` : ''}</p>` : ''}
+        <h3 class="mag-card-titulo">${esc(d.title)}</h3>
+        ${d.excerpt ? `<p class="mag-card-deck">${esc(d.excerpt.slice(0, 130))}</p>` : ''}
+      </a>`;
+  }).join('');
+
+  if (!tarjetas.trim()) return '';
+  return `<div class="mag-lista mod-articulos ancha" style="--columnas:${
+    Number(atributos.columnas) || 2}">${tarjetas}</div>`;
+}
+
 export default function remarkModulos() {
-  return (arbol) => {
+  return (arbol, fichero) => {
     visit(arbol, (nodo) => {
       if (nodo.type !== 'containerDirective') return;
       const at = nodo.attributes || {};
@@ -89,6 +170,15 @@ export default function remarkModulos() {
         if (!imgs.length) return;
         nodo.type = 'html';
         nodo.value = galeria(at, imgs);
+        nodo.children = [];
+        return;
+      }
+
+      if (nodo.name === 'articulos') {
+        const html = articulos(at, fichero?.path || fichero?.history?.[0] || '');
+        if (!html) return;
+        nodo.type = 'html';
+        nodo.value = html;
         nodo.children = [];
         return;
       }

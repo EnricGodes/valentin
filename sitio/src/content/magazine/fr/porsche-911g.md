@@ -54,26 +54,7 @@ Le changement de génération a également entraîné la création de nouvelles 
 
 En juillet 1989, une **Porsche 911 Coupé** marque la fin de la Série G. De couleur blanc Grand Prix, avec une carrosserie de largeur normale et un toit coulissant, beaucoup la qualifiaient de « parfaite ».
 
-## Porsche 911 Série G à vendre
-
 ## Restaurations Porsche 911 série G
 
-Suivez le restauration de cet backdating de 964
-
-Suivez le restauration de ce 2.7 s Targa de 1975
-
-Suivez le restauration de cette SC Targa de 1979 que nous préparons à la vente.
-
-Suivez le restauration de cette belle 930, qui est arrivée dans nos installations après avoir subi un incendie dans la zone moteur.
-
-Moteur 2.2
-
-moteur 2.2 1970
-
-Réfection moteur 964 type M64
-
-Moteur 930 turbo 3.0 1988
-
-La sellerie d'une 911 est un élément clé de la restauration.
-
-Restauration des étriers de frein
+:::articulos{ids="backdating-964-2023,restauracion-27-s-targa-lime-green,restauracion-sctarga1979oakgreen,restauracion-incendio-930-turbo-1976,restauracion-motor-1971-22,rehabilitacion-motor-22-1970-serief,restauracion-motor-964-m64,restauracion-motor-930-turbo-30-1988,tapicera-original-de-911-serie-f,restauracion-pinzas-freno"}
+:::

@@ -54,26 +54,7 @@ Der Generationswechsel führte neben den traditionellen Modellen RS und Targa au
 
 Im Juli 1989 markierte ein **Porsche 911 Coupé** das Ende der G-Serie. In Grand-Prix-Weiß gehalten, mit normalbreiter Karosserie und Schiebedach, bezeichneten ihn viele als „perfekt“.
 
-## Porsche 911 G-Serie zu verkaufen
-
 ## Restaurierungen Porsche 911 G-Serie
 
-Befolgen Sie den Restaurierung dieser backdating von 964
-
-Folgen Sie dem Restaurierung dieses 2.7 s Targa von 1975
-
-Verfolgen Sie den Restaurierung dieses SC Targa aus 1979, den wir zum Verkauf vorbereiten.
-
-Verfolgen Sie den Restaurierung dieses wunderschönen 930, der nach einem Brand im Motorbereich bei uns eintraf.
-
-Engine 2.2
-
-Motor 2.2 1970
-
-Motorüberholung 964 Typ M64
-
-Motor 930 turbo 3.0 1988
-
-Die Polsterung eines 911 ist ein wichtiger Bestandteil der Restaurierung.
-
-Restaurierung von Bremssättel
+:::articulos{ids="backdating-964-2023,restauracion-27-s-targa-lime-green,restauracion-sctarga1979oakgreen,restauracion-incendio-930-turbo-1976,restauracion-motor-1971-22,rehabilitacion-motor-22-1970-serief,restauracion-motor-964-m64,restauracion-motor-930-turbo-30-1988,tapicera-original-de-911-serie-f,restauracion-pinzas-freno"}
+:::
