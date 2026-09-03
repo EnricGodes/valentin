@@ -34,7 +34,7 @@ export const ESTADOS: Record<Estado, TextoEstado> = {
   },
   AFECTADO_DOBLE_SUSTITUIBLE: {
     veredicto: 'Sí',
-    matiz: 'con menor incidencia',
+    matiz: 'esta unidad está afectada',
     resumen: 'Monta el rodamiento de doble hilera. Se sustituye sin abrir el bloque.',
     etiqueta: 'IMS de doble hilera · sustituible',
     cuerpo: 'Con motor original, esta configuración montaba normalmente un rodamiento IMS de doble hilera. Ha mostrado menor incidencia que el 6204 simple, pero la antigüedad y el historial siguen siendo relevantes.',
@@ -58,7 +58,7 @@ export const ESTADOS: Record<Estado, TextoEstado> = {
   },
   AFECTADO_GRANDE_NO_SUSTITUIBLE: {
     veredicto: 'Sí',
-    matiz: 'con menor incidencia',
+    matiz: 'esta unidad está afectada',
     resumen: 'Monta el rodamiento 6305 grande. Sustituirlo exige desmontar el motor.',
     etiqueta: 'IMS 6305 · grande · intervención distinta',
     cuerpo: 'Esta configuración conserva un rodamiento IMS de bolas, pero usa la revisión 6305 de mayor tamaño. Su incidencia conocida es menor que la del 6204 pequeño, aunque no es cero. Normalmente no puede extraerse por el alojamiento sin desmontar el motor.',
