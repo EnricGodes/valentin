@@ -287,10 +287,59 @@ export function corteDe(familia: Familia, codigoMotor?: string): Corte | undefin
   return CORTES.find((c) => c.codigoMotor === codigo && c.familias.includes(familia));
 }
 
-export const MOTORES: { codigo: string; etiqueta: string; familias: Familia[] }[] = [
-  { codigo: 'M96.22', etiqueta: 'M96.22 · Boxster 2.7', familias: ['boxster'] },
-  { codigo: 'M96.21', etiqueta: 'M96.21 · Boxster S 3.2', familias: ['boxster'] },
-  { codigo: 'M96.04', etiqueta: 'M96.04 · 911 Carrera 3.4', familias: ['911'] },
-  { codigo: 'M96.05', etiqueta: 'M96.05 · 997.1 Carrera 3.6', familias: ['911'] },
-  { codigo: 'M97.01', etiqueta: 'M97.01 · 997.1 Carrera S 3.8', familias: ['911'] },
+/**
+ * Los motores con corte publicado, con el coche al que corresponde cada uno.
+ *
+ * Generacion y variante estan aqui para no volver a preguntar lo contestado:
+ * un 997.1 Carrera S solo puede montar el M97.01, y ofrecerle tres motores es
+ * pedir dos veces el mismo dato. Donde la combinacion no basta (un Boxster,
+ * cuya version no se pregunta) quedan varios y entonces si hay que elegir.
+ */
+export interface Motor {
+  codigo: string;
+  etiqueta: string;
+  familias: Familia[];
+  generaciones: Generacion[];
+  variantes: Variante[];
+}
+
+export const MOTORES: Motor[] = [
+  {
+    codigo: 'M96.22', etiqueta: 'M96.22 · Boxster 2.7',
+    familias: ['boxster'], generaciones: ['986'], variantes: ['boxster_base'],
+  },
+  {
+    codigo: 'M96.21', etiqueta: 'M96.21 · Boxster S 3.2',
+    familias: ['boxster'], generaciones: ['986'], variantes: ['boxster_s'],
+  },
+  {
+    codigo: 'M96.04', etiqueta: 'M96.04 · 911 Carrera 3.4',
+    familias: ['911'], generaciones: ['996'], variantes: ['carrera_atmosferico'],
+  },
+  {
+    codigo: 'M96.05', etiqueta: 'M96.05 · 997.1 Carrera 3.6',
+    familias: ['911'], generaciones: ['997_1'], variantes: ['carrera_atmosferico'],
+  },
+  {
+    codigo: 'M97.01', etiqueta: 'M97.01 · 997.1 Carrera S 3.8',
+    familias: ['911'], generaciones: ['997_1'], variantes: ['carrera_s_atmosferico'],
+  },
 ];
+
+/**
+ * Los motores compatibles con lo que ya se sabe del coche. Un dato que no se
+ * ha contestado no descarta nada: no preguntar la version de un Boxster no
+ * puede significar que ningun motor le encaje.
+ */
+export function motoresPosibles(
+  familia: Familia, generacion?: Generacion, variante?: Variante,
+): Motor[] {
+  return MOTORES.filter((m) => {
+    if (!m.familias.includes(familia)) return false;
+    if (generacion && generacion !== 'desconocida'
+        && !m.generaciones.includes(generacion)) return false;
+    if (variante && variante !== 'desconocida'
+        && !m.variantes.includes(variante)) return false;
+    return true;
+  });
+}

@@ -9,13 +9,14 @@
  *   - El resultado empieza por el veredicto y una linea. Debajo, sin nada que
  *     desplegar, la explicacion larga, el porque y el aviso.
  *   - La caja de afinado solo aparece si puede cambiar ESE resultado, y solo
- *     con los campos que lo cambian.
+ *     con los campos que lo cambian. Esos campos dependen del coche, asi que
+ *     se construyen en el cliente y no hay plantillas aqui.
  *
  * El componente solo pinta. La logica vive en src/logica/ims y la comparten la
  * pagina y el articulo: un unico motor de reglas.
  */
 import { OPCIONES, UI } from '../logica/ims/textos.es.ts';
-import { MOTORES, VERSION_REGLAS } from '../logica/ims/reglas.ts';
+import { VERSION_REGLAS } from '../logica/ims/reglas.ts';
 
 interface Props {
   compacta?: boolean;
@@ -62,16 +63,4 @@ const anoMax = new Date().getFullYear() + 1;
   </form>
 
   <div class="ims-salida" data-ims-resultado aria-live="polite" hidden></div>
-
-  {/* Plantillas del afinado. Se declaran en el servidor para no escribir
-      <select> a mano en el script. La aclaracion no usa plantilla: son
-      opciones a la vista, y sus valores dependen del coche. */}
-  <template data-ims-plantilla="codigoMotor">
-    <select name="codigoMotor" id="ims-codigo">
-      <option value="">No lo sé</option>
-      {MOTORES.map((m) => (
-        <option value={m.codigo} data-familias={m.familias.join(',')}>{m.etiqueta}</option>
-      ))}
-    </select>
-  </template>
 </section>

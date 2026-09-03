@@ -4,7 +4,7 @@ import {
   ACCIONES, AFINAR, AVISO, ESTADOS, GENERACION, MOTIVOS,
   OPCIONES, PREGUNTAS, RETROFIT, RODAMIENTOS, SUSTITUIBILIDAD, UI,
 } from '../logica/ims/textos.es.ts';
-import { corteDe, generacionesCandidatas } from '../logica/ims/reglas.ts';
+import { corteDe, generacionesCandidatas, motoresPosibles } from '../logica/ims/reglas.ts';
 import { evento } from './eventos.ts';
 
 /**
@@ -123,17 +123,6 @@ export function iniciarCalculadoraIms(): void {
   const memoria: Record<string, string> = {};
   let empezado = false;
 
-  const plantilla = (campo: string) =>
-    raiz.querySelector<HTMLTemplateElement>(`[data-ims-plantilla="${campo}"]`)!
-      .content.cloneNode(true) as DocumentFragment;
-
-  /** Monta un campo con su etiqueta dentro de `destino`. */
-  function monta(destino: HTMLElement, campo: string, etiqueta: string, ayuda?: string) {
-    const frag = plantilla(campo);
-    const control = frag.querySelector('select, input') as HTMLSelectElement | HTMLInputElement;
-    return montaControl(destino, control, campo, etiqueta, ayuda);
-  }
-
   /** El cableado comun: etiqueta, ayuda, memoria y recalculo al cambiar. */
   function montaControl(
     destino: HTMLElement, control: HTMLSelectElement | HTMLInputElement,
@@ -185,12 +174,19 @@ export function iniciarCalculadoraIms(): void {
     return montaControl(destino, sel, 'ladoDelCorte', UI.ladoDelCorte, UI.ladoAyuda);
   }
 
-  /** Los motores que no son de ese modelo no se ofrecen. */
-  function filtraMotores(sel: HTMLSelectElement, familia: string) {
-    for (const o of [...sel.options]) {
-      const f = o.dataset.familias;
-      if (f && !f.split(',').includes(familia)) o.remove();
+  /** Solo los motores que encajan con el coche que ya se ha descrito. */
+  function montaMotor(destino: HTMLElement, motores: { codigo: string; etiqueta: string }[]) {
+    const sel = document.createElement('select');
+    sel.name = 'codigoMotor';
+    sel.id = 'ims-codigo';
+    for (const [valor, etiqueta] of [['', UI.ladoNoSe],
+      ...motores.map((m) => [m.codigo, m.etiqueta])] as [string, string][]) {
+      const o = document.createElement('option');
+      o.value = valor;
+      o.textContent = etiqueta;
+      sel.append(o);
     }
+    return montaControl(destino, sel, 'codigoMotor', UI.codigoMotor, UI.codigoAyuda);
   }
 
   const valor = (n: string) =>
@@ -198,7 +194,7 @@ export function iniciarCalculadoraIms(): void {
 
   function leer(): Vehiculo {
     const limpia = (x?: string) => (x && x !== 'desconocida' ? x : undefined);
-    return {
+    const v: Vehiculo = {
       familia: valor('familia') as Vehiculo['familia'],
       ano: Number(valor('ano')),
       baseAno: (valor('baseAno') || 'modelo') as Vehiculo['baseAno'],
@@ -208,6 +204,14 @@ export function iniciarCalculadoraIms(): void {
       ladoDelCorte: (memoria.ladoDelCorte || undefined) as Vehiculo['ladoDelCorte'],
       intervencionIms: (memoria.intervencionIms || 'ninguna') as Vehiculo['intervencionIms'],
     };
+
+    /* Si el modelo, la generacion y la version ya dejan un solo motor posible,
+       ese es el motor: preguntarlo seria pedir por segunda vez lo contestado. */
+    if (!v.codigoMotor) {
+      const posibles = motoresPosibles(v.familia, v.generacion, v.variante);
+      if (posibles.length === 1) v.codigoMotor = posibles[0].codigo;
+    }
+    return v;
   }
 
   /**
@@ -261,22 +265,20 @@ export function iniciarCalculadoraIms(): void {
     const caja = salida.querySelector<HTMLElement>('[data-ims-afinar-campos]');
     const cfg = afinables(r);
     if (!caja || !cfg) return;
-    const etiquetas: Record<string, string> = {
-      codigoMotor: UI.codigoMotor,
-    };
-    const ayudas: Record<string, string> = {
-      codigoMotor: UI.codigoAyuda,
-    };
     for (const campo of cfg.campos) {
-      /* El lado del corte solo existe si ese motor tiene corte, y sus opciones
-         son las de ESE corte: se construye aqui, no en una plantilla fija. */
-      if (campo === 'ladoDelCorte') {
-        const corte = corteDe(v.familia, memoria.codigoMotor);
-        if (corte) montaLado(caja, corte.hasta);
+      /* El tipo de motor solo se pregunta si queda mas de uno posible. Con uno
+         solo, `leer()` ya lo ha deducido y el campo no tendria eleccion. */
+      if (campo === 'codigoMotor') {
+        const posibles = motoresPosibles(v.familia, v.generacion, v.variante);
+        if (posibles.length > 1) montaMotor(caja, posibles);
         continue;
       }
-      const control = monta(caja, campo, etiquetas[campo], ayudas[campo]);
-      if (campo === 'codigoMotor') filtraMotores(control as HTMLSelectElement, v.familia);
+      /* El lado del corte, con las opciones de ESE corte: se construye aqui,
+         no en una plantilla fija. */
+      if (campo === 'ladoDelCorte') {
+        const corte = corteDe(v.familia, v.codigoMotor);
+        if (corte) montaLado(caja, corte.hasta);
+      }
     }
   }
 
