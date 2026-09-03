@@ -48,7 +48,7 @@ export const ESTADOS: Record<Estado, TextoEstado> = {
     veredicto: 'Sí, esta unidad está afectada',
     resumen: 'Monta el rodamiento 6305 grande. Sustituirlo exige desmontar el motor.',
     cuerpo: 'Esta configuración conserva un rodamiento IMS de bolas, pero usa la revisión 6305 de mayor tamaño. Su incidencia conocida es menor que la del 6204 pequeño, aunque no es cero. Normalmente no puede extraerse por el alojamiento sin desmontar el motor.',
-    accion: 'No abras un motor sano por lo que diga esta calculadora. Reúne el historial y pide una valoración especializada; si el motor se reconstruye, incluye el IMS en el alcance.',
+    accion: 'Reúne el historial y pide una valoración especializada; si el motor se reconstruye, incluye el IMS en el alcance.',
   },
   NO_ES_EL_IMS_CLASICO_MEZGER: {
     veredicto: 'No, es un motor Mezger',
@@ -110,7 +110,6 @@ export const ACCIONES: Record<string, string> = {
   revisar_documentacion: 'Reúne facturas, referencia del kit, fecha y kilometraje: es el primer paso y no exige desmontar nada.',
   numero_motor: 'Añade el número de motor si lo tienes a mano.',
   identificacion_fisica: 'Cuando la documentación no basta, manda la inspección física de la brida.',
-  no_abrir_motor_sano: 'No abras un motor sano solo por este resultado.',
   valoracion_especifica: 'Esta configuración necesita una valoración específica del taller.',
   confirmar_fisicamente: 'El corte es orientativo: confírmalo antes de pedir piezas.',
   identificar_motor_actual: 'Identifica el motor que monta ahora el coche.',

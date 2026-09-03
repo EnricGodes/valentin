@@ -58,7 +58,7 @@ const RESPUESTA: Record<Evaluacion['estado'], Evaluacion['respuesta']> = {
 const ACCIONES: Partial<Record<Evaluacion['estado'], string[]>> = {
   AFECTADO_SIMPLE_SUSTITUIBLE: ['evaluacion_previa', 'revisar_documentacion'],
   AFECTADO_DOBLE_SUSTITUIBLE: ['revisar_documentacion', 'evaluacion_previa'],
-  AFECTADO_GRANDE_NO_SUSTITUIBLE: ['no_abrir_motor_sano', 'valoracion_especifica'],
+  AFECTADO_GRANDE_NO_SUSTITUIBLE: ['valoracion_especifica'],
   TRANSICION_DOBLE_O_SIMPLE: ['numero_motor', 'identificacion_fisica'],
   TRANSICION_SIMPLE_O_GRANDE: ['numero_motor', 'identificacion_fisica'],
   DATOS_INSUFICIENTES: ['completar_dato'],
