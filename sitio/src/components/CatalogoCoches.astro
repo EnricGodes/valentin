@@ -3,6 +3,7 @@ import type { Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import type { Coche } from '../datos/coche';
+import { PAGINAS, publicables } from '../datos/pagina';
 
 interface Props { coches: Coche[]; idioma: Idioma; }
 const { coches, idioma } = Astro.props;
@@ -14,6 +15,16 @@ const ETIQUETA_ESTADO = {
   vendido: t('estado.vendido'),
   proximamente: t('estado.disponible'),
 } as const;
+
+/* Las landings por generacion y la de venta existian sin que nada las
+   enlazara: se llegaba a ellas solo desde Google. El catalogo es su sitio,
+   porque quien mira coches es quien busca "997 de segunda mano" y quien se
+   plantea vender el suyo. */
+const landings = publicables()
+  .filter((x) => x.idioma === idioma && x.pagina.tipo === 'landing')
+  .map((x) => x.pagina);
+const vender = publicables()
+  .find((x) => x.idioma === idioma && x.pagina.rutaId === 'vende')?.pagina;
 
 const disponibles = coches.filter((c) => c.catalogo?.estado !== 'vendido').length;
 const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'numeric' })
@@ -63,3 +74,26 @@ const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'nume
     );
   })}
 </div>
+
+{(landings.length > 0 || vender) && (
+  <aside class="catalogo-mas">
+    {landings.length > 0 && (
+      <div class="catalogo-mas-bloque">
+        <p class="catalogo-mas-titulo">{t('catalogo.generaciones')}</p>
+        <ul class="catalogo-mas-lista">
+          {landings.map((p) => (
+            <li><a href={url(p.rutaId, idioma)}>{p.h1}</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
+    {vender && (
+      <div class="catalogo-mas-bloque">
+        <p class="catalogo-mas-titulo">{t('catalogo.vende')}</p>
+        <ul class="catalogo-mas-lista">
+          <li><a href={url(vender.rutaId, idioma)}>{vender.h1}</a></li>
+        </ul>
+      </div>
+    )}
+  </aside>
+)}
