@@ -78,7 +78,7 @@ Finalmente el motor quedó en un estado impecable, tenemos una comparativa del a
 
 ![Rehabilitación completa motor 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
-### El tip tecnico de Jordi
+### El tip técnico de Jordi
 
 La gracia de tos motores con un sólo turbo es el **LAG** que tienes que controlar y sentir justo en el momento y en la situación que estes.
 

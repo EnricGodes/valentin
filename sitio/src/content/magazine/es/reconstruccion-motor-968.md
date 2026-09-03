@@ -20,7 +20,7 @@ ctas:
 
 Proceso completo de rehabilitación de motor de 968 por falta de presión de aceite
 
-## Motivos principales?
+## ¿Motivos principales?
 
 Falta de presión de aceite motor por fallo de bomba
 

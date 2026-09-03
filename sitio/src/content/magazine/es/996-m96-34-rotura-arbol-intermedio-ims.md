@@ -6,7 +6,7 @@ slugOriginal: "porscheroturasmotorm96valentin"
 date: 2024-01-23T18:02:45.751000Z
 lang: es
 categories: ["articulos"]
-excerpt: "Reparacion motor 3.4"
+excerpt: "Reparación motor 3.4"
 author: "Jordi Edo"
 squarespaceId: "65aff891e50d1d7bd0f4368e"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin"
@@ -24,13 +24,13 @@ El primer síntoma puede ser encontrar partículas metálicas en el aceite.
 
 En Valentin Motors repararamos los motores M96 y M97 con las mejor solución y garantía .
 
-## Qué síntoma es claro?
+## ¿Qué síntoma es claro?
 
 Encontrar partículas metálicas en el aceite es signo de alarma para verificar físicamente la zona.
 
 Desmontar caja y ver zona RMS + IMS
 
-## Ruidos?
+## ¿Ruidos?
 
 Auscultar la zona entre motor y caja para verificar algún ruido adicional de fricción.
 

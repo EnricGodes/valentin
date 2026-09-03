@@ -77,7 +77,7 @@ Proceso de montaje
 
 ![Rehabilitación completa motor 964 (M6401 3.6 ), 18](/img/magazine/776aa0e5-foto-jordi-2.jpg)
 
-### El tip tecnico de Jordi
+### El tip técnico de Jordi
 
 Recomendamos sustituir siempre la correa del delco que distribuye los dos encendidos.
 

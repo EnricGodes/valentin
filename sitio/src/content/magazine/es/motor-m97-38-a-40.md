@@ -20,13 +20,13 @@ ctas:
 
 Proceso completo de rehabilitación de motor M97
 
-## Motivos principales?
+## ¿Motivos principales?
 
 Bore Scoring
 
-## Pruebas?
+## ¿Pruebas?
 
-Compresion motor y BS
+Compresión motor y BS
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Media carcasa del motor M97 3.8 con los tres cilindros y la cadena montada](/img/magazine/9de21a34-2bbded00-2bc8-458e-95de-ca890ea35ef4.jpg)

@@ -5,14 +5,15 @@
   "private": true,
   "scripts": {
     "dev": "npm run assets && astro dev",
-    "build": "npm run validar && npm run glosario && npm run medios && astro build && npm run validar:hreflang",
+    "build": "npm run validar && npm run glosario && npm run ortotipografia && npm run medios && astro build && npm run validar:hreflang",
     "preview": "astro preview",
     "check": "astro check",
     "validar": "node scripts/validar-rutas.ts",
     "assets": "node scripts/sincronizar-imagenes.mjs && node scripts/optimizar-imagenes.mjs && node scripts/optimizar-videos.mjs && node scripts/medir-imagenes.mjs",
     "validar:hreflang": "node scripts/validar-hreflang.mjs",
     "medios": "node scripts/verificar-medios.mjs && node scripts/medir-imagenes.mjs",
-    "glosario": "node scripts/validar-glosario.ts"
+    "glosario": "node scripts/validar-glosario.ts",
+    "ortotipografia": "node scripts/validar-ortotipografia.ts"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

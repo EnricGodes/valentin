@@ -18,19 +18,19 @@ ctas:
 
 *sistema de elevación eléctrica eje delantero*
 
-Para vehiculos con suspension coilover o muelles bajos
+Para vehículos con suspensión coilover o muelles bajos
 
 Si queremos conservar los front lips o simplemente no dañar partes bajas de paragolpes delantero este sistema mediante botón interior nos eleva el eje delantero en 2 segundos.
 
-## Qué ganamos?
+## ¿Qué ganamos?
 
 Sobre todo tranquilidad si somos de aquellos que estamos constántemente sufriendo en causar algún daño a nuestro Porsche ya que aumentamos la altura libre al sulo en 100 mm.
 
-## Por qué hacerlo?
+## ¿Por qué hacerlo?
 
 En variante s991 y 992 el fabricante lo ofrece como opción de fábrica y sobre todo, muy recomendable en los GT,S
 
-## Afecta al valor de la unidad?
+## ¿Afecta al valor de la unidad?
 
 Estamos convencidos qeu es un upgrade que no afecta ala originalidad y sí a la comodidad del sistema.
 

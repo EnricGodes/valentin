@@ -14,13 +14,13 @@ ctas:
   - texto: "Más información"
     href: "/contacto"
 ---
-![Plato Sonda antes y despues](/img/magazine/3c2d72f2-b4bd5275-558c-4eae-ba55-99ab322981e6.jpg)
+![Plato Sonda antes y después](/img/magazine/3c2d72f2-b4bd5275-558c-4eae-ba55-99ab322981e6.jpg)
 
-*Plato Sonda antes y despues*
+*Plato Sonda antes y después*
 
 Proceso completo de restauración completa sistema CIS
 
-## Motivos principales?
+## ¿Motivos principales?
 
 Cuando reconstruimos un motor completo no solo son las piezas mecánicas, la inyección cuenta un papel principal en todo el proceso y en el funcionamiento final del trabajo.
 

@@ -39,6 +39,6 @@ ctas: []
 
 El **PA10/01** fue presentado en nuestro evento privado en las **Instalaciones de Madrid**, reservado para clientes selectos, prensa especializada y apasionados del motor que comparten nuestra visión de excelencia.
 
-Para mas información tenemos un articulo especializado en nuestra seccion de **Magazine**.
+Para más información tenemos un artículo especializado en nuestra sección de **Magazine**.
 
 ![Zaga del PA10/01 con la inscripción 01|PA10 y las puertas abiertas](/img/magazine/007e1dae-DSC03555.jpg)

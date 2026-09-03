@@ -1,5 +1,5 @@
 ---
-title: "Rehabilitación completa motor 2.2  1970 serie F"
+title: "Rehabilitación completa motor 2.2 1970 serie F"
 slugSquarespace: "rehabilitacion-motor-22-1970-serief"
 slugFinal: "rehabilitacion-motor-22-1970-serief"
 slugOriginal: "rehabilitacion-motor-22-1970-serief"

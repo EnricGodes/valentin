@@ -20,11 +20,11 @@ ctas:
 
 Proceso completo de rehabilitación de motor de un 3.2 serie G.
 
-## Motivos principales?
+## ¿Motivos principales?
 
 Principalmente por prueba de compresiones motor no optimas y fugas de aceite por bloque motor.
 
-## Pruebas?
+## ¿Pruebas?
 
 Realizamos pruebas de compresión motor.
 

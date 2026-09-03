@@ -1,5 +1,5 @@
 ---
-title: "Rehabilitación completa motor  964 M64"
+title: "Rehabilitación completa motor 964 M64"
 slugSquarespace: "restauracion-motor-964-m64"
 slugFinal: "restauracion-motor-964-m64"
 slugOriginal: "restauracion-motor-964-m64"
@@ -39,8 +39,8 @@ Cabe diferenciar dos conceptos distintos:
 -Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
-![Rehabilitación completa motor  964 M64, 2](/img/magazine/29529723-mot-2.jpg)
-![Rehabilitación completa motor  964 M64, 3](/img/magazine/c7130da3-mot-3.jpg)
-![Rehabilitación completa motor  964 M64, 4](/img/magazine/d9a78aaa-mot-4.jpg)
-![Rehabilitación completa motor  964 M64, 5](/img/magazine/725cdf3d-mot-5.jpg)
+![Rehabilitación completa motor 964 M64, 2](/img/magazine/29529723-mot-2.jpg)
+![Rehabilitación completa motor 964 M64, 3](/img/magazine/c7130da3-mot-3.jpg)
+![Rehabilitación completa motor 964 M64, 4](/img/magazine/d9a78aaa-mot-4.jpg)
+![Rehabilitación completa motor 964 M64, 5](/img/magazine/725cdf3d-mot-5.jpg)
 :::

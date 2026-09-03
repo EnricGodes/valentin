@@ -22,11 +22,11 @@ Singer cambió las reglas del juego
 
 Un backdating es unir la linea pura del 911 entre 1965 y 1973 con un 911 más llevable, un 964.
 
-## Porqué la base 964?
+## ¿Por qué la base 964?
 
 El 964 es la plataforma perfecta porque aúna las lineas 911 clásicas junto con unas prestaciones y equipamiento más modernos.
 
-## Motor?
+## ¿Motor?
 
 Tenemos varias opciones respecto al 3.6 de 250 hp original, subirlo a 3.8 con 300 hp o acoplar al 3.6 un compresor volumétrico que desarrolla 350 hp.
 
