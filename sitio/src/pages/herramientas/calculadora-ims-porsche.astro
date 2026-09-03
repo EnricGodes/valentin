@@ -11,8 +11,10 @@ import Nav from '../../components/Nav.astro';
 import Pie from '../../components/Pie.astro';
 import CalculadoraIms from '../../components/CalculadoraIms.astro';
 import Migas from '../../components/seo/Migas.astro';
+import { url } from '../../i18n/routes';
 
 const idioma = 'es' as const;
+const articulo = url('magazine', idioma, 'que-es-el-ims-de-porsche');
 ---
 <Base
   idioma={idioma}
@@ -40,7 +42,7 @@ const idioma = 'es' as const;
 
   <div class="post-reja ims-envoltorio">
     <div class="ancha">
-      <CalculadoraIms />
+      <CalculadoraIms enlaceArticulo={articulo} />
     </div>
   </div>
 </Base>

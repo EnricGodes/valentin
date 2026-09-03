@@ -19,12 +19,14 @@ import { MOTORES, VERSION_REGLAS } from '../logica/ims/reglas.ts';
 
 interface Props {
   compacta?: boolean;
+  /* Dentro del articulo no se pasa: enlazar al articulo desde el articulo. */
+  enlaceArticulo?: string;
 }
-const { compacta = false } = Astro.props;
+const { compacta = false, enlaceArticulo } = Astro.props;
 const anoMax = new Date().getFullYear() + 1;
 ---
 <section class:list={['ims', compacta && 'ims--compacta']} data-ims
-         data-version={VERSION_REGLAS}>
+         data-version={VERSION_REGLAS} data-articulo={enlaceArticulo}>
   <form class="ims-form" data-ims-form novalidate>
     <div class="ims-campos">
       <p class="ims-campo">

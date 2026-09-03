@@ -46,7 +46,7 @@ function afinables(r: Evaluacion): { modo: keyof typeof AFINAR; campos: string[]
   return null;
 }
 
-function pintaResultado(r: Evaluacion, v: Vehiculo): string {
+function pintaResultado(r: Evaluacion, v: Vehiculo, articulo?: string): string {
   const t = ESTADOS[r.estado];
   const retro = r.estadoActual ? RETROFIT[r.estadoActual] : null;
   const motivos = r.motivos.map((m) => MOTIVOS[m]).filter(Boolean) as string[];
@@ -77,6 +77,7 @@ function pintaResultado(r: Evaluacion, v: Vehiculo): string {
       <div class="ims-acciones">
         ${r.respuesta === 'no' ? '' :
           `<a class="cta" href="${cta}" data-ims-cta>${esc(UI.ctaBoton)}</a>`}
+        ${articulo ? `<a class="cta cta--linea" href="${articulo}">${esc(UI.ctaArticulo)}</a>` : ''}
       </div>
 
       ${afinar ? `
@@ -88,7 +89,6 @@ function pintaResultado(r: Evaluacion, v: Vehiculo): string {
 
       <div class="ims-detalle">
         <div class="ims-detalle-cuerpo">
-          <p class="ims-res-etiqueta">${esc(t.etiqueta)}</p>
           <p>${esc(t.cuerpo)}</p>
           ${motivos.length ? `<h4>${esc(UI.porqueEsto)}</h4>
             <ul>${motivos.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>` : ''}
@@ -117,6 +117,7 @@ export function iniciarCalculadoraIms(): void {
   const zonaPregunta = raiz.querySelector<HTMLElement>('[data-ims-pregunta]')!;
   const salida = raiz.querySelector<HTMLElement>('[data-ims-resultado]')!;
   const error = raiz.querySelector<HTMLElement>('[data-ims-error]')!;
+  const articulo = raiz.dataset.articulo || undefined;
 
   /** Lo respondido fuera de los tres campos fijos. Sobrevive al repintado. */
   const memoria: Record<string, string> = {};
@@ -238,8 +239,11 @@ export function iniciarCalculadoraIms(): void {
       serieMotor: UI.serieMotor,
     };
     for (const campo of cfg.campos) {
-      const control = monta(caja, campo, etiquetas[campo],
-        campo === 'serieMotor' ? UI.serieAyuda : undefined);
+      const ayudas: Record<string, string> = {
+        codigoMotor: UI.codigoAyuda,
+        serieMotor: UI.serieAyuda,
+      };
+      const control = monta(caja, campo, etiquetas[campo], ayudas[campo]);
       if (campo === 'codigoMotor') filtraMotores(control as HTMLSelectElement, v.familia);
     }
   }
@@ -262,7 +266,7 @@ export function iniciarCalculadoraIms(): void {
          vez es no hacer nada a ojos de quien la usa. Se responde lo que se
          puede responder: que sin ese dato no se sabe, y como se resuelve. */
       if (memoria[r.siguientePregunta] === 'desconocida') {
-        salida.innerHTML = pintaResultado(r, v);
+        salida.innerHTML = pintaResultado(r, v, articulo);
         salida.hidden = false;
         return;
       }
@@ -277,7 +281,7 @@ export function iniciarCalculadoraIms(): void {
        devolverlo despues: si no, quien navega con teclado vuelve al principio. */
     const foco = (document.activeElement as HTMLElement)?.getAttribute?.('name');
 
-    salida.innerHTML = pintaResultado(r, v);
+    salida.innerHTML = pintaResultado(r, v, articulo);
     salida.hidden = false;
     pintaAfinado(r, v);
 

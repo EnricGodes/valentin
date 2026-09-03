@@ -585,6 +585,14 @@ section { position: relative; }
   transition: background 0.3s, transform 0.3s;
 }
 .cta:hover { background: var(--blanco); }
+/* Segunda opcion: el mismo boton vaciado. Acompaña al CTA sin competir. */
+.cta--linea {
+  background: transparent; color: var(--bronce);
+  box-shadow: inset 0 0 0 1px var(--bronce);
+}
+.cta--linea:hover { background: transparent; color: var(--blanco); box-shadow: inset 0 0 0 1px var(--blanco); }
+.post-cuerpo a.cta--linea { color: var(--bronce); }
+.post-cuerpo a.cta--linea:hover { color: var(--blanco); }
 /* Dentro de un articulo, `.post-cuerpo a` gana en especificidad a `.cta` y
    dejaba el boton con texto bronce sobre fondo bronce: invisible. Solo se
    veia en el articulo, no en la pagina propia de la herramienta. */
@@ -1598,8 +1606,8 @@ section { position: relative; }
 /* El veredicto es una frase, no una palabra suelta con una coletilla debajo:
    una sola linea, un solo formato, al tamaño que le deja caber entera. */
 .ims-veredicto {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(30px, 5.6vw, 74px);
-  line-height: 1.1; letter-spacing: -0.02em; color: var(--blanco);
+  font-family: var(--serif); font-weight: 400; font-size: clamp(24px, 3vw, 38px);
+  line-height: 1.15; letter-spacing: -0.02em; color: var(--blanco);
   text-wrap: balance;
 }
 .ims-res-resumen {
@@ -1644,10 +1652,6 @@ section { position: relative; }
 .ims-detalle-cuerpo ul { padding-left: 20px; }
 .ims-detalle-cuerpo li { font-size: 15px; line-height: 1.6; color: var(--concreto); }
 .ims-detalle-cuerpo li + li { margin-top: 6px; }
-.ims-res-etiqueta {
-  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: var(--tr-label);
-  text-transform: uppercase; color: var(--concreto) !important;
-}
 .ims-aviso { margin-top: 24px; font-size: 13px !important; line-height: 1.6; opacity: 0.75; }
 
 @media (max-width: 860px) {
