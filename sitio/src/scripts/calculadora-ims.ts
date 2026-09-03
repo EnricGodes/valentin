@@ -4,7 +4,7 @@ import {
   ACCIONES, AFINAR, AVISO, ESTADOS, GENERACION, MOTIVOS,
   OPCIONES, PREGUNTAS, RETROFIT, RODAMIENTOS, SUSTITUIBILIDAD, UI,
 } from '../logica/ims/textos.es.ts';
-import { generacionesCandidatas } from '../logica/ims/reglas.ts';
+import { corteDe, generacionesCandidatas } from '../logica/ims/reglas.ts';
 import { evento } from './eventos.ts';
 
 /**
@@ -41,7 +41,7 @@ function datos(r: Evaluacion): [string, string][] {
  */
 function afinables(r: Evaluacion): { modo: keyof typeof AFINAR; campos: string[] } | null {
   if (r.estado === 'TRANSICION_DOBLE_O_SIMPLE' || r.estado === 'TRANSICION_SIMPLE_O_GRANDE') {
-    return { modo: 'transicion', campos: ['originalidadMotor', 'codigoMotor', 'serieMotor'] };
+    return { modo: 'transicion', campos: ['originalidadMotor', 'codigoMotor', 'ladoDelCorte'] };
   }
   return null;
 }
@@ -129,14 +129,22 @@ export function iniciarCalculadoraIms(): void {
 
   /** Monta un campo con su etiqueta dentro de `destino`. */
   function monta(destino: HTMLElement, campo: string, etiqueta: string, ayuda?: string) {
-    const p = document.createElement('p');
-    p.className = 'ims-campo';
     const frag = plantilla(campo);
     const control = frag.querySelector('select, input') as HTMLSelectElement | HTMLInputElement;
+    return montaControl(destino, control, campo, etiqueta, ayuda);
+  }
+
+  /** El cableado comun: etiqueta, ayuda, memoria y recalculo al cambiar. */
+  function montaControl(
+    destino: HTMLElement, control: HTMLSelectElement | HTMLInputElement,
+    campo: string, etiqueta: string, ayuda?: string,
+  ) {
+    const p = document.createElement('p');
+    p.className = 'ims-campo';
     const lab = document.createElement('label');
     lab.setAttribute('for', control.id);
     lab.textContent = etiqueta;
-    p.append(lab, frag);
+    p.append(lab, control);
     if (ayuda) {
       const s = document.createElement('span');
       s.className = 'ims-ayuda';
@@ -153,6 +161,28 @@ export function iniciarCalculadoraIms(): void {
       if (destino.closest('[data-ims-afinar]')) calcular('afinado');
     });
     return control;
+  }
+
+  /**
+   * El lado del corte. No hay una lista de numeros de motor que ofrecer: cada
+   * tipo tiene UN umbral, y el numero grabado en el bloque solo sirve para
+   * saber de que lado cae. Se elige el lado y no se teclean ocho cifras.
+   */
+  function montaLado(destino: HTMLElement, hasta: number) {
+    const sel = document.createElement('select');
+    sel.name = 'ladoDelCorte';
+    sel.id = 'ims-lado';
+    for (const [valor, etiqueta] of [
+      ['', UI.ladoNoSe],
+      ['inferior', UI.ladoInferior(hasta)],
+      ['superior', UI.ladoSuperior(hasta)],
+    ] as [string, string][]) {
+      const o = document.createElement('option');
+      o.value = valor;
+      o.textContent = etiqueta;
+      sel.append(o);
+    }
+    return montaControl(destino, sel, 'ladoDelCorte', UI.ladoDelCorte, UI.ladoAyuda);
   }
 
   /** Los motores que no son de ese modelo no se ofrecen. */
@@ -175,7 +205,7 @@ export function iniciarCalculadoraIms(): void {
       generacion: limpia(memoria.generacion) as Vehiculo['generacion'],
       variante: limpia(memoria.variante) as Vehiculo['variante'],
       codigoMotor: memoria.codigoMotor || undefined,
-      serieMotor: memoria.serieMotor || undefined,
+      ladoDelCorte: (memoria.ladoDelCorte || undefined) as Vehiculo['ladoDelCorte'],
       originalidadMotor: (memoria.originalidadMotor
         || 'desconocida') as Vehiculo['originalidadMotor'],
       intervencionIms: (memoria.intervencionIms || 'ninguna') as Vehiculo['intervencionIms'],
@@ -236,13 +266,18 @@ export function iniciarCalculadoraIms(): void {
     const etiquetas: Record<string, string> = {
       originalidadMotor: UI.motorOriginal,
       codigoMotor: UI.codigoMotor,
-      serieMotor: UI.serieMotor,
+    };
+    const ayudas: Record<string, string> = {
+      codigoMotor: UI.codigoAyuda,
     };
     for (const campo of cfg.campos) {
-      const ayudas: Record<string, string> = {
-        codigoMotor: UI.codigoAyuda,
-        serieMotor: UI.serieAyuda,
-      };
+      /* El lado del corte solo existe si ese motor tiene corte, y sus opciones
+         son las de ESE corte: se construye aqui, no en una plantilla fija. */
+      if (campo === 'ladoDelCorte') {
+        const corte = corteDe(v.familia, memoria.codigoMotor);
+        if (corte) montaLado(caja, corte.hasta);
+        continue;
+      }
       const control = monta(caja, campo, etiquetas[campo], ayudas[campo]);
       if (campo === 'codigoMotor') filtraMotores(control as HTMLSelectElement, v.familia);
     }

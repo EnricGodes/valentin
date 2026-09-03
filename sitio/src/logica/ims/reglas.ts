@@ -280,6 +280,13 @@ export const CORTES: Corte[] = [
 ];
 
 /** Codigos de motor que ofrece la interfaz, por familia y generacion. */
+/** El corte de ese motor, si lo hay. Sin corte, el numero no decide nada. */
+export function corteDe(familia: Familia, codigoMotor?: string): Corte | undefined {
+  const codigo = (codigoMotor ?? '').toUpperCase().replace(/\s/g, '');
+  if (!codigo) return undefined;
+  return CORTES.find((c) => c.codigoMotor === codigo && c.familias.includes(familia));
+}
+
 export const MOTORES: { codigo: string; etiqueta: string; familias: Familia[] }[] = [
   { codigo: 'M96.22', etiqueta: 'M96.22 · Boxster 2.7', familias: ['boxster'] },
   { codigo: 'M96.21', etiqueta: 'M96.21 · Boxster S 3.2', familias: ['boxster'] },

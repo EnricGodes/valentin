@@ -97,6 +97,40 @@ test('8. 911 996 Carrera 3.4 numero 66114165: una hilera pequena', () => {
   assert.equal(r.rodamientoDeFabrica, 'una_hilera_6204');
 });
 
+/* El lado del corte elegido llega al mismo sitio que el numero escrito: no hay
+   lista de numeros de motor que ofrecer, solo el umbral y sus dos lados. */
+test('8b. El lado inferior elegido da lo mismo que un numero por debajo', () => {
+  const base = {
+    familia: '911' as const, ano: 2000, generacion: '996' as const,
+    variante: 'carrera_atmosferico' as const, codigoMotor: 'M96.04',
+  };
+  const escrito = evaluarIms(v({ ...base, serieMotor: '66114164' }));
+  const elegido = evaluarIms(v({ ...base, ladoDelCorte: 'inferior' }));
+  assert.equal(elegido.rodamientoDeFabrica, escrito.rodamientoDeFabrica);
+  assert.equal(elegido.estado, escrito.estado);
+  assert.equal(elegido.confianza, escrito.confianza);
+});
+
+test('8c. El lado superior elegido da lo mismo que un numero por encima', () => {
+  const base = {
+    familia: '911' as const, ano: 2000, generacion: '996' as const,
+    variante: 'carrera_atmosferico' as const, codigoMotor: 'M96.04',
+  };
+  const escrito = evaluarIms(v({ ...base, serieMotor: '66114165' }));
+  const elegido = evaluarIms(v({ ...base, ladoDelCorte: 'superior' }));
+  assert.equal(elegido.rodamientoDeFabrica, escrito.rodamientoDeFabrica);
+  assert.equal(elegido.estado, escrito.estado);
+});
+
+test('8d. Un lado sin tipo de motor no resuelve: no hay corte que aplicar', () => {
+  const r = evaluarIms(v({
+    familia: '911', ano: 2000, generacion: '996', variante: 'carrera_atmosferico',
+    ladoDelCorte: 'inferior',
+  }));
+  assert.equal(r.estado, 'TRANSICION_DOBLE_O_SIMPLE');
+  assert.ok(r.motivos.includes('sin_corte_para_ese_motor'));
+});
+
 // ── 10–11, 18, 20: Mezger ──────────────────────────────────────────────────
 for (const [n, ano, generacion, variante] of [
   ['10', 2003, '996', 'turbo'], ['11', 2004, '996', 'gt3'],

@@ -107,14 +107,19 @@ function necesitaVariante(familia: string, generacion: Generacion, variante?: Va
 
 function aplicaCorte(v: Vehiculo, base: Evaluacion): Evaluacion {
   const serie = normalizaSerie(v.serieMotor ?? '');
-  if (!serie) return base;
+  const lado = v.ladoDelCorte;
+  if (!serie && !lado) return base;
 
-  // Motor remanufacturado: el numero ya no identifica el rodamiento de origen.
-  if (/X|AT/.test(serie)) {
-    return { ...base, motivos: [...base.motivos, 'serie_remanufacturado'] };
-  }
-  if (!/^\d{6,10}$/.test(serie)) {
-    return { ...base, motivos: [...base.motivos, 'serie_ilegible'] };
+  /* El numero escrito trae dos casos que el lado elegido no puede tener: un
+     motor remanufacturado, cuyo numero ya no identifica el rodamiento de
+     origen, y un numero que no se puede comparar. */
+  if (serie && !lado) {
+    if (/X|AT/.test(serie)) {
+      return { ...base, motivos: [...base.motivos, 'serie_remanufacturado'] };
+    }
+    if (!/^\d{6,10}$/.test(serie)) {
+      return { ...base, motivos: [...base.motivos, 'serie_ilegible'] };
+    }
   }
 
   const codigo = (v.codigoMotor ?? '').toUpperCase().replace(/\s/g, '');
@@ -123,8 +128,7 @@ function aplicaCorte(v: Vehiculo, base: Evaluacion): Evaluacion {
   );
   if (!corte) return { ...base, motivos: [...base.motivos, 'sin_corte_para_ese_motor'] };
 
-  const n = Number(serie);
-  const inferior = n <= corte.hasta;
+  const inferior = lado ? lado === 'inferior' : Number(serie) <= corte.hasta;
   const rodamiento = inferior ? corte.rodamientoInferior : corte.rodamientoSuperior;
 
   return {

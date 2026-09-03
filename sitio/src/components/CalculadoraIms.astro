@@ -74,10 +74,6 @@ const anoMax = new Date().getFullYear() + 1;
       ))}
     </select>
   </template>
-  <template data-ims-plantilla="serieMotor">
-    <input name="serieMotor" id="ims-serie" type="text" autocomplete="off"
-           spellcheck="false" placeholder="65112852">
-  </template>
   <template data-ims-plantilla="originalidadMotor">
     <select name="originalidadMotor" id="ims-original">
       {OPCIONES.originalidad.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}

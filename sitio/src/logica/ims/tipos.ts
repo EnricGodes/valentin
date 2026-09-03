@@ -30,6 +30,15 @@ export type Variante =
 
 export type Originalidad = 'original' | 'sustituido' | 'desconocida';
 
+/**
+ * De que lado del corte de serie cae la unidad.
+ *
+ * No existe una lista de numeros de motor: cada tipo tiene UN umbral, y el
+ * numero grabado en el bloque solo sirve para saber si queda por debajo o por
+ * encima. Quien lo tiene delante puede decir el lado sin teclear ocho cifras.
+ */
+export type LadoDelCorte = 'inferior' | 'superior';
+
 export type Rodamiento =
   | 'doble_hilera_5204'
   | 'una_hilera_6204'
@@ -62,6 +71,8 @@ export interface Vehiculo {
   codigoMotor?: string;
   /** Numero de serie del motor. No se guarda ni se envia a ningun sitio. */
   serieMotor?: string;
+  /** Alternativa al numero: el lado del corte, elegido en vez de escrito. */
+  ladoDelCorte?: LadoDelCorte;
   originalidadMotor?: Originalidad;
   intervencionIms?: Intervencion;
 }
