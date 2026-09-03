@@ -1662,35 +1662,37 @@ section { position: relative; }
   .herramienta { padding: 28px 24px; }
 }
 
-/* ── Tarifas: elegir modelo y ver su tabla ──────────────────────────────── */
+/* ── Tarifas: familia, modelo y tabla, encadenados como en el Finder ────── */
 .tarifas { margin-top: 48px; }
-.tarifas-buscador { max-width: 420px; }
-.tarifas-label {
-  display: block; font-family: var(--mono); font-size: var(--t-label);
-  letter-spacing: var(--tr-label); text-transform: uppercase; color: var(--bronce);
-}
-.tarifas-input {
-  width: 100%; margin-top: 12px; padding: 14px 16px;
-  background: var(--negro); color: var(--blanco);
-  border: 1px solid var(--linea-fuerte); font-size: 16px; font-family: inherit;
-}
-.tarifas-input:focus-visible { outline: 2px solid var(--bronce); outline-offset: 2px; }
 
-.tarifas-modelos { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
-.tarifas-modelo {
-  display: flex; align-items: baseline; gap: 10px;
-  padding: 11px 20px; cursor: pointer;
-  font-family: var(--mono); font-size: 13px; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--blanco);
-  background: var(--negro); border: 1px solid var(--linea-fuerte);
-  transition: border-color 0.25s var(--ease), background 0.25s var(--ease);
+/* Dos listas, una al lado de la otra. La de familias no crece: son seis y se
+   ven todas. La de modelos si, porque GT tiene veintiuno, y desplaza dentro de
+   su columna en vez de estirar la pagina. */
+.tarifas-columnas {
+  display: grid; grid-template-columns: minmax(180px, 1fr) 2fr; gap: 1px;
+  background: var(--linea); border: 1px solid var(--linea);
 }
-.tarifas-modelo:hover { border-color: var(--bronce); }
-.tarifas-modelo[aria-selected="true"] {
-  border-color: var(--bronce); background: rgba(178, 138, 91, 0.14);
+.tarifas-col { background: var(--negro); min-width: 0; }
+.tarifas-col-titulo {
+  padding: 14px 18px; border-bottom: 1px solid var(--linea);
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce);
 }
-.tarifas-familia { font-size: 11px; color: var(--concreto); letter-spacing: 0.04em; }
-.tarifas-vacio { margin-top: 24px; color: var(--concreto); font-size: 15px; }
+.tarifas-lista { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; }
+.tarifas-opcion {
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  width: 100%; padding: 12px 18px; text-align: left; cursor: pointer;
+  background: transparent; border: 0; color: var(--blanco);
+  font-family: var(--mono); font-size: 13px; letter-spacing: 0.06em;
+  transition: background 0.18s var(--ease), color 0.18s var(--ease);
+}
+.tarifas-opcion:hover { background: rgba(255, 255, 255, 0.04); }
+.tarifas-opcion[aria-pressed="true"] {
+  background: rgba(178, 138, 91, 0.16); color: var(--blanco);
+  box-shadow: inset 2px 0 0 var(--bronce);
+}
+.tarifas-opcion:focus-visible { outline: 2px solid var(--bronce); outline-offset: -2px; }
+.tarifas-cuenta { font-size: 11px; color: var(--concreto); }
 
 .tarifas-panel { margin-top: 40px; }
 .tarifas-panel-titulo {
@@ -1716,7 +1718,10 @@ section { position: relative; }
 }
 .tarifas-nota { margin-top: 24px; font-size: 13px; color: var(--concreto); }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  /* Una encima de otra: dos columnas de 160 px no son dos columnas. */
+  .tarifas-columnas { grid-template-columns: 1fr; }
+  .tarifas-lista { max-height: 220px; }
   .tarifas-fila { flex-direction: column; gap: 6px; }
   .tarifas-fila dd { align-self: flex-start; }
 }

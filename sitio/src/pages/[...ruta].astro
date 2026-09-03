@@ -179,8 +179,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       {iTarifas >= 0 && (
         <div class="contenido">
           <Tarifas idioma={idioma} textos={{
-            elige: t('tarifas.elige'), buscar: t('tarifas.buscar'),
-            sinResultados: t('tarifas.sinResultados'), nota: t('tarifas.nota'),
+            familia: t('tarifas.familia'), modelo: t('tarifas.modelo'),
+            nota: t('tarifas.nota'),
           }} />
         </div>
       )}
@@ -188,8 +188,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       {familiaTarifa
         ? <div class="contenido">
             <Tarifas idioma={idioma} familia={familiaTarifa} textos={{
-              elige: t('tarifas.elige'), buscar: t('tarifas.buscar'),
-              sinResultados: t('tarifas.sinResultados'), nota: t('tarifas.nota'),
+              familia: t('tarifas.familia'), modelo: t('tarifas.modelo'),
+              nota: t('tarifas.nota'),
             }} />
           </div>
         : pagina.acordeones.length > 0 && (
