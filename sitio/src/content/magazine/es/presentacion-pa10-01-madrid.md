@@ -12,6 +12,8 @@ squarespaceId: "692965a9c6f971644a2fcf2a"
 originalUrl: "https://www.valentinmotors.es/magazine/presentacionpa10-01/madrid"
 ctas: []
 ---
+![El coche cubierto con una tela roja mientras se presenta el PA10/01 ante los invitados](/img/magazine/3994734b-DSC03536.jpg)
+
 **Valentin Motors Madrid** presenta el **PA10/01** en su nuevo evento: Una obra maestra **única**, el primer **Porsche 911** Reimaginado de forma Integral en la capital. Representa la fusión entre la herencia icónica del **911** y la visión contemporánea de **Valentin**, cada elemento ha sido diseñado y ejecutado con un único propósito: Ofrecer una experiencia irrepetible reservada para quienes entienden que la verdadera exclusividad no se compra, se **crea**.
 
 :::galeria{diseno="cuadricula" porFila="4" proporcion="three-four-vertical" lightbox}
@@ -38,3 +40,5 @@ ctas: []
 El **PA10/01** fue presentado en nuestro evento privado en las **Instalaciones de Madrid**, reservado para clientes selectos, prensa especializada y apasionados del motor que comparten nuestra visión de excelencia.
 
 Para mas información tenemos un articulo especializado en nuestra seccion de **Magazine**.
+
+![Zaga del PA10/01 con la inscripción 01|PA10 y las puertas abiertas](/img/magazine/007e1dae-DSC03555.jpg)

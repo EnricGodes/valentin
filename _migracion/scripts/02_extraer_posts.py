@@ -234,6 +234,12 @@ def normalizar_videos(soup):
 def limpiar(soup):
     """Elimina el chrome de Squarespace que no es contenido editorial."""
     normalizar_videos(soup)
+    # Squarespace envuelve en <button> las imagenes que abren el lightbox. Ese
+    # boton es chrome, pero la foto de dentro es contenido: se desenvuelve en
+    # vez de destruirse, o el post pierde la imagen entera.
+    for b in soup.find_all("button"):
+        if b.find("img"):
+            b.unwrap()
     for t in soup.find_all(BASURA):
         t.decompose()
     for c in CHROME_CLASES:
