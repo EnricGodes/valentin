@@ -16,7 +16,7 @@ ctas:
 ---
 ![Rehabilitación motor 3.2 serie G, 1](/img/magazine/f2e62726-20240809_143706.jpg)
 
-*bloque motor ya cerrado*
+*Bloque motor ya cerrado*
 
 Proceso completo de rehabilitación de motor de un 3.2 serie G.
 
@@ -26,7 +26,7 @@ Principalmente por prueba de compresiones motor no optimas y fugas de aceite por
 
 ## ¿Pruebas?
 
-Realizamos pruebas de compresión motor.
+Realizamos pruebas de compresión del motor.
 
 ## Fugas de aceite
 

@@ -16,7 +16,7 @@ ctas:
 ---
 ![Plato Sonda antes y después](/img/magazine/3c2d72f2-b4bd5275-558c-4eae-ba55-99ab322981e6.jpg)
 
-*Plato Sonda antes y después*
+*Plato sonda antes y después*
 
 Proceso completo de restauración completa sistema CIS
 

@@ -40,7 +40,7 @@ Recomendamos sustituir los 24 espárragos de bloque por los de “dilavar” par
 
 Los cilindros al Nicasil nos dan una vida casi ilimitada.
 
-En nuestro caso, el proceso de limpieza, descarbonización , verificación y pesaje de piezas es clave.
+En nuestro caso, el proceso de limpieza, descarbonización, verificación y pesaje de las piezas es clave.
 
 Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
 
@@ -69,7 +69,7 @@ Cabe diferenciar dos conceptos distintos:
 ![Rehabilitación completa motor 964 (M6401 3.6 ), 16](/img/magazine/1d0df587-foto-14.jpg)
 :::
 
-Proceso de montaje
+Proceso de montaje.
 
 ![Momento del acoplamiento del motor](/img/magazine/ead23d0d-foto-12.jpg)
 

@@ -16,7 +16,7 @@ ctas:
 ---
 ![El motor del 997.1 Turbo embalado en un palé, dentro de la furgoneta](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)
 
-Proceso completo de rehabilitación de motor de 997.1 turbo
+Proceso completo de rehabilitación del motor de un 997.1 Turbo.
 
 ## ¿Motivos principales?
 

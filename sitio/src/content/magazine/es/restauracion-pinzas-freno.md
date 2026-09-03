@@ -1,5 +1,5 @@
 ---
-title: "Restauración pinzas de freno"
+title: "Restauración de pinzas de freno"
 slugSquarespace: "restauracion-pinzas-freno"
 slugFinal: "restauracion-pinzas-freno"
 slugOriginal: "restauracion-pinzas-freno"
@@ -32,4 +32,4 @@ Muchos de ellos afectados por los años y con desperfectos en la base de las pin
 
 Tenerlos en perfecto estado es un elemento visible que gusta.
 
-Proceso de montaje
+Proceso de montaje.

@@ -18,7 +18,7 @@ ctas:
 
 *Motor terminado listo para entrega*
 
-Proceso completo de rehabilitación de motor de 968 por falta de presión de aceite
+Proceso completo de rehabilitación del motor de un 968 por falta de presión de aceite.
 
 ## ¿Motivos principales?
 

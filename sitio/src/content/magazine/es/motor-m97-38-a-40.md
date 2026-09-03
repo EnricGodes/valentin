@@ -18,7 +18,7 @@ ctas:
 
 *Motor terminado listo para*
 
-Proceso completo de rehabilitación de motor M97
+Proceso completo de rehabilitación del motor M97.
 
 ## ¿Motivos principales?
 

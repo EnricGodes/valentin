@@ -36,7 +36,7 @@ Aún así, las líneas rojas las marcamos nosotros en favor de lo que puedas pas
 
 ## Estado inicial del proceso
 
-El donante ha sido un 964 Carrera 4 de 1991
+El donante ha sido un 964 Carrera 4 de 1991.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Porsche 964 azul noche con vinilo de Valentín Motors y un motor bóxer en el caballete al fondo](/img/magazine/e0a076ab-356411aa-9447-4774-8a6c-6ccd06db6827.jpg)
@@ -46,7 +46,7 @@ El donante ha sido un 964 Carrera 4 de 1991
 
 ## Mecánica
 
-En este proyecto no vamos a aumentar la cilindrada de este 964 a 3.8, el upgrade va a ser un Stage 1 con chip EPROM, caudalímetro, filtro Aire especial y sistema de escape deportivo.
+En este proyecto no vamos a aumentar la cilindrada de este 964 a 3.8: el upgrade será un Stage 1 con chip EPROM, caudalímetro, filtro de aire especial y sistema de escape deportivo.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![Turbina de refrigeración recién pintada en marfil junto a la carcasa del ventilador en negro](/img/magazine/369faa12-7b35d37a-d062-462c-8dcb-3960bad1e318.jpg)
@@ -63,7 +63,7 @@ En este proyecto no vamos a aumentar la cilindrada de este 964 a 3.8, el upgrade
 
 ## Carrocería Backdating
 
-Proceso de tansformación a serie F
+Proceso de transformación a serie F.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![Frontal del 964 con el paragolpes desmontado y una pieza blanca en pruebas de ajuste](/img/magazine/bd7b7b36-3cb2d097-e172-441f-a84c-5a601234dfec.jpg)

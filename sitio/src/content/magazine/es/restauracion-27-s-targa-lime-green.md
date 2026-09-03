@@ -6,7 +6,7 @@ slugOriginal: "restauracion27stargalimegreen-kdlc4"
 date: 2023-04-27T08:45:49.131000Z
 lang: es
 categories: ["restauraciones"]
-excerpt: "Sigue el proceso de restauración de este 2.7 s Targa de 1975"
+excerpt: "Sigue el proceso de restauración de este 2.7 S Targa de 1975."
 author: "Jordi Edo"
 squarespaceId: "644a3211c73932766a0c99fe"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion27stargalimegreen-kdlc4"
@@ -30,7 +30,7 @@ Devolver estas unidades a su estado inicial siempre son retos motivadores.
 
 La única titularidad de de este 2.7 se aprecia en todos los rincones del vehículo.
 
-La primera fase de desmontaje es importante para verificar el estado de todos lo componentes y planificar el proceso de restauración.
+La primera fase de desmontaje es importante para verificar el estado de todos los componentes y planificar el proceso de restauración.
 
 ## Estado inicial del proceso
 
@@ -43,7 +43,7 @@ Aquí mostramos algunas imágenes del estado inicial del proyecto y su magnitud.
 
 ## Mecánica: restauración del motor
 
-Trabajos asociados al proceso de restauración del motor
+Trabajos asociados al proceso de restauración del motor.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![El motor del 911 Targa 2.7 S en el caballete, antes del despiece](/img/magazine/c33888e6-b90aefc4-97a3-462b-b42c-5bb612f72fa6.jpg)
@@ -56,7 +56,7 @@ Trabajos asociados al proceso de restauración del motor
 
 ## Carrocería
 
-Proceso de desmontaje
+Proceso de desmontaje.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![El 911 Targa 2.7 S en la sala de Valentín Motors, con la carrocería en marrón](/img/magazine/a54476d8-9fbcbc6f-aa9c-42be-bbcb-a236f87fa254.jpg)

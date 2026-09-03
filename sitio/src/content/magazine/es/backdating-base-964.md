@@ -18,7 +18,7 @@ ctas:
 
 *backdating en forest green*
 
-Singer cambió las reglas del juego
+Singer cambió las reglas del juego.
 
 Un backdating es unir la linea pura del 911 entre 1965 y 1973 con un 911 más llevable, un 964.
 

@@ -14,9 +14,9 @@ ctas: []
 ---
 ## Castellolí 22/04/23
 
-### ¡Primer round de la temporada y primera victoria!
+### Primer round de la temporada y primera victoria
 
-El sábado 22 de abril se disputaba el primer certamen de la temporada 2023 de las Porsche Classic Series en el circuito de velocidad de Castellolí.
+El sábado 22 de abril se disputó la primera prueba de la temporada 2023 de las Porsche Classic Series en el circuito de velocidad de Castellolí.
 
 Valentin Motors desplegaba su primer evento 2023 en el apartado MotorSport con 3 unidades en el Box.
 

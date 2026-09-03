@@ -39,4 +39,4 @@ Uno de los momentos más delicados en la restauración son los interiores. Elegi
 ![Trabajos de tapicería original de 911 serie F, 10](/img/magazine/c8547faf-tap-9.jpg)
 :::
 
-Proceso de montaje
+Proceso de montaje.

@@ -1,0 +1,692 @@
+[
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.interior.editorial",
+    "texto": "El interior combina la sobriedad del cuero marrón con detalles textiles verdes y componentes específicos RUF. La instrumentación, el volante y los umbrales convierten la cabina en una extensión directa de la conversión Kompressor R, manteniendo una lectura artesanal y técnica.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.etiqueta",
+    "texto": "Documentación y Procedencia",
+    "corregido": "Documentación y procedencia"
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.titulo",
+    "texto": "Historial<br/><strong>completamente<br/>documentado.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[0].anio",
+    "texto": "2007 · Alemania",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[0].titulo",
+    "texto": "Entrega original en Porsche Zentrum Essen",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[0].cuerpo",
+    "texto": "Este 911 Carrera 4S, generación 997, es entregado a través de <strong>Porsche Zentrum Essen</strong> en color <strong>Meteor Grey Metallic (LM7W)</strong> sobre interior en cuero <strong>Classic Dark Brown</strong>. País de primera entrega: Alemania.",
+    "corregido": "Este 911 Carrera 4S, generación 997, fue entregado a través de <strong>Porsche Zentrum Essen</strong> en color <strong>Meteor Grey Metallic (LM7W)</strong> sobre un interior de cuero <strong>Classic Dark Brown</strong>. País de primera entrega: Alemania."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[0].badge",
+    "texto": "Documentación de entrega original",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[1].anio",
+    "texto": "2011 · Pfaffenhausen, Alemania",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[1].titulo",
+    "texto": "Conversión RUF Kompressor R",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[1].cuerpo",
+    "texto": "Con solo <strong>12.234 km</strong>, el vehículo es enviado a <strong>RUF Automobile en Pfaffenhausen</strong> para una conversión integral Kompressor R. La transformación incluye compresor, intercooler, llantas, frenos, suspensión, escape y kit carrocería RUF. El coche conserva su <strong>VIN original Porsche</strong>.",
+    "corregido": "Con solo <strong>12.234 km</strong>, el vehículo fue enviado a <strong>RUF Automobile en Pfaffenhausen</strong> para una conversión integral Kompressor R. La transformación incluyó compresor, intercooler, llantas, frenos, suspensión, escape y kit de carrocería RUF. El coche conserva su <strong>VIN original de Porsche</strong>."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[1].badge",
+    "texto": "Factura RUF · 55.113,42 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[2].anio",
+    "texto": "2024 · España",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[2].titulo",
+    "texto": "Renovación integral en Valentin Motors",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[2].cuerpo",
+    "texto": "Valentin Motors realiza una renovación estética y mecánica de más de <strong>30.000 €</strong>: desmontaje completo, repintado <strong>glass-out en Irish Green</strong>, renovación profunda del interior, inspección técnica mayor y servicio completo. Carrocería verificada íntegramente en Valentin Motors.",
+    "corregido": "Valentin Motors realizó una renovación estética y mecánica de más de <strong>30.000 €</strong>: desmontaje completo, repintado integral en <strong>Irish Green</strong> con desmontaje de cristales, renovación profunda del interior, inspección técnica mayor y servicio completo. Carrocería verificada íntegramente en Valentin Motors."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[2].badge",
+    "texto": "Documentación Valentin Motors · 30.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[3].anio",
+    "texto": "Hoy · Disponible",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[3].titulo",
+    "texto": "Una pieza de colección lista para conducir",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[3].cuerpo",
+    "texto": "<strong>52.492 km</strong> totales. ITV vigente hasta enero de 2027. Sin accidentes. Números coincidentes. Libro de mantenimiento completo con sellos de especialistas <strong>Porsche y RUF</strong>. 3 propietarios. Ubicación: España.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.procedencia.hitos[3].badge",
+    "texto": "200.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.etiqueta",
+    "texto": "Ficha técnica",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.titulo",
+    "texto": "Especificaciones<br/><strong>completas.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[0].filas[0].valor",
+    "texto": "Bóxer 6 cilindros",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[0].filas[1].valor",
+    "texto": "3.800 cc",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[0].filas[2].valor",
+    "texto": "RUF Kompressor",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[0].filas[4].valor",
+    "texto": "435 CV / 320 kW",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[0].filas[5].valor",
+    "texto": "470 Nm",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[1].titulo",
+    "texto": "Transmisión y Chasis",
+    "corregido": "Transmisión y chasis"
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[1].filas[0].valor",
+    "texto": "Manual 6 vel.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[1].filas[1].valor",
+    "texto": "AWD total",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[1].filas[3].valor",
+    "texto": "Bilstein RUF",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[1].filas[4].valor",
+    "texto": "Sistema RUF",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[1].filas[5].valor",
+    "texto": "RUF 19\"",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[2].titulo",
+    "texto": "Carrocería y General",
+    "corregido": "Carrocería y datos generales"
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[2].filas[1].valor",
+    "texto": "09 / 2007",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[2].filas[2].valor",
+    "texto": "52.492 km",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[2].filas[3].valor",
+    "texto": "Irish Green 6406",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[2].filas[4].valor",
+    "texto": "Cuero marrón",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[2].filas[6].valor",
+    "texto": "Enero 2027",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[5].titulo",
+    "texto": "Inversiones documentadas",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[5].filas[0].valor",
+    "texto": "55.113,42 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[5].filas[1].valor",
+    "texto": "> 30.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[5].filas[2].valor",
+    "texto": "> 85.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.specs.grupos[5].filas[3].valor",
+    "texto": "200.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.etiqueta",
+    "texto": "La opinión de Jordi",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.titulo",
+    "texto": "La visión<br/><strong>del experto.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.nombre",
+    "texto": "Jordi Edo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.rol",
+    "texto": "Especialista Porsche · Valentin Motors",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.bio",
+    "texto": "Más de 25 años de experiencia con Porsche de colección. Ha supervisado cientos de operaciones de compraventa de vehículos especiales, con especial foco en preparaciones.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.intro",
+    "texto": "\"Llevamos muchos años buscando un RUF Kompressor R en condición similar a este. Cuando lo vimos, la decisión fue inmediata.\"",
+    "corregido": "«Llevamos muchos años buscando un RUF Kompressor R en condiciones similares a las de este. Cuando lo vimos, la decisión fue inmediata»."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.parrafos[0]",
+    "texto": "Lo primero que llama la atención de este coche no es la pintura, aunque el <strong>Irish Green</strong> sobre suelo de hormigón pulido sea de una belleza casi injusta. Lo que engancha es la coherencia del conjunto. Cada elemento habla el mismo idioma: la conversión RUF, la renovación de 2024 en Valentin Motors, la palanca corta, el cuadro verde con las agujas rojas. Nada está fuera de lugar.",
+    "corregido": "Lo primero que llama la atención de este coche no es la pintura, aunque el <strong>Irish Green</strong> sobre el suelo de hormigón pulido resulte especialmente atractivo. Lo más relevante es la coherencia del conjunto. Cada elemento habla el mismo idioma: la conversión RUF, la renovación de 2024 en Valentin Motors, la palanca corta y el cuadro verde con las agujas rojas. Nada está fuera de lugar."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.parrafos[1]",
+    "texto": "El sistema <strong>RUF Kompressor</strong> cambia radicalmente la personalidad del 997 sin traicionar su carácter. No tienes la espera del turbo. La presión llega limpia, sin brusquedad, y el motor bóxer de 3,8 litros responde con una linealidad que pocos coches de esta potencia consiguen. Con el cambio <strong>manual de 6 velocidades</strong> y la <strong>tracción total</strong>, el resultado es un Gran Turismo que puedes conducir sin restricciones, en cualquier condición.",
+    "corregido": "El sistema <strong>RUF Kompressor</strong> modifica notablemente la personalidad del 997 sin traicionar su carácter. No existe el retardo del turbo. La presión llega de forma limpia, sin brusquedad, y el motor bóxer de 3,8 litros responde con una entrega lineal. Con el cambio <strong>manual de 6 velocidades</strong> y la <strong>tracción total</strong>, el resultado es un gran turismo que permite un uso versátil en distintas condiciones."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.parrafos[2]",
+    "texto": "El historial es impecable. Tres propietarios, VIN original Porsche, factura RUF de 2011, documentación completa de la restauración de 2024. Para un coleccionista serio, eso es tan importante como el coche mismo.",
+    "corregido": "El historial está ampliamente documentado: tres propietarios, VIN original de Porsche, factura RUF de 2011 y documentación completa de la restauración de 2024. Para un coleccionista, esta información es tan importante como el propio coche."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.prosTitulo",
+    "texto": "Lo mejor",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.pros[0]",
+    "texto": "Conversión RUF genuina, documentada y certificada",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.pros[1]",
+    "texto": "Entrega de potencia lineal, sin el lag del turbo",
+    "corregido": "Entrega de potencia lineal, sin el retardo del turbo"
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.pros[2]",
+    "texto": "Cambio manual en un RUF de tracción total: combinación excepcional",
+    "corregido": "Cambio manual en un RUF de tracción total: combinación poco habitual"
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.pros[3]",
+    "texto": "Irish Green es prácticamente único en el mercado actual",
+    "corregido": "El Irish Green es poco habitual en el mercado actual"
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.pros[4]",
+    "texto": "Tres inversiones documentadas que justifican el precio",
+    "corregido": "Tres inversiones documentadas"
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.pros[5]",
+    "texto": "VIN original Porsche conservado",
+    "corregido": "VIN original de Porsche conservado"
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.contrasTitulo",
+    "texto": "A considerar",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.contras[0]",
+    "texto": "El precio sitúa este RUF en terreno de coleccionista, no de usuario cotidiano",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.opinion.contras[1]",
+    "texto": "Un perfil más extremo puede preferir el CTR o el RGT de la misma era",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.cierre.cita",
+    "texto": "No es simplemente un Porsche preparado.<br/> Es <em>un capítulo documentado del legado RUF</em>, presentado en una combinación de colores atemporal y listo para la colección más exigente.",
+    "corregido": "No es simplemente un Porsche preparado.<br/>Es <em>un capítulo documentado del legado RUF</em>, presentado en una combinación de colores atemporal y destinado a una colección centrada en unidades documentadas."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.cierre.precio",
+    "texto": "200.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.cierre.precioLabel",
+    "texto": "Porsche 997 RUF Kompressor R · Irish Green",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.cierre.ctaTexto",
+    "texto": "Más información",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.catalogo.marca",
+    "texto": "Porsche · RUF",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.catalogo.nombre",
+    "texto": "997 RUF Kompressor R",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.catalogo.detalle",
+    "texto": "2007 · 52.492 km · Irish Green",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.catalogo.descripcion",
+    "texto": "Conversión RUF integral documentada. Factura original Pfaffenhausen 2011. Repintado glass-out Irish Green 2024. VIN Porsche conservado.",
+    "corregido": "Conversión RUF integral documentada. Factura original de Pfaffenhausen de 2011. Repintado integral en Irish Green en 2024. VIN de Porsche conservado."
+  },
+  {
+    "id": "src/datos/coches/997-ruf-kompressor.json#.catalogo.precio",
+    "texto": "200.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.meta.titulo",
+    "texto": "Porsche 356 B Cabriolet 1960 · Valentin Motors",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.meta.descripcion",
+    "texto": "Porsche 356 B Cabriolet 1960. Restauración completa con carrocería KAAN (Austria). Plata, interior negro, bóxer 4 cilindros 1.582 cm³, 90 hp. Disponible en Valentin Motors.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.hero.eyebrow",
+    "texto": "Porsche · 356 B · 1960",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.hero.subtitulo",
+    "texto": "Porsche 356 B",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.hero.claim",
+    "texto": "El origen de una leyenda, restaurado por completo.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.etiqueta",
+    "texto": "Historia del vehículo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.titulo",
+    "texto": "Un clásico<br/><strong>fundacional de Porsche,<br/>íntegramente restaurado.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.parrafos[0]",
+    "texto": "El <strong>Porsche 356 B</strong> fue la evolución de la serie A con varios cambios que el mercado acogió con gran éxito. Esta unidad corresponde al <strong>chasis 153.320</strong>, fabricada en <strong>1960</strong> y destinada al mercado alemán. Equipa una mecánica <strong>bóxer de 4 cilindros y 1.582 cm³</strong> que desarrolla <strong>90 hp</strong>.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.parrafos[1]",
+    "texto": "La carrocería ha sido realizada por los austríacos de <strong>KAAN</strong>, referencia en restauración de clásicos Porsche, con plena fidelidad al carácter original del modelo. El interior, en <strong>negro</strong>, ha sido restaurado completamente.",
+    "corregido": "La carrocería fue realizada por los austríacos de <strong>KAAN</strong>, una referencia en la restauración de clásicos Porsche, con plena fidelidad al carácter original del modelo. El interior, en <strong>negro</strong>, fue restaurado por completo."
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.cita",
+    "texto": "No es simplemente un clásico restaurado. Es una interpretación fiel del 356 B Cabriolet, con la carrocería artesanal de KAAN y el espíritu técnico de la etapa fundacional de Porsche.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.datos[0].valor",
+    "texto": "356 B Cabriolet",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.datos[3].valor",
+    "texto": "Bóxer 4 cil. · 1.582 cm³",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.datos[4].valor",
+    "texto": "90 hp · 5.200 rpm",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.datos[5].valor",
+    "texto": "Manual 4 velocidades",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.datos[6].valor",
+    "texto": "Plata · Interior negro",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.intro.datos[7].valor",
+    "texto": "190.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.titulo",
+    "texto": "Plata.<br/><strong>Carrocería KAAN<br/>sobre chasis 153.320.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[0].alt",
+    "texto": "Exterior frontal",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[0].caption",
+    "texto": "Vista frontal · Plata · Carrocería KAAN",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[1].alt",
+    "texto": "Perfil cabriolet",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[1].caption",
+    "texto": "Perfil cabriolet · Líneas clásicas del 356",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[2].alt",
+    "texto": "Vista frontal directa",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[2].caption",
+    "texto": "Frontal · Cromados restaurados",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[3].alt",
+    "texto": "Habitáculo restaurado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[3].caption",
+    "texto": "Habitáculo negro · Restauración completa",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[4].alt",
+    "texto": "Vista lateral",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.galeria.fotos[4].caption",
+    "texto": "Vista lateral · Proporciones cabriolet originales",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.ingenieria.etiqueta",
+    "texto": "Motor y Mecánica",
+    "corregido": "Motor y mecánica"
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.ingenieria.titulo",
+    "texto": "Mecánica<br/><strong>bóxer de época.</strong><br/>La esencia.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.ingenieria.stats[1].etiqueta",
+    "texto": "Par motor",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.ingenieria.parrafos[0]",
+    "texto": "El <strong>bóxer de 4 cilindros</strong> con 1.582 cm³ y carburación representa la mecánica originaria de Porsche: eficiente, directa y sin filtros. A 5.200 rpm entrega sus <strong>90 hp</strong> con una respuesta natural que define el carácter de los primeros deportivos de la marca.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.ingenieria.parrafos[1]",
+    "texto": "El motor identificado con el número <strong>800.350</strong> corresponde a la época del vehículo, aunque no es el original de fábrica. La <strong>caja manual de 4 velocidades</strong> conecta al conductor con la mecánica de forma inmediata, sin intermediarios.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.ingenieria.parrafos[2]",
+    "texto": "Alimentación: <strong>carburación</strong>. Mercado de origen: <strong>Alemania</strong>.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.ingenieria.tags[0]",
+    "texto": "Bóxer 4 cil.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.ingenieria.tags[3]",
+    "texto": "Motor de época",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.etiqueta",
+    "texto": "Restauración completa · Carrocería KAAN",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.titulo",
+    "texto": "Restauración integral<br/><strong>realizada en Austria.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.precio",
+    "texto": "190.000 € · Garantía 12 meses",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[0].items[0]",
+    "texto": "Realizada por KAAN (Austria)",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[0].items[1]",
+    "texto": "Carrocería cabriolet",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[0].items[2]",
+    "texto": "Fidelidad al original 356 B",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[1].items[0]",
+    "texto": "Color plata",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[1].items[1]",
+    "texto": "Cromados clásicos restaurados",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[1].items[2]",
+    "texto": "Proporciones originales conservadas",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[2].items[0]",
+    "texto": "Interior negro restaurado completamente",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[2].items[1]",
+    "texto": "Cubre capota",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[2].items[2]",
+    "texto": "Tonneau cover",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[3].items[0]",
+    "texto": "Motor bóxer 1.582 cm³ · nº 800.350",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[3].items[1]",
+    "texto": "Motor de época documentado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.kit.categorias[3].items[2]",
+    "texto": "Caja manual 4 velocidades",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.titulo",
+    "texto": "Plata.<br/><strong>Cabriolet clásico<br/>restaurado íntegramente.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.texto",
+    "texto": "La carrocería en <strong>plata</strong> sitúa esta unidad dentro de una lectura sobria y atemporal del 356. Las formas limpias, los <strong>cromados clásicos</strong> y la proporción ligera del cabriolet permiten entender por qué el modelo se convirtió rápidamente en una de las siluetas más reconocibles de la historia de Porsche. La carrocería, realizada por <strong>KAAN</strong>, refuerza el valor artesanal del conjunto.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.fotos[0].alt",
+    "texto": "Detalle frontal",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.fotos[0].caption",
+    "texto": "Detalle frontal · Cromados y línea de capó",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.fotos[1].alt",
+    "texto": "Detalle lateral",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.fotos[1].caption",
+    "texto": "Detalle lateral · Carrocería en plata",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.fotos[2].alt",
+    "texto": "Vista cabriolet",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.fotos[2].caption",
+    "texto": "Vista cabriolet · Proporciones originales",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.fotos[3].alt",
+    "texto": "Perfil trasero",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.exterior.fotos[3].caption",
+    "texto": "Perfil trasero · Silueta inconfundible",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.interior.titulo",
+    "texto": "Interior negro.<br/><strong>Restaurado<br/>completamente.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.interior.fotos[0].alt",
+    "texto": "Habitáculo completo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.interior.fotos[0].caption",
+    "texto": "Habitáculo · Interior negro restaurado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.interior.fotos[1].alt",
+    "texto": "Asientos y tapicería",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.interior.fotos[1].caption",
+    "texto": "Asientos · Tapicería clásica negra",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.interior.fotos[2].alt",
+    "texto": "Salpicadero e instrumentación",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.interior.fotos[2].caption",
+    "texto": "Salpicadero · Instrumentación de época",
+    "corregido": ""
+  }
+]

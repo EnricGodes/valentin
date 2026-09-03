@@ -1,0 +1,462 @@
+[
+  {
+    "id": "src/datos/paginas/quienes-somos.json#.secciones[1].parrafos[0]",
+    "texto": "En los años 70 el Porsche 911 era el vehículo deportivo perfecto para usar tanto en el día a día como en la competición durante el fin de semana.",
+    "corregido": "En los años 70, el Porsche 911 era un vehículo deportivo adecuado tanto para el día a día como para la competición durante el fin de semana."
+  },
+  {
+    "id": "src/datos/paginas/quienes-somos.json#.secciones[1].parrafos[1]",
+    "texto": "En aquella época nos especializamos en preparaciones Sport y Racing para 911 y 914.",
+    "corregido": "En aquella época nos especializamos en preparaciones deportivas y de competición para 911 y 914."
+  },
+  {
+    "id": "src/datos/paginas/quienes-somos.json#.secciones[1].parrafos[2]",
+    "texto": "Este pasado año 2024 Valentin ha cumplido 45 años, el mejor regalo ha sido poder cumplir el sueño de la apertura de las nuevas instalaciones de Madrid.",
+    "corregido": "En 2024, Valentin cumplió 45 años. El mejor regalo fue poder cumplir el sueño de abrir las nuevas instalaciones de Madrid."
+  },
+  {
+    "id": "src/datos/paginas/quienes-somos.json#.secciones[1].parrafos[3]",
+    "texto": "Con estas nuevas instalaciones pretendemos poder llegar al cliente Porsche de toda España con más facilidad y poder dar el servicio que pretendemos.",
+    "corregido": "Con estas nuevas instalaciones queremos llegar con mayor facilidad a los clientes Porsche de toda España y ofrecerles el servicio que buscamos."
+  },
+  {
+    "id": "src/datos/paginas/quienes-somos.json#.secciones[1].parrafos[4]",
+    "texto": "En todos estos años la familia Valentin ha ido creciendo poco a poco hasta hoy en día formando un gran equipo técnico y humano.",
+    "corregido": "A lo largo de estos años, la familia Valentin ha ido creciendo poco a poco hasta formar hoy un gran equipo técnico y humano."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.meta.titulo",
+    "texto": "Restauraciones Porsche · Valentín Motors",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.meta.descripcion",
+    "texto": "Valentín Motors buscamos recuperar la originalidad en los proyectos de restauraciones y añadir nuevos valores en los proyectos de personalizaciones.",
+    "corregido": "En Valentín Motors buscamos recuperar la originalidad en los proyectos de restauración y añadir nuevos valores en los proyectos de personalización."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.h1",
+    "texto": "Restauraciones Porsche",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[0].titulo",
+    "texto": "Restauraciones Porsche",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[1].titulo",
+    "texto": "La responsabilidad del legado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[1].parrafos[0]",
+    "texto": "Cada Porsche es la representación <strong>de unos valores, una actitud y una forma de concebir la conducción determinada</strong>. La marca presenta una elegancia y una belleza atemporales y sentimos como propio el deber de hacer perdurar estos principios.",
+    "corregido": "Cada Porsche representa <strong>unos valores, una actitud y una forma determinada de concebir la conducción</strong>. La marca presenta una elegancia y una belleza atemporales, y sentimos como propio el deber de hacer perdurar estos principios."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[1].parrafos[1]",
+    "texto": "Es por ello que desde Valentín Motors buscamos recuperar la <strong>originalidad en los proyectos de restauraciones y añadir nuevos valores en los proyectos de personalizaciones</strong>.",
+    "corregido": "Por ello, en Valentín Motors buscamos recuperar la <strong>originalidad en los proyectos de restauración y añadir nuevos valores en los proyectos de personalización</strong>."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[1].imagenes[0].alt",
+    "texto": "Restauraciones vehículos Porsche",
+    "corregido": "Restauración de vehículos Porsche"
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[0]",
+    "texto": "Nuestras restauraciones están marcadas por el <strong>máximo índice de <br/>originalidad</strong> y calidad en todos los aspectos de proyecto.",
+    "corregido": "Nuestras restauraciones se caracterizan por un <strong>alto grado de <br/>originalidad</strong> y calidad en todos los aspectos del proyecto."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[1]",
+    "texto": "En restauraciones integrales buscamos obtener el <strong>Certificate of <br/>Authenticity,</strong> llevando el vehículo a sus especificaciones originales.",
+    "corregido": "En las restauraciones integrales buscamos obtener el <strong>Certificate of <br/>Authenticity</strong>, llevando el vehículo a sus especificaciones originales."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[2]",
+    "texto": "<br/>Analizamos con el cliente las posibilidades y el alcance <br/>de la unidad para que el resultado sea proporcional al <br/>valor futuro de cada modelo de Porsche classic.<br/><br/>Cada modelo y estado es analizado al 100% para que <br/>el resultado final sea <strong>efectivo y acorde con la historia</strong>.",
+    "corregido": "<br/>Analizamos con el cliente las posibilidades y el alcance <br/>de la unidad para que el resultado sea proporcional al <br/>valor futuro de cada modelo de Porsche clásico.<br/><br/>Cada modelo se analiza al 100 % en función de su estado para que <br/>el resultado final sea <strong>efectivo y acorde con su historia</strong>."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[3]",
+    "texto": "Sigue el proceso de restauración de este backdating de 964",
+    "corregido": "Sigue el proceso de restauración de este backdating de un 964."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[4]",
+    "texto": "Sigue el proceso de restauración de este 2.7 s Targa de 1975",
+    "corregido": "Sigue el proceso de restauración de este 2.7 s Targa de 1975."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[5]",
+    "texto": "Sigue el proceso de restauración de este SC Targa de 1979 que estamos preparando para su venta.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[6]",
+    "texto": "Sigue el proceso de restauración de este precioso 930, que llegó a nuestras instalaciones después de haber sufrido un incendio en la zona motor.",
+    "corregido": "Sigue el proceso de restauración de este precioso 930, que llegó a nuestras instalaciones después de sufrir un incendio en la zona del motor."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[7]",
+    "texto": "Motor 2.2",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[8]",
+    "texto": "motor 2.2 1970<br/>",
+    "corregido": "Motor 2.2 1970<br/>"
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[9]",
+    "texto": "Rehabilitación de motor 964 tipo M64",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].parrafos[10]",
+    "texto": "Motor 930 turbo 3.0 1988",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[0].alt",
+    "texto": "234678640_364110575330562_8256966547310030628_n.jpg",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[1].alt",
+    "texto": "188595103_372647310843086_5169088713134967750_n.jpg",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[2].alt",
+    "texto": "142837905_1123606771422230_4368144538445892404_n.jpg",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[6].alt",
+    "texto": "234678640_364110575330562_8256966547310030628_n.jpg",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[7].alt",
+    "texto": "188595103_372647310843086_5169088713134967750_n.jpg",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[8].alt",
+    "texto": "142837905_1123606771422230_4368144538445892404_n.jpg",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[13].alt",
+    "texto": "Backdating 964 (2023)",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[14].alt",
+    "texto": "Restauración 2.7 S 1975 nacional (N8 verde lima)",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[15].alt",
+    "texto": "Restauración 3.0 SC Targa 1979",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[16].alt",
+    "texto": "Restauración por incendio 911 930 turbo 1975",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[17].alt",
+    "texto": "Motor 1971 2.2",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[18].alt",
+    "texto": "Rehabilitación completa motor 2.2  1970 serie F",
+    "corregido": "Rehabilitación completa motor 2.2 1970 serie F"
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[19].alt",
+    "texto": "Rehabilitación completa motor  964 M64",
+    "corregido": "Rehabilitación completa motor 964 M64"
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[2].imagenes[20].alt",
+    "texto": "Motor 930 turbo 3.0 1988",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[3].parrafos[0]",
+    "texto": "Realizamos <strong>proyectos a medida </strong>para clientes con aspiraciones específicas: <br/>cambios en la carrocería, mejoras de performance, interiores a medida…<br/>",
+    "corregido": "Realizamos <strong>proyectos a medida</strong> para clientes con aspiraciones específicas: <br/>cambios en la carrocería, mejoras de rendimiento e interiores a medida.<br/>"
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[4].titulo",
+    "texto": "Laboratorio de ideas",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[4].parrafos[0]",
+    "texto": "Parte de nuestro tiempo lo dedicamos a la <strong>investigación</strong>, detectando tendencias e implementando mejoras a nuestros procesos. Estamos documentándonos constantemente, acudiendo a ferias, hablando con otros profesionales del sector para dar <strong>soluciones innovadoras a nuestros clientes</strong>.",
+    "corregido": "Parte de nuestro tiempo lo dedicamos a la <strong>investigación</strong> para detectar tendencias e implementar mejoras en nuestros procesos. Nos documentamos constantemente, acudimos a ferias y hablamos con otros profesionales del sector para ofrecer <strong>soluciones innovadoras a nuestros clientes</strong>."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[5].parrafos[0]",
+    "texto": "Para aquellos clientes que quieren conjugar la estética de un <strong>modelo clásico</strong> y los <strong>avances tecnológicos</strong> de un vehículo más reciente, el backdating puede ser una opción. Aprovechando las configuraciones parecidas de los 911 <em>aircooled</em>, podemos transformar las características estéticas de un modelo más moderno, acercándolo al diseño de una unidad anterior ¿un SC con aire acondicionado o con un motor 3.2? Es posible.",
+    "corregido": "Para aquellos clientes que quieren conjugar la estética de un <strong>modelo clásico</strong> con los <strong>avances tecnológicos</strong> de un vehículo más reciente, el backdating puede ser una opción. Aprovechando las configuraciones parecidas de los 911 <em>aircooled</em>, podemos transformar las características estéticas de un modelo más moderno para acercarlo al diseño de una unidad anterior. ¿Un SC con aire acondicionado o con un motor 3.2? Es posible."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[5].parrafos[1]",
+    "texto": "Estas transformaciones se realizan siempre teniendo en cuenta que el nuevo vehículo sea <strong>homologable</strong>.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[5].imagenes[0].alt",
+    "texto": "Laboratorio Ideas Porsche",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[6].titulo",
+    "texto": "Explícanos tus ideas",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[6].parrafos[0]",
+    "texto": "Descubrirás en Valentín Motors al aliado perfecto para llevarlas a cabo: contamos con el conocimiento de la marca, la experiencia probada y sensibilidad para ponernos en tu piel.",
+    "corregido": "Descubrirás en Valentín Motors al aliado adecuado para llevarlas a cabo: contamos con el conocimiento de la marca, la experiencia probada y la sensibilidad necesaria para ponernos en tu piel."
+  },
+  {
+    "id": "src/datos/paginas/restauraciones.json#.secciones[6].imagenes[0].alt",
+    "texto": "backdating porsche 911",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.meta.titulo",
+    "texto": "Sala de motores clásicos y competición · Valentín Motors",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.meta.descripcion",
+    "texto": "Contamos con una amplísima experiencia reparando motores clásicos de TODAS MARCAS:  Porsche, Mercedes, Jaguar, Ferrari,  Bentley, Aston Martin, Lamborghini, Alfa Romeo, ... ",
+    "corregido": "Contamos con una amplia experiencia reparando motores clásicos de todas las marcas: Porsche, Mercedes, Jaguar, Ferrari, Bentley, Aston Martin, Lamborghini, Alfa Romeo, etc."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.h1",
+    "texto": "Sala de motores: clásicos y competición",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].titulo",
+    "texto": "Sala de motores: clásicos y competición",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].parrafos[0]",
+    "texto": "De la mano de Iván Bascuñana, jefe del departamento de motores, sumamos una amplísima experiencia de reparación de motores clásicos de todas las marcas. Preparamos además motores para competición.",
+    "corregido": "De la mano de Iván Bascuñana, jefe del departamento de motores, aportamos una amplia experiencia en la reparación de motores clásicos de todas las marcas. También preparamos motores para competición."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].parrafos[1]",
+    "texto": "Nuestra engine room",
+    "corregido": "Nuestra sala de motores"
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].parrafos[2]",
+    "texto": "Por las manos de nuestro motorista, Iván Bascuñana, han pasado los siguientes motores:",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[0]",
+    "texto": "Aston Martin DBS, DB4, DB5, DB6",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[1]",
+    "texto": "Austin Healey",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[2]",
+    "texto": "Bentley Continental",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[3]",
+    "texto": "De Tomaso Pantera 351 Cleveland",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[4]",
+    "texto": "Ferrari Dino, 250 GTE, 308 GT",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[5]",
+    "texto": "Ford MK1, MK2 Pinto y BDG",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[6]",
+    "texto": "Jaguar XK 120/140/150, MKII, MK7, E-Type, XJ, XJR",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[7]",
+    "texto": "Lamborghini 400 2+2, Islero",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[8]",
+    "texto": "Maserati 3500 GT",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[9]",
+    "texto": "Mercedes 300SL, 280SL, 250SE, 190SL",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[10]",
+    "texto": "Peugeot 404",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[0].items[11]",
+    "texto": "Rolls Royce Silver Shadow",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[1].titulo",
+    "texto": "Contamos con experiencia reparando motores clásicos de cualquier marca",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[1].parrafos[0]",
+    "texto": "Uno de los departamentos de los cuales estamos más orgullosos es de nuestra sala de motores donde <strong>restauramos y actualizamos las unidades de potencia y cajas de cambio</strong> de todos los 911 y clásicos Porsche.",
+    "corregido": "Uno de los departamentos de los que estamos más orgullosos es nuestra sala de motores, donde <strong>restauramos y actualizamos las unidades de potencia y cajas de cambio</strong> de todos los 911 y demás clásicos Porsche."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[1].parrafos[1]",
+    "texto": "De hecho, nuestro nombre comercial Valentín Motors proviene del nombre del fundador y de “motores”, en símbolo de la capacidad técnica que nuestra empresa ha tenido desde 1979.",
+    "corregido": "De hecho, nuestro nombre comercial, Valentín Motors, proviene del nombre del fundador y de «motores», como símbolo de la capacidad técnica que nuestra empresa ha tenido desde 1979."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[1].parrafos[2]",
+    "texto": "<strong>Una sala de motores es costosísima a nivel técnico y de conocimiento</strong>, de hecho ni los concesionarios oficiales de las marcas disponen de una.",
+    "corregido": "<strong>Una sala de motores requiere una inversión considerable en recursos técnicos y conocimiento</strong>. De hecho, ni siquiera los concesionarios oficiales de las marcas disponen de una."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[1].parrafos[3]",
+    "texto": "Tenemos sobrada experiencia en motores Porsche tanto refrigerados por aire desde el 356 hasta los modernos GT3 y CUP; no nos limitamos a restaurar y montar según especificaciones de origen sino también mejoramos y potenciamos según nuestros cálculos y datos.",
+    "corregido": "Tenemos sobrada experiencia en motores Porsche, desde los refrigerados por aire del 356 hasta los modernos GT3 y CUP. No nos limitamos a restaurarlos y montarlos según las especificaciones de origen; también los mejoramos y potenciamos de acuerdo con nuestros cálculos y datos."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[2].titulo",
+    "texto": "Un taller con sala de motores nos permite no depender de terceros, asegurando la garantía y la calidad con la que ejecutamos nuestros proyectos.",
+    "corregido": "Un taller con sala de motores nos permite no depender de terceros, lo que garantiza la calidad con la que ejecutamos nuestros proyectos y facilita la cobertura de la garantía."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[2].parrafos[0]",
+    "texto": "— Jordi Edo",
+    "corregido": "Jordi Edo"
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[3].titulo",
+    "texto": "Ejemplos de reparaciones de motores",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[4].titulo",
+    "texto": "Rehabilitación completa motor 964",
+    "corregido": "Rehabilitación completa del motor 964"
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[4].parrafos[0]",
+    "texto": "En toda la generación 964 Porsche usó el bloque de 3.600 cc que tanta fiabilidad y satisfacciones proporcionó a sus propietarios.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[5].titulo",
+    "texto": "Restauración completa motor 965 (964 turbo)",
+    "corregido": "Restauración completa del motor 965 (964 turbo)"
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[5].parrafos[0]",
+    "texto": "En el año 1991 el modelo 911 turbo se impulsaba con un motor sobrealimentado de 3,3 litros y 320 CV.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[6].titulo",
+    "texto": "Nuestros servicios",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[7].titulo",
+    "texto": "Motores Porsche",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[7].parrafos[0]",
+    "texto": "Seguimos los planes de mantenimientos <strong>especificados por el fabricante,</strong> utilizando <strong>recambios originales</strong> y las pautas de Porsche.",
+    "corregido": "Seguimos los planes de mantenimiento <strong>especificados por el fabricante,</strong> utilizando <strong>recambios originales</strong> y las pautas de Porsche."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[8].titulo",
+    "texto": "Motores clásicos de cualquier marca",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[8].parrafos[0]",
+    "texto": "Desde hace 40 años nuestra especialidad es la mecánica y concretamente los motores.<br/><br/><strong>Restauramos, renovamos y reparamos cualquier tipo de motor</strong> de la marca. Tenemos servicio de recogida de motores a nivel nacional y entrega de los mismos una vez terminados",
+    "corregido": "Desde hace 40 años, nuestra especialidad es la mecánica y, concretamente, los motores.<br/><br/><strong>Restauramos, renovamos y reparamos cualquier tipo de motor</strong> de la marca. Ofrecemos un servicio de recogida de motores en todo el país y los devolvemos una vez terminados."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[8].parrafos[1]",
+    "texto": "Disponemos de la maquinaria y utillaje necesario para cualquier tipo de restauración, mecanización y departamento de localización de piezas si así se requiere",
+    "corregido": "Disponemos de la maquinaria y el utillaje necesarios para cualquier tipo de restauración y mecanización, además de un departamento de localización de piezas cuando se requiere."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[8].imagenes[0].alt",
+    "texto": "Restauración de motores",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[9].titulo",
+    "texto": "Cajas de cambio manuales",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[9].parrafos[0]",
+    "texto": "<strong>Restauramos todos los tipos de cajas de cambio</strong> Porsche, desde las primera del 356, 915, G50 hasta las más modernas de la generación 991 y 992.<br/>También damos <strong>servicio y reparación de cajas de cambio automáticas</strong> sin necesidad de adquirirlas nuevas.",
+    "corregido": "<strong>Restauramos todos los tipos de cajas de cambio</strong> Porsche, desde las primeras del 356, la 915 y la G50 hasta las más modernas de las generaciones 991 y 992.<br/>También ofrecemos <strong>servicio y reparación de cajas de cambio automáticas</strong> sin necesidad de adquirirlas nuevas."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[9].imagenes[0].alt",
+    "texto": "Cajas de cambio",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[10].titulo",
+    "texto": "Preparación de motores para competición",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[10].parrafos[0]",
+    "texto": "Desde hace 40 años nuestra especialidad es la mecánica y concretamente los motores.<br/><br/><strong>Restauramos, renovamos y reparamos cualquier tipo de motor</strong> de la marca. Tenemos servicio de recogida de motores a nivel nacional y entrega de los mismos una vez terminados",
+    "corregido": "Desde hace 40 años, nuestra especialidad es la mecánica y, concretamente, los motores.<br/><br/><strong>Restauramos, renovamos y reparamos cualquier tipo de motor</strong> de la marca. Ofrecemos un servicio de recogida de motores en todo el país y los devolvemos una vez terminados."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[10].parrafos[1]",
+    "texto": "Disponemos de la maquinaria y utillaje necesario para cualquier tipo de restauración, mecanización y departamento de localización de piezas si así se requiere",
+    "corregido": "Disponemos de la maquinaria y el utillaje necesarios para cualquier tipo de restauración y mecanización, además de un departamento de localización de piezas cuando se requiere."
+  },
+  {
+    "id": "src/datos/paginas/sala-motores.json#.secciones[10].parrafos[2]",
+    "texto": "Entrevista con nuestro motorista jefe",
+    "corregido": ""
+  }
+]

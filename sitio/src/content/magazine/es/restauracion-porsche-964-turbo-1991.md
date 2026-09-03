@@ -14,23 +14,23 @@ ctas: []
 ---
 ![Restauración completa 964 turbo (965) 1991, 1](/img/magazine/49a6af51-PHOTO-2021-06-29-09-01-48.jpg)
 
-## 911 Turbo generación 964 , el último tracción trasera
+## 911 Turbo generación 964, el último con tracción trasera
 
-La última versión con un sólo turbocargador y tracción trasera fue la de la generación 964.
+La última versión con un solo turbocargador y tracción trasera fue la de la generación 964.
 
 Posteriormente el 993 ya se equipó con dos turbos y tracción a las 4 ruedas lo que facilitó a sus propietarios una conducción más digerible frente a la brutalidad de la entrega de potencia del 964 y su tracción trasera.
 
 ## El estado inicial
 
-Esta unidad fue adquirida en Francia en un estado de conservación normal pero con multitud de trabajos pendientes en carrocería, interiores y mecánica.
+Esta unidad fue adquirida en Francia en un estado de conservación normal, pero con multitud de trabajos pendientes en la carrocería, los interiores y la mecánica.
 
-En el apartado mecánico teníamos tomas de aire por la admisión, problemas de arranque en caliente y fugas masivas de aceite por bloque motor.
+En el apartado mecánico, teníamos tomas de aire en la admisión, problemas de arranque en caliente y fugas masivas de aceite en el bloque motor.
 
 El encargo fue global y el objetivo claro, devolver la unidad a su máximo esplendor pero con una petición especial por parte del cliente: disponer de 400 hp en lugar de los 320 hp.
 
 ![Restauración completa 964 turbo (965) 1991, 2](/img/magazine/e5b5db46-IMG_5792.JPG)
 
-### La opinión de jordi
+### La opinión de Jordi
 
 *Oldschool*es la palabra que nos resume toda la esencia del 964 turbo.
 
@@ -71,7 +71,7 @@ Cabe diferenciar dos conceptos distintos:
 ![Restauración completa 964 turbo (965) 1991, 10](/img/magazine/b910747d-PHOTO-2021-02-03-13-16-27.jpg)
 :::
 
-Fases del proceso de desmontado y montado del motor
+Fases del proceso de desmontaje y montaje del motor.
 
 ![Estado final antes del acoplamiento al vehículo](/img/magazine/bbbe16f8-PHOTO-2021-03-02-09-27-07.jpg)
 
@@ -91,15 +91,15 @@ Fases del proceso de desmontado y montado del motor
 La preparación mecánica de esta mecánica para alcanzar los 400 hp principalmente se basó en:
 
 - Muelles de válvulas especiales.
-- Muelle descarga especial
-- Sensor de presión
+- Muelle de descarga especial.
+- Sensor de presión.
 - Árboles de levas especiales.
 - Turbo hecho a medida en Alemania.
-- Sistema de escape completo
+- Sistema de escape completo.
 
 Arriba podéis ver alguna fotografía de los componentes de la preparación y del sistema de escape instalado.
 
-## La carrocería y la pintura del 964 turbo
+## La carrocería y la pintura del 964 Turbo
 
 :::galeria{diseno="carrusel" porFila="3" proporcion="standard"}
 ![Restauración completa 964 turbo (965) 1991, 17](/img/magazine/007ed919-PHOTO-2021-01-14-13-38-34.jpg)
@@ -115,7 +115,7 @@ Arriba podéis ver alguna fotografía de los componentes de la preparación y de
 ![Restauración completa 964 turbo (965) 1991, 22](/img/magazine/49646b3f-PHOTO-2021-03-09-17-24-48.jpg)
 :::
 
-### Restauración de llantas , Rearwing y Calipers
+### Restauración de llantas, Rearwing y Calipers
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![Restauración completa 964 turbo (965) 1991, 23](/img/magazine/f055d12e-PHOTO-2021-04-12-20-56-14.jpg)

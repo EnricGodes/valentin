@@ -20,7 +20,7 @@ ctas:
 
 *Detalle del IMS en una unidad Porsche*
 
-El Intermediate Shaft, más conocido como IMS es el rodamiento que sujeta el árbol intermedio y transmite el movimiento a las cadenas que van a cada una de las culatas.
+El Intermediate Shaft, más conocido como IMS, es el rodamiento que sujeta el árbol intermedio y transmite el movimiento a las cadenas que van a cada una de las culatas.
 
 El Intermediate Shaft (eje intermedio) es un componente que se encuentra en algunos modelos de Porsche y se utiliza para transmitir la fuerza del motor al sistema de transmisión del vehículo. Se trata de un eje que se encuentra entre el motor y la transmisión y que ayuda a transferir la potencia del motor al sistema de transmisión del vehículo. El Intermediate Shaft es un componente importante en la tecnología de los vehículos Porsche y juega un papel fundamental en el rendimiento y la calidad del vehículo.
 
@@ -32,7 +32,7 @@ En total ha habido tres generaciones de “arboles intermedios” IMS comprendid
 
 Los rodamientos de doble hilera fueron los de la primera generación comprendidos entre 1997 y 2000 siendo el primer motor en equiparse el del Boxster Standart 2.5.
 
-La tercera generación comprendida entre el 2006 y 2008 usaba un rodamiento de mayor diámetro e integrado ene l árbol intermedio.
+La tercera generación, comprendida entre 2006 y 2008, usaba un rodamiento de mayor diámetro e integrado en el árbol intermedio.
 
 El total de años afectados comprende entre 1997 y 2008, toda la generación 986,987 y 996 con motores tipo M96 y los 997 con tipos de motor M97.
 
@@ -42,15 +42,15 @@ A partir del **997.2 2008 ya quedó totalmente resuelto** el problema.
 
 > — Jordi Edo
 
-En los *watercooled* antes mencionados, Porsche instala un rodamiento de doble hilera de bolas de acero en los MKI y el de simple hilera en los MKII.
+En los *watercooled* antes mencionados, Porsche instalaba un rodamiento de doble hilera de bolas de acero en los MKI y uno de hilera simple en los MKII.
 
 ![**Ubicación del IMS** La flecha indica la posición del rodamiento](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
 *Ubicación del IMS** La flecha indica la posición del rodamiento*
 
-## **Video explicativo sobre el IMS**
+## **Vídeo explicativo sobre el IMS**
 
-En el siguiente video, nuestro director general, Jordi Edo, explica en detalle cuál es el problema en el IMS y las soluciones propuestas en Valentin Motors.
+En el siguiente vídeo, nuestro director general, Jordi Edo, explica en detalle el problema del IMS y las soluciones propuestas en Valentin Motors.
 
 :::video{src="/video/magazine/50c872f5-1065-49ca-8dab-91fa2e7d20f2.mp4" ancho="1080" alto="1920"}
 :::
@@ -70,13 +70,16 @@ En total desde 1997 hasta 2008.
 En concreto, los siguientes vehículos:
 
 **Generación 996**
-911 Carrera, Carrera S, Carrera 4 y Carrera 4S
+911 Carrera, Carrera S, Carrera 4 y Carrera 4S.
 
-**Generación 997 (hasta 2008)**911 Carrera, Carrera S, Carrera 4 y Carrera 4S
+**Generación 997 (hasta 2008)**
+911 Carrera, Carrera S, Carrera 4 y Carrera 4S.
 
-**Generación 986**Boxster y Boxster S
+**Generación 986**
+Boxster y Boxster S.
 
-**Generación 987 (hasta 2008)**Boxster y Boxster S, Cayman y Cayman S
+**Generación 987 (hasta 2008)**
+Boxster y Boxster S, Cayman y Cayman S.
 
 ## **¿Cómo y cuándo se rompe el IMS?**
 
@@ -90,7 +93,7 @@ Es vital el aceite, calidad y asiduidad en su reposición.
 
 Es por ello que en **Valentin Motors ofrecemos el servicio de comprobación de estado de IMS**.
 
-Desafortunadamente, si el vehículo está afectado no hay modo de evitarlo. Una medida preventiva es seguir el programa de mantenimientos.
+Desafortunadamente, si el vehículo está afectado, no hay forma de evitarlo. Una medida preventiva es seguir el programa de mantenimiento.
 
 Dada nuestra experiencia, recomendamos realizar el cambio de aceite cada 10.000kms o 1 año. Esto nos permite tener un seguimiento del estado del vehículo y un óptimo estado de la unidad.
 
@@ -102,4 +105,4 @@ Primero de todo diagnosticar la unidad. Una vez comprobado que el vehículo est�
 
 Sabemos que es una intervención a la que en ocasiones, por parte del cliente, cuesta decantarse por realizarla o no. Pero teniendo en cuenta el coste de la reparación de motor, es una intervención que aconsejamos sin ninguna duda.
 
-Consulta este artículo sobre la [reparación de un motor con rotura de IMS](https://www.valentinmotors.es/magazine/reparacion-motor-ims)
+Consulta este artículo sobre la [reparación de un motor con rotura de IMS](https://www.valentinmotors.es/magazine/reparacion-motor-ims).

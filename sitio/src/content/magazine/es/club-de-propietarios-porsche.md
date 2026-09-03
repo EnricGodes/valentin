@@ -22,9 +22,9 @@ La participación **está abierta a todo el mundo**y es **gratuita**, con el ún
 
 ## Nuestras actividades
 
-Cada dos meses, si las circunstancias socio-sanitarias lo permiten realizamos algún evento, alternando salidas culturales con cursos de conducción o tramos de carretera. **No son actividades competitivas**, buscamos momentos de socialización con propietarios Porsche con los que compartimos afinidades. Nos hemos convertido en un grupo de amigos que de vez en cuando organizan una escapada.
+Cada dos meses, si las circunstancias sociosanitarias lo permiten, realizamos algún evento y alternamos salidas culturales con cursos de conducción o tramos de carretera. **No son actividades competitivas**; buscamos momentos de socialización con otros propietarios de Porsche con los que compartimos afinidades. Nos hemos convertido en un grupo de amigos que, de vez en cuando, organiza una escapada.
 
-> “El Club es una buena manera de compartir tiempo con gente que tiene los mismos gustos, la misma pasión. Siempre hay gastronomía de por medio, mi otra pasión. Me gusta mucho cuando hacemos tramos históricos de rally y cómo preparáis los roadbooks”
+> «El Club es una buena manera de compartir tiempo con gente que tiene los mismos gustos, la misma pasión. Siempre hay gastronomía de por medio, mi otra pasión. Me gusta mucho cuando hacemos tramos históricos de rally y cómo preparáis los roadbooks».
 
 > — Carlos A.
 
@@ -50,8 +50,8 @@ Un formato de salida en un grupo reducido normalmente entre semana con una ciert
 
 ## Cómo apuntarse
 
-El único requisito es imprescindible es**poseer un vehículo Porsche en perfecto estado de conducción**. Las actividades no están restringidas a ningún modelo en concreto, cualquiera puede participar: clásicos, youngtimers, contemporáneos.
-Anunciaremos previamente las actividades por nuestras [redes sociales](https://www.instagram.com/valentinmotors) o a través de [nuestra newsletter](/contacto).
+El único requisito es **poseer un vehículo Porsche en perfecto estado de conducción**. Las actividades no están restringidas a ningún modelo concreto; pueden participar clásicos, youngtimers y contemporáneos.
+Anunciaremos previamente las actividades en nuestras [redes sociales](https://www.instagram.com/valentinmotors) o a través de [nuestra newsletter](/contacto).
 
 ## Histórico de salidas
 
@@ -72,9 +72,9 @@ Ni más ni menos que **20 magníficos** vehículos nos siguieron por la carreter
 ![Los participantes del 9/11 Rebel Ride esperan en el arcén antes de reanudar la ruta](/img/magazine/d9699daa-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-10-at-11.22.32-3-copia.jpeg)
 :::
 
-### VI Endurance "The French Connection"
+### VI Endurance «The French Connection»
 
-Fecha: septiembre 2019
+Fecha: septiembre de 2019
 Lugar: Rosellón, Francia
 
 Después del briefing y un buen desayuno, salimos hacia la carretera bajo una mañana oscura y lluviosa, dirigiéndonos al primer control de reagrupamiento en la gasolinera **Q8 de Matadepera**. A partir de ahí seguimos nuestra ruta por unos espectaculares paisajes y montañas, hasta llegar al restaurante **Mitic**, donde paramos para descansar y recargar energías con una deliciosa comida. La tarde la dirigimos hacia los preciosos tramos franceses del **Vallespir**, finalizando en la localidad de **Le Boulou**. No podíamos acabar de otra manera la intensa jornada, que cenando en el espectacular restaurante el **Solomillo**, todo un lujo que se merece nuestra VI Endurance.
@@ -90,7 +90,7 @@ Después del briefing y un buen desayuno, salimos hacia la carretera bajo una ma
 
 ### The Grand Tour Tribute by VM
 
-Fecha: mayo 2019
+Fecha: mayo de 2019
 Lugar: aeropuerto de La Seu d’Urgell
 
 Esta vez decidimos darle un giro a nuestras míticas rutas por carretera y hacer algo distinto en un terreno muy especial, un **aeropuerto**, concretamente el de La Seu d'Urgell. ¿Y porque no utilizar una pista de aviación para crear un "**track day"** para nuestros Porsche? Y así lo hicimos. El sábado 4 de mayo tubo lugar nuestro "The Grand Tour Tribute", durante una mañana llena de diversión y anécdotas que vivimos junto a nuestros participantes, ¡unos grandes riders!
@@ -111,9 +111,9 @@ Un día esplendido de sol nos acompañó toda la jornada, la cuál empezó con p
 ![Un 997 Carrera negro en el trazado de conos con la sierra nevada detrás, en The Grand Tour](/img/magazine/b7608cc8-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-04-at-21.47.24.jpeg)
 :::
 
-### V Endurance "Band of Speed Hunters"
+### V Endurance «Band of Speed Hunters»
 
-Fecha: abril 2019
+Fecha: abril de 2019
 Lugar: Solsonés y Cerdanya
 
 Esta vez, nuestro tour se centró en una intensa mañana, que aprovechamos para recorrer las espectaculares carreteras del **Solsonés**, pasando por la falda del **Cadí**, y así llegando a la**Seu D'Urgell**, con unos paisajes que nos dejaron sin aliento. Después de un intenso pero gratificante trayecto, llegamos a **El Paller de Queixans**, en Puigcerdà, para deleitar su típica cocina y poder descansar, sin prisas ni preocupaciones, antes de volver a casa.
@@ -125,9 +125,9 @@ Esta vez, nuestro tour se centró en una intensa mañana, que aprovechamos para 
 ![Vista cenital de una quincena de Porsche del V Endurance aparcados, de un 930 Turbo blanco a un 991](/img/magazine/0d26e5d3-WhatsApp-Image-2019-03-30.jpeg)
 :::
 
-### IV Endurance "The French Kiss"
+### IV Endurance «The French Kiss»
 
-Fecha: enero 2019
+Fecha: enero de 2019
 Lugar: Vallespir y sur de Francia
 
 Un sábado muy intenso pero divertido, donde disfrutamos muchísimo de las carreteras del Vallespir y del sur de Francia, con tramos más técnicos pero espectaculares.
@@ -141,9 +141,9 @@ Un sábado muy intenso pero divertido, donde disfrutamos muchísimo de las carre
 ![Zagas de los Porsche del IV Endurance aparcados en fila al borde de la carretera](/img/magazine/5d5c6a9d-IMG_4346.jpg)
 :::
 
-### III Endurance "The Mods" Tour
+### III Endurance «The Mods» Tour
 
-Fecha: diciembre 2018
+Fecha: diciembre de 2018
 Lugar: Igualada
 
 Disfrutamos a lo grande de la jornada, con plazas totalmente cubiertas y una gran participación de nuestros riders. Un éxito del que estamos muy orgullosos. El tour fue caracterizado por una mezcla de carreteras de todo tipo alrededor de la zona de Igualada, con un formato más concentrado, que exigió a los riders más implicación.
@@ -157,9 +157,9 @@ Disfrutamos a lo grande de la jornada, con plazas totalmente cubiertas y una gra
 ![Zagas de 964 y 993 aparcados en una explanada de tierra durante el III Endurance](/img/magazine/d5cb71ae-WhatsApp-Image-2018-12-17-at-10.59.40-1.jpeg)
 :::
 
-### II Endurance Tour “Le Tech”
+### II Endurance Tour «Le Tech»
 
-Fecha: octubre 2018
+Fecha: octubre de 2018
 Lugar: Rossellón, Francia
 
 Dividido en dos partes y **8 stages** recorriendo famosos tramos de enlaces conocidos y con increíbles vistas de esta preciosa zona del **Rosellón**. Siendo el formato de mañana más fácil con carreteras conocidas y espectaculares, y el sector de tarde más técnico y complejo acompañado con una parte final con poca luz y con **4 stages** muy técnicos.
@@ -179,7 +179,7 @@ Buscamos una jornada con “**un punto de dureza**”, apta para todos los nivel
 
 ### I Endurance Tour
 
-Fecha: septiembre 2018
+Fecha: septiembre de 2018
 Lugar: Rossellón, Francia
 
 Limitado a 10 vehículos y enfocado al *sport driver*que quiera sumergirse en un recorrido seleccionado de dos días entrando en Francia y recorriendo los más famosos tramos de la comarca francesa del Vallespir.
@@ -194,7 +194,7 @@ El programa consistió en salida viernes desde Barcelona y finalizó sábado a l
 
 ### Evento Porsche: Rioja Alta
 
-Fecha: abril 2018
+Fecha: abril de 2018
 Lugar: La Rioja
 
 Un fin de semana emocionante y lleno de sorpresas. Hoteles Boutique, paisajes, carreteras perdidas, cultura vinícola, gastronomía de la zona, y lo más importante, excelentes compañeros de viaje...
@@ -213,7 +213,7 @@ Después de este viaje, podemos asegurar que hay varias citas imprescindibles: L
 
 ### Winter Ride 2017: colección Porsche
 
-Fecha: octubre 2017
+Fecha: octubre de 2017
 Lugar: Pamplona
 
 Disfrutamos tanto el último fin de semana de marzo que no hemos podido evitar regresar. En esta ocasión, campo base en Pamplona, en concreto en el Hotel Muga de Beloso. Nos han atendido de maravilla. Habitaciones de encanto, parking privado y un spa, ideal para relajarnos después de 500kms recorridos desde la Ciudad Condal.
@@ -222,7 +222,7 @@ Todos aquellos clientes que no tuvieron la oportunidad de escaparse con nosotros
 
 Aprovechando la ocasión para reencontrarnos con clientes de Logroño, Pamplona y Bilbao. Sin duda alguna, han sido nuestra mano derecha. Líderes que nos han hecho explorar por zonas que el Google Maps desconoce.
 
-Siguiendo sus consejos, fuimos al Museo de las Brujas en Zugarramurdi. Envueltos por las historias y leyendas que fueron surgiendo en torno al proceso inquisitorial de 1610 realizamos la visita cultural con guía.
+Siguiendo sus consejos, fuimos al Museo de las Brujas en Zugarramurdi. Envueltos por las historias y leyendas que surgieron en torno al proceso inquisitorial de 1610, realizamos una visita cultural guiada.
 
 También visitamos las Bodegas Otazu. Una catedral del vino que integra las más avanzadas tecnologías de elaboración del vino. Toda una experiencia, ya que la visita no solo trataba del vino en sí, sino también de todas las obras de arte que hay durante el recorrido.
 
@@ -237,12 +237,12 @@ Descubrir Roncesvalles, la Sierra de Irati y dejarnos llevar por las leyendas de
 
 ### Trackday Sensations: circuito Castellolí
 
-Fecha: junio 2017
+Fecha: junio de 2017
 Lugar: Fast Parcmotor Castellolí
 
-El pasado sábado 17 de junio Valentin Motors organizó un **Trackday Sensations** donde los clientes del **taller especialista Porsche en Barcelona**pudieron disfrutar de las instalaciones del [**Recinto Fast Parcmotor**](http://www.fastparcmotor.com/). Siguiendo las instrucciones del equipo de David Bosch realizaron maniobras con total seguridad, conociendo las reacciones del vehículo y rectificando acciones erróneas al volante.
+El pasado sábado 17 de junio, Valentin Motors organizó un **Trackday Sensations** en el que los clientes del **taller especialista Porsche en Barcelona** pudieron disfrutar de las instalaciones del [**Recinto Fast Parcmotor**](http://www.fastparcmotor.com/). Siguiendo las instrucciones del equipo de David Bosch, realizaron maniobras con seguridad, conocieron las reacciones del vehículo y corrigieron errores al volante.
 
-En la bienvenida a los asistentes se realizó la presentación de los*partners*. El personal desplazado por [**Michelin**](http://www.michelin.es/neumaticos/neumaticos-turismos?gclid=CjwKCAjwsqjKBRBtEiwAkWyN34Yje8y2clbwTmjbRvXYijK_CZ_91meSRRPMZECfLqvR0Nl00fq-GBoCOx0QAvD_BwE&gclsrc=aw.ds#type=type_2?xtor=SEC-3030-GOO-[[*Adgroup*]]--S-[%2Bmichelin]&xts=461138)realizó una explicación de la gama deportiva. Dando a conocer las diferentes posibilidades de montaje para los vehículos de la marca.
+Durante la bienvenida a los asistentes se presentaron los *partners*. El personal desplazado por [**Michelin**](http://www.michelin.es/neumaticos/neumaticos-turismos?gclid=CjwKCAjwsqjKBRBtEiwAkWyN34Yje8y2clbwTmjbRvXYijK_CZ_91meSRRPMZECfLqvR0Nl00fq-GBoCOx0QAvD_BwE&gclsrc=aw.ds#type=type_2?xtor=SEC-3030-GOO-[[*Adgroup*]]--S-[%2Bmichelin]&xts=461138) explicó la gama deportiva y dio a conocer las diferentes posibilidades de montaje para los vehículos de la marca.
 
 A continuación, un reconocimiento a pie de la pista guiado por el piloto profesional David Bosch de los diferentes trazados y asfaltos. Una vez creados los tres grupos identificados por color, azul, rojo y amarillo estaban listos e impacientes por entrar a pista.
 
@@ -266,7 +266,7 @@ La unidad Porsche 3.2 del año 72 fue conducida por David y Jordi para corrobora
 
 ### Summer Ride 2017: Next Level
 
-Fecha: junio 2017
+Fecha: junio de 2017
 Lugar: Fast Parcmotor de Castellolí
 
 Pasamos al siguiente nivel. El **sábado 17 de junio** preparamos junto al equipo de **David Bosch** del recinto [**Fast Parcmotor de Castellolí**](http://www.fastparcmotor.com/) un curso avanzado para **aprender a controlar el vehículo** ante situaciones de riesgo más complejas. Cómo realizar una conducción preventiva para evitar pérdidas de control del vehículo y anticipar riesgos en la conducción.

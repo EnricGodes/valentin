@@ -1,12 +1,12 @@
 ---
-title: "Rehabilitación completa motor 964 M64"
+title: "Rehabilitación completa del motor 964 M64"
 slugSquarespace: "restauracion-motor-964-m64"
 slugFinal: "restauracion-motor-964-m64"
 slugOriginal: "restauracion-motor-964-m64"
 date: 2022-10-10T12:44:29.816000Z
 lang: es
 categories: ["restauraciones"]
-excerpt: "Rehabilitación de motor 964 tipo M64"
+excerpt: "Rehabilitación del motor 964 tipo M64"
 author: "Enric Godes"
 squarespaceId: "634412c7d64dc3321938d332"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-964-m64"

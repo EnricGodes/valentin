@@ -16,9 +16,9 @@ ctas:
 ---
 ![sistema de elevación eléctrica eje delantero](/img/magazine/5366029a-IMG_9767.jpg)
 
-*sistema de elevación eléctrica eje delantero*
+*Sistema de elevación eléctrica del eje delantero*
 
-Para vehículos con suspensión coilover o muelles bajos
+Para vehículos con suspensión coilover o muelles bajos.
 
 Si queremos conservar los front lips o simplemente no dañar partes bajas de paragolpes delantero este sistema mediante botón interior nos eleva el eje delantero en 2 segundos.
 

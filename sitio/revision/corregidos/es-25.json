@@ -1,0 +1,367 @@
+[
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[13].parrafos[0]",
+    "texto": "<strong>Restauramos todos los tipos de cajas de cambio</strong> Porsche, desde las primera del 356, 915, G50 hasta las más modernas de la generación 991 y 992.<br/>También damos <strong>servicio y reparación de cajas de cambio automáticas</strong> sin necesidad de adquirirlas nuevas.",
+    "corregido": "<strong>Restauramos todos los tipos de cajas de cambio</strong> Porsche, desde las primeras del 356, la 915 y la G50 hasta las más modernas de las generaciones 991 y 992.<br/>También ofrecemos <strong>servicio y reparación de cajas de cambio automáticas</strong> sin necesidad de adquirirlas nuevas."
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[13].imagenes[0].alt",
+    "texto": "Cajas de cambio",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[14].titulo",
+    "texto": "Inspección de vehículos pre-compra",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[14].parrafos[0]",
+    "texto": "Si has localizado un automóvil Porsche que quieres adquirir, nosotros podemos hacer una <strong>completa evaluación de su estado previa a su compra,</strong> chequeando el estado actual de la unidad así como estudiando su historial. Validamos de esta forma si la oferta del vendedor es válida y no contiene problemas ocultos.<br/><br/>La inspección la podemos realizar en <strong>nuestro taller</strong> de Barcelona o bien <strong>desplazándonos</strong> dentro del territorio nacional o al extranjero.<br/><br/>El importe de la inspección pre compra es de 250 € + IVA",
+    "corregido": "Si has localizado un automóvil Porsche que quieres adquirir, podemos realizar una <strong>evaluación completa de su estado previa a la compra</strong>, comprobando el estado actual de la unidad y estudiando su historial. De este modo, verificamos si la oferta del vendedor es adecuada y no oculta problemas.<br/><br/>La inspección puede realizarse en <strong>nuestro taller</strong> de Barcelona o <strong>desplazándonos</strong> dentro del territorio nacional o al extranjero.<br/><br/>El importe de la inspección precompra es de 250 € + IVA."
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[14].imagenes[0].alt",
+    "texto": "Inspección vehículo pre-compra",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[15].titulo",
+    "texto": "Servicio técnico a nivel nacional",
+    "corregido": "Servicio técnico en todo el país"
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[15].parrafos[0]",
+    "texto": "Ofrecemos <strong>servicio técnico a nivel nacional </strong>así como soporte a la red de talleres con consultorías técnicas.",
+    "corregido": "Ofrecemos <strong>servicio técnico en todo el país</strong>, así como apoyo a la red de talleres mediante consultorías técnicas."
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[15].imagenes[0].alt",
+    "texto": "Servicio técnico a nivel nacional",
+    "corregido": "Servicio técnico en todo el país"
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[16].titulo",
+    "texto": "Reparaciones IMS",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[16].parrafos[0]",
+    "texto": "Hemos realizado <strong>gran cantidad de intervenciones IMS</strong> en nuestros talleres en toda la generación de motores M96 y M97.<br/><br/>Disponemos de <strong>precios cerrados </strong>en las intervenciones IMS (modelos 1988 hasta 2006) tanto en cambio manual y como automático.",
+    "corregido": "Hemos realizado <strong>numerosas intervenciones IMS</strong> en nuestros talleres, en motores de toda la generación M96 y M97.<br/><br/>Disponemos de <strong>precios cerrados</strong> para las intervenciones IMS (modelos de 1988 hasta 2006), tanto con cambio manual como automático."
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[16].imagenes[0].alt",
+    "texto": "Porche IMS",
+    "corregido": "Porsche IMS"
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[17].titulo",
+    "texto": "Reparaciones Bore Scoring",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[17].parrafos[0]",
+    "texto": "Tenemos una amplia experiencia aplicando mantenimientos preventivos, diagnosticando y solventando los problemas derivados del Bore Scoring.<br/>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[17].imagenes[0].alt",
+    "texto": "Porsche Bore Scoring",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[18].titulo",
+    "texto": "Pintura y carrocería premium",
+    "corregido": "Pintura y carrocería de alta gama"
+  },
+  {
+    "id": "src/datos/paginas/taller.json#.secciones[18].parrafos[0]",
+    "texto": "Reparación y pinturade carrocerías siguiendo las especificaciones Porsche: <strong>colores originales</strong> según el nuevo <strong>sistema de códigos de pintura.</strong><br/><br/>Tratamientos estéticos para proteger de la <strong>corrosión</strong> a la carrocería usando métodos contemporáneos. <br/><br/>Preparación del vehículos midiendo los espacios intersticiales, desmontaje de molduras y piezas accesorias, catalogación y cromado de accesorios, etc…",
+    "corregido": "Reparación y pintura de carrocerías según las especificaciones de Porsche: <strong>colores originales</strong> conforme al nuevo <strong>sistema de códigos de pintura.</strong><br/><br/>Tratamientos estéticos para proteger la <strong>carrocería de la corrosión</strong> mediante métodos contemporáneos.<br/><br/>Preparación del vehículo mediante la medición de los espacios intersticiales, el desmontaje de molduras y piezas accesorias, la catalogación y el cromado de accesorios, etc."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.ficheroOriginal",
+    "texto": "porsche-911-mantenimiento-taller",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.meta.titulo",
+    "texto": "Mantenimiento Porsche 911 · Tarifas cerradas por modelo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.meta.descripcion",
+    "texto": "Precios cerrados de mantenimiento del 911, del Pre 74 al 992. Servicio menor desde 450 €, servicio mayor desde 525 €. Barcelona y Madrid.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.h1",
+    "texto": "Precios de mantenimiento para los modelos Porsche 911",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[0].modelo",
+    "texto": "911 Pre 74",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[0].parrafos[0]",
+    "texto": "El mantenimiento de un 911 es importante, no solo por seguridad y fiabilidad , sino también para garantizar que su automóvil funcione como lo diseñó Porsche.",
+    "corregido": "El mantenimiento de un 911 es importante no solo por seguridad y fiabilidad, sino también para garantizar que su automóvil funcione como lo diseñó Porsche."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[0].parrafos[1]",
+    "texto": "Valentin Motors ha sido especialista en mantenimiento de Porsche durante más de tres décadas y cuenta con técnicos con experiencia en modelos refrigerados por aire.",
+    "corregido": "Valentin Motors es especialista en mantenimiento de Porsche desde hace más de tres décadas y cuenta con técnicos con experiencia en modelos refrigerados por aire."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[0].parrafos[2]",
+    "texto": "El mantenimiento de su 911 con los mejores especialistas independientes ofrece una excelente relación calidad-precio y mejora su historial de cara a una posible venta futura.",
+    "corregido": "El mantenimiento de su 911 con especialistas independientes ofrece una buena relación calidad-precio y contribuye a conservar su historial de cara a una posible venta futura."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[0].parrafos[3]",
+    "texto": "<strong>Precios desde:<br/>Servicio Menor: </strong>(filtro aceite+aceite motor+23 puntos check list) <strong>desde 450,00 €</strong><br/><strong>Servicio mayor:</strong>(Incluye servicio menor + 30 puntos check list) <strong>desde</strong> <strong>525,00€</strong><br/>Servicio líquido de frenos: <strong>90 €</strong><br/>Alineado: <strong>117,00€</strong><br/>Inspección pre compra: <strong>375,00 €</strong>",
+    "corregido": "<strong>Precios desde:<br/>Servicio menor:</strong> (filtro de aceite + aceite del motor + 23 puntos de comprobación) <strong>desde 450,00 €</strong><br/><strong>Servicio mayor:</strong> (incluye el servicio menor + 30 puntos de comprobación) <strong>desde</strong> <strong>525,00 €</strong><br/>Servicio líquido de frenos: <strong>90 €</strong><br/>Alineado: <strong>117,00 €</strong><br/>Inspección precompra: <strong>375,00 €</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[0].parrafos[4]",
+    "texto": "Precios sin IVA incluido.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[1].modelo",
+    "texto": "911 SC",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[1].parrafos[0]",
+    "texto": "El mantenimiento del 911 SC es importante, no solo por seguridad y fiabilidad, sino también para garantizar que su automóvil funcione según lo diseñó .",
+    "corregido": "El mantenimiento del 911 SC es importante no solo por seguridad y fiabilidad, sino también para garantizar que su automóvil funcione como lo diseñó Porsche."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[1].parrafos[1]",
+    "texto": "Valentin Motors es especialista en mantenimiento del SC durante más de tres décadas y cuenta con experiencia suficiente .",
+    "corregido": "Valentin Motors es especialista en el mantenimiento del SC desde hace más de tres décadas y cuenta con experiencia suficiente."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[1].parrafos[2]",
+    "texto": "El mantenimiento del 911 SC con los mejores especialistas independientes ofrece una excelente relación calidad-precio y mejora su valor futuro.",
+    "corregido": "El mantenimiento del 911 SC con especialistas independientes ofrece una buena relación calidad-precio y contribuye a conservar su valor futuro."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[1].parrafos[3]",
+    "texto": "<strong>Preciosdesde:</strong>",
+    "corregido": "<strong>Precios desde:</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[1].parrafos[4]",
+    "texto": "<strong>Servicio menor: </strong>(Filtro aceite + aceite motor +23 puntos de check list) <strong>desde 450,00€</strong><br/><strong>Servicio Mayor:</strong> (Incluye Servicio menor 30 puntos check list) <strong>desde 465,00 €</strong><br/>Servicio líquido de frenos: <strong>90 €</strong><br/>Alineado: <strong>117,00€</strong><br/>Inspección pre compra: <strong>375 €<br/></strong>",
+    "corregido": "<strong>Servicio menor:</strong> (filtro de aceite + aceite del motor + 23 puntos de comprobación) <strong>desde 450,00 €</strong><br/><strong>Servicio mayor:</strong> (incluye el servicio menor + 30 puntos de comprobación) <strong>desde 465,00 €</strong><br/>Servicio líquido de frenos: <strong>90 €</strong><br/>Alineado: <strong>117,00 €</strong><br/>Inspección precompra: <strong>375 €<br/></strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[1].parrafos[5]",
+    "texto": "<em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[2].modelo",
+    "texto": "911 3.2 Carrera",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[2].parrafos[0]",
+    "texto": "El mantenimiento del 911 3.2 Carrera es importante, no solo por seguridad y fiabilidad, sino también para garantizar que su vehículo funcione como lo diseñó Porsche.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[2].parrafos[1]",
+    "texto": "Valentin Motors es especialista en mantenimiento de Porsche durante más de cuatro décadas y cuenta con técnicos líderes con experiencia en modelos Porsche refrigerados por aire.",
+    "corregido": "Valentin Motors es especialista en mantenimiento de Porsche desde hace más de cuatro décadas y cuenta con técnicos de referencia con experiencia en modelos Porsche refrigerados por aire."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[2].parrafos[2]",
+    "texto": "El mantenimiento de su 911 3.2 Carrera con los mejores especialistas independientes ofrece una excelente relación calidad-precio y mejora si precio de venta futuro.",
+    "corregido": "El mantenimiento de su 911 3.2 Carrera con especialistas independientes ofrece una buena relación calidad-precio y puede favorecer su precio de venta futuro."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[2].parrafos[3]",
+    "texto": "<strong>Precios desde:</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[2].parrafos[4]",
+    "texto": "<strong>Servicio Menor: </strong>(Filtro aceite+aceite motor + 23 puntos de check list ) <strong>desde</strong> <strong>450,00 €</strong><br/><strong>Servicio Mayor </strong>:(Servicio menor + filtro de aire + 30 puntos check list) <strong>desde 630,00 €</strong><br/>Servicio líquido de frenos: <strong>90,00 €</strong><br/>Geometrías: <strong>117,00 €</strong><br/>Inspección pre compra: <strong>375,00€<br/><br/></strong><em>Precios sin IVA incluido.</em>",
+    "corregido": "<strong>Servicio menor:</strong> (filtro de aceite + aceite del motor + 23 puntos de comprobación) <strong>desde</strong> <strong>450,00 €</strong><br/><strong>Servicio mayor:</strong> (servicio menor + filtro de aire + 30 puntos de comprobación) <strong>desde 630,00 €</strong><br/>Servicio líquido de frenos: <strong>90,00 €</strong><br/>Geometrías: <strong>117,00 €</strong><br/>Inspección precompra: <strong>375,00 €<br/><br/></strong><em>Precios sin IVA incluido.</em>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[0]",
+    "texto": "El mantenimiento del 964 es importante, no solo por seguridad y fiabilidad, sino también para garantizar que su automóvil funcione y se comporte según lo diseñó Porsche.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[1]",
+    "texto": "Valentin Motors ha sido especialista en mantenimiento Porsche durante más de cuatro décadas y cuenta con técnicos con amplia experiencia en modelos Porsche refrigerados por aire.",
+    "corregido": "Valentin Motors es especialista en mantenimiento de Porsche desde hace más de cuatro décadas y cuenta con técnicos con amplia experiencia en modelos Porsche refrigerados por aire."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[2]",
+    "texto": "El mantenimiento del 964 realizado en los mejores especialistas independientes ofrece una excelente relación calidad-precio y mejorará su cotización en el momento de una posible o futura venta.",
+    "corregido": "El mantenimiento del 964 realizado por especialistas independientes ofrece una buena relación calidad-precio y puede favorecer su cotización de cara a una posible venta futura."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[3]",
+    "texto": "<strong>Precios mantenimientos desde:</strong>",
+    "corregido": "<strong>Precios de mantenimiento desde:</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[4]",
+    "texto": "<strong>Servicio Menor :</strong>(Filtro de aceite+aceite motor+check list de 23 puntos) <strong>desde 555,00 €</strong>",
+    "corregido": "<strong>Servicio menor:</strong> (filtro de aceite + aceite del motor + lista de comprobación de 23 puntos) <strong>desde 555,00 €</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[5]",
+    "texto": "<strong>Servicio Mayor:</strong>(Incluye Servicio menor + filtro de aire + 30 puntos check list ) <strong>desde</strong> <strong>725,00</strong> €",
+    "corregido": "<strong>Servicio mayor:</strong> (incluye el servicio menor + filtro de aire + lista de comprobación de 30 puntos) <strong>desde</strong> <strong>725,00</strong> €"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[6]",
+    "texto": "Servicio líquido de frenos: <strong>90,00 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[7]",
+    "texto": "Geometrías: <strong>117,00 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[3].parrafos[8]",
+    "texto": "Inspección pre compra: <strong>375,00 €<br/><br/></strong><em>Precios sin IVA incluido.</em>",
+    "corregido": "Inspección precompra: <strong>375,00 €<br/><br/></strong><em>Precios sin IVA incluido.</em>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[4].parrafos[0]",
+    "texto": "El mantenimiento regular del 993 es importante, no solo por seguridad y fiabilidad, si no también para garantizar que su automóvil funcione según lo diseñó Porsche.",
+    "corregido": "El mantenimiento regular del 993 es importante no solo por seguridad y fiabilidad, sino también para garantizar que su automóvil funcione según lo diseñó Porsche."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[4].parrafos[1]",
+    "texto": "Valentin Motors es especialista en mantenimiento del 993 durante más de dos décadas y cuenta con técnicos líderes en la industria con experiencia en modelos Porsche refrigerados por aire.",
+    "corregido": "Valentin Motors es especialista en el mantenimiento del 993 desde hace más de dos décadas y cuenta con técnicos de referencia en el sector con experiencia en modelos Porsche refrigerados por aire."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[4].parrafos[2]",
+    "texto": "El mantenimiento del 993 con los mejores especialistas independientes ofrece una excelente relación calidad-precio y mejora valor en una futura o posible venta.",
+    "corregido": "El mantenimiento del 993 con especialistas independientes ofrece una buena relación calidad-precio y puede favorecer su valor de cara a una posible venta futura."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[4].parrafos[3]",
+    "texto": "<strong>Servicio Menor :</strong> (Filtro aceite+aceite motor+filtros de polen + check list de 23 puntos ) <strong>desde 570,00€</strong>",
+    "corregido": "<strong>Servicio menor:</strong> (filtro de aceite + aceite del motor + filtros de polen + lista de comprobación de 23 puntos) <strong>desde 570,00 €</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[4].parrafos[4]",
+    "texto": "<strong>Servicio Mayor:</strong>(Incluye Servicio Menor + filtro de aire +check list de 30 puntos) <strong>desde</strong> <strong>875,00€</strong>",
+    "corregido": "<strong>Servicio mayor:</strong> (incluye el servicio menor + filtro de aire + lista de comprobación de 30 puntos) <strong>desde</strong> <strong>875,00 €</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[4].parrafos[5]",
+    "texto": "Servicio líquido de frenos: <strong>90,00 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[4].parrafos[6]",
+    "texto": "Geometrías: <strong>117,00 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[4].parrafos[7]",
+    "texto": "Inspección pre compra: <strong>375,00 €<br/><br/></strong><em>Precios sin IVA incluido.</em>",
+    "corregido": "Inspección precompra: <strong>375,00 €<br/><br/></strong><em>Precios sin IVA incluido.</em>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[5].parrafos[0]",
+    "texto": "El mantenimiento regular del 996 es importante, no solo por seguridad y fiabilidad, sino también para garantizar que su automóvil funcione como lo diseñó Porsche.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[5].parrafos[1]",
+    "texto": "Valentin Motors ha sido especialista en mantenimiento de los 996 durante sus inicios en 1998 y cuenta con técnicos con experiencia en estos modelos.",
+    "corregido": "Valentin Motors es especialista en el mantenimiento de los 996 desde que el modelo apareció en 1998 y cuenta con técnicos con experiencia en estas unidades."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[5].parrafos[2]",
+    "texto": "<strong>Servicio Menor:</strong>‍ ‍<strong>desde 475,00 €</strong>",
+    "corregido": "<strong>Servicio menor:</strong> <strong>desde 475,00 €</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[5].parrafos[3]",
+    "texto": "<strong>Servicio intermedio:desde</strong>‍ <strong>640,00 €</strong>",
+    "corregido": "<strong>Servicio intermedio: desde</strong> <strong>640,00 €</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[5].parrafos[4]",
+    "texto": "Inspección pre compra: <strong>375,00 €</strong>",
+    "corregido": "Inspección precompra: <strong>375,00 €</strong>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[5].parrafos[5]",
+    "texto": "<br/><em>Precios sin IVA incluido</em>",
+    "corregido": "<br/><em>Precios sin IVA incluido.</em>"
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[6].parrafos[0]",
+    "texto": "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia de trabajo, servicio y diagnóstico de averías en estos modelos , hemos identificado una serie de fallos comunes específicos de este modelo.",
+    "corregido": "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia en el mantenimiento y diagnóstico de averías de estos modelos, hemos identificado una serie de fallos comunes específicos."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[6].parrafos[1]",
+    "texto": "En todos los casos, el equipo te puede asesorar sobre las mejores acciones de mantenimiento preventivo.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[6].parrafos[2]",
+    "texto": "Si ya detectaste alguno de los fallos siguientes, los técnicos de Valentin están a su servicio.",
+    "corregido": "Si ya has detectado alguno de los siguientes fallos, los técnicos de Valentin están a tu servicio."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[6].parrafos[3]",
+    "texto": "<strong>Servicio anual: desde 475,00 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[6].parrafos[4]",
+    "texto": "<strong>Servicio intermedio: desde 735,00 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[6].parrafos[5]",
+    "texto": "Servicio líquido de frenos: <strong>92,00 €</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[6].parrafos[6]",
+    "texto": "<br/><em>Precios sin IVA incluido.</em>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[7].parrafos[0]",
+    "texto": "La generación 991 se lanzó a finales del 2011 y se prolongó hasta 2019.",
+    "corregido": "La generación 991 se lanzó a finales de 2011 y se prolongó hasta 2019."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[7].parrafos[1]",
+    "texto": "Los servicios del 991 se realizan cada 2 años o 20.000 kms. pero se aconseja el servicio anual de cambio de aceite o 10.000 kms",
+    "corregido": "Los servicios del 991 se realizan cada 2 años o 20.000 km, aunque se aconseja cambiar el aceite cada año o cada 10.000 km."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[7].parrafos[2]",
+    "texto": "El 991 se renovó en 2016, donde uno de los mayores cambios fue la sustitución del motor del 3.8 atmosférico a un 3.0 biturbo.",
+    "corregido": "El 991 se renovó en 2016. Uno de los principales cambios fue la sustitución del motor atmosférico de 3.8 por uno biturbo de 3.0."
+  },
+  {
+    "id": "src/datos/paginas/tarifa-911.json#.acordeones[7].parrafos[3]",
+    "texto": "Si bien se recomienda el mantenimiento del 991 cada 2 años o 20.000 kms, vale la pena ser ser preventivo , ya que este es un intervalo de tiempo y kilometraje bastante largo para el aceite del motor. Recomendamos un cambio de aceite anual para garantizar que el aceite se mantenga en las mejores condiciones posibles.",
+    "corregido": "Aunque se recomienda realizar el mantenimiento del 991 cada 2 años o 20.000 km, merece la pena adoptar un enfoque preventivo, ya que este intervalo de tiempo y kilometraje es bastante largo para el aceite del motor. Recomendamos un cambio de aceite anual para garantizar que se mantenga en las mejores condiciones posibles."
+  }
+]

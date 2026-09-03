@@ -16,7 +16,7 @@ ctas: []
 
 *Porsche 911 964, el primero con ABS y tracción 4*
 
-La tercera generación del 911, conocida como 964, fue un desafío para la marca. Aparece después de varios años con la generación G y después de los innovadores 928 y 944 con motores delanteros y tracción trasera.
+La tercera generación del 911, conocida como 964, fue un desafío para la marca. Llegó después de varios años de la generación G y tras los innovadores 928 y 944, con motores delanteros y tracción trasera.
 
 > El 964 es un “soplo de aire nuevo”, y es el modelo con un total del **85% de sus piezas nuevas**, eso sí, en carrocería estrecha, compacta, que al día de hoy sigue siendo muy atractiva en la carretera.
 
@@ -40,4 +40,4 @@ Hablando de las versiones TURBO, debemos destacar las diferentes motorizaciones 
 
 Un total de 63.762 unidades, han hecho de este modelo ser uno de los preferidos por los amantes de la marca. Sencillo, ligero, rápido y fiable son sus mayores características que hacen las delicias de sus propietarios.
 
-> **El 964, es uno de los mejores modelos para introducirse en el mundo PORSCHE, un “youngtimer”.**
+> **El 964 es uno de los mejores modelos para introducirse en el mundo Porsche, un «youngtimer».**

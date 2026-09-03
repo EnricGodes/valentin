@@ -22,7 +22,7 @@
     "titulo": "Motor central,<br/><strong>bóxer atmosférico<br/>y ADN GTS.</strong>",
     "parrafos": [
       "El <strong>Porsche Cayman 981 GTS</strong> es uno de los deportivos más equilibrados de la gama moderna de Porsche. Motor central, bóxer de seis cilindros y 3,4 litros, carácter completamente atmosférico y <strong>340 CV</strong> transmitidos al eje trasero mediante caja <strong>PDK</strong>.",
-      "Esta unidad, en <strong>Amarillo P3</strong>, con interior en piel y Alcántara negro, procede del mercado español y acumula <strong>51.157 km</strong> con libro de servicio original y completo, incluyendo cuatro intervenciones documentadas en Centro Porsche y Valentin Motors."
+      "Esta unidad, en <strong>Amarillo P3</strong> y con interior negro de piel y Alcántara, procede del mercado español y acumula <strong>51.157 km</strong>, con el libro de servicio original y completo, incluidas cuatro intervenciones documentadas en Centro Porsche y Valentin Motors."
     ],
     "cita": "Un deportivo pensado para conducir: preciso, sonoro, equilibrado. Polivalente sin renunciar al carácter que define a los GTS de Porsche.",
     "datos": [
@@ -105,12 +105,12 @@
         "alt": "Interior GTS",
         "ancho": 1400,
         "alto": 1050,
-        "caption": "Interior · Piel / Alcántara negro · Asientos GTS"
+        "caption": "Interior · Piel y Alcántara en negro · Asientos GTS"
       }
     ]
   },
   "ingenieria": {
-    "etiqueta": "Motor y Rendimiento",
+    "etiqueta": "Motor y rendimiento",
     "titulo": "Bóxer<br/><strong>atmosférico.<br/>Motor central.</strong>",
     "stats": [
       {
@@ -138,7 +138,7 @@
         "valor": "285",
         "animado": false,
         "unidad": "km/h",
-        "etiqueta": "Velocidad max.",
+        "etiqueta": "Velocidad máx.",
         "destacada": false
       }
     ],
@@ -216,7 +216,7 @@
         "caption": "Cuadro de instrumentos · Gráfica Cayman GTS"
       }
     ],
-    "editorial": "El habitáculo del GTS combina piel y Alcántara negro con costuras de contraste. Los asientos deportivos con inscripción GTS, el volante con levas PDK y el Sport Chrono componen un cockpit compacto, técnico y centrado en el conductor."
+    "editorial": "El habitáculo del GTS combina piel y Alcántara en negro con costuras de contraste. Los asientos deportivos con inscripción GTS, el volante con levas PDK y el Sport Chrono componen un puesto de conducción compacto, técnico y centrado en el conductor."
   },
   "procedencia": {
     "etiqueta": "Libro de servicio",
@@ -225,7 +225,7 @@
       {
         "anio": "18/06/2015 · Barcelona",
         "titulo": "Primera matriculación",
-        "cuerpo": "Unidad matriculada en España el <strong>18 de junio de 2015</strong>. Mercado español. Configuración GTS de fábrica en Amarillo P3 con interior piel y Alcántara negro.",
+        "cuerpo": "Unidad matriculada en España el <strong>18 de junio de 2015</strong>. Mercado español. Configuración GTS de fábrica en Amarillo P3 con interior negro de piel y Alcántara.",
         "badge": "Mercado español · Configuración GTS"
       },
       {
@@ -243,7 +243,7 @@
       {
         "anio": "51.011 km · Valentin Motors",
         "titulo": "Servicio mayor con bujías en Valentin Motors",
-        "cuerpo": "Servicio mayor realizado en <strong>Valentin Motors</strong>, incluyendo sustitución de bujías. El coche se presenta revisado y listo para entregar.",
+        "cuerpo": "Servicio mayor realizado en <strong>Valentin Motors</strong>, incluida la sustitución de bujías. El coche se presenta revisado y listo para la entrega.",
         "badge": "74.900 €"
       }
     ]
@@ -282,7 +282,7 @@
         ]
       },
       {
-        "titulo": "Transmisión y Chasis",
+        "titulo": "Transmisión y chasis",
         "filas": [
           {
             "clave": "Cambio",
@@ -405,7 +405,7 @@
     "nombre": "Jordi Edo",
     "rol": "Especialista Porsche · Valentin Motors",
     "bio": "Más de 25 años de experiencia con Porsche de colección y deportivos de alta gama. Ha supervisado cientos de operaciones con especial atención a los modelos GTS y de ediciones especiales.",
-    "intro": "\"En conducción, el 981 Cayman GTS se siente como un deportivo muy preciso, pero todavía fácil de llevar rápido.\"",
+    "intro": "«En conducción, el 981 Cayman GTS se siente como un deportivo muy preciso, pero todavía fácil de llevar rápido».",
     "parrafos": [
       "El chasis es muy equilibrado: entra donde apuntas el volante y se nota muy aplomado incluso a buen ritmo. Las reacciones son <strong>progresivas</strong>, nada bruscas, lo que genera una confianza que invita a seguir apretando. Lo que más define este coche no es la velocidad, sino la calidad de la información que te da.",
       "El <strong>motor atmosférico</strong> tiene el carácter que el turbo no puede replicar: respuesta lineal, subida de vueltas con decisión, y un sonido que acompaña la aceleración de forma muy presente. Es un motor que hay que llevar a las rpm. Por encima de las <strong>4.000 rpm</strong> el coche se transforma.",
@@ -443,7 +443,7 @@
     "marca": "Porsche",
     "nombre": "981 Cayman GTS",
     "detalle": "2015 · 51.157 km · Amarillo P3 · Interior negro",
-    "descripcion": "Porsche 981 Cayman GTS 2015 en Amarillo P3. Motor bóxer atmosférico 3.4 litros, 340 CV, PDK, interior piel/Alcántara negro. Libro de servicio completo. Disponible en Valentin Motor",
+    "descripcion": "Porsche 981 Cayman GTS 2015 en Amarillo P3. Motor bóxer atmosférico 3.4 litros, 340 CV, PDK e interior de piel y Alcántara en negro. Libro de servicio completo. Disponible en Valentin Motors.",
     "precio": "",
     "precioPorConsultar": false,
     "imagen": "/img/cayman/exterior1.jpg",

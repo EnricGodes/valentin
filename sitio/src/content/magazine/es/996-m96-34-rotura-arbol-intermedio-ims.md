@@ -16,9 +16,9 @@ ctas:
 ---
 ![bloque motor ya cerrado](/img/magazine/ca4830fe-motor-1-7-.jpg)
 
-*bloque motor ya cerrado*
+*Bloque motor ya cerrado*
 
-Existen varias soluciones frente a la rotura del árbol intermedio con desprendimiento de las bolas del rodamiento IMS
+Existen varias soluciones frente a la rotura del árbol intermedio con desprendimiento de las bolas del rodamiento IMS.
 
 El primer síntoma puede ser encontrar partículas metálicas en el aceite.
 

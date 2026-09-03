@@ -6,7 +6,7 @@ slugOriginal: "porsche-911g"
 date: 2021-12-08T17:45:02.820000Z
 lang: es
 categories: ["iconos"]
-excerpt: "La nueva generación del 911 salió al mercado en septiembre de 1973. Su nuevo diseño llamó la atención desde el primer momento"
+excerpt: "La nueva generación del 911 salió al mercado en septiembre de 1973. Su nuevo diseño llamó la atención desde el primer momento."
 author: "Enric Godes"
 squarespaceId: "61b0ef1f9efbef0c169f7766"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-911g"
@@ -30,7 +30,7 @@ Sin embargo, el tiempo ya le estaba pasando factura. 10 años después del estre
 
 ## Características del Porsche 911 serie G
 
-La nueva generación del 911 salió al mercado en septiembre de 1973. Su nuevo diseño llamó la atención desde el primer momento:**los paragolpes eran mucho más grandes que antes, más rectangulares y presentaban unos fuelles distintivos en los laterales.** Podían soportar pequeños golpes de aparcamiento sin sufrir daños hasta una velocidad de 8 km/h. En la parte delantera, los intermitentes se integraron en el paragolpes por primera vez en un 911. Esto cambió radicalmente el diseño en comparación con el predecesor, haciendo que pareciera mucho más moderno.
+La nueva generación del 911 salió al mercado en septiembre de 1973. Su diseño llamó la atención desde el primer momento: **los paragolpes eran mucho más grandes que antes, más rectangulares y presentaban unos fuelles distintivos en los laterales.** Podían soportar pequeños golpes de aparcamiento sin sufrir daños hasta una velocidad de 8 km/h. En la parte delantera, los intermitentes se integraron en el paragolpes por primera vez en un 911. Esto cambió el diseño con respecto a su predecesor y le dio un aspecto mucho más moderno.
 
 Mientras que en la Serie F todavía se podían ver signos visuales de los años 60, el nuevo 911 se presentaba claramente como un coche de los años 70. La parte trasera apenas cambió, pero el nuevo paragolpes con fuelle, junto con un reflector rojo con el logotipo de Porsche situado entre los pilotos, **crearon una apariencia completamente nueva y significativamente más moderna.** El nuevo modelo también se benefició de un sistema de escape con mayor protección contra el óxido.
 
@@ -38,7 +38,7 @@ Mientras que en la Serie F todavía se podían ver signos visuales de los años 
 
 En el interior, el estilo recibió contornos más definidos. Los **asientos deportivos con reposacabezas integrados,** que siguen siendo tan familiares hoy en día, se utilizaron por primera vez en 1973. Se estrenaron las **tapas para los compartimentos de las puertas,**que se convertirían en una característica reconocida de Porsche. El volante y las palancas de luces eran nuevos y había dos rejillas de aire adicionales.
 
-En el plano mecánico, el Porsche 911 de Serie G montaba el **bloque de seis cilindros del Carrera RS 2.7 anterior.** Desarrollaba una potencia de **150 CV,**mientras que el 911 S producía **175 CV.** Ambas versiones estaban equipadas con una nueva inyección K-Jetronic de Bosch. El modelo estrella seguía siendo el 911 Carrera, con **210 CV.** Incorporaba el motor del Carrera RS 2.7 y tenía una velocidad máxima de 240 km/h. Además, el Carrera contaba con una parte trasera 42 mm más ancha en comparación con los modelos menos potentes, para poder acomodar la mayor vía posterior. La serie G tenía una caja de cambios de cuatro velocidades de serie, con una caja de cinco velocidades disponible como opción. El modelo básico y el 911 S también podían pedirse con la caja de cambios Sportomatic de cuatro velocidades, pero se vendía en cantidades muy reducidas.
+En el plano mecánico, el Porsche 911 de la Serie G montaba el **bloque de seis cilindros del Carrera RS 2.7 anterior.** Desarrollaba una potencia de **150 CV**, mientras que el 911 S producía **175 CV.** Ambas versiones estaban equipadas con una nueva inyección K-Jetronic de Bosch. El modelo estrella seguía siendo el 911 Carrera, con **210 CV.** Incorporaba el motor del Carrera RS 2.7 y alcanzaba una velocidad máxima de 240 km/h. Además, el Carrera contaba con una parte trasera 42 mm más ancha que la de los modelos menos potentes para poder acomodar la mayor vía trasera. La Serie G tenía una caja de cambios de cuatro velocidades de serie y otra de cinco velocidades como opción. El modelo básico y el 911 S también podían pedirse con la caja de cambios Sportomatic de cuatro velocidades, pero se vendió en cantidades muy reducidas.
 
 ## Seis versiones del Porsche 911 serie G
 

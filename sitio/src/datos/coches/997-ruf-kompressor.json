@@ -21,11 +21,11 @@
     "etiqueta": "Historia del vehículo",
     "titulo": "Un capítulo<br/><strong>documentado del<br/>legado RUF.</strong>",
     "parrafos": [
-      "Entregado originalmente en 2007 a través de <strong>Porsche Zentrum Essen</strong>, este 911 Carrera 4S, generación 997, comenzó su andadura como un sofisticado Gran Turismo en color <strong>Meteor Grey Metallic (LM7W)</strong> sobre un interior en cuero <strong>Classic Dark Brown</strong>.",
-      "En 2011, con solo <strong>12.234 km</strong> en el odómetro, su primer propietario envió el coche a las instalaciones de <strong>RUF Automobile en Pfaffenhausen</strong> para una conversión integral a la especificación <strong>Kompressor R</strong>. Esta transformación, con un coste de <strong>55.000 €</strong>, está meticulosamente documentada mediante la factura original de RUF.",
+      "Entregado originalmente en 2007 a través de <strong>Porsche Zentrum Essen</strong>, este 911 Carrera 4S, generación 997, comenzó su andadura como un sofisticado gran turismo en color <strong>Meteor Grey Metallic (LM7W)</strong> sobre un interior de cuero <strong>Classic Dark Brown</strong>.",
+      "En 2011, con solo <strong>12.234 km</strong> en el odómetro, su primer propietario envió el coche a las instalaciones de <strong>RUF Automobile en Pfaffenhausen</strong> para una conversión integral a la especificación <strong>Kompressor R</strong>. Esta transformación, con un coste de <strong>55.000 €</strong>, está documentada mediante la factura original de RUF.",
       "El coche conserva su número de bastidor original de Porsche. El <strong>VIN original</strong>."
     ],
-    "cita": "No es simplemente un Porsche preparado. Es una conversión RUF documentada, realizada en Pfaffenhausen y conservando su VIN original Porsche.",
+    "cita": "No es simplemente un Porsche preparado. Es una conversión RUF documentada, realizada en Pfaffenhausen y con el VIN original de Porsche.",
     "datos": [
       {
         "clave": "Modelo",
@@ -111,8 +111,8 @@
     ]
   },
   "ingenieria": {
-    "etiqueta": "Motor y Rendimiento",
-    "titulo": "Ingeniería<br/><strong>RUF Kompressor.</strong><br/>Sin lag.",
+    "etiqueta": "Motor y rendimiento",
+    "titulo": "Ingeniería<br/><strong>RUF Kompressor.</strong><br/>Sin retardo.",
     "stats": [
       {
         "valor": 435,
@@ -144,8 +144,8 @@
       }
     ],
     "parrafos": [
-      "El sistema <strong>RUF Kompressor</strong> transforma el carácter del seis cilindros bóxer sin recurrir a la respuesta más abrupta de un turbo tradicional. Al integrar un sistema de sobrealimentación Kompressor e intercooler, RUF logró una entrega de potencia <strong>lineal que elimina el lag</strong> característico de los turbocompresores convencionales.",
-      "La potencia se entrega de forma inmediata y precisa, reforzando el carácter de <strong>Gran Turismo deportivo</strong> de la base 997 Carrera 4S.",
+      "El sistema <strong>RUF Kompressor</strong> transforma el carácter del seis cilindros bóxer sin recurrir a la respuesta más abrupta de un turbo tradicional. Al integrar un sistema de sobrealimentación Kompressor e intercooler, RUF logró una entrega de potencia <strong>lineal que elimina el retardo</strong> característico de los turbocompresores convencionales.",
+      "La potencia se entrega de forma inmediata y precisa, reforzando el carácter de <strong>gran turismo deportivo</strong> de la base 997 Carrera 4S.",
       "Transmisión: <strong>caja de cambios manual de 6 velocidades</strong>. Tracción: <strong>sistema AWD de tracción total</strong>."
     ],
     "tags": [
@@ -269,19 +269,19 @@
     "editorial": "El interior combina la sobriedad del cuero marrón con detalles textiles verdes y componentes específicos RUF. La instrumentación, el volante y los umbrales convierten la cabina en una extensión directa de la conversión Kompressor R, manteniendo una lectura artesanal y técnica."
   },
   "procedencia": {
-    "etiqueta": "Documentación y Procedencia",
+    "etiqueta": "Documentación y procedencia",
     "titulo": "Historial<br/><strong>completamente<br/>documentado.</strong>",
     "hitos": [
       {
         "anio": "2007 · Alemania",
         "titulo": "Entrega original en Porsche Zentrum Essen",
-        "cuerpo": "Este 911 Carrera 4S, generación 997, es entregado a través de <strong>Porsche Zentrum Essen</strong> en color <strong>Meteor Grey Metallic (LM7W)</strong> sobre interior en cuero <strong>Classic Dark Brown</strong>. País de primera entrega: Alemania.",
+        "cuerpo": "Este 911 Carrera 4S, generación 997, fue entregado a través de <strong>Porsche Zentrum Essen</strong> en color <strong>Meteor Grey Metallic (LM7W)</strong> sobre un interior de cuero <strong>Classic Dark Brown</strong>. País de primera entrega: Alemania.",
         "badge": "Documentación de entrega original"
       },
       {
         "anio": "2011 · Pfaffenhausen, Alemania",
         "titulo": "Conversión RUF Kompressor R",
-        "cuerpo": "Con solo <strong>12.234 km</strong>, el vehículo es enviado a <strong>RUF Automobile en Pfaffenhausen</strong> para una conversión integral Kompressor R. La transformación incluye compresor, intercooler, llantas, frenos, suspensión, escape y kit carrocería RUF. El coche conserva su <strong>VIN original Porsche</strong>.",
+        "cuerpo": "Con solo <strong>12.234 km</strong>, el vehículo fue enviado a <strong>RUF Automobile en Pfaffenhausen</strong> para una conversión integral Kompressor R. La transformación incluyó compresor, intercooler, llantas, frenos, suspensión, escape y kit de carrocería RUF. El coche conserva su <strong>VIN original de Porsche</strong>.",
         "badge": "Factura RUF · 55.113,42 €"
       },
       {
@@ -336,7 +336,7 @@
         ]
       },
       {
-        "titulo": "Transmisión y Chasis",
+        "titulo": "Transmisión y chasis",
         "filas": [
           {
             "clave": "Cambio",
@@ -504,7 +504,7 @@
       "Cambio manual en un RUF de tracción total: combinación excepcional",
       "Irish Green es prácticamente único en el mercado actual",
       "Tres inversiones documentadas que justifican el precio",
-      "VIN original Porsche conservado"
+      "VIN original de Porsche conservado"
     ],
     "contrasTitulo": "A considerar",
     "contras": [

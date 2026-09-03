@@ -6,7 +6,7 @@ slugOriginal: "porschem9738a40-y4b85"
 date: 2025-09-18T11:03:04.182000Z
 lang: es
 categories: ["articulos"]
-excerpt: "3.2 rehabilitación completa"
+excerpt: "3.2: rehabilitación completa"
 author: "Jordi Edo"
 squarespaceId: "68cbbfc5f6f39476e82c54de"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40-y4b85"
@@ -16,7 +16,7 @@ ctas:
 ---
 ![Motor serie G 3.2 turboalimentado terminado, con la turbina en marfil y el filtro cónico rojo](/img/magazine/6da1e3ca-WhatsApp-Image-2025-09-10-at-18.05.26-1-.jpeg)
 
-Proceso completo de rehabilitación de motor 3.2
+Proceso completo de rehabilitación del motor 3.2.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Carcasa del motor 3.2 serie G cerrada, con las cadenas de distribución colgando](/img/magazine/32fa31a1-WhatsApp-Image-2025-06-07-at-08.20.55.jpeg)

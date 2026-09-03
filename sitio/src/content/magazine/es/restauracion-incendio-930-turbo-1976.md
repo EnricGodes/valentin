@@ -23,7 +23,7 @@ El tiempo es clave en los incendios y esta vez destruyó por completo el 75% de 
 
 ![Restauración 930 incencio](/img/magazine/0aa6bda0-f19.jpg)
 
-*Aspecto de la unidad recién llegada a nuestros talleres de la Gran Via de Barcelona en julio 2022*
+*Aspecto de la unidad recién llegada a nuestros talleres de la Gran Via de Barcelona en julio de 2022*
 
 ![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
@@ -35,7 +35,7 @@ Tener la oportunidad y la confianza del cliente depositada en nuestro trabajo no
 
 Una de las fases fue averiguar qué tapizados llevaba de fábrica, ya que en una anterior restauración se tapizó todo el interior en negro, luego descubrimos que su interior era en el precioso *copper* combinado con negro y cielo blanco que recuperaremos.
 
-La primera fase de desmontaje es importante para verificar el estado de todos lo componentes y planificar el proceso de restauración.
+La primera fase de desmontaje es importante para verificar el estado de todos los componentes y planificar el proceso de restauración.
 
 ## Estado inicial del proceso
 
@@ -64,7 +64,7 @@ Aquí mostramos algunas imágenes del estado inicial del proyecto y su magnitud.
 
 ## Mecánica: restauración del motor
 
-Trabajos asociados al proceso de restauración del motor
+Trabajos asociados al proceso de restauración del motor.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![Cárter del 930 Turbo abierto con el cigüeñal, las bielas y la cadena](/img/magazine/8abff257-f25.jpg)
@@ -85,7 +85,7 @@ Trabajos asociados al proceso de restauración del motor
 
 ## Carrocería e interiores
 
-El incendio provocó grandes daños en la carrocería y desapareció casi toda la parte interior trasera
+El incendio provocó grandes daños en la carrocería y destruyó casi toda la parte interior trasera.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![Restauración por incendio 911 930 turbo 1975, 35](/img/magazine/8e3c0ccc-restauraci-n_930-7-.jpeg)

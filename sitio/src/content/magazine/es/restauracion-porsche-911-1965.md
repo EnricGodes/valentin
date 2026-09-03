@@ -14,7 +14,7 @@ ctas: []
 ---
 ![Restauración integral de Porsche 911 serie F 1965, 1](/img/magazine/9f4a6b14-DSC04840.JPG)
 
-## 911 serie F, el inicio de la saga.
+## 911 serie F, el inicio de la saga
 
 **En 1963 Porsche presentaba su nuevo modelo**, un tope de gama que nacía, más que para dar relevo al 356, para subir un peldaño por encima de éste. **Diseñado por Butzi Porsche**, el **nuevo Porsche 901** (así se presentó a la prensa antes de tener que [cambiar el 0 por un 1 para evitar problemas con Peugeot](https://periodismodelmotor.com/disputas-marcas-nombres-modelos/238749/)) daba en la diana con una imagen que enseguida se ganó el beneplácito del público, con unas líneas muy personales y proporcionadas.
 

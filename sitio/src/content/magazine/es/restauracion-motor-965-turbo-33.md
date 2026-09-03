@@ -1,5 +1,5 @@
 ---
-title: "Restauración completa motor 965 (964 turbo 3.3)"
+title: "Restauración completa del motor 965 (964 Turbo 3.3)"
 slugSquarespace: "restauracion-motor-965-turbo-33"
 slugFinal: "restauracion-motor-965-turbo-33"
 slugOriginal: "restauracion-motor-965-turbo-33"
@@ -16,7 +16,7 @@ ctas: []
 
 *Aspecto final carcasa y ventilador*
 
-## 964 Turbo una leyenda
+## 964 Turbo, una leyenda
 
 En los años modelo 1991-92, el 911 Turbo se impulsaba con un motor sobrealimentado de 3,3 litros y 320 CV. En el año modelo 1993 se equipó con un motor de 3,6 litros con una potencia de 360 CV. Entre otros elementos, esta versión se reconocía por sus mordazas de freno rojas.
 
@@ -30,7 +30,7 @@ El degoteo de aceite motor al suelo y la falta de finura y potencia del propulso
 
 ### La opinión de Jordi
 
-Si hay una versión de la generación de 911 que no te deja indiferentes es el 964 turbo.
+Si hay una versión de la generación del 911 que no deja indiferente, es el 964 Turbo.
 
 Realmente y con sinceridad es una maquina sin domar creada en Zuffenhausen .
 

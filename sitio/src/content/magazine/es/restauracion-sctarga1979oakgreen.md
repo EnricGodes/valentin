@@ -30,9 +30,9 @@ Decidimos realizar una restauración integral en todos los apartados del vehícu
 
 Devolver estas unidades a su estado inicial siempre son retos motivadores.
 
-Puedes discernir cómo ha sido la vida del vehículo, incluso si han habido periodos de poco mantenimiento o trabajos parciales.
+Puedes discernir cómo ha sido la vida del vehículo, incluso si ha habido periodos de poco mantenimiento o trabajos parciales.
 
-La primera fase de desmontaje es importante para verificar el estado de todos lo componentes y planificar el proceso de restauración.
+La primera fase de desmontaje es importante para verificar el estado de todos los componentes y planificar el proceso de restauración.
 
 ## Estado inicial del proceso
 
@@ -55,7 +55,7 @@ Aquí mostramos algunas imágenes del estado inicial del proyecto y su magnitud.
 
 ## Mecánica: restauración del motor
 
-Trabajos asociados al proceso de restauración del motor
+Trabajos asociados al proceso de restauración del motor.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="standard" lightbox}
 ![Restauración 3.0 SC Targa 1979, 15](/img/magazine/a7ef1889-9a8ffddc-84d0-40cb-bec5-6e729aba9693.jpg)

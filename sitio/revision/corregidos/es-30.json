@@ -1,0 +1,677 @@
+[
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.interior.editorial",
+    "texto": "El interior negro mantiene la lectura clásica y funcional del 356. La restauración completa devuelve al habitáculo su carácter original: sencillo, directo y profundamente mecánico. Con cubre capota y tonneau cover incluidos, la unidad se presenta lista para disfrutar en cualquier condición.",
+    "corregido": "El interior negro mantiene la lectura clásica y funcional del 356. La restauración completa devuelve al habitáculo su carácter original: sencillo, directo y profundamente mecánico. Con cubrecapota y tonneau cover incluidos, la unidad se presenta lista para disfrutar en cualquier condición."
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.etiqueta",
+    "texto": "Documentación y Procedencia",
+    "corregido": "Documentación y procedencia"
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.titulo",
+    "texto": "Origen<br/><strong>documentado.<br/>Alemania, 1960.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[0].anio",
+    "texto": "1960 · Alemania",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[0].titulo",
+    "texto": "Fabricación y primera matriculación",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[0].cuerpo",
+    "texto": "Unidad fabricada en <strong>1960</strong> correspondiente al chasis <strong>153.320</strong>. Destinada al mercado alemán y matriculada por primera vez en Alemania ese mismo año.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[0].badge",
+    "texto": "Chasis 153.320 · Mercado alemán",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[1].anio",
+    "texto": "Restauración · Austria",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[1].titulo",
+    "texto": "Restauración completa con carrocería KAAN",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[1].cuerpo",
+    "texto": "Restauración integral del vehículo. La carrocería ha sido realizada por los austríacos de <strong>KAAN</strong>, referencia en la restauración de clásicos Porsche. El interior negro ha sido completamente restaurado. Motor número <strong>800.350</strong>, correspondiente a la época aunque no el original de fábrica.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[1].badge",
+    "texto": "Carrocería KAAN · Restauración completa",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[2].anio",
+    "texto": "Hoy · Madrid",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[2].titulo",
+    "texto": "Disponible en Valentin Motors",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[2].cuerpo",
+    "texto": "<strong>100 km</strong> desde la restauración. Ubicación: Madrid. Garantía mecánica de <strong>motor y caja de cambios, 12 meses</strong>. Revisado y presentado por Valentin Motors.",
+    "corregido": "<strong>100 km</strong> desde la restauración. Ubicación: Madrid. Garantía mecánica de <strong>12 meses para el motor y la caja de cambios</strong>. Revisado y presentado por Valentin Motors."
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.procedencia.hitos[2].badge",
+    "texto": "190.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.etiqueta",
+    "texto": "Ficha técnica",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.titulo",
+    "texto": "Especificaciones<br/><strong>completas.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[0].filas[0].valor",
+    "texto": "Bóxer 4 cilindros",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[0].filas[1].valor",
+    "texto": "1.582 cm³",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[0].filas[3].valor",
+    "texto": "90 hp · 5.200 rpm",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[0].filas[4].valor",
+    "texto": "123 Nm · 3.500–3.800 rpm",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[1].titulo",
+    "texto": "Transmisión y Chasis",
+    "corregido": "Transmisión y chasis"
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[1].filas[0].valor",
+    "texto": "Manual 4 velocidades",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[2].titulo",
+    "texto": "Carrocería y General",
+    "corregido": "Carrocería y datos generales"
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[2].filas[1].valor",
+    "texto": "100 km desde restauración",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[2].filas[3].valor",
+    "texto": "Negro restaurado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[2].filas[4].valor",
+    "texto": "KAAN (Austria)",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[3].filas[4].valor",
+    "texto": "Restaurado completamente",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[4].filas[0].valor",
+    "texto": "Alemania, 1960",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[4].filas[2].valor",
+    "texto": "No dispone",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[5].titulo",
+    "texto": "Condiciones de venta",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[5].filas[0].valor",
+    "texto": "190.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[5].filas[1].valor",
+    "texto": "12 meses",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.specs.grupos[5].filas[2].valor",
+    "texto": "Motor y caja de cambios",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.etiqueta",
+    "texto": "La opinión de Jordi",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.titulo",
+    "texto": "La visión<br/><strong>del experto.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.nombre",
+    "texto": "Jordi Edo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.rol",
+    "texto": "Especialista Porsche · Valentin Motors",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.bio",
+    "texto": "Más de 25 años de experiencia con Porsche de colección. Ha supervisado cientos de operaciones de compraventa de vehículos especiales, con especial foco en clásicos fundacionales de la marca.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.intro",
+    "texto": "\"El Porsche 356 debe estar en cualquier colección de un apasionado de la marca. Punto.\"",
+    "corregido": "«El Porsche 356 debe estar en cualquier colección de un apasionado de la marca. Punto»."
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.parrafos[0]",
+    "texto": "El <strong>356</strong> representa el origen de todo. La primera vez que Porsche fabricó un coche de producción propio, con identidad propia, y lo situó en un segmento de precio alto por razones estrictamente ligadas a la ingeniería de su tiempo. Su éxito fue inmediato y global, y su impacto en la cultura del automóvil deportivo todavía se siente.",
+    "corregido": "El <strong>356</strong> representa el origen de todo: fue la primera vez que Porsche fabricó un coche de producción con identidad propia y lo situó en un segmento de precio alto por razones estrictamente ligadas a la ingeniería de su tiempo. Su éxito fue inmediato y global, y su impacto en la cultura del automóvil deportivo todavía se percibe."
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.parrafos[1]",
+    "texto": "El gran éxito comercial del modelo, sobre todo en Estados Unidos a través de su importador <strong>Max Hoffmann</strong>, empujó a Porsche a desarrollar una versión más accesible para el mercado americano. De ahí nació el <strong>356 Speedster</strong>, que más adelante se convirtió también en icono de la marca gracias a la historia del legendario actor <strong>James Dean</strong>.",
+    "corregido": "El gran éxito comercial del modelo, sobre todo en Estados Unidos a través de su importador <strong>Max Hoffmann</strong>, empujó a Porsche a desarrollar una versión más accesible para el mercado americano. De ahí nació el <strong>356 Speedster</strong>, que más adelante también se convirtió en un icono de la marca por su relación con el actor <strong>James Dean</strong>."
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.parrafos[2]",
+    "texto": "En Europa, el departamento comercial de la marca observó que las versiones cabriolet circulaban habitualmente con la capota puesta. Este dato les llevó a fabricar la versión <strong>hardtop</strong>, diseñada por el afamado carrocero <strong>Karmann</strong>. Un cabriolet con la estética de un hardtop: pura lógica Porsche.",
+    "corregido": "En Europa, el departamento comercial de la marca observó que las versiones cabriolet circulaban habitualmente con la capota puesta. Este dato llevó a fabricar la versión <strong>hardtop</strong>, diseñada por el carrocero <strong>Karmann</strong>: un cabriolet con la estética de un hardtop."
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.parrafos[3]",
+    "texto": "Esta unidad, con carrocería <strong>KAAN</strong> y restauración completa, ofrece el 356 en su forma más honesta: listo para disfrutar, con la garantía de que cada elemento ha sido revisado y restituido con criterio.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.prosTitulo",
+    "texto": "Lo mejor",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.pros[0]",
+    "texto": "Restauración completa con carrocería KAAN de Austria",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.pros[1]",
+    "texto": "Cabriolet puro: la variante más deseada del 356",
+    "corregido": "Carrocería cabriolet: una variante relevante del 356"
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.pros[2]",
+    "texto": "Configuración europea, mercado alemán original",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.pros[3]",
+    "texto": "Mecánica bóxer de época, carburación y cambio manual",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.pros[4]",
+    "texto": "Garantía mecánica de 12 meses incluida",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.contrasTitulo",
+    "texto": "A considerar",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.opinion.contras[0]",
+    "texto": "Motor número 800.350: de época pero no el original de fábrica, documentado con precisión",
+    "corregido": "Motor número 800.350: de época, pero no el original de fábrica; documentado con precisión."
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.cierre.cita",
+    "texto": "Un Porsche 356 B Cabriolet restaurado por completo, con <em>carrocería KAAN</em>, configuración europea y una presencia clásica que lo sitúa como pieza esencial para cualquier colección Porsche.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.cierre.precio",
+    "texto": "190.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.cierre.precioLabel",
+    "texto": "Porsche 356 B Cabriolet · Plata · 1960",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.cierre.ctaTexto",
+    "texto": "Más información",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.catalogo.marca",
+    "texto": "Porsche · KAAN",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.catalogo.nombre",
+    "texto": "356 B Cabriolet",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.catalogo.detalle",
+    "texto": "1960 · 100 km · Plata",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.catalogo.descripcion",
+    "texto": "Restauración completa por KAAN (Austria). Bóxer 4 cil. 1.582 cm³, 90 hp. Chasis 153.320. Interior negro restaurado. Garantía 12 meses.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-356-b-cabriolet-1960.json#.catalogo.precio",
+    "texto": "190.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.meta.titulo",
+    "texto": "Porsche 911 2.2 T Targa Tangerine · Valentin Motors",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.meta.descripcion",
+    "texto": "Porsche 911 2.2 T Targa en color Tangerine, cambio manual de 5 velocidades y restauración de carrocería, motor, caja de cambios, frenos e interior. Precio: 94.000 €.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.hero.eyebrow",
+    "texto": "Porsche · 911 2.2 T · Targa",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.hero.subtitulo",
+    "texto": "Porsche 911 2.2 T",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.hero.claim",
+    "texto": "Tangerine. Manual de 5 velocidades. Restauración integral.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.etiqueta",
+    "texto": "Historia del vehículo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.titulo",
+    "texto": "Un clásico<br/><strong>esencial del primer 911,<br/>restaurado por completo.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.parrafos[0]",
+    "texto": "Este <strong>Porsche 911 2.2 T Targa</strong> reúne arquitectura de motor trasero, cambio manual y una carrocería Targa que permite disfrutar de conducción abierta sin renunciar a la silueta característica del modelo. Producido en <strong>enero de 1971</strong>, equipa un motor <strong>bóxer de 2,2 litros</strong> y caja <strong>manual de 5 velocidades</strong>.",
+    "corregido": "Este <strong>Porsche 911 2.2 T Targa</strong> reúne una arquitectura de motor trasero, cambio manual y una carrocería Targa que permite disfrutar de la conducción abierta sin renunciar a la silueta característica del modelo. Producido en <strong>enero de 1971</strong>, equipa un motor <strong>bóxer de 2,2 litros</strong> y una caja <strong>manual de 5 velocidades</strong>."
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.parrafos[1]",
+    "texto": "La carrocería y la pintura fueron restauradas por completo en <strong>2014</strong>, el motor y la caja de cambios en <strong>2015</strong>, y el sistema de frenos en <strong>2021</strong>. El interior, en <strong>negro</strong>, se conserva en muy buen estado.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.cita",
+    "texto": "Una configuración clásica del primer 911: carrocería Tangerine, techo Targa, cinco velocidades y una mecánica que exige participación. Restaurado en sus principales apartados y plenamente funcional.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.datos[0].valor",
+    "texto": "911 2.2 T Targa",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.datos[3].valor",
+    "texto": "Bóxer trasero · 2,2 litros",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.datos[4].valor",
+    "texto": "Manual de 5 velocidades",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.datos[5].valor",
+    "texto": "911/01 · 7115778 / 901",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.datos[6].valor",
+    "texto": "Tangerine 2310 · Interior negro",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.datos[7].valor",
+    "texto": "Estadio 2",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.intro.datos[8].valor",
+    "texto": "94.000 €",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.titulo",
+    "texto": "Tangerine.<br/><strong>Targa y cinco<br/>velocidades manuales.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[0].alt",
+    "texto": "Exterior frontal 3/4",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[0].caption",
+    "texto": "Frontal 3/4 · Tangerine · Techo Targa negro",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[1].alt",
+    "texto": "Perfil Targa",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[1].caption",
+    "texto": "Perfil completo · Arco Targa y franja PORSCHE",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[2].alt",
+    "texto": "Vista trasera 3/4",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[2].caption",
+    "texto": "Trasera 3/4 · Rejilla e inscripciones 911T",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[3].alt",
+    "texto": "Habitáculo restaurado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[3].caption",
+    "texto": "Habitáculo negro · Restauración completa",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[4].alt",
+    "texto": "Vista frontal directa",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.galeria.fotos[4].caption",
+    "texto": "Frontal directo · Cromados y faro redondo",
+    "corregido": "Vista frontal · Cromados y faro redondo"
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.etiqueta",
+    "texto": "Motor y Mecánica",
+    "corregido": "Motor y mecánica"
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.titulo",
+    "texto": "Mecánica<br/><strong>bóxer trasera.</strong><br/>Sin filtros.",
+    "corregido": "Mecánica<br/><strong>con motor bóxer trasero.</strong><br/>Sin filtros."
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.stats[2].etiqueta",
+    "texto": "Tipo de caja",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.stats[3].etiqueta",
+    "texto": "Frenos restaurados",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.parrafos[0]",
+    "texto": "El motor <strong>bóxer trasero de 2,2 litros</strong> conserva la arquitectura refrigerada por aire que define la identidad técnica del 911. La caja <strong>manual de cinco velocidades</strong>, identificada como <strong>tipo 911/01 / 7115778 / 901</strong>, refuerza el carácter analógico de la unidad.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.parrafos[1]",
+    "texto": "El motor y la caja de cambios fueron <strong>restaurados en 2015</strong> y, según la información disponible, funcionan correctamente. El sistema de frenos fue restaurado más recientemente, en <strong>2021</strong>.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.parrafos[2]",
+    "texto": "La unidad incorpora de fábrica <strong>estabilizadoras delantera y trasera</strong> (código 405), que refuerzan el control de la carrocería en un coche ligero y compacto.",
+    "corregido": "La unidad incorpora de fábrica <strong>barras estabilizadoras delantera y trasera</strong> (código 405), que refuerzan el control de la carrocería en un coche ligero y compacto."
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.tags[0]",
+    "texto": "Bóxer trasero",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.tags[1]",
+    "texto": "Manual 5 vel.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.tags[2]",
+    "texto": "Refrigeración por aire",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.ingenieria.tags[3]",
+    "texto": "Estabilizadoras 405",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.etiqueta",
+    "texto": "Restauración por apartados · 2014, 2015 y 2021",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.titulo",
+    "texto": "Cronología<br/><strong>de restauración documentada.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.precio",
+    "texto": "94.000 € · Estadio 2",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[0].titulo",
+    "texto": "Carrocería · 2014",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[0].items[0]",
+    "texto": "Restauración completa de carrocería y pintura",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[0].items[1]",
+    "texto": "Color Tangerine, código 2310",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[0].items[2]",
+    "texto": "Fidelidad al original del primer 911",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[1].titulo",
+    "texto": "Motor y caja · 2015",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[1].items[0]",
+    "texto": "Motor bóxer 2,2 litros restaurado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[1].items[1]",
+    "texto": "Caja manual de 5 velocidades, tipo 911/01",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[1].items[2]",
+    "texto": "Funcionamiento correcto documentado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[2].titulo",
+    "texto": "Frenos · 2021",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[2].items[0]",
+    "texto": "Sistema de frenos restaurado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[2].items[1]",
+    "texto": "Intervención mecánica más reciente",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[2].items[2]",
+    "texto": "Estabilizadoras delantera y trasera",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[3].items[0]",
+    "texto": "Interior negro restaurado",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[3].items[1]",
+    "texto": "Tapicería perforada y acanalada",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.kit.categorias[3].items[2]",
+    "texto": "Radio Blaupunkt de época",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.titulo",
+    "texto": "Tangerine.<br/><strong>Una presencia<br/>inequívocamente setentera.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.texto",
+    "texto": "El color <strong>Tangerine 2310</strong> define visualmente esta unidad y refuerza su carácter de época. La tonalidad roja anaranjada establece un fuerte contraste con el panel de techo negro, el <strong>arco Targa</strong> metálico, las molduras cromadas y la franja lateral negra con la inscripción <strong>PORSCHE</strong>. La restauración de carrocería y pintura de 2014 permite apreciar con claridad las superficies compactas y la ligereza visual de los primeros 911.",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.fotos[0].alt",
+    "texto": "Detalle frontal",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.fotos[0].caption",
+    "texto": "Detalle frontal · Faro redondo y cromados",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.fotos[1].alt",
+    "texto": "Detalle trasero",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.fotos[1].caption",
+    "texto": "Rejilla trasera · Inscripciones PORSCHE y 911T",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.fotos[2].alt",
+    "texto": "Compartimento motor",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.fotos[2].caption",
+    "texto": "Compartimento motor · Bóxer 2,2 litros",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.fotos[3].alt",
+    "texto": "Frontal 3/4",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.exterior.fotos[3].caption",
+    "texto": "Frontal 3/4 · Llantas Fuchs de 14 pulgadas",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.interior.titulo",
+    "texto": "Interior negro.<br/><strong>Sencillo<br/>y mecánico.</strong>",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.interior.fotos[0].alt",
+    "texto": "Habitáculo completo",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.interior.fotos[0].caption",
+    "texto": "Habitáculo · Tapicería negra perforada",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.interior.fotos[1].alt",
+    "texto": "Puesto de conducción",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.interior.fotos[1].caption",
+    "texto": "Puesto de conducción · Cuadro de cinco relojes",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.interior.fotos[2].alt",
+    "texto": "Salpicadero e instrumentación",
+    "corregido": ""
+  },
+  {
+    "id": "src/datos/coches/porsche-911-22-t-targa.json#.interior.fotos[2].caption",
+    "texto": "Salpicadero · Volante clásico y palanca larga",
+    "corregido": ""
+  }
+]

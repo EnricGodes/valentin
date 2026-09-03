@@ -6,7 +6,7 @@ slugOriginal: "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"
 date: 2019-08-28T17:04:00.360000Z
 lang: es
 categories: ["articulos"]
-excerpt: "10 consejos que debes seguir antes de adquirir un Porsche 911. ¿Sabes cómo detectar si ha sufrido un accidente?¿sabes que puedes solicitar un informe detallado?¿qué comprobaciones son importantes?"
+excerpt: "10 consejos que debes seguir antes de adquirir un Porsche 911. ¿Sabes cómo detectar si ha sufrido un accidente? ¿Sabes que puedes solicitar un informe detallado? ¿Qué comprobaciones son importantes?"
 author: "Enric Godes"
 squarespaceId: "61b09080eb819c495a74a928"
 originalUrl: "https://www.valentinmotors.es/magazine/10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"
@@ -22,13 +22,13 @@ Los conductores se dejan llevar por el precio o el diseño antes de comprar un c
 
 El **libro de mantenimiento** del coche habitualmente contiene las instrucciones de conservación y mantenimiento del coche. Es un registro de **todas las intervenciones realizadas**, debidamente selladas por los talleres. Es, en definitiva, el historial de servicios además de una guía para conocer la vida actual de un vehículo. Nos dará pistas sobre:
 
-1. Los **cuidados**que ha proporcionado el propietario.
+1. Los **cuidados** que le ha proporcionado el propietario.
 2. Si ha sido revisado por **talleres especializados**.
-3. Si se han seguido las **especificaciones**del fabricante.
+3. Si se han seguido las **especificaciones** del fabricante.
 
 Desconfía, por lo tanto, de libros que no estén sellados o cuya actividad no sea consistente con las revisiones aconsejadas.
 
-## 2. Chequeo pre-compra
+## 2. Chequeo precompra
 
 En **Valentín Motores realizamos revisiones previas** a la adquisición de vehículos, buscamos posibles fallos mecánicos o incidencias no visibles que pasan inadvertidas a los ojos de los no especializados en Porsche.
 Si quieres revisar un Porsche 911 por tu cuenta, estos son algunos de los puntos que deberías chequear:
@@ -51,11 +51,11 @@ Si quieres revisar un Porsche 911 por tu cuenta, estos son algunos de los puntos
 
 ## 3. Horas de servicio del motor
 
-En las unidades a partir 996 se puede consultar**las horas de servicio de motor**, eso nos dará una idea del kilometraje real. Si no coincide con el que marca el cuentakilómetros, desconfía.
+En las unidades a partir del 996 se pueden consultar **las horas de servicio del motor**; esto nos dará una idea del kilometraje real. Si no coincide con el que marca el cuentakilómetros, desconfía.
 
 ## 4. IMS
 
-El Intermediate Shaft, más conocido como IMS es el rodamiento que sujeta el árbol intermedio y transmite el movimiento a las cadenas que van a cada una de las culatas. En los motores tipo M96 desde 1998 a 2004 y tipo M97 desde 2004 a 2006 **el rodamiento intermedio falla y puede producir la rotura del motor** por fallo de distribución e interferencia. Antes de adquirir un 911 fabricado entre 1998 hasta 2006 es necesario revisar el estado del IMS.
+El Intermediate Shaft, más conocido como IMS, es el rodamiento que sujeta el árbol intermedio y transmite el movimiento a las cadenas que van a cada una de las culatas. En los motores tipo M96, de 1998 a 2004, y tipo M97, de 2004 a 2006, **el rodamiento intermedio falla y puede provocar la rotura del motor** por un fallo de distribución e interferencia. Antes de adquirir un 911 fabricado entre 1998 y 2006, es necesario revisar el estado del IMS.
 
 En Valentín Motors tenemos una gran experiencia [verificando y cambiando IMS](/magazine/que-es-el-ims-de-porsche).
 
@@ -81,7 +81,7 @@ Al tratarse de información oficial no es alterable y nos puede explicar qué us
 
 ## 6. Consulta a un especialista
 
-El primer Porsche 911 se construyó en 1964. Desde entonces han sido fabricados multitud de modelos con características completamente distintas. ¿Qué de uso le vas a dar al vehículo?¿qué tipo de sensaciones están buscando?¿cuál es tu presupuesto?¿conoces la historia detrás de cada modelo? Un especialista podrá guiarte en el complejo proceso de **seleccionar el modelo adecuado** a partir de tus requisitos. En Valentín Motors podemos asesorarte gracias a nuestra extensa experiencia en la comercialización de 911.
+El primer Porsche 911 se construyó en 1964. Desde entonces se han fabricado multitud de modelos con características completamente distintas. ¿Qué uso le vas a dar al vehículo? ¿Qué tipo de sensaciones buscas? ¿Cuál es tu presupuesto? ¿Conoces la historia de cada modelo? Un especialista podrá orientarte en el complejo proceso de **seleccionar el modelo adecuado** a partir de tus requisitos. En Valentín Motors podemos asesorarte gracias a nuestra experiencia en la comercialización de 911.
 
 ## 7. Unidades importadas
 
@@ -94,11 +94,11 @@ Las unidades importadas de países europeos acostumbran a tener precios atractiv
 
 ## 8. Libre de accidentes
 
-Un coche que ha sufrido un accidente de gravedad puede tener el chasis afectado. Si ha sido mal reparado no contará con el mismo nivel de seguridad pasiva. Lo que debes examinar en un coche:
+Un coche que ha sufrido un accidente grave puede tener el chasis afectado. Si ha sido mal reparado, no contará con el mismo nivel de seguridad pasiva. Esto es lo que debes examinar en un coche:
 
-1. **Pintura**: si el espesor es excesivo indica que en ese punto ha sufrido un golpe. Mediante un imán es posible comprobar si hay zonas con mucha masilla o con diversas capas de pintura.
-2. **Piezas de chapa**: todos los elementos de chapa deben tener la misma holgura y no estar descuadrado. Los tornillos que las soportan acostumbran a estar pintados de fábrica, por lo que si tienen otro color debería levantar sospechas.
-3. **Interior**: los paneles interiores y las molduras deben estar enganchado y no presentar descuadres. Las gomas de las puertas deben estar ajustadas y no dejar espacios libres. Si las tapas del airbag del volante o salpicadero presentan un color distinto o son nuevos quizás hayan sido usados.
+1. **Pintura**: si el espesor es excesivo, indica que en ese punto ha sufrido un golpe. Mediante un imán es posible comprobar si hay zonas con mucha masilla o con varias capas de pintura.
+2. **Piezas de chapa**: todos los elementos de chapa deben tener la misma holgura y no estar descuadrados. Los tornillos que los sujetan suelen estar pintados de fábrica, por lo que, si tienen otro color, debería levantar sospechas.
+3. **Interior**: los paneles interiores y las molduras deben estar bien sujetos y no presentar descuadres. Las gomas de las puertas deben estar ajustadas y no dejar espacios libres. Si las tapas del airbag del volante o del salpicadero presentan un color distinto o son nuevas, quizá los airbags se hayan activado.
 
 ## 9. Motor de fábrica
 
