@@ -7,6 +7,7 @@ import { iniciarMagneticos } from './magnetico.ts';
 import { iniciarEventos } from './eventos.ts';
 import { iniciarProgreso } from './progreso.ts';
 import { iniciarCalculadoraIms } from './calculadora-ims.ts';
+import { iniciarTarifas } from './tarifas.ts';
 
 /**
  * Arranque unico del sitio. Cada modulo comprueba por su cuenta si tiene algo
@@ -23,6 +24,7 @@ function iniciar(): void {
   iniciarEventos();
   iniciarProgreso();
   iniciarCalculadoraIms();
+  iniciarTarifas();
 }
 
 iniciar();

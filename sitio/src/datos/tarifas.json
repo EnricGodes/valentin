@@ -1,0 +1,2200 @@
+{
+  "nota": "Precios sin IVA incluido.",
+  "familias": [
+    {
+      "id": "911",
+      "nombre": "911",
+      "rutaId": "tarifa-911",
+      "titulo": "Precios de mantenimiento para los modelos Porsche 911"
+    },
+    {
+      "id": "cayenne-macan",
+      "nombre": "Cayenne y Macan",
+      "rutaId": "tarifa-cayenne-macan",
+      "titulo": "Precios de mantenimiento para los modelos Cayenne y Macan"
+    },
+    {
+      "id": "cayman-boxster",
+      "nombre": "Cayman y Boxster",
+      "rutaId": "tarifa-cayman",
+      "titulo": "Precios de mantenimiento para los modelos Cayman y Boxster"
+    },
+    {
+      "id": "gt",
+      "nombre": "GT",
+      "rutaId": "tarifa-gt",
+      "titulo": "Precios de mantenimiento para los modelos GT"
+    },
+    {
+      "id": "transaxle",
+      "nombre": "Transaxle",
+      "rutaId": "tarifa-transaxle",
+      "titulo": "Precios de mantenimiento para los modelos Transaxle"
+    },
+    {
+      "id": "turbo",
+      "nombre": "Turbo",
+      "rutaId": "tarifa-turbo",
+      "titulo": "Precios de mantenimiento para los modelos Turbo"
+    }
+  ],
+  "modelos": [
+    {
+      "id": "911-911-pre-74",
+      "nombre": "911 Pre 74",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + 23 puntos de comprobación",
+          "euros": 450,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "incluye el servicio menor + 30 puntos de comprobación",
+          "euros": 525,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 90,
+          "desde": false
+        },
+        {
+          "concepto": "Alineado",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "911-911-sc",
+      "nombre": "911 SC",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + 23 puntos de comprobación",
+          "euros": 450,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "incluye el servicio menor + 30 puntos de comprobación",
+          "euros": 465,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 90,
+          "desde": false
+        },
+        {
+          "concepto": "Alineado",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "911-911-3-2-carrera",
+      "nombre": "911 3.2 Carrera",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + 23 puntos de comprobación",
+          "euros": 450,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "servicio menor + filtro de aire + 30 puntos de comprobación",
+          "euros": 630,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 90,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "911-964",
+      "nombre": "964",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + lista de comprobación de 23 puntos",
+          "euros": 555,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "incluye el servicio menor + filtro de aire + lista de comprobación de 30 puntos",
+          "euros": 725,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 90,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "911-993",
+      "nombre": "993",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + filtros de polen + lista de comprobación de 23 puntos",
+          "euros": 570,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "incluye el servicio menor + filtro de aire + lista de comprobación de 30 puntos",
+          "euros": 875,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 90,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "911-996",
+      "nombre": "996",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 475,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio intermedio",
+          "detalle": "",
+          "euros": 640,
+          "desde": true
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "911-997",
+      "nombre": "997",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio anual",
+          "detalle": "",
+          "euros": 475,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio intermedio",
+          "detalle": "",
+          "euros": 735,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "911-991",
+      "nombre": "991",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio anual",
+          "detalle": "",
+          "euros": 425,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio intermedio",
+          "detalle": "",
+          "euros": 720,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "911-992",
+      "nombre": "992",
+      "familia": "911",
+      "servicios": [
+        {
+          "concepto": "Servicio anual",
+          "detalle": "",
+          "euros": 555,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio intermedio",
+          "detalle": "",
+          "euros": 725,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-cayenne-diesel-2011-a-2014",
+      "nombre": "Cayenne Diesel 2011 a 2014",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio rápido",
+          "detalle": "",
+          "euros": 310,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 390,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 560,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-cayenne-diesel-s-2011-a-2014",
+      "nombre": "Cayenne Diesel S 2011 a 2014",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio rápido",
+          "detalle": "",
+          "euros": 390,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 460,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 610,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-cayenne-diesel-2015-a-2017",
+      "nombre": "Cayenne Diesel 2015 a 2017",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 490,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 720,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno delanteras",
+          "detalle": "",
+          "euros": 430,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno traseras",
+          "detalle": "",
+          "euros": 310,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-cayenne-diesel-s-2015-a-2017",
+      "nombre": "Cayenne Diesel S 2015 a 2017",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio rápido",
+          "detalle": "",
+          "euros": 400,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 490,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 720,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno delanteras",
+          "detalle": "",
+          "euros": 490,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno traseras",
+          "detalle": "",
+          "euros": 363,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-macan-2014-a-2017",
+      "nombre": "Macan 2014 a 2017",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio rápido",
+          "detalle": "",
+          "euros": 300,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 360,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 420,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno delanteras",
+          "detalle": "",
+          "euros": 320,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno traseras",
+          "detalle": "",
+          "euros": 210,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-macan-gts-2014-a-2017",
+      "nombre": "Macan GTS 2014 a 2017",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio rápido",
+          "detalle": "",
+          "euros": 390,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 490,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 530,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno delanteras",
+          "detalle": "",
+          "euros": 390,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno traseras",
+          "detalle": "",
+          "euros": 210,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-macan-s-2014-a-2017",
+      "nombre": "Macan S 2014 a 2017",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio rápido",
+          "detalle": "",
+          "euros": 320,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 490,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 590,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno delanteras",
+          "detalle": "",
+          "euros": 390,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno traseras",
+          "detalle": "",
+          "euros": 210,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-macan-turbo-2014-a-2017",
+      "nombre": "Macan Turbo 2014 a 2017",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio rápido",
+          "detalle": "",
+          "euros": 390,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 490,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 590,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno delanteras",
+          "detalle": "",
+          "euros": 390,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno traseras",
+          "detalle": "",
+          "euros": 299,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayenne-macan-macan-diesel-2014-a-2017",
+      "nombre": "Macan Diesel 2014 a 2017",
+      "familia": "cayenne-macan",
+      "servicios": [
+        {
+          "concepto": "Servicio rápido",
+          "detalle": "",
+          "euros": 380,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 430,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 590,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno delanteras",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        },
+        {
+          "concepto": "Pastillas de freno traseras",
+          "detalle": "",
+          "euros": 230,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayman-boxster-boxster-986",
+      "nombre": "Boxster 986",
+      "familia": "cayman-boxster",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + filtro de polen + 23 puntos de comprobación",
+          "euros": 525,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "incluye el servicio menor + filtro de aire + 30 puntos de comprobación",
+          "euros": 635,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        },
+        {
+          "concepto": "Chequeo Bore Scoring",
+          "detalle": "",
+          "euros": 343,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayman-boxster-boxster-y-cayman-987",
+      "nombre": "Boxster y Cayman 987",
+      "familia": "cayman-boxster",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + filtro de polen + lista de comprobación de 23 puntos",
+          "euros": 525,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "incluye el servicio menor + filtro de aire + lista de comprobación de 30 puntos",
+          "euros": 635,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayman-boxster-boxster-y-cayman-981",
+      "nombre": "Boxster y Cayman 981",
+      "familia": "cayman-boxster",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + filtro de polen + lista de comprobación de 23 puntos",
+          "euros": 595,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 720,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "cayman-boxster-boxster-y-cayman-718",
+      "nombre": "Boxster y Cayman 718",
+      "familia": "cayman-boxster",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "filtro de aceite + aceite del motor + filtro de polen + lista de comprobación de 23 puntos",
+          "euros": 690,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "incluye el servicio menor + filtro de aire + lista de comprobación de 30 puntos",
+          "euros": 850,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-996-gt3-mk1",
+      "nombre": "996 GT3 MK1",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 611,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1093,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-996-gt3-mk2",
+      "nombre": "996 GT3 MK2",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 611,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1092,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-996-gt3-rs",
+      "nombre": "996 GT3 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 740,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1093,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-997-1-gt3",
+      "nombre": "997.1 GT3",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 691,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1001,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 240,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-997-1-gt3-rs",
+      "nombre": "997.1 GT3 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 464,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1184,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-997-2-gt2",
+      "nombre": "997.2 GT2",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 602,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1029,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-997-2-gt3-rs",
+      "nombre": "997.2 GT3 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 802,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1030,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-991-1-gt3",
+      "nombre": "991.1 GT3",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 691,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1259,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-991-1-gt3-rs",
+      "nombre": "991.1 GT3 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 370,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 920,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 250,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-991-2-gt3",
+      "nombre": "991.2 GT3",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 641,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1438,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-991-2-gt3-rs",
+      "nombre": "991.2 GT3 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 640,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1495,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-992-gt3",
+      "nombre": "992 GT3",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 540,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1437,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-992-gt3-rs",
+      "nombre": "992 GT3 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 540,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1437,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-993-gt",
+      "nombre": "993 GT",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 822,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1295,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-996-gt2",
+      "nombre": "996 GT2",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 680,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1334,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-997-gt2",
+      "nombre": "997 GT2",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 603,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1149,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-997-gt2-rs",
+      "nombre": "997 GT2 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 857,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1216,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-991-gt2-rs",
+      "nombre": "991 GT2 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 656,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1702,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-981-cayman-gt4",
+      "nombre": "981 Cayman GT4",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 683,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1029,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-718-cayman-gt4",
+      "nombre": "718 Cayman GT4",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 695,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1030,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "gt-718-cayman-gt4-rs",
+      "nombre": "718 Cayman GT4 RS",
+      "familia": "gt",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 695,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1030,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "transaxle-924",
+      "nombre": "924",
+      "familia": "transaxle",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 401,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 598,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 240,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "transaxle-944",
+      "nombre": "944",
+      "familia": "transaxle",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 502,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 898,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 240,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "transaxle-968",
+      "nombre": "968",
+      "familia": "transaxle",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 601,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 898,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 240,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "transaxle-928",
+      "nombre": "928",
+      "familia": "transaxle",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 601,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 898,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 240,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-930-turbo",
+      "nombre": "930 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 582,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1203,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-964-3-3-turbo",
+      "nombre": "964 3.3 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 628,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1093,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-964-3-6-turbo",
+      "nombre": "964 3.6 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 685,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 950,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-993-turbo",
+      "nombre": "993 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 695,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1438,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-996-turbo",
+      "nombre": "996 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 674,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1242,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-997-1-turbo",
+      "nombre": "997.1 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 657,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1131,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-997-2-turbo",
+      "nombre": "997.2 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 680,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1163,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-991-1-turbo",
+      "nombre": "991.1 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 449,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 979,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 240,
+          "desde": false
+        },
+        {
+          "concepto": "Servicio AA",
+          "detalle": "",
+          "euros": 98,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-991-2-turbo",
+      "nombre": "991.2 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 703,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1012,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 240,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    },
+    {
+      "id": "turbo-992-turbo",
+      "nombre": "992 Turbo",
+      "familia": "turbo",
+      "servicios": [
+        {
+          "concepto": "Servicio menor",
+          "detalle": "",
+          "euros": 540,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio mayor",
+          "detalle": "",
+          "euros": 1283,
+          "desde": true
+        },
+        {
+          "concepto": "Servicio líquido de frenos",
+          "detalle": "",
+          "euros": 92,
+          "desde": false
+        },
+        {
+          "concepto": "Geometrías",
+          "detalle": "",
+          "euros": 117,
+          "desde": false
+        },
+        {
+          "concepto": "Inspección precompra",
+          "detalle": "",
+          "euros": 375,
+          "desde": false
+        }
+      ]
+    }
+  ]
+}

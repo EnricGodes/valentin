@@ -169,6 +169,10 @@ export const UI = {
     de: 'Ich interessiere mich für diesen Porsche', ca: 'M’interessa aquest Porsche' },
 
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },
+  'tarifas.elige':     { es: 'Elige tu modelo', en: 'Choose your model', fr: 'Choisissez votre modèle', it: 'Scegli il tuo modello', de: 'Modell wählen', ca: 'Tria el teu model' },
+  'tarifas.buscar':    { es: 'Buscar: 997, GT3, Cayenne…', en: 'Search: 997, GT3, Cayenne…', fr: 'Rechercher : 997, GT3, Cayenne…', it: 'Cerca: 997, GT3, Cayenne…', de: 'Suchen: 997, GT3, Cayenne…', ca: 'Cerca: 997, GT3, Cayenne…' },
+  'tarifas.sinResultados': { es: 'Ningún modelo coincide con esa búsqueda.', en: 'No model matches that search.', fr: 'Aucun modèle ne correspond à cette recherche.', it: 'Nessun modello corrisponde a questa ricerca.', de: 'Kein Modell passt zu dieser Suche.', ca: 'Cap model coincideix amb aquesta cerca.' },
+  'tarifas.nota':      { es: 'Precios sin IVA. Son tarifas cerradas de referencia: el presupuesto en firme depende del estado de la unidad.', en: 'Prices exclude VAT. These are reference fixed rates: the firm quote depends on the condition of the car.', fr: 'Prix hors TVA. Tarifs forfaitaires de référence : le devis ferme dépend de l\'état de la voiture.', it: 'Prezzi IVA esclusa. Tariffe fisse di riferimento: il preventivo definitivo dipende dalle condizioni della vettura.', de: 'Preise ohne MwSt. Richtwerte als Festpreis: das verbindliche Angebot hängt vom Zustand des Fahrzeugs ab.', ca: 'Preus sense IVA. Són tarifes tancades de referència: el pressupost en ferm depèn de l\'estat de la unitat.' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 
 export type ClaveUI = keyof typeof UI;

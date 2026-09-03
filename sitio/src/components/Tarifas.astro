@@ -1,0 +1,96 @@
+---
+/**
+ * Consulta de tarifas de mantenimiento.
+ *
+ * Antes esto eran seis paginas con 57 acordeones. Para saber lo que cuesta el
+ * servicio menor de un 997.1 GT3 habia que acertar que ese coche vive en la
+ * pagina "GT" y no en la de "911", abrir uno de veintiun desplegables y leer
+ * tres parrafos sobre la importancia del mantenimiento antes de llegar a la
+ * cifra. Y esos tres parrafos eran los mismos en los cincuenta y siete.
+ *
+ * Ahora se elige el modelo y aparece su tabla, sin cambiar de pagina.
+ *
+ * El contenido se monta en el cliente a partir de los datos, no se pinta un
+ * panel por modelo en el servidor: cada panel ocupa 3,4 KB de HTML y los 57
+ * sumaban 195 KB para transmitir 7 KB de precios. Va el primero pintado, que
+ * es lo que se ve al llegar y lo que lee quien no tiene JavaScript, y el resto
+ * viaja como datos.
+ */
+import type { Idioma } from '../i18n/config';
+import tarifas from '../datos/tarifas.json';
+
+interface Props {
+  idioma: Idioma;
+  /** Limita a una familia. Sin esto salen los 57 modelos. */
+  familia?: string;
+  textos: { buscar: string; elige: string; sinResultados: string; nota: string };
+}
+const { familia, textos } = Astro.props;
+
+const modelos = tarifas.modelos.filter((m) => !familia || m.familia === familia);
+const familias = tarifas.familias.filter((f) => modelos.some((m) => m.familia === f.id));
+const nombreFamilia = (id: string) => familias.find((f) => f.id === id)?.nombre ?? '';
+
+/* La familia solo se dice si el nombre del modelo no la lleva ya dentro:
+   "911 SC" no necesita que le pongan "911" al lado, "996 GT3 MK1" si agradece
+   el "GT" y "Boxster 986" el "Cayman y Boxster". */
+const familiaVisible = (m: { nombre: string; familia: string }) => {
+  const f = nombreFamilia(m.familia);
+  // Palabra entera: "996 GT3 MK1" no contiene la palabra "GT", contiene "GT3".
+  const lleva = (x: string) => new RegExp(`\\b${x}\\b`, 'i').test(m.nombre);
+  return f && !f.split(' y ').some(lleva) ? f : '';
+};
+
+/* Punto de millar tambien en las de cuatro cifras. La norma lo desaconseja
+   para 1093, pero esto son precios: en una columna de importes "1.093" se lee
+   de un golpe y "1093" hay que contarlo. */
+const euros = (n: number) => n.toLocaleString('es-ES').replace(/^(\d)(\d{3})$/, '$1.$2');
+
+const primero = modelos[0];
+/* Lo que necesita el cliente para montar cualquier panel, y nada mas. */
+const datos = modelos.map((m) => ({
+  id: m.id,
+  n: m.nombre,
+  // El buscador si busca por familia aunque el boton no la muestre.
+  f: familia ? '' : nombreFamilia(m.familia),
+  s: m.servicios.map((s) => [s.concepto, s.detalle, euros(s.euros), s.desde ? 1 : 0]),
+}));
+---
+<section class="tarifas ancha" data-tarifas>
+  <div class="tarifas-buscador">
+    <label class="tarifas-label" for="tarifas-buscar">{textos.elige}</label>
+    <input id="tarifas-buscar" type="search" class="tarifas-input"
+           placeholder={textos.buscar} autocomplete="off" data-tarifas-buscar>
+  </div>
+
+  <div class="tarifas-modelos" data-tarifas-lista>
+    {modelos.map((m, i) => (
+      <button type="button" class="tarifas-modelo" data-modelo={m.id}
+              aria-pressed={i === 0 ? 'true' : 'false'}>
+        {m.nombre}
+        {!familia && familiaVisible(m) && (
+          <span class="tarifas-familia">{familiaVisible(m)}</span>
+        )}
+      </button>
+    ))}
+  </div>
+
+  <p class="tarifas-vacio" data-tarifas-vacio hidden>{textos.sinResultados}</p>
+
+  {/* El primero pintado: es el que se ve al llegar, y el unico que necesita
+      existir en el HTML. Los demas los monta el script con los mismos datos. */}
+  <div class="tarifas-panel" data-tarifas-panel aria-live="polite">
+    <h3 class="tarifas-panel-titulo">{primero.nombre}</h3>
+    <dl class="tarifas-tabla">
+      {primero.servicios.map((s) => (
+        <div class="tarifas-fila">
+          <dt>{s.concepto}{s.detalle && <span class="tarifas-detalle">{s.detalle}</span>}</dt>
+          <dd>{s.desde && <span class="tarifas-desde">desde</span>}{euros(s.euros)} €</dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+
+  <p class="tarifas-nota">{textos.nota}</p>
+  <script type="application/json" data-tarifas-datos set:html={JSON.stringify(datos)} />
+</section>

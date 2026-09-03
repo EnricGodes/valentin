@@ -16,6 +16,8 @@ import FichaCoche from '../components/FichaCoche.astro';
 import CatalogoCoches from '../components/CatalogoCoches.astro';
 import SeccionesPagina from '../components/SeccionesPagina.astro';
 import Acordeon from '../components/Acordeon.astro';
+import Tarifas from '../components/Tarifas.astro';
+import tarifas from '../datos/tarifas.json';
 import Formulario from '../components/Formulario.astro';
 import NegocioLocal from '../components/seo/NegocioLocal.astro';
 import Vehiculo from '../components/seo/Vehiculo.astro';
@@ -119,6 +121,25 @@ const migas = coche
     ? [{ nombre: pagina.h1 || titulo, rutaId: pagina.rutaId }]
     : [{ nombre: t('nav.coches'), rutaId: 'coches' }];
 
+/* Las tarifas ya no se pintan como acordeon: sus precios viven en
+   datos/tarifas.json y los pinta el buscador de modelos. El resto de paginas
+   con acordeon (que no son tarifas) sigue igual. */
+const familiaTarifa = tarifas.familias.find((f) => f.rutaId === pagina?.rutaId)?.id;
+
+/* La pagina del taller traia la seccion "Tarifas de mantenimiento" seguida de
+   seis subsecciones que solo listaban modelos: en Squarespace cada una era un
+   enlace a su pagina de tarifas y la migracion se dejo los enlaces, asi que
+   quedaron seis listas muertas y seis paginas a las que no llegaba nadie.
+   En su lugar va el buscador con los 57 modelos. Las subsecciones se localizan
+   por su nivel y no por su titulo, que cambia en cada idioma. */
+const secciones = pagina?.secciones ?? [];
+const iTarifas = pagina?.rutaId === 'taller'
+  ? secciones.findIndex((s, i) => secciones[i + 1]?.nivel === 4) : -1;
+let iFin = iTarifas;
+while (iFin >= 0 && secciones[iFin + 1]?.nivel === 4) iFin++;
+const antesDeTarifas = iTarifas >= 0 ? secciones.slice(0, iTarifas + 1) : secciones;
+const despuesDeTarifas = iTarifas >= 0 ? secciones.slice(iFin + 1) : [];
+
 const esCentro = pagina?.tipo === 'centro';
 const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
 ---
@@ -154,10 +175,26 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         <div class="shimmer-line reveal"></div>
         <h1 class="page-title reveal">{pagina.h1 || titulo}</h1>
       </header>
-      <SeccionesPagina secciones={pagina.secciones} />
-      {pagina.acordeones.length > 0 && (
-        <div class="contenido"><Acordeon items={pagina.acordeones} /></div>
+      <SeccionesPagina secciones={antesDeTarifas} />
+      {iTarifas >= 0 && (
+        <div class="contenido">
+          <Tarifas idioma={idioma} textos={{
+            elige: t('tarifas.elige'), buscar: t('tarifas.buscar'),
+            sinResultados: t('tarifas.sinResultados'), nota: t('tarifas.nota'),
+          }} />
+        </div>
       )}
+      {despuesDeTarifas.length > 0 && <SeccionesPagina secciones={despuesDeTarifas} />}
+      {familiaTarifa
+        ? <div class="contenido">
+            <Tarifas idioma={idioma} familia={familiaTarifa} textos={{
+              elige: t('tarifas.elige'), buscar: t('tarifas.buscar'),
+              sinResultados: t('tarifas.sinResultados'), nota: t('tarifas.nota'),
+            }} />
+          </div>
+        : pagina.acordeones.length > 0 && (
+            <div class="contenido"><Acordeon items={pagina.acordeones} /></div>
+          )}
     </article>
   )}
 

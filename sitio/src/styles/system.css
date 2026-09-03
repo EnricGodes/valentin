@@ -1661,3 +1661,62 @@ section { position: relative; }
   .ims-form, .ims-res { padding: 26px 22px 30px; }
   .herramienta { padding: 28px 24px; }
 }
+
+/* ── Tarifas: elegir modelo y ver su tabla ──────────────────────────────── */
+.tarifas { margin-top: 48px; }
+.tarifas-buscador { max-width: 420px; }
+.tarifas-label {
+  display: block; font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: var(--tr-label); text-transform: uppercase; color: var(--bronce);
+}
+.tarifas-input {
+  width: 100%; margin-top: 12px; padding: 14px 16px;
+  background: var(--negro); color: var(--blanco);
+  border: 1px solid var(--linea-fuerte); font-size: 16px; font-family: inherit;
+}
+.tarifas-input:focus-visible { outline: 2px solid var(--bronce); outline-offset: 2px; }
+
+.tarifas-modelos { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+.tarifas-modelo {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 11px 20px; cursor: pointer;
+  font-family: var(--mono); font-size: 13px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--blanco);
+  background: var(--negro); border: 1px solid var(--linea-fuerte);
+  transition: border-color 0.25s var(--ease), background 0.25s var(--ease);
+}
+.tarifas-modelo:hover { border-color: var(--bronce); }
+.tarifas-modelo[aria-selected="true"] {
+  border-color: var(--bronce); background: rgba(178, 138, 91, 0.14);
+}
+.tarifas-familia { font-size: 11px; color: var(--concreto); letter-spacing: 0.04em; }
+.tarifas-vacio { margin-top: 24px; color: var(--concreto); font-size: 15px; }
+
+.tarifas-panel { margin-top: 40px; }
+.tarifas-panel-titulo {
+  font-family: var(--serif); font-size: clamp(24px, 3vw, 34px); font-weight: 400;
+  color: var(--blanco); letter-spacing: -0.02em;
+}
+.tarifas-tabla { margin-top: 24px; border-top: 1px solid var(--linea); }
+.tarifas-fila {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 32px;
+  padding: 18px 0; border-bottom: 1px solid var(--linea);
+}
+.tarifas-fila dt { font-size: 16px; color: var(--blanco); }
+.tarifas-detalle {
+  display: block; margin-top: 5px; font-size: 13px; line-height: 1.5;
+  color: var(--concreto); max-width: 52ch;
+}
+.tarifas-fila dd {
+  font-family: var(--mono); font-size: 17px; color: var(--blanco); white-space: nowrap;
+}
+.tarifas-desde {
+  margin-right: 8px; font-size: 11px; letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--concreto);
+}
+.tarifas-nota { margin-top: 24px; font-size: 13px; color: var(--concreto); }
+
+@media (max-width: 600px) {
+  .tarifas-fila { flex-direction: column; gap: 6px; }
+  .tarifas-fila dd { align-self: flex-start; }
+}
