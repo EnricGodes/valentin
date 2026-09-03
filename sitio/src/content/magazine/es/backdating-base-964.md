@@ -20,21 +20,21 @@ ctas:
 
 Singer cambió las reglas del juego.
 
-Un backdating es unir la linea pura del 911 entre 1965 y 1973 con un 911 más llevable, un 964.
+Un backdating combina la línea pura del 911 de entre 1965 y 1973 con un 911 más fácil de conducir: el 964.
 
 ## ¿Por qué la base 964?
 
-El 964 es la plataforma perfecta porque aúna las lineas 911 clásicas junto con unas prestaciones y equipamiento más modernos.
+El 964 es la plataforma perfecta porque aúna las líneas clásicas del 911 con unas prestaciones y un equipamiento más modernos.
 
 ## ¿Motor?
 
-Tenemos varias opciones respecto al 3.6 de 250 hp original, subirlo a 3.8 con 300 hp o acoplar al 3.6 un compresor volumétrico que desarrolla 350 hp.
+Tenemos varias opciones para el 3.6 original de 250 hp: aumentarlo a 3.8 y 300 hp, o acoplar al 3.6 un compresor volumétrico que desarrolle 350 hp.
 
 ## Diseño completo por parte del cliente
 
-En todo este proceso guiamos al cliente en la elección de los interiores, moquetas, tapizados, pieles y sobre todo color exterior custom.
+Durante todo este proceso guiamos al cliente en la elección de los interiores, las moquetas, los tapizados, las pieles y, sobre todo, el color exterior personalizado.
 
-Adaptamos las llantas que más gusten y convengan junto con el diseño de paneles de puertas, asientos y partes del salpicadero.
+Adaptamos las llantas que mejor encajen, junto con el diseño de los paneles de las puertas, los asientos y algunas partes del salpicadero.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![El 911 backdating sobre base 964, en verde inglés, tres cuartos delantero](/img/magazine/7c7a3934-IMG_1221.jpg)
@@ -44,4 +44,4 @@ Adaptamos las llantas que más gusten y convengan junto con el diseño de panele
 ![El 911 backdating verde de perfil trasero, con la línea de techo de serie F](/img/magazine/bf166a44-IMG_1226.jpg)
 :::
 
-Si deseas [más información](/contacto), contacta con nosotros de un proyecto similar te ayudaremos ¡¡¡
+Si deseas [más información](/contacto) sobre un proyecto similar, contacta con nosotros.

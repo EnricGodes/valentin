@@ -20,7 +20,7 @@ Los conductores se dejan llevar por el precio o el diseño antes de comprar un c
 
 ## 1. El libro de servicio
 
-El **libro de mantenimiento** del coche habitualmente contiene las instrucciones de conservación y mantenimiento del coche. Es un registro de **todas las intervenciones realizadas**, debidamente selladas por los talleres. Es, en definitiva, el historial de servicios además de una guía para conocer la vida actual de un vehículo. Nos dará pistas sobre:
+El **libro de mantenimiento** del coche suele contener las instrucciones para su conservación. Es un registro de **todas las intervenciones realizadas**, debidamente selladas por los talleres. Es, en definitiva, el historial de servicios, además de una guía para conocer la vida de un vehículo. Nos dará pistas sobre:
 
 1. Los **cuidados** que le ha proporcionado el propietario.
 2. Si ha sido revisado por **talleres especializados**.
@@ -30,24 +30,24 @@ Desconfía, por lo tanto, de libros que no estén sellados o cuya actividad no s
 
 ## 2. Chequeo precompra
 
-En **Valentín Motores realizamos revisiones previas** a la adquisición de vehículos, buscamos posibles fallos mecánicos o incidencias no visibles que pasan inadvertidas a los ojos de los no especializados en Porsche.
-Si quieres revisar un Porsche 911 por tu cuenta, estos son algunos de los puntos que deberías chequear:
+En **Valentín Motores realizamos revisiones previas** a la adquisición de vehículos. Buscamos posibles fallos mecánicos o incidencias no visibles que pueden pasar inadvertidos a las personas sin conocimientos especializados en Porsche.
+Si quieres revisar un Porsche 911 por tu cuenta, estos son algunos de los puntos que deberías comprobar:
 
-1. **Kilometraje**. El promedio anual de un vehículo es aproximadamente 20.000 kilómetros. Desconfía de vehículos con un kilometraje injustificadamente bajo.
-2. **Pintura**. Alrededor del tubo de escape, en molduras y ventanas pueden aparecer signos que indican si un automóvil ha sido repintado.
-3. Vehículos que han sufrido una **colisión**. Si las las juntas del cuerpo están desalineadas seguramente el vehículo ha sufrido algún accidente. La rugosidad en los contornos de los paneles del cuerpos es indicativo de que ha sido reparado. Inspecciona también el estado de las molduras, las defensas y la parrilla.
-4. **Fugas**. Las únicas pérdidas del líquido que debería sufrir un vehículo son las que provienen del condensador. Si tienes oportunidad, revisa los bajos.
-5. **Neumáticos**. Revisa que el desgaste sea simétrico. Si no es así puede indicar que requiera un equilibrado o un alineado de ruedas.
-6. **Oxidación**. Cualquier signo de oxidación representa un problema puesto que no existe una solución económica para detener su avance.
-7. **Amortiguadores**. Al ejercer una fuerte presión en un extremo de tu coche, la carrocería debería bajar y volver a su posición original de forma lenta y sin rebotar.
-8. **Interior**. Inspecciona el interior detalladamente. Un cierto desgaste entra dentro dentro de lo razonable pero resultan sospechosos retapizados en asientos blandos, cubiertas de pedal nuevas o descansabrazos desgastados. Levanta las alfombrillas en busca de evidencia de fugas de agua u oxidación. Soldaduras nuevas indican reparaciones recientes.
-9. **Mangueras**. Inspecciona las mangueras buscando desgastes o puntos débiles.
-10. **Batería**. Un bajo nivel electrolítico, terminales corroídas o una base agrietada indican una falta de mantenimiento.
-11. **Radiador y anticongelante**. Busca corrosión u oxidación alrededor del radiador, indicativo de que existe una fuga. La suciedad en el anticongelante indica falta de mantenimiento.
-12. **Filtro de aire**. Un filtro de aire sucio usualmente significa una falta de mantenimiento preventivo.
-13. **Cables de bujías**. Revisa los cables de bujías para detectar grietas, puntos quemados o desgaste.
-14. **Nivel de aceite**. Si el nivel de aceite es bajo puede indicar que el motor consume aceite.
-15. **Escape**. Revisa el color del humo de escape. El humo azul suele producirse por el consumo de aceite , el humo negro por una mala combustión y el humo blanco por un grave problema en el motor, quizás en la culata.
+1. **Kilometraje**. El promedio anual de un vehículo es de aproximadamente 20.000 kilómetros. Desconfía de los vehículos con un kilometraje injustificadamente bajo.
+2. **Pintura**. Alrededor del tubo de escape, en las molduras y en las ventanas pueden aparecer signos que indiquen si un automóvil ha sido repintado.
+3. Vehículos que han sufrido una **colisión**. Si las juntas de la carrocería están desalineadas, seguramente el vehículo ha sufrido algún accidente. La rugosidad en los contornos de los paneles de la carrocería indica que ha sido reparado. Inspecciona también el estado de las molduras, las defensas y la parrilla.
+4. **Fugas**. Las únicas pérdidas de líquido admisibles son las que proceden del condensador. Si tienes oportunidad, revisa los bajos.
+5. **Neumáticos**. Revisa que el desgaste sea simétrico. Si no es así, puede indicar que el vehículo requiere un equilibrado o una alineación de las ruedas.
+6. **Oxidación**. Cualquier signo de oxidación representa un problema, puesto que no existe una solución económica para detener su avance.
+7. **Amortiguadores**. Al ejercer una fuerte presión en un extremo del coche, la carrocería debería bajar y volver lentamente a su posición original, sin rebotar.
+8. **Interior**. Inspecciona el interior detalladamente. Cierto desgaste entra dentro de lo razonable, pero resultan sospechosos los asientos blandos retapizados, las cubiertas de los pedales nuevas o los reposabrazos desgastados. Levanta las alfombrillas en busca de indicios de fugas de agua u oxidación. Las soldaduras nuevas indican reparaciones recientes.
+9. **Mangueras**. Inspecciona las mangueras en busca de desgaste o puntos débiles.
+10. **Batería**. Un bajo nivel de electrolito, unos terminales corroídos o una base agrietada indican falta de mantenimiento.
+11. **Radiador y anticongelante**. Busca corrosión u oxidación alrededor del radiador, ya que pueden indicar que existe una fuga. La suciedad en el anticongelante indica falta de mantenimiento.
+12. **Filtro de aire**. Un filtro de aire sucio suele indicar falta de mantenimiento preventivo.
+13. **Cables de bujías**. Revisa los cables de las bujías para detectar grietas, puntos quemados o desgaste.
+14. **Nivel de aceite**. Si el nivel de aceite es bajo, puede indicar que el motor consume aceite.
+15. **Escape**. Revisa el color del humo de escape. El humo azul suele deberse al consumo de aceite; el humo negro, a una mala combustión; y el humo blanco, a un problema grave en el motor, quizá en la culata.
 
 ## 3. Horas de servicio del motor
 
@@ -57,27 +57,27 @@ En las unidades a partir del 996 se pueden consultar **las horas de servicio del
 
 El Intermediate Shaft, más conocido como IMS, es el rodamiento que sujeta el árbol intermedio y transmite el movimiento a las cadenas que van a cada una de las culatas. En los motores tipo M96, de 1998 a 2004, y tipo M97, de 2004 a 2006, **el rodamiento intermedio falla y puede provocar la rotura del motor** por un fallo de distribución e interferencia. Antes de adquirir un 911 fabricado entre 1998 y 2006, es necesario revisar el estado del IMS.
 
-En Valentín Motors tenemos una gran experiencia [verificando y cambiando IMS](/magazine/que-es-el-ims-de-porsche).
+En Valentín Motors contamos con experiencia en la [verificación y sustitución del IMS](/magazine/que-es-el-ims-de-porsche).
 
 ## 5. Historial de propietarios
 
-En la siguiente página de la DGT [https://sede.dgt.gob.es/es/vehiculos/informe-de-vehiculo/](https://sede.dgt.gob.es/es/vehiculos/informe-de-vehiculo/) es posible solicitar el**informe detallado de un vehículo**, previo pago de 9 euros. En él obtendremos un informe con la información pública que dispone la DGT, entre otras cosas incluye:
+En la siguiente página de la DGT, [https://sede.dgt.gob.es/es/vehiculos/informe-de-vehiculo/](https://sede.dgt.gob.es/es/vehiculos/informe-de-vehiculo/), es posible solicitar el **informe detallado de un vehículo**, previo pago de 9 euros. Este documento reúne la información pública de la que dispone la DGT e incluye, entre otros datos:
 
-1. Situación administrativa: Si está **autorizado para circular** o si tiene cualquier incidencia denegatoria que impida su transferencia, si la ITV esta al corriente.
-2. Datos del titular: **propietario**y cotitulares si existiesen.
-3. **Identificación**del vehículo: Matrícula, bastidor, marca, modelo, fecha matriculación, servicio, etc.
-4. Si se ha **rematriculado**nos informa y fecha, o si el vehículo es de renting.
+1. Situación administrativa: si está **autorizado para circular**, si tiene alguna incidencia denegatoria que impida su transferencia y si la ITV está al corriente.
+2. Datos del titular: **propietario** y cotitulares, si los hubiera.
+3. **Identificación** del vehículo: matrícula, bastidor, marca, modelo, fecha de matriculación, servicio, etc.
+4. Si se ha **rematriculado**, informa de ello y de la fecha, o de si el vehículo es de renting.
 5. **Información técnica** del vehículo.
 6. Datos del **seguro**: también indica si el vehículo tiene el seguro vigente.
-7. **Cargas**o gravámenes: conocer si el vehículo tiene alguna carga, embargo, precinto o hay impago del IVTM y fecha.
-8. **Historial de titulares**: tipo de propietario, empresa o particular, y las fechas del periodo.
-9. Historial de**inspecciones técnicas** (ITV): todas las inspecciones técnicas, con resultado y fecha.
-10. Historial de **kilometraje**: desde que han sido anotados por la estación ITV
-11. Historial de **bajas**: Indica la baja o bajas si las ha tenido, motivo y las fechas.
+7. **Cargas** o gravámenes: permite saber si el vehículo tiene alguna carga, embargo o precinto, o si existe un impago del IVTM, así como su fecha.
+8. **Historial de titulares**: tipo de propietario, empresa o particular, y fechas del periodo.
+9. Historial de **inspecciones técnicas** (ITV): todas las inspecciones técnicas, con su resultado y fecha.
+10. Historial de **kilometraje**: datos anotados por la estación de ITV.
+11. Historial de **bajas**: indica si ha tenido alguna baja, su motivo y las fechas.
 12. Información **medioambiental**.
-13. **Seguridad**del vehículo.
+13. **Seguridad** del vehículo.
 
-Al tratarse de información oficial no es alterable y nos puede explicar qué uso ha tenido un vehículo y si sus características coinciden con la oferta del vendedor.
+Al tratarse de información oficial, no puede alterarse y permite conocer qué uso ha tenido un vehículo y si sus características coinciden con la oferta del vendedor.
 
 ## 6. Consulta a un especialista
 
@@ -85,12 +85,12 @@ El primer Porsche 911 se construyó en 1964. Desde entonces se han fabricado mul
 
 ## 7. Unidades importadas
 
-Las unidades importadas de países europeos acostumbran a tener precios atractivos y con altos niveles de equipamientos. Pero hay que vigilar los siguientes detalles:
+Las unidades importadas de países europeos suelen tener precios atractivos y un alto nivel de equipamiento. Sin embargo, hay que vigilar los siguientes detalles:
 
-1. Habitualmente provienen de países con altos índices de precipitaciones y no es extraño encontrar **óxido en sus bajos**.
-2. De igual forma, es posible que si proviene de un país donde nieva en invierno, no es extraño encontrar **acumulación de la sal**que se utiliza para deshacer la nieve de la carretera.
-3. Merece la pena comprar la matrícula o el número del bastidor para descubrir **si ha sufrido robos o daños**.
-4. Algunos compra / ventas **manipulan el cuentakilómetros** o los datos de matriculación.
+1. Habitualmente proceden de países con altos índices de precipitaciones y no es extraño encontrar **óxido en sus bajos**.
+2. Asimismo, si proceden de un país donde nieva en invierno, no es extraño encontrar **acumulaciones de sal** utilizada para deshacer la nieve de la carretera.
+3. Merece la pena comprobar la matrícula o el número del bastidor para descubrir **si han sufrido robos o daños**.
+4. Algunos compraventas **manipulan el cuentakilómetros** o los datos de matriculación.
 
 ## 8. Libre de accidentes
 
@@ -102,8 +102,8 @@ Un coche que ha sufrido un accidente grave puede tener el chasis afectado. Si ha
 
 ## 9. Motor de fábrica
 
-El término *matching numbers*se aplica cuando el número de chasis coincide con el **número de motor y caja de cambio**con la que el vehículo salió de la fábrica. Las unidades cuyos números no coinciden tienen un valor de apreciación más bajo o son indicativos de que ha sufrido reparaciones importantes.
+El término *matching numbers* se aplica cuando el número de chasis coincide con el **número de motor y el de la caja de cambios** con los que el vehículo salió de fábrica. Las unidades cuyos números no coinciden tienen un valor de mercado más bajo y pueden haber sufrido reparaciones importantes.
 
 ## 10. Pruébalo
 
-Exige **probar el coche**. Es solo mediante un *test drive* donde podrás comprobar la respuesta del motor, la firmeza de la dirección, la fiabilidad de los frenos, el comportamiento general. Además de confirmar lo que has podido observar externamente, te servirá para saber si el coche te enamora. **Recuerda que al adquisición de un Porsche se realiza desde el corazón.**
+Conviene **probar el coche**. Solo durante un *test drive* podrás comprobar la respuesta del motor, la firmeza de la dirección, la fiabilidad de los frenos y el comportamiento general. Además de confirmar lo que has observado externamente, te servirá para valorar si el coche encaja contigo. **La decisión debe basarse tanto en estas comprobaciones como en las sensaciones al volante.**

@@ -6,7 +6,7 @@ slugOriginal: "restauracion-porsche-911-1965"
 date: 2022-04-13T06:38:25.602000Z
 lang: es
 categories: ["restauraciones"]
-excerpt: "Este proyecto nos llegó de la peor manera posible, en cajas desordenadas, con material perdido, mal desmontado y con 7 años de mudanzas de un local a otro por parte de quien custodiaba la unidad."
+excerpt: "Este proyecto nos llegó en condiciones complejas: dentro de cajas desordenadas, con material perdido, piezas mal desmontadas y después de 7 años de traslados de un local a otro por parte de quien custodiaba la unidad."
 author: "Enric Godes"
 squarespaceId: "62554c4180bf746c5c1bc65a"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-porsche-911-1965"
@@ -16,13 +16,13 @@ ctas: []
 
 ## 911 serie F, el inicio de la saga
 
-**En 1963 Porsche presentaba su nuevo modelo**, un tope de gama que nacía, más que para dar relevo al 356, para subir un peldaño por encima de éste. **Diseñado por Butzi Porsche**, el **nuevo Porsche 901** (así se presentó a la prensa antes de tener que [cambiar el 0 por un 1 para evitar problemas con Peugeot](https://periodismodelmotor.com/disputas-marcas-nombres-modelos/238749/)) daba en la diana con una imagen que enseguida se ganó el beneplácito del público, con unas líneas muy personales y proporcionadas.
+**En 1963 Porsche presentó su nuevo modelo**, un vehículo de gama alta concebido no tanto para sustituir al 356 como para situarse un peldaño por encima. **Diseñado por Butzi Porsche**, el **nuevo Porsche 901** (así se presentó a la prensa antes de tener que [cambiar el 0 por un 1 para evitar problemas con Peugeot](https://periodismodelmotor.com/disputas-marcas-nombres-modelos/238749/)) se distinguía por una imagen de líneas personales y proporcionadas que pronto obtuvo la aprobación del público.
 
 ## El estado inicial
 
-Este proyecto nos llegó de la peor manera posible, en cajas desordenadas, con material perdido, mal desmontado y con 7 años de mudanzas de un local a otro por parte de quien custodiaba la unidad.
+Este proyecto nos llegó en condiciones complejas: dentro de cajas desordenadas, con material perdido, piezas mal desmontadas y después de 7 años de traslados de un local a otro por parte de quien custodiaba la unidad.
 
-Si hay un momento importante a la hora de una restauración es el momento de desmontar componentes y partes, el orden y clasificación de las mismas es muy importante para nosotros.
+Si hay una fase decisiva en una restauración, es el desmontaje de los componentes y las piezas. Su orden y clasificación son muy importantes para nosotros.
 
 ![Restauración integral de Porsche 911 serie F 1965, 2](/img/magazine/4d0ec249-IMG_5792.JPG)
 
@@ -30,13 +30,13 @@ Si hay un momento importante a la hora de una restauración es el momento de des
 
 **Porsche 911 chasis corto: el concepto original**
 
-Entre las características de los primeros Porsche 901/911 estaba su corta distancia entre ejes de sólo 2.111 mm, sólo 11 mm más que la del 356. Con un motor bastante más pesado y que, además, colocado más todavía por detrás del eje trasero, el comportamiento dinámico de los primeros Porsche 911 era demasiado nervioso y recibió numerosas críticas, sobre todo en el mercado más importante, el americano.
+Entre las características de los primeros Porsche 901/911 figuraba su corta distancia entre ejes, de solo 2.111 mm, apenas 11 mm más que la del 356. Con un motor bastante más pesado y situado todavía más atrás del eje trasero, el comportamiento dinámico de los primeros Porsche 911 era demasiado nervioso y recibió numerosas críticas, sobre todo en el mercado estadounidense, el más importante.
 
-Empezamos con un inventario básico de componentes y piezas y la laboriosa tarea de identificar las piezas perdidas durante los traslados y se empezaron a poner las bases de las tres partidas, carrocería, mecánica y electricidad.
+Empezamos con un inventario básico de componentes y piezas, además de la laboriosa tarea de identificar los elementos perdidos durante los traslados. Después establecimos las bases de las tres áreas de trabajo: carrocería, mecánica y electricidad.
 
 ## Rehabilitación del motor
 
-En este caso el procedimiento empezó en descarbonizar y analizar pieza a pieza para reconstruir según los estandares de la marca este propulsor de 2.000cms cúbicos y 6 cilindros con 130hp.
+En este caso, el procedimiento comenzó por descarbonizar y analizar cada pieza para reconstruir, según los estándares de la marca, este propulsor de 2.000 cm³, 6 cilindros y 130 hp.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Restauración integral de Porsche 911 serie F 1965, 3](/img/magazine/444711eb-DSC04842.JPG)
@@ -62,11 +62,11 @@ Esta es la imagen del motor una vez acabado e instalado.
 
 ### La opinión de Jordi
 
-Para los más puristas, los 911 de chasis corto son algo así como el Santo Grial del modelo y, aunque los modelos posteriores tienen mejores prestaciones, el motor 2 litros resulta muy alegre cogiendo vueltas, el sonido de su escape aen régimen alto enamora y ese temperamento de una batalla tan cortita “pone” mucho a los fans.
+Para los más puristas, los 911 de chasis corto son una especie de santo grial del modelo. Aunque los posteriores tienen mejores prestaciones, el motor de 2 litros sube de vueltas con alegría, el sonido del escape resulta atractivo a un régimen alto y su corta batalla aporta un carácter especial para los aficionados.
 
 ## Los detalles del interior son la clave
 
-Una de nuestras obsesiones es dejar los vehículos según sus especificaciones originales. De esta forma, podemos atajar el paso del tiempo y un vehículo de más de cuarenta años tener la apariencia de un modelo recién salido de fábrica. El proceso pasa por conocer cada detalle de su interior .
+Uno de nuestros objetivos es devolver los vehículos a sus especificaciones originales. Así podemos contrarrestar el paso del tiempo y conseguir que un vehículo de más de cuarenta años tenga la apariencia de un modelo recién salido de fábrica. El proceso exige conocer cada detalle de su interior.
 
 **El valor de la restauración está en los detalles.**
 

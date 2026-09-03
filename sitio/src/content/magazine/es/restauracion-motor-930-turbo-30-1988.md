@@ -18,23 +18,23 @@ ctas: []
 
 ## Turbo intercooler
 
-Ejemplod e restauración de motor 930 turbo 3.0 en Valentin Motors
+Ejemplo de restauración de un motor 930 Turbo 3.0 en Valentin Motors.
 
 ![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 
-Clave en la restauración de estos motores analizar pieza a pieza, descarbonizar , pesaje y equilibrado.
+En la restauración de estos motores es clave analizar cada pieza, descarbonizarla, pesarla y equilibrarla.
 
-Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
+La primera fase de desmontaje siempre es importante para verificar el estado de todos los componentes y diagnosticar posibles problemas ocultos.
 
 ## Rehabilitación del motor
 
 Cabe diferenciar dos conceptos distintos:
 
--Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.
+- Rehabilitación del motor: realizamos el desmontaje completo de todos los componentes, tornillo a tornillo y pieza a pieza, para su posterior medición, limpieza y pesaje. Después se monta de nuevo para obtener un motor con la máxima compresión y km 0.
 
--Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
+- Gran parada: en Valentin Motors denominamos así al proceso de desacoplar el motor y la caja, seguido de un protocolo de revisión completa de los sistemas, pero sin desmontar por completo el motor.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Motor bóxer con inyección mecánica y turbina dorada, sobre el soporte](/img/magazine/362b9dd8-mot-2.jpg)

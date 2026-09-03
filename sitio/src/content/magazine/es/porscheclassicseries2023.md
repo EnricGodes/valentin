@@ -18,11 +18,11 @@ ctas: []
 
 El sábado 22 de abril se disputó la primera prueba de la temporada 2023 de las Porsche Classic Series en el circuito de velocidad de Castellolí.
 
-Valentin Motors desplegaba su primer evento 2023 en el apartado MotorSport con 3 unidades en el Box.
+Valentin Motors participó en su primer evento de 2023 en el apartado Motorsport con 3 unidades en el box.
 
-August Navarro con 981 GTS **victoria** en GT400 en las GT LAP SERIES
+August Navarro, con un 981 GTS, consiguió la **victoria** en GT400, dentro de las GT LAP SERIES.
 
-Jordi Edo con 991 GT3 Cup **primer puesto absoluto**.
+Jordi Edo, con un 991 GT3 Cup, obtuvo el **primer puesto absoluto**.
 
 :::video{src="/video/magazine/b391ceaa-fb20-46b9-8823-cb282a693f02.mp4" ancho="1920" alto="1080"}
 :::
@@ -33,7 +33,7 @@ Jordi Edo con 991 GT3 Cup **primer puesto absoluto**.
 
 ### Asistencia en circuito
 
-De las tres unidades en pista 964 RS , 981 GTS y 991 cup dos de ellas se alzaron con la victoria absoluta en este primer round de la temporada
+De las tres unidades en pista, el 964 RS, el 981 GTS y el 991 cup, dos se alzaron con la victoria absoluta en esta primera prueba de la temporada.
 
 ## Imágenes de la jornada
 

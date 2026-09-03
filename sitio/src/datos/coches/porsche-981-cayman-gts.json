@@ -4,7 +4,7 @@
   "realce": "realce--cayman",
   "meta": {
     "titulo": "Porsche 981 Cayman GTS · Valentin Motors",
-    "descripcion": "Porsche 981 Cayman GTS 2015 en Amarillo P3. Motor bóxer atmosférico 3.4 litros, 340 CV, PDK, interior piel/Alcántara negro. Libro de servicio completo. Disponible en Valentin Motors.",
+    "descripcion": "Porsche 981 Cayman GTS 2015 en Amarillo P3. Motor bóxer atmosférico 3.4 litros, 340 CV, PDK e interior negro de piel y Alcántara. Libro de servicio completo. Disponible en Valentin Motors.",
     "ogImagen": "https://valentin.up.railway.app/img/cayman/exterior1.jpg"
   },
   "hero": {
@@ -143,7 +143,7 @@
       }
     ],
     "parrafos": [
-      "El <strong>bóxer de seis cilindros y 3,4 litros</strong> del Cayman GTS no depende de la sobrealimentación para generar emoción. Su carácter es completamente atmosférico: respuesta directa desde medio régimen, ganando decisión y sonido a medida que se estiran las revoluciones, con el mejor momento de la entrega por encima de las <strong>4.000 rpm</strong>.",
+      "El <strong>bóxer de seis cilindros y 3,4 litros</strong> del Cayman GTS no depende de la sobrealimentación para generar emoción. Su carácter es completamente atmosférico: ofrece una respuesta directa desde medio régimen y gana intensidad y sonoridad a medida que sube de revoluciones, con el mejor momento de la entrega por encima de las <strong>4.000 rpm</strong>.",
       "La caja <strong>PDK</strong> gestiona los 340 CV con precisión milimétrica, permitiendo cambios rápidos en modo Sport o una conducción fluida en uso cotidiano. La tracción es <strong>trasera</strong>, reforzando la conexión entre el conductor y el chasis."
     ],
     "tags": [
@@ -158,7 +158,7 @@
   "exterior": {
     "etiqueta": "Exterior",
     "titulo": "Amarillo P3.<br/><strong>Bajo, ancho<br/>y preciso.</strong>",
-    "texto": "El <strong>Amarillo P3</strong> convierte este Cayman en una declaración visual directa. La especificación GTS añade al color de carrocería los faros oscurecidos, las llantas negras multirradio, las pinzas de freno rojas y el difusor trasero negro, construyendo un conjunto de máximo contraste y presencia deportiva. Carrocería verificada sin accidentes.",
+    "texto": "El <strong>Amarillo P3</strong> define con claridad la presencia visual de este Cayman. La especificación GTS combina el color de la carrocería con faros oscurecidos, llantas negras multirradio, pinzas de freno rojas y un difusor trasero negro, en un conjunto de marcado contraste y carácter deportivo. Carrocería verificada sin accidentes.",
     "fotos": [
       {
         "src": "/img/cayman/close-up1.jpg",
@@ -192,14 +192,14 @@
   },
   "interior": {
     "etiqueta": "Interior",
-    "titulo": "Piel y Alcántara.<br/><strong>Cockpit GTS.</strong>",
+    "titulo": "Piel y Alcántara.<br/><strong>Puesto de conducción GTS.</strong>",
     "fotos": [
       {
         "src": "/img/cayman/interior1.jpg",
-        "alt": "Cockpit GTS",
+        "alt": "Puesto de conducción GTS",
         "ancho": 1400,
         "alto": 1050,
-        "caption": "Cockpit · Piel / Alcántara negro · Asientos GTS"
+        "caption": "Puesto de conducción · Piel y Alcántara en negro · Asientos GTS"
       },
       {
         "src": "/img/cayman/interior2.jpg",
@@ -408,8 +408,8 @@
     "intro": "«En conducción, el 981 Cayman GTS se siente como un deportivo muy preciso, pero todavía fácil de llevar rápido».",
     "parrafos": [
       "El chasis es muy equilibrado: entra donde apuntas el volante y se nota muy aplomado incluso a buen ritmo. Las reacciones son <strong>progresivas</strong>, nada bruscas, lo que genera una confianza que invita a seguir apretando. Lo que más define este coche no es la velocidad, sino la calidad de la información que te da.",
-      "El <strong>motor atmosférico</strong> tiene el carácter que el turbo no puede replicar: respuesta lineal, subida de vueltas con decisión, y un sonido que acompaña la aceleración de forma muy presente. Es un motor que hay que llevar a las rpm. Por encima de las <strong>4.000 rpm</strong> el coche se transforma.",
-      "Esta unidad tiene además el historial ideal: cuatro servicios documentados, tres en Centro Porsche oficial y el último en Valentin Motors. Es un coche del que se conoce exactamente lo que se ha hecho y cuándo. Para un comprador que sabe lo que busca, eso tiene un valor enorme."
+      "El <strong>motor atmosférico</strong> tiene un carácter que el turbo no puede replicar: respuesta lineal, una subida de vueltas decidida y un sonido que acompaña la aceleración de forma muy presente. Es un motor que conviene llevar alto de revoluciones. Por encima de las <strong>4.000 rpm</strong>, el coche se transforma.",
+      "Esta unidad cuenta además con un historial bien documentado: cuatro servicios, tres en Centro Porsche oficial y el último en Valentin Motors. Se conoce qué trabajos se han realizado y cuándo, una información relevante para valorar el vehículo."
     ],
     "prosTitulo": "Lo mejor",
     "pros": [

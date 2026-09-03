@@ -14,11 +14,11 @@ ctas: []
 ---
 ## El estado inicial
 
-Después de largas conversaciones en el taller y en el Bar se llega a un esquema de proyecto en el cual ambas partes están de acuerdo.
+Después de largas conversaciones en el taller y en el bar, se definió un proyecto con el que ambas partes estuvieron de acuerdo.
 
-Un backdating no es de libro, no es “copiar” o “hacer”, no es … yo quiero un Singer… hay miles de detalles y miles de escenarios que pueden plantearse o evaluar, entre ellos el valor que tendrá la unidad después del proyecto.
+Un backdating no consiste en seguir un manual, copiar o decir «quiero un Singer». Hay miles de detalles y escenarios que pueden plantearse o evaluarse, entre ellos el valor que tendrá la unidad después del proyecto.
 
-Es aquí donde Valentin Motors incide más y enfoca el proyecto, en que ese 911 tenga un valor especial una vez terminado, que sea diferenciador e único.
+Aquí es donde Valentin Motors pone el foco: en conseguir que ese 911 tenga un valor especial una vez terminado, que sea diferente y único.
 
 ![En proceso el resultado final](/img/magazine/19ddc780-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg)
 
@@ -26,13 +26,13 @@ Es aquí donde Valentin Motors incide más y enfoca el proyecto, en que ese 911 
 
 ### La opinión de Jordi
 
-Si os digo la verdad, nadie sabe qué va a pasar con estas conversiones. Sí sabemos lo que vale un SINGER nuevo, también sabemos lo que valen ahora de ocasión, y también sabemos qeu en España es imposible de homologar un SINGER , (milagros a parte).
+Si os digo la verdad, nadie sabe qué ocurrirá con estas conversiones. Sabemos lo que cuesta un SINGER nuevo y lo que cuestan ahora de segunda mano. También sabemos que en España es imposible homologar un SINGER (milagros aparte).
 
 Conocemos los ejercicios de Gunters, Kienles, Kreizels, etc.
 
-Un backdating es un ejercicio de estilo y personalidad, quien lo hace suele ser alguien ene l cual poco vas a influir… , saben lo que quieren y punto.
+Un backdating es un ejercicio de estilo y personalidad. Quien lo encarga suele ser alguien en quien poco vas a influir: sabe lo que quiere y punto.
 
-Aún así, las líneas rojas las marcamos nosotros en favor de lo que puedas pasar ene l futuro.
+Aun así, las líneas rojas las marcamos nosotros, teniendo en cuenta lo que pueda ocurrir en el futuro.
 
 ## Estado inicial del proceso
 

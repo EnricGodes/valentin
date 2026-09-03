@@ -6,7 +6,7 @@ slugOriginal: "club-de-propietarios-porsche"
 date: 2022-01-23T06:37:58.730000Z
 lang: es
 categories: ["eventos"]
-excerpt: "Hace algunos años empezamos a reunimos esporádicamente para hacer alguna salida durante el fin de semana con algunos clientes. Poco a poco el interés por estas salidas fue creciendo y hoy en día se ha convertido en una excusa para reunir a gente con inquietudes comunes alrededor de una actividad. La participación está abierta a todo el mundo y es gratuita."
+excerpt: "Hace algunos años empezamos a reunirnos esporádicamente con algunos clientes para hacer alguna salida durante el fin de semana. Poco a poco, el interés por estas actividades fue creciendo y hoy se han convertido en una oportunidad para reunir a personas con inquietudes comunes. La participación está abierta a todo el mundo y es gratuita."
 author: "Enric Godes"
 squarespaceId: "61ecf7c5b83f0870590cee2b"
 originalUrl: "https://www.valentinmotors.es/magazine/club-de-propietarios-porsche"
@@ -16,9 +16,9 @@ ctas: []
 
 *Salida a Catellolí*
 
-Hace algunos años empezamos a reunimos esporádicamente para hacer alguna salida durante el fin de semana con algunos clientes. Poco a poco el interés por estas salidas fue creciendo y hoy en día se ha convertido en una excusa para**reunir a gente con inquietudes comunes**alrededor de una actividad.
+Hace algunos años empezamos a reunirnos esporádicamente con algunos clientes para hacer alguna salida durante el fin de semana. Poco a poco, el interés por estas actividades fue creciendo y hoy se han convertido en una oportunidad para **reunir a personas con inquietudes comunes** alrededor de una actividad.
 
-La participación **está abierta a todo el mundo**y es **gratuita**, con el único gasto de los derivados de la actividad: restaurantes, alquiler de circuitos, alquiler de sistema de comunicaciones, etc.
+La participación **está abierta a todo el mundo** y es **gratuita**; solo deben abonarse los costes derivados de cada actividad: restaurantes, alquiler de circuitos, alquiler del sistema de comunicaciones, etc.
 
 ## Nuestras actividades
 
@@ -30,19 +30,19 @@ Cada dos meses, si las circunstancias sociosanitarias lo permiten, realizamos al
 
 ### Track days
 
-Habitualmente alquilamos un circuito a pocos kilómetros de Barcelona donde realizamos tandas, momento en que podemos disfrutar de una conducción deportiva de nuestros vehículos. Hemos visitado casi todas las pistas de Catalunya, incluso hemos circulado en el interior de un aeropuerto.
+Habitualmente alquilamos un circuito a pocos kilómetros de Barcelona y realizamos tandas en las que podemos disfrutar de una conducción deportiva. Hemos visitado casi todas las pistas de Catalunya e incluso hemos circulado por el interior de un aeropuerto.
 
 ### Cursos de conducción
 
-Realizamos cursos de conducción deportiva, cursos de conducción segura… momentos donde guiados por profesionales adquirimos nuevas competencias en la conducción.
+Realizamos cursos de conducción deportiva y segura en los que, guiados por profesionales, adquirimos nuevas competencias al volante.
 
 ### Endurance
 
-El formato endurance consiste en una salida de uno o dos días donde recorremos tramos míticos de vías públicas que combinamos con eventos gastronómicos.
+El formato endurance consiste en una salida de uno o dos días en la que recorremos tramos míticos de vías públicas y los combinamos con actividades gastronómicas.
 
 ### Actividades culturales
 
-Aprovechando que somos un grupo de personas con intereses comunes, buscamos combinar actividades que ´no se centren exclusivamente en la conducción: visitas a bodegas, catas de vino, vista de colecciones privadas,…
+Como somos un grupo de personas con intereses comunes, buscamos combinar la conducción con otras actividades: visitas a bodegas, catas de vino, visitas a colecciones privadas, etc.
 
 ### Outlaws
 
@@ -57,12 +57,12 @@ Anunciaremos previamente las actividades en nuestras [redes sociales](https://ww
 
 ### 9/11 Rebel Ride
 
-Fecha: noviembre 2019
-Lugar: Catalunya interior
+Fecha: noviembre de 2019
+Lugar: interior de Catalunya
 
-El sábado 11 de noviembre, desde Valentin Motors quisimos rendir tributo a esta fecha tan importante para nosotros, como amantes Porsche que somos. Un día muy especial, ya que en esta ocasión el **11/9** caía en sábado y, obviamente, no podíamos dejar escapar esta oportunidad. Así que reunimos a otros **apasionados de los 911** para que nos acompañaran en este evento tan único, la **"9/11 Rebel Ride"**.
+El sábado 11 de noviembre, desde Valentin Motors rendimos tributo a una fecha importante para los aficionados a Porsche. En esta ocasión, el **11/9** caía en sábado, así que reunimos a otros **apasionados de los 911** para celebrar la **«9/11 Rebel Ride»**.
 
-Ni más ni menos que **20 magníficos** vehículos nos siguieron por la carreteras de la Catalunya interior, en un recorrido que dividimos en 5 espectaculares tramos: Pinos, Hostalnou, Vilaredes, Taurons y La Bassa. Disfrutamos conduciendo, a muy buen ritmo, por unas bellas y técnicas carreteras, aptas para todos los conductores. Una mañana en la que nos encontramos con niebla y nubes, pero al final el sol nos sonrió en buena parte de la jornada, la cual acabamos con una comida en el reputado restaurante **Aligué**, toda una delicia para nuestros paladares. El final perfecto para un día tan memorable, porque era nuestro día.
+**20 vehículos** nos acompañaron por las carreteras del interior de Catalunya. El recorrido se dividió en 5 tramos: Pinos, Hostalnou, Vilaredes, Taurons y La Bassa. Disfrutamos de unas carreteras técnicas y aptas para todos los conductores. La mañana empezó con niebla y nubes, pero el sol acabó apareciendo durante buena parte de la jornada. Terminamos con una comida en el restaurante **Aligué**.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Fila de Porsche aparcados en una calle durante la salida 9/11 Rebel Ride, con un 991 Carrera blanco en primer plano](/img/magazine/63216172-1-images-911.REBELRIDE-WhatsApp-Image-2019-11-11-at-11.44.09.jpeg)
@@ -77,7 +77,7 @@ Ni más ni menos que **20 magníficos** vehículos nos siguieron por la carreter
 Fecha: septiembre de 2019
 Lugar: Rosellón, Francia
 
-Después del briefing y un buen desayuno, salimos hacia la carretera bajo una mañana oscura y lluviosa, dirigiéndonos al primer control de reagrupamiento en la gasolinera **Q8 de Matadepera**. A partir de ahí seguimos nuestra ruta por unos espectaculares paisajes y montañas, hasta llegar al restaurante **Mitic**, donde paramos para descansar y recargar energías con una deliciosa comida. La tarde la dirigimos hacia los preciosos tramos franceses del **Vallespir**, finalizando en la localidad de **Le Boulou**. No podíamos acabar de otra manera la intensa jornada, que cenando en el espectacular restaurante el **Solomillo**, todo un lujo que se merece nuestra VI Endurance.
+Después del briefing y el desayuno, salimos a la carretera en una mañana oscura y lluviosa y nos dirigimos al primer control de reagrupamiento, en la gasolinera **Q8 de Matadepera**. Desde allí continuamos la ruta por paisajes de montaña hasta llegar al restaurante **Mitic**, donde paramos para descansar y comer. Por la tarde recorrimos los tramos franceses del **Vallespir** y terminamos en la localidad de **Le Boulou**. La jornada concluyó con una cena en el restaurante **Solomillo**.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Briefing de salida del VI Endurance en el taller, con los coches preparados al fondo](/img/magazine/00e9b3c7-1-images-VI.ENDURANCE-WhatsApp-Image-2019-09-21-at-09.24.22.jpeg)
@@ -93,9 +93,9 @@ Después del briefing y un buen desayuno, salimos hacia la carretera bajo una ma
 Fecha: mayo de 2019
 Lugar: aeropuerto de La Seu d’Urgell
 
-Esta vez decidimos darle un giro a nuestras míticas rutas por carretera y hacer algo distinto en un terreno muy especial, un **aeropuerto**, concretamente el de La Seu d'Urgell. ¿Y porque no utilizar una pista de aviación para crear un "**track day"** para nuestros Porsche? Y así lo hicimos. El sábado 4 de mayo tubo lugar nuestro "The Grand Tour Tribute", durante una mañana llena de diversión y anécdotas que vivimos junto a nuestros participantes, ¡unos grandes riders!
+Esta vez decidimos dar un giro a nuestras rutas por carretera y hacer algo distinto en un terreno especial: un **aeropuerto**, concretamente el de La Seu d'Urgell. ¿Por qué no utilizar una pista de aviación para crear un **«track day»** para nuestros Porsche? Y así lo hicimos. El sábado 4 de mayo tuvo lugar nuestro «The Grand Tour Tribute», una mañana de conducción y anécdotas junto a los participantes.
 
-Un día esplendido de sol nos acompañó toda la jornada, la cuál empezó con puntualidad a las 10 de la mañana. Después del briefing habitual, los 3 grupos en los que se dividieron los asistentes, se dirigieron cada uno a su zona. El aeropuerto se dividió **en 3 espectaculares circuitos**, uno de ellos más exigente, con mayor recorrido y acompañado de una curva pasada por agua, el otro destacó por sus divertidos eslalon, y finalmente el último y el más diferente, donde nuestros participantes tuvieron que dejar de lado los Porsche para subirse a un Beetle que convertimos en un tracción trasera, teniendo que hacer un ejercicio para aprender a hacer contravolante, ya que el eje trasero llevaba las ruedas locas, ¡todo un reto! Una vez finalizada la mañana, nos dirigimos a comer y a descansar en el espléndido Aravell Golf & Country Club, donde finalizamos el día.
+Un día espléndido y soleado nos acompañó durante toda la jornada, que empezó puntualmente a las 10 de la mañana. Después del briefing habitual, los asistentes se dividieron en 3 grupos y cada uno se dirigió a su zona. El aeropuerto se organizó **en 3 circuitos**: uno más exigente, con mayor recorrido y una curva pasada por agua; otro centrado en los eslálones; y un tercero en el que los participantes dejaron los Porsche para subirse a un Beetle convertido en un vehículo de tracción trasera. En este último realizaron un ejercicio de contravolante, ya que el eje trasero llevaba ruedas locas. Una vez finalizada la mañana, nos dirigimos a comer y descansar en el Aravell Golf & Country Club, donde concluimos el día.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Un 911 Turbo negro junto a una avioneta en la pista, con la sierra nevada al fondo, en The Grand Tour](/img/magazine/195d1c88-1-images-THEGRANDTOUR-WhatsApp-Image-2019-05-05-at-16.36.09.jpeg)
@@ -116,7 +116,7 @@ Un día esplendido de sol nos acompañó toda la jornada, la cuál empezó con p
 Fecha: abril de 2019
 Lugar: Solsonés y Cerdanya
 
-Esta vez, nuestro tour se centró en una intensa mañana, que aprovechamos para recorrer las espectaculares carreteras del **Solsonés**, pasando por la falda del **Cadí**, y así llegando a la**Seu D'Urgell**, con unos paisajes que nos dejaron sin aliento. Después de un intenso pero gratificante trayecto, llegamos a **El Paller de Queixans**, en Puigcerdà, para deleitar su típica cocina y poder descansar, sin prisas ni preocupaciones, antes de volver a casa.
+Esta vez, nuestro tour se concentró en una mañana en la que recorrimos las carreteras del **Solsonés**, pasamos por la falda del **Cadí** y llegamos a la **Seu D'Urgell**. Después del trayecto, nos dirigimos a **El Paller de Queixans**, en Puigcerdà, para disfrutar de su cocina y descansar antes de volver a casa.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Vista aérea de los Porsche del V Endurance alineados en la carretera junto a una iglesia románica](/img/magazine/72eece4f-WhatsApp-Image-2019-03-30-at-17.31.34-3.jpeg)
@@ -130,7 +130,7 @@ Esta vez, nuestro tour se centró en una intensa mañana, que aprovechamos para 
 Fecha: enero de 2019
 Lugar: Vallespir y sur de Francia
 
-Un sábado muy intenso pero divertido, donde disfrutamos muchísimo de las carreteras del Vallespir y del sur de Francia, con tramos más técnicos pero espectaculares.
+Fue un sábado intenso y divertido, durante el que recorrimos las carreteras del Vallespir y del sur de Francia, con tramos técnicos y paisajes destacados.
 
 :::galeria{diseno="pase" porFila="4" proporcion="square"}
 ![Los Porsche del IV Endurance aparcados en un llano entre montañas, con un 964 Carrera rojo en primer plano](/img/magazine/8f3ff3a5-IMG_4316.jpg)
@@ -146,7 +146,7 @@ Un sábado muy intenso pero divertido, donde disfrutamos muchísimo de las carre
 Fecha: diciembre de 2018
 Lugar: Igualada
 
-Disfrutamos a lo grande de la jornada, con plazas totalmente cubiertas y una gran participación de nuestros riders. Un éxito del que estamos muy orgullosos. El tour fue caracterizado por una mezcla de carreteras de todo tipo alrededor de la zona de Igualada, con un formato más concentrado, que exigió a los riders más implicación.
+La jornada contó con todas las plazas cubiertas y una amplia participación. El tour se caracterizó por una combinación de carreteras de todo tipo alrededor de Igualada y por un formato más concentrado, que exigió una mayor implicación de los participantes.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Los Porsche del III Endurance aparcados en un mirador, con un 996 Turbo de llantas doradas en primer plano](/img/magazine/34867ce8-WhatsApp-Image-2018-12-17-at-10.59.49.jpeg)
@@ -162,9 +162,9 @@ Disfrutamos a lo grande de la jornada, con plazas totalmente cubiertas y una gra
 Fecha: octubre de 2018
 Lugar: Rossellón, Francia
 
-Dividido en dos partes y **8 stages** recorriendo famosos tramos de enlaces conocidos y con increíbles vistas de esta preciosa zona del **Rosellón**. Siendo el formato de mañana más fácil con carreteras conocidas y espectaculares, y el sector de tarde más técnico y complejo acompañado con una parte final con poca luz y con **4 stages** muy técnicos.
+El recorrido se dividió en dos partes y **8 stages** por tramos de enlace conocidos y con buenas vistas de esta zona del **Rosellón**. El sector de la mañana fue más sencillo y transcurrió por carreteras conocidas; el de la tarde fue más técnico y complejo, con poca luz en la parte final y **4 stages** de mayor dificultad.
 
-Buscamos una jornada con “**un punto de dureza**”, apta para todos los niveles y con la garantía de seguridad de nuestras salidas guiadas con road-book, siempre siguiendo las normas de seguridad básicas.
+Diseñamos una jornada con **un punto de dureza**, apta para todos los niveles y guiada mediante roadbook, siempre de acuerdo con las normas básicas de seguridad.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Los Porsche del II Endurance aparcados junto a una muralla, con un 991 GT3 RS plata delante](/img/magazine/d538038e-WhatsApp-Image-2018-10-29-at-10.34.11.jpeg)
@@ -182,11 +182,11 @@ Buscamos una jornada con “**un punto de dureza**”, apta para todos los nivel
 Fecha: septiembre de 2018
 Lugar: Rossellón, Francia
 
-Limitado a 10 vehículos y enfocado al *sport driver*que quiera sumergirse en un recorrido seleccionado de dos días entrando en Francia y recorriendo los más famosos tramos de la comarca francesa del Vallespir.
+Limitado a 10 vehículos, el evento se dirigía al *sport driver* que quisiera sumergirse en un recorrido de dos días por Francia y por los tramos más conocidos de la comarca del Vallespir.
 
-Los tramos seleccionados fueron lo míticos en pruebas de motorsport de la zona. Tanto por su belleza y ubicación, como la tecnicidad en el tramo de “Corsavy “ o “Sant Marçal”.
+Los tramos seleccionados eran míticos en las pruebas de motorsport de la zona, tanto por su belleza y ubicación como por su nivel técnico, especialmente en «Corsavy» y «Sant Marçal».
 
-El programa consistió en salida viernes desde Barcelona y finalizó sábado a las 12:00h en Le Boulou. Ruta guiada con controles de paso para el control del tour.
+El programa comenzó con la salida del viernes desde Barcelona y finalizó el sábado a las 12:00 h en Le Boulou. La ruta estuvo guiada y contó con controles de paso para supervisar el tour.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Carretera de curvas vista desde el interior de un Porsche, en el I Endurance Tour](/img/magazine/38de7a2d-1-images-noticias-TIPS911-1consejos-viajar-porsche-911-paisaje-ruta-964.jpg)
@@ -197,13 +197,13 @@ El programa consistió en salida viernes desde Barcelona y finalizó sábado a l
 Fecha: abril de 2018
 Lugar: La Rioja
 
-Un fin de semana emocionante y lleno de sorpresas. Hoteles Boutique, paisajes, carreteras perdidas, cultura vinícola, gastronomía de la zona, y lo más importante, excelentes compañeros de viaje...
+Fue un fin de semana con hoteles boutique, paisajes, carreteras secundarias, cultura vinícola, gastronomía local y buenos compañeros de viaje.
 
-En esta ocasión con destino **Rioja Alta**, acogidos por nuestros clientes y amigos **Iván**y**Fernando**. Nos han guiado por su tierra y hemos disfrutado muchísimo de todas las actividades que hemos realizado.
+En esta ocasión, el destino fue **Rioja Alta**, donde nos acogieron nuestros clientes y amigos **Iván** y **Fernando**. Nos guiaron por su tierra y nos acompañaron en todas las actividades.
 
-Carreteras que permiten disfrutar del esplendor verde que se compenetra perfectamente con los diferentes **modelos de 911**. Conocer Haro (el Barrio de la Estación), Briones (el pueblo más bonito de España) y San Millán de la Cogolla.
+Las carreteras permitieron disfrutar de un paisaje verde que contrastaba con los diferentes **modelos de 911**. También visitamos Haro y su Barrio de la Estación, Briones y San Millán de la Cogolla.
 
-Después de este viaje, podemos asegurar que hay varias citas imprescindibles: Las Bodegas Rioja Alta, Restaurante 4 arcos, Museo Vivanco y los Monasterios de Yuso y Suso. *Entre vinos y costillas* descubrimos el nacimiento del castellano, o el patrón de España: San Millán.
+Después de este viaje, podemos señalar varias visitas imprescindibles: las Bodegas Rioja Alta, el Restaurante 4 arcos, el Museo Vivanco y los Monasterios de Yuso y Suso. *Entre vinos y costillas*, descubrimos el nacimiento del castellano y la figura de San Millán, patrón de España.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Los Porsche del evento de la Rioja Alta aparcados en una calle con la iglesia al fondo](/img/magazine/25c1bfa5-4-evento-taller-porsche-barcelona.jpeg)
@@ -216,17 +216,17 @@ Después de este viaje, podemos asegurar que hay varias citas imprescindibles: L
 Fecha: octubre de 2017
 Lugar: Pamplona
 
-Disfrutamos tanto el último fin de semana de marzo que no hemos podido evitar regresar. En esta ocasión, campo base en Pamplona, en concreto en el Hotel Muga de Beloso. Nos han atendido de maravilla. Habitaciones de encanto, parking privado y un spa, ideal para relajarnos después de 500kms recorridos desde la Ciudad Condal.
+Disfrutamos tanto del último fin de semana de marzo que decidimos regresar. En esta ocasión, establecimos el campo base en Pamplona, concretamente en el Hotel Muga de Beloso. El hotel ofrecía habitaciones con encanto, aparcamiento privado y un spa para relajarnos después de recorrer 500 km desde la ciudad condal.
 
-Todos aquellos clientes que no tuvieron la oportunidad de escaparse con nosotros en marzo, en esta segunda ocasión no se lo han pensado ni un solo instante. Nos gustan los eventos con formato de fin de semana. Al más estilo Porsche. Somos más que un taller especialista Porsche en Barcelona. Nos gusta tener excusas para salir en busca de aventuras. Hemos podido comprobar que, rutas y gastronomía es la formula óptima para conocer nuevas zonas. Carreteras con acusada personalidad y naturaleza en estado puro.
+Los clientes que no pudieron acompañarnos en marzo no dudaron en sumarse en esta segunda ocasión. Nos gustan los eventos con formato de fin de semana y buscamos oportunidades para salir a explorar. Comprobamos que las rutas y la gastronomía son una fórmula adecuada para conocer nuevas zonas, carreteras con personalidad y entornos naturales.
 
-Aprovechando la ocasión para reencontrarnos con clientes de Logroño, Pamplona y Bilbao. Sin duda alguna, han sido nuestra mano derecha. Líderes que nos han hecho explorar por zonas que el Google Maps desconoce.
+Aprovechamos la ocasión para reencontrarnos con clientes de Logroño, Pamplona y Bilbao. Fueron nuestros guías y nos ayudaron a explorar zonas que Google Maps desconoce.
 
 Siguiendo sus consejos, fuimos al Museo de las Brujas en Zugarramurdi. Envueltos por las historias y leyendas que surgieron en torno al proceso inquisitorial de 1610, realizamos una visita cultural guiada.
 
-También visitamos las Bodegas Otazu. Una catedral del vino que integra las más avanzadas tecnologías de elaboración del vino. Toda una experiencia, ya que la visita no solo trataba del vino en sí, sino también de todas las obras de arte que hay durante el recorrido.
+También visitamos las Bodegas Otazu, una catedral del vino que integra las tecnologías de elaboración más avanzadas. La visita no se centró únicamente en el vino, sino también en las obras de arte expuestas a lo largo del recorrido.
 
-Descubrir Roncesvalles, la Sierra de Irati y dejarnos llevar por las leyendas del Valle de Baztan es un sueño cumplido. En resumen; espectacular compañía y carreteras, junto con una exquisita gastronomía ha hecho que sea un fin de semana único.
+Recorrer Roncesvalles, la Sierra de Irati y el Valle de Baztan fue uno de los puntos destacados. En conjunto, la compañía, las carreteras y la gastronomía hicieron de este un fin de semana singular.
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Los Porsche del Winter Ride 2017 alineados sobre el césped ante un caserío](/img/magazine/f707ed0b-IMG_0197.jpg)
@@ -244,17 +244,17 @@ El pasado sábado 17 de junio, Valentin Motors organizó un **Trackday Sensation
 
 Durante la bienvenida a los asistentes se presentaron los *partners*. El personal desplazado por [**Michelin**](http://www.michelin.es/neumaticos/neumaticos-turismos?gclid=CjwKCAjwsqjKBRBtEiwAkWyN34Yje8y2clbwTmjbRvXYijK_CZ_91meSRRPMZECfLqvR0Nl00fq-GBoCOx0QAvD_BwE&gclsrc=aw.ds#type=type_2?xtor=SEC-3030-GOO-[[*Adgroup*]]--S-[%2Bmichelin]&xts=461138) explicó la gama deportiva y dio a conocer las diferentes posibilidades de montaje para los vehículos de la marca.
 
-A continuación, un reconocimiento a pie de la pista guiado por el piloto profesional David Bosch de los diferentes trazados y asfaltos. Una vez creados los tres grupos identificados por color, azul, rojo y amarillo estaban listos e impacientes por entrar a pista.
+A continuación, el piloto profesional David Bosch guio un reconocimiento a pie de pista por los diferentes trazados y asfaltos. Una vez creados los tres grupos, identificados por los colores azul, rojo y amarillo, los participantes estaban listos para entrar en pista.
 
-Los asistentes tuvieron la oportunidad de testear neumáticos Pilot Sport Cup 2 en llanta 17 y 18 y Pilot Sport 2 en llanta 18 con marcaje Porsche (N). Los tres juegos aportados por Michelin. El cambio de los mismos se realizó en boxes. Dos carpas suministradas por [**KW**](http://www.iccpremiumstyling.com/kw_suspensions/index.html) donde tres mecánicos de Valentin Motors realizaban los cambios y las comprobaciones de presiones.
+Los asistentes tuvieron la oportunidad de probar neumáticos Pilot Sport Cup 2 en llantas de 17 y 18 pulgadas, y Pilot Sport 2 en llantas de 18 pulgadas con marcaje Porsche (N). Michelin aportó los tres juegos, que se cambiaron en boxes. Dos carpas suministradas por [**KW**](http://www.iccpremiumstyling.com/kw_suspensions/index.html) acogieron a tres mecánicos de Valentin Motors, encargados de los cambios y de la comprobación de las presiones.
 
-Además, dos vehículos con los kits de suspensión KW V1 y V3 para que los clientes testearan en la pista y pudiesen comprobar de primera mano el comportamiento de estas suspensiones.
+Además, se dispuso de dos vehículos con los kits de suspensión KW V1 y V3 para que los clientes los probaran en la pista y pudieran comprobar de primera mano su comportamiento.
 
-Una vez más [**Mobil1**](https://mobiloil.com/en) estuvo presente. En esta ocasión imprescindible para realizar niveles a aquellos vehículos que no pudieron pasar por taller antes de acudir a circuito. No se debe pasar por alto revisar niveles y presiones para entrar a pista.
+Una vez más, [**Mobil1**](https://mobiloil.com/en) estuvo presente. En esta ocasión fue imprescindible para comprobar los niveles de los vehículos que no pudieron pasar por el taller antes de acudir al circuito. No se debe pasar por alto la revisión de los niveles y las presiones antes de entrar en pista.
 
-Valentin Motors presentó en primicia el último trabajo de **reconstrucción de Porsche clásico** realizado por el equipo. Montaje de suspensiones KW y sustitución de rótulas delanteras y traseras. Reconstrucción completa de motor y sustitución del conjunto de escapes. En lo referente a la pintura, paragolpes delantero y trasero, llantas *fuchs*en negro mate y brillante. Rotulación y vinilado al gusto del cliente.
+Valentin Motors presentó el último trabajo de **reconstrucción de Porsche clásico** realizado por el equipo. El proyecto incluyó el montaje de suspensiones KW, la sustitución de las rótulas delanteras y traseras, la reconstrucción completa del motor y la sustitución del conjunto de escapes. En cuanto a la pintura, se trabajó en los parachoques delantero y trasero y en las llantas *fuchs* en negro mate y brillante. La rotulación y el vinilado se realizaron al gusto del cliente.
 
-La unidad Porsche 3.2 del año 72 fue conducida por David y Jordi para corroborar el excelente trabajo del equipo técnico de Valentin Motors. Aprovechando la ocasión se realizó un reportaje que saldrá próximamente en una de las ediciones de la única revista en español especializada en Porsche, [**9ONCE Plus.**](http://9onceplus.com/)
+David y Jordi condujeron la unidad Porsche 3.2 del año 72 para comprobar el resultado del trabajo realizado por el equipo técnico de Valentin Motors. Aprovechando la ocasión, se preparó un reportaje que se publicará próximamente en la revista en español especializada en Porsche [**9ONCE Plus.**](http://9onceplus.com/)
 
 :::galeria{diseno="pase" porFila="3" proporcion="standard"}
 ![Un 911 Targa plata con franja naranja rueda en el circuito de Castellolí](/img/magazine/5315f5e4-_EDC5602.jpg)
@@ -269,11 +269,11 @@ La unidad Porsche 3.2 del año 72 fue conducida por David y Jordi para corrobora
 Fecha: junio de 2017
 Lugar: Fast Parcmotor de Castellolí
 
-Pasamos al siguiente nivel. El **sábado 17 de junio** preparamos junto al equipo de **David Bosch** del recinto [**Fast Parcmotor de Castellolí**](http://www.fastparcmotor.com/) un curso avanzado para **aprender a controlar el vehículo** ante situaciones de riesgo más complejas. Cómo realizar una conducción preventiva para evitar pérdidas de control del vehículo y anticipar riesgos en la conducción.
+Pasamos al siguiente nivel. El **sábado 17 de junio** preparamos, junto al equipo de **David Bosch** del recinto [**Fast Parcmotor de Castellolí**](http://www.fastparcmotor.com/), un curso avanzado para **aprender a controlar el vehículo** ante situaciones de riesgo más complejas. El objetivo era practicar una conducción preventiva para evitar pérdidas de control y anticipar riesgos.
 
-Fue una oportunidad ideal para todos aquellos riders que tengan como objetivo incrementar su seguridad en la conducción y conocer el comportamiento de su unidad. La participación de riders con diferentes unidades nos da la posibilidad de observar las reacciones tan diferentes que tienen los vehículos de la marca Porsche. Es increíble como traza una curva un 964 vs 997 en el circuito escuela.
+Fue una oportunidad para los participantes que querían incrementar su seguridad al volante y conocer el comportamiento de su unidad. La presencia de diferentes modelos nos permitió observar las distintas reacciones de los vehículos Porsche y comparar cómo trazan una curva un 964 y un 997 en el circuito escuela.
 
-En ocasiones en la carretera llegamos a situaciones de alto riesgo y con el desconocimiento del comportamiento del vehículo se realizan acciones erróneas. En pista y con el **asesoramiento personalizado** por parte de los instructores se pueden realizar maniobras con total seguridad. Ya que la pista está equipada para ello.
+En ocasiones, en la carretera se producen situaciones de alto riesgo y el desconocimiento del comportamiento del vehículo puede provocar acciones erróneas. En pista, con el **asesoramiento personalizado** de los instructores, las maniobras pueden practicarse con seguridad, ya que las instalaciones están preparadas para ello.
 
 Los riders recibirán las instrucciones y correcciones de los instructores mediante un walkie-talkie.
 

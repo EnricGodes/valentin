@@ -8,7 +8,7 @@ slugOriginal: "porsche-bore-scoring"
 date: 2023-01-21T09:03:06.642000Z
 lang: es
 categories: ["articulos"]
-excerpt: "El Bore Scoring es un problema afecta a los motores M097 de las versiones 997.1 con excepción de los GTs Se produce cuando los cilindros se desgastan de manera desigual, causando rayaduras y raspaduras en las paredes de los cilindros."
+excerpt: "El Bore Scoring es un problema que afecta a los motores M097 de las versiones 997.1, con excepción de los GTs. Se produce cuando los cilindros se desgastan de manera desigual, lo que causa rayaduras y raspaduras en sus paredes."
 author: "Enric Godes"
 squarespaceId: "63cbaa4aa68f813126800e9b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-bore-scoring"
@@ -24,11 +24,11 @@ La principal causa es el desprendimiento del recubrimiento de los pistones.
 
 En Valentin Motors encamisamos el bloque con una **solución definitiva** para este problema: el **NSC**.
 
-El NSC es una **aleación de níquel, silicio y carburo,** muy parecida al NICASIL (usada en los aircooled y GTs) y es la única solución definitiva.
+El NSC es una **aleación de níquel, silicio y carburo** muy parecida al NICASIL, utilizada en los aircooled y GTs, y se considera una solución definitiva.
 
 ## Causas del Bore Scoring
 
-Debido a la disposición del cárter seco en los modelos 996 997, el sistema de refrigeración de aceite y el flujo de enfriamiento miran hacia el lado inferior de los cilindros, lo que significa que el empuje del pistón en el cilindro del lado derecho se calienta un poco más que en el lado izquierdo. Esto da como resultado que **el sexto cilindro sufra más de la cuenta** cuando se aplican esfuerzos térmicos y mecánicos .
+Debido a la disposición del cárter seco en los modelos 996 y 997, el sistema de refrigeración del aceite y el flujo de enfriamiento se orientan hacia la parte inferior de los cilindros. Esto provoca que el lado derecho del cilindro, sometido al empuje del pistón, se caliente algo más que el izquierdo. Como resultado, **el sexto cilindro sufre más de la cuenta** cuando se aplican esfuerzos térmicos y mecánicos.
 
 El desprendimiento del recubrimiento de hierro de la falda del pistón provoca el gripaje del cilindro.
 
@@ -47,11 +47,11 @@ Además, la lubricación de los cilindros también puede verse comprometida si e
 
 ## Modelos Porsche afectados por el Bore Scoring
 
-Todos los**Boxster y Cayman** desde 1997 hasta 2008 y los 911 con tipos de motor M96 y M97.
+Todos los **Boxster y Cayman** de 1997 a 2008 y los 911 con motores M96 y M97.
 
-Debajo ejemplo de bloque motor M97 encamisado con Nickies (Nicasil) , listo para su ensamblaje.
+A continuación, se muestra un ejemplo de bloque motor M97 encamisado con Nickies (Nicasil), listo para su ensamblaje.
 
-En este caso también aumentado de cubicaje de 3.8 a 4.0.
+En este caso, también se aumentó la cilindrada de 3.8 a 4.0.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Cilindros encamisados de un bloque motor M97, con el rayado de bruñido a la vista](/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg)

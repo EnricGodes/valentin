@@ -18,13 +18,13 @@ ctas:
 
 Proceso completo de rehabilitación del motor de un 997.1 Turbo.
 
-## ¿Motivos principales?
+## ¿Cuáles son los motivos principales?
 
 Ruido interno del motor.
 
-## ¿Pruebas?
+## ¿Qué pruebas se realizan?
 
-Compresión motor y endoscopio cilindros.
+Prueba de compresión del motor y endoscopia de los cilindros.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Motor del 997.1 Turbo recién descargado, con la caja del filtro de aire encima](/img/magazine/8ca378e5-20240315_143644.jpg)

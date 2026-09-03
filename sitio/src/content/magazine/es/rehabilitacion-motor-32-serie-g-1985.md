@@ -18,21 +18,21 @@ ctas:
 
 *Bloque motor ya cerrado*
 
-Proceso completo de rehabilitación de motor de un 3.2 serie G.
+Proceso completo de rehabilitación del motor de un 3.2 de la serie G.
 
-## ¿Motivos principales?
+## ¿Cuáles son los motivos principales?
 
-Principalmente por prueba de compresiones motor no optimas y fugas de aceite por bloque motor.
+Principalmente, unos resultados no óptimos en las pruebas de compresión del motor y fugas de aceite procedentes del bloque.
 
-## ¿Pruebas?
+## ¿Qué pruebas se realizan?
 
 Realizamos pruebas de compresión del motor.
 
 ## Fugas de aceite
 
-Las más propensas son las de distribución y tapas de balancines parte baja, aunque parte alta se realizan en conjunto.
+Las zonas más propensas son la distribución y las tapas de balancines de la parte baja, aunque las de la parte alta se revisan conjuntamente.
 
-Si las fugas de aceite son por bloque ya nos obliga a realizar motor completo.
+Si las fugas de aceite proceden del bloque, es necesario realizar una rehabilitación completa del motor.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![El motor 3.2 serie G tal y como llegó al taller, sobre el caballete](/img/magazine/be4e380c-20240328_084511.jpg)

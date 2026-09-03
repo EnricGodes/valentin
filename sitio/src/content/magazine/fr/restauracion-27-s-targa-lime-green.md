@@ -16,7 +16,7 @@ ctas: []
 
 Oui, c'est vrai.. nous ne nous trompons pas même si vous voyez ce marron métallisé, la couleur originale de cette unité lors de sa première immatriculation à Barcelone était le magnifique N8 vert lime.
 
-Nous avons démarré ce restauration d'un 2.7 S targa national et unique propriétaire du premier jour à ce jour.
+Nous avons démarré ce restauration d'un 2.7 S Targa national et unique propriétaire du premier jour à ce jour.
 
 La commande pour la propriété porte sur une restauration de la carrosserie, de la mécanique et des intérieurs.
 

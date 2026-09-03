@@ -1,5 +1,5 @@
 ---
-title: "Proceso standart pintura en 911 clase G."
+title: "Proceso estándar de pintura en un 911 clase G"
 slugSquarespace: "porschepinturaclasica911"
 slugFinal: "proceso-pintura-911-clase-g"
 slugOriginal: "porschepinturaclasica911"
@@ -20,15 +20,15 @@ ctas:
 
 Proceso estándar de carrocería y pintura en un 911 clásico.
 
-## ¿Motivos principales?
+## ¿Cuáles son los motivos principales?
 
-Restauraciones o refresco de pintura completa en clásicos 911 que ya precisan estos trabajos.
+Restauraciones o renovaciones completas de la pintura en clásicos 911 que ya precisan estos trabajos.
 
 ## ¿Cuándo realizarlo?
 
-Es posiblemente una de las decisiones más complejas de tomar a la hora de acometer refresco de pintura externo en los 911 clásicos.
+Es una de las decisiones más complejas a la hora de acometer una renovación exterior de la pintura en los 911 clásicos.
 
-Trabajos de desmontar vehículo completo para una buena preparación de la carrocería y fondeo.
+El trabajo exige desmontar el vehículo por completo para preparar correctamente la carrocería y el fondo.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Carrocería de un 911 serie G enmascarada en el taller de chapa y pintura](/img/magazine/586a0656-3d27e9c7-2364-4e70-87d9-3c02b3fff360.jpg)

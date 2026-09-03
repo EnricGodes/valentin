@@ -18,15 +18,15 @@ ctas: []
 
 ## Interiores clásicos
 
-El trabajo en los interiores de los 911 clásicos es completo a nivel de investigación y de calidades.
+El trabajo en los interiores de los 911 clásicos exige una investigación exhaustiva y materiales de calidad.
 
-La elección de los materiales y de su colocación es clave y afecta al valor de la unidad en eun alto índice.
+La elección de los materiales y su colocación es clave y afecta en gran medida al valor de la unidad.
 
 ![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 
-Uno de los momentos más delicados en la restauración son los interiores. Elegir bien las telas, la calidad y el trabajo es proceso clave en cualquier restauración.
+Los interiores son uno de los aspectos más delicados de una restauración. Elegir bien las telas, asegurar su calidad y cuidar el trabajo es clave en cualquier proyecto.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Trabajos de tapicería original de 911 serie F, 3](/img/magazine/e26cff74-tap-2.jpg)

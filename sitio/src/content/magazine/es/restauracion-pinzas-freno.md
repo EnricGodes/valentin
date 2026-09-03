@@ -14,22 +14,22 @@ ctas: []
 ---
 ![Aspecto final pinza de freno color rojo BREMBO](/img/magazine/3f98310e-pinzas-2.jpg)
 
-*Aspecto final pinza de freno color rojo BREMBO*
+*Aspecto final de una pinza de freno de color rojo BREMBO*
 
 ## Proceso
 
-Desmontaje completo del sistema de frenos, posteriormente chorreo o arenado de las piezas con todos los orificios bien estancos.
+El proceso comienza con el desmontaje completo del sistema de frenos. Posteriormente, se chorrean o arenan las piezas con todos los orificios bien sellados.
 
-preparación de la pieza para pintura y colocación stickers, en algunos casos si ay es conveniente sustituir el juego de reparación de pistones para tener un perfecto caudal de líquido en el sistema.
+Después se prepara la pieza para pintarla y colocar los adhesivos. En algunos casos, si es necesario, conviene sustituir el juego de reparación de los pistones para mantener un caudal correcto de líquido en el sistema.
 
 ![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 
-Sí son los calipers uno de los elementos visibles claros a través de las llantas de nuestros vehículos.
+Las pinzas de freno son uno de los elementos más visibles a través de las llantas de nuestros vehículos.
 
-Muchos de ellos afectados por los años y con desperfectos en la base de las pinzas.
+Muchas están afectadas por el paso de los años y presentan desperfectos en su base.
 
-Tenerlos en perfecto estado es un elemento visible que gusta.
+Mantenerlas en buen estado mejora el aspecto del vehículo.
 
 Proceso de montaje.

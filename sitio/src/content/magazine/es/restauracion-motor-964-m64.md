@@ -18,25 +18,25 @@ ctas: []
 
 ## M64
 
-En toda la generación 964 Porsche usó el bloque de 3.600 cc que tanta fiabilidad y satisfacciones ha proporcionado a sus propietarios.
+En toda la generación 964, Porsche utilizó el bloque de 3.600 cc, que ha proporcionado fiabilidad y buenos resultados a sus propietarios.
 
 Propulsor bóxer de 6 cilindros, con 2 válvulas por cilindro y doble encendido.
 
-El bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la calle como en la competición.
+El bloque Mezger es un referente de diseño y fiabilidad, utilizado tanto en la calle como en la competición.
 
 ## 964.2
 
-Algunos cambios internos y externos sufrieron la generación de motor 964.
+La generación del motor 964 recibió algunos cambios internos y externos.
 
-Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
+La primera fase de desmontaje siempre es importante para verificar el estado de todos los componentes y diagnosticar posibles problemas ocultos.
 
 ## Rehabilitación del motor
 
 Cabe diferenciar dos conceptos distintos:
 
--Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.
+- Rehabilitación del motor: realizamos el desmontaje completo de todos los componentes, tornillo a tornillo y pieza a pieza, para su posterior medición, limpieza y pesaje. Después se monta de nuevo para obtener un motor con la máxima compresión y km 0.
 
--Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
+- Gran parada: en Valentin Motors denominamos así al proceso de desacoplar el motor y la caja, seguido de un protocolo de revisión completa de los sistemas, pero sin desmontar por completo el motor.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Rehabilitación completa motor 964 M64, 2](/img/magazine/29529723-mot-2.jpg)

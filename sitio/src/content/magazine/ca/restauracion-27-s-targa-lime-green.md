@@ -16,7 +16,7 @@ ctas: []
 
 Sí, és correcte… no ens equivoquem encara que vegeu aquest brown metallic, el color original d'aquesta unitat quan es va matricular per primera vegada a Barcelona era el preciós N8 Lime green.
 
-Comencem aquest projecte de restauració d'un 2.7 S targa nacional i d'un sol propietari des del primer dia.
+Comencem aquest projecte de restauració d'un 2.7 S Targa nacional i d'un sol propietari des del primer dia.
 
 L'encàrrec de la propietat és de restauració completa de carrosseria, mecànica i interiors.
 

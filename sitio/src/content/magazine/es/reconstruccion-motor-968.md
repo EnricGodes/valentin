@@ -20,9 +20,9 @@ ctas:
 
 Proceso completo de rehabilitación del motor de un 968 por falta de presión de aceite.
 
-## ¿Motivos principales?
+## ¿Cuáles son los motivos principales?
 
-Falta de presión de aceite motor por fallo de bomba
+Falta de presión del aceite del motor por un fallo de la bomba.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Bloque del motor del 968 abierto, con los cilindros y los cojinetes a la vista](/img/magazine/6e767ff7-0bbaf15e-eebb-456c-85f6-4d60cbe1fc13.jpg)

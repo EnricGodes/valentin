@@ -90,8 +90,10 @@ for (const f of readdirSync(origen).filter((n) => n.endsWith('.json')).sort()) {
       continue;
     }
     const c = cambio(fila.texto.trim(), nuevo);
-    // Dos palabras sueltas son una correccion aunque el parrafo sea corto.
-    if (c.palabras > 2 && c.proporcion > limite) {
+    // Dos palabras sueltas son una correccion aunque el parrafo sea corto. Y
+    // un limite de 1 o mas es "todas": un texto corregido puede ser mas largo
+    // que el original, y entonces la proporcion pasa del 100% sin ser enorme.
+    if (limite < 1 && c.palabras > 2 && c.proporcion > limite) {
       grandes.push(`${fila.id} (${c.palabras} palabras, ${(c.proporcion * 100).toFixed(0)}%)`);
       continue;
     }

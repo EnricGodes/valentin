@@ -1,5 +1,5 @@
 ---
-title: "Restauración completa sistema inyección CIS (911 desde 1975 hasta 1982)"
+title: "Restauración completa del sistema de inyección CIS (911 de 1975 a 1982)"
 slugSquarespace: "restauracionsistemacis"
 slugFinal: "restauracion-sistema-inyeccion-cis"
 slugOriginal: "restauracionsistemacis"
@@ -20,15 +20,15 @@ ctas:
 
 Proceso completo de restauración del sistema CIS.
 
-## ¿Motivos principales?
+## ¿Cuáles son los motivos principales?
 
-Cuando reconstruimos un motor completo no solo son las piezas mecánicas, la inyección cuenta un papel principal en todo el proceso y en el funcionamiento final del trabajo.
+Cuando reconstruimos un motor completo, no solo importan las piezas mecánicas: la inyección desempeña un papel principal en el proceso y en el funcionamiento final.
 
 **Realizamos restauraciones del sistema para otros talleres**
 
 ## Componentes
 
-Actuaos en el plato sonda, comprobación de inyector en frío, saneamiento y reconstrucción del distribuidor ,sustitución de membranas, juntas, saneamiento del cilindro interno, reconstrucción del regulador, resistencia del regulador, filtro, mariposa previo arranque, válvula auxiliar de aire, y comprobación en banco.
+Actuamos sobre el plato sonda y realizamos la comprobación del inyector en frío, el saneamiento y la reconstrucción del distribuidor, la sustitución de membranas y juntas, el saneamiento del cilindro interno, la reconstrucción del regulador, la comprobación de la resistencia del regulador y del filtro, la revisión de la mariposa previa al arranque y de la válvula auxiliar de aire, y la comprobación en banco.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Restauración completa sistema inyección CIS (911 desde 1975 hasta 1982), 2](/img/magazine/3fc47bb8-9be26eb6-ca12-4ddb-9216-7d8916899168.jpg)

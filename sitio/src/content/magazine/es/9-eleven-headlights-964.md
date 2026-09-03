@@ -18,13 +18,13 @@ ctas: []
 
 9 eleven presentó su gama de tail lights para toda la serie G y el 964.
 
-El resultado a nivel de calidad de producto y look es espectacular.
+El producto ofrece un buen nivel de calidad y una estética actualizada.
 
 ![Piloto trasero LED encendido en un 964 blanco, con la banda PORSCHE iluminada](/img/magazine/31da80de-6d1eca3b-32a4-4a41-adff-b30c183d1cf0.jpg)
 
 ### Instalación y montaje
 
-En Valentin Motors disponemos de los kits de instalación y producto.
+En Valentin Motors disponemos del producto y de los kits de instalación.
 
 ## Cambio de look para el 964
 

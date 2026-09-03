@@ -20,19 +20,19 @@ ctas:
 
 Para vehículos con suspensión coilover o muelles bajos.
 
-Si queremos conservar los front lips o simplemente no dañar partes bajas de paragolpes delantero este sistema mediante botón interior nos eleva el eje delantero en 2 segundos.
+Si queremos evitar daños en los front lips o en las partes bajas del parachoques delantero, este sistema, accionado mediante un botón interior, eleva el eje delantero en 2 segundos.
 
 ## ¿Qué ganamos?
 
-Sobre todo tranquilidad si somos de aquellos que estamos constántemente sufriendo en causar algún daño a nuestro Porsche ya que aumentamos la altura libre al sulo en 100 mm.
+Aporta, sobre todo, tranquilidad a quienes temen dañar su Porsche, ya que aumenta la altura libre al suelo en 100 mm.
 
 ## ¿Por qué hacerlo?
 
-En variante s991 y 992 el fabricante lo ofrece como opción de fábrica y sobre todo, muy recomendable en los GT,S
+En las variantes s991 y 992, el fabricante lo ofrece como opción de fábrica y es especialmente recomendable en los GTs.
 
 ## ¿Afecta al valor de la unidad?
 
-Estamos convencidos qeu es un upgrade que no afecta ala originalidad y sí a la comodidad del sistema.
+Estamos convencidos de que es una mejora que no afecta a la originalidad y sí aumenta la comodidad del sistema.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Amortiguadores regulables KW en su caja, para el nose lift del 997.1](/img/magazine/a9e48a52-099977DF-48D2-4AAB-9D23-F30138669EED.JPG)

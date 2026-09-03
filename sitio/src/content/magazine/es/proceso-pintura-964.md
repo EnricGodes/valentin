@@ -1,5 +1,5 @@
 ---
-title: "Proceso standart pintura en 964 "
+title: "Proceso estándar de pintura en un 964"
 slugSquarespace: "porschepinturaclasica964-9fcrx"
 slugFinal: "proceso-pintura-964"
 slugOriginal: "porschepinturaclasica964-9fcrx"
@@ -20,15 +20,15 @@ ctas:
 
 Proceso estándar de carrocería y pintura en un 911 clásico.
 
-## ¿Motivos principales?
+## ¿Cuáles son los motivos principales?
 
-Restauraciones o refresco de pintura completa en clásicos 911 que ya precisan estos trabajos.
+Restauraciones o renovaciones completas de la pintura en clásicos 911 que ya precisan estos trabajos.
 
 ## ¿Cuándo realizarlo?
 
-Es posiblemente una de las decisiones más complejas de tomar a la hora de acometer refresco de pintura externo en los 911 clásicos.
+Es una de las decisiones más complejas a la hora de acometer una renovación exterior de la pintura en los 911 clásicos.
 
-Trabajos de desmontar vehículo completo para una buena preparación de la carrocería y fondeo.
+El trabajo exige desmontar el vehículo por completo para preparar correctamente la carrocería y el fondo.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Piezas del 964 recién pintadas en rojo: aros de faro, retrovisores y soportes](/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg)

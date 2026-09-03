@@ -16,7 +16,7 @@ ctas:
 ---
 ![27 Junio Equipo de Valentin en el Circuito del Jarama Boxes](/img/magazine/1aab446a-WhatsApp-Image-2026-07-22-at-13.11.57.jpeg)
 
-*27 Junio Equipo de Valentin en el Circuito del Jarama Boxes*
+*Equipo de Valentin en los boxes del Circuito del Jarama, 27 de junio*
 
 ## Valentin Motors Porsche Madrid
 

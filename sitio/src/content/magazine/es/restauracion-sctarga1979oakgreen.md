@@ -16,7 +16,7 @@ ctas: []
 
 Este SC de 1979 nos atrajo por su carrocería Targa y, sobre todo, por su color original Oak Green.
 
-Mantenía un estatus de nunca restaurado, pátina original y en todos los componentes motor necesitaba trabajos urgentes.
+Mantenía un estado sin restaurar y su pátina original, pero todos los componentes del motor necesitaban trabajos urgentes.
 
 Decidimos realizar una restauración integral en todos los apartados del vehículo.
 
@@ -28,7 +28,7 @@ Decidimos realizar una restauración integral en todos los apartados del vehícu
 
 ### La opinión de Jordi
 
-Devolver estas unidades a su estado inicial siempre son retos motivadores.
+Devolver estas unidades a su estado inicial siempre supone un reto motivador.
 
 Puedes discernir cómo ha sido la vida del vehículo, incluso si ha habido periodos de poco mantenimiento o trabajos parciales.
 

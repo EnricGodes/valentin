@@ -8,7 +8,7 @@ slugOriginal: "que-es-el-ims-de-porsche"
 date: 2021-12-26T09:55:45.416000Z
 lang: es
 categories: ["articulos"]
-excerpt: "La primera generación de la serie 996/986, los M96 y posteriormente los M97 presentan un fallo mecánico en el IMS, el rodamiento que sujeta el árbol intermedio."
+excerpt: "La primera generación de las series 996/986 presenta, en sus motores M96 y posteriormente en los M97, un fallo mecánico relacionado con el IMS, el rodamiento que sujeta el árbol intermedio."
 author: "Enric Godes"
 squarespaceId: "61c83178308f6460210c092c"
 originalUrl: "https://www.valentinmotors.es/magazine/que-es-el-ims-de-porsche"
@@ -22,23 +22,23 @@ ctas:
 
 El Intermediate Shaft, más conocido como IMS, es el rodamiento que sujeta el árbol intermedio y transmite el movimiento a las cadenas que van a cada una de las culatas.
 
-El Intermediate Shaft (eje intermedio) es un componente que se encuentra en algunos modelos de Porsche y se utiliza para transmitir la fuerza del motor al sistema de transmisión del vehículo. Se trata de un eje que se encuentra entre el motor y la transmisión y que ayuda a transferir la potencia del motor al sistema de transmisión del vehículo. El Intermediate Shaft es un componente importante en la tecnología de los vehículos Porsche y juega un papel fundamental en el rendimiento y la calidad del vehículo.
+El Intermediate Shaft (eje intermedio) es un componente presente en algunos modelos Porsche. Se sitúa entre el motor y la transmisión y ayuda a transferir la potencia del motor al sistema de transmisión del vehículo. Desempeña un papel importante en el funcionamiento y el rendimiento del vehículo.
 
-Los modelos siguientes al 911 993 pasan de refrigeración por aire a hacerlo por agua, *watercooled*. Es decir, la primera generación de la serie 996/986, los M96 y posteriormente los M97.
+Los modelos posteriores al 911 993 pasaron de la refrigeración por aire a la refrigeración por agua, *watercooled*. Entre ellos se encuentran la primera generación de las series 996/986, con los M96 y, posteriormente, los M97.
 
-Los rodamientos de una hilera de la primera generación, 6204DDUC3, usados entre 2000 y 2005 **presentan una deficiencia mecánica mayor que el resto de las otras dos generaciones**.
+Los rodamientos de una hilera de la primera generación, 6204DDUC3, usados entre 2000 y 2005, **presentan una mayor incidencia de fallos que los de las otras dos generaciones**.
 
-En total ha habido tres generaciones de “arboles intermedios” IMS comprendidas desde 1997 hasta 2008.
+En total, hubo tres generaciones de «árboles intermedios» IMS entre 1997 y 2008.
 
-Los rodamientos de doble hilera fueron los de la primera generación comprendidos entre 1997 y 2000 siendo el primer motor en equiparse el del Boxster Standart 2.5.
+Los rodamientos de doble hilera correspondieron a la primera generación, entre 1997 y 2000. El primer motor que los equipó fue el del Boxster Standart 2.5.
 
 La tercera generación, comprendida entre 2006 y 2008, usaba un rodamiento de mayor diámetro e integrado en el árbol intermedio.
 
-El total de años afectados comprende entre 1997 y 2008, toda la generación 986,987 y 996 con motores tipo M96 y los 997 con tipos de motor M97.
+El periodo afectado abarca de 1997 a 2008 e incluye las generaciones 986,987 y 996 con motores tipo M96, y los 997 con motores tipo M97.
 
-A partir del **997.2 2008 ya quedó totalmente resuelto** el problema.
+A partir del **997.2, en 2008, el problema quedó totalmente resuelto**.
 
-> “Si el rodamiento intermedio falla, se desprende el eje, se descuelgan las cadenas y puede producir la rotura del motor, por eso es importante revisar periódicamente el estado del IMS. La mala calidad del aceite afecta el sellado del cojinete y provoca la rotura final. Es clave reducir la perioricidad de los intervalos de aceite y usar lubricante sintético de primera calidad. Recomendamos encarecidamente servicio anual o 10.000 kms y en la medida de lo posible semestralmente. El aceite se contamina dentro del motor, principalmente de agua i combustible”
+> «Si el rodamiento intermedio falla, el eje se desprende, las cadenas se descuelgan y puede producirse la rotura del motor. Por eso es importante revisar periódicamente el estado del IMS. La mala calidad del aceite afecta al sellado del cojinete y provoca su rotura final. Es clave acortar los intervalos de cambio de aceite y usar lubricante sintético de primera calidad. Recomendamos realizar el servicio cada año o cada 10.000 km y, cuando sea posible, semestralmente. El aceite se contamina dentro del motor, principalmente con agua y combustible».
 
 > Jordi Edo
 
@@ -63,9 +63,9 @@ En el siguiente vídeo, nuestro director general, Jordi Edo, explica en detalle 
 
 ## **¿Qué vehículos están afectados?**
 
-Genéricamente están afectados los motores tipo M96 desde 1998 - 2004 y los tipo M97 2004 -2008 y todos los Boxster Cayman 986 y 987.
+En términos generales, están afectados los motores tipo M96 de 1998 a 2004 y los M97 de 2004 a 2008, así como todos los Boxster y Cayman 986 y 987.
 
-En total desde 1997 hasta 2008.
+En total, el periodo abarca de 1997 a 2008.
 
 En concreto, los siguientes vehículos:
 
@@ -83,26 +83,26 @@ Boxster y Boxster S, Cayman y Cayman S.
 
 ## **¿Cómo y cuándo se rompe el IMS?**
 
-No hay un kilometraje específico, puede ocurrir llevando el vehículo en un régimen alto o bajo de vueltas. Sucede de inmediato y es irreversible. Además, es imposible detectar el desgaste sin realizar una inspección directa.
+No existe un kilometraje específico. Puede ocurrir tanto a un régimen alto como bajo de revoluciones. Sucede de inmediato y es irreversible. Además, es imposible detectar el desgaste sin realizar una inspección directa.
 
-Es vital el aceite, calidad y asiduidad en su reposición.
+La calidad del aceite y la frecuencia de su sustitución son vitales.
 
 ![Reparación IMS Porsche](/img/magazine/69931237-IMS-PORSCHE-911.jpeg)
 
 *Nuestra experiencia** Tal y como se ve en la imagen, llevamos una gran cantidad de IMS sustituidos, casi 320 intervenciones desde 2005.*
 
-Es por ello que en **Valentin Motors ofrecemos el servicio de comprobación de estado de IMS**.
+Por ello, en **Valentin Motors ofrecemos el servicio de comprobación del estado del IMS**.
 
 Desafortunadamente, si el vehículo está afectado, no hay forma de evitarlo. Una medida preventiva es seguir el programa de mantenimiento.
 
-Dada nuestra experiencia, recomendamos realizar el cambio de aceite cada 10.000kms o 1 año. Esto nos permite tener un seguimiento del estado del vehículo y un óptimo estado de la unidad.
+Dada nuestra experiencia, recomendamos cambiar el aceite cada 10.000 km o 1 año. Esto permite hacer un seguimiento del estado del vehículo y mantener la unidad en condiciones óptimas.
 
-Incluso cada seis meses sería lo ideal ya que el aceite se contamina dentro del motor a causa del combustible y del liquido refrigerante.
+Lo ideal sería hacerlo cada seis meses, ya que el aceite se contamina dentro del motor a causa del combustible y del líquido refrigerante.
 
 ## **¿Cuál es la solución si mi vehículo está afectado?**
 
-Primero de todo diagnosticar la unidad. Una vez comprobado que el vehículo está afectado, proceder a la sustitución del rodamiento **IMS por uno reforzado que además se ha de revisar cada 20.000 kms. o 4 años desde su instalación.**
+En primer lugar, hay que diagnosticar la unidad. Una vez confirmado que el vehículo está afectado, se procede a sustituir el rodamiento **IMS por uno reforzado, que además debe revisarse cada 20.000 km o 4 años desde su instalación.**
 
-Sabemos que es una intervención a la que en ocasiones, por parte del cliente, cuesta decantarse por realizarla o no. Pero teniendo en cuenta el coste de la reparación de motor, es una intervención que aconsejamos sin ninguna duda.
+Sabemos que algunos clientes dudan sobre si realizar esta intervención. Sin embargo, frente al coste de reparar el motor, es una medida que aconsejamos.
 
 Consulta este artículo sobre la [reparación de un motor con rotura de IMS](https://www.valentinmotors.es/magazine/reparacion-motor-ims).

@@ -1,12 +1,12 @@
 ---
-title: "Restauración por incendio 911 930 turbo 1975"
+title: "Restauración tras un incendio: 911 930 Turbo de 1975"
 slugSquarespace: "restauracion-incendio-930-turbo-1976"
 slugFinal: "restauracion-incendio-930-turbo-1976"
 slugOriginal: "restauracion-incendio-930-turbo-1976"
 date: 2022-10-11T05:48:02.030000Z
 lang: es
 categories: ["restauraciones"]
-excerpt: "Sigue el proceso de restauración de este precioso 930, que llegó a nuestras instalaciones después de haber sufrido un incendio en la zona motor."
+excerpt: "Sigue el proceso de restauración de este 930, que llegó a nuestras instalaciones después de sufrir un incendio en la zona del motor."
 author: "Enric Godes"
 squarespaceId: "6344fd2a926bac6467fd8627"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-incendio-930-turbo-1976"
@@ -17,9 +17,9 @@ ctas: []
 
 ## El estado inicial
 
-Este 930 llegó a nuestras instalaciones después de haber sufrido un incendio en la zona motor probablemente por vejez de las tuberías de gasolina o *racors* que causaron el incendio que no fue posible apagar hasta pasados cuarenta minutos.
+Este 930 llegó a nuestras instalaciones después de sufrir un incendio en la zona del motor, probablemente por el envejecimiento de las tuberías de gasolina o los *racores*. El fuego no pudo apagarse hasta pasados cuarenta minutos.
 
-El tiempo es clave en los incendios y esta vez destruyó por completo el 75% de los componentes de motor como podéis apreciar en las fotos de desmontaje.
+El tiempo es clave en los incendios y, en esta ocasión, el fuego destruyó por completo el 75 % de los componentes del motor, como puede apreciarse en las fotos del desmontaje.
 
 ![Restauración 930 incencio](/img/magazine/0aa6bda0-f19.jpg)
 
@@ -29,11 +29,11 @@ El tiempo es clave en los incendios y esta vez destruyó por completo el 75% de 
 
 ### La opinión de Jordi
 
-Los retos de este tipo nos encantan.
+Este tipo de retos nos motiva.
 
-Tener la oportunidad y la confianza del cliente depositada en nuestro trabajo nos empuja a realizar estos proyectos que sin duda se valoran por los detalles.
+La oportunidad de abordar el proyecto y la confianza del cliente en nuestro trabajo nos impulsan a realizar restauraciones cuyo valor reside en los detalles.
 
-Una de las fases fue averiguar qué tapizados llevaba de fábrica, ya que en una anterior restauración se tapizó todo el interior en negro, luego descubrimos que su interior era en el precioso *copper* combinado con negro y cielo blanco que recuperaremos.
+Una de las fases consistió en averiguar qué tapizados llevaba de fábrica. En una restauración anterior se había tapizado todo el interior en negro, pero después descubrimos que originalmente era de color *copper*, combinado con negro y un techo interior blanco que recuperaremos.
 
 La primera fase de desmontaje es importante para verificar el estado de todos los componentes y planificar el proceso de restauración.
 

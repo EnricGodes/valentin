@@ -16,7 +16,7 @@ ctas: []
 
 En el año en que celebra sus **45 años de historia**, Valentín Motors, empresa especializada en el mantenimiento, la restauración y la personalización de vehículos Porsche en España, da un paso más en su crecimiento con la inauguración de un **nuevo taller en la ciudad de Barcelona**, ubicado en la calle **Varsòvia, 65**.
 
-Este nuevo espacio representa una evolución natural en la trayectoria de Valentín Motors, que desde 1979 ha sido sinónimo de pasión por los vehículos Porsche, combinando artesanía y precisión técnica al más alto nivel.
+Este nuevo espacio representa una evolución natural en la trayectoria de Valentín Motors, que desde 1979 trabaja con vehículos Porsche y combina la artesanía con la precisión técnica.
 
 ## Una nueva etapa con más espacio y más servicios
 
@@ -38,4 +38,4 @@ El nuevo taller mantiene la esencia de Valentín Motors: una atención especiali
 
 ## Presencia en Madrid
 
-Este crecimiento en Barcelona se suma a la actividad consolidada en **Madrid**, donde Valentín Motors continúa operando con un taller plenamente funcional para dar servicio a clientes del centro y sur de la península.
+Este crecimiento en Barcelona se suma a la actividad consolidada en **Madrid**, donde Valentín Motors continúa operando con un taller que presta servicio a clientes del centro y sur de la península.

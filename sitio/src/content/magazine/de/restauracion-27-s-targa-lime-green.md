@@ -16,7 +16,7 @@ ctas: []
 
 Ja, das ist richtig.. wir irren uns nicht, auch wenn Sie dieses Braunmetallic sehen. Die Originalfarbe dieses Geräts bei seiner Erstzulassung in Barcelona war das wunderschöne N8 Limettengrün.
 
-Wir haben dieses Restaurierung eines 2.7 S targa Staatsangehörigen und alleinigen Besitzer vom ersten Tag an begonnen.
+Wir haben dieses Restaurierung eines 2.7 S Targa Staatsangehörigen und alleinigen Besitzer vom ersten Tag an begonnen.
 
 Der Auftrag für die Immobilie umfasst die Restaurierung der Karosserie, Mechanik und Innenausstattung.
 

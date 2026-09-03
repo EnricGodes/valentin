@@ -1,12 +1,12 @@
 ---
-title: "Restauración completa 964 turbo (965) 1991"
+title: "Restauración completa de un 964 Turbo (965) de 1991"
 slugSquarespace: "restauracion-porsche-964-turbo-1991"
 slugFinal: "restauracion-porsche-964-turbo-1991"
 slugOriginal: "restauracion-porsche-964-turbo-1991"
 date: 2022-04-20T09:44:35.670000Z
 lang: es
 categories: ["restauraciones"]
-excerpt: "El encargo fue global y el objetivo claro, devolver la unidad a su máximo esplendor pero con una petición especial por parte del cliente: disponer de 400 hp en lugar de los 320 hp."
+excerpt: "El encargo fue global y el objetivo, claro: devolver la unidad a su mejor estado, pero con una petición especial del cliente, disponer de 400 hp en lugar de los 320 hp."
 author: "Enric Godes"
 squarespaceId: "625fc68396bff4275b1aa6cb"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-porsche-964-turbo-1991"
@@ -18,7 +18,7 @@ ctas: []
 
 La última versión con un solo turbocargador y tracción trasera fue la de la generación 964.
 
-Posteriormente el 993 ya se equipó con dos turbos y tracción a las 4 ruedas lo que facilitó a sus propietarios una conducción más digerible frente a la brutalidad de la entrega de potencia del 964 y su tracción trasera.
+Posteriormente, el 993 se equipó con dos turbos y tracción a las 4 ruedas, lo que facilitó una conducción más manejable frente a la brusca entrega de potencia del 964 y su tracción trasera.
 
 ## El estado inicial
 
@@ -26,7 +26,7 @@ Esta unidad fue adquirida en Francia en un estado de conservación normal, pero 
 
 En el apartado mecánico, teníamos tomas de aire en la admisión, problemas de arranque en caliente y fugas masivas de aceite en el bloque motor.
 
-El encargo fue global y el objetivo claro, devolver la unidad a su máximo esplendor pero con una petición especial por parte del cliente: disponer de 400 hp en lugar de los 320 hp.
+El encargo fue global y el objetivo, claro: devolver la unidad a su mejor estado, pero con una petición especial del cliente, disponer de 400 hp en lugar de los 320 hp.
 
 ![Restauración completa 964 turbo (965) 1991, 2](/img/magazine/e5b5db46-IMG_5792.JPG)
 
@@ -34,31 +34,31 @@ El encargo fue global y el objetivo claro, devolver la unidad a su máximo esple
 
 *Oldschool* es la palabra que resume la esencia del 964 Turbo.
 
-Esa posición al sentado aún alta con ese volante “lejos” y esa sensación de que no sube de vueltas hasta que haya algo que te empuja de manera sobrenatural hacia adelante y todo se te acumula de golpe.
+La posición de conducción todavía elevada, el volante «lejano» y la sensación de que el motor no sube de vueltas hasta que, de repente, algo te empuja de forma contundente hacia delante y todo sucede a la vez.
 
-Sí , hay que estar muy atento y muy concentrado para llevar bien un 964 turbo. Saber dónde tenemos los pesos justo en el momento que la entrega de potencia es muy alta en un margen de rpms muy corto es la clave.
+Sí, hay que estar muy atento y concentrado para conducir bien un 964 Turbo. La clave es conocer la distribución de los pesos justo cuando la entrega de potencia es muy alta dentro de un margen de rpm muy corto.
 
 Se suda mucho. Puro *motorsport*.
 
-Siempre la primera fase es de pruebas, probar la unidad en el estado que viene y ver los puntos que realmente necesitan trabajos a fondo o que han dejado de ser operativos en el tiempo.
+La primera fase siempre consiste en realizar pruebas: conducir la unidad en el estado en que llega y determinar qué puntos necesitan un trabajo en profundidad o han dejado de funcionar con el tiempo.
 
-Posteriormente procedemos a desacoplar la capsula motor/cambio y la llevamos a la sala de motores.
+Posteriormente, desacoplamos la cápsula motor/cambio y la llevamos a la sala de motores.
 
-El esto del vehículo pasó a la sala de restauración para cuidadosamente empezar a desmontarse guardando bien toda la tornillería y con máximo orden y pulcritud.
+El resto del vehículo pasó a la sala de restauración, donde comenzó a desmontarse cuidadosamente, con toda la tornillería bien guardada y el máximo orden.
 
-La carrocería se dejó completamente desnuda y empezar con los procesos de saneamiento de plancha y pintura.
+La carrocería se dejó completamente desnuda para comenzar los procesos de saneamiento de la plancha y la pintura.
 
-Mientras tanto en la sala de motores se empezaron los trabajos de desmontaje motor completo, revisión completa de caja de cambios y kit de transmisión y embrague.
+Mientras tanto, en la sala de motores comenzaron el desmontaje completo del motor, la revisión de la caja de cambios y la comprobación del kit de transmisión y embrague.
 
-El montaje del motor se realizó bajo los máximos estandartes de calidad y originalidad.
+El montaje del motor se realizó siguiendo criterios estrictos de calidad y originalidad.
 
 ## Rehabilitación del motor
 
 Cabe diferenciar dos conceptos distintos:
 
--Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.
+- Rehabilitación del motor: realizamos el desmontaje completo de todos los componentes, tornillo a tornillo y pieza a pieza, para su posterior medición, limpieza y pesaje. Después se monta de nuevo para obtener un motor con la máxima compresión y km 0.
 
--Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
+- Gran parada: en Valentin Motors denominamos así al proceso de desacoplar el motor y la caja, seguido de un protocolo de revisión completa de los sistemas, pero sin desmontar por completo el motor.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Restauración completa 964 turbo (965) 1991, 3](/img/magazine/f08b69d5-7.jpg)
@@ -86,9 +86,9 @@ Fases del proceso de desmontaje y montaje del motor.
 
 ![Restauración completa 964 turbo (965) 1991, 16](/img/magazine/2c5d568a-foto-jordi-2.jpg)
 
-### La opinión de la preparación sport de Jordi
+### La opinión de Jordi sobre la preparación deportiva
 
-La preparación mecánica de esta mecánica para alcanzar los 400 hp principalmente se basó en:
+La preparación mecánica para alcanzar los 400 hp se basó principalmente en:
 
 - Muelles de válvulas especiales.
 - Muelle de descarga especial.
@@ -97,7 +97,7 @@ La preparación mecánica de esta mecánica para alcanzar los 400 hp principalme
 - Turbo hecho a medida en Alemania.
 - Sistema de escape completo.
 
-Arriba podéis ver alguna fotografía de los componentes de la preparación y del sistema de escape instalado.
+En las imágenes anteriores pueden verse algunos componentes de la preparación y el sistema de escape instalado.
 
 ## La carrocería y la pintura del 964 Turbo
 
@@ -129,8 +129,8 @@ Arriba podéis ver alguna fotografía de los componentes de la preparación y de
 ![Restauración completa 964 turbo (965) 1991, 31](/img/magazine/9c77f2cd-PHOTO-2021-02-16-16-41-50.jpg)
 :::
 
-## El resultado final: 911 Turbo restauración integral
+## Resultado final: restauración integral de un 911 Turbo
 
-El resultado final es un vehículo espectacular que permite volver a sentir las sensaciones con el que vehículo fue originalmente construido. Una labor de varios meses cuyo fruto es el orgullo del taller
+El resultado permite recuperar las sensaciones para las que el vehículo fue concebido. Es el fruto de varios meses de trabajo.
 
 ![Restauración completa 964 turbo (965) 1991, 32](/img/magazine/f2f9804d-PHOTO-2021-07-21-11-37-31.jpg)

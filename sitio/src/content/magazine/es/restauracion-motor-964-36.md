@@ -1,12 +1,12 @@
 ---
-title: "Rehabilitación completa motor 964 (M6401 3.6 ) "
+title: "Rehabilitación completa del motor 964 (M6401 3.6)"
 slugSquarespace: "restauracion-motor-964-36"
 slugFinal: "restauracion-motor-964-36"
 slugOriginal: "restauracion-motor-964-36"
 date: 2022-05-09T16:56:46.117000Z
 lang: es
 categories: ["restauraciones"]
-excerpt: "Lo molesto de estar con el 964 al ralentí en caliente y observar el humo blanco que asoma por el hueco de las ruedas traseras con su olor específico a aceite…"
+excerpt: "Al mantener el 964 al ralentí en caliente, puede aparecer humo blanco por el hueco de las ruedas traseras, acompañado de un olor característico a aceite."
 author: "Enric Godes"
 squarespaceId: "62794409e5ff7861bb8fefde"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-964-36"
@@ -18,39 +18,39 @@ ctas: []
 
 ## M6401
 
-En toda la generación 964 Porsche usó el bloque de 3.600 cc que tanta fiabilidad y satisfacciones ha proporcionado a sus propietarios.
+En toda la generación 964, Porsche utilizó el bloque de 3.600 cc, que ha proporcionado fiabilidad y buenos resultados a sus propietarios.
 
 Propulsor bóxer de 6 cilindros, con 2 válvulas por cilindro y doble encendido.
 
-El bloque Mezger es el estandarte de diseño y fiabilidad tanto usado en la calle como en la competición.
+El bloque Mezger es un referente de diseño y fiabilidad, utilizado tanto en la calle como en la competición.
 
 ## El estado inicial
 
-Aquí tenemos un ejemplo común de fugas de aceite masivas por bloque motor lo cual nos obliga a abrir motor completo.
+Aquí tenemos un ejemplo habitual de fugas masivas de aceite en el bloque motor, lo que obliga a abrirlo por completo.
 
 ![Al volante de un Porsche por autopista, a última hora de la tarde](/img/magazine/49e62d8d-IMG_5792.JPG)
 
 ### La opinión de Jordi
 
-Si nuestro 964 ya fuga a ceite por el bloque no nos queda otra que la rehabilitación completa.
+Si nuestro 964 ya pierde aceite por el bloque, es necesario realizar una rehabilitación completa.
 
-Ello obliga a desmontaje completo del motor y sustituir piezas internas de desgaste como segmentos, cojinetes de biela, bancada, semicojinetes de bomba , cadenas y juego de juntas completo parte alta y baja.
+Esto obliga a desmontar por completo el motor y sustituir las piezas internas de desgaste, como los segmentos, los cojinetes de biela y bancada, los semicojinetes de la bomba, las cadenas y el juego completo de juntas de las partes alta y baja.
 
-Recomendamos sustituir los 24 espárragos de bloque por los de “dilavar” para evitar una inesperada rotura de uno de ellos.
+Recomendamos sustituir los 24 espárragos del bloque por los de «dilavar» para evitar la rotura inesperada de alguno de ellos.
 
-Los cilindros al Nicasil nos dan una vida casi ilimitada.
+Los cilindros de Nicasil ofrecen una vida útil muy larga.
 
 En nuestro caso, el proceso de limpieza, descarbonización, verificación y pesaje de las piezas es clave.
 
-Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
+La primera fase de desmontaje siempre es importante para verificar el estado de todos los componentes y diagnosticar posibles problemas ocultos.
 
 ## Rehabilitación del motor
 
 Cabe diferenciar dos conceptos distintos:
 
--Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.
+- Rehabilitación del motor: realizamos el desmontaje completo de todos los componentes, tornillo a tornillo y pieza a pieza, para su posterior medición, limpieza y pesaje. Después se monta de nuevo para obtener un motor con la máxima compresión y km 0.
 
--Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
+- Gran parada: en Valentin Motors denominamos así al proceso de desacoplar el motor y la caja, seguido de un protocolo de revisión completa de los sistemas, pero sin desmontar por completo el motor.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Motor bóxer despiezado sobre la bancada, con el colector y el escape a la vista](/img/magazine/ce5c9824-foto-1.jpg)
@@ -81,6 +81,6 @@ Proceso de montaje.
 
 Recomendamos sustituir siempre la correa del delco que distribuye los dos encendidos.
 
-Hasta la fecha no se suministra en origen pero se puede encontrar fácilmente aftermarket.
+Hasta la fecha no se suministra como recambio original, pero puede encontrarse fácilmente en el mercado de accesorios.
 
-Realizar siempre guías y asientos de válvulas y sobre todo líneas de los culatines.
+Conviene realizar siempre las guías y los asientos de las válvulas, y revisar especialmente las líneas de los culatines.

@@ -14,11 +14,11 @@ ctas: []
 ---
 ## El estado inicial
 
-Sí, es correcto… no nos equivocamos aunque veáis este brown metallic , el color original de esta unidad cuando se matriculó por primera vez en Barcelona era el precioso N8 Lime green.
+Sí, es correcto: aunque veáis este brown metallic, el color original de esta unidad cuando se matriculó por primera vez en Barcelona era N8 Lime green.
 
-Empezamos este proyecto de restauración de un 2.7 S targa nacional y de un sólo propietario desde el primer dia hasta la fecha.
+Empezamos la restauración de este 2.7 S Targa nacional, que ha tenido un único propietario desde el primer día hasta la fecha.
 
-El encargo de la propiedad es de restauración completa de carrocería, mecánica e interiores.
+El encargo de la propiedad consiste en una restauración completa de la carrocería, la mecánica y los interiores.
 
 ![Aspecto de la unidad en proceso de desmontaje](/img/magazine/23f1922a-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg)
 
@@ -26,9 +26,9 @@ El encargo de la propiedad es de restauración completa de carrocería, mecánic
 
 ### La opinión de Jordi
 
-Devolver estas unidades a su estado inicial siempre son retos motivadores.
+Devolver estas unidades a su estado inicial siempre supone un reto motivador.
 
-La única titularidad de de este 2.7 se aprecia en todos los rincones del vehículo.
+El hecho de que este 2.7 haya tenido un único propietario se aprecia en todos los rincones del vehículo.
 
 La primera fase de desmontaje es importante para verificar el estado de todos los componentes y planificar el proceso de restauración.
 

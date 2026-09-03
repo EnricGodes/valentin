@@ -14,7 +14,7 @@ ctas: []
 ---
 ![El coche cubierto con una tela roja mientras se presenta el PA10/01 ante los invitados](/img/magazine/3994734b-DSC03536.jpg)
 
-**Valentin Motors Madrid** presenta el **PA10/01** en su nuevo evento: una obra maestra **única**, el primer **Porsche 911** reimaginado de forma integral en la capital. Representa la fusión entre la herencia icónica del **911** y la visión contemporánea de **Valentin**, cada elemento ha sido diseñado y ejecutado con un único propósito: ofrecer una experiencia irrepetible reservada para quienes entienden que la verdadera exclusividad no se compra, se **crea**.
+**Valentin Motors Madrid** presenta el **PA10/01** en un nuevo evento. Se trata de una pieza **singular**, el primer **Porsche 911** reimaginado de forma integral en la capital. El proyecto combina la herencia del **911** con la visión contemporánea de **Valentin**. Cada elemento se ha diseñado y ejecutado con un propósito: ofrecer una experiencia coherente y hecha a medida, que no solo se compra, sino que se **crea**.
 
 :::galeria{diseno="cuadricula" porFila="4" proporcion="three-four-vertical" lightbox}
 ![Dos 911 aparcados de noche bajo las guirnaldas de luces de una terraza](/img/magazine/a530bcb4-DSC03509.jpg)
@@ -37,8 +37,8 @@ ctas: []
 ![Un invitado posa junto al PA10/01, con el cartel de competición al fondo](/img/magazine/c5de310e-DSC03597.jpg)
 :::
 
-El **PA10/01** fue presentado en nuestro evento privado en las **Instalaciones de Madrid**, reservado para clientes selectos, prensa especializada y apasionados del motor que comparten nuestra visión de excelencia.
+El **PA10/01** fue presentado en un evento privado celebrado en nuestras **instalaciones de Madrid**, con clientes, prensa especializada y aficionados al motor.
 
-Para más información tenemos un artículo especializado en nuestra sección de **Magazine**.
+Para más información, consulta el artículo especializado de nuestra sección de **Magazine**.
 
 ![Zaga del PA10/01 con la inscripción 01|PA10 y las puertas abiertas](/img/magazine/007e1dae-DSC03555.jpg)

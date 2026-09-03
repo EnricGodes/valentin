@@ -16,7 +16,7 @@ ctas: []
 
 Yes, that's right.. we are not wrong even if you see this brown metallic, the original color of this unit when it was first registered in Barcelona was the beautiful N8 Lime green.
 
-We started this restoration of a 2.7 S targa national and single owner from the first day to date.
+We started this restoration of a 2.7 S Targa national and single owner from the first day to date.
 
 The order for the property is for restoration of body, mechanics and interiors.
 

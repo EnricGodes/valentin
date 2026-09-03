@@ -121,7 +121,13 @@ export function leerPiezas(): Pieza[] {
  * `esperado` es el texto tal como se exporto. Si el fichero ya no lo contiene,
  * no se toca nada: alguien lo ha editado despues de exportar y aplicar aqui
  * seria pisarle el cambio a ciegas.
+ *
+ * La comparacion ignora los espacios de los extremos. Varios textos originales
+ * los arrastran ("...(M6401 3.6 ) ") y exigirlos identicos dejaba fuera
+ * correcciones buenas por un espacio que ademas sobra.
  */
+const igual = (a: string, b: string) => a === b || a.trim() === b.trim();
+
 export function escribirPieza(p: Pieza, esperado: string, nuevo: string): 'ok' | 'cambiado' {
   const ruta = join(raiz, p.fichero);
   if (p.fichero.endsWith('.md')) {
@@ -131,7 +137,7 @@ export function escribirPieza(p: Pieza, esperado: string, nuevo: string): 'ok' |
     if (p.donde === 'title' || p.donde === 'excerpt') {
       const re = new RegExp(`^(${p.donde}:\\s*")(.*)("\\s*)$`, 'm');
       const m = re.exec(fm?.[1] ?? '');
-      if (!m || m[2] !== esperado) return 'cambiado';
+      if (!m || !igual(m[2], esperado)) return 'cambiado';
       const nuevoFm = fm![1].replace(re, `$1${nuevo.replace(/\$/g, '$$$$')}$3`);
       writeFileSync(ruta, crudo.replace(fm![1], nuevoFm));
       return 'ok';
@@ -141,8 +147,8 @@ export function escribirPieza(p: Pieza, esperado: string, nuevo: string): 'ok' |
     const cuerpo = crudo.slice(fm?.[0].length ?? 0);
     const bloques = bloquesMd(cuerpo);
     const i = Number(p.donde.slice(1));
-    if (!bloques[i] || bloques[i].trim() !== esperado) return 'cambiado';
-    bloques[i] = bloques[i].replace(esperado, nuevo);
+    if (!bloques[i] || !igual(bloques[i], esperado)) return 'cambiado';
+    bloques[i] = bloques[i].replace(bloques[i].trim(), nuevo);
     writeFileSync(ruta, cabeza + bloques.join('\n\n'));
     return 'ok';
   }
@@ -156,7 +162,7 @@ export function escribirPieza(p: Pieza, esperado: string, nuevo: string): 'ok' |
     if (nodo === undefined) return 'cambiado';
   }
   const ultimo = pasos[pasos.length - 1] as never;
-  if (nodo?.[ultimo] !== esperado) return 'cambiado';
+  if (typeof nodo?.[ultimo] !== 'string' || !igual(nodo[ultimo], esperado)) return 'cambiado';
   nodo[ultimo] = nuevo;
   writeFileSync(ruta, `${JSON.stringify(datos, null, 2)}\n`);
   return 'ok';

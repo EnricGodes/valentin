@@ -20,15 +20,15 @@ ctas: []
 
 Rehabilitación completa del motor de 1970.
 
-Siempre la primera fase de desmontaje es importante para verificar el estado de todos lo componentes y poder diagnosticar algún problema oculto.
+La primera fase de desmontaje siempre es importante para verificar el estado de todos los componentes y diagnosticar posibles problemas ocultos.
 
 ## Rehabilitación del motor
 
 Cabe diferenciar dos conceptos distintos:
 
--Rehabilitación de motor es cuando realizamos desmontaje completo de todos lo componentes del motor, tornillo a tornillo y pieza a pieza para su posterior medición limpieza y pesaje y montaje del mismo para obtener un motor con máxima compresión y km 0.
+- Rehabilitación del motor: realizamos el desmontaje completo de todos los componentes, tornillo a tornillo y pieza a pieza, para su posterior medición, limpieza y pesaje. Después se monta de nuevo para obtener un motor con la máxima compresión y km 0.
 
--Gran parada: aquí en Valentin Motors llamamos gran parada al proceso de intervención de desacoplamiento motor y caja y protocolo de revisión completa de sistemas pero sin desmontar el motor completo.
+- Gran parada: en Valentin Motors denominamos así al proceso de desacoplar el motor y la caja, seguido de un protocolo de revisión completa de los sistemas, pero sin desmontar por completo el motor.
 
 :::galeria{diseno="cuadricula" porFila="3" proporcion="standard" lightbox}
 ![Vano motor del 911 serie F rojo con el motor 2.2 montado y la turbina dorada](/img/magazine/d4e57210-motor-1.jpg)

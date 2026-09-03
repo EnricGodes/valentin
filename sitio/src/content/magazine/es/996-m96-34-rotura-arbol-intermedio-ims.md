@@ -22,25 +22,25 @@ Existen varias soluciones frente a la rotura del árbol intermedio con desprendi
 
 El primer síntoma puede ser encontrar partículas metálicas en el aceite.
 
-En Valentin Motors repararamos los motores M96 y M97 con las mejor solución y garantía .
+En Valentin Motors reparamos los motores M96 y M97 mediante una solución específica y con garantía.
 
-## ¿Qué síntoma es claro?
+## ¿Cuál es el síntoma más claro?
 
-Encontrar partículas metálicas en el aceite es signo de alarma para verificar físicamente la zona.
+Encontrar partículas metálicas en el aceite es una señal de alarma que obliga a verificar físicamente la zona.
 
-Desmontar caja y ver zona RMS + IMS
+Desmontar la caja y revisar la zona del RMS y el IMS.
 
 ## ¿Hay ruidos?
 
-Auscultar la zona entre motor y caja para verificar algún ruido adicional de fricción.
+Auscultar la zona entre el motor y la caja para detectar cualquier ruido adicional de fricción.
 
 ## La importancia de las culatas
 
 En los motores 3.4 las culatas sufren de manera especial.
 
-Hemos de tener especial precaución en las pautas de los servicios de mantenimiento con la verificación y limpieza de los radiadores, especialmente entre el condensador y el radiador para poder tener un flujo de aire normal y evitar que la temperatura de agua supere los 82 grados en condiciones de circulación lenta.
+Es necesario prestar especial atención al mantenimiento: verificar y limpiar los radiadores, sobre todo el espacio entre el condensador y el radiador, para mantener un flujo de aire adecuado y evitar que la temperatura del agua supere los 82 grados en condiciones de circulación lenta.
 
-Desmontar completamente culatas y realizar asientos de válvulas y guias es clave en el proceso.
+Desmontar completamente las culatas y realizar los asientos de las válvulas y las guías son pasos clave en el proceso.
 
 :::galeria{diseno="cuadricula" porFila="2" proporcion="square"}
 ![Bloque del motor M96 3.4 sobre el caballete, con los cilindros a la vista](/img/magazine/fd76012d-foto-2.jpg)
@@ -62,14 +62,14 @@ Desmontar completamente culatas y realizar asientos de válvulas y guias es clav
 
 ## Mantenimiento preventivo del IMS
 
-- Máxima calidad de aceite motor.
-- verificar cada 2 años o 20.000 kms el IMS reforzado
-- Conocer la calidad del IMS insertado y fabricante
-- Sellar libro de mantenimiento con fecha e intervención.
+- Utilizar aceite de motor de máxima calidad.
+- Verificar el IMS reforzado cada 2 años o 20.000 km.
+- Conocer la calidad y el fabricante del IMS instalado.
+- Sellar el libro de mantenimiento con la fecha y la intervención.
 - Cambiar el aceite de forma regular **cada 12 meses.**
 
 ## ¿Qué IMS lleva un bloque motor nuevo aligerado?
 
-Aunque la unidad sea de 1998 hasta el 2004 con genereaciones de IMS primera y segunda, un motor aligerado nuevo nos vendrás con la solución IMS de tercera gerenación.
+Aunque la unidad sea de 1998 a 2004 y monte un IMS de primera o segunda generación, un motor aligerado nuevo vendrá con la solución IMS de tercera generación.
 
 Si deseas [más información](/contacto), contacta con nosotros.
