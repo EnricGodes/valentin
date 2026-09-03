@@ -1595,14 +1595,12 @@ section { position: relative; }
 .ims-res--posible { border-top-color: var(--concreto); }
 .ims-res--no { border-top-color: #4E7A5B; }
 
-.ims-veredicto { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
-.ims-veredicto-palabra {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(44px, 6vw, 76px);
-  line-height: 1; letter-spacing: -0.02em; color: var(--blanco);
-}
-.ims-veredicto-matiz {
-  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
-  text-transform: uppercase; color: var(--bronce);
+/* El veredicto es una frase, no una palabra suelta con una coletilla debajo:
+   una sola linea, un solo formato, al tamaño que le deja caber entera. */
+.ims-veredicto {
+  font-family: var(--serif); font-weight: 400; font-size: clamp(30px, 5.6vw, 74px);
+  line-height: 1.1; letter-spacing: -0.02em; color: var(--blanco);
+  text-wrap: balance;
 }
 .ims-res-resumen {
   font-size: 19px; line-height: 1.6; color: var(--blanco);
@@ -1634,17 +1632,9 @@ section { position: relative; }
 .ims-afinar-ayuda { font-size: 14px; line-height: 1.55; color: var(--concreto); margin-top: 6px; }
 .ims-afinar .ims-campos { margin-top: 22px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 
-/* ── Detalle tecnico: todo lo que antes estaba encima de la respuesta ────── */
+/* ── Detalle tecnico: debajo del resultado, siempre a la vista ──────────── */
 .ims-detalle { margin-top: 34px; border-top: 1px solid var(--linea); }
-.ims-detalle summary {
-  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
-  text-transform: uppercase; color: var(--bronce); cursor: pointer; padding: 20px 0 0;
-  list-style: none;
-}
-.ims-detalle summary::-webkit-details-marker { display: none; }
-.ims-detalle summary::before { content: "+ "; }
-.ims-detalle[open] summary::before { content: "− "; }
-.ims-detalle-cuerpo { padding-top: 18px; max-width: 66ch; }
+.ims-detalle-cuerpo { padding-top: 28px; max-width: 66ch; }
 .ims-detalle-cuerpo p { font-size: 15px; line-height: 1.7; color: var(--concreto); }
 .ims-detalle-cuerpo p + p, .ims-detalle-cuerpo ul { margin-top: 14px; }
 .ims-detalle-cuerpo h4 {

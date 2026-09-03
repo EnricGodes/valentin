@@ -11,10 +11,8 @@ import type { Estado, Rodamiento } from './tipos.ts';
  */
 
 export interface TextoEstado {
-  /** Una o dos palabras. Es lo primero y lo mas grande que se lee. */
+  /** El titular. Una linea, lo primero y lo mas grande que se lee. */
   veredicto: string;
-  /** Matiz del veredicto, cuando lo hay. */
-  matiz?: string;
   /** Una linea. Lo que basta para entender la respuesta sin abrir nada. */
   resumen: string;
   etiqueta: string;
@@ -25,56 +23,48 @@ export interface TextoEstado {
 
 export const ESTADOS: Record<Estado, TextoEstado> = {
   AFECTADO_SIMPLE_SUSTITUIBLE: {
-    veredicto: 'Sí',
-    matiz: 'esta unidad está afectada',
+    veredicto: 'Sí, esta unidad está afectada',
     resumen: 'Monta el rodamiento 6204 de una hilera. Se sustituye sin abrir el bloque.',
     etiqueta: 'IMS 6204 · una hilera · sustituible',
     cuerpo: 'Con motor original, esta configuración montaba normalmente el rodamiento IMS pequeño de una hilera. Es la revisión con mayor incidencia histórica. Puede sustituirse preventivamente sin abrir el bloque, aunque hay que retirar la transmisión y el volante motor o el flexplate.',
-    accion: 'Solicita una evaluación previa con un especialista y valora la intervención preventiva. Si ya se cambió, comprueba tecnología, fecha, kilometraje e intervalo aplicable.',
   },
   AFECTADO_DOBLE_SUSTITUIBLE: {
-    veredicto: 'Sí',
-    matiz: 'esta unidad está afectada',
+    veredicto: 'Sí, esta unidad está afectada',
     resumen: 'Monta el rodamiento de doble hilera. Se sustituye sin abrir el bloque.',
     etiqueta: 'IMS de doble hilera · sustituible',
     cuerpo: 'Con motor original, esta configuración montaba normalmente un rodamiento IMS de doble hilera. Ha mostrado menor incidencia que el 6204 simple, pero la antigüedad y el historial siguen siendo relevantes.',
     accion: 'Verifica la documentación e incluye el IMS en una inspección especializada; valora la sustitución según estado, uso e historial.',
   },
   TRANSICION_DOBLE_O_SIMPLE: {
-    veredicto: 'Depende',
-    matiz: 'del número de motor',
+    veredicto: 'Depende del número de motor',
     resumen: 'En 2000 y 2001 se montaron los dos rodamientos. El número de motor lo resuelve.',
     etiqueta: 'Año de transición 2000–2001',
     cuerpo: 'El modelo y el año no bastan para distinguir entre doble hilera y 6204 simple. Los dos son sustituibles, pero su incidencia relativa y el recambio son distintos.',
     accion: 'Introduce el número de motor si lo tienes, y confírmalo físicamente antes de pedir piezas o aprobar una intervención.',
   },
   TRANSICION_SIMPLE_O_GRANDE: {
-    veredicto: 'Depende',
-    matiz: 'del número de motor',
+    veredicto: 'Depende del número de motor',
     resumen: 'En 2005 se montaron los dos rodamientos. El número de motor lo resuelve.',
     etiqueta: 'MY 2005 · 6204 o 6305',
     cuerpo: 'Algunas unidades montan el rodamiento pequeño sustituible y otras el 6305 grande, que normalmente exige abrir el motor para sustituirse.',
     accion: 'Usa el número de motor cuando exista una regla fiable y confirma el historial o la configuración física antes de intervenir.',
   },
   AFECTADO_GRANDE_NO_SUSTITUIBLE: {
-    veredicto: 'Sí',
-    matiz: 'esta unidad está afectada',
+    veredicto: 'Sí, esta unidad está afectada',
     resumen: 'Monta el rodamiento 6305 grande. Sustituirlo exige desmontar el motor.',
     etiqueta: 'IMS 6305 · grande · intervención distinta',
     cuerpo: 'Esta configuración conserva un rodamiento IMS de bolas, pero usa la revisión 6305 de mayor tamaño. Su incidencia conocida es menor que la del 6204 pequeño, aunque no es cero. Normalmente no puede extraerse por el alojamiento sin desmontar el motor.',
     accion: 'No abras un motor sano por lo que diga esta calculadora. Reúne el historial y pide una valoración especializada; si el motor se reconstruye, incluye el IMS en el alcance.',
   },
   NO_ES_EL_IMS_CLASICO_MEZGER: {
-    veredicto: 'No',
-    matiz: 'motor Mezger',
+    veredicto: 'No, es un motor Mezger',
     resumen: 'Lleva cojinete liso lubricado a presión, no el rodamiento sellado que falla.',
     etiqueta: 'Motor Mezger',
     cuerpo: 'Esta versión usa una arquitectura diferente, con cojinetes lisos lubricados a presión en el eje intermedio. No le corresponde la sustitución preventiva del rodamiento sellado que se hace en Carrera, Boxster y Cayman M96/M97.',
     accion: 'Esto no significa que el motor no pueda tener otras averías.',
   },
   SIN_IMS_9A1: {
-    veredicto: 'No',
-    matiz: 'sin eje intermedio',
+    veredicto: 'No, no lleva eje intermedio',
     resumen: 'Desde el año modelo 2009 este motor acciona la distribución sin IMS.',
     etiqueta: '9A1/MA1 o arquitectura posterior',
     cuerpo: 'Desde el año modelo 2009, los 997.2 y 987.2 incorporaron una nueva arquitectura que acciona la distribución sin eje intermedio. El fallo que evalúa esta calculadora no aplica.',
@@ -120,7 +110,6 @@ export const MOTIVOS: Record<string, string> = {
   fuera_de_la_familia_m96_m97: 'El modelo no pertenece a la familia M96/M97 estudiada.',
   ano_no_es_modelo: 'El año usado no es el año modelo, así que el resultado pierde precisión.',
   motor_sustituido: 'El motor no es el de fábrica: monta el rodamiento que tocaba cuando se fabricó ese motor, no el del año del chasis.',
-  originalidad_desconocida: 'No consta si el motor es el original.',
   corte_por_numero_de_motor: 'Se ha aplicado el corte orientativo por número de motor.',
   serie_remanufacturado: 'El número lleva marca de motor remanufacturado, así que el corte no sirve.',
   serie_ilegible: 'El número de motor no tiene un formato que se pueda comparar.',
@@ -185,7 +174,6 @@ export const UI = {
   baseAno: 'Ese año es',
   calcular: 'Comprobar mi Porsche',
   continuar: 'Continuar',
-  detalle: 'Ver el detalle técnico',
   porqueEsto: 'Por qué sale esto',
   generacion: 'Generación',
   variante: 'Versión',

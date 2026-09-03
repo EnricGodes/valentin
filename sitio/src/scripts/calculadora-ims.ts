@@ -62,10 +62,7 @@ function pintaResultado(r: Evaluacion, v: Vehiculo): string {
      este problema. */
   return `
     <div class="ims-res ims-res--${r.respuesta}">
-      <div class="ims-veredicto">
-        <p class="ims-veredicto-palabra">${esc(t.veredicto)}</p>
-        ${t.matiz ? `<p class="ims-veredicto-matiz">${esc(t.matiz)}</p>` : ''}
-      </div>
+      <p class="ims-veredicto">${esc(t.veredicto)}</p>
 
       <p class="ims-res-resumen">${esc(t.resumen)}</p>
 
@@ -89,8 +86,7 @@ function pintaResultado(r: Evaluacion, v: Vehiculo): string {
         <div class="ims-campos" data-ims-afinar-campos></div>
       </div>` : ''}
 
-      <details class="ims-detalle">
-        <summary>${esc(UI.detalle)}</summary>
+      <div class="ims-detalle">
         <div class="ims-detalle-cuerpo">
           <p class="ims-res-etiqueta">${esc(t.etiqueta)}</p>
           <p>${esc(t.cuerpo)}</p>
@@ -101,7 +97,7 @@ function pintaResultado(r: Evaluacion, v: Vehiculo): string {
           ${t.accion ? `<p>${esc(t.accion)}</p>` : ''}
           <p class="ims-aviso">${esc(AVISO)}</p>
         </div>
-      </details>
+      </div>
     </div>`;
 }
 
