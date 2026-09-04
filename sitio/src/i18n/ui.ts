@@ -185,6 +185,7 @@ export const UI = {
   'pie.taller':      { es: 'Taller', en: 'Workshop', fr: 'Atelier', it: 'Officina', de: 'Werkstatt', ca: 'Taller' },
   'pie.ventas':      { es: 'Ventas', en: 'Sales', fr: 'Ventes', it: 'Vendite', de: 'Verkauf', ca: 'Vendes' },
   'pie.siguenos':    { es: 'Síguenos', en: 'Follow us', fr: 'Suivez-nous', it: 'Seguici', de: 'Folgen Sie uns', ca: 'Segueix-nos' },
+  'nav.menu':          { es: 'Menú', en: 'Menu', fr: 'Menu', it: 'Menu', de: 'Menü', ca: 'Menú' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 
 export type ClaveUI = keyof typeof UI;

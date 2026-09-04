@@ -8,6 +8,7 @@ import { iniciarEventos } from './eventos.ts';
 import { iniciarProgreso } from './progreso.ts';
 import { iniciarCalculadoraIms } from './calculadora-ims.ts';
 import { iniciarTarifas } from './tarifas.ts';
+import { iniciarMenu } from './menu.ts';
 
 /**
  * Arranque unico del sitio. Cada modulo comprueba por su cuenta si tiene algo
@@ -25,6 +26,7 @@ function iniciar(): void {
   iniciarProgreso();
   iniciarCalculadoraIms();
   iniciarTarifas();
+  iniciarMenu();
 }
 
 iniciar();

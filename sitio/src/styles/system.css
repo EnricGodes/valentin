@@ -117,11 +117,82 @@ a { color: inherit; }
   border-top: 3px solid currentColor; opacity: 0.5;
 }
 
+/* ── Hamburguesa: el mismo menú cuando no cabe en una barra ──────────────── */
+/* En pantalla ancha el <details> es transparente: el interruptor no se ve y la
+   lista se muestra siempre, esté abierto o cerrado. */
+.nav-boton { display: none; }
+.nav-menu > .nav-links { display: flex; }
+
 @media (max-width: 1180px) {
-  /* Sin sitio para nueve entradas: el submenú se despliega bajo su sección y
-     la barra pasa a ser una lista. */
-  .nav-links { gap: 18px; }
-  .nav-sub { display: none; }
+  .nav { position: relative; }
+
+  .nav-boton {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 4px; cursor: pointer; list-style: none;
+    font-family: var(--mono); font-size: var(--t-label);
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--concreto);
+  }
+  .nav-boton::-webkit-details-marker { display: none; }
+  .nav-boton:hover { color: var(--blanco); }
+  .nav-boton:focus-visible { outline: 2px solid var(--bronce); outline-offset: 4px; }
+
+  .nav-boton-barras { display: block; width: 22px; height: 14px; position: relative; }
+  .nav-boton-barras i {
+    position: absolute; left: 0; width: 100%; height: 1.5px;
+    background: currentColor; transition: transform .28s var(--ease), opacity .2s;
+  }
+  .nav-boton-barras i:nth-child(1) { top: 0; }
+  .nav-boton-barras i:nth-child(2) { top: 6px; }
+  .nav-boton-barras i:nth-child(3) { top: 12px; }
+  /* Abierto, las tres barras se cruzan en una equis. */
+  [open] .nav-boton-barras i:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  [open] .nav-boton-barras i:nth-child(2) { opacity: 0; }
+  [open] .nav-boton-barras i:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+  /* El panel ocupa lo que queda de pantalla bajo la barra y desplaza dentro:
+     con nueve secciones y sus hijos no cabe de una vez en un móvil. */
+  .nav-menu > .nav-links {
+    display: none;
+    position: absolute; top: 100%; left: 0; right: 0; z-index: 70;
+    flex-direction: column; align-items: stretch; gap: 0;
+    max-height: calc(100vh - 100%); overflow-y: auto;
+    padding: 8px var(--pad-lateral) 32px;
+    background: var(--negro); border-top: 1px solid var(--linea);
+  }
+  .nav-menu[open] > .nav-links { display: flex; }
+
+  .nav-item { border-bottom: 1px solid var(--linea); }
+  .nav-item > a { display: block; padding: 16px 0; font-size: 13px; }
+  .nav-item--con-hijos > a::after { display: none; }
+
+  /* Sin JavaScript los hijos se ven todos: el panel es largo, pero está
+     entero. El script los pliega y añade el botón para desplegarlos. */
+  .nav-sub {
+    position: static; opacity: 1; visibility: visible; transform: none;
+    min-width: 0; padding: 0 0 12px; margin: 0;
+    background: transparent; border: 0; transition: none;
+  }
+  .nav-sub a { padding: 8px 0 8px 18px; font-size: 11px; }
+  .nav-sub a:hover { background: transparent; color: var(--blanco); }
+}
+
+/* Con JavaScript, cada sección se pliega y se abre con su propio botón. */
+@media (max-width: 1180px) {
+  .js .nav-item--con-hijos > .nav-sub[hidden] { display: none; }
+  .nav-desplegar {
+    position: absolute; right: 0; top: 8px;
+    width: 44px; height: 44px; padding: 0; cursor: pointer;
+    background: none; border: 0; color: var(--concreto);
+  }
+  .nav-desplegar::before,
+  .nav-desplegar::after {
+    content: ''; position: absolute; left: 50%; top: 50%;
+    width: 11px; height: 1.5px; background: currentColor;
+    transform: translate(-50%, -50%); transition: transform .25s var(--ease);
+  }
+  .nav-desplegar::after { transform: translate(-50%, -50%) rotate(90deg); }
+  .nav-desplegar[aria-expanded='true']::after { transform: translate(-50%, -50%) rotate(0); }
+  .nav-item--con-hijos { position: relative; }
 }
 .nav-links a {
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.18em;
@@ -1841,3 +1912,6 @@ section { position: relative; }
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
   text-transform: uppercase; color: var(--bronce); margin-bottom: 8px;
 }
+
+/* El panel de navegación abierto congela la página de detrás. */
+body.sin-scroll { overflow: hidden; }
