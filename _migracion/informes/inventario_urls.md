@@ -6,8 +6,8 @@
 
 | Accion | URLs |
 |---|---:|
-| 301 | 55 |
-| CONSERVAR | 54 |
+| 301 | 56 |
+| CONSERVAR | 53 |
 | REVIVIR | 6 |
 
 ## Tipos
@@ -109,7 +109,7 @@
 | `/magazine/porschepinturaclasica911` | post | 2 | 0 | 0 | 301 | `/magazine/proceso-pintura-911-clase-g` |
 | `/magazine/rehabilitacion-motor-22-1970-serief` | post | 2 | 0 | 0 | CONSERVAR | |
 | `/magazine/restauracionsistemacis` | post | 2 | 0 | 0 | 301 | `/magazine/restauracion-sistema-inyeccion-cis` |
-| `/magazine/revision-gratuita-esenciales` | post | 2 | 0 | 0 | CONSERVAR | |
+| `/magazine/revision-gratuita-esenciales` | post | 2 | 0 | 0 | 301 | `/taller-porsche` |
 | `/barcelona-old` | pagina | 0 | 0 | 0 | 301 | `/barcelona` |
 | `/campana-suv-septiembre-2023` | pagina | 0 | 0 | 0 | 301 | `/porsche-cayenne-macan-mantenimiento-taller-1` |
 | `/cart` | 404 heredado | 0 | 0 | 0 | 301 | `/` |

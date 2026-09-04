@@ -74,10 +74,9 @@ DECISION = {
  "/diagnostico-global-porsche-gratis-en-valentin-barcelona": ("301", "/barcelona", "campana caducada"),
  "/mantenimiento-porsche-te-regalamos-un-alineado-de-precision-gratis": ("301", "/taller-porsche/mantenimiento", "campana caducada; su tema es el mantenimiento"),
  "/plan-mantenimiento-oferta": ("301", "/taller-porsche/mantenimiento", "campana caducada; el plan a precio cerrado tiene pagina propia"),
- # La campana de 2023 esta caducada, pero su URL sigue publicada. Un 301
-# sobre una pagina viva es una senal contradictoria: o se despublica el
-# post o no se redirige. Mientras el cliente decide, no se redirige.
-    # "/magazine/revision-gratuita-esenciales": ("301", "/taller-porsche", "campana caducada"),
+ # Campana de febrero de 2023, despublicada por decision del cliente. El
+    # contenido vive en sitio/src/content/_despublicado/, fuera de la coleccion.
+    "/magazine/revision-gratuita-esenciales": ("301", "/taller-porsche", "campana caducada y despublicada"),
  "/nuevo-centro-valentin-motors-madrid": ("301", "/madrid", "duplica el post del Magazine"),
  "/porsche-macan-mantenimiento-taller-1": ("301", "/porsche-cayenne-macan-mantenimiento-taller-1", "fusion: dos paginas casi identicas"),
  "/proyecto-rs": ("301", "/restauraciones/restomod", "sin trafico; su tema son los proyectos propios"),
