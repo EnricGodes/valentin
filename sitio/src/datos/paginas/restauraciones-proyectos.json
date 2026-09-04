@@ -1,20 +1,23 @@
 {
   "rutaId": "restauraciones-proyectos",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_restauraciones",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Departamento de proyectos y diseño · Valentin Motors",
-    "descripcion": "El laboratorio de ideas donde nacen los proyectos: investigación, tendencias y conversación con otros profesionales.",
+    "descripcion": "El laboratorio donde nacen los proyectos: investigación, tendencias y conversación con otros profesionales del sector.",
     "ogImagen": ""
   },
   "h1": "Departamento de proyectos y diseño",
+  "menu": "Proyectos y diseño",
   "acordeones": [],
+  "articulos": [],
   "secciones": [
     {
       "nivel": 2,
       "titulo": "El laboratorio de ideas",
       "parrafos": [
-        "Parte de nuestro tiempo lo dedicamos a la <strong>investigación</strong> para detectar tendencias e implementar mejoras en nuestros procesos. Nos documentamos constantemente, acudimos a ferias y hablamos con otros profesionales del sector para ofrecer <strong>soluciones innovadoras a nuestros clientes</strong>."
+        "Antes de que un proyecto llegue al taller pasa por aquí. Es donde se investiga qué se está haciendo fuera, se contrastan soluciones con otros profesionales y se prueba lo que va a montarse antes de montarlo en el coche de un cliente.",
+        "De este departamento salen las piezas propias que acaban en los coches de competición y las decisiones de diseño de los restomods."
       ],
       "items": [],
       "imagenes": [
@@ -23,11 +26,19 @@
           "alt": "personalizaciones"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cómo empieza un proyecto",
+      "parrafos": [
+        "Con una conversación y con un coche, en ese orden. Lo primero es entender qué se quiere del coche terminado: si es para usar, para guardar o para competir. Todo lo demás sale de ahí, incluida la parte incómoda, que es cuánto va a costar y cuánto va a tardar."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Proyectos y diseño"
+  }
 }

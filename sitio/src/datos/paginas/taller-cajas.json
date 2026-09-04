@@ -1,20 +1,25 @@
 {
   "rutaId": "taller-cajas",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_taller",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Reparación de cajas de cambio Porsche · Valentin Motors",
-    "descripcion": "Servicio y reparación de cajas de cambio Porsche, manuales y automáticas, desde la 356 hasta las actuales.",
+    "descripcion": "Reparamos y reconstruimos cajas Porsche manuales y automáticas, de la 356 a las actuales, sin sustituirlas por una nueva.",
     "ogImagen": ""
   },
   "h1": "Cajas de cambio Porsche",
+  "menu": "Cajas de cambio",
   "acordeones": [],
+  "articulos": [
+    "restauracion-motor-965-turbo-33"
+  ],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué reparamos",
+      "titulo": "Qué hacemos",
       "parrafos": [
-        "<strong>Restauramos todos los tipos de cajas de cambio</strong> Porsche, desde las primeras del 356, la 915 y la G50 hasta las más modernas de las generaciones 991 y 992.<br/>También ofrecemos <strong>servicio y reparación de cajas de cambio automáticas</strong> sin necesidad de adquirirlas nuevas."
+        "Reparamos y reconstruimos <strong>todas las cajas de cambio</strong> de la marca: la de la 356, la 915, la G50 y las posteriores hasta 991 y 992. También damos servicio a las <strong>automáticas</strong>, que suelen darse por perdidas y rara vez lo están.",
+        "Reconstruir una caja casi siempre sale mejor que sustituirla, y en un clásico es además la única forma de mantener la numeración correcta."
       ],
       "items": [],
       "imagenes": [
@@ -23,11 +28,19 @@
           "alt": "Cajas de cambio"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cómo se trabaja",
+      "parrafos": [
+        "La caja se abre, se mide y se cataloga pieza a pieza. Sincronizadores, horquillas, rodamientos y retenes se valoran por separado, y el presupuesto sale con esa lista delante. En los coches en que la caja va emparejada al motor, las dos cosas se desmontan como una cápsula y se trabajan a la vez."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Cajas de cambio"
+  }
 }

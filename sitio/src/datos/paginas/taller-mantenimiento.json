@@ -1,20 +1,25 @@
 {
   "rutaId": "taller-mantenimiento",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_taller",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Mantenimiento Porsche a precio cerrado · Valentin Motors",
-    "descripcion": "Planes de mantenimiento Porsche con recambios originales y pautas del fabricante, a precio cerrado, en Barcelona y Madrid.",
+    "descripcion": "Servicio menor y mayor con recambios originales y las pautas de Porsche, a precio cerrado y publicado por modelo.",
     "ogImagen": ""
   },
   "h1": "Mantenimiento Porsche a precio cerrado",
+  "menu": "Mantenimiento",
   "acordeones": [],
+  "articulos": [
+    "revision-gratuita-esenciales"
+  ],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué incluye el plan",
+      "titulo": "Qué hacemos",
       "parrafos": [
-        "Seguimos los planes de mantenimiento <strong>especificados por el fabricante,</strong> utilizando <strong>recambios originales</strong> y las pautas de Porsche."
+        "Seguimos los planes de mantenimiento que especifica el fabricante, con <strong>recambios originales</strong> y las pautas de Porsche. La diferencia con el servicio oficial no está en cómo se hace, sino en lo que cuesta y en quién lo hace: el mismo técnico ve tu coche cada vez.",
+        "Todos los precios están <a href=\"/taller-porsche/tarifas\">publicados por modelo</a>. No hay presupuesto sorpresa: sabes lo que cuesta un servicio mayor de tu 993 antes de traerlo."
       ],
       "items": [],
       "imagenes": [
@@ -23,11 +28,29 @@
           "alt": "Mantenimiento de vehículos a precio cerrado"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicio menor y servicio mayor",
+      "parrafos": [
+        "El <strong>servicio menor</strong> es filtro y aceite de motor más una comprobación de veintitrés puntos. El <strong>servicio mayor</strong> incluye el menor y añade treinta puntos más: filtros de aire y habitáculo, bujías cuando toca, y la revisión de todo lo que se desgasta sin avisar.",
+        "Aparte van el líquido de frenos, la geometría y la inspección pre-compra, que también tienen precio cerrado."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "En los clásicos, el intervalo no es el del manual",
+      "parrafos": [
+        "Un 911 refrigerado por aire que hace tres mil kilómetros al año no necesita el mismo calendario que un 992 de uso diario. En coches de uso ocasional recomendamos <strong>cambio de aceite anual</strong> aunque no se llegue al kilometraje: el aceite se degrada por tiempo, no solo por uso, y en un motor con cuarenta años eso se paga caro."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Mantenimiento"
+  }
 }

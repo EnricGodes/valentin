@@ -8,14 +8,28 @@
     "ogImagen": ""
   },
   "h1": "Builds",
+  "menu": "Builds",
   "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid"
+  ],
   "secciones": [
     {
       "nivel": 2,
       "titulo": "Coches construidos enteros",
       "parrafos": [
         "Además de mantener, reparar y restaurar Porsche ajenos, de vez en cuando construimos uno entero. No es un encargo de restauración ni una personalización sobre un coche existente: es un proyecto que empieza por decidir qué coche queremos y termina con el coche rodando.",
-        "Aquí están los que hemos terminado. Son pocos a propósito."
+        "Aquí están los que hemos terminado. Son pocos a propósito: cada uno ocupa el taller entero durante meses."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "PA10/01",
+      "parrafos": [
+        "El primer <a href=\"/builds/pa10-01\">911 reimaginado de forma integral</a> por Valentin Motors. Crema, tartán y Fuchs. Presentado en Madrid en noviembre de 2025."
       ],
       "items": [],
       "imagenes": []

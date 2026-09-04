@@ -4,18 +4,43 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "PA10/01: nuestro 911 reimaginado · Valentin Motors",
-    "descripcion": "El primer Porsche 911 reimaginado de forma integral por Valentin Motors. Presentado en Madrid en 2025.",
+    "descripcion": "El primer Porsche 911 reimaginado de forma integral por Valentin Motors. Presentado en Madrid en noviembre de 2025.",
     "ogImagen": ""
   },
   "h1": "PA10/01",
+  "menu": "PA10/01",
   "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid",
+    "backdating-base-964"
+  ],
   "secciones": [
     {
       "nivel": 2,
       "titulo": "Así imaginamos el 911 perfecto",
       "parrafos": [
-        "El PA10/01 es el primer Porsche 911 que hemos reimaginado de forma integral: carrocería, mecánica, interior y detalle a detalle, decididos en casa y ejecutados en casa. Se presentó en Madrid, en un acto privado, en noviembre de 2025.",
-        "Exterior en crema con paragolpes de fibra e intermitentes ámbar, llantas Fuchs y alerón de pato. Dentro, tartán y cuero granate, con el tirador de la puerta grabado. La turbina de refrigeración, en marfil."
+        "El PA10/01 es el primer Porsche 911 que hemos reimaginado de forma integral: carrocería, mecánica, interior y cada detalle decididos y ejecutados en casa. No es un encargo: es lo que sale cuando el cliente somos nosotros.",
+        "Se presentó en un acto privado en las instalaciones de Madrid, en noviembre de 2025, ante clientes y prensa especializada."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El coche",
+      "parrafos": [
+        "Exterior en crema, con paragolpes de fibra e intermitentes ámbar, llantas Fuchs y alerón de pato. Dentro, tartán y cuero granate, con el tirador de puerta grabado. La turbina de refrigeración, en marfil.",
+        "Cada una de esas decisiones se tomó en el <a href=\"/restauraciones/proyectos-y-diseno\">departamento de proyectos</a> y se ejecutó entre la cabina de pintura, la sala de motores y el taller de tapicería."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué significa para un encargo",
+      "parrafos": [
+        "El PA10/01 no está en venta, pero sirve de referencia. Es la respuesta larga a la pregunta de hasta dónde puede llegar un <a href=\"/restauraciones/restomod\">restomod</a> hecho aquí, y el punto de partida de cualquier conversación sobre un proyecto de este tipo."
       ],
       "items": [],
       "imagenes": []
@@ -24,6 +49,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "PA10/01"
+  }
 }

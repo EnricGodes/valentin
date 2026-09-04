@@ -1,20 +1,27 @@
 {
   "rutaId": "taller-pre-compra",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_taller",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Inspección pre-compra Porsche · Valentin Motors",
     "descripcion": "Evaluación completa de un Porsche antes de comprarlo: estado, historial y verificación de la oferta, en taller o desplazándonos.",
     "ogImagen": ""
   },
   "h1": "Inspección Porsche antes de comprar",
+  "menu": "Inspección pre-compra",
   "acordeones": [],
+  "articulos": [
+    "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911",
+    "porsche-bore-scoring",
+    "que-es-el-ims-de-porsche"
+  ],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué comprobamos",
+      "titulo": "Qué hacemos",
       "parrafos": [
-        "Si has localizado un automóvil Porsche que quieres adquirir, podemos realizar una <strong>evaluación completa de su estado previa a la compra</strong>, comprobando el estado actual de la unidad y estudiando su historial. De este modo, verificamos si la oferta del vendedor es adecuada y no oculta problemas.<br/><br/>La inspección puede realizarse en <strong>nuestro taller</strong> de Barcelona o <strong>desplazándonos</strong> dentro del territorio nacional o al extranjero.<br/><br/>El importe de la inspección precompra es de 250 € + IVA."
+        "Evaluamos el coche que te estás planteando comprar: estado mecánico, estado de carrocería, historial documentado y contraste de lo que dice el anuncio con lo que tiene el coche delante. Se hace en el taller o <strong>desplazándonos</strong> a donde esté la unidad, en España o fuera.",
+        "Es el servicio que más dinero ahorra de todo lo que hacemos, y el que menos se pide."
       ],
       "items": [],
       "imagenes": [
@@ -23,11 +30,34 @@
           "alt": "Inspección vehículo pre-compra"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué se mira",
+      "parrafos": [],
+      "items": [
+        "Documentación: titularidad, cargas, historial de bajas e ITV.",
+        "Coherencia del kilometraje con el libro de servicio y con la unidad de control.",
+        "Estado de motor y transmisión, con prueba en carretera.",
+        "Endoscopia de cilindros en los motores con riesgo de bore scoring.",
+        "Estado del IMS en los M96 y M97 afectados.",
+        "Carrocería: intersticios, espesor de pintura y señales de reparación.",
+        "Informe escrito con fotografías y una recomendación clara."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Antes de negociar, no después",
+      "parrafos": [
+        "La inspección tiene sentido antes de cerrar el precio, porque lo que encuentre es parte de la negociación. Un IMS sin intervenir o un rayado en el sexto cilindro no siempre son motivo para no comprar; casi siempre son motivo para pagar menos."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Inspección pre-compra"
+  }
 }

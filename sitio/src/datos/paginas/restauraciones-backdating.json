@@ -1,21 +1,26 @@
 {
   "rutaId": "restauraciones-backdating",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_restauraciones",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Backdating Porsche · Valentin Motors",
     "descripcion": "Estética clásica con mecánica moderna sobre 911 refrigerados por aire, siempre homologable.",
     "ogImagen": ""
   },
   "h1": "Backdating",
+  "menu": "Backdating",
   "acordeones": [],
+  "articulos": [
+    "backdating-base-964",
+    "backdating-964-2023"
+  ],
   "secciones": [
     {
       "nivel": 2,
       "titulo": "Qué es un backdating",
       "parrafos": [
-        "Para aquellos clientes que quieren conjugar la estética de un <strong>modelo clásico</strong> con los <strong>avances tecnológicos</strong> de un vehículo más reciente, el backdating puede ser una opción. Aprovechando las configuraciones parecidas de los 911 <em>aircooled</em>, podemos transformar las características estéticas de un modelo más moderno para acercarlo al diseño de una unidad anterior. ¿Un SC con aire acondicionado o con un motor 3.2? Es posible.",
-        "Estas transformaciones se realizan siempre teniendo en cuenta que el nuevo vehículo sea <strong>homologable</strong>."
+        "Un backdating acerca un 911 al aspecto de una generación anterior conservando la mecánica de la suya. La idea es tener la línea de un coche de los setenta con el comportamiento, los frenos y la fiabilidad de uno de los noventa.",
+        "Funciona porque los 911 refrigerados por aire comparten arquitectura y cotas durante casi treinta años. Lo que en otra marca sería un disfraz, aquí encaja de verdad."
       ],
       "items": [],
       "imagenes": [
@@ -24,11 +29,20 @@
           "alt": "Laboratorio Ideas Porsche"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Por qué el 964 es la mejor base",
+      "parrafos": [
+        "El 964 tiene la carrocería con las proporciones adecuadas, mecánica moderna para lo que pide un uso real y una oferta suficiente en el mercado. Sobre esa base se puede llegar muy lejos sin destruir un coche raro por el camino.",
+        "¿Un SC con aire acondicionado, o con un motor 3.2? Es posible. Cada backdating se define pieza a pieza, y siempre <strong>homologable</strong>: un coche que no puede matricularse no es un coche, es una escultura."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Backdating"
+  }
 }

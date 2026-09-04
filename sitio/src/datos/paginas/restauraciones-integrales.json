@@ -1,30 +1,30 @@
 {
   "rutaId": "restauraciones-integrales",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_restauraciones",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Restauración integral de Porsche · Valentin Motors",
     "descripcion": "Restauraciones Porsche con el máximo grado de originalidad, con el Certificate of Authenticity como referencia.",
     "ogImagen": ""
   },
   "h1": "Restauración integral",
+  "menu": "Restauración integral",
   "acordeones": [],
+  "articulos": [
+    "restauracion-porsche-911-1965",
+    "restauracion-incendio-930-turbo-1976",
+    "restauracion-porsche-964-turbo-1991",
+    "restauracion-27-s-targa-lime-green",
+    "restauracion-de-un-porsche-911-930-turbo",
+    "restauracion-sctarga1979oakgreen"
+  ],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Cómo planteamos una restauración",
+      "titulo": "Qué hacemos",
       "parrafos": [
-        "Nuestras restauraciones se caracterizan por un <strong>alto grado de <br/>originalidad</strong> y calidad en todos los aspectos del proyecto.",
-        "En las restauraciones integrales buscamos obtener el <strong>Certificate of <br/>Authenticity</strong>, llevando el vehículo a sus especificaciones originales.",
-        "<br/>Analizamos con el cliente las posibilidades y el alcance <br/>de la unidad para que el resultado sea proporcional al <br/>valor futuro de cada modelo de Porsche clásico.<br/><br/>Cada modelo se analiza al 100 % en función de su estado para que <br/>el resultado final sea <strong>efectivo y acorde con su historia</strong>.",
-        "Sigue el proceso de restauración de este backdating de un 964.",
-        "Sigue el proceso de restauración de este 2.7 s Targa de 1975.",
-        "Sigue el proceso de restauración de este SC Targa de 1979 que estamos preparando para su venta.",
-        "Sigue el proceso de restauración de este precioso 930, que llegó a nuestras instalaciones después de sufrir un incendio en la zona del motor.",
-        "Motor 2.2",
-        "Motor 2.2 1970<br/>",
-        "Rehabilitación de motor 964 tipo M64",
-        "Motor 930 turbo 3.0 1988"
+        "Restauramos Porsche enteros, buscando el mayor grado de originalidad posible. La referencia es el <strong>Certificate of Authenticity</strong> de Porsche: el documento que dice con qué color, qué tapicería y qué opciones salió de fábrica esa unidad concreta.",
+        "Una restauración integral no es un presupuesto, es una conversación. Antes de desmontar nada acordamos hasta dónde llega el proyecto, porque el alcance decide el resultado y también el valor que tendrá el coche después."
       ],
       "items": [],
       "imagenes": [
@@ -113,11 +113,43 @@
           "alt": "Motor 930 turbo 3.0 1988"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Hasta dónde llegar",
+      "parrafos": [
+        "No todos los coches piden lo mismo. En una unidad rara y documentada, la originalidad manda y cada desviación resta. En un coche de uso, tiene sentido ganar fiabilidad aunque se pierda literalidad, y eso es una decisión del propietario, no nuestra.",
+        "Lo que no hacemos es empezar sin haber tenido esa conversación. La mitad de los proyectos que llegan mal terminados de otro sitio empezaron sin ella."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué entra en el proyecto",
+      "parrafos": [],
+      "items": [
+        "Desmontaje completo y catalogación de cada pieza.",
+        "Carrocería: chapa, tratamiento anticorrosión y pintura en colores originales.",
+        "Motor y transmisión, en la sala de motores.",
+        "Instalación eléctrica, frenos, suspensión y dirección.",
+        "Interiores: tapicería con materiales de época.",
+        "Localización de piezas, que en un coche de sesenta años es medio proyecto."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Los que ya hemos hecho",
+      "parrafos": [
+        "Abajo están seis restauraciones contadas paso a paso, con las fotos del proceso. Entre ellas, un 911 serie F de 1965 que llegó desmontado en cajas después de siete años de traslados, y un 930 Turbo que llegó tras un incendio en la zona del motor."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Restauración integral"
+  }
 }

@@ -1,20 +1,35 @@
 {
   "rutaId": "restauraciones-personalizacion",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_restauraciones",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Personalización de Porsche y proyectos one-off · Valentin Motors",
     "descripcion": "Proyectos a medida sobre Porsche: carrocería, rendimiento e interiores, incluidos los encargos de una sola unidad.",
     "ogImagen": ""
   },
   "h1": "Personalización y proyectos one-off",
+  "menu": "Personalización",
   "acordeones": [],
+  "articulos": [
+    "9-eleven-headlights-964",
+    "nose-lift-997-1"
+  ],
   "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Qué hacemos",
+      "parrafos": [
+        "Proyectos a medida sobre un coche que sigue siendo el suyo: cambios en la carrocería, mejoras de rendimiento e interiores hechos a mano. Desde una pieza concreta hasta un encargo <strong>one-off</strong>, del que solo existirá una unidad.",
+        "Somos distribuidores e instaladores autorizados <strong>TECHART</strong> desde 2019, lo que cubre el catálogo de personalización de los modelos actuales. Lo que no está en catálogo se fabrica."
+      ],
+      "items": [],
+      "imagenes": []
+    },
     {
       "nivel": 2,
       "titulo": "Hasta dónde se puede llegar",
       "parrafos": [
-        "Realizamos <strong>proyectos a medida</strong> para clientes con aspiraciones específicas: <br/>cambios en la carrocería, mejoras de rendimiento e interiores a medida.<br/>"
+        "La frontera no la pone la técnica, la pone la homologación y el sentido común sobre el valor del coche. Una modificación reversible sobre un coche corriente es una cosa; una irreversible sobre una unidad rara es otra, y lo decimos antes de empezar aunque el encargo se caiga."
       ],
       "items": [],
       "imagenes": []
@@ -23,6 +38,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Personalización"
+  }
 }

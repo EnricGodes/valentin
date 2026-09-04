@@ -127,6 +127,9 @@ const migas = coche
    datos/tarifas.json y los pinta el buscador de modelos. El resto de paginas
    con acordeon (que no son tarifas) sigue igual. */
 const familiaTarifa = tarifas.familias.find((f) => f.rutaId === pagina?.rutaId)?.id;
+/* El indice de tarifas lleva el buscador entero, con las seis familias; cada
+   pagina de familia, solo la suya. */
+const esIndiceTarifas = pagina?.rutaId === 'taller-tarifas';
 
 /* La pagina del taller traia la seccion "Tarifas de mantenimiento" seguida de
    seis subsecciones que solo listaban modelos: en Squarespace cada una era un
@@ -203,7 +206,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
                          columnas={relacionados.length > 2 ? 3 : 2} urgentes={0} />
         </section>
       )}
-      {familiaTarifa
+      {(familiaTarifa || esIndiceTarifas)
         ? <div class="contenido">
             <Tarifas idioma={idioma} familia={familiaTarifa} textos={{
               familia: t('tarifas.familia'), modelo: t('tarifas.modelo'),

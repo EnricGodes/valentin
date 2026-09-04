@@ -4,11 +4,16 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Restomods Porsche · Valentin Motors",
-    "descripcion": "Un Porsche clásico con mecánica, frenos y confort actuales, construido entero en casa. Así nació el PA10/01.",
+    "descripcion": "Un Porsche clásico reconstruido entero para conducirse como uno de hoy, conservando su línea y su carácter.",
     "ogImagen": ""
   },
   "h1": "Restomods",
+  "menu": "Restomods",
   "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid"
+  ],
   "secciones": [
     {
       "nivel": 2,
@@ -24,7 +29,7 @@
       "nivel": 2,
       "titulo": "El primero fue el PA10/01",
       "parrafos": [
-        "El PA10/01 es nuestra interpretación del 911 perfecto: un coche construido entero en casa y presentado en Madrid en 2025. Sirve de referencia de hasta dónde llega un proyecto de este tipo."
+        "El <a href=\"/builds/pa10-01\">PA10/01</a> es nuestra interpretación del 911 perfecto: un coche construido entero en casa y presentado en Madrid en 2025. Sirve de referencia de hasta dónde llega un proyecto de este tipo."
       ],
       "items": [],
       "imagenes": []
@@ -33,6 +38,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Restomods"
+  }
 }
