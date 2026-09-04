@@ -87,6 +87,46 @@ export const RUTAS: Ruta[] = [
              fr: 'entretien-porsche-transaxle', it: 'manutenzione-porsche-transaxle',
              de: 'porsche-transaxle-wartung', ca: 'manteniment-porsche-transaxle' } },
 
+  // ── Servicios del taller ────────────────────────────────────────────────
+  { id: 'taller-mantenimiento', seccion: 'taller',
+    slugs: { es: 'taller-porsche/mantenimiento', en: 'porsche-workshop/servicing', fr: 'atelier-porsche/entretien', it: 'officina-porsche/manutenzione', de: 'porsche-werkstatt/wartung', ca: 'taller-porsche/manteniment' } },
+  { id: 'taller-tarifas', seccion: 'taller',
+    slugs: { es: 'taller-porsche/tarifas', en: 'porsche-workshop/prices', fr: 'atelier-porsche/tarifs', it: 'officina-porsche/tariffe', de: 'porsche-werkstatt/preise', ca: 'taller-porsche/tarifes' } },
+  { id: 'taller-ims', seccion: 'taller',
+    slugs: { es: 'taller-porsche/reparacion-ims', en: 'porsche-workshop/ims-repair', fr: 'atelier-porsche/reparation-ims', it: 'officina-porsche/riparazione-ims', de: 'porsche-werkstatt/ims-reparatur', ca: 'taller-porsche/reparacio-ims' } },
+  { id: 'taller-bore-scoring', seccion: 'taller',
+    slugs: { es: 'taller-porsche/bore-scoring', en: 'porsche-workshop/bore-scoring', fr: 'atelier-porsche/bore-scoring', it: 'officina-porsche/bore-scoring', de: 'porsche-werkstatt/bore-scoring', ca: 'taller-porsche/bore-scoring' } },
+  { id: 'taller-motores', seccion: 'taller',
+    slugs: { es: 'taller-porsche/motores', en: 'porsche-workshop/engines', fr: 'atelier-porsche/moteurs', it: 'officina-porsche/motori', de: 'porsche-werkstatt/motoren', ca: 'taller-porsche/motors' } },
+  { id: 'taller-cajas', seccion: 'taller',
+    slugs: { es: 'taller-porsche/cajas-de-cambio', en: 'porsche-workshop/gearboxes', fr: 'atelier-porsche/boites-de-vitesses', it: 'officina-porsche/cambi', de: 'porsche-werkstatt/getriebe', ca: 'taller-porsche/caixes-de-canvi' } },
+  { id: 'taller-pintura', seccion: 'taller',
+    slugs: { es: 'taller-porsche/pintura-carroceria', en: 'porsche-workshop/paint-bodywork', fr: 'atelier-porsche/peinture-carrosserie', it: 'officina-porsche/verniciatura-carrozzeria', de: 'porsche-werkstatt/lack-karosserie', ca: 'taller-porsche/pintura-carrosseria' } },
+  { id: 'taller-pre-compra', seccion: 'taller',
+    slugs: { es: 'taller-porsche/inspeccion-pre-compra', en: 'porsche-workshop/pre-purchase-inspection', fr: 'atelier-porsche/inspection-avant-achat', it: 'officina-porsche/ispezione-pre-acquisto', de: 'porsche-werkstatt/ankaufsuntersuchung', ca: 'taller-porsche/inspeccio-pre-compra' } },
+  { id: 'taller-servicio-tecnico', seccion: 'taller',
+    slugs: { es: 'taller-porsche/servicio-tecnico', en: 'porsche-workshop/technical-service', fr: 'atelier-porsche/service-technique', it: 'officina-porsche/servizio-tecnico', de: 'porsche-werkstatt/technischer-service', ca: 'taller-porsche/servei-tecnic' } },
+  { id: 'taller-storage', seccion: 'taller',
+    slugs: { es: 'taller-porsche/storage', en: 'porsche-workshop/vehicle-storage', fr: 'atelier-porsche/stockage', it: 'officina-porsche/rimessaggio', de: 'porsche-werkstatt/einlagerung', ca: 'taller-porsche/emmagatzematge' } },
+
+  // ── Proyectos y restauracion ────────────────────────────────────────────
+  { id: 'restauraciones-integrales', seccion: 'servicios',
+    slugs: { es: 'restauraciones/integrales', en: 'porsche-restoration/full-restoration', fr: 'restauration-porsche/integrale', it: 'restauro-porsche/integrale', de: 'porsche-restaurierung/komplettrestaurierung', ca: 'restauracions/integrals' } },
+  { id: 'restauraciones-backdating', seccion: 'servicios',
+    slugs: { es: 'restauraciones/backdating', en: 'porsche-restoration/backdating', fr: 'restauration-porsche/backdating', it: 'restauro-porsche/backdating', de: 'porsche-restaurierung/backdating', ca: 'restauracions/backdating' } },
+  { id: 'restauraciones-restomod', seccion: 'servicios',
+    slugs: { es: 'restauraciones/restomod', en: 'porsche-restoration/restomod', fr: 'restauration-porsche/restomod', it: 'restauro-porsche/restomod', de: 'porsche-restaurierung/restomod', ca: 'restauracions/restomod' } },
+  { id: 'restauraciones-personalizacion', seccion: 'servicios',
+    slugs: { es: 'restauraciones/personalizacion', en: 'porsche-restoration/customisation', fr: 'restauration-porsche/personnalisation', it: 'restauro-porsche/personalizzazione', de: 'porsche-restaurierung/individualisierung', ca: 'restauracions/personalitzacio' } },
+  { id: 'restauraciones-proyectos', seccion: 'servicios',
+    slugs: { es: 'restauraciones/proyectos-y-diseno', en: 'porsche-restoration/projects-design', fr: 'restauration-porsche/projets-design', it: 'restauro-porsche/progetti-design', de: 'porsche-restaurierung/projekte-design', ca: 'restauracions/projectes-i-disseny' } },
+
+  // ── Builds: los Porsche construidos enteros por la casa ─────────────────
+  { id: 'builds', seccion: 'builds',
+    slugs: { es: 'builds', en: 'builds', fr: 'builds', it: 'builds', de: 'builds', ca: 'builds' } },
+  { id: 'build-pa10-01', seccion: 'builds',
+    slugs: { es: 'builds/pa10-01', en: 'builds/pa10-01', fr: 'builds/pa10-01', it: 'builds/pa10-01', de: 'builds/pa10-01', ca: 'builds/pa10-01' } },
+
   // ── Landings de compra ──────────────────────────────────────────────────
   { id: 'ocasion-997', seccion: 'coches',
     slugs: { es: 'porsche-997-de-segunda-mano', en: 'used-porsche-997', fr: 'porsche-997-occasion',
