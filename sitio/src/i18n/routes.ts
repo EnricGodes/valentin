@@ -109,8 +109,8 @@ export const RUTAS: Ruta[] = [
     slugs: { es: 'taller-porsche/inspeccion-pre-compra', en: 'porsche-workshop/pre-purchase-inspection', fr: 'atelier-porsche/inspection-avant-achat', it: 'officina-porsche/ispezione-pre-acquisto', de: 'porsche-werkstatt/ankaufsuntersuchung', ca: 'taller-porsche/inspeccio-pre-compra' } },
   { id: 'taller-servicio-tecnico', seccion: 'taller',
     slugs: { es: 'taller-porsche/servicio-tecnico', en: 'porsche-workshop/technical-service', fr: 'atelier-porsche/service-technique', it: 'officina-porsche/servizio-tecnico', de: 'porsche-werkstatt/technischer-service', ca: 'taller-porsche/servei-tecnic' } },
-  { id: 'taller-storage', seccion: 'taller',
-    slugs: { es: 'taller-porsche/storage', en: 'porsche-workshop/vehicle-storage', fr: 'atelier-porsche/stockage', it: 'officina-porsche/rimessaggio', de: 'porsche-werkstatt/einlagerung', ca: 'taller-porsche/emmagatzematge' } },
+  { id: 'storage', seccion: 'servicios',
+    slugs: { es: 'storage-porsche', en: 'porsche-vehicle-storage', fr: 'stockage-porsche', it: 'rimessaggio-porsche', de: 'porsche-einlagerung', ca: 'emmagatzematge-porsche' } },
 
   // ── Proyectos y restauracion ────────────────────────────────────────────
   { id: 'restauraciones-integrales', seccion: 'servicios',
