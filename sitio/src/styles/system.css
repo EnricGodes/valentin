@@ -166,10 +166,10 @@ a { color: inherit; }
   [open] .nav-boton-barras i:nth-child(2) { opacity: 0; }
   [open] .nav-boton-barras i:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
-  /* El panel ocupa la pantalla entera bajo la barra. Antes era una lista en
-     mono de once píxeles, que es la letra de un dato técnico, no la de un menú
-     que se toca con el pulgar: ahora las secciones van en la serif del sitio y
-     cada fila mide más de lo que mide un dedo. */
+  /* El panel ocupa la pantalla entera bajo la barra. Sigue en la mono del
+     sitio, que es la letra de la navegación aquí, pero a un tamaño que se lee
+     y en filas que se tocan: el problema no era la tipografía, eran los diez
+     píxeles y las filas de la altura de una línea. */
   .nav-menu > .nav-links {
     display: none;
     position: fixed; top: var(--alto-nav, 67px); left: 0; right: 0; bottom: 0;
@@ -183,9 +183,9 @@ a { color: inherit; }
 
   .nav-item { border-bottom: 1px solid var(--linea); position: relative; }
   .nav-item > a {
-    display: block; padding: 20px var(--pad-lateral);
-    font-family: var(--serif); font-size: 24px; font-weight: 400;
-    letter-spacing: -0.01em; text-transform: none; color: var(--blanco);
+    display: block; padding: 22px var(--pad-lateral);
+    font-family: var(--mono); font-size: 14px; font-weight: 400;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--blanco);
   }
   .nav-item > a[aria-current='page'] { color: var(--bronce); }
   .nav-item--con-hijos > a::after { display: none; }
@@ -198,9 +198,9 @@ a { color: inherit; }
     background: transparent; border: 0; transition: none;
   }
   .nav-sub a {
-    padding: 12px var(--pad-lateral) 12px calc(var(--pad-lateral) + 16px);
-    font-family: var(--sans, inherit); font-size: 15px; letter-spacing: 0;
-    text-transform: none; color: var(--concreto);
+    padding: 13px var(--pad-lateral) 13px calc(var(--pad-lateral) + 18px);
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--concreto);
   }
   .nav-sub a:hover, .nav-sub a[aria-current='page'] {
     background: transparent; color: var(--blanco);
