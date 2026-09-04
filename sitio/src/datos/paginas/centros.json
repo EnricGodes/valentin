@@ -1,0 +1,65 @@
+{
+  "rutaId": "centros",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Talleres Porsche en Barcelona y Madrid · Valentin Motors",
+    "descripcion": "Dos talleres independientes especializados en Porsche: Varsòvia 65 en el centro de Barcelona y Puig Adam 10 en Leganés, Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "Nuestros centros",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Dos talleres, el mismo taller",
+      "parrafos": [
+        "Valentin Motors trabaja desde dos centros propios. No son una central y una delegación: los dos hacen mantenimiento, restauración y venta, y comparten equipo, criterio y proveedores. La sala de motores y la cabina de pintura están en Barcelona; Madrid tiene la mayor superficie y el servicio de Storage.",
+        "Elige el que te quede cerca. Si tu coche necesita algo que solo está en el otro, lo movemos nosotros."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Barcelona · Varsòvia, 65",
+      "parrafos": [
+        "Más de 1.300 m² en el centro de Barcelona, junto a la Ronda del Mig, con taller mecánico, sala de motores y plancha y pintura. Es la casa original: aquí empezó todo en 1979.",
+        "Teléfono 933 479 856 · Horario de 8:00 a 18:00."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/6898818b-vm.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Madrid · Puig Adam, 10 (Leganés)",
+      "parrafos": [
+        "Más de 2.500 m² en Leganés, a veinte minutos del centro de Madrid y a veintidós de Barajas. Mantenimiento, restauración integral, compraventa y el servicio de Storage.",
+        "Teléfono 913 017 575 · Horario de 8:30 a 18:00, y ventas hasta las 19:00."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c5f42fd5-madrid_entrada.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856",
+      "913 017 575"
+    ],
+    "emails": [
+      "info@valentinmotors.es",
+      "madrid@valentinmotors.es"
+    ]
+  },
+  "menu": "Nuestros centros"
+}

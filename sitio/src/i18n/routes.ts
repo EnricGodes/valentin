@@ -42,6 +42,9 @@ export const RUTAS: Ruta[] = [
     slugs: SEGMENTOS.coches },
 
   // ── Centros ─────────────────────────────────────────────────────────────
+  { id: 'centros', seccion: 'centros',
+    slugs: { es: 'centros', en: 'locations', fr: 'centres',
+             it: 'sedi', de: 'standorte', ca: 'centres' } },
   { id: 'barcelona', seccion: 'centros',
     slugs: { es: 'barcelona', en: 'barcelona', fr: 'barcelona', it: 'barcelona', de: 'barcelona', ca: 'barcelona' } },
   { id: 'madrid', seccion: 'centros',

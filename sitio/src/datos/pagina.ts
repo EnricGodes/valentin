@@ -30,6 +30,10 @@ export interface Pagina {
   ficheroOriginal: string;
   meta: { titulo: string; descripcion: string; ogImagen: string };
   h1: string;
+  /** Rotulo corto para el menu. El h1 esta escrito para Google y para quien ya
+      esta en la pagina ("Reparacion del IMS en motores M96 y M97"); un menu
+      necesita "Reparacion del IMS". Si falta, se usa el h1. */
+  menu?: string;
   acordeones: Acordeon[];
   secciones: SeccionPagina[];
   contacto: { telefonos: string[]; emails: string[] };

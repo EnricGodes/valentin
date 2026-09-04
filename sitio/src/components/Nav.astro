@@ -47,8 +47,10 @@ function enlace(id: string, extra: string[] = []) {
 
 /* El texto del submenú es el h1 de la propia página: si mañana cambia el
    titular de un servicio, el menú lo dice igual sin tocar el menú. */
-const tituloDe = (id: string) =>
-  paginaPorRuta(id, idioma)?.h1 ?? paginaPorRuta(id, POR_DEFECTO)?.h1 ?? id;
+const tituloDe = (id: string) => {
+  const p = paginaPorRuta(id, idioma) ?? paginaPorRuta(id, POR_DEFECTO);
+  return p?.menu ?? p?.h1 ?? id;
+};
 
 const hijo = (id: string) => (hay(id) ? [{ id, texto: tituloDe(id) }] : []);
 
@@ -71,7 +73,9 @@ const enlaces = [
       ...hijo('sala-motores'), ...hijo('competicion'),
     ] },
   { id: 'builds', texto: t('nav.builds'), hijos: [...hijo('build-pa10-01')] },
-  { id: 'barcelona', texto: t('nav.centros'), hijos: [...hijo('madrid')] },
+  { id: 'centros', texto: t('nav.centros'), hijos: [
+      ...hijo('barcelona'), ...hijo('madrid'),
+    ] },
   { id: 'magazine', texto: t('nav.magazine'), hijos: [] },
   // Las herramientas solo existen en castellano por ahora.
   ...(idioma === 'es' ? [{ id: 'herramientas', texto: t('nav.herramientas'), hijos: [] }] : []),
