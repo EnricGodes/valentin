@@ -66,11 +66,20 @@
     },
     {
       "nivel": 2,
-      "titulo": "Werkstatt Porsche im Eixample von Barcelona",
+      "titulo": "Werkstatt Porsche in Barcelona",
       "parrafos": [
         "Varsòvia, 65<br/>08041 Barcelona<br/>+34 933 479 856 / +34 679 081 019",
-        "Montag bis Freitag 8:00 bis 18:00",
-        "<strong>Bald in Madrid</strong>"
+        "Montag bis Freitag 8:00 bis 18:00"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Werkstatt Porsche in Madrid (Leganés)",
+      "parrafos": [
+        "Puig Adam, 10<br/>Parque Sur, 28914 Leganés (Madrid)<br/>+34 913 017 575",
+        "Montag bis Freitag. Werkstatt: 8:30 bis 18:00 / Verkauf: 8:30 bis 19:00"
       ],
       "items": [],
       "imagenes": []

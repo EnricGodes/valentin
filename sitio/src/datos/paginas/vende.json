@@ -66,11 +66,20 @@
     },
     {
       "nivel": 2,
-      "titulo": "Taller Porsche en el Eixample de Barcelona",
+      "titulo": "Taller Porsche en Barcelona",
       "parrafos": [
         "Varsòvia, 65<br/>08041 Barcelona<br/>+34 933 479 856 / +34 679 081 019",
-        "De lunes a viernes, de 8:00 a 18:00 h",
-        "<strong>Próximamente en Madrid</strong>"
+        "De lunes a viernes, de 8:00 a 18:00 h"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Taller Porsche en Madrid (Leganés)",
+      "parrafos": [
+        "Puig Adam, 10<br/>Parque Sur, 28914 Leganés (Madrid)<br/>+34 913 017 575",
+        "De lunes a viernes. Taller: de 8:30 a 18:00; ventas: de 8:30 a 19:00."
       ],
       "items": [],
       "imagenes": []

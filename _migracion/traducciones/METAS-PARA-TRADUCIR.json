@@ -1,0 +1,1319 @@
+{
+  "formato": "valentinmotors-metas-v1",
+  "idiomas": [
+    "en",
+    "fr",
+    "de",
+    "it",
+    "ca"
+  ],
+  "instrucciones": [
+    "Rellena la casilla de cada idioma en cada entrada. No cambies \"id\" ni \"es\".",
+    "No es una traduccion literal: cada mercado busca con otras palabras. En aleman \"Porsche Werkstatt\" tiene volumen y \"atelier\" no significa nada; en ingles se busca \"servicing\", no \"maintenance tariffs\".",
+    "\"actual\" es lo que hay publicado hoy en ese idioma, como referencia. Puede estar vacio: entonces la pagina no tiene ese campo todavia.",
+    "Respeta \"limiteCaracteres\". Google corta el title por anchura en pixeles, no por caracteres, pero 70 es el margen seguro; el aleman alarga entre un 20% y un 35%.",
+    "Respeta el glosario: hay terminos que no se traducen en ningun idioma.",
+    "No traduzcas cifras, precios, direcciones, codigos de color ni designaciones de modelo.",
+    "La marca se escribe \"Valentin Motors\" con tilde en la i de Valentin en todos los idiomas.",
+    "Trato de usted en frances, aleman e italiano. Tuteo en catalan.",
+    "Tono: contenido, preciso, editorial. Sin exclamaciones ni lenguaje de concesionario.",
+    "Devuelve el fichero con la MISMA estructura. Lo aplica 30_importar_metas.py."
+  ],
+  "glosario": {
+    "noSeTraducenNunca": [
+      "IMS",
+      "bore scoring",
+      "backdating",
+      "Tiptronic",
+      "PDK",
+      "PASM",
+      "PCCB",
+      "Targa",
+      "Speedster",
+      "Carrera",
+      "Turbo",
+      "GT2",
+      "GT3",
+      "RS",
+      "4S",
+      "Boxster",
+      "Cayman",
+      "Cayenne",
+      "Macan",
+      "Panamera",
+      "transaxle",
+      "RUF",
+      "TECHART",
+      "Nickies",
+      "NSC",
+      "NIKASIL",
+      "track day",
+      "Motorsport",
+      "Porsche Partner Network",
+      "P.P.N.",
+      "Valentin Motors",
+      "VM German Engineering",
+      "356",
+      "911",
+      "912",
+      "914",
+      "930",
+      "964",
+      "991",
+      "992",
+      "993",
+      "996",
+      "997",
+      "M96",
+      "M97",
+      "youngtimer",
+      "restomod",
+      "Certificate of Authenticity"
+    ],
+    "tablaCompleta": "sitio/src/i18n/glosario.md"
+  },
+  "resumen": {
+    "entradas": 65,
+    "paginas": 20,
+    "articulos": 45,
+    "cadenasATraducir": 325,
+    "caracteresEspanol": 7357
+  },
+  "entradas": [
+    {
+      "id": "pagina:barcelona:meta.titulo",
+      "tipo": "meta-titulo",
+      "contexto": "Valentin Motors Barcelona: taller especializado en Porsche desde 1979 — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Valentín Motors Barcelona · Taller y recambios Porsche",
+      "actual": {
+        "en": "Porsche workshop in Barcelona · Independent since 1979",
+        "fr": "Atelier Porsche à Barcelone · Indépendant depuis 1979",
+        "de": "Porsche Werkstatt in Barcelona · Frei seit 1979",
+        "it": "Officina Porsche a Barcellona · Indipendente dal 1979",
+        "ca": "Taller Porsche a Barcelona · Independent des de 1979"
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:barcelona:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Valentin Motors Barcelona: taller especializado en Porsche desde 1979 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Mantenimiento, chapa y pintura, restauración y recambios Porsche en Varsòvia 65, junto a la Ronda del Mig. 1.300 m² de taller especializado.",
+      "actual": {
+        "en": "Porsche specialists at Varsòvia 65, next to the Ronda del Mig. Servicing, restoration, bodywork and sales across more than 1,300 m².",
+        "fr": "Spécialistes Porsche au 65 Varsòvia, en bordure de la Ronda del Mig. Entretien, restauration, carrosserie et vente sur plus de 1 300 m².",
+        "de": "Porsche Spezialisten in der Varsòvia 65, an der Ronda del Mig. Wartung, Restaurierung, Karosserie und Verkauf auf mehr als 1.300 m².",
+        "it": "Specialisti Porsche in Varsòvia 65, a fianco della Ronda del Mig. Manutenzione, restauro, carrozzeria e vendita in oltre 1.300 m².",
+        "ca": "Especialistes Porsche a Varsòvia 65, al costat de la Ronda del Mig. Manteniment, restauració, xapa i pintura i venda en més de 1.300 m²."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:competicion:meta.titulo",
+      "tipo": "meta-titulo",
+      "contexto": "Preparación de vehículos para competición — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Preparación de Porsche para competición · Valentín Motors",
+      "actual": {
+        "en": "Preparation of vehicles for competition — Valentín Motors",
+        "fr": "Préparation compétition — Valentín Motors",
+        "de": "Rennfahrzeug-Vorbereitung — Valentín Motors",
+        "it": "Preparazione auto da competizione — Valentín Motors",
+        "ca": "Preparació de vehicles per a competició — Valentín Motors"
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:competicion:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Preparación de vehículos para competición — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Preparación para track days, campeonatos GT y rally: asistencia, soporte e ingeniería de pista. Socios técnicos e instaladores de suspensiones KW.",
+      "actual": {
+        "en": "Valentín Motors has been present since 1979 in the world of racing. The DNA of the brand is competition, a place where we have always been present.",
+        "fr": "Valentín Motors participe aux courses depuis 1979. La compétition fait partie de notre ADN et de notre histoire.",
+        "de": "Valentín Motors ist seit 1979 in der Welt des Rennsports präsent. Die DNA der Marke ist der Wettbewerb, ein Ort, an dem wir schon immer präsent waren.",
+        "it": "Valentín Motors è presente dal 1979 nel mondo delle corse. Il DNA del brand è la competizione, luogo dove siamo sempre stati presenti.",
+        "ca": "Valentín Motors és present des de 1979 al món de les carreres. L'ADN de la marca és la competició, lloc on sempre hi hem estat presents."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:contacto:meta.titulo",
+      "tipo": "meta-titulo",
+      "contexto": "Contacta con nosotros — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Contacto · Taller Porsche en Barcelona y Madrid",
+      "actual": {
+        "en": "Contact · Porsche workshop in Barcelona and Madrid",
+        "fr": "Contact · Atelier Porsche à Barcelone et Madrid",
+        "de": "Kontakt · Porsche-Werkstatt in Barcelona und Madrid",
+        "it": "Contatti · Officina Porsche a Barcellona e Madrid",
+        "ca": "Contacte · Taller Porsche a Barcelona i Madrid"
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:contacto:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Contacta con nosotros — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Varsòvia 65, Barcelona, y Puig Adam 10, Leganés, Madrid. Cuéntanos qué necesita tu Porsche y concertamos una cita.",
+      "actual": {
+        "en": "Varsòvia 65, Barcelona, and Puig Adam 10, Leganés, Madrid. Tell us what your Porsche needs and we will arrange an appointment.",
+        "fr": "Varsòvia 65, Barcelone, et Puig Adam 10, Leganés, Madrid. Dites-nous ce dont votre Porsche a besoin et nous fixerons un rendez-vous.",
+        "de": "Varsòvia 65, Barcelona, und Puig Adam 10, Leganés, Madrid. Sagen Sie uns, was Ihr Porsche braucht, und wir vereinbaren einen Termin.",
+        "it": "Varsòvia 65, Barcellona, e Puig Adam 10, Leganés, Madrid. Ci dica di cosa ha bisogno la Sua Porsche e fisseremo un appuntamento.",
+        "ca": "Varsòvia 65, Barcelona, i Puig Adam 10, Leganés, Madrid. Explica'ns què necessita el teu Porsche i concertem una cita."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:madrid:meta.titulo",
+      "tipo": "meta-titulo",
+      "contexto": "Valentin Motors Madrid: taller especializado en Porsche desde 1979 — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Valentín Motors Madrid · Taller Porsche en Leganés",
+      "actual": {
+        "en": "Porsche workshop in Madrid · Leganés, since 1979",
+        "fr": "Atelier Porsche à Madrid · Leganés, depuis 1979",
+        "de": "Porsche Werkstatt in Madrid · Leganés, seit 1979",
+        "it": "Officina Porsche a Madrid · Leganés, dal 1979",
+        "ca": "Taller Porsche a Madrid · Leganés, des de 1979"
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:madrid:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Valentin Motors Madrid: taller especializado en Porsche desde 1979 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Mantenimiento, restauración integral y compraventa de Porsche en Puig Adam 10, Leganés, a 20 minutos del centro. 2.500 m² de taller.",
+      "actual": {
+        "en": "Porsche specialists at Puig Adam 10, Leganés, twenty minutes from the centre. Servicing, full restoration and sales across more than 2,500 m².",
+        "fr": "Spécialistes Porsche au 10 Puig Adam, Leganés, à vingt minutes du centre. Entretien, restauration intégrale et vente sur plus de 2 500 m².",
+        "de": "Porsche Spezialisten in der Puig Adam 10, Leganés, zwanzig Minuten vom Zentrum. Wartung, Restaurierung und Verkauf auf mehr als 2.500 m².",
+        "it": "Specialisti Porsche in Puig Adam 10, Leganés, a venti minuti dal centro. Manutenzione, restauro integrale e vendita in oltre 2.500 m².",
+        "ca": "Especialistes Porsche a Puig Adam 10, Leganés, a vint minuts del centre. Manteniment, restauració integral i venda en més de 2.500 m²."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:ocasion-992:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Porsche 992 de segunda mano — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Porsche 911 tipo 992 de ocasión revisados en 111 puntos, con doce meses de cobertura y el kilometraje certificado en la factura de venta.",
+      "actual": {
+        "en": "Offer for Porsche 911 type 992, with revision of 111 points. Twelve months coverage. Kilometers certified on the invoice.",
+        "fr": "Offre pour Porsche 911 type 992, avec révision de 111 points. Couverture de douze mois. Kilomètres certifiés sur la facture.",
+        "de": "Angebot für Porsche 911 Typ 992, mit Revision von 111 Punkten. Zwölf Monate Versicherungsschutz. Auf der Rechnung bescheinigte Kilometer.",
+        "it": "Offerta per Porsche 911 tipo 992, con revisione di 111 punti. Copertura di dodici mesi. Chilometri certificati in fattura.",
+        "ca": "Oferta de Porsche 911 tipus 992, amb revisió de 111 punts. Cobertura de dotze mesos. Quilòmetres certificats a la factura."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:ocasion-996:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Porsche 996 de segunda mano — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Porsche 911 tipo 996 revisados en 111 puntos por nuestros ingenieros, con doce meses de cobertura y el kilometraje certificado en factura.",
+      "actual": {
+        "en": "Porsche 911 type 996 vehicles on offer, with revision of 111 points. Twelve months coverage. Kilometers certified on the invoice.",
+        "fr": "Véhicules Porsche 911 type 996 proposés, avec révision de 111 points. Couverture de douze mois. Kilomètres certifiés sur la facture.",
+        "de": "Porsche 911 Typ 996 Fahrzeuge im Angebot, mit Revision von 111 Punkten. Zwölf Monate Versicherungsschutz. Auf der Rechnung bescheinigte Kilometer.",
+        "it": "Veicoli Porsche 911 tipo 996 in offerta, con revisione di 111 punti. Copertura di dodici mesi. Chilometri certificati in fattura.",
+        "ca": "Vehicles Porsche 911 tipus 996 d'oferta, amb revisió de 111 punts. Cobertura de dotze mesos. Quilòmetres certificats a la factura."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:ocasion-997:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Porsche 997 de segunda mano — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Porsche 911 tipo 997 revisados en 111 puntos, con doce meses de cobertura y el kilometraje certificado en la factura de venta.",
+      "actual": {
+        "en": "Offer for Porsche 911 type 997, with revision of 111 points. Twelve months coverage. Kilometers certified on the invoice.",
+        "fr": "Offre pour Porsche 911 type 997, avec révision de 111 points. Couverture de douze mois. Kilomètres certifiés sur la facture.",
+        "de": "Angebot für Porsche 911 Typ 997, mit Revision von 111 Punkten. Zwölf Monate Versicherungsschutz. Auf der Rechnung bescheinigte Kilometer.",
+        "it": "Offerta per Porsche 911 tipo 997, con revisione di 111 punti. Copertura di dodici mesi. Chilometri certificati in fattura.",
+        "ca": "Oferta de Porsche 911 tipus 997, amb revisió de 111 punts. Cobertura de dotze mesos. Quilòmetres certificats a la factura."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:quienes-somos:meta.titulo",
+      "tipo": "meta-titulo",
+      "contexto": "Más de 45 años de historia — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Quiénes somos · Especialistas Porsche desde 1979",
+      "actual": {
+        "en": "Who we are — Valentín Motors",
+        "fr": "Qui nous sommes — Valentín Motors",
+        "de": "Wer wir sind – Valentín Motors",
+        "it": "Chi siamo — Valentín Motors",
+        "ca": "Qui som — Valentín Motors"
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:quienes-somos:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Más de 45 años de historia — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Valentín Motors nació en 1979 reparando 911 refrigerados por aire. Cuarenta y cinco años después, dos talleres, sala de motores propia y el mismo oficio.",
+      "actual": {
+        "en": "40 years serving lovers and enthusiasts of the Porsche world.",
+        "fr": "40 ans au service des amoureux et passionnés du monde Porsche.",
+        "de": "40 Jahre im Dienste von Liebhabern und Enthusiasten der Porsche-Welt.",
+        "it": "40 anni al servizio degli appassionati del mondo Porsche.",
+        "ca": "40 anys donant servei als amants i apassionats del món Porsche."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:restauraciones:meta.titulo",
+      "tipo": "meta-titulo",
+      "contexto": "Restauraciones Porsche — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Restauración y personalización de Porsche · Valentín Motors",
+      "actual": {
+        "en": "Restorations Porsche — Valentín Motors",
+        "fr": "Restaurations Porsche — Valentín Motors",
+        "de": "Restaurierungen Porsche – Valentín Motors",
+        "it": "Restauri Porsche — Valentín Motors",
+        "ca": "Restauracions Porsche — Valentín Motors"
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:restauraciones:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Restauraciones Porsche — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Restauración integral, backdating, restomod y proyectos a medida sobre Porsche, con el máximo grado de originalidad o con la mecánica de hoy.",
+      "actual": {
+        "en": "Valentín Motors we seek to recover originality in restoration projects and add new values in customization projects.",
+        "fr": "Valentín Motors restaure l’authenticité des Porsche et crée des projets personnalisés fidèles à leur caractère.",
+        "de": "Valentín Motors bewahrt bei Restaurierungen die Originalität und entwickelt stimmige individuelle Projekte.",
+        "it": "Valentín Motors cerchiamo di recuperare l'originalità nei progetti di restauro e aggiungere nuovi valori nei progetti di personalizzazione.",
+        "ca": "Valentín Motors busquem recuperar l'originalitat en els projectes de restauracions i afegir nous valors als projectes de personalitzacions."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:sala-motores:meta.titulo",
+      "tipo": "meta-titulo",
+      "contexto": "Sala de motores: clásicos y competición — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Sala de motores: clásicos y competición · Valentín Motors",
+      "actual": {
+        "en": "Engine room classics and competition — Valentín Motors",
+        "fr": "Salle des moteurs: classique & course — Valentín Motors",
+        "de": "Motorenraum Klassiker und Wettbewerb – Valentín Motors",
+        "it": "Sala motori classiche e competizioni — Valentín Motors",
+        "ca": "Sala de motors clàssics i competició — Valentín Motors"
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:sala-motores:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Sala de motores: clásicos y competición — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Reparamos y actualizamos motores clásicos y de competición de cualquier marca: Porsche, Ferrari, Jaguar, Aston Martin, Bentley, Alfa Romeo.",
+      "actual": {
+        "en": "Classic engine repairs for all makes: Porsche, Mercedes, Jaguar, Ferrari, Bentley, Aston Martin, Lamborghini and Alfa Romeo.",
+        "fr": "Réparation de moteurs classiques, toutes marques: Porsche, Mercedes, Jaguar, Ferrari, Bentley, Aston Martin, Lamborghini et Alfa Romeo.",
+        "de": "Reparatur klassischer Motoren aller Marken: Porsche, Mercedes, Jaguar, Ferrari, Bentley, Aston Martin, Lamborghini und Alfa Romeo.",
+        "it": "Riparazione di motori classici di ogni marca: Porsche, Mercedes, Jaguar, Ferrari, Bentley, Aston Martin, Lamborghini e Alfa Romeo.",
+        "ca": "Reparació de motors clàssics de totes les marques: Porsche, Mercedes, Jaguar, Ferrari, Bentley, Aston Martin, Lamborghini i Alfa Romeo."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:taller:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Servicios del taller Porsche — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Precios cerrados por modelo, reparación de IMS y bore scoring, motores, cajas de cambio, chapa y pintura. Taller Porsche independiente desde 1979.",
+      "actual": {
+        "en": "Independent Porsche workshop since 1979. Fixed-price servicing, IMS and bore scoring repair, engine and gearbox restoration.",
+        "fr": "Atelier Porsche indépendant depuis 1979. Entretien à prix ferme, réparation IMS et bore scoring, réfection de moteurs et de boîtes.",
+        "de": "Freie Porsche Werkstatt seit 1979. Wartung zum Festpreis, IMS- und Bore-Scoring-Reparatur, Motor- und Getriebeüberholung.",
+        "it": "Officina Porsche indipendente dal 1979. Manutenzione a prezzo chiuso, riparazione IMS e bore scoring, restauro di motori e cambi.",
+        "ca": "Taller Porsche independent des de 1979. Manteniment a preu tancat, reparació d’IMS i bore scoring, restauració de motors i caixes de canvis."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:vende:meta.titulo",
+      "tipo": "meta-titulo",
+      "contexto": "Te ayudamos a vender tu Porsche — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Vende tu Porsche con Valentín Motors",
+      "actual": {
+        "en": "Sell your Porsche with Valentín Motors — Valentín Motors",
+        "fr": "Vendez votre Porsche avec Valentín Motors — Valentín Motors",
+        "de": "Porsche verkaufen | Valentín Motors — Valentín Motors",
+        "it": "Venda la Sua Porsche con Valentín Motors — Valentín Motors",
+        "ca": "Ven el teu Porsche amb Valentín Motors — Valentín Motors"
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "pagina:vende:meta.descripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Te ayudamos a vender tu Porsche — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Gestionamos la venta de tu Porsche: compradores en toda Europa y Asia, papeleo incluido y una propuesta sin compromiso. Clásico, youngtimer o actual.",
+      "actual": {
+        "en": "Do you want to sell your Porsche? At Valentín Motors we help you do it quickly and at the best price.",
+        "fr": "Vous souhaitez vendre votre Porsche ? Chez Valentín Motors nous vous aidons à le faire rapidement et au meilleur prix.",
+        "de": "Möchten Sie Ihren Porsche verkaufen? Bei Valentín Motors helfen wir Ihnen, dies schnell und zum besten Preis zu erledigen.",
+        "it": "Desidera vendere la Sua Porsche? Noi di Valentín Motors La aiutiamo a farlo rapidamente e al miglior prezzo.",
+        "ca": "Vols vendre la teva Porsche? A Valentín Motors t'ajudem a fer-ho ràpidament i al millor preu."
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Diez cosas que debes saber antes de comprar un Porsche 911 — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Diez cosas que mirar antes de comprar un Porsche 911",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Diez cosas que debes saber antes de comprar un Porsche 911 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Diez comprobaciones antes de comprar un 911: cómo detectar si ha sufrido un accidente, qué informes puedes pedir y qué revisar sí o sí antes de pagar.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:9-eleven-headlights-964:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "9 eleven headlights para 964 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Gama de faros y pilotos 9 eleven para el 911 serie G y el 964: estética actualizada sobre la línea original. Montaje en Valentín Motors.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:996-m96-34-rotura-arbol-intermedio-ims:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "996 M96 3.4: reparación del motor por rotura del árbol intermedio IMS — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Rotura del árbol intermedio IMS en un 996 M96 3.4",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:996-m96-34-rotura-arbol-intermedio-ims:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "996 M96 3.4: reparación del motor por rotura del árbol intermedio IMS — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Reparación de un M96 3.4 tras la rotura del árbol intermedio y el desprendimiento del rodamiento IMS: síntomas, soluciones y proceso completo.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:997-m9701-38-a-40-nickies:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "997 M9701 3.8 a 4.0 (Nickies) — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "El bore scoring en los M97 del 997.1 y la solución NSC: camisas Nickies que reparan el rayado de los cilindros y llevan el motor de 3.8 a 4.0 litros.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:9971-turbo-rehabilitacion-motor:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "997.1 Turbo (rehabilitación del motor por avería) — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Rehabilitación completa del motor de un 997.1 Turbo con ruido interno: pruebas de diagnóstico, desmontaje y reconstrucción en la sala de motores.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:backdating-964-2023:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Backdating 964 (2023) — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "El backdating de un 964 de principio a fin: no se sigue un manual ni se copia a Singer, se define qué hará única a esa unidad y qué valor tendrá después.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:backdating-base-964:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Backdating base 964 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Por qué el 964 es la base ideal de un backdating: la línea del 911 de 1965 a 1973 sobre un coche que se conduce a diario. Un proyecto en forest green.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:club-de-propietarios-porsche:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Club de propietarios Porsche — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Salidas de fin de semana que empezaron con unos pocos clientes y hoy reúnen a la comunidad porschista. Participación abierta a todo el mundo y gratuita.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:motor-m97-38-a-40:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Motor M97 3.8 a 4.0 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Rehabilitación de un motor M97 3.8 con bore scoring y su paso a 4.0 litros: diagnóstico, proceso y reconstrucción completa.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:motor-serie-g-32:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Motor serie G 3.2 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Rehabilitación completa del motor 3.2 de un 911 serie G: desmontaje, verificación de cada componente y reconstrucción, fase a fase.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:nose-lift-997-1:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Nose lift system para 997.1 (sistema de elevación del tren delantero) — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Nose lift para Porsche 997.1: elevación del tren delantero",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:nose-lift-997-1:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Nose lift system para 997.1 (sistema de elevación del tren delantero) — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Sistema de elevación del eje delantero para el 997.1: dos segundos y un botón para no rozar el paragolpes ni el front lip. Ventajas e instalación.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:nuevo-centro-valentin-motors-en-madrid:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "El nuevo centro Valentin Motors en Madrid ofrece un servicio integral Porsche en la capital — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "El nuevo centro Valentín Motors en Madrid, por Jordi Edo",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:nuevo-taller-barcelona:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Valentín Motors celebra su 45 aniversario con la apertura de un nuevo taller en Barcelona — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Nuevo taller Porsche en Barcelona: Varsòvia 65",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:nuevo-taller-barcelona:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Valentín Motors celebra su 45 aniversario con la apertura de un nuevo taller en Barcelona — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Valentín Motors abre en Varsòvia 65 un taller de 1.300 m² con el que celebra sus 45 años: más capacidad, más servicios y mejor acceso en Barcelona.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:pa10-01:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "PA10/01 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "El PA10/01 es nuestra interpretación del restomod del 911: cómo imaginamos el 911 perfecto y cómo lo hemos construido, pieza a pieza.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:porsche-911g:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Porsche 911 G — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Porsche 911 serie G (1973-1989): versiones y motores",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:porsche-911g:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Porsche 911 G — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Los dieciséis años que definieron el 911: paragolpes de fuelle, carrocería galvanizada, motores de 2.7 a 3.2 y las seis versiones de la serie G.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:porsche-964:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Porsche 964 — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Porsche 964: versiones, motorizaciones e historia · Valentín Motors",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:porsche-964:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Porsche 964 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "La tercera generación del 911: tracción 4, ABS, dirección asistida y un 85 % de piezas nuevas. Versiones, motores Turbo y RS, y 63.762 unidades.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:porsche-spain-meeting-2026-jarama:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Porsche Spain Meeting 2026 Jarama Madrid — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "El equipo de Valentín Motors en los boxes del Circuito del Jarama durante el Porsche Spain Meeting 2026, el 27 de junio.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:porscheclassicseries2023:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Doble victoria en la Porsche Classic Series — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Doble victoria de Valentín Motors en las Porsche Classic Series 2023. La primera, en el circuito de Castellolí, con tres unidades en boxes.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:presentacion-pa10-01-madrid:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Presentación del PA10/01 en Madrid — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Valentín Motors presentó el PA10/01 en Madrid ante clientes, prensa y aficionados: el primer 911 reimaginado de forma integral en la capital.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:proceso-pintura-911-clase-g:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Proceso estándar de pintura en un 911 clase G — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "El proceso estándar de carrocería y pintura sobre un 911 serie G, de la preparación al color final, en fotografías de todas las fases.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:proceso-pintura-964:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Proceso estándar de pintura en un 964 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "El proceso estándar de carrocería y pintura sobre una carrocería 964 RS, fase a fase, tal y como se hace en el taller.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:reconstruccion-motor-968:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Reconstrucción del motor 968 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Reconstrucción del motor de un Porsche 968 que se quedó sin presión de aceite por un fallo de la bomba: diagnóstico y proceso completo.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:rehabilitacion-motor-22-1970-serief:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Rehabilitación completa del motor 2.2 de 1970, serie F — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Rehabilitación del motor 2.2 de un 911 serie F de 1970",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:rehabilitacion-motor-22-1970-serief:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Rehabilitación completa del motor 2.2 de 1970, serie F — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Rehabilitación completa del motor 2.2 de un 911 serie F de 1970: desmontaje, verificación de cada componente y reconstrucción.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:rehabilitacion-motor-32-serie-g-1985:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Rehabilitación completa del motor 3.2, serie G coupé, 1985 — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Rehabilitación del motor 3.2 de un 911 serie G de 1985",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:rehabilitacion-motor-32-serie-g-1985:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Rehabilitación completa del motor 3.2, serie G coupé, 1985 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Rehabilitación del motor 3.2 de un 911 serie G coupé de 1985 tras unas compresiones bajas y fugas de aceite procedentes del bloque.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-27-s-targa-lime-green:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Restauración 2.7 S 1975 nacional (N8 verde lima) — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Restauración completa de carrocería, mecánica e interiores de un 2.7 S Targa de 1975, nacional, de un solo propietario, y su color original N8 Lime Green.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-de-un-porsche-911-930-turbo:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Restauración integral de Porsche 911 930 Turbo — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Restauración integral de un 911 Turbo 930 de 1988: gran parada de motor y transmisión, más carrocería e interiores rehechos por completo.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-motor-1971-22:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Motor de 1971, 2.2 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Reconstrucción total del motor 2.2 de un Porsche 911 de 1971, del despiece a la puesta a punto final.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-motor-930-turbo-30-1988:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Motor 930 Turbo 3.0 de 1988 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Restauración del motor de un 930 Turbo 3.0 intercooler de 1988 en Valentín Motors, con la opinión de Jordi sobre el resultado.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-motor-964-m64:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Rehabilitación completa del motor 964 M64 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Rehabilitación completa de un motor M64: el bóxer de 3.600 cc con doble encendido que Porsche montó en toda la generación 964.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-motor-965-turbo-33:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Restauración completa del motor 965 (964 Turbo 3.3) — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Restauración del motor 965 de un 964 Turbo 3.3: pruebas en carretera, desacople de la cápsula motor/cambio y reconstrucción en la sala de motores.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-pinzas-freno:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Restauración de pinzas de freno — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Restauración de pinzas de freno paso a paso: desmontaje, chorreado, pintura, adhesivos y sustitución del juego de reparación de los pistones.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-porsche-911-1965:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Restauración integral de un Porsche 911 serie F de 1965 — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Restauración integral de un Porsche 911 serie F de 1965",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-porsche-911-1965:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Restauración integral de un Porsche 911 serie F de 1965 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Un 911 serie F de 1965 que llegó en cajas desordenadas, con piezas perdidas y siete años de traslados a la espalda. La restauración integral, paso a paso.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-porsche-964-turbo-1991:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Restauración completa de un 964 Turbo (965) de 1991 — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Restauración completa de un 964 Turbo (965) de 1991 con una petición del cliente: devolverlo a su mejor estado y pasar de 320 a 400 hp.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-sistema-inyeccion-cis:metaTitulo",
+      "tipo": "meta-titulo",
+      "contexto": "Restauración completa del sistema de inyección CIS (911 de 1975 a 1982) — titulo en Google",
+      "limiteCaracteres": 70,
+      "es": "Restauración del sistema de inyección CIS de un 911",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:restauracion-sistema-inyeccion-cis:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Restauración completa del sistema de inyección CIS (911 de 1975 a 1982) — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Restauración completa del sistema de inyección CIS de un 911 de 1975 a 1982: por qué importa tanto como la mecánica al reconstruir un motor.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    },
+    {
+      "id": "post:tapicera-original-de-911-serie-f:metaDescripcion",
+      "tipo": "meta-descripcion",
+      "contexto": "Trabajos de tapicería original de 911 serie F — descripcion en Google",
+      "limiteCaracteres": 160,
+      "es": "Tapicería original de un 911 serie F: la investigación de materiales y su colocación, un trabajo que afecta de lleno al valor final de la unidad.",
+      "actual": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "it": "",
+        "ca": ""
+      },
+      "en": "",
+      "fr": "",
+      "de": "",
+      "it": "",
+      "ca": ""
+    }
+  ]
+}

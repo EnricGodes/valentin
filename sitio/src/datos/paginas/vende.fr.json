@@ -66,11 +66,20 @@
     },
     {
       "nivel": 2,
-      "titulo": "Atelier Porsche dans l'Eixample de Barcelone",
+      "titulo": "Atelier Porsche à Barcelone",
       "parrafos": [
         "Varsòvia, 65<br/>08041 Barcelone<br/>+34 933 479 856 / +34 679 081 019",
-        "Du lundi au vendredi de 8:00 à 18:00",
-        "<strong>Bientôt à Madrid</strong>"
+        "Du lundi au vendredi de 8:00 à 18:00"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Atelier Porsche à Madrid (Leganés)",
+      "parrafos": [
+        "Puig Adam, 10<br/>Parque Sur, 28914 Leganés (Madrid)<br/>+34 913 017 575",
+        "Du lundi au vendredi. Atelier : 8:30 à 18:00 / Ventes : 8:30 à 19:00"
       ],
       "items": [],
       "imagenes": []

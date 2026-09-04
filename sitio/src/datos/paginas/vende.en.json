@@ -66,11 +66,20 @@
     },
     {
       "nivel": 2,
-      "titulo": "Workshop Porsche in the Eixample of Barcelona",
+      "titulo": "Workshop Porsche in Barcelona",
       "parrafos": [
         "Varsòvia, 65<br/>08041 Barcelona<br/>+34 933 479 856 / +34 679 081 019",
-        "Monday to Friday 8:00 to 18:00",
-        "<strong>Coming soon to Madrid</strong>"
+        "Monday to Friday 8:00 to 18:00"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Workshop Porsche in Madrid (Leganés)",
+      "parrafos": [
+        "Puig Adam, 10<br/>Parque Sur, 28914 Leganés (Madrid)<br/>+34 913 017 575",
+        "Monday to Friday. Workshop: 8:30 to 18:00 / Sales: 8:30 to 19:00"
       ],
       "items": [],
       "imagenes": []

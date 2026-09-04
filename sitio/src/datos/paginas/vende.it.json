@@ -66,11 +66,20 @@
     },
     {
       "nivel": 2,
-      "titulo": "Officina Porsche nell'Eixample di Barcellona",
+      "titulo": "Officina Porsche a Barcellona",
       "parrafos": [
         "Varsòvia, 65<br/>08041 Barcellona<br/>+34 933 479 856 / +34 679 081 019",
-        "Dal lunedì al venerdì, dalle 8:00 alle 18:00",
-        "<strong>Prossimamente a Madrid</strong>"
+        "Dal lunedì al venerdì, dalle 8:00 alle 18:00"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Officina Porsche a Madrid (Leganés)",
+      "parrafos": [
+        "Puig Adam, 10<br/>Parque Sur, 28914 Leganés (Madrid)<br/>+34 913 017 575",
+        "Dal lunedì al venerdì. Officina: dalle 8:30 alle 18:00 / Vendite: dalle 8:30 alle 19:00"
       ],
       "items": [],
       "imagenes": []
