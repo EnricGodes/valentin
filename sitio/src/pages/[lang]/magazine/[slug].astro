@@ -8,8 +8,7 @@ import { traductor } from '../../../i18n/ui';
 import Articulo from '../../../components/seo/Articulo.astro';
 import Migas from '../../../components/seo/Migas.astro';
 import Faq from '../../../components/seo/Faq.astro';
-import { DOMINIO } from '../../../i18n/config';
-import { IDIOMAS, POR_DEFECTO, type Idioma } from '../../../i18n/config';
+import { DOMINIO, IDIOMAS, POR_DEFECTO, type Idioma } from '../../../i18n/config';
 
 /* El Magazine en los cinco idiomas con prefijo. El espanol vive en la raiz y lo
    sirve src/pages/magazine/[slug].astro. Solo se generan las paginas de los
@@ -68,7 +67,7 @@ const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
   </Fragment>
   <Nav slot="nav" idioma={idioma} rutaId="magazine" extra={[post.data.slugFinal]}
        idiomasPublicados={idiomas} />
-  <Pie slot="pie" idioma={idioma} />
+  <Pie slot="pie" idioma={idioma} rutaId="magazine" extra={[post.data.slugFinal]} idiomasPublicados={idiomas} />
 
   <article class="post">
     <div class="post-progreso" data-progreso></div>
@@ -115,7 +114,12 @@ const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
         </div>
       )}
       <footer class="post-pie">
-        <a class="post-volver" href={url('magazine', idioma)}>&larr; {t('post.volver')}</a>
+        {/* El indice del Magazine solo se genera en castellano: los articulos
+            traducidos existen, su listado todavia no. Hasta que exista, se
+            vuelve al indice espanol en vez de a un 404. */}
+        <a class="post-volver" href={url('magazine', POR_DEFECTO)}
+           lang={idioma === POR_DEFECTO ? undefined : POR_DEFECTO}
+           hreflang={idioma === POR_DEFECTO ? undefined : POR_DEFECTO}>&larr; {t('post.volver')}</a>
       </footer>
     </div>
   </article>

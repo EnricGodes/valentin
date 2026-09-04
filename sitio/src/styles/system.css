@@ -86,7 +86,43 @@ a { color: inherit; }
   color: var(--concreto); text-transform: uppercase; text-decoration: none;
 }
 .nav-brand span { color: var(--bronce); }
-.nav-links { display: flex; gap: 32px; list-style: none; }
+.nav-links { display: flex; gap: 26px; list-style: none; }
+
+/* ── Submenú: sin JavaScript, con hover y con foco ───────────────────────── */
+.nav-item { position: relative; }
+/* El submenú vive dentro del <li>, así que el ratón puede cruzar de la entrada
+   al panel sin pasar por fuera. Un `gap` aquí lo cerraría a mitad de camino. */
+.nav-sub {
+  position: absolute; top: 100%; left: -18px; z-index: 60;
+  min-width: 244px; padding: 10px 0; margin: 0; list-style: none;
+  background: var(--negro); border: 1px solid var(--linea-fuerte);
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity 0.22s var(--ease), transform 0.22s var(--ease),
+              visibility 0s linear 0.22s;
+}
+.nav-item--con-hijos:hover .nav-sub,
+.nav-item--con-hijos:focus-within .nav-sub {
+  opacity: 1; visibility: visible; transform: translateY(0);
+  transition-delay: 0s;
+}
+.nav-sub a {
+  display: block; padding: 9px 18px; letter-spacing: 0.1em;
+  font-size: 11px; line-height: 1.35; text-transform: none;
+}
+.nav-sub a:hover { background: rgba(255, 255, 255, 0.05); }
+/* Una flecha discreta avisa de que hay más debajo. */
+.nav-item--con-hijos > a::after {
+  content: ''; display: inline-block; margin-left: 7px; vertical-align: 2px;
+  border-left: 3px solid transparent; border-right: 3px solid transparent;
+  border-top: 3px solid currentColor; opacity: 0.5;
+}
+
+@media (max-width: 1180px) {
+  /* Sin sitio para nueve entradas: el submenú se despliega bajo su sección y
+     la barra pasa a ser una lista. */
+  .nav-links { gap: 18px; }
+  .nav-sub { display: none; }
+}
 .nav-links a {
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.18em;
   color: var(--concreto); text-decoration: none; text-transform: uppercase;
@@ -606,6 +642,9 @@ section { position: relative; }
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 16px;
 }
+/* El selector de idioma baja de la barra al pie: ocupa toda la fila superior
+   para que no compita con el aviso legal ni con la marca. */
+.pie > .selector-idioma { flex-basis: 100%; margin-bottom: 8px; }
 .footer-brand {
   font-family: var(--mono); font-size: 11px; letter-spacing: var(--tr-nav);
   color: var(--concreto); text-transform: uppercase;

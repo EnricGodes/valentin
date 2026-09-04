@@ -1,0 +1,32 @@
+{
+  "rutaId": "taller-ims",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Reparación del IMS Porsche · Precio cerrado · Valentin Motors",
+    "descripcion": "Diagnóstico y sustitución del rodamiento IMS en Porsche 996, 997, Boxster y Cayman, a precio cerrado y con garantía.",
+    "ogImagen": ""
+  },
+  "h1": "Reparación del IMS en motores M96 y M97",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "La intervención",
+      "parrafos": [
+        "Hemos realizado <strong>numerosas intervenciones IMS</strong> en nuestros talleres, en motores de toda la generación M96 y M97.<br/><br/>Disponemos de <strong>precios cerrados</strong> para las intervenciones IMS (modelos de 1988 hasta 2006), tanto con cambio manual como automático."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

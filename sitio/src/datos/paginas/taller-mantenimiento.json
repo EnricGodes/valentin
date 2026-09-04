@@ -1,0 +1,32 @@
+{
+  "rutaId": "taller-mantenimiento",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Mantenimiento Porsche a precio cerrado · Valentin Motors",
+    "descripcion": "Planes de mantenimiento Porsche con recambios originales y pautas del fabricante, a precio cerrado, en Barcelona y Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "Mantenimiento Porsche a precio cerrado",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Qué incluye el plan",
+      "parrafos": [
+        "Seguimos los planes de mantenimiento <strong>especificados por el fabricante,</strong> utilizando <strong>recambios originales</strong> y las pautas de Porsche."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Mantenimiento de vehículos a precio cerrado"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

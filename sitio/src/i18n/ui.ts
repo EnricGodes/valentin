@@ -174,6 +174,10 @@ export const UI = {
   'tarifas.nota':      { es: 'Precios sin IVA. Son tarifas cerradas de referencia: el presupuesto en firme depende del estado de la unidad.', en: 'Prices exclude VAT. These are reference fixed rates: the firm quote depends on the condition of the car.', fr: 'Prix hors TVA. Tarifs forfaitaires de référence : le devis ferme dépend de l\'état de la voiture.', it: 'Prezzi IVA esclusa. Tariffe fisse di riferimento: il preventivo definitivo dipende dalle condizioni della vettura.', de: 'Preise ohne MwSt. Richtwerte als Festpreis: das verbindliche Angebot hängt vom Zustand des Fahrzeugs ab.', ca: 'Preus sense IVA. Són tarifes tancades de referència: el pressupost en ferm depèn de l\'estat de la unitat.' },
   'catalogo.generaciones': { es: 'Por generación', en: 'By generation', fr: 'Par génération', it: 'Per generazione', de: 'Nach Generation', ca: 'Per generació' },
   'catalogo.vende':        { es: 'Te ayudamos a vender el tuyo', en: 'We help you sell yours', fr: 'Nous vous aidons à vendre la vôtre', it: 'Ti aiutiamo a vendere la tua', de: 'Wir helfen Ihnen, Ihren zu verkaufen', ca: 'T\'ajudem a vendre el teu' },
+  'nav.builds':        { es: 'Builds', en: 'Builds', fr: 'Builds', it: 'Builds', de: 'Builds', ca: 'Builds' },
+  'nav.centros':       { es: 'Centros', en: 'Locations', fr: 'Centres', it: 'Sedi', de: 'Standorte', ca: 'Centres' },
+  'nav.verTodo':       { es: 'Ver todo', en: 'See all', fr: 'Tout voir', it: 'Vedi tutto', de: 'Alle ansehen', ca: 'Veure-ho tot' },
+  'nav.abrir':         { es: 'Abrir el submenú', en: 'Open submenu', fr: 'Ouvrir le sous-menu', it: 'Apri il sottomenu', de: 'Untermenü öffnen', ca: 'Obre el submenú' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 
 export type ClaveUI = keyof typeof UI;

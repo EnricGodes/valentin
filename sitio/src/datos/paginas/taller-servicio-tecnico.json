@@ -1,0 +1,32 @@
+{
+  "rutaId": "taller-servicio-tecnico",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Servicio técnico Porsche en toda España · Valentin Motors",
+    "descripcion": "Servicio técnico Porsche a nivel nacional y consultoría técnica para talleres, desde Barcelona y Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "Servicio técnico en toda España",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Cómo funciona",
+      "parrafos": [
+        "Ofrecemos <strong>servicio técnico en todo el país</strong>, así como apoyo a la red de talleres mediante consultorías técnicas."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
+          "alt": "Servicio técnico en todo el país"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

@@ -1,10 +1,20 @@
 ---
-import { POR_DEFECTO, type Idioma } from '../i18n/config';
+import { IDIOMAS, POR_DEFECTO, type Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
+import SelectorIdioma from './SelectorIdioma.astro';
 
-interface Props { idioma: Idioma; }
-const { idioma } = Astro.props;
+interface Props {
+  idioma: Idioma;
+  /* El selector baja aqui desde la barra: con el idioma detectandose solo, el
+     cambio manual es la excepcion, y el pie es donde se busca. Necesita saber
+     en que pagina esta para ofrecer la misma en otro idioma, y en cuales
+     existe: ofrecer un idioma sin traducir es enlazar a un 404. */
+  rutaId?: string;
+  extra?: string[];
+  idiomasPublicados?: readonly Idioma[];
+}
+const { idioma, rutaId = 'home', extra = [], idiomasPublicados = IDIOMAS } = Astro.props;
 const t = traductor(idioma);
 const anio = new Date().getFullYear();
 
@@ -17,6 +27,8 @@ const legal = (id: string) => url(id, POR_DEFECTO);
 const otroIdioma = idioma !== POR_DEFECTO;
 ---
 <footer class="pie">
+  <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}
+                  idiomasPublicados={idiomasPublicados} />
   <p class="footer-brand">Valentin<span>Motors</span> &middot; {t('footer.desde')}</p>
   <p class="footer-copy">
     <a href={legal('aviso-legal')} lang="es" hreflang="es">{t('pie.legal')}</a> &middot;

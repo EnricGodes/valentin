@@ -1,0 +1,32 @@
+{
+  "rutaId": "taller-bore-scoring",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Bore scoring Porsche: diagnóstico y reparación · Valentin Motors",
+    "descripcion": "Diagnóstico del bore scoring en motores M96 y M97, y reparación mediante encamisado, en nuestra sala de motores.",
+    "ogImagen": ""
+  },
+  "h1": "Diagnóstico y reparación del bore scoring",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "La intervención",
+      "parrafos": [
+        "Tenemos una amplia experiencia aplicando mantenimientos preventivos, diagnosticando y solventando los problemas derivados del Bore Scoring.<br/>"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche Bore Scoring"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

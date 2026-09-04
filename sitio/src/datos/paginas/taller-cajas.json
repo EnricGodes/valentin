@@ -1,0 +1,32 @@
+{
+  "rutaId": "taller-cajas",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Reparación de cajas de cambio Porsche · Valentin Motors",
+    "descripcion": "Servicio y reparación de cajas de cambio Porsche, manuales y automáticas, desde la 356 hasta las actuales.",
+    "ogImagen": ""
+  },
+  "h1": "Cajas de cambio Porsche",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Qué reparamos",
+      "parrafos": [
+        "<strong>Restauramos todos los tipos de cajas de cambio</strong> Porsche, desde las primeras del 356, la 915 y la G50 hasta las más modernas de las generaciones 991 y 992.<br/>También ofrecemos <strong>servicio y reparación de cajas de cambio automáticas</strong> sin necesidad de adquirirlas nuevas."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
+          "alt": "Cajas de cambio"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

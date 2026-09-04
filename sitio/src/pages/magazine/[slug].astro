@@ -75,7 +75,7 @@ const descripcion = limpio(post.data.excerpt).slice(0, 300)
   </Fragment>
   <Nav slot="nav" idioma={idioma} rutaId="magazine" extra={[post.data.slugFinal]}
        idiomasPublicados={idiomas} />
-  <Pie slot="pie" idioma={idioma} />
+  <Pie slot="pie" idioma={idioma} rutaId="magazine" extra={[post.data.slugFinal]} idiomasPublicados={idiomas} />
 
   <article class="post">
     <div class="post-progreso" data-progreso></div>

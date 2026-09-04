@@ -22,7 +22,7 @@ const secciones = [...new Set(posts.flatMap((p) => p.data.categories))].sort();
   descripcion="Restauraciones, mecanica y modelos Porsche contados por los especialistas de Valentin Motors."
 >
   <Nav slot="nav" idioma={idioma} rutaId="magazine" idiomasPublicados={['es']} />
-  <Pie slot="pie" idioma={idioma} />
+  <Pie slot="pie" idioma={idioma} rutaId="magazine" idiomasPublicados={['es']} />
 
   <header class="post-reja mag-cabecera">
     <h1 class="mag-titulo ancha reveal">

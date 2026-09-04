@@ -1,0 +1,33 @@
+{
+  "rutaId": "taller-motores",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Restauración de motores Porsche · Valentin Motors",
+    "descripcion": "Restauración y reconstrucción de motores Porsche de cualquier época, con recogida en toda España y sala de motores propia.",
+    "ogImagen": ""
+  },
+  "h1": "Restauración y reconstrucción de motores",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Cómo trabajamos",
+      "parrafos": [
+        "Desde hace 40 años, nuestra especialidad es la mecánica y, concretamente, los motores.<br/><br/><strong>Restauramos, renovamos y reparamos cualquier tipo de motor</strong> de la marca. Ofrecemos un servicio de recogida de motores en todo el país y los devolvemos una vez terminados.",
+        "Disponemos de la maquinaria y el utillaje necesarios para cualquier tipo de restauración y mecanización, además de un departamento de localización de piezas cuando se requiere."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+          "alt": "Restauración de motores"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rutaId": "restauraciones-proyectos",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_restauraciones",
+  "meta": {
+    "titulo": "Departamento de proyectos y diseño · Valentin Motors",
+    "descripcion": "El laboratorio de ideas donde nacen los proyectos: investigación, tendencias y conversación con otros profesionales.",
+    "ogImagen": ""
+  },
+  "h1": "Departamento de proyectos y diseño",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El laboratorio de ideas",
+      "parrafos": [
+        "Parte de nuestro tiempo lo dedicamos a la <strong>investigación</strong> para detectar tendencias e implementar mejoras en nuestros procesos. Nos documentamos constantemente, acudimos a ferias y hablamos con otros profesionales del sector para ofrecer <strong>soluciones innovadoras a nuestros clientes</strong>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "personalizaciones"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

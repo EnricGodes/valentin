@@ -1,42 +1,107 @@
 ---
-import { IDIOMAS, type Idioma } from '../i18n/config';
+/**
+ * Navegación principal.
+ *
+ * Pasa de siete entradas planas a ocho con submenú. El motivo no es estético:
+ * las seis páginas de tarifas y las tres landings de ocasión existían sin que
+ * nada las enlazara, y dos de las tarifas están entre las diez páginas con más
+ * clics del sitio. Una barra plana no tenía sitio para ellas.
+ *
+ * El submenú se abre al pasar por encima y al recibir el foco, y se puede
+ * recorrer entero con el teclado: es un `<ul>` dentro del `<li>`, sin
+ * JavaScript. Lo que no puede pasar es que un servicio solo exista al pasar el
+ * ratón, así que cada sección con submenú es además un enlace a su propio hub,
+ * donde están todos sus hijos escritos.
+ */
+import { IDIOMAS, POR_DEFECTO, type Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
-import SelectorIdioma from './SelectorIdioma.astro';
+import { idiomasDe, paginaPorRuta } from '../datos/pagina';
 
 interface Props {
   idioma: Idioma;
   rutaId: string;
   extra?: string[];
-  /** Idiomas en los que ESTA pagina existe. El selector no puede ofrecer un
-      idioma sin traducir: seria un enlace a un 404. */
   idiomasPublicados?: readonly Idioma[];
 }
-const { idioma, rutaId, extra = [], idiomasPublicados = IDIOMAS } = Astro.props;
+const { idioma, rutaId } = Astro.props;
 const t = traductor(idioma);
 
+/* La home, el Magazine y las Herramientas viven en src/pages/, fuera del
+   manifiesto de contenido, y hoy solo se generan en castellano. */
+const SOLO_ES = new Set(['home', 'magazine', 'herramientas']);
+const hay = (id: string) =>
+  SOLO_ES.has(id) ? idioma === POR_DEFECTO : idiomasDe(id).includes(idioma);
+
+/* Si una página aún no está traducida se enlaza su versión española, con
+   `lang` para que el navegador y el lector de pantalla sepan qué hay al otro
+   lado. Es lo que el pie ya hace con las páginas legales. Enlazar a
+   /en/builds, que no se genera, era ofrecer un 404 desde el propio menú. */
+function enlace(id: string, extra: string[] = []) {
+  const propio = hay(id);
+  return {
+    href: url(id, propio ? idioma : POR_DEFECTO, ...extra),
+    lang: propio ? undefined : POR_DEFECTO,
+  };
+}
+
+/* El texto del submenú es el h1 de la propia página: si mañana cambia el
+   titular de un servicio, el menú lo dice igual sin tocar el menú. */
+const tituloDe = (id: string) =>
+  paginaPorRuta(id, idioma)?.h1 ?? paginaPorRuta(id, POR_DEFECTO)?.h1 ?? id;
+
+const hijo = (id: string) => (hay(id) ? [{ id, texto: tituloDe(id) }] : []);
+
 const enlaces = [
-  { id: 'coches', texto: t('nav.coches') },
-  { id: 'taller', texto: t('nav.taller') },
-  { id: 'restauraciones', texto: t('nav.servicios') },
-  { id: 'magazine', texto: t('nav.magazine') },
-  // Las herramientas solo existen en castellano por ahora. Enlazarlas desde el
-  // menu aleman seria ofrecer un 404 en el sitio principal.
-  ...(idioma === 'es' ? [{ id: 'herramientas', texto: t('nav.herramientas') }] : []),
-  { id: 'quienes-somos', texto: t('nav.nosotros') },
-  { id: 'contacto', texto: t('nav.contacto') },
+  { id: 'coches', texto: t('nav.coches'), hijos: [
+      ...hijo('ocasion-997'), ...hijo('ocasion-996'), ...hijo('ocasion-992'),
+      ...hijo('vende'),
+    ] },
+  { id: 'taller', texto: t('nav.taller'), hijos: [
+      ...hijo('taller-tarifas'), ...hijo('taller-mantenimiento'),
+      ...hijo('taller-ims'), ...hijo('taller-bore-scoring'),
+      ...hijo('taller-motores'), ...hijo('taller-cajas'),
+      ...hijo('taller-pintura'), ...hijo('taller-pre-compra'),
+      ...hijo('taller-servicio-tecnico'), ...hijo('taller-storage'),
+    ] },
+  { id: 'restauraciones', texto: t('nav.servicios'), hijos: [
+      ...hijo('restauraciones-integrales'), ...hijo('restauraciones-backdating'),
+      ...hijo('restauraciones-restomod'), ...hijo('restauraciones-personalizacion'),
+      ...hijo('restauraciones-proyectos'),
+      ...hijo('sala-motores'), ...hijo('competicion'),
+    ] },
+  { id: 'builds', texto: t('nav.builds'), hijos: [...hijo('build-pa10-01')] },
+  { id: 'barcelona', texto: t('nav.centros'), hijos: [...hijo('madrid')] },
+  { id: 'magazine', texto: t('nav.magazine'), hijos: [] },
+  // Las herramientas solo existen en castellano por ahora.
+  ...(idioma === 'es' ? [{ id: 'herramientas', texto: t('nav.herramientas'), hijos: [] }] : []),
+  { id: 'quienes-somos', texto: t('nav.nosotros'), hijos: [] },
+  { id: 'contacto', texto: t('nav.contacto'), hijos: [] },
 ];
+
+/* Marca la sección entera, no solo la página exacta: estando en
+   /taller-porsche/storage, "Taller" debe verse activo. */
+const activo = (e: { id: string; hijos: { id: string }[] }) =>
+  e.id === rutaId || e.hijos.some((h) => h.id === rutaId);
 ---
 <nav class="nav">
-  <a class="nav-brand" href={url('home', idioma)}>Valentin<span>Motors</span></a>
+  <a class="nav-brand" href={enlace('home').href} lang={enlace('home').lang}
+     hreflang={enlace('home').lang}>Valentin<span>Motors</span></a>
   <ul class="nav-links">
     {enlaces.map((e) => (
-      <li>
-        <a href={url(e.id, idioma)}
-           aria-current={e.id === rutaId ? 'page' : undefined}>{e.texto}</a>
+      <li class:list={['nav-item', e.hijos.length > 0 && 'nav-item--con-hijos']}>
+        <a href={enlace(e.id).href} lang={enlace(e.id).lang}
+           hreflang={enlace(e.id).lang}
+           aria-current={activo(e) ? 'page' : undefined}>{e.texto}</a>
+        {e.hijos.length > 0 && (
+          <ul class="nav-sub">
+            {e.hijos.map((h) => (
+              <li><a href={url(h.id, idioma)}
+                     aria-current={h.id === rutaId ? 'page' : undefined}>{h.texto}</a></li>
+            ))}
+          </ul>
+        )}
       </li>
     ))}
   </ul>
-  <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}
-                  idiomasPublicados={idiomasPublicados} />
 </nav>

@@ -1,0 +1,33 @@
+{
+  "rutaId": "restauraciones-backdating",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_restauraciones",
+  "meta": {
+    "titulo": "Backdating Porsche · Valentin Motors",
+    "descripcion": "Estética clásica con mecánica moderna sobre 911 refrigerados por aire, siempre homologable.",
+    "ogImagen": ""
+  },
+  "h1": "Backdating",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Qué es un backdating",
+      "parrafos": [
+        "Para aquellos clientes que quieren conjugar la estética de un <strong>modelo clásico</strong> con los <strong>avances tecnológicos</strong> de un vehículo más reciente, el backdating puede ser una opción. Aprovechando las configuraciones parecidas de los 911 <em>aircooled</em>, podemos transformar las características estéticas de un modelo más moderno para acercarlo al diseño de una unidad anterior. ¿Un SC con aire acondicionado o con un motor 3.2? Es posible.",
+        "Estas transformaciones se realizan siempre teniendo en cuenta que el nuevo vehículo sea <strong>homologable</strong>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Laboratorio Ideas Porsche"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

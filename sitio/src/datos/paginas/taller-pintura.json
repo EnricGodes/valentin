@@ -1,0 +1,32 @@
+{
+  "rutaId": "taller-pintura",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Pintura y carrocería Porsche · Colores originales · Valentin Motors",
+    "descripcion": "Chapa y pintura Porsche con colores originales de fábrica, tratamientos anticorrosión y preparación completa de la carrocería.",
+    "ogImagen": ""
+  },
+  "h1": "Pintura y carrocería",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El proceso",
+      "parrafos": [
+        "Reparación y pintura de carrocerías según las especificaciones de Porsche: <strong>colores originales</strong> conforme al nuevo <strong>sistema de códigos de pintura.</strong><br/><br/>Tratamientos estéticos para proteger la <strong>carrocería de la corrosión</strong> mediante métodos contemporáneos.<br/><br/>Preparación del vehículo mediante la medición de los espacios intersticiales, el desmontaje de molduras y piezas accesorias, la catalogación y el cromado de accesorios, etc."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

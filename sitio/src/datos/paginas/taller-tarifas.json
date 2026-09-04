@@ -1,0 +1,28 @@
+{
+  "rutaId": "taller-tarifas",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Tarifas de mantenimiento Porsche por modelo · Valentin Motors",
+    "descripcion": "Precios cerrados de servicio menor, servicio mayor, líquido de frenos, geometrías e inspección pre-compra, modelo por modelo.",
+    "ogImagen": ""
+  },
+  "h1": "Tarifas de mantenimiento Porsche",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Precios cerrados, modelo por modelo",
+      "parrafos": [
+        "Un mantenimiento no cuesta lo mismo en un 911 refrigerado por aire que en un Macan, y dentro del 911 tampoco cuesta lo mismo un SC que un 992. Por eso las tarifas están abiertas por modelo: elige el tuyo y verás lo que cuesta cada servicio en esa unidad concreta.",
+        "Son tarifas cerradas de referencia. El presupuesto en firme depende del estado en que llegue el coche, y eso solo se sabe con el coche delante."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

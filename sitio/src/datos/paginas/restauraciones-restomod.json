@@ -1,0 +1,37 @@
+{
+  "rutaId": "restauraciones-restomod",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Restomods Porsche · Valentin Motors",
+    "descripcion": "Un Porsche clásico con mecánica, frenos y confort actuales, construido entero en casa. Así nació el PA10/01.",
+    "ogImagen": ""
+  },
+  "h1": "Restomods",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Un clásico que se puede usar",
+      "parrafos": [
+        "Un restomod no es una restauración ni una personalización. Una restauración devuelve el coche a como salió de fábrica; una personalización cambia piezas sobre un coche que sigue siendo el que era. Un restomod parte de una base clásica y la reconstruye entera para que se conduzca como un coche de hoy, conservando la línea y el carácter del original.",
+        "Es el trabajo que reúne todo lo que hay en la casa a la vez: carrocería y pintura, sala de motores, transmisión, tapicería e ingeniería de proyecto. Por eso hay pocos, y por eso cada uno se define con el cliente antes de tocar nada."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El primero fue el PA10/01",
+      "parrafos": [
+        "El PA10/01 es nuestra interpretación del 911 perfecto: un coche construido entero en casa y presentado en Madrid en 2025. Sirve de referencia de hasta dónde llega un proyecto de este tipo."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

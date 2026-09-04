@@ -1,0 +1,40 @@
+{
+  "rutaId": "taller-storage",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Storage Porsche: guarda tu coche en condiciones · Valentin Motors",
+    "descripcion": "Guarda tu Porsche en un entorno vigilado, con inspecciones periódicas y mantenimiento preventivo, por 250 € al mes.",
+    "ogImagen": ""
+  },
+  "h1": "Storage Porsche",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Un entorno pensado para el coche",
+      "parrafos": [
+        "En Valentin entendemos que un Porsche requiere cuidados específicos durante los periodos en los que no se utiliza. Por eso, nuestro servicio de <strong>Storage</strong> ofrece un espacio donde estacionarlo y un entorno diseñado para conservarlo adecuadamente, como un <strong>spa para Porsche</strong>.",
+        "Este servicio está pensado para propietarios que necesitan liberar espacio en su garaje, utilizan su Porsche de forma ocasional, pasan largas temporadas fuera de su residencia o desean conservar su vehículo en buen estado mientras no lo utilizan. Nuestras instalaciones son discretas, seguras y cuentan con vigilancia las 24 horas del día, lo que aporta tranquilidad.",
+        "Además del almacenamiento, realizamos <strong>inspecciones periódicas y mantenimiento preventivo</strong>, comprobamos el estado general del vehículo y aplicamos los cuidados necesarios para que se conserve en buenas condiciones mecánicas y estéticas. De esta forma, cuando decidas volver a conducir tu Porsche, estará preparado para circular.",
+        "Por <strong>250 €/mes</strong>, ofrecemos un servicio que combina seguridad, conservación y atención especializada como alternativa a un aparcamiento convencional. Asimismo, ponemos a disposición de nuestros clientes un <strong>protocolo específico de cuidado</strong>, con servicios opcionales adaptados a las necesidades de cada vehículo y propietario.",
+        "Taller Porsche independiente en el centro de Barcelona"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/4c090daf-DSC00895.jpg",
+          "alt": ""
+        },
+        {
+          "url": "/img/paginas/cf185986-DSC03460.jpeg",
+          "alt": "Taller especialista Porsche"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

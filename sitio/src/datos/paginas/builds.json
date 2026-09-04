@@ -1,0 +1,28 @@
+{
+  "rutaId": "builds",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche construidos por Valentin Motors · Builds",
+    "descripcion": "Los Porsche que hemos construido enteros en casa, de la primera pieza a la última. Empezando por el PA10/01.",
+    "ogImagen": ""
+  },
+  "h1": "Builds",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Coches construidos enteros",
+      "parrafos": [
+        "Además de mantener, reparar y restaurar Porsche ajenos, de vez en cuando construimos uno entero. No es un encargo de restauración ni una personalización sobre un coche existente: es un proyecto que empieza por decidir qué coche queremos y termina con el coche rodando.",
+        "Aquí están los que hemos terminado. Son pocos a propósito."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

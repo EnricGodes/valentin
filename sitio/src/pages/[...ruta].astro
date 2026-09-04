@@ -162,7 +162,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   </Fragment>
   <Nav slot="nav" idioma={idioma} rutaId={rutaId} extra={extra}
        idiomasPublicados={idiomasPublicados} />
-  <Pie slot="pie" idioma={idioma} />
+  <Pie slot="pie" idioma={idioma} rutaId={rutaId} extra={extra} idiomasPublicados={idiomasPublicados} />
 
   {coche && <FichaCoche coche={coche} idioma={idioma} />}
   {coche && <Formulario idioma={idioma} coche={coche.slug}

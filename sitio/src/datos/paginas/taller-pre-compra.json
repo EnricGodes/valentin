@@ -1,0 +1,32 @@
+{
+  "rutaId": "taller-pre-compra",
+  "tipo": "servicio",
+  "ficheroOriginal": "_derivado_de_taller",
+  "meta": {
+    "titulo": "Inspección pre-compra Porsche · Valentin Motors",
+    "descripcion": "Evaluación completa de un Porsche antes de comprarlo: estado, historial y verificación de la oferta, en taller o desplazándonos.",
+    "ogImagen": ""
+  },
+  "h1": "Inspección Porsche antes de comprar",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Qué comprobamos",
+      "parrafos": [
+        "Si has localizado un automóvil Porsche que quieres adquirir, podemos realizar una <strong>evaluación completa de su estado previa a la compra</strong>, comprobando el estado actual de la unidad y estudiando su historial. De este modo, verificamos si la oferta del vendedor es adecuada y no oculta problemas.<br/><br/>La inspección puede realizarse en <strong>nuestro taller</strong> de Barcelona o <strong>desplazándonos</strong> dentro del territorio nacional o al extranjero.<br/><br/>El importe de la inspección precompra es de 250 € + IVA."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
+          "alt": "Inspección vehículo pre-compra"
+        }
+      ]
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}
