@@ -7,6 +7,7 @@ date: 2023-12-29T11:29:37.395000Z
 lang: ca
 categories: []
 excerpt: "En Jordi Edo explica els serveis que el nou centre de Leganes ofereix a la comunitat porschista de Madrid."
+metaTitulo: "El nou centre Valentín Motors a Madrid, per Jordi Edo"
 author: "Jordi Edo"
 squarespaceId: "658d71ca44f03b70c0181754"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-centro-valentin-motors-en-madrid"

@@ -7,6 +7,7 @@ date: 2022-10-10T12:25:50.146000Z
 lang: it
 categories: ["restauraciones"]
 excerpt: "Restauro delle pinze freno"
+metaDescripcion: "Restauro delle pinze freno passo per passo: smontaggio, sabbiatura, verniciatura, adesivi e sostituzione del kit di riparazione dei pistoni."
 author: "Enric Godes"
 squarespaceId: "63440e150b34b4265e6740ad"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-pinzas-freno"

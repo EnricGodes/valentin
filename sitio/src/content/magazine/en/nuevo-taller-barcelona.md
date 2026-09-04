@@ -7,6 +7,8 @@ date: 2025-04-24T17:23:03.310000Z
 lang: en
 categories: []
 excerpt: "Valentin Motors opens a new workshop on Carrer de Varsòvia, in Barcelona: more than 1,300 m² over two floors, twice the space of the previous premises."
+metaDescripcion: "Valentín Motors opens a 1,300 m² workshop at Varsòvia 65 to mark its 45 years: more capacity, more services and better access in Barcelona."
+metaTitulo: "New Porsche workshop in Barcelona: Varsòvia 65"
 author: "Enric Godes"
 squarespaceId: "680a72ef13f4b6087499ac85"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-taller-barcelona"

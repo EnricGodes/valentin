@@ -7,6 +7,8 @@ date: 2024-10-21T15:43:36.532000Z
 lang: it
 categories: ["articulos"]
 excerpt: "Riparazione del motore 3.2"
+metaDescripcion: "Revisione del motore 3.2 di una 911 serie G coupé del 1985 dopo compressioni basse e perdite d'olio provenienti dal basamento."
+metaTitulo: "Revisione del motore 3.2 di una 911 serie G del 1985"
 author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin-ey2wg"

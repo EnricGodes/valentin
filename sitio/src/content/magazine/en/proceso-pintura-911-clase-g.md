@@ -7,6 +7,7 @@ date: 2025-02-12T09:09:51.840000Z
 lang: en
 categories: ["articulos"]
 excerpt: "standard painting process in 911 G"
+metaDescripcion: "The standard bodywork and paint process on a 911 G series, from preparation to the final colour, photographed at every stage."
 author: "Jordi Edo"
 squarespaceId: "6761b49781b18979ffb114a9"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica911"

@@ -7,6 +7,7 @@ date: 2022-10-10T12:25:50.146000Z
 lang: fr
 categories: ["restauraciones"]
 excerpt: "Restauration des étriers de frein"
+metaDescripcion: "Restauration d'étriers de frein pas à pas : démontage, sablage, peinture, adhésifs et remplacement du kit de réparation des pistons."
 author: "Enric Godes"
 squarespaceId: "63440e150b34b4265e6740ad"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-pinzas-freno"

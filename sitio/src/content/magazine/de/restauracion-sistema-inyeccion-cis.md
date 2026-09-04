@@ -7,6 +7,8 @@ date: 2025-03-27T08:50:45.705000Z
 lang: de
 categories: ["articulos"]
 excerpt: "Restaurierung CIS"
+metaDescripcion: "Komplette Restaurierung der CIS-Einspritzanlage eines 911 von 1975 bis 1982: warum sie beim Motoraufbau so wichtig ist wie die Mechanik."
+metaTitulo: "Restaurierung der CIS-Einspritzanlage eines 911"
 author: "Jordi Edo"
 squarespaceId: "674093d6214a3912511a3dc0"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracionsistemacis"

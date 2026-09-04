@@ -7,6 +7,8 @@ date: 2021-12-09T18:19:00.252000Z
 lang: ca
 categories: ["iconos"]
 excerpt: "La tercera generació del 911 va ser un repte per a Porsche: el 85% de les peces eren noves, en una carrosseria estreta i compacta que encara avui convenç a la carretera."
+metaDescripcion: "La tercera generació del 911: tracció 4, ABS, direcció assistida i un 85 % de peces noves. Versions, motors Turbo i RS, i 63.762 unitats."
+metaTitulo: "Porsche 964: versions, motoritzacions i història · Valentín Motors"
 author: "Enric Godes"
 squarespaceId: "6203a0188e0d4e55e34569d4"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-964"

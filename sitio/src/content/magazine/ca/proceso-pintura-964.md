@@ -7,6 +7,7 @@ date: 2025-03-27T08:37:05.012000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "procés de pintura estàndard a 964"
+metaDescripcion: "El procés estàndard de xapa i pintura sobre una carrosseria 964 RS, fase a fase, tal com es fa al taller."
 author: "Jordi Edo"
 squarespaceId: "67ac64971d833a36f15f5734"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica964-9fcrx"

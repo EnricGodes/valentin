@@ -7,6 +7,8 @@ date: 2024-01-23T18:02:45.751000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "Reparacio motor 3.4"
+metaDescripcion: "Reparació d'un M96 3.4 després del trencament de l'arbre intermedi i el despreniment del rodament IMS: símptomes, solucions i procés complet."
+metaTitulo: "Trencament de l'arbre intermedi IMS en un 996 M96 3.4"
 author: "Jordi Edo"
 squarespaceId: "65aff891e50d1d7bd0f4368e"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin"

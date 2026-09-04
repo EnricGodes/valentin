@@ -7,6 +7,7 @@ date: 2022-10-10T12:44:29.816000Z
 lang: de
 categories: ["restauraciones"]
 excerpt: "Motorüberholung 964 Typ M64"
+metaDescripcion: "Komplette Überholung eines M64: der 3.600 cm³ Boxer mit Doppelzündung, den Porsche in der gesamten 964-Generation verbaute."
 author: "Enric Godes"
 squarespaceId: "634412c7d64dc3321938d332"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-964-m64"

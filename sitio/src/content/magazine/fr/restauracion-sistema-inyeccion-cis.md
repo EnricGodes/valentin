@@ -7,6 +7,8 @@ date: 2025-03-27T08:50:45.705000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "Restauration CEI"
+metaDescripcion: "Restauration complète du système d'injection CIS d'une 911 de 1975 à 1982 : pourquoi il compte autant que la mécanique lors d'une réfection moteur."
+metaTitulo: "Restauration du système d'injection CIS d'une 911"
 author: "Jordi Edo"
 squarespaceId: "674093d6214a3912511a3dc0"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracionsistemacis"

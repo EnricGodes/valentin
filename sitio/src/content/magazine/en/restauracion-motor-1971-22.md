@@ -7,6 +7,7 @@ date: 2022-10-10T12:52:17.712000Z
 lang: en
 categories: ["restauraciones"]
 excerpt: "Engine 2.2"
+metaDescripcion: "Complete rebuild of the 2.2 engine of a 1971 Porsche 911, from strip-down to the final set-up."
 author: "Enric Godes"
 squarespaceId: "634414dcb1e88a6180c8ebef"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-1971-22"

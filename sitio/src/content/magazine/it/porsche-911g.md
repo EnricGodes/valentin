@@ -7,6 +7,8 @@ date: 2021-12-08T17:45:02.820000Z
 lang: it
 categories: ["iconos"]
 excerpt: "La nuova generazione della 911 venne lanciata sul mercato nel settembre 1973. Il suo nuovo design ha attirato l'attenzione fin dal primo momento"
+metaDescripcion: "I sedici anni che hanno definito la 911: paraurti a soffietto, scocca zincata, motori da 2.7 a 3.2 e le sei versioni della serie G."
+metaTitulo: "Porsche 911 serie G (1973-1989): versioni e motori"
 author: "Enric Godes"
 squarespaceId: "61b0ef1f9efbef0c169f7766"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-911g"

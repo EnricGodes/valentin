@@ -7,6 +7,8 @@ date: 2025-04-24T17:23:03.310000Z
 lang: de
 categories: []
 excerpt: "Valentin Motors eröffnet eine neue Werkstatt in der Carrer de Varsòvia in Barcelona: mehr als 1.300 m² auf zwei Ebenen, doppelt so viel Fläche wie zuvor."
+metaDescripcion: "Valentín Motors eröffnet in der Varsòvia 65 eine Werkstatt mit 1.300 m² zum 45-jährigen Bestehen: mehr Kapazität, mehr Leistungen, bessere Anfahrt."
+metaTitulo: "Neue Porsche Werkstatt in Barcelona: Varsòvia 65"
 author: "Enric Godes"
 squarespaceId: "680a72ef13f4b6087499ac85"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-taller-barcelona"

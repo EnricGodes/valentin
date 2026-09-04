@@ -7,6 +7,8 @@ date: 2019-08-28T17:04:00.360000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "10 contrôles avant d’acheter une Porsche 911: repérer les traces d’accident, obtenir un rapport détaillé et cibler les vérifications essentielles."
+metaDescripcion: "Dix vérifications avant d'acheter une 911 : comment repérer un accident, quels rapports demander et ce qu'il faut contrôler avant de payer."
+metaTitulo: "Dix points à vérifier avant d'acheter une Porsche 911"
 author: "Enric Godes"
 squarespaceId: "61b09080eb819c495a74a928"
 originalUrl: "https://www.valentinmotors.es/magazine/10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"

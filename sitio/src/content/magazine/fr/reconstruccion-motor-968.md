@@ -7,6 +7,7 @@ date: 2026-01-23T14:38:06.787000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "moteur 968"
+metaDescripcion: "Reconstruction du moteur d'une Porsche 968 privée de pression d'huile par une défaillance de pompe : diagnostic et processus complet."
 author: "Jordi Edo"
 squarespaceId: "697386404e017262ea3e3595"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968"

@@ -7,6 +7,8 @@ date: 2022-10-10T12:48:20.445000Z
 lang: en
 categories: ["restauraciones"]
 excerpt: "engine 2.2 1970"
+metaDescripcion: "Full rebuild of the 2.2 engine of a 1970 911 F series: strip-down, inspection of every component and reconstruction."
+metaTitulo: "Rebuild of the 2.2 engine of a 1970 911 F series"
 author: "Enric Godes"
 squarespaceId: "634413e4c53d3164dc911915"
 originalUrl: "https://www.valentinmotors.es/magazine/rehabilitacion-motor-22-1970-serief"

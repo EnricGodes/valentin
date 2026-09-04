@@ -7,6 +7,7 @@ date: 2026-07-22T11:16:02.567000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "Porsche Jarama"
+metaDescripcion: "L'équipe Valentín Motors dans les stands du circuit du Jarama lors du Porsche Spain Meeting 2026, le 27 juin."
 author: "Jordi Edo"
 squarespaceId: "6a60a3eb4f1e5e738e69490c"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968-abx98"

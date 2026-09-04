@@ -7,6 +7,7 @@ date: 2022-01-23T06:37:58.730000Z
 lang: de
 categories: ["eventos"]
 excerpt: "Unsere Wochenendausfahrten mit einigen Kunden wurden zu einem offenen, kostenlosen Treffpunkt für Menschen mit gemeinsamer Porsche-Leidenschaft."
+metaDescripcion: "Wochenendausfahrten, die mit einer Handvoll Kunden begannen und heute die Porsche Gemeinde zusammenbringen. Offen für alle und kostenlos."
 author: "Enric Godes"
 squarespaceId: "61ecf7c5b83f0870590cee2b"
 originalUrl: "https://www.valentinmotors.es/magazine/club-de-propietarios-porsche"

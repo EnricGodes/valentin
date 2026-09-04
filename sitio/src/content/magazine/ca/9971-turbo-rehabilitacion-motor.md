@@ -7,6 +7,7 @@ date: 2024-10-22T12:34:45.654000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "Reparació motor 997.1 turbo"
+metaDescripcion: "Rehabilitació completa del motor d'un 997.1 Turbo amb soroll intern: proves de diagnòstic, desmuntatge i reconstrucció a la sala de motors."
 author: "Jordi Edo"
 squarespaceId: "671772daf31416031694012b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971turbo"

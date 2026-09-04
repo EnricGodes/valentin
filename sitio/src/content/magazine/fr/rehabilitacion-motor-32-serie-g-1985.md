@@ -7,6 +7,8 @@ date: 2024-10-21T15:43:36.532000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "Réparation moteur 3.2"
+metaDescripcion: "Réfection du moteur 3.2 d'une 911 série G coupé de 1985 après des compressions basses et des fuites d'huile venant du bloc."
+metaTitulo: "Réfection du moteur 3.2 d'une 911 série G de 1985"
 author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin-ey2wg"

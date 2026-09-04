@@ -7,6 +7,7 @@ date: 2026-01-23T14:38:06.787000Z
 lang: it
 categories: ["articulos"]
 excerpt: "motore 968"
+metaDescripcion: "Ricostruzione del motore di una Porsche 968 rimasta senza pressione dell'olio per un guasto alla pompa: diagnosi e processo completo."
 author: "Jordi Edo"
 squarespaceId: "697386404e017262ea3e3595"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968"

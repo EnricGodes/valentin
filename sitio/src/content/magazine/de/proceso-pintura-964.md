@@ -7,6 +7,7 @@ date: 2025-03-27T08:37:05.012000Z
 lang: de
 categories: ["articulos"]
 excerpt: "Standard-Lackierungsprozess in 964"
+metaDescripcion: "Der Standardablauf von Karosserie und Lack an einer 964 RS-Karosserie, Schritt für Schritt, so wie er in der Werkstatt abläuft."
 author: "Jordi Edo"
 squarespaceId: "67ac64971d833a36f15f5734"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica964-9fcrx"

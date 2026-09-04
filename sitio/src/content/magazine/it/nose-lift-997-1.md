@@ -7,6 +7,8 @@ date: 2023-12-11T18:12:47.621000Z
 lang: it
 categories: ["articulos"]
 excerpt: "Sistema anteriore con sollevamento del naso"
+metaDescripcion: "Sistema di sollevamento dell'avantreno per la 997.1: due secondi e un pulsante per non sfregare il paraurti né il front lip. Vantaggi e installazione."
+metaTitulo: "Nose lift per Porsche 997.1: sollevamento dell'avantreno"
 author: "Jordi Edo"
 squarespaceId: "65774d930f6e82385a812863"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971noselift-f3whn-trwdw"

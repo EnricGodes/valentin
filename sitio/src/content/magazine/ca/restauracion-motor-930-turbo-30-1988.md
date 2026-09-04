@@ -7,6 +7,7 @@ date: 2022-10-10T12:39:22.451000Z
 lang: ca
 categories: ["restauraciones"]
 excerpt: "Motor 930 turbo 3.0 1988"
+metaDescripcion: "Restauració del motor d'un 930 Turbo 3.0 intercooler de 1988 a Valentín Motors, amb l'opinió del Jordi sobre el resultat."
 author: "Enric Godes"
 squarespaceId: "63441166ef6080482674180b"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-930-turbo-30-1988"

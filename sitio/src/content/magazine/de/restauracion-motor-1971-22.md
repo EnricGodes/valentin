@@ -7,6 +7,7 @@ date: 2022-10-10T12:52:17.712000Z
 lang: de
 categories: ["restauraciones"]
 excerpt: "Engine 2.2"
+metaDescripcion: "Vollständiger Wiederaufbau des 2.2-Motors eines Porsche 911 von 1971, von der Zerlegung bis zur Endabstimmung."
 author: "Enric Godes"
 squarespaceId: "634414dcb1e88a6180c8ebef"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-1971-22"

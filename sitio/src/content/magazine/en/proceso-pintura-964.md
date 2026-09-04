@@ -7,6 +7,7 @@ date: 2025-03-27T08:37:05.012000Z
 lang: en
 categories: ["articulos"]
 excerpt: "standard painting process in 964"
+metaDescripcion: "The standard bodywork and paint process on a 964 RS shell, stage by stage, exactly as it is done in the workshop."
 author: "Jordi Edo"
 squarespaceId: "67ac64971d833a36f15f5734"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica964-9fcrx"

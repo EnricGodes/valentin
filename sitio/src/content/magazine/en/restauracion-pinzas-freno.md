@@ -7,6 +7,7 @@ date: 2022-10-10T12:25:50.146000Z
 lang: en
 categories: ["restauraciones"]
 excerpt: "Restoration of brake calipers"
+metaDescripcion: "Brake caliper restoration step by step: strip-down, blasting, paint, decals and replacement of the piston repair kit."
 author: "Enric Godes"
 squarespaceId: "63440e150b34b4265e6740ad"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-pinzas-freno"

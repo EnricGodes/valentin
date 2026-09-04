@@ -7,6 +7,8 @@ date: 2022-10-10T12:48:20.445000Z
 lang: fr
 categories: ["restauraciones"]
 excerpt: "moteur 2.2 1970"
+metaDescripcion: "Réfection complète du moteur 2.2 d'une 911 série F de 1970 : démontage, vérification de chaque composant et reconstruction."
+metaTitulo: "Réfection du moteur 2.2 d'une 911 série F de 1970"
 author: "Enric Godes"
 squarespaceId: "634413e4c53d3164dc911915"
 originalUrl: "https://www.valentinmotors.es/magazine/rehabilitacion-motor-22-1970-serief"

@@ -7,6 +7,7 @@ date: 2024-10-22T12:34:45.654000Z
 lang: en
 categories: ["articulos"]
 excerpt: "Engine repair 997.1 turbo"
+metaDescripcion: "Full rebuild of the engine of a 997.1 Turbo with an internal noise: diagnostic tests, strip-down and reconstruction in the engine room."
 author: "Jordi Edo"
 squarespaceId: "671772daf31416031694012b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971turbo"

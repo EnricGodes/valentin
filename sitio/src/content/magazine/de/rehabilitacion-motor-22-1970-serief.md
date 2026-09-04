@@ -7,6 +7,8 @@ date: 2022-10-10T12:48:20.445000Z
 lang: de
 categories: ["restauraciones"]
 excerpt: "Motor 2.2 1970"
+metaDescripcion: "Komplette Überholung des 2.2-Motors eines 911 F-Modells von 1970: Zerlegung, Prüfung jedes Bauteils und Wiederaufbau."
+metaTitulo: "Überholung des 2.2-Motors eines 911 F-Modells von 1970"
 author: "Enric Godes"
 squarespaceId: "634413e4c53d3164dc911915"
 originalUrl: "https://www.valentinmotors.es/magazine/rehabilitacion-motor-22-1970-serief"

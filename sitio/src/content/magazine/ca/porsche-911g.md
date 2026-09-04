@@ -7,6 +7,8 @@ date: 2021-12-08T17:45:02.820000Z
 lang: ca
 categories: ["iconos"]
 excerpt: "La nova generació del 911 va sortir al mercat al setembre de 1973. El seu nou disseny va cridar latenció des del primer moment"
+metaDescripcion: "Els setze anys que van definir el 911: para-xocs de manxa, carrosseria galvanitzada, motors de 2.7 a 3.2 i les sis versions de la sèrie G."
+metaTitulo: "Porsche 911 sèrie G (1973-1989): versions i motors"
 author: "Enric Godes"
 squarespaceId: "61b0ef1f9efbef0c169f7766"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-911g"

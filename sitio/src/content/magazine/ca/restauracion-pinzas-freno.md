@@ -7,6 +7,7 @@ date: 2022-10-10T12:25:50.146000Z
 lang: ca
 categories: ["restauraciones"]
 excerpt: "Restauració de pinces de fre"
+metaDescripcion: "Restauració de pinces de fre pas a pas: desmuntatge, raig de sorra, pintura, adhesius i substitució del joc de reparació dels pistons."
 author: "Enric Godes"
 squarespaceId: "63440e150b34b4265e6740ad"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-pinzas-freno"

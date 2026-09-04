@@ -7,6 +7,8 @@ date: 2021-12-08T17:45:02.820000Z
 lang: en
 categories: ["iconos"]
 excerpt: "The new generation of the 911 came onto the market in September 1973. Its new design caught attention from the first moment"
+metaDescripcion: "The sixteen years that defined the 911: impact bumpers, galvanised bodyshell, engines from 2.7 to 3.2 and the six versions of the G series."
+metaTitulo: "Porsche 911 G series (1973-1989): versions and engines"
 author: "Enric Godes"
 squarespaceId: "61b0ef1f9efbef0c169f7766"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-911g"

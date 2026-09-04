@@ -7,6 +7,7 @@ date: 2023-05-10T07:07:15.135000Z
 lang: en
 categories: ["eventos"]
 excerpt: "9 eleven headlights"
+metaDescripcion: "The 9 eleven range of headlights and tail lights for the 911 G series and the 964: updated looks on the original line. Fitted at Valentín Motors."
 author: "Jordi Edo"
 squarespaceId: "645b3f4038fec05748ef15b6"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheclassicseries2023-z4gbf"

@@ -7,6 +7,7 @@ date: 2022-10-10T12:32:30.077000Z
 lang: en
 categories: ["restauraciones"]
 excerpt: "The upholstery of a 911 is a key part of the restoration."
+metaDescripcion: "Original trim on a 911 F series: researching the materials and fitting them, work that goes straight to the final value of the car."
 author: "Enric Godes"
 squarespaceId: "63440f878646c219817264fc"
 originalUrl: "https://www.valentinmotors.es/magazine/tapicera-original-de-911-serie-f"

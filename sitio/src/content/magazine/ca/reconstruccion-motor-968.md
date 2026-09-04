@@ -7,6 +7,7 @@ date: 2026-01-23T14:38:06.787000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "motor 968"
+metaDescripcion: "Reconstrucció del motor d'un Porsche 968 que es va quedar sense pressió d'oli per una fallada de la bomba: diagnòstic i procés complet."
 author: "Jordi Edo"
 squarespaceId: "697386404e017262ea3e3595"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968"

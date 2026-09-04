@@ -7,6 +7,7 @@ date: 2025-03-27T08:37:05.012000Z
 lang: it
 categories: ["articulos"]
 excerpt: "processo di verniciatura standard in 964"
+metaDescripcion: "Il processo standard di carrozzeria e verniciatura su una scocca 964 RS, fase per fase, così come si fa in officina."
 author: "Jordi Edo"
 squarespaceId: "67ac64971d833a36f15f5734"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica964-9fcrx"

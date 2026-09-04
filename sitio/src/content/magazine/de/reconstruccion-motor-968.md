@@ -7,6 +7,7 @@ date: 2026-01-23T14:38:06.787000Z
 lang: de
 categories: ["articulos"]
 excerpt: "Motor 968"
+metaDescripcion: "Wiederaufbau des Motors eines Porsche 968, der durch einen Pumpendefekt ohne Öldruck blieb: Diagnose und der vollständige Ablauf."
 author: "Jordi Edo"
 squarespaceId: "697386404e017262ea3e3595"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968"

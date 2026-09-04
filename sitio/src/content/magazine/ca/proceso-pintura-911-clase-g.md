@@ -7,6 +7,7 @@ date: 2025-02-12T09:09:51.840000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "procés de pintura estàndard a 911 G"
+metaDescripcion: "El procés estàndard de xapa i pintura sobre un 911 sèrie G, de la preparació al color final, en fotografies de totes les fases."
 author: "Jordi Edo"
 squarespaceId: "6761b49781b18979ffb114a9"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica911"

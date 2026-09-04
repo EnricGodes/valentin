@@ -7,6 +7,7 @@ date: 2022-04-12T09:15:40.773000Z
 lang: de
 categories: ["restauraciones"]
 excerpt: "Zuerst prüfen wir das Fahrzeug im Anlieferungszustand und ermitteln den Arbeitsbedarf. Dann trennen wir Motor und Getriebe und bringen sie in den Motorenraum."
+metaDescripcion: "Restaurierung des 965-Motors eines 964 Turbo 3.3: Probefahrten, Trennung der Einheit aus Motor und Getriebe und Wiederaufbau im Motorenraum."
 author: "Enric Godes"
 squarespaceId: "6255433cc5ad7327195ecfc8"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-965-turbo-33"

@@ -7,6 +7,7 @@ date: 2025-03-27T08:37:05.012000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "processus de peinture standard en 964"
+metaDescripcion: "Le processus standard de carrosserie et peinture sur une caisse 964 RS, étape par étape, tel qu'il se fait à l'atelier."
 author: "Jordi Edo"
 squarespaceId: "67ac64971d833a36f15f5734"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica964-9fcrx"

@@ -7,6 +7,7 @@ date: 2025-09-18T11:03:04.182000Z
 lang: it
 categories: ["articulos"]
 excerpt: "3.2 riabilitazione completa"
+metaDescripcion: "Revisione completa del motore 3.2 di una 911 serie G: smontaggio, verifica di ogni componente e ricostruzione, fase per fase."
 author: "Jordi Edo"
 squarespaceId: "68cbbfc5f6f39476e82c54de"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40-y4b85"

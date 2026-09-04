@@ -7,6 +7,8 @@ date: 2024-01-23T18:02:45.751000Z
 lang: it
 categories: ["articulos"]
 excerpt: "Riparazione del motore 3.4"
+metaDescripcion: "Riparazione di un M96 3.4 dopo la rottura dell'albero intermedio e il distacco del cuscinetto IMS: sintomi, soluzioni e processo completo."
+metaTitulo: "Rottura dell'albero intermedio IMS su una 996 M96 3.4"
 author: "Jordi Edo"
 squarespaceId: "65aff891e50d1d7bd0f4368e"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin"

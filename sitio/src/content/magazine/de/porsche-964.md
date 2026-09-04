@@ -7,6 +7,8 @@ date: 2021-12-09T18:19:00.252000Z
 lang: de
 categories: ["iconos"]
 excerpt: "Die dritte Generation des 911 war eine Herausforderung für Porsche: 85% der Teile waren neu, in einer schmalen, kompakten Karosserie, die bis heute überzeugt."
+metaDescripcion: "Die dritte Generation des 911: 4-Rad-Antrieb, ABS, Servolenkung und 85 % neue Teile. Versionen, Turbo- und RS-Motoren und 63.762 gebaute Einheiten."
+metaTitulo: "Porsche 964: Versionen, Motoren und Geschichte · Valentín Motors"
 author: "Enric Godes"
 squarespaceId: "6203a0188e0d4e55e34569d4"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-964"

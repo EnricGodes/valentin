@@ -7,6 +7,7 @@ date: 2022-04-12T09:15:40.773000Z
 lang: it
 categories: ["restauraciones"]
 excerpt: "Prima testiamo l’auto nello stato d’arrivo e individuiamo gli interventi necessari. Poi separiamo motore e cambio e li portiamo nella sala motori."
+metaDescripcion: "Restauro del motore 965 di una 964 Turbo 3.3: prove su strada, separazione del gruppo motore/cambio e ricostruzione nella sala motori."
 author: "Enric Godes"
 squarespaceId: "6255433cc5ad7327195ecfc8"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-965-turbo-33"

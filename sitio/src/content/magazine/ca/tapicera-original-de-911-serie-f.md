@@ -7,6 +7,7 @@ date: 2022-10-10T12:32:30.077000Z
 lang: ca
 categories: ["restauraciones"]
 excerpt: "Els entapissats d'un 911 són part clau de la restauració."
+metaDescripcion: "Tapisseria original d'un 911 sèrie F: la investigació de materials i la seva col·locació, una feina que afecta de ple el valor final de la unitat."
 author: "Enric Godes"
 squarespaceId: "63440f878646c219817264fc"
 originalUrl: "https://www.valentinmotors.es/magazine/tapicera-original-de-911-serie-f"

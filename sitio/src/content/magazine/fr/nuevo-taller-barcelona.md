@@ -7,6 +7,8 @@ date: 2025-04-24T17:23:03.310000Z
 lang: fr
 categories: []
 excerpt: "Valentin Motors ouvre un nouvel atelier rue Varsòvia, à Barcelone : plus de 1 300 m² sur deux niveaux, soit le double de l’espace précédent."
+metaDescripcion: "Valentín Motors ouvre au 65 Varsòvia un atelier de 1 300 m² pour ses 45 ans : plus de capacité, plus de services et un meilleur accès à Barcelone."
+metaTitulo: "Nouvel atelier Porsche à Barcelone : Varsòvia 65"
 author: "Enric Godes"
 squarespaceId: "680a72ef13f4b6087499ac85"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-taller-barcelona"

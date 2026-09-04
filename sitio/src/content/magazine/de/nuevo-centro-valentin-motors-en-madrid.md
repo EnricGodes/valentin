@@ -7,6 +7,7 @@ date: 2023-12-29T11:29:37.395000Z
 lang: de
 categories: []
 excerpt: "Jordi Edo erklaert die Leistungen, die das neue Zentrum in Leganes der Porsche Gemeinschaft in Madrid bietet."
+metaTitulo: "Das neue Valentín Motors Zentrum in Madrid, von Jordi Edo"
 author: "Jordi Edo"
 squarespaceId: "658d71ca44f03b70c0181754"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-centro-valentin-motors-en-madrid"

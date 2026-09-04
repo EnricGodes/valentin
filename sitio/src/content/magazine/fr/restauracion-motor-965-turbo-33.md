@@ -7,6 +7,7 @@ date: 2022-04-12T09:15:40.773000Z
 lang: fr
 categories: ["restauraciones"]
 excerpt: "Nous testons d’abord la voiture dans son état d’arrivée et repérons les travaux de fond. Puis nous séparons le moteur et la boîte de vitesses pour les conduire en salle des moteurs."
+metaDescripcion: "Restauration du moteur 965 d'une 964 Turbo 3.3 : essais sur route, désaccouplement de l'ensemble moteur/boîte et reconstruction en salle des moteurs."
 author: "Enric Godes"
 squarespaceId: "6255433cc5ad7327195ecfc8"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-965-turbo-33"

@@ -7,6 +7,8 @@ date: 2019-08-28T17:04:00.360000Z
 lang: de
 categories: ["articulos"]
 excerpt: "10 Prüfungen vor dem Kauf eines Porsche 911: Unfallschäden erkennen, einen Detailbericht anfordern und die wichtigen Kontrollen kennen."
+metaDescripcion: "Zehn Prüfungen vor dem Kauf eines 911: Unfallschäden erkennen, welche Berichte Sie anfordern können und was Sie vor dem Bezahlen ansehen sollten."
+metaTitulo: "Zehn Punkte, die Sie vor dem Porsche 911 Kauf prüfen sollten"
 author: "Enric Godes"
 squarespaceId: "61b09080eb819c495a74a928"
 originalUrl: "https://www.valentinmotors.es/magazine/10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"

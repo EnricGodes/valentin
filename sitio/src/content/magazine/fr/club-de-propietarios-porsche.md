@@ -7,6 +7,7 @@ date: 2022-01-23T06:37:58.730000Z
 lang: fr
 categories: ["eventos"]
 excerpt: "Nos sorties du week-end, lancées avec quelques clients, sont devenues un rendez-vous ouvert et gratuit pour les passionnés de Porsche."
+metaDescripcion: "Des sorties de week-end nées avec quelques clients et qui réunissent aujourd'hui la communauté Porsche. Participation ouverte à tous et gratuite."
 author: "Enric Godes"
 squarespaceId: "61ecf7c5b83f0870590cee2b"
 originalUrl: "https://www.valentinmotors.es/magazine/club-de-propietarios-porsche"

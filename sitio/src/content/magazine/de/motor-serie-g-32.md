@@ -7,6 +7,7 @@ date: 2025-09-18T11:03:04.182000Z
 lang: de
 categories: ["articulos"]
 excerpt: "3.2 vollständige Rehabilitation"
+metaDescripcion: "Komplette Überholung des 3.2-Motors eines 911 G-Modells: Zerlegung, Prüfung jedes Bauteils und Wiederaufbau, Schritt für Schritt."
 author: "Jordi Edo"
 squarespaceId: "68cbbfc5f6f39476e82c54de"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40-y4b85"

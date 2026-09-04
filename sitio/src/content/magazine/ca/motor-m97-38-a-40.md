@@ -7,6 +7,7 @@ date: 2024-11-26T16:01:14.563000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "3.8 a 4.0 M97"
+metaDescripcion: "Rehabilitació d'un motor M97 3.8 amb bore scoring i el seu pas a 4.0 litres: diagnòstic, procés i reconstrucció completa."
 author: "Jordi Edo"
 squarespaceId: "6740b22b8f9098290aa92659"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40"

@@ -7,6 +7,8 @@ date: 2023-12-11T18:12:47.621000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "Système frontal de levage du nez"
+metaDescripcion: "Système de relevage du train avant pour la 997.1 : deux secondes et un bouton pour ne plus frotter le pare-chocs ni le front lip. Avantages et pose."
+metaTitulo: "Nose lift pour Porsche 997.1 : relevage du train avant"
 author: "Jordi Edo"
 squarespaceId: "65774d930f6e82385a812863"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971noselift-f3whn-trwdw"

@@ -7,6 +7,8 @@ date: 2021-12-08T17:45:02.820000Z
 lang: de
 categories: ["iconos"]
 excerpt: "Die neue Generation des 911 kam im September 1973 auf den Markt. Sein neues Design fiel vom ersten Moment an auf"
+metaDescripcion: "Die sechzehn Jahre, die den 911 geprägt haben: Faltenbalg-Stoßstangen, verzinkte Karosserie, Motoren von 2.7 bis 3.2 und sechs G-Modell-Versionen."
+metaTitulo: "Porsche 911 G-Modell (1973-1989): Versionen und Motoren"
 author: "Enric Godes"
 squarespaceId: "61b0ef1f9efbef0c169f7766"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-911g"

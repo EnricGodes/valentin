@@ -7,6 +7,7 @@ date: 2022-01-23T06:37:58.730000Z
 lang: en
 categories: ["eventos"]
 excerpt: "Our weekend drives began with a few clients and became an open, free gathering for people who share a passion for Porsche and the road."
+metaDescripcion: "Weekend drives that started with a handful of customers and now bring the Porsche community together. Open to everyone and free to join."
 author: "Enric Godes"
 squarespaceId: "61ecf7c5b83f0870590cee2b"
 originalUrl: "https://www.valentinmotors.es/magazine/club-de-propietarios-porsche"

@@ -7,6 +7,7 @@ date: 2024-11-26T16:01:14.563000Z
 lang: de
 categories: ["articulos"]
 excerpt: "3.8 bis 4.0 M97"
+metaDescripcion: "Überholung eines M97 3.8 mit bore scoring und die Erweiterung auf 4.0 Liter: Diagnose, Ablauf und vollständiger Wiederaufbau."
 author: "Jordi Edo"
 squarespaceId: "6740b22b8f9098290aa92659"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40"

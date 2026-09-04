@@ -7,6 +7,7 @@ date: 2022-10-10T12:44:29.816000Z
 lang: ca
 categories: ["restauraciones"]
 excerpt: "Rehabilitació de motor 964 tipus M64"
+metaDescripcion: "Rehabilitació completa d'un motor M64: el bòxer de 3.600 cc amb doble encesa que Porsche va muntar a tota la generació 964."
 author: "Enric Godes"
 squarespaceId: "634412c7d64dc3321938d332"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-964-m64"

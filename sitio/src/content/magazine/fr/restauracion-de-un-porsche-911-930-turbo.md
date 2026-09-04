@@ -7,6 +7,7 @@ date: 2022-01-08T10:21:45.070000Z
 lang: fr
 categories: ["restauraciones"]
 excerpt: "Restauration d'une 911 Turbo 930 de 1988. Dans cette intervention nous avons fait le grande révision du moteur, de la transmission, de la carrosserie et des intérieurs"
+metaDescripcion: "Restauration intégrale d'une 911 Turbo 930 de 1988 : grande révision du moteur et de la transmission, carrosserie et intérieur entièrement refaits."
 author: "Enric Godes"
 squarespaceId: "61d561368ce7d244c37cdc55"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-de-un-porsche-911-930-turbo"
