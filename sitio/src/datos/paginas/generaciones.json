@@ -1,0 +1,164 @@
+{
+  "rutaId": "generaciones",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Las generaciones del Porsche 911, una a una · Valentin Motors",
+    "descripcion": "Del 356 al 991: qué distingue a cada generación del 911, qué hay que mirar antes de comprarla y qué mantenimiento pide después.",
+    "ogImagen": ""
+  },
+  "h1": "Las generaciones del Porsche 911",
+  "menu": "Generaciones",
+  "acordeones": [],
+  "articulos": [
+    "porsche-911g",
+    "porsche-964",
+    "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Ocho generaciones, ocho coches distintos",
+      "parrafos": [
+        "El 911 lleva sesenta años llamándose igual, y eso engaña: entre un serie F de 1965 y un 991 de 2015 hay más diferencias que parecidos. Cada generación se compra por motivos distintos, se mantiene de forma distinta y falla por sitios distintos.",
+        "Esto es lo que conviene saber de cada una antes de elegir, con lo que hay que mirar y lo que va a pedir después."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 356",
+      "parrafos": [
+        "Se fabricó de 1948 a 1966 en las versiones 356 A, 356 B y 356 C.",
+        "El primer Porsche. Motor trasero de cuatro cilindros y una mecánica que se puede entender entera. Lo que decide el precio de un 356 hoy no es el motor: es la chapa."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8b83bb6a-porsche-356.jpg",
+          "alt": "Porsche 356"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 911 F",
+      "parrafos": [
+        "Se produjo de 1963 a 1973. Se fabricaron 111.995 unidades, con un motor de seis cilindros.",
+        "La serie F es el 911 original, con la distancia entre ejes corta hasta 1968. Piezas difíciles y valores altos: aquí la <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección antes de comprar</a> no es opcional."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2a6bd713-porsche-normal.jpg",
+          "alt": "Porsche 911 F"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 911 G",
+      "parrafos": [
+        "El modelo de segunda generación se fabricó de 1973 a 1989 y supuso una revisión completa. Se produjeron 198.496 unidades.",
+        "Los impactos de los paragolpes lo delatan a primera vista. Es la generación con más unidades y la puerta de entrada al 911 clásico, además de la base habitual de un <a href=\"/restauraciones/backdating\">backdating</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/b2a333e5-Porsche-911G.jpg",
+          "alt": "Porsche 911 G"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 964",
+      "parrafos": [
+        "Principales novedades: tracción 4, sistema ABS y dirección asistida. Se presentó en 1988 con un motor de 3.6, 250 CV y doble encendido para conseguir una mayor fiabilidad. También se corrigió el efecto aerodinámico mediante un spoiler trasero retráctil.",
+        "El último aire refrigerado con comodidad moderna, y la mejor base para un backdating o un <a href=\"/restauraciones/restomod\">restomod</a>. Vigila las fugas del motor y el estado del sistema hidráulico."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/350c9319-porsche-964.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 993",
+      "parrafos": [
+        "La cuarta generación supuso un perfeccionamiento notable desde el punto de vista técnico y del diseño exterior. Incorporó un nuevo motor de 3,6 litros con una potencia inicial de 272 CV, que aumentó hasta los 285 CV.",
+        "El último 911 refrigerado por aire, y por eso el más buscado de los noventa. Mecánica robusta; lo que hay que mirar es el historial y la carrocería."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0a1f8545-porsche-993.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 996",
+      "parrafos": [
+        "Uno de los principales cambios que introdujo fue el motor refrigerado por agua. Contaba con tracción trasera, una transmisión manual de seis velocidades y un motor de seis cilindros, 3,4 litros y 300 CV.",
+        "El primer 911 refrigerado por agua. Es también el primero afectado por el <a href=\"/taller-porsche/reparacion-ims\">IMS</a> y por el <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>: comprobar los dos antes de comprar cambia por completo el riesgo de la operación."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/3c0a2f83-porsche-996.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 997",
+      "parrafos": [
+        "Se presentó en 2004 con nuevas ópticas circulares bajo una cubierta transparente ovalada y unos pasos de rueda más marcados en la zona superior.",
+        "La generación que corrigió la estética del 996 y mantuvo sus motores hasta 2008. El 997.1 sigue afectado por IMS y bore scoring; el 997.2, con motor 9A1, ya no."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/fdb93c56-porsche-997.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Porsche 991",
+      "parrafos": [
+        "En producción desde 2011, contaba con un motor bóxer de 6 cilindros y una potencia de entre 350 y 700 CV. Representó el nivel de desarrollo más elevado alcanzado hasta ese momento.",
+        "Se produjo de 2011 a 2019. Motor 9A1 sin eje intermedio, así que el IMS deja de ser un asunto. Aquí lo que manda es el mantenimiento al día."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/4acfffa1-porsche-991.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cuál te conviene",
+      "parrafos": [
+        "Si buscas un coche para usar a diario, mira el 997.2 o el 991. Si lo quieres para fin de semana y te da igual el aire acondicionado, el 964 y el 993 son los que mejor envejecen. Si es tu primer clásico, el 911 G da el mayor margen de error.",
+        "Tenemos <a href=\"/porsche-en-venta\">unidades en venta</a> y páginas propias del <a href=\"/porsche-997-de-segunda-mano\">997</a>, el <a href=\"/porsche-996-de-segunda-mano\">996</a> y el <a href=\"/porsche-992-de-segunda-mano\">992</a> de ocasión."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

@@ -72,12 +72,15 @@ DECISION = {
  "/barcelona-old": ("301", "/barcelona", "version antigua del centro"),
  "/campana-suv-septiembre-2023": ("301", "/porsche-cayenne-macan-mantenimiento-taller-1", "campana caducada"),
  "/diagnostico-global-porsche-gratis-en-valentin-barcelona": ("301", "/barcelona", "campana caducada"),
- "/mantenimiento-porsche-te-regalamos-un-alineado-de-precision-gratis": ("301", "/taller-porsche", "campana caducada"),
- "/plan-mantenimiento-oferta": ("301", "/taller-porsche", "campana caducada"),
- "/magazine/revision-gratuita-esenciales": ("301", "/taller-porsche", "campana caducada"),
+ "/mantenimiento-porsche-te-regalamos-un-alineado-de-precision-gratis": ("301", "/taller-porsche/mantenimiento", "campana caducada; su tema es el mantenimiento"),
+ "/plan-mantenimiento-oferta": ("301", "/taller-porsche/mantenimiento", "campana caducada; el plan a precio cerrado tiene pagina propia"),
+ # La campana de 2023 esta caducada, pero su URL sigue publicada. Un 301
+# sobre una pagina viva es una senal contradictoria: o se despublica el
+# post o no se redirige. Mientras el cliente decide, no se redirige.
+    # "/magazine/revision-gratuita-esenciales": ("301", "/taller-porsche", "campana caducada"),
  "/nuevo-centro-valentin-motors-madrid": ("301", "/madrid", "duplica el post del Magazine"),
  "/porsche-macan-mantenimiento-taller-1": ("301", "/porsche-cayenne-macan-mantenimiento-taller-1", "fusion: dos paginas casi identicas"),
- "/proyecto-rs": ("301", "/restauraciones", "sin trafico ni impresiones"),
+ "/proyecto-rs": ("301", "/restauraciones/restomod", "sin trafico; su tema son los proyectos propios"),
 
  # Categorias del Magazine que ya no tiene ningun post. Estaban en el sitemap y
  # siguen indexadas, asi que no pueden quedarse en 404.

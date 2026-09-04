@@ -6,8 +6,8 @@
 
 | Accion | URLs |
 |---|---:|
-| 301 | 56 |
-| CONSERVAR | 53 |
+| 301 | 55 |
+| CONSERVAR | 54 |
 | REVIVIR | 6 |
 
 ## Tipos
@@ -89,7 +89,7 @@
 | `/nuevo-centro-valentin-motors-madrid` | pagina | 10 | 0 | 0 | 301 | `/madrid` |
 | `/magazine/porscheclassicseries2023` | post | 9 | 0 | 0 | CONSERVAR | |
 | `/magazine/restauracion-sctarga1979oakgreen` | post | 8 | 0 | 0 | CONSERVAR | |
-| `/plan-mantenimiento-oferta` | pagina | 8 | 0 | 0 | 301 | `/taller-porsche` |
+| `/plan-mantenimiento-oferta` | pagina | 8 | 0 | 0 | 301 | `/taller-porsche/mantenimiento` |
 | `/magazine/category/iconos` | categoria blog | 7 | 0 | 0 | CONSERVAR | |
 | `/magazine/porsche968` | post | 7 | 0 | 0 | 301 | `/magazine/reconstruccion-motor-968` |
 | `/magazine/restauracion-motor-964-m64` | post | 7 | 0 | 0 | CONSERVAR | |
@@ -97,7 +97,7 @@
 | `/magazine/restauracion-porsche-911-1965` | post | 6 | 0 | 0 | CONSERVAR | |
 | `/magazine/porschem9738a40` | post | 5 | 0 | 0 | 301 | `/magazine/motor-m97-38-a-40` |
 | `/magazine/restauracion-motor-1971-22` | post | 5 | 0 | 0 | CONSERVAR | |
-| `/mantenimiento-porsche-te-regalamos-un-alineado-de-precision-gratis` | pagina | 5 | 0 | 0 | 301 | `/taller-porsche` |
+| `/mantenimiento-porsche-te-regalamos-un-alineado-de-precision-gratis` | pagina | 5 | 0 | 0 | 301 | `/taller-porsche/mantenimiento` |
 | `/magazine/porsche9971turbo` | post | 4 | 0 | 0 | 301 | `/magazine/9971-turbo-rehabilitacion-motor` |
 | `/magazine/porschem9738a40-y4b85` | post | 4 | 0 | 0 | 301 | `/magazine/motor-serie-g-32` |
 | `/magazine/restauracion-motor-965-turbo-33` | post | 4 | 0 | 0 | CONSERVAR | |
@@ -109,7 +109,7 @@
 | `/magazine/porschepinturaclasica911` | post | 2 | 0 | 0 | 301 | `/magazine/proceso-pintura-911-clase-g` |
 | `/magazine/rehabilitacion-motor-22-1970-serief` | post | 2 | 0 | 0 | CONSERVAR | |
 | `/magazine/restauracionsistemacis` | post | 2 | 0 | 0 | 301 | `/magazine/restauracion-sistema-inyeccion-cis` |
-| `/magazine/revision-gratuita-esenciales` | post | 2 | 0 | 0 | 301 | `/taller-porsche` |
+| `/magazine/revision-gratuita-esenciales` | post | 2 | 0 | 0 | CONSERVAR | |
 | `/barcelona-old` | pagina | 0 | 0 | 0 | 301 | `/barcelona` |
 | `/campana-suv-septiembre-2023` | pagina | 0 | 0 | 0 | 301 | `/porsche-cayenne-macan-mantenimiento-taller-1` |
 | `/cart` | 404 heredado | 0 | 0 | 0 | 301 | `/` |
@@ -147,4 +147,4 @@
 | `/porsche-en-venta/porsche993carrerausa` | ficha coche (vendido) | 0 | 0 | 0 | REVIVIR | `/porsche-en-venta/porsche993carrerausa` |
 | `/porsche-en-venta/porsche996coupecarreratiptronic` | ficha coche (vendido) | 0 | 0 | 0 | REVIVIR | `/porsche-en-venta/porsche996coupecarreratiptronic` |
 | `/porsche-en-venta/porschrrkompressorruf` | 404 heredado | 0 | 0 | 0 | 301 | `/porsche-en-venta/997-ruf-kompressor` |
-| `/proyecto-rs` | pagina | 0 | 0 | 0 | 301 | `/restauraciones` |
+| `/proyecto-rs` | pagina | 0 | 0 | 0 | 301 | `/restauraciones/restomod` |

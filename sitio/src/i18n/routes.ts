@@ -131,6 +131,10 @@ export const RUTAS: Ruta[] = [
     slugs: { es: 'builds/pa10-01', en: 'builds/pa10-01', fr: 'builds/pa10-01', it: 'builds/pa10-01', de: 'builds/pa10-01', ca: 'builds/pa10-01' } },
 
   // ── Landings de compra ──────────────────────────────────────────────────
+  { id: 'generaciones', seccion: 'coches',
+    slugs: { es: 'generaciones-del-911', en: 'porsche-911-generations',
+             fr: 'generations-de-la-911', it: 'generazioni-della-911',
+             de: 'porsche-911-generationen', ca: 'generacions-del-911' } },
   { id: 'ocasion-997', seccion: 'coches',
     slugs: { es: 'porsche-997-de-segunda-mano', en: 'used-porsche-997', fr: 'porsche-997-occasion',
              it: 'porsche-997-usata', de: 'porsche-997-gebraucht', ca: 'porsche-997-de-segona-ma' } },

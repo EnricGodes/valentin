@@ -56,6 +56,7 @@ const hijo = (id: string) => (hay(id) ? [{ id, texto: tituloDe(id) }] : []);
 
 const enlaces = [
   { id: 'coches', texto: t('nav.coches'), hijos: [
+      ...hijo('generaciones'),
       ...hijo('ocasion-997'), ...hijo('ocasion-996'), ...hijo('ocasion-992'),
       ...hijo('vende'),
     ] },
