@@ -35,6 +35,11 @@ export interface Pagina {
       necesita "Reparacion del IMS". Si falta, se usa el h1. */
   menu?: string;
   acordeones: Acordeon[];
+  /** Articulos del Magazine que sostienen esta pagina, por `slugFinal`. Una
+      pagina de servicio dice lo que hacemos; el articulo lo ensena hecho, con
+      cien fotos del trabajo. Enlazarlos es lo que convierte una pagina de
+      servicio en algo que se puede leer. */
+  articulos?: string[];
   secciones: SeccionPagina[];
   contacto: { telefonos: string[]; emails: string[] };
 }

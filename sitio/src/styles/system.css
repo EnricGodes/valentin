@@ -1786,3 +1786,10 @@ section { position: relative; }
   transition: border-color 0.25s var(--ease);
 }
 .catalogo-mas-lista a:hover { border-color: var(--bronce); }
+
+/* ── Artículos que sostienen una página de servicio ──────────────────────── */
+.pagina-articulos { margin-top: 88px; padding-top: 48px; border-top: 1px solid var(--linea); }
+.pagina-articulos-titulo {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce); margin-bottom: 8px;
+}

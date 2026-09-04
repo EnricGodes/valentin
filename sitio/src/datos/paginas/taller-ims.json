@@ -1,20 +1,27 @@
 {
   "rutaId": "taller-ims",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_taller",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Reparación del IMS Porsche · Precio cerrado · Valentin Motors",
-    "descripcion": "Diagnóstico y sustitución del rodamiento IMS en Porsche 996, 997, Boxster y Cayman, a precio cerrado y con garantía.",
+    "descripcion": "Sustitución del rodamiento IMS en motores M96 y M97, con precio cerrado para modelos de 1997 a 2006, en Barcelona y Madrid.",
     "ogImagen": ""
   },
   "h1": "Reparación del IMS en motores M96 y M97",
+  "menu": "Reparación del IMS",
   "acordeones": [],
+  "articulos": [
+    "que-es-el-ims-de-porsche",
+    "996-m96-34-rotura-arbol-intermedio-ims",
+    "porsche-bore-scoring"
+  ],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "La intervención",
+      "titulo": "Qué hacemos",
       "parrafos": [
-        "Hemos realizado <strong>numerosas intervenciones IMS</strong> en nuestros talleres, en motores de toda la generación M96 y M97.<br/><br/>Disponemos de <strong>precios cerrados</strong> para las intervenciones IMS (modelos de 1988 hasta 2006), tanto con cambio manual como automático."
+        "Sustituimos el rodamiento del árbol intermedio en motores M96 y M97, con <strong>precio cerrado</strong> para los modelos de 1997 a 2006, tanto de cambio manual como automático. Hemos hecho la intervención decenas de veces, en las tres revisiones del rodamiento que montó Porsche.",
+        "La sustitución preventiva no exige abrir el bloque: se retira la transmisión y el volante motor o el flexplate, y se accede al rodamiento por la brida. El motor no se desmonta, lo que mantiene la factura en un orden de magnitud razonable frente a lo que cuesta una rotura."
       ],
       "items": [],
       "imagenes": [
@@ -23,11 +30,53 @@
           "alt": "Porsche IMS"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cuándo merece la pena",
+      "parrafos": [
+        "El fallo afecta a los 911 <strong>996</strong> y <strong>997.1</strong>, al <strong>Boxster</strong> 986 y 987 y al <strong>Cayman</strong>, entre 1997 y 2008. No todos montan el mismo rodamiento, y ahí está la diferencia: el 6204 de una hilera que se montó entre 2000 y 2005 es el que más incidencia ha tenido, y es también el más sencillo de sustituir.",
+        "Si el coche que te interesa está en ese grupo y no consta que se haya intervenido, la sustitución preventiva es la decisión barata. Si el motor ya hace ruido o aparecen partículas metálicas en el aceite, el momento preventivo ha pasado y lo que toca es una evaluación antes de arrancarlo otra vez."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cómo saber si tu coche está afectado",
+      "parrafos": [
+        "Hemos publicado una <a href=\"/herramientas/calculadora-ims-porsche\">calculadora</a> que responde con el modelo y el año: dice qué rodamiento monta tu unidad, si es sustituible sin abrir el motor y qué comprobaciones necesita. En los años de transición, 2000, 2001 y 2005, pide además el número de motor, porque conviven dos rodamientos distintos y el año no basta.",
+        "La calculadora no diagnostica el estado del coche. Dice qué venía de fábrica; lo que hay dentro hoy solo se sabe abriendo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué incluye la intervención",
+      "parrafos": [],
+      "items": [
+        "Diagnóstico previo: análisis del aceite y del filtro, en busca de partículas.",
+        "Desmontaje de transmisión, volante motor o flexplate y brida del IMS.",
+        "Sustitución del rodamiento por el kit que corresponda a esa revisión.",
+        "Sustitución del retén del árbol intermedio y del embrague si procede.",
+        "Montaje, puesta a punto y prueba en carretera.",
+        "Garantía mecánica de la intervención."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Dónde se hace",
+      "parrafos": [
+        "En Barcelona y en Madrid. La intervención se hace en el taller; si el motor llega con daños, pasa a la <a href=\"/sala-motores\">sala de motores</a>, donde se abre y se evalúa pieza a pieza."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Reparación del IMS"
+  }
 }

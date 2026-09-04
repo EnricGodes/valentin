@@ -75,7 +75,9 @@ function soloProsa(md: string): string {
 }
 
 /** Cadenas de prosa de un JSON. Las claves tecnicas no son texto. */
-const NO_PROSA = /slug|url|href|^id$|src|icono|clase|color|ruta|formato|ancla|clave/i;
+// `articulos` son slugs de posts del Magazine, no prosa: ponerles la tilde
+// rompe el enlace.
+const NO_PROSA = /slug|url|href|^id$|src|icono|clase|color|ruta|formato|ancla|clave|articulos/i;
 function prosaDe(x: unknown, clave = '', salida: string[] = []): string[] {
   if (typeof x === 'string') {
     const limpio = x.replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/g, ' ').replace(/\s+/g, ' ').trim();

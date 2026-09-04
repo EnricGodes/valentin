@@ -178,6 +178,7 @@ export const UI = {
   'nav.centros':       { es: 'Centros', en: 'Locations', fr: 'Centres', it: 'Sedi', de: 'Standorte', ca: 'Centres' },
   'nav.verTodo':       { es: 'Ver todo', en: 'See all', fr: 'Tout voir', it: 'Vedi tutto', de: 'Alle ansehen', ca: 'Veure-ho tot' },
   'nav.abrir':         { es: 'Abrir el submenú', en: 'Open submenu', fr: 'Ouvrir le sous-menu', it: 'Apri il sottomenu', de: 'Untermenü öffnen', ca: 'Obre el submenú' },
+  'pagina.articulos':  { es: 'Verlo hecho', en: 'See it done', fr: 'Le voir en pratique', it: 'Vederlo fatto', de: 'In der Praxis', ca: 'Veure-ho fet' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 
 export type ClaveUI = keyof typeof UI;

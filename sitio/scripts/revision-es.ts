@@ -43,7 +43,7 @@ const NO_ES_PROSA = [
 ];
 
 /** Claves de JSON cuyo valor es tecnico: un slug con tilde deja de resolver. */
-const CLAVE_TECNICA = /slug|url|href|^id$|src|icono|clase|color|ruta|formato|ancla|clave|tipo|orden/i;
+const CLAVE_TECNICA = /slug|url|href|^id$|src|icono|clase|color|ruta|formato|ancla|clave|tipo|orden|articulos/i;
 
 function bloquesMd(cuerpo: string): string[] {
   return cuerpo.split(/\n\s*\n/);

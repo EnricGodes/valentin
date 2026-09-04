@@ -1,20 +1,27 @@
 {
   "rutaId": "taller-bore-scoring",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_taller",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Bore scoring Porsche: diagnóstico y reparación · Valentin Motors",
-    "descripcion": "Diagnóstico del bore scoring en motores M96 y M97, y reparación mediante encamisado, en nuestra sala de motores.",
+    "descripcion": "Chequeo endoscópico del bore scoring en motores M96 y M97, y reparación por encamisado. Barcelona y Madrid.",
     "ogImagen": ""
   },
   "h1": "Diagnóstico y reparación del bore scoring",
+  "menu": "Bore scoring",
   "acordeones": [],
+  "articulos": [
+    "porsche-bore-scoring",
+    "997-m9701-38-a-40-nickies",
+    "motor-m97-38-a-40"
+  ],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "La intervención",
+      "titulo": "Qué hacemos",
       "parrafos": [
-        "Tenemos una amplia experiencia aplicando mantenimientos preventivos, diagnosticando y solventando los problemas derivados del Bore Scoring.<br/>"
+        "Diagnosticamos el rayado de las camisas mediante <strong>endoscopia de los cilindros</strong>, sin desmontar el motor, y lo reparamos por encamisado cuando el daño ya está hecho. El chequeo es un servicio cerrado, y es lo primero que recomendamos antes de comprar un M96 o M97.",
+        "El bore scoring afecta a los <strong>Boxster</strong>, <strong>Cayman</strong> y <strong>911</strong> con motor M96 y M97 fabricados entre 1997 y 2008. Se manifiesta como un rayado vertical en la pared del cilindro, con más frecuencia en el sexto, y avanza hasta que el motor consume aceite y pierde compresión."
       ],
       "items": [],
       "imagenes": [
@@ -23,11 +30,43 @@
           "alt": "Porsche Bore Scoring"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "El chequeo",
+      "parrafos": [
+        "Se hace con endoscopio por el alojamiento de la bujía, con el motor montado en el coche. En una mañana se sabe si hay rayado, en qué cilindros y hasta dónde llega. Lo pedimos siempre antes de una compra: es la diferencia entre negociar el precio y descubrirlo después.",
+        "El precio está en las <a href=\"/taller-porsche/tarifas\">tarifas</a>, junto al resto de servicios del modelo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "La reparación",
+      "parrafos": [
+        "Cuando el rayado está, la solución no es rectificar: es sustituir la camisa. Encamisamos con camisas de aleación de níquel, silicio y carburo, más duras que el Lokasil original, y aprovechamos para revisar el resto del bloque, que a esas alturas ya está abierto.",
+        "En muchos motores, si el bloque va a abrirse de todos modos, tiene sentido <strong>subir la cilindrada</strong> en la misma intervención: un M97 3.8 pasa a 4.0 sin coste añadido de mano de obra, porque el trabajo ya está hecho."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué incluye",
+      "parrafos": [],
+      "items": [
+        "Endoscopia de los seis cilindros y valoración del rayado.",
+        "Análisis del aceite y del filtro.",
+        "Prueba de compresión y de estanqueidad.",
+        "Informe con fotografías de cada cilindro.",
+        "Presupuesto de reparación, si procede, antes de tocar nada."
+      ],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Bore scoring"
+  }
 }

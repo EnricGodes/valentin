@@ -18,6 +18,8 @@ import SeccionesPagina from '../components/SeccionesPagina.astro';
 import Acordeon from '../components/Acordeon.astro';
 import Tarifas from '../components/Tarifas.astro';
 import tarifas from '../datos/tarifas.json';
+import ListaMagazine from '../components/ListaMagazine.astro';
+import { getCollection } from 'astro:content';
 import Formulario from '../components/Formulario.astro';
 import NegocioLocal from '../components/seo/NegocioLocal.astro';
 import Vehiculo from '../components/seo/Vehiculo.astro';
@@ -140,6 +142,15 @@ while (iFin >= 0 && secciones[iFin + 1]?.nivel === 4) iFin++;
 const antesDeTarifas = iTarifas >= 0 ? secciones.slice(0, iTarifas + 1) : secciones;
 const despuesDeTarifas = iTarifas >= 0 ? secciones.slice(iFin + 1) : [];
 
+/* Los articulos que sostienen esta pagina, en el orden en que los declara.
+   Se cae al castellano cuando el articulo no esta traducido: mejor leerlo en
+   espanol que no encontrarlo. */
+const todos = pagina?.articulos?.length ? await getCollection('magazine') : [];
+const relacionados = (pagina?.articulos ?? [])
+  .map((slug) => todos.find((p) => p.data.slugFinal === slug && p.data.lang === idioma)
+                 ?? todos.find((p) => p.data.slugFinal === slug && p.data.lang === 'es'))
+  .filter((p) => p !== undefined);
+
 const esCentro = pagina?.tipo === 'centro';
 const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
 ---
@@ -185,6 +196,13 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         </div>
       )}
       {despuesDeTarifas.length > 0 && <SeccionesPagina secciones={despuesDeTarifas} />}
+      {relacionados.length > 0 && (
+        <section class="pagina-articulos contenido">
+          <h2 class="pagina-articulos-titulo">{t('pagina.articulos')}</h2>
+          <ListaMagazine posts={relacionados} idioma={idioma}
+                         columnas={relacionados.length > 2 ? 3 : 2} urgentes={0} />
+        </section>
+      )}
       {familiaTarifa
         ? <div class="contenido">
             <Tarifas idioma={idioma} familia={familiaTarifa} textos={{

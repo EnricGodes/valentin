@@ -1,21 +1,28 @@
 {
   "rutaId": "taller-motores",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_taller",
+  "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Restauración de motores Porsche · Valentin Motors",
-    "descripcion": "Restauración y reconstrucción de motores Porsche de cualquier época, con recogida en toda España y sala de motores propia.",
+    "titulo": "Restauración de motores Porsche · Sala de motores propia · Valentin Motors",
+    "descripcion": "Restauramos y reconstruimos motores Porsche de cualquier época en sala propia, con recogida en toda España.",
     "ogImagen": ""
   },
   "h1": "Restauración y reconstrucción de motores",
+  "menu": "Motores",
   "acordeones": [],
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "9971-turbo-rehabilitacion-motor",
+    "restauracion-motor-964-m64",
+    "reconstruccion-motor-968"
+  ],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Cómo trabajamos",
+      "titulo": "Qué hacemos",
       "parrafos": [
-        "Desde hace 40 años, nuestra especialidad es la mecánica y, concretamente, los motores.<br/><br/><strong>Restauramos, renovamos y reparamos cualquier tipo de motor</strong> de la marca. Ofrecemos un servicio de recogida de motores en todo el país y los devolvemos una vez terminados.",
-        "Disponemos de la maquinaria y el utillaje necesarios para cualquier tipo de restauración y mecanización, además de un departamento de localización de piezas cuando se requiere."
+        "Restauramos, renovamos y reparamos cualquier motor de la marca, del bóxer de cuatro cilindros del 356 a los actuales, en una <a href=\"/sala-motores\">sala de motores</a> propia. Es la parte de la casa que le da nombre, y la que ni los concesionarios oficiales tienen.",
+        "Recogemos motores en <strong>toda España</strong>. No hace falta traer el coche: si el motor ya está fuera, viaja solo."
       ],
       "items": [],
       "imagenes": [
@@ -24,11 +31,33 @@
           "alt": "Restauración de motores"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cómo trabajamos",
+      "parrafos": [
+        "Un motor no se abre para cambiar una pieza. Se abre, se mide todo y se decide con los números delante: holguras, ovalizaciones, planitud de culatas, estado de camisas y cigüeñal. De ahí sale el presupuesto, y no antes.",
+        "Contamos con maquinaria y utillaje propios y con un departamento de localización de piezas, que en un motor de cuarenta años es la mitad del trabajo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué motores pasan por aquí",
+      "parrafos": [],
+      "items": [
+        "Bóxer refrigerados por aire, del 356 al 993.",
+        "M96 y M97, con las intervenciones de IMS y bore scoring.",
+        "Motores de competición y preparaciones específicas.",
+        "Transaxle: 924, 944, 968 y 928.",
+        "Motores clásicos de otras marcas, que también entran en la sala."
+      ],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Motores"
+  }
 }

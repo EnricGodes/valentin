@@ -1,20 +1,26 @@
 {
   "rutaId": "taller-pintura",
   "tipo": "servicio",
-  "ficheroOriginal": "_derivado_de_taller",
+  "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Pintura y carrocería Porsche · Colores originales · Valentin Motors",
-    "descripcion": "Chapa y pintura Porsche con colores originales de fábrica, tratamientos anticorrosión y preparación completa de la carrocería.",
+    "descripcion": "Chapa y pintura Porsche con colores originales de fábrica, tratamiento anticorrosión y preparación completa de la carrocería.",
     "ogImagen": ""
   },
   "h1": "Pintura y carrocería",
+  "menu": "Pintura y carrocería",
   "acordeones": [],
+  "articulos": [
+    "proceso-pintura-911-clase-g",
+    "proceso-pintura-964"
+  ],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El proceso",
+      "titulo": "Qué hacemos",
       "parrafos": [
-        "Reparación y pintura de carrocerías según las especificaciones de Porsche: <strong>colores originales</strong> conforme al nuevo <strong>sistema de códigos de pintura.</strong><br/><br/>Tratamientos estéticos para proteger la <strong>carrocería de la corrosión</strong> mediante métodos contemporáneos.<br/><br/>Preparación del vehículo mediante la medición de los espacios intersticiales, el desmontaje de molduras y piezas accesorias, la catalogación y el cromado de accesorios, etc."
+        "Reparación y pintura según las especificaciones de Porsche, con <strong>colores originales</strong> de fábrica y el sistema actual de códigos de pintura. Cabina propia en el taller de Barcelona.",
+        "Una pintura bien hecha no se nota. Lo que se nota es la mal hecha: los intersticios desiguales, el color que no encaja con el del vano, la moldura que ya no asienta."
       ],
       "items": [],
       "imagenes": [
@@ -23,11 +29,29 @@
           "alt": ""
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "La preparación es el trabajo",
+      "parrafos": [
+        "Antes de pintar se mide el intersticio de cada apertura, se desmontan las molduras en vez de enmascararlas, y se cataloga cada accesorio que sale del coche para que vuelva a su sitio. Los cromados que lo necesitan se rehacen mientras la carrocería está en cabina.",
+        "Aplicamos tratamiento anticorrosión en las zonas que lo piden, que en un Porsche clásico son siempre las mismas y siempre las que no se ven."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cuándo se hace",
+      "parrafos": [
+        "Como parte de una <a href=\"/restauraciones/integrales\">restauración integral</a>, cuando la carrocería se desmonta entera, o como trabajo propio en un coche que solo necesita recuperar la pintura. Los dos procesos están contados paso a paso en los artículos de abajo."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Pintura y carrocería"
+  }
 }
