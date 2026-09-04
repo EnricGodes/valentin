@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run assets && astro dev",
-    "build": "npm run validar && npm run glosario && npm run ortotipografia && npm run medios && astro build && npm run validar:hreflang",
+    "build": "npm run validar && npm run glosario && npm run ortotipografia && npm run medios && npm run mapa-idiomas && npm run probar:idioma && astro build && npm run validar:hreflang",
     "preview": "astro preview",
     "check": "astro check",
     "validar": "node scripts/validar-rutas.ts",
@@ -15,7 +15,9 @@
     "glosario": "node scripts/validar-glosario.ts",
     "ortotipografia": "node scripts/validar-ortotipografia.ts",
     "revision:exportar": "node scripts/exportar-revision.ts",
-    "revision:importar": "node scripts/importar-revision.ts"
+    "revision:importar": "node scripts/importar-revision.ts",
+    "mapa-idiomas": "node scripts/generar-mapa-idiomas.ts",
+    "probar:idioma": "node scripts/probar-middleware.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

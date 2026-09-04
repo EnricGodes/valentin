@@ -20,3 +20,7 @@ _migracion/contenido/videos/
 # Las tandas de revision del castellano se regeneran con npm run revision:exportar
 # y se borran cuando estan aplicadas: no son fuente, son un apero.
 sitio/revision/
+
+# Lo genera scripts/generar-mapa-idiomas.ts en cada build, con las
+# traducciones realmente publicadas. Es derivado, no fuente.
+sitio/functions/mapa-idiomas.json

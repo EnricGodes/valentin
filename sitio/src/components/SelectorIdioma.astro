@@ -18,12 +18,26 @@ const t = traductor(idioma);
 {idiomasPublicados.length > 1 && (
 <nav class="selector-idioma" aria-label={t('a11y.idioma')}>
   {idiomasPublicados.map((i) => (
-    <a href={url(rutaId, i, ...extra)} hreflang={i} lang={i}
+    <a href={url(rutaId, i, ...extra)} hreflang={i} lang={i} data-idioma={i}
        title={NOMBRE_IDIOMA[i]} aria-label={NOMBRE_IDIOMA[i]}
        aria-current={i === idioma ? 'true' : undefined}>{i.toUpperCase()}</a>
   ))}
 </nav>
 )}
+{/* Elegir aqui es una decision explicita y manda sobre el navegador: la
+    cookie se la lleva el middleware, que a partir de ese momento deja de
+    redirigir. Sin esto, quien viene con el navegador en aleman y elige
+    castellano vuelve al aleman en la pagina siguiente. */}
+<script>
+  for (const a of document.querySelectorAll<HTMLAnchorElement>('[data-idioma]')) {
+    a.addEventListener('click', () => {
+      const idioma = a.dataset.idioma;
+      // Un ano, en todo el sitio, y sin datos personales: solo el idioma.
+      document.cookie =
+        `idioma=${idioma}; path=/; max-age=31536000; SameSite=Lax`;
+    });
+  }
+</script>
 <style>
   .selector-idioma { display: flex; gap: 14px; }
   .selector-idioma a {
