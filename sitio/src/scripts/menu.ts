@@ -21,6 +21,13 @@ export function iniciarMenu(): void {
 
   const estrecha = () => window.matchMedia('(max-width: 1180px)').matches;
 
+  /* El menú viene abierto del servidor para que exista sin JavaScript. Lo
+     primero que se hace aquí es cerrarlo si la pantalla es estrecha, antes de
+     que se llegue a ver desplegado. */
+  const ajustarApertura = () => { menu.open = !estrecha(); };
+  ajustarApertura();
+  window.addEventListener('resize', ajustarApertura);
+
   // ── Plegar los submenús y darles su botón ────────────────────────────────
   for (const item of menu.querySelectorAll<HTMLElement>('.nav-item--con-hijos')) {
     const sub = item.querySelector<HTMLElement>('.nav-sub');

@@ -24,6 +24,7 @@ import { IDIOMAS, POR_DEFECTO, type Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import { idiomasDe, paginaPorRuta } from '../datos/pagina';
+import { CENTROS } from '../datos/centros';
 
 interface Props {
   idioma: Idioma;
@@ -100,7 +101,11 @@ const activo = (e: { id: string; hijos: { id: string }[] }) =>
   <a class="nav-brand" href={enlace('home').href} lang={enlace('home').lang}
      hreflang={enlace('home').lang}>Valentin<span>Motors</span></a>
 
-  <details class="nav-menu" data-nav-menu>
+  {/* Nace abierto: un <details> cerrado no renderiza su contenido, y en
+      pantalla ancha el menú tiene que estar ahí siempre. En estrecha lo cierra
+      el script al arrancar. Sin JavaScript se queda abierto, que en móvil es
+      el panel desplegado: largo, pero completo y navegable. */}
+  <details class="nav-menu" data-nav-menu open>
     <summary class="nav-boton" aria-label={t('nav.menu')}>
       <span class="nav-boton-barras" aria-hidden="true"><i></i><i></i><i></i></span>
       <span class="nav-boton-texto">{t('nav.menu')}</span>
@@ -121,6 +126,16 @@ const activo = (e: { id: string; hijos: { id: string }[] }) =>
         )}
       </li>
     ))}
+      {/* En un móvil, poder llamar de un toque vale más que cualquier enlace.
+          Va al final del panel, después de la navegación, no antes. */}
+      <li class="nav-contacto">
+        {CENTROS.map((c) => (
+          <a href={`tel:${c.telHref}`}>
+            <span class="nav-contacto-donde">{c.nombre}</span>
+            <span class="nav-contacto-tel">{c.tel}</span>
+          </a>
+        ))}
+      </li>
   </ul>
   </details>
 </nav>

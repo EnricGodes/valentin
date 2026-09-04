@@ -117,14 +117,31 @@ a { color: inherit; }
   border-top: 3px solid currentColor; opacity: 0.5;
 }
 
+
+.nav-links a {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.18em;
+  color: var(--concreto); text-decoration: none; text-transform: uppercase;
+  transition: color 0.3s;
+}
+.nav-links a:hover, .nav-links a[aria-current='page'] { color: var(--blanco); }
+
 /* ── Hamburguesa: el mismo menú cuando no cabe en una barra ──────────────── */
-/* En pantalla ancha el <details> es transparente: el interruptor no se ve y la
-   lista se muestra siempre, esté abierto o cerrado. */
+/* En pantalla ancha el <details> desaparece de la maquetación con
+   `display: contents`, y el <ul> vuelve a ser hijo directo del flex de .nav.
+   Sin esto el <details> entra como un item flex más, se encoge a cero de ancho
+   y se lleva el menú entero fuera de la pantalla. */
+.nav-menu { display: contents; }
 .nav-boton { display: none; }
+/* Los dos solo existen para el panel estrecho; en la barra no pintan nada.
+   El botón lo añade el script, y los teléfonos vienen del servidor. */
+.nav-desplegar { display: none; }
+.nav-contacto { display: none; }
 .nav-menu > .nav-links { display: flex; }
 
 @media (max-width: 1180px) {
   .nav { position: relative; }
+  /* Aquí sí es una caja: es la que ancla el panel desplegable. */
+  .nav-menu { display: block; }
 
   .nav-boton {
     display: flex; align-items: center; gap: 10px;
@@ -149,57 +166,84 @@ a { color: inherit; }
   [open] .nav-boton-barras i:nth-child(2) { opacity: 0; }
   [open] .nav-boton-barras i:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
-  /* El panel ocupa lo que queda de pantalla bajo la barra y desplaza dentro:
-     con nueve secciones y sus hijos no cabe de una vez en un móvil. */
+  /* El panel ocupa la pantalla entera bajo la barra. Antes era una lista en
+     mono de once píxeles, que es la letra de un dato técnico, no la de un menú
+     que se toca con el pulgar: ahora las secciones van en la serif del sitio y
+     cada fila mide más de lo que mide un dedo. */
   .nav-menu > .nav-links {
     display: none;
-    position: absolute; top: 100%; left: 0; right: 0; z-index: 70;
+    position: fixed; top: var(--alto-nav, 67px); left: 0; right: 0; bottom: 0;
+    z-index: 70;
     flex-direction: column; align-items: stretch; gap: 0;
-    max-height: calc(100vh - 100%); overflow-y: auto;
-    padding: 8px var(--pad-lateral) 32px;
-    background: var(--negro); border-top: 1px solid var(--linea);
+    overflow-y: auto; -webkit-overflow-scrolling: touch;
+    padding: 8px 0 40px;
+    background: var(--negro);
   }
   .nav-menu[open] > .nav-links { display: flex; }
 
-  .nav-item { border-bottom: 1px solid var(--linea); }
-  .nav-item > a { display: block; padding: 16px 0; font-size: 13px; }
+  .nav-item { border-bottom: 1px solid var(--linea); position: relative; }
+  .nav-item > a {
+    display: block; padding: 20px var(--pad-lateral);
+    font-family: var(--serif); font-size: 24px; font-weight: 400;
+    letter-spacing: -0.01em; text-transform: none; color: var(--blanco);
+  }
+  .nav-item > a[aria-current='page'] { color: var(--bronce); }
   .nav-item--con-hijos > a::after { display: none; }
 
   /* Sin JavaScript los hijos se ven todos: el panel es largo, pero está
      entero. El script los pliega y añade el botón para desplegarlos. */
   .nav-sub {
     position: static; opacity: 1; visibility: visible; transform: none;
-    min-width: 0; padding: 0 0 12px; margin: 0;
+    min-width: 0; margin: 0; padding: 0 0 14px;
     background: transparent; border: 0; transition: none;
   }
-  .nav-sub a { padding: 8px 0 8px 18px; font-size: 11px; }
-  .nav-sub a:hover { background: transparent; color: var(--blanco); }
+  .nav-sub a {
+    padding: 12px var(--pad-lateral) 12px calc(var(--pad-lateral) + 16px);
+    font-family: var(--sans, inherit); font-size: 15px; letter-spacing: 0;
+    text-transform: none; color: var(--concreto);
+  }
+  .nav-sub a:hover, .nav-sub a[aria-current='page'] {
+    background: transparent; color: var(--blanco);
+  }
+
+  /* Llamar, al final del panel. */
+  .nav-contacto {
+    display: flex; gap: 1px; margin-top: 28px; padding: 0 var(--pad-lateral);
+    border: 0;
+  }
+  .nav-contacto a {
+    flex: 1; display: block; padding: 16px 18px; text-decoration: none;
+    background: var(--carbon); border: 1px solid var(--linea-fuerte);
+  }
+  .nav-contacto-donde {
+    display: block; font-family: var(--mono); font-size: var(--t-micro);
+    letter-spacing: var(--tr-label); text-transform: uppercase; color: var(--bronce);
+  }
+  .nav-contacto-tel {
+    display: block; margin-top: 6px; font-size: 15px; color: var(--blanco);
+  }
 }
 
 /* Con JavaScript, cada sección se pliega y se abre con su propio botón. */
 @media (max-width: 1180px) {
   .js .nav-item--con-hijos > .nav-sub[hidden] { display: none; }
   .nav-desplegar {
-    position: absolute; right: 0; top: 8px;
-    width: 44px; height: 44px; padding: 0; cursor: pointer;
+    display: block;
+    position: absolute; right: 8px; top: 6px;
+    width: 56px; height: 56px; padding: 0; cursor: pointer;
     background: none; border: 0; color: var(--concreto);
   }
   .nav-desplegar::before,
   .nav-desplegar::after {
     content: ''; position: absolute; left: 50%; top: 50%;
-    width: 11px; height: 1.5px; background: currentColor;
+    width: 14px; height: 1.5px; background: currentColor;
     transform: translate(-50%, -50%); transition: transform .25s var(--ease);
   }
   .nav-desplegar::after { transform: translate(-50%, -50%) rotate(90deg); }
   .nav-desplegar[aria-expanded='true']::after { transform: translate(-50%, -50%) rotate(0); }
   .nav-item--con-hijos { position: relative; }
 }
-.nav-links a {
-  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.18em;
-  color: var(--concreto); text-decoration: none; text-transform: uppercase;
-  transition: color 0.3s;
-}
-.nav-links a:hover, .nav-links a[aria-current='page'] { color: var(--blanco); }
+
 
 /* ── Animaciones de entrada ───────────────────────────────────────────────── */
 .reveal, .reveal-left, .reveal-right, .reveal-scale {

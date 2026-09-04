@@ -15,6 +15,7 @@ import { IDIOMAS, POR_DEFECTO, type Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import { idiomasDe, paginaPorRuta } from '../datos/pagina';
+import { CENTROS } from '../datos/centros';
 import SelectorIdioma from './SelectorIdioma.astro';
 
 interface Props {
@@ -58,22 +59,6 @@ const secciones = SECCIONES
     lang: hay(id) ? undefined : POR_DEFECTO,
   }));
 
-/* Los datos de los centros se escriben aquí y no se leen de barcelona.json y
-   madrid.json porque ahí viven dentro de párrafos con HTML: extraer la calle
-   de una frase con expresiones regulares es exactamente el tipo de cosa que
-   se rompe el día que alguien reescribe el párrafo. */
-const CENTROS = [
-  { rutaId: 'barcelona', nombre: 'Barcelona',
-    calle: 'Carrer de Varsòvia, 65', ciudad: '08041 Barcelona',
-    tel: '+34 933 479 856', telHref: '+34933479856',
-    email: 'info@valentinmotors.es',
-    horas: [[t('pie.taller'), '8:00 – 18:00']] },
-  { rutaId: 'madrid', nombre: 'Madrid',
-    calle: 'Calle Puig Adam, 10 · Parque Sur', ciudad: '28914 Leganés, Madrid',
-    tel: '+34 913 017 575', telHref: '+34913017575',
-    email: 'madrid@valentinmotors.es',
-    horas: [[t('pie.taller'), '8:30 – 18:00'], [t('pie.ventas'), '8:30 – 19:00']] },
-];
 ---
 <footer class="pie">
   <div class="pie-rejilla">
@@ -106,8 +91,8 @@ const CENTROS = [
         </address>
         <p class="pie-horario">
           <span class="pie-dias">{t('pie.horario')}</span>
-          {c.horas.map(([que, cuando]) => (
-            <span class="pie-hora">{que} {cuando}</span>
+          {c.horas.map((h) => (
+            <span class="pie-hora">{h.que === 'taller' ? t('pie.taller') : t('pie.ventas')} {h.cuando}</span>
           ))}
         </p>
       </div>
