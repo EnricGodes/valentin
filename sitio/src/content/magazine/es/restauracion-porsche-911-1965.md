@@ -7,6 +7,8 @@ date: 2022-04-13T06:38:25.602000Z
 lang: es
 categories: ["restauraciones"]
 excerpt: "Este proyecto nos llegó en condiciones complejas: dentro de cajas desordenadas, con material perdido, piezas mal desmontadas y después de 7 años de traslados de un local a otro por parte de quien custodiaba la unidad."
+metaTitulo: "Restauración integral de un Porsche 911 serie F de 1965"
+metaDescripcion: "Un 911 serie F de 1965 que llegó en cajas desordenadas, con piezas perdidas y siete años de traslados a la espalda. La restauración integral, paso a paso."
 author: "Enric Godes"
 squarespaceId: "62554c4180bf746c5c1bc65a"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-porsche-911-1965"

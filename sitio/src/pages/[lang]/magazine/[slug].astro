@@ -49,7 +49,7 @@ const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
   rutaId="magazine"
   extra={[post.data.slugFinal]}
   idiomasPublicados={idiomas}
-  titulo={post.data.metaTitulo ?? `${post.data.title} · Valentin Motors`}
+  titulo={post.data.metaTitulo ?? `${post.data.title} · Valentín Motors`}
   descripcion={post.data.metaDescripcion ?? limpio(post.data.excerpt).slice(0, 300)}
 >
   <Fragment slot="head">

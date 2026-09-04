@@ -7,6 +7,7 @@ date: 2022-10-10T12:25:50.146000Z
 lang: es
 categories: ["restauraciones"]
 excerpt: "Restauración de pinzas de freno"
+metaDescripcion: "Restauración de pinzas de freno paso a paso: desmontaje, chorreado, pintura, adhesivos y sustitución del juego de reparación de los pistones."
 author: "Enric Godes"
 squarespaceId: "63440e150b34b4265e6740ad"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-pinzas-freno"

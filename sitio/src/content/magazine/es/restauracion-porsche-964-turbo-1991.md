@@ -7,6 +7,7 @@ date: 2022-04-20T09:44:35.670000Z
 lang: es
 categories: ["restauraciones"]
 excerpt: "El encargo fue global y el objetivo, claro: devolver la unidad a su mejor estado, pero con una petición especial del cliente, disponer de 400 hp en lugar de los 320 hp."
+metaDescripcion: "Restauración completa de un 964 Turbo (965) de 1991 con una petición del cliente: devolverlo a su mejor estado y pasar de 320 a 400 hp."
 author: "Enric Godes"
 squarespaceId: "625fc68396bff4275b1aa6cb"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-porsche-964-turbo-1991"

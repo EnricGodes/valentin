@@ -7,6 +7,7 @@ date: 2024-10-22T12:34:45.654000Z
 lang: es
 categories: ["articulos"]
 excerpt: "Reparación del motor 997.1 Turbo"
+metaDescripcion: "Rehabilitación completa del motor de un 997.1 Turbo con ruido interno: pruebas de diagnóstico, desmontaje y reconstrucción en la sala de motores."
 author: "Jordi Edo"
 squarespaceId: "671772daf31416031694012b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971turbo"

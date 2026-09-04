@@ -7,6 +7,8 @@ date: 2023-12-11T18:12:47.621000Z
 lang: es
 categories: ["articulos"]
 excerpt: "Nose lift front system"
+metaTitulo: "Nose lift para Porsche 997.1: elevación del tren delantero"
+metaDescripcion: "Sistema de elevación del eje delantero para el 997.1: dos segundos y un botón para no rozar el paragolpes ni el front lip. Ventajas e instalación."
 author: "Jordi Edo"
 squarespaceId: "65774d930f6e82385a812863"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971noselift-f3whn-trwdw"

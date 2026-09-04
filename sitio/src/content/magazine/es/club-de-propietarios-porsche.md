@@ -7,6 +7,7 @@ date: 2022-01-23T06:37:58.730000Z
 lang: es
 categories: ["eventos"]
 excerpt: "Hace algunos años empezamos a reunirnos esporádicamente con algunos clientes para hacer alguna salida durante el fin de semana. Poco a poco, el interés por estas actividades fue creciendo y hoy se han convertido en una oportunidad para reunir a personas con inquietudes comunes. La participación está abierta a todo el mundo y es gratuita."
+metaDescripcion: "Salidas de fin de semana que empezaron con unos pocos clientes y hoy reúnen a la comunidad porschista. Participación abierta a todo el mundo y gratuita."
 author: "Enric Godes"
 squarespaceId: "61ecf7c5b83f0870590cee2b"
 originalUrl: "https://www.valentinmotors.es/magazine/club-de-propietarios-porsche"

@@ -7,6 +7,7 @@ date: 2025-11-28T12:10:36.719000Z
 lang: es
 categories: []
 excerpt: ""
+metaDescripcion: "Valentín Motors presentó el PA10/01 en Madrid ante clientes, prensa y aficionados: el primer 911 reimaginado de forma integral en la capital."
 author: "Jordi Edo"
 squarespaceId: "692965a9c6f971644a2fcf2a"
 originalUrl: "https://www.valentinmotors.es/magazine/presentacionpa10-01/madrid"

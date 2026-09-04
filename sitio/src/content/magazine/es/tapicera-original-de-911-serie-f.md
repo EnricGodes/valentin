@@ -7,6 +7,7 @@ date: 2022-10-10T12:32:30.077000Z
 lang: es
 categories: ["restauraciones"]
 excerpt: "Los tapizados de un 911 son parte clave de la restauración."
+metaDescripcion: "Tapicería original de un 911 serie F: la investigación de materiales y su colocación, un trabajo que afecta de lleno al valor final de la unidad."
 author: "Enric Godes"
 squarespaceId: "63440f878646c219817264fc"
 originalUrl: "https://www.valentinmotors.es/magazine/tapicera-original-de-911-serie-f"

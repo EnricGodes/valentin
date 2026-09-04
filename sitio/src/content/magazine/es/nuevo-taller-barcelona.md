@@ -7,6 +7,8 @@ date: 2025-04-24T17:23:03.310000Z
 lang: es
 categories: []
 excerpt: ""
+metaTitulo: "Nuevo taller Porsche en Barcelona: Varsòvia 65"
+metaDescripcion: "Valentín Motors abre en Varsòvia 65 un taller de 1.300 m² con el que celebra sus 45 años: más capacidad, más servicios y mejor acceso en Barcelona."
 author: "Enric Godes"
 squarespaceId: "680a72ef13f4b6087499ac85"
 originalUrl: "https://www.valentinmotors.es/magazine/nuevo-taller-barcelona"

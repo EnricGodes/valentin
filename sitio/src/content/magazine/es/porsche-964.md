@@ -7,6 +7,8 @@ date: 2021-12-09T18:19:00.252000Z
 lang: es
 categories: ["iconos"]
 excerpt: "Principales novedades: tracción 4, sistema ABS y dirección asistida. Se presentó en 1988 con un motor de 3.6, 250 CV y doble encendido."
+metaTitulo: "Porsche 964: versiones, motorizaciones e historia · Valentín Motors"
+metaDescripcion: "La tercera generación del 911: tracción 4, ABS, dirección asistida y un 85 % de piezas nuevas. Versiones, motores Turbo y RS, y 63.762 unidades."
 author: "Enric Godes"
 squarespaceId: "6203a0188e0d4e55e34569d4"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-964"

@@ -7,6 +7,8 @@ date: 2024-10-21T15:43:36.532000Z
 lang: es
 categories: ["articulos"]
 excerpt: "Reparación del motor 3.2"
+metaTitulo: "Rehabilitación del motor 3.2 de un 911 serie G de 1985"
+metaDescripcion: "Rehabilitación del motor 3.2 de un 911 serie G coupé de 1985 tras unas compresiones bajas y fugas de aceite procedentes del bloque."
 author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin-ey2wg"

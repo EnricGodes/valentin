@@ -7,6 +7,7 @@ date: 2025-03-27T08:37:05.012000Z
 lang: es
 categories: ["articulos"]
 excerpt: "Proceso estándar de pintura en un 964"
+metaDescripcion: "El proceso estándar de carrocería y pintura sobre una carrocería 964 RS, fase a fase, tal y como se hace en el taller."
 author: "Jordi Edo"
 squarespaceId: "67ac64971d833a36f15f5734"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica964-9fcrx"

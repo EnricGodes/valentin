@@ -7,6 +7,8 @@ date: 2019-08-28T17:04:00.360000Z
 lang: es
 categories: ["articulos"]
 excerpt: "10 consejos que debes seguir antes de adquirir un Porsche 911. ¿Sabes cómo detectar si ha sufrido un accidente? ¿Sabes que puedes solicitar un informe detallado? ¿Qué comprobaciones son importantes?"
+metaDescripcion: "Diez comprobaciones antes de comprar un 911: cómo detectar si ha sufrido un accidente, qué informes puedes pedir y qué revisar sí o sí antes de pagar."
+metaTitulo: "Diez cosas que mirar antes de comprar un Porsche 911"
 author: "Enric Godes"
 squarespaceId: "61b09080eb819c495a74a928"
 originalUrl: "https://www.valentinmotors.es/magazine/10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"

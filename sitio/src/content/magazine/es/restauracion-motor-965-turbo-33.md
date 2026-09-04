@@ -7,6 +7,7 @@ date: 2022-04-12T09:15:40.773000Z
 lang: es
 categories: ["restauraciones"]
 excerpt: "La primera fase siempre consiste en realizar pruebas: conducir la unidad en el estado en que llega y determinar qué puntos necesitan un trabajo en profundidad o han dejado de funcionar con el tiempo. Posteriormente, desacoplamos la cápsula motor/cambio y la llevamos a la sala de motores."
+metaDescripcion: "Restauración del motor 965 de un 964 Turbo 3.3: pruebas en carretera, desacople de la cápsula motor/cambio y reconstrucción en la sala de motores."
 author: "Enric Godes"
 squarespaceId: "6255433cc5ad7327195ecfc8"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-965-turbo-33"

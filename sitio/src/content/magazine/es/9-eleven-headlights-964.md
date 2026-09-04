@@ -7,6 +7,7 @@ date: 2023-05-10T07:07:15.135000Z
 lang: es
 categories: ["eventos"]
 excerpt: "9 eleven headlights"
+metaDescripcion: "Gama de faros y pilotos 9 eleven para el 911 serie G y el 964: estética actualizada sobre la línea original. Montaje en Valentín Motors."
 author: "Jordi Edo"
 squarespaceId: "645b3f4038fec05748ef15b6"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheclassicseries2023-z4gbf"
