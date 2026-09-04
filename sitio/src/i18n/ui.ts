@@ -179,6 +179,12 @@ export const UI = {
   'nav.verTodo':       { es: 'Ver todo', en: 'See all', fr: 'Tout voir', it: 'Vedi tutto', de: 'Alle ansehen', ca: 'Veure-ho tot' },
   'nav.abrir':         { es: 'Abrir el submenú', en: 'Open submenu', fr: 'Ouvrir le sous-menu', it: 'Apri il sottomenu', de: 'Untermenü öffnen', ca: 'Obre el submenú' },
   'pagina.articulos':  { es: 'Verlo hecho', en: 'See it done', fr: 'Le voir en pratique', it: 'Vederlo fatto', de: 'In der Praxis', ca: 'Veure-ho fet' },
+  'pie.secciones':   { es: 'Secciones', en: 'Sections', fr: 'Sections', it: 'Sezioni', de: 'Bereiche', ca: 'Seccions' },
+  'pie.talleres':    { es: 'Talleres', en: 'Workshops', fr: 'Ateliers', it: 'Officine', de: 'Werkstätten', ca: 'Tallers' },
+  'pie.horario':     { es: 'Lunes a viernes', en: 'Monday to Friday', fr: 'Du lundi au vendredi', it: 'Da lunedì a venerdì', de: 'Montag bis Freitag', ca: 'De dilluns a divendres' },
+  'pie.taller':      { es: 'Taller', en: 'Workshop', fr: 'Atelier', it: 'Officina', de: 'Werkstatt', ca: 'Taller' },
+  'pie.ventas':      { es: 'Ventas', en: 'Sales', fr: 'Ventes', it: 'Vendite', de: 'Verkauf', ca: 'Vendes' },
+  'pie.siguenos':    { es: 'Síguenos', en: 'Follow us', fr: 'Suivez-nous', it: 'Seguici', de: 'Folgen Sie uns', ca: 'Segueix-nos' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 
 export type ClaveUI = keyof typeof UI;

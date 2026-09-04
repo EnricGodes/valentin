@@ -1,15 +1,24 @@
 ---
+/**
+ * Pie de página común.
+ *
+ * Es la segunda navegación del sitio: quien llega a un artículo desde Google y
+ * quiere saber quién lo escribe termina aquí abajo, no arriba. Por eso lleva
+ * las cinco cosas que se buscan al final de una página: dónde estáis, qué más
+ * hay, en qué idioma, dónde os sigo y quiénes sois.
+ *
+ * Las secciones madre salen del manifiesto y solo se pintan si existen en este
+ * idioma, igual que en el menú: enlazar a lo que no está traducido es ofrecer
+ * un 404 desde el pie de todas las páginas.
+ */
 import { IDIOMAS, POR_DEFECTO, type Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
+import { idiomasDe, paginaPorRuta } from '../datos/pagina';
 import SelectorIdioma from './SelectorIdioma.astro';
 
 interface Props {
   idioma: Idioma;
-  /* El selector baja aqui desde la barra: con el idioma detectandose solo, el
-     cambio manual es la excepcion, y el pie es donde se busca. Necesita saber
-     en que pagina esta para ofrecer la misma en otro idioma, y en cuales
-     existe: ofrecer un idioma sin traducir es enlazar a un 404. */
   rutaId?: string;
   extra?: string[];
   idiomasPublicados?: readonly Idioma[];
@@ -18,26 +27,111 @@ const { idioma, rutaId = 'home', extra = [], idiomasPublicados = IDIOMAS } = Ast
 const t = traductor(idioma);
 const anio = new Date().getFullYear();
 
-/* Las paginas legales existen SOLO en espanol: son textos juridicos bajo ley
-   espanola y la version vinculante es esa. Por eso el pie enlaza siempre al
-   espanol, con lang="es" para que el navegador y el lector de pantalla sepan
-   en que idioma esta lo que hay al otro lado. Enlazar a /en/legal-notice era
-   enlazar a un 404. */
+/* Las páginas legales existen SOLO en español: son textos jurídicos bajo ley
+   española y la versión vinculante es esa. */
 const legal = (id: string) => url(id, POR_DEFECTO);
 const otroIdioma = idioma !== POR_DEFECTO;
+
+/* La home, el Magazine y las Herramientas viven fuera del manifiesto de
+   contenido y hoy solo se generan en castellano. */
+const SOLO_ES = new Set(['home', 'magazine', 'herramientas']);
+const hay = (id: string) =>
+  SOLO_ES.has(id) ? idioma === POR_DEFECTO : idiomasDe(id).includes(idioma);
+
+const SECCIONES = ['coches', 'taller', 'restauraciones', 'builds', 'centros',
+                   'magazine', 'herramientas', 'quienes-somos', 'contacto'];
+const rotulo = (id: string) => {
+  const p = paginaPorRuta(id, idioma) ?? paginaPorRuta(id, POR_DEFECTO);
+  return p?.menu ?? p?.h1 ?? id;
+};
+const ETIQUETA: Record<string, string> = {
+  coches: t('nav.coches'), taller: t('nav.taller'), restauraciones: t('nav.servicios'),
+  builds: t('nav.builds'), centros: t('nav.centros'), magazine: t('nav.magazine'),
+  herramientas: t('nav.herramientas'), 'quienes-somos': t('nav.nosotros'),
+  contacto: t('nav.contacto'),
+};
+const secciones = SECCIONES
+  .filter((id) => SOLO_ES.has(id) ? idioma === POR_DEFECTO : true)
+  .map((id) => ({
+    id, texto: ETIQUETA[id] ?? rotulo(id),
+    href: url(id, hay(id) ? idioma : POR_DEFECTO),
+    lang: hay(id) ? undefined : POR_DEFECTO,
+  }));
+
+/* Los datos de los centros se escriben aquí y no se leen de barcelona.json y
+   madrid.json porque ahí viven dentro de párrafos con HTML: extraer la calle
+   de una frase con expresiones regulares es exactamente el tipo de cosa que
+   se rompe el día que alguien reescribe el párrafo. */
+const CENTROS = [
+  { rutaId: 'barcelona', nombre: 'Barcelona',
+    calle: 'Carrer de Varsòvia, 65', ciudad: '08041 Barcelona',
+    tel: '+34 933 479 856', telHref: '+34933479856',
+    email: 'info@valentinmotors.es',
+    horas: [[t('pie.taller'), '8:00 – 18:00']] },
+  { rutaId: 'madrid', nombre: 'Madrid',
+    calle: 'Calle Puig Adam, 10 · Parque Sur', ciudad: '28914 Leganés, Madrid',
+    tel: '+34 913 017 575', telHref: '+34913017575',
+    email: 'madrid@valentinmotors.es',
+    horas: [[t('pie.taller'), '8:30 – 18:00'], [t('pie.ventas'), '8:30 – 19:00']] },
+];
 ---
 <footer class="pie">
-  <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}
-                  idiomasPublicados={idiomasPublicados} />
-  <p class="footer-brand">Valentin<span>Motors</span> &middot; {t('footer.desde')}</p>
-  <p class="footer-copy">
-    <a href={legal('aviso-legal')} lang="es" hreflang="es">{t('pie.legal')}</a> &middot;
-    <a href={legal('privacidad')} lang="es" hreflang="es">{t('pie.privacidad')}</a> &middot;
-    <a href={legal('cookies')} lang="es" hreflang="es">{t('pie.cookies')}</a>
-    {otroIdioma && <span class="footer-nota">({t('pie.soloEspanol')})</span>}
-    &middot; VM German Engineering, S.L. &copy; {anio}
-  </p>
+  <div class="pie-rejilla">
+    <div class="pie-marca">
+      <p class="pie-logo">Valentin<span>Motors</span></p>
+      <p class="pie-claim">{t('footer.desde')}</p>
+      <a class="pie-social" href="https://www.instagram.com/valentinmotors"
+         target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"
+             stroke="currentColor" stroke-width="1.5">
+          <rect x="2.5" y="2.5" width="19" height="19" rx="5" />
+          <circle cx="12" cy="12" r="4.2" />
+          <circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none" />
+        </svg>
+        <span>{t('pie.siguenos')}</span>
+      </a>
+    </div>
+
+    {CENTROS.map((c) => (
+      <div class="pie-bloque">
+        <p class="pie-titulo">
+          {hay(c.rutaId)
+            ? <a href={url(c.rutaId, idioma)}>{c.nombre}</a>
+            : c.nombre}
+        </p>
+        <address class="pie-dir">
+          {c.calle}<br>{c.ciudad}<br>
+          <a href={`tel:${c.telHref}`}>{c.tel}</a><br>
+          <a href={`mailto:${c.email}`}>{c.email}</a>
+        </address>
+        <p class="pie-horario">
+          <span class="pie-dias">{t('pie.horario')}</span>
+          {c.horas.map(([que, cuando]) => (
+            <span class="pie-hora">{que} {cuando}</span>
+          ))}
+        </p>
+      </div>
+    ))}
+
+    <nav class="pie-bloque" aria-label={t('pie.secciones')}>
+      <p class="pie-titulo">{t('pie.secciones')}</p>
+      <ul class="pie-mapa">
+        {secciones.map((s) => (
+          <li><a href={s.href} lang={s.lang} hreflang={s.lang}>{s.texto}</a></li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+
+  <div class="pie-abajo">
+    <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}
+                    idiomasPublicados={idiomasPublicados} />
+    <p class="pie-legal">
+      <a href={legal('aviso-legal')} lang="es" hreflang="es">{t('pie.legal')}</a> &middot;
+      <a href={legal('privacidad')} lang="es" hreflang="es">{t('pie.privacidad')}</a> &middot;
+      <a href={legal('cookies')} lang="es" hreflang="es">{t('pie.cookies')}</a>
+      {otroIdioma && <span class="pie-nota">({t('pie.soloEspanol')})</span>}
+      &middot; VM German Engineering, S.L. &copy; {anio}
+    </p>
+  </div>
 </footer>
-<style>
-  .footer-nota { opacity: .65; }
-</style>
