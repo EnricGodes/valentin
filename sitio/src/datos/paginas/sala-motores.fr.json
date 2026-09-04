@@ -106,81 +106,11 @@
     },
     {
       "nivel": 2,
-      "titulo": "Nos prestations",
-      "parrafos": [],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche",
+      "titulo": "Entretien avec Iván Bascuñana, chef motoriste",
       "parrafos": [
-        "Nous suivons les plans d'entretien <strong>spécifiés par le constructeur,</strong> en utilisant des <strong>pièces de rechange d'origine</strong> et les directives Porsche."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/6ca941ad-PHOTO-2022-04-12-12-56-42.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Moteurs classiques de toute marque",
-      "parrafos": [
-        "Depuis 40 ans notre spécialité est la mécanique et plus particulièrement les moteurs. <br/><br/><strong>Nous restaurons, renouvelons et réparons tout type de moteur</strong> de la marque. Nous disposons d'un service national de collecte des moteurs et de leur livraison une fois terminés.",
-        "Nous disposons de la machinerie et des outils nécessaires pour tout type de service de restauration, de mécanisation et de localisation de pièces si nécessaire."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Restauration des moteurs"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Boîtes de vitesses manuelles",
-      "parrafos": [
-        "<strong>Nous restaurons tous types de boîtes de vitesses</strong> Porsche, de la première des 356, 915, G50 jusqu'à la plus moderne de la génération 991 et 992.<br/>Nous fournissons également <strong>service et réparation de boîtes de vitesses automatiques</strong> sans qu'il soit nécessaire d'en acheter de nouvelles."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "boîtes de vitesses"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Préparation des moteurs pour la compétition",
-      "parrafos": [
-        "Depuis 40 ans notre spécialité est la mécanique et plus particulièrement les moteurs. <br/><br/><strong>Nous restaurons, renouvelons et réparons tout type de moteur</strong> de la marque. Nous disposons d'un service national de collecte des moteurs et de leur livraison une fois terminés.",
-        "Nous disposons de la machinerie et des outils nécessaires pour tout type de service de restauration, de mécanisation et de localisation de pièces si nécessaire.",
-        "Entretien avec notre chef motard",
         "<strong>Quel moment est le plus crucial ou le plus stressant du processus ?<br/></strong>Le moment où l'on applique la pression d'huile déjà avec le moteur assemblé et qui démarre ensuite, c'est là que l'on voit le résultat du travail complet. Il y a un haut degré de responsabilité dans l’ensemble du processus puisque les coûts sont élevés.<br/><br/><strong>Quelle est la principale qualité d’un motocycliste ?<br/></strong>Principalement de la passion et une recherche continue de la perfection.",
         "<strong>Quelle méthodologie est la clé pour vous ?<br/></strong>L'ordre et la méthodologie des processus sont la clé du résultat final, la salle des moteurs est un espace fermé et soigné dans lequel tout est en harmonie.",
-        "<strong>Qu'est-ce qui est important pour vous, l'expérience ou la technique ? <br/></strong>La somme des deux est la clé, chaque jour est une recherche de la perfection et chaque jour est un défi."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2dd7d867-WhatsApp-Image-2024-03-28-at-08.43.16-1-.jpg",
-          "alt": ""
-        },
-        {
-          "url": "/img/paginas/d28f21f4-IMG_0977.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Iván Bascuñana, plus de 20 ans à restaurer des moteurs",
-      "parrafos": [
+        "<strong>Qu'est-ce qui est important pour vous, l'expérience ou la technique ? <br/></strong>La somme des deux est la clé, chaque jour est une recherche de la perfection et chaque jour est un défi.",
         "<strong>Quels sont les processus effectués dans la salle des moteurs ?\n<br/></strong>Démontage, diagnostic de chaque pièce et vérification de tous les éléments moteur.",
         "<strong>Quelle est la phase la plus importante du démontage ou du remontage d’un moteur ?<br/></strong>La phase la plus importante du démontage est l'acquisition des informations sur le moteur : réaliser un diagnostic préalable qui permettra de se concentrer sur le processus.<br/>Et au montage la vérification des tolérances du moteur. Tolérances des pistons et des cylindres et jeu d'huile entre le vilebrequin et la bielle.",
         "<strong>Quels types de mesures sont effectués ?\n<br/></strong>L'ensemble des mesures est important au même niveau, les tolérances piston/cylindre sont les plus importantes, mais le jeu d'huile et la levée de soupape sont également essentiels.",
@@ -206,5 +136,11 @@
     "total": 55,
     "completa": true
   },
-  "menu": "Salle des moteurs"
+  "menu": "Salle des moteurs",
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ]
 }

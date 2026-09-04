@@ -107,80 +107,20 @@
     {
       "nivel": 2,
       "titulo": "Nuestros servicios",
-      "parrafos": [],
+      "parrafos": [
+        "La sala trabaja sobre cuatro frentes: <a href=\"/taller-porsche/motores\">motores Porsche de cualquier época</a>, motores clásicos de otras marcas, <a href=\"/taller-porsche/cajas-de-cambio\">cajas de cambio</a> y preparación para <a href=\"/competicion\">competición</a>.",
+        "Cada uno tiene su página, con lo que incluye y cómo se trabaja. Aquí está lo que las cuatro comparten: la sala, el utillaje y la forma de medir antes de decidir."
+      ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Motores Porsche",
+      "titulo": "Entrevista con Iván Bascuñana, motorista jefe",
       "parrafos": [
-        "Seguimos los planes de mantenimiento <strong>especificados por el fabricante,</strong> utilizando <strong>recambios originales</strong> y las pautas de Porsche."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/6ca941ad-PHOTO-2022-04-12-12-56-42.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Motores clásicos de cualquier marca",
-      "parrafos": [
-        "Desde hace 40 años, nuestra especialidad es la mecánica y, concretamente, los motores.<br/><br/><strong>Restauramos, renovamos y reparamos cualquier tipo de motor</strong> de la marca. Ofrecemos un servicio de recogida de motores en todo el país y los devolvemos una vez terminados.",
-        "Disponemos de la maquinaria y el utillaje necesarios para cualquier tipo de restauración y mecanización, además de un departamento de localización de piezas cuando se requiere."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Restauración de motores"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cajas de cambio manuales",
-      "parrafos": [
-        "<strong>Restauramos todos los tipos de cajas de cambio</strong> Porsche, desde las primeras del 356, la 915 y la G50 hasta las más modernas de las generaciones 991 y 992.<br/>También ofrecemos <strong>servicio y reparación de cajas de cambio automáticas</strong> sin necesidad de adquirirlas nuevas."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "Cajas de cambio"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Preparación de motores para competición",
-      "parrafos": [
-        "Desde hace 40 años, nuestra especialidad es la mecánica y, concretamente, los motores.<br/><br/><strong>Restauramos, renovamos y reparamos cualquier tipo de motor</strong> de la marca. Ofrecemos un servicio de recogida de motores en todo el país y los devolvemos una vez terminados.",
-        "Disponemos de la maquinaria y el utillaje necesarios para cualquier tipo de restauración y mecanización, además de un departamento de localización de piezas cuando se requiere.",
-        "Entrevista con nuestro motorista jefe",
         "<strong>¿Qué momento es el más crucial o genera más estrés en el proceso?<br/></strong>El momento de comprobar la presión de aceite con el motor ya ensamblado y, después, durante el arranque, cuando se observa el resultado del trabajo completo. Todo el proceso conlleva un alto grado de responsabilidad, ya que los costes son elevados.<br/><br/><strong>¿Cuál es la principal cualidad de un motorista?<br/></strong>Principalmente, la pasión y la búsqueda continua de la perfección.",
         "<strong>¿Qué metodología es clave para ti?<br/></strong>El orden y una metodología de procesos son fundamentales para el resultado final. La sala de motores es un espacio cerrado y pulcro en el que todo está en armonía.",
-        "<strong>¿Qué es más importante para ti, la experiencia o la técnica?<br/></strong>La suma de ambas es clave. Cada día supone una búsqueda de la perfección y plantea un nuevo reto."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2dd7d867-WhatsApp-Image-2024-03-28-at-08.43.16-1-.jpg",
-          "alt": ""
-        },
-        {
-          "url": "/img/paginas/d28f21f4-IMG_0977.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Iván Bascuñana, más de 20 años restaurando motores",
-      "parrafos": [
+        "<strong>¿Qué es más importante para ti, la experiencia o la técnica?<br/></strong>La suma de ambas es clave. Cada día supone una búsqueda de la perfección y plantea un nuevo reto.",
         "<strong>¿Cuáles son los procesos que se realizan en la sala de motores?<br/></strong>Desmontaje, diagnóstico de cada pieza y comprobación de todos los elementos del motor.",
         "<strong>¿Cuál es la fase más importante del desmontaje o del montaje de un motor?<br/></strong>La fase más importante del desmontaje es la recopilación de información sobre el motor: realizar un diagnóstico previo ayudará a orientar el proceso.<br/>En el montaje, lo fundamental es verificar las tolerancias del motor: las de los pistones y cilindros, así como la holgura de aceite entre el cigüeñal y la biela.",
         "<strong>¿Qué tipo de mediciones se realizan?<br/></strong>Todas las mediciones son igualmente importantes. Entre las principales están las tolerancias entre pistón y cilindro, la holgura de aceite y la alzada de las válvulas.",
@@ -201,5 +141,11 @@
     "telefonos": [],
     "emails": []
   },
-  "menu": "Sala de motores"
+  "menu": "Sala de motores",
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ]
 }

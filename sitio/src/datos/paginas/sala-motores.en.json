@@ -106,81 +106,11 @@
     },
     {
       "nivel": 2,
-      "titulo": "Our services",
-      "parrafos": [],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche",
+      "titulo": "Interview with Iván Bascuñana, head engine builder",
       "parrafos": [
-        "We follow the maintenance plans <strong>specified by the manufacturer,</strong> using <strong>original spare parts</strong> and the Porsche guidelines."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/6ca941ad-PHOTO-2022-04-12-12-56-42.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Classic engines of any brand",
-      "parrafos": [
-        "For 40 years our specialty has been mechanics and specifically engines. <br/><br/><strong>We restore, renew and repair any type of engine</strong> of the brand. We have a nationwide engine collection service and delivery of them once finished.",
-        "We have the necessary machinery and tools for any type of restoration, mechanization and parts location department if required."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Restoration of engines"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Manual gearboxes",
-      "parrafos": [
-        "<strong>We restore all types of gearboxes</strong> Porsche, from the first of the 356, 915, G50 to the most modern of the 991 generation and 992.<br/>We also provide <strong>service and repair of automatic gearboxes</strong> without the need to purchase new ones."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "gearboxes"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Preparation of engines for competition",
-      "parrafos": [
-        "For 40 years our specialty has been mechanics and specifically engines. <br/><br/><strong>We restore, renew and repair any type of engine</strong> of the brand. We have a nationwide engine collection service and delivery of them once finished.",
-        "We have the necessary machinery and tools for any type of restoration, mechanization and parts location department if required.",
-        "Interview with our chief motorcyclist",
         "<strong>What moment is the most crucial or stressful in the process?<br/></strong>The moment of applying oil pressure already with the engine assembled and subsequently starting, which is where the result of the complete work is seen. There is a high degree of responsibility in the entire process since the costs are high.<br/><br/><strong>What is the main quality that a motorcyclist has?<br/></strong>Mainly passion and continuous search for perfection.",
         "<strong>What methodology for you is key?<br/></strong>Order and methodology of processes are key to the final result, the engine room is a closed, neat space in which everything is in harmony.",
-        "<strong>What is important to you, experience or technique? <br/></strong>The sum of the two is key, every day is a search for perfection and every day is a challenge."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2dd7d867-WhatsApp-Image-2024-03-28-at-08.43.16-1-.jpg",
-          "alt": ""
-        },
-        {
-          "url": "/img/paginas/d28f21f4-IMG_0977.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Iván Bascuñana, more than 20 years restoring engines",
-      "parrafos": [
+        "<strong>What is important to you, experience or technique? <br/></strong>The sum of the two is key, every day is a search for perfection and every day is a challenge.",
         "<strong>What are the processes carried out in the engine room? <br/></strong>Disassembly, diagnosis of each part and checking of all engine elements.",
         "<strong>What is the most important phase of disassembling or assembling an engine?<br/></strong>The most important phase of disassembly is the acquisition of information about the engine: making a prior diagnosis that will help focus on the process.<br/>And in the assembly the verification of the motor tolerances. Tolerances of pistons and cylinders and oil clearance between crankshaft and connecting rod.",
         "<strong>What type of measurements are made? <br/></strong>The entire set of measurements are important at the same level, piston/cylinder tolerances are the most important, but oil clearance and valve lift are also key.",
@@ -206,5 +136,11 @@
     "total": 55,
     "completa": true
   },
-  "menu": "Engine room"
+  "menu": "Engine room",
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ]
 }

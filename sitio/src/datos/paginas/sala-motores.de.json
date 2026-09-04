@@ -106,81 +106,11 @@
     },
     {
       "nivel": 2,
-      "titulo": "Unsere Leistungen",
-      "parrafos": [],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche",
+      "titulo": "Interview mit Iván Bascuñana, Leiter Motorenbau",
       "parrafos": [
-        "Wir befolgen die vom Hersteller <strong>vorgegebenen Wartungspläne</strong> unter Verwendung von <strong>Original-Ersatzteilen</strong> und den Porsche-Richtlinien."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/6ca941ad-PHOTO-2022-04-12-12-56-42.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Klassische Motoren jeder Marke",
-      "parrafos": [
-        "Seit 40 Jahren sind wir auf Mechanik und insbesondere Motoren spezialisiert. <br/><br/><strong>Wir restaurieren, erneuern und reparieren jeden Motortyp</strong> der Marke. Wir verfügen über einen bundesweiten Service für die Abholung und Auslieferung der Motoren nach Fertigstellung.",
-        "Wir verfügen über die notwendigen Maschinen und Werkzeuge für jede Art von Restaurierung, Mechanisierung und Ersatzteillokalisierung bei Bedarf."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Restaurierung von Motoren"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Schaltgetriebe",
-      "parrafos": [
-        "<strong>Wir restaurieren alle Arten von Getrieben</strong> Porsche, vom ersten der 356, 915, G50 bis zum modernsten der 991-Generation und 992.<br/>Wir bieten auch <strong>Service und Reparatur von Automatikgetrieben</strong> an, ohne dass ein neues Getriebe gekauft werden muss."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "Getriebe"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Vorbereitung der Motoren für den Wettbewerb",
-      "parrafos": [
-        "Seit 40 Jahren sind wir auf Mechanik und insbesondere Motoren spezialisiert. <br/><br/><strong>Wir restaurieren, erneuern und reparieren jeden Motortyp</strong> der Marke. Wir verfügen über einen bundesweiten Service für die Abholung und Auslieferung der Motoren nach Fertigstellung.",
-        "Wir verfügen über die notwendigen Maschinen und Werkzeuge für jede Art von Restaurierung, Mechanisierung und Ersatzteillokalisierung bei Bedarf.",
-        "Interview mit unserem Chef-Motorradfahrer",
         "<strong>Welcher Moment im Prozess ist der entscheidende oder stressigste?<br/></strong>Der Moment, in dem bereits bei montiertem Motor Öldruck angelegt und anschließend gestartet wird, zeigt das Ergebnis der gesamten Arbeit. Der gesamte Prozess unterliegt einem hohen Maß an Verantwortung, da die Kosten hoch sind.<br/><br/><strong>Was ist die wichtigste Eigenschaft eines Motorradfahrers?<br/></strong>Hauptsächlich Leidenschaft und ständige Suche nach Perfektion.",
         "<strong>Welche Methodik ist für Sie der Schlüssel?<br/></strong>Reihenfolge und Methodik der Prozesse sind der Schlüssel zum Endergebnis.\nDer Motorenraum ist ein geschlossener, ordentlicher Raum, in dem alles in Harmonie ist.",
-        "<strong>Was ist Ihnen wichtig, Erfahrung oder Technik?\n<br/></strong>Die Summe aus beidem ist entscheidend, jeder Tag ist eine Suche nach Perfektion und jeder Tag ist eine Herausforderung."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2dd7d867-WhatsApp-Image-2024-03-28-at-08.43.16-1-.jpg",
-          "alt": ""
-        },
-        {
-          "url": "/img/paginas/d28f21f4-IMG_0977.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Iván Bascuñana, mehr als 20 Jahre in der Restaurierung von Motoren",
-      "parrafos": [
+        "<strong>Was ist Ihnen wichtig, Erfahrung oder Technik?\n<br/></strong>Die Summe aus beidem ist entscheidend, jeder Tag ist eine Suche nach Perfektion und jeder Tag ist eine Herausforderung.",
         "<strong>Welche Prozesse werden im Motorenraum ausgeführt? <br/></strong>Demontage, Diagnose jedes Teils und Überprüfung aller Motorelemente.",
         "<strong>Was ist die wichtigste Phase beim Zerlegen oder Zusammenbauen eines Motors?<br/></strong>Die wichtigste Phase der Demontage ist die Erfassung von Informationen über den Motor: die Erstellung einer vorherigen Diagnose, die dabei hilft, sich auf den Prozess zu konzentrieren.<br/>Und bei der Montage die Überprüfung der Motortoleranzen. Toleranzen von Kolben und Zylindern und Ölspiel zwischen Kurbelwelle und Pleuel.",
         "<strong>Welche Art von Messungen werden durchgeführt? <br/></strong>Der gesamte Satz an Messungen ist auf dem gleichen Niveau wichtig, Kolben-/Zylindertoleranzen sind am wichtigsten, aber auch Ölspiel und Ventilhub sind entscheidend.",
@@ -206,5 +136,11 @@
     "total": 55,
     "completa": true
   },
-  "menu": "Motorenraum"
+  "menu": "Motorenraum",
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ]
 }

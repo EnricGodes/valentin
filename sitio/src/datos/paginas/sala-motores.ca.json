@@ -106,81 +106,11 @@
     },
     {
       "nivel": 2,
-      "titulo": "Els nostres serveis",
-      "parrafos": [],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Motors Porsche",
+      "titulo": "Entrevista amb Iván Bascuñana, motorista en cap",
       "parrafos": [
-        "Seguim els plans de manteniment <strong>especificats pel fabricant,</strong> utilitzant <strong>recanvis originals</strong> i les pautes de Porsche."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/6ca941ad-PHOTO-2022-04-12-12-56-42.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Motors clàssics de qualsevol marca",
-      "parrafos": [
-        "Des de fa 40 anys la nostra especialitat és la mecànica i concretament els motors.<br/><br/><strong>Restaurem, renovem i reparem qualsevol tipus de motor</strong> de la marca. Tenim servei de recollida de motors a nivell nacional i entrega dels mateixos una vegada acabats",
-        "Disposem de la maquinària i utillatge necessari per a qualsevol tipus de restauració, mecanització i departament de localització de peces si així es requereix"
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Restauració de motors"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Caixes de canvi manuals",
-      "parrafos": [
-        "<strong>Restaurem tots els tipus de caixes de canvi</strong> Porsche, des de la primera del 356, 915, G50 fins a les més 991 i 992.<br/>També donem <strong>servei i reparació de caixes de canvi automàtiques</strong> sense necessitat d'adquirir-ne de noves."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "Caixes de canvi"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Preparació de motors per a competició",
-      "parrafos": [
-        "Des de fa 40 anys la nostra especialitat és la mecànica i concretament els motors.<br/><br/><strong>Restaurem, renovem i reparem qualsevol tipus de motor</strong> de la marca. Tenim servei de recollida de motors a nivell nacional i entrega dels mateixos una vegada acabats",
-        "Disposem de la maquinària i utillatge necessari per a qualsevol tipus de restauració, mecanització i departament de localització de peces si així es requereix",
-        "Entrevista amb el nostre motorista en cap",
         "<strong>Quin moment és el més crucial o de més estrès en el procés?<br/></strong>El moment de fer pressió d'oli ja amb el motor acoblat i posteriorment en arrencada, que és on es veu el resultat del treball complet Hi ha un alt grau de responsabilitat en tot el procés ja que els costos són alts.<br/><br/><strong>Quina és la principal qualitat que té un motorista?<br/></strong>Principalment passió i recerca contínua de la perfecció.",
         "<strong>Quina metodologia per a tu és clau?<br/></strong>Ordre i metodologia de processos són clau en el resultat final, la sala de motors és un espai tancat, polit en el qual tot està en harmonia.",
-        "<strong>Què és mal important per a tu, l'experiència o la tècnica?<br/></strong>La suma de les dues és clau, cada dia és una recerca de la perfecció i cada dia és un repte."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2dd7d867-WhatsApp-Image-2024-03-28-at-08.43.16-1-.jpg",
-          "alt": ""
-        },
-        {
-          "url": "/img/paginas/d28f21f4-IMG_0977.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Iván Bascuñana, més de 20 anys restaurant motors",
-      "parrafos": [
+        "<strong>Què és mal important per a tu, l'experiència o la tècnica?<br/></strong>La suma de les dues és clau, cada dia és una recerca de la perfecció i cada dia és un repte.",
         "<strong>Quins són els processos que es realitzen a la sala de motors?<br/></strong>Desmuntatge , diagnòstic de cada peça i comprovació de tots els elements de motor.",
         "<strong>Quina és la fase més important del desmuntatge o muntatge d'un motor?<br/></strong>La fase més important del desmuntatge és l'adquisició d'informació del motor: fer un diagnòstic previ que ajudarà a focalitzar en el procés.<br/>I al muntatge la verificació de les toleràncies. Toleràncies de pistons i cilindres i llum oli entre cigonyal i biela.",
         "<strong>Quin tipus de mesuraments es fan?<br/></strong>Tot el conjunt de mesuraments són importants al mateix nivell, toleràncies de pistó/cilindre és de les més importants, però la llum d'oli i alçada de vàlvules també són clau.",
@@ -206,5 +136,11 @@
     "total": 55,
     "completa": true
   },
-  "menu": "Sala de motors"
+  "menu": "Sala de motors",
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ]
 }
