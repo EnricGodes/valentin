@@ -123,8 +123,9 @@ def main():
             'No es una traduccion literal: cada mercado busca con otras palabras. En aleman '
             '"Porsche Werkstatt" tiene volumen y "atelier" no significa nada; en ingles se '
             'busca "servicing", no "maintenance tariffs".',
-            '"actual" es lo que hay publicado hoy en ese idioma, como referencia. Puede estar '
-            'vacio: entonces la pagina no tiene ese campo todavia.',
+            '"actual" es lo que hay publicado hoy en ese idioma. Es un borrador provisional, '
+            'no una referencia a respetar: hay que revisarlo o rehacerlo. Puede estar vacio, '
+            'y entonces la pagina no tiene ese campo todavia.',
             'Respeta "limiteCaracteres". Google corta el title por anchura en pixeles, no por '
             'caracteres, pero 70 es el margen seguro; el aleman alarga entre un 20% y un 35%.',
             'Respeta el glosario: hay terminos que no se traducen en ningun idioma.',
