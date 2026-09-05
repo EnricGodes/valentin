@@ -12,3 +12,4 @@ vuelta a `src/content/magazine/<idioma>/` y quitar su redirección de
 | Contenido | Fecha | Por qué |
 |---|---|---|
 | `revision-gratuita-esenciales` | feb. 2023 | Campaña caducada. Ofrecía una revisión gratuita que ya no está vigente y seguía publicada, con 0 clics y 0 impresiones en tres meses. Redirige a `/taller-porsche`. |
+| `porsche-964` y `porsche-911g` en en, fr, it, de, ca | sep. 2026 | **Pendientes de retraducir, no retirados.** El castellano de los dos pasó a ser la guía de compra de la serie de 18 fichas de modelo; estas cinco traducciones siguen siendo del texto anterior. Una traducción de un texto que ya no existe es peor que una traducción que falta: el castellano sigue publicado en su URL de siempre y el selector de idioma deja de ofrecerlas. No llevan redirección. Se borran en cuanto entren las traducciones de la guía. |
