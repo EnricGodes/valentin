@@ -7,7 +7,7 @@ date: 2022-10-10T12:44:29.816000Z
 lang: en
 categories: ["restauraciones"]
 excerpt: "Engine rebuild 964 type M64"
-metaDescripcion: "Full rebuild of an M64 engine: the 3.600 cc twin-plug flat-six fitted by Porsche throughout the 964 generation."
+metaDescripcion: "Full rebuild of an M64 engine: the 3,600 cc twin-plug flat-six fitted by Porsche throughout the 964 generation."
 author: "Enric Godes"
 squarespaceId: "634412c7d64dc3321938d332"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-964-m64"

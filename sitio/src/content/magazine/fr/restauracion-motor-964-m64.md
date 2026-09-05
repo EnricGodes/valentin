@@ -7,7 +7,7 @@ date: 2022-10-10T12:44:29.816000Z
 lang: fr
 categories: ["restauraciones"]
 excerpt: "Réfection moteur 964 type M64"
-metaDescripcion: "Réfection complète d'un moteur M64 : le six cylindres à plat de 3.600 cm³ à double allumage monté par Porsche sur toute la génération 964."
+metaDescripcion: "Réfection complète d'un moteur M64 : le six cylindres à plat de 3 600 cm³ à double allumage monté par Porsche sur toute la génération 964."
 author: "Enric Godes"
 squarespaceId: "634412c7d64dc3321938d332"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-964-m64"
