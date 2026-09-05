@@ -7,7 +7,7 @@ date: 2022-10-10T12:44:29.816000Z
 lang: it
 categories: ["restauraciones"]
 excerpt: "Revisione motore 964 tipo M64"
-metaDescripcion: "Revisione completa di un motore M64: il boxer da 3.600 cc con doppia accensione che Porsche ha montato su tutta la generazione 964."
+metaDescripcion: "Revisione completa di un motore M64: il boxer da 3.600 cc con doppia accensione montato da Porsche su tutta la generazione 964."
 author: "Enric Godes"
 squarespaceId: "634412c7d64dc3321938d332"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-964-m64"

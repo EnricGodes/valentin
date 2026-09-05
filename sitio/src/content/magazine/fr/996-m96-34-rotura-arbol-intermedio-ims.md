@@ -7,7 +7,7 @@ date: 2024-01-23T18:02:45.751000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "Réparation moteur 3.4"
-metaDescripcion: "Réparation d'un M96 3.4 après la rupture de l'arbre intermédiaire et le décrochage du roulement IMS : symptômes, solutions et processus complet."
+metaDescripcion: "Réparation d'un M96 3.4 après rupture de l'arbre intermédiaire et désolidarisation du roulement IMS : symptômes, solutions et processus complet."
 metaTitulo: "Rupture de l'arbre intermédiaire IMS sur une 996 M96 3.4"
 author: "Jordi Edo"
 squarespaceId: "65aff891e50d1d7bd0f4368e"

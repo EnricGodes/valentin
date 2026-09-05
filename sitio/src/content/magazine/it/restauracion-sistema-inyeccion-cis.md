@@ -7,7 +7,7 @@ date: 2025-03-27T08:50:45.705000Z
 lang: it
 categories: ["articulos"]
 excerpt: "Restauro CIS"
-metaDescripcion: "Restauro completo dell'impianto di iniezione CIS di una 911 dal 1975 al 1982: perché conta quanto la meccanica nella ricostruzione di un motore."
+metaDescripcion: "Restauro completo dell'impianto di iniezione CIS di una 911 dal 1975 al 1982: perché conta quanto la meccanica nella ricostruzione del motore."
 metaTitulo: "Restauro dell'impianto di iniezione CIS di una 911"
 author: "Jordi Edo"
 squarespaceId: "674093d6214a3912511a3dc0"

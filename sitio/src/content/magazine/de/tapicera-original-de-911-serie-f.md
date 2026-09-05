@@ -7,7 +7,7 @@ date: 2022-10-10T12:32:30.077000Z
 lang: de
 categories: ["restauraciones"]
 excerpt: "Die Polsterung eines 911 ist ein wichtiger Bestandteil der Restaurierung."
-metaDescripcion: "Originale Innenausstattung eines 911 F-Modells: die Materialrecherche und ihr Einbau, eine Arbeit, die den Endwert des Fahrzeugs direkt bestimmt."
+metaDescripcion: "Originale Innenausstattung eines 911 F-Modells: Materialrecherche und Einbau, eine Arbeit, die den Endwert des Fahrzeugs direkt beeinflusst."
 author: "Enric Godes"
 squarespaceId: "63440f878646c219817264fc"
 originalUrl: "https://www.valentinmotors.es/magazine/tapicera-original-de-911-serie-f"

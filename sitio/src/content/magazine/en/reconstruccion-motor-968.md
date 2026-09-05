@@ -7,7 +7,7 @@ date: 2026-01-23T14:38:06.787000Z
 lang: en
 categories: ["articulos"]
 excerpt: "engine 968"
-metaDescripcion: "Rebuild of the engine of a Porsche 968 that lost oil pressure through a pump failure: diagnosis and the full process."
+metaDescripcion: "Engine rebuild of a Porsche 968 that lost oil pressure due to a pump failure: diagnosis and the complete repair process."
 author: "Jordi Edo"
 squarespaceId: "697386404e017262ea3e3595"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968"

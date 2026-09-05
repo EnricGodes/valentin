@@ -7,7 +7,7 @@ date: 2023-06-14T12:51:23.869000Z
 lang: fr
 categories: ["restauraciones"]
 excerpt: "Suivez la restauration de ce projet de backdating sur 964."
-metaDescripcion: "Le backdating d'une 964 de bout en bout : pas de manuel à suivre ni de copie de Singer, on définit ce qui rendra la voiture unique et sa valeur ensuite."
+metaDescripcion: "Le backdating d'une 964, du début à la fin : ni manuel ni copie de Singer. Le cahier des charges définit l'identité de l'auto et sa valeur future."
 author: "Jordi Edo"
 squarespaceId: "6489aee265f5d357c2638f98"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion964backdating2023-kdlc4-mjz6r"

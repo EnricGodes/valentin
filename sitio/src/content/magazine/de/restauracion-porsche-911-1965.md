@@ -7,7 +7,7 @@ date: 2022-04-13T06:38:25.602000Z
 lang: de
 categories: ["restauraciones"]
 excerpt: "Das Projekt kam in ungeordneten Kisten, schlecht zerlegt und mit fehlenden Teilen nach 7 Jahren Umzügen zwischen Standorten an."
-metaDescripcion: "Ein 911 F-Modell von 1965, angeliefert in ungeordneten Kisten, mit fehlenden Teilen und sieben Jahren Umzügen. Die Komplettrestaurierung, Schritt für Schritt."
+metaDescripcion: "Ein 911 F-Modell von 1965 kam nach sieben Jahren und mehreren Umzügen in ungeordneten Kisten und mit fehlenden Teilen an. Die Komplettrestaurierung."
 metaTitulo: "Komplettrestaurierung eines Porsche 911 F-Modells von 1965"
 author: "Enric Godes"
 squarespaceId: "62554c4180bf746c5c1bc65a"

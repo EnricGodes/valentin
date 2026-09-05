@@ -7,7 +7,7 @@ date: 2022-04-13T06:38:25.602000Z
 lang: en
 categories: ["restauraciones"]
 excerpt: "The project arrived in disordered boxes, poorly dismantled and with missing parts after 7 years of moves between workshops."
-metaDescripcion: "A 1965 911 F series that arrived in jumbled boxes, with parts missing and seven years of moves behind it. The full restoration, step by step."
+metaDescripcion: "A 1965 911 F series arrived as a jumble of boxes, with parts missing, after seven years of moves. The full restoration, step by step."
 metaTitulo: "Full restoration of a 1965 Porsche 911 F series"
 author: "Enric Godes"
 squarespaceId: "62554c4180bf746c5c1bc65a"

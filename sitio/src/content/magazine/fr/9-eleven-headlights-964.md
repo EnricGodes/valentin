@@ -7,7 +7,7 @@ date: 2023-05-10T07:07:15.135000Z
 lang: fr
 categories: ["eventos"]
 excerpt: "9 onze phares"
-metaDescripcion: "La gamme de phares et feux 9 eleven pour la 911 série G et la 964 : une esthétique actualisée sur la ligne d'origine. Montage chez Valentín Motors."
+metaDescripcion: "Phares et feux arrière 9 eleven pour 911 série G et 964 : éclairage modernisé dans le respect des lignes d'origine. Montage chez Valentín Motors."
 author: "Jordi Edo"
 squarespaceId: "645b3f4038fec05748ef15b6"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheclassicseries2023-z4gbf"

@@ -7,7 +7,7 @@ date: 2019-08-28T17:04:00.360000Z
 lang: en
 categories: ["articulos"]
 excerpt: "10 checks before buying a Porsche 911: how to spot accident damage, obtain a detailed report and identify the inspections that matter."
-metaDescripcion: "Ten checks before buying a 911: how to spot accident damage, which reports you can request and what to inspect without fail before you pay."
+metaDescripcion: "Ten checks before buying a 911: how to spot accident damage, which reports to request and what to inspect before you pay."
 metaTitulo: "Ten things to check before buying a Porsche 911"
 author: "Enric Godes"
 squarespaceId: "61b09080eb819c495a74a928"

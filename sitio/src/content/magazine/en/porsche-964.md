@@ -7,7 +7,7 @@ date: 2021-12-09T18:19:00.252000Z
 lang: en
 categories: ["iconos"]
 excerpt: "The third generation of the 911 was a challenge for Porsche: 85% of its parts were new, in a narrow, compact body that still looks right on the road today."
-metaDescripcion: "The third generation of the 911: 4-wheel drive, ABS, power steering and 85 % new parts. Versions, Turbo and RS engines, and 63,762 built."
+metaDescripcion: "The third 911 generation: 4-wheel drive, ABS, power steering and 85 % new parts. Versions, Turbo and RS engines, and 63.762 cars built."
 metaTitulo: "Porsche 964: versions, engines and history · Valentín Motors"
 author: "Enric Godes"
 squarespaceId: "6203a0188e0d4e55e34569d4"

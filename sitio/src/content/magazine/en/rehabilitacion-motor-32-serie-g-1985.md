@@ -7,7 +7,7 @@ date: 2024-10-21T15:43:36.532000Z
 lang: en
 categories: ["articulos"]
 excerpt: "Engine repair 3.2"
-metaDescripcion: "Rebuild of the 3.2 engine of a 1985 911 G series coupé after low compression readings and oil leaks coming from the block."
+metaDescripcion: "Rebuild of the 3.2 engine of a 1985 911 G-series coupé after low compression readings and oil leaks from the engine block."
 metaTitulo: "Rebuild of the 3.2 engine of a 1985 911 G series"
 author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"

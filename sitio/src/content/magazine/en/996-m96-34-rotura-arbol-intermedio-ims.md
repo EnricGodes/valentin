@@ -7,7 +7,7 @@ date: 2024-01-23T18:02:45.751000Z
 lang: en
 categories: ["articulos"]
 excerpt: "Engine repair 3.4"
-metaDescripcion: "Repair of an M96 3.4 after the intermediate shaft broke and the IMS bearing came apart: symptoms, solutions and the full process."
+metaDescripcion: "M96 3.4 rebuild after intermediate shaft failure and IMS bearing separation: symptoms, solutions and the complete repair process."
 metaTitulo: "IMS intermediate shaft failure on a 996 M96 3.4"
 author: "Jordi Edo"
 squarespaceId: "65aff891e50d1d7bd0f4368e"

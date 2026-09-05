@@ -7,7 +7,7 @@ date: 2025-02-12T09:09:51.840000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "processus de peinture standard en 911 G"
-metaDescripcion: "Le processus standard de carrosserie et peinture sur une 911 série G, de la préparation à la couleur finale, en photos de toutes les étapes."
+metaDescripcion: "Le processus standard de carrosserie et peinture sur une 911 série G, de la préparation à la couleur finale, documenté en images à chaque étape."
 author: "Jordi Edo"
 squarespaceId: "6761b49781b18979ffb114a9"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica911"

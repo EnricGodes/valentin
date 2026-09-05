@@ -7,7 +7,7 @@ date: 2022-10-10T12:25:50.146000Z
 lang: de
 categories: ["restauraciones"]
 excerpt: "Restaurierung der Bremssättel"
-metaDescripcion: "Restaurierung von Bremssätteln Schritt für Schritt: Zerlegen, Strahlen, Lackieren, Schriftzüge und Erneuerung des Kolben-Reparatursatzes."
+metaDescripcion: "Restaurierung von Bremssätteln Schritt für Schritt: Zerlegung, Strahlen, Lackierung, Schriftzüge und Austausch des Kolben-Reparatursatzes."
 author: "Enric Godes"
 squarespaceId: "63440e150b34b4265e6740ad"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-pinzas-freno"

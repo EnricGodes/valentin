@@ -7,7 +7,7 @@ date: 2023-12-11T18:12:47.621000Z
 lang: de
 categories: ["articulos"]
 excerpt: "Nose-Lift-Frontsystem"
-metaDescripcion: "Vorderachs-Liftsystem für den 997.1: zwei Sekunden und ein Knopf, damit Stoßstange und front lip nicht mehr aufsetzen. Vorteile und Einbau."
+metaDescripcion: "Vorderachs-Liftsystem für 997.1: in zwei Sekunden per Knopfdruck anheben, damit Stoßfänger und front lip nicht aufsetzen. Vorteile und Einbau."
 metaTitulo: "Nose lift für den Porsche 997.1: Anheben der Vorderachse"
 author: "Jordi Edo"
 squarespaceId: "65774d930f6e82385a812863"

@@ -7,7 +7,7 @@ date: 2025-03-27T08:50:45.705000Z
 lang: en
 categories: ["articulos"]
 excerpt: "Restoration CIS"
-metaDescripcion: "Full restoration of the CIS injection system of a 911 from 1975 to 1982: why it matters as much as the mechanicals when rebuilding an engine."
+metaDescripcion: "Full restoration of the CIS injection system in a 911 from 1975 to 1982: why it matters as much as the mechanicals in an engine rebuild."
 metaTitulo: "Restoring the CIS injection system of a 911"
 author: "Jordi Edo"
 squarespaceId: "674093d6214a3912511a3dc0"

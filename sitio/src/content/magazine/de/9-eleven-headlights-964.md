@@ -7,7 +7,7 @@ date: 2023-05-10T07:07:15.135000Z
 lang: de
 categories: ["eventos"]
 excerpt: "9 elf Scheinwerfer"
-metaDescripcion: "Scheinwerfer und Rückleuchten von 9 eleven für den 911 G-Modell und den 964: aktualisierte Optik auf der Originallinie. Montage bei Valentín Motors."
+metaDescripcion: "9 eleven Scheinwerfer und Rückleuchten für 911 G-Modell und 964: moderne Lichttechnik in originaler Form. Einbau bei Valentín Motors."
 author: "Jordi Edo"
 squarespaceId: "645b3f4038fec05748ef15b6"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheclassicseries2023-z4gbf"

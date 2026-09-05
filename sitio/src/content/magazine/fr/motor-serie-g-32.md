@@ -7,7 +7,7 @@ date: 2025-09-18T11:03:04.182000Z
 lang: fr
 categories: ["articulos"]
 excerpt: "3.2 réhabilitation complète"
-metaDescripcion: "Réfection complète du moteur 3.2 d'une 911 série G : démontage, vérification de chaque composant et reconstruction, étape par étape."
+metaDescripcion: "Réfection complète du moteur 3.2 d'une 911 série G : démontage, contrôle de chaque composant et reconstruction, étape par étape."
 author: "Jordi Edo"
 squarespaceId: "68cbbfc5f6f39476e82c54de"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40-y4b85"

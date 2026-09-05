@@ -7,7 +7,7 @@ date: 2025-02-12T09:09:51.840000Z
 lang: de
 categories: ["articulos"]
 excerpt: "Standard-Lackierungsprozess in 911 G"
-metaDescripcion: "Der Standardablauf von Karosserie und Lack an einem 911 G-Modell, von der Vorbereitung bis zur Endlackierung, in Bildern aller Phasen."
+metaDescripcion: "Der Standardablauf von Karosserie und Lack an einem 911 G-Modell, von der Vorbereitung bis zur Endlackierung, in Bildern jeder Arbeitsphase."
 author: "Jordi Edo"
 squarespaceId: "6761b49781b18979ffb114a9"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica911"

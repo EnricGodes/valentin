@@ -7,7 +7,7 @@ date: 2022-04-13T06:38:25.602000Z
 lang: fr
 categories: ["restauraciones"]
 excerpt: "Le projet est arrivé en caisses désordonnées, mal démonté et avec des pièces manquantes après 7 ans de déménagements entre locaux."
-metaDescripcion: "Une 911 série F de 1965 arrivée en caisses en vrac, pièces manquantes et sept ans de déménagements derrière elle. La restauration intégrale, pas à pas."
+metaDescripcion: "Une 911 série F de 1965 arrivée dans des caisses désordonnées, avec des pièces manquantes, après sept ans de déplacements. Restauration pas à pas."
 metaTitulo: "Restauration intégrale d'une Porsche 911 série F de 1965"
 author: "Enric Godes"
 squarespaceId: "62554c4180bf746c5c1bc65a"

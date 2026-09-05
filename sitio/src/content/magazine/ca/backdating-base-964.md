@@ -7,7 +7,7 @@ date: 2024-03-20T19:47:41.988000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "Projectes BACKDATING"
-metaDescripcion: "Per què el 964 és la base ideal d'un backdating: la línia del 911 de 1965 a 1973 sobre un cotxe que es condueix a diari. Un projecte en forest green."
+metaDescripcion: "Per què el 964 és una base ideal per a un backdating: les línies del 911 de 1965 a 1973 en un cotxe apte per a l'ús diari. Un projecte en forest green."
 author: "Jordi Edo"
 squarespaceId: "65fb0b73ebc0ef381269b440"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin-9pb35"

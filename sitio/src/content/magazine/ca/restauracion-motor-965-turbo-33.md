@@ -7,7 +7,7 @@ date: 2022-04-12T09:15:40.773000Z
 lang: ca
 categories: ["restauraciones"]
 excerpt: "Primer provem el cotxe tal com arriba i detectem els treballs necessaris. Després separem el motor i la caixa de canvis i els portem a la sala de motors."
-metaDescripcion: "Restauració del motor 965 d'un 964 Turbo 3.3: proves a carretera, desacoblament de la càpsula motor/canvi i reconstrucció a la sala de motors."
+metaDescripcion: "Restauració del motor 965 d'un 964 Turbo 3.3: proves a carretera, separació del conjunt de motor i canvi i reconstrucció a la sala de motors."
 author: "Enric Godes"
 squarespaceId: "6255433cc5ad7327195ecfc8"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-965-turbo-33"

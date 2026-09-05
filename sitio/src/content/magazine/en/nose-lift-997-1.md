@@ -7,7 +7,7 @@ date: 2023-12-11T18:12:47.621000Z
 lang: en
 categories: ["articulos"]
 excerpt: "Nose lift front system"
-metaDescripcion: "Front axle lift system for the 997.1: two seconds and one button to stop scraping the bumper or the front lip. Benefits and installation."
+metaDescripcion: "Front axle lift for the 997.1: raise it in two seconds at the touch of a button to avoid scraping the bumper or front lip. Benefits and installation."
 metaTitulo: "Nose lift for the Porsche 997.1: raising the front axle"
 author: "Jordi Edo"
 squarespaceId: "65774d930f6e82385a812863"

@@ -7,7 +7,7 @@ date: 2023-12-11T18:12:47.621000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "Nose lift front system"
-metaDescripcion: "Sistema d'elevació de l'eix davanter per al 997.1: dos segons i un botó per no fregar el para-xocs ni el front lip. Avantatges i instal·lació."
+metaDescripcion: "Sistema d'elevació de l'eix davanter per al 997.1: dos segons i un botó per evitar que el para-xocs o el front lip freguin. Avantatges i instal·lació."
 metaTitulo: "Nose lift per a Porsche 997.1: elevació del tren davanter"
 author: "Jordi Edo"
 squarespaceId: "65774d930f6e82385a812863"

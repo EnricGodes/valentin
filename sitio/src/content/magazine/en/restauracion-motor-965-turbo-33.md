@@ -7,7 +7,7 @@ date: 2022-04-12T09:15:40.773000Z
 lang: en
 categories: ["restauraciones"]
 excerpt: "First we test the car as received and identify what needs thorough work or no longer functions. We then separate the engine and gearbox and move them to the engine room."
-metaDescripcion: "Restoration of the 965 engine of a 964 Turbo 3.3: road testing, separating the engine and gearbox assembly and rebuilding it in the engine room."
+metaDescripcion: "Restoration of the 965 engine in a 964 Turbo 3.3: road testing, separation of the engine and gearbox assembly, and rebuild in the engine room."
 author: "Enric Godes"
 squarespaceId: "6255433cc5ad7327195ecfc8"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion-motor-965-turbo-33"

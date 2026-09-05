@@ -7,7 +7,7 @@ date: 2025-09-18T11:03:04.182000Z
 lang: en
 categories: ["articulos"]
 excerpt: "3.2 complete rehabilitation"
-metaDescripcion: "Full rebuild of the 3.2 engine of a 911 G series: strip-down, inspection of every component and reconstruction, stage by stage."
+metaDescripcion: "Complete rebuild of a 911 G-series 3.2 engine: strip-down, inspection of every component and reconstruction, step by step."
 author: "Jordi Edo"
 squarespaceId: "68cbbfc5f6f39476e82c54de"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40-y4b85"

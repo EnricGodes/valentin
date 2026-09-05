@@ -7,7 +7,7 @@ date: 2021-12-09T18:19:00.252000Z
 lang: it
 categories: ["iconos"]
 excerpt: "La terza generazione della 911 fu una sfida per Porsche: l’85% dei componenti era nuovo, in una carrozzeria stretta e compatta che ancora oggi convince su strada."
-metaDescripcion: "La terza generazione della 911: trazione 4, ABS, servosterzo e 85 % di pezzi nuovi. Versioni, motori Turbo e RS, e 63.762 unità."
+metaDescripcion: "La terza generazione della 911: trazione 4, ABS, servosterzo e 85 % di componenti nuovi. Versioni, motori Turbo e RS, e 63.762 unità."
 metaTitulo: "Porsche 964: versioni, motorizzazioni e storia · Valentín Motors"
 author: "Enric Godes"
 squarespaceId: "6203a0188e0d4e55e34569d4"

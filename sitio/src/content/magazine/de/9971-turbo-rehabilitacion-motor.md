@@ -7,7 +7,7 @@ date: 2024-10-22T12:34:45.654000Z
 lang: de
 categories: ["articulos"]
 excerpt: "Motorreparatur 997.1 turbo"
-metaDescripcion: "Komplette Überholung des Motors eines 997.1 Turbo mit Innengeräusch: Diagnose, Zerlegung und Wiederaufbau im Motorenraum."
+metaDescripcion: "Komplette Motorüberholung eines 997.1 Turbo mit Innengeräusch: Diagnose, Zerlegung und Wiederaufbau in unserer Motorenwerkstatt."
 author: "Jordi Edo"
 squarespaceId: "671772daf31416031694012b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971turbo"

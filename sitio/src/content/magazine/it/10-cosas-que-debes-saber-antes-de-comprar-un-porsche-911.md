@@ -7,7 +7,7 @@ date: 2019-08-28T17:04:00.360000Z
 lang: it
 categories: ["articulos"]
 excerpt: "10 consigli da seguire prima di acquistare una Porsche 911. Sa come individuare se ha subito un incidente? Sa che può richiedere un report dettagliato? Quali controlli sono importanti?"
-metaDescripcion: "Dieci controlli prima di comprare una 911: come capire se ha avuto un incidente, quali rapporti chiedere e che cosa verificare sempre prima di pagare."
+metaDescripcion: "Dieci controlli prima di comprare una 911: come riconoscere i danni da incidente, quali documenti richiedere e cosa verificare prima di pagare."
 metaTitulo: "Dieci cose da controllare prima di comprare una Porsche 911"
 author: "Enric Godes"
 squarespaceId: "61b09080eb819c495a74a928"

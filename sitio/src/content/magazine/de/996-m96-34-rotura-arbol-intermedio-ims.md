@@ -7,7 +7,7 @@ date: 2024-01-23T18:02:45.751000Z
 lang: de
 categories: ["articulos"]
 excerpt: "Motorreparatur 3.4"
-metaDescripcion: "Reparatur eines M96 3.4 nach Bruch der Zwischenwelle und Ablösung des IMS-Lagers: Symptome, Lösungen und der vollständige Ablauf."
+metaDescripcion: "Reparatur eines M96 3.4 nach Bruch der Zwischenwelle und gelöstem IMS-Lager: Symptome, Lösungen und vollständiger Ablauf."
 metaTitulo: "Bruch der IMS-Zwischenwelle bei einem 996 M96 3.4"
 author: "Jordi Edo"
 squarespaceId: "65aff891e50d1d7bd0f4368e"

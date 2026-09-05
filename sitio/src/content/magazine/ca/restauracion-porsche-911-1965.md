@@ -7,7 +7,7 @@ date: 2022-04-13T06:38:25.602000Z
 lang: ca
 categories: ["restauraciones"]
 excerpt: "El projecte va arribar en caixes desordenades, mal desmuntat i amb peces perdudes després de 7 anys de mudances entre locals."
-metaDescripcion: "Un 911 sèrie F de 1965 que va arribar en caixes desordenades, amb peces perdudes i set anys de trasllats a l'esquena. La restauració integral, pas a pas."
+metaDescripcion: "Un 911 sèrie F de 1965 va arribar en caixes desordenades, amb peces que faltaven i després de set anys de trasllats. La restauració integral, pas a pas."
 metaTitulo: "Restauració integral d'un Porsche 911 sèrie F de 1965"
 author: "Enric Godes"
 squarespaceId: "62554c4180bf746c5c1bc65a"

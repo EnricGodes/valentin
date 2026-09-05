@@ -7,7 +7,7 @@ date: 2025-02-12T09:09:51.840000Z
 lang: it
 categories: ["articulos"]
 excerpt: "processo di verniciatura standard in 911 G"
-metaDescripcion: "Il processo standard di carrozzeria e verniciatura su una 911 serie G, dalla preparazione al colore finale, in fotografie di tutte le fasi."
+metaDescripcion: "Il processo standard di carrozzeria e verniciatura su una 911 serie G, dalla preparazione al colore finale, documentato in ogni fase."
 author: "Jordi Edo"
 squarespaceId: "6761b49781b18979ffb114a9"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica911"

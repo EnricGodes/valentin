@@ -7,7 +7,7 @@ date: 2024-10-22T12:34:45.654000Z
 lang: it
 categories: ["articulos"]
 excerpt: "Riparazione del motore 997.1 turbo"
-metaDescripcion: "Revisione completa del motore di una 997.1 Turbo con rumore interno: prove diagnostiche, smontaggio e ricostruzione nella sala motori."
+metaDescripcion: "Revisione completa del motore di una 997.1 Turbo con rumore interno: diagnosi, smontaggio e ricostruzione nella nostra sala motori."
 author: "Jordi Edo"
 squarespaceId: "671772daf31416031694012b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971turbo"

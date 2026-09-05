@@ -7,7 +7,7 @@ date: 2022-04-13T06:38:25.602000Z
 lang: it
 categories: ["restauraciones"]
 excerpt: "Il progetto è arrivato in scatole disordinate, mal smontato e con parti mancanti dopo 7 anni di spostamenti tra sedi."
-metaDescripcion: "Una 911 serie F del 1965 arrivata in scatole alla rinfusa, con pezzi mancanti e sette anni di traslochi alle spalle. Il restauro integrale, passo per passo."
+metaDescripcion: "Una 911 serie F del 1965 è arrivata in scatole disordinate, con pezzi mancanti, dopo sette anni di spostamenti. Il restauro integrale, passo per passo."
 metaTitulo: "Restauro integrale di una Porsche 911 serie F del 1965"
 author: "Enric Godes"
 squarespaceId: "62554c4180bf746c5c1bc65a"

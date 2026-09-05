@@ -7,7 +7,7 @@ date: 2024-10-21T15:43:36.532000Z
 lang: de
 categories: ["articulos"]
 excerpt: "Motorreparatur 3.2"
-metaDescripcion: "Überholung des 3.2-Motors eines 911 G-Modell Coupés von 1985 nach niedrigen Kompressionswerten und Ölaustritt am Motorblock."
+metaDescripcion: "Überholung des 3.2-Motors eines 911 G-Modell-Coupés von 1985 nach niedrigen Kompressionswerten und Ölaustritt am Motorblock."
 metaTitulo: "Überholung des 3.2-Motors eines 911 G-Modells von 1985"
 author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"

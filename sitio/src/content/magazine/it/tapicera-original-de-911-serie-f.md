@@ -7,7 +7,7 @@ date: 2022-10-10T12:32:30.077000Z
 lang: it
 categories: ["restauraciones"]
 excerpt: "Il rivestimento di una 911 è una parte fondamentale del restauro."
-metaDescripcion: "Tappezzeria originale di una 911 serie F: la ricerca dei materiali e la loro posa, un lavoro che incide in pieno sul valore finale della vettura."
+metaDescripcion: "Tappezzeria originale di una 911 serie F: ricerca e posa dei materiali corretti, un lavoro che incide direttamente sul valore finale della vettura."
 author: "Enric Godes"
 squarespaceId: "63440f878646c219817264fc"
 originalUrl: "https://www.valentinmotors.es/magazine/tapicera-original-de-911-serie-f"

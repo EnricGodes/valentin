@@ -7,7 +7,7 @@ date: 2023-04-27T08:45:49.131000Z
 lang: it
 categories: ["restauraciones"]
 excerpt: "Segui il restauro di questa 2.7 s Targa del 1975"
-metaDescripcion: "Restauro completo di carrozzeria, meccanica e interni di una 2.7 S Targa del 1975, consegnata in Spagna, un solo proprietario, nel suo N8 Lime Green."
+metaDescripcion: "Restauro completo di carrozzeria, meccanica e interni di una 2.7 S Targa del 1975, consegnata in Spagna, unico proprietario, in N8 Lime Green."
 author: "Jordi Edo"
 squarespaceId: "644a3211c73932766a0c99fe"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracion27stargalimegreen-kdlc4"

@@ -7,7 +7,7 @@ date: 2023-04-27T11:42:24.984000Z
 lang: ca
 categories: ["eventos"]
 excerpt: "Porsche Classic Series 2023"
-metaDescripcion: "Doble victòria de Valentín Motors a les Porsche Classic Series 2023. La primera, al circuit de Castellolí, amb tres unitats als boxes."
+metaDescripcion: "Doble victòria de Valentín Motors a les Porsche Classic Series 2023. La primera, al circuit de Castellolí, amb tres unitats als boxs."
 author: "Jordi Edo"
 squarespaceId: "644a5cc6de9d593a2249057e"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheclassicseries2023"

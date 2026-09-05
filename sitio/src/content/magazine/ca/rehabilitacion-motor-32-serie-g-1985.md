@@ -7,7 +7,7 @@ date: 2024-10-21T15:43:36.532000Z
 lang: ca
 categories: ["articulos"]
 excerpt: "Reparació motor 3.2"
-metaDescripcion: "Rehabilitació del motor 3.2 d'un 911 sèrie G coupé de 1985 després d'unes compressions baixes i fuites d'oli procedents del bloc."
+metaDescripcion: "Rehabilitació del motor 3.2 d'un 911 sèrie G coupé de 1985 després de valors de compressió baixos i fuites d'oli procedents del bloc."
 metaTitulo: "Rehabilitació del motor 3.2 d'un 911 sèrie G de 1985"
 author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"

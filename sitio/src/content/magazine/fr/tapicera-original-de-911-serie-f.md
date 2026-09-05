@@ -7,7 +7,7 @@ date: 2022-10-10T12:32:30.077000Z
 lang: fr
 categories: ["restauraciones"]
 excerpt: "La sellerie d'une 911 est un élément clé de la restauration."
-metaDescripcion: "Sellerie d'origine d'une 911 série F : la recherche des matériaux et leur pose, un travail qui touche directement la valeur finale de la voiture."
+metaDescripcion: "Sellerie d'origine d'une 911 série F : recherche des matériaux et pose, un travail qui influe directement sur la valeur finale de la voiture."
 author: "Enric Godes"
 squarespaceId: "63440f878646c219817264fc"
 originalUrl: "https://www.valentinmotors.es/magazine/tapicera-original-de-911-serie-f"

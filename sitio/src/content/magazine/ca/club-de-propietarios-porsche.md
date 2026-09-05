@@ -7,7 +7,7 @@ date: 2022-01-23T06:37:58.730000Z
 lang: ca
 categories: ["eventos"]
 excerpt: "Les sortides de cap de setmana, iniciades amb alguns clients, s’han convertit en una trobada oberta i gratuïta per a aficionats a Porsche."
-metaDescripcion: "Sortides de cap de setmana que van començar amb uns quants clients i avui apleguen la comunitat porschista. Participació oberta a tothom i gratuïta."
+metaDescripcion: "Sortides de cap de setmana que van començar amb uns quants clients i avui apleguen la comunitat Porsche. Participació oberta a tothom i gratuïta."
 author: "Enric Godes"
 squarespaceId: "61ecf7c5b83f0870590cee2b"
 originalUrl: "https://www.valentinmotors.es/magazine/club-de-propietarios-porsche"
