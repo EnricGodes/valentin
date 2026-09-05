@@ -26,12 +26,14 @@ Esta guía excluye el 930 Turbo, que tiene una ficha propia. Su objetivo es ayud
 
 ## Ficha del Porsche 911 G
 
+:::ficha
 - **Años** · 1974-1989
 - **Carrocerías** · Coupé, Targa, Cabriolet y Speedster
 - **Motor** · Bóxer de seis cilindros refrigerado por aire, 2,7-3,2 l
 - **Potencia** · 150-231 CV en versiones europeas principales
 - **Cambio** · Manual 915 de 5 marchas; G50 desde 1987
 - **Producción** · Aproximadamente 198.000 unidades
+:::
 
 ## ¿Qué versión del Porsche 911 G elegir?
 
@@ -70,6 +72,10 @@ Contrasta VIN, número de motor y caja, placa de pintura, mercado y opciones con
 Revisa batería y panel frontal, soporte de suspensión, pasos, bases de pilares, taloneras, tubos de calefacción, suelos, marco de lunas, bandeja trasera y soportes de barra de torsión. Busca corrosión desde ambos lados y señales de soldadura o sellador reciente.
 
 Arranca en frío sin limpiar previamente el motor. Observa humo, ruidos, presión y fugas. Mide compresión y fugas, examina bujías y confirma que el cárter, culatas, cilindros y espárragos corresponden a las facturas si el motor fue reconstruido.
+
+![Porsche 911 Carrera de la serie G](/img/magazine/guia-porsche-911g-02.jpg)
+
+*Porsche 911 Carrera de la serie G. Foto: Calreyn88, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1985_Porsche_911_Carrera_3.2_(95273).jpg).*
 
 En CIS comprueba presión de sistema y control, estanqueidad de admisión, inyector de arranque y acumulador. Un SC que solo arranca bien frío o caliente no está ajustado. En Carrera 3.2 revisa relé DME, sensores, caudalímetro y conductos de combustible.
 
@@ -133,5 +139,3 @@ No conviene a quien espera una conducción moderna, climatización eficaz sin pu
 
 :::articulos{ids="restauracion-sistema-inyeccion-cis,proceso-pintura-911-clase-g,restauracion-sctarga1979oakgreen"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

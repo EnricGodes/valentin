@@ -24,12 +24,14 @@ La guía evita tratar cada aviso de foro como una avería general. En un 718 se 
 
 ## Ficha del Porsche 718
 
+:::ficha
 - **Años** · 2016-presente
 - **Carrocerías** · Boxster descapotable y Cayman coupé
 - **Motor** · Bóxer central, 2,0/2,5 turbo de cuatro cilindros o 4,0 de seis
 - **Potencia** · 300-500 CV según versión europea
 - **Cambio** · Manual de 6 marchas o PDK de 7
 - **Producción** · En curso o finalizada según variante y mercado
+:::
 
 ## ¿Qué versión del Porsche 718 elegir?
 
@@ -68,6 +70,10 @@ Descarga equipamiento de fábrica por VIN y verifica campañas, garantías y tra
 Realiza diagnosis antes de borrar fallos: horas, kilometraje, misfires, presión de combustible y sobrealimentación, temperaturas, PDK, soportes y sistemas de chasis. En manual, revisa rangos de sobrerrégimen y relaciónalos con embrague y uso.
 
 En motores 2.0 y 2.5 prueba presión de turbo, actuadores y estanqueidad de admisión. Silbido, empuje irregular o código de mezcla necesitan prueba de humo y datos, no una sustitución automática del turbo. Documenta cualquier centralita o escape modificado.
+
+![Porsche 718 Cayman](/img/magazine/guia-porsche-718-02.jpg)
+
+*Porsche 718 Cayman. Foto: Calreyn88, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2024_Porsche_718_Cayman_GT4.jpg).*
 
 Inspecciona radiadores, condensadores, bombas, válvulas y restos en tomas laterales y frontales. Prueba presión si hay olor o residuo. Un coche de motor central es sensible a purgado correcto; aire o pérdida pueden generar temperatura irregular.
 
@@ -135,5 +141,3 @@ No conviene a quien necesita plazas traseras o pretende mantener un GT como un C
 
 :::articulos{ids="restauracion-pinzas-freno,que-es-el-ims-de-porsche,porsche-bore-scoring"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

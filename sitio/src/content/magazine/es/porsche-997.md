@@ -24,12 +24,14 @@ El objetivo de la guía es decidir qué versión responde a tu uso y qué medir 
 
 ## Ficha del Porsche 997
 
+:::ficha
 - **Años** · 2004-2012
 - **Carrocerías** · Coupé, Cabriolet y Targa
 - **Motor** · Bóxer de seis cilindros, 3,6-4,0 l; atmosférico o biturbo
 - **Potencia** · 325-620 CV según versión europea
 - **Cambio** · Manual, Tiptronic en 997.1 o PDK en 997.2
 - **Producción** · Aproximadamente 213.000 unidades
+:::
 
 ## ¿Qué versión del Porsche 997 elegir?
 
@@ -68,6 +70,10 @@ Confirma si es 997.1 o 997.2 por año modelo, VIN y código de motor, no por pie
 En Carrera 997.1 inspecciona filtro y aceite, registra consumo y realiza boroscopia si la historia, los síntomas o el motor lo aconsejan. Hollín marcado en un escape, golpeteo en caliente y humo unilateral elevan la sospecha de bore scoring, especialmente en el 3.8.
 
 Aclara el IMS instalado en los primeros motores, pero evita comprar solo una factura de sustitución. Verifica qué pieza se montó, quién la instaló y qué se inspeccionó. Muchos 997.1 posteriores llevan un rodamiento de mayor diámetro que no se extrae igual con el motor cerrado.
+
+![Porsche 911 de la generación 997](/img/magazine/guia-porsche-997-02.jpg)
+
+*Porsche 911 de la generación 997. Foto: MercurySable99, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2011_Porsche_911_Carrera_S_coupe,_front_right,_06-07-2025.jpg).*
 
 Lee horas y rangos de sobrerrégimen, fallos almacenados, contadores de encendido y adaptaciones. Relaciónalos con kilometraje, embrague y desgaste. Un evento reciente en rango alto, o datos borrados sin explicación, justifican ampliar pruebas antes de decidir.
 
@@ -131,5 +137,3 @@ No conviene a quien solo acepta respuestas binarias sobre IMS o bore scoring. Si
 
 :::articulos{ids="997-m9701-38-a-40-nickies,9971-turbo-rehabilitacion-motor,nose-lift-997-1"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

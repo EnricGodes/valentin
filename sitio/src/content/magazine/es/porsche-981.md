@@ -24,12 +24,14 @@ Las opciones cambian coste y tacto: PASM, PTV, Sport Chrono, escape, PCCB, asien
 
 ## Ficha del Porsche 981
 
+:::ficha
 - **Años** · 2012-2016
 - **Carrocerías** · Boxster descapotable y Cayman coupé
 - **Motor** · Bóxer central de seis cilindros atmosférico, 2,7-3,8 l
 - **Potencia** · 265-385 CV según versión europea
 - **Cambio** · Manual de 6 marchas o PDK de 7
 - **Producción** · Producción conjunta no publicada de forma uniforme
+:::
 
 ## ¿Qué versión del Porsche 981 elegir?
 
@@ -68,6 +70,10 @@ Obtén equipamiento por VIN y contrasta PASM, PTV, Sport Chrono, escape, asiento
 Haz diagnosis sin borrar memoria: horas, kilometraje, misfires, presiones, temperaturas, PDK, PADM y sistemas de chasis. En manual registra rangos de sobrerrégimen y antigüedad del evento. Compara datos con discos, neumáticos, asiento y bajos.
 
 Arranca frío y observa humo, ruido y presión. Prueba respuesta a distintos regímenes y busca fallos de bobina o inyector. Consumo o humo requieren medir; no traslades automáticamente diagnósticos de M96/M97 a esta familia MA1.
+
+![Porsche Boxster de la generación 981](/img/magazine/guia-porsche-981-02.jpg)
+
+*Porsche Boxster de la generación 981. Foto: Dinkun Chen, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PORSCHE_981_BOXSTER_SPYDER_China.jpg).*
 
 Revisa bomba de agua, válvulas de conmutación, radiadores, condensadores, manguitos y restos en tomas. Olor dulce, residuo o ventiladores frecuentes justifican prueba de presión y activación por diagnosis. Confirma purgado correcto tras reparaciones.
 
@@ -137,5 +143,3 @@ No conviene a quien necesita plazas traseras o no quiere mantener opciones activ
 
 :::articulos{ids="restauracion-pinzas-freno,que-es-el-ims-de-porsche,porsche-bore-scoring"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

@@ -24,12 +24,14 @@ La revisión pre-compra debe empezar en frío, continuar en elevador y terminar 
 
 ## Ficha del Porsche 993
 
+:::ficha
 - **Años** · 1994-1998
 - **Carrocerías** · Coupé, Cabriolet y Targa
 - **Motor** · Bóxer de seis cilindros refrigerado por aire, 3,6-3,8 l
 - **Potencia** · 272-450 CV según versión europea
 - **Cambio** · Manual de 6 marchas o Tiptronic S de 4
 - **Producción** · 68.881 unidades
+:::
 
 ## ¿Qué versión del Porsche 993 elegir?
 
@@ -68,6 +70,10 @@ Verifica VIN, etiquetas de opciones, color de origen y números de motor y caja 
 Arranca completamente en frío y observa humo, taqués, ralentí y presión. En caliente prueba retención y aceleración, mide fugas y compresión si hay dudas y revisa consumo documentado. Humo tras una larga retención puede orientar a guías de válvula, pero hay que separar aceite externo, retenes y desgaste interno.
 
 Inspecciona tapas de distribución, tapas de balancines, retornos y unión motor-caja. Revisa el doble distribuidor, su correa y ventilación. Comprobar chispa en las doce bujías y estado de cables evita aceptar como normal un motor que trabaja parcialmente.
+
+![Porsche 911 de la generación 993](/img/magazine/guia-porsche-993-02.jpg)
+
+*Porsche 911 de la generación 993. Foto: OSX, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1997_Porsche_911_Carrera_(993)_convertible_(2011-11-18)_02.jpg).*
 
 Levanta gomas de parabrisas y luneta con cuidado, revisa marcos, vierteaguas, bases de aleta, pasos traseros, soportes de paragolpes, suelos y puntos de elevación. En puertas, comprueba el anclaje del limitador: una grieta mal reparada en el pilar vuelve a abrirse.
 
@@ -131,5 +137,3 @@ No conviene a quien evita trabajos de carrocería ocultos o pretende mantenerlo 
 
 :::articulos{ids="restauracion-pinzas-freno,restauracion-motor-964-m64,proceso-pintura-964"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

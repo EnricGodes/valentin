@@ -24,12 +24,14 @@ La inspección también debe distinguir campañas oficiales de averías comunes 
 
 ## Ficha del Porsche 991
 
+:::ficha
 - **Años** · 2011-2019
 - **Carrocerías** · Coupé, Cabriolet y Targa
 - **Motor** · Bóxer de seis cilindros, 3,4-4,0 l; Carrera 991.2 biturbo 3,0 l
 - **Potencia** · 350-700 CV según versión europea
 - **Cambio** · Manual de 7 marchas o PDK de 7
 - **Producción** · 233.540 unidades
+:::
 
 ## ¿Qué versión del Porsche 991 elegir?
 
@@ -68,6 +70,10 @@ Separa 991.1 y 991.2 por VIN y motor, y descarga equipamiento de fábrica. Compr
 Lee diagnosis completa antes de borrar fallos: horas, kilometraje en unidades, sobrerrégimen en manual, fallos de combustión, presión de combustible, actuadores, temperaturas y valores de PDK. Compara horas con desgaste de volante, pedales, asiento, discos y neumáticos.
 
 Arranca frío, escucha cadenas y taqués, observa humo y comprueba presión y temperatura hasta estabilizar. En 991.2 registra presión de sobrealimentación y busca silbidos, falta de respuesta o reparaciones de actuadores. Una reprogramación exige facturas y pruebas de mantenimiento más conservador.
+
+![Porsche 911 de la generación 991](/img/magazine/guia-porsche-991-02.jpg)
+
+*Porsche 911 de la generación 991. Foto: Charles from Port Chester, New York, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Porsche_911_Carrera_(991.2,_2017)_(52228778997).jpg).*
 
 Retira protecciones necesarias para revisar radiadores, condensadores, bombas, válvulas de conmutación, manguitos y residuos. Olor dulce o ventiladores repetidos no se resuelven recargando aire acondicionado. Prueba presión del circuito si existen huellas.
 
@@ -133,5 +139,3 @@ No conviene a quien quiere mecánica visible y poca electrónica. Un 997 resulta
 
 :::articulos{ids="restauracion-pinzas-freno,10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911,nose-lift-997-1"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

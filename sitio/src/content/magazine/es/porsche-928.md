@@ -24,12 +24,14 @@ La revisión pre-compra debe incluir un control que no siempre se hace en otros 
 
 ## Ficha del Porsche 928
 
+:::ficha
 - **Años** · 1977-1995
 - **Carrocerías** · Coupé 2+2
 - **Motor** · V8 delantero refrigerado por agua, 4,5-5,4 l
 - **Potencia** · 240-350 CV en versiones europeas principales
 - **Cambio** · Manual de 5 marchas o automático de 3/4
 - **Producción** · 61.056 unidades
+:::
 
 ## ¿Qué versión del Porsche 928 elegir?
 
@@ -68,6 +70,10 @@ Identifica año modelo, mercado, motor, caja y sistema de inyección por VIN y e
 Exige fecha y kilometraje de correa, rodillos, tensores y bomba de agua. Inspecciona alineación, tensión y pérdidas. En motores de interferencia, una rotura puede doblar válvulas; una factura sin detalle de componentes deja parte del riesgo sin resolver.
 
 En automáticos mide juego axial del cigüeñal y revisa posición y tensión del flexplate según procedimiento. Una placa desplazada puede cargar el cojinete de empuje. Detectarlo pronto permite corregir ajuste; ignorarlo puede dañar bloque y cigüeñal.
+
+![Porsche 928 gran turismo](/img/magazine/guia-porsche-928-02.jpg)
+
+*Porsche 928 gran turismo. Foto: Calreyn88, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Porsche_928_(51198).jpg).*
 
 Abre panel eléctrico y comprueba fusibles, relés, masas y modificaciones. Busca calor, sulfatación, cables añadidos y consumos. Prueba cada función: asientos, cuadro, luces, limpiaparabrisas, cierre, techo, ventiladores y regulación interior.
 
@@ -137,5 +143,3 @@ No conviene a quien busca una mecánica simple o compra sin reserva para electri
 
 :::articulos{ids="restauracion-pinzas-freno,reconstruccion-motor-968"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

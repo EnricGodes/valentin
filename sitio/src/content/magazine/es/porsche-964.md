@@ -26,12 +26,14 @@ Esta guía sirve para comparar versiones y para ordenar una revisión pre-compra
 
 ## Ficha del Porsche 964
 
+:::ficha
 - **Años** · 1989-1994
 - **Carrocerías** · Coupé, Cabriolet, Targa y Speedster
 - **Motor** · Bóxer de seis cilindros refrigerado por aire, 3,6 l; Turbo 3,3 y 3,6 l
 - **Potencia** · 250-381 CV según versión europea
 - **Cambio** · Manual de 5 marchas o Tiptronic de 4
 - **Producción** · 63.762 unidades, todas las variantes
+:::
 
 ## ¿Qué versión del Porsche 964 elegir?
 
@@ -70,6 +72,10 @@ Pide facturas, no solo sellos. Busca fechas de reglajes, embrague y volante bima
 Con el motor frío, observa el arranque, el humo y los ruidos de distribución. Después mide compresión y fugas por cilindro, examina bujías y comprueba presión de aceite en caliente. El estado no se decide por una fotografía del bloque limpio ni por una sola cifra de compresión.
 
 Revisa uniones de culata y cilindro, tapas de balancines, tubos de retorno, retenes y zona entre motor y caja. Los primeros M64 sin junta de culata merecen atención especial, pero no todos necesitan abrirse: hay que valorar pérdida real, gases, consumo de aceite y evolución.
+
+![Porsche 911 de la generación 964](/img/magazine/guia-porsche-964-02.jpg)
+
+*Porsche 911 de la generación 964. Foto: Charles from Port Chester, New York, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Porsche_911_Carrera_2_Targa_(964,_1990)_(52873974569).jpg).*
 
 Comprueba que ambos rotores reciben chispa y que el distribuidor incorpora la ventilación correcta. Una correa interna rota puede dejar el motor funcionando sobre un solo encendido, elevar temperaturas y provocar detonación sin que el conductor perciba de inmediato la causa.
 
@@ -133,5 +139,3 @@ No conviene a quien busca costes de utilitario, largos periodos sin uso o una co
 
 :::articulos{ids="restauracion-motor-964-m64,restauracion-porsche-964-turbo-1991,backdating-964-2023"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

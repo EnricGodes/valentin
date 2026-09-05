@@ -24,12 +24,14 @@ Desde el taller, la prioridad es seguridad antes que potencia: estanqueidad de c
 
 ## Ficha del Porsche 930 Turbo
 
+:::ficha
 - **Años** · 1975-1989
 - **Carrocerías** · Coupé; Targa, Cabriolet y Slantnose en años posteriores
 - **Motor** · Bóxer de seis cilindros turbo refrigerado por aire, 3,0 y 3,3 l
 - **Potencia** · 260-330 CV en versiones europeas de producción
 - **Cambio** · Manual de 4 marchas; G50 de 5 marchas en 1989
 - **Producción** · Aproximadamente 21.500 unidades
+:::
 
 ## ¿Qué versión del Porsche 930 Turbo elegir?
 
@@ -68,6 +70,10 @@ Empieza por identidad. Contrasta VIN, número de motor, caja, placa de pintura, 
 Mide espesores y geometría, inspecciona panel frontal, caja de batería, torretas, pasos, taloneras, base de pilares, bandeja trasera y puntos de elevación. Un golpe antiguo puede haber desplazado anclajes aunque las holguras exteriores parezcan uniformes.
 
 Examina conductos de combustible desde depósito a motor, acumulador, bomba, conexiones del CIS e inyectores. Olor, humedad o mangueras sin fecha impiden una prueba exigente. En un vano caliente y sobrealimentado, una fuga pequeña tiene consecuencias desproporcionadas.
+
+![Porsche 911 Turbo de la generación 930](/img/magazine/guia-porsche-930-02.jpg)
+
+*Porsche 911 Turbo de la generación 930. Foto: Calreyn88, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1988_Porsche_911_930_Turbo.jpg).*
 
 Arranca en frío y repite en caliente. Mide presiones de combustible y control, mezcla bajo carga, compresión y fugas. Observa humo antes y después de retención, presión de aceite y retorno del turbo. No ajustes mezcla para ocultar un problema de presión, vacío o encendido.
 
@@ -131,5 +137,3 @@ No conviene como primer clásico si buscas reacciones progresivas, costes previs
 
 :::articulos{ids="restauracion-de-un-porsche-911-930-turbo,restauracion-incendio-930-turbo-1976,restauracion-motor-930-turbo-30-1988,restauracion-motor-965-turbo-33"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

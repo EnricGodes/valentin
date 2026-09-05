@@ -24,12 +24,14 @@ La revisión debe priorizar seguridad de combustible, arranque frío y caliente,
 
 ## Ficha del Porsche 924
 
+:::ficha
 - **Años** · 1976-1988
 - **Carrocerías** · Coupé 2+2 con portón
 - **Motor** · Cuatro cilindros delantero, 2,0 o 2,5 l; atmosférico o turbo
 - **Potencia** · 125-210 CV en versiones europeas principales
 - **Cambio** · Manual de 4/5 marchas o automático de 3
 - **Producción** · Más de 150.000 unidades
+:::
 
 ## ¿Qué versión del Porsche 924 elegir?
 
@@ -68,6 +70,10 @@ Confirma si es 2.0, Turbo o 924 S mediante VIN y motor. No compres recambio por 
 En 2.0 mide presiones CIS en frío y caliente, prueba acumulador, bombas, inyectores, entradas de aire y encendido. Un arranque largo en caliente no es inevitable. Olor a combustible o mangueras endurecidas deben resolverse antes de la prueba.
 
 En 924 S exige factura de correa de distribución, equilibrado, rodillos y bomba de agua con fecha y kilómetros. Si no existe, presupuestarlo como inmediato. En Turbo revisa aceite, presión, manguitos, wastegate, escape y cualquier modificación.
+
+![Porsche 924 de motor delantero](/img/magazine/guia-porsche-924-02.jpg)
+
+*Porsche 924 de motor delantero. Foto: Calreyn88, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1982_Porsche_924_(16992).jpg).*
 
 Prueba embrague, tubo de par, transaxle y juntas en aceleración y retención. La vibración puede venir de soportes, embrague, rodamientos o ruedas. Escucha en caliente y revisa aceite de caja por nivel, fuga y partículas.
 
@@ -137,5 +143,3 @@ No conviene a quien espera prestaciones de un 944 Turbo ni quiere revisar combus
 
 :::articulos{ids="restauracion-pinzas-freno,reconstruccion-motor-968"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

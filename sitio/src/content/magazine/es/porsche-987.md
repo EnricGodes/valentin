@@ -24,12 +24,14 @@ Un 987 bien mantenido puede ser un deportivo cotidiano razonable. Una unidad bar
 
 ## Ficha del Porsche 987
 
+:::ficha
 - **Años** · 2004-2012
 - **Carrocerías** · Boxster descapotable y Cayman coupé
 - **Motor** · Bóxer central de seis cilindros, 2,7-3,4 l
 - **Potencia** · 240-330 CV según versión europea
 - **Cambio** · Manual, Tiptronic en 987.1 o PDK en 987.2
 - **Producción** · No publicada de forma uniforme para Boxster y Cayman
+:::
 
 ## ¿Qué versión del Porsche 987 elegir?
 
@@ -68,6 +70,10 @@ Identifica 987.1 o 987.2 por VIN y código de motor. No deduzcas el IMS por fech
 En M96/M97 inspecciona filtro y aceite, consumo, humo y hollín. Boroscopia cilindros cuando la versión, historial o síntomas lo indiquen, especialmente en 3.4. Interpreta marcas junto con compresión, fugas y ruido caliente.
 
 Lee horas, rangos de sobrerrégimen en manual, misfires, presión, temperaturas y adaptaciones. Compara con kilometraje y desgaste. En PDK prueba maniobra, salida y cambios frío/caliente; en Tiptronic busca golpes y servicio del fluido.
+
+![Porsche Boxster de la generación 987](/img/magazine/guia-porsche-987-02.jpg)
+
+*Porsche Boxster de la generación 987. Foto: Calreyn88, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009_Porsche_Boxster_S.jpg).*
 
 Revisa radiadores y condensadores detrás del paragolpes, bomba, vaso, tapón y manguitos. Prueba presión ante residuo u olor. Comprueba que ambos ventiladores trabajan y que el sistema se purgó correctamente después de reparaciones.
 
@@ -137,5 +143,3 @@ No conviene a quien cree que un IMS sustituido resuelve todo o deja la capota a 
 
 :::articulos{ids="que-es-el-ims-de-porsche,porsche-bore-scoring,restauracion-pinzas-freno"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

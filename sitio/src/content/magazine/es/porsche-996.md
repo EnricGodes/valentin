@@ -24,12 +24,14 @@ Una buena unidad no se define por llevar una solución anunciada, sino por el co
 
 ## Ficha del Porsche 996
 
+:::ficha
 - **Años** · 1997-2005
 - **Carrocerías** · Coupé, Cabriolet y Targa
 - **Motor** · Bóxer de seis cilindros refrigerado por agua, 3,4-3,6 l; Turbo 3,6 l
 - **Potencia** · 300-483 CV según versión europea
 - **Cambio** · Manual de 6 marchas o Tiptronic de 5
 - **Producción** · Aproximadamente 175.000 unidades
+:::
 
 ## ¿Qué versión del Porsche 996 elegir?
 
@@ -68,6 +70,10 @@ Identifica versión, año modelo, código de motor y caja mediante VIN y etiquet
 En Carrera atmosféricos, combina lectura de diagnosis, inspección del filtro de aceite, análisis de aceite y boroscopia cuando existan consumo, humo, ruido o sospecha de bore scoring. Examina todos los cilindros con técnica consistente y relaciona las marcas con compresión, fugas y comportamiento.
 
 Comprueba en frío arranque, presión, traqueteos, humo y estabilización del ralentí. En caliente observa presión de aceite, temperatura y humo tras retención. Mezcla de aceite y refrigerante, partículas metálicas o un golpeteo que cambia con carga merecen detener la operación hasta diagnosticar.
+
+![Porsche 911 de la generación 996](/img/magazine/guia-porsche-996-02.jpg)
+
+*Porsche 911 de la generación 996. Foto: Ghost2112376, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Porsche_911_996_Turbo_Coupe_Black.jpg).*
 
 Revisa radiadores y condensadores detrás de los paragolpes, bomba de agua, vaso de expansión, tapón y restos de refrigerante. Hojas acumuladas favorecen corrosión y pérdida de eficiencia; una bomba con holgura puede desprender material y provocar un calentón.
 
@@ -131,5 +137,3 @@ No conviene a quien espera que instalar un IMS elimine todo riesgo o compra la u
 
 :::articulos{ids="996-m96-34-rotura-arbol-intermedio-ims,que-es-el-ims-de-porsche,porsche-bore-scoring"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

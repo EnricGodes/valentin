@@ -24,12 +24,14 @@ Desde el taller, distribución y Variocam preceden a la prueba larga si no hay f
 
 ## Ficha del Porsche 968
 
+:::ficha
 - **Años** · 1991-1995
 - **Carrocerías** · Coupé y Cabriolet
 - **Motor** · Cuatro cilindros delantero, 3,0 l, 16 válvulas y Variocam
 - **Potencia** · 240-305 CV en versiones de producción
 - **Cambio** · Manual de 6 marchas o Tiptronic de 4
 - **Producción** · 12.776 unidades
+:::
 
 ## ¿Qué versión del Porsche 968 elegir?
 
@@ -68,6 +70,10 @@ Exige facturas de correa de distribución, correa de equilibrado, rodillos, tens
 Abre la tapa superior necesaria para inspeccionar cadena Variocam, patines, tensor y dientes de los árboles. El espesor del patín y la condición de los dientes importan aunque no haya ruido. Virutas plásticas o marcas irregulares elevan la urgencia.
 
 Arranca en frío, comprueba presión, humo, fugas y vibración. Revisa aceite en refrigerante, carcasa del enfriador, retenes y parte frontal. Un eje de equilibrado mal calado o una correa incorrecta pueden hacer que un motor sano parezca áspero.
+
+![Porsche 968 Coupé](/img/magazine/guia-porsche-968-02.jpg)
+
+*Porsche 968 Coupé. Foto: Calreyn88, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Porsche_968_(11994).jpg).*
 
 Prueba embrague, volante bimasa y manual de seis marchas en frío y caliente. Escucha tubo de par y transaxle a carga constante y retención. En Tiptronic comprueba selección, cambios, fugas y servicio documentado, sin tratar el fluido como permanente.
 
@@ -135,5 +141,3 @@ No conviene a quien pretende ahorrar aplazando correas o Variocam, ni a quien pa
 
 :::articulos{ids="reconstruccion-motor-968"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

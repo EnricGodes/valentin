@@ -1529,6 +1529,41 @@ section { position: relative; }
    imagenes sueltas. El diseno de cada una viene del snapshot.
    ============================================================ */
 
+/* ── Ficha tecnica ────────────────────────────────────────────────────────
+   Los seis datos de una generacion no se leen en linea: se consultan. Por eso
+   salen del flujo del cuerpo y se van a una placa de bronce, el mismo acento
+   que ya marca labels y eyebrows, aqui invertido: tinta negra sobre el color.
+   Es el unico bloque del articulo con fondo, y esa excepcion es la que lo
+   convierte en algo que se mira una vez y se vuelve a mirar despues. */
+.mod-ficha {
+  background: var(--bronce);
+  color: var(--negro);
+  padding: 12px clamp(24px, 4vw, 44px) 34px;
+  margin: 0;
+}
+.mod-ficha > div {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 32px; padding: 15px 0;
+  border-top: 1px solid rgba(11, 11, 10, 0.28);
+}
+.mod-ficha > div:first-child { border-top: 0; padding-top: 22px; }
+.mod-ficha dt {
+  flex: none;
+  font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: var(--tr-label); text-transform: uppercase;
+  color: rgba(11, 11, 10, 0.66);
+}
+.mod-ficha dd {
+  margin: 0; text-align: right; text-wrap: balance;
+  font-size: 17px; line-height: 1.45; font-weight: 500;
+}
+/* Sin sitio para dos columnas, la etiqueta se pone encima de su dato. */
+@media (max-width: 620px) {
+  .mod-ficha > div { display: block; }
+  .mod-ficha dt { margin-bottom: 6px; }
+  .mod-ficha dd { text-align: left; }
+}
+
 .mod-galeria { margin: 56px 0; position: relative; }
 .mod-foto { margin: 0; }
 .mod-foto img {

@@ -24,12 +24,14 @@ La inspección debe empezar por evidencias de correa, rodillos y bomba, continua
 
 ## Ficha del Porsche 944
 
+:::ficha
 - **Años** · 1982-1991
 - **Carrocerías** · Coupé y Cabriolet
 - **Motor** · Cuatro cilindros delantero, 2,5-3,0 l; atmosférico o turbo
 - **Potencia** · 150-250 CV en versiones europeas principales
 - **Cambio** · Manual de 5 marchas o automático de 3
 - **Producción** · Más de 163.000 unidades
+:::
 
 ## ¿Qué versión del Porsche 944 elegir?
 
@@ -68,6 +70,10 @@ Exige factura con fecha y kilometraje de correa de distribución, correa de equi
 En motores de 16 válvulas retira la tapa necesaria para valorar cadena, patines, tensor y dientes de árboles. Un patín quebrado o cadena fuera de tolerancia puede dañar culata. No asumas que cambiar la correa atiende este conjunto.
 
 Arranca frío y revisa presión de aceite, humo, vibración y ruidos. Una correa de equilibrado mal calada o tensada altera el tacto. Comprueba aceite en refrigerante y viceversa, fugas en carcasa del enfriador y estabilidad térmica.
+
+![Porsche 944 de motor delantero](/img/magazine/guia-porsche-944-02.jpg)
+
+*Porsche 944 de motor delantero. Foto: Calreyn88, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1986_Porsche_944_(46751).jpg).*
 
 Inspecciona líneas de combustible, amortiguador y regulador en el vano, inyectores y manguitos posteriores. Olor o humedad requieren inmovilizar. En Turbo añade presión, fugas de admisión, turbo, wastegate y modificaciones documentadas.
 
@@ -135,5 +141,3 @@ No conviene a quien compra por precio y aplaza distribución o combustible. Un 9
 
 :::articulos{ids="restauracion-pinzas-freno,reconstruccion-motor-968"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

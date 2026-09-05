@@ -24,12 +24,14 @@ Desde el taller, la mejor compra es una unidad que permita ver qué se hizo: fot
 
 ## Ficha del Porsche 356
 
+:::ficha
 - **Años** · 1948-1965
 - **Carrocerías** · Coupé, Cabriolet, Speedster, Convertible D y Roadster
 - **Motor** · Bóxer de cuatro cilindros refrigerado por aire, 1,1-2,0 l
 - **Potencia** · 40-130 CV según versión de calle
 - **Cambio** · Manual de 4 marchas
 - **Producción** · Aproximadamente 76.000 unidades
+:::
 
 ## ¿Qué versión del Porsche 356 elegir?
 
@@ -68,6 +70,10 @@ Autentica chasis, placa, número de motor y caja, y compáralos con certificados
 Inspecciona con elevador y medidor: bandeja de batería, frontal, largueros, suelos, travesaños, umbrales, bases de pilares, pasos, soporte de eje delantero y anclajes traseros. Busca solapes, cordones, chapa nueva sin imprimación interior y drenajes cerrados.
 
 Mide diagonales y observa holguras de puertas con el coche apoyado y elevado. Una puerta que cambia de ajuste al levantar revela flexión. Comprueba caída de ruedas, posición de ejes y simetría; una carrocería bonita puede estar fuera de geometría por corrosión o accidente.
+
+![Porsche 356 clásico](/img/magazine/guia-porsche-356-02.jpg)
+
+*Porsche 356 clásico. Foto: Alexander Migl, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Porsche_356-2_Coupe_in_the_Porsche-Museum_(2009)_1X7A0322.jpg).*
 
 Arranca en frío, verifica presión, humo y ruidos, y mide compresión, fugas y juego axial. Examina pérdidas en polea, tubos, tapas y unión de cárter. Comprueba carburadores, varillaje, calentadores y avance del encendido sin compensar desgaste con una mezcla excesiva.
 
@@ -131,5 +137,3 @@ No conviene a quien necesita protección, climatización y frenada de un coche m
 
 :::articulos{ids="restauracion-pinzas-freno,restauracion-porsche-911-1965,tapicera-original-de-911-serie-f"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

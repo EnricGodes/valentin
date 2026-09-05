@@ -24,12 +24,14 @@ Esta ficha se centra en unidades usadas y evita presentar como avería común lo
 
 ## Ficha del Porsche 992
 
+:::ficha
 - **Años** · 2019-presente
 - **Carrocerías** · Coupé, Cabriolet y Targa
 - **Motor** · Bóxer de seis cilindros, 3,0-4,0 l; turbo, atmosférico o T-Hybrid
 - **Potencia** · Desde 385 CV; depende de versión y año modelo
 - **Cambio** · Manual de 6 o 7 marchas y PDK de 8
 - **Producción** · En curso
+:::
 
 ## ¿Qué versión del Porsche 992 elegir?
 
@@ -68,6 +70,10 @@ Obtén el listado de opciones y año modelo a partir del VIN. Verifica campañas
 Realiza diagnosis completa sin borrar memoria: fallos presentes e históricos, horas, contadores de funcionamiento, temperaturas, misfires, presión, PDK y sistemas de chasis. En manual, revisa rangos de sobrerrégimen; en GT relaciona datos con uso de circuito.
 
 Inspecciona frontal, radiadores, condensadores, bajos aerodinámicos, pasos y puntos de elevación. En coches con nose lift comprueba fugas, altura simétrica y ciclo repetido. Un roce inferior puede afectar actuadores o conductos aunque el paragolpes exterior esté intacto.
+
+![Porsche 911 de la generación 992](/img/magazine/guia-porsche-992-02.jpg)
+
+*Porsche 911 de la generación 992. Foto: Calreyn88, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2024_Porsche_911_992_Carrera_S.jpg).*
 
 Prueba PDK desde frío: selección, maniobra lenta, salida, cambios suaves y respuesta al calentarse. Cualquier golpe o aviso exige valores de adaptación y diagnóstico, no asumir comportamiento de software. En manual, revisa embrague, selector y coherencia del uso registrado.
 
@@ -133,5 +139,3 @@ No conviene a quien busca sencillez analógica o piensa guardar el coche sin sop
 
 :::articulos{ids="restauracion-pinzas-freno,10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

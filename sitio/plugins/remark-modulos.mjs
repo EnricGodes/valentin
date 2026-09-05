@@ -53,6 +53,41 @@ function fotos(nodo) {
   return salida;
 }
 
+/** Todo el texto de un nodo, sin formato. */
+function texto(nodo) {
+  const partes = [];
+  visit(nodo, (n) => { if (n.type === 'text' || n.type === 'inlineCode') partes.push(n.value); });
+  return partes.join('').replace(/\s+/g, ' ').trim();
+}
+
+/**
+ * Ficha tecnica de un modelo: seis datos que el lector consulta, no lee.
+ *
+ *   ::: ficha
+ *   - **Años** · 1994-1998
+ *   - **Motor** · Boxer de seis cilindros, 3,6-3,8 l
+ *   :::
+ *
+ * Se escribe como lista para que el Markdown siga siendo legible en crudo y
+ * para que el validador de ortotipografia vea la prosa. Sale como <dl> sobre
+ * fondo bronce: es el unico bloque del articulo que no se lee en linea, y
+ * tiene que distinguirse del cuerpo a primera vista.
+ */
+function ficha(nodo) {
+  const filas = [];
+  visit(nodo, 'listItem', (item) => {
+    const t = texto(item);
+    const corte = t.indexOf(' · ');
+    if (corte < 0) return;
+    filas.push({ clave: t.slice(0, corte).trim(), valor: t.slice(corte + 3).trim() });
+  });
+  if (!filas.length) return '';
+
+  const items = filas.map((f) => `
+      <div><dt>${esc(f.clave)}</dt><dd>${esc(f.valor)}</dd></div>`).join('');
+  return `<dl class="mod-ficha ancha reveal">${items}\n    </dl>`;
+}
+
 function galeria(atributos, imagenes) {
   const diseno = atributos.diseno || 'cuadricula';
   const porFila = Number(atributos.porFila) || 3;
@@ -170,6 +205,15 @@ export default function remarkModulos() {
         if (!imgs.length) return;
         nodo.type = 'html';
         nodo.value = galeria(at, imgs);
+        nodo.children = [];
+        return;
+      }
+
+      if (nodo.name === 'ficha') {
+        const html = ficha(nodo);
+        if (!html) return;
+        nodo.type = 'html';
+        nodo.value = html;
         nodo.children = [];
         return;
       }

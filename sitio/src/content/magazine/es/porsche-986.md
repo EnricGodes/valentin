@@ -24,12 +24,14 @@ La mejor compra suele ser el coche con historial legible y problemas cuantificad
 
 ## Ficha del Porsche 986
 
+:::ficha
 - **Años** · 1996-2004
 - **Carrocerías** · Roadster biplaza
 - **Motor** · Bóxer central de seis cilindros refrigerado por agua, 2,5-3,2 l
 - **Potencia** · 204-266 CV según versión europea
 - **Cambio** · Manual de 5/6 marchas o Tiptronic de 5
 - **Producción** · 164.874 unidades
+:::
 
 ## ¿Qué versión del Porsche 986 elegir?
 
@@ -68,6 +70,10 @@ Identifica motor instalado, no solo el entregado originalmente. Pide facturas de
 Arranca completamente frío y observa humo, taqués, ralentí y presión. Repite caliente después de retención. Inspecciona filtro y aceite por partículas y contaminación; mide compresión y fugas o usa boroscopio cuando síntomas e historial lo aconsejen.
 
 Valora IMS según rodamiento presente, acceso y uso. No aceptes afirmaciones de solucionado sin marca, fecha, kilometraje y factura. Si se desmonta caja, revisa además embrague, volante, RMS, fuga de eje y condición general.
+
+![Porsche Boxster de la generación 986](/img/magazine/guia-porsche-986-02.jpg)
+
+*Porsche Boxster de la generación 986. Foto: Ethan Llamas, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Porsche_986.1_Boxster_roadster_green_(2).jpg).*
 
 Comprueba vaso de expansión trasero, tapón, bomba, termostato, radiadores y condensadores. Hojas entre superficies favorecen corrosión. Olor a refrigerante, residuo o temperatura inestable justifican prueba de presión y purgado correcto.
 
@@ -137,5 +143,3 @@ No conviene a quien deja el coche a la intemperie con drenajes sin atender o no 
 
 :::articulos{ids="que-es-el-ims-de-porsche,porsche-bore-scoring,restauracion-pinzas-freno"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*

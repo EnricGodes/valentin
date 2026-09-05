@@ -24,12 +24,14 @@ En el taller también se separa originalidad de funcionamiento. Carburadores, MF
 
 ## Ficha del Porsche 911 F
 
+:::ficha
 - **Años** · 1964-1973
 - **Carrocerías** · Coupé y Targa
 - **Motor** · Bóxer de seis cilindros refrigerado por aire, 2,0-2,7 l
 - **Potencia** · 110-210 CV en versiones de carretera principales
 - **Cambio** · Manual 901/911 de 5 marchas; 915 desde 1972
 - **Producción** · Aproximadamente 112.000 unidades
+:::
 
 ## ¿Qué versión del Porsche 911 F elegir?
 
@@ -68,6 +70,10 @@ Contrasta VIN, estampaciones, placa, motor, caja, color y equipamiento con regis
 Inspecciona bandejas de batería, panel frontal, soporte de cremallera y brazos, torretas, pasos, taloneras, bases de pilares, suelos, tubos de calefacción, bandeja trasera y anclajes de barra de torsión. Usa medidor y mira soldaduras desde ambos lados.
 
 Mide diagonales y alturas y observa ajuste de puertas con el coche apoyado y levantado. En batalla corta, una reparación incorrecta altera estabilidad. En Targa, el cambio de holguras puede revelar flexión o refuerzos dañados.
+
+![Porsche 911 clásico de la serie F](/img/magazine/guia-porsche-911-f-02.jpg)
+
+*Porsche 911 clásico de la serie F. Foto: Ethan Llamas, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1972_Porsche_911_2.4_S,_front_left,_05-18-2024.jpg).*
 
 Arranca en frío y comprueba presión, humo, fugas y ruido de cadena. Mide compresión y fugas, examina bujías y verifica que cilindrada y componentes coinciden con lo facturado. Un motor reconstruido necesita cotas y trabajos documentados.
 
@@ -135,5 +141,3 @@ No conviene a quien necesita climatización, protección moderna o largos interv
 
 :::articulos{ids="restauracion-porsche-911-1965,rehabilitacion-motor-22-1970-serief,restauracion-motor-1971-22,tapicera-original-de-911-serie-f,restauracion-27-s-targa-lime-green"}
 :::
-
-*La fotografía de apertura es una imagen de referencia generada para Valentín Motors. No corresponde a una unidad concreta ni a un coche a la venta.*
