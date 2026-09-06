@@ -24,3 +24,7 @@ sitio/revision/
 # Lo genera scripts/generar-mapa-idiomas.ts en cada build, con las
 # traducciones realmente publicadas. Es derivado, no fuente.
 sitio/functions/mapa-idiomas.json
+
+# La tanda de ampliacion de las paginas de servicio: se regenera con
+# npm run servicios:exportar y se borra cuando esta aplicada.
+sitio/revision-servicios/
