@@ -1,0 +1,2196 @@
+{
+  "formato": "valentinmotors-guias-v1",
+  "guias": [
+    {
+      "slug": "porsche-964",
+      "title": "Guia Porsche 964: versions, avaries i compra",
+      "metaTitulo": "Porsche 964: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche 964, fabricat entre 1989 i 1994: versions, punts d'inspecció, avaries del motor M64 i manteniment realista.",
+      "excerpt": "Quin Porsche 964 triar, què revisar abans de comprar-lo i quins símptomes no convé normalitzar en un 911 refrigerat per aire que ja supera els trenta anys.",
+      "entradilla": [
+        "El Porsche 964 manté la mida i la lectura visual d'un 911 clàssic, però va introduir una base tècnica molt més moderna: direcció assistida, ABS, climatització més complexa, spoiler posterior automàtic i, al Carrera 4, tracció integral. Aquesta combinació explica el seu atractiu actual, encara que també fa que una unitat aparentment senzilla pugui acumular avaries elèctriques, hidràuliques i de climatització que no hi ha en generacions anteriors.",
+        "Des del taller, la dada decisiva no és si el cotxe anuncia pocs quilòmetres, sinó com s'han recorregut i documentat. Un 964 usat amb regularitat, amb estanquitat controlada, encesa doble atès i suspensió posada al dia sol ser una compra més assenyada que un altre immobilitzat durant anys i preparat només per a la venda. La inspecció ha de separar la sudoració tolerable d'una fuga activa i la conservació autèntica d'una restauració cosmètica.",
+        "Aquesta guia serveix per comparar versions i per ordenar una inspecció abans de la compra. No substitueix mesurar compressió i fuites, inspeccionar la part inferior de la carrosseria i verificar números, historial i equipament sobre el cotxe concret. En un 964, una diferència petita d'estat pot representar una gran diferència de pressupost durant els primers anys de propietat."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1989-1994"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé, Cabriolet, Targa i Speedster"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres refrigerat per aire, 3,6 l; Turbo 3,3 i 3,6 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "250-381 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 5 marxes o Tiptronic de 4"
+        },
+        {
+          "clave": "Producció",
+          "valor": "63.762 unitats, totes les variants"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Carrera 4",
+          "texto": "Presentat primer per a l'any model 1989, amb 3,6 litres i 250 CV. El repartiment mecànic de tracció aporta seguretat, però afegeix transmissió, actuadors i manteniment que s'han de revisar amb mètode."
+        },
+        {
+          "nombre": "Carrera 2",
+          "texto": "Des de l'any model 1990, amb 250 CV, propulsió del darrere i canvi manual o Tiptronic. És la base més directa per a qui cerca ús habitual i una arquitectura menys complexa que la del Carrera 4."
+        },
+        {
+          "nombre": "Carrera RS",
+          "texto": "Versió alleugerida de 1992, amb 260 CV en especificació europea; el RS 3.8 posterior va aconseguir 300 CV. Suspensió, frens, carrosseria i autenticitat pesen tant com l'estat del motor."
+        },
+        {
+          "nombre": "Turbo 3.3",
+          "texto": "Fabricat des de 1990 amb 320 CV; el Turbo S va arribar a 381 CV en configuracions molt escasses. Conserva el lliurament de potència de la família 930 i exigeix comprovar turbo, CIS, encesa i temperatura."
+        },
+        {
+          "nombre": "Turbo 3.6",
+          "texto": "Llançat per a 1993 amb 360 CV i major parell. El seu valor fa especialment important verificar identitat, equipament de fàbrica, reparacions estructurals i correspondència de motor i caixa de canvis."
+        },
+        {
+          "nombre": "Speedster i sèries especials",
+          "texto": "El Speedster del 1993 i edicions com el 30 Jahre tenen producció limitada i detalls específics. Abans de pagar la prima, convé documentar que aquests elements no procedeixen d'una transformació posterior."
+        }
+      ],
+      "antesDeComprar": [
+        "Demana factures, no només segells. Busca dates de reglatges, embragatge i volant d'inèrcia bimassa, manteniment del doble distribuïdor, amortidors, tubs flexibles, climatització i reparació de fuites. Un dossier coherent permet distingir el quilometratge versemblant d'una lectura de comptaquilòmetres sense context.",
+        "Amb el motor fred observa l'arrencada, el fum i els sorolls de distribució. Després mesura compressió i fuites per cilindre, examina bugies i comprova pressió d'oli en calent. L'estat no és decidit per una fotografia del bloc net ni per una sola xifra de compressió.",
+        "Revisa unions de culata i cilindre, tapes de balancins, tubs de tornada, retens i zona entre motor i caixa de canvis. Els primers M64 sense junta de culata mereixen una atenció especial, però no tots necessiten obrir-se: cal valorar pèrdua real, gasos, consum d'oli i evolució.",
+        "Comprova que tots dos rotors reben espurna i que el distribuïdor incorpora la ventilació correcta. Una corretja interna trencada pot deixar el motor funcionant sobre un sol encesa, elevar temperatures i provocar detonació sense que el conductor percebi immediatament la causa.",
+        "Mesura gruixos de pintura i examina torretes, aletes, travessers, marcs de lluna, canalons, terres i punts d'elevació. La corrosió sol amagar-se sota gomes o reparacions antigues. Alineacions irregulars poden assenyalar un cop mal resolt.",
+        "Prova la calefacció, l'aire condicionat, els ventiladors, l'spoiler automàtic, sostre i elevallunes. Al Carrera 4 verifica bloquejos, testimonis i absència d'estrebades; a Tiptronic, que selecciona totes les marxes sense cops i que l'oli no faci olor de cremat."
+      ],
+      "averias": [
+        {
+          "titulo": "Fuites d'oli i pèrdua d'estanqueïtat",
+          "texto": "Una pel·lícula lleugera no equival a un toll després de cada parada. Olor a oli cremat, fum des dels intercanviadors, gotes fresques o brutícia que reapareix després de netejar obliguen a localitzar el punt. Ignorar-ho deteriora maneguets, embruta la refrigeració i pot convertir una reparació exterior en una intervenció més gran.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Corretja del doble distribuïdor",
+          "texto": "El motor pot continuar arrencant quan una de les dues bancades de bugies ha deixat d'encendre. Ralentí estrany, manca de resposta o una comprovació de guspira desigual justifiquen aturar el diagnòstic. Mantenir la ventilació i revisar la corretja evita treballar amb temperatures i combustió inadequades."
+        },
+        {
+          "titulo": "Volant bimassa, embragatge i canvi G50",
+          "texto": "Vibració al ralentí, sotragueig en apagar, pedal irregular, embragatge que patina o marxes que graten apunten a desgast diferent. La prova s'ha de fer amb el motor fred i calent; seguir circulant pot fer malbé sincronitzadors, suport i transmissió, a més d'encarir una substitució d'embragatge.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Suspensió i direcció envellides",
+          "texto": "Amortidors originals, silentblocks endurits i ròtules amb joc fan que un 964 sembli nerviós o imprecís. No es corregeix amb una alineació si abans no s'eliminen les folgures. Una posada al dia torna estabilitat i evita desgasts anòmals de pneumàtics."
+        },
+        {
+          "titulo": "Climatització, servos i spoiler",
+          "texto": "Temperatures diferents entre sortides, ventiladors que només funcionen a una velocitat, bateria que es descarrega o spoiler que no completa el seu recorregut requereixen diagnòstic elèctric. Canviar peces per tempteig sol ser car i no resol connectors, relés, sensors o unitats de comandament deteriorades."
+        },
+        {
+          "titulo": "Òxid i reparacions de carrosseria",
+          "texto": "Bombolla sota una goma, humitat al maleter o massilla gruixuda poques vegades són un defecte aïllat. Cal obrir l'àrea d'inspecció i valorar fins on arriba la corrosió abans de pressupostar la pintura. Cobrir-la sense sanejar compromet estructura i valor.",
+          "enlace": "taller-pintura"
+        }
+      ],
+      "mantenimiento": [
+        "Fes una inspecció anual encara que el cotxe recorri pocs quilòmetres. Oli i filtre, fuites, pressió, corretges, encesa, frens, pneumàtics, llums i nivells ofereixen una fotografia repetible de l'estat. En cotxes d'ús esporàdic, el temps envelleix combustible, gomes, líquid de frens i connexions, encara que l'odòmetre no avanci.",
+        "Alterna servei de manteniment bàsic i major segons historial i ús. La major ha d'incloure bugies, filtres, reglatge de vàlvules quan correspongui, inspecció del doble distribuïdor, corretges, conductes de combustible, transmissió i reajustaments previstos. La tarifa orienta l'abast; el pressupost final depèn de les troballes.",
+        "Renova líquid de frens per temps i vigila flexibles, pinces i discos. A Carrera 4 afegeix fluids i comprovacions de la transmissió integral. A Tiptronic, no tractis l'oli com a permanent: revisa nivell, color, fuites i servei documentat amb l'especificació correcta.",
+        "Si el cotxe passa setmanes aturat, mantingues la bateria amb equip adequat, omple amb combustible fresc i evita arrencar-ho només uns minuts. És preferible completar un recorregut que porti oli i escapi a temperatura i permeti moure frens, rodaments, climatització i spoiler."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "A Valentín Motors hem documentat la restauració de motors M64, inclòs el mesurament, mecanitzat, muntatge i prova posterior, a més de projectes complets sobre 964 Turbo.",
+        "Aquests treballs mostren perquè el diagnòstic previ importa: dos cotxes amb el mateix símptoma poden requerir des d'una reparació perifèrica fins a una reconstrucció, i el pressupost no s'ha de decidir abans de mesurar."
+      ],
+      "articulos": [
+        "restauracion-motor-964-m64",
+        "restauracion-porsche-964-turbo-1991",
+        "restauracion964backdating2023-kdlc4-mjz6r"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol un 911 clàssic que es pugui integrar en viatges i trànsit actual, accepta un manteniment especialitzat i valora més un historial verificable que una combinació de color concreta. Un Carrera 2 manual és l'opció més directa; un Carrera 4 aporta motricitat a canvi de complexitat; Turbo i RS exigeixen una altra escala de pressupost i autenticació.",
+        "No convé a qui busca costos d'un cotxe econòmic, períodes llargs sense ús o una compra basada únicament en revaloració. Si prefereixes sensacions de conducció més lleuger i mecànica anterior, mira un 911 F o G; si necessites climatització i ús diari més senzills, un 993 o un 996 ben revisat pot encaixar millor."
+      ]
+    },
+    {
+      "slug": "porsche-996",
+      "title": "Guia Porsche 996: versions, IMS i compra",
+      "metaTitulo": "Porsche 996: guia de compra, IMS i avaries",
+      "metaDescripcion": "Guia del Porsche 996 de 1997 a 2005: diferències entre Carrera i Turbo, inspecció de l'IMS, bore scoring i manteniment abans de comprar.",
+      "excerpt": "Com comprar un Porsche 996 sense reduir tota la decisió a l'IMS: motors, versions, senyals de bore scoring, refrigeració, xassís i historial.",
+      "entradilla": [
+        "El Porsche 996 va ser el primer 911 produït en gran sèrie amb motor refrigerat per aigua. Comparteix plantejament industrial amb el primer Boxster, però conserva motor del darrere, places posteriors i una gamma que va des del Carrera de 300 CV fins a Turbo, GT3 i GT2. Avui ofereix prestacions plenament utilitzables i una mida continguda, encara que el preu d'entrada pot amagar manteniment ajornat.",
+        "Al taller convé dividir la família en dos. Carrera, Carrera 4 i Targa empren motors M96 subjectes a una conversa específica sobre IMS, bore scoring i sistema de refrigeració. Turbo, GT2 i GT3 usen una altra arquitectura derivada del motor de competició, coneguda com Mezger; no comparteixen el mateix rodament IMS segellat, però sí que tenen necessitats costoses pròpies. Dir que tots els 996 pateixen el mateix condueix a compres i reparacions mal plantejades.",
+        "Una bona unitat no es defineix per portar una solució anunciada, sinó pel conjunt: dades de funcionament, oli analitzat, cilindres inspeccionats quan escau, refrigeració neta, suspensió sense folgures i factures consistents. La precompra ha d'identificar el risc concret i posar-hi context, no prometre risc zero."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1997-2005"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé, Cabriolet i Targa"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres refrigerat per aigua, 3,4-3,6 l; Turbo 3,6 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "300-483 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 6 marxes o Tiptronic de 5"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Aproximadament 175.000 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Carrera 3.4",
+          "texto": "La primera sèrie, del 1997 al 2001, lliura 300 CV i es va oferir amb propulsió o tracció total. La seva antiguitat no és suficient per identificar el tipus d'IMS: cal comprovar el motor i la configuració real."
+        },
+        {
+          "nombre": "Carrera 3.6",
+          "texto": "L'actualització 996.2, des del 2001, va pujar a 320 CV i va adoptar el frontal dels Turbo. Inclou Carrera 2, Carrera 4, Cabriolet i Targa, amb diferències de pes i complexitat."
+        },
+        {
+          "nombre": "Carrera 4S",
+          "texto": "Combina carrosseria ampla, frens i aspecte proper al Turbo amb motor atmosfèric de 320 CV. El seu atractiu no elimina els riscos del M96 i afegeix més elements de transmissió i pneumàtics de més cost."
+        },
+        {
+          "nombre": "Turbo i Turbo S",
+          "texto": "El Turbo desenvolupa 420 CV, o 450 CV amb X50 i al Turbo S final. El seu motor no utilitza l'IMS segellat dels Carrera; s'han de revisar canonades de refrigerant, turbos, embragatge, spoiler i transmissió integral."
+        },
+        {
+          "nombre": "GT3",
+          "texto": "360 CV a la primera sèrie i 381 CV a la segona, amb motor Mezger, canvi manual i xassís enfocat. És imprescindible llegir hores i rangs de sobrerègim i comprovar si l'ús en circuit va tenir el manteniment corresponent."
+        },
+        {
+          "nombre": "GT2",
+          "texto": "Propulsió del darrere, motor biturbo i 462 CV, fins a 483 CV en l'evolució final. L'autenticitat, l'estat estructural il'historial d'ús pesen més que una inspecció visual superficial."
+        }
+      ],
+      "antesDeComprar": [
+        "Identifica versió, any model, codi de motor i caixa de canvis mitjançant VIN i etiquetes, i contrasta'ls amb factures. No dedueixis el rodament IMS per la data de matriculació: un motor pot haver-se substituït, obert o intercanviat, i l'única dada útil és la configuració present i documentada.",
+        "A Carrera atmosfèrics, combina lectura de diagnosi, inspecció del filtre d'oli, anàlisi d'oli i boroscòpia quan hi hagi consum, fum, soroll o sospita de bore scoring. Examina tots els cilindres amb tècnica consistent i relaciona les marques amb compressió, fuites i comportament.",
+        "Comprova en fred arrencada, pressió, sotragueigs, fum i estabilització del ralentí. En calent, observa pressió d'oli, temperatura i fum després de retenció. Barreja d'oli i refrigerant, partícules metàl·liques o un cop que canvia amb càrrega mereixen aturar l'operació fins a diagnosticar.",
+        "Revisa radiadors i condensadors darrere dels para-xocs, bomba d'aigua, dipòsit d'expansió, tap i restes de refrigerant. Fulles acumulades afavoreixen corrosió i pèrdua deficiència; una bomba amb comoditat pot desprendre material i provocar un escalfament.",
+        "Llegeix hores de funcionament i rangs de sobrerègim en cotxes manuals, i comprova que quilometratge, desgast interior i historial siguin coherents. A Turbo i GT revisa a més canonades enganxades o fixades, turbos, intercoolers, embragatge i possibles preparacions de potència.",
+        "Prova suspensió sobre ferm irregular, frens des de velocitat, climatització, elevallunes, tancaments, sostre i spoiler. Els braços, suports de motor, amortidors i copel·les envellits alteren l'estabilitat; a Tiptronic exigeix canvis nets, sense demores ni cops."
+      ],
+      "averias": [
+        {
+          "titulo": "Rodament IMS en motors M96",
+          "texto": "Partícules en filtre, fuites a la zona de l'eix, sincronització anòmala o soroll no han d'esperar a la revisió següent. El risc i la solució depenen del rodament muntat, de l'estat del motor i de si la caixa de canvis es desmuntarà. Substituir una peça sense inspeccionar la resta no converteix el motor en nou.",
+          "enlace": "taller-ims"
+        },
+        {
+          "titulo": "Bore scoring",
+          "texto": "Consum d'oli creixent, fum per una bancada, sutge desigual en escapaments i cops calents poden acompanyar ratllat de cilindres. La boroscòpia confirma i localitza, però la seva interpretació s'ha d'unir a mesuraments. Seguir usant el cotxe agreuja pistó, camisa i contaminació de l'oli.",
+          "enlace": "taller-bore-scoring"
+        },
+        {
+          "titulo": "RMS, AOS i fuites de buit",
+          "texto": "Una gota entre motor i caixa de canvis pot procedir de la retenció del darrere, però fum intens després de ralentí, xiulet i buit excessiu orienten el separador d'oli. Canviar el RMS per reflex sense localitzar la font pot obligar a desmuntar dues vegades. Un AOS fallant també contamina admissió i catalitzadors.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Bomba d'aigua i circuit de refrigeració",
+          "texto": "Temperatura inestable, olor dolça, ventiladors freqüents o residu rosat exigeixen prova de pressió. Rodet, termòstat, dipòsit d'expansió, maneguets i radiadors treballen com a sistema; ignorar una pèrdua petita pot acabar en sobretemperatura i deformació de culates."
+        },
+        {
+          "titulo": "Suspensió, suports i frens",
+          "texto": "Cops secs, direcció flotant, desgast interior del pneumàtic o moviments del motor en accelerar indiquen folgures diferents. Abans d'alinear, revisa braços, bieletes, copel·les, amortidors, suports i rodaments. Un xassís sa ajuda a més a detectar una carrosseria mal reparada."
+        },
+        {
+          "titulo": "Conductes i elements auxiliars de Turbo i GT",
+          "texto": "En motors Mezger s'han d'inspeccionar unions de refrigerant, tubs d'oli, actuadors, turbos i embragatge. Pèrdua sota càrrega, olor de refrigerant o fum no són trets normals d'una versió potent; una fuita en ús exigent pot buidar el circuit amb rapidesa.",
+          "enlace": "taller-motores"
+        }
+      ],
+      "mantenimiento": [
+        "Una inspecció anual amb oli i filtre permet obrir el filtre, controlar partícules i establir una tendència de consum i fuites. El quilometratge per si mateix no protegeix un cotxe parat: líquid de frens, refrigerant, corretges, pneumàtics, juntes i combustible també envelleixen.",
+        "El servei de manteniment complet ha d'incorporar bugies, filtres, corretges auxiliars, bobines, part inferior de la carrosseria, frens i circuit de refrigeració. Ajusta l'interval a ús urbà, circuit o trajectes curts. Si falta historial, crea una línia base abans d'invertir en millores estètiques.",
+        "A Tiptronic, caixa de canvis manual i diferencials, comprova nivell, fuites i data del lubricant. A Turbo i GT afegeix pressió de sobrealimentació, estanquitat d'admissió i fixació de canonades. Un canvi d'oli no corregeix sincronitzadors gastats ni convertidors defectuosos, però ajuda a descobrir el problema aviat.",
+        "Neteja periòdicament radiadors i drenatges sense fer malbé aletes, i comprova l'espai entre radiador i condensador. Mantingues pressions i edat de pneumàtics homogènies per eix. Després d'intervenir suspensió, realitza geometria amb alçades i càrregues correctes."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "Hem documentat el trencament de l'arbre intermedi en un M96 3.4 i el procés de reconstrucció posterior. El cas permet veure danys, mesuraments i decisions que no mostra una descripció genèrica de l’IMS.",
+        "També revisem refrigeració, bore scoring i transmissió abans de recomanar una intervenció. La prioritat és saber si el motor està sa, reparable de manera localitzada o necessita reconstrucció."
+      ],
+      "articulos": [
+        "porscheroturasmotorm96valentin",
+        "que-es-el-ims-de-porsche",
+        "porsche-bore-scoring"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol entrar en un 911 modern de mida raonable, el farà servir i reserva pressupost per a una posada al dia del manteniment basada en diagnòstic. Un Carrera manual senzill ofereix l'experiència essencial; un 4S prioritza aspecte i tracció; un Turbo és una altra arquitectura i una altra escala de consumibles.",
+        "No convé a qui espera que instal·lar un IMS elimini tot risc o compra la unitat més barata sense inspecció. Si busques caràcter refrigerat per aire, el 964 o 993 són alternatives més costoses; si prefereixes interior més actual i fars rodons, compara amb un 997, sense oblidar que també requereix una revisió de motor específica."
+      ]
+    },
+    {
+      "slug": "porsche-997",
+      "title": "Guia Porsche 997: versions, avaries i compra",
+      "metaTitulo": "Porsche 997: guia de compra, bore scoring i manteniment",
+      "metaDescripcion": "Guia del Porsche 997 de 2004 a 2012: diferències entre 997.1 i 997.2, bore scoring, IMS, PDK i comprovacions abans de comprar-ne un.",
+      "excerpt": "Les diferències que canvien una compra de Porsche 997: motors M96/M97 i MA1, Carrera davant de Turbo/GT, diagnosi i costos ajornats.",
+      "entradilla": [
+        "El Porsche 997 va recuperar els fars rodons i va refinar la base del 996, però no és una sola proposta mecànica. La primera sèrie empra motors M96/M97 a Carrera i l'arquitectura Mezger a Turbo i GT; l'actualització 997.2 incorpora injecció directa, motors MA1 i PDK a les versions de carrer. Aquesta frontera importa més al taller que un canvi de para-xocs.",
+        "Una cotxe ben cuidat segueix sent ràpida, compacta i fàcil dusar. També pot acumular una factura gran si s'ha normalitzat consum d'oli, s'ha omès el servei de la caixa de canvis o s'ha preparat per a circuit sense documentar-lo. La inspecció ha de llegir el cotxe com a sistema: motor, refrigeració, transmissió, frens, suspensió, carrosseria i dades de funcionament.",
+        "L'objectiu de la guia és decidir quina versió respon al teu ús i què mesurar abans de negociar. IMS i bore scoring mereixen atenció, però no substitueixen revisar cops, corrosió localitzada, radiadors, embragatge, PDK, PASM o els elements específics de Turbo i GT."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "2004-2012"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé, Cabriolet i Targa"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres, 3,6-4,0 l; atmosfèric o biturbo"
+        },
+        {
+          "clave": "Potència",
+          "valor": "325-620 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual, Tiptronic al 997.1 o PDK al 997.2"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Aproximadament 213.000 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Carrera 997.1",
+          "texto": "Des del 2004, amb 3,6 litres i 325 CV; el Carrera S utilitza 3,8 litres i 355 CV. El 3,8 mereix una comprovació especialment curosa de cilindres i consum d'oli."
+        },
+        {
+          "nombre": "Carrera 997.2",
+          "texto": "Des del 2008, motors d'injecció directa amb 345 CV a Carrera i 385 CV a Carrera S. Desapareix l'IMS segellat del disseny anterior i arriben PDK i una electrònica revisada."
+        },
+        {
+          "nombre": "Carrera 4, 4S i Targa",
+          "texto": "Afegeixen tracció total; Targa incorpora sostre de vidre i porta. La compra ha d'incloure pneumàtics equivalents, transmissió silenciosa i funcionament complet de sostre, drenatges i cortineta."
+        },
+        {
+          "nombre": "Turbo",
+          "texto": "El 997.1 Turbo ofereix 480 CV amb motor Mezger; el 997.2 passa a injecció directa i 500 CV, amb Turbo S de 530 CV. Canonades, geometria de turbos, frens i transmissió requereixen pressupost propi."
+        },
+        {
+          "nombre": "GT3 i GT3 RS",
+          "texto": "De 415 CV al GT3 3.6 a 450 CV al RS 4.0. Hores, sobrerègim, ús de circuit, frens, gàbia i peces específiques han de concordar amb l'historial i la configuració de fàbrica."
+        },
+        {
+          "nombre": "GT2 i GT2 RS",
+          "texto": "Propulsió posterior i motor biturbo, amb 530 CV a GT2 i 620 CV a GT2 RS. En aquestes unitats, l'autenticació i un mesurament estructural professional no són opcionals."
+        }
+      ],
+      "antesDeComprar": [
+        "Confirma si és 997.1 o 997.2 per any model, VIN i codi de motor, no per peces exteriors. Un cotxe pot portar pilots o PCM actualitzats sense canviar d'arquitectura. Comprova a més opcions rellevants com ara PASM, diferencial, frens ceràmics, Sport Chrono i seients.",
+        "A Carrera 997.1 inspecciona filtre i oli, registra consum i realitza boroscòpia si la història, els símptomes o el motor ho aconsellen. Sutge marcat en una escapament, colpeig en calent i fum unilateral eleven la sospita de bore scoring, especialment al 3.8.",
+        "Aclareix l'IMS instal·lat als primers motors, però evita comprar només una factura de substitució. Verifica quina peça es va muntar, qui la va instal·lar i què es va inspeccionar. Molts 997.1 posteriors porten un rodament de més diàmetre que no s'extreu igual amb el motor tancat.",
+        "Llegeix hores i rangs de sobrerègim, errors emmagatzemats, comptadors d'encesa i adaptacions. Relaciona'ls amb quilometratge, embragatge i desgast. Un esdeveniment recent en rang alt, o dades esborrades sense explicació, justifiquen ampliar proves abans de decidir.",
+        "Revisa frontal per sota, radiadors, condensadors, bomba, termòstat i empremtes de refrigerant. A Turbo/GT examina unions de tubs de refrigeració i oli, sobrealimentació, escapaments i qualsevol augment de potència. Una reprogramació canvia la càrrega tèrmica i la lectura de l'historial.",
+        "Prova PDK o Tiptronic amb el motor fred i calent, maniobres lentes i plena càrrega moderada. En manual, observa embragatge, sincronitzadors i volant. Avalua PASM, suports dinàmics, elevador davanter, PCCB i rodes amb femella central amb eines i procediments apropiats."
+      ],
+      "averias": [
+        {
+          "titulo": "Bore scoring en Carrera 997.1",
+          "texto": "El ratllat no es diagnostica per reputació ni es descarta perquè el cotxe corri bé. Consum d'oli, soroll tipus tic en calent, sutge desigual i marques vistes des de l'angle correcte formen el conjunt de símptomes. Si progressa, augmenta joc, contaminació i cost de la reconstrucció.",
+          "enlace": "taller-bore-scoring"
+        },
+        {
+          "titulo": "IMS i fuites en M96/M97",
+          "texto": "Els primers Carrera conserven rodament IMS i poden presentar fuites de RMS o d'altres juntes properes. Cada configuració exigeix un procediment diferent. Una taca entre motor i caixa de canvis s'ha de netejar i localitzar abans d'atribuir-la a la retén o decidir desmuntatge.",
+          "enlace": "taller-ims"
+        },
+        {
+          "titulo": "Refrigeració i bomba d'aigua",
+          "texto": "Ventiladors actius amb freqüència, temperatura que oscil·la, olor dolça o residu sec requereixen prova de pressió i neteja frontal. Un circuit que perd capacitat tèrmica eleva el risc del motor, la caixa de canvis i l'aire condicionat, encara que l'indicador encara no marqui alarma."
+        },
+        {
+          "titulo": "PDK, Tiptronic i canvi manual",
+          "texto": "Cop en seleccionar, embragatges que tremolen, marxa que salta o sincronitzat lent són símptomes diferents. La diagnosi ha d'incloure valors de desgast i temperatura quan estiguin disponibles. Circular fins que la caixa de canvis entri en emergència limita opcions de reparació.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "PASM, suports i trens de rodatge",
+          "texto": "Amortidor humit, avís de PASM, rebots o canvis de suport imprecisos indiquen que no n'hi ha prou amb una geometria. Braços, copel·les, suports de motor i pneumàtics s'avaluen junts. En suports dinàmics, la fallada pot quedar registrada abans de ser evident en conduir."
+        },
+        {
+          "titulo": "Turbo i GT: conductes i ús intens",
+          "texto": "Pèrdues en unions de refrigerant, actuadors fatigats, fissures d'escapament o frens sobreescalfats tenen conseqüències ràpides sota càrrega. Revisa també part inferior de la carrosseria, punts de suport i sobre-règim. Un cotxe de circuit ben mantingut pot ser millor que un de carretera amb historial incomplet, però cal demostrar-ho.",
+          "enlace": "taller-motores"
+        }
+      ],
+      "mantenimiento": [
+        "Mantingues una inspecció anual amb oli i filtre, fins i tot per sota del quilometratge oficial, si predomina ús curt o estacional. Obrir el filtre i registrar consums aporta informació històrica. No canviïs de viscositat per amagar soroll o consum sense diagnosticar la causa.",
+        "El servei de manteniment complet inclou bugies, filtres, corretja, bobines, refrigeració, frens i part inferior de la carrosseria. En motors d'injecció directa afegeix atenció a injectors, pressió de combustible i dipòsits en admissió quan hi hagi errors o pèrdua de rendiment.",
+        "Respecta el servei per temps de PDK, Tiptronic, diferencials i sistema de tracció total. En manual revisa embragatge i varillatge. Després de renovar suspensió o pneumàtics, ajusta geometria segons la versió i l'ús, no amb un valor genèric per a tots els 997.",
+        "Neteja el paquet radiador-condensador, renova líquid de frens i controla edat de pneumàtics. A PCCB mesura estat amb el mètode adequat i evita jutjar només per aparença. Per a circuit redueix intervals i registra temperatures, pastilles i parells de serratge."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "Al Magazine es documenten un motor M97 portat de 3,8 a 4,0 litres amb solucions de cilindre específiques, una rehabilitació de 997.1 Turbo i la instal·lació de nose lift en un 997.1.",
+        "Són tres exemples de necessitats diferents: corregir una avaria interna, reconstruir una mecànica sobrealimentada i adaptar-ne l'ús sense comprometre el conjunt."
+      ],
+      "articulos": [
+        "porscheupgard40m97-bore-scoring-f3whn",
+        "porsche9971turbo",
+        "porsche9971noselift-f3whn-trwdw"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol un 911 de sensacions de conducció encara compacte amb equipament modern i està disposat a escollir per motor i historial. Un 997.2 Carrera redueix algunes preocupacions del 997.1, però no elimina refrigeració, injecció, PDK o xassís. El 997.1 pot ser una excel·lent compra si els seus mesuraments són bons i el preu reflecteix el manteniment.",
+        "No convé a qui només accepta respostes binàries sobre IMS o bore scoring. Si busques un cost d'accés menor, compara un 996 inspeccionat; si prioritzes habitacle i assistència més actuals, un 991. Turbo i GT no són simplement Carrera més ràpids: exigeixen consumibles, diagnosi i pressupost acords."
+      ]
+    },
+    {
+      "slug": "porsche-993",
+      "title": "Guia Porsche 993: versions, avaries i compra",
+      "metaTitulo": "Porsche 993: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche 993 de 1994 a 1998: Carrera, Turbo i RS, punts d'òxid, fuites, encesa, suspensió i inspecció abans de comprar-ne un.",
+      "excerpt": "Què revisar a l'últim 911 refrigerat per aire: carrosseria, motor, Varioram, doble sistema d’encesa, xassís multibraç i historial real.",
+      "entradilla": [
+        "El Porsche 993 és l'últim 911 de sèrie refrigerat per aire i el primer amb un eix del darrere multibraç que va canviar de forma clara el seu comportament. Conserva dimensions compactes, però la carrosseria, climatització, electrònica i suspensió són més complexes que en un 964. Aquesta barreja explica que una unitat amb pintura brillant pugui necessitar una inversió important sota gomes, tapes i passos de roda.",
+        "La compra es decideix menys per la fama de robustesa que no pas per l'execució del manteniment. Fuites, guies de vàlvula, encesa doble, volant d'inèrcia bimassa, evaporador i silentblocks envelleixen de maneres diferents. En cotxes d'alt valor, també cal autenticar opcions, color, números i reparacions estructurals abans de discutir si un quilometratge és baix.",
+        "La inspecció abans de la compra ha de començar en fred, continuar en elevador i acabar amb diagnosi i prova a la carretera. Un 993 pot tolerar petites empremtes; no convé normalitzar fum persistent, òxid en estructura, jocs de direcció ni una climatització anul·lada perquè la seva reparació sigui laboriosa."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1994-1998"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé, Cabriolet i Targa"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres refrigerat per aire, 3,6-3,8 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "272-450 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 6 marxes o Tiptronic S de 4"
+        },
+        {
+          "clave": "Producció",
+          "valor": "68.881 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Carrera",
+          "texto": "3,6 litres, 272 CV a l'inici i 285 CV amb Varioram des del 1995/1996 segons mercat i any model. Propulsió del darrere, canvi manual o Tiptronic i carrosseria estreta."
+        },
+        {
+          "nombre": "Carrera 4",
+          "texto": "Tracció total més lleugera i senzilla que la del 964 Carrera 4, amb la mateixa potència atmosfèrica. Revisa manxa, transmissió davantera, pneumàtics equivalents i absència de tensions o sorolls."
+        },
+        {
+          "nombre": "Carrera S i 4S",
+          "texto": "Carrosseria ampla d'aspecte Turbo. El 4S incorpora tracció total i equip proper al Turbo; el Carrera S manté propulsió. La prima exigeix verificar que no sigui una conversió estètica."
+        },
+        {
+          "nombre": "Targa",
+          "texto": "Fes servir un sostre de vidre lliscant específic, no el panell desmuntable clàssic. El seu funcionament, guies, cortineta, segellat i disponibilitat de peces mereixen una prova completa."
+        },
+        {
+          "nombre": "Turbo",
+          "texto": "Des del 1995, biturbo, tracció total i 408 CV; el Turbo S va aconseguir 450 CV. Comprova turbos, fuites, transmissió, frens, conductes i autenticitat de qualsevol preparació."
+        },
+        {
+          "nombre": "Carrera RS i GT2",
+          "texto": "El RS 3.8 lliura 300 CV; el GT2 parteix de 430 CV i evoluciona a 450 CV. Són cotxes escassos on historial esportiu, carrosseria, peces lleugeres i números requereixen peritatge especialitzat."
+        }
+      ],
+      "antesDeComprar": [
+        "Verifica VIN, etiquetes d'opcions, color d'origen i números de motor i caixa de canvis quan el valor depengui d'autenticitat. Busca factures de feines, lectures de quilometratge i fotografies anteriors. Un llibre segellat sense detall no prova quines juntes, guies, embragatge o suspensió s'han renovat.",
+        "Arrenca completament en fred i observa fum, taquès, ralentí i pressió. En calent prova retenció i acceleració, mesura fuites i compressió si hi ha dubtes i revisa consum documentat. Fum després d'una llarga retenció pot orientar guies de vàlvula, però cal separar oli extern, retens i desgast intern.",
+        "Inspecciona tapes de distribució, tapes de balancins, retorns i unió motor-caixa de canvis. Revisa el doble distribuïdor, la corretja i ventilació. Comprovar espurna a les dotze bugies i estat de cables evita acceptar com a normal un motor que treballa parcialment.",
+        "Aixeca gomes de parabrises i vidre amb cura, revisa marcs, canalons, bases d'aleta, passos del darrere, suports de para-xocs, terres i punts d'elevació. A les portes, comprova l'ancoratge del limitador: una esquerda mal reparada al pilar torna a obrir-se.",
+        "Prova climatització durant prou temps. L'evaporador pot perdre sense deixar un toll evident i substituir-lo implica moltes hores. Comprova també ventiladors, calefacció, aleró, elevallunes, tancament, sostre i consum paràsit de bateria.",
+        "A la carretera busca estabilitat en frenada, direcció centrada i suports progressius. Cops secs o deriva assenyalen braços, ròtules, amortidors o geometria; pneumàtics vells poden disfressar o amplificar el problema. A Tiptronic exigeix funcionament suau amb el motor fred i calent."
+      ],
+      "averias": [
+        {
+          "titulo": "Fuites d'oli",
+          "texto": "Olor en calefacció, fum en aturar-se o gotes sobre intercanviadors requereixen localitzar la fuita. Tapes i retens es poden reparar sense obrir el motor, mentre que altres pèrdues coincideixen amb desgast intern. Netejar, aplicar traçador si escau i revisar després evita pressupostos basats en brutícia antiga.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Guies de vàlvula i consum d'oli",
+          "texto": "Fum blavós en retenció o en tornar a accelerar, consum creixent i dipòsits en bugies justifiquen mesuraments. Deixar avançar el desgast augmenta consum, embruta càmeres i catalitzadors i pot acabar exigint una revisió de culates més àmplia.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Doble distribuïdor i encesa",
+          "texto": "Una corretja interna o un cable defectuós pot deixar part del doble sistema d’encesa fora de servei. El motor encara funciona, però empitjoren combustió i temperatura. La ventilació correcta i la inspecció periòdica són més econòmiques que no pas reparar danys per detonació."
+        },
+        {
+          "titulo": "Òxid en marcs i suports",
+          "texto": "Bombolles al costat de llunes, humitat, segellador recent o suports de para-xocs debilitats demanen desmuntatge parcial abans de valorar. Pintar per sobre reté corrosió i pot amagar una reparació estructural. La factura depèn de l'extensió real, no de la mida visible.",
+          "enlace": "taller-pintura"
+        },
+        {
+          "titulo": "Suspensió multibraç i direcció",
+          "texto": "Silentblocks endurits, ròtules i amortidors gastats redueixen la precisió que distingeix el 993. Si el cotxe segueix roderes, colpeja o gasta pneumàtics de forma irregular, corregeix jocs abans d'alinear. Barrejar components nous i esgotats produeix un resultat incoherent."
+        },
+        {
+          "titulo": "Evaporador i climatització",
+          "texto": "Recarregar gas cada temporada no repara una fuita. Pressió que cau, olor, ventiladors irregulars o manca de calor s'han de diagnosticar per circuit. Posposar l'evaporador no sol trencar el motor, però afecta l'ús, l'desentelament i el valor, i convé incloure'l en el preu de compra."
+        }
+      ],
+      "mantenimiento": [
+        "Programa oli i filtre almenys una vegada a l'any en ús ocasional i registra pressió, fuites i consum. Una revisió visual repetida permet saber si una sudoració roman estable. Controla conductes de combustible i oli, corretges i elements d'encesa per edat.",
+        "Al servei de manteniment complet inclou bugies, filtres, reglatge de vàlvules quan correspongui, doble distribuïdor i anàlisi de fuites. Varioram ha d'accionar sense pèrdues ni errors. No atribueixis una manca de potència a l'edat fins a comprovar encesa, admissió i compressió.",
+        "Renova líquid de frens per temps i revisa pinces, discos, flexibles i fre de mà. Canvis i diferencials necessiten lubrificant correcte i control de fuites; a Carrera 4, afegeix transmissió davantera. A Tiptronic documenta servei, temperatura i estat del fluid.",
+        "La suspensió es manté com a conjunt: braços, amortidors, copel·les, ròtules, alçades i geometria. Després de qualsevol intervenció munta pneumàtics d'edat i especificació coherents. Un mantenidor de bateria hi ajuda, però no substitueix recorreguts complets i regulars."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "Els treballs de motor i carrosseria publicats per Valentín Motors sobre generacions refrigerades per aire ensenyen el mateix mètode aplicable al 993: desmuntar només després de diagnosticar, mesurar abans de demanar peces i documentar cada fase.",
+        "Quan no hi ha un article específic del model, evitem presentar un altre projecte com si ho fos. La inspecció del 993 es recolza en la seva pròpia arquitectura i l'estat del cotxe concret."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol el darrer 911 refrigerat per aire amb un xassís més estable i una ergonomia raonable per viatjar. Carrera i Carrera 4 són utilitzables; S, 4S i Turbo afegeixen valor, amplada, consumibles i necessitat d'autenticar. Estat i traçabilitat justifiquen més la prima que un odòmetre baix.",
+        "No convé a qui evita feines de carrosseria ocultes o pretén mantenir-lo sense especialista. Un 964 ofereix una experiència anterior i direcció més clàssica; un 996 costa menys i climatitza millor, però canvia a aigua i obre una altra llista d'inspecció."
+      ]
+    },
+    {
+      "slug": "porsche-930",
+      "title": "Guia Porsche 930 Turbo: versions, avaries i compra",
+      "metaTitulo": "Porsche 930 Turbo: guia de compra i avaries",
+      "metaDescripcion": "Guia del Porsche 930 Turbo de 1975 a 1989: 3.0 i 3.3, CIS, turbo, fuites, corrosió i les comprovacions essencials abans de comprar.",
+      "excerpt": "Què mirar en un Porsche 930 abans de comprar: identitat, carrosseria, combustible, turbo, motor, caixa de canvis de quatre marxes i el singular G50 del 1989.",
+      "entradilla": [
+        "El Porsche 930 va convertir el 911 Turbo en un model de producció i va conservar durant anys una mecànica molt particular: fort retard de resposta, motor refrigerat per aire, injecció CIS i, fins al 1988, caixa de canvis de quatre marxes. No és un Carrera amb aletes amples. La càrrega tèrmica, els conductes de combustible, el turbocompressor i el lliurament de parell obliguen a revisar i conduir d'una altra manera.",
+        "El seu valor actual ha afavorit restauracions excel·lents i també reconstruccions fetes per semblar correctes en fotografies. La compra exigeix autenticar xassís, motor, caixa de canvis, color, equipament i país, mesurar la carrosseria i documentar qualsevol canvi d'especificació. Un 911 G transformat visualment no adquireix la identitat d'un 930.",
+        "Des del taller, la prioritat és seguretat abans que potència: estanquitat de combustible i oli, encesa, barreja, pressió de control, frens, pneumàtics i estructura. Només després té sentit valorar pressió de sobrealimentació o millores. Un ajustament pobre de CIS pot fer que un cotxe arrenqui i tot i així treballi perillosament sota càrrega."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1975-1989"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé; Targa, Cabriolet i Slantnose en anys posteriors"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres turbo refrigerat per aire, 3,0 i 3,3 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "260-330 CV en versions europees de producció"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 4 marxes; G50 de 5 marxes el 1989"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Aproximadament 21.500 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Turbo 3.0",
+          "texto": "Del 1975 al 1977, amb 260 CV a Europa, aleró posterior i frens inicials específics. La producció baixa fa essencials l'autenticitat i el respecte a components d'època."
+        },
+        {
+          "nombre": "Turbo 3.3",
+          "texto": "Des de 1978, 300 CV, intercooler i aleró redissenyat. Evoluciona durant més d'una dècada, per això frens, climatització, rodes i detalls s'han de contrastar amb l'any exacte."
+        },
+        {
+          "nombre": "Turbo 3.3 amb catalitzador",
+          "texto": "Alguns mercats van rebre potències i sistemes anticontaminació diferents. Importació, relació de compressió, escapament i CIS s'han d'identificar abans de comparar xifres o demanar peces."
+        },
+        {
+          "nombre": "Targa i Cabriolet",
+          "texto": "Les carrosseries obertes van arribar a l'etapa final. Revisa reforços, ajustament de portes, sostre de lona, drenatges i corrosió; un mal comportament estructural no es resol amb nous amortidors."
+        },
+        {
+          "nombre": "Slantnose",
+          "texto": "Les variants Flachbau de fàbrica són escasses i molt copiades. Fars, aletes, entrades, codis d'opció i documentació d'origen han de ser verificats per algú familiaritzat amb aquestes sèries."
+        },
+        {
+          "nombre": "Model 1989 amb G50",
+          "texto": "Any passat, caixa de canvis de cinc marxes i embragatge hidràulic. La prima de mercat exigeix confirmar que el conjunt és original; la conducció canvia, però no elimina les revisions de motor i carrosseria."
+        }
+      ],
+      "antesDeComprar": [
+        "Comença per identitat. Contrasta VIN, número de motor, caixa de canvis, placa de pintura, opcions i documentació d'importació. Comprova que alerons, aletes, frens, interior i rodes corresponguin a l'any. Fotografia estampacions i cerca signes de regrabat o substitució no documentada.",
+        "Mesura gruixos i geometria, inspecciona panell frontal, allotjament de la bateria, torretes, passos, taloneres, base de pilars, safata del darrere i punts d'elevació. Un cop antic pot haver desplaçat ancoratges encara que les folgures exteriors semblin uniformes.",
+        "Examina conductes de combustible des de dipòsit a motor, acumulador, bomba, connexions del CIS i injectors. Olor, humitat o mànegues sense data impedeixen una prova exigent. En una va calenta i sobrealimentada, una fuita petita té conseqüències desproporcionades.",
+        "Engega en fred i repeteix en calent. Mesura pressions de combustible i control, barreja sota càrrega, compressió i fuites. Observa fum abans i després de retenció, pressió d'oli i tornada del turbo. No ajusta barreja per ocultar un problema de pressió, buit o encesa.",
+        "Comprova turbo per joc, fuites, resposta i pressió, a més d'intercooler, vàlvula de descàrrega, fuita i modificacions. Un cotxe que lliura un pic de potència alt no necessàriament està sa; pot treballar pobre, detonar o superar la pressió prevista.",
+        "Prova caixa de canvis i embragatge ja calents. En quatre marxes, valora sincronitzadors sense forçar; a G50, pedal, cilindres i selecció. Revisa frens, tubs flexibles, rodaments, esmorteïdors i edat de pneumàtics abans d'explorar prestacions."
+      ],
+      "averias": [
+        {
+          "titulo": "Fuites i envelliment del sistema de combustible",
+          "texto": "Olor, arrencada difícil, humitat en ràcords o maneguets esquarterats exigeixen immobilitzar i provar pressió. La conseqüència no és només pèrdua de rendiment: el combustible pot assolir encesa, fuita o turbo. Substitueix línies amb material i ruta correctes, no amb una solució improvisada.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "CIS desajustat o amb pressió incorrecta",
+          "texto": "Arrencada en calent prolongat, ralentí que oscil·la, estrebades i manca de combustible sota càrrega poden procedir d'acumulador, regulador, entrades d'aire, bombes o injectors. Girar el cargol de barreja sense mesurar pot amagar el símptoma en ralentí i empitjorar la seguretat a plena càrrega."
+        },
+        {
+          "titulo": "Turbo, retens i retorn d'oli",
+          "texto": "Fum blau persistent, oli en admissió o escapament i resposta anòmala requereixen revisar turbo, tornada, pressió del càrter i estat del motor. Canviar el turbocompressor sense corregir el drenatge o la causa de sobrepressió pot repetir l'avaria."
+        },
+        {
+          "titulo": "Espàrrecs, culates i fuites d'oli",
+          "texto": "Colpeig, fuita a base de cilindre, pèrdua de compressió o espàrrecs trencats demanen una avaluació completa. Seguir augmentant pressió de turbo accelera el mal. Si s'obre cal mesurar càrter, cilindres, culates, distribució i lubricació abans de definir abast.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Sincronitzadors i embragatge",
+          "texto": "Rascat en reduir, marxa que no roman engranada o embragatge que patina sota sobrealimentació no són part del caràcter del 930. Forçar canvis perjudica dents i selectors. Un diagnòstic primerenc separa ajustament, embragatge, varillatge i reconstrucció de caixa de canvis.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Corrosió i reparacions després d'un accident",
+          "texto": "L'amplada d'aletes i el valor del model fan freqüents les reparacions i les conversions. Soldadures, segellador, simetria de punts i gruixos expliquen la història. La nova pintura sense documentació ha de provocar més inspecció, no més confiança.",
+          "enlace": "taller-pintura"
+        }
+      ],
+      "mantenimiento": [
+        "Revisa oli i filtre almenys cada any i controla consum, pressió i temperatura en condicions comparables. Inspecciona malles o taps quan correspongui, conductes cap a radiador, retorn del turbo i fuites sobre fuita. Deixa estabilitzar temperatures abans d'exigir càrrega i permet que baixi la temperatura després d'un ús intens.",
+        "El servei de manteniment complet ha de cobrir reglatge de vàlvules, bugies, encesa, filtres, pressions CIS, injectors, corretges, turbo i escapament. El combustible modern i els llargs períodes aturat justifiquen vigilar dipòsits, bombes i acumulador amb més freqüència.",
+        "Renova líquid de frens per temps i revisa pinces, discos, tubs flexibles i rodaments. La potència no compensa pneumàtics antics ni amortidors esgotats. Ajusta geometria i alçades després d'eliminar folgures, respectant l'especificació i l'ús.",
+        "Caixa de canvis, diferencial i embragatge necessiten inspecció de fuites i lubricant correcte. El 1989 afegeix hidràulic d'embragatge. Si hi ha preparació de potència, redueix intervals i documenta mescla, pressió, temperatura i components; una modificació no documentada complica tant el diagnòstic com la revenda."
+      ],
+      "tarifa": "tarifa-turbo",
+      "loQueHemosHecho": [
+        "Valentín Motors ha publicat restauracions de motors 930 Turbo 3.0 i 3.3, una restauració completa de 930 i la recuperació d'una unitat afectada per incendi.",
+        "Aquests casos il·lustren dues prioritats d'aquesta guia: revisar combustible i calor abans de cercar prestacions i mesurar la carrosseria fins a trobar el límit real del dany."
+      ],
+      "articulos": [
+        "restauracion-de-un-porsche-911-930-turbo",
+        "restauracion-incendio-930-turbo-1976",
+        "restauracion-motor-930-turbo-30-1988",
+        "restauracion-motor-965-turbo-33"
+      ],
+      "aQuienLeConviene": [
+        "Convé un conductor que comprèn el lliurament d'un turbo clàssic, escalfarà la mecànica, mantindrà frens i pneumàtics al màxim nivell i accepta una inspecció tècnica abans de perseguir originalitat estètica. El 3.3 ofereix més disponibilitat; un 3.0 o Flachbau exigeix peritatge més estricte.",
+        "No convé com a primer clàssic si busques reaccions progressives, costos previsibles o ús urbà freqüent. Un 911 G atmosfèric és més lineal; un 964 Turbo afegeix ajudes i cinc marxes, encara que segueix sent especialitzat; un 996 Turbo ofereix molta més facilitat d'ús amb una arquitectura diferent."
+      ]
+    },
+    {
+      "slug": "porsche-356",
+      "title": "Guia Porsche 356: versions, òxid i compra",
+      "metaTitulo": "Porsche 356: guia de compra, òxid i manteniment",
+      "metaDescripcion": "Guia del Porsche 356 de 1948 a 1965: Pre-A, A, B i C, autenticitat, corrosió estructural, motor, frens i inspecció abans de comprar.",
+      "excerpt": "La compra d'un Porsche 356 comença per l'estructura: com revisar òxid, números, motor, caixa de canvis, frens i qualitat d'una restauració antiga.",
+      "entradilla": [
+        "El Porsche 356 sembla mecànicament senzill, però comprar-ne un exigeix més disciplina que comprar un clàssic modern. La seva carrosseria monocasc depèn de travessers, terres, travessers i punts de suspensió que poden haver patit corrosió i diverses restauracions. Un motor que arrenca bé no compensa una estructura reparada sense geometria.",
+        "La denominació abasta Pre-A, A, B i C, a més de coupé, Cabriolet, Speedster, Roadster i les escasses versions Carrera de quatre arbres de lleves. Durant la producció van canviar frens, caixes de canvis, motors, parabrises i centenars de detalls. L'autenticitat s'ha de jutjar contra xassís i data concrets, no pas contra una imatge genèrica d'un 356.",
+        "Des del taller, la millor compra és una unitat que permeti veure què es va fer: fotografies del metall nu, mesuraments, factures, números i peces retirades. Una restauració envellida però honesta pot ser preferible a pintura recent sobre soldadures desconegudes. La guia ordena la revisió, però una unitat valuosa necessita elevador i especialista."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1948-1965"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé, Cabriolet, Speedster, Convertible D i Roadster"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de quatre cilindres refrigerat per aire, 1,1-2,0 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "40-130 CV segons versió de carrer"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 4 marxes"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Aproximadament 76.000 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "356 i Pre-A",
+          "texto": "Del 1948 al 1955, amb parabrises partit o corbat segons etapa i motors de baixa cilindrada. L'escassetat i les variacions artesanals fan essencial confirmar números i detalls amb documentació experta."
+        },
+        {
+          "nombre": "356 A",
+          "texto": "Del 1955 al 1959, ja amb carrosseria T1 i T2, motors 1300 i 1600 i diverses potències. Inclou Speedster i Convertible D, molt reproduïts i transformats."
+        },
+        {
+          "nombre": "356 B",
+          "texto": "Del 1959 al 1963, carrosseries T5 i T6 amb canvis visibles en para-xocs, capós i vidres. Ofereix Normal, Super i Super 90, a més de Roadster i Carrera."
+        },
+        {
+          "nombre": "356 C",
+          "texto": "De 1963 a 1965, incorpora frens de disc a les quatre rodes i motors 1600 C de 75 CV o SC de 95 CV. Sol ser el més senzill d'integrar en trànsit actual."
+        },
+        {
+          "nombre": "Speedster i Roadster",
+          "texto": "Carrosseries obertes lleugeres amb gran prima de valor. Comprova bastidor, reforços, parabrises, seients, sostre de lona i documentació per descartar una conversió de coupé o una rèplica."
+        },
+        {
+          "nombre": "Carrera",
+          "texto": "Motors Fuhrmann de quatre arbres, des de 1,5-2,0 litres i potències molt superiors. La seva complexitat, peces i valor exigeixen especialistes específics; no s'ha de pressupostar com un 1600 varetes."
+        }
+      ],
+      "antesDeComprar": [
+        "Autentica xassís, placa, número de motor i caixa de canvis, i compara'ls amb certificats i registres disponibles. Distingeix matching numbers, motor correcte d'època i motor simplement funcional. A Speedster, Carrera i sèries primerenques, una diferència documental canvia de forma substancial el valor.",
+        "Inspecciona amb elevador i mesurador: safata de bateria, frontal, travessers, terres, travessers, llindars, bases de pilars, passos, suport d'eix davanter i ancoratges del darrere. Busca solapaments, cordons, xapa nova sense imprimació interior i drenatges tancats.",
+        "Mesura diagonals i observa jocs de portes amb el cotxe recolzat i elevat. Una porta que canvia d'ajust en aixecar revela flexió. Comprova caiguda de rodes, posició d'eixos i simetria; una carrosseria bonica pot estar fora de geometria per corrosió o accident.",
+        "Arrenca en fred, verifica pressió, fum i sorolls, i mesura compressió, fuites i joc axial. Examina pèrdues en politja, tubs, tapes i unió de càrter. Comprova carburadors, varillatge, escalfadors i avenç de l'encesa sense compensar desgast amb una barreja excessiva.",
+        "Prova les quatre marxes i reduccions. El rascat pot venir de sincronitzadors, embragatge o ajustament, però no s'ha d'acceptar com a normal. Revisa tubs de l'eix, suports i fuites. Confirma que la relació i la carcassa corresponen a la versió si importa originalitat.",
+        "En frens de tambor, observa estrebades, ovalització i ajustament; en C, fuites i pinces. Revisa sistema de 6 volts, càrrega, arrencada, llums i masses. Pneumàtics de mesura correcta i amortidors sans importen més que muntar components moderns sense coherència."
+      ],
+      "averias": [
+        {
+          "titulo": "Corrosió estructural",
+          "texto": "Òxid en sòls poques vegades acaba a la zona visible. Si afecta travessers, suport davanter o bases de pilars, canvien rigidesa i geometria. Abans de pressupostar, retira segellador en punts representatius i mesura. Substituir plafons sense bancada ni referències pot deixar un cotxe brillant que no circula recte.",
+          "enlace": "taller-pintura"
+        },
+        {
+          "titulo": "Joc axial i desgast del motor",
+          "texto": "Politja que es desplaça, pressió baixa calenta, fum i ventilació excessiva del càrter requereixen mesurar abans d'ajustar. Continuar pot fer malbé càrter, cigonyal i suports. Una reconstrucció correcta inclou cotes, equilibrat i avaluació de culates, no només segments i juntes.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Culates, vàlvules i espàrrecs",
+          "texto": "Pèrdua de compressió, bufat, reglatges que canvien o bugies desiguals poden assenyalar seient, guia, fissura o fixació. El reglatge freqüent no corregeix una vàlvula que s'enfonsa. Diagnosticar aviat evita que una peça solta faci malbé pistó i càmera."
+        },
+        {
+          "titulo": "Carburació i encesa",
+          "texto": "Arrencada difícil, petardeig, bugies negres o temperatura alta poden venir de sincronització, flotadors, sortidors, preses d'aire o avenç. Ajustar carburadors sobre un encesa o motor desgastat produeix resultats temporals i consum elevat."
+        },
+        {
+          "titulo": "Canvi i mecanisme de comandament",
+          "texto": "Rascat en segona, palanca imprecisa o soroll en retenció han de separar casquets, embragatge, suports i sincronitzadors. Forçar una caixa de canvis freda accelera desgast. L'oli correcte i un varillatge ajustat ajuden, però no reconstrueixen superfícies gastades.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Frens i circuit de 6 volts",
+          "texto": "Un tambor mal centrat o un bombí humit provoca desviació; una massa deficient redueix llum i velocitat d'arrencada. Tots dos sistemes requereixen mètode i components correctes. Convertir 12 volts o discos pot ser pràctic, però s'ha de documentar i valorar davant d'originalitat."
+        }
+      ],
+      "mantenimiento": [
+        "En un 356 importa la freqüència: oli, greixatge de punts previstos, vàlvules, encesa, carburadors i fuites s'han de revisar amb intervals curts i també per temps. Registra el reglatge de cada vàlvula; una tendència val més que un full que només diu revisió feta.",
+        "Neteja malles, revisa corretja del ventilador i els seus calços, conductes d'aire i segellat del compartiment. Un motor refrigerat per aire depèn que xapes, goma perimetral i termòstat estiguin presents i muntats. Peces cromades o pintura no compensen aire calent recirculat.",
+        "Renova líquid de frens per temps, ajusta tambors quan correspongui i revisa rodaments, pivots, amortidors i direcció. Lubrica frontisses, tancaments i cables. En sistema de 6 volts mantingues bateries, masses i seccions de cable en estat original de funcionament.",
+        "Utilitza el cotxe amb regularitat i deixa que arribi a temperatura sense exigir-li en fred. Abans de períodes llargs sense ús, protegeix combustible i bateria i evita la humitat. Una inspecció anual de cavitats i drenatges permet tractar la corrosió abans que calgui obrir la carrosseria."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "Els processos de restauració publicats per Valentín Motors mostren el criteri aplicable al 356: documentar desmuntatge, eliminar corrosió en lloc de cobrir-la i comprovar cotes abans de tancar i pintar.",
+        "Per a una unitat concreta, cal decidir l'abast després d'inspeccionar metall, números i mecànica. No traslladem automàticament el pressupost d'un altre clàssic a un 356."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui gaudeix d'una conducció lleugera i participativa a velocitats moderades, accepta manteniment freqüent i valora documentació i qualitat de restauració per sobre de potència. Un 356 C sol facilitar-ne l'ús; un A, Speedster o Carrera afegeix raresa i una investigació més exigent.",
+        "No convé a qui necessita protecció, climatització i frenada d'un cotxe modern o el vol deixar mesos sense atenció. Un 911 F ofereix més prestacions mantenint llenguatge clàssic; un 912 pot donar sensacions properes amb una altra valoració; una rèplica s'ha de comprar i assegurar com el que és."
+      ]
+    },
+    {
+      "slug": "porsche-911g",
+      "title": "Guia Porsche 911 G: versions, avaries i compra",
+      "metaTitulo": "Porsche 911 G: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche 911 G de 1974 a 1989: 2.7, Carrera 3.0, SC i 3.2, òxid, motor, CIS, canvi 915 o G50 i inspecció abans de comprar.",
+      "excerpt": "No tots els Porsche 911 G es revisen igual: punts crítics del 2.7, Carrera 3.0, SC i Carrera 3.2 abans de decidir una compra.",
+      "entradilla": [
+        "La sèrie G va mantenir durant setze anys la silueta del 911 amb para-xocs de manxa, però sota aquesta aparença conviuen motors 2.7, Carrera 3.0, SC 3.0 i Carrera 3.2, a més de caixes de canvis, injeccions i acabats diferents. La denominació comercial no és suficient per comprar peces ni per anticipar avaries; primer cal fixar any model, mercat i configuració.",
+        "Al taller, els problemes més costosos solen venir de tres àrees: corrosió o accidents reparats fa dècades, motor obert sense documentació i manteniment diferit en combustible, encesa i caixa de canvis. Un cotxe restaurat no és automàticament millor. Importa que s'hagin respectat cotes, proteccions internes, parells i toleràncies, i que hi hagi evidència del procés.",
+        "Aquesta guia exclou el 930 Turbo, que té una fitxa pròpia. El seu objectiu és ajudar-te a separar les particularitats de cada atmosfèric i preparar una inspecció abans de la compra útil: arrencada en fred, elevador, mesuraments de motor, prova de caixa de canvis i lectura completa de la carrosseria."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1974-1989"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé, Targa, Cabriolet i Speedster"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres refrigerat per aire, 2,7-3,2 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "150-231 CV en versions europees principals"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual 915 de 5 marxes; G50 des de 1987"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Aproximadament 198.000 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "911 2.7",
+          "texto": "Del 1974 al 1977, amb potències diferents per mercat i versió. Càrter de magnesi, temperatura, espàrrecs i emissions fan especialment important conèixer especificació i reconstruccions anteriors."
+        },
+        {
+          "nombre": "Carrera 2.7",
+          "texto": "La versió europea conserva 210 CV i la injecció mecànica relacionada amb l'RS. L'escassetat exigeix verificar identitat, motor, sistema d'admissió, carrosseria i components d'època."
+        },
+        {
+          "nombre": "Carrera 3.0",
+          "texto": "Del 1976 al 1977, 200 CV, càrter d'alumini i injecció CIS. És una transició poc comuna entre Carrera 2.7 i SC; no s'ha de confondre amb un SC modificat."
+        },
+        {
+          "nombre": "911 SC",
+          "texto": "Del 1978 al 1983, motor 3.0 i injecció CIS, amb potència europea que va evolucionar de 180 a 204 CV. Robust quan està ben ajustat però sensible a entrades d'aire, espàrrecs i manteniment del sistema."
+        },
+        {
+          "nombre": "Carrera 3.2",
+          "texto": "Del 1984 al 1989, injecció Motronic i fins a 231 CV a Europa. Usa caixa de canvis 915 a l'inici i G50 des de 1987; vigila guies de vàlvula, línies de combustible, DME i estat de la caixa de canvis."
+        },
+        {
+          "nombre": "Speedster i edicions especials",
+          "texto": "Speedster, Club Sport, 3.2 WTL i sèries commemoratives tenen elements i produccions específics. La prima només es justifica després d'autenticar opcions i descartar una recreació posterior."
+        }
+      ],
+      "antesDeComprar": [
+        "Contrasta VIN, número de motor i caixa de canvis, placa de pintura, mercat i opcions amb la configuració anunciada. En un període tan llarg, s'han intercanviat motors, interiors, aletes i caixes de canvis. Diferencia una millora reversible d'una unitat que ha perdut identitat sense documentació.",
+        "Revisa bateria i panell frontal, suport de suspensió, passos, bases de pilars, taloneres, tubs de calefacció, terres, marc de vidres, safata del darrere i suports de barra de torsió. Cerca corrosió des dels dos costats i senyals de soldadura o segellador recent.",
+        "Engega en fred sense netejar prèviament el motor. Observa fum, sorolls, pressió i fuites. Mesura compressió i fuites, examina bugies i confirma que el càrter, culates, cilindres i espàrrecs corresponen a les factures si el motor va ser reconstruït.",
+        "A CIS comprova pressió de sistema i control, estanqueïtat d'admissió, injector d'arrencada i acumulador. Un SC que només arrenca bé fred o calent no està ajustat. A Carrera 3.2 revisa relé DME, sensors, cabalímetre i conductes de combustible.",
+        "Prova la caixa de canvis completament calenta. En una 915, el patró i esforç són particulars, però gratar o expulsar una marxa no és normal. A G50 revisa embragatge hidràulic i volant. Separa casquets i ajustament extern de sincronitzadors interns gastats.",
+        "Comprova frens, pneumàtics, amortidors, ròtules i casquets abans de jutjar el comportament. A Targa i Cabriolet revisa ajustament de portes, reforços, sostre de lona, drenatges i filtracions. Una carrosseria flexible o torta no es corregeix amb una alineació."
+      ],
+      "averias": [
+        {
+          "titulo": "Corrosió oculta i cops antics",
+          "texto": "Bombolles en lluna o talonera solen ser la part visible d'una zona major. Desmuntar gomes o proteccions en punts escollits i mesurar diagonals permet pressupostar amb honestedat. Cobrir òxid redueix valor i pot afeblir ancoratges de suspensió.",
+          "enlace": "taller-pintura"
+        },
+        {
+          "titulo": "2.7: temperatura, càrter i espàrrecs",
+          "texto": "Pèrdua de compressió, fuites i espàrrecs arrencats requereixen comprovar planitud i rosques del càrter de magnesi. Amb cotxes amb sistemes tèrmics de certs mercats, l'historial de temperatura és clau. Una reconstrucció correcta inclou mecanitzat i millores justificades, no només juntes.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "CIS i explosió de la caixa d'aire",
+          "texto": "Arrencada difícil, barreja irregular o petardeig poden acabar fent malbé la càmera d'admissió d'aire. Una vàlvula d'alleujament redueix conseqüències, però no corregeix pressions, enceses o entrades d'aire. Diagnostica primer la causa de la reculada."
+        },
+        {
+          "titulo": "Espàrrecs i tensors de cadena",
+          "texto": "Esclafits, fuita a base de cilindre o soroll de cadena en arrencar mereixen inspecció immediata. Tensors actualitzats són una millora coneguda, però la seva presència no demostra l'estat de cadenes, rampes o espàrrecs. Ignorar soroll pot alterar el distribució i causar contacte intern.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Carrera 3.2: guies i combustible",
+          "texto": "Consum d'oli i fum en retenció poden assenyalar guies; olor o humitat en línies superiors exigeix immobilitzar. El motor pot continuar funcionant amb una línia envellida, però una fuita sobre un bloc calent converteix manteniment preventiu en una qüestió de seguretat."
+        },
+        {
+          "titulo": "Canvi 915 o G50",
+          "texto": "Rascat en segona, selecció vaga, soroll o embragatge pesat requereixen distingir varillatge, casquets, cable o hidràulic, embragatge i sincronitzadors. Forçar la palanca accelera desgast. Reparar aviat sol conservar més components reutilitzables.",
+          "enlace": "taller-cajas"
+        }
+      ],
+      "mantenimiento": [
+        "Fes oli i filtre almenys una vegada a l'any, revisa malles o taps segons la versió i registra pressió i consum. Controla fuites sobre intercanviadors i maneguets cap al radiador. Escalfa conduint amb baixa càrrega, no al ralentí perllongat.",
+        "El servei de manteniment complet inclou vàlvules, bugies, encesa, corretges, filtres i prova del sistema de combustible. A CIS mesura pressions; a Motronic comprova sensors i barreja. Revisar conductes de combustible per edat és tan important com el quilometratge.",
+        "Renova líquid de frens, inspecciona pinces, tubs flexibles, discos, rodaments i fre de mà. Lubrica i ajusta pedals, comandaments i tancaments. Capsa de canvis i diferencial porten oli específic i s'han de revisar per fuites i partícules.",
+        "Mantingues suspensió com a conjunt i alinea després de corregir folgures i alçades. Protegeix cavitats i drenatges, sobretot després d'una reparació. Si el cotxe es fa servir poc, atén bateria i combustible i realitza recorreguts complets amb regularitat."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "El Magazine recull rehabilitacions de motors 2.2, 2.7 i 3.2, restauració del sistema CIS, pintura d'un 911 G i projectes complets sobre el Targa d'aquesta generació.",
+        "La documentació permet comparar com canvia el diagnòstic entre un motor primerenc, un SC amb CIS i un Carrera 3.2, sense convertir una solució en recepta universal."
+      ],
+      "articulos": [
+        "restauracionsistemacis",
+        "porschepinturaclasica911",
+        "restauracion-sctarga1979oakgreen"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol un 911 refrigerat per aire amb recanvi i especialistes disponibles i està disposat a triar generació interna abans que color. El SC és una base equilibrada; el 3.2 facilita diagnosi; els primers 2.7 i Carrera requereixen més investigació i poden oferir més caràcter històric.",
+        "No convé a qui espera una conducció moderna, una climatització eficaç sense posada a punt o absència d'òxid per viure en clima sec. Un 964 afegeix ABS i direcció assistida; un 911 F és més lleuger i antic; un 996 ofereix ús quotidià per menys diners, amb riscos mecànics diferents."
+      ]
+    },
+    {
+      "slug": "porsche-991",
+      "title": "Guia Porsche 991: versions, avaries i compra",
+      "metaTitulo": "Porsche 991: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche 991 de 2011 a 2019: 991.1 atmosfèric, 991.2 turbo, PDK, PADM, refrigeració i comprovacions abans de comprar-ne un.",
+      "excerpt": "Com triar entre Porsche 991.1 i 991.2 i què comprovar en PDK, refrigeració, suports dinàmics, xassís, frens i electrònica.",
+      "entradilla": [
+        "El Porsche 991 va augmentar la distància entre eixos, va adoptar més alumini i va convertir PDK en l'opció majoritària, sense perdre l'arquitectura 2+2 del 911. La primera sèrie conserva motors Carrera atmosfèrics de 3,4 i 3,8 litres; la 991.2 passa a un 3,0 biturbo. Aquesta diferència canvia caràcter, resposta i punts d'inspecció, encara que totes dues comparteixen una electrònica i un xassís força més complexos que un 997.",
+        "Des del taller, un 991 no s'avalua només per quilometratge o historial digital. Convé llegir fallades, hores, sobrerègim, adaptacions de PDK, desgast de frens i estat de sistemes opcionals com PASM, PDCC, PADM, elevador davanter o direcció del darrere. Com més equipat, més important és provar cada funció.",
+        "La inspecció també ha de distingir campanyes oficials davaries comunes i modificacions. Una escapament, una reprogramació o ús en circuit no condemnen una unitat si estan documentats i el manteniment es va adaptar; amagar-los sí que altera la valoració i la traçabilitat."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "2011-2019"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé, Cabriolet i Targa"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres, 3,4-4,0 l; Carrera 991.2 biturbo 3,0 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "350-700 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 7 marxes o PDK de 7"
+        },
+        {
+          "clave": "Producció",
+          "valor": "233.540 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Carrera 991.1",
+          "texto": "3,4 litres i 350 CV; el Carrera S utilitza 3,8 litres i 400 CV. Són els darrers Carrera atmosfèrics de gran sèrie i requereixen comprovar refrigeració, injecció, bobines i consum sense aplicar diagnòstics del M97."
+        },
+        {
+          "nombre": "Carrera 991.2",
+          "texto": "Des de 2015, motor 3,0 biturbo amb 370 CV a Carrera i 420 CV a Carrera S. Revisa pressió, actuadors, circuit de càrrega i modificacions a més de la base comuna."
+        },
+        {
+          "nombre": "Carrera GTS",
+          "texto": "430 CV al 991.1 i 450 CV al 991.2, amb xassís i equipament específics segons configuració. Confirma opcions i peces perquè molts Carrera incorporen elements GTS posteriorment."
+        },
+        {
+          "nombre": "Targa i Carrera 4",
+          "texto": "Tracció total i carrosseria ampla; el Targa recupera l'arc i hi afegeix un mecanisme de sostre complex. Prova el cicle complet, drenatges, ajustament de vidres i absència d'avisos."
+        },
+        {
+          "nombre": "Turbo i Turbo S",
+          "texto": "Biturbo de 3,8 litres, tracció total i PDK, des de 520-580 CV en versions regulars. Aerodinàmica activa, frens i refrigeració requereixen diagnosi i consumibles acords."
+        },
+        {
+          "nombre": "GT3, GT3 RS i GT2 RS",
+          "texto": "Motors atmosfèrics de 3,8 o 4,0 litres a GT3/RS i biturbo de 700 CV a GT2 RS. Verifica campanyes, motor instal·lat, ús en circuit, sobrerègim, rodes amb femella central i peces de carboni."
+        }
+      ],
+      "antesDeComprar": [
+        "Separa 991.1 i 991.2 per VIN i motor, i descarrega equipament de fàbrica. Comprova PASM, PDCC, PADM, eix del darrere direccional, Sport Chrono, escapament, PCCB i elevador. Cada opció només afegeix valor si funciona i té manteniment verificable.",
+        "Llegeix diagnosi completa abans d'esborrar errors: hores, quilometratge en unitats, sobrerègim en manual, errors de combustió, pressió de combustible, actuadors, temperatures i valors de PDK. Compara hores amb desgast de volant, pedals, seient, discos i pneumàtics.",
+        "Arrenca fred, escolta cadenes i taqués, observa fum i comprova pressió i temperatura fins a estabilitzar. El 991.2 registra pressió de sobrealimentació i busca xiulets, manca de resposta o reparacions d'actuadors. Una reprogramació exigeix factures i proves de manteniment més conservador.",
+        "Retira proteccions necessàries per revisar radiadors, condensadors, bombes, vàlvules de commutació, maneguets i residus. Olor dolça o ventiladors repetits no es resolen recarregant aire condicionat. Prova pressió del circuit si hi ha empremtes.",
+        "A PDK prova maniobres, sortida suau, canvis a baixa càrrega, reduccions i temperatura de treball. En manual comprova embragatge, selector i rangs de sobrerègim. Revisa suports PADM, que poden fallar elèctricament encara que el cotxe sembli conduir bé.",
+        "Mesura pintura i part inferior de la carrosseria, especialment a GT, cotxes part inferior de la carrosseria o amb elevador. Revisa llantes, discos PCCB, rodes amb femella central, pneumàtics i geometria. Un cop de vorera pot afectar llanta, braç i direcció sense deixar una reparació visible a l'aleta."
+      ],
+      "averias": [
+        {
+          "titulo": "Bomba d'aigua i vàlvules de refrigeració",
+          "texto": "Olor de refrigerant, temperatura variable, ventiladors actius o avisos intermitents requereixen prova de pressió i activació amb diagnosi. Una vàlvula de buit, bomba o radiador obstruït pot produir el mateix símptoma general; canviar la peça més accessible sense mesurar retarda la solució."
+        },
+        {
+          "titulo": "Suports dinàmics PADM",
+          "texto": "Un avís de suport dinàmic pot venir del propi suport, cablatge o unitat. El cotxe continua circulant, però canvia el control de moviment del conjunt i la funció Sport. Convé llegir codis i comprovar tots dos costats abans de substituir per parells per defecte."
+        },
+        {
+          "titulo": "PDK i volant bimassa",
+          "texto": "Tremolor en iniciar marxa, cops, soroll en apagar o canvis lents poden implicar embragatges, volant, suport, programari o hidràulica. Els valors de desgast i adaptació ajuden a separar causes. Ignorar el símptoma fins a mode emergència redueix alternatives.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "PASM, braços i direcció posterior",
+          "texto": "Rebot, deriva, avisos o desgast irregular no s'han de corregir només amb alineació. Examina amortidors, braços, rètols, sensors d'alçada i actuadors de l'eix del darrere. Una geometria correcta sobre peces amb joc dura poc."
+        },
+        {
+          "titulo": "991.2: sobrealimentació i admissió",
+          "texto": "Pèrdua d'empenta, xiulet, pressió incoherent o fallada de mescla requereixen prova d'estanqueïtat, actuadors, sensors i turbos. Una abraçadora solta i un turbo desgastat no justifiquen la mateixa reparació. Seguir exigint càrrega pot elevar temperatura i fer malbé catalitzadors."
+        },
+        {
+          "titulo": "Acabats, drenatges i bateria",
+          "texto": "Panells de porta deformats, sostre interior enlairat, humitat o múltiples avisos després de períodes aturat són freqüents per edat i ús. Neteja drenatges i prova bateria i càrrega abans de substituir mòduls; baixa tensió genera errors secundaris que confonen el diagnòstic."
+        }
+      ],
+      "mantenimiento": [
+        "Encara que el pla admeti intervals més grans, un control anual amb oli i filtre és assenyat en ús curt, urbà o esportiu. Registra consum i obre el filtre si hi ha sospita. Respecta oli homologat i temperatura abans d'exigir càrrega.",
+        "El servei de manteniment complet incorpora bugies, filtres, corretja, bobines, refrigeració, frens i part inferior de la carrosseria. El 991.2 afegeix circuit de sobrealimentació; en injecció directa, investiga fallades d'injector o dipòsits només quan símptomes i mesuraments ho donin suport.",
+        "Servei de PDK, diferencials i tracció total ha de seguir temps, quilometratge i ús. Renova líquid de frens, controla PCCB amb mesurament apropiat i aplica procediment de rodes amb femella central. Per a circuit redueix intervals i registra temperatures i parells.",
+        "Mantingues nets radiadors i drenatges, prova bateria i actualitza programari o campanyes mitjançant VIN. Després de suspensió, direcció del darrere o pneumàtics, realitza calibratges i geometria. Una posada al dia del manteniment tècnica aporta més que accessoris sobre una base sense historial.",
+        "Abans d'una immobilització perllongada comprova pressió de pneumàtics, combustible i bateria, però evita deixar el fre treballant sobre discos humits. En recuperar el cotxe, inspecciona fuites i estat de frens abans d'exigir motor i PDK."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "Les inspeccions dels elements essencials i treballs de frens publicats al Magazine reflecteixen l'enfocament útil per a un 991: diagnosi completa, mesurament de consumibles i pressupost posterior a l'examen.",
+        "Quan no hi ha cap cas publicat d‟aquesta generació, no atribuïm al 991 treballs d‟un altre model. Els enllaços serveixen com a exemple de procés, no com a substitut d'una inspecció específica."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol viatjar, fer servir el cotxe amb freqüència i mantenir sensacions de conducció 911 amb molta més estabilitat i confort. El 991.1 ofereix Carrera atmosfèric; el 991.2 suma parell i eficiència; GT i Turbo necessiten pressupost de pneumàtics, frens i opcions actives d'acord.",
+        "No convé a qui vol mecànica visible i poca electrònica. Un 997 resulta més compacte i senzill; un 992 ofereix interfície i ajuts més actuals, però afegeix complexitat. Tria per ús i equipament necessari, no per acumular opcions que no mantindràs."
+      ]
+    },
+    {
+      "slug": "porsche-992",
+      "title": "Guia Porsche 992: versions, inspecció i compra",
+      "metaTitulo": "Porsche 992: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche 992 des de 2019: Carrera, GTS T-Hybrid, Turbo i GT, PDK, electrònica, refrigeració i inspecció d'un exemplar usat.",
+      "excerpt": "Què comprovar en comprar un Porsche 992 utilitzat: historial digital, campanyes, PDK, sistemes actius, refrigeració, frens i equipament.",
+      "entradilla": [
+        "El Porsche 992 conserva l'arquitectura del 911 i n'amplia la capacitat d'ús diari amb carrosseria ampla, més assistència i una xarxa electrònica més profunda. La primera fase ofereix Carrera biturbo, Turbo i motors atmosfèrics a GT3; l'actualització 992.2 introdueix, entre altres variants, el sistema T-Hybrid a Carrera GTS. Per això, la denominació exacta i l'any model condicionen qualsevol inspecció.",
+        "Com que és una generació recent, la compra sol incloure garantia, campanyes, programari i registres digitals. Això no substitueix comprovar el desgast ni els danys. Un cotxe amb pocs quilòmetres pot haver acumulat ús de circuit, cops part inferior de la carrosseria, frens ceràmics maltractats o llargs períodes amb bateria baixa. La lectura electrònica s'ha de contrastar amb una revisió física.",
+        "Aquesta fitxa se centra en unitats usades i evita presentar com a avaria comuna el que encara no té prou patró. Els avisos s'han de diagnosticar per VIN, versió i codi; les actualitzacions de producte continuen. Abans de comprar, confirma a la xarxa oficial campanyes obertes i especificació vigent del cotxe concret."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "2019-present"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé, Cabriolet i Targa"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres, 3,0-4,0 l; turbo, atmosfèric o T-Hybrid"
+        },
+        {
+          "clave": "Potència",
+          "valor": "Des de 385 CV; depèn de versió i any model"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 6 o 7 marxes i PDK de 8"
+        },
+        {
+          "clave": "Producció",
+          "valor": "En curs"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Carrera 992.1",
+          "texto": "Motor 3,0 biturbo, 385 CV a Carrera i 450 CV a Carrera S al llançament. Disponible amb propulsió o tracció total, Coupé i Cabriolet, i PDK o manual segons versió."
+        },
+        {
+          "nombre": "Carrera 992.2",
+          "texto": "Actualització iniciada el 2024, amb canvis de motor, aerodinàmica, quadre i infotainment. Les potències i combinacions evolucionen per any; confirma sempre fitxa de fàbrica per VIN."
+        },
+        {
+          "nombre": "Carrera GTS T-Hybrid",
+          "texto": "La 992.2 GTS combina un sis cilindres 3,6 amb turbocompressor elèctric i sistema híbrid d'altes prestacions, amb 541 CV de potència de sistema al llançament. La seva diagnosi i seguretat requereixen formació específica."
+        },
+        {
+          "nombre": "Targa",
+          "texto": "Tracció total, arc característic i sostre automatitzat. El cicle complet, ajustament de vidres, drenatges, sensors i possibles sorolls s'han de provar diverses vegades, sense obstacles ni baixa tensió."
+        },
+        {
+          "nombre": "Turbo i Turbo S",
+          "texto": "Tracció total, PDK, aerodinàmica activa i enorme càrrega tèrmica. Potència i tecnologia varien amb l'evolució del 992; revisa especificació, refrigeració, frens i qualsevol modificació."
+        },
+        {
+          "nombre": "GT3, GT3 RS, S/T i Dakar",
+          "texto": "Variants d'ús molt diferent, des de circuit fins a sèrie limitada o alçada elevada. Autenticitat, campanyes, rodes amb femella central, part inferior de la carrosseria, frens, hores i configuració pesen més que comparar només potència."
+        }
+      ],
+      "antesDeComprar": [
+        "Obtingueu el llistat d'opcions i any model a partir del VIN. Verifica campanyes, actualitzacions i garantia restant amb documentació. Diferencia un avís resolt mitjançant programari d'una peça substituïda; demana ordre de reparació i no només confirmació verbal.",
+        "Realitza diagnosi completa sense esborrar memòria: errors presents i històrics, hores, comptadors de funcionament, temperatures, misfirs, pressió, PDK i sistemes de xassís. En manual, revisa rangs de sobrerègim; a GT relaciona dades amb ús de circuit.",
+        "Inspecciona frontal, radiadors, condensadors, part inferior de la carrosseria aerodinàmics, passes i punts d'elevació. En cotxes amb nose lift comprova fuites, alçada simètrica i cicle repetit. Un fregament inferior pot afectar actuadors o conductes encara que el para-xocs exterior estigui intacte.",
+        "Prova PDK des de fred: selecció, maniobra lenta, sortida, canvis suaus i resposta en escalfar-se. Qualsevol cop o avís exigeix valors d'adaptació i diagnòstic, no assumir comportament de programari. En manual, revisa embragatge, selector i coherència de l'ús registrat.",
+        "Comprova PASM, PDCC, direcció del darrere, aerodinàmica activa, escapament, càmeres, climatització, PCM, connectivitat, tancament i Targa o Cabriolet. La bateria s'ha de provar amb càrrega real: una unitat descarregada pot generar una cascada de codis i amagar la fallada original.",
+        "Mesura discos, pastilles, pneumàtics i llantes. A PCCB busca impactes i utilitza mesura apropiada; al rodes amb femella central confirma eina, procediment i parells. Un joc de consumibles de Turbo o GT canvia el cost inicial encara que el cotxe estigui dins de tolerància."
+      ],
+      "averias": [
+        {
+          "titulo": "Baixa tensió i avisos múltiples",
+          "texto": "Missatges simultanis després de setmanes aturat solen requerir provar bateria, càrrega i consum abans de condemnar unitats. Esborrar codis sense estabilitzar tensió elimina context. Una bateria degradada pot alterar els sostres, el fre d'estacionament, el xassís i la comunicació entre mòduls."
+        },
+        {
+          "titulo": "Refrigeració i vàlvules de control",
+          "texto": "Olor, residu, ventiladors freqüents o temperatura incoherent demanen prova de pressió i activació guiada de bombes i vàlvules. El frontal acumula residus i en pot perdre eficiència. En versions d'alta càrrega, una petita anomalia esdevé rellevant amb rapidesa."
+        },
+        {
+          "titulo": "PDK i transmissió",
+          "texto": "Cop en seleccionar, tremolor en maniobrar o mode degradat poden procedir de programari, adaptació, volant, embragatges, hidràulica o suport. El diagnòstic ha de conservar codis i condicions d'aparició. Circular repetidament en emergència pot augmentar dany i temperatura.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Sistemes actius i sensors",
+          "texto": "PASM, PDCC, direcció del darrere, aerodinàmica i elevador comparteixen sensors i comunicacions. Una fallada pot desactivar diverses funcions sense que totes estiguin avariades. Comprovar alimentació, xarxa i calibratge evita substituir mòduls per correlació."
+        },
+        {
+          "titulo": "Sostre Targa o Cabriolet i drenatges",
+          "texto": "Moviment asimètric, soroll, humitat o avís de posició obliguen a aturar el cicle i localitzar ajust, sensor, cable o drenatge. Forçar el mecanisme pot fer malbé panells i actuadors. La neteja preventiva redueix entrades d‟aigua cap a mòduls."
+        },
+        {
+          "titulo": "T-Hybrid i alta tensió",
+          "texto": "El Carrera GTS 992.2 incorpora components d'alta tensió i turbocompressor elèctric. Un avís no s'ha de tractar com un sistema de 12 volts convencional. La immobilització, diagnosi i reparació requereixen procediments i personal qualificat per evitar danys i riscos."
+        }
+      ],
+      "mantenimiento": [
+        "Segueix el pla corresponent al VIN i registra feines per data i quilometratge. Per a trajectes curts o ús esportiu, una inspecció anual d'oli, filtre, frens, pneumàtics, refrigeració i part inferior de la carrosseria ofereix una línia base encara que l'interval oficial sigui més gran.",
+        "El servei de manteniment complet incorpora bugies, filtres i comprovacions específiques de versió. PDK, tracció total i diferencials tenen fluids i procediments propis. No prolonguis un interval només perquè el cotxe indiqui pocs quilòmetres si ha passat temps o ha treballat al circuit.",
+        "Mantén documentats el programari i les campanyes, i conserva la bateria amb equips compatibles durant els períodes sense ús. Neteja radiadors i drenatges, calibra les ajudes després d'ajustar la geometria i comprova càmeres o sensors després de desmuntar para-xocs. En T-Hybrid, respecta la formació i els procediments d'aïllament segur de l'alta tensió.",
+        "Controla pneumàtics per edat, especificació i diferències de desgast, especialment en tracció total. Mesura PCCB o discos de ferro amb mètode correcte. A GT i Turbo registra parells de serratge central i redueix intervals segons temperatura i ús.",
+        "Conserva un informe de diagnosi abans i després de cada intervenció important. En una generació encara actual, aquesta traçabilitat ajuda a distingir una actualització de programari, una campanya i una reparació mecànica, i evita interpretar el següent avís sense context."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "La inspecció dels elements essencials publicada per Valentín Motors representa el punt de partida: identificar desgast i avisos abans de convertir una inspecció rutinària en substitució indiscriminada.",
+        "Com que es tracta d'una generació en evolució, cal associar qualsevol cas a VIN, any model i campanya. Evitem extrapolar una fallada aïllada a tots els 992."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol un 911 per a ús freqüent, viatges i altes prestacions amb ajuts actuals, i accepta mantenir programari, bateria, sistemes actius i consumibles. Carrera sol cobrir més usos; Turbo i GT només justifiquen el cost si s'aprofitaran i cuidaran com a tals.",
+        "No convé a qui cerca senzillesa analògica o pensa guardar el cotxe sense suport de bateria i manteniment per temps. Un 991 ofereix una experiència moderna una mica menys complexa; un 997 redueix mida i electrònica; un 718 pot donar més espai i equilibri per un pressupost diferent."
+      ]
+    },
+    {
+      "slug": "porsche-944",
+      "title": "Guia Porsche 944: versions, corretges i compra",
+      "metaTitulo": "Porsche 944: guia de compra, corretges i avaries",
+      "metaDescripcion": "Guia del Porsche 944 de 1982 a 1991: versions atmosfèriques i Turbo, corretges, bomba d'aigua, embragatge, transaxle i punts d'òxid.",
+      "excerpt": "Què cal revisar abans de comprar un Porsche 944: historial de corretges, bomba d'aigua, embragatge, combustible, transaxle, carrosseria i sistema elèctric.",
+      "entradilla": [
+        "El Porsche 944 combina motor davanter i canvi posterior en una arquitectura transaxle que reparteix bé el pes i ofereix una conducció molt diferent de la del 911. La gamma va evolucionar del 2,5 atmosfèric al Turbo i al S2 de tres litres, amb frens, suspensió, electrònica i interiors que canvien segons la fase.",
+        "El seu preu de compra pot semblar accessible, però una unitat amb corretges sense data, embragatge original, fuites de direcció i sistema elèctric intervinguda consumeix aviat la diferència. En aquests cotxes, el manteniment preventiu no és una frase genèrica: perdre la distribució pot doblegar vàlvules i transformar una revisió pendent en una reparació de culata.",
+        "La inspecció ha de començar per evidències de corretja, rodets i bomba, continuar amb combustible i refrigeració i acabar a l'eix del darrere, embragatge i carrosseria. Un 944 ben posat a punt és estable i precís; un amb silentblocks, pneumàtics o geometria esgotats pot semblar maldestre sense que el disseny sigui la causa."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1982-1991"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé i Cabriolet"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Quatre cilindres davanter, 2,5-3,0 l; atmosfèric o turbo"
+        },
+        {
+          "clave": "Potència",
+          "valor": "150-250 CV en versions europees principals"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 5 marxes o automàtic de 3"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Més de 163.000 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "944 2.5",
+          "texto": "Primera sèrie des del 1982, normalment 163 CV a Europa, amb interior inicial. La fase posterior adopta tauler de control ovalat i canvis mecànics; identifica any per demanar distribució i components."
+        },
+        {
+          "nombre": "944 S",
+          "texto": "Motor 2,5 de 16 vàlvules i 190 CV, del 1987 al 1988. Afegeix cadena i patí entre arbres que s'han de revisar a més de la corretja principal."
+        },
+        {
+          "nombre": "944 2.7",
+          "texto": "Versió atmosfèrica del 1989 amb 165 CV i producció curta. Comparteix moltes necessitats de la fase tardana, però cilindrada i algunes peces específiques s'han de confirmar."
+        },
+        {
+          "nombre": "944 S2",
+          "texto": "Motor 3,0 de 16 vàlvules i 211 CV des de 1989, disponible Coupé i Cabriolet. Parell, frens i ús diari ho fan atractiu, amb especial atenció a distribució i cadena de lleves."
+        },
+        {
+          "nombre": "944 Turbo",
+          "texto": "Des del 1985, 220 CV; Turbo S i versions tardanes arriben a 250 CV. Revisa turbo, wastegate, maneguets, refrigeració, embragatge i modificacions de pressió o unitat electrònica de control."
+        },
+        {
+          "nombre": "Edicions especials",
+          "texto": "Turbo S, Celebration i sèries de mercat poden aportar suspensió, diferencial, color o equipament específics. Confirma codis i factures abans de pagar una prima per peces afegides després."
+        }
+      ],
+      "antesDeComprar": [
+        "Exigeix factura amb data i quilometratge de corretja de distribució, corretja dequilibrat, rodets, tensors i bomba d'aigua. Una marca a retolador no demostra peces ni tensió. Si no hi ha evidència fiable, pressuposteu el servei abans d'utilitzar el cotxe.",
+        "A motors de 16 vàlvules retira la tapa necessària per valorar cadena, patins, tensor i dents d'arbres. Un patí trencat o cadena fora de tolerància pot fer malbé culata. No assumeixis que canviar la corretja atén aquest conjunt.",
+        "Engega fred i revisa pressió d'oli, fum, vibració i sorolls. Una corretja de mal calada o tensada altera el sensacions de conducció. Comprova oli en refrigerant i viceversa, fuites en carcassa del refredador i estabilitat tèrmica.",
+        "Inspecciona línies de combustible, amortidor i regulador a la va, injectors i maneguets posteriors. Olor o humitat requereixen immobilitzar. A Turbo afegeix pressió, fuites d'admissió, turbo, wastegate i modificacions documentades.",
+        "Prova embragatge en càrrega i maniobra, i escolta el tub de parell i transaxle en acceleració i retenció. Un nucli de goma deteriorat provoca joc i cops. Separa rodaments, juntes homocinètiques, diferencial i varillatge abans de pressupostar.",
+        "Revisa taloneres, punts d'elevació, passos, zona de bateria, sostre, desguassos i marc de la porta. La lluna posterior pot enlairar-se del marc i causar sorolls o entrades. Comprova fars escamotejables, elevallunes, quadre, ventiladors i aire condicionat."
+      ],
+      "averias": [
+        {
+          "titulo": "Distribució, equilibrat i bomba d'aigua",
+          "texto": "Xiulet, cop de corretja, pèrdua per bomba o absència d'historial justifiquen aturar l'ús. Un distribució trencada causa contacte de vàlvules. La tensió s'ha de comprovar amb procediment i ferramenta adequats després de l'assentament, no només en muntar.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Cadena i patins en motors de 16 vàlvules",
+          "texto": "Soroll a la part alta, encenalls plàstics o patí fi són senyals per obrir i inspeccionar. Si la cadena salta o fa malbé dents de l'arbre, la reparació creix de forma ràpida. Substitueix per condició i especificació, no per soroll exclusivament."
+        },
+        {
+          "titulo": "Refredador d'oli i juntes",
+          "texto": "Oli en dipòsit d'expansió, emulsió o pèrdua externa pot venir de l'allotjament del refredador, però també de culata o altra font. Prova pressió i neteja el circuit després de reparar-lo. Circular amb fluids barrejats deteriora coixinets, maneguets i capacitat tèrmica."
+        },
+        {
+          "titulo": "Embragatge amb nucli de goma",
+          "texto": "Cop en obrir o tancar gas i joc de transmissió solen aparèixer quan el centre es degrada. Continuar castiga tub de parell i transaxle. El treball és laboriós, per la qual cosa convé revisar retingues, coixinet, forquilla i estat del conjunt durant el desmuntatge.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Direcció assistida i combustible",
+          "texto": "Maneguets de direcció humits embruten casquets i alternador; línies de combustible envellides poden provocar incendi. No normalitzis olor ni emplenat diari. Localitza pressió, material i ruta correctes i neta per comprovar que la reparació roman seca."
+        },
+        {
+          "titulo": "Portó, sostre i sistema elèctric",
+          "texto": "Enlairament de lluna, engranatges de sostre, fars o quadre intermitent solen compartir edat, aigua i masses deficients. Forçar el sostre trenca mecanismes. Revisa drenatges, connectors i alimentació abans de comprar motors o unitats de segona mà."
+        }
+      ],
+      "mantenimiento": [
+        "El distribució es gestiona per data i quilometratge, amb revisió de tensió segons el procediment. Canvia bomba, rodets o retens quan la seva condició i l'abast ho aconsellin. Anota peces i mesuraments perquè el propietari següent no hagi d'endevinar.",
+        "Oli i filtre anual, refrigerant correcte i líquid de frens per temps formen la base. Revisa refredador, maneguets, ventiladors i termocontacte. A Turbo deixa estabilitzar temperatura i atén oli, admissió i escapament amb intervals acords a càrrega.",
+        "Servei de transaxle i diferencial, juntes homocinètiques, rodaments i varillatge evita atribuir tots els sorolls a la caixa de canvis. Revisa embragatge i tub de parell. En automàtic confirma fluid, fuites i canvis a temperatura.",
+        "Mantingues frens, suspensió i geometria com a sistema. Protegeix taloneres i punts d'elevació, neteja drenatges i conserva portó i sostre ajustats. Una revisió elèctrica de masses i càrrega evita moltes substitucions innecessàries.",
+        "Cada dues revisions compara compressió, consum, pressió i residus amb les dades anteriors si el cotxe té quilometratge alt o ús esportiu. Una tendència estable permet continuar utilitzant peces sanes; una variació primerenca dóna marge per intervenir abans de fer malbé culata o transaxle.",
+        "Després de qualsevol treball de distribució, comprova novament tensió i fuites després del període indicat. Conserva referències i valors, perquè una factura amb bomba, rodets i corretges identificats permet planificar el servei següent sense desmuntar per esbrinar què es va instal·lar."
+      ],
+      "tarifa": "tarifa-transaxle",
+      "loQueHemosHecho": [
+        "Els treballs de restauració de frens i les inspeccions dels elements essencials publicats per Valentín Motors ensenyen el mètode adequat per a un transaxle: mesurar abans de substituir i revisar seguretat abans que estètica.",
+        "No enllacem una restauració d'un altre model com si fos 944. Quan es publiqui un cas específic, es podrà incorporar sense canviar l'estructura de la guia."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui busca equilibri de xassís, practicitat de porta i una conducció clàssica sense pagar la prima d'un 911. Un senzill 2.5 redueix complexitat; S2 suma parell; Turbo ofereix prestacions altes a canvi de temperatura i més sistemes.",
+        "No convé a qui compra per preu i ajorna distribució o combustible. Un 924 és més simple i lent; un 968 refina la mateixa idea amb més cost de peces; un Boxster 986 ofereix motor central i descapotable, amb una altra llista de riscs."
+      ]
+    },
+    {
+      "slug": "porsche-928",
+      "title": "Guia Porsche 928: versions, avaries i compra",
+      "metaTitulo": "Porsche 928: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche 928 de 1977 a 1995: V8, corretja, bomba d'aigua, flexplate, sistema elèctric, transaxle i inspecció abans de comprar.",
+      "excerpt": "Com revisar un Porsche 928 sense subestimar-ne la complexitat: distribució, empenta del cigonyal, combustible, sistema elèctric, climatització i transaxle.",
+      "entradilla": [
+        "El Porsche 928 és un gran turisme V8 de motor davanter i transmissió transaxle, concebut per viatjar ràpid amb estabilitat i confort. La seva producció durant gairebé dues dècades va generar motors, injeccions, frens, caixes de canvis i interiors molt diferents. Demanar peces o comparar preus sense identificar any, mercat i codi sol iniciar el problema.",
+        "Un 928 barat pot arrencar i desplaçar-se mentre acumula distribució vençuda, línies de combustible antigues, climatització anul·lada i una xarxa elèctrica plena de ponts. La complexitat no ho fa fràgil per definició, però exigeix diagnòstic ordenat i documentació. Reparar per substitució successiva és especialment car.",
+        "La inspecció abans de la compra ha d'incloure un control que no sempre es fa a altres Porsche: posició del flexplate i joc axial del cigonyal en automàtics. També requereix inspeccionar masses, panell elèctric, actuadors de climatització i consum de bateria. Un bon 928 se sent sòlid; vibració, calor i avisos són símptomes, no caràcter."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1977-1995"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé 2+2"
+        },
+        {
+          "clave": "Motor",
+          "valor": "V8 davanter refrigerat per aigua, 4,5-5,4 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "240-350 CV en versions europees principals"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 5 marxes o automàtic de 3/4"
+        },
+        {
+          "clave": "Producció",
+          "valor": "61.056 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "928",
+          "texto": "La versió inicial, des de 1977, utilitza V8 4,5 i 240 CV a Europa. Equipament, injecció i frens primerencs requereixen peces i diagnosis d'acord amb el seu any."
+        },
+        {
+          "nombre": "928 S i S2",
+          "texto": "Cilindrada i potència creixen durant els vuitanta, amb denominacions diferents per mercat. El S2 europeu arriba a 310 CV; confirma relació de compressió, injecció i catalització."
+        },
+        {
+          "nombre": "928 S4",
+          "texto": "Des de 1986/1987, V8 de quatre vàlvules i 320 CV, carrosseria actualitzada i més gestió electrònica. És una base utilitzable si el distribució, sistema elèctric i automàtic estan documentats."
+        },
+        {
+          "nombre": "928 GT",
+          "texto": "Versió de 330 CV, normalment manual, amb evolució de motor i xassís. Revisa autenticitat de caixa de canvis, diferencial, rodes, frens i opcions, a més a més d'historial d'ús intens."
+        },
+        {
+          "nombre": "928 GTS",
+          "texto": "Etapa final, 5,4 litres i 350 CV, amb aletes posteriors eixamplades i equipament revisat. El seu valor exigeix confirmar motor, transaxle, carrosseria i components específics."
+        },
+        {
+          "nombre": "Manual o automàtic",
+          "texto": "El manual és menys comú i té embragatge i tub de parell propis; l'automàtic encaixa amb el caràcter del model, però requereix revisar flexplate, joc axial, fuites i canvis en calent."
+        }
+      ],
+      "antesDeComprar": [
+        "Identifica any model, mercat, motor, caixa de canvis i sistema d'injecció per VIN i etiquetes. Les potències nord-americanes i europees no es comparen directament. Demana factures de distribució, bomba, combustible, caixa de canvis, sistema elèctric i climatització.",
+        "Exigeix data i quilometratge de corretja, corrons, tensors i bomba d'aigua. Inspecciona alineació, tensió i pèrdues. En motors d'interferència, un trencament pot doblegar vàlvules; una factura sense detall de components deixa part del risc sense resoldre.",
+        "En automàtics mesura joc axial del cigonyal i revisa posició i tensió del flexplate segons el procediment. Una placa desplaçada pot carregar el coixinet d'empenyiment. Detectar-ho aviat permet corregir ajustament; ignorar-ho pot fer malbé bloc i cigonyal.",
+        "Obre panell elèctric i comprova fusibles, relés, masses i modificacions. Busca calor, sulfatació, cables afegits i consums. Prova cada funció: seients, quadre, llums, eixugaparabrises, tancament, sostre, ventiladors i regulació interior.",
+        "Prova climatització de totes maneres. Tubs de buit, actuadors, vàlvula de calefacció, compressor i control poden fallar per separat. Aire fred momentani no confirma que barregi temperatura ni mantingui pressió sense descarregar la bateria.",
+        "Revisa línies de combustible, injectors, reguladors i maneguets, a més de refrigeració i refredadors. A la carretera separa vibració de motor, tub de parell, rodes i transaxle. Comprova frens, direcció, rodaments i casquets de l'eix del darrere."
+      ],
+      "averias": [
+        {
+          "titulo": "Distribució i bomba d'aigua",
+          "texto": "Soroll, pèrdua, temperatura anòmala o historial vençut justifiquen no arrencar més del necessari. La intervenció ha d'incloure inspecció de rodets, tensor, segells i estat de politges. Una corretja nova amb bomba bloquejada continua posant culates en risc.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Flexplate i coixinet d'empenta",
+          "texto": "En automàtics, empenta axial fora de tolerància, vibració o flexplate desplaçat poden anticipar desgast greu. Alliberar tensió i fixar posició segons procediment pot prevenir mal si es detecta aviat; amb desgast avançat cal mesurar motor abans de prometre una reparació menor."
+        },
+        {
+          "titulo": "Conductes de combustible",
+          "texto": "Olor, humitat o mànegues endurides al V8 calent requereixen immobilitzar. Substitueix conductes amb especificació i encast correctes, revisa reguladors i injectors i prova pressió. El risc d'incendi fa que aquesta feina precedeixi millores de potència o estètica."
+        },
+        {
+          "titulo": "Quadre elèctric, masses i consum",
+          "texto": "Errors intermitents en diversos sistemes solen compartir massa, alimentació o reparació anterior. Mesurar la caiguda de tensió i consum és més eficaç que canviar relés a l'atzar. Un punt calent pot malmetre panell i mall si es manté carregat."
+        },
+        {
+          "titulo": "Climatització i buit",
+          "texto": "Aire sempre calent, sortides que no canvien o ralentí afectat poden venir d'actuadors, línies, vàlvula o control. Taponar circuits elimina funcions i dificulta el diagnòstic següent. Reparar per esquema conserva confort i exercici."
+        },
+        {
+          "titulo": "Tub de parell, canvi automàtic i transaxle",
+          "texto": "Brunzit, cop en seleccionar, vibració o canvis tardans requereixen comprovar suports, tub, rodaments, flexplate, nivell i pressió. Circular amb vibració castiga coixinets i juntes. L'oli correcte no compensa un ajustament mecànic incorrecte.",
+          "enlace": "taller-cajas"
+        }
+      ],
+      "mantenimiento": [
+        "Gestiona distribució per data i quilometratge i registra tensió i components. Oli, filtre i refrigerant han de seguir especificació i ús; inspecciona conductes de combustible i refredadors en cada revisió rellevant.",
+        "Neteja i protegeix panell elèctric i masses sense afegir ponts no documentats. Comprova bateria, alternador i consum en repòs. Mantenir tensió correcta evita diagnòstics falsos en quadre, climatització i centraletes.",
+        "Servei automàtic o manual, diferencial i tub de parell ha d'incloure fuites, suports i vibració. En automàtic controla flexplate i joc axial periòdicament. Renova líquid de frens i revisa pinces, discos, direcció i rodaments.",
+        "Fes servir el cotxe amb proves de regularitat per a clàssics i prova climatització, sostre i actuadors. Mantingues drenatges nets i revisa corrosió sota bateria, llunes, porta i part inferior de la carrosseria. Una línia base completa és prioritària abans de restaurar cuir o muntar rodes més grans.",
+        "Guarda esquemes de qualsevol reparació elèctrica i etiqueta relés o connectors substituïts amb la referència correcta. La continuïtat de l'historial redueix hores de diagnosi i permet revertir alarmes, ràdios o immobilitzadors antics sense fer malbé el mall original.",
+        "Després de renovar el distribució, registra tensió, peces i lectura de joc axial en automàtics. Repeteix les comprovacions previstes després de l'assentament. Una factura amb mesuraments és més útil que la frase genèrica manteniment complet.",
+        "En cotxes que romanen aturats, gira i utilitza climatització, tancaments i sostre amb regularitat i controla humitat. Un recorregut complet permet comprovar càrrega, temperatura, frens i caixa de canvis; arrencar el V8 uns minuts afegeix condensació sense verificar els sistemes sota condicions reals."
+      ],
+      "tarifa": "tarifa-transaxle",
+      "loQueHemosHecho": [
+        "La inspecció dels elements essencials i la restauració de pinces publicades al Magazine mostren com començar per seguretat, fuites i mesurament abans d'abordar acabats en un gran turisme complex.",
+        "No presentem treballs de 944 o 968 com si fossin 928. L'arquitectura transaxle comparteix principis, però el V8, l'sistema elèctric i la climatització requereixen diagnòstic específic."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol un Porsche clàssic per viatjar, aprecia el parell d'un V8 i accepta aprendre l'especificació exacta de la unitat. Un S4 sol equilibrar disponibilitat i ús; GT i GTS afegeixen raresa i cost d'autenticitat.",
+        "No convé a qui cerca una mecànica simple o compra sense reserva per a sistema elèctric i climatització. Un 944 redueix mida i cilindres; un 968 ofereix una evolució tardana més lleugera; un 911 G canvia confort per una experiència posterior més directa."
+      ]
+    },
+    {
+      "slug": "porsche-924",
+      "title": "Guia Porsche 924: versions, avaries i compra",
+      "metaTitulo": "Porsche 924: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche 924 de 1976 a 1988: 2.0, Turbo, Carrera GT i 924 S, CIS, corretges, combustible, transaxle i inspecció precompra.",
+      "excerpt": "Com triar un Porsche 924 sense confondre les mecàniques: què revisar en CIS, combustible, distribució del 924 S, embragatge, carrosseria i sistema elèctric.",
+      "entradilla": [
+        "El Porsche 924 va inaugurar la família transaxle de motor davanter i caixa de canvis posterior. El seu equilibri i la seva practicitat segueixen tenint sentit, però la gamma conté dues famílies mecàniques diferents: el 2.0 d'origen compartit i el 924 S amb motor Porsche 2.5 relacionat amb el 944. El pla de compra i el distribució no són intercanviables.",
+        "El baix valor que va tenir durant anys va afavorir manteniment ajornat, modificacions i reparacions elèctriques econòmiques. Una unitat completa, seca i ben ajustada sol costar menys a mitjà termini que una altra de recent pintada sense factures. A Turbo i Carrera GT, identitat i originalitat canvien a més el valor de forma radical.",
+        "La revisió ha de prioritzar seguretat de combustible, arrencada freda i calenta, embragatge i transmissió, corrosió i aigua. En un 924 sa, la direcció és lleugera i el cotxe conserva velocitat per equilibri; manca de potència, vibració o calor excessiva requereixen diagnòstic, no resignació per l'edat."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1976-1988"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé 2+2 amb porta"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Quatre cilindres davanter, 2,0 o 2,5 l; atmosfèric o turbo"
+        },
+        {
+          "clave": "Potència",
+          "valor": "125-210 CV en versions europees principals"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 4/5 marxes o automàtic de 3"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Més de 150.000 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "924 2.0",
+          "texto": "Des del 1976, injecció CIS i 125 CV a Europa en la seva configuració més coneguda. Senzill però sensible a pressió de combustible, preses d'aire i reparacions acumulades."
+        },
+        {
+          "nombre": "924 Turbo",
+          "texto": "Llançat el 1978/1979, amb 170 CV i després 177 CV. Turb, lubricació, temperatura, combustible i encesa s'han de revisar sota càrrega, no només al ralentí."
+        },
+        {
+          "nombre": "Carrera GT",
+          "texto": "Homologació del 1980 amb 210 CV, aletes i nombrosos components específics. La seva raresa exigeix autenticar xassís, motor, intercooler, carrosseria, interior i documentació."
+        },
+        {
+          "nombre": "Carrera GTS i GTR",
+          "texto": "Evolucions de competició o carretera extremadament escasses i potents. Requereixen peritatge històric i tècnic dedicat; aquesta guia general no és suficient per valorar una unitat."
+        },
+        {
+          "nombre": "924 S",
+          "texto": "Des de 1985/1986, motor Porsche 2.5 amb 150 CV i més tard 160 CV. Canvia el pla de distribució: corretja, equilibrat, rodets i bomba han de tenir evidència recent."
+        },
+        {
+          "nombre": "Edicions segons el mercat",
+          "texto": "Le Mans i altres sèries combinen colors i equipaments concrets, no sempre més potència. Verifica codis i acabats originals abans d'assumir que una decoració afegida identifica l'edició."
+        }
+      ],
+      "antesDeComprar": [
+        "Confirma si és 2.0, Turbo o 924 S mitjançant VIN i motor. No compris recanvi per any de matriculació únicament. A Carrera GT o edició limitada, contrasta números, soldadures, aletes, vidres, interior i documentació amb una referència específica.",
+        "A 2.0 mesura pressions CIS amb el motor fred i calent, prova acumulador, bombes, injectors, entrades d'aire i encesa. Una arrencada llarga en calenta no és inevitable. Olor de combustible o mànegues endurides s'han de resoldre abans de la prova.",
+        "El 924 S exigeix factura de corretja de distribució, equilibrat, rodets i bomba d'aigua amb data i quilòmetres. Si no existeix, pressupostar-ho com a immediat. A Turbo revisa oli, pressió, maneguets, wastegate, escapament i qualsevol modificació.",
+        "Prova embragatge, tub de parell, transaxle i juntes en acceleració i retenció. La vibració pot venir de suports, embragatge, rodaments o rodes. Escolta en calent i revisa oli de caixa de canvis per nivell, fuita i partícules.",
+        "Inspecciona safata de bateria, taloneres, punts d'elevació, passos, terres, marc de lluna i porta. El segellat del vidre posterior es pot separar. Humitat interior fa malbé quadre, fusibles, connectors i tapisseria encara que l'òxid exterior sembli limitat.",
+        "Comprova fars escamotejables, ventilador, calefacció, eixugaparabrises, quadre, elevallunes i sostre. Busca empalmaments i fusibles sobredimensionats. Pneumàtics, frens i amortidors s'han d'avaluar abans de concloure que el xassís té un defecte."
+      ],
+      "averias": [
+        {
+          "titulo": "CIS i arrencada en calent",
+          "texto": "Pressió residual insuficient, acumulador, bomba, injector o entrada d'aire poden allargar l'arrencada. Ajustar barreja sense manòmetres només desplaça el símptoma i pot empobrir a càrrega. Mesurar pressió de sistema, control i retenció ordena el diagnòstic."
+        },
+        {
+          "titulo": "Conductes de combustible",
+          "texto": "Olor, taques o mànegues sense data en dipòsit, part inferior de la carrosseria o va exigeixen immobilitzar. Substitueix trams amb material compatible i conserva la ruta lluny de calor i moviment. Una fuita sobre fuita o turbo pot provocar incendi."
+        },
+        {
+          "titulo": "924 S: distribució i bomba",
+          "texto": "Soroll de corró, pèrdua o historial desconegut requereixen servei immediat. El trencament de corretja causa contacte intern. La tensió i l'equilibrat s'han de comprovar amb procediment, i la bomba no es descarta només perquè encara no perdi.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Turbo: lubricació i sobrealimentació",
+          "texto": "Fum, manca de pressió, xiulet o oli en admissió requereixen revisar turbo, tornada, fuites i motor. Augmentar pressió per compensar resposta empitjora temperatura i mescla. Primer recupera l'especificació base i mesura sota càrrega."
+        },
+        {
+          "titulo": "Embragatge, tub de parell i transaxle",
+          "texto": "Cop en canviar càrrega, patinament, vibració o brunzit s'han de localitzar per component. Continuar pot traslladar desgast a rodaments i juntes. Un ajustament de varillatge millora selecció, però no corregeix sincronitzadors danyats.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Aigua, portó i sistema elèctric",
+          "texto": "Drenatges obstruïts i vidre enlairat introdueixen humitat a prop de connectors i tapisseria. Fallades intermitents i olor a humitat justifiquen retirar revestiments. Segellar per fora sense netejar drenatges pot desviar l'aigua cap a una altra cavitat."
+        }
+      ],
+      "mantenimiento": [
+        "Oli i filtre anual, refrigerant i líquid de frens per temps són el punt de partida. A 2.0 afegeix mesurament CIS i encesa; a Turbo controla oli i pressió; el 924 S gestiona corretges per data i quilometratge.",
+        "Revisa combustible a cada servei rellevant i substitueix línies per edat i condició. Mantingues radiador, ventiladors i termòstat capaços de controlar trànsit i calor. Una agulla estable no demostra que el sistema conservi marge tèrmic.",
+        "Caixa de canvis, diferencial, tub de parell i juntes requereixen oli, suports i revisió de fuites. Ajusta embragatge o hidràulic segons versió. Mantingues frens i suspensió com a conjunt i realitza geometria només després d'eliminar folgures.",
+        "Neteja drenatges de sostre i porta, protegeix bateria i masses i prova càrrega. Amb ús esporàdic evita arrencades breus. Els recorreguts complets conserven injecció, frens i transmissió millor que deixar el cotxe immòbil amb una bateria nova.",
+        "Conserva referències de filtres, corretges, bombes i components CIS muntats. En una gamma amb canvis de proveïdor i mercat, documentar quina peça funciona evita adaptar el cotxe a cada revisió. Si es modifica encesa o bomba, desa també el component original.",
+        "Després de comprar una unitat sense historial, estableix una línia base amb fluids, pressió de combustible, encesa, compressió orientativa, frens, pneumàtics i estat elèctric. Així pots separar necessitats immediates, feines del següent any i millores opcionals.",
+        "Revisa també data de fabricació de pneumàtics, roda de recanvi, gat i punts de suport. Un transaxle que ha estat elevat per la talonera equivocada pot amagar deformació sota revestiment; documentar-ho abans de reparar ajuda a recuperar forma i protecció anticorrosiva."
+      ],
+      "tarifa": "tarifa-transaxle",
+      "loQueHemosHecho": [
+        "Les inspeccions dels elements essencials i les restauracions de fre del Magazine mostren la prioritat aplicable al 924: seguretat de fluids, direcció i frenada abans d'acabats.",
+        "La guia no atribueix al 924 treballs publicats sobre altres transaxle. Quan hi hagi un projecte específic, el slug es pot afegir sense alterar el contingut tècnic."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui busca un clàssic lleuger, pràctic i amb bon equilibri, i accepta dedicar temps a tornar CIS i sistema elèctric a especificació. El 2.0 és l'entrada simple; el 924 S ofereix més rendiment; Turbo i Carrera GT requereixen coneixement i pressupost superiors.",
+        "No convé qui espera prestacions d'un 944 Turbo o no està disposat a revisar el sistema de combustible antic. Un 944 ofereix més potència i amplada; un 968 refina la fórmula a més cost; un 986 canvia a motor central i descapotable amb manteniment diferent."
+      ]
+    },
+    {
+      "slug": "porsche-968",
+      "title": "Guia Porsche 968: versions, avaries i compra",
+      "metaTitulo": "Porsche 968: guia de compra, Variocam i manteniment",
+      "metaDescripcion": "Guia del Porsche 968 de 1991 a 1995: Coupé, Cabriolet i Club Sport, Variocam, corretges, transaxle i inspecció abans de comprar-ne un.",
+      "excerpt": "Què cal revisar en un Porsche 968 abans de comprar: distribució, patins Variocam, bomba, embragatge, transaxle, carrosseria i autenticitat del Club Sport.",
+      "entradilla": [
+        "El Porsche 968 és l'evolució final de la família transaxle de quatre cilindres. El seu motor de tres litres lliura 240 CV i combina distribució per corretja amb un sistema Variocam accionat mitjançant cadena entre arbres. També ofereix canvi manual de sis marxes o Tiptronic i carrosseries Coupé, Cabriolet i Club Sport. Aquesta concentració de solucions específiques exigeix una inspecció diferent de la d'un 944 bàsic.",
+        "La producció curta i el valor creixent han afavorit conversions estètiques al Club Sport i reparacions amb peces d'altres variants. Abans de pagar una prima cal verificar codis d'opció, seients, elevallunes, aïllament, llantes, suspensió i color. Una unitat alleugerida després pot ser bona per conduir, però no té la mateixa identitat.",
+        "Des del taller, distribució i Variocam precedeixen la prova llarga si no hi ha factures fiables. Després es valoren oli, refrigeració, volant d'inèrcia bimassa, embragatge, tub de parell i transaxle. Un 968 sa ha de lliurar parell de forma neta; vibració, cops superior o brunzit posterior necessiten diagnòstic, no explicació per quilometratge."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1991-1995"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé i Cabriolet"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Quatre cilindres davanter, 3,0 l, 16 vàlvules i Variocam"
+        },
+        {
+          "clave": "Potència",
+          "valor": "240-305 CV en versions de producció"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 6 marxes o Tiptronic de 4"
+        },
+        {
+          "clave": "Producció",
+          "valor": "12.776 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "968 Coupé",
+          "texto": "La versió principal, 240 CV, porta i configuració 2+2. Manual i Tiptronic ofereixen caràcters diferents; historial de distribució, Variocam i transmissió importa més que la caixa de canvis escollida."
+        },
+        {
+          "nombre": "968 Cabriolet",
+          "texto": "Mateix motor de 240 CV amb carrosseria oberta. Revisa sostre de lona, motors, microinterruptors, drenatges, reforços, ajustament de portes i humitat en mòduls o catifes."
+        },
+        {
+          "nombre": "968 Club Sport",
+          "texto": "240 CV i alleugerament mitjançant seients, menor aïllament i equipament simplificat segons mercat. Opcions podien tornar confort, per la qual cosa l'autenticitat es comprova per codis, no per absència de seients del darrere."
+        },
+        {
+          "nombre": "968 Sport",
+          "texto": "Versió oferta en alguns mercats amb elements del Club Sport i més equipament. No s'ha de confondre amb una denominació informal aplicada a un Coupé modificat."
+        },
+        {
+          "nombre": "968 Turbo S",
+          "texto": "Producció molt escassa, motor sobrealimentat de 305 CV i components específics. Qualsevol unitat exigeix peritatge d'identitat, carrosseria, motor, transmissió i procedència."
+        },
+        {
+          "nombre": "968 Turbo RS",
+          "texto": "Variant de competició fabricada en números mínims. La seva valoració correspon a especialistes en cotxes de carrera i documentació històrica, no a una precompra convencional de carretera."
+        }
+      ],
+      "antesDeComprar": [
+        "Demana factures de la corretja de distribució, la corretja d'equilibrat, els rodets, els tensors i la bomba d'aigua. Han d'incloure data i quilometratge. Si falten, preveu una intervenció immediata i evita una prova llarga, perquè una ruptura pot provocar contacte amb les vàlvules.",
+        "Obre la tapa superior necessària per inspeccionar cadena Variocam, patins, tensor i dents dels arbres. L'espessor del patí i la condició de les dents importen encara que no hi hagi soroll. Encenalls plàstics o marques irregulars eleven la urgència.",
+        "Arrenca en fred, comprova pressió, fum, fuites i vibració. Revisa oli en refrigerant, carcassa del refredador, retens i part frontal. Un eix de mal calat equilibrat o una corretja incorrecta poden fer que un motor sa sembli aspre.",
+        "Prova embragatge, volant d'inèrcia bimassa i manual de sis marxes amb el motor fred i calent. Escolta tub de parell i transaxle a càrrega constant i retenció. A Tiptronic comprova selecció, canvis, fuites i servei documentat, sense tractar el fluid com a permanent.",
+        "Inspecciona taloneres, punts d'elevació, bateria, terres, passos, porta i segellat de la lluna. Revisa alineació de fars, capós i aletes per detectar cops. A Cabriolet hi afegeix reforços, sostre de lona, drenatges i funcionament de microinterruptors.",
+        "Per a Club Sport contrasta VIN i codis d'opció amb seients, llantes, suspensió, elevallunes, coixí de seguretat, aïllament i color. Una recreació pot conduir bé, però el preu i l'assegurança han de reflectir la identitat real i les modificacions declarades."
+      ],
+      "averias": [
+        {
+          "titulo": "Corretges, rodets i bomba d'aigua",
+          "texto": "Xiulet, copejament, pèrdua o historial vençut obliguen a revisar abans de circular. El muntatge requereix tensió i calat precisos, inclosos els eixos d'equilibrat. Una bomba bloquejada o rodet gripat pot destruir una corretja recent instal·lada.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Patins i cadena Variocam",
+          "texto": "Soroll superior, plàstic en oli o patí prim anticipen danys de cadena i dents d'arbre. Si salta, la culata pot patir contacte intern. Substituir només el patí sense mesurar tensor, cadena i rodes dentades pot deixar la causa activa."
+        },
+        {
+          "titulo": "Refredador d'oli i juntes",
+          "texto": "Emulsió, oli en dipòsit d'expansió o fuita exterior exigeix prova per distingir carcassa, culata i altres fonts. Després de reparar cal netejar tots dos circuits i confirmar estabilitat. Fluids barrejats fan malbé maneguets, coixinets i capacitat de refrigeració."
+        },
+        {
+          "titulo": "Volant bimassa i embragatge",
+          "texto": "Traqueteig en apagar, vibració, pedal irregular o patinament sota par assenyalen components diferents. L'accés és laboriós; durant el desmuntatge cal mesurar volant, disc, premsa, coixinet, forquilla i retens per evitar repetir mà d'obra.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Transaxle i rodament del pinyó",
+          "texto": "Brunzit que varia amb càrrega, joc o partícules en oli requereixen localitzar diferencial, pinyó, tub de parell o rodaments. Seguir circulant pot fer malbé engranatges reutilitzables. El soroll de pneumàtic s'ha de descartar mitjançant prova i elevador.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Portó, fars i sistema elèctric",
+          "texto": "Lluna desenganxada, humitat, fars que no completen cicle o quadre intermitent solen relacionar-se amb drenatges, masses i mecanismes envellits. Segellar la porta sense ajustar marc i desguassos desplaça l'aigua i no elimina torsió ni soroll."
+        }
+      ],
+      "mantenimiento": [
+        "Gestiona corretges per temps i quilometratge amb comprovació de tensió posterior. Inspecciona Variocam a cada intervenció rellevant i registra gruix de patins, cadena i dents. Una factura detallada protegeix el motor i el valor del cotxe.",
+        "Oli i filtre anual, refrigerant correcte i líquid de frens per temps creen una base. Revisa refredador, línies de combustible, bomba, ventiladors i termòstat. Mantingues net el frontal per conservar marge tèrmic.",
+        "Canvia lubricant de manual o Tiptronic i diferencial segons pla i ús, controlant partícules i fuites. Revisa embragatge, volant, tub de parell i juntes. Després de suspensió o pneumàtics, alinea només amb braços i alçades verificats.",
+        "Neteja drenatges de sostre, porta i Cabriolet, prova bateria i masses i utilitza el cotxe amb recorreguts complets. Abans de restaurar acabats, resol aigua, combustible i distribució; són les àrees que converteixen una unitat emmagatzemada en una reparació més gran.",
+        "En una unitat acabada d'adquirir sense historial, crea un full de referència amb pressió d'oli, compressió o fuites si escau, tensió de corretges, estat Variocam, temperatura, residus en fluids i soroll del transaxle. Repetir aquestes observacions permet detectar canvi abans que aparegui una avaria oberta.",
+        "Després d'aixecar el cotxe, revisa que els quatre punts de suport conserven la forma i la protecció. El dany d'elevació obre la pintura i comença la corrosió on no es veu des de dalt. Corregeix i segella abans de tornar revestiments."
+      ],
+      "tarifa": "tarifa-transaxle",
+      "loQueHemosHecho": [
+        "Valentín Motors ha documentat la reconstrucció d'un motor 968 i altres feines sobre unitats d'aquesta família, mostrant mesurament, mecanitzat i muntatge en lloc de limitar-se al resultat exterior.",
+        "Aquest procés és especialment rellevant per a Variocam i cilindres: l'abast es decideix després de desmuntar i de mesurar, no per una llista tancada de peces."
+      ],
+      "articulos": [
+        "porsche968"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol el transaxle de quatre cilindres més desenvolupat, amb parell, practicitat i una producció continguda. Coupé manual ofereix l'experiència més directa; Tiptronic facilita ús relaxat; Club Sport interessa si autenticitat i menor confort encaixen de debò.",
+        "No convé a qui pretén estalviar ajornant corretges o Variocam, ni a qui paga una prima Club Sport sense veure codis. Un 944 S2 s'aproxima per arquitectura i costa diferent; un 928 afegeix V8 i complexitat; un 986 ofereix motor central i sensacions de conducció més modernes."
+      ]
+    },
+    {
+      "slug": "porsche-718",
+      "title": "Guia Porsche 718: versions, avaries i compra",
+      "metaTitulo": "Porsche 718: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche 718 tipus 982 des de 2016: Boxster, Cayman, GTS 4.0 i GT4, PDK, refrigeració, PADM i inspecció abans de comprar.",
+      "excerpt": "Què comprovar en comprar un Porsche 718 usat: quatre cilindres turbo davant 4.0, PDK, refrigeració, suports, sostres, frens i electrònica.",
+      "entradilla": [
+        "El Porsche 718 de tipus 982 reuneix Boxster i Cayman sota una mateixa denominació des del 2016. La gamma inicial utilitza motors bòxer turbo de quatre cilindres, mentre que GTS 4.0, Spyder, GT4 i GT4 RS recuperen sis cilindres atmosfèrics. Escollir per so o potència no n'hi ha prou: canvia la refrigeració, el lliurament de parell, l'ús habitual i el cost de frens i pneumàtics.",
+        "Com que és un cotxe recent, una inspecció ha d'integrar historial digital, campanyes, diagnosi i garantia amb l'estat físic. Pocs quilòmetres no exclouen ús de circuit, cops a la part inferior de la carrosseria, bateria degradada o drenatges obstruïts. Opcions com PASM, PADM, PTV, PCCB, nose lift o seients integrals només afegeixen valor quan hi són presents, documentades i operatives.",
+        "La guia evita tractar cada avís de fòrum com una avaria general. En un 718 es treballa per versió, codi i condicions de la decisió. La precompra ha de conservar errors emmagatzemats, provar tots els sistemes i comparar desgast amb hores i quilometratge abans de recomanar compra o descompte."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "2016-present"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Boxster descapotable i Cayman coupé"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer central, 2,0/2,5 turbo de quatre cilindres o 4,0 de sis"
+        },
+        {
+          "clave": "Potència",
+          "valor": "300-500 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 6 marxes o PDK de 7"
+        },
+        {
+          "clave": "Producció",
+          "valor": "En curs o finalitzada segons variant i mercat"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "718 Boxster i Cayman",
+          "texto": "Motor 2,0 turbo de 300 CV en el llançament. Són l'entrada a la gamma i ofereixen molta parella; revisa estanqueïtat d'admissió, actuadors, refrigeració i manteniment de PDK o manual."
+        },
+        {
+          "nombre": "718 S",
+          "texto": "Motor 2,5 turbo i 350 CV, amb turbocompressor de geometria variable. La càrrega tèrmica més gran fa important conèixer ús, oli, refrigeració i qualsevol reprogramació."
+        },
+        {
+          "nombre": "718 GTS 2.5",
+          "texto": "Versió turbo de quatre cilindres i 365 CV. Equipament GTS varia amb opcions; confirma PASM, Sport Chrono, escapament, PTV, seients i frens mitjançant fitxa de fàbrica."
+        },
+        {
+          "nombre": "718 GTS 4.0",
+          "texto": "Sis cilindres atmosfèric 4,0 i 400 CV al llançament, manual o PDK. Requereix revisar filtres de partícules segons el mercat, la escapament, l'encesa, la refrigeració i els registres d'ús."
+        },
+        {
+          "nombre": "718 Spyder i Cayman GT4",
+          "texto": "Motor 4,0 de 420 CV a la primera fase, xassís GT i frens majors. Sostre de lona manual del Spyder, part inferior de la carrosseria, geometria, rodes amb femella central i circuit mereixen inspecció específica."
+        },
+        {
+          "nombre": "Cayman GT4 RS i Spyder RS",
+          "texto": "Motor 4,0 d'altes revolucions, 500 CV, PDK i aerodinàmica específica. Comprova campanyes, preses, frens, carboni, part inferior de la carrosseria, hores i traçabilitat de circuit o transport."
+        }
+      ],
+      "antesDeComprar": [
+        "Descàrrega equipament de fàbrica per VIN i verifica campanyes, garanties i feines. Confirma PASM, PADM, PTV, PCCB, elevador, seients, escapament i climatització. Un cotxe anunciat com a GTS o GT ha de conservar peces específiques i no només adhesius.",
+        "Realitza diagnosi abans d'esborrar errors: hores, quilometratge, misfirs, pressió de combustible i sobrealimentació, temperatures, PDK, suports i sistemes de xassís. En manual, revisa rangs de sobrerègim i relaciona'ls amb embragatge i ús.",
+        "En motors 2.0 i 2.5, prova pressió de turbo, actuadors i estanquitat d'admissió. Xiulet, empenta irregular o codi de barreja necessiten prova de fum i dades, no una substitució automàtica del turbo. Documenta qualsevol unitat electrònica de control o escapi modificat.",
+        "Inspecciona radiadors, condensadors, bombes, vàlvules i restes en preses laterals i frontals. Prova pressió si hi ha olor o residu. Un cotxe de motor central és sensible a purgat correcte; aire o pèrdua poden generar temperatura irregular.",
+        "Prova PDK amb el motor fred i calent, maniobra i càrrega moderada. En manual revisa embragatge i selecció. Busca avís de PADM, fuita a PASM i desgast de braços o pneumàtics. Una alineació no compensa un component amb comoditat.",
+        "A Boxster i Spyder revisa sostre de lona, tensors, microinterruptors, segellat i drenatges; aixeca catifes per buscar humitat. A GT inspecciona splitter, difusor, carboni, discos PCCB o ferro, rodes amb femella central i punts de suport per danys de vorera o elevador."
+      ],
+      "averias": [
+        {
+          "titulo": "Actuadors i fuites de sobrealimentació",
+          "texto": "Pèrdua de parell, xiulet o pressió sol·licitada diferent de real pot venir de maneguet, vàlvula, sensor, actuador o turbo. Provar buit, fum i recorregut evita canviar el conjunt complet. Circular amb barreja o pressió incorrecta augmenta temperatura i castiga catalitzadors."
+        },
+        {
+          "titulo": "Bomba i vàlvules de refrigeració",
+          "texto": "Olor, residu, ventiladors freqüents o temperatura inestable requereixen prova de pressió i activació per diagnosi. Una bomba auxiliar i una principal no produeixen sempre el mateix patró. Purgar malament després de reparar pot crear un nou símptoma."
+        },
+        {
+          "titulo": "Suports PADM i PASM",
+          "texto": "Avís de suport dinàmic, rebot o duresa incoherent ha de separar suport, cablatge, sensor, amortidor i unitat. El cotxe pot circular, però perd la funció prevista i altera suports. Diagnostica abans de substituir components per parelles sense evidència."
+        },
+        {
+          "titulo": "PDK, embragatge i volant d'inèrcia",
+          "texto": "Tremolor en sortir, cop en seleccionar o soroll en apagar poden procedir d'embragatges, volant, suport, adaptació o hidràulica. Llegir valors i provar a temperatura permet acotar. Esperar al mode emergència eleva la probabilitat de dany secundari.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Drenatges i capota",
+          "texto": "Aigua rere seients, olor o sensors intermitents indiquen revisar drenatges i safates abans de segellar. Forçar un sostre de lona desajustada trenca transmissions o tensors. La humitat pot assolir centraletes i connectors, multiplicant errors elèctrics."
+        },
+        {
+          "titulo": "Frens i baixos en GT",
+          "texto": "Fissures, impactes a PCCB, splitter raspat o desgast desigual revelen ús i geometria. No tots els danys exigeixen reemplaçament, però cal mesurar-los amb el mètode del fabricant. En circuit, temperatura i parells de serratge importen tant com a gruix."
+        }
+      ],
+      "mantenimiento": [
+        "Segueix el pla del VIN i afegeix inspecció anual si hi ha trajectes curts, períodes aturats o circuits. Oli i filtre, refrigeració, frens, pneumàtics, part inferior de la carrosseria i diagnosi creen una tendència. En turbo deixa que oli arribi a temperatura abans d'exigir parell.",
+        "El servei de manteniment complet incorpora bugies, filtres, corretja i comprovacions d'injecció i admissió. A 4.0, vigila fuita i filtres segons mercat. Es mesura una pèrdua de rendiment abans d'atribuir-la a dipòsits o programari.",
+        "Mantingues PDK, caixa de canvis manual, diferencial i PTV segons temps i ús. Renova líquid de frens i controla PCCB amb tècnica adequada. Després de suspensió o pneumàtics, alinea i calibra sistemes que ho requereixin.",
+        "Neteja radiadors i drenatges, prova bateria i aplica campanyes documentades. A Spyder aprèn el cicle correcte de sostre de lona; a GT registra tancaments, frens i ús. Prioritza una línia base tècnica abans d'afegir-hi potència.",
+        "Si el cotxe ha estat reprogramat, conserva versió de programari, combustible previst, pressió sol·licitada i peces muntades. Una modificació reversible i documentada es pot mantenir o tornar a origen; un calibratge desconegut impedeix interpretar temperatura, mescla i desgast amb seguretat.",
+        "Després de qualsevol entrada d'aigua, eixuga i revisa connectors encara que l'habitacle sembli recuperat. La corrosió elèctrica apareix més tard. Documentar la zona, netejar drenatges i verificar consum en repòs evita una cadena de fallades intermitents."
+      ],
+      "tarifa": "tarifa-cayman",
+      "loQueHemosHecho": [
+        "La inspecció dels elements essencials i els treballs de frens publicats per Valentín Motors mostren l'enfocament aplicable a un 718: diagnosi, mesura i decisió segons desgast, no substitució automàtica.",
+        "Quan no hi ha un projecte específic publicat, la guia no presenta casos de 987 o 981 com si fossin tipus 982."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol un esportiu de motor central utilitzable diàriament i triarà el motor per ús. El 2.0 ofereix prestacions suficients; S i GTS turbo aporten parell; 4.0 i GT prioritzen so, règim i xassís amb consumibles majors.",
+        "No convé a qui necessita places del darrere o pretén mantenir un GT com un Cayman bàsic. Un 981 ofereix sis cilindres atmosfèrics a tota la gamma; un 987 redueix electrònica; un 991 afegeix 2+2 i comportament de motor del darrere."
+      ]
+    },
+    {
+      "slug": "porsche-987",
+      "title": "Guia Porsche 987: versions, avaries i compra",
+      "metaTitulo": "Porsche 987: guia de compra, bore scoring i IMS",
+      "metaDescripcion": "Guia del Porsche Boxster i Cayman 987 de 2004 a 2012: IMS, bore scoring, motors MA1, PDK, refrigeració i inspecció abans de comprar.",
+      "excerpt": "Com distingir 987.1 i 987.2 i què revisar a IMS, bore scoring, refrigeració, PDK, sostre de lona, suspensió i ús de circuit.",
+      "entradilla": [
+        "La generació 987 comprèn Boxster i el primer Cayman, amb una actualització mecànica decisiva. Els 987.1 usen motors M96/M97 i caixes de canvis manuals o Tiptronic; els 987.2 incorporen motors MA1, injecció directa als 3.4 i PDK. Compartir carrosseria no vol dir compartir el mateix risc d'IMS o el mateix pla de diagnosi.",
+        "El motor central ofereix equilibri i dos maleters, però dificulta algunes inspeccions i concentra radiadors al davant, preses laterals i drenatges a carrosseries obertes. Una precompra completa necessita accés des de dalt i baix, diagnosi, prova d'oli i boroscòpia quan el motor o els símptomes ho justifiquin.",
+        "Un 987 ben mantingut pot ser un esportiu quotidià raonable. Un cotxe barat amb oli consumit, radiadors obstruïts, sostre de lona humida i suspensió original acumula diverses factures independents. L'objectiu és quantificar abans de decidir, sense reduir tota la compra a una sola sigla."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "2004-2012"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Boxster descapotable i Cayman coupé"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer central de sis cilindres, 2,7-3,4 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "240-330 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual, Tiptronic al 987.1 o PDK al 987.2"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Més de 160.000 Boxster/Cayman, aproximadament"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Boxster 987.1",
+          "texto": "2,7 litres, 240 i després 245 CV; Boxster S 3,2 de 280 CV i després 3,4 de 295 CV. Els M96/M97 requereixen identificar IMS i valorar cilindres segons la versió i els símptomes."
+        },
+        {
+          "nombre": "Cayman 987.1",
+          "texto": "Cayman 2,7 de 245 CV i Cayman S 3,4 de 295 CV, posteriorment 303 CV a Sport. El 3.4 mereix atenció específica a consum i bore scoring."
+        },
+        {
+          "nombre": "Boxster 987.2",
+          "texto": "Des del 2009, 2,9 litres de 255 CV i S 3,4 d'injecció directa amb 310 CV. Motors MA1 sense l'IMS segellat anterior i canvi PDK opcional."
+        },
+        {
+          "nombre": "Cayman 987.2",
+          "texto": "2,9 litres de 265 CV i S 3,4 de 320 CV. L'actualització redueix uns riscos, però hi afegeix injecció directa i no elimina refrigeració, PDK, suspensió o manteniment per edat."
+        },
+        {
+          "nombre": "Boxster Spyder",
+          "texto": "Versió lleugera de 320 CV, sostre de lona manual i xassís específic. Comprova que conserva coberta, mecanisme, seients, rodes i equipament, i que la reducció de pes no amaga peces perdudes."
+        },
+        {
+          "nombre": "Cayman R",
+          "texto": "Evolució de 330 CV i menor pes. Autenticitat, diferencial, suspensió, frens, seients i ús al circuit s'han de revisar amb la fitxa d'opcions i diagnosi."
+        }
+      ],
+      "antesDeComprar": [
+        "Identifica 987.1 o 987.2 per VIN i codi de motor. No dedueixis l'IMS per data de matrícula. Un motor substituït pot canviar configuració; demana factura, número i abast de qualsevol intervenció i comprova què hi ha instal·lat.",
+        "A M96/M97 inspecciona filtre i oli, consum, fum i sutge. Boroscòpia cilindres quan la versió, historial o símptomes ho indiquin, especialment a 3.4. Interpreta marques juntament amb compressió, fuites i soroll calent.",
+        "Llegeix hores, rangs de sobrerègim en manual, misfirs, pressió, temperatures i adaptacions. Compara amb quilometratge i desgast. A PDK prova maniobra, sortida i canvis fred/calent; a Tiptronic busca cops i servei del fluid.",
+        "Revisa radiadors i condensadors darrere del para-xocs, bomba, dipòsit d'expansió, tap i maneguets. Prova pressió davant de residu o olor. Comprova que tots dos ventiladors treballen i que el sistema es va purgar correctament després de reparacions.",
+        "A Boxster prova sostre de lona diverses vegades, tensors, cables, microinterruptors i drenatges. Aixeca catifes i busca humitat sota seients. A Cayman revisa portó, segells i soroll. En tots dos, preses laterals han d'estar lliures i completes.",
+        "Prova braços, amortidors, suports de motor, frens i pneumàtics. Desgast interior i deriva no sempre són alineació. A Spyder o Cayman R mesura part inferior de la carrosseria, pintura, discos i peces específiques per detectar circuit, cop o conversió."
+      ],
+      "averias": [
+        {
+          "titulo": "IMS en 987.1",
+          "texto": "El tipus de rodament i la intervenció possible depenen de motor i any real. Partícules, fuita o desviació de distribució justifiquen parar i mesurar. Una factura d'IMS no demostra absència de bore scoring, baixa pressió o altres desgasts del motor.",
+          "enlace": "taller-ims"
+        },
+        {
+          "titulo": "Bore scoring en M96/M97",
+          "texto": "Consum creixent, fum d'una bancada, sutge desigual i tic calent eleven la sospita. La boroscòpia ha de visualitzar les parets adequades i documentar cilindre per cilindre. Seguir usant amb ratllat avançat augmenta joc, oli cremat i abast de reconstrucció.",
+          "enlace": "taller-bore-scoring"
+        },
+        {
+          "titulo": "AOS, RMS i buit",
+          "texto": "Fum intens després de ralentí, xiulet o buit excessiu orienten el separador; una gota entre motor i caixa de canvis pot tenir diverses fonts. Localitza abans de desmuntar. Oli aspirat contamina admissió, bugies i catalitzadors si s'ignora.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Bomba d'aigua i radiadors",
+          "texto": "Temperatura inestable, ventiladors freqüents o fuita requereixen revisar bomba, termòstat, radiadors i condensadors com a conjunt. Residus atrapats corroeixen superfícies. Un rodet deteriorat pot reduir cabal i deixar fragments al circuit."
+        },
+        {
+          "titulo": "PDK, Tiptronic i embragatge",
+          "texto": "Tremolor, cop en seleccionar, marxa lenta o patinament tenen causes diferents. Llegeix adaptacions, temperatura i errors i prova suports del motor i volant d'inèrcia. Un servei d'oli és manteniment, no cura automàtica de desgast mecànic.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Capota i entrada d'aigua",
+          "texto": "Drenatges obstruïts, escuma de safata degradada o cables desajustats deixen aigua i moviments asimètrics. Forçar el cicle trenca transmissions. La humitat sota seients pot fer malbé mòduls i connectors abans que aparegui olor evident."
+        }
+      ],
+      "mantenimiento": [
+        "Realitza oli i filtre anual en ús estacional o trajectes curts i obre el filtre si hi ha sospita. Registra consum. A M96/M97, un canvi freqüent aporta informació, però no repara IMS ni cilindres danyats.",
+        "El servei de manteniment complet inclou bugies, filtres, corretja, bobines, refrigeració i part inferior de la carrosseria. A MA1 vigila injecció directa només davant de símptomes. Neteja radiadors i drenatges sense fer malbé aletes i comprova entre radiador i condensador.",
+        "Mantingues Tiptronic, PDK, manual i diferencial segons temps i ús. Renova líquid de frens i revisa pinces, discos, braços i amortidors. Una geometria arriba després d'eliminar jocs i muntar pneumàtics equivalents.",
+        "A Boxster neteja drenatges i prova sostre de lona; utilitza mantenidor compatible durant parades. Després de circuit redueix intervals, inspecciona frens, pneumàtics, oli i part inferior de la carrosseria i documenta el treball per a la revisió següent.",
+        "Després de comprar sense historial, estableix una línia base amb anàlisi visual de filtre, refrigeració pressuritzada, estat de bobines, hores, PDK o embragatge, braços i data de pneumàtics. Ordenar feines per seguretat, risc mecànic i confort evita gastar primer en escapaments o llantes.",
+        "Conserva factures que indiquin codi de motor i referències. A 987.1 i 987.2 una descripció genèrica pot barrejar peces incompatibles. Registrar també el programari de PDK i qualsevol modificació facilita el següent diagnòstic i la futura venda.",
+        "Comprova periòdicament suports i escapament, perquè un motor que es mou altera alineació de cues, selector i vibracions. Resoldre primer el suport evita atribuir cada soroll a PDK, Tiptronic o al mateix bloc i redueix tensió en maneguets i unions."
+      ],
+      "tarifa": "tarifa-cayman",
+      "loQueHemosHecho": [
+        "Els articles de Valentín Motors sobre IMS, bore scoring i restauració de frens expliquen els processos que importen en revisar un 987.1, sense assumir que tots els motors estan danyats.",
+        "El diagnòstic separa una mesura preventiva, una reparació perifèrica i una reconstrucció. Aquesta diferència ha de quedar clara abans de negociar la compra."
+      ],
+      "articulos": [
+        "que-es-el-ims-de-porsche",
+        "porsche-bore-scoring",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol equilibri de motor central i triarà fase per prioritats. Un 987.1 pot oferir un bon valor amb inspecció rigorosa; un 987.2 evita l'IMS segellat i afegeix PDK; Spyder i Cayman R interessen si acceptaràs menor confort i més cost.",
+        "No convé a qui creu que un IMS substituït ho resol tot o deixa el sostre de lona a la intempèrie sense netejar drenatges. Un 986 és més simple i econòmic; un 981 ofereix interior i xassís posteriors; un 997 afegeix places del darrere i caràcter de motor del darrere."
+      ]
+    },
+    {
+      "slug": "porsche-981",
+      "title": "Guia Porsche 981: versions, avaries i compra",
+      "metaTitulo": "Porsche 981: guia de compra, avaries i manteniment",
+      "metaDescripcion": "Guia del Porsche Boxster i Cayman 981 de 2012 a 2016: versions, PDK, refrigeració, PADM, capota, frens i inspecció abans de comprar.",
+      "excerpt": "Què cal comprovar abans de comprar un Porsche 981: diagnosi, PDK, refrigeració, suports dinàmics, suspensió, aigua i ús de circuit.",
+      "entradilla": [
+        "El Porsche 981 va portar Boxster i Cayman a una plataforma més lleugera, amb més batalla i motors atmosfèrics de sis cilindres en tota la gamma. Ofereix des de 2,7 litres fins al 3,8 del Spyder i GT4, canvi manual o PDK i un habitacle força més actual que el 987. No utilitza l'IMS segellat dels primers Boxster, però això no elimina la necessitat d'una inspecció de motor i refrigeració.",
+        "Des del taller, la compra es decideix en el conjunt: diagnosi, bomba i vàlvules de refrigeració, bobines, PDK, suports PADM, amortidors, frens i drenatges. En cotxes amb ús esportiu cal relacionar hores, sobrerègim, pneumàtics i part inferior de la carrosseria. Un cotxe usat en circuit documentada pot ser millor que una altra aparentment tranquil·la amb errors esborrats.",
+        "Les opcions canvien cost i sensacions de conducció: PASM, PTV, Sport Chrono, escapament, PCCB, seients integrals i, a GT4, xassís i rodes amb femella central. La fitxa de fàbrica evita pagar una descripció imprecisa i ajuda a demanar components correctes."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "2012-2016"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Boxster descapotable i Cayman coupé"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer central de sis cilindres atmosfèric, 2,7-3,8 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "265-385 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 6 marxes o PDK de 7"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Producció conjunta no publicada de manera uniforme"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Boxster",
+          "texto": "Motor 2,7 de 265 CV, manual o PDK. Menys parell que el S, però mateix equilibri; revisa refrigeració, sostre de lona i equipament sense assumir menys manteniment."
+        },
+        {
+          "nombre": "Boxster S",
+          "texto": "Motor 3,4 de 315 CV. Frens i prestacions més grans; confirma PTV, PASM i Sport Chrono per opcions i mesura consumibles abans de comparar preus."
+        },
+        {
+          "nombre": "Cayman",
+          "texto": "Motor 2,7 de 275 CV i carrosseria tancada. Portó, sostre interior i segells substitueixen part de la revisió de sostre de lona, però comparteix motor, caixes de canvis i xassís."
+        },
+        {
+          "nombre": "Cayman S",
+          "texto": "Motor 3,4 de 325 CV. Adequat per a carretera i circuit ocasional si frens, oli, pneumàtics i geometria van rebre manteniment d'acord."
+        },
+        {
+          "nombre": "GTS",
+          "texto": "330 CV a Boxster i 340 CV a Cayman, amb equipament esportiu i estètica propis. Moltes opcions eren configurables; verifica fitxa i peces originals."
+        },
+        {
+          "nombre": "Boxster Spyder i Cayman GT4",
+          "texto": "Motors 3,8 de 375 i 385 CV. Sostre de lona manual a Spyder i xassís GT a Cayman exigeixen revisar peces específiques, frens, part inferior de la carrosseria, sobrerègim i autenticitat."
+        }
+      ],
+      "antesDeComprar": [
+        "Obtingues equipament per VIN i contrasta PASM, PTV, Sport Chrono, escapament, seients, PCCB, climatització i transmissió. A GTS, Spyder i GT4 verifica para-xocs, llantes, sostre de lona, aleró i components que poden haver afegit a un model base.",
+        "Fes diagnosi sense esborrar memòria: hores, quilometratge, misfirs, pressions, temperatures, PDK, PADM i sistemes de xassís. Al manual registra rangs de sobrerègim i antiguitat de l'esdeveniment. Compara dades amb discos, pneumàtics, seient i part inferior de la carrosseria.",
+        "Arrenca fred i observa fum, soroll i pressió. Prova resposta a diferents règims i cerca errors de bobina o injector. Consum o fum requereixen mesurar; no traslladis automàticament diagnòstics de M96/M97 a aquesta família MA1.",
+        "Revisa bomba d'aigua, vàlvules de commutació, radiadors, condensadors, maneguets i restes en preses. Olor dolça, residu o ventiladors freqüents justifiquen prova de pressió i activació per diagnosi. Confirma purgat correcte després de reparacions.",
+        "Prova PDK en maniobra, sortida, canvis suaus i temperatura; en manual, embragatge, volant d'inèrcia i selecció. Revisa suports PADM, PASM, braços, ròtules i desgast interior. Alinea només després d'eliminar folgures.",
+        "A Boxster i Spyder acciona sostre de lona i revisa drenatges i humitat sota seients. A GT4 inspecciona splitter, difusor, punts de suport, discos, rodes amb femella central i geometria. Demana registre de circuit si el desgast ho suggereix."
+      ],
+      "averias": [
+        {
+          "titulo": "Bomba i circuit de refrigeració",
+          "texto": "Olor, pèrdua, temperatura variable o ventiladors freqüents requereixen prova de pressió i activació de bombes i vàlvules. Canviar només la peça que deixa rastre pot ometre un radiador obstruït o un purgat deficient."
+        },
+        {
+          "titulo": "Bobines, bugies i injecció",
+          "texto": "Tirada, misfire o ralentí irregular s'han de localitzar per cilindre i condició. Bobina esquerdada, bugia, injector o entrada d'aire poden compartir codi. Circular amb fallada de combustió envia combustible al catalitzador i n'eleva la temperatura."
+        },
+        {
+          "titulo": "Suports dinàmics PADM",
+          "texto": "Avís intermitent o canvi de moviment del conjunt pot procedir de suport, cablatge o control. Llegir ambdós costats i alimentació evita reemplaçar per intuïció. La decisió no sol immobilitzar, però desactiva una funció pagada i afecta sensacions de conducció."
+        },
+        {
+          "titulo": "PDK, embragatge i volant d'inèrcia",
+          "texto": "Tremolor en sortir, cop en seleccionar o soroll en apagar requereixen dades d'adaptació, suports i prova tèrmica. L'oli de PDK és manteniment, no solució universal. En manual separa volant, disc, hidràulic i selecció.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Panells interiors i sostre",
+          "texto": "Panell de porta deformat, sostre enlairat o cruixits no fan malbé el motor, però indiquen calor, adhesiu i edat. Una reparació neta ha de conservar coixins de seguretat i fixacions. Inclou el cost en compra en lloc d'ocultar-lo amb clips o cola."
+        },
+        {
+          "titulo": "Drenatges i mecanismes de capota",
+          "texto": "Moviment desigual, cable fora de sincronia o aigua després de seients exigeix aturar el cicle i netejar safates. Forçar transmissions multiplica mal. La humitat assoleix mòduls abans de veure's a la superfície de la moqueta."
+        }
+      ],
+      "mantenimiento": [
+        "Oli i filtre anual és una referència prudent per a ús curt o esportiu. Registra consum i temperatura. El servei de manteniment complet afegeix bugies, filtres, corretja, refrigeració, part inferior de la carrosseria i diagnosi; ajusta intervals a l'ús real.",
+        "Mantingues PDK o caixa de canvis manual, diferencial i PTV segons temps i quilometratge. Renova líquid de frens i controla discos PCCB o ferro amb mesurament adequat. Per a circuit revisa després oli, frens, pneumàtics i part inferior de la carrosseria.",
+        "Neteja radiadors, condensadors i drenatges. Prova bateria i càrrega abans de diagnosticar avisos múltiples. A Boxster verifica sostre de lona almenys periòdicament, encara que es faci servir poc; els mecanismes també envelleixen aturats.",
+        "Revisa suspensió com a sistema i alinea amb alçades i pneumàtics correctes. Documenta canvis de escapament, programari o peces GT. Una posada al dia del manteniment tècnica manté millor el valor que no pas afegir components sense factura.",
+        "En un cotxe que alterna carretera i circuit anota dates, temperatures, pastilles, líquids i pneumàtics de cada jornada. Aquest registre permet reduir intervals amb criteri i demostra que l'ús intens va rebre atenció, en lloc d'amagar-lo amb consumibles nous abans de vendre.",
+        "Durant parades llargues mantingues bateria i pressions, mou sostre de lona i climatització de forma periòdica i evita arrencar només uns minuts. En tornar a fer-lo servir, revisa fuites, nius o residus en preses i corrosió superficial de frens abans de conduir ràpid.",
+        "Quan se substitueixi bateria, pneumàtics o sensors, desa data, referència i calibratge. Aquesta informació simplifica fallades posteriors de baixa tensió, pressió o geometria i permet al comprador verificar que un avís va ser resolt amb procediment, no simplement esborrat."
+      ],
+      "tarifa": "tarifa-cayman",
+      "loQueHemosHecho": [
+        "Les inspeccions dels elements essencials i restauracions de pinces publicades al Magazine il·lustren el procés previ a intervenir un 981: lectura, prova i mesura de desgast.",
+        "No s'atribueixen al 981 avaries del 987 per simple parentiu. Quan es publiqui un cas propi, pots afegir-lo a la llista d'articles."
+      ],
+      "articulos": [
+        "revision-gratuita-esenciales",
+        "restauracion-pinzas-freno"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui cerca sis cilindres atmosfèrics, equilibri de motor central i ús diari. El 2.7 exigeix més règim; S aporta parell; GTS afegeix equipament; Spyder i GT4 justifiquen el cost si acceptes sostre de lona o xassís més exigents.",
+        "No convé a qui necessita places del darrere o no vol mantenir opcions actives. Un 987.2 ofereix una base més antiga i assequible; un 718 turbo aporta parell i connectivitat; un 991 combina sis cilindres, maleter davanter i places ocasionals."
+      ]
+    },
+    {
+      "slug": "porsche-986",
+      "title": "Guia Porsche 986: versions, IMS i compra",
+      "metaTitulo": "Porsche 986: guia de compra, IMS i avaries",
+      "metaDescripcion": "Guia del Porsche Boxster 986 de 1996 a 2004: versions 2.5, 2.7 i S, IMS, refrigeració, capota, bore scoring i inspecció precompra.",
+      "excerpt": "Com comprar un Porsche Boxster 986 amb criteri: motor M96, IMS, cilindres, refrigeració, sostre de lona, drenatges, caixa de canvis i suspensió.",
+      "entradilla": [
+        "El Porsche Boxster 986 va inaugurar la família de motor central refrigerat per aigua i va permetre a Porsche compartir nombrosos components amb el 996. La gamma evoluciona del 2.5 de 204 CV al 2.7 i al Boxster S 3.2. El seu equilibri continua sent actual, però moltes unitats han passat anys de baix valor, ús urbà i manteniment mínim.",
+        "La conversa sobre IMS és necessària i alhora insuficient. També cal revisar cilindres, separador d'oli, refrigeració, dipòsit d'expansió, bomba, radiadors, sostre de lona, drenatges, transmissió i suspensió. Un rodament canviat no corregeix un motor amb pressió baixa ni una centraleta inundada sota el seient.",
+        "La millor compra sol ser el cotxe amb historial llegible i problemes quantificats, no pas el de pintura més brillant. Una precompra útil obre filtre, llegeix diagnosi, inspecciona cilindres quan procedeix i aixeca moquetes. El pressupost de posada al dia del manteniment ha de formar part de la decisió abans de comparar els accessoris."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1996-2004"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Roadster biplaça"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer central de sis cilindres refrigerat per aigua, 2,5-3,2 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "204-266 CV segons versió europea"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual de 5/6 marxes o Tiptronic de 5"
+        },
+        {
+          "clave": "Producció",
+          "valor": "164.874 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "Boxster 2.5",
+          "texto": "Del 1996 al 1999, 204 CV i cable d'accelerador a les primeres unitats. Els primers motors requereixen revisar historial de bloc, porositat i possibles substitucions a més de l’IMS."
+        },
+        {
+          "nombre": "Boxster 2.7",
+          "texto": "Des de 1999/2000, primer 220 i després 228 CV. Més parell i evolució electrònica; el tipus IMS es confirma per motor real, no per una data aproximada."
+        },
+        {
+          "nombre": "Boxster S 3.2",
+          "texto": "Des del 1999/2000, 252 CV i després 260 CV, canvi manual de sis marxes i frens majors. Revisa consum, cilindres, embragatge i ús de circuit amb més atenció."
+        },
+        {
+          "nombre": "Actualització de 2003",
+          "texto": "Canvis de para-xocs, luneta de vidre i potències revisades. Un sostre de lona posterior instal·lada en un cotxe primerenc pot ser una millora, però no canvia l'any model."
+        },
+        {
+          "nombre": "50 Years of the 550 Spyder",
+          "texto": "Edició final sobre Boxster S amb 266 CV, color i equipament específics. Verifica placa, codi d'opció, interior, rodes i documentació abans de pagar la prima."
+        },
+        {
+          "nombre": "Manual o Tiptronic",
+          "texto": "El manual prioritza connexió i exigeix revisar embragatge i sobrerègim; Tiptronic facilita ús urbà, però necessita prova en fred/calent i servei documentat."
+        }
+      ],
+      "antesDeComprar": [
+        "Identifica motor instal·lat, no només el lliurat originalment. Demana factures de substitució o reconstrucció, IMS, embragatge i RMS. El número de motor ajuda a conèixer configuració, però una intervenció interna només es demostra amb documentació detallada.",
+        "Arrenca completament fred i observa fum, taquès, ralentí i pressió. Repeteix-ho calent després de retenció. Inspecciona filtre i oli per partícules i contaminació; mesura compressió i fuites o usa boroscopi quan símptomes i historial ho aconsellin.",
+        "Valora IMS segons rodament present, accés i ús. No acceptis afirmacions de solucionat sense marca, data, quilometratge i factura. Si es desmunta caixa de canvis, revisa a més embragatge, volant, RMS, fuita d'eix i condició general.",
+        "Comprova dipòsit d'expansió del darrere, tap, bomba, termòstat, radiadors i condensadors. Fulles entre superfícies afavoreixen corrosió. Olor de refrigerant, residu o temperatura inestable justifiquen prova de pressió i purgat correcte.",
+        "Acciona sostre de lona diverses vegades, revisa cables, transmissions, elàstics, microinterruptors i drenatges. Aixeca moqueta darrere i sota seients. Una safata seca no demostra avui absència d'inundació anterior; cerca sulfat, mòduls substituïts i olor.",
+        "Prova embragatge, les sis o cinc marxes, Tiptronic, frens i suspensió. Llegeix hores i sobrerègim en manual. Revisa braços, suports, pneumàtics i alineació, a més de la part inferior de la carrosseria i punts d'elevació per cops."
+      ],
+      "averias": [
+        {
+          "titulo": "IMS",
+          "texto": "Partícules metàl·liques, fuita, soroll o desviació de distribució requereixen aturar i diagnosticar. La solució depèn del rodament i l'estat del motor. Substituir-lo preventivament pot tenir sentit en configuracions concretes, però no elimina altres modes de fallada del M96.",
+          "enlace": "taller-ims"
+        },
+        {
+          "titulo": "Cilindres i blocs de les primeres sèries",
+          "texto": "Fum, consum, barreja de fluids o baixa compressió poden indicar problemes diferents, des de AOS fins a camisa desplaçada, porositat o ratllat. Boroscòpia i proves de pressió separen causes. Comprar sense mesurar després d'un sobreescalfament és assumir-ne una reconstrucció possible.",
+          "enlace": "taller-bore-scoring"
+        },
+        {
+          "titulo": "AOS i RMS",
+          "texto": "Fum abundant després de ralentí, xiulet i buit fort apunten al separador; una gota entre motor i caixa de canvis pot procedir de RMS o una altra junta. Localitzar evita desmuntar la caixa de canvis per a una fuita que ve de dalt. Oli aspirat perjudica catalitzadors.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Bomba, dipòsit d'expansió i radiadors",
+          "texto": "Fuita en maleter, residu frontal, rodament de bomba o ventiladors freqüents són parts del mateix circuit. Un dipòsit d'expansió esquerdat pot humitejar equipatge; una bomba deteriorada redueix cabal. Ignorar temperatura acaba afectant culates i camises."
+        },
+        {
+          "titulo": "Capota, cables i drenatges",
+          "texto": "Moviment asimètric o tapa que no tanca exigeix parar per sincronitzar. Els drenatges obstruïts envien aigua a l'electrònica. Substituir un mòdul sense eliminar entrada i assecar connectors repeteix la fallada a la següent pluja."
+        },
+        {
+          "titulo": "Canvi, embragatge i suports",
+          "texto": "Rascat, patinament, cop de transmissió o Tiptronic lent s'han de separar mitjançant prova tèrmica. Suports de motor enfonsats alteren canvi i escapament. Corregir-los pot millorar sensacions de conducció, però no repara sincronitzadors o embragatges desgastats.",
+          "enlace": "taller-cajas"
+        }
+      ],
+      "mantenimiento": [
+        "Oli i filtre anual en ús estacional aporta una inspecció recurrent del filtre. Registra consum i fuites. No facis servir oli més dens per ocultar soroll sense mesurar pressió i estat intern.",
+        "El servei de manteniment complet inclou bugies, filtres, corretja, bobines, AOS, refrigeració i part inferior de la carrosseria. Neteja entre radiador i condensador i prova drenatges. Renova líquid de frens per temps i refrigerant amb procediment de purgat.",
+        "Mantingues manual o Tiptronic, diferencial, embragatge i suports segons ús i condició. Després de braços o amortidors, munta pneumàtics equivalents i alinea. Un cotxe de motor central sensible a pressions mereix mesuraments regulars.",
+        "Acciona sostre de lona, climatització i tancaments durant períodes de poc ús i conserva bateria amb equip compatible. Evita arrencades breus. Després de circuit escurça revisió d'oli, frens, pneumàtics i part inferior de la carrosseria.",
+        "Després de comprar una unitat sense historial, crea una referència amb pressió, estat del filtre, refrigeració, bobines, embragatge o Tiptronic, suports i pneumàtics. Decideix primer seguretat i risc de motor, després confort i al final canvis estètics.",
+        "Guarda marca, tipus i data de qualsevol solució IMS i el número del motor. També documenta purgat, bomba i depòsit d'expansió. Aquestes dades eviten que el següent taller repeteixi desmuntatges o pressuposi una configuració que el cotxe ja no conserva.",
+        "Revisa escapament i catalitzadors després d'una fallada d'AOS o misfire. Que el motor torni a alentir bé no demostra que l'oli o el combustible acumulats no hagin elevat temperatura i degradat el catalitzador. La diagnosi posterior ha de confirmar mescla i eficiència."
+      ],
+      "tarifa": "tarifa-cayman",
+      "loQueHemosHecho": [
+        "Els articles de Valentín Motors sobre IMS i bore scoring ajuden a entendre com s'inspecciona un M96 sense convertir una possibilitat en diagnòstic automàtic.",
+        "La restauració de pinces i inspecció dels elements essencials completen la compra: un motor sa no compensa frens, pneumàtics o suspensió ajornats."
+      ],
+      "articulos": [
+        "que-es-el-ims-de-porsche",
+        "porsche-bore-scoring",
+        "restauracion-pinzas-freno",
+        "revision-gratuita-esenciales"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui vol un Porsche de motor central, descapotable i relativament senzill, reservarà pressupost de posada al dia del manteniment i no comprarà només per IMS canviat. El 2.7 equilibra ús; el S afegeix parell i frens; el 2.5 primerenc interessa per caràcter i preu si està sa.",
+        "No convé qui deixa el cotxe a la intempèrie amb drenatges sense atendre o no accepta una boroscòpia quan hi ha símptomes. Un 987 millora interior i rigidesa; un 981 elimina la preocupació de l’IMS segellat; un 996 afegeix places posteriors amb riscos mecànics relacionats."
+      ]
+    },
+    {
+      "slug": "porsche-911-f",
+      "title": "Guia Porsche 911 F: versions, òxid i compra",
+      "metaTitulo": "Porsche 911 F: guia de compra, òxid i manteniment",
+      "metaDescripcion": "Guia del Porsche 911 F de 1964 a 1973: T, E, S i Carrera RS, corrosió, motor, MFI, canvi 901/915 i inspecció abans de comprar-ne un.",
+      "excerpt": "La compra d'un Porsche 911 F comença per carrosseria i autenticitat: què cal revisar en òxid, motor, MFI o carburadors, caixa de canvis i restauració.",
+      "entradilla": [
+        "El Porsche 911 F agrupa els 911 de batalla curta i llarga fabricats abans dels para-xocs de manxa, des dels primers 2.0 fins als 2.4 i Carrera RS 2.7. En menys d'una dècada canvien batalla, cilindrada, injecció, caixa de canvis, llums, portes i nombrosos detalls. Una guia de compra ha de situar primer el cotxe al seu any i al mercat.",
+        "La carrosseria determina l'operació. Frontal, safata de bateria, suports de suspensió, taloneres, bases de pilars, terres i ancoratges del darrere poden haver estat reparats diverses vegades. Pintura i jocs boniques no demostren metall sa ni geometria. Les fotografies d'una restauració valen més que una llista de panells substituïts suposadament.",
+        "Al taller també se separa originalitat de funcionament. Carburadors, MFI, encesa i motors intercanviats poden fer un cotxe agradable sense ser correcte per al xassís. Totes dues coses són vàlides si el preu i la documentació ho diuen. El problema apareix quan una recreació s'ofereix com a versió autèntica."
+      ],
+      "ficha": [
+        {
+          "clave": "Anys",
+          "valor": "1964-1973"
+        },
+        {
+          "clave": "Carrosseries",
+          "valor": "Coupé i Targa"
+        },
+        {
+          "clave": "Motor",
+          "valor": "Bòxer de sis cilindres refrigerat per aire, 2,0-2,7 l"
+        },
+        {
+          "clave": "Potència",
+          "valor": "110-210 CV en versions de carretera principals"
+        },
+        {
+          "clave": "Canvi",
+          "valor": "Manual 901/911 de 5 marxes; 915 des de 1972"
+        },
+        {
+          "clave": "Producció",
+          "valor": "Aproximadament 112.000 unitats"
+        }
+      ],
+      "versiones": [
+        {
+          "nombre": "911 2.0",
+          "texto": "Primers cotxes des del 1964, amb versions base, T, L i S segons any i mercat. Batalla curta fins a 1968; números, Weber/Solex, instruments i carrosseria necessiten referència anual."
+        },
+        {
+          "nombre": "911 T",
+          "texto": "Versió d'accés amb 110-130 CV segons 2.0, 2.2 o 2.4. Carburadors o MFI depenen de mercat i any; la menor potència no redueix l'exigència d'autenticitat i òxid."
+        },
+        {
+          "nombre": "911 E",
+          "texto": "Versió intermèdia amb injecció mecànica i entre 140 i 165 CV. La MFI ben ajustada ofereix resposta neta; una bomba manipulada pot amagar desgast o configuració incorrecta."
+        },
+        {
+          "nombre": "911 S",
+          "texto": "La versió esportiva evoluciona de 160 a 190 CV, amb motor, frens i equipaments específics. Comprova càrter, culates, bomba MFI, instruments i peces S davant d'una conversió."
+        },
+        {
+          "nombre": "Targa",
+          "texto": "Disponible amb vidre tou en primeres unitats i després vidre fix. Arc, panell, segells, tancaments, drenatges i rigidesa s'han de revisar; les peces primerenques són difícils de substituir."
+        },
+        {
+          "nombre": "Carrera RS 2.7",
+          "texto": "Homologació del 1973 amb 210 CV i carrosseria lleugera o Touring. La quantitat de recreacions exigeix peritatge complet de xassís, xapes, motor, MFI, aletes, interior i documentació."
+        }
+      ],
+      "antesDeComprar": [
+        "Contrasta VIN, estampacions, placa, motor, caixa de canvis, color i equipament amb registres d'any i mercat. A S, Targa primerencs i RS, revisa gruixos de xapa, dates de vidres, instruments i peces específiques. Una rèplica ben feta continua sent una rèplica.",
+        "Inspecciona safates de bateria, panell frontal, suport de cremallera i braços, torretes, passos, taloneres, bases de pilars, terres, tubs de calefacció, safata del darrere i ancoratges de barra de torsió. Fes servir mesurador i mira soldadures des dels dos costats.",
+        "Mesura diagonals i alçades i observa ajustament de portes amb el cotxe recolzat i aixecat. En batalla curta, una reparació incorrecta altera estabilitat. A Targa, el canvi de joc pot revelar flexió o reforços danyats.",
+        "Arrenca en fred i comprova pressió, fum, fuites i soroll de cadena. Mesura compressió i fuites, examina bugies i verifica que cilindrada i components coincideixen amb allò facturat. Un motor reconstruït necessita cotes i feines documentades.",
+        "En carburadors revisa sincronia, eixos, flotadors i avenç. A MFI aplica la seqüència correcta: compressió, vàlvules, encesa, pressió de combustible, varillatge i finalment bomba. Ajustar la bomba primer crea consum, fum i rentat de cilindres.",
+        "Prova caixa de canvis 901/911 o 915 calenta, sense forçar. Rascat, marxa que salta o soroll requereixen separar embragatge, casquets, varillatge i sincronitzadors. Comprova frens, rodaments, amortidors, direcció i pneumàtics abans d'una prova ràpida."
+      ],
+      "averias": [
+        {
+          "titulo": "Corrosió estructural",
+          "texto": "Òxid a frontal, talonera o ancoratges afecta geometria i seguretat abans de perforar la pintura. Retira segellador en punts representatius i mesura en bancada quan hi hagi dubtes. Soldar panells sense referències pot fixar la carrosseria torta.",
+          "enlace": "taller-pintura"
+        },
+        {
+          "titulo": "Càrter de magnesi i espàrrecs",
+          "texto": "Fuites, pèrdua de compressió o rosques cedides requereixen mesurar càrter i alineació. Inserits, planejat i mecanitzat s'han de documentar. Muntar cilindres i culates sobre una base fora de tolerància repeteix fuites i redueix vida del motor.",
+          "enlace": "taller-motores"
+        },
+        {
+          "titulo": "Cadenes i tensors",
+          "texto": "Soroll en arrencar o en calent pot anticipar tensor, rampa o cadena fatigats. Actualitzacions posteriors milloren fiabilitat, però afecten originalitat i han d'estar ben instal·lades. Si el distribució salta, pistons i vàlvules poden entrar en contacte."
+        },
+        {
+          "titulo": "MFI o carburadors desajustats",
+          "texto": "Petardeig, fum negre, manca de resposta i oli diluït són conseqüències de barreja o encesa incorrectes. La MFI no s'ajusta per un únic cargol. Un motor amb compressió desigual mai no quedarà bé compensant combustible."
+        },
+        {
+          "titulo": "Canvi 901/911 i 915",
+          "texto": "Rascat en primera o segona, palanca vaga o marxa expulsada no són trets que s'hagin d'acceptar. Casquets i ajustament són econòmics davant de sincronitzadors i dents. Forçar una caixa de canvis freda accelera mal i encareix una futura reconstrucció.",
+          "enlace": "taller-cajas"
+        },
+        {
+          "titulo": "Combustible, frens i mànegues",
+          "texto": "Conductes endurits, bombes sorolloses, pinces engarrotades o tubs flexibles antics afecten seguretat encara que el cotxe circuli poc. Olor de benzina exigeix parar. Renovar amb especificació correcta precedeix qualsevol augment de potència o esdeveniment."
+        }
+      ],
+      "mantenimiento": [
+        "Oli i filtre o malles segons versió, reglatge de vàlvules, bugies, platins o encesa i fuites requereixen intervals freqüents. Registra cada vàlvula i pressió. L'ús escàs no atura l'envelliment de combustible, juntes i frens.",
+        "Mantingues refrigeració per aire completa: corretja, turbina, xapes, termòstat, comportes i goma perimetral. Una peça absent recircula aire calent. Neteja oli d'intercanviadors i evita que una fuita arribi a la fuita o calefacció.",
+        "A MFI segueix la seqüència d'ajust i conserva oli de la bomba quan correspongui; en carburadors revisa sincronia i pressió. Inspecciona línies de combustible per edat. Una barreja correcta protegeix pistons i manté oli sense dilució.",
+        "Renova líquid de frens, greix i revisa rodaments, direcció, pedals, embragatge i varillatge. Caixa de canvis i diferencial usen lubricant adequat a sincronitzadors. Protegeix cavitats i drenatges i revisa corrosió cada any.",
+        "Després d'una restauració conserva fotografies del metall, gruixos, referències de panells, cotes i números. Apunta reglatges de vàlvules, pressió, compressió i mescla MFI. Aquest fitxer permet distingir envelliment normal d'una reparació que comença a moure's o corroir-se.",
+        "Si el cotxe participa en proves de regularitat per a clàssics o circuit, inspecciona després frens, rodaments, pneumàtics, fuites i ancoratges. Redueix intervals sense confondre preparació amb manteniment: una millora de suspensió no compensa un suport de barra de torsió afeblit."
+      ],
+      "tarifa": "tarifa-911",
+      "loQueHemosHecho": [
+        "Valentín Motors ha publicat restauracions d'un 911 de 1965, motors 2.2 de 1970 i 1971, tapisseria original de Sèrie F i projectes complets de carrosseria.",
+        "Els casos mostren per què es documenten metall, números, mecanitzat i muntatge. Una foto final no permet valorar l'estructura ni l'autenticitat d'una restauració."
+      ],
+      "articulos": [
+        "restauracion-porsche-911-1965",
+        "rehabilitacion-motor-22-1970-serief",
+        "restauracion-motor-1971-22",
+        "tapicera-original-de-911-serie-f",
+        "restauracion27stargalimegreen-kdlc4"
+      ],
+      "aQuienLeConviene": [
+        "Convé a qui gaudeix la lleugeresa, la direcció sense assistència i la feina de mantenir un clàssic d'hora, i pagarà per estructura i traçabilitat abans que per pintura. Un T o E sa pot ser més útil que perseguir una recreació S; un RS autèntic requereix una altra escala de peritatge.",
+        "No convé a qui necessiti climatització, protecció moderna o llargs intervals sense atenció. Un 911 G ofereix recanvi i ús més senzill; un 964 afegeix ABS i direcció assistida; un 356 redueix potència i retrocedeix encara més en ergonomia."
+      ]
+    }
+  ]
+}

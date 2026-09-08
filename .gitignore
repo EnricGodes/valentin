@@ -17,6 +17,10 @@ sitio/public/muestra/
 sitio/public/video/
 _migracion/contenido/videos/
 
+# El contenedor de una entrega de traduccion: dentro va lo mismo que la
+# carpeta descomprimida de al lado, que si esta versionada.
+_migracion/traducciones/*.zip
+
 # Las tandas de revision del castellano se regeneran con npm run revision:exportar
 # y se borran cuando estan aplicadas: no son fuente, son un apero.
 sitio/revision/
