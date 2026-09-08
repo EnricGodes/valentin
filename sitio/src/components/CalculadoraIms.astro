@@ -26,27 +26,27 @@ interface Props {
 const { compacta = false, enlaceArticulo } = Astro.props;
 const anoMax = new Date().getFullYear() + 1;
 ---
-<section class:list={['ims', compacta && 'ims--compacta']} data-ims
+<section class:list={['herr', compacta && 'herr--compacta']} data-ims
          data-version={VERSION_REGLAS} data-articulo={enlaceArticulo}>
-  <form class="ims-form" data-ims-form novalidate>
-    <div class="ims-campos">
-      <p class="ims-campo">
+  <form class="herr-form" data-ims-form novalidate>
+    <div class="herr-campos">
+      <p class="herr-campo">
         <label for="ims-familia">{UI.modelo}</label>
         <select id="ims-familia" name="familia">
           {OPCIONES.familia.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
         </select>
       </p>
 
-      <p class="ims-campo ims-campo--ano">
+      <p class="herr-campo herr-campo--ano">
         <label for="ims-ano">{UI.ano}</label>
         <input id="ims-ano" name="ano" type="number" inputmode="numeric"
                placeholder="2003" min="1948" max={anoMax}
                aria-describedby="ims-ano-ayuda">
-        <span class="ims-ayuda" id="ims-ano-ayuda">{UI.anoAyuda}</span>
+        <span class="herr-ayuda" id="ims-ano-ayuda">{UI.anoAyuda}</span>
       </p>
 
       {/* De segundo orden: mismo campo, menos peso visual. */}
-      <p class="ims-campo ims-campo--menor">
+      <p class="herr-campo herr-campo--menor">
         <label for="ims-base">{UI.baseAno}</label>
         <select id="ims-base" name="baseAno">
           {OPCIONES.baseAno.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
@@ -55,12 +55,12 @@ const anoMax = new Date().getFullYear() + 1;
     </div>
 
     {/* La aclaracion, cuando toca, se pinta aqui: pegada al boton y al campo. */}
-    <div class="ims-pregunta" data-ims-pregunta hidden></div>
+    <div class="herr-pregunta" data-ims-pregunta hidden></div>
 
-    <p class="ims-error" data-ims-error role="alert" hidden></p>
+    <p class="herr-error" data-ims-error role="alert" hidden></p>
 
-    <button class="cta ims-enviar" type="submit" data-ims-enviar>{UI.calcular}</button>
+    <button class="cta herr-enviar" type="submit" data-ims-enviar>{UI.calcular}</button>
   </form>
 
-  <div class="ims-salida" data-ims-resultado aria-live="polite" hidden></div>
+  <div class="herr-salida" data-ims-resultado aria-live="polite" hidden></div>
 </section>

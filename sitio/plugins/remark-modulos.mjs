@@ -246,7 +246,7 @@ export default function remarkModulos() {
          escrito dos veces ni el motor de reglas duplicado. */
       if (nodo.name === 'herramienta') {
         nodo.type = 'html';
-        nodo.value = `<div class="ancha" data-ims-hueco="${esc(at.id)}"></div>`;
+        nodo.value = `<div class="ancha" data-herramienta-hueco="${esc(at.id)}"></div>`;
         nodo.children = [];
         return;
       }

@@ -170,6 +170,13 @@ export const RUTAS: Ruta[] = [
     slugs: { es: 'herramientas/calculadora-ims-porsche', en: 'tools/porsche-ims-calculator',
              fr: 'outils/calculateur-ims-porsche', it: 'strumenti/calcolatore-ims-porsche',
              de: 'werkzeuge/porsche-ims-rechner', ca: 'eines/calculadora-ims-porsche' } },
+  { id: 'evaluador-bore-scoring', seccion: 'herramientas',
+    slugs: { es: 'herramientas/evaluador-bore-scoring-porsche',
+             en: 'tools/porsche-bore-scoring-checker',
+             fr: 'outils/evaluateur-bore-scoring-porsche',
+             it: 'strumenti/valutatore-bore-scoring-porsche',
+             de: 'werkzeuge/porsche-bore-scoring-check',
+             ca: 'eines/avaluador-bore-scoring-porsche' } },
 
   // ── Legales ─────────────────────────────────────────────────────────────
   { id: 'aviso-legal', seccion: 'legal',

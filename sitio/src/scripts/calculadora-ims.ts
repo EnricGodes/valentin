@@ -17,6 +17,16 @@ import { evento } from './eventos.ts';
  * El numero de motor NO sale de esta funcion: ni a la analitica, ni a la URL.
  */
 
+/* El borde del resultado es un tono del armazon compartido, no un semaforo:
+   la palabra va primero y el color solo la acompana. */
+const TONO: Record<Evaluacion['respuesta'], string> = {
+  si: 'alerta',
+  si_menor_incidencia: 'aviso',
+  posible: 'neutro',
+  no: 'calma',
+  desconocida: 'neutro',
+};
+
 const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -61,41 +71,41 @@ function pintaResultado(r: Evaluacion, v: Vehiculo, articulo?: string): string {
   /* A un coche que no tiene este problema no se le ofrece un diagnostico de
      este problema. */
   return `
-    <div class="ims-res ims-res--${r.respuesta}">
-      <p class="ims-veredicto">${esc(t.veredicto)}</p>
+    <div class="herr-res herr-res--${TONO[r.respuesta]}">
+      <p class="herr-veredicto">${esc(t.veredicto)}</p>
 
-      <p class="ims-res-resumen">${esc(t.resumen)}</p>
+      <p class="herr-res-resumen">${esc(t.resumen)}</p>
 
-      <dl class="ims-res-datos">
+      <dl class="herr-res-datos">
         ${datos(r).map(([k, val]) =>
           `<div><dt>${esc(k)}</dt><dd>${esc(val)}</dd></div>`).join('')}
       </dl>
 
-      ${retro ? `<p class="ims-res-retro"><strong>${esc(retro.titular)}.</strong>
+      ${retro ? `<p class="herr-res-retro"><strong>${esc(retro.titular)}.</strong>
         ${esc(retro.cuerpo)}</p>` : ''}
 
-      <div class="ims-acciones">
+      <div class="herr-acciones">
         ${r.respuesta === 'no' ? '' :
           `<a class="cta" href="${cta}" data-ims-cta>${esc(UI.ctaBoton)}</a>`}
         ${articulo ? `<a class="cta cta--linea" href="${articulo}">${esc(UI.ctaArticulo)}</a>` : ''}
       </div>
 
       ${afinar ? `
-      <div class="ims-afinar" data-ims-afinar>
-        <p class="ims-afinar-titulo">${esc(AFINAR[afinar.modo].titulo)}</p>
-        <p class="ims-afinar-ayuda">${esc(AFINAR[afinar.modo].ayuda)}</p>
-        <div class="ims-campos" data-ims-afinar-campos></div>
+      <div class="herr-afinar" data-ims-afinar>
+        <p class="herr-afinar-titulo">${esc(AFINAR[afinar.modo].titulo)}</p>
+        <p class="herr-afinar-ayuda">${esc(AFINAR[afinar.modo].ayuda)}</p>
+        <div class="herr-campos" data-ims-afinar-campos></div>
       </div>` : ''}
 
-      <div class="ims-detalle">
-        <div class="ims-detalle-cuerpo">
+      <div class="herr-detalle">
+        <div class="herr-detalle-cuerpo">
           <p>${esc(t.cuerpo)}</p>
           ${motivos.length ? `<h4>${esc(UI.porqueEsto)}</h4>
             <ul>${motivos.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>` : ''}
           ${acciones.length ? `<h4>${esc(UI.siguientePaso)}</h4>
             <ul>${acciones.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>` : ''}
           ${t.accion ? `<p>${esc(t.accion)}</p>` : ''}
-          <p class="ims-aviso">${esc(AVISO)}</p>
+          <p class="herr-aviso">${esc(AVISO)}</p>
         </div>
       </div>
     </div>`;
@@ -107,7 +117,7 @@ export function iniciarCalculadoraIms(): void {
 
   /* Dentro de un articulo se sirve al final del cuerpo y se mueve al hueco de
      la directiva `:::herramienta`, con su colocacion en la rejilla. */
-  const hueco = document.querySelector('[data-ims-hueco="calculadora-ims"]');
+  const hueco = document.querySelector('[data-herramienta-hueco="calculadora-ims"]');
   if (hueco) {
     raiz.classList.add(...hueco.classList);
     hueco.replaceWith(raiz);
@@ -117,6 +127,7 @@ export function iniciarCalculadoraIms(): void {
   const zonaPregunta = raiz.querySelector<HTMLElement>('[data-ims-pregunta]')!;
   const salida = raiz.querySelector<HTMLElement>('[data-ims-resultado]')!;
   const error = raiz.querySelector<HTMLElement>('[data-ims-error]')!;
+  const campoAno = raiz.querySelector<HTMLInputElement>('#ims-ano');
   const articulo = raiz.dataset.articulo || undefined;
 
   /** Lo respondido fuera de los tres campos fijos. Sobrevive al repintado. */
@@ -129,14 +140,14 @@ export function iniciarCalculadoraIms(): void {
     campo: string, etiqueta: string, ayuda?: string,
   ) {
     const p = document.createElement('p');
-    p.className = 'ims-campo';
+    p.className = 'herr-campo';
     const lab = document.createElement('label');
     lab.setAttribute('for', control.id);
     lab.textContent = etiqueta;
     p.append(lab, control);
     if (ayuda) {
       const s = document.createElement('span');
-      s.className = 'ims-ayuda';
+      s.className = 'herr-ayuda';
       s.textContent = ayuda;
       p.append(s);
     }
@@ -231,12 +242,12 @@ export function iniciarCalculadoraIms(): void {
       : OPCIONES.variante;
 
     zonaPregunta.innerHTML = `
-      <fieldset class="ims-opciones">
-        <legend class="ims-pregunta-porque">${esc(p.porque)}
+      <fieldset class="herr-opciones">
+        <legend class="herr-pregunta-porque">${esc(p.porque)}
           <b>${esc(p.etiqueta)}</b></legend>
-        <div class="ims-opciones-lista">
+        <div class="herr-opciones-lista">
           ${opciones.map((o, i) => `
-            <label class="ims-opcion">
+            <label class="herr-opcion">
               <input type="radio" name="${clave}" value="${esc(o.valor)}"
                      ${memoria[clave] === o.valor ? 'checked' : ''}>
               <span>${esc(o.etiqueta)}</span>
@@ -289,7 +300,7 @@ export function iniciarCalculadoraIms(): void {
     if (!Number.isInteger(v.ano) || v.ano < 1948 || v.ano > new Date().getFullYear() + 1) {
       error.textContent = UI.errorAno;
       error.hidden = false;
-      raiz.querySelector<HTMLInputElement>('#ims-ano')?.focus();
+      campoAno?.focus();
       return;
     }
 

@@ -28,6 +28,16 @@ node --test src/logica/ims/evaluador.test.ts
 un `<=` escrito como `<` manda a media flota al tramo equivocado y no lo nota
 nadie.
 
+## Armazon compartido
+
+El formulario, la aclaracion, el resultado, el afinado y el detalle se pintan
+con las clases `.herr-*` de `system.css`, que comparte con el evaluador de bore
+scoring: son la misma herramienta de taller y no deberian parecer de dos sitios.
+Lo unico propio de cada una es lo que de verdad es distinto.
+
+El tono del borde superior del resultado (`.herr-res--alerta|aviso|neutro|calma`)
+lo elige cada herramienta. Aqui sale de la respuesta; alli, de la urgencia.
+
 ## Como se comporta la interfaz
 
 Tres estados, y en pantalla solo lo que hace falta para el siguiente:

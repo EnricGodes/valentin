@@ -2,9 +2,10 @@
 /**
  * Indice de herramientas.
  *
- * Hoy hay una. Existe igualmente porque el menu dice "Herramientas" y llevar
- * ese menu directo a una calculadora concreta obliga a renombrarlo el dia que
- * haya una segunda. La lista se declara aqui, no en el menu.
+ * La lista se declara aqui, no en el menu. Las dos comparten armazon visual
+ * (`.herr-*` en system.css) pero no motor de decision: el IMS clasifica una
+ * pieza de fabrica y el bore scoring valora un dano adquirido, y mezclarlos
+ * en una sola nota de "salud del motor" seria decir algo que no se sabe.
  */
 import Base from '../../layouts/Base.astro';
 import Nav from '../../components/Nav.astro';
@@ -20,6 +21,13 @@ const herramientas = [
     eyebrow: 'Diagnóstico orientativo',
     descripcion: 'Comprueba, a partir del modelo y el año, qué tipo de rodamiento del eje intermedio puede montar tu Porsche, cuál es su incidencia relativa y qué hace falta para confirmarlo.',
     para: '911 996 y 997.1 · Boxster 986 y 987.1 · Cayman 987.1',
+  },
+  {
+    id: 'evaluador-bore-scoring',
+    nombre: 'Evaluador de bore scoring Porsche',
+    eyebrow: 'Susceptibilidad e indicios',
+    descripcion: 'Comprueba la susceptibilidad de tu motor al rayado de cilindros y valora si sus síntomas o sus pruebas justifican una boroscopia. No diagnostica: separa lo que se sabe de esa familia de motores de lo que se sabe de tu unidad.',
+    para: '911 desde el 996 · Boxster y Cayman · Cayenne, Panamera y Macan con motor identificable',
   },
 ];
 ---
@@ -38,7 +46,7 @@ const herramientas = [
       <em>Valentin Motors</em>
       Herramientas
     </h1>
-    <p class="ims-intro ancha reveal delay-1">
+    <p class="herr-intro ancha reveal delay-1">
       Consultas que resolvemos a diario en el taller, puestas donde puedas
       hacerlas tú. Son orientativas: ninguna sustituye a mirar el coche.
     </p>

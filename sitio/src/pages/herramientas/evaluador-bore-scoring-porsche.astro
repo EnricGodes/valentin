@@ -1,0 +1,151 @@
+---
+/**
+ * Evaluador de bore scoring, URL propia y compartible.
+ *
+ * Solo en castellano en la v1, como la calculadora IMS: los textos viven en
+ * logica/bore-scoring/textos.es.ts. Cuando existan textos.en.ts y hermanos,
+ * esta pagina pasa a generarse por idioma desde el manifiesto, que ya tiene
+ * los seis slugs.
+ *
+ * El titulo SEO conserva "calculadora", que es como se busca, pero la interfaz
+ * no se presenta como una calculadora de diagnostico: no lo es, y prometerlo
+ * seria justo lo que la herramienta esta hecha para no hacer.
+ */
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Pie from '../../components/Pie.astro';
+import EvaluadorBoreScoring from '../../components/EvaluadorBoreScoring.astro';
+import Migas from '../../components/seo/Migas.astro';
+import { url } from '../../i18n/routes';
+import { FUENTES, REVISADO, VERSION_REGLAS } from '../../logica/bore-scoring/reglas-vehiculo.ts';
+import { UI } from '../../logica/bore-scoring/textos.es.ts';
+
+const idioma = 'es' as const;
+const articulo = url('magazine', idioma, 'porsche-bore-scoring');
+const ims = url('calculadora-ims', idioma);
+---
+<Base
+  idioma={idioma}
+  rutaId="evaluador-bore-scoring"
+  idiomasPublicados={['es']}
+  tipoPagina="herramienta"
+  titulo="Calculadora de bore scoring Porsche por modelo y año · Valentin Motors"
+  descripcion="Selecciona modelo, año y motor para conocer su susceptibilidad al rayado de cilindros y saber cuándo conviene realizar una boroscopia."
+>
+  <Fragment slot="head">
+    <Migas idioma={idioma} migas={[
+      { nombre: 'Herramientas', rutaId: 'herramientas' },
+      { nombre: 'Evaluador de bore scoring', rutaId: 'evaluador-bore-scoring' },
+    ]} />
+  </Fragment>
+  <Nav slot="nav" idioma={idioma} rutaId="herramientas" idiomasPublicados={['es']} />
+  <Pie slot="pie" idioma={idioma} rutaId="herramientas" idiomasPublicados={['es']} />
+
+  <header class="post-reja mag-cabecera">
+    <h1 class="mag-titulo ancha reveal">
+      <em>Herramienta</em>
+      ¿Tu Porsche puede sufrir bore scoring?
+    </h1>
+    <p class="herr-intro ancha reveal delay-1">
+      Selecciona modelo y año para conocer la susceptibilidad de su motor.
+      Después puedes añadir síntomas o pruebas para saber qué comprobación
+      tiene sentido.
+    </p>
+  </header>
+
+  <div class="post-reja herr-envoltorio">
+    <div class="ancha">
+      <EvaluadorBoreScoring enlaceArticulo={articulo} enlaceIms={ims} />
+    </div>
+  </div>
+
+  {/* La boroscopia se explica una vez, fuera del resultado: es la misma
+      explicación salga lo que salga, y dentro del resultado la repetiríamos
+      en los siete estados de urgencia. */}
+  <div class="post-reja">
+    <div class="ancha bs-explicacion">
+      <h2>Qué confirma una boroscopia y qué no</h2>
+      <p>
+        El bore scoring (rayado de cilindros) es un daño físico en la pared del
+        cilindro y en la falda del pistón. No es una pieza de fábrica que se
+        pueda deducir del modelo y del año: se adquiere con el uso, puede
+        empezar deprisa y agravarse después. Por eso esta herramienta separa lo
+        que se sabe de una familia de motores de lo que se sabe de tu unidad.
+      </p>
+      <p>
+        La confirmación es visual. Una boroscopia bien hecha entra por donde
+        toca, recorre todos los cilindros necesarios y la interpreta alguien que
+        distingue una raya de un reflejo o de un depósito de carbonilla. En los
+        M96 y M97, el acceso solo por los alojamientos de bujía deja fuera
+        precisamente la zona donde el rayado suele empezar: una prueba así,
+        informada como normal, no permite dar el motor por bueno.
+      </p>
+      <p>
+        Los síntomas orientan y las pruebas complementarias apoyan, pero ninguno
+        confirma. El consumo de aceite, el golpeteo rítmico, el hollín asimétrico
+        o un fallo de encendido tienen otras causas posibles: taqués, inyectores,
+        una fuga de escape, segmentos desgastados sin rayado. El diagnóstico
+        diferencial es parte del trabajo, no un trámite.
+      </p>
+      <p>
+        Tampoco existe una cura por aditivo ni por un aceite más espeso. Cuando
+        el rayado está confirmado, la conversación es de alcance: qué cilindros,
+        con qué tecnología se reconstruyen y qué garantía lleva. Eso se decide
+        con el motor delante.
+      </p>
+
+      <h2>Preguntas frecuentes</h2>
+      <dl class="bs-faq">
+        <dt>¿Puede decirme esta herramienta si mi coche tiene bore scoring?</dt>
+        <dd>
+          No, y ninguna que use solo modelo y año puede. Te dice si su
+          configuración pertenece a un grupo con más casos publicados, qué dicen
+          los indicios que aportes y qué comprobación tiene sentido ahora.
+        </dd>
+
+        <dt>¿Todos los 997.1 y los Cayman S 3.4 están afectados?</dt>
+        <dd>
+          No. Son los grupos que más aparecen en la experiencia de los
+          especialistas, que es una cosa distinta. Hay muchas unidades sanas con
+          muchos kilómetros.
+        </dd>
+
+        <dt>¿Los Porsche desde 2009 están libres?</dt>
+        <dd>
+          No. El 997.2 y el 987.2 dejaron atrás el IMS clásico, pero sus motores
+          9A1/MA1 con Alusil también tienen casos documentados de rayado.
+        </dd>
+
+        <dt>¿Un 2.5, 2.7 o 3.2 nunca falla?</dt>
+        <dd>
+          Aparecen bastante menos en lo publicado. Menos no es nunca: si hay
+          síntomas, se revisan igual que cualquier otro.
+        </dd>
+
+        <dt>¿Mi boroscopia salió normal, ya puedo olvidarme?</dt>
+        <dd>
+          Describe lo que se vio ese día y en las superficies que se llegaron a
+          ver. Si la prueba fue parcial, o si después han aparecido síntomas
+          nuevos, conviene repetirla con el protocolo adecuado.
+        </dd>
+
+        <dt>¿Sirve el análisis de aceite?</dt>
+        <dd>
+          Como apoyo, y sobre todo en serie. Una sola muestra normal no descarta
+          nada, y una sola muestra alta no confirma nada. Lo que dice algo es la
+          tendencia de aluminio, hierro y silicio a lo largo del tiempo.
+        </dd>
+      </dl>
+
+      <h2>{UI.fuentes}</h2>
+      <p class="bs-fuentes">
+        {Object.entries(FUENTES).map(([id, nombre], i) => (
+          <>{i > 0 && ' · '}<span>{id}. {nombre}</span></>
+        ))}
+      </p>
+      <p class="bs-version">
+        {UI.reglas} {VERSION_REGLAS} · revisadas el {REVISADO}
+      </p>
+    </div>
+  </div>
+</Base>

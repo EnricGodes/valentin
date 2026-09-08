@@ -7,6 +7,7 @@ import { iniciarMagneticos } from './magnetico.ts';
 import { iniciarEventos } from './eventos.ts';
 import { iniciarProgreso } from './progreso.ts';
 import { iniciarCalculadoraIms } from './calculadora-ims.ts';
+import { iniciarEvaluadorBoreScoring } from './evaluador-bore-scoring.ts';
 import { iniciarTarifas } from './tarifas.ts';
 import { iniciarMenu } from './menu.ts';
 
@@ -25,6 +26,7 @@ function iniciar(): void {
   iniciarEventos();
   iniciarProgreso();
   iniciarCalculadoraIms();
+  iniciarEvaluadorBoreScoring();
   iniciarTarifas();
   iniciarMenu();
 }

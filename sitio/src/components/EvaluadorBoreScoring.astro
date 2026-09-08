@@ -1,0 +1,75 @@
+---
+/**
+ * Evaluador de bore scoring.
+ *
+ * Mismo armazon que la calculadora IMS (`.herr-*`) y las mismas reglas de uso,
+ * que salieron de rehacer aquella:
+ *
+ *   - Tres campos y un boton. Nada mas en pantalla hasta que haga falta.
+ *   - La aclaracion sale JUNTO al campo, con una linea que dice por que se
+ *     pregunta y solo las opciones REALES de ese coche. No es un error, es un
+ *     paso, y elegir resuelve sin volver a pulsar el boton.
+ *   - El resultado se adapta: lo que diria "no aplica" no se pinta.
+ *   - Lo que puede cambiar ESE resultado se ofrece ahi mismo y recalcula solo.
+ *
+ * Lo propio de esta herramienta es que el resultado no es un veredicto sino
+ * cuatro ejes, y que el segundo paso (sintomas y pruebas) es voluntario. Se
+ * pinta en el cliente porque depende del coche: las plantillas fijas aqui
+ * acabarian ensenando preguntas que a ese motor no le corresponden.
+ *
+ * El componente solo pinta. La logica vive en src/logica/bore-scoring.
+ */
+import { OPCIONES, UI } from '../logica/bore-scoring/textos.es.ts';
+import { VERSION_REGLAS } from '../logica/bore-scoring/reglas-vehiculo.ts';
+
+interface Props {
+  compacta?: boolean;
+  /* Dentro del articulo no se pasa: enlazar al articulo desde el articulo. */
+  enlaceArticulo?: string;
+  /** Calculadora IMS, para el puente entre las dos herramientas. El atributo
+   *  NO puede llamarse `data-ims`: ese selector es el que usa la propia
+   *  calculadora para encontrarse, y esta seccion se hacia pasar por ella. */
+  enlaceIms?: string;
+}
+const { compacta = false, enlaceArticulo, enlaceIms } = Astro.props;
+const anoMax = new Date().getFullYear() + 1;
+---
+<section class:list={['herr', compacta && 'herr--compacta']} data-bs
+         data-version={VERSION_REGLAS}
+         data-articulo={enlaceArticulo} data-enlace-ims={enlaceIms}>
+  <form class="herr-form" data-bs-form novalidate>
+    <div class="herr-campos">
+      <p class="herr-campo">
+        <label for="bs-familia">{UI.modelo}</label>
+        <select id="bs-familia" name="familia">
+          {OPCIONES.familia.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
+        </select>
+      </p>
+
+      <p class="herr-campo herr-campo--ano">
+        <label for="bs-ano">{UI.ano}</label>
+        <input id="bs-ano" name="ano" type="number" inputmode="numeric"
+               placeholder="2007" min="1948" max={anoMax}
+               aria-describedby="bs-ano-ayuda">
+        <span class="herr-ayuda" id="bs-ano-ayuda">{UI.anoAyuda}</span>
+      </p>
+
+      {/* De segundo orden: mismo campo, menos peso visual. */}
+      <p class="herr-campo herr-campo--menor">
+        <label for="bs-base">{UI.baseAno}</label>
+        <select id="bs-base" name="baseAno">
+          {OPCIONES.baseAno.map((o) => <option value={o.valor}>{o.etiqueta}</option>)}
+        </select>
+      </p>
+    </div>
+
+    {/* La aclaracion, cuando toca, se pinta aqui: pegada al boton y al campo. */}
+    <div class="herr-pregunta" data-bs-pregunta hidden></div>
+
+    <p class="herr-error" data-bs-error role="alert" hidden></p>
+
+    <button class="cta herr-enviar" type="submit" data-bs-enviar>{UI.calcular}</button>
+  </form>
+
+  <div class="herr-salida" data-bs-resultado aria-live="polite" hidden></div>
+</section>
