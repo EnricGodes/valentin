@@ -20,6 +20,18 @@ export function iniciarFondos(): void {
     else img.addEventListener('load', () => el.classList.add('loaded'), { once: true });
   }
 
+  /* Video del hero: se revela cuando hay fotograma que ensenar, no antes, para
+     que no se vea el rectangulo negro sobre la imagen. Con movimiento reducido
+     no se reproduce y se queda la foto. */
+  for (const v of document.querySelectorAll<HTMLVideoElement>('video.hero-video')) {
+    if (sinMovimiento()) { v.removeAttribute('autoplay'); v.pause(); continue; }
+    const mostrar = () => v.classList.add('loaded');
+    if (v.readyState >= 2) mostrar();
+    else v.addEventListener('loadeddata', mostrar, { once: true });
+    /* Safari en iOS con ahorro de energia ignora el autoplay del atributo. */
+    v.play().catch(() => {});
+  }
+
   if (sinMovimiento()) return;
 
   const hero = document.querySelector<HTMLElement>('.hero-parallax[data-parallax]');

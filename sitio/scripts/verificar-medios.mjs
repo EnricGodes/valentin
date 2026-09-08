@@ -21,6 +21,7 @@ const MINIMOS = [
   ['img/paginas',   90, 'fotos de las paginas'],
   ['img/ruf',        8, 'fotos de las fichas de coche'],
   ['video/magazine', 6, 'videos del Magazine'],
+  ['video/home',     2, 'video de fondo de la home y su poster'],
 ];
 
 const LIMITE_PAGES = 25 * 1024 * 1024;

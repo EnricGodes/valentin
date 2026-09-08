@@ -19,8 +19,16 @@ import { fileURLToPath } from 'node:url';
 
 const ejecutar = promisify(execFile);
 const aqui = dirname(fileURLToPath(import.meta.url));
-const origen  = resolve(aqui, '../../_migracion/contenido/videos');
+const raiz    = resolve(aqui, '../../_migracion/contenido/videos');
+const origen  = raiz;
 const destino = resolve(aqui, '../public/video/magazine');
+
+/* El video de fondo de la home. Va aparte del Magazine porque no lleva audio
+   (se reproduce en silencio y en bucle) y porque de el sale tambien el poster,
+   el fotograma que se ve mientras el video todavia no tiene nada que pintar. */
+const heroOrigen  = join(raiz, 'home/hero.mp4');
+const heroDestino = resolve(aqui, '../public/video/home');
+const HERO_CRF = 34;   // fondo oscuro y bajo el degradado del hero: aguanta
 
 const CRF = 28;              // calidad visualmente indistinguible a este tamano
 const MAXRATE = '1400k';     // deja margen de sobra bajo los 25 MB de Pages
@@ -78,4 +86,37 @@ if (grandes.length) {
   console.error('ERROR: pasan del limite de 25 MB por fichero de Cloudflare Pages:');
   grandes.forEach((g) => console.error('  ' + g));
   process.exit(1);
+}
+
+// ── Video de fondo de la home ────────────────────────────────────────────────
+if (!existsSync(heroOrigen)) {
+  console.log('video: no hay original del hero de la home, se omite');
+} else {
+  await mkdir(heroDestino, { recursive: true });
+  const salidaVideo  = join(heroDestino, 'hero.mp4');
+  const salidaPoster = join(heroDestino, 'hero.jpg');
+  const alDia = !forzar && existsSync(salidaVideo) && existsSync(salidaPoster) &&
+    (await stat(salidaVideo)).mtimeMs > (await stat(heroOrigen)).mtimeMs;
+
+  if (alDia) {
+    console.log(`hero: al dia (${MB((await stat(salidaVideo)).size)} MB)`);
+  } else {
+    await ejecutar('ffmpeg', [
+      '-y', '-i', heroOrigen,
+      '-an',
+      '-c:v', 'libx264', '-preset', 'slow', '-crf', String(HERO_CRF),
+      '-profile:v', 'high', '-level', '4.0', '-pix_fmt', 'yuv420p',
+      '-g', '60', '-movflags', '+faststart',
+      salidaVideo,
+    ], { maxBuffer: 1024 * 1024 * 32 });
+
+    // El poster es el primer fotograma: cualquier otro daria un salto visible
+    // en el momento en que el video arranca.
+    await ejecutar('ffmpeg', [
+      '-y', '-i', heroOrigen, '-frames:v', '1', '-q:v', '4', salidaPoster,
+    ], { maxBuffer: 1024 * 1024 * 32 });
+
+    console.log(`hero: ${MB((await stat(heroOrigen)).size)} MB -> ` +
+                `${MB((await stat(salidaVideo)).size)} MB + poster`);
+  }
 }

@@ -7,18 +7,24 @@ interface Props {
   titulo: string;
   claim?: string;
   imagen: string;
+  /** Video de fondo opcional. La imagen queda de poster y de reserva. */
+  video?: string;
   precio?: string;
   precioLabel?: string;
   scrollLabel: string;
   /** Intensidad del parallax; 0 lo desactiva. */
   parallax?: number;
 }
-const { eyebrow, subtitulo, titulo, claim, imagen, precio,
+const { eyebrow, subtitulo, titulo, claim, imagen, video, precio,
         precioLabel, scrollLabel, parallax = 0.28 } = Astro.props;
 ---
 <section class="hero">
   <div class="hero-parallax" data-parallax={parallax}>
     <div class="hero-bg" data-fondo={imagen} style={`background-image:url('${imagen}')`}></div>
+    {video && (
+      <video class="hero-video" src={video} poster={imagen}
+             autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+    )}
   </div>
   <div class="hero-overlay"></div>
 

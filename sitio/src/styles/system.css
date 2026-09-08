@@ -331,6 +331,17 @@ section { position: relative; }
   transition: transform var(--dur-kenburns) ease-out;
 }
 .hero-bg.loaded { transform: scale(1); }
+/* Video de fondo (home). Va sobre la imagen, que hace de poster mientras el
+   primer fotograma no esta listo, y se recorta al ancho completo del hero:
+   el material es vertical 9:16 y en escritorio se ve la banda central. */
+.hero-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+  pointer-events: none;
+  opacity: 0; transition: opacity 1.2s ease;
+}
+.hero-video.loaded { opacity: 1; }
 .hero-overlay {
   position: absolute; inset: 0;
   background: linear-gradient(to top,
@@ -394,6 +405,7 @@ section { position: relative; }
   .hero-badge    { animation: none; opacity: 1; }
   .hero-bg       { transform: none; transition: none; }
   .hero-parallax { transform: none; }
+  .hero-video    { display: none; }
 }
 
 /* ── 2. Intro ─────────────────────────────────────────────────────────────── */
