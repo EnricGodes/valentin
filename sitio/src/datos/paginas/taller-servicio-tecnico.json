@@ -53,6 +53,21 @@
     },
     {
       "nivel": 2,
+      "titulo": "Qué se resuelve sin mover el coche",
+      "parrafos": [
+        "Antes de plantear un traslado se agota lo que puede saberse a distancia."
+      ],
+      "items": [
+        "Lectura de fallos y contadores que envía el taller de origen.",
+        "Interpretación de un análisis de aceite o de un informe de boroscopia.",
+        "Identificación de motor, caja y configuración a partir de números y documentación.",
+        "Criterio sobre si una avería justifica abrir el motor o admite seguimiento.",
+        "Qué medir y con qué utillaje antes de decidir si se mueve algo."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Qué se resuelve a distancia y qué no",
       "parrafos": [
         "Incluye recogida de coches y motores en España, resolución a distancia cuando es suficiente y consultoría para talleres ante casos que se salen de su actividad habitual.",

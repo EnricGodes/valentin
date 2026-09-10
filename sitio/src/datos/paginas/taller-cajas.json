@@ -64,6 +64,22 @@
     },
     {
       "nivel": 2,
+      "titulo": "Un ruido no siempre es la caja",
+      "parrafos": [
+        "Un solo síntoma admite varias causas, y las que están fuera de la caja se descartan antes de abrirla."
+      ],
+      "items": [
+        "Ruido que desaparece al pisar el embrague: suele ser el cojinete de empuje, no el cambio.",
+        "Marcha que rasca en frío y mejora en caliente: sincronizador desgastado o aceite que no corresponde.",
+        "Salto de marcha bajo carga: horquilla, muelle de retén o dentado gastado.",
+        "Fuga en la campana: puede ser el retén de la caja o el trasero del cigüeñal, y se distinguen sin desmontar.",
+        "Vibración solo en aceleración: casi siempre transmisión o soportes.",
+        "En una automática, un cambio defectuoso puede venir del control, de la hidráulica o de la parte mecánica, y no se abordan igual."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Un 965 turbo 3.3, por dentro",
       "parrafos": [
         "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/restauracion-motor-965-turbo-33\">este caso documentado</a>."

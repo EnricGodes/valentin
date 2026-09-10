@@ -65,6 +65,21 @@
     },
     {
       "nivel": 2,
+      "titulo": "Lo que una capa de pintura no arregla",
+      "parrafos": [
+        "El acabado es lo último que se ve y lo primero que delata lo que hay debajo."
+      ],
+      "items": [
+        "La corrosión que sigue bajo la chapa reaparece por el mismo sitio.",
+        "Un intersticio desigual no se corrige pintando, se corrige ajustando.",
+        "Una moldura enmascarada en vez de desmontada deja un borde que se ve a contraluz.",
+        "Un color que no encaja con el del vano y el interior delata la reparación.",
+        "Un paso de rueda sin tratamiento anticorrosión vuelve a empezar el ciclo."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Cuándo se hace",
       "parrafos": [
         "Como parte de una restauración integral, cuando la carrocería se desmonta entera, o como trabajo propio en un coche que solo necesita recuperar la pintura. Los dos procesos están contados paso a paso en los artículos de abajo."

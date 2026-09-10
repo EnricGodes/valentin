@@ -66,6 +66,20 @@
     },
     {
       "nivel": 2,
+      "titulo": "Qué se separa en un presupuesto",
+      "parrafos": [
+        "Un presupuesto que lo mezcla todo obliga a decidir a ciegas."
+      ],
+      "items": [
+        "Lo urgente: lo que afecta a la seguridad o empeora si se deja.",
+        "Lo preventivo: lo que toca por tiempo, kilómetros o historial.",
+        "Lo opcional: lo que mejora el coche y puede esperar.",
+        "Lo que se ha descartado, y por qué se ha descartado."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Urgente, preventivo y opcional",
       "parrafos": [
         "Los centros de Barcelona y Madrid cubren mantenimiento, motores, cajas de cambios, IMS, bore scoring, inspección pre-compra, chapa y pintura, Storage y preparación.",

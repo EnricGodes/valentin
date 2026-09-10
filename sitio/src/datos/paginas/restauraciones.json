@@ -89,6 +89,20 @@
     },
     {
       "nivel": 2,
+      "titulo": "Qué no es una restauración",
+      "parrafos": [
+        "Conviene decir lo que no es antes de hablar de plazos, porque ahí es donde se tuercen las expectativas."
+      ],
+      "items": [
+        "No es dejar el coche como nuevo: es devolverle el estado que tuvo, con su historia legible.",
+        "No es cambiar todo lo que se puede cambiar. Lo que funciona y es original se conserva.",
+        "No es un presupuesto cerrado de entrada: el alcance se revisa cuando el desmontaje enseña lo que había debajo.",
+        "No es reversible por defecto. Lo que se quiera poder deshacer se decide antes, no después."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Restauraciones",
       "parrafos": [
         "Nuestras restauraciones se caracterizan por un alto grado de originalidad y calidad en todos los aspectos del proyecto.",

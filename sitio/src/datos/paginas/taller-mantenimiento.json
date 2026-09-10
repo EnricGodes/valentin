@@ -64,6 +64,21 @@
     },
     {
       "nivel": 2,
+      "titulo": "Cuándo conviene adelantar el servicio",
+      "parrafos": [
+        "El calendario del manual supone un uso que muchos Porsche de aquí no tienen."
+      ],
+      "items": [
+        "Menos de tres mil kilómetros al año: aceite anual aunque no llegues al intervalo.",
+        "Después de meses parado: aceite, líquido de frenos y presiones antes de volver a usarlo.",
+        "Trayectos cortos y siempre en frío: el aceite se contamina antes de lo previsto.",
+        "Track days: el líquido de frenos y el aceite pasan a contarse por sesiones, no por meses.",
+        "Compra reciente sin historial: se empieza por un servicio mayor para tener un punto de partida."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "El plan del fabricante, con recambio original",
       "parrafos": [
         "Seguimos los planes de mantenimiento que especifica el fabricante, con recambios originales y las pautas de Porsche. La diferencia con el servicio oficial no está en cómo se hace, sino en lo que cuesta y en quién lo hace: el mismo técnico ve tu coche cada vez.",

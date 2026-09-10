@@ -54,6 +54,21 @@
       "imagenes": []
     },
     {
+      "nivel": 2,
+      "titulo": "Qué se mide con el motor abierto",
+      "parrafos": [
+        "Las decisiones salen de las cotas, no de la apariencia de la pieza."
+      ],
+      "items": [
+        "Ovalización y conicidad de cada cilindro.",
+        "Planitud de bloque y culatas.",
+        "Holguras de cigüeñal, bielas y árboles.",
+        "Estado de guías, asientos y válvulas.",
+        "Peso y equilibrado del conjunto móvil cuando corresponde."
+      ],
+      "imagenes": []
+    },
+    {
       "nivel": 3,
       "titulo": "Restauración completa del motor 965 (964 turbo)",
       "parrafos": [
