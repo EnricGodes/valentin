@@ -17,36 +17,6 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
-      "parrafos": [
-        "Noi di Valentín Motors comprendiamo che una backdating dovrebbe essere una coerente interpretazione di una precedente 911, mantenendo al contempo i vantaggi della base scelta per l'utilizzo nel mondo reale. Pertanto, la conversazione iniziale si concentra non su un catalogo di servizi, ma sull'auto stessa, sulla sua storia e sul risultato desiderato dal suo proprietario.",
-        "La valutazione inizia con il veicolo originale, le sue condizioni strutturali e meccaniche, la configurazione desiderata, la reversibilità e i requisiti di omologazione. Qualora mancassero delle informazioni, specificheremo i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Sala del laboratorio di idee, con il tavolo di lavoro e i campioni di materiali"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
-      "parrafos": [
-        "L'ambito di lavoro è pianificato in modo proporzionale: carrozzeria, illuminazione, interni, ruote, sospensioni e motore possono essere tutti inclusi nell'ordine, ma non tutte le auto richiedono lo stesso grado di trasformazione. Le attività vengono prioritarie per evitare doppi smontaggi, nascondere un problema e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica si basa su questo criterio: la 964 offre solitamente un'architettura adatta, ma la base migliore è un'unità solida e documentata che permetta di raggiungere l'obiettivo senza sacrificare un esemplare unico. Se si scopre qualcosa che modifica il progetto, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Cos'è una backdating?",
       "parrafos": [
         "Un backdating riporta una 911 più simile all'aspetto di una generazione precedente, preservandone al contempo la meccanica originale. L'idea è di avere le linee di un'auto degli anni '70 con la maneggevolezza, i freni e l'affidabilità di un'auto degli anni '90.",
@@ -67,7 +37,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Da dove inizia Backdating",
+      "parrafos": [
+        "Una backdating dovrebbe essere una coerente interpretazione di una precedente 911, mantenendo al contempo i vantaggi della base scelta per l'utilizzo nel mondo reale. Pertanto, la conversazione iniziale si concentra non su un catalogo di servizi, ma sull'auto stessa, sulla sua storia e sul risultato desiderato dal suo proprietario.",
+        "La valutazione inizia con il veicolo originale, le sue condizioni strutturali e meccaniche, la configurazione desiderata, la reversibilità e i requisiti di omologazione. Qualora mancassero delle informazioni, specificheremo i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Definire l’ambito di Backdating",
+      "parrafos": [
+        "L'ambito di lavoro è pianificato in modo proporzionale: carrozzeria, illuminazione, interni, ruote, sospensioni e motore possono essere tutti inclusi nell'ordine, ma non tutte le auto richiedono lo stesso grado di trasformazione. Le attività vengono prioritarie per evitare doppi smontaggi, nascondere un problema e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica si basa su questo criterio: la 964 offre solitamente un'architettura adatta, ma la base migliore è un'unità solida e documentata che permetta di raggiungere l'obiettivo senza sacrificare un esemplare unico. Se si scopre qualcosa che modifica il progetto, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa non comprende Backdating",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Backdating.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un caso documentato: Backdating",
+      "parrafos": [
+        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/backdating-base-964\">questo caso documentato</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Sala del laboratorio di idee, con il tavolo di lavoro e i campioni di materiali"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa riceve il proprietario dopo Backdating",
       "parrafos": [
         "L'obiettivo della consegna è un progetto definito da specifiche, con un aspetto, una dinamica e finiture coerenti. La relazione finale deve spiegare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -117,8 +134,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 31,
-    "total": 31,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

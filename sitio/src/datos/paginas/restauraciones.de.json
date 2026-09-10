@@ -13,59 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
-      "parrafos": [
-        "Wir bei Valentín Motors wissen, dass eine Restaurierung ein Auto wieder zum Leben erwecken soll, ohne seine Geschichte auszulöschen oder jede Entdeckung automatisch zu einer Erweiterung des Projekts zu machen. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf eine Liste der durchzuführenden Arbeiten, sondern auf das Auto, seine Geschichte und das Ergebnis, das sich der Besitzer wünscht.",
-        "Die Bewertung beginnt mit der Identifizierung des Geräts, seiner Dokumentation, der Originalität seiner Baugruppen, Korrosion, früheren Reparaturen und dem Verwendungszweck durch den Eigentümer. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Budget umgewandelt wird."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Fahrzeugrestaurierung Porsche"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Armaturenbrett eines roten 911 T mit dem Modellschriftzug über dem Handschuhfach"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Umfang wird proportional definiert: Er kann die Ermittlung der Originalspezifikationen, eine Überholung für häufigen Gebrauch, eine backdating oder eine restomod umfassen. Dies sind unterschiedliche Ziele und dürfen während der Demontage nicht kombiniert werden. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
-        "Die technische Entscheidung wird auf der Grundlage dieses Kriteriums getroffen: Vor dem Eingriff wird festgelegt, was erhalten, was repariert, was ersetzt und welche Änderungen reversibel sein müssen. Wichtige Entscheidungen werden dokumentiert, um die Konsistenz der Montage zu gewährleisten. Sollte sich eine Erkenntnis ergeben, die den Auftrag verändert, wird dieser Abschnitt von der genehmigten Arbeit getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Dunkelblauer Porsche 911 993 im Front-Dreiviertel vor der Werkstatt"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Offener Motorraum eines braunen 911 mit goldenem Gebläserad und sichtbaren Krümmern"
-        },
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Raum des Ideenlabors, mit Arbeitstisch und Materialmustern"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Legacy-Verantwortlichkeit",
       "parrafos": [
+        "Bei einem vollständig zerlegten 911 der F-Serie muss vor Lackierung oder Montage feststehen, was erhalten bleibt.",
         "Jeder Porsche verkörpert bestimmte Werte, eine Haltung und eine besondere Art, über das Fahren nachzudenken. Die Marke steht für zeitlose Eleganz und Schönheit, und wir sehen es als unsere Pflicht an, diese Prinzipien zu wahren.",
         "Daher streben wir bei Valentín Motors danach, die Originalität in Restaurierungsprojekten wiederherzustellen und in Individualisierungsprojekten einen Mehrwert zu schaffen."
       ],
@@ -188,31 +138,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Ausgangspunkt für Restaurierungen",
       "parrafos": [
-        "Ziel des Projekts ist ein nachvollziehbares Ergebnis mit abgestimmten Fachbereichen, das sich Schritt für Schritt erklären lässt – von der Karosserie bis zum finalen Tuning. Die abschließende Erläuterung soll Ihnen verständlich machen, was gemacht wurde, warum es gemacht wurde und was im Anschluss zu beachten oder zu planen ist.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+        "Wir bei Valentín Motors wissen, dass eine Restaurierung ein Auto wieder zum Leben erwecken soll, ohne seine Geschichte auszulöschen oder jede Entdeckung automatisch zu einer Erweiterung des Projekts zu machen. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf eine Liste der durchzuführenden Arbeiten, sondern auf das Auto, seine Geschichte und das Ergebnis, das sich der Besitzer wünscht.",
+        "Die Bewertung beginnt mit der Identifizierung des Geräts, seiner Dokumentation, der Originalität seiner Baugruppen, Korrosion, früheren Reparaturen und dem Verwendungszweck durch den Eigentümer. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Budget umgewandelt wird."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Armaturenbrett eines klassischen 911 mit fünf Rundinstrumenten und Vierspeichenlenkrad"
+          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
+          "alt": "Fahrzeugrestaurierung Porsche"
         },
         {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Komplette Motorüberholung 2.2 1970 F-Serie"
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Armaturenbrett eines roten 911 T mit dem Modellschriftzug über dem Handschuhfach"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor",
+      "titulo": "Umfang von Restaurierungen festlegen",
       "parrafos": [
-        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
-        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
+        "Der Umfang wird proportional definiert: Er kann die Ermittlung der Originalspezifikationen, eine Überholung für häufigen Gebrauch, eine backdating oder eine restomod umfassen. Dies sind unterschiedliche Ziele und dürfen während der Demontage nicht kombiniert werden. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
+        "Die technische Entscheidung wird auf der Grundlage dieses Kriteriums getroffen: Vor dem Eingriff wird festgelegt, was erhalten, was repariert, was ersetzt und welche Änderungen reversibel sein müssen. Wichtige Entscheidungen werden dokumentiert, um die Konsistenz der Montage zu gewährleisten. Sollte sich eine Erkenntnis ergeben, die den Auftrag verändert, wird dieser Abschnitt von der genehmigten Arbeit getrennt und vor der Fortsetzung erläutert."
       ],
-      "items": [],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Dunkelblauer Porsche 911 993 im Front-Dreiviertel vor der Werkstatt"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Offener Motorraum eines braunen 911 mit goldenem Gebläserad und sichtbaren Krümmern"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Raum des Ideenlabors, mit Arbeitstisch und Materialmustern"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Restaurierungen nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Restaurierungen sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
       "imagenes": []
     },
     {
@@ -241,6 +221,35 @@
       "parrafos": [
         "Erfahrung ermöglicht das Erkennen von Mustern, ersetzt aber keine Messung, wenn dadurch die Entscheidung geändert werden könnte. Vor einem kostspieligen Eingriff wird der Test durchgeführt, der zwischen normalem Verschleiß, falscher Einstellung und inneren Schäden unterscheidet. Diese Pause schützt sowohl das Fahrzeug als auch das Budget.",
         "Falls die Überprüfung ohne Auseinanderbauen keine eindeutige Antwort liefert, wird diese Einschränkung erläutert und die Arbeit in Phasen unterteilt. Der Besitzer kann die Diagnose zunächst freigeben und anhand der Bauteile über den nächsten Schritt entscheiden."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Restaurierungen erhält",
+      "parrafos": [
+        "Ziel des Projekts ist ein nachvollziehbares Ergebnis mit abgestimmten Fachbereichen, das sich Schritt für Schritt erklären lässt – von der Karosserie bis zum finalen Tuning. Die abschließende Erläuterung soll Ihnen verständlich machen, was gemacht wurde, warum es gemacht wurde und was im Anschluss zu beachten oder zu planen ist.",
+        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Armaturenbrett eines klassischen 911 mit fünf Rundinstrumenten und Vierspeichenlenkrad"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Komplette Motorüberholung 2.2 1970 F-Serie"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor: Restaurierungen",
+      "parrafos": [
+        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
+        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
       ],
       "items": [],
       "imagenes": []
@@ -305,8 +314,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 85,
-    "total": 85,
+    "hechas": 87,
+    "total": 87,
     "completa": true
   }
 }

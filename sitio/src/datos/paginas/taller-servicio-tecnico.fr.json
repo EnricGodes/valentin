@@ -13,41 +13,22 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
+      "titulo": "Nos services : Service technique",
       "parrafos": [
-        "Chez Valentín Motors, nous savons qu'un service technique national nous permet de prendre en charge tout problème Porsche grâce à un spécialiste, même si votre véhicule ou son moteur ne se trouve pas à proximité de Barcelone ou de Madrid. C'est pourquoi, lors de notre premier échange, nous nous concentrons non pas sur une liste de services, mais sur votre voiture, son historique et le résultat souhaité par son propriétaire.",
-        "L'évaluation repose sur les symptômes, la documentation, les diagnostics antérieurs, les photographies, les échantillons et les travaux déjà effectués par l'atelier demandeur. En cas d'informations manquantes, les vérifications nécessaires pour les obtenir sont indiquées avant de transformer une hypothèse en devis."
+        "Un moteur M96 peut être expédié depuis n’importe quel point d’Espagne sans déplacer la voiture complète.",
+        "Nous assurons un service technique dans toute l'Espagne depuis nos deux centres. Nous prenons en charge les véhicules et les moteurs où qu'ils se trouvent et, pour les problèmes ne nécessitant pas le transport du véhicule complet, nous les résolvons à distance."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
-          "alt": "Service technique national"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre d'intervention est défini proportionnellement : il comprend la prise en charge du véhicule et du moteur en Espagne, le dépannage à distance lorsque cela est suffisant et le conseil aux ateliers pour les cas sortant de leur champ d'intervention habituel. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation de symptômes et le remplacement d'un ensemble alors qu'il peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon le critère suivant : on détermine d'abord quelles informations peuvent être obtenues sans déplacer le véhicule. Si le contrôle nécessite des mesures, un démontage ou des outils spécifiques, l'ensemble nécessaire est transporté. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant de poursuivre."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Nos services",
-      "parrafos": [
-        "Nous assurons un service technique dans toute l'Espagne depuis nos deux centres. Nous prenons en charge les véhicules et les moteurs où qu'ils se trouvent et, pour les problèmes ne nécessitant pas le transport du véhicule complet, nous les résolvons à distance."
+      "titulo": "Ce que Service technique ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Service technique ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
       ],
-      "items": [],
       "imagenes": []
     },
     {
@@ -61,7 +42,35 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Le point de départ de Service technique",
+      "parrafos": [
+        "Un service technique national nous permet de prendre en charge tout problème Porsche grâce à un spécialiste, même si votre véhicule ou son moteur ne se trouve pas à proximité de Barcelone ou de Madrid. C'est pourquoi, lors de notre premier échange, nous nous concentrons non pas sur une liste de services, mais sur votre voiture, son historique et le résultat souhaité par son propriétaire.",
+        "L'évaluation repose sur les symptômes, la documentation, les diagnostics antérieurs, les photographies, les échantillons et les travaux déjà effectués par l'atelier demandeur. En cas d'informations manquantes, les vérifications nécessaires pour les obtenir sont indiquées avant de transformer une hypothèse en devis."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
+          "alt": "Service technique national"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Service technique",
+      "parrafos": [
+        "Le périmètre d'intervention est défini proportionnellement : il comprend la prise en charge du véhicule et du moteur en Espagne, le dépannage à distance lorsque cela est suffisant et le conseil aux ateliers pour les cas sortant de leur champ d'intervention habituel. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation de symptômes et le remplacement d'un ensemble alors qu'il peut encore être diagnostiqué ou réparé.",
+        "La décision technique est prise selon le critère suivant : on détermine d'abord quelles informations peuvent être obtenues sans déplacer le véhicule. Si le contrôle nécessite des mesures, un démontage ou des outils spécifiques, l'ensemble nécessaire est transporté. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant de poursuivre."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Service technique",
       "parrafos": [
         "L'objectif de cette livraison est d'établir un flux de travail défini entre le propriétaire, l'atelier d'origine et le spécialiste, afin d'éviter les tests redondants ou le transport de l'ensemble du véhicule lorsqu'une seule pièce est nécessaire. Le compte rendu final doit clairement expliquer les interventions réalisées, leur justification et les points à surveiller ou à planifier ultérieurement.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -71,7 +80,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale",
+      "titulo": "Comment se préparer à la consultation initiale : Service technique",
       "parrafos": [
         "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
         "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
@@ -121,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 32,
-    "total": 32,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

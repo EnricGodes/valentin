@@ -19,50 +19,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
-      "parrafos": [
-        "Wir von Valentín Motors wissen, dass die Überholung eines Porsche-Motors die Auswertung von Symptomen und Hinweisen erfordert, bevor Teile ausgewählt oder ein bestimmter Leistungsumfang zugesagt wird. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Erwartungen des Besitzers.",
-        "Die Beurteilung beginnt mit der Prüfung von Öl- und Filterzustand, Kompression (falls zutreffend), Leckagen, Geräuschen, Drücken, Toleranzen, Ovalität, Zylinderköpfen, Zylinderlaufbuchsen, Kurbelwelle und Steuerzeiten. Fehlen Informationen, werden die notwendigen Prüfungen angegeben, bevor eine Hypothese in einen Kostenvoranschlag umgewandelt wird."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Motorinstandsetzung"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Umfang der Arbeiten wird proportional festgelegt: Die Werkstatt repariert luftgekühlte Boxermotoren, M96- und M97-Motoren, Rennmotoren, transaxle-Motoren sowie aktuelle Motoren, die in der Werkstatterfahrung dokumentiert sind. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung wird anhand folgender Kriterien getroffen: Nach Demontage, Reinigung und Messungen werden die Alternativen präsentiert. Die alleinige Behebung des sichtbaren Mangels mag unzureichend sein, doch ein wahlloser Austausch aller Teile ist ebenfalls kein sachlicher Ansatz. Sollte sich eine Erkenntnis ergeben, die den Auftrag verändert, wird diese von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was wir tun",
+      "titulo": "Was wir tun: Porsche-Motoren",
       "parrafos": [
         "Wir restaurieren, überholen und reparieren alle Motoren der Marke, vom Vierzylinder-Boxermotor des 356 bis hin zu den aktuellen Modellen, in unserer eigenen Motorenwerkstatt. Diese ist das Alleinstellungsmerkmal unseres Unternehmens und wird selbst von Vertragshändlern nicht angeboten.",
         "Wir holen Motoren des in ganz Spanien ab. Sie müssen Ihr Fahrzeug nicht bringen: Wenn der Motor bereits ausgebaut ist, wird er von selbst transportiert."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "So arbeiten wir",
-      "parrafos": [
-        "Ein Motor wird nicht nur zum Austausch eines Teils geöffnet. Er wird komplett zerlegt, alles wird vermessen, und die Entscheidungen basieren auf diesen Messwerten: Spiel, Ovalität, Planheit des Zylinderkopfs, Zustand der Zylinderlaufbuchsen und der Kurbelwelle. Der Kostenvoranschlag wird ausschließlich auf dieser Grundlage erstellt.",
-        "Wir verfügen über eigene Maschinen und Werkzeuge sowie eine Ersatzteillagerabteilung. Bei einem vierzig Jahre alten Motor ist das die halbe Miete."
       ],
       "items": [],
       "imagenes": []
@@ -82,7 +42,64 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "So arbeiten wir",
+      "parrafos": [
+        "Ein Motor wird nicht nur zum Austausch eines Teils geöffnet. Er wird komplett zerlegt, alles wird vermessen, und die Entscheidungen basieren auf diesen Messwerten: Spiel, Ovalität, Planheit des Zylinderkopfs, Zustand der Zylinderlaufbuchsen und der Kurbelwelle. Der Kostenvoranschlag wird ausschließlich auf dieser Grundlage erstellt.",
+        "Wir verfügen über eigene Maschinen und Werkzeuge sowie eine Ersatzteillagerabteilung. Bei einem vierzig Jahre alten Motor ist das die halbe Miete."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Porsche-Motoren nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Porsche-Motoren sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ein dokumentierter Fall: Porsche-Motoren",
+      "parrafos": [
+        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">diesem dokumentierten Fall</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+          "alt": "Motorinstandsetzung"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ausgangspunkt für Porsche-Motoren",
+      "parrafos": [
+        "Wir von Valentín Motors wissen, dass die Überholung eines Porsche-Motors die Auswertung von Symptomen und Hinweisen erfordert, bevor Teile ausgewählt oder ein bestimmter Leistungsumfang zugesagt wird. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Erwartungen des Besitzers.",
+        "Die Beurteilung beginnt mit der Prüfung von Öl- und Filterzustand, Kompression (falls zutreffend), Leckagen, Geräuschen, Drücken, Toleranzen, Ovalität, Zylinderköpfen, Zylinderlaufbuchsen, Kurbelwelle und Steuerzeiten. Fehlen Informationen, werden die notwendigen Prüfungen angegeben, bevor eine Hypothese in einen Kostenvoranschlag umgewandelt wird."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Porsche-Motoren festlegen",
+      "parrafos": [
+        "Der Umfang der Arbeiten wird proportional festgelegt: Die Werkstatt repariert luftgekühlte Boxermotoren, M96- und M97-Motoren, Rennmotoren, transaxle-Motoren sowie aktuelle Motoren, die in der Werkstatterfahrung dokumentiert sind. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung wird anhand folgender Kriterien getroffen: Nach Demontage, Reinigung und Messungen werden die Alternativen präsentiert. Die alleinige Behebung des sichtbaren Mangels mag unzureichend sein, doch ein wahlloser Austausch aller Teile ist ebenfalls kein sachlicher Ansatz. Sollte sich eine Erkenntnis ergeben, die den Auftrag verändert, wird diese von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Porsche-Motoren erhält",
       "parrafos": [
         "Liefergegenstand sind ein leistungsbezogener Kostenplan, eine Komponentenliste sowie ein gemäß den autorisierten Spezifikationen montierter, eingestellter und geprüfter Motor. Die abschließende Beschreibung sollte erläutern, was durchgeführt wurde, warum es durchgeführt wurde und was zu beachten bzw. für zukünftige Arbeiten einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -132,8 +149,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 40,
+    "total": 40,
     "completa": true
   }
 }

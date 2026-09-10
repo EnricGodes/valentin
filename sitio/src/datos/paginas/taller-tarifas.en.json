@@ -13,9 +13,32 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
+      "titulo": "Fixed prices, model by model",
       "parrafos": [
-        "At Valentín Motors, we understand that model-specific rates allow for transparent pricing on routine procedures, without pretending that any breakdown can be quoted without seeing the car. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the owner's desired outcome.",
+        "Maintenance costs differ between an air-cooled 911 and a Macan; likewise, within the 911 range, a SC and a 992 have different costs. That is why rates are listed by model: choose yours to see the cost of each service for that specific unit.",
+        "These are fixed reference rates. A firm quote depends on the car's condition upon arrival,something that can only be determined by inspecting the vehicle in person.",
+        "Each family has its own: <a href=\"/porsche-911-mantenimiento-taller\">servicing for Porsche 911 models</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">servicing for Turbo models</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">servicing for Cayman and Boxster models</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">servicing for Transaxle models</a>, <a href=\"/porsche-gt-mantenimiento-taller\">servicing for GT models</a> and <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">servicing for Cayenne and Macan models</a>."
+      ],
+      "items": [
+        "[[CHECK: the export does not include the amounts from the published rate table; add them before import.]]"
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What Rates does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Rates.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Where Rates starts",
+      "parrafos": [
+        "Model-specific rates allow for transparent pricing on routine procedures, without pretending that any breakdown can be quoted without seeing the car. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the owner's desired outcome.",
         "The assessment is based on the model, generation, version, transmission type, requested service, and recent maintenance history. If information is missing, we specify what checks are needed to obtain it before turning a hypothesis into a formal quote."
       ],
       "items": [],
@@ -23,32 +46,20 @@
     },
     {
       "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
+      "titulo": "Defining the scope of Rates",
       "parrafos": [
         "The scope is defined proportionally: the published tables cover minor service, major service, brake fluid, wheel alignment, and pre-purchase inspections for the listed model families. Tasks are sequenced to avoid double disassembly, prevent masking symptoms, and avoid replacing an assembly when it can still be diagnosed or repaired.",
         "Technical decisions are made based on this criterion: a fixed price covers a specific operation and its anticipated components. If the inspection reveals wear, damage, or substandard previous work, a separate quote is prepared before expanding the scope. If a finding arises that alters the original work order, it is treated separately from the approved work and explained before proceeding."
       ],
       "items": [
         "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
+        "Necessary checks prior to intervention."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Fixed prices, model by model",
-      "parrafos": [
-        "Maintenance costs differ between an air-cooled 911 and a Macan; likewise, within the 911 range, a SC and a 992 have different costs. That is why rates are listed by model: choose yours to see the cost of each service for that specific unit.",
-        "These are fixed reference rates. A firm quote depends on the car's condition upon arrival,something that can only be determined by inspecting the vehicle in person."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "What the owner receives after Rates",
       "parrafos": [
         "The goal is to provide a comparable reference point before booking an appointment and,once the specific unit is identified,to confirm the appropriate service for its version and condition. The final explanation should clarify what was done, why it was done, and what should be monitored or scheduled for the future.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -58,7 +69,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation",
+      "titulo": "How to prepare for the initial consultation: Rates",
       "parrafos": [
         "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
         "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
@@ -108,8 +119,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 30,
-    "total": 30,
+    "hechas": 33,
+    "total": 33,
     "completa": true
   }
 }

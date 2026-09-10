@@ -18,50 +18,21 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
+      "titulo": "L'inspection",
       "parrafos": [
-        "Chez Valentín Motors, nous savons qu'il est indispensable de confirmer bore scoring par des preuves avant d'associer un bruit, une consommation d'huile ou de la fumée à une réfection moteur. C'est pourquoi notre premier échange porte non pas sur une liste de services, mais sur le véhicule, son historique et les attentes de son propriétaire.",
-        "L'évaluation débute par un examen endoscopique des six cylindres, des photographies, une analyse d'huile et de filtre, et, le cas échéant, des tests de compression et d'étanchéité. En cas d'informations manquantes, les tests nécessaires sont spécifiés avant d'établir un devis."
+        "Une consommation d’huile, de la fumée et un claquement à froid peuvent indiquer un bore scoring, sans le confirmer.",
+        "Elle est réalisée à l'aide d'un endoscope introduit par le puits de bougie, le moteur étant monté sur le véhicule. En une matinée, nous pouvons déterminer la présence de rayures, les cylindres concernés et l'étendue des rayures. Nous demandons systématiquement cette inspection avant tout achat : elle permet d'éviter les mauvaises surprises et de négocier le prix.",
+        "Le prix est indiqué dans la liste de prix, avec les autres prestations pour ce modèle."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
-          "alt": "Porsche Bore Scoring"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre d'intervention est défini proportionnellement : le diagnostic concerne spécifiquement les moteurs M96 et M97 des séries Boxster, Cayman et 911, fabriqués entre 1997 et 2008, et la réparation est déterminée en fonction des dommages constatés. Les tâches sont priorisées afin d'éviter les démontages inutiles, la dissimulation de symptômes et le remplacement d'un ensemble alors qu'un diagnostic ou une réparation est encore possible.",
-        "La décision technique est prise selon le critère suivant : une rayure superficielle, un grippage actif et une perte de compression ne justifient pas la même décision. Le rapport sert à comparer la surveillance, l'ouverture et la reconstruction. Si une constatation modifie la procédure, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Nos services",
+      "titulo": "Nos services : bore scoring",
       "parrafos": [
         "Nous diagnostiquons les rayures sur les chemises de cylindre par endoscopie des cylindres, sans démontage du moteur, et les réparons par chemisage lorsque les dommages sont déjà présents. Ce contrôle est un service fermé et nous le recommandons en premier lieu avant d'acheter un M96 ou un M97.",
         "bore scoring affecte les , Boxster, , Cayman et 911 équipés de moteurs M96 et M97 fabriqués entre 1997 et 2008. Il se manifeste par des rayures verticales sur la paroi du cylindre, le plus souvent dans le sixième cylindre, et progresse jusqu'à ce que le moteur consomme de l'huile et perde de la compression."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "L'inspection",
-      "parrafos": [
-        "Elle est réalisée à l'aide d'un endoscope introduit par le puits de bougie, le moteur étant monté sur le véhicule. En une matinée, nous pouvons déterminer la présence de rayures, les cylindres concernés et l'étendue des rayures. Nous demandons systématiquement cette inspection avant tout achat : elle permet d'éviter les mauvaises surprises et de négocier le prix.",
-        "Le prix est indiqué dans la liste de prix, avec les autres prestations pour ce modèle."
       ],
       "items": [],
       "imagenes": []
@@ -91,7 +62,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Ce que bore scoring ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour bore scoring ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un cas documenté : bore scoring",
+      "parrafos": [
+        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/porsche-bore-scoring\">ce cas documenté</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche Bore Scoring"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le point de départ de bore scoring",
+      "parrafos": [
+        "Il est indispensable de confirmer bore scoring par des preuves avant d'associer un bruit, une consommation d'huile ou de la fumée à une réfection moteur. C'est pourquoi notre premier échange porte non pas sur une liste de services, mais sur le véhicule, son historique et les attentes de son propriétaire.",
+        "L'évaluation débute par un examen endoscopique des six cylindres, des photographies, une analyse d'huile et de filtre, et, le cas échéant, des tests de compression et d'étanchéité. En cas d'informations manquantes, les tests nécessaires sont spécifiés avant d'établir un devis."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de bore scoring",
+      "parrafos": [
+        "Le périmètre d'intervention est défini proportionnellement : le diagnostic concerne spécifiquement les moteurs M96 et M97 des séries Boxster, Cayman et 911, fabriqués entre 1997 et 2008, et la réparation est déterminée en fonction des dommages constatés. Les tâches sont priorisées afin d'éviter les démontages inutiles, la dissimulation de symptômes et le remplacement d'un ensemble alors qu'un diagnostic ou une réparation est encore possible.",
+        "La décision technique est prise selon le critère suivant : une rayure superficielle, un grippage actif et une perte de compression ne justifient pas la même décision. Le rapport sert à comparer la surveillance, l'ouverture et la reconstruction. Si une constatation modifie la procédure, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après bore scoring",
       "parrafos": [
         "Ce rapport a pour objectif de fournir des images de chaque cylindre, une évaluation précise et, le cas échéant, un devis pour le chemisage et la révision du bloc-moteur avant toute intervention. L'explication finale doit clairement indiquer les opérations effectuées, leur justification et les points à surveiller ou à planifier ultérieurement.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -141,8 +159,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 44,
+    "total": 44,
     "completa": true
   }
 }

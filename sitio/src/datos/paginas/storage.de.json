@@ -13,7 +13,31 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "titulo": "Ein Umfeld, das auf das Fahrzeug zugeschnitten ist",
+      "parrafos": [
+        "Ein 911, der mehrere Monate nicht bewegt wird, braucht mehr als einen überdachten Stellplatz.",
+        "Wir bei Valentin wissen, dass ein Porsche während der Standzeiten besondere Pflege benötigt. Deshalb bietet unser Service Storage einen Stellplatz und eine Umgebung, die für die optimale Pflege Ihres Fahrzeugs ausgelegt ist, quasi ein Spa für Porsche.",
+        "Dieser Service richtet sich an Besitzer, die Platz in ihrer Garage schaffen möchten, ihren Porsche nur gelegentlich nutzen, längere Zeit abwesend sind oder ihr Fahrzeug in gutem Zustand halten möchten, wenn es nicht in Gebrauch ist. Unsere Anlage ist diskret, sicher und wird rund um die Uhr überwacht – für ein beruhigendes Gefühl. 24",
+        "Zusätzlich zur Einlagerung führen wir regelmäßige Inspektionen und vorbeugende Wartungsarbeiten durch, um den Gesamtzustand des Fahrzeugs zu überprüfen und es in einem guten mechanischen und optischen Zustand zu erhalten. So ist Ihr Porsche sofort einsatzbereit, wenn Sie ihn wieder fahren möchten.",
+        "Für 250 €/Monat bieten wir Ihnen eine Alternative zum herkömmlichen Parken, die Sicherheit, Schutz und spezialisierte Pflege vereint. Wir stellen unseren Kunden außerdem ein spezielles Pflegeprotokoll mit optionalen, auf die Bedürfnisse jedes Fahrzeugs und Besitzers zugeschnittenen Services zur Verfügung.",
+        "Freie Porsche-Werkstatt im Zentrum von Barcelona"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Storage nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Storage sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ausgangspunkt für Storage",
       "parrafos": [
         "Wir bei Valentín Motors verstehen, dass der Porsche Storage längere Standzeiten mit mehr als nur einem Parkplatz überbrückt: Zustandsüberwachung und Zugang zu spezialisierter Wartung. Deshalb konzentrieren wir uns in unserem ersten Gespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Geschichte und die Erwartungen des Besitzers.",
         "Die Bewertung basiert auf der erwarteten Lebensdauer, der gewünschten Nutzungshäufigkeit, der jüngsten Fahrzeughistorie und eventuellen Mängeln im mechanischen oder kosmetischen Bereich. Wenn Informationen fehlen, werden die notwendigen Prüfungen angegeben, um diese zu erhalten, bevor eine Hypothese in ein Angebot umgewandelt wird."
@@ -28,16 +52,14 @@
     },
     {
       "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
+      "titulo": "Umfang von Storage festlegen",
       "parrafos": [
         "Der Leistungsumfang ist proportional definiert: Der aktuelle Service umfasst diskrete, überwachte Installationen 24 rund um die Uhr, regelmäßige Inspektionen und ein auf jedes Gerät zugeschnittenes Wartungsprotokoll. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verschleiern von Symptomen und den Austausch von Bauteilen zu vermeiden, wenn diese noch diagnostiziert oder repariert werden können.",
         "Die technische Entscheidung erfolgt nach folgenden Kriterien: Vor Betreten des Fahrzeugs wird vereinbart, welche Serviceleistungen erforderlich sind und welche optionalen Arbeiten einer Genehmigung bedürfen. Storage darf eine Routineinspektion nicht in einen unaufgeforderten Eingriff ausarten lassen. Sollte sich ein Befund ergeben, der den Auftrag ändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
       ],
       "items": [
         "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
+        "Erforderliche Prüfungen vor dem Eingriff."
       ],
       "imagenes": [
         {
@@ -48,20 +70,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ein Umfeld, das auf das Fahrzeug zugeschnitten ist",
-      "parrafos": [
-        "Wir bei Valentin wissen, dass ein Porsche während der Standzeiten besondere Pflege benötigt. Deshalb bietet unser Service Storage einen Stellplatz und eine Umgebung, die für die optimale Pflege Ihres Fahrzeugs ausgelegt ist, quasi ein Spa für Porsche.",
-        "Dieser Service richtet sich an Besitzer, die Platz in ihrer Garage schaffen möchten, ihren Porsche nur gelegentlich nutzen, längere Zeit abwesend sind oder ihr Fahrzeug in gutem Zustand halten möchten, wenn es nicht in Gebrauch ist. Unsere Anlage ist diskret, sicher und wird rund um die Uhr überwacht – für ein beruhigendes Gefühl. 24",
-        "Zusätzlich zur Einlagerung führen wir regelmäßige Inspektionen und vorbeugende Wartungsarbeiten durch, um den Gesamtzustand des Fahrzeugs zu überprüfen und es in einem guten mechanischen und optischen Zustand zu erhalten. So ist Ihr Porsche sofort einsatzbereit, wenn Sie ihn wieder fahren möchten.",
-        "Für 250 €/Monat bieten wir Ihnen eine Alternative zum herkömmlichen Parken, die Sicherheit, Schutz und spezialisierte Pflege vereint. Wir stellen unseren Kunden außerdem ein spezielles Pflegeprotokoll mit optionalen, auf die Bedürfnisse jedes Fahrzeugs und Besitzers zugeschnittenen Services zur Verfügung.",
-        "Freie Porsche-Werkstatt im Zentrum von Barcelona"
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Was der Eigentümer nach Storage erhält",
       "parrafos": [
         "Ziel des Services ist es, Ihren Porsche sorgfältig gewartet und fahrbereit zurückzugeben. Dabei wird das mit Ihnen vereinbarte Protokoll eingehalten. Die abschließende Erklärung soll Ihnen verständlich machen, was gemacht wurde, warum es gemacht wurde und was im Anschluss zu beachten oder einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -111,8 +120,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 32,
-    "total": 32,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

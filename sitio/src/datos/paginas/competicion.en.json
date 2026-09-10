@@ -13,43 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
-      "parrafos": [
-        "At Valentín Motors, we understand that preparing a Porsche for the track isn't just about adding parts; it’s about ensuring the brakes, suspension, tires, safety systems, and geometry all work in harmony for the intended use. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's desired outcome.",
-        "The assessment is based on the type of event, the driver's skill level, applicable regulations, the vehicle's current condition, and projected track mileage. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
-          "alt": "Technical preparation of a race Porsche, image 1"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope is determined proportionally: a setup for an initial track day might be limited to inspections, consumables, and geometry, whereas a GT or rally program requires defining safety, reliability, spare parts, and support needs. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't masked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
-        "Technical decisions are made based on this criterion: every change is justified by a specific symptom, objective, or regulatory requirement. Raw power cannot compensate for an inconsistent brake pedal, uncontrolled temperatures, or an incorrect driving position. If a finding arises that alters the original brief, it is separated from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/627ae024-DSC08039.jpg",
-          "alt": "Technical preparation of a race Porsche, image 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Track day preparation",
       "parrafos": [
+        "A 911 prepared for a first track day does not need the same setup as a championship GT3.",
         "The brand’s spirit is rooted in motorsport; the racetrack allows a Porsche to demonstrate its full potential and deliver a driving experience distinct from city driving. In sessions held in a controlled environment, driver and vehicle can work in perfect coordination.",
         "We adapt vehicles to any level, depending on track conditions and the degree of preparation requested by the client."
       ],
@@ -63,9 +29,19 @@
     },
     {
       "nivel": 2,
+      "titulo": "What Competition does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Competition.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Championships and Gentlemen Driver programs",
       "parrafos": [
-        "We work with GT3 and CUP race cars from several generations, providing assistance, support and track engineering with personnel accustomed to championship environments."
+        "We work with GT3 and Carrera Cup cars from several generations, providing assistance, support and track engineering with personnel experienced in championship environments."
       ],
       "items": [],
       "imagenes": []
@@ -95,7 +71,40 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "Where Competition starts",
+      "parrafos": [
+        "Preparing a Porsche for the track isn't just about adding parts; it’s about ensuring the brakes, suspension, tires, safety systems, and geometry all work in harmony for the intended use. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's desired outcome.",
+        "The assessment is based on the type of event, the driver's skill level, applicable regulations, the vehicle's current condition, and projected track mileage. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
+          "alt": "Technical preparation of a race Porsche, image 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Competition",
+      "parrafos": [
+        "The scope is determined proportionally: a setup for an initial track day might be limited to inspections, consumables, and geometry, whereas a GT or rally program requires defining safety, reliability, spare parts, and support needs. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't masked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
+        "Technical decisions are made based on this criterion: every change is justified by a specific symptom, objective, or regulatory requirement. Raw power cannot compensate for an inconsistent brake pedal, uncontrolled temperatures, or an incorrect driving position. If a finding arises that alters the original brief, it is separated from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/627ae024-DSC08039.jpg",
+          "alt": "Technical preparation of a race Porsche, image 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Competition",
       "parrafos": [
         "The goal of the handover is to provide a car inspected for its intended use, along with a clear list of adjustments, components, and checks pending before returning to the track. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled next.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -145,8 +154,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 42,
+    "total": 42,
     "completa": true
   }
 }

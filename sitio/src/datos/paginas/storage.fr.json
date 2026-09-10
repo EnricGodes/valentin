@@ -13,9 +13,33 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
+      "titulo": "Un environnement conçu pour votre voiture",
       "parrafos": [
-        "Chez Valentín Motors, nous savons que pour Storage Porsche, une longue période d'immobilisation ne se résume pas à un simple emplacement de stationnement : nous proposons un suivi de l'état du véhicule et un accès à un entretien préventif spécialisé. C'est pourquoi notre première conversation ne porte pas sur un catalogue de prestations, mais sur la voiture, son historique et le résultat attendu par son propriétaire.",
+        "Une 911 immobilisée pendant plusieurs mois a besoin de davantage qu’une place couverte.",
+        "Chez Valentin, nous savons qu'une Porsche nécessite des soins particuliers lorsqu'elle n'est pas utilisée. C'est pourquoi notre service Storage vous propose un emplacement de stationnement et un environnement conçu pour la préserver au mieux, tel un spa pour Porsche.",
+        "Ce service s’adresse aux propriétaires qui doivent libérer leur garage, utilisent leur Porsche occasionnellement, s’absentent longtemps ou souhaitent la préserver pendant une période d’inactivité. Les installations sont discrètes, sécurisées et surveillées 24 heures sur 24.",
+        "Outre le stockage, nous effectuons des inspections régulières et un entretien préventif, vérifiant l'état général du véhicule et lui apportant les soins nécessaires pour le maintenir en bon état mécanique et esthétique. Ainsi, lorsque vous déciderez de reprendre le volant de votre Porsche, elle sera prête à partir.",
+        "Pour 250 €/mois, nous proposons un service alliant sécurité, préservation et entretien spécialisé, en alternative au stationnement traditionnel. Nous offrons également à nos clients un protocole d'entretien spécifique, avec des services optionnels adaptés aux besoins de chaque véhicule et de son propriétaire.",
+        "Atelier Porsche indépendant au cœur de Barcelone"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Storage ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Storage ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le point de départ de Storage",
+      "parrafos": [
+        "Pour Storage Porsche, une longue période d'immobilisation ne se résume pas à un simple emplacement de stationnement : nous proposons un suivi de l'état du véhicule et un accès à un entretien préventif spécialisé. C'est pourquoi notre première conversation ne porte pas sur un catalogue de prestations, mais sur la voiture, son historique et le résultat attendu par son propriétaire.",
         "L'évaluation repose sur la durée de vie prévue du véhicule, la fréquence d'utilisation souhaitée par le propriétaire, son historique récent et tout besoin mécanique ou esthétique non résolu. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant d'établir un devis."
       ],
       "items": [],
@@ -28,16 +52,14 @@
     },
     {
       "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
+      "titulo": "Définir le périmètre de Storage",
       "parrafos": [
         "Le périmètre est défini de manière proportionnée : le service actuel comprend des installations discrètes et surveillées 24 heures sur 24, des inspections périodiques et un protocole de soins adapté à chaque voiture. Les tâches sont ordonnées pour éviter les doubles démontages, ne pas masquer un symptôme et ne pas remplacer un ensemble qui peut encore être diagnostiqué ou réparé.",
         "La décision technique est prise selon le critère suivant : avant d'entrer dans les locaux, les interventions requises sur le véhicule et les travaux optionnels nécessitant une autorisation sont convenus. Storage ne doit pas transformer un contrôle de routine en une intervention non sollicitée. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant toute intervention."
       ],
       "items": [
         "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
+        "Vérifications requises avant intervention."
       ],
       "imagenes": [
         {
@@ -48,20 +70,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un environnement conçu pour votre voiture",
-      "parrafos": [
-        "Chez Valentin, nous savons qu'une Porsche nécessite des soins particuliers lorsqu'elle n'est pas utilisée. C'est pourquoi notre service Storage vous propose un emplacement de stationnement et un environnement conçu pour la préserver au mieux, tel un spa pour Porsche.",
-        "Ce service s’adresse aux propriétaires qui doivent libérer leur garage, utilisent leur Porsche occasionnellement, s’absentent longtemps ou souhaitent la préserver pendant une période d’inactivité. Les installations sont discrètes, sécurisées et surveillées 24 heures sur 24.",
-        "Outre le stockage, nous effectuons des inspections régulières et un entretien préventif, vérifiant l'état général du véhicule et lui apportant les soins nécessaires pour le maintenir en bon état mécanique et esthétique. Ainsi, lorsque vous déciderez de reprendre le volant de votre Porsche, elle sera prête à partir.",
-        "Pour 250 €/mois, nous proposons un service alliant sécurité, préservation et entretien spécialisé, en alternative au stationnement traditionnel. Nous offrons également à nos clients un protocole d'entretien spécifique, avec des services optionnels adaptés aux besoins de chaque véhicule et de son propriétaire.",
-        "Atelier Porsche indépendant au cœur de Barcelone"
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Ce que reçoit le propriétaire après Storage",
       "parrafos": [
         "L'objectif de la livraison est une Porsche conservée sous surveillance et préparée pour être remise en circulation conformément au protocole convenu avec son propriétaire. L'explication finale doit permettre au propriétaire de comprendre les opérations effectuées, leurs raisons et les précautions à prendre ou à planifier ultérieurement.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -111,8 +120,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 32,
-    "total": 32,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

@@ -13,43 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons que préparer une Porsche pour la piste ne se limite pas à ajouter des pièces. Il s'agit de s'assurer que les freins, la suspension, les pneus, les dispositifs de sécurité et la géométrie sont optimisés pour une utilisation identique. C’est pourquoi la conversation initiale ne porte pas sur une liste de services, mais plutôt sur la voiture, son historique et les résultats attendus par son propriétaire.",
-        "L’évaluation repose sur le type de test, le niveau de compétence du pilote, la réglementation applicable, l’état du véhicule et le kilométrage prévu sur circuit. En cas d’information manquante, les vérifications nécessaires pour l’obtenir sont indiquées avant de transformer une hypothèse en devis."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
-          "alt": "Préparation technique d'une Porsche de course, image 1"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre est défini proportionnellement : une préparation pour un premier track day peut se limiter aux contrôles, aux consommables et à la géométrie ; un programme GT ou de rallye nécessite de définir la sécurité, la fiabilité, les pièces de rechange et l’assistance. Les tâches sont priorisées afin d’éviter les doubles démontages, de masquer un problème et de remplacer un ensemble alors qu’il peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon le critère suivant : chaque modification est justifiée par un symptôme, un objectif ou une exigence réglementaire. Une puissance accrue ne compense pas un ressenti de pédale irrégulier, des températures incontrôlées ou une position de conduite incorrecte. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant toute intervention."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/627ae024-DSC08039.jpg",
-          "alt": "Préparation technique d'une Porsche de course, image 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Préparation pour les track days",
       "parrafos": [
+        "Une 911 préparée pour un premier track day ne demande pas la même mise au point qu’une GT3 de championnat.",
         "L'esprit de la marque est sportif, et le circuit permet à une Porsche de démontrer son potentiel et de procurer des sensations différentes de celles de la conduite urbaine. Lors de sessions réalisées dans un environnement contrôlé, le pilote et le véhicule peuvent fonctionner en parfaite harmonie.",
         "Nous effectuons des adaptations de véhicules à tous les niveaux, en fonction des conditions de piste et du degré de préparation souhaité par le client."
       ],
@@ -63,9 +29,19 @@
     },
     {
       "nivel": 2,
+      "titulo": "Ce que Compétition ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Compétition ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Championnats GT et Gentlemen Driver",
       "parrafos": [
-        "Nous travaillons sur des véhicules GT3 et de course CUP de plusieurs générations, et proposons assistance, support et ingénierie de piste avec des techniciens habitués aux championnats."
+        "Nous travaillons sur des GT3 et Carrera Cup de plusieurs générations et assurons l’assistance, le support et l’ingénierie de piste avec du personnel habitué aux championnats."
       ],
       "items": [],
       "imagenes": []
@@ -95,7 +71,40 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Le point de départ de Compétition",
+      "parrafos": [
+        "Préparer une Porsche pour la piste ne se limite pas à ajouter des pièces. Il s'agit de s'assurer que les freins, la suspension, les pneus, les dispositifs de sécurité et la géométrie sont optimisés pour une utilisation identique. C’est pourquoi la conversation initiale ne porte pas sur une liste de services, mais plutôt sur la voiture, son historique et les résultats attendus par son propriétaire.",
+        "L’évaluation repose sur le type de test, le niveau de compétence du pilote, la réglementation applicable, l’état du véhicule et le kilométrage prévu sur circuit. En cas d’information manquante, les vérifications nécessaires pour l’obtenir sont indiquées avant de transformer une hypothèse en devis."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
+          "alt": "Préparation technique d'une Porsche de course, image 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Compétition",
+      "parrafos": [
+        "Le périmètre est défini proportionnellement : une préparation pour un premier track day peut se limiter aux contrôles, aux consommables et à la géométrie ; un programme GT ou de rallye nécessite de définir la sécurité, la fiabilité, les pièces de rechange et l’assistance. Les tâches sont priorisées afin d’éviter les doubles démontages, de masquer un problème et de remplacer un ensemble alors qu’il peut encore être diagnostiqué ou réparé.",
+        "La décision technique est prise selon le critère suivant : chaque modification est justifiée par un symptôme, un objectif ou une exigence réglementaire. Une puissance accrue ne compense pas un ressenti de pédale irrégulier, des températures incontrôlées ou une position de conduite incorrecte. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant toute intervention."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/627ae024-DSC08039.jpg",
+          "alt": "Préparation technique d'une Porsche de course, image 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Compétition",
       "parrafos": [
         "L'objectif de la livraison est de vous remettre une voiture révisée pour l'usage convenu, accompagnée d'une liste claire des réglages, composants et contrôles à effectuer avant de reprendre la piste. L'explication finale vous permettra de comprendre ce qui a été fait, pourquoi et ce qui doit être observé ou programmé par la suite.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -145,8 +154,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 42,
+    "total": 42,
     "completa": true
   }
 }

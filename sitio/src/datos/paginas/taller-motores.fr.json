@@ -19,50 +19,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons que la réfection d'un moteur Porsche nécessite de traduire les symptômes et les indications en mesures précises avant de sélectionner les pièces ou de définir un devis. C'est pourquoi notre premier échange porte non pas sur un catalogue de services, mais sur la voiture, son historique et les résultats attendus par son propriétaire.",
-        "L'évaluation commence par le contrôle de l'état de l'huile et du filtre, la compression (le cas échéant), la recherche de fuites, les bruits anormaux, les pressions, les tolérances, l'ovalisation, l'état des culasses, des chemises de cylindre, du vilebrequin et du calage. Si certaines informations sont manquantes, nous indiquons les tests nécessaires pour les obtenir avant de transformer une hypothèse en devis."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Restauration du moteur"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre est planifié proportionnellement : la salle dédiée reçoit les moteurs boxer refroidis par air, M96 et M97, les moteurs de compétition, transaxle et les moteurs courants dont l’expérience en atelier est documentée. Les tâches sont priorisées afin d’éviter les doubles démontages, de masquer les symptômes et de remplacer un ensemble alors qu’il est encore possible de le diagnostiquer ou de le réparer.",
-        "La décision technique est prise selon le critère suivant : après démontage, nettoyage et mesure, les solutions alternatives sont présentées. La réparation du seul défaut visible peut s’avérer insuffisante, mais le remplacement systématique de tous les composants n’est pas non plus un critère technique pertinent. Si une découverte modifie la commande, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Nos services",
+      "titulo": "Nos services : Moteurs Porsche",
       "parrafos": [
         "Nous restaurons, remettons à neuf et réparons tous les moteurs de la marque, du moteur boxer quatre cylindres de 356 aux modèles actuels, dans notre propre atelier de moteurs. C'est ce qui fait la renommée de l'entreprise, et même les concessionnaires officiels n'en possèdent pas.",
         "Nous collectons les moteurs dans toute l'Espagne . Inutile d'amener la voiture : si le moteur est déjà à l'extérieur, il se déplace seul."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Notre méthode de travail",
-      "parrafos": [
-        "On n'ouvre pas un moteur simplement pour remplacer une pièce. On l'ouvre, on mesure tout, et les décisions sont prises en fonction des résultats : jeux, ovalisation, planéité de la culasse, état des chemises de cylindre et du vilebrequin. Le devis est établi sur la base de ces mesures, et pas avant.",
-        "Nous disposons de nos propres machines et outils, ainsi que d'un service de recherche de pièces, ce qui, pour un moteur de quarante ans, représente la moitié du travail."
       ],
       "items": [],
       "imagenes": []
@@ -82,7 +42,64 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Notre méthode de travail",
+      "parrafos": [
+        "On n'ouvre pas un moteur simplement pour remplacer une pièce. On l'ouvre, on mesure tout, et les décisions sont prises en fonction des résultats : jeux, ovalisation, planéité de la culasse, état des chemises de cylindre et du vilebrequin. Le devis est établi sur la base de ces mesures, et pas avant.",
+        "Nous disposons de nos propres machines et outils, ainsi que d'un service de recherche de pièces, ce qui, pour un moteur de quarante ans, représente la moitié du travail."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Moteurs Porsche ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Moteurs Porsche ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un cas documenté : Moteurs Porsche",
+      "parrafos": [
+        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">ce cas documenté</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+          "alt": "Restauration du moteur"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le point de départ de Moteurs Porsche",
+      "parrafos": [
+        "La réfection d'un moteur Porsche nécessite de traduire les symptômes et les indications en mesures précises avant de sélectionner les pièces ou de définir un devis. C'est pourquoi notre premier échange porte non pas sur un catalogue de services, mais sur la voiture, son historique et les résultats attendus par son propriétaire.",
+        "L'évaluation commence par le contrôle de l'état de l'huile et du filtre, la compression (le cas échéant), la recherche de fuites, les bruits anormaux, les pressions, les tolérances, l'ovalisation, l'état des culasses, des chemises de cylindre, du vilebrequin et du calage. Si certaines informations sont manquantes, nous indiquons les tests nécessaires pour les obtenir avant de transformer une hypothèse en devis."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Moteurs Porsche",
+      "parrafos": [
+        "Le périmètre est planifié proportionnellement : la salle dédiée reçoit les moteurs boxer refroidis par air, M96 et M97, les moteurs de compétition, transaxle et les moteurs courants dont l’expérience en atelier est documentée. Les tâches sont priorisées afin d’éviter les doubles démontages, de masquer les symptômes et de remplacer un ensemble alors qu’il est encore possible de le diagnostiquer ou de le réparer.",
+        "La décision technique est prise selon le critère suivant : après démontage, nettoyage et mesure, les solutions alternatives sont présentées. La réparation du seul défaut visible peut s’avérer insuffisante, mais le remplacement systématique de tous les composants n’est pas non plus un critère technique pertinent. Si une découverte modifie la commande, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Moteurs Porsche",
       "parrafos": [
         "L’objectif de livraison comprend un budget basé sur le périmètre du projet, une liste des pièces et un moteur assemblé, réglé et testé conformément aux spécifications approuvées. Le compte rendu final doit clairement expliquer les actions réalisées, leurs justifications et les points à surveiller ou à planifier ultérieurement.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -132,8 +149,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 40,
+    "total": 40,
     "completa": true
   }
 }

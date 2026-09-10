@@ -17,28 +17,28 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
+      "titulo": "La prima è stata la PA10/01",
       "parrafos": [
-        "Noi di Valentín Motors comprendiamo che una restomod trasforma un classico in un sistema completo per migliorarne l'usabilità senza dissolvere l'identità che ne ha giustificato la scelta iniziale. Ecco perché la conversazione iniziale non si concentra su un catalogo di lavori, ma piuttosto sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione si basa sulla qualità della base, sull'architettura, sul peso, sulla risposta del motore, sul cambio, sui freni, sulle sospensioni, sull'ergonomia e sull'estetica. In caso di informazioni mancanti, vengono specificati i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
+        "La PA10/01 è la nostra interpretazione della perfetta 911: un'auto costruita interamente internamente e presentata a Madrid nel 2025. Serve da punto di riferimento per capire fino a che punto può spingersi un progetto di questo tipo."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
+      "titulo": "Un caso documentato: Restomod",
       "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: carrozzeria, verniciatura, motore, trasmissione, interni e meccanica sono tutti inclusi nello stesso progetto. Un miglioramento isolato non deve semplicemente trasferire il problema a un altro componente. Gli interventi sono ordinati in modo da evitare doppi smontaggi, mascherare un sintomo e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica viene presa secondo questo criterio: si decide quali caratteristiche devono essere mantenute e quali limitazioni devono essere affrontate. La sola velocità massima raramente definisce un'auto piacevole, affidabile e utilizzabile. Se emerge un riscontro che modifica le specifiche del progetto, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/pa10-01\">questo caso documentato</a>."
       ],
       "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
+        "[[VERIFICARE: assegnare a questo caso una fotografia del Magazine già selezionata.]]"
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/30b1e541-e8ee1755-2918-40bf-9839-aa5eeb460162.jpg",
+          "alt": "Frontale della 911 PA10 color crema, con paraurti in fibra e frecce ambra"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -52,16 +52,40 @@
     },
     {
       "nivel": 2,
-      "titulo": "La prima è stata la PA10/01",
+      "titulo": "Da dove inizia Restomod",
       "parrafos": [
-        "La PA10/01 è la nostra interpretazione della perfetta 911: un'auto costruita interamente internamente e presentata a Madrid come 2025. Serve da punto di riferimento per capire fino a che punto può spingersi un progetto di questo tipo."
+        "Una restomod trasforma un classico in un sistema completo per migliorarne l'usabilità senza dissolvere l'identità che ne ha giustificato la scelta iniziale. Ecco perché la conversazione iniziale non si concentra su un catalogo di lavori, ma piuttosto sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
+        "La valutazione si basa sulla qualità della base, sull'architettura, sul peso, sulla risposta del motore, sul cambio, sui freni, sulle sospensioni, sull'ergonomia e sull'estetica. In caso di informazioni mancanti, vengono specificati i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Definire l’ambito di Restomod",
+      "parrafos": [
+        "L'ambito di intervento è definito proporzionalmente: carrozzeria, verniciatura, motore, trasmissione, interni e meccanica sono tutti inclusi nello stesso progetto. Un miglioramento isolato non deve semplicemente trasferire il problema a un altro componente. Gli interventi sono ordinati in modo da evitare doppi smontaggi, mascherare un sintomo e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica viene presa secondo questo criterio: si decide quali caratteristiche devono essere mantenute e quali limitazioni devono essere affrontate. La sola velocità massima raramente definisce un'auto piacevole, affidabile e utilizzabile. Se emerge un riscontro che modifica le specifiche del progetto, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa non comprende Restomod",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Restomod.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa riceve il proprietario dopo Restomod",
       "parrafos": [
         "L'obiettivo della consegna è un'unità singola sviluppata secondo le proprie specifiche, testata e documentata nella sua interezza, non come un insieme di modifiche indipendenti. La spiegazione finale dovrebbe consentirvi di comprendere cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -111,8 +135,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 29,
-    "total": 29,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

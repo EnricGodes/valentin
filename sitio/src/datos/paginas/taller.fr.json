@@ -13,123 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons qu'un atelier Porsche doit prendre en compte le symptôme, la génération du véhicule et son utilisation avant de recommander un entretien, un diagnostic ou une réparation. C'est pourquoi notre premier échange porte non pas sur une liste de services, mais sur la voiture, son historique et le résultat souhaité par son propriétaire.",
-        "L'évaluation se base sur l'historique documenté, la version, le kilométrage, les interventions précédentes, les relevés de diagnostic, les tests effectués et l'état des composants. En cas d'information manquante, la vérification nécessaire pour l'obtenir est précisée avant de transformer une hypothèse en budget."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/d4f2af8a-911.jpg",
-          "alt": "Entretien Porsche 911"
-        },
-        {
-          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
-          "alt": "Porsche IMS"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre est défini proportionnellement : les centres de Barcelone et de Madrid couvrent la maintenance, les moteurs, les boîtes de vitesses, IMS, bore scoring, le contrôle avant achat, la carrosserie et la peinture, Storage et la préparation. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation de symptômes et le remplacement d'un ensemble alors qu'il peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon le critère suivant : les tâches urgentes, préventives et optionnelles sont identifiées en premier lieu. Le budget doit expliquer les éléments justifiant chaque recommandation et les conséquences de son report. Si un élément nouveau modifie la mission, il est dissocié des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/914dbdfc-cayman-boxster.jpg",
-          "alt": "Porsche entretenue dans un atelier spécialisé, image 2"
-        },
-        {
-          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
-          "alt": "Porsche Bore Scoring"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Tarifs de maintenance",
-      "parrafos": [
-        "Sélectionnez un modèle pour afficher les prix des services associés."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/1ec7a86d-gt.jpg",
-          "alt": "Porsche entretenue dans un atelier spécialisé, image 3"
-        },
-        {
-          "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
-          "alt": "Entretien Porsche dans un atelier spécialisé, image 17"
-        }
-      ]
-    },
-    {
-      "nivel": 3,
-      "titulo": "Modèles 911",
-      "parrafos": [
-        "Services pour les modèles Pre 74, SC, 3.2, 964, 993, 996, 997, 991 et 992."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Modèles Cayman et Boxster",
-      "parrafos": [
-        "Services pour les modèles Boxster 986, Boxster 987, Cayman 987, Boxster 981, Cayman 981, Cayman 718 et Boxster 718."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Modèles GT",
-      "parrafos": [
-        "Services pour les modèles 996 GT3 MK1, 996 GT3 MK2, 996 GT3 RS, 997.1 GT3, 997.1 GT3 RS, 997.2 GT3, 997.2 GT3 RS, 991.1 GT3, 991.1 GT3 RS, 991.2 GT3, 991.2 GT3 RS, 992 GT3, 992 GT3 RS, 993 GT2, 996 GT2, 997 GT2, 997 GT2 RS, 991 GT2 RS, 981 Cayman GT4, 718 Cayman GT4 et 718 Cayman GT4 RS."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Modèles Cayenne et Macan",
-      "parrafos": [
-        "Services pour les modèles Cayenne Diesel, Cayenne Diesel S, Macan, Macan GTS, Macan S, Macan Turbo et Macan Diesel."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Modèles Turbo",
-      "parrafos": [
-        "Services pour les modèles 930 Turbo, 964 3.3 Turbo, 964 3.6 Turbo, 993 Turbo, 996 Turbo, 997.1 Turbo, 997.2 Turbo, 991.1 Turbo, 991.2 Turbo et 992 Turbo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Modelos Transaxle",
-      "parrafos": [
-        "Services pour les modèles 924, 944, 968 et 928."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Spécialistes des véhicules Porsche depuis 1979",
       "parrafos": [
+        "Une 911 996 qui consomme de l’huile ne demande pas le même diagnostic qu’une 964 dont un rapport accroche.",
         "Valentín Motors est l'un des principaux spécialistes indépendants Porsche du pays.",
         "Fondé en 1979 comme spécialiste de l’entretien, de la vente et de la restauration, l’atelier est devenu une référence. Il dispose de plus de 1.300 m² au centre de Barcelone et de plus de 2.500 m² dédiés au service intégral à Leganés, près de Madrid, dans des installations conçues pour accueillir les clients.",
         "Outre l’atelier et l’entretien, nous disposons de départements dédiés aux projets et restaurations, aux réfections de moteurs et transmissions, à la préparation motorsport, aux track days et aux personnalisations TECHART.",
@@ -253,7 +139,130 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Tarifs de maintenance",
+      "parrafos": [
+        "Sélectionnez un modèle pour afficher les prix des services associés."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/1ec7a86d-gt.jpg",
+          "alt": "Porsche entretenue dans un atelier spécialisé, image 3"
+        },
+        {
+          "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
+          "alt": "Entretien Porsche dans un atelier spécialisé, image 17"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Modèles 911",
+      "parrafos": [
+        "Services pour les modèles Pre 74, SC, 3.2, 964, 993, 996, 997, 991 et 992."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Modèles Cayman et Boxster",
+      "parrafos": [
+        "Services pour les modèles Boxster 986, Boxster 987, Cayman 987, Boxster 981, Cayman 981, Cayman 718 et Boxster 718."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Modèles GT",
+      "parrafos": [
+        "Services pour les modèles 996 GT3 MK1, 996 GT3 MK2, 996 GT3 RS, 997.1 GT3, 997.1 GT3 RS, 997.2 GT3, 997.2 GT3 RS, 991.1 GT3, 991.1 GT3 RS, 991.2 GT3, 991.2 GT3 RS, 992 GT3, 992 GT3 RS, 993 GT2, 996 GT2, 997 GT2, 997 GT2 RS, 991 GT2 RS, 981 Cayman GT4, 718 Cayman GT4 et 718 Cayman GT4 RS."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Modèles Cayenne et Macan",
+      "parrafos": [
+        "Services pour les modèles Cayenne Diesel, Cayenne Diesel S, Macan, Macan GTS, Macan S, Macan Turbo et Macan Diesel."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Modèles Turbo",
+      "parrafos": [
+        "Services pour les modèles 930 Turbo, 964 3.3 Turbo, 964 3.6 Turbo, 993 Turbo, 996 Turbo, 997.1 Turbo, 997.2 Turbo, 991.1 Turbo, 991.2 Turbo et 992 Turbo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Modelos Transaxle",
+      "parrafos": [
+        "Services pour les modèles 924, 944, 968 et 928."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le point de départ de Atelier Porsche",
+      "parrafos": [
+        "Un atelier Porsche doit prendre en compte le symptôme, la génération du véhicule et son utilisation avant de recommander un entretien, un diagnostic ou une réparation. C'est pourquoi notre premier échange porte non pas sur une liste de services, mais sur la voiture, son historique et le résultat souhaité par son propriétaire.",
+        "L'évaluation se base sur l'historique documenté, la version, le kilométrage, les interventions précédentes, les relevés de diagnostic, les tests effectués et l'état des composants. En cas d'information manquante, la vérification nécessaire pour l'obtenir est précisée avant de transformer une hypothèse en budget."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/d4f2af8a-911.jpg",
+          "alt": "Entretien Porsche 911"
+        },
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Atelier Porsche",
+      "parrafos": [
+        "Le périmètre est défini proportionnellement : les centres de Barcelone et de Madrid couvrent la maintenance, les moteurs, les boîtes de vitesses, IMS, bore scoring, le contrôle avant achat, la carrosserie et la peinture, Storage et la préparation. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation de symptômes et le remplacement d'un ensemble alors qu'il peut encore être diagnostiqué ou réparé.",
+        "La décision technique est prise selon le critère suivant : les tâches urgentes, préventives et optionnelles sont identifiées en premier lieu. Le budget doit expliquer les éléments justifiant chaque recommandation et les conséquences de son report. Si un élément nouveau modifie la mission, il est dissocié des travaux approuvés et expliqué avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/914dbdfc-cayman-boxster.jpg",
+          "alt": "Porsche entretenue dans un atelier spécialisé, image 2"
+        },
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche Bore Scoring"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Atelier Porsche ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Atelier Porsche ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Atelier Porsche",
       "parrafos": [
         "L'objectif de cette prestation est une intervention clairement définie et documentée, avec un interlocuteur technique désigné et la possibilité de sous-traiter en interne les travaux sur le moteur, la transmission ou la carrosserie. Le compte rendu final doit clairement expliquer les travaux effectués, leur justification et les points à surveiller ou à planifier pour les interventions futures.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -268,7 +277,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale",
+      "titulo": "Comment se préparer à la consultation initiale : Atelier Porsche",
       "parrafos": [
         "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
         "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
@@ -328,8 +337,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 80,
-    "total": 80,
+    "hechas": 82,
+    "total": 82,
     "completa": true
   }
 }

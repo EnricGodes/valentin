@@ -18,37 +18,7 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
-      "parrafos": [
-        "At Valentín Motors, we understand that work on the IMS begins by identifying the correct bearing for the specific model, year, and,in transition years,engine number. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the owner's desired outcome.",
-        "The assessment is based on the car's configuration, its history, oil and filter status, any noises, and an inspection of the installed bearing once access is gained. If information is missing, the necessary checks to obtain it are identified before a hypothesis is turned into a formal quote."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
-          "alt": "Porsche IMS"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope of work is determined proportionally: the advertised preventive service targets M96 and M97 engines, as well as models where the bearing can be replaced without opening the engine block. Tasks are sequenced to avoid redundant disassembly, ensure symptoms are not masked, and prevent the replacement of an entire assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are guided by the following criterion: not all IMS engines carry the same risk or allow for the same type of intervention. If metal particles or noise are detected, the preventive approach is halted, and the damage is assessed before the engine is started again. Should any findings alter the scope of the job, that aspect is separated from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What we do",
+      "titulo": "What we do: IMS Porsche",
       "parrafos": [
         "We replace the intermediate shaft bearing on M96 and M97 engines,as well as models ranging from 1997 to 2006, whether manual or automatic,at a fixed price. We have performed this procedure dozens of times across all three bearing revisions installed by Porsche.",
         "Preventive replacement does not require opening the engine block: the transmission and the flywheel or flexplate are removed, and the bearing is accessed via the flange. The engine itself is not dismantled, keeping the cost reasonable compared to the expense of a failure."
@@ -92,6 +62,30 @@
     },
     {
       "nivel": 2,
+      "titulo": "What IMS Porsche does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for IMS Porsche.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "A documented case: IMS Porsche",
+      "parrafos": [
+        "The Magazine shows the work and its photographs in <a href=\"/magazine/que-es-el-ims-de-porsche\">this documented case</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
       "titulo": "Where it is performed",
       "parrafos": [
         "In Barcelona and Madrid. The work is carried out in the workshop; if the engine arrives with damage, it is transferred to the engine room, where it is opened and evaluated component by component."
@@ -101,7 +95,30 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "Where IMS Porsche starts",
+      "parrafos": [
+        "Work on the IMS begins by identifying the correct bearing for the specific model, year, and,in transition years,engine number. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the owner's desired outcome.",
+        "The assessment is based on the car's configuration, its history, oil and filter status, any noises, and an inspection of the installed bearing once access is gained. If information is missing, the necessary checks to obtain it are identified before a hypothesis is turned into a formal quote."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of IMS Porsche",
+      "parrafos": [
+        "The scope of work is determined proportionally: the advertised preventive service targets M96 and M97 engines, as well as models where the bearing can be replaced without opening the engine block. Tasks are sequenced to avoid redundant disassembly, ensure symptoms are not masked, and prevent the replacement of an entire assembly when it can still be diagnosed or repaired.",
+        "Technical decisions are guided by the following criterion: not all IMS engines carry the same risk or allow for the same type of intervention. If metal particles or noise are detected, the preventive approach is halted, and the damage is assessed before the engine is started again. Should any findings alter the scope of the job, that aspect is separated from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after IMS Porsche",
       "parrafos": [
         "The service covers the removal and reinstallation of the transmission and access components, the appropriate kit for the revision, the specified seals, fine-tuning, testing, and the mechanical warranty described for the procedure. The final explanation ensures the customer understands what was done, why it was done, and what should be monitored or scheduled for the future.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -151,8 +168,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 46,
+    "total": 46,
     "completa": true
   }
 }

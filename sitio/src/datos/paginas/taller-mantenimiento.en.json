@@ -13,52 +13,22 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
-      "parrafos": [
-        "At Valentín Motors, we understand that Porsche maintenance must follow the manufacturer's plan while adapting to the vehicle's age, mileage, usage patterns, and history. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's expectations.",
-        "Our assessment is based on the vehicle's history, the date and mileage of the last service, warning lights, fluid levels, wear and tear, leaks, and owner observations. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
-          "alt": "Workshop floor with a turquoise 911 964 and a white classic 911 in the foreground"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope of work is determined proportionally: we list minor and major services by model, as well as specific procedures,such as brake fluid changes, wheel alignment, and pre-purchase inspections,where applicable. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't overlooked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
-        "Technical decisions are guided by this principle: while manufacturer guidelines provide a baseline, a classic car driven occasionally ages differently than a daily-driven 992. We distinguish between scheduled maintenance and issues discovered during the inspection. If a finding alters the scope of the original request, we separate it from the approved work and explain it before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What we do",
-      "parrafos": [
-        "We adhere to manufacturer-specified maintenance plans, using genuine parts and following Porsche guidelines. The difference compared to an official dealership lies not in the procedure itself, but in the cost and the personal service: the same technician works on your car every time.",
-        "All prices are published by model. There are no surprise quotes; you know the cost of a major service for your 993 before you even bring it in."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Minor and major service",
       "parrafos": [
         "Minor service consists of an oil and filter change plus a 23-point check. Major service includes everything in the minor service plus 30 additional checks: air and cabin filters, spark plugs (when due), and an inspection of components prone to sudden wear.",
         "Brake fluid replacement, wheel alignment, and pre-purchase inspections are handled separately and also come with fixed pricing."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What Maintenance does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Maintenance.",
+        "Any extension is checked and authorised separately."
+      ],
       "imagenes": []
     },
     {
@@ -72,7 +42,45 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "What we do: Maintenance",
+      "parrafos": [
+        "We adhere to manufacturer-specified maintenance plans, using genuine parts and following Porsche guidelines. The difference compared to an official dealership lies not in the procedure itself, but in the cost and the personal service: the same technician works on your car every time.",
+        "All prices are published by model. There are no surprise quotes; you know the cost of a major service for your 993 before you even bring it in."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Where Maintenance starts",
+      "parrafos": [
+        "Porsche maintenance must follow the manufacturer's plan while adapting to the vehicle's age, mileage, usage patterns, and history. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's expectations.",
+        "Our assessment is based on the vehicle's history, the date and mileage of the last service, warning lights, fluid levels, wear and tear, leaks, and owner observations. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Workshop floor with a turquoise 911 964 and a white classic 911 in the foreground"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Maintenance",
+      "parrafos": [
+        "The scope of work is determined proportionally: we list minor and major services by model, as well as specific procedures,such as brake fluid changes, wheel alignment, and pre-purchase inspections,where applicable. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't overlooked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
+        "Technical decisions are guided by this principle: while manufacturer guidelines provide a baseline, a classic car driven occasionally ages differently than a daily-driven 992. We distinguish between scheduled maintenance and issues discovered during the inspection. If a finding alters the scope of the original request, we separate it from the approved work and explain it before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Maintenance",
       "parrafos": [
         "The handover includes a service record, a checklist, and an explanation of any work requiring immediate attention, future monitoring, or a separate appointment. The final briefing ensures you understand what was done, why it was done, and what should be monitored or scheduled for the future.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -122,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

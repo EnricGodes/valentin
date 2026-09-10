@@ -16,37 +16,7 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
-      "parrafos": [
-        "Wir bei Valentín Motors wissen, dass die Diagnose eines Getriebes auf seiner Konstruktion und dem genauen Zeitpunkt des Auftretens der Symptome basieren muss, nicht nur auf dem allgemeinen Fahrgefühl. Daher konzentriert sich die Erstberatung nicht auf eine Liste von Serviceleistungen, sondern auf das Fahrzeug, seine Historie und die Wünsche des Besitzers.",
-        "Die Beurteilung beginnt mit Geräuschen, dem betroffenen Gang, Temperatur, Belastung, Ölhistorie, Leckagen, Schaltgestänge, Kupplung und dem Verhalten bei Kälte und Wärme. Sollten Informationen fehlen, teilen wir Ihnen mit, welche Tests erforderlich sind, um diese zu erhalten, bevor wir aus einer Hypothese einen Kostenvoranschlag erstellen."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "Getriebe"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Arbeitsumfang ist proportional gegliedert: Es werden manuelle und automatische Porsche-Getriebe der Generationen 356, 915 und G50 bis einschließlich 991 und 992, einschließlich Tiptronic und PDK, je nach Getriebe, gewartet. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Technische Entscheidungen werden nach folgendem Kriterium getroffen: Synchronringe, Lager, Schaltgabeln, Dichtungen, Differential, Kupplung und Steuerungselemente werden separat beurteilt. Bei einem Automatikgetriebe müssen die Steuerungs-, Hydraulik- und mechanischen Komponenten ebenfalls separat betrachtet werden. Ergibt sich ein Befund, der den Arbeitsauftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was wir tun",
+      "titulo": "Was wir tun: Getriebe",
       "parrafos": [
         "Wir reparieren und überholen alle -Getriebe: von 356, 915, G50 und den Nachfolgemodellen bis 991 und 992. Auch -Automatikgetriebe, die oft als hoffnungsloser Fall gelten, sind wir instand.",
         "Die Überholung eines Getriebes ist fast immer besser als der Austausch. Bei Oldtimern ist sie zudem die einzige Möglichkeit, die korrekte Teilenummer beizubehalten."
@@ -65,7 +35,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Was Getriebe nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Getriebe sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ein dokumentierter Fall: Getriebe",
+      "parrafos": [
+        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/restauracion-motor-965-turbo-33\">diesem dokumentierten Fall</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
+          "alt": "Getriebe"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ausgangspunkt für Getriebe",
+      "parrafos": [
+        "Wir bei Valentín Motors wissen, dass die Diagnose eines Getriebes auf seiner Konstruktion und dem genauen Zeitpunkt des Auftretens der Symptome basieren muss, nicht nur auf dem allgemeinen Fahrgefühl. Daher konzentriert sich die Erstberatung nicht auf eine Liste von Serviceleistungen, sondern auf das Fahrzeug, seine Historie und die Wünsche des Besitzers.",
+        "Die Beurteilung beginnt mit Geräuschen, dem betroffenen Gang, Temperatur, Belastung, Ölhistorie, Leckagen, Schaltgestänge, Kupplung und dem Verhalten bei Kälte und Wärme. Sollten Informationen fehlen, teilen wir Ihnen mit, welche Tests erforderlich sind, um diese zu erhalten, bevor wir aus einer Hypothese einen Kostenvoranschlag erstellen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Getriebe festlegen",
+      "parrafos": [
+        "Der Arbeitsumfang ist proportional gegliedert: Es werden manuelle und automatische Porsche-Getriebe der Generationen 356, 915 und G50 bis einschließlich 991 und 992, einschließlich Tiptronic und PDK, je nach Getriebe, gewartet. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Technische Entscheidungen werden nach folgendem Kriterium getroffen: Synchronringe, Lager, Schaltgabeln, Dichtungen, Differential, Kupplung und Steuerungselemente werden separat beurteilt. Bei einem Automatikgetriebe müssen die Steuerungs-, Hydraulik- und mechanischen Komponenten ebenfalls separat betrachtet werden. Ergibt sich ein Befund, der den Arbeitsauftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Getriebe erhält",
       "parrafos": [
         "Ziel dieser Lieferung ist eine Liste der Feststellungen und Teile, ein genehmigter Arbeitsumfang sowie ein montiertes und geprüftes Getriebe, ohne dass die gesamte Baugruppe ausgetauscht werden muss. Die abschließende Beschreibung sollte klar darlegen, was durchgeführt wurde, warum es durchgeführt wurde und was zu beachten oder für zukünftige Arbeiten einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -75,7 +92,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor",
+      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor: Getriebe",
       "parrafos": [
         "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
         "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
@@ -125,8 +142,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 36,
+    "total": 36,
     "completa": true
   }
 }

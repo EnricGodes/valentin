@@ -13,43 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servei comença per definir el problema",
-      "parrafos": [
-        "A Valentín Motors entenem que preparar un Porsche per a circuit no consisteix a sumar peces, sinó a fer que frens, suspensió, pneumàtics, seguretat i geometria responguin al mateix ús. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix del tipus de prova, el nivell del pilot, el reglament aplicable, l'estat de la base i els quilòmetres de pista previstos. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
-          "alt": "Preparació tècnica d'un Porsche de competició, imatge 1"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnòstic, abast i autorització",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: una posada a punt per a un primer track day es pot limitar a comprovacions, consumibles i geometria; un programa GT o de ral·li exigeix ​​definir seguretat, fiabilitat, recanvis i assistència. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: cada canvi es justifica per un símptoma, un objectiu o una exigència reglamentària. La potència no compensa un pedal inconsistent, temperatures fora de control o una posició de conducció incorrecta. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi.",
-        "Treballs inclosos, alternatives i elements pendents de confirmar.",
-        "Autorització abans d ampliar l abast."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/627ae024-DSC08039.jpg",
-          "alt": "Preparació tècnica d'un Porsche de competició, imatge 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Preparacions per a track days",
       "parrafos": [
+        "Un 911 preparat per a un primer track day no necessita la mateixa posada a punt que un GT3 de campionat.",
         "El esperit de la marca és esportiu i el circuit permet que un Porsche demostri el seu potencial i transmeti sensacions diferents de les de la conducció urbana. A les tandes realitzades en un entorn controlat, el pilot i el vehicle poden treballar de forma coordinada.",
         "Fem adaptacions de vehicles a qualsevol nivell, segons les condicions de la pista i el grau de preparació sol·licitat pel client."
       ],
@@ -63,9 +29,19 @@
     },
     {
       "nivel": 2,
+      "titulo": "Què no inclou Competició",
+      "parrafos": [],
+      "items": [
+        "No inclou treballs aliens a l’abast acordat per a Competició.",
+        "Qualsevol ampliació es comprova i s’autoritza per separat."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Campionats GT i Gentlemen Driver",
       "parrafos": [
-        "Treballem amb vehicles GT3, GT3 i carrera CUP de diverses generacions, i prestem serveis d'assistència, suport i enginyeria de pista amb operaris habituals dels campionats."
+        "Treballem amb vehicles GT3 i Carrera Cup de diverses generacions, i prestem serveis d’assistència, suport i enginyeria de pista amb personal habituat als campionats."
       ],
       "items": [],
       "imagenes": []
@@ -95,7 +71,40 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què pot esperar el propietari",
+      "titulo": "El punt de partida de Competició",
+      "parrafos": [
+        "Preparar un Porsche per a circuit no consisteix a sumar peces, sinó a fer que frens, suspensió, pneumàtics, seguretat i geometria responguin al mateix ús. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix del tipus de prova, el nivell del pilot, el reglament aplicable, l'estat de la base i els quilòmetres de pista previstos. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
+          "alt": "Preparació tècnica d'un Porsche de competició, imatge 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Decidir l’abast de Competició",
+      "parrafos": [
+        "L'abast es planteja de manera proporcional: una posada a punt per a un primer track day es pot limitar a comprovacions, consumibles i geometria; un programa GT o de ral·li exigeix definir seguretat, fiabilitat, recanvis i assistència. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: cada canvi es justifica per un símptoma, un objectiu o una exigència reglamentària. La potència no compensa un pedal inconsistent, temperatures fora de control o una posició de conducció incorrecta. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/627ae024-DSC08039.jpg",
+          "alt": "Preparació tècnica d'un Porsche de competició, imatge 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda en lliurar Competició",
       "parrafos": [
         "L'objectiu del lliurament és un cotxe revisat per a ús acordat i una relació clara d'ajustaments, components i controls pendents abans de tornar a pista. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
         "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
@@ -145,8 +154,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 42,
+    "total": 42,
     "completa": true
   }
 }

@@ -21,59 +21,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "titulo": "Was wir tun: Komplettrestaurierung",
       "parrafos": [
-        "Wir von Valentín Motors wissen, dass eine Komplettrestaurierung Karosserie, Mechanik, Elektrik, Interieur und Dokumentation koordiniert, sodass keine einzelne Disziplin später die Entscheidungen einer anderen korrigieren kann. Daher konzentriert sich das Erstgespräch nicht auf eine Liste von Leistungen, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das der Besitzer erwartet.",
-        "Die Bewertung basiert auf Zahlen und Bauteilen, Werksangaben, Strukturschäden, Korrosion, früheren Reparaturen, fehlenden Teilen und der Verfügbarkeit von Ersatzteilen. Sollten Informationen fehlen, erläutern wir, welche Prüfungen notwendig sind, um diese zu beschaffen, bevor wir aus einer Annahme ein Angebot erstellen."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Dunkelblauer Porsche 911 993 im Front-Dreiviertel vor der Werkstatt"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
-        },
-        {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Komplette Motorüberholung 2.2 1970 F-Serie"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Umfang wird proportional festgelegt: Die vollständige Demontage und Katalogisierung ermöglichen die Trennung von Konservierung, Reparatur und Austausch. Der Umfang wird überprüft, sobald Bereiche entdeckt werden, die im zusammengebauten Zustand nicht einsehbar waren. Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Fehlern und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung basiert auf folgendem Kriterium: Referenz ist beispielsweise Certificate of Authenticity und die Originalkonfiguration. Ein Fahrzeug für den täglichen Gebrauch erfordert jedoch unter Umständen andere Entscheidungen als ein Sammlerstück. Sollte sich eine Entdeckung ergeben, die den Auftrag verändert, wird diese vom genehmigten Arbeitsumfang getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Armaturenbrett eines klassischen 911 mit fünf Rundinstrumenten und Vierspeichenlenkrad"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Armaturenbrett eines roten 911 T mit dem Modellschriftzug über dem Handschuhfach"
-        },
-        {
-          "url": "/img/paginas/64d909b1-mot-2.jpg",
-          "alt": "Komplette Motorüberholung 964 M64"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was wir tun",
-      "parrafos": [
+        "Verdeckte Korrosion an einem 911 der F-Serie lässt vor der Demontage keinen endgültigen Arbeitsumfang zu.",
         "Wir restaurieren komplette Porsche und streben dabei nach höchstmöglicher Originalität. Referenz ist die Porsche-Dokumentation Certificate of Authenticity: Dieses Dokument spezifiziert Farbe, Polsterung und Ausstattung des jeweiligen Fahrzeugs ab Werk.",
         "Eine Komplettrestaurierung ist kein Kostenvoranschlag, sondern ein Gespräch. Bevor wir mit der Demontage beginnen, legen wir den Umfang des Projekts fest, denn dieser bestimmt das Ergebnis und später auch den Wert des Fahrzeugs."
       ],
@@ -137,6 +87,61 @@
     },
     {
       "nivel": 2,
+      "titulo": "Ausgangspunkt für Komplettrestaurierung",
+      "parrafos": [
+        "Wir von Valentín Motors wissen, dass eine Komplettrestaurierung Karosserie, Mechanik, Elektrik, Interieur und Dokumentation koordiniert, sodass keine einzelne Disziplin später die Entscheidungen einer anderen korrigieren kann. Daher konzentriert sich das Erstgespräch nicht auf eine Liste von Leistungen, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das der Besitzer erwartet.",
+        "Die Bewertung basiert auf Zahlen und Bauteilen, Werksangaben, Strukturschäden, Korrosion, früheren Reparaturen, fehlenden Teilen und der Verfügbarkeit von Ersatzteilen. Sollten Informationen fehlen, erläutern wir, welche Prüfungen notwendig sind, um diese zu beschaffen, bevor wir aus einer Annahme ein Angebot erstellen."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Komplette Motorüberholung 2.2 1970 F-Serie"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Komplettrestaurierung festlegen",
+      "parrafos": [
+        "Der Umfang wird proportional festgelegt: Die vollständige Demontage und Katalogisierung ermöglichen die Trennung von Konservierung, Reparatur und Austausch. Der Umfang wird überprüft, sobald Bereiche entdeckt werden, die im zusammengebauten Zustand nicht einsehbar waren. Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Fehlern und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung basiert auf folgendem Kriterium: Referenz ist beispielsweise Certificate of Authenticity und die Originalkonfiguration. Ein Fahrzeug für den täglichen Gebrauch erfordert jedoch unter Umständen andere Entscheidungen als ein Sammlerstück. Sollte sich eine Entdeckung ergeben, die den Auftrag verändert, wird diese vom genehmigten Arbeitsumfang getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Armaturenbrett eines klassischen 911 mit fünf Rundinstrumenten und Vierspeichenlenkrad"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Armaturenbrett eines roten 911 T mit dem Modellschriftzug über dem Handschuhfach"
+        },
+        {
+          "url": "/img/paginas/64d909b1-mot-2.jpg",
+          "alt": "Komplette Motorüberholung 964 M64"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Komplettrestaurierung nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Komplettrestaurierung sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Bereits abgeschlossene Arbeiten.",
       "parrafos": [
         "Im Folgenden werden sechs Restaurierungen Schritt für Schritt mit Fotos des jeweiligen Prozesses beschrieben. Darunter ein 911 der F-Serie aus dem Jahr 1965, der nach sieben Jahren Transport zerlegt in Kisten ankam, und ein 930 Turbo, der nach einem Brand im Motorraum eintraf."
@@ -155,7 +160,21 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Ein dokumentierter Fall: Komplettrestaurierung",
+      "parrafos": [
+        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/restauracion-porsche-911-1965\">diesem dokumentierten Fall</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Dunkelblauer Porsche 911 993 im Front-Dreiviertel vor der Werkstatt"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Komplettrestaurierung erhält",
       "parrafos": [
         "Ziel dieser Auslieferung ist ein wiederaufgebautes Fahrzeug mit einer lückenlosen Dokumentation des Prozesses, der verwendeten Teile und der getroffenen Entscheidungen. Das Fahrzeug wird als Ganzes getestet, bevor es als fertiggestellt gilt. Die abschließende Erläuterung soll verdeutlichen, was getan wurde, warum es getan wurde und was als Nächstes zu beobachten oder einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -232,8 +251,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 60,
-    "total": 60,
+    "hechas": 64,
+    "total": 64,
     "completa": true
   }
 }

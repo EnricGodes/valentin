@@ -13,32 +13,12 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
+      "titulo": "How a project begins",
       "parrafos": [
-        "At Valentín Motors, we view the project department as the bridge that turns a general intention into a specification the workshop can execute and the client can evaluate before work starts. That is why the initial conversation focuses not on a menu of services, but on the car itself, its history, and the outcome the owner envisions.",
-        "Assessment is based on intended use, the available base vehicle, the car's condition, aesthetic references, performance goals, budget, and homologation requirements. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+        "A 911 intended for road, collection or track use requires three different projects from the first sketch.",
+        "With a conversation and a car,in that order. The first step is understanding the intended use of the finished vehicle: whether it is for driving, collecting, or racing. Everything else stems from that, including the uncomfortable part: the cost and the timeline."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior of a restored G-series 911, with beige trim and houndstooth seats"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope is approached proportionally: we evaluate alternatives, compatibility, parts, fabrication methods, and the workflow sequence. For complex projects, we also determine what needs to be tested before permanent installation. Tasks are sequenced to avoid redundant disassembly, prevent masking symptoms, and avoid replacing an entire assembly when it could still be diagnosed or repaired.",
-        "Technical decisions are guided by this principle: design involves making choices,and that means ruling things out. We prioritize justifiable solutions and ensure that a collection of high-quality parts doesn't result in an incoherent vehicle. If a finding arises that alters the original brief, it is set apart from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
       "imagenes": []
     },
     {
@@ -53,16 +33,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "How a project begins",
+      "titulo": "Where Projects and design starts",
       "parrafos": [
-        "With a conversation and a car,in that order. The first step is understanding the intended use of the finished vehicle: whether it is for driving, collecting, or racing. Everything else stems from that, including the uncomfortable part: the cost and the timeline."
+        "The project department is the bridge that turns a general intention into a specification the workshop can execute and the client can evaluate before work starts. That is why the initial conversation focuses not on a menu of services, but on the car itself, its history, and the outcome the owner envisions.",
+        "Assessment is based on intended use, the available base vehicle, the car's condition, aesthetic references, performance goals, budget, and homologation requirements. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior of a restored G-series 911, with beige trim and houndstooth seats"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Projects and design",
+      "parrafos": [
+        "The scope is approached proportionally: we evaluate alternatives, compatibility, parts, fabrication methods, and the workflow sequence. For complex projects, we also determine what needs to be tested before permanent installation. Tasks are sequenced to avoid redundant disassembly, prevent masking symptoms, and avoid replacing an entire assembly when it could still be diagnosed or repaired.",
+        "Technical decisions are guided by this principle: design involves making choices,and that means ruling things out. We prioritize justifiable solutions and ensure that a collection of high-quality parts doesn't result in an incoherent vehicle. If a finding arises that alters the original brief, it is set apart from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "What Projects and design does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Projects and design.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "A documented case: Projects and design",
+      "parrafos": [
+        "The Magazine shows the work and its photographs in <a href=\"/magazine/presentacion-pa10-01-madrid\">this documented case</a>."
+      ],
+      "items": [
+        "[[CHECK: link a real Magazine project and assign its photograph.]]"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc57c760-DSC03556.jpg",
+          "alt": "Rear of the cream PA10/01 at the Madrid launch, guests gathered around"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Projects and design",
       "parrafos": [
         "The project brief outlines a clear scope, broken down into phases and linked to technical, aesthetic, and usage decisions that do not rely on improvisation during assembly. The final explanation must make it clear what was done, why it was done, and what needs to be monitored or scheduled for the future.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -72,7 +97,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation",
+      "titulo": "How to prepare for the initial consultation: Projects and design",
       "parrafos": [
         "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
         "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
@@ -122,8 +147,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

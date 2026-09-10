@@ -13,59 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servicio empieza por definir el problema",
-      "parrafos": [
-        "En Valentín Motors entendemos que una restauración debe recuperar un coche sin borrar su historia ni convertir cada hallazgo en una ampliación automática del proyecto. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de la identidad de la unidad, su documentación, la originalidad de sus conjuntos, la corrosión, las reparaciones anteriores y el uso que espera darle su propietario. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Restauración de vehículos Porsche"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Salpicadero de un 911 T rojo con el emblema del modelo sobre la guantera"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnóstico, alcance y autorización",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: puede buscar especificación de origen, una rehabilitación para uso frecuente, un backdating o un restomod. Son objetivos distintos y no deben mezclarse durante el desmontaje. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: antes de intervenir se fija qué se conserva, qué se repara, qué se sustituye y qué modificaciones deben ser reversibles. Las decisiones importantes se documentan para mantener la coherencia del conjunto. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir.",
-        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
-        "Autorización antes de ampliar el alcance."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Porsche 911 993 azul oscuro de tres cuartos delante del taller"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Vano motor abierto de un 911 marrón con la turbina dorada y los colectores a la vista"
-        },
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Sala del laboratorio de ideas, con la mesa de trabajo y las muestras de materiales"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "La responsabilidad del legado",
       "parrafos": [
+        "Un 911 Serie F desmontado por completo obliga a decidir qué se conserva antes de pensar en pintura o montaje.",
         "Cada Porsche representa unos valores, una actitud y una forma determinada de concebir la conducción. La marca presenta una elegancia y una belleza atemporales, y sentimos como propio el deber de hacer perdurar estos principios.",
         "Por ello, en Valentín Motors buscamos recuperar la originalidad en los proyectos de restauración y añadir nuevos valores en los proyectos de personalización."
       ],
@@ -188,31 +138,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué puede esperar el propietario",
+      "titulo": "El punto de partida para Restauraciones",
       "parrafos": [
-        "El objetivo de la entrega es un proyecto trazable, con las disciplinas coordinadas y con un resultado que pueda explicarse pieza a pieza, desde la carrocería hasta la puesta a punto final. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Una restauración debe recuperar un coche sin borrar su historia ni convertir cada hallazgo en una ampliación automática del proyecto. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de la identidad de la unidad, su documentación, la originalidad de sus conjuntos, la corrosión, las reparaciones anteriores y el uso que espera darle su propietario. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Salpicadero de un 911 clásico con los cinco relojes y el volante de cuatro radios"
+          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
+          "alt": "Restauración de vehículos Porsche"
         },
         {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Rehabilitación completa motor 2.2 1970 serie F"
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Salpicadero de un 911 T rojo con el emblema del modelo sobre la guantera"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Cómo preparar la primera consulta",
+      "titulo": "Decidir el alcance de Restauraciones",
       "parrafos": [
-        "Para orientar la consulta conviene facilitar el modelo, la versión, el año, el número de bastidor cuando sea relevante y el historial disponible. Si existe un síntoma, resulta útil describir cuándo aparece, con el motor frío o caliente, bajo carga o en retención, y si ha cambiado recientemente.",
-        "Las facturas, fotografías y diagnósticos anteriores ayudan a evitar repeticiones, aunque no sustituyen una comprobación actual. Con esa información se decide si basta una cita de inspección, si debe trasladarse el coche o si puede recibirse únicamente el componente."
+        "El alcance se plantea de forma proporcional: puede buscar especificación de origen, una rehabilitación para uso frecuente, un backdating o un restomod. Son objetivos distintos y no deben mezclarse durante el desmontaje. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: antes de intervenir se fija qué se conserva, qué se repara, qué se sustituye y qué modificaciones deben ser reversibles. Las decisiones importantes se documentan para mantener la coherencia del conjunto. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
       ],
-      "items": [],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Porsche 911 993 azul oscuro de tres cuartos delante del taller"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Vano motor abierto de un 911 marrón con la turbina dorada y los colectores a la vista"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Sala del laboratorio de ideas, con la mesa de trabajo y las muestras de materiales"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Lo que no incluye Restauraciones",
+      "parrafos": [],
+      "items": [
+        "No incluye trabajos ajenos al alcance acordado para Restauraciones.",
+        "Cualquier ampliación se comprueba y se autoriza por separado."
+      ],
       "imagenes": []
     },
     {
@@ -241,6 +221,35 @@
       "parrafos": [
         "La experiencia permite reconocer patrones, pero no sustituye una medida cuando esta puede cambiar la decisión. Antes de una intervención costosa se busca la prueba que diferencia desgaste normal, ajuste incorrecto y daño interno. Esa pausa protege tanto al coche como al presupuesto.",
         "Si la comprobación no puede ofrecer una respuesta concluyente sin desmontar, se explica ese límite y se divide el trabajo en fases. El propietario puede autorizar primero el diagnóstico y decidir el siguiente paso con los componentes a la vista."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué queda al entregar Restauraciones",
+      "parrafos": [
+        "El objetivo de la entrega es un proyecto trazable, con las disciplinas coordinadas y con un resultado que pueda explicarse pieza a pieza, desde la carrocería hasta la puesta a punto final. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Salpicadero de un 911 clásico con los cinco relojes y el volante de cuatro radios"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Rehabilitación completa motor 2.2 1970 serie F"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cómo preparar la primera consulta en Restauraciones",
+      "parrafos": [
+        "Para orientar la consulta conviene facilitar el modelo, la versión, el año, el número de bastidor cuando sea relevante y el historial disponible. Si existe un síntoma, resulta útil describir cuándo aparece, con el motor frío o caliente, bajo carga o en retención, y si ha cambiado recientemente.",
+        "Las facturas, fotografías y diagnósticos anteriores ayudan a evitar repeticiones, aunque no sustituyen una comprobación actual. Con esa información se decide si basta una cita de inspección, si debe trasladarse el coche o si puede recibirse únicamente el componente."
       ],
       "items": [],
       "imagenes": []

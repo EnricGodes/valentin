@@ -13,32 +13,12 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
+      "titulo": "Comment un projet commence",
       "parrafos": [
-        "Chez Valentín Motors, nous savons que le département projets transforme une intention générale en un cahier des charges que l'atelier peut mettre en œuvre et que le client peut évaluer avant le début des travaux. C'est pourquoi la première discussion porte non pas sur un catalogue de services, mais sur le véhicule, son historique et le résultat attendu par son propriétaire.",
-        "L'évaluation se base sur l'utilisation prévue, le véhicule de base, son état, les références esthétiques, les performances souhaitées, le budget et l'homologation. En cas d'information manquante, nous indiquons les vérifications nécessaires pour l'obtenir avant de transformer une hypothèse en devis."
+        "Une 911 destinée à la route, à la collection ou au circuit exige trois projets différents dès la première esquisse.",
+        "Par une discussion, puis par une voiture, dans cet ordre. La première étape consiste à définir vos besoins : utilisation, stockage ou compétition. Tout le reste en découle, y compris la partie délicate : estimer le coût et le délai."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Intérieur d'une 911 série G restaurée, sellerie beige et sièges pied-de-poule"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre est défini proportionnellement : les alternatives, les compatibilités, les pièces, la fabrication et la séquence de travail sont étudiées. Dans les projets complexes, il est également déterminé ce qui doit être testé avant l’installation finale. Les tâches sont ordonnées de manière à éviter les doubles démontages, la dissimulation d’un symptôme et le remplacement d’un ensemble alors qu’il peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon ce critère : concevoir implique d’éliminer certaines options. Les solutions justifiées sont privilégiées et l’on évite qu’un assemblage de pièces de qualité ne aboutisse à un véhicule incohérent. Si une découverte modifie le projet, elle est dissociée du travail approuvé et expliquée avant de poursuivre."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
       "imagenes": []
     },
     {
@@ -53,16 +33,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment un projet commence",
+      "titulo": "Le point de départ de Projets et conception",
       "parrafos": [
-        "Par une discussion, puis par une voiture, dans cet ordre. La première étape consiste à définir vos besoins : utilisation, stockage ou compétition. Tout le reste en découle, y compris la partie délicate : estimer le coût et le délai."
+        "Le département projets transforme une intention générale en un cahier des charges que l'atelier peut mettre en œuvre et que le client peut évaluer avant le début des travaux. C'est pourquoi la première discussion porte non pas sur un catalogue de services, mais sur le véhicule, son historique et le résultat attendu par son propriétaire.",
+        "L'évaluation se base sur l'utilisation prévue, le véhicule de base, son état, les références esthétiques, les performances souhaitées, le budget et l'homologation. En cas d'information manquante, nous indiquons les vérifications nécessaires pour l'obtenir avant de transformer une hypothèse en devis."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Intérieur d'une 911 série G restaurée, sellerie beige et sièges pied-de-poule"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Projets et conception",
+      "parrafos": [
+        "Le périmètre est défini proportionnellement : les alternatives, les compatibilités, les pièces, la fabrication et la séquence de travail sont étudiées. Dans les projets complexes, il est également déterminé ce qui doit être testé avant l’installation finale. Les tâches sont ordonnées de manière à éviter les doubles démontages, la dissimulation d’un symptôme et le remplacement d’un ensemble alors qu’il peut encore être diagnostiqué ou réparé.",
+        "La décision technique est prise selon ce critère : concevoir implique d’éliminer certaines options. Les solutions justifiées sont privilégiées et l’on évite qu’un assemblage de pièces de qualité ne aboutisse à un véhicule incohérent. Si une découverte modifie le projet, elle est dissociée du travail approuvé et expliquée avant de poursuivre."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Ce que Projets et conception ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Projets et conception ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un cas documenté : Projets et conception",
+      "parrafos": [
+        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/presentacion-pa10-01-madrid\">ce cas documenté</a>."
+      ],
+      "items": [
+        "[[VÉRIFIER : relier un projet réel du Magazine et lui attribuer sa photographie.]]"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc57c760-DSC03556.jpg",
+          "alt": "Arrière du PA10/01 crème à la présentation de Madrid, invités tout autour"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Projets et conception",
       "parrafos": [
         "Ce document a pour objectif de fournir un cahier des charges clair et compréhensible, structuré en phases et lié aux choix techniques, esthétiques et d'ergonomie qui ne dépendent pas d'improvisations lors du montage. L'explication finale permettra au lecteur de comprendre les choix effectués, leurs raisons et les points à prendre en compte ou à planifier.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -72,7 +97,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale",
+      "titulo": "Comment se préparer à la consultation initiale : Projets et conception",
       "parrafos": [
         "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
         "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
@@ -122,8 +147,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

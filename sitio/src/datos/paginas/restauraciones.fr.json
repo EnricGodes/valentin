@@ -13,59 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons qu'une restauration doit redonner vie à une voiture sans effacer son histoire ni transformer chaque découverte en une extension automatique du projet. C'est pourquoi notre première discussion ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son histoire et le résultat attendu par son propriétaire.",
-        "L'estimation est basée sur l'identité de la voiture, sa documentation, l'originalité de ses composants, la corrosion, les réparations antérieures et l'utilisation prévue par son propriétaire. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant de transformer une hypothèse en budget."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Restauration de véhicules Porsche"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Tableau de bord d'une 911 T rouge avec le monogramme au-dessus de la boîte à gants"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Intérieur d'une 911 série G restaurée, sellerie beige et sièges pied-de-poule"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre est défini proportionnellement : il peut s'agir de la recherche des spécifications d'origine, d'une remise en état pour une utilisation fréquente, d'une backdating ou d'une restomod. Ces objectifs sont distincts et ne doivent pas être combinés lors du démontage. Les tâches sont ordonnées de manière à éviter les doubles démontages, la dissimulation d'un symptôme et le remplacement d'un ensemble alors qu'il est encore possible de le diagnostiquer ou de le réparer.",
-        "La décision technique est prise selon le critère suivant : avant toute intervention, il est déterminé ce qui est conservé, ce qui est réparé, ce qui est remplacé et quelles modifications doivent être réversibles. Les décisions importantes sont documentées afin de garantir la cohérence de l'ensemble. Si une constatation modifie la commission, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Porsche 911 993 bleu foncé de trois quarts avant devant l'atelier"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Compartiment moteur ouvert d'une 911 marron, turbine dorée et collecteurs apparents"
-        },
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Salle du laboratoire d'idées, avec la table de travail et les échantillons de matériaux"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "La responsabilité du patrimoine",
       "parrafos": [
+        "Une 911 Série F entièrement démontée oblige à décider ce qui sera conservé avant d’envisager la peinture ou le remontage.",
         "Chaque Porsche incarne des valeurs, une attitude et une conception particulière de la conduite. La marque possède une élégance et une beauté intemporelles, et nous avons à cœur de préserver ces principes.",
         "C'est pourquoi, chez Valentín Motors, nous nous efforçons de restaurer l'originalité dans les projets de restauration et d'apporter une valeur ajoutée aux projets de personnalisation."
       ],
@@ -188,31 +138,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Le point de départ de Restaurations",
       "parrafos": [
-        "L’objectif de la livraison est un projet traçable, avec des interventions coordonnées entre les différents corps de métier et un résultat explicable étape par étape, de la carrosserie à la mise au point finale. L’explication finale doit vous permettre de comprendre ce qui a été fait, pourquoi et ce qui doit être observé ou planifié par la suite.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+        "Une restauration doit redonner vie à une voiture sans effacer son histoire ni transformer chaque découverte en une extension automatique du projet. C'est pourquoi notre première discussion ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son histoire et le résultat attendu par son propriétaire.",
+        "L'estimation est basée sur l'identité de la voiture, sa documentation, l'originalité de ses composants, la corrosion, les réparations antérieures et l'utilisation prévue par son propriétaire. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant de transformer une hypothèse en budget."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Tableau de bord d'une 911 classique avec ses cinq cadrans et son volant à quatre branches"
+          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
+          "alt": "Restauration de véhicules Porsche"
         },
         {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Remise à neuf complète du moteur 2.2 1970 Série F"
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Tableau de bord d'une 911 T rouge avec le monogramme au-dessus de la boîte à gants"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Intérieur d'une 911 série G restaurée, sellerie beige et sièges pied-de-poule"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale",
+      "titulo": "Définir le périmètre de Restaurations",
       "parrafos": [
-        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
-        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
+        "Le périmètre est défini proportionnellement : il peut s'agir de la recherche des spécifications d'origine, d'une remise en état pour une utilisation fréquente, d'une backdating ou d'une restomod. Ces objectifs sont distincts et ne doivent pas être combinés lors du démontage. Les tâches sont ordonnées de manière à éviter les doubles démontages, la dissimulation d'un symptôme et le remplacement d'un ensemble alors qu'il est encore possible de le diagnostiquer ou de le réparer.",
+        "La décision technique est prise selon le critère suivant : avant toute intervention, il est déterminé ce qui est conservé, ce qui est réparé, ce qui est remplacé et quelles modifications doivent être réversibles. Les décisions importantes sont documentées afin de garantir la cohérence de l'ensemble. Si une constatation modifie la commission, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
       ],
-      "items": [],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Porsche 911 993 bleu foncé de trois quarts avant devant l'atelier"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Compartiment moteur ouvert d'une 911 marron, turbine dorée et collecteurs apparents"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Salle du laboratoire d'idées, avec la table de travail et les échantillons de matériaux"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Restaurations ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Restaurations ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
       "imagenes": []
     },
     {
@@ -241,6 +221,35 @@
       "parrafos": [
         "L'expérience permet de reconnaître des schémas, mais elle ne remplace pas une mesure susceptible de modifier la décision. Avant toute intervention coûteuse, effectuez le test permettant de différencier l'usure normale, un mauvais réglage et un dommage interne. Cette pause protège à la fois le véhicule et votre budget.",
         "Si le contrôle ne permet pas d'établir un diagnostic définitif sans démontage, expliquez cette limitation et divisez l'intervention en plusieurs phases. Le propriétaire peut ainsi autoriser le diagnostic et décider de la suite des opérations en fonction des composants identifiés."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Restaurations",
+      "parrafos": [
+        "L’objectif de la livraison est un projet traçable, avec des interventions coordonnées entre les différents corps de métier et un résultat explicable étape par étape, de la carrosserie à la mise au point finale. L’explication finale doit vous permettre de comprendre ce qui a été fait, pourquoi et ce qui doit être observé ou planifié par la suite.",
+        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Tableau de bord d'une 911 classique avec ses cinq cadrans et son volant à quatre branches"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Remise à neuf complète du moteur 2.2 1970 Série F"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comment se préparer à la consultation initiale : Restaurations",
+      "parrafos": [
+        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
+        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
       ],
       "items": [],
       "imagenes": []
@@ -305,8 +314,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 85,
-    "total": 85,
+    "hechas": 87,
+    "total": 87,
     "completa": true
   }
 }

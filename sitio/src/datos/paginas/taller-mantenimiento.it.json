@@ -13,52 +13,22 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
-      "parrafos": [
-        "Noi di Valentín Motors comprendiamo che la manutenzione di una Porsche deve seguire il piano del costruttore ed essere adattata all'età, al chilometraggio, all'utilizzo e alla storia del veicolo. Pertanto, la consulenza iniziale non si concentra su un elenco di interventi, ma sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
-        "La valutazione si basa sulla storia del veicolo, sulla data e sul chilometraggio dell'ultimo tagliando, su eventuali avvisi, sui livelli dei fluidi, sull'usura, su eventuali perdite e sulle osservazioni del proprietario. Qualora mancassero delle informazioni, indichiamo quali verifiche sono necessarie per ottenerle prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
-          "alt": "Officina con una 911 964 turchese e una 911 classica bianca in primo piano"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
-      "parrafos": [
-        "L'ambito di lavoro è strutturato proporzionalmente: i tagliandi ordinari e straordinari sono elencati per modello, oltre a operazioni come la sostituzione del liquido freni, la convergenza e i controlli pre-acquisto, ove applicabili. Le attività vengono prioritarie per evitare doppi smontaggi, per non mascherare i sintomi e per evitare di sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica viene presa utilizzando questo criterio: una linea guida serve da base, ma un classico per uso occasionale e un 992 quotidiano hanno un'età diversa. Le operazioni programmate sono separate dai problemi scoperti durante la revisione. Se emerge un riscontro che modifica l'incarico, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa facciamo",
-      "parrafos": [
-        "Seguiamo i programmi di manutenzione specificati dal costruttore, utilizzando ricambi originali Porsche e seguendo le linee guida. La differenza con il centro assistenza ufficiale non sta nel modo in cui viene eseguito l'intervento, ma nel costo e nella persona che lo esegue: la vostra auto viene sempre visitata dallo stesso tecnico.",
-        "Tutti i prezzi sono elencati per modello. Niente preventivi a sorpresa: saprai quanto costerà un intervento di manutenzione importante per il Suo 993 prima di portarlo in officina."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Tagliando ordinario e tagliando completo",
       "parrafos": [
         "Il tagliando di routine comprende il cambio dell'olio motore e del filtro, oltre a un controllo di 23 punti. Il tagliando completo include il tagliando di routine e aggiunge altri 30 punti: filtri dell'aria e dell'abitacolo, candele quando necessario e un controllo di tutto ciò che si usura inaspettatamente.",
         "Il liquido freni, la convergenza e il controllo pre-acquisto sono servizi separati e hanno un prezzo fisso."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa non comprende Manutenzione",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Manutenzione.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
       "imagenes": []
     },
     {
@@ -72,7 +42,45 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Cosa facciamo: Manutenzione",
+      "parrafos": [
+        "Seguiamo i programmi di manutenzione specificati dal costruttore, utilizzando ricambi originali Porsche e seguendo le linee guida. La differenza con il centro assistenza ufficiale non sta nel modo in cui viene eseguito l'intervento, ma nel costo e nella persona che lo esegue: la vostra auto viene sempre visitata dallo stesso tecnico.",
+        "Tutti i prezzi sono elencati per modello. Niente preventivi a sorpresa: saprai quanto costerà un intervento di manutenzione importante per il Suo 993 prima di portarlo in officina."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Da dove inizia Manutenzione",
+      "parrafos": [
+        "La manutenzione di una Porsche deve seguire il piano del costruttore ed essere adattata all'età, al chilometraggio, all'utilizzo e alla storia del veicolo. Pertanto, la consulenza iniziale non si concentra su un elenco di interventi, ma sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
+        "La valutazione si basa sulla storia del veicolo, sulla data e sul chilometraggio dell'ultimo tagliando, su eventuali avvisi, sui livelli dei fluidi, sull'usura, su eventuali perdite e sulle osservazioni del proprietario. Qualora mancassero delle informazioni, indichiamo quali verifiche sono necessarie per ottenerle prima di trasformare un'ipotesi in un preventivo."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Officina con una 911 964 turchese e una 911 classica bianca in primo piano"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Definire l’ambito di Manutenzione",
+      "parrafos": [
+        "L'ambito di lavoro è strutturato proporzionalmente: i tagliandi ordinari e straordinari sono elencati per modello, oltre a operazioni come la sostituzione del liquido freni, la convergenza e i controlli pre-acquisto, ove applicabili. Le attività vengono prioritarie per evitare doppi smontaggi, per non mascherare i sintomi e per evitare di sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica viene presa utilizzando questo criterio: una linea guida serve da base, ma un classico per uso occasionale e un 992 quotidiano hanno un'età diversa. Le operazioni programmate sono separate dai problemi scoperti durante la revisione. Se emerge un riscontro che modifica l'incarico, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa riceve il proprietario dopo Manutenzione",
       "parrafos": [
         "Lo scopo di questo documento è fornire un registro di manutenzione, una checklist e una spiegazione degli interventi che richiedono attenzione immediata, un follow-up o un appuntamento separato. La spiegazione finale deve indicare chiaramente cosa è stato fatto, perché è stato fatto e cosa deve essere annotato o programmato in seguito.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -122,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

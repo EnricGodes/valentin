@@ -18,50 +18,21 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
+      "titulo": "L'ispezione",
       "parrafos": [
-        "Noi di Valentín Motors comprendiamo che il guasto bore scoring deve essere confermato da prove concrete prima di associare un rumore, un consumo d'olio o del fumo a una revisione del motore. Pertanto, il colloquio iniziale si concentra non su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione inizia con un'endoscopia di tutti e sei i cilindri, fotografie, analisi dell'olio e del filtro e, ove applicabile, prove di compressione e tenuta. In caso di informazioni mancanti, vengono indicati i test necessari prima di trasformare un'ipotesi in un preventivo."
+        "Consumo d’olio, fumo e battito a freddo possono indicare bore scoring, ma non lo confermano.",
+        "Questa ispezione viene eseguita con un endoscopio attraverso il foro della candela, con il motore montato sull'auto. In una mattinata, possiamo determinare se sono presenti rigature, in quali cilindri e quanto si estendono. Richiediamo sempre questa ispezione prima dell'acquisto: è la differenza tra negoziare il prezzo e scoprirlo in seguito.",
+        "Il prezzo è indicato nel listino prezzi, insieme agli altri servizi per questo modello."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
-          "alt": "Porsche Bore Scoring"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
-      "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: la diagnosi è specificamente mirata ai motori M96 e M97 dei numeri di serie Boxster, Cayman e 911, prodotti tra 1997 e 2008, e la riparazione viene definita in base al danno riscontrato. Le attività vengono prioritarie per evitare doppi smontaggi, mascherare i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica si basa sui seguenti criteri: un segno superficiale, un graffio attivo e una perdita di compressione non giustificano la stessa decisione. Il referto serve a confrontare il monitoraggio, l'apertura e la ricostruzione. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
-      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Cosa facciamo",
+      "titulo": "Cosa facciamo: Bore scoring",
       "parrafos": [
         "Diagnostichiamo le rigature delle camicie dei cilindri tramite endoscopia, senza smontare il motore, e le ripariamo mediante l'inserimento di una camicia quando il danno si è già verificato. Questa ispezione è un servizio completo ed è la prima cosa che consigliamo prima di acquistare un motore M96 o M97.",
         "Il problema bore scoring riguarda i motori Z, Boxster, Z, Cayman, Z e 911 con motori M96 e M97 prodotti tra 1997 e 2008. Si manifesta con rigature verticali sulla parete del cilindro, più frequentemente nel sesto cilindro, e progredisce fino a quando il motore consuma olio e perde compressione."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "L'ispezione",
-      "parrafos": [
-        "Questa ispezione viene eseguita con un endoscopio attraverso il foro della candela, con il motore montato sull'auto. In una mattinata, possiamo determinare se sono presenti rigature, in quali cilindri e quanto si estendono. Richiediamo sempre questa ispezione prima dell'acquisto: è la differenza tra negoziare il prezzo e scoprirlo in seguito.",
-        "Il prezzo è indicato nel listino prezzi, insieme agli altri servizi per questo modello."
       ],
       "items": [],
       "imagenes": []
@@ -91,7 +62,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Cosa non comprende Bore scoring",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Bore scoring.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un caso documentato: Bore scoring",
+      "parrafos": [
+        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/porsche-bore-scoring\">questo caso documentato</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche Bore Scoring"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Da dove inizia Bore scoring",
+      "parrafos": [
+        "Il guasto bore scoring deve essere confermato da prove concrete prima di associare un rumore, un consumo d'olio o del fumo a una revisione del motore. Pertanto, il colloquio iniziale si concentra non su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
+        "La valutazione inizia con un'endoscopia di tutti e sei i cilindri, fotografie, analisi dell'olio e del filtro e, ove applicabile, prove di compressione e tenuta. In caso di informazioni mancanti, vengono indicati i test necessari prima di trasformare un'ipotesi in un preventivo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Definire l’ambito di Bore scoring",
+      "parrafos": [
+        "L'ambito di intervento è definito proporzionalmente: la diagnosi è specificamente mirata ai motori M96 e M97 dei numeri di serie Boxster, Cayman e 911, prodotti tra 1997 e 2008, e la riparazione viene definita in base al danno riscontrato. Le attività vengono prioritarie per evitare doppi smontaggi, mascherare i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica si basa sui seguenti criteri: un segno superficiale, un graffio attivo e una perdita di compressione non giustificano la stessa decisione. Il referto serve a confrontare il monitoraggio, l'apertura e la ricostruzione. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa riceve il proprietario dopo Bore scoring",
       "parrafos": [
         "Lo scopo di questa relazione è fornire immagini di ciascun cilindro, una valutazione chiara e, se applicabile, un preventivo per la camiciatura dei cilindri e l'ispezione del blocco motore prima di qualsiasi intervento sul motore. La spiegazione finale deve indicare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -141,8 +159,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 44,
+    "total": 44,
     "completa": true
   }
 }

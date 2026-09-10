@@ -16,37 +16,7 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons qu'un diagnostic de boîte de vitesses doit se baser sur son architecture et le moment précis d'apparition du symptôme, et non sur les seules sensations de conduite. C'est pourquoi la première consultation est axée non pas sur une liste de services, mais sur le véhicule, son historique et le résultat souhaité par son propriétaire.",
-        "L'évaluation repose sur l'analyse du bruit, du rapport de vitesse concerné, de la température, de la charge, de l'historique d'huile, des fuites, des commandes, de l'embrayage et des performances à froid et à chaud. Lorsque des informations sont manquantes, les vérifications nécessaires sont indiquées pour les obtenir avant de transformer une hypothèse en citation."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "Boîtes de vitesses"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre des travaux est structuré proportionnellement : les boîtes de vitesses manuelles et automatiques Porsche sont prises en charge, des 356, 915 et G50 aux générations 991 et 992, y compris Tiptronic et PDK selon le modèle. Les tâches sont priorisées afin d’éviter les doubles démontages, de masquer les symptômes et de remplacer un ensemble alors qu’un diagnostic ou une réparation est encore possible.",
-        "Les décisions techniques sont prises selon les critères suivants : les synchroniseurs, les roulements, les fourchettes de sélection, les joints, le différentiel, l’embrayage et les commandes sont évalués séparément. Pour les boîtes de vitesses automatiques, les composants de commande, hydrauliques et mécaniques doivent également être considérés séparément. Si un élément modifie l’ordre de travail, il est retiré des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Nos services",
+      "titulo": "Nos services : Boîtes de vitesses",
       "parrafos": [
         "Nous réparons et remettons à neuf toutes les boîtes de vitesses de la marque : les 356, 915, G50 et les modèles suivants jusqu’aux 991 et 992. Nous assurons également l’entretien des boîtes de vitesses automatiques, souvent considérées comme irréparables, mais qui le sont rarement.",
         "Remettre à neuf une boîte de vitesses est presque toujours préférable à son remplacement, et sur une voiture de collection, c’est également le seul moyen de conserver la référence d’origine."
@@ -65,7 +35,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Ce que Boîtes de vitesses ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Boîtes de vitesses ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un cas documenté : Boîtes de vitesses",
+      "parrafos": [
+        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/restauracion-motor-965-turbo-33\">ce cas documenté</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
+          "alt": "Boîtes de vitesses"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le point de départ de Boîtes de vitesses",
+      "parrafos": [
+        "Un diagnostic de boîte de vitesses doit se baser sur son architecture et le moment précis d'apparition du symptôme, et non sur les seules sensations de conduite. C'est pourquoi la première consultation est axée non pas sur une liste de services, mais sur le véhicule, son historique et le résultat souhaité par son propriétaire.",
+        "L'évaluation repose sur l'analyse du bruit, du rapport de vitesse concerné, de la température, de la charge, de l'historique d'huile, des fuites, des commandes, de l'embrayage et des performances à froid et à chaud. Lorsque des informations sont manquantes, les vérifications nécessaires sont indiquées pour les obtenir avant de transformer une hypothèse en citation."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Boîtes de vitesses",
+      "parrafos": [
+        "Le périmètre des travaux est structuré proportionnellement : les boîtes de vitesses manuelles et automatiques Porsche sont prises en charge, des 356, 915 et G50 aux générations 991 et 992, y compris Tiptronic et PDK selon le modèle. Les tâches sont priorisées afin d’éviter les doubles démontages, de masquer les symptômes et de remplacer un ensemble alors qu’un diagnostic ou une réparation est encore possible.",
+        "Les décisions techniques sont prises selon les critères suivants : les synchroniseurs, les roulements, les fourchettes de sélection, les joints, le différentiel, l’embrayage et les commandes sont évalués séparément. Pour les boîtes de vitesses automatiques, les composants de commande, hydrauliques et mécaniques doivent également être considérés séparément. Si un élément modifie l’ordre de travail, il est retiré des travaux approuvés et expliqué avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Boîtes de vitesses",
       "parrafos": [
         "L'objectif de cette livraison est de fournir une liste des constatations et des pièces, un périmètre d'intervention autorisé, ainsi qu'une boîte de vitesses entièrement assemblée et testée, sans avoir à remplacer l'ensemble. Le compte rendu final doit clairement indiquer les interventions réalisées, leur justification et les points à surveiller ou à planifier ultérieurement.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -75,7 +92,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale",
+      "titulo": "Comment se préparer à la consultation initiale : Boîtes de vitesses",
       "parrafos": [
         "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
         "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
@@ -125,8 +142,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 36,
+    "total": 36,
     "completa": true
   }
 }

@@ -13,52 +13,22 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons que l'entretien d'une Porsche doit respecter le plan du constructeur et être adapté à l'âge, au kilométrage, à l'utilisation et à l'historique du véhicule. C'est pourquoi la première consultation est axée non pas sur une liste de services, mais sur la voiture, son historique et les résultats attendus par son propriétaire.",
-        "L'estimation est basée sur l'historique d'entretien, la date et le kilométrage de la dernière révision, les voyants d'alerte, les niveaux de fluides, l'usure, les fuites et les observations du propriétaire. En cas d'informations manquantes, nous indiquons les vérifications nécessaires pour les obtenir avant de transformer une hypothèse en devis."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
-          "alt": "Atelier avec une 911 964 turquoise et une 911 classique blanche au premier plan"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre est défini au prorata : les révisions mineures et majeures sont listées par modèle, ainsi que des opérations telles que la vidange du liquide de frein, le parallélisme et les inspections avant achat, le cas échéant. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation de symptômes et le remplacement de composants alors qu'un diagnostic ou une réparation est encore possible.",
-        "La décision technique est prise selon le critère suivant : un guide sert de base, mais une voiture de collection utilisée occasionnellement et une voiture de tous les jours 992 vieillissent différemment. Les interventions planifiées sont dissociées des problèmes découverts lors de l'entretien. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant toute intervention."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Nos services",
-      "parrafos": [
-        "Nous respectons les programmes d'entretien préconisés par le constructeur, en utilisant des pièces d'origine et en suivant les recommandations Porsche. La différence avec un centre de service officiel ne réside pas dans la méthode, mais dans le coût et le personnel : le même technicien prend en charge votre véhicule à chaque visite.",
-        "Tous les prix sont indiqués par modèle. Pas de mauvaises surprises : vous connaissez le prix d’une révision complète pour votre 993 avant de l’amener."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Révisions mineure et majeure",
       "parrafos": [
         "Une révision mineure comprend la vidange d'huile moteur et le remplacement du filtre, ainsi qu'un contrôle en 23 points. Une révision majeure comprend la révision mineure et ajoute 30 points : les filtres à air et d'habitacle, les bougies d'allumage lorsque cela est nécessaire, et la vérification de toutes les pièces d'usure.",
         "Le liquide de frein, le parallélisme et l’inspection avant achat sont facturés séparément et à prix fixe."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Entretien ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Entretien ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
       "imagenes": []
     },
     {
@@ -72,7 +42,45 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Nos services : Entretien",
+      "parrafos": [
+        "Nous respectons les programmes d'entretien préconisés par le constructeur, en utilisant des pièces d'origine et en suivant les recommandations Porsche. La différence avec un centre de service officiel ne réside pas dans la méthode, mais dans le coût et le personnel : le même technicien prend en charge votre véhicule à chaque visite.",
+        "Tous les prix sont indiqués par modèle. Pas de mauvaises surprises : vous connaissez le prix d’une révision complète pour votre 993 avant de l’amener."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le point de départ de Entretien",
+      "parrafos": [
+        "L'entretien d'une Porsche doit respecter le plan du constructeur et être adapté à l'âge, au kilométrage, à l'utilisation et à l'historique du véhicule. C'est pourquoi la première consultation est axée non pas sur une liste de services, mais sur la voiture, son historique et les résultats attendus par son propriétaire.",
+        "L'estimation est basée sur l'historique d'entretien, la date et le kilométrage de la dernière révision, les voyants d'alerte, les niveaux de fluides, l'usure, les fuites et les observations du propriétaire. En cas d'informations manquantes, nous indiquons les vérifications nécessaires pour les obtenir avant de transformer une hypothèse en devis."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Atelier avec une 911 964 turquoise et une 911 classique blanche au premier plan"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Entretien",
+      "parrafos": [
+        "Le périmètre est défini au prorata : les révisions mineures et majeures sont listées par modèle, ainsi que des opérations telles que la vidange du liquide de frein, le parallélisme et les inspections avant achat, le cas échéant. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation de symptômes et le remplacement de composants alors qu'un diagnostic ou une réparation est encore possible.",
+        "La décision technique est prise selon le critère suivant : un guide sert de base, mais une voiture de collection utilisée occasionnellement et une voiture de tous les jours 992 vieillissent différemment. Les interventions planifiées sont dissociées des problèmes découverts lors de l'entretien. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant toute intervention."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Entretien",
       "parrafos": [
         "Ce rapport a pour but de documenter l'entretien, de fournir une liste de contrôle et d'expliquer les travaux qui requièrent une attention immédiate, un suivi ou un rendez-vous séparé. L'explication finale doit clairement indiquer ce qui a été fait, pourquoi et ce qui doit être surveillé ou planifié ultérieurement.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -122,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

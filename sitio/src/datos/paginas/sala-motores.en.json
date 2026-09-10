@@ -19,43 +19,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
-      "parrafos": [
-        "At Valentín Motors, we understand that having our own engine workshop ensures that diagnosis, measurements, machining, assembly, and testing all align with the same technical standards. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's expected outcome.",
-        "Assessment begins with initial symptoms,checking oil and filters, compression (where applicable), and the condition of each assembly,as well as examining clearances, ovality, flatness, and part traceability. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/9f55a612-DSC03453.jpg",
-          "alt": "Rebuild work in the engine workshop, image 1"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope of work is determined proportionally: we handle air- and water-cooled Porsche engines, racing engines, gearboxes, and classic mechanical systems from other brands within our department's established expertise. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't masked, and prevent replacing an assembly that can still be diagnosed or repaired.",
-        "Technical decisions are guided by this principle: an opened engine does not automatically receive all new parts. Each component is measured and classified to retain what is usable, correct what is necessary, and present options prior to assembly. If a discovery arises that alters the scope of the job, it is set aside from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": "Rebuild work in the engine workshop, image 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "We have experience repairing classic engines from any brand.",
       "parrafos": [
+        "An M64 engine only reveals its true scope once it has been opened, cleaned and measured component by component.",
         "One of the departments we are most proud of is our engine room, where we restore and upgrade the power units and gearboxes of all 911 models and other classic Porsches.",
         "In fact, our trade name, Valentín Motors, is derived from the founder's name and the word \"engines\" (*motores*), symbolizing the technical expertise our company has possessed since 1979.",
         "An engine room requires a significant investment in technical resources and expertise; indeed, even official brand dealerships do not have one.",
@@ -113,6 +79,44 @@
     },
     {
       "nivel": 2,
+      "titulo": "Where Engine workshop starts",
+      "parrafos": [
+        "Having our own engine workshop ensures that diagnosis, measurements, machining, assembly, and testing all align with the same technical standards. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's expected outcome.",
+        "Assessment begins with initial symptoms,checking oil and filters, compression (where applicable), and the condition of each assembly,as well as examining clearances, ovality, flatness, and part traceability. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Engine workshop",
+      "parrafos": [
+        "The scope of work is determined proportionally: we handle air- and water-cooled Porsche engines, racing engines, gearboxes, and classic mechanical systems from other brands within our department's established expertise. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't masked, and prevent replacing an assembly that can still be diagnosed or repaired.",
+        "Technical decisions are guided by this principle: an opened engine does not automatically receive all new parts. Each component is measured and classified to retain what is usable, correct what is necessary, and present options prior to assembly. If a discovery arises that alters the scope of the job, it is set aside from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Rebuild work in the engine workshop, image 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What Engine workshop does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Engine workshop.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Interview with Iván Bascuñana, Head Engine Technician",
       "parrafos": [
         "What is the most crucial or stressful moment in the process? The moment of checking the oil pressure with the engine assembled,and subsequently during startup,is when the result of the entire job is revealed. The whole process entails a high level of responsibility, given the high costs involved. What is the key quality of an engine specialist? Above all, passion and a continuous pursuit of perfection.",
@@ -135,7 +139,21 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "A documented case: Engine workshop",
+      "parrafos": [
+        "The Magazine shows the work and its photographs in <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">this documented case</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/9f55a612-DSC03453.jpg",
+          "alt": "Rebuild work in the engine workshop, image 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Engine workshop",
       "parrafos": [
         "The goal of the delivery is an assembly completed according to proper process sequences and verified tolerances, followed by a start-up procedure that checks oil pressure, operation, and the results of the work performed. The final explanation should ensure an understanding of what was done, why it was done, and what should be monitored or scheduled for the future.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -150,7 +168,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation",
+      "titulo": "How to prepare for the initial consultation: Engine workshop",
       "parrafos": [
         "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
         "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
@@ -200,8 +218,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 57,
-    "total": 57,
+    "hechas": 61,
+    "total": 61,
     "completa": true
   }
 }

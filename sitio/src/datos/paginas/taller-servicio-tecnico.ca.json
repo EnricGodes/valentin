@@ -13,41 +13,22 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servei comença per definir el problema",
+      "titulo": "Què fem en Servei tècnic",
       "parrafos": [
-        "A Valentín Motors entenem que el servei tècnic nacional permet tractar un problema Porsche especialitzat encara que el cotxe o el motor no es trobin a prop de Barcelona o Madrid. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de símptomes, documentació, diagnosi prèvia, fotografies, mostres i treball ja realitzat pel taller que sol·licita suport. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+        "Un motor M96 pot viatjar des de qualsevol punt d’Espanya sense haver de traslladar el cotxe complet.",
+        "Donem servei tècnic a toda Espanya des dels dos centres. Recollim cotxes i motors on siguin, i pel que no requereix portar el cotxe sencer, resolem a distància."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
-          "alt": "Servei tècnic a tot el país"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnòstic, abast i autorització",
-      "parrafos": [
-        "L'abast es planteja de forma proporcional: inclou recollida de cotxes i motors a Espanya, resolució a distància quan n'hi ha prou i consultoria per a tallers davant de casos que se surten de la seva activitat habitual. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: primer es decideix quina informació es pot obtenir sense moure el vehicle. Si la comprovació exigeix ​​mesuraments, desmuntatge o utillatge específic, es planteja el trasllat del conjunt necessari. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi.",
-        "Treballs inclosos, alternatives i elements pendents de confirmar.",
-        "Autorització abans d ampliar l abast."
-      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què fem",
-      "parrafos": [
-        "Donem servei tècnic a toda Espanya des dels dos centres. Recollim cotxes i motors on siguin, i pel que no requereix portar el cotxe sencer, resolem a distància."
+      "titulo": "Què no inclou Servei tècnic",
+      "parrafos": [],
+      "items": [
+        "No inclou treballs aliens a l’abast acordat per a Servei tècnic.",
+        "Qualsevol ampliació es comprova i s’autoritza per separat."
       ],
-      "items": [],
       "imagenes": []
     },
     {
@@ -61,7 +42,35 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què pot esperar el propietari",
+      "titulo": "El punt de partida de Servei tècnic",
+      "parrafos": [
+        "El servei tècnic nacional permet tractar un problema Porsche especialitzat encara que el cotxe o el motor no es trobin a prop de Barcelona o Madrid. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix de símptomes, documentació, diagnosi prèvia, fotografies, mostres i treball ja realitzat pel taller que sol·licita suport. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
+          "alt": "Servei tècnic a tot el país"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Decidir l’abast de Servei tècnic",
+      "parrafos": [
+        "L'abast es planteja de forma proporcional: inclou recollida de cotxes i motors a Espanya, resolució a distància quan n'hi ha prou i consultoria per a tallers davant de casos que se surten de la seva activitat habitual. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: primer es decideix quina informació es pot obtenir sense moure el vehicle. Si la comprovació exigeix mesuraments, desmuntatge o utillatge específic, es planteja el trasllat del conjunt necessari. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda en lliurar Servei tècnic",
       "parrafos": [
         "L'objectiu del lliurament és una via de treball definida entre propietari, taller d'origen i especialista, evitant duplicar proves o traslladar el cotxe complet quan n'hi ha prou amb un component. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
         "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
@@ -71,7 +80,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Com preparar la primera consulta",
+      "titulo": "Com preparar la primera consulta en Servei tècnic",
       "parrafos": [
         "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
         "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
@@ -121,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 32,
-    "total": 32,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

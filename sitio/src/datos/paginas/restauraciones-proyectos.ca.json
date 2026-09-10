@@ -13,32 +13,12 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servei comença per definir el problema",
+      "titulo": "Com comença un projecte",
       "parrafos": [
-        "A Valentín Motors entenem que el departament de projectes converteix una intenció general en una especificació que el taller pot executar i el client pot avaluar abans de començar. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de l'ús esperat, la base disponible, l'estat del cotxe, les referències estètiques, les prestacions cercades, el pressupost i l'homologació. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+        "Un 911 pensat per a carretera, col·lecció o circuit exigeix tres projectes diferents des del primer esbós.",
+        "Amb una conversa i amb un cotxe, en aquest ordre. El primer és entendre què es vol del cotxe acabat: si és per fer servir, per guardar o per competir. Tota la resta surt d'aquí, inclosa la part incòmoda, que és quant costarà i quant trigarà."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior d'un 911 sèrie G restaurat, amb tapisseria beix i seients de quadres"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnòstic, abast i autorització",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: s'estudien alternatives, compatibilitats, peces, fabricació i seqüència de treball. En projectes complexos, també es decideix què s'ha de provar abans d'instal·lar-se de manera definitiva. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: dissenyar implica descartar. Es prioritzen solucions justificables i evita que una suma de bones peces acabi produint un cotxe incoherent. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi.",
-        "Treballs inclosos, alternatives i elements pendents de confirmar.",
-        "Autorització abans d ampliar l abast."
-      ],
       "imagenes": []
     },
     {
@@ -53,16 +33,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "Com comença un projecte",
+      "titulo": "El punt de partida de Projectes i disseny",
       "parrafos": [
-        "Amb una conversa i amb un cotxe, en aquest ordre. El primer és entendre què es vol del cotxe acabat: si és per fer servir, per guardar o per competir. Tota la resta surt d'aquí, inclosa la part incòmoda, que és quant costarà i quant trigarà."
+        "El departament de projectes converteix una intenció general en una especificació que el taller pot executar i el client pot avaluar abans de començar. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix de l'ús esperat, la base disponible, l'estat del cotxe, les referències estètiques, les prestacions cercades, el pressupost i l'homologació. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior d'un 911 sèrie G restaurat, amb tapisseria beix i seients de quadres"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Decidir l’abast de Projectes i disseny",
+      "parrafos": [
+        "L'abast es planteja de manera proporcional: s'estudien alternatives, compatibilitats, peces, fabricació i seqüència de treball. En projectes complexos, també es decideix què s'ha de provar abans d'instal·lar-se de manera definitiva. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: dissenyar implica descartar. Es prioritzen solucions justificables i evita que una suma de bones peces acabi produint un cotxe incoherent. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què pot esperar el propietari",
+      "titulo": "Què no inclou Projectes i disseny",
+      "parrafos": [],
+      "items": [
+        "No inclou treballs aliens a l’abast acordat per a Projectes i disseny.",
+        "Qualsevol ampliació es comprova i s’autoritza per separat."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un cas documentat: Projectes i disseny",
+      "parrafos": [
+        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/presentacion-pa10-01-madrid\">aquest cas documentat</a>."
+      ],
+      "items": [
+        "[[COMPROVAR: enllaçar un projecte real del Magazine i assignar-ne la fotografia.]]"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc57c760-DSC03556.jpg",
+          "alt": "Zaga del PA10/01 crema a la presentació de Madrid, amb els convidats al voltant"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda en lliurar Projectes i disseny",
       "parrafos": [
         "L'objectiu del lliurament és un abast comprensible, dividit per fases i connectat amb decisions tècniques, estètiques i d'ús que no depenen d'improvisacions durant el muntatge. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
         "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
@@ -72,7 +97,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Com preparar la primera consulta",
+      "titulo": "Com preparar la primera consulta en Projectes i disseny",
       "parrafos": [
         "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
         "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
@@ -122,8 +147,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

@@ -13,59 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
-      "parrafos": [
-        "Noi di Valentín Motors comprendiamo che un restauro dovrebbe riportare in vita un'auto senza cancellarne la storia o trasformare ogni scoperta in un'espansione automatica del progetto. Pertanto, il colloquio iniziale si concentra non su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione inizia con l'identità del veicolo, la sua documentazione, l'originalità dei suoi componenti, la corrosione, le riparazioni precedenti e l'uso previsto dal proprietario. Quando mancano delle informazioni, prima di convertire un'ipotesi in un preventivo, vengono specificati i controlli necessari per ottenerle."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Restauro di veicoli Porsche"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Cruscotto di una 911 T rossa con la sigla del modello sopra il vano portaoggetti"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interno di una 911 serie G restaurata, con tappezzeria beige e sedili pied-de-poule"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
-      "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: si potrebbe essere alla ricerca delle specifiche originali, di un restauro per uso frequente, di un componente backdating o di un restomod. Si tratta di obiettivi distinti che non devono essere confusi durante lo smontaggio. Le attività vengono prioritarie per evitare doppi smontaggi, nascondere eventuali problemi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica si basa su questo criterio: prima di intervenire, si determina cosa conservare, cosa riparare, cosa sostituire e quali modifiche devono essere reversibili. Le decisioni importanti vengono documentate per garantire la coerenza complessiva. Qualora si riscontrasse una modifica al progetto, questa viene separata dal lavoro approvato e spiegata prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Porsche 911 993 blu scuro di tre quarti anteriore davanti all'officina"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Vano motore aperto di una 911 marrone, con ventola dorata e collettori in vista"
-        },
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Sala del laboratorio di idee, con il tavolo di lavoro e i campioni di materiali"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "La responsabilità dell'eredità",
       "parrafos": [
+        "Una 911 Serie F completamente smontata impone di decidere cosa conservare prima di pensare alla verniciatura o al montaggio.",
         "Ogni Porsche rappresenta determinati valori, un atteggiamento e un modo particolare di concepire la guida. Il marchio incarna eleganza e bellezza senza tempo, e noi riteniamo nostro dovere garantire che questi principi perdurino.",
         "Pertanto, noi di Valentín Motors ci impegniamo a recuperare l'originalità della nei progetti di restauro e ad aggiungere nuovo valore nei progetti di personalizzazione."
       ],
@@ -188,31 +138,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Da dove inizia Restauri",
       "parrafos": [
-        "L'obiettivo della consegna è un progetto tracciabile, con discipline coordinate e un risultato che possa essere spiegato passo dopo passo, dalla carrozzeria alla messa a punto finale. La spiegazione finale dovrebbe consentirvi di comprendere cosa è stato fatto, perché è stato fatto e cosa osservare o pianificare in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "Un restauro dovrebbe riportare in vita un'auto senza cancellarne la storia o trasformare ogni scoperta in un'espansione automatica del progetto. Pertanto, il colloquio iniziale si concentra non su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
+        "La valutazione inizia con l'identità del veicolo, la sua documentazione, l'originalità dei suoi componenti, la corrosione, le riparazioni precedenti e l'uso previsto dal proprietario. Quando mancano delle informazioni, prima di convertire un'ipotesi in un preventivo, vengono specificati i controlli necessari per ottenerle."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Cruscotto di una 911 classica con i cinque strumenti e il volante a quattro razze"
+          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
+          "alt": "Restauro di veicoli Porsche"
         },
         {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Ricostruzione completa del motore per auto serie F 2.2 e 1970"
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Cruscotto di una 911 T rossa con la sigla del modello sopra il vano portaoggetti"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interno di una 911 serie G restaurata, con tappezzeria beige e sedili pied-de-poule"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Come prepararsi per la prima consulenza",
+      "titulo": "Definire l’ambito di Restauri",
       "parrafos": [
-        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
-        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
+        "L'ambito di intervento è definito proporzionalmente: si potrebbe essere alla ricerca delle specifiche originali, di un restauro per uso frequente, di un componente backdating o di un restomod. Si tratta di obiettivi distinti che non devono essere confusi durante lo smontaggio. Le attività vengono prioritarie per evitare doppi smontaggi, nascondere eventuali problemi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica si basa su questo criterio: prima di intervenire, si determina cosa conservare, cosa riparare, cosa sostituire e quali modifiche devono essere reversibili. Le decisioni importanti vengono documentate per garantire la coerenza complessiva. Qualora si riscontrasse una modifica al progetto, questa viene separata dal lavoro approvato e spiegata prima di procedere."
       ],
-      "items": [],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Porsche 911 993 blu scuro di tre quarti anteriore davanti all'officina"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Vano motore aperto di una 911 marrone, con ventola dorata e collettori in vista"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Sala del laboratorio di idee, con il tavolo di lavoro e i campioni di materiali"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa non comprende Restauri",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Restauri.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
       "imagenes": []
     },
     {
@@ -241,6 +221,35 @@
       "parrafos": [
         "L'esperienza ci permette di riconoscere gli schemi, ma non sostituisce una misurazione quando questa può cambiare la decisione. Prima di un intervento costoso, è opportuno eseguire il test che distingue tra normale usura, regolazione errata e danni interni. Questa pausa protegge sia l'auto che il budget.",
         "Se la diagnosi non può fornire una risposta definitiva senza smontaggio, questa limitazione viene spiegata e il lavoro viene suddiviso in fasi. Il proprietario può autorizzare prima la diagnosi e decidere il passo successivo in base ai componenti esaminati."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa riceve il proprietario dopo Restauri",
+      "parrafos": [
+        "L'obiettivo della consegna è un progetto tracciabile, con discipline coordinate e un risultato che possa essere spiegato passo dopo passo, dalla carrozzeria alla messa a punto finale. La spiegazione finale dovrebbe consentirvi di comprendere cosa è stato fatto, perché è stato fatto e cosa osservare o pianificare in seguito.",
+        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Cruscotto di una 911 classica con i cinque strumenti e il volante a quattro razze"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Ricostruzione completa del motore per auto serie F 2.2 e 1970"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Come prepararsi per la prima consulenza: Restauri",
+      "parrafos": [
+        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
+        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
       ],
       "items": [],
       "imagenes": []
@@ -305,8 +314,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 85,
-    "total": 85,
+    "hechas": 87,
+    "total": 87,
     "completa": true
   }
 }

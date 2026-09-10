@@ -17,28 +17,26 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servicio empieza por definir el problema",
+      "titulo": "El primero fue el PA10/01",
       "parrafos": [
-        "En Valentín Motors entendemos que un restomod rehace un clásico como sistema completo para mejorar su uso sin disolver la identidad que justificó elegirlo. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de la calidad de la base, la arquitectura, el peso, la respuesta del motor, la caja de cambios, los frenos, la suspensión, la ergonomía y la estética. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+        "El PA10/01 es nuestra interpretación del 911 perfecto: un coche construido entero en casa y presentado en Madrid en 2025. Sirve de referencia de hasta dónde llega un proyecto de este tipo."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Diagnóstico, alcance y autorización",
+      "titulo": "Un caso documentado: Restomod",
       "parrafos": [
-        "El alcance se plantea de forma proporcional: carrocería, pintura, motor, transmisión, interior e ingeniería se definen dentro del mismo proyecto. Una mejora aislada no debe trasladar el problema a otro componente. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: se decide qué carácter debe permanecer y qué limitaciones se quieren corregir. La velocidad máxima rara vez explica por sí sola un coche agradable, fiable y utilizable. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+        "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/pa10-01\">este caso documentado</a>."
       ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir.",
-        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
-        "Autorización antes de ampliar el alcance."
-      ],
-      "imagenes": []
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/30b1e541-e8ee1755-2918-40bf-9839-aa5eeb460162.jpg",
+          "alt": "Frontal del 911 PA10 en color crema, con el paragolpes de fibra y los intermitentes ámbar"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -52,16 +50,40 @@
     },
     {
       "nivel": 2,
-      "titulo": "El primero fue el PA10/01",
+      "titulo": "El punto de partida para Restomod",
       "parrafos": [
-        "El PA10/01 es nuestra interpretación del 911 perfecto: un coche construido entero en casa y presentado en Madrid en 2025. Sirve de referencia de hasta dónde llega un proyecto de este tipo."
+        "Un restomod rehace un clásico como sistema completo para mejorar su uso sin disolver la identidad que justificó elegirlo. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de la calidad de la base, la arquitectura, el peso, la respuesta del motor, la caja de cambios, los frenos, la suspensión, la ergonomía y la estética. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Qué puede esperar el propietario",
+      "titulo": "Decidir el alcance de Restomod",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: carrocería, pintura, motor, transmisión, interior e ingeniería se definen dentro del mismo proyecto. Una mejora aislada no debe trasladar el problema a otro componente. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: se decide qué carácter debe permanecer y qué limitaciones se quieren corregir. La velocidad máxima rara vez explica por sí sola un coche agradable, fiable y utilizable. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Lo que no incluye Restomod",
+      "parrafos": [],
+      "items": [
+        "No incluye trabajos ajenos al alcance acordado para Restomod.",
+        "Cualquier ampliación se comprueba y se autoriza por separado."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué queda al entregar Restomod",
       "parrafos": [
         "El objetivo de la entrega es una unidad singular desarrollada con una especificación propia, probada y documentada como conjunto, no como una colección de modificaciones independientes. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
         "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."

@@ -13,9 +13,30 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servicio empieza por definir el problema",
+      "titulo": "Precios cerrados, modelo por modelo",
       "parrafos": [
-        "En Valentín Motors entendemos que las tarifas por modelo permiten conocer el precio de las operaciones repetibles sin fingir que cualquier avería puede presupuestarse sin ver el coche. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "Un mantenimiento no cuesta lo mismo en un 911 refrigerado por aire que en un Macan, y dentro del 911 tampoco cuesta lo mismo un SC que un 992. Por eso las tarifas están abiertas por modelo: elige el tuyo y verás lo que cuesta cada servicio en esa unidad concreta.",
+        "Son tarifas cerradas de referencia. El presupuesto en firme depende del estado en que llegue el coche, y eso solo se sabe con el coche delante.",
+        "Cada familia tiene la suya: <a href=\"/porsche-911-mantenimiento-taller\">Precios de mantenimiento para los modelos Porsche 911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Precios de mantenimiento para los modelos Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Precios de mantenimiento para los modelos Cayman y Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">Precios de mantenimiento para los modelos Transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">Precios de mantenimiento para los modelos GT</a> y <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Precios de mantenimiento para los modelos Cayenne y Macan</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Lo que no incluye Tarifas",
+      "parrafos": [],
+      "items": [
+        "No incluye trabajos ajenos al alcance acordado para Tarifas.",
+        "Cualquier ampliación se comprueba y se autoriza por separado."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El punto de partida para Tarifas",
+      "parrafos": [
+        "Las tarifas por modelo permiten conocer el precio de las operaciones repetibles sin fingir que cualquier avería puede presupuestarse sin ver el coche. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
         "La valoración parte de modelo, generación, versión, caja de cambios, servicio solicitado e historial reciente de mantenimiento. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
@@ -23,32 +44,20 @@
     },
     {
       "nivel": 2,
-      "titulo": "Diagnóstico, alcance y autorización",
+      "titulo": "Decidir el alcance de Tarifas",
       "parrafos": [
         "El alcance se plantea de forma proporcional: las tablas publicadas cubren servicio menor, servicio mayor, líquido de frenos, geometrías e inspección pre-compra para las familias indicadas. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
         "La decisión técnica se toma con este criterio: un precio cerrado describe una operación y sus elementos previstos. Si la revisión descubre desgaste, daños o trabajos anteriores deficientes, se prepara un presupuesto separado antes de ampliar. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
       ],
       "items": [
         "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir.",
-        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
-        "Autorización antes de ampliar el alcance."
+        "Comprobaciones necesarias antes de intervenir."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Precios cerrados, modelo por modelo",
-      "parrafos": [
-        "Un mantenimiento no cuesta lo mismo en un 911 refrigerado por aire que en un Macan, y dentro del 911 tampoco cuesta lo mismo un SC que un 992. Por eso las tarifas están abiertas por modelo: elige el tuyo y verás lo que cuesta cada servicio en esa unidad concreta.",
-        "Son tarifas cerradas de referencia. El presupuesto en firme depende del estado en que llegue el coche, y eso solo se sabe con el coche delante."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué puede esperar el propietario",
+      "titulo": "Qué queda al entregar Tarifas",
       "parrafos": [
         "El objetivo de la entrega es una referencia comparable antes de pedir cita y, con la unidad identificada, confirmación del servicio adecuado para su versión y estado. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
         "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
@@ -58,7 +67,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cómo preparar la primera consulta",
+      "titulo": "Cómo preparar la primera consulta en Tarifas",
       "parrafos": [
         "Para orientar la consulta conviene facilitar el modelo, la versión, el año, el número de bastidor cuando sea relevante y el historial disponible. Si existe un síntoma, resulta útil describir cuándo aparece, con el motor frío o caliente, bajo carga o en retención, y si ha cambiado recientemente.",
         "Las facturas, fotografías y diagnósticos anteriores ayudan a evitar repeticiones, aunque no sustituyen una comprobación actual. Con esa información se decide si basta una cita de inspección, si debe trasladarse el coche o si puede recibirse únicamente el componente."

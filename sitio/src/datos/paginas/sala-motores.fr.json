@@ -19,43 +19,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons que posséder notre propre atelier de moteurs nous permet d'intégrer le diagnostic, les mesures, l'usinage, le remontage et les essais dans une même approche technique. C'est pourquoi, dès le départ, nous nous concentrons non pas sur une liste de services, mais sur la voiture, son historique et le résultat attendu par son propriétaire.",
-        "L'évaluation commence par l'examen des premiers symptômes, la vérification de l'huile et du filtre, la compression (le cas échéant), l'état de chaque ensemble, le jeu, l'ovalisation, la planéité et la traçabilité des pièces. Si certaines informations sont manquantes, nous indiquons les tests nécessaires pour les obtenir avant d'établir un devis."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/9f55a612-DSC03453.jpg",
-          "alt": "Travaux de réfection dans la salle des moteurs, image 1"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "L'étendue des travaux est déterminée en fonction du niveau de service : nous intervenons sur les moteurs Porsche refroidis par air et par eau, les moteurs de compétition, les boîtes de vitesses et les systèmes mécaniques classiques d'autres marques, dont l'expertise est reconnue dans notre atelier. Les tâches sont priorisées afin d'éviter les démontages inutiles, de ne pas masquer un symptôme et d'éviter le remplacement d'un ensemble lorsqu'il est encore possible de le diagnostiquer ou de le réparer.",
-        "La décision technique est prise selon le critère suivant : un moteur ouvert ne reçoit pas automatiquement toutes ses pièces neuves. Chaque composant est mesuré et classé afin de conserver les pièces utilisables, de corriger celles qui le nécessitent et de présenter les différentes options avant le remontage. Si un élément nouveau modifie la commande, il est mis à part des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": "Travaux de réfection dans la salle des moteurs, image 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Nous avons l’expérience de la réparation de moteurs classiques de toutes marques.",
       "parrafos": [
+        "Un moteur M64 ne révèle son état réel qu’après avoir été ouvert, nettoyé et mesuré pièce par pièce.",
         "L'un des départements dont nous sommes le plus fiers est notre salle des machines, où nous restaurons et améliorons les groupes motopropulseurs et les boîtes de vitesses de toutes les 911 et autres Porsche classiques.",
         "En fait, notre nom commercial, Valentín Motors, provient du nom du fondateur et de « moteurs », en tant que symbole de la capacité technique dont notre entreprise dispose depuis 1979.",
         "Une salle des machines nécessite un investissement considérable en ressources techniques et en expertise. De fait, même les concessionnaires officiels n'en possèdent pas.",
@@ -113,6 +79,44 @@
     },
     {
       "nivel": 2,
+      "titulo": "Le point de départ de Atelier moteurs",
+      "parrafos": [
+        "Posséder notre propre atelier de moteurs nous permet d'intégrer le diagnostic, les mesures, l'usinage, le remontage et les essais dans une même approche technique. C'est pourquoi, dès le départ, nous nous concentrons non pas sur une liste de services, mais sur la voiture, son historique et le résultat attendu par son propriétaire.",
+        "L'évaluation commence par l'examen des premiers symptômes, la vérification de l'huile et du filtre, la compression (le cas échéant), l'état de chaque ensemble, le jeu, l'ovalisation, la planéité et la traçabilité des pièces. Si certaines informations sont manquantes, nous indiquons les tests nécessaires pour les obtenir avant d'établir un devis."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Atelier moteurs",
+      "parrafos": [
+        "L'étendue des travaux est déterminée en fonction du niveau de service : nous intervenons sur les moteurs Porsche refroidis par air et par eau, les moteurs de compétition, les boîtes de vitesses et les systèmes mécaniques classiques d'autres marques, dont l'expertise est reconnue dans notre atelier. Les tâches sont priorisées afin d'éviter les démontages inutiles, de ne pas masquer un symptôme et d'éviter le remplacement d'un ensemble lorsqu'il est encore possible de le diagnostiquer ou de le réparer.",
+        "La décision technique est prise selon le critère suivant : un moteur ouvert ne reçoit pas automatiquement toutes ses pièces neuves. Chaque composant est mesuré et classé afin de conserver les pièces utilisables, de corriger celles qui le nécessitent et de présenter les différentes options avant le remontage. Si un élément nouveau modifie la commande, il est mis à part des travaux approuvés et expliqué avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Travaux de réfection dans la salle des moteurs, image 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Atelier moteurs ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Atelier moteurs ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Interview d'Iván Bascuñana, chef mécanicien moteur.",
       "parrafos": [
         "Quel est le moment le plus crucial ou stressant du processus ? Le contrôle de la pression d'huile moteur assemblé, puis au démarrage, lorsque l'on observe le résultat de l'ensemble du processus. Ce processus implique une grande responsabilité, compte tenu des coûts élevés. Quelle est la qualité la plus importante d'un mécanicien moteur ? Avant tout, la passion et la recherche constante de la perfection.",
@@ -135,7 +139,21 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Un cas documenté : Atelier moteurs",
+      "parrafos": [
+        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">ce cas documenté</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/9f55a612-DSC03453.jpg",
+          "alt": "Travaux de réfection dans la salle des moteurs, image 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Atelier moteurs",
       "parrafos": [
         "L'objectif de la livraison est une unité entièrement assemblée, respectant l'ordre des opérations, les tolérances vérifiées et ayant fait l'objet d'un test de mise en service contrôlant la pression d'huile, le fonctionnement et les résultats des travaux effectués. L'explication finale doit permettre au client de comprendre ce qui a été fait, pourquoi cela a été fait et ce qui doit être observé ou planifié par la suite.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -150,7 +168,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale",
+      "titulo": "Comment se préparer à la consultation initiale : Atelier moteurs",
       "parrafos": [
         "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
         "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
@@ -200,8 +218,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 57,
-    "total": 57,
+    "hechas": 61,
+    "total": 61,
     "completa": true
   }
 }

@@ -17,33 +17,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "titulo": "Was wir tun: Individualisierung",
       "parrafos": [
-        "Wir bei Valentín Motors wissen, dass die Individualisierung eines Porsche die Unterscheidung zwischen sinnvoller Verbesserung, reversibler ästhetischer Veränderung und einem Eingriff erfordert, der den Wert oder die Identität des Fahrzeugs dauerhaft verändern kann. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das sich der Besitzer wünscht.",
-        "Die Bewertung basiert auf dem Modell, seiner Seltenheit, dem aktuellen Zustand, dem Verwendungszweck, den Prioritäten des Eigentümers und den Auswirkungen auf die Homologation. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Umfang ist proportional definiert: Das Projekt kann sich auf den Innenraum, die Karosserie oder die Fahrdynamik konzentrieren oder alle drei Bereiche kombinieren. Es umfasst auch TECHART-Lösungen für aktuelle Modelle und Einzelanfertigungen. Die Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
-        "Die technische Entscheidung wird anhand der folgenden Kriterien getroffen: Alternativen werden hinsichtlich Integration, Reversibilität, zukünftiger Wartungsfreundlichkeit und Konsistenz verglichen. Nur weil eine Modifikation technisch machbar ist, bedeutet das nicht, dass sie für jedes Fahrzeug geeignet ist. Sollte sich eine Erkenntnis ergeben, die den Auftrag verändert, wird diese von der genehmigten Arbeit getrennt und vor dem Fortfahren erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was wir tun",
-      "parrafos": [
+        "Ein 911 964 lässt Änderungen an Karosserie, Fahrwerk und Innenraum zu, doch nicht jede passt zu einem seltenen Exemplar.",
         "Individuelle Projekte für Ihr Fahrzeug: Karosseriemodifikationen, Leistungssteigerungen und handgefertigte Innenausstattungen. Vom Einzelteil bis zum einzigartigen Auftrag, von dem es nur ein Exemplar geben wird.",
         "Wir sind autorisierte Händler und Einbaupartner von TECHART seit 2019 und decken den Individualisierungskatalog für aktuelle Modelle ab. Was nicht im Katalog ist, fertigen wir."
       ],
@@ -61,7 +37,56 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Ausgangspunkt für Individualisierung",
+      "parrafos": [
+        "Wir bei Valentín Motors wissen, dass die Individualisierung eines Porsche die Unterscheidung zwischen sinnvoller Verbesserung, reversibler ästhetischer Veränderung und einem Eingriff erfordert, der den Wert oder die Identität des Fahrzeugs dauerhaft verändern kann. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das sich der Besitzer wünscht.",
+        "Die Bewertung basiert auf dem Modell, seiner Seltenheit, dem aktuellen Zustand, dem Verwendungszweck, den Prioritäten des Eigentümers und den Auswirkungen auf die Homologation. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Individualisierung festlegen",
+      "parrafos": [
+        "Der Umfang ist proportional definiert: Das Projekt kann sich auf den Innenraum, die Karosserie oder die Fahrdynamik konzentrieren oder alle drei Bereiche kombinieren. Es umfasst auch TECHART-Lösungen für aktuelle Modelle und Einzelanfertigungen. Die Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
+        "Die technische Entscheidung wird anhand der folgenden Kriterien getroffen: Alternativen werden hinsichtlich Integration, Reversibilität, zukünftiger Wartungsfreundlichkeit und Konsistenz verglichen. Nur weil eine Modifikation technisch machbar ist, bedeutet das nicht, dass sie für jedes Fahrzeug geeignet ist. Sollte sich eine Erkenntnis ergeben, die den Auftrag verändert, wird diese von der genehmigten Arbeit getrennt und vor dem Fortfahren erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Individualisierung nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Individualisierung sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ein dokumentierter Fall: Individualisierung",
+      "parrafos": [
+        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/9-eleven-headlights-964\">diesem dokumentierten Fall</a>."
+      ],
+      "items": [
+        "[[PRÜFEN: Diesem Fall ein bereits ausgewähltes Foto aus dem Magazine zuordnen.]]"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/27d7c7b0-f6c4ca7d-4d88-4504-bf87-f1955c4272ea.jpg",
+          "alt": "Front des weißen 964 mit eingeschaltetem LED-Scheinwerfer und Porsche-Wappen auf der Haube"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Individualisierung erhält",
       "parrafos": [
         "Ziel der Ausführung ist eine individuelle Spezifikation, die eine logische Gesamtstruktur aufweist und sich im Laufe der Zeit nachvollziehen und erklären lässt. Die abschließende Erläuterung sollte verdeutlichen, was durchgeführt wurde, warum es durchgeführt wurde und welche weiteren Schritte zu beachten oder einzuplanen sind.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -71,7 +96,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor",
+      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor: Individualisierung",
       "parrafos": [
         "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
         "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
@@ -121,8 +146,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 32,
-    "total": 32,
+    "hechas": 38,
+    "total": 38,
     "completa": true
   }
 }

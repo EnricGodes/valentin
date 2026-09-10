@@ -18,37 +18,7 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
-      "parrafos": [
-        "Wir bei Valentín Motors wissen, dass jede Arbeit am Porsche IMS mit der Identifizierung des passenden Lagers für Modell, Baujahr und, bei Übergangsjahren, Motornummer beginnt. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Wünsche des Besitzers.",
-        "Die Beurteilung basiert auf der Fahrzeugkonfiguration, der Historie, dem Öl- und Filterstatus, Geräuschen und einer Überprüfung des verbauten Lagers nach dessen Zugang. Sollten Informationen fehlen, erläutern wir Ihnen, welche Prüfungen notwendig sind, um diese zu beschaffen, bevor wir aus einer Vermutung ein Angebot erstellen."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
-          "alt": "Porsche IMS"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Umfang ist proportional definiert: Die veröffentlichte vorbeugende Wartung gilt für Motoren der Baureihen M96 und M97 sowie für Modelle, bei denen das Lager ohne Öffnen des Motorblocks ausgetauscht werden kann. Die Arbeiten werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, die noch diagnostiziert oder repariert werden kann.",
-        "Die technische Entscheidung basiert auf folgendem Prinzip: Nicht alle Motoren der Baureihe IMS bergen das gleiche Risiko oder erlauben die gleiche Intervention. Bei Auftreten von Metallpartikeln oder Geräuschen wird die vorbeugende Maßnahme unterbrochen und der Schaden vor der Fortsetzung begutachtet. Ergibt sich ein Befund, der den Arbeitsauftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was wir tun",
+      "titulo": "Was wir tun: Porsche IMS",
       "parrafos": [
         "Wir tauschen das Zwischenwellenlager in den Motoren M96 und M97 aus. Für die Modelle von 1997 bis 2006 bieten wir einen Festpreis an, sowohl für Schalt- als auch für Automatikgetriebe. Diese Dienstleistung haben wir bereits dutzende Male im Rahmen der drei von Porsche verbauten Lagerrevisionen durchgeführt.",
         "Für den präventiven Austausch muss der Motorblock nicht geöffnet werden: Getriebe und Schwungrad bzw. Flexplatte werden demontiert, und das Lager ist über den Flansch zugänglich. Der Motor wird nicht zerlegt, wodurch die Kosten im Vergleich zu den Kosten eines Ausfalls gering bleiben."
@@ -92,6 +62,30 @@
     },
     {
       "nivel": 2,
+      "titulo": "Was Porsche IMS nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Porsche IMS sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ein dokumentierter Fall: Porsche IMS",
+      "parrafos": [
+        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/que-es-el-ims-de-porsche\">diesem dokumentierten Fall</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
       "titulo": "Ort der Durchführung",
       "parrafos": [
         "In Barcelona und Madrid. Die Arbeiten werden in der Werkstatt durchgeführt. Sollte der Motor beschädigt eintreffen, wird er in den Motorraum gebracht, wo er geöffnet und Stück für Stück begutachtet wird."
@@ -101,7 +95,30 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Ausgangspunkt für Porsche IMS",
+      "parrafos": [
+        "Wir bei Valentín Motors wissen, dass jede Arbeit am Porsche IMS mit der Identifizierung des passenden Lagers für Modell, Baujahr und, bei Übergangsjahren, Motornummer beginnt. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Wünsche des Besitzers.",
+        "Die Beurteilung basiert auf der Fahrzeugkonfiguration, der Historie, dem Öl- und Filterstatus, Geräuschen und einer Überprüfung des verbauten Lagers nach dessen Zugang. Sollten Informationen fehlen, erläutern wir Ihnen, welche Prüfungen notwendig sind, um diese zu beschaffen, bevor wir aus einer Vermutung ein Angebot erstellen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Porsche IMS festlegen",
+      "parrafos": [
+        "Der Umfang ist proportional definiert: Die veröffentlichte vorbeugende Wartung gilt für Motoren der Baureihen M96 und M97 sowie für Modelle, bei denen das Lager ohne Öffnen des Motorblocks ausgetauscht werden kann. Die Arbeiten werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, die noch diagnostiziert oder repariert werden kann.",
+        "Die technische Entscheidung basiert auf folgendem Prinzip: Nicht alle Motoren der Baureihe IMS bergen das gleiche Risiko oder erlauben die gleiche Intervention. Bei Auftreten von Metallpartikeln oder Geräuschen wird die vorbeugende Maßnahme unterbrochen und der Schaden vor der Fortsetzung begutachtet. Ergibt sich ein Befund, der den Arbeitsauftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Porsche IMS erhält",
       "parrafos": [
         "Diese Leistung umfasst die Demontage und Montage des Getriebes und der zugehörigen Komponenten, den passenden Überholungssatz, die notwendigen Dichtungen, die Feinabstimmung, die Prüfung sowie die beschriebene mechanische Gewährleistung für die durchgeführten Arbeiten. Die abschließende Erläuterung soll dem Kunden verständlich machen, was gemacht wurde, warum es gemacht wurde und was im Anschluss zu beachten oder einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -151,8 +168,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 46,
+    "total": 46,
     "completa": true
   }
 }

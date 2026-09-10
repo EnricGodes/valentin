@@ -13,43 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
-      "parrafos": [
-        "Wir bei Valentín Motors wissen, dass die Vorbereitung eines Porsche für die Rennstrecke mehr bedeutet als nur den Einbau von Teilen. Es geht darum, Bremsen, Fahrwerk, Reifen, Sicherheitsmerkmale und Fahrwerksgeometrie optimal auf den jeweiligen Einsatzzweck abzustimmen. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Geschichte und die Erwartungen des Besitzers.",
-        "Die Bewertung basiert auf der Art der Veranstaltung, dem Fahrkönnen des Fahrers, den geltenden Vorschriften, dem Zustand der Basis und der voraussichtlichen Streckenkilometerzahl. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
-          "alt": "Technische Vorbereitung eines Wettbewerbs-Porsche, Bild 1"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Umfang wird proportional definiert: Die Vorbereitung einer ersten Veranstaltung (track day) kann sich auf Prüfungen, Verbrauchsmaterialien und Geometrie beschränken; ein Programm (GT) oder eine Rallye erfordert die Definition von Sicherheit, Zuverlässigkeit, Ersatzteilen und Support. Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
-        "Die technische Entscheidung erfolgt nach folgendem Kriterium: Jede Änderung ist durch ein Symptom, ein Ziel oder eine gesetzliche Vorgabe gerechtfertigt. Leistungssteigerungen können weder ein ungleichmäßiges Pedalgefühl noch unkontrollierte Temperaturen oder eine falsche Fahrposition ausgleichen. Sollte sich eine Erkenntnis ergeben, die den Arbeitsumfang verändert, wird diese von den genehmigten Arbeiten getrennt und vor der Durchführung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/627ae024-DSC08039.jpg",
-          "alt": "Technische Vorbereitung eines Wettbewerbs-Porsche, Bild 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Vorbereitung für track days",
       "parrafos": [
+        "Ein 911 für den ersten track day benötigt nicht dieselbe Abstimmung wie ein GT3 im Renneinsatz.",
         "Die Marke Porsche steht für Sportlichkeit, und die Rennstrecke ermöglicht es einem Porsche, sein Potenzial voll auszuschöpfen und Fahrgefühle zu vermitteln, die sich vom Stadtverkehr unterscheiden. In Trainingseinheiten unter kontrollierten Bedingungen können Fahrer und Fahrzeug perfekt zusammenarbeiten.",
         "Wir passen Fahrzeuge an jedes Niveau an, je nach Streckenbedingungen und den vom Kunden gewünschten Vorbereitungsanforderungen."
       ],
@@ -63,9 +29,19 @@
     },
     {
       "nivel": 2,
+      "titulo": "Was Motorsport nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Motorsport sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "GT- und Gentlemen-Driver-Meisterschaften",
       "parrafos": [
-        "Wir arbeiten an GT3- und CUP-Rennfahrzeugen mehrerer Generationen und bieten Betreuung, Support und Streckentechnik mit Mitarbeitern, die in den Meisterschaften zu Hause sind."
+        "Wir arbeiten an GT3- und Carrera Cup-Fahrzeugen mehrerer Generationen und bieten Betreuung, Support und Renningenieurleistungen mit im Meisterschaftsbetrieb erfahrenem Personal."
       ],
       "items": [],
       "imagenes": []
@@ -95,7 +71,40 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Ausgangspunkt für Motorsport",
+      "parrafos": [
+        "Wir bei Valentín Motors wissen, dass die Vorbereitung eines Porsche für die Rennstrecke mehr bedeutet als nur den Einbau von Teilen. Es geht darum, Bremsen, Fahrwerk, Reifen, Sicherheitsmerkmale und Fahrwerksgeometrie optimal auf den jeweiligen Einsatzzweck abzustimmen. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Geschichte und die Erwartungen des Besitzers.",
+        "Die Bewertung basiert auf der Art der Veranstaltung, dem Fahrkönnen des Fahrers, den geltenden Vorschriften, dem Zustand der Basis und der voraussichtlichen Streckenkilometerzahl. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
+          "alt": "Technische Vorbereitung eines Wettbewerbs-Porsche, Bild 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Motorsport festlegen",
+      "parrafos": [
+        "Der Umfang wird proportional definiert: Die Vorbereitung einer ersten Veranstaltung (track day) kann sich auf Prüfungen, Verbrauchsmaterialien und Geometrie beschränken; ein Programm (GT) oder eine Rallye erfordert die Definition von Sicherheit, Zuverlässigkeit, Ersatzteilen und Support. Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
+        "Die technische Entscheidung erfolgt nach folgendem Kriterium: Jede Änderung ist durch ein Symptom, ein Ziel oder eine gesetzliche Vorgabe gerechtfertigt. Leistungssteigerungen können weder ein ungleichmäßiges Pedalgefühl noch unkontrollierte Temperaturen oder eine falsche Fahrposition ausgleichen. Sollte sich eine Erkenntnis ergeben, die den Arbeitsumfang verändert, wird diese von den genehmigten Arbeiten getrennt und vor der Durchführung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/627ae024-DSC08039.jpg",
+          "alt": "Technische Vorbereitung eines Wettbewerbs-Porsche, Bild 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Motorsport erhält",
       "parrafos": [
         "Ziel der Übergabe ist ein Fahrzeug, das hinsichtlich seines vorgesehenen Einsatzzwecks geprüft wurde, sowie eine übersichtliche Liste der erforderlichen Einstellungen, Komponenten und noch ausstehenden Prüfungen vor der Rückkehr auf die Rennstrecke. Die abschließende Erklärung sollte klar darlegen, was durchgeführt wurde, warum es durchgeführt wurde und was anschließend zu beobachten oder einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -145,8 +154,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 42,
+    "total": 42,
     "completa": true
   }
 }

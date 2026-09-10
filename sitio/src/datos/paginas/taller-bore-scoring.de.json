@@ -18,50 +18,21 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "titulo": "Die Inspektion",
       "parrafos": [
-        "Wir bei Valentín Motors wissen, dass bore scoring nachweislich bestätigt werden muss, bevor Geräusche, Ölverbrauch oder Rauchentwicklung mit einer Motorüberholung in Verbindung gebracht werden. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Erwartungen des Besitzers.",
-        "Die Begutachtung beginnt mit einer Endoskopie aller sechs Zylinder, der Anfertigung von Fotos, einer Öl- und Filteranalyse sowie gegebenenfalls Kompressions- und Dichtigkeitsprüfungen. Fehlen Informationen, werden die notwendigen Prüfungen angegeben, bevor eine Hypothese in einen Kostenvoranschlag umgewandelt wird."
+        "Ölverbrauch, Rauch und Klopfgeräusche beim Kaltstart können auf bore scoring hindeuten, bestätigen ihn aber nicht.",
+        "Diese wird mit einem Endoskop durch das Zündkerzenloch bei eingebautem Motor durchgeführt. Innerhalb eines Vormittags können wir feststellen, ob Riefen vorhanden sind, in welchen Zylindern und wie weit sie sich ausbreiten. Wir fordern diese Inspektion immer vor dem Kauf an: Sie ist der entscheidende Unterschied zwischen Preisverhandlungen und der späteren Entdeckung des Schadens.",
+        "Der Preis ist in der Preisliste zusammen mit den anderen Leistungen für dieses Modell aufgeführt."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
-          "alt": "Porsche bore scoring"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Leistungsumfang ist bedarfsgerecht: Die Diagnose konzentriert sich speziell auf Motoren der Typen M96 und M97 der Baureihen Boxster, Cayman und 911, die zwischen 1997 und 2008 gefertigt wurden. Die Reparaturen werden anhand des festgestellten Schadens definiert. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung basiert auf folgenden Kriterien: Eine oberflächliche Markierung, aktives Kratzen und ein Kompressionsverlust rechtfertigen nicht dieselbe Entscheidung. Der Bericht dient dem Vergleich von Überwachung, Öffnung und Rekonstruktion. Sollte sich ein Befund ergeben, der die Anordnung ändert, wird dieser von den genehmigten Arbeiten getrennt und vor dem Fortfahren erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Was wir tun",
+      "titulo": "Was wir tun: Bore scoring",
       "parrafos": [
         "Wir diagnostizieren Riefen in den Zylinderlaufbuchsen mittels Zylinderendoskopie (), ohne den Motor zu demontieren, und reparieren diese bei bereits entstandenen Schäden durch Einsetzen einer neuen Laufbuchse. Diese Prüfung ist eine Komplettleistung und unsere erste Empfehlung vor dem Kauf eines Motors der Typen M96 oder M97.",
         "bore scoring betrifft Motoren der Typen, Boxster,, Cayman, und 911 sowie Motoren der Typen M96 und M97, die zwischen 1997 und 2008 hergestellt wurden. Es äußert sich durch vertikale Riefen an der Zylinderwand, meist im sechsten Zylinder, und schreitet fort, bis der Motor Öl verbraucht und Kompression verliert."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Die Inspektion",
-      "parrafos": [
-        "Diese wird mit einem Endoskop durch das Zündkerzenloch bei eingebautem Motor durchgeführt. Innerhalb eines Vormittags können wir feststellen, ob Riefen vorhanden sind, in welchen Zylindern und wie weit sie sich ausbreiten. Wir fordern diese Inspektion immer vor dem Kauf an: Sie ist der entscheidende Unterschied zwischen Preisverhandlungen und der späteren Entdeckung des Schadens.",
-        "Der Preis ist in der Preisliste zusammen mit den anderen Leistungen für dieses Modell aufgeführt."
       ],
       "items": [],
       "imagenes": []
@@ -91,7 +62,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Was Bore scoring nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Bore scoring sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ein dokumentierter Fall: Bore scoring",
+      "parrafos": [
+        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/porsche-bore-scoring\">diesem dokumentierten Fall</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche bore scoring"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ausgangspunkt für Bore scoring",
+      "parrafos": [
+        "Wir bei Valentín Motors wissen, dass bore scoring nachweislich bestätigt werden muss, bevor Geräusche, Ölverbrauch oder Rauchentwicklung mit einer Motorüberholung in Verbindung gebracht werden. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Erwartungen des Besitzers.",
+        "Die Begutachtung beginnt mit einer Endoskopie aller sechs Zylinder, der Anfertigung von Fotos, einer Öl- und Filteranalyse sowie gegebenenfalls Kompressions- und Dichtigkeitsprüfungen. Fehlen Informationen, werden die notwendigen Prüfungen angegeben, bevor eine Hypothese in einen Kostenvoranschlag umgewandelt wird."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Bore scoring festlegen",
+      "parrafos": [
+        "Der Leistungsumfang ist bedarfsgerecht: Die Diagnose konzentriert sich speziell auf Motoren der Typen M96 und M97 der Baureihen Boxster, Cayman und 911, die zwischen 1997 und 2008 gefertigt wurden. Die Reparaturen werden anhand des festgestellten Schadens definiert. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung basiert auf folgenden Kriterien: Eine oberflächliche Markierung, aktives Kratzen und ein Kompressionsverlust rechtfertigen nicht dieselbe Entscheidung. Der Bericht dient dem Vergleich von Überwachung, Öffnung und Rekonstruktion. Sollte sich ein Befund ergeben, der die Anordnung ändert, wird dieser von den genehmigten Arbeiten getrennt und vor dem Fortfahren erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Bore scoring erhält",
       "parrafos": [
         "Dieser Bericht enthält Bilder von jedem Zylinder, eine detaillierte Beurteilung und, falls zutreffend, einen Kostenvoranschlag für Zylinderlaufbuchsen und Blockprüfung, bevor Arbeiten am Motor durchgeführt werden. Die abschließende Beschreibung sollte klar darlegen, was durchgeführt wurde, warum es durchgeführt wurde und was anschließend zu beobachten oder einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -141,8 +159,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 44,
+    "total": 44,
     "completa": true
   }
 }

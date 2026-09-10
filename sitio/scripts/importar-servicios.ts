@@ -40,6 +40,12 @@ const aqui = dirname(fileURLToPath(import.meta.url));
 const raiz = resolve(aqui, '..');
 
 const probar = process.argv.includes('--probar');
+/* La guarda de desfase protege las ediciones a mano sobre una pagina. Una
+   segunda tanda escrita sobre el MISMO export original la dispara sin que haya
+   nada que proteger: `actual` sigue siendo el texto de partida y la pagina ya
+   lleva la primera vuelta. Para ese caso, y solo dicho a proposito, se puede
+   pasar por encima; la lista de lo que se sobrescribe se imprime siempre. */
+const sobrescribir = process.argv.includes('--sobrescribir');
 const dirArg = process.argv.find((a) => a.startsWith('--dir='))?.split('=')[1];
 
 interface SeccionEntrada {
@@ -48,7 +54,11 @@ interface SeccionEntrada {
 interface Nuevo {
   meta: { titulo: string; descripcion: string };
   h1: string; menu: string;
-  imagenes: { i: number; alt: string }[];
+  /* `url` solo lo traen las fotos que NO estaban en el catalogo del export.
+     Es como se anade una foto nueva a una pagina: la segunda tanda necesito
+     tres del Magazine para sus casos documentados y no habia forma de
+     pedirlas. Ver servicios-leeme.md. */
+  imagenes: { i: number; alt: string; url?: string }[];
   secciones: SeccionEntrada[];
 }
 interface PaginaEntrada {
@@ -91,7 +101,28 @@ function fallar(mensaje: string): never {
 }
 
 // ── Comprobaciones ─────────────────────────────────────────────────────────
-const URLS_VALIDAS = new Set(RUTAS.map((r) => url(r.id, 'es')));
+/**
+ * Lo que se puede enlazar: las paginas del manifiesto y los articulos del
+ * Magazine.
+ *
+ * Los articulos faltaban. El fichero de export ofrece los 57 en
+ * `referencia.magazine` y la guia invita a proponerlos, asi que la segunda
+ * tanda enlazo nueve casos reales, y esto los rechazaba todos. Un enlace a un
+ * articulo publicado es tan interno como cualquier otro, y ademas es lo que
+ * convierte una pagina de servicio en algo que se puede leer.
+ */
+const URLS_VALIDAS = (() => {
+  const salida = new Set(RUTAS.map((r) => url(r.id, 'es')));
+  const dir = join(raiz, 'src/content/magazine/es');
+  if (existsSync(dir)) {
+    for (const f of readdirSync(dir).filter((x) => x.endsWith('.md'))) {
+      const crudo = readFileSync(join(dir, f), 'utf8');
+      const slug = /^slugFinal:\s*"(.*)"$/m.exec(crudo)?.[1] ?? f.replace(/\.md$/, '');
+      salida.add(`${url('magazine', 'es')}/${slug}`);
+    }
+  }
+  return salida;
+})();
 const TAGS = /<\/?([a-zA-Z0-9]+)[^>]*>/g;
 const PERMITIDAS = new Set(['a', 'strong', 'em']);
 
@@ -110,7 +141,10 @@ function revisaPagina(p: PaginaEntrada, idioma: Idioma, fallos: string[]) {
   if (!n.meta.descripcion?.trim()) fallos.push(`${donde}: falta la description`);
   if (!n.secciones?.length) fallos.push(`${donde}: sin secciones`);
 
-  const catalogo = new Set(p.imagenes.map((im) => im.i));
+  const catalogo = new Set([
+    ...p.imagenes.map((im) => im.i),
+    ...n.imagenes.filter((im) => im.url).map((im) => im.i),
+  ]);
   const usados: number[] = [];
 
   for (const [i, s] of n.secciones.entries()) {
@@ -142,6 +176,17 @@ function revisaPagina(p: PaginaEntrada, idioma: Idioma, fallos: string[]) {
   const repes = usados.filter((x, i) => usados.indexOf(x) !== i);
   if (repes.length) fallos.push(`${donde}: imagen ${[...new Set(repes)].join(', ')} repetida`);
 
+  /* Una foto que la tanda anade tiene que llegar descrita, del mapa de alts o
+     de la propia tanda. Sin eso entra con alt vacio y no lo canta nadie: es
+     como se colo una en la segunda vuelta. */
+  for (const im of n.imagenes) {
+    if (!im.url) continue;
+    if (!ALTS[im.url]?.[idioma] && !im.alt?.trim()) {
+      fallos.push(`${donde}: la foto ${im.url} entra sin descripcion. `
+        + 'Descríbela en _migracion/contenido/alts.json.');
+    }
+  }
+
   const t = texto(n);
   if (t.includes('[[COMPROBAR')) fallos.push(`${donde}: queda un [[COMPROBAR: ...]] sin resolver`);
   if (!t.trim()) fallos.push(`${donde}: nuevo vacio`);
@@ -161,10 +206,35 @@ function revisaDesfase(p: PaginaEntrada, fallos: string[]) {
     && hoy.h1 === p.actual.h1
     && hoy.secciones.length === p.actual.secciones.length;
   if (!igual) {
-    fallos.push(`${p.rutaId}: la pagina ha cambiado desde que se exporto. `
-      + 'Vuelve a exportar y a escribir sobre lo nuevo, o se pisaria ese cambio.');
+    const aviso = `${p.rutaId}: la pagina ha cambiado desde que se exporto.`;
+    if (sobrescribir) desfasadas.push(aviso);
+    else fallos.push(`${aviso} Vuelve a exportar y a escribir sobre lo nuevo, `
+      + 'o pasa --sobrescribir si la tanda reescribe la pagina entera.');
   }
 }
+
+/**
+ * Textos que una tanda ha dejado en castellano dentro de otro idioma.
+ *
+ * Los mismos cinco vinieron sin traducir en las dos tandas seguidas: el h1 del
+ * backdating en frances e italiano, y el encabezado de bore scoring del taller
+ * en los tres. Se corrigieron a mano la primera vez y volvieron la segunda, asi
+ * que dejan de corregirse a mano. Se buscan por el texto exacto: si un dia la
+ * tanda llega bien traducida, esta tabla no encuentra nada y no hace nada.
+ */
+const TRADUCE: Record<string, Record<string, string>> = {
+  fr: {
+    'Backdating Porsche 911 pensado para conducir': 'Backdating Porsche 911 pensé pour la conduite',
+    'Reparaciones Bore Scoring': 'Réparations bore scoring',
+  },
+  it: {
+    'Backdating Porsche 911 pensado para conducir': 'Backdating Porsche 911 pensato per la guida',
+    'Reparaciones Bore Scoring': 'Riparazioni bore scoring',
+  },
+  de: {
+    'Reparaciones Bore Scoring': 'Bore-scoring-Reparaturen',
+  },
+};
 
 /**
  * Descripciones de imagen del proyecto, por ruta de foto y por idioma.
@@ -206,8 +276,12 @@ function construye(p: PaginaEntrada, idioma: Idioma) {
   const ruta = join(raiz, p.fichero);
   const base = JSON.parse(readFileSync(ruta, 'utf8'));
   const n = p.nuevo;
-  const limpia = (t: string) => espaciado(t, idioma);
-  const urlDe = new Map(p.imagenes.map((im) => [im.i, im.url]));
+  const limpia = (t: string) => {
+    const corregido = TRADUCE[idioma]?.[t.trim()] ?? t;
+    return espaciado(corregido, idioma);
+  };
+  const urlDe = new Map<number, string>(p.imagenes.map((im) => [im.i, im.url]));
+  for (const im of n.imagenes) if (im.url) urlDe.set(im.i, im.url);
   const alt = new Map(n.imagenes.map((im) => {
     const descrito = ALTS[urlDe.get(im.i) ?? '']?.[idioma];
     return [im.i, descrito ?? limpia(im.alt)];
@@ -270,6 +344,7 @@ if (!tandas.some((t) => t.idioma === POR_DEFECTO)) {
 }
 
 const fallos: string[] = [];
+const desfasadas: string[] = [];
 const es = tandas.find((t) => t.idioma === POR_DEFECTO)!;
 const idsEs = es.paginas.map((p) => p.rutaId);
 
@@ -287,6 +362,12 @@ if (fallos.length) {
   for (const f of fallos.slice(0, 40)) console.error(`  ${f}`);
   if (fallos.length > 40) console.error(`  ...y ${fallos.length - 40} mas`);
   process.exit(1);
+}
+
+if (desfasadas.length) {
+  console.warn(`servicios: --sobrescribir, ${desfasadas.length} paginas se reescriben enteras`);
+  for (const d of desfasadas.slice(0, 5)) console.warn(`  ${d}`);
+  if (desfasadas.length > 5) console.warn(`  ...y ${desfasadas.length - 5} mas`);
 }
 
 const escritos: string[] = [];

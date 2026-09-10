@@ -18,48 +18,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons qu'une inspection avant achat permet de transformer les affirmations de l'annonce et l'historique du véhicule en vérifications concrètes avant de s'engager sur un prix. C'est pourquoi notre premier échange ne porte pas sur une liste de services, mais plutôt sur le véhicule lui-même, son historique et les attentes du propriétaire.",
-        "L'évaluation est basée sur les documents, la provenance, le kilométrage, l'entretien, les diagnostics, le moteur, la transmission, l'essai routier, la carrosserie, la peinture et les risques inhérents au modèle. Si des informations sont manquantes, nous indiquons les vérifications nécessaires pour les obtenir avant de transformer une estimation en devis."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
-          "alt": "Inspection Porsche lors d'une inspection avant achat"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "L'étendue de la prestation est déterminée au prorata : elle peut être réalisée dans notre atelier ou sur le lieu d'intervention, en Espagne ou à l'étranger, selon la prestation décrite. Les tâches sont ordonnées de manière à éviter les démontages inutiles, à ne pas masquer un problème et à ne pas remplacer un ensemble alors qu'un diagnostic ou une réparation est encore possible.",
-        "La décision technique est prise selon le critère suivant : un défaut n’entraîne pas automatiquement un refus. Le rapport distingue l’entretien courant, les risques, les réparations en cours et les signes remettant en cause l’identité ou la description du véhicule. Si une constatation modifie la commande, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Nos services",
-      "parrafos": [
-        "Nous évaluons le véhicule que vous envisagez d’acheter : état mécanique, état de la carrosserie, historique documenté et comparaison entre l’annonce et l’état réel du véhicule. Cette évaluation est réalisée à l’atelier ou en nous déplaçant sur place, en Espagne ou à l’étranger.",
-        "Ce service est le plus avantageux et le moins demandé."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Ce que nous vérifions",
-      "parrafos": [],
+      "parrafos": [
+        "Une 911 996 ou 997 peut cacher une intervention IMS en attente ou un bore scoring, même si l’annonce et l’historique semblent cohérents."
+      ],
       "items": [
         "Documentation : propriété, privilèges, historique de radiation et ITV.",
         "Cohérence du kilométrage avec le carnet d’entretien et le calculateur.",
@@ -68,6 +30,16 @@
         "État du IMS dans les M96 et M97 concernés.",
         "Carrosserie : écarts, épaisseur de la peinture et traces de réparation.",
         "Rapport écrit avec photos et recommandation claire."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Inspection avant achat ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Inspection avant achat ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
       ],
       "imagenes": []
     },
@@ -82,7 +54,45 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Nos services : Inspection avant achat",
+      "parrafos": [
+        "Nous évaluons le véhicule que vous envisagez d’acheter : état mécanique, état de la carrosserie, historique documenté et comparaison entre l’annonce et l’état réel du véhicule. Cette évaluation est réalisée à l’atelier ou en nous déplaçant sur place, en Espagne ou à l’étranger.",
+        "Ce service est le plus avantageux et le moins demandé."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le point de départ de Inspection avant achat",
+      "parrafos": [
+        "Une inspection avant achat permet de transformer les affirmations de l'annonce et l'historique du véhicule en vérifications concrètes avant de s'engager sur un prix. C'est pourquoi notre premier échange ne porte pas sur une liste de services, mais plutôt sur le véhicule lui-même, son historique et les attentes du propriétaire.",
+        "L'évaluation est basée sur les documents, la provenance, le kilométrage, l'entretien, les diagnostics, le moteur, la transmission, l'essai routier, la carrosserie, la peinture et les risques inhérents au modèle. Si des informations sont manquantes, nous indiquons les vérifications nécessaires pour les obtenir avant de transformer une estimation en devis."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
+          "alt": "Inspection Porsche lors d'une inspection avant achat"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Inspection avant achat",
+      "parrafos": [
+        "L'étendue de la prestation est déterminée au prorata : elle peut être réalisée dans notre atelier ou sur le lieu d'intervention, en Espagne ou à l'étranger, selon la prestation décrite. Les tâches sont ordonnées de manière à éviter les démontages inutiles, à ne pas masquer un problème et à ne pas remplacer un ensemble alors qu'un diagnostic ou une réparation est encore possible.",
+        "La décision technique est prise selon le critère suivant : un défaut n’entraîne pas automatiquement un refus. Le rapport distingue l’entretien courant, les risques, les réparations en cours et les signes remettant en cause l’identité ou la description du véhicule. Si une constatation modifie la commande, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Inspection avant achat",
       "parrafos": [
         "Ce rapport écrit, accompagné de photos et d'une recommandation claire, vous permettra de négocier, de procéder à des vérifications complémentaires ou de vous rétracter avant l'achat. L'explication finale doit vous permettre de comprendre les interventions réalisées, leurs raisons et les points à surveiller ou à planifier par la suite.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -132,8 +142,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 38,
-    "total": 38,
+    "hechas": 40,
+    "total": 40,
     "completa": true
   }
 }

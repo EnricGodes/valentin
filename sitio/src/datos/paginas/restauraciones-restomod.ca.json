@@ -17,28 +17,28 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servei comença per definir el problema",
+      "titulo": "El primer va ser el PA10/01",
       "parrafos": [
-        "A Valentín Motors entenem que un restomod refà un clàssic com a sistema complet per millorar-ne l'ús sense dissoldre la identitat que va justificar triar-lo. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de la qualitat de la base, l'arquitectura, el pes, la resposta del motor, la caixa de canvis, els frens, la suspensió, l'ergonomia i l'estètica. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+        "El PA10/01 és la nostra interpretació del 911 perfecte: un cotxe construït sencer a casa i presentat a Madrid el 2025. Serveix de referència fins on arriba un projecte d'aquest tipus."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Diagnòstic, abast i autorització",
+      "titulo": "Un cas documentat: Restomod",
       "parrafos": [
-        "L'abast es planteja de manera proporcional: carrosseria, pintura, motor, transmissió, interior i enginyeria es defineixen dins del mateix projecte. Una millora aïllada no ha de traslladar el problema a cap altre component. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: es decideix quin caràcter ha de romandre i quines limitacions es volen corregir. La velocitat màxima poques vegades explica per si sola un cotxe agradable, fiable i utilitzable. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/pa10-01\">aquest cas documentat</a>."
       ],
       "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi.",
-        "Treballs inclosos, alternatives i elements pendents de confirmar.",
-        "Autorització abans d ampliar l abast."
+        "[[COMPROVAR: assignar a aquest cas una fotografia ja seleccionada del Magazine.]]"
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/30b1e541-e8ee1755-2918-40bf-9839-aa5eeb460162.jpg",
+          "alt": "Frontal del 911 PA10 en color crema, amb el para-xocs de fibra i els intermitents ambre"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -52,16 +52,40 @@
     },
     {
       "nivel": 2,
-      "titulo": "El primer va ser el PA10/01",
+      "titulo": "El punt de partida de Restomod",
       "parrafos": [
-        "El PA10/01 és la nostra interpretació del 911 perfecte: un cotxe construït sencer a casa i presentat a Madrid a 2025. Serveix de referència fins on arriba un projecte d'aquest tipus."
+        "Un restomod refà un clàssic com a sistema complet per millorar-ne l'ús sense dissoldre la identitat que va justificar triar-lo. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix de la qualitat de la base, l'arquitectura, el pes, la resposta del motor, la caixa de canvis, els frens, la suspensió, l'ergonomia i l'estètica. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què pot esperar el propietari",
+      "titulo": "Decidir l’abast de Restomod",
+      "parrafos": [
+        "L'abast es planteja de manera proporcional: carrosseria, pintura, motor, transmissió, interior i enginyeria es defineixen dins del mateix projecte. Una millora aïllada no ha de traslladar el problema a cap altre component. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: es decideix quin caràcter ha de romandre i quines limitacions es volen corregir. La velocitat màxima poques vegades explica per si sola un cotxe agradable, fiable i utilitzable. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què no inclou Restomod",
+      "parrafos": [],
+      "items": [
+        "No inclou treballs aliens a l’abast acordat per a Restomod.",
+        "Qualsevol ampliació es comprova i s’autoritza per separat."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda en lliurar Restomod",
       "parrafos": [
         "L'objectiu del lliurament és una unitat singular desenvolupada amb una especificació pròpia, provada i documentada com a conjunt, no com a col·lecció de modificacions independents. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
         "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
@@ -111,8 +135,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 29,
-    "total": 29,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

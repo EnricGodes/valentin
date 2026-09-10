@@ -18,48 +18,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
-      "parrafos": [
-        "Noi di Valentín Motors comprendiamo che un'ispezione pre-acquisto trasforma le affermazioni presenti nell'annuncio e la cronologia del veicolo in verifiche concrete sull'auto prima di impegnarsi su un prezzo. Ecco perché la nostra conversazione iniziale non si concentra su un elenco di servizi, ma piuttosto sull'auto stessa, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione si basa su documentazione, origine, chilometraggio, manutenzione, diagnostica, motore, cambio, prova su strada, carrozzeria, verniciatura e rischi specifici del modello. In caso di informazioni mancanti, vengono indicati i controlli necessari per ottenerle prima di convertire un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
-          "alt": "Ispezione Porsche durante un controllo pre-acquisto"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
-      "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: può essere eseguito in officina o recandosi presso il luogo in cui si trova il veicolo, in Spagna o all'estero, a seconda del servizio descritto. Le attività vengono prioritarie per evitare doppi smontaggi, occultamento di sintomi e sostituzione di un componente quando è ancora diagnosticabile o riparabile.",
-        "La decisione tecnica viene presa in base a questo criterio: un difetto non comporta automaticamente il rifiuto. Il rapporto distingue tra manutenzione ordinaria, rischio, riparazioni in sospeso e segni che mettono in dubbio l'identità o la descrizione del veicolo. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa facciamo",
-      "parrafos": [
-        "Valutiamo l'auto che stai pensando di acquistare: condizioni meccaniche, condizioni della carrozzeria, storico documentato e confronto tra le informazioni pubblicizzate e le reali condizioni del veicolo. Questo può essere fatto presso la nostra officina o recandoci sul posto, in Spagna o all'estero.",
-        "Questo è il servizio che Le fa risparmiare di più ed è il meno richiesto."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Cosa controlliamo",
-      "parrafos": [],
+      "parrafos": [
+        "Una 911 996 o 997 può nascondere un intervento IMS ancora da eseguire o bore scoring anche se annuncio e storico sembrano corretti."
+      ],
       "items": [
         "Documentazione: proprietà, gravami, storico di radiazione e ITV.",
         "Corrispondenza del chilometraggio con il libretto di manutenzione e lo strumento di diagnostica del veicolo.",
@@ -68,6 +30,16 @@
         "Condizioni di IMS nei motori M96 e M97 interessati.",
         "Carrozzeria: fessure, spessore della vernice e segni di riparazione.",
         "Relazione scritta con fotografie e una chiara raccomandazione."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa non comprende Ispezione pre-acquisto",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Ispezione pre-acquisto.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
       ],
       "imagenes": []
     },
@@ -82,7 +54,45 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Cosa facciamo: Ispezione pre-acquisto",
+      "parrafos": [
+        "Valutiamo l'auto che stai pensando di acquistare: condizioni meccaniche, condizioni della carrozzeria, storico documentato e confronto tra le informazioni pubblicizzate e le reali condizioni del veicolo. Questo può essere fatto presso la nostra officina o recandoci sul posto, in Spagna o all'estero.",
+        "Questo è il servizio che Le fa risparmiare di più ed è il meno richiesto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Da dove inizia Ispezione pre-acquisto",
+      "parrafos": [
+        "Un'ispezione pre-acquisto trasforma le affermazioni presenti nell'annuncio e la cronologia del veicolo in verifiche concrete sull'auto prima di impegnarsi su un prezzo. Ecco perché la nostra conversazione iniziale non si concentra su un elenco di servizi, ma piuttosto sull'auto stessa, sulla sua storia e sul risultato che il proprietario si aspetta.",
+        "La valutazione si basa su documentazione, origine, chilometraggio, manutenzione, diagnostica, motore, cambio, prova su strada, carrozzeria, verniciatura e rischi specifici del modello. In caso di informazioni mancanti, vengono indicati i controlli necessari per ottenerle prima di convertire un'ipotesi in un preventivo."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
+          "alt": "Ispezione Porsche durante un controllo pre-acquisto"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Definire l’ambito di Ispezione pre-acquisto",
+      "parrafos": [
+        "L'ambito di intervento è definito proporzionalmente: può essere eseguito in officina o recandosi presso il luogo in cui si trova il veicolo, in Spagna o all'estero, a seconda del servizio descritto. Le attività vengono prioritarie per evitare doppi smontaggi, occultamento di sintomi e sostituzione di un componente quando è ancora diagnosticabile o riparabile.",
+        "La decisione tecnica viene presa in base a questo criterio: un difetto non comporta automaticamente il rifiuto. Il rapporto distingue tra manutenzione ordinaria, rischio, riparazioni in sospeso e segni che mettono in dubbio l'identità o la descrizione del veicolo. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa riceve il proprietario dopo Ispezione pre-acquisto",
       "parrafos": [
         "Lo scopo della consegna è un rapporto scritto con fotografie e una chiara raccomandazione di negoziare, procedere con ulteriori verifiche o rinunciare all'acquisto. La spiegazione finale dovrebbe chiarire cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -132,8 +142,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 38,
-    "total": 38,
+    "hechas": 40,
+    "total": 40,
     "completa": true
   }
 }

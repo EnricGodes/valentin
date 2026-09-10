@@ -17,33 +17,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
+      "titulo": "Cosa facciamo: Personalizzazione",
       "parrafos": [
-        "Noi di Valentín Motors comprendiamo che personalizzare una Porsche richiede di distinguere tra un miglioramento utile, una modifica estetica reversibile e un intervento che potrebbe alterare permanentemente il valore o l'identità dell'auto. Per questo motivo, il primo colloquio non si concentra su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione si basa sul modello, sulla sua rarità, sulle condizioni attuali, sull'uso previsto, sulle priorità del proprietario e sulle implicazioni per l'omologazione. In caso di informazioni mancanti, vengono indicati i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
-      "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: il progetto può concentrarsi sugli interni, sulla carrozzeria o sulla dinamica, oppure coordinare tutte e tre le aree. Comprende anche soluzioni TECHART per modelli attuali e commissioni uniche. Le attività vengono prioritarie per evitare doppi smontaggi, nascondere i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica si basa sui seguenti criteri: le alternative vengono confrontate in termini di integrazione, reversibilità, manutenzione futura e uniformità. Il fatto che una modifica sia tecnicamente possibile non significa che sia adatta a ogni veicolo. Se emerge un problema che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa facciamo",
-      "parrafos": [
+        "Una 911 964 può ricevere modifiche a carrozzeria, dinamica e interni, ma non tutte sono adatte a un esemplare raro.",
         "Progetti personalizzati su un'auto che resta Sua: modifiche alla carrozzeria, miglioramenti delle prestazioni e interni realizzati artigianalmente. Da un singolo componente a un ordine unico, di cui esisterà un solo esemplare.",
         "Siamo distributori e installatori autorizzati per i modelli da TECHART a 2019, coprendo l'intero catalogo di personalizzazione per i modelli attuali. Se non è presente nel catalogo, lo produciamo."
       ],
@@ -61,7 +37,56 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Da dove inizia Personalizzazione",
+      "parrafos": [
+        "Personalizzare una Porsche richiede di distinguere tra un miglioramento utile, una modifica estetica reversibile e un intervento che potrebbe alterare permanentemente il valore o l'identità dell'auto. Per questo motivo, il primo colloquio non si concentra su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
+        "La valutazione si basa sul modello, sulla sua rarità, sulle condizioni attuali, sull'uso previsto, sulle priorità del proprietario e sulle implicazioni per l'omologazione. In caso di informazioni mancanti, vengono indicati i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Definire l’ambito di Personalizzazione",
+      "parrafos": [
+        "L'ambito di intervento è definito proporzionalmente: il progetto può concentrarsi sugli interni, sulla carrozzeria o sulla dinamica, oppure coordinare tutte e tre le aree. Comprende anche soluzioni TECHART per modelli attuali e commissioni uniche. Le attività vengono prioritarie per evitare doppi smontaggi, nascondere i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica si basa sui seguenti criteri: le alternative vengono confrontate in termini di integrazione, reversibilità, manutenzione futura e uniformità. Il fatto che una modifica sia tecnicamente possibile non significa che sia adatta a ogni veicolo. Se emerge un problema che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa non comprende Personalizzazione",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Personalizzazione.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un caso documentato: Personalizzazione",
+      "parrafos": [
+        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/9-eleven-headlights-964\">questo caso documentato</a>."
+      ],
+      "items": [
+        "[[VERIFICARE: assegnare a questo caso una fotografia del Magazine già selezionata.]]"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/27d7c7b0-f6c4ca7d-4d88-4504-bf87-f1955c4272ea.jpg",
+          "alt": "Frontale della 964 bianca con il faro a LED acceso e lo stemma Porsche sul cofano"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa riceve il proprietario dopo Personalizzazione",
       "parrafos": [
         "L'obiettivo della consegna è una specifica personalizzata che mantenga una logica complessiva e che sia sostenibile e comprensibile nel tempo. La spiegazione finale dovrebbe consentirci di comprendere cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o pianificare in seguito.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -71,7 +96,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Come prepararsi per la prima consulenza",
+      "titulo": "Come prepararsi per la prima consulenza: Personalizzazione",
       "parrafos": [
         "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
         "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
@@ -121,8 +146,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 32,
-    "total": 32,
+    "hechas": 38,
+    "total": 38,
     "completa": true
   }
 }

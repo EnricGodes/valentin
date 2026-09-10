@@ -13,9 +13,32 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
+      "titulo": "Tarifs fixes, par modèle",
       "parrafos": [
-        "Chez Valentín Motors, nous savons que des tarifs spécifiques à chaque modèle vous permettent de connaître le prix des interventions courantes sans avoir à examiner votre véhicule. C’est pourquoi la conversation initiale ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son historique et les résultats attendus par son propriétaire.",
+        "Le coût d'entretien varie selon le modèle : un 911 refroidi par air coûte plus cher qu'un Macan, et au sein de la même gamme 911, un SC coûte également plus cher qu'un 992. C'est pourquoi les tarifs sont détaillés par modèle : sélectionnez le vôtre pour consulter le coût de chaque intervention.",
+        "Il s'agit de tarifs de référence fixes. Le devis final dépend de l'état du véhicule à son arrivée, et celui-ci ne peut être établi qu'après inspection du véhicule.",
+        "Chaque famille a la sienne : <a href=\"/porsche-911-mantenimiento-taller\">entretien pour les modèles Porsche 911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">entretien pour les modèles Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">entretien pour les modèles Cayman et Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">entretien pour les modèles Transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">entretien pour les modèles GT</a> et <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">entretien pour les modèles Cayenne et Macan</a>."
+      ],
+      "items": [
+        "[[VÉRIFIER : l’export ne contient pas les montants du tableau publié ; les ajouter avant l’importation.]]"
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Tarifs ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Tarifs ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le point de départ de Tarifs",
+      "parrafos": [
+        "Des tarifs spécifiques à chaque modèle vous permettent de connaître le prix des interventions courantes sans avoir à examiner votre véhicule. C’est pourquoi la conversation initiale ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son historique et les résultats attendus par son propriétaire.",
         "L'évaluation est basée sur le modèle, la génération, la version, la boîte de vitesses, la prestation demandée et l'historique de maintenance récent. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant de transformer une hypothèse en devis."
       ],
       "items": [],
@@ -23,32 +46,20 @@
     },
     {
       "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
+      "titulo": "Définir le périmètre de Tarifs",
       "parrafos": [
         "Le périmètre est défini proportionnellement : les tableaux publiés couvrent les interventions mineures, les interventions majeures, le liquide de frein, la géométrie et le contrôle avant achat pour les familles spécifiées. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation d'un symptôme et le remplacement d'un ensemble alors qu'il peut encore être diagnostiqué ou réparé.",
         "La décision technique est prise selon le critère suivant : un prix fixe décrit une opération et ses éléments prévus. Si le contrôle révèle une usure, un dommage ou des travaux antérieurs non conformes, un devis séparé est établi avant d'étendre le périmètre. Si une constatation modifie la commande, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
       ],
       "items": [
         "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
+        "Vérifications requises avant intervention."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Tarifs fixes, par modèle",
-      "parrafos": [
-        "Le coût d'entretien varie selon le modèle : un 911 refroidi par air coûte plus cher qu'un Macan, et au sein de la même gamme 911, un SC coûte également plus cher qu'un 992. C'est pourquoi les tarifs sont détaillés par modèle : sélectionnez le vôtre pour consulter le coût de chaque intervention.",
-        "Il s'agit de tarifs de référence fixes. Le devis final dépend de l'état du véhicule à son arrivée, et celui-ci ne peut être établi qu'après inspection du véhicule."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Ce que reçoit le propriétaire après Tarifs",
       "parrafos": [
         "Ce rapport a pour but de fournir un point de référence comparable avant la prise de rendez-vous et, une fois le véhicule identifié, de confirmer la prestation appropriée à sa version et à son état. L'explication finale doit préciser les interventions réalisées, leur justification et les points à noter ou à planifier ultérieurement.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -58,7 +69,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale",
+      "titulo": "Comment se préparer à la consultation initiale : Tarifs",
       "parrafos": [
         "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
         "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
@@ -108,8 +119,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 30,
-    "total": 30,
+    "hechas": 33,
+    "total": 33,
     "completa": true
   }
 }

@@ -19,50 +19,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
-      "parrafos": [
-        "At Valentín Motors, we understand that rebuilding a Porsche engine requires translating symptoms and signs into precise measurements before selecting parts or defining the scope of work. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's desired outcome.",
-        "Assessment begins with the condition of the oil and filter, followed by compression testing (where applicable), and checks for leaks, noises, pressures, tolerances, cylinder ovality, cylinder heads, liners, the crankshaft, and the timing system. If information is missing, we specify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Engine restoration"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope is determined proportionally: our dedicated engine room handles air-cooled flat-six engines (M96 and M97), racing engines, the transaxle family, and modern engines backed by our workshop's extensive experience. Tasks are sequenced to avoid redundant disassembly, ensure no symptoms are overlooked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
-        "Technical decisions are guided by this principle: alternatives are presented only after disassembly, cleaning, and measurement. Repairing only the visible fault may be insufficient, yet replacing everything indiscriminately is not sound technical practice. If a discovery alters the original scope, it is separated from the approved work and explained before we proceed."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What we do",
+      "titulo": "What we do: Porsche engines",
       "parrafos": [
         "We restore, refurbish, and repair any engine from the brand,ranging from the four-cylinder boxer of the 356 to modern units,in our dedicated engine room. This is the facility that defines our identity, a specialized space that even official dealerships often lack.",
         "We collect engines from all over Spain. There is no need to bring the entire car; if the engine has already been removed, it can be transported on its own."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "How we work",
-      "parrafos": [
-        "We do not open an engine just to replace a single part. The engine is opened up, everything is measured, and decisions are made based on the actual figures: clearances, ovality, cylinder head flatness, and the condition of the cylinder liners and crankshaft. The quote is generated from this data,not before.",
-        "We have our own machinery and tooling, as well as a dedicated parts-sourcing department,which, for a forty-year-old engine, accounts for half the job."
       ],
       "items": [],
       "imagenes": []
@@ -82,7 +42,64 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "How we work",
+      "parrafos": [
+        "We do not open an engine just to replace a single part. The engine is opened up, everything is measured, and decisions are made based on the actual figures: clearances, ovality, cylinder head flatness, and the condition of the cylinder liners and crankshaft. The quote is generated from this data,not before.",
+        "We have our own machinery and tooling, as well as a dedicated parts-sourcing department,which, for a forty-year-old engine, accounts for half the job."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What Porsche engines does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Porsche engines.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "A documented case: Porsche engines",
+      "parrafos": [
+        "The Magazine shows the work and its photographs in <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">this documented case</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+          "alt": "Engine restoration"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Where Porsche engines starts",
+      "parrafos": [
+        "Rebuilding a Porsche engine requires translating symptoms and signs into precise measurements before selecting parts or defining the scope of work. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's desired outcome.",
+        "Assessment begins with the condition of the oil and filter, followed by compression testing (where applicable), and checks for leaks, noises, pressures, tolerances, cylinder ovality, cylinder heads, liners, the crankshaft, and the timing system. If information is missing, we specify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Porsche engines",
+      "parrafos": [
+        "The scope is determined proportionally: our dedicated engine room handles air-cooled flat-six engines (M96 and M97), racing engines, the transaxle family, and modern engines backed by our workshop's extensive experience. Tasks are sequenced to avoid redundant disassembly, ensure no symptoms are overlooked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
+        "Technical decisions are guided by this principle: alternatives are presented only after disassembly, cleaning, and measurement. Repairing only the visible fault may be insufficient, yet replacing everything indiscriminately is not sound technical practice. If a discovery alters the original scope, it is separated from the approved work and explained before we proceed."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Porsche engines",
       "parrafos": [
         "The final deliverable consists of a scope-based quote, a component log, and an engine that has been assembled, tuned, and tested according to approved decisions. The final explanation ensures you understand what was done, why it was done, and what should be monitored or scheduled for the future.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -132,8 +149,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 40,
+    "total": 40,
     "completa": true
   }
 }

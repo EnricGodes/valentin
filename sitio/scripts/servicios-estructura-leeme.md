@@ -41,22 +41,54 @@ lo que le hemos dado son diecinueve formas casi iguales.
 
 ## Regla que gobierna toda la vuelta
 
-> **Un encabezado no puede repetirse en más de tres de las diecinueve páginas.**
+> **Un encabezado no puede repetirse en más de tres de las diecinueve páginas,
+> ni la misma fórmula con el nombre del servicio detrás.**
 
 Se salvan dos, que son estructura y no contenido: `Preguntas frecuentes` y
 `Servicios relacionados`. Todo lo demás se escribe para esa página.
 
-Es comprobable. Cuando entre la tanda, este script se añade a `npm run build`
-junto a los demás validadores, y a partir de ahí la regla la mantiene el build y
-no la memoria de nadie:
+**La segunda mitad de la regla no estaba en la primera versión de este
+documento, y se nota.** La segunda vuelta cumplió la primera mitad al pie de la
+letra y dejó el esqueleto intacto: las cuatro secciones comunes se renombraron
+añadiéndoles el nombre del servicio.
 
-```js
-// scripts/validar-servicios.ts (pendiente de la segunda vuelta)
-// Cuenta los H2 de las 19 paginas y falla si uno se repite en mas de tres.
-// No se activa antes: con el contenido de hoy tumbaria el build de salida.
-```
+| Primera vuelta | Segunda vuelta | En cuántas |
+|---|---|---:|
+| El servicio empieza por definir el problema | El punto de partida para **X** | 19 |
+| Diagnóstico, alcance y autorización | Decidir el alcance de **X** | 19 |
+| Qué puede esperar el propietario | Qué queda al entregar **X** | 19 |
+| — | Lo que no incluye **X** | 19 |
+
+Diecinueve encabezados literalmente distintos y una sola plantilla. Cambiarle
+el final a una fórmula no la hace distinta: quien lee dos páginas seguidas ve
+la misma escalera.
+
+Es comprobable, y ya se comprueba: `scripts/validar-servicios.ts` corre dentro de `npm run build`. Tumba el
+build si un encabezado se repite en más de tres páginas, si una abre con la
+fórmula de la primera vuelta o si le faltan bloques de lista. Y **avisa**, sin
+tumbar, cuando seis o más páginas comparten las tres primeras palabras de un
+encabezado: es lo que hoy dice de las cuatro secciones de la tabla de arriba.
+
+Ese aviso es el trabajo pendiente. Se apaga cuando las cuatro dejen de estar en
+las diecinueve, no antes, y entonces puede pasar a ser fallo.
 
 ---
+
+## El pendiente concreto de la tercera vuelta
+
+Cuatro secciones, presentes en las 19 páginas, que hay que resolver de otra
+manera. No se trata de renombrarlas otra vez:
+
+- **Fundirlas donde repiten.** «El punto de partida» y «Decidir el alcance»
+  dicen casi lo mismo en la mitad de las páginas. Donde así sea, una sola.
+- **Moverlas donde estorban.** En `taller-ims` las cuatro caen al final, después
+  del caso documentado, y «El punto de partida» aparece como octava sección. Un
+  punto de partida que llega el octavo no es un punto de partida.
+- **Quitarlas donde no aportan.** `storage` tiene siete secciones y cuatro son
+  estas. La página se queda en tres cosas propias.
+- **Escribirlas como contenido donde sí valen.** En un proyecto largo, decidir
+  el alcance importa de verdad: ahí que hable de plazos, de fases y de quién
+  autoriza qué, no de método en abstracto.
 
 ## Cuatro formas, no una
 

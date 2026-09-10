@@ -13,52 +13,22 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servei comença per definir el problema",
-      "parrafos": [
-        "A Valentín Motors entenem que el manteniment Porsche ha de seguir el pla del fabricant i adaptar-se al temps, quilometratge, tipus dús i antecedents de la unitat. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix d'historial, data i quilometratge del darrer servei, avisos, fluids, desgast, fuites i observacions del propietari. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
-          "alt": "Nau del taller amb un 911 964 turquesa i un 911 clàssic blanc en primer pla"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnòstic, abast i autorització",
-      "parrafos": [
-        "L'abast es planteja de forma proporcional: es publiquen servei menor i servei major per model, a més d'operacions com a líquid de frens, geometria i inspecció precompra quan corresponen. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: una pauta serveix com a base, però un clàssic dús ocasional i un 992 diari envelleixen de forma diferent. Se separen operacions programades d'incidències descobertes durant la revisió. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi.",
-        "Treballs inclosos, alternatives i elements pendents de confirmar.",
-        "Autorització abans d ampliar l abast."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què fem",
-      "parrafos": [
-        "Seguim els plans de manteniment que especifica el fabricant, amb recanvis originals i les pautes de Porsche. La diferència amb el servei oficial no és com es fa, sinó en el que costa i en qui ho fa: el mateix tècnic veu el teu cotxe cada vegada.",
-        "Tots els preus estan publicats per model. No hi ha pressupost sorpresa: saps el que costa un servei més gran del teu 993 abans de portar-lo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Servei menor i servei major",
       "parrafos": [
         "El servei menor és filtre i oli de motor més una comprovació de vint-i-tres punts. El servei major inclou el menor i afegeix trenta punts més: filtres daire i habitacle, bugies quan toca, i la revisió de tot el que es desgasta sense avisar.",
         "A banda van el líquid de frens, la geometria i la inspecció pre-compra, que també tenen preu tancat."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què no inclou Manteniment",
+      "parrafos": [],
+      "items": [
+        "No inclou treballs aliens a l’abast acordat per a Manteniment.",
+        "Qualsevol ampliació es comprova i s’autoritza per separat."
+      ],
       "imagenes": []
     },
     {
@@ -72,7 +42,45 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què pot esperar el propietari",
+      "titulo": "Què fem en Manteniment",
+      "parrafos": [
+        "Seguim els plans de manteniment que especifica el fabricant, amb recanvis originals i les pautes de Porsche. La diferència amb el servei oficial no és com es fa, sinó en el que costa i en qui ho fa: el mateix tècnic veu el teu cotxe cada vegada.",
+        "Tots els preus estan publicats per model. No hi ha pressupost sorpresa: saps el que costa un servei més gran del teu 993 abans de portar-lo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El punt de partida de Manteniment",
+      "parrafos": [
+        "El manteniment Porsche ha de seguir el pla del fabricant i adaptar-se al temps, quilometratge, tipus d’ús i antecedents de la unitat. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix d'historial, data i quilometratge del darrer servei, avisos, fluids, desgast, fuites i observacions del propietari. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Nau del taller amb un 911 964 turquesa i un 911 clàssic blanc en primer pla"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Decidir l’abast de Manteniment",
+      "parrafos": [
+        "L'abast es planteja de forma proporcional: es publiquen servei menor i servei major per model, a més d'operacions com a líquid de frens, geometria i inspecció precompra quan corresponen. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: una pauta serveix com a base, però un clàssic d’ús ocasional i un 992 diari envelleixen de forma diferent. Se separen operacions programades d'incidències descobertes durant la revisió. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda en lliurar Manteniment",
       "parrafos": [
         "L'objectiu del lliurament és manteniment registrat, llista de comprovacions i explicació dels treballs que necessiten atenció immediata, seguiment o cita independent. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
         "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
@@ -102,7 +110,7 @@
       "nivel": 3,
       "titulo": "És suficient mirar el quilometratge?",
       "parrafos": [
-        "No. Els fluids i alguns materials envelleixen també per temps. En els refrigerats per aire dús ocasional es recomana canvi doli anual encara que recorrin pocs quilòmetres."
+        "No. Els fluids i alguns materials envelleixen també per temps. En els refrigerats per aire d’ús ocasional es recomana canvi d’oli anual encara que recorrin pocs quilòmetres."
       ],
       "items": [],
       "imagenes": []
@@ -122,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

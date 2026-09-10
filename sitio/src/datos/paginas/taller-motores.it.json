@@ -19,50 +19,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
-      "parrafos": [
-        "Noi di Valentín Motors comprendiamo che la revisione di un motore Porsche richiede la traduzione di sintomi e indicazioni in misurazioni prima di selezionare i ricambi o promettere un intervento. Per questo motivo, il colloquio iniziale non si concentra su un catalogo di servizi, ma piuttosto sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
-        "La valutazione inizia con l'analisi delle condizioni dell'olio e del filtro, della compressione (ove applicabile), di eventuali perdite, rumori, pressioni, tolleranze, ovalizzazione, testate, camicie dei cilindri, albero motore e fasatura. Qualora mancassero delle informazioni, indichiamo quali test sono necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Restauro del motore"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
-      "parrafos": [
-        "L'entità del lavoro viene determinata proporzionalmente: la nostra officina specializzata si occupa di motori boxer raffreddati ad aria, motori M96 e M97, motori da competizione, famiglie transaxle e motori di ultima generazione documentati nell'esperienza dell'officina. Gli interventi vengono programmati in modo da evitare doppi smontaggi, mascherare i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica viene presa secondo questo criterio: dopo lo smontaggio, la pulizia e le misurazioni, vengono presentate le alternative. Riparare solo il guasto visibile potrebbe non essere sufficiente, ma sostituire tutto indiscriminatamente non è un approccio tecnicamente valido. Se emerge un riscontro che modifica l'ordine di lavoro, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa facciamo",
+      "titulo": "Cosa facciamo: Motori Porsche",
       "parrafos": [
         "Restauriamo, rimettiamo a nuovo e ripariamo qualsiasi motore del marchio, dal boxer a quattro cilindri della 356 ai modelli attuali, nella nostra officina specializzata. È il reparto che dà il nome all'azienda, un reparto che nemmeno le concessionarie ufficiali possiedono.",
         "Ritiriamo i motori da tutta la Spagna. Non è necessario portare l'auto: se il motore si trova già all'esterno, viaggia da solo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Come lavoriamo",
-      "parrafos": [
-        "Un motore non viene aperto solo per sostituire un pezzo. Viene aperto, tutto viene misurato e le decisioni vengono prese in base ai dati: giochi, ovalizzazione, planarità della testata, condizioni delle camicie dei cilindri e dell'albero motore. Il preventivo si basa su queste misurazioni, e non prima.",
-        "Disponiamo di macchinari e strumenti propri, nonché di un reparto di ricerca ricambi che, per un motore di quarant'anni, rappresenta metà del lavoro."
       ],
       "items": [],
       "imagenes": []
@@ -82,7 +42,64 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Come lavoriamo",
+      "parrafos": [
+        "Un motore non viene aperto solo per sostituire un pezzo. Viene aperto, tutto viene misurato e le decisioni vengono prese in base ai dati: giochi, ovalizzazione, planarità della testata, condizioni delle camicie dei cilindri e dell'albero motore. Il preventivo si basa su queste misurazioni, e non prima.",
+        "Disponiamo di macchinari e strumenti propri, nonché di un reparto di ricerca ricambi che, per un motore di quarant'anni, rappresenta metà del lavoro."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa non comprende Motori Porsche",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Motori Porsche.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un caso documentato: Motori Porsche",
+      "parrafos": [
+        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">questo caso documentato</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+          "alt": "Restauro del motore"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Da dove inizia Motori Porsche",
+      "parrafos": [
+        "La revisione di un motore Porsche richiede la traduzione di sintomi e indicazioni in misurazioni prima di selezionare i ricambi o promettere un intervento. Per questo motivo, il colloquio iniziale non si concentra su un catalogo di servizi, ma piuttosto sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
+        "La valutazione inizia con l'analisi delle condizioni dell'olio e del filtro, della compressione (ove applicabile), di eventuali perdite, rumori, pressioni, tolleranze, ovalizzazione, testate, camicie dei cilindri, albero motore e fasatura. Qualora mancassero delle informazioni, indichiamo quali test sono necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Definire l’ambito di Motori Porsche",
+      "parrafos": [
+        "L'entità del lavoro viene determinata proporzionalmente: la nostra officina specializzata si occupa di motori boxer raffreddati ad aria, motori M96 e M97, motori da competizione, famiglie transaxle e motori di ultima generazione documentati nell'esperienza dell'officina. Gli interventi vengono programmati in modo da evitare doppi smontaggi, mascherare i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica viene presa secondo questo criterio: dopo lo smontaggio, la pulizia e le misurazioni, vengono presentate le alternative. Riparare solo il guasto visibile potrebbe non essere sufficiente, ma sostituire tutto indiscriminatamente non è un approccio tecnicamente valido. Se emerge un riscontro che modifica l'ordine di lavoro, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa riceve il proprietario dopo Motori Porsche",
       "parrafos": [
         "L'obiettivo di consegna è un preventivo dettagliato, un elenco dei ricambi e un motore assemblato, messo a punto e collaudato secondo le specifiche approvate. La relazione finale deve spiegare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe monitorare o programmare in futuro.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -132,8 +149,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 40,
+    "total": 40,
     "completa": true
   }
 }

@@ -17,36 +17,6 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous considérons qu'une backdating doit apparaître comme une interprétation cohérente d'une 911 précédente, tout en préservant les atouts de la base choisie pour un usage quotidien. Par conséquent, la discussion initiale ne porte pas sur un catalogue de travaux, mais sur la voiture, son historique et le résultat escompté par son propriétaire.",
-        "L'évaluation débute par l'analyse de la génération initiale, de son état structurel et mécanique, de la configuration à recréer, de la réversibilité et des exigences d'homologation. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant de transformer une hypothèse en budget."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Salle du laboratoire d'idées, avec la table de travail et les échantillons de matériaux"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre du projet est planifié proportionnellement : carrosserie, éclairage, intérieur, roues, suspension et moteur peuvent tous en faire partie, mais toutes les voitures ne nécessitent pas le même degré de transformation. Les tâches sont priorisées afin d’éviter les doubles démontages, de dissimuler d’éventuels problèmes et de remplacer un ensemble alors qu’il peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon le critère suivant : le 964 offre généralement une architecture adaptée, mais la meilleure base reste un véhicule en bon état et documenté, permettant d’atteindre l’objectif sans sacrifier un exemplaire unique. Si une découverte modifie le projet, elle est mise de côté et expliquée avant toute poursuite des travaux."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Qu’est-ce qu’un backdating ?",
       "parrafos": [
         "Un backdating permet de rapprocher l'apparence d'une 911 d'une génération précédente tout en conservant sa mécanique. L'idée est d'avoir les lignes d'une voiture des années 1970 avec la tenue de route, le freinage et la fiabilité d'un modèle des années 1990.",
@@ -67,7 +37,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Le point de départ de Backdating",
+      "parrafos": [
+        "Une backdating doit apparaître comme une interprétation cohérente d'une 911 précédente, tout en préservant les atouts de la base choisie pour un usage quotidien. Par conséquent, la discussion initiale ne porte pas sur un catalogue de travaux, mais sur la voiture, son historique et le résultat escompté par son propriétaire.",
+        "L'évaluation débute par l'analyse de la génération initiale, de son état structurel et mécanique, de la configuration à recréer, de la réversibilité et des exigences d'homologation. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant de transformer une hypothèse en budget."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de Backdating",
+      "parrafos": [
+        "Le périmètre du projet est planifié proportionnellement : carrosserie, éclairage, intérieur, roues, suspension et moteur peuvent tous en faire partie, mais toutes les voitures ne nécessitent pas le même degré de transformation. Les tâches sont priorisées afin d’éviter les doubles démontages, de dissimuler d’éventuels problèmes et de remplacer un ensemble alors qu’il peut encore être diagnostiqué ou réparé.",
+        "La décision technique est prise selon le critère suivant : le 964 offre généralement une architecture adaptée, mais la meilleure base reste un véhicule en bon état et documenté, permettant d’atteindre l’objectif sans sacrifier un exemplaire unique. Si une découverte modifie le projet, elle est mise de côté et expliquée avant toute poursuite des travaux."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que Backdating ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour Backdating ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un cas documenté : Backdating",
+      "parrafos": [
+        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/backdating-base-964\">ce cas documenté</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Salle du laboratoire d'idées, avec la table de travail et les échantillons de matériaux"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après Backdating",
       "parrafos": [
         "L'objectif de la livraison est un projet défini par un cahier des charges, avec une apparence, une dynamique et des finitions cohérentes. L'explication finale doit nous permettre de comprendre ce qui a été fait, pourquoi cela a été fait et ce qui doit être observé ou programmé ensuite.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -117,8 +134,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 31,
-    "total": 31,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

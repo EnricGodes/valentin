@@ -17,36 +17,6 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
-      "parrafos": [
-        "At Valentín Motors, we understand that a backdating must appear as a coherent interpretation of an earlier 911 while retaining the advantages of the chosen base vehicle for actual use. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the outcome the owner envisions.",
-        "The assessment is based on the donor generation, its structural and mechanical condition, the desired configuration, reversibility, and homologation requirements. When information is missing, the necessary checks to obtain it are specified before a hypothesis is converted into a cost estimate."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "The ideas lab room, with its worktable and material samples"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope of work is determined on a proportional basis: bodywork, lighting, interior, wheels, suspension, and engine may all be part of the job, yet not every car requires the same level of modification. Tasks are sequenced to avoid repeated disassembly, ensure symptoms are not masked, and prevent the replacement of an assembly that could still be diagnosed or repaired.",
-        "The technical decision is made based on this criterion: the 964 typically offers a suitable architecture, but the best starting point is a sound, well-documented unit that allows the objective to be met without sacrificing a rare or unique example. If a discovery arises that alters the scope of the commission, it is set apart from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "What is a backdating?",
       "parrafos": [
         "A backdating gives a 911 the aesthetic of an earlier generation while retaining its own mechanical underpinnings. The concept is to combine the lines of a 1970s car with the handling, braking, and reliability of a 1990s model.",
@@ -67,7 +37,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "Where Backdating starts",
+      "parrafos": [
+        "A backdating must appear as a coherent interpretation of an earlier 911 while retaining the advantages of the chosen base vehicle for actual use. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the outcome the owner envisions.",
+        "The assessment is based on the donor generation, its structural and mechanical condition, the desired configuration, reversibility, and homologation requirements. When information is missing, the necessary checks to obtain it are specified before a hypothesis is converted into a cost estimate."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Backdating",
+      "parrafos": [
+        "The scope of work is determined on a proportional basis: bodywork, lighting, interior, wheels, suspension, and engine may all be part of the job, yet not every car requires the same level of modification. Tasks are sequenced to avoid repeated disassembly, ensure symptoms are not masked, and prevent the replacement of an assembly that could still be diagnosed or repaired.",
+        "The technical decision is made based on this criterion: the 964 typically offers a suitable architecture, but the best starting point is a sound, well-documented unit that allows the objective to be met without sacrificing a rare or unique example. If a discovery arises that alters the scope of the commission, it is set apart from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What Backdating does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Backdating.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "A documented case: Backdating",
+      "parrafos": [
+        "The Magazine shows the work and its photographs in <a href=\"/magazine/backdating-base-964\">this documented case</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "The ideas lab room, with its worktable and material samples"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Backdating",
       "parrafos": [
         "The finished project is defined by its specifications, featuring an appearance, driving dynamics, and finish quality that form a cohesive whole. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled for future attention.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -117,8 +134,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 31,
-    "total": 31,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

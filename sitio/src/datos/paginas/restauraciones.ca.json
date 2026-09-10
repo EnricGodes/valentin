@@ -13,59 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servei comença per definir el problema",
-      "parrafos": [
-        "A Valentín Motors entenem que una restauració ha de recuperar un cotxe sense esborrar la seva història ni convertir cada troballa en una ampliació automàtica del projecte. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de la identitat de la unitat, la documentació, l'originalitat dels seus conjunts, la corrosió, les reparacions anteriors i l'ús que espera donar-li el propietari. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Restauració de vehicles Porsche"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Tauler d'un 911 T vermell amb l'emblema del model sobre la guantera"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior d'un 911 sèrie G restaurat, amb tapisseria beix i seients de quadres"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnòstic, abast i autorització",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: podeu cercar especificació d'origen, una rehabilitació per a ús freqüent, un backdating o un restomod. Són objectius diferents i no s'han de barrejar durant el desmuntatge. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: abans d'intervenir-hi es fixa què es conserva, què es repara, què se substitueix i quines modificacions han de ser reversibles. Les decisions importants es documenten per mantenir la coherència del conjunt. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi.",
-        "Treballs inclosos, alternatives i elements pendents de confirmar.",
-        "Autorització abans d ampliar l abast."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Porsche 911 993 blau fosc de tres quarts davant del taller"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Compartiment del motor obert d'un 911 marró amb la turbina daurada i els col·lectors a la vista"
-        },
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Sala del laboratori d'idees, amb la taula de treball i les mostres de materials"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "La responsabilitat del llegat",
       "parrafos": [
+        "Un 911 Sèrie F completament desmuntat obliga a decidir què es conserva abans de pensar en la pintura o el muntatge.",
         "Cada Porsche representa uns valors, una actitud i una forma determinada de concebre la conducció. La marca presenta una elegància i una bellesa atemporals, i sentim com a propi el deure de fer perdurar aquests principis.",
         "Per això, a Valentín Motors busquem recuperar la originalitat en els projectes de restauració i afegir nous valors als projectes de personalització."
       ],
@@ -188,31 +138,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què pot esperar el propietari",
+      "titulo": "El punt de partida de Restauracions",
       "parrafos": [
-        "L'objectiu del lliurament és un projecte traçable, amb les disciplines coordinades i amb un resultat que es pugui explicar peça a peça, des de la carrosseria fins a la posada al punt final. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Una restauració ha de recuperar un cotxe sense esborrar la seva història ni convertir cada troballa en una ampliació automàtica del projecte. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix de la identitat de la unitat, la documentació, l'originalitat dels seus conjunts, la corrosió, les reparacions anteriors i l'ús que espera donar-li el propietari. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Tauler d'un 911 clàssic amb els cinc rellotges i el volant de quatre radis"
+          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
+          "alt": "Restauració de vehicles Porsche"
         },
         {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Rehabilitació completa motor 2.2 1970 sèrie F"
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Tauler d'un 911 T vermell amb l'emblema del model sobre la guantera"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior d'un 911 sèrie G restaurat, amb tapisseria beix i seients de quadres"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Com preparar la primera consulta",
+      "titulo": "Decidir l’abast de Restauracions",
       "parrafos": [
-        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
-        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
+        "L'abast es planteja de manera proporcional: podeu cercar especificació d'origen, una rehabilitació per a ús freqüent, un backdating o un restomod. Són objectius diferents i no s'han de barrejar durant el desmuntatge. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: abans d'intervenir-hi es fixa què es conserva, què es repara, què se substitueix i quines modificacions han de ser reversibles. Les decisions importants es documenten per mantenir la coherència del conjunt. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
       ],
-      "items": [],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Porsche 911 993 blau fosc de tres quarts davant del taller"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Compartiment del motor obert d'un 911 marró amb la turbina daurada i els col·lectors a la vista"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Sala del laboratori d'idees, amb la taula de treball i les mostres de materials"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què no inclou Restauracions",
+      "parrafos": [],
+      "items": [
+        "No inclou treballs aliens a l’abast acordat per a Restauracions.",
+        "Qualsevol ampliació es comprova i s’autoritza per separat."
+      ],
       "imagenes": []
     },
     {
@@ -241,6 +221,35 @@
       "parrafos": [
         "L'experiència permet reconèixer patrons, però no substitueix una mesura quan pot canviar la decisió. Abans d'una intervenció costosa es busca la prova que diferencia el desgast normal, l'ajustament incorrecte i el dany intern. Aquesta pausa protegeix tant el cotxe com el pressupost.",
         "Si la comprovació no pot oferir una resposta concloent sense desmuntar, s‟explica aquest límit i es divideix el treball en fases. El propietari pot autoritzar primer el diagnòstic i decidir el pas següent amb els components a la vista."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda en lliurar Restauracions",
+      "parrafos": [
+        "L'objectiu del lliurament és un projecte traçable, amb les disciplines coordinades i amb un resultat que es pugui explicar peça a peça, des de la carrosseria fins a la posada al punt final. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
+        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Tauler d'un 911 clàssic amb els cinc rellotges i el volant de quatre radis"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Rehabilitació completa motor 2.2 1970 sèrie F"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Com preparar la primera consulta en Restauracions",
+      "parrafos": [
+        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
+        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
       ],
       "items": [],
       "imagenes": []
@@ -283,7 +292,7 @@
     },
     {
       "nivel": 3,
-      "titulo": "Originalitat o facilitat dús?",
+      "titulo": "Originalitat o facilitat d’ús?",
       "parrafos": [
         "Depèn de la raresa, l'estat, la història i el propòsit del cotxe. Primer es protegeix allò irreemplaçable i després es decideix on té sentit actualitzar."
       ],
@@ -305,8 +314,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 85,
-    "total": 85,
+    "hechas": 87,
+    "total": 87,
     "completa": true
   }
 }

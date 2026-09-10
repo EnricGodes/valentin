@@ -13,9 +13,29 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
+      "titulo": "Come inizia un progetto",
       "parrafos": [
-        "Noi di Valentín Motors comprendiamo che il reparto progetti trasforma un'intenzione generale in una specifica che l'officina può realizzare e che il cliente può valutare prima di iniziare. Pertanto, la conversazione iniziale si concentra non su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
+        "Una 911 destinata alla strada, alla collezione o alla pista richiede tre progetti diversi fin dal primo schizzo.",
+        "Con una conversazione e un'auto, in quest'ordine. Il primo passo è capire cosa si desidera dall'auto finita: se è destinata all'uso quotidiano, al rimessaggio o alle corse. Tutto il resto deriva da questo, compresa la parte più delicata: calcolare i costi e i tempi di realizzazione."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Il Laboratorio delle Idee",
+      "parrafos": [
+        "Prima che un progetto arrivi in officina, passa da qui. Qui studiamo cosa viene fatto altrove, confrontiamo le soluzioni con altri professionisti e testiamo ciò che verrà installato prima di montarlo sull'auto del cliente.",
+        "Questo reparto produce i componenti personalizzati che finiscono nelle auto da corsa e prende le decisioni di design per i restomod."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Da dove inizia Progettazione e design",
+      "parrafos": [
+        "Il reparto progetti trasforma un'intenzione generale in una specifica che l'officina può realizzare e che il cliente può valutare prima di iniziare. Pertanto, la conversazione iniziale si concentra non su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
         "La valutazione si basa sull'utilizzo previsto, la base disponibile, le condizioni dell'auto, i riferimenti estetici, le prestazioni desiderate, il budget e l'omologazione. In caso di informazioni mancanti, vengono specificate le verifiche necessarie per ottenerle prima di trasformare un'ipotesi in un preventivo."
       ],
       "items": [],
@@ -28,41 +48,46 @@
     },
     {
       "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
+      "titulo": "Definire l’ambito di Progettazione e design",
       "parrafos": [
         "L'ambito di lavoro viene definito proporzionalmente: vengono studiate alternative, compatibilità, componenti, produzione e sequenza di lavoro. Nei progetti complessi, si decide anche cosa deve essere testato prima dell'installazione finale. Le attività vengono prioritarie per evitare doppi smontaggi, nascondere un sintomo e sostituire un componente quando è ancora diagnosticabile o riparabile.",
         "La decisione tecnica viene presa secondo questo criterio: la progettazione implica lo scarto. Vengono privilegiate le soluzioni giustificabili e non si utilizza un insieme di componenti funzionanti per creare un'auto non omogenea. Se emerge un riscontro che modifica il progetto, questo viene separato dal lavoro approvato e spiegato prima di procedere."
       ],
       "items": [
         "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
+        "Verifiche richieste prima dell'intervento."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Il Laboratorio delle Idee",
+      "titulo": "Cosa non comprende Progettazione e design",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Progettazione e design.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un caso documentato: Progettazione e design",
       "parrafos": [
-        "Prima che un progetto arrivi in ​​officina, passa da qui. Qui studiamo cosa viene fatto altrove, confrontiamo le soluzioni con altri professionisti e testiamo ciò che verrà installato prima di montarlo sull'auto del cliente.",
-        "Questo reparto produce i componenti personalizzati che finiscono nelle auto da corsa e prende le decisioni di design per i restomod."
+        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/presentacion-pa10-01-madrid\">questo caso documentato</a>."
       ],
-      "items": [],
-      "imagenes": []
+      "items": [
+        "[[VERIFICARE: collegare un progetto reale del Magazine e assegnarne la fotografia.]]"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc57c760-DSC03556.jpg",
+          "alt": "Coda del PA10/01 crema alla presentazione di Madrid, con gli ospiti attorno"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Come inizia un progetto",
-      "parrafos": [
-        "Con una conversazione e un'auto, in quest'ordine. Il primo passo è capire cosa si desidera dall'auto finita: se è destinata all'uso quotidiano, al rimessaggio o alle corse. Tutto il resto deriva da questo, compresa la parte più delicata: calcolare i costi e i tempi di realizzazione."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Cosa riceve il proprietario dopo Progettazione e design",
       "parrafos": [
         "L'obiettivo del documento finale è fornire una descrizione chiara del progetto, suddivisa in fasi e collegata a decisioni tecniche, estetiche e di usabilità che non dipendano da improvvisazioni durante l'assemblaggio. La spiegazione finale dovrebbe consentire di comprendere cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -72,7 +97,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Come prepararsi per la prima consulenza",
+      "titulo": "Come prepararsi per la prima consulenza: Progettazione e design",
       "parrafos": [
         "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
         "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
@@ -122,8 +147,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

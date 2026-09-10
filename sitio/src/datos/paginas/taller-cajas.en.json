@@ -16,37 +16,7 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
-      "parrafos": [
-        "At Valentín Motors, we understand that a gearbox must be diagnosed based on its architecture and the precise moment a symptom appears, rather than just the general driving feel. That is why our initial conversation focuses not on a service menu, but on the car, its history, and the owner's expectations.",
-        "The assessment considers noise, the affected gear, temperature, load, oil history, leaks, the shift mechanism, the clutch, and performance when cold versus hot. If information is missing, we specify the necessary checks to obtain it before turning a hypothesis into a price quote."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "Gearboxes"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope of work is determined proportionally: we service Porsche manual and automatic transmissions,ranging from the 356, 915, and G50 models up to the 991 and 992 generations, including the Tiptronic and PDK, depending on the specific unit. Tasks are sequenced to avoid redundant disassembly, prevent masking symptoms, and avoid replacing an entire assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are based on the following criteria: synchronizers, bearings, shift forks, seals, the differential, the clutch, and control mechanisms are evaluated individually. For automatic transmissions, the control system, hydraulics, and mechanical components are also assessed separately. If a finding alters the scope of the initial request, that specific issue is separated from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What we do",
+      "titulo": "What we do: Gearboxes",
       "parrafos": [
         "We repair and rebuild all of the brand's gearboxes: the 356, 915, and G50 models, as well as later versions up to the 991 and 992. We also service automatic units,transmissions that are often deemed beyond repair, though rarely are.",
         "Rebuilding a gearbox is almost always a better option than replacing it; for classic cars, it is also the only way to preserve the correct serial numbers."
@@ -65,7 +35,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "What Gearboxes does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Gearboxes.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "A documented case: Gearboxes",
+      "parrafos": [
+        "The Magazine shows the work and its photographs in <a href=\"/magazine/restauracion-motor-965-turbo-33\">this documented case</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
+          "alt": "Gearboxes"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Where Gearboxes starts",
+      "parrafos": [
+        "A gearbox must be diagnosed based on its architecture and the precise moment a symptom appears, rather than just the general driving feel. That is why our initial conversation focuses not on a service menu, but on the car, its history, and the owner's expectations.",
+        "The assessment considers noise, the affected gear, temperature, load, oil history, leaks, the shift mechanism, the clutch, and performance when cold versus hot. If information is missing, we specify the necessary checks to obtain it before turning a hypothesis into a price quote."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Gearboxes",
+      "parrafos": [
+        "The scope of work is determined proportionally: we service Porsche manual and automatic transmissions,ranging from the 356, 915, and G50 models up to the 991 and 992 generations, including the Tiptronic and PDK, depending on the specific unit. Tasks are sequenced to avoid redundant disassembly, prevent masking symptoms, and avoid replacing an entire assembly when it can still be diagnosed or repaired.",
+        "Technical decisions are based on the following criteria: synchronizers, bearings, shift forks, seals, the differential, the clutch, and control mechanisms are evaluated individually. For automatic transmissions, the control system, hydraulics, and mechanical components are also assessed separately. If a finding alters the scope of the initial request, that specific issue is separated from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Gearboxes",
       "parrafos": [
         "The deliverable consists of a report on findings and parts, a defined scope of work, and a reassembled, tested gearbox,avoiding the default approach of simply replacing the entire unit. The final explanation ensures an understanding of the work performed, the reasons behind it, and any subsequent observations or maintenance scheduling required.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -75,7 +92,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation",
+      "titulo": "How to prepare for the initial consultation: Gearboxes",
       "parrafos": [
         "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
         "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
@@ -125,8 +142,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 36,
+    "total": 36,
     "completa": true
   }
 }

@@ -17,33 +17,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
+      "titulo": "What we do: Customization",
       "parrafos": [
-        "At Valentín Motors, we understand that customizing a Porsche requires distinguishing between a functional upgrade, a reversible aesthetic change, and an intervention that could permanently alter the car's value or identity. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's desired outcome.",
-        "The assessment takes into account the model, its rarity, its current condition, intended use, the owner's priorities, and homologation implications. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope is determined proportionally: the project may focus on the interior, bodywork, or driving dynamics, or coordinate all three areas. It also encompasses TECHART solutions for current models and bespoke, one-off commissions. Tasks are sequenced to avoid redundant disassembly, masking underlying issues, or replacing an entire assembly when it could still be diagnosed or repaired.",
-        "Technical decisions are made based on the following criteria: alternatives are compared in terms of integration, reversibility, future maintenance, and coherence. Just because a modification is technically feasible does not mean it is suitable for every specific vehicle. If a discovery arises that alters the scope of the commission, it is separated from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What we do",
-      "parrafos": [
+        "A 911 964 can take body, chassis and interior changes, but not all of them suit a rare example.",
         "Bespoke projects for your existing car: bodywork modifications, performance upgrades, and handcrafted interiors. Options range from a specific component to a unique, one-off commission.",
         "We are authorized distributors and installers TECHART for 2019, covering the customization catalog for current models. Items not in the catalog are custom-manufactured."
       ],
@@ -61,7 +37,56 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "Where Customization starts",
+      "parrafos": [
+        "Customizing a Porsche requires distinguishing between a functional upgrade, a reversible aesthetic change, and an intervention that could permanently alter the car's value or identity. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's desired outcome.",
+        "The assessment takes into account the model, its rarity, its current condition, intended use, the owner's priorities, and homologation implications. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Customization",
+      "parrafos": [
+        "The scope is determined proportionally: the project may focus on the interior, bodywork, or driving dynamics, or coordinate all three areas. It also encompasses TECHART solutions for current models and bespoke, one-off commissions. Tasks are sequenced to avoid redundant disassembly, masking underlying issues, or replacing an entire assembly when it could still be diagnosed or repaired.",
+        "Technical decisions are made based on the following criteria: alternatives are compared in terms of integration, reversibility, future maintenance, and coherence. Just because a modification is technically feasible does not mean it is suitable for every specific vehicle. If a discovery arises that alters the scope of the commission, it is separated from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What Customization does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Customization.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "A documented case: Customization",
+      "parrafos": [
+        "The Magazine shows the work and its photographs in <a href=\"/magazine/9-eleven-headlights-964\">this documented case</a>."
+      ],
+      "items": [
+        "[[CHECK: assign a previously selected Magazine photograph to this case.]]"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/27d7c7b0-f6c4ca7d-4d88-4504-bf87-f1955c4272ea.jpg",
+          "alt": "Front of the white 964 with the LED headlight on and the Porsche crest on the bonnet"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Customization",
       "parrafos": [
         "The goal is a personalized specification that maintains a cohesive overall logic and remains maintainable and explainable over time. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled for the future.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -71,7 +96,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation",
+      "titulo": "How to prepare for the initial consultation: Customization",
       "parrafos": [
         "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
         "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
@@ -121,8 +146,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 32,
-    "total": 32,
+    "hechas": 38,
+    "total": 38,
     "completa": true
   }
 }

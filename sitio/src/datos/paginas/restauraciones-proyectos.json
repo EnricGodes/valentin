@@ -13,32 +13,12 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servicio empieza por definir el problema",
+      "titulo": "Cómo empieza un proyecto",
       "parrafos": [
-        "En Valentín Motors entendemos que el departamento de proyectos convierte una intención general en una especificación que el taller puede ejecutar y el cliente puede evaluar antes de empezar. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de el uso esperado, la base disponible, el estado del coche, las referencias estéticas, las prestaciones buscadas, el presupuesto y la homologación. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+        "Un 911 pensado para carretera, colección o circuito exige tres proyectos distintos desde el primer boceto.",
+        "Con una conversación y con un coche, en ese orden. Lo primero es entender qué se quiere del coche terminado: si es para usar, para guardar o para competir. Todo lo demás sale de ahí, incluida la parte incómoda, que es cuánto va a costar y cuánto va a tardar."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnóstico, alcance y autorización",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: se estudian alternativas, compatibilidades, piezas, fabricación y secuencia de trabajo. En proyectos complejos, también se decide qué debe probarse antes de instalarse de forma definitiva. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: diseñar implica descartar. Se priorizan soluciones justificables y se evita que una suma de buenas piezas termine produciendo un coche incoherente. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir.",
-        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
-        "Autorización antes de ampliar el alcance."
-      ],
       "imagenes": []
     },
     {
@@ -53,16 +33,59 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cómo empieza un proyecto",
+      "titulo": "El punto de partida para Proyectos y diseño",
       "parrafos": [
-        "Con una conversación y con un coche, en ese orden. Lo primero es entender qué se quiere del coche terminado: si es para usar, para guardar o para competir. Todo lo demás sale de ahí, incluida la parte incómoda, que es cuánto va a costar y cuánto va a tardar."
+        "El departamento de proyectos convierte una intención general en una especificación que el taller puede ejecutar y el cliente puede evaluar antes de empezar. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de el uso esperado, la base disponible, el estado del coche, las referencias estéticas, las prestaciones buscadas, el presupuesto y la homologación. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Decidir el alcance de Proyectos y diseño",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: se estudian alternativas, compatibilidades, piezas, fabricación y secuencia de trabajo. En proyectos complejos, también se decide qué debe probarse antes de instalarse de forma definitiva. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: diseñar implica descartar. Se priorizan soluciones justificables y se evita que una suma de buenas piezas termine produciendo un coche incoherente. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Qué puede esperar el propietario",
+      "titulo": "Lo que no incluye Proyectos y diseño",
+      "parrafos": [],
+      "items": [
+        "No incluye trabajos ajenos al alcance acordado para Proyectos y diseño.",
+        "Cualquier ampliación se comprueba y se autoriza por separado."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un caso documentado: Proyectos y diseño",
+      "parrafos": [
+        "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/presentacion-pa10-01-madrid\">este caso documentado</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc57c760-DSC03556.jpg",
+          "alt": "Zaga del PA10/01 crema en la presentación de Madrid, con los invitados alrededor"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué queda al entregar Proyectos y diseño",
       "parrafos": [
         "El objetivo de la entrega es un alcance comprensible, dividido por fases y conectado con decisiones técnicas, estéticas y de uso que no dependen de improvisaciones durante el montaje. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
         "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
@@ -72,7 +95,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cómo preparar la primera consulta",
+      "titulo": "Cómo preparar la primera consulta en Proyectos y diseño",
       "parrafos": [
         "Para orientar la consulta conviene facilitar el modelo, la versión, el año, el número de bastidor cuando sea relevante y el historial disponible. Si existe un síntoma, resulta útil describir cuándo aparece, con el motor frío o caliente, bajo carga o en retención, y si ha cambiado recientemente.",
         "Las facturas, fotografías y diagnósticos anteriores ayudan a evitar repeticiones, aunque no sustituyen una comprobación actual. Con esa información se decide si basta una cita de inspección, si debe trasladarse el coche o si puede recibirse únicamente el componente."

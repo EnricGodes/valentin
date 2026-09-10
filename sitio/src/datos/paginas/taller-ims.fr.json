@@ -18,37 +18,7 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Notre service commence par la définition du problème",
-      "parrafos": [
-        "Chez Valentín Motors, nous savons que toute intervention sur la IMS commence par l'identification du roulement correspondant au modèle, à l'année et, pour les années de transition, au numéro de moteur. C'est pourquoi notre première discussion porte non pas sur une liste d'interventions, mais sur le véhicule, son historique et le résultat souhaité par son propriétaire.",
-        "L'évaluation repose sur la configuration du véhicule, son historique, le niveau d'huile et le filtre, les bruits anormaux et l'inspection du coussinet installé lors de l'accès. En cas d'informations manquantes, les contrôles nécessaires sont indiqués avant d'établir un devis."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
-          "alt": "Porsche IMS"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnostic, périmètre et autorisation",
-      "parrafos": [
-        "Le périmètre de l'intervention est déterminé proportionnellement : la maintenance préventive publiée s'applique aux moteurs M96 et M97 et aux modèles pour lesquels le coussinet peut être remplacé sans ouverture du bloc-moteur. Les tâches sont priorisées afin d'éviter un double démontage, de masquer des symptômes et de remplacer un ensemble qui peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon les critères suivants : tous les moteurs IMS ne présentent pas le même risque ni ne permettent la même intervention. En présence de particules métalliques ou de bruits anormaux, la procédure préventive est interrompue et les dommages sont évalués avant toute reprise. Si un élément nouveau modifie la procédure, il est dissocié des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention.",
-        "Travaux inclus, alternatives et éléments en attente de confirmation.",
-        "Autorisation préalable à l'extension du périmètre."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Nos services",
+      "titulo": "Nos services : IMS Porsche",
       "parrafos": [
         "Nous remplaçons le palier d'arbre intermédiaire des moteurs M96 et M97, avec un prix fixe pour les modèles 1997 à 2006, en versions manuelle et automatique. Nous avons réalisé cette intervention des dizaines de fois, lors des trois révisions du palier montées par Porsche.",
         "Le remplacement préventif ne nécessite pas l'ouverture du bloc-moteur : la boîte de vitesses et le volant moteur ou le disque flexible sont déposés, et le palier est accessible par la bride. Le moteur n'est pas démonté, ce qui permet de maintenir un coût raisonnable par rapport au coût d'une panne."
@@ -92,6 +62,30 @@
     },
     {
       "nivel": 2,
+      "titulo": "Ce que IMS Porsche ne couvre pas",
+      "parrafos": [],
+      "items": [
+        "Les travaux hors du périmètre convenu pour IMS Porsche ne sont pas compris.",
+        "Toute extension est vérifiée et autorisée séparément."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un cas documenté : IMS Porsche",
+      "parrafos": [
+        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/que-es-el-ims-de-porsche\">ce cas documenté</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
       "titulo": "Lieu d'intervention",
       "parrafos": [
         "À Barcelone et à Madrid. Les travaux sont effectués en atelier ; si le moteur arrive endommagé, il est acheminé vers la salle des moteurs, où il est ouvert et examiné pièce par pièce."
@@ -101,7 +95,30 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que le propriétaire peut attendre",
+      "titulo": "Le point de départ de IMS Porsche",
+      "parrafos": [
+        "Toute intervention sur la IMS commence par l'identification du roulement correspondant au modèle, à l'année et, pour les années de transition, au numéro de moteur. C'est pourquoi notre première discussion porte non pas sur une liste d'interventions, mais sur le véhicule, son historique et le résultat souhaité par son propriétaire.",
+        "L'évaluation repose sur la configuration du véhicule, son historique, le niveau d'huile et le filtre, les bruits anormaux et l'inspection du coussinet installé lors de l'accès. En cas d'informations manquantes, les contrôles nécessaires sont indiqués avant d'établir un devis."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Définir le périmètre de IMS Porsche",
+      "parrafos": [
+        "Le périmètre de l'intervention est déterminé proportionnellement : la maintenance préventive publiée s'applique aux moteurs M96 et M97 et aux modèles pour lesquels le coussinet peut être remplacé sans ouverture du bloc-moteur. Les tâches sont priorisées afin d'éviter un double démontage, de masquer des symptômes et de remplacer un ensemble qui peut encore être diagnostiqué ou réparé.",
+        "La décision technique est prise selon les critères suivants : tous les moteurs IMS ne présentent pas le même risque ni ne permettent la même intervention. En présence de particules métalliques ou de bruits anormaux, la procédure préventive est interrompue et les dommages sont évalués avant toute reprise. Si un élément nouveau modifie la procédure, il est dissocié des travaux approuvés et expliqué avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que reçoit le propriétaire après IMS Porsche",
       "parrafos": [
         "Cette prestation comprend le démontage et le remontage de la transmission et des composants associés, le kit de révision approprié, les joints nécessaires, le réglage, les essais et la garantie mécanique décrite. L'explication finale permettra au client de comprendre les travaux effectués, leurs raisons et les points à surveiller ou à planifier ultérieurement.",
         "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
@@ -151,8 +168,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 46,
+    "total": 46,
     "completa": true
   }
 }

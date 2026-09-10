@@ -19,43 +19,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servei comença per definir el problema",
-      "parrafos": [
-        "A Valentín Motors entenem que una sala de motors pròpia permet que el diagnòstic, els mesuraments, la mecanització, el muntatge i la comprovació formin part del mateix criteri tècnic. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix dels símptomes previs, oli i filtre, compressió quan escau, estat de cada conjunt, folgures, ovalitzacions, planitud i traçabilitat de les peces. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/9f55a612-DSC03453.jpg",
-          "alt": "Treball de reconstrucció a la sala de motors, imatge 1"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnòstic, abast i autorització",
-      "parrafos": [
-        "L´abast es planteja de forma proporcional: treballem motors Porsche refrigerats per aire i per aigua, motors de competició, caixes de canvis i mecàniques clàssiques d´altres marques ja documentades en l´experiència del departament. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: un motor obert no rep automàticament totes les peces noves. Cada element es mesura i es classifica per conservar allò vàlid, corregir el necessari i presentar les opcions abans del muntatge. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi.",
-        "Treballs inclosos, alternatives i elements pendents de confirmar.",
-        "Autorització abans d ampliar l abast."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": "Treball de reconstrucció a la sala de motors, imatge 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Comptem amb experiència reparant motors clàssics de qualsevol marca",
       "parrafos": [
+        "Un motor M64 només revela l’abast real quan s’obre, es neteja i es mesura peça per peça.",
         "Un dels departaments dels que estem més orgullosos és la nostra sala de motors, on restaurem i actualitzem les unitats de potència i caixes de canvi de tots els 911 i altres clàssics Porsche.",
         "De fet, el nostre nom comercial, Valentín Motors, prové del nom del fundador i de «motors», com a símbol de la capacitat tècnica que la nostra empresa ha tingut des de 1979.",
         "Una sala de motors requereix una inversió considerable en recursos tècnics i coneixement. De fet, ni tan sols els concessionaris oficials de les marques en disposen.",
@@ -113,6 +79,44 @@
     },
     {
       "nivel": 2,
+      "titulo": "El punt de partida de Sala de motors",
+      "parrafos": [
+        "Una sala de motors pròpia permet que el diagnòstic, els mesuraments, la mecanització, el muntatge i la comprovació formin part del mateix criteri tècnic. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix dels símptomes previs, oli i filtre, compressió quan escau, estat de cada conjunt, folgures, ovalitzacions, planitud i traçabilitat de les peces. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Decidir l’abast de Sala de motors",
+      "parrafos": [
+        "L´abast es planteja de forma proporcional: treballem motors Porsche refrigerats per aire i per aigua, motors de competició, caixes de canvis i mecàniques clàssiques d´altres marques ja documentades en l´experiència del departament. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: un motor obert no rep automàticament totes les peces noves. Cada element es mesura i es classifica per conservar allò vàlid, corregir el necessari i presentar les opcions abans del muntatge. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Treball de reconstrucció a la sala de motors, imatge 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què no inclou Sala de motors",
+      "parrafos": [],
+      "items": [
+        "No inclou treballs aliens a l’abast acordat per a Sala de motors.",
+        "Qualsevol ampliació es comprova i s’autoritza per separat."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Entrevista amb Iván Bascuñana, motorista en cap",
       "parrafos": [
         "Quin moment és el més crucial o genera més estrès en el procés? El moment de comprovar la pressió d'oli amb el motor ja acoblat i, després, durant l'arrencada quan s'observa el resultat del treball complet. Tot el procés comporta un alt grau de responsabilitat, ja que els costos són elevats. Quina és la qualitat principal d'un motorista? Principalment, la passió i la cerca contínua de la perfecció.",
@@ -135,7 +139,21 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què pot esperar el propietari",
+      "titulo": "Un cas documentat: Sala de motors",
+      "parrafos": [
+        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">aquest cas documentat</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/9f55a612-DSC03453.jpg",
+          "alt": "Treball de reconstrucció a la sala de motors, imatge 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda en lliurar Sala de motors",
       "parrafos": [
         "L'objectiu del lliurament és un conjunt muntat amb ordre de procés, toleràncies comprovades i una posada en marxa que verifica pressió d'oli, funcionament i resultat de la feina feta. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
         "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
@@ -150,7 +168,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Com preparar la primera consulta",
+      "titulo": "Com preparar la primera consulta en Sala de motors",
       "parrafos": [
         "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
         "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
@@ -200,8 +218,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 57,
-    "total": 57,
+    "hechas": 61,
+    "total": 61,
     "completa": true
   }
 }

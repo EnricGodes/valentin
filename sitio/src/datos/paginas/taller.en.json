@@ -13,123 +13,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The service begins by defining the issue",
-      "parrafos": [
-        "At Valentín Motors, we understand that a Porsche workshop must consider the symptoms, the generation, and the car's usage before recommending maintenance, diagnostics, or repairs. That is why the initial conversation focuses not on a list of services, but on the car itself, its history, and the owner's expectations.",
-        "The assessment is based on the documented history, model version, mileage, previous work, vehicle data readings, testing, and the condition of components. When information is missing, the necessary checks to obtain it are indicated before converting a hypothesis into a cost estimate."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/d4f2af8a-911.jpg",
-          "alt": "Porsche maintenance 911"
-        },
-        {
-          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
-          "alt": "Porsche IMS"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnosis, scope, and authorization",
-      "parrafos": [
-        "The scope is defined proportionally: the Barcelona and Madrid centers cover maintenance, engines, gearboxes, IMS, bore scoring, pre-purchase inspections, bodywork and paint, Storage, and vehicle preparation. Tasks are sequenced to avoid redundant disassembly, ensure symptoms are not masked, and prevent the replacement of an assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are made based on the following criteria: urgent, preventive, and optional items are categorized separately. The estimate must explain the evidence supporting each recommendation and the consequences of deferring it. If a finding arises that alters the scope of the job, it is separated from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention.",
-        "Work included, alternatives, and items pending confirmation.",
-        "Authorization required before expanding the scope of work."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/914dbdfc-cayman-boxster.jpg",
-          "alt": "Porsche serviced at the specialist workshop, image 2"
-        },
-        {
-          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
-          "alt": "Porsche bore scoring"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Maintenance rates",
-      "parrafos": [
-        "Select a model to view prices for associated services."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/1ec7a86d-gt.jpg",
-          "alt": "Porsche serviced at the specialist workshop, image 3"
-        },
-        {
-          "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
-          "alt": "Porsche serviced at the specialist workshop, image 17"
-        }
-      ]
-    },
-    {
-      "nivel": 3,
-      "titulo": "911 models",
-      "parrafos": [
-        "Services for models Pre 74, SC, 3.2, 964, 993, 996, 997, 991, and 992."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Models Cayman and Boxster",
-      "parrafos": [
-        "Services for models Boxster 986, Boxster 987, Cayman 987, Boxster 981, Cayman 981, Cayman 718, and Boxster 718."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Models GT",
-      "parrafos": [
-        "Services for models 996 GT3 MK1, 996 GT3 MK2, 996 GT3 RS, 997.1 GT3, 997.1 GT3 RS, 997.2 GT3, 997.2 GT3 RS, 991.1 GT3, 991.1 GT3 RS, 991.2 GT3, 991.2 GT3 RS, 992 GT3, 992 GT3 RS, 993 GT2, 996 GT2, 997 GT2, 997 GT2 RS, 991 GT2 RS, 981 Cayman GT4, 718 Cayman GT4 and 718 Cayman GT4 RS."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Models Cayenne and Macan",
-      "parrafos": [
-        "Services for models Cayenne Diesel, Cayenne Diesel S, Macan, Macan GTS, Macan S, Macan Turbo and Macan Diesel."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Models Turbo",
-      "parrafos": [
-        "Services for models 930 Turbo, 964 3.3 Turbo, 964 3.6 Turbo, 993 Turbo, 996 Turbo, 997.1 Turbo, 997.2 Turbo, 991.1 Turbo, 991.2 Turbo and 992 Turbo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Transaxle Models",
-      "parrafos": [
-        "Services for models 924, 944, 968, and 928."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Porsche vehicle specialists since 1979",
       "parrafos": [
+        "A 911 996 with oil consumption does not call for the same diagnosis as a 964 with a crunching gear change.",
         "Valentín Motors is one of the leading independent Porsche specialists in the country.",
         "Established in 1979 as a specialist in service, sales, and restoration, the workshop has grown into a benchmark in the field, featuring facilities of over 1.300 m² in central Barcelona and a comprehensive service center of over 2.500 m² in Leganés (Madrid), all designed with the customer in mind.",
         "In addition to workshop and maintenance services, we have departments specializing in projects and restorations, engine and transmission rebuilds, motorsport preparation, track days, and an extensive catalog of customizations featuring the German brand TECHART.",
@@ -253,7 +139,130 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner can expect",
+      "titulo": "Maintenance rates",
+      "parrafos": [
+        "Select a model to view prices for associated services."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/1ec7a86d-gt.jpg",
+          "alt": "Porsche serviced at the specialist workshop, image 3"
+        },
+        {
+          "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
+          "alt": "Porsche serviced at the specialist workshop, image 17"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "911 models",
+      "parrafos": [
+        "Services for models Pre 74, SC, 3.2, 964, 993, 996, 997, 991, and 992."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Models Cayman and Boxster",
+      "parrafos": [
+        "Services for models Boxster 986, Boxster 987, Cayman 987, Boxster 981, Cayman 981, Cayman 718, and Boxster 718."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Models GT",
+      "parrafos": [
+        "Services for models 996 GT3 MK1, 996 GT3 MK2, 996 GT3 RS, 997.1 GT3, 997.1 GT3 RS, 997.2 GT3, 997.2 GT3 RS, 991.1 GT3, 991.1 GT3 RS, 991.2 GT3, 991.2 GT3 RS, 992 GT3, 992 GT3 RS, 993 GT2, 996 GT2, 997 GT2, 997 GT2 RS, 991 GT2 RS, 981 Cayman GT4, 718 Cayman GT4 and 718 Cayman GT4 RS."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Models Cayenne and Macan",
+      "parrafos": [
+        "Services for models Cayenne Diesel, Cayenne Diesel S, Macan, Macan GTS, Macan S, Macan Turbo and Macan Diesel."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Models Turbo",
+      "parrafos": [
+        "Services for models 930 Turbo, 964 3.3 Turbo, 964 3.6 Turbo, 993 Turbo, 996 Turbo, 997.1 Turbo, 997.2 Turbo, 991.1 Turbo, 991.2 Turbo and 992 Turbo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Transaxle Models",
+      "parrafos": [
+        "Services for models 924, 944, 968, and 928."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Where Porsche workshop starts",
+      "parrafos": [
+        "A Porsche workshop must consider the symptoms, the generation, and the car's usage before recommending maintenance, diagnostics, or repairs. That is why the initial conversation focuses not on a list of services, but on the car itself, its history, and the owner's expectations.",
+        "The assessment is based on the documented history, model version, mileage, previous work, vehicle data readings, testing, and the condition of components. When information is missing, the necessary checks to obtain it are indicated before converting a hypothesis into a cost estimate."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/d4f2af8a-911.jpg",
+          "alt": "Porsche maintenance 911"
+        },
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Defining the scope of Porsche workshop",
+      "parrafos": [
+        "The scope is defined proportionally: the Barcelona and Madrid centers cover maintenance, engines, gearboxes, IMS, bore scoring, pre-purchase inspections, bodywork and paint, Storage, and vehicle preparation. Tasks are sequenced to avoid redundant disassembly, ensure symptoms are not masked, and prevent the replacement of an assembly when it can still be diagnosed or repaired.",
+        "Technical decisions are made based on the following criteria: urgent, preventive, and optional items are categorized separately. The estimate must explain the evidence supporting each recommendation and the consequences of deferring it. If a finding arises that alters the scope of the job, it is separated from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/914dbdfc-cayman-boxster.jpg",
+          "alt": "Porsche serviced at the specialist workshop, image 2"
+        },
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche bore scoring"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What Porsche workshop does not include",
+      "parrafos": [],
+      "items": [
+        "It does not include work outside the agreed scope for Porsche workshop.",
+        "Any extension is checked and authorised separately."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner receives after Porsche workshop",
       "parrafos": [
         "The service delivery aims to provide a clearly defined and documented intervention, with a dedicated technical contact and the option to internally route work related to the engine, transmission, or bodywork. The final explanation ensures a clear understanding of the work performed, the reasons behind it, and any future observations or scheduled maintenance required.",
         "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
@@ -268,7 +277,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation",
+      "titulo": "How to prepare for the initial consultation: Porsche workshop",
       "parrafos": [
         "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
         "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
@@ -328,8 +337,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 80,
-    "total": 80,
+    "hechas": 82,
+    "total": 82,
     "completa": true
   }
 }

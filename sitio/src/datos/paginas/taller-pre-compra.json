@@ -18,48 +18,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "El servicio empieza por definir el problema",
-      "parrafos": [
-        "En Valentín Motors entendemos que una inspección pre-compra transforma las afirmaciones del anuncio y del historial en comprobaciones sobre el coche antes de comprometer el precio. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de documentación, procedencia, kilometraje, mantenimiento, diagnosis, motor, caja de cambios, prueba en carretera, carrocería, pintura y riesgos propios del modelo. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
-          "alt": "Inspección Porsche durante una inspección pre-compra"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnóstico, alcance y autorización",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: puede hacerse en el taller o mediante desplazamiento a la ubicación de la unidad, dentro o fuera de España, según el servicio descrito. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: un defecto no significa automáticamente descartar. El informe distingue mantenimiento normal, riesgo, reparación pendiente y señales que cuestionan la identidad o la descripción del coche. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir.",
-        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
-        "Autorización antes de ampliar el alcance."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué hacemos",
-      "parrafos": [
-        "Evaluamos el coche que te estás planteando comprar: estado mecánico, estado de carrocería, historial documentado y contraste de lo que dice el anuncio con lo que tiene el coche delante. Se hace en el taller o desplazándonos a donde esté la unidad, en España o fuera.",
-        "Es el servicio que más dinero ahorra de todo lo que hacemos, y el que menos se pide."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Qué se mira",
-      "parrafos": [],
+      "parrafos": [
+        "Un 911 996 o 997 puede ocultar un IMS pendiente o bore scoring aunque el anuncio y el historial parezcan correctos."
+      ],
       "items": [
         "Documentación: titularidad, cargas, historial de bajas e ITV.",
         "Coherencia del kilometraje con el libro de servicio y con la unidad de control.",
@@ -68,6 +30,16 @@
         "Estado del IMS en los M96 y M97 afectados.",
         "Carrocería: intersticios, espesor de pintura y señales de reparación.",
         "Informe escrito con fotografías y una recomendación clara."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Lo que no incluye Inspección pre-compra",
+      "parrafos": [],
+      "items": [
+        "No incluye trabajos ajenos al alcance acordado para Inspección pre-compra.",
+        "Cualquier ampliación se comprueba y se autoriza por separado."
       ],
       "imagenes": []
     },
@@ -82,7 +54,45 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué puede esperar el propietario",
+      "titulo": "Qué hacemos en Inspección pre-compra",
+      "parrafos": [
+        "Evaluamos el coche que te estás planteando comprar: estado mecánico, estado de carrocería, historial documentado y contraste de lo que dice el anuncio con lo que tiene el coche delante. Se hace en el taller o desplazándonos a donde esté la unidad, en España o fuera.",
+        "Es el servicio que más dinero ahorra de todo lo que hacemos, y el que menos se pide."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El punto de partida para Inspección pre-compra",
+      "parrafos": [
+        "Una inspección pre-compra transforma las afirmaciones del anuncio y del historial en comprobaciones sobre el coche antes de comprometer el precio. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de documentación, procedencia, kilometraje, mantenimiento, diagnosis, motor, caja de cambios, prueba en carretera, carrocería, pintura y riesgos propios del modelo. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
+          "alt": "Inspección Porsche durante una inspección pre-compra"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Decidir el alcance de Inspección pre-compra",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: puede hacerse en el taller o mediante desplazamiento a la ubicación de la unidad, dentro o fuera de España, según el servicio descrito. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: un defecto no significa automáticamente descartar. El informe distingue mantenimiento normal, riesgo, reparación pendiente y señales que cuestionan la identidad o la descripción del coche. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué queda al entregar Inspección pre-compra",
       "parrafos": [
         "El objetivo de la entrega es un informe escrito con fotografías y una recomendación clara para negociar, continuar con comprobaciones adicionales o retirarse antes de comprar. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
         "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."

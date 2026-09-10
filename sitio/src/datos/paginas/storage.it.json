@@ -13,9 +13,33 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Il servizio inizia con la definizione del problema",
+      "titulo": "Un ambiente pensato per la Sua auto",
       "parrafos": [
-        "Noi di Valentín Motors sappiamo che una Porsche Storage, anche dopo lunghi periodi di inutilizzo, non si limita a offrire un semplice posto auto: richiede il monitoraggio delle condizioni e l'accesso a interventi di manutenzione preventiva specializzati. Per questo motivo, il primo colloquio non si concentra su un catalogo di servizi, ma sull'auto, sulla sua storia e sulle aspettative del proprietario.",
+        "Una 911 ferma per diversi mesi richiede più di un semplice posto auto coperto.",
+        "Noi di Valentin comprendiamo che una Porsche richiede cure specifiche durante i periodi di inutilizzo. Per questo il nostro servizio Storage offre un posto auto dedicato e un ambiente appositamente progettato per preservare al meglio la vostra Porsche, come una spa per la vostra auto.",
+        "Il servizio è pensato per chi deve liberare spazio in garage, usa la propria Porsche occasionalmente, trascorre lunghi periodi lontano da casa o desidera conservarla correttamente durante l’inattività. Le strutture sono discrete, sicure e sorvegliate 24 ore su 24.",
+        "Oltre al rimessaggio, effettuiamo ispezioni periodiche e manutenzione preventiva, verificando le condizioni generali del veicolo e applicando le cure necessarie per mantenerlo in perfette condizioni meccaniche ed estetiche. In questo modo, quando deciderai di guidare di nuovo la Sua Porsche, sarà pronta per la strada.",
+        "Per 250 €/mese offriamo un servizio che combina sicurezza, conservazione e attenzione specialistica come alternativa a un parcheggio convenzionale. È inoltre disponibile un protocollo di cura specifico, con opzioni adatte alle esigenze di ogni vettura e proprietario.",
+        "Officina Porsche indipendente nel cuore di Barcellona"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa non comprende Storage",
+      "parrafos": [],
+      "items": [
+        "Non comprende lavori estranei all’ambito concordato per Storage.",
+        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Da dove inizia Storage",
+      "parrafos": [
+        "Il servizio Storage Porsche accompagna i lunghi periodi di inutilizzo con qualcosa in più di un posto auto: monitoraggio delle condizioni e accesso a una manutenzione preventiva specializzata. Per questo il primo colloquio non parte da un catalogo di servizi, ma dall’auto, dal suo storico e dalle aspettative del proprietario.",
         "La valutazione si basa sulla durata di vita prevista, sulla frequenza con cui il proprietario desidera utilizzare l'auto, sulla sua storia recente e su eventuali interventi meccanici o estetici non ancora eseguiti. Qualora manchino delle informazioni, vengono indicati i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
       ],
       "items": [],
@@ -28,16 +52,14 @@
     },
     {
       "nivel": 2,
-      "titulo": "Diagnosi, ambito e autorizzazione",
+      "titulo": "Definire l’ambito di Storage",
       "parrafos": [
         "L’ambito viene definito in modo proporzionato: il servizio attuale comprende strutture discrete e sorvegliate 24 ore su 24, controlli periodici e un protocollo di cura con opzioni adatte a ogni vettura. Le attività vengono ordinate per evitare doppi smontaggi, non nascondere un sintomo e non sostituire un gruppo ancora diagnosticabile o riparabile.",
         "Le decisioni tecniche vengono prese in base a questo principio: prima di accedere al veicolo, vengono concordati gli interventi necessari e qualsiasi lavoro opzionale che richieda autorizzazione. Il Storage non deve trasformare un intervento di routine in un intervento non richiesto. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
       ],
       "items": [
         "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento.",
-        "Lavori inclusi, alternative e elementi in attesa di conferma.",
-        "Autorizzazione prima di ampliare l'ambito di lavoro."
+        "Verifiche richieste prima dell'intervento."
       ],
       "imagenes": [
         {
@@ -48,20 +70,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un ambiente pensato per la Sua auto",
-      "parrafos": [
-        "Noi di Valentin comprendiamo che una Porsche richiede cure specifiche durante i periodi di inutilizzo. Per questo il nostro servizio Storage offre un posto auto dedicato e un ambiente appositamente progettato per preservare al meglio la vostra Porsche, come una spa per la vostra auto.",
-        "Il servizio è pensato per chi deve liberare spazio in garage, usa la propria Porsche occasionalmente, trascorre lunghi periodi lontano da casa o desidera conservarla correttamente durante l’inattività. Le strutture sono discrete, sicure e sorvegliate 24 ore su 24.",
-        "Oltre al rimessaggio, effettuiamo ispezioni periodiche e manutenzione preventiva, verificando le condizioni generali del veicolo e applicando le cure necessarie per mantenerlo in perfette condizioni meccaniche ed estetiche. In questo modo, quando deciderai di guidare di nuovo la Sua Porsche, sarà pronta per la strada.",
-        "Per 250 €/mese offriamo un servizio che combina sicurezza, conservazione e attenzione specialistica come alternativa a un parcheggio convenzionale. È inoltre disponibile un protocollo di cura specifico, con opzioni adatte alle esigenze di ogni vettura e proprietario.",
-        "Officina Porsche indipendente nel cuore di Barcellona"
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa può aspettarsi il proprietario",
+      "titulo": "Cosa riceve il proprietario dopo Storage",
       "parrafos": [
         "L'obiettivo del servizio è una Porsche accuratamente manutenuta e preparata per essere nuovamente guidata, seguendo il protocollo concordato con il proprietario. Il rapporto finale dovrà indicare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
         "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
@@ -111,8 +120,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 32,
-    "total": 32,
+    "hechas": 34,
+    "total": 34,
     "completa": true
   }
 }

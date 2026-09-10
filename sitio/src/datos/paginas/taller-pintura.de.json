@@ -17,50 +17,20 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
-      "parrafos": [
-        "Bei Valentín Motors wissen wir, dass eine Porsche-Karosserie- und Lackreparatur mehr von der Vorbereitung, der Justierung und der Materialverträglichkeit abhängt als vom finalen Glanz. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf einen Leistungskatalog, sondern auf das Fahrzeug, seine Geschichte und die Wünsche des Besitzers.",
-        "Die Begutachtung beginnt mit der Prüfung der Lackdicke, von Spaltmaßen, Korrosion, Verformungen, früheren Reparaturen, dem Farbcode, abnehmbaren Teilen sowie dem Zustand von Zierleisten und Chrom. Fehlen Informationen, erläutern wir, welche Prüfungen erforderlich sind, um diese zu beschaffen, bevor wir aus einer Annahme ein Angebot erstellen."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
-          "alt": "Porsche Karosserievorbereitung für die Lackierung"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Umfang wird bedarfsgerecht festgelegt: Die Arbeiten können sich auf einen bestimmten Bereich beziehen oder Teil einer Komplettrestaurierung sein. Unsere spezielle Lackierkabine in Barcelona ermöglicht uns die Koordination von Vorbereitung, Lackierung und Montage. Die Arbeitsschritte werden so angeordnet, dass doppelte Demontage, das Verbergen von Fehlern und der Austausch von Baugruppen vermieden werden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung basiert auf folgendem Kriterium: Demontage erfolgt nur, wenn dies unbedingt notwendig ist, um verdeckte Kanten zu vermeiden. Es wird entschieden, ob die Teile erhalten, repariert oder ersetzt werden sollen. Bei Oldtimern erfordert sichtbare Korrosion eine Überprüfung der betroffenen Bereiche. Wird ein Befund entdeckt, der den Auftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was wir tun",
-      "parrafos": [
-        "Reparatur und Lackierung nach Porsche-Vorgaben mit originalen Werksfarben und dem aktuellen Lackcodierungssystem. Separate Lackierkabine in der Werkstatt in Barcelona.",
-        "Eine gut ausgeführte Lackierung ist unsichtbar. Auffällig ist eine schlecht ausgeführte: ungleichmäßige Spaltmaße, eine Farbe, die nicht zur Innenausstattung passt, ein Zierteil, das nicht mehr richtig sitzt."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Vorbereitung ist das A und O",
       "parrafos": [
         "Vor dem Lackieren werden die Spaltmaße aller Öffnungen ausgemessen, Zierleisten entfernt statt abgeklebt und alle ausgebauten Teile katalogisiert, um sie später wieder an ihren Platz zu bringen. Chromteile, die es benötigen, werden in der Lackierkabine nachbearbeitet.",
         "Wir tragen eine Korrosionsschutzbehandlung auf die entsprechenden Stellen auf. Bei einem klassischen Porsche sind dies immer dieselben und stets nicht sichtbaren Bereiche."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was wir tun: Karosseriearbeiten und Lackierung",
+      "parrafos": [
+        "Reparatur und Lackierung nach Porsche-Vorgaben mit originalen Werksfarben und dem aktuellen Lackcodierungssystem. Separate Lackierkabine in der Werkstatt in Barcelona.",
+        "Eine gut ausgeführte Lackierung ist unsichtbar. Auffällig ist eine schlecht ausgeführte: ungleichmäßige Spaltmaße, eine Farbe, die nicht zur Innenausstattung passt, ein Zierteil, das nicht mehr richtig sitzt."
       ],
       "items": [],
       "imagenes": []
@@ -76,7 +46,54 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Was Karosseriearbeiten und Lackierung nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Karosseriearbeiten und Lackierung sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ein dokumentierter Fall: Karosseriearbeiten und Lackierung",
+      "parrafos": [
+        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/proceso-pintura-911-clase-g\">diesem dokumentierten Fall</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
+          "alt": "Porsche Karosserievorbereitung für die Lackierung"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ausgangspunkt für Karosseriearbeiten und Lackierung",
+      "parrafos": [
+        "Bei Valentín Motors wissen wir, dass eine Porsche-Karosserie- und Lackreparatur mehr von der Vorbereitung, der Justierung und der Materialverträglichkeit abhängt als vom finalen Glanz. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf einen Leistungskatalog, sondern auf das Fahrzeug, seine Geschichte und die Wünsche des Besitzers.",
+        "Die Begutachtung beginnt mit der Prüfung der Lackdicke, von Spaltmaßen, Korrosion, Verformungen, früheren Reparaturen, dem Farbcode, abnehmbaren Teilen sowie dem Zustand von Zierleisten und Chrom. Fehlen Informationen, erläutern wir, welche Prüfungen erforderlich sind, um diese zu beschaffen, bevor wir aus einer Annahme ein Angebot erstellen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Karosseriearbeiten und Lackierung festlegen",
+      "parrafos": [
+        "Der Umfang wird bedarfsgerecht festgelegt: Die Arbeiten können sich auf einen bestimmten Bereich beziehen oder Teil einer Komplettrestaurierung sein. Unsere spezielle Lackierkabine in Barcelona ermöglicht uns die Koordination von Vorbereitung, Lackierung und Montage. Die Arbeitsschritte werden so angeordnet, dass doppelte Demontage, das Verbergen von Fehlern und der Austausch von Baugruppen vermieden werden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung basiert auf folgendem Kriterium: Demontage erfolgt nur, wenn dies unbedingt notwendig ist, um verdeckte Kanten zu vermeiden. Es wird entschieden, ob die Teile erhalten, repariert oder ersetzt werden sollen. Bei Oldtimern erfordert sichtbare Korrosion eine Überprüfung der betroffenen Bereiche. Wird ein Befund entdeckt, der den Auftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Karosseriearbeiten und Lackierung erhält",
       "parrafos": [
         "Ziel der Lieferung ist eine gemäß Leistungsumfang angepasste und lackierte Karosserie mit Referenzfarben, katalogisiertem Zubehör und gegebenenfalls Korrosionsschutzbehandlungen. Die abschließende Erläuterung soll dem Kunden verständlich machen, was gemacht wurde, warum es gemacht wurde und was im Anschluss zu beachten oder einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -126,8 +143,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 36,
+    "total": 36,
     "completa": true
   }
 }

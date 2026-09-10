@@ -13,32 +13,12 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "titulo": "Wie ein Projekt beginnt",
       "parrafos": [
-        "Wir bei Valentín Motors wissen, dass die Projektabteilung eine allgemeine Vorstellung in eine Spezifikation umsetzt, die die Werkstatt umsetzen und der Kunde vor Beginn prüfen kann. Deshalb konzentriert sich das Erstgespräch nicht auf einen Leistungskatalog, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das der Besitzer erwartet.",
-        "Die Bewertung basiert auf dem erwarteten Einsatzzweck, der verfügbaren Basis, dem Zustand des Fahrzeugs, ästhetischen Vorgaben, der gewünschten Leistung, dem Budget und der Homologation. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
+        "Ein 911 für Straße, Sammlung oder Rennstrecke verlangt bereits ab der ersten Skizze drei unterschiedliche Projekte.",
+        "Mit einem Gespräch und einem Auto – in genau dieser Reihenfolge. Der erste Schritt ist, zu verstehen, was Sie von Ihrem fertigen Auto erwarten: ob für den Alltag, zur Lagerung oder für den Rennsport. Alles Weitere ergibt sich daraus, einschließlich des heiklen Teils: die Kosten und die Dauer zu ermitteln."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Diagnose, Umfang und Genehmigung",
-      "parrafos": [
-        "Der Umfang wird proportional definiert: Alternativen, Kompatibilitäten, Teile, Fertigung und Arbeitsablauf werden geprüft. Bei komplexen Projekten wird zudem festgelegt, was vor der endgültigen Installation getestet werden muss. Aufgaben werden priorisiert, um doppelte Demontage, das Verschleiern von Fehlern und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung wird nach folgendem Kriterium getroffen: Konstruktion beinhaltet das Verwerfen von Unbrauchbarem. Nachvollziehbare Lösungen werden priorisiert, und aus einer Sammlung brauchbarer Teile wird kein inkonsistentes Fahrzeug erstellt. Ergibt sich eine Erkenntnis, die das Projekt verändert, wird diese vom genehmigten Arbeitsplan getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff.",
-        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
-        "Genehmigung vor Erweiterung des Umfangs."
-      ],
       "imagenes": []
     },
     {
@@ -53,16 +33,61 @@
     },
     {
       "nivel": 2,
-      "titulo": "Wie ein Projekt beginnt",
+      "titulo": "Ausgangspunkt für Projekte und Design",
       "parrafos": [
-        "Mit einem Gespräch und einem Auto – in genau dieser Reihenfolge. Der erste Schritt ist, zu verstehen, was Sie von Ihrem fertigen Auto erwarten: ob für den Alltag, zur Lagerung oder für den Rennsport. Alles Weitere ergibt sich daraus, einschließlich des heiklen Teils: die Kosten und die Dauer zu ermitteln."
+        "Wir bei Valentín Motors wissen, dass die Projektabteilung eine allgemeine Vorstellung in eine Spezifikation umsetzt, die die Werkstatt umsetzen und der Kunde vor Beginn prüfen kann. Deshalb konzentriert sich das Erstgespräch nicht auf einen Leistungskatalog, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das der Besitzer erwartet.",
+        "Die Bewertung basiert auf dem erwarteten Einsatzzweck, der verfügbaren Basis, dem Zustand des Fahrzeugs, ästhetischen Vorgaben, der gewünschten Leistung, dem Budget und der Homologation. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang von Projekte und Design festlegen",
+      "parrafos": [
+        "Der Umfang wird proportional definiert: Alternativen, Kompatibilitäten, Teile, Fertigung und Arbeitsablauf werden geprüft. Bei komplexen Projekten wird zudem festgelegt, was vor der endgültigen Installation getestet werden muss. Aufgaben werden priorisiert, um doppelte Demontage, das Verschleiern von Fehlern und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung wird nach folgendem Kriterium getroffen: Konstruktion beinhaltet das Verwerfen von Unbrauchbarem. Nachvollziehbare Lösungen werden priorisiert, und aus einer Sammlung brauchbarer Teile wird kein inkonsistentes Fahrzeug erstellt. Ergibt sich eine Erkenntnis, die das Projekt verändert, wird diese vom genehmigten Arbeitsplan getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Was Sie als Besitzer erwartet",
+      "titulo": "Was Projekte und Design nicht umfasst",
+      "parrafos": [],
+      "items": [
+        "Arbeiten außerhalb des vereinbarten Umfangs für Projekte und Design sind nicht enthalten.",
+        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ein dokumentierter Fall: Projekte und Design",
+      "parrafos": [
+        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/presentacion-pa10-01-madrid\">diesem dokumentierten Fall</a>."
+      ],
+      "items": [
+        "[[PRÜFEN: Ein reales Projekt aus dem Magazine verlinken und ein Foto zuordnen.]]"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc57c760-DSC03556.jpg",
+          "alt": "Heck des cremefarbenen PA10/01 bei der Präsentation in Madrid, ringsum die Gäste"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was der Eigentümer nach Projekte und Design erhält",
       "parrafos": [
         "Ziel der Lieferung ist ein klarer und verständlicher Leistungsumfang, unterteilt in Phasen und verknüpft mit technischen, ästhetischen und nutzungsbezogenen Entscheidungen, die keine Improvisation während der Montage erfordern. Die abschließende Beschreibung sollte verdeutlichen, was getan wurde, warum es getan wurde und was im Anschluss zu beachten oder einzuplanen ist.",
         "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
@@ -72,7 +97,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor",
+      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor: Projekte und Design",
       "parrafos": [
         "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
         "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
@@ -122,8 +147,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }
