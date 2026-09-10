@@ -9,7 +9,7 @@
  * publique un sitio roto.
  */
 import { readdir, stat } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -49,6 +49,36 @@ const recorrer = async (dir) => {
 if (existsSync(publico)) await recorrer(publico);
 for (const g of grandes) {
   console.error(`DEMASIADO GRANDE para Cloudflare Pages (25 MB): ${g}`);
+  fallos++;
+}
+
+/* Un alt que es el nombre del fichero es lo que un lector de pantalla acaba
+   leyendo en voz alta ("DSC03497 punto jpg"), y para Google Imagenes es una
+   foto sin describir. Se corrigieron a mano y las descripciones viven en
+   _migracion/contenido/alts.json; esto impide que vuelvan, que es lo que una
+   correccion no da. Un alt VACIO no entra aqui: es el marcado correcto de una
+   foto decorativa. */
+const NOMBRE_DE_FICHERO = /\.(jpe?g|png|webp|gif)$/i;
+const sinDescribir = [];
+const paginas = resolve(aqui, '../src/datos/paginas');
+if (existsSync(paginas)) {
+  for (const f of readdirSync(paginas).filter((x) => x.endsWith('.json'))) {
+    const datos = JSON.parse(readFileSync(join(paginas, f), 'utf8'));
+    for (const seccion of datos.secciones ?? []) {
+      for (const imagen of seccion.imagenes ?? []) {
+        if (NOMBRE_DE_FICHERO.test((imagen.alt ?? '').trim())) {
+          sinDescribir.push(`${f}: "${imagen.alt}"`);
+        }
+      }
+    }
+  }
+}
+for (const x of sinDescribir.slice(0, 10)) {
+  console.error(`ALT SIN DESCRIBIR, es el nombre del fichero: ${x}`);
+}
+if (sinDescribir.length) {
+  console.error(`  ...${sinDescribir.length} en total. Describelas en `
+    + '_migracion/contenido/alts.json y pasa 25_aplicar_alts.py');
   fallos++;
 }
 
