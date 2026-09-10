@@ -189,7 +189,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         <div class="shimmer-line reveal"></div>
         <h1 class="page-title reveal">{pagina.h1 || titulo}</h1>
       </header>
-      <SeccionesPagina secciones={antesDeTarifas} />
+      <SeccionesPagina secciones={antesDeTarifas} idioma={idioma} />
       {iTarifas >= 0 && (
         <div class="contenido">
           <Tarifas idioma={idioma} textos={{
@@ -198,7 +198,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
           }} />
         </div>
       )}
-      {despuesDeTarifas.length > 0 && <SeccionesPagina secciones={despuesDeTarifas} />}
+      {despuesDeTarifas.length > 0 && <SeccionesPagina secciones={despuesDeTarifas} idioma={idioma} />}
       {relacionados.length > 0 && (
         <section class="pagina-articulos contenido">
           <h2 class="pagina-articulos-titulo">{t('pagina.articulos')}</h2>

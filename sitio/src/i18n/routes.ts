@@ -215,6 +215,34 @@ export function alternantes(
   return idiomas.map((i) => ({ idioma: i, href: urlAbsoluta(id, i, ...extra) }));
 }
 
+/* ── Enlaces internos escritos en castellano ───────────────────────────────
+   Los textos de src/datos y del Magazine se escriben una vez, en castellano, y
+   se traducen despues. Sus `href` internos se quedan en castellano en las seis
+   versiones, porque pedirle a quien traduce que ademas resuelva el slug de cada
+   ruta es pedirle que mantenga a mano una copia del manifiesto.
+
+   Asi que se resuelven al pintar: un enlace a /taller-porsche dentro de la
+   pagina alemana sale como /de/porsche-werkstatt. Antes salia tal cual y mandaba
+   al lector aleman a la version espanola. */
+const POR_URL_ES = new Map(RUTAS.map((r) => [`/${r.slugs[POR_DEFECTO]}`, r.id]));
+
+/** El Magazine no esta en el manifiesto: sus articulos son contenido. */
+const MAGAZINE_ES = `/${SEGMENTOS.magazine[POR_DEFECTO]}/`;
+
+/** Reescribe al idioma dado los `href` internos de un fragmento de HTML. */
+export function enlazaEnIdioma(html: string, idioma: Idioma): string {
+  if (idioma === POR_DEFECTO) return html;
+  return html.replace(/href="(\/[^"#?]*)((?:[#?][^"]*)?)"/g, (todo, ruta: string, cola: string) => {
+    const id = POR_URL_ES.get(ruta);
+    if (id) return `href="${url(id, idioma)}${cola}"`;
+    if (ruta.startsWith(MAGAZINE_ES)) {
+      const slug = ruta.slice(MAGAZINE_ES.length);
+      return `href="${url('magazine', idioma, slug)}${cola}"`;
+    }
+    return todo;
+  });
+}
+
 /** x-default apunta siempre al espanol, que es el idioma de origen. */
 export const xDefault = (id: string, ...extra: string[]): string =>
   urlAbsoluta(id, POR_DEFECTO, ...extra);

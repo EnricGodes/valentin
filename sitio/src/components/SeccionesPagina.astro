@@ -1,8 +1,10 @@
 ---
 import type { SeccionPagina } from '../datos/pagina';
+import { enlazaEnIdioma } from '../i18n/routes';
+import { POR_DEFECTO, type Idioma } from '../i18n/config';
 
-interface Props { secciones: SeccionPagina[]; }
-const { secciones } = Astro.props;
+interface Props { secciones: SeccionPagina[]; idioma?: Idioma; }
+const { secciones, idioma = POR_DEFECTO } = Astro.props;
 
 /** La primera seccion suele repetir el h1: no se pinta dos veces. */
 const utiles = secciones.filter((s, i) =>
@@ -18,7 +20,7 @@ const utiles = secciones.filter((s, i) =>
           : <h3 class="bloque-subtitulo reveal">{s.titulo}</h3>)}
         {s.parrafos.length > 0 && (
           <div class="texto-editorial reveal delay-1">
-            {s.parrafos.map((p) => <p set:html={p} />)}
+            {s.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma)} />)}
           </div>
         )}
         {s.items.length > 0 && (
