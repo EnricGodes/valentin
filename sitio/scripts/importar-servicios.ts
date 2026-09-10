@@ -167,31 +167,20 @@ function revisaDesfase(p: PaginaEntrada, fallos: string[]) {
 }
 
 /**
- * Correcciones sobre la entrega, por URL de imagen.
+ * Descripciones de imagen del proyecto, por ruta de foto y por idioma.
  *
  * La guia pedia reescribir el `alt` de cada foto porque los de hoy son
- * etiquetas de archivo. En seis fotos de restauraciones la tanda dejo el
+ * etiquetas de archivo, y en seis fotos de restauraciones la tanda dejo el
  * nombre del fichero tal cual ("DSC00828.jpg"), que es lo que un lector de
- * pantalla acaba leyendo en voz alta. Se describen aqui, mirando la foto, y
- * viven en el importador para que volver a importar no las deshaga.
- *
- * El alt no se traduce por idioma: es la misma descripcion en los seis y
- * traducirla sin ver la foto es como se llego a esto.
+ * pantalla acaba leyendo en voz alta. Las descripciones viven donde ya vivian
+ * las del Magazine, `_migracion/contenido/alts.json`, y mandan sobre lo que
+ * traiga la entrega: asi hay un solo sitio donde se describe una foto, y
+ * volver a importar no deshace la correccion.
  */
-const ALT: Record<string, string> = {
-  '/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg':
-    'Porsche 911 993 azul oscuro de tres cuartos delante del taller',
-  '/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg':
-    'Salpicadero de un 911 clásico con los cinco relojes y el volante de cuatro radios',
-  '/img/paginas/2e996e8e-142837905_1123606771422230_4368144538445892404_n.jpg':
-    'Bóxer Porsche desmontado y sujeto al soporte de motor del banco',
-  '/img/paginas/980a50f4-DSC00828.jpg':
-    'Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros',
-  '/img/paginas/68b7e904-DSC00922.jpg':
-    'Salpicadero de un 911 T rojo con el emblema del modelo sobre la guantera',
-  '/img/paginas/41ef46e7-DSC00805.jpg':
-    'Vano motor abierto de un 911 marrón con la turbina dorada y los colectores a la vista',
-};
+const ALTS: Record<string, Partial<Record<Idioma, string>>> = (() => {
+  const f = resolve(raiz, '../_migracion/contenido/alts.json');
+  return existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : {};
+})();
 
 // ── Escritura ──────────────────────────────────────────────────────────────
 /**
@@ -219,8 +208,10 @@ function construye(p: PaginaEntrada, idioma: Idioma) {
   const n = p.nuevo;
   const limpia = (t: string) => espaciado(t, idioma);
   const urlDe = new Map(p.imagenes.map((im) => [im.i, im.url]));
-  const alt = new Map(n.imagenes.map((im) =>
-    [im.i, ALT[urlDe.get(im.i) ?? ''] ?? limpia(im.alt)]));
+  const alt = new Map(n.imagenes.map((im) => {
+    const descrito = ALTS[urlDe.get(im.i) ?? '']?.[idioma];
+    return [im.i, descrito ?? limpia(im.alt)];
+  }));
 
   const salida: Record<string, unknown> = {
     rutaId: base.rutaId,
