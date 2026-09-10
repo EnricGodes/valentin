@@ -17,7 +17,32 @@
       "parrafos": [
         "Un mantenimiento no cuesta lo mismo en un 911 refrigerado por aire que en un Macan, y dentro del 911 tampoco cuesta lo mismo un SC que un 992. Por eso las tarifas están abiertas por modelo: elige el tuyo y verás lo que cuesta cada servicio en esa unidad concreta.",
         "Son tarifas cerradas de referencia. El presupuesto en firme depende del estado en que llegue el coche, y eso solo se sabe con el coche delante.",
-        "Cada familia tiene la suya: <a href=\"/porsche-911-mantenimiento-taller\">Precios de mantenimiento para los modelos Porsche 911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Precios de mantenimiento para los modelos Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Precios de mantenimiento para los modelos Cayman y Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">Precios de mantenimiento para los modelos Transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">Precios de mantenimiento para los modelos GT</a> y <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Precios de mantenimiento para los modelos Cayenne y Macan</a>."
+        "Seis familias y cincuenta y siete modelos con tarifa publicada: <a href=\"/porsche-911-mantenimiento-taller\">911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Cayman y Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">GT</a> y <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Cayenne y Macan</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué entra en un servicio menor y en uno mayor",
+      "parrafos": [
+        "Las tablas publican las mismas operaciones para todas las familias, con el precio que le corresponde a cada modelo."
+      ],
+      "items": [
+        "Servicio menor: aceite y filtro de motor, más una comprobación de veintitrés puntos.",
+        "Servicio mayor: incluye el menor y añade treinta puntos más, con filtros de aire y de habitáculo y bujías cuando toca.",
+        "Sustitución del líquido de frenos.",
+        "Geometría de dirección.",
+        "Inspección pre-compra."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué incluye el precio y qué no",
+      "parrafos": [
+        "Los precios se publican <strong>sin IVA</strong> e incluyen las piezas y la mano de obra. A cada factura se le añade un cargo ambiental y de artículos varios, y el coche se limpia antes de la entrega.",
+        "El precio de las piezas de Porsche puede cambiar sin previo aviso, así que una tarifa es una referencia comparable y no una oferta cerrada en el tiempo. Un precio cerrado describe una operación y los elementos previstos para ella: si la revisión descubre desgaste, daños o trabajos anteriores mal hechos, se presupuesta aparte antes de ampliar nada."
       ],
       "items": [],
       "imagenes": []
@@ -36,16 +61,6 @@
         "Servicio solicitado.",
         "Historial reciente de mantenimiento."
       ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué cubre un precio cerrado",
-      "parrafos": [
-        "Las tablas publicadas cubren servicio menor, servicio mayor, líquido de frenos, geometrías e inspección pre-compra para las familias indicadas.",
-        "Un precio cerrado describe una operación y sus elementos previstos. Si la revisión descubre desgaste, daños o trabajos anteriores deficientes, se prepara un presupuesto separado antes de ampliar."
-      ],
-      "items": [],
       "imagenes": []
     },
     {

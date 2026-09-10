@@ -13,16 +13,27 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Un entorno pensado para el coche",
+      "titulo": "Qué le pasa a un Porsche que no se mueve",
       "parrafos": [
-        "Un 911 que pasa varios meses sin circular necesita algo más que una plaza cubierta.",
-        "En Valentin entendemos que un Porsche requiere cuidados específicos durante los periodos en los que no se utiliza. Por eso, nuestro servicio de Storage ofrece un espacio donde estacionarlo y un entorno diseñado para conservarlo adecuadamente, como un spa para Porsche.",
-        "Este servicio está pensado para propietarios que necesitan liberar espacio en su garaje, utilizan su Porsche de forma ocasional, pasan largas temporadas fuera de su residencia o desean conservar su vehículo en buen estado mientras no lo utilizan. Nuestras instalaciones son discretas, seguras y cuentan con vigilancia las 24 horas del día, lo que aporta tranquilidad.",
-        "Además del almacenamiento, realizamos inspecciones periódicas y mantenimiento preventivo, comprobamos el estado general del vehículo y aplicamos los cuidados necesarios para que se conserve en buenas condiciones mecánicas y estéticas. De esta forma, cuando decidas volver a conducir tu Porsche, estará preparado para circular.",
-        "Por 250 €/mes, ofrecemos un servicio que combina seguridad, conservación y atención especializada como alternativa a un aparcamiento convencional. Asimismo, ponemos a disposición de nuestros clientes un protocolo específico de cuidado, con servicios opcionales adaptados a las necesidades de cada vehículo y propietario.",
-        "Taller Porsche independiente en el centro de Barcelona"
+        "Un coche parado no se conserva solo. Los neumáticos apoyan siempre sobre el mismo punto y acaban con una deformación que se nota al volver a rodar. La batería se descarga, y por debajo de cierto nivel ya no se recupera. El líquido de frenos absorbe humedad esté el coche en marcha o no, y los discos se oxidan por la cara de contacto en cuanto el ambiente acompaña.",
+        "A eso se suma lo que no se ve desde fuera: juntas y retenes que se secan, combustible que envejece en el depósito y, en un garaje corriente, roedores. Casi nada de esto se arregla solo cuando el coche vuelve a arrancar."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué incluye el Storage",
+      "parrafos": [
+        "El servicio combina la plaza con el seguimiento del coche mientras está guardado. Las instalaciones son discretas y están vigiladas las 24 horas, y sobre esa base se aplica un protocolo de cuidado con opciones adaptadas a cada unidad."
+      ],
+      "items": [
+        "Plaza en instalación discreta y vigilada las 24 horas.",
+        "Inspecciones periódicas del estado general del vehículo.",
+        "Mantenimiento preventivo según el protocolo acordado.",
+        "Servicios opcionales adaptados a la unidad y a su propietario.",
+        "250 € al mes, como alternativa a un aparcamiento convencional."
+      ],
       "imagenes": []
     },
     {
@@ -46,18 +57,23 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué incluye y qué se autoriza aparte",
+      "titulo": "Qué no incluye",
       "parrafos": [
-        "El servicio actual incluye instalaciones discretas y vigiladas las 24 horas, inspecciones periódicas y un protocolo de cuidados con opciones adaptadas a cada unidad.",
-        "Antes de entrar se acuerda qué atención necesita el coche y qué trabajos opcionales requieren autorización. El Storage no debe convertir una revisión rutinaria en una intervención no solicitada."
+        "Las inspecciones y el mantenimiento preventivo forman parte del servicio. Cualquier reparación que aparezca durante una inspección se valora y se autoriza por separado antes de tocarla.",
+        "Es la misma regla que en el taller: el Storage no convierte una revisión rutinaria en una intervención que nadie ha pedido."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cf185986-DSC03460.jpeg",
-          "alt": "El equipo de Valentín Motors en el taller, delante de la sala de motores"
-        }
-      ]
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cuándo no hace falta",
+      "parrafos": [
+        "Si el coche sale cada dos o tres semanas y duerme en un garaje seco y de temperatura estable, no necesitas este servicio: necesitas un mantenedor de batería y usar el coche.",
+        "El Storage tiene sentido cuando la parada va a durar meses, cuando el garaje disponible no acompaña o cuando prefieres que alguien lo mire mientras tanto y te avise antes de que un detalle se convierta en una factura."
+      ],
+      "items": [],
+      "imagenes": []
     },
     {
       "nivel": 2,
