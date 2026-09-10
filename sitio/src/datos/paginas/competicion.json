@@ -3,35 +3,61 @@
   "tipo": "servicio",
   "ficheroOriginal": "competicion",
   "meta": {
-    "titulo": "Preparación de Porsche para competición · Valentín Motors",
-    "descripcion": "Preparación para track days, campeonatos GT y rally: asistencia, soporte e ingeniería de pista. Socios técnicos e instaladores de suspensiones KW.",
+    "titulo": "Preparación Porsche competición · Valentín Motors",
+    "descripcion": "Preparación Porsche para track day, GT y rally, con puesta a punto, asistencia e ingeniería de pista por especialistas desde 1979.",
     "ogImagen": ""
   },
-  "h1": "Preparación de vehículos para competición",
+  "h1": "Preparación Porsche para circuito, GT y rally",
+  "menu": "Competición",
   "acordeones": [],
   "secciones": [
     {
-      "nivel": 1,
-      "titulo": "Preparación de vehículos para competición",
-      "parrafos": [
-        "Colaboramos como socios técnicos e instaladores con algunos de los <strong>principales fabricantes del sector del automóvil</strong>: suspensiones KW y Bilstein, neumáticos Michelin, AP Racing, Performance Friction Corporation, Heigo y otros proveedores de repuestos. <strong>Todos los productos se prueban y evalúan</strong> en Valentín Motors como parte de nuestras operaciones de investigación y desarrollo.",
-        "Además de los productos del mercado de repuestos, <strong>hemos desarrollado un catálogo de soluciones propias</strong> diseñadas a medida para mejorar tu vehículo, desde conversiones de rueda de corona y piñón hasta sistemas integrales de extinción, geometrías específicas y configuraciones."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
       "nivel": 2,
-      "titulo": "Preparaciones para track days",
+      "titulo": "El servicio empieza por definir el problema",
       "parrafos": [
-        "<strong>El espíritu de la marca es deportivo</strong> y el circuito permite que un Porsche demuestre su potencial y transmita sensaciones distintas a las de la conducción urbana. En las tandas realizadas en un entorno controlado, el piloto y el vehículo pueden trabajar de forma coordinada.",
-        "Hacemos <strong>adaptaciones de vehículos</strong> a cualquier nivel, según las condiciones de la pista y el grado de preparación solicitado por el cliente."
+        "En Valentín Motors entendemos que preparar un Porsche para circuito no consiste en sumar piezas, sino en hacer que frenos, suspensión, neumáticos, seguridad y geometría respondan al mismo uso. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de el tipo de prueba, el nivel del piloto, el reglamento aplicable, el estado de la base y los kilómetros de pista previstos. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/84ac2fae-DSC07852.jpg",
-          "alt": ""
+          "alt": "Preparación técnica de un Porsche de competición, imagen 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: una puesta a punto para un primer track day puede limitarse a comprobaciones, consumibles y geometría; un programa GT o de rally exige definir seguridad, fiabilidad, recambios y asistencia. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: cada cambio se justifica por un síntoma, un objetivo o una exigencia reglamentaria. La potencia no compensa un pedal inconsistente, temperaturas fuera de control o una posición de conducción incorrecta. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/627ae024-DSC08039.jpg",
+          "alt": "Preparación técnica de un Porsche de competición, imagen 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preparaciones para track days",
+      "parrafos": [
+        "El espíritu de la marca es deportivo y el circuito permite que un Porsche demuestre su potencial y transmita sensaciones distintas a las de la conducción urbana. En las tandas realizadas en un entorno controlado, el piloto y el vehículo pueden trabajar de forma coordinada.",
+        "Hacemos adaptaciones de vehículos a cualquier nivel, según las condiciones de la pista y el grado de preparación solicitado por el cliente."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8eb0db7a-DSC07759.jpg",
+          "alt": "Preparación técnica de un Porsche de competición, imagen 3"
         }
       ]
     },
@@ -39,34 +65,24 @@
       "nivel": 2,
       "titulo": "Campeonatos GT y Gentlemen Driver",
       "parrafos": [
-        "Trabajamos con vehículos GT3, GT3 y carrera CUP de varias generaciones, y prestamos <strong>servicios de asistencia, soporte e ingeniería de pista</strong> con operarios habituales de los campeonatos."
+        "Trabajamos con vehículos GT3, GT3 y carrera CUP de varias generaciones, y prestamos servicios de asistencia, soporte e ingeniería de pista con operarios habituales de los campeonatos."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/627ae024-DSC08039.jpg",
-          "alt": ""
-        }
-      ]
+      "imagenes": []
     },
     {
       "nivel": 2,
       "titulo": "Rally",
       "parrafos": [
         "Lo más habitual es imaginar los vehículos Porsche sobre una carretera bien asfaltada y a altas velocidades. Sin embargo, no es extraño verlos fuera del asfalto. A lo largo de su historia han competido sobre todo tipo de superficies y llegaron a ganar un París-Dakar en 1984.",
-        "Parte de la <strong>preparación de un 911 para rallies</strong> consiste en:"
+        "Parte de la preparación de un 911 para rallies consiste en:"
       ],
       "items": [
         "Aligerar el peso: retirar piezas innecesarias y utilizar componentes de fibra de vidrio.",
         "Añadir componentes de seguridad: jaula antivuelco, arneses y baquets.",
         "Mejorar el rendimiento: modificar el motor, los amortiguadores y los neumáticos."
       ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8eb0db7a-DSC07759.jpg",
-          "alt": ""
-        }
-      ]
+      "imagenes": []
     },
     {
       "nivel": 2,
@@ -76,11 +92,56 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es un coche revisado para el uso acordado y una relación clara de ajustes, componentes y controles pendientes antes de volver a pista. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche\">taller Porsche</a>, <a href=\"/taller-porsche/mantenimiento\">mantenimiento</a>, <a href=\"/sala-motores\">sala de motores</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Sirve el mismo ajuste para carretera y circuito?",
+      "parrafos": [
+        "No necesariamente. Neumáticos, alturas, geometrías y temperatura de trabajo cambian con el uso. Se acuerda qué compromiso debe conservar el coche fuera del circuito."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Se puede empezar con una preparación gradual?",
+      "parrafos": [
+        "Sí. El trabajo puede ordenarse por seguridad, fiabilidad y rendimiento para comprobar cada cambio antes de avanzar."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Competición"
+  }
 }

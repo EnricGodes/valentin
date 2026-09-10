@@ -1,0 +1,129 @@
+{
+  "rutaId": "taller-mantenimiento",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Spezialisierte Porsche-Wartung · Valentín Motors",
+    "descripcion": "Porsche-Wartung mit Originalteilen, nach Herstellervorgaben und mit veröffentlichten Preisen nach Modell in Barcelona und Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche-Wartung je nach Nutzung und Modell",
+  "menu": "Wartung",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "parrafos": [
+        "Wir von Valentín Motors wissen, dass die Porsche-Wartung den Herstellervorgaben folgen und auf Alter, Laufleistung, Nutzung und Historie des Fahrzeugs abgestimmt sein sollte. Deshalb geht es im ersten Gespräch nicht um eine Liste von Aufgaben, sondern um das Auto, seine Geschichte und das Ergebnis, das sein Besitzer erwartet.",
+        "Die Bewertung basiert auf der Fahrzeughistorie, dem Datum und Kilometerstand der letzten Wartung, Servicehinweisen, Flüssigkeitsständen, Verschleiß, Leckagen und den Angaben des Besitzers. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen angegeben, bevor aus einer Annahme ein Kostenvoranschlag erstellt wird."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Fahrzeugwartung zum Festpreis"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnose, Umfang und Genehmigung",
+      "parrafos": [
+        "Der Leistungsumfang ist modellbezogen festgelegt: Kleine und große Wartungsarbeiten werden aufgeführt, zusätzlich zu Arbeiten wie Bremsflüssigkeitswechsel, Achsvermessung und gegebenenfalls Gebrauchtwagenprüfungen. Die Arbeiten werden priorisiert, um doppelte Demontage, das Verschleiern von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung wird nach folgendem Kriterium getroffen: Eine Richtlinie dient als Grundlage, aber ein Standardwerk für gelegentlichen Gebrauch und ein tägliches 992 altern unterschiedlich. Geplante Arbeitsgänge werden von Problemen getrennt, die während der Überprüfung entdeckt werden. Wenn sich ein Befund ergibt, der den Auftrag verändert, wird dieser von der genehmigten Arbeit getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff.",
+        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
+        "Genehmigung vor Erweiterung des Umfangs."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was wir tun",
+      "parrafos": [
+        "Wir halten uns an die vom Hersteller vorgegebenen Wartungsintervalle und verwenden Original-Porsche-Teile und -Richtlinien. Der Unterschied zur Vertragswerkstatt liegt nicht in der Durchführung, sondern in den Kosten und der Person, die die Wartung durchführt: Ihr Fahrzeug wird stets vom selben Techniker betreut.",
+        "Alle Preise sind nach Modell aufgeführt. Keine Überraschungen: Sie kennen die Kosten für eine große Inspektion Ihres 993, bevor Sie es in die Werkstatt bringen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Kleine und große Inspektionen",
+      "parrafos": [
+        "Eine kleine Wartung umfasst einen Öl- und Filterwechsel sowie einen 23-Punkte-Check. Eine große Wartung beinhaltet die kleine Wartung und zusätzlich 30 weitere Punkte: Luft- und Innenraumfilter, Zündkerzenwechsel (falls erforderlich) und die Überprüfung aller Verschleißteile.",
+        "Bremsflüssigkeit, Achsvermessung und Gebrauchtwagenprüfung werden separat berechnet und haben einen Festpreis."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Bei Oldtimern gelten andere Wartungsintervalle als im Handbuch angegeben.",
+      "parrafos": [
+        "Ein luftgekühltes 911 Fahrzeug mit einer jährlichen Fahrleistung von 3.000 Kilometern benötigt nicht denselben Wartungsplan wie ein 992 Fahrzeug, das täglich genutzt wird. Für Fahrzeuge, die nur gelegentlich genutzt werden, empfehlen wir einen jährlichen Ölwechsel, auch wenn die angegebene Kilometerzahl noch nicht erreicht ist: Öl altert mit der Zeit, nicht nur durch den Gebrauch, und bei einem vierzig Jahre alten Motor kann das teuer werden."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Sie als Besitzer erwartet",
+      "parrafos": [
+        "Dieser Service dient der Dokumentation der durchgeführten Wartungsarbeiten, der Erstellung einer Checkliste und der Erläuterung der Arbeiten, die sofortige Aufmerksamkeit, Nachkontrolle oder einen separaten Termin erfordern. Die abschließende Erläuterung sollte klar darlegen, was durchgeführt wurde, warum es durchgeführt wurde und welche Arbeiten anschließend überwacht oder eingeplant werden sollten.",
+        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Verwandte Leistungen",
+      "parrafos": [
+        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/taller-porsche/tarifas\">modellbezogene Tarife</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">Kaufberatung</a> und <a href=\"/taller-porsche\">Porsche-Werkstatt</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Häufig gestellte Fragen",
+      "parrafos": [
+        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Reicht es, auf den Kilometerstand zu achten?",
+      "parrafos": [
+        "Nein. Flüssigkeiten und einige Materialien altern mit der Zeit. Bei luftgekühlten Fahrzeugen, die nur gelegentlich genutzt werden, wird ein jährlicher Ölwechsel empfohlen, auch bei geringer Fahrleistung."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Was ist der Unterschied zwischen einer kleinen und einer großen Inspektion?",
+      "parrafos": [
+        "Der kürzere Service umfasst Ölwechsel, Filterwechsel und eine 23-Punkte-Prüfung. Der längere Service bietet eine umfassendere Prüfung und beinhaltet die für dieses Intervall empfohlenen Verschleißteile."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 33,
+    "total": 33,
+    "completa": true
+  }
+}

@@ -3,13 +3,39 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Tarifas de mantenimiento Porsche por modelo · Valentín Motors",
-    "descripcion": "Precios cerrados de servicio menor, servicio mayor, líquido de frenos, geometrías e inspección pre-compra, modelo por modelo.",
+    "titulo": "Tarifas mantenimiento Porsche · Valentín Motors",
+    "descripcion": "Tarifas de mantenimiento Porsche por modelo para servicio menor, servicio mayor, líquido de frenos, geometría e inspección.",
     "ogImagen": ""
   },
-  "h1": "Tarifas de mantenimiento Porsche",
+  "h1": "Tarifas de taller Porsche por modelo y servicio",
+  "menu": "Tarifas",
   "acordeones": [],
   "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El servicio empieza por definir el problema",
+      "parrafos": [
+        "En Valentín Motors entendemos que las tarifas por modelo permiten conocer el precio de las operaciones repetibles sin fingir que cualquier avería puede presupuestarse sin ver el coche. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de modelo, generación, versión, caja de cambios, servicio solicitado e historial reciente de mantenimiento. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: las tablas publicadas cubren servicio menor, servicio mayor, líquido de frenos, geometrías e inspección pre-compra para las familias indicadas. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: un precio cerrado describe una operación y sus elementos previstos. Si la revisión descubre desgaste, daños o trabajos anteriores deficientes, se prepara un presupuesto separado antes de ampliar. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": []
+    },
     {
       "nivel": 2,
       "titulo": "Precios cerrados, modelo por modelo",
@@ -19,11 +45,66 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es una referencia comparable antes de pedir cita y, con la unidad identificada, confirmación del servicio adecuado para su versión y estado. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cómo preparar la primera consulta",
+      "parrafos": [
+        "Para orientar la consulta conviene facilitar el modelo, la versión, el año, el número de bastidor cuando sea relevante y el historial disponible. Si existe un síntoma, resulta útil describir cuándo aparece, con el motor frío o caliente, bajo carga o en retención, y si ha cambiado recientemente.",
+        "Las facturas, fotografías y diagnósticos anteriores ayudan a evitar repeticiones, aunque no sustituyen una comprobación actual. Con esa información se decide si basta una cita de inspección, si debe trasladarse el coche o si puede recibirse únicamente el componente."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/porsche-911-mantenimiento-taller\">tarifas 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">tarifas Cayman y Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">tarifas Cayenne y Macan</a>, <a href=\"/taller-porsche/mantenimiento\">mantenimiento Porsche</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Por qué cambia la tarifa entre generaciones?",
+      "parrafos": [
+        "Cambian capacidades, accesos, consumibles y tiempos de trabajo. Incluso dentro del 911, un SC y un 992 no requieren la misma operación."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Una tarifa cerrada incluye averías encontradas?",
+      "parrafos": [
+        "No salvo que la propia tarifa lo indique. Las incidencias ajenas al mantenimiento previsto se explican y presupuestan por separado."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Tarifas"
+  }
 }

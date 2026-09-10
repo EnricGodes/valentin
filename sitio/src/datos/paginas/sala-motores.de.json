@@ -3,128 +3,196 @@
   "tipo": "servicio",
   "ficheroOriginal": "sala-motores",
   "meta": {
-    "titulo": "Motorenwerkstatt für Klassiker und Rennsport · Valentín Motors",
-    "descripcion": "Wir reparieren und optimieren klassische Motoren und Rennmotoren aller Marken: Porsche, Ferrari, Jaguar, Aston Martin, Bentley, Alfa Romeo.",
+    "titulo": "Spezialisierter Motorenraum · Valentín Motors",
+    "descripcion": "Spezialisierter Motorenraum für die Diagnose, Messung und Überholung von Porsche-Motoren und -Getrieben, sowohl klassischen als auch Rennmodellen.",
     "ogImagen": ""
   },
-  "h1": "Motorenraum: Klassiker und Wettbewerb",
+  "h1": "Motorraum für Oldtimer, Porsche und Rennwagen",
+  "menu": "Motorraum",
   "acordeones": [],
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ],
   "secciones": [
     {
-      "nivel": 1,
-      "titulo": "Motorenraum: Klassiker und Wettbewerb",
+      "nivel": 2,
+      "titulo": "Der Service beginnt mit der Problemdefinition",
       "parrafos": [
-        "Mit der Hilfe von Iván Bascuñana, Leiter der Motorenabteilung, verfügen wir über umfangreiche Erfahrung in der Reparatur klassischer Motoren aller Marken. Wir bereiten Motoren auch für den Wettbewerb vor.",
-        "Unser Maschinenraum",
-        "Die folgenden Motoren sind durch die Hände unseres Motorradfahrers Iván Bascuñana gegangen:"
+        "Wir bei Valentín Motors wissen, dass ein eigener Motorraum uns viele Vorteile bietet. Diagnose, Messungen, Bearbeitung, Montage und Prüfung werden alle im Rahmen desselben technischen Ansatzes durchgeführt. Deshalb konzentriert sich unser erstes Gespräch nicht auf einen Leistungskatalog, sondern auf das Fahrzeug, seine Geschichte und die vom Besitzer erwarteten Ergebnisse.",
+        "Die Beurteilung beginnt mit der Erfassung der ersten Symptome, der Prüfung von Öl und Filter, der Kompression (falls zutreffend), dem Zustand jeder Baugruppe, dem Spiel, der Ovalität, der Planheit und der Rückverfolgbarkeit der Teile. Fehlen Informationen, werden die notwendigen Prüfungen festgelegt, bevor aus einer Hypothese ein Kostenvoranschlag erstellt wird."
       ],
-      "items": [
-        "Aston Martin DBS, DB4, DB5, DB6",
-        "Austin Healey",
-        "Bentley Continental",
-        "De Tomaso Pantera 351 Cleveland",
-        "Ferrari Dino, 250 GTE, 308 GT",
-        "Ford MK1, MK2 Pinto und BDG",
-        "Jaguar XK 120/140/150, MKII, MK7, E-Type,",
-        "Lamborghini 400 2+2, Islero",
-        "Maserati 3500 GT",
-        "Mercedes 300SL, 280SL, 250SE, 190SL",
-        "Peugeot 404",
-        "Rolls Royce Silver Shadow"
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/9f55a612-DSC03453.jpg",
-          "alt": ""
+          "alt": "Motorraum-Überholungsarbeiten, Bild 1"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Wir haben Erfahrung in der Reparatur klassischer Motoren aller Marken",
+      "titulo": "Diagnose, Umfang und Genehmigung",
       "parrafos": [
-        "Eine der Abteilungen, auf die wir am meisten stolz sind, ist unser Motorenraum, in dem wir <strong> die Leistung und Getriebe</strong> aller 911 und klassischen Porsche restaurieren und aufrüsten.",
-        "Tatsächlich leitet sich unser Handelsname Valentín Motors vom Namen des Gründers und „Motors“ ab, einem Symbol für die technische Leistungsfähigkeit, über die unser Unternehmen seit 1979 verfügt.",
-        "<strong>Ein Motorenraum ist technisch und wissenstechnisch sehr teuer</strong>, tatsächlich haben nicht einmal die offiziellen Händler der Marken einen.",
-        "Wir haben viel Erfahrung mit Porsche-Motoren, sowohl luftgekühlten Motoren vom 356 als auch den modernen GT3 und CUP; Wir beschränken uns nicht auf die Restaurierung und Montage nach Originalvorgaben, sondern verbessern und erweitern auch nach unseren Berechnungen und Daten."
+        "Der Umfang wird proportional definiert: Wir bearbeiten luft- und wassergekühlte Porsche-Motoren, Rennmotoren, Getriebe und klassische mechanische Komponenten anderer Marken, die bereits in der Erfahrung unserer Abteilung dokumentiert sind. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung basiert auf folgendem Prinzip: Ein geöffneter Motor erhält nicht automatisch alle Teile neu. Jede Komponente wird vermessen und klassifiziert, um Verwendbares zu erhalten, Notwendiges zu beheben und vor der Montage verschiedene Optionen aufzuzeigen. Sollte sich herausstellen, dass eine Änderung am Auftrag erforderlich ist, wird diese von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
       ],
-      "items": [],
-      "imagenes": []
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff.",
+        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
+        "Genehmigung vor Erweiterung des Umfangs."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Motorraum-Überholungsarbeiten, Bild 2"
+        }
+      ]
     },
     {
-      "nivel": 3,
-      "titulo": "Eine Werkstatt mit Motorenraum ermöglicht es uns, nicht auf Dritte angewiesen zu sein und gewährleistet so die Garantie und die Qualität, mit der wir unsere Projekte ausführen.",
+      "nivel": 2,
+      "titulo": "Wir haben Erfahrung in der Reparatur von Oldtimermotoren aller Marken.",
       "parrafos": [
-        "– Jordi Edo"
+        "Eine der Abteilungen, auf die wir besonders stolz sind, ist unsere Motorenwerkstatt. Hier restaurieren und überarbeiten wir Motoren und Getriebe sämtlicher 911 sowie weiterer klassischer Porsche.",
+        "Unser Firmenname Valentín Motors leitet sich vom Namen des Gründers und dem Wort „Motoren“ ab und symbolisiert die technische Expertise, die unser Unternehmen seit 1979 auszeichnet.",
+        "Ein Motorenraum erfordert erhebliche Investitionen in technische Ressourcen und Expertise. Tatsächlich verfügen nicht einmal offizielle Markenhändler über einen solchen.",
+        "Wir verfügen über umfassende Erfahrung mit Porsche-Motoren, vom luftgekühlten 356 bis hin zu den modernen GT3 und CUP. Wir restaurieren und montieren sie nicht nur nach Originalspezifikationen, sondern optimieren und verbessern sie auch anhand unserer Berechnungen und Daten."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": ""
-        },
-        {
           "url": "/img/paginas/50280633-motor2.jpg",
-          "alt": ""
+          "alt": "Motorraum-Überholungsarbeiten, Bild 3"
         }
       ]
     },
     {
-      "nivel": 2,
-      "titulo": "Beispiele für Motorreparaturen",
-      "parrafos": [],
+      "nivel": 3,
+      "titulo": "Unser eigener Motorenraum ermöglicht uns Unabhängigkeit, garantiert die Qualität unserer Arbeit und erleichtert die Abwicklung von Garantieansprüchen.",
+      "parrafos": [
+        "Jordi Edo"
+      ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Komplette Motorsanierung 964",
+      "titulo": "Komplette Motorüberholung des 964",
       "parrafos": [
-        "Während der gesamten 964-Generation verwendete Porsche den 3.600 cc, der seinen Besitzern so viel Zuverlässigkeit und Zufriedenheit verschaffte."
+        "Während der gesamten 964-Generation verwendete Porsche den 3.600-Motorblock, der seinen Besitzern außergewöhnliche Zuverlässigkeit und Zufriedenheit bot."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Komplette Restaurierung des 965-Motors (964-Turbo)",
+      "parrafos": [
+        "Im Jahr 1991 wurde das Turbo-Modell 911 von einem Kompressormotor mit 3,3 Litern Hubraum angetrieben, ebenso wie 320 und CV."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Unsere Leistungen",
+      "parrafos": [
+        "Die Werkstatt bietet vier Leistungen an: Porsche-Motoren aller Epochen, klassische Motoren anderer Marken, Getriebe und Rennvorbereitung.",
+        "Jeder Bereich hat eine eigene Seite, die Leistungsumfang und Arbeitsweise beschreibt. Gemeinsam sind ihnen die Motorenwerkstatt, die Werkzeuge und der Grundsatz, vor einer Entscheidung zu messen."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/91292630-964.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 3,
-      "titulo": "Restaurierung kompletter Motor 965 (964 turbo)",
-      "parrafos": [
-        "Im Jahr 1991 wurde das Modell 911 turbo von einem Kompressormotor mit 3,3 Litern und 320 CV angetrieben."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/f09b0a71-965.jpg",
-          "alt": ""
+          "alt": "Motorraum-Überholungsarbeiten, Bild 4"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Interview mit Iván Bascuñana, Leiter Motorenbau",
+      "titulo": "Interview mit Iván Bascuñana, Leiter Motorentechnik",
       "parrafos": [
-        "<strong>Welcher Moment im Prozess ist der entscheidende oder stressigste?<br/></strong>Der Moment, in dem bereits bei montiertem Motor Öldruck angelegt und anschließend gestartet wird, zeigt das Ergebnis der gesamten Arbeit. Der gesamte Prozess unterliegt einem hohen Maß an Verantwortung, da die Kosten hoch sind.<br/><br/><strong>Was ist die wichtigste Eigenschaft eines Motorradfahrers?<br/></strong>Hauptsächlich Leidenschaft und ständige Suche nach Perfektion.",
-        "<strong>Welche Methodik ist für Sie der Schlüssel?<br/></strong>Reihenfolge und Methodik der Prozesse sind der Schlüssel zum Endergebnis.\nDer Motorenraum ist ein geschlossener, ordentlicher Raum, in dem alles in Harmonie ist.",
-        "<strong>Was ist Ihnen wichtig, Erfahrung oder Technik?\n<br/></strong>Die Summe aus beidem ist entscheidend, jeder Tag ist eine Suche nach Perfektion und jeder Tag ist eine Herausforderung.",
-        "<strong>Welche Prozesse werden im Motorenraum ausgeführt? <br/></strong>Demontage, Diagnose jedes Teils und Überprüfung aller Motorelemente.",
-        "<strong>Was ist die wichtigste Phase beim Zerlegen oder Zusammenbauen eines Motors?<br/></strong>Die wichtigste Phase der Demontage ist die Erfassung von Informationen über den Motor: die Erstellung einer vorherigen Diagnose, die dabei hilft, sich auf den Prozess zu konzentrieren.<br/>Und bei der Montage die Überprüfung der Motortoleranzen. Toleranzen von Kolben und Zylindern und Ölspiel zwischen Kurbelwelle und Pleuel.",
-        "<strong>Welche Art von Messungen werden durchgeführt? <br/></strong>Der gesamte Satz an Messungen ist auf dem gleichen Niveau wichtig, Kolben-/Zylindertoleranzen sind am wichtigsten, aber auch Ölspiel und Ventilhub sind entscheidend.",
-        "<strong>Können wir die Werksparameter sicher ändern?</strong><br/>Grundsätzlich haben alle Motoren einen Sicherheitsspielraum, der Hersteller missbraucht Material und kann problemlos optimiert werden.",
-        "<strong>Welche Vorteile hat eine Werkstatt mit einem Motorenraum?<br/></strong>Im Wesentlichen besteht keine Abhängigkeit von Dritten, was ein zentraler Aspekt der Garantie und Qualität ist. Es wirkt sich vollständig auf die Qualität aus, die Sie dem Kunden bieten möchten.",
-        "<strong>Welcher Prozess ist der komplexeste?\n<br/></strong>Ohne Zweifel handelt es sich um die Steuerzeiten oder den Entwurf der Steuerzeiten zum Zeitpunkt der Zusammenstellung."
+        "Was ist der kritischste oder stressigste Moment im Prozess? Der Moment der Öldruckprüfung am bereits montierten Motor und später beim Start, wenn das Ergebnis des gesamten Prozesses beobachtet wird. Der gesamte Prozess ist mit einem hohen Maß an Verantwortung verbunden, da die Kosten hoch sind. Was ist die wichtigste Eigenschaft eines Motorentechnikers? In erster Linie Leidenschaft und das ständige Streben nach Perfektion.",
+        "Welche Methodik ist für Sie entscheidend? Ordnung und eine systematische Vorgehensweise sind grundlegend für das Endergebnis. Der Maschinenraum ist ein abgeschlossener und makelloser Raum, in dem alles harmonisch zusammenwirkt.",
+        "Was ist Ihnen wichtiger, Erfahrung oder Technik? Die Kombination aus beidem ist entscheidend. Jeder Tag ist ein Streben nach Perfektion und bringt neue Herausforderungen mit sich.",
+        "Welche Prozesse werden im Motorraum durchgeführt? Demontage, Diagnose jedes einzelnen Teils und Prüfung aller Motorkomponenten.",
+        "Was ist die wichtigste Phase bei der Demontage bzw. Montage eines Motors? Die wichtigste Phase der Demontage ist die Informationsbeschaffung über den Motor: Eine Vorabdiagnose hilft, den Prozess zu steuern. Bei der Montage ist die Überprüfung der Motortoleranzen entscheidend: die der Kolben und Zylinder sowie das Ölspiel zwischen Kurbelwelle und Pleuelstange.",
+        "Welche Messungen werden durchgeführt? Alle Messungen sind gleichermaßen wichtig. Zu den wichtigsten gehören das Kolben-Zylinder-Spiel, das Ölspiel und der Ventilhub.",
+        "Können wir die Werkseinstellungen gefahrlos ändern? Generell verfügen alle Motoren über eine Sicherheitsmarge. Der Hersteller verwendet eine Materialzugabe, die problemlos optimiert werden kann.",
+        "Welche Vorteile bietet eine Werkstatt mit Maschinenraum? Der Hauptvorteil liegt in der Unabhängigkeit von Dritten – ein Schlüsselfaktor für Gewährleistung und Qualität. Dies wirkt sich direkt auf die Qualität aus, die wir dem Kunden bieten möchten.",
+        "Welcher Prozess ist der komplexeste? Zweifellos die Zeitplanung, insbesondere deren Anpassung während der Montage."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/f09b0a71-965.jpg",
+          "alt": "Motorraum-Überholungsarbeiten, Bild 5"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Sie als Besitzer erwartet",
+      "parrafos": [
+        "Ziel der Lieferung ist eine vollständig montierte Einheit mit korrekter Prozessreihenfolge, geprüften Toleranzen und einem Inbetriebnahmetest, der Öldruck, Funktion und die Ergebnisse der durchgeführten Arbeiten überprüft. Die abschließende Erläuterung soll dem Kunden verständlich machen, was getan wurde, warum es getan wurde und was anschließend zu beobachten oder einzuplanen ist.",
+        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/375d4c34-IMG_0978.jpg",
-          "alt": ""
+          "alt": "Motorraum-Überholungsarbeiten, Bild 6"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor",
+      "parrafos": [
+        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
+        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Verwandte Leistungen",
+      "parrafos": [
+        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/taller-porsche/motores\">Porsche-Motoren</a>, <a href=\"/taller-porsche/cajas-de-cambio\">Getriebe</a> und <a href=\"/competicion\">Motorsport</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Häufig gestellte Fragen",
+      "parrafos": [
+        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Kann ich nur den Motor einsenden?",
+      "parrafos": [
+        "Ja. Valentín Motors holt Motoren in ganz Spanien ab, sobald der Motor aus dem Fahrzeug ausgebaut wurde. Der Auftrag muss alle verfügbaren Informationen zu Symptomen und vorherigen Reparaturen enthalten."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Wann ist der genaue Arbeitsumfang bekannt?",
+      "parrafos": [
+        "Nach der Diagnose und, falls erforderlich, nach Reinigung und Vermessung der Teile kann eine erste Einschätzung vorgenommen werden, jedoch keine endgültige Aussage über verdeckte Schäden."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -132,15 +200,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 55,
-    "total": 55,
+    "hechas": 57,
+    "total": 57,
     "completa": true
-  },
-  "menu": "Motorenraum",
-  "articulos": [
-    "rehabilitacion-motor-32-serie-g-1985",
-    "restauracion-motor-965-turbo-33",
-    "restauracion-motor-964-m64",
-    "9971-turbo-rehabilitacion-motor"
-  ]
+  }
 }

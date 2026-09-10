@@ -1,0 +1,129 @@
+{
+  "rutaId": "restauraciones-proyectos",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Conception de projet Porsche · Valentín Motors",
+    "descripcion": "Conception et définition des projets Porsche en fonction de l'utilisation, du véhicule de base, du budget et de l'homologation, avant le début des travaux.",
+    "ogImagen": ""
+  },
+  "h1": "Définition des projets Porsche avant démontage.",
+  "menu": "Projets et conception.",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Notre service commence par la définition du problème",
+      "parrafos": [
+        "Chez Valentín Motors, nous savons que le département projets transforme une intention générale en un cahier des charges que l'atelier peut mettre en œuvre et que le client peut évaluer avant le début des travaux. C'est pourquoi la première discussion porte non pas sur un catalogue de services, mais sur le véhicule, son historique et le résultat attendu par son propriétaire.",
+        "L'évaluation se base sur l'utilisation prévue, le véhicule de base, son état, les références esthétiques, les performances souhaitées, le budget et l'homologation. En cas d'information manquante, nous indiquons les vérifications nécessaires pour l'obtenir avant de transformer une hypothèse en devis."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnostic, périmètre et autorisation",
+      "parrafos": [
+        "Le périmètre est défini proportionnellement : les alternatives, les compatibilités, les pièces, la fabrication et la séquence de travail sont étudiées. Dans les projets complexes, il est également déterminé ce qui doit être testé avant l’installation finale. Les tâches sont ordonnées de manière à éviter les doubles démontages, la dissimulation d’un symptôme et le remplacement d’un ensemble alors qu’il peut encore être diagnostiqué ou réparé.",
+        "La décision technique est prise selon ce critère : concevoir implique d’éliminer certaines options. Les solutions justifiées sont privilégiées et l’on évite qu’un assemblage de pièces de qualité ne aboutisse à un véhicule incohérent. Si une découverte modifie le projet, elle est dissociée du travail approuvé et expliquée avant de poursuivre."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention.",
+        "Travaux inclus, alternatives et éléments en attente de confirmation.",
+        "Autorisation préalable à l'extension du périmètre."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Le Laboratoire des Idées",
+      "parrafos": [
+        "Avant d'arriver à l'atelier, chaque projet passe par ici. Nous y étudions les solutions existantes, comparons celles d'autres professionnels et testons les éléments qui seront installés avant de les monter sur le véhicule du client.",
+        "Ce département fabrique les pièces sur mesure destinées aux voitures de course et prend les décisions de conception pour les restomods."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comment un projet commence",
+      "parrafos": [
+        "Par une discussion, puis par une voiture, dans cet ordre. La première étape consiste à définir vos besoins : utilisation, stockage ou compétition. Tout le reste en découle, y compris la partie délicate : estimer le coût et le délai."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que le propriétaire peut attendre",
+      "parrafos": [
+        "Ce document a pour objectif de fournir un cahier des charges clair et compréhensible, structuré en phases et lié aux choix techniques, esthétiques et d'ergonomie qui ne dépendent pas d'improvisations lors du montage. L'explication finale permettra au lecteur de comprendre les choix effectués, leurs raisons et les points à prendre en compte ou à planifier.",
+        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comment se préparer à la consultation initiale",
+      "parrafos": [
+        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
+        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Services associés",
+      "parrafos": [
+        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/restauraciones\">restaurations</a>, <a href=\"/restauraciones/personalizacion\">personnalisation</a> et <a href=\"/builds\">builds</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Foire aux questions",
+      "parrafos": [
+        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Avez-vous besoin d'une idée précise ?",
+      "parrafos": [
+        "Non. Expliquez-nous simplement comment vous souhaitez utiliser le véhicule et ce que vous souhaitez conserver. La première étape consiste précisément à traduire vos préférences en décisions concrètes."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Le budget fait-il partie de la conception ?",
+      "parrafos": [
+        "Oui. Cela détermine les matériaux, le périmètre et les phases. En discuter dès le début évite de concevoir un projet qui devra être abandonné par la suite pour être réalisé."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 33,
+    "total": 33,
+    "completa": true
+  }
+}

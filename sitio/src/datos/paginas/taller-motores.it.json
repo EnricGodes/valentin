@@ -1,0 +1,139 @@
+{
+  "rutaId": "taller-motores",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Motori Porsche: Revisione · Valentín Motors",
+    "descripcion": "Diagnosi e revisione di motori Porsche presso la nostra officina, con misurazioni, preventivo dettagliato e ritiro in tutta la Spagna.",
+    "ogImagen": ""
+  },
+  "h1": "Revisione di motori Porsche presso la nostra officina",
+  "menu": "Motori Porsche",
+  "acordeones": [],
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "9971-turbo-rehabilitacion-motor",
+    "restauracion-motor-964-m64",
+    "reconstruccion-motor-968"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Il servizio inizia con la definizione del problema",
+      "parrafos": [
+        "Noi di Valentín Motors comprendiamo che la revisione di un motore Porsche richiede la traduzione di sintomi e indicazioni in misurazioni prima di selezionare i ricambi o promettere un intervento. Per questo motivo, il colloquio iniziale non si concentra su un catalogo di servizi, ma piuttosto sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
+        "La valutazione inizia con l'analisi delle condizioni dell'olio e del filtro, della compressione (ove applicabile), di eventuali perdite, rumori, pressioni, tolleranze, ovalizzazione, testate, camicie dei cilindri, albero motore e fasatura. Qualora mancassero delle informazioni, indichiamo quali test sono necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+          "alt": "Restauro del motore"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosi, ambito e autorizzazione",
+      "parrafos": [
+        "L'entità del lavoro viene determinata proporzionalmente: la nostra officina specializzata si occupa di motori boxer raffreddati ad aria, motori M96 e M97, motori da competizione, famiglie transaxle e motori di ultima generazione documentati nell'esperienza dell'officina. Gli interventi vengono programmati in modo da evitare doppi smontaggi, mascherare i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica viene presa secondo questo criterio: dopo lo smontaggio, la pulizia e le misurazioni, vengono presentate le alternative. Riparare solo il guasto visibile potrebbe non essere sufficiente, ma sostituire tutto indiscriminatamente non è un approccio tecnicamente valido. Se emerge un riscontro che modifica l'ordine di lavoro, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento.",
+        "Lavori inclusi, alternative e elementi in attesa di conferma.",
+        "Autorizzazione prima di ampliare l'ambito di lavoro."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa facciamo",
+      "parrafos": [
+        "Restauriamo, rimettiamo a nuovo e ripariamo qualsiasi motore del marchio, dal boxer a quattro cilindri della 356 ai modelli attuali, nella nostra officina specializzata. È il reparto che dà il nome all'azienda, un reparto che nemmeno le concessionarie ufficiali possiedono.",
+        "Ritiriamo i motori da tutta la Spagna. Non è necessario portare l'auto: se il motore si trova già all'esterno, viaggia da solo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Come lavoriamo",
+      "parrafos": [
+        "Un motore non viene aperto solo per sostituire un pezzo. Viene aperto, tutto viene misurato e le decisioni vengono prese in base ai dati: giochi, ovalizzazione, planarità della testata, condizioni delle camicie dei cilindri e dell'albero motore. Il preventivo si basa su queste misurazioni, e non prima.",
+        "Disponiamo di macchinari e strumenti propri, nonché di un reparto di ricerca ricambi che, per un motore di quarant'anni, rappresenta metà del lavoro."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Su quali motori lavoriamo",
+      "parrafos": [],
+      "items": [
+        "Motori Boxer raffreddati ad aria, da 356 a 993.",
+        "M96 e M97, con l'aggiunta di IMS e bore scoring.",
+        "Motori da competizione e modifiche personalizzate.",
+        "Transaxle: 924, 944, 968 e 928.",
+        "Motori classici di altri produttori, anch'essi inclusi nell'officina."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa può aspettarsi il proprietario",
+      "parrafos": [
+        "L'obiettivo di consegna è un preventivo dettagliato, un elenco dei ricambi e un motore assemblato, messo a punto e collaudato secondo le specifiche approvate. La relazione finale deve spiegare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe monitorare o programmare in futuro.",
+        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servizi correlati",
+      "parrafos": [
+        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/sala-motores\">sala motori</a>, <a href=\"/taller-porsche/bore-scoring\">bore scoring</a> e <a href=\"/taller-porsche/cajas-de-cambio\">cambi</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Domande frequenti",
+      "parrafos": [
+        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "È possibile ritirare un motore al di fuori di Barcellona o Madrid?",
+      "parrafos": [
+        "Sì. Il servizio pubblicizzato include il ritiro del motore in tutta la Spagna e la riconsegna a lavoro ultimato. Il motore può essere trasportato anche senza l'auto, se quest'ultima è già stata smontata."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quando viene confermato il preventivo?",
+      "parrafos": [
+        "L'entità finale dei lavori viene definita dopo l'apertura e la misurazione del motore, qualora il danno sia interno. Vengono prima illustrate le ipotesi e il lavoro necessario per verificarle."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 37,
+    "total": 37,
+    "completa": true
+  }
+}

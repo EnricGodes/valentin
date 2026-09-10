@@ -1,0 +1,139 @@
+{
+  "rutaId": "taller-pre-compra",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche Gebrauchtwagen-Check · Valentín Motors",
+    "descripcion": "Porsche-Kaufberatung mit Prüfung von Mechanik, Historie und Karosserie sowie modellspezifischen Tests, in der Werkstatt oder vor Ort.",
+    "ogImagen": ""
+  },
+  "h1": "Kaufvorprüfung für eine fundierte Entscheidung",
+  "menu": "Kaufvorprüfung",
+  "acordeones": [],
+  "articulos": [
+    "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911",
+    "porsche-bore-scoring",
+    "que-es-el-ims-de-porsche"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "parrafos": [
+        "Wir von Valentín Motors wissen, dass eine Kaufvorprüfung die Angaben in der Anzeige und die Fahrzeughistorie in konkrete Prüfungen umsetzt, bevor ein Preis festgelegt wird. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf eine Liste von Serviceleistungen, sondern auf das Fahrzeug selbst, seine Geschichte und die Erwartungen des Käufers.",
+        "Die Bewertung basiert auf Dokumentation, Herkunft, Kilometerstand, Wartung, Diagnose, Motor, Getriebe, Probefahrt, Karosserie, Lackierung und den modellspezifischen Risiken. Fehlen Informationen, legen wir fest, welche Prüfungen erforderlich sind, um diese zu beschaffen, bevor wir aus einer Annahme ein Angebot erstellen."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
+          "alt": "Porsche-Gebrauchtwagenprüfung"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnose, Umfang und Genehmigung",
+      "parrafos": [
+        "Der Leistungsumfang richtet sich nach dem Aufwand: Die Arbeiten können in unserer Werkstatt oder vor Ort beim Fahrzeug, innerhalb oder außerhalb Spaniens, durchgeführt werden, je nach Art der Dienstleistung. Die Arbeitsschritte werden so geplant, dass keine Teile doppelt demontiert, keine Symptome verschleiert und keine Baugruppe ausgetauscht wird, wenn diese noch diagnostiziert oder repariert werden kann.",
+        "Die technische Entscheidung basiert auf folgendem Kriterium: Ein Mangel führt nicht automatisch zur Ablehnung. Der Bericht unterscheidet zwischen normaler Wartung, Risiken, anstehenden Reparaturen und Anzeichen, die die Identität oder Beschreibung des Fahrzeugs in Frage stellen. Sollte sich ein Befund ergeben, der den Auftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff.",
+        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
+        "Genehmigung vor Erweiterung des Umfangs."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was wir tun",
+      "parrafos": [
+        "Wir bewerten das Fahrzeug, das Sie kaufen möchten: den mechanischen Zustand, den Zustand der Karosserie, die dokumentierte Historie und einen Vergleich der Angaben in der Anzeige mit dem tatsächlichen Zustand des Fahrzeugs. Die Bewertung kann in unserer Werkstatt oder durch einen Besuch vor Ort erfolgen, egal ob in Spanien oder im Ausland.",
+        "Dies ist die Dienstleistung, mit der Sie von allen unseren Angeboten am meisten Geld sparen und die am seltensten nachgefragt wird."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Worauf zu achten ist",
+      "parrafos": [],
+      "items": [
+        "Dokumentation: Eigentumsverhältnisse, Pfandrechte, Abmeldehistorie und ITV.",
+        "Übereinstimmung des Kilometerstands mit dem Serviceheft und dem Steuergerät.",
+        "Zustand von Motor und Getriebe, inklusive Probefahrt.",
+        "Zylinderendoskopie bei Motoren mit Risiko für bore scoring.",
+        "Zustand von IMS bei den betroffenen M96 und M97.",
+        "Karosserie: Spaltmaße, Lackdicke und Anzeichen von Reparaturen.",
+        "Schriftlicher Bericht mit Fotos und einer klaren Empfehlung."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Vor den Verhandlungen, nicht danach.",
+      "parrafos": [
+        "Die Inspektion ist sinnvoll, bevor man sich auf einen Preis einigt, denn die Feststellungen sind Teil der Verhandlung. Ein unberührter IMS oder ein Kratzer am sechsten Zylinder sind nicht immer ein Grund, nicht zu kaufen; es ist fast immer ein Grund, weniger zu zahlen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Sie als Besitzer erwartet",
+      "parrafos": [
+        "Ziel der Übergabe ist ein schriftlicher Bericht mit Fotos und einer klaren Empfehlung, weiter zu verhandeln, weitere Prüfungen durchzuführen oder vom Kauf zurückzutreten. Die abschließende Erläuterung sollte klarstellen, was getan wurde, warum es getan wurde und was anschließend zu beachten oder einzuplanen ist.",
+        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Verwandte Leistungen",
+      "parrafos": [
+        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/taller-porsche/bore-scoring\">bore scoring-Diagnose</a>, <a href=\"/herramientas/calculadora-ims-porsche\">IMS-Rechner</a> und <a href=\"/porsche-en-venta\">Porsche im Verkauf</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Häufig gestellte Fragen",
+      "parrafos": [
+        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Ersetzt es die Servicehistorie?",
+      "parrafos": [
+        "Nein. Es ergänzt sie. Eine vollständige Servicehistorie bietet einen besseren Kontext, gibt aber allein keinen Aufschluss über den aktuellen Zustand oder die Qualität früherer Reparaturen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Welche spezifischen Tests könnten für M96 oder M97 erforderlich sein?",
+      "parrafos": [
+        "Je nach Modell und Baujahr empfiehlt es sich, vor dem Kaufabschluss die Teilenummer IMS zu überprüfen und eine Zylinderendoskopie durchzuführen, um die Teilenummer bore scoring zu beurteilen."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 38,
+    "total": 38,
+    "completa": true
+  }
+}

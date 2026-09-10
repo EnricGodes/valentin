@@ -8,6 +8,16 @@
  *   node scripts/probar-middleware.mjs
  */
 import { onRequest } from '../functions/_middleware.ts';
+import mapa from '../functions/mapa-idiomas.json' with { type: 'json' };
+
+/**
+ * Una pagina que hoy NO tiene aleman, sacada del mismo mapa que usa el
+ * middleware. Antes iba escrita a mano (`/storage-porsche`) y la prueba se
+ * caia el dia que esa pagina se traducia, que es un dia bueno: lo que se
+ * comprueba es la regla, no que a una pagina concreta le falte el aleman.
+ */
+const SIN_ALEMAN = Object.keys(mapa).find((r) => r !== '/' && !mapa[r]?.de)
+  ?? '/aviso-legal';
 
 const next = async () =>
   new Response('<html>ok</html>', { headers: { 'content-type': 'text/html' } });
@@ -31,7 +41,7 @@ const CASOS = [
   ['con cookie puesta manda la cookie', '/taller-porsche', { 'accept-language': 'de-DE', cookie: 'idioma=es' }, 200, null],
   ['Googlebot ve siempre el castellano', '/taller-porsche', { 'accept-language': 'en-US', 'user-agent': GOOGLEBOT }, 200, null],
   ['una URL con idioma no se toca', '/en/porsche-workshop', { 'accept-language': 'en-US' }, 200, null],
-  ['pagina sin traducir no redirige', '/storage-porsche', { 'accept-language': 'de-DE' }, 200, null],
+  ['pagina sin traducir no redirige', SIN_ALEMAN, { 'accept-language': 'de-DE' }, 200, null],
   ['articulo del Magazine', '/magazine/que-es-el-ims-de-porsche', { 'accept-language': 'fr-FR' }, 302, '/fr/magazine/que-es-el-ims-de-porsche'],
   ['idioma que no tenemos', '/taller-porsche', { 'accept-language': 'ja-JP,ja;q=0.9' }, 200, null],
   ['respeta la q del Accept-Language', '/taller-porsche', { 'accept-language': 'de;q=0.5,en;q=0.9' }, 302, '/en/porsche-workshop'],

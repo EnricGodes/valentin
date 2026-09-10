@@ -1,0 +1,115 @@
+{
+  "rutaId": "taller-tarifas",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Tariffe di manutenzione Porsche · Valentín Motors",
+    "descripcion": "Tariffe di manutenzione Porsche per modello: servizio base e completo, liquido freni, geometria e ispezione pre-acquisto.",
+    "ogImagen": ""
+  },
+  "h1": "Tariffe di officina Porsche per modello e tipo di intervento",
+  "menu": "Tariffe",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Il servizio inizia con la definizione del problema",
+      "parrafos": [
+        "Noi di Valentín Motors comprendiamo che le tariffe specifiche per modello consentono di conoscere il prezzo dei servizi ricorrenti senza pretendere di poter fornire un preventivo per qualsiasi riparazione senza aver prima visionato l'auto. Per questo motivo, la conversazione iniziale non si concentra su un elenco di interventi, ma piuttosto sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
+        "La valutazione si basa su modello, generazione, versione, trasmissione, intervento richiesto e storico degli interventi di manutenzione recenti. In caso di informazioni mancanti, prima di convertire un'ipotesi in un preventivo, vengono specificati i controlli necessari per ottenerle."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosi, ambito e autorizzazione",
+      "parrafos": [
+        "L'ambito di intervento è definito proporzionalmente: le tabelle pubblicate coprono la manutenzione ordinaria, la manutenzione straordinaria, il liquido freni, la geometria e l'ispezione pre-acquisto per le famiglie di prodotti specificate. Le attività vengono prioritarie per evitare doppi smontaggi, la mascheratura di un sintomo e la sostituzione di un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica viene presa in base a questo criterio: un prezzo fisso delinea un intervento e le sue componenti pianificate. Se l'ispezione rivela usura, danni o lavori precedenti non conformi, viene predisposto un preventivo separato prima di procedere. Se emerge un riscontro che modifica l'ambito di lavoro, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento.",
+        "Lavori inclusi, alternative e elementi in attesa di conferma.",
+        "Autorizzazione prima di ampliare l'ambito di lavoro."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Prezzi fissi, modello per modello",
+      "parrafos": [
+        "La manutenzione non ha lo stesso costo per una 911 raffreddata ad aria e per una Macan, e all'interno della gamma 911, una SC costa meno di una 992. Per questo motivo le tariffe sono elencate per modello: seleziona il Suo e vedrai il costo di ogni intervento per quello specifico veicolo.",
+        "Queste sono tariffe di riferimento fisse. Il preventivo finale dipende dalle condizioni dell'auto al momento della consegna, che possono essere determinate solo con l'auto davanti a te."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa può aspettarsi il proprietario",
+      "parrafos": [
+        "Lo scopo della consegna è quello di fornire un punto di riferimento comparabile prima di fissare un appuntamento e, una volta identificato il veicolo, di confermare l'intervento appropriato per la sua versione e le sue condizioni. La spiegazione finale dovrebbe consentirvi di comprendere cosa è stato fatto, perché è stato fatto e cosa è opportuno annotare o programmare in seguito.",
+        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Come prepararsi per la prima consulenza",
+      "parrafos": [
+        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
+        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servizi correlati",
+      "parrafos": [
+        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/porsche-911-mantenimiento-taller\">tariffe 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">tariffe Cayman e Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">tariffe Cayenne e Macan</a> e <a href=\"/taller-porsche/mantenimiento\">manutenzione Porsche</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Domande frequenti",
+      "parrafos": [
+        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Perché la tariffa cambia tra le diverse generazioni?",
+      "parrafos": [
+        "Capacità, accesso, materiali di consumo e tempi di intervento possono variare. Anche all'interno della gamma 911, i modelli SC e 992 non richiedono la stessa procedura."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Il prezzo fisso include eventuali guasti riscontrati?",
+      "parrafos": [
+        "No, a meno che il prezzo stesso non indichi diversamente. Gli interventi non coperti dalla manutenzione programmata vengono illustrati e quotati separatamente."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 30,
+    "total": 30,
+    "completa": true
+  }
+}

@@ -3,15 +3,44 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Departamento de proyectos y diseño · Valentín Motors",
-    "descripcion": "El laboratorio donde nacen los proyectos: investigación, tendencias y conversación con otros profesionales del sector.",
+    "titulo": "Diseño de proyectos Porsche · Valentín Motors",
+    "descripcion": "Diseño y definición de proyectos Porsche según el uso, la base, el presupuesto y la homologación antes de iniciar el trabajo de taller.",
     "ogImagen": ""
   },
-  "h1": "Departamento de proyectos y diseño",
+  "h1": "Proyectos Porsche definidos antes de desmontar",
   "menu": "Proyectos y diseño",
   "acordeones": [],
-  "articulos": [],
   "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El servicio empieza por definir el problema",
+      "parrafos": [
+        "En Valentín Motors entendemos que el departamento de proyectos convierte una intención general en una especificación que el taller puede ejecutar y el cliente puede evaluar antes de empezar. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de el uso esperado, la base disponible, el estado del coche, las referencias estéticas, las prestaciones buscadas, el presupuesto y la homologación. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: se estudian alternativas, compatibilidades, piezas, fabricación y secuencia de trabajo. En proyectos complejos, también se decide qué debe probarse antes de instalarse de forma definitiva. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: diseñar implica descartar. Se priorizan soluciones justificables y se evita que una suma de buenas piezas termine produciendo un coche incoherente. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": []
+    },
     {
       "nivel": 2,
       "titulo": "El laboratorio de ideas",
@@ -20,18 +49,69 @@
         "De este departamento salen las piezas propias que acaban en los coches de competición y las decisiones de diseño de los restomods."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "personalizaciones"
-        }
-      ]
+      "imagenes": []
     },
     {
       "nivel": 2,
       "titulo": "Cómo empieza un proyecto",
       "parrafos": [
         "Con una conversación y con un coche, en ese orden. Lo primero es entender qué se quiere del coche terminado: si es para usar, para guardar o para competir. Todo lo demás sale de ahí, incluida la parte incómoda, que es cuánto va a costar y cuánto va a tardar."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es un alcance comprensible, dividido por fases y conectado con decisiones técnicas, estéticas y de uso que no dependen de improvisaciones durante el montaje. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cómo preparar la primera consulta",
+      "parrafos": [
+        "Para orientar la consulta conviene facilitar el modelo, la versión, el año, el número de bastidor cuando sea relevante y el historial disponible. Si existe un síntoma, resulta útil describir cuándo aparece, con el motor frío o caliente, bajo carga o en retención, y si ha cambiado recientemente.",
+        "Las facturas, fotografías y diagnósticos anteriores ayudan a evitar repeticiones, aunque no sustituyen una comprobación actual. Con esa información se decide si basta una cita de inspección, si debe trasladarse el coche o si puede recibirse únicamente el componente."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/restauraciones\">restauraciones</a>, <a href=\"/restauraciones/personalizacion\">personalización</a>, <a href=\"/builds\">builds</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Hace falta tener una idea completamente cerrada?",
+      "parrafos": [
+        "No. Basta con explicar cómo quiere usar el coche y qué no quiere perder. El trabajo inicial consiste precisamente en convertir preferencias en decisiones comparables."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿El presupuesto forma parte del diseño?",
+      "parrafos": [
+        "Sí. Condiciona materiales, alcance y fases. Hablar de él al principio evita diseñar un proyecto que después deba deshacerse para poder ejecutarlo."
       ],
       "items": [],
       "imagenes": []

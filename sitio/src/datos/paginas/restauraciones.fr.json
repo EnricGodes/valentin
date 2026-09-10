@@ -3,32 +3,85 @@
   "tipo": "servicio",
   "ficheroOriginal": "restauraciones",
   "meta": {
-    "titulo": "Restauration et personnalisation Porsche · Valentín Motors",
-    "descripcion": "Restauration intégrale de Porsche, backdating, restomod et projets sur mesure : originalité maximale ou mécanique actuelle.",
+    "titulo": "Restauration de Porsche classiques · Valentín Motors",
+    "descripcion": "Restauration intégrale Porsche, backdating, restomod et projets sur mesure, avec atelier moteurs intégré et expertise technique depuis 1979.",
     "ogImagen": ""
   },
-  "h1": "Restaurations Porsche",
+  "h1": "Restauration de Porsche classiques et projets personnalisés",
+  "menu": "Restaurations",
   "acordeones": [],
   "secciones": [
     {
-      "nivel": 1,
-      "titulo": "Restaurations Porsche",
-      "parrafos": [],
-      "items": [],
-      "imagenes": []
-    },
-    {
       "nivel": 2,
-      "titulo": "La responsabilité de l'héritage",
+      "titulo": "Notre service commence par la définition du problème",
       "parrafos": [
-        "Chaque Porsche est la représentation <strong>de valeurs, d'une attitude et d'une manière de concevoir la conduite spécifique</strong>. La marque présente une élégance et une beauté intemporelles et nous pensons qu'il est de notre devoir de faire perdurer ces principes.",
-        "C'est pourquoi chez Valentín Motors nous cherchons à retrouver <strong>l'originalité dans les projets de restauration et à ajouter de nouvelles valeurs dans les projets de personnalisation</strong>."
+        "Chez Valentín Motors, nous savons qu'une restauration doit redonner vie à une voiture sans effacer son histoire ni transformer chaque découverte en une extension automatique du projet. C'est pourquoi notre première discussion ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son histoire et le résultat attendu par son propriétaire.",
+        "L'estimation est basée sur l'identité de la voiture, sa documentation, l'originalité de ses composants, la corrosion, les réparations antérieures et l'utilisation prévue par son propriétaire. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant de transformer une hypothèse en budget."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Restaurations de véhicules Porsche"
+          "alt": "Restauration de véhicules Porsche"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Salpicadero de un 911 T rojo con el emblema del modelo sobre la guantera"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnostic, périmètre et autorisation",
+      "parrafos": [
+        "Le périmètre est défini proportionnellement : il peut s'agir de la recherche des spécifications d'origine, d'une remise en état pour une utilisation fréquente, d'une backdating ou d'une restomod. Ces objectifs sont distincts et ne doivent pas être combinés lors du démontage. Les tâches sont ordonnées de manière à éviter les doubles démontages, la dissimulation d'un symptôme et le remplacement d'un ensemble alors qu'il est encore possible de le diagnostiquer ou de le réparer.",
+        "La décision technique est prise selon le critère suivant : avant toute intervention, il est déterminé ce qui est conservé, ce qui est réparé, ce qui est remplacé et quelles modifications doivent être réversibles. Les décisions importantes sont documentées afin de garantir la cohérence de l'ensemble. Si une constatation modifie la commission, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention.",
+        "Travaux inclus, alternatives et éléments en attente de confirmation.",
+        "Autorisation préalable à l'extension du périmètre."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Porsche 911 993 azul oscuro de tres cuartos delante del taller"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Vano motor abierto de un 911 marrón con la turbina dorada y los colectores a la vista"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Porsche Ideas Lab"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "La responsabilité du patrimoine",
+      "parrafos": [
+        "Chaque Porsche incarne des valeurs, une attitude et une conception particulière de la conduite. La marque possède une élégance et une beauté intemporelles, et nous avons à cœur de préserver ces principes.",
+        "C'est pourquoi, chez Valentín Motors, nous nous efforçons de restaurer l'originalité dans les projets de restauration et d'apporter une valeur ajoutée aux projets de personnalisation."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Salpicadero de un 911 clásico con los cinco relojes y el volante de cuatro radios"
+        },
+        {
+          "url": "/img/paginas/418f3e8f-DSC07443.jpg",
+          "alt": "Processus de restauration d'une Porsche classique, image 14"
+        },
+        {
+          "url": "/img/paginas/bf626900-backdating.jpg",
+          "alt": "Backdating porsche 911"
         }
       ]
     },
@@ -36,103 +89,27 @@
       "nivel": 2,
       "titulo": "Restaurations",
       "parrafos": [
-        "Nos restaurations sont marquées par l'<strong>indice maximum d'<br/>originalité</strong> et de qualité dans tous les aspects du projet.",
-        "Dans les restaurations complètes, nous cherchons à obtenir le <strong>Certificat de <br/>Authenticité,</strong> ramenant le véhicule à ses spécifications d'origine.",
-        "<br/>Nous analysons avec le client les possibilités et la portée <br/>de l'unité afin que le résultat soit proportionnel à la <br/>valeur future de chaque Porsche modèle classique.<br/><br/>Chaque modèle et état est analysé à 100% afin que <br/>le résultat final soit <strong>efficace et cohérent avec l'histoire</strong>.",
-        "Suivez le restauration de cet backdating de 964",
-        "Suivez le restauration de ce 2.7 s Targa de 1975",
-        "Suivez le restauration de cette SC Targa de 1979 que nous préparons à la vente.",
-        "Suivez le restauration de cette belle 930, qui est arrivée dans nos installations après avoir subi un incendie dans la zone moteur.",
+        "Nos restaurations se caractérisent par un haut degré d'originalité et de qualité dans tous les aspects du projet.",
+        "Dans le cadre de restaurations complètes, nous nous efforçons d'atteindre Certificate of Authenticity, en ramenant le véhicule à ses spécifications d'origine.",
+        "Nous analysons avec le client les possibilités et l'étendue des travaux afin que le résultat soit proportionnel à la valeur future de chaque modèle Porsche classique. Chaque modèle est analysé à 100% en fonction de son état, de sorte que le résultat final soit efficace et conforme à son histoire.",
+        "Suivez le processus de restauration de ce backdating à partir de 964.",
+        "Suivez le processus de restauration de ce 2.7 à partir de Targa à partir de 1975.",
+        "Suivez le processus de restauration de ce SC Targa de type 1979 que nous préparons pour la vente.",
+        "Suivez le processus de restauration de ce magnifique 930, arrivé dans nos ateliers après un incendie dans le compartiment moteur.",
         "Moteur 2.2",
-        "moteur 2.2 1970<br/>",
-        "Réfection moteur 964 type M64",
-        "Moteur 930 turbo 3.0 1988"
+        "Moteur 2.2 1970",
+        "Réhabilitation du moteur 964 type M64",
+        "Moteur 930 Turbo 3.0 1988"
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "234678640_364110575330562_8256966547310030628_n.jpg"
-        },
-        {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "188595103_372647310843086_5169088713134967750_n.jpg"
-        },
-        {
           "url": "/img/paginas/2e996e8e-142837905_1123606771422230_4368144538445892404_n.jpg",
-          "alt": "142837905_1123606771422230_4368144538445892404_n.jpg"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "DSC00828.jpg"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "DSC00922.jpg"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "DSC00805.jpg"
-        },
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "234678640_364110575330562_8256966547310030628_n.jpg"
-        },
-        {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "188595103_372647310843086_5169088713134967750_n.jpg"
-        },
-        {
-          "url": "/img/paginas/2e996e8e-142837905_1123606771422230_4368144538445892404_n.jpg",
-          "alt": "142837905_1123606771422230_4368144538445892404_n.jpg"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "DSC00828.jpg"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "DSC00922.jpg"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "DSC00805.jpg"
-        },
-        {
-          "url": "/img/paginas/418f3e8f-DSC07443.jpg",
-          "alt": ""
+          "alt": "Bóxer Porsche desmontado y sujeto al soporte de motor del banco"
         },
         {
           "url": "/img/paginas/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg",
           "alt": "Backdating 964 (2023)"
-        },
-        {
-          "url": "/img/paginas/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg",
-          "alt": "Restauration 2.7 S 1975 national (N8 vert anis)"
-        },
-        {
-          "url": "/img/paginas/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg",
-          "alt": "Restauration 3.0 SC Targa 1979"
-        },
-        {
-          "url": "/img/paginas/4f053492-f-1.jpg",
-          "alt": "Restauration par le feu 911 930 turbo 1975"
-        },
-        {
-          "url": "/img/paginas/d10780ce-motor-1.jpg",
-          "alt": "Moteur 1971 2.2"
-        },
-        {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Réfection complète moteur 2.2 1970 série F"
-        },
-        {
-          "url": "/img/paginas/64d909b1-mot-2.jpg",
-          "alt": "Réhabilitation complète moteur 964 M64"
-        },
-        {
-          "url": "/img/paginas/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg",
-          "alt": "Moteur 930 turbo 3.0 1988"
         }
       ]
     },
@@ -140,22 +117,35 @@
       "nivel": 2,
       "titulo": "Personnalisations",
       "parrafos": [
-        "Nous réalisons des <strong>projets sur mesure </strong>pour des clients ayant des aspirations spécifiques : <br/>modifications de la carrosserie, améliorations des performances, intérieurs personnalisés..<br/>"
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "laboratoire d'idées",
-      "parrafos": [
-        "Une partie de notre temps est consacrée à la <strong>recherche</strong>, à la détection des tendances et à la mise en œuvre d'améliorations de nos processus. Nous nous documentons constamment, assistons à des salons, discutons avec d'autres professionnels du secteur pour fournir <strong>des solutions innovantes à nos clients</strong>."
+        "Nous réalisons des projets sur mesure pour des clients aux aspirations spécifiques : modifications de carrosserie, améliorations de performance et intérieurs personnalisés."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "personnalisations"
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        },
+        {
+          "url": "/img/paginas/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg",
+          "alt": "Restauration 2.7 S 1975 National (N8 Vert citron)"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Laboratoire d’idées",
+      "parrafos": [
+        "Une partie de notre temps est consacrée à la recherche afin d'identifier les tendances et d'améliorer nos processus. Nous recueillons constamment des informations, participons à des salons professionnels et échangeons avec d'autres acteurs du secteur pour proposer des solutions innovantes à nos clients."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Salpicadero de un 911 T rojo con el emblema del modelo sobre la guantera"
+        },
+        {
+          "url": "/img/paginas/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg",
+          "alt": "Restauration 3.0 SC Targa 1979"
         }
       ]
     },
@@ -163,30 +153,151 @@
       "nivel": 2,
       "titulo": "Backdating",
       "parrafos": [
-        "Pour les clients qui souhaitent combiner l'esthétique d'un <strong>modèle classique</strong> et les <strong>avancées technologiques</strong> d'un véhicule plus récent, l'backdating peut être une option. Profitant des configurations similaires de la 911 <em>refroidie par air</em>, nous pouvons transformer les caractéristiques esthétiques d'un modèle plus moderne, en le rapprochant du design d'une unité précédente : un SC avec climatisation ou avec un moteur 3.2 ? C'est possible.",
-        "Ces transformations sont toujours effectuées en tenant compte du fait que le nouveau véhicule est <strong>homologable</strong>."
+        "Pour les clients souhaitant allier l'esthétique d'un modèle classique aux avancées technologiques d'un véhicule plus récent, le backdating pourrait être une solution. En s'appuyant sur les configurations similaires des 911 modèles refroidis par air, nous pouvons transformer les caractéristiques esthétiques d'un modèle plus moderne pour le rapprocher du design d'un modèle précédent. Une SC avec climatisation ou avec un 3.2 moteur ? C'est possible.",
+        "Ces transformations sont toujours réalisées en tenant compte de l'homologabilité du nouveau véhicule."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Laboratoire d'idées Porsche"
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Vano motor abierto de un 911 marrón con la turbina dorada y los colectores a la vista"
+        },
+        {
+          "url": "/img/paginas/4f053492-f-1.jpg",
+          "alt": "Reconstruction suite à un incendie 911 930 Turbo 1975"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Faites-nous part de vos idées",
+      "titulo": "Expliquez-nous vos idées.",
       "parrafos": [
-        "Vous découvrirez chez Valentín Motors l'allié parfait pour les réaliser : nous avons la connaissance de la marque, l'expérience éprouvée et la sensibilité pour nous mettre à votre place."
+        "Chez Valentín Motors, vous trouverez le partenaire idéal pour mener à bien vos projets : nous possédons l’expertise de la marque, une expérience éprouvée et la sensibilité nécessaire pour comprendre vos besoins."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/bf626900-backdating.jpg",
-          "alt": "backdating porsche 911"
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Porsche 911 993 azul oscuro de tres cuartos delante del taller"
+        },
+        {
+          "url": "/img/paginas/d10780ce-motor-1.jpg",
+          "alt": "Moteur 1971 2.2"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que le propriétaire peut attendre",
+      "parrafos": [
+        "L’objectif de la livraison est un projet traçable, avec des interventions coordonnées entre les différents corps de métier et un résultat explicable étape par étape, de la carrosserie à la mise au point finale. L’explication finale doit vous permettre de comprendre ce qui a été fait, pourquoi et ce qui doit être observé ou planifié par la suite.",
+        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Salpicadero de un 911 clásico con los cinco relojes y el volante de cuatro radios"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Remise à neuf complète du moteur 2.2 1970 Série F"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comment se préparer à la consultation initiale",
+      "parrafos": [
+        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
+        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Décisions documentées",
+      "parrafos": [
+        "Pour une Porsche, la version exacte et l'historique d'entretien sont aussi importants que le nom du modèle. L'enregistrement des références, des dimensions et des pièces garantit qu'une décision prise aujourd'hui ne devienne pas une énigme pour le prochain entretien ou un futur propriétaire.",
+        "La documentation permet également de distinguer l'état d'origine des modifications ultérieures. Ceci est particulièrement utile pour les voitures de collection, les voitures anciennes et les véhicules modifiés, où une pièce différente peut résulter d'une amélioration délibérée, d'une ancienne réparation ou d'un remplacement mineur."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Critère pour les travaux connexes",
+      "parrafos": [
+        "Le moteur, la boîte de vitesses, les freins, la suspension, les pneus et la carrosserie ne sont pas des composants isolés. Une vibration peut provenir d'un support ; une usure irrégulière peut indiquer un problème de géométrie ; et une réparation de tôlerie peut révéler une modification structurelle qui affecte la valeur du véhicule.",
+        "Lorsqu'un problème affecte plusieurs éléments, un ordre de diagnostic est établi. Ceci permet de préserver la cause visible du diagnostic, d'éviter les démontages répétés et de déterminer quelle spécialité doit intervenir en premier, sans étendre inutilement le projet."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quand s'arrêter et mesurer",
+      "parrafos": [
+        "L'expérience permet de reconnaître des schémas, mais elle ne remplace pas une mesure susceptible de modifier la décision. Avant toute intervention coûteuse, effectuez le test permettant de différencier l'usure normale, un mauvais réglage et un dommage interne. Cette pause protège à la fois le véhicule et votre budget.",
+        "Si le contrôle ne permet pas d'établir un diagnostic définitif sans démontage, expliquez cette limitation et divisez l'intervention en plusieurs phases. Le propriétaire peut ainsi autoriser le diagnostic et décider de la suite des opérations en fonction des composants identifiés."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Services associés",
+      "parrafos": [
+        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/restauraciones/integrales\">restauration intégrale</a>, <a href=\"/restauraciones/backdating\">backdating</a>, <a href=\"/restauraciones/restomod\">restomod</a> et <a href=\"/restauraciones/proyectos-y-diseno\">projets et conception</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2e996e8e-142837905_1123606771422230_4368144538445892404_n.jpg",
+          "alt": "Bóxer Porsche desmontado y sujeto al soporte de motor del banco"
+        },
+        {
+          "url": "/img/paginas/64d909b1-mot-2.jpg",
+          "alt": "Remise à neuf complète du moteur 964 M64"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Foire aux questions",
+      "parrafos": [
+        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        },
+        {
+          "url": "/img/paginas/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg",
+          "alt": "Moteur 930 Turbo 3.0 1988"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Originalité ou fonctionnalité ?",
+      "parrafos": [
+        "Cela dépend de la rareté, de l'état, de l'historique et de la destination du véhicule. Les éléments irremplaçables sont protégés en priorité, puis les améliorations pertinentes sont décidées."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Pourquoi définir le périmètre des travaux avant le démontage ?",
+      "parrafos": [
+        "Car une restauration révèle un travail invisible. Une approche préliminaire nous permet d'évaluer les résultats sans perdre de vue l'objectif et le budget."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -194,8 +305,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 52,
-    "total": 52,
+    "hechas": 85,
+    "total": 85,
     "completa": true
   }
 }

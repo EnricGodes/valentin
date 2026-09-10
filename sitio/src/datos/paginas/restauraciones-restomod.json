@@ -3,18 +3,43 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Restomods Porsche · Valentín Motors",
-    "descripcion": "Un Porsche clásico reconstruido entero para conducirse como uno de hoy, conservando su línea y su carácter.",
+    "titulo": "Restomod Porsche 911 · Valentín Motors",
+    "descripcion": "Restomod Porsche 911 desarrollado como un proyecto completo de carrocería, motor, caja de cambios, interior y puesta a punto.",
     "ogImagen": ""
   },
-  "h1": "Restomods",
-  "menu": "Restomods",
+  "h1": "Restomod Porsche: un clásico creado para usar",
+  "menu": "Restomod",
   "acordeones": [],
   "articulos": [
     "pa10-01",
     "presentacion-pa10-01-madrid"
   ],
   "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El servicio empieza por definir el problema",
+      "parrafos": [
+        "En Valentín Motors entendemos que un restomod rehace un clásico como sistema completo para mejorar su uso sin disolver la identidad que justificó elegirlo. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de la calidad de la base, la arquitectura, el peso, la respuesta del motor, la caja de cambios, los frenos, la suspensión, la ergonomía y la estética. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: carrocería, pintura, motor, transmisión, interior e ingeniería se definen dentro del mismo proyecto. Una mejora aislada no debe trasladar el problema a otro componente. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: se decide qué carácter debe permanecer y qué limitaciones se quieren corregir. La velocidad máxima rara vez explica por sí sola un coche agradable, fiable y utilizable. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": []
+    },
     {
       "nivel": 2,
       "titulo": "Un clásico que se puede usar",
@@ -29,7 +54,53 @@
       "nivel": 2,
       "titulo": "El primero fue el PA10/01",
       "parrafos": [
-        "El <a href=\"/builds/pa10-01\">PA10/01</a> es nuestra interpretación del 911 perfecto: un coche construido entero en casa y presentado en Madrid en 2025. Sirve de referencia de hasta dónde llega un proyecto de este tipo."
+        "El PA10/01 es nuestra interpretación del 911 perfecto: un coche construido entero en casa y presentado en Madrid en 2025. Sirve de referencia de hasta dónde llega un proyecto de este tipo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es una unidad singular desarrollada con una especificación propia, probada y documentada como conjunto, no como una colección de modificaciones independientes. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">proyectos y diseño</a>, <a href=\"/sala-motores\">sala de motores</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿En qué se diferencia de una restauración?",
+      "parrafos": [
+        "La restauración busca recuperar una especificación anterior; el restomod parte de un clásico para crear una especificación nueva. Ambos exigen rigor, pero persiguen resultados distintos."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Se puede copiar el PA10/01?",
+      "parrafos": [
+        "El PA10/01 muestra una capacidad y un criterio. Cada nuevo proyecto debe responder a su propietario y a su base, por lo que la definición vuelve a empezar desde el uso."
       ],
       "items": [],
       "imagenes": []

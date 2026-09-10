@@ -3,39 +3,52 @@
   "tipo": "servicio",
   "ficheroOriginal": "sala-motores",
   "meta": {
-    "titulo": "Sala de motors clàssics i de competició · Valentín Motors",
-    "descripcion": "Reparem i preparem motors clàssics i de competició de qualsevol marca: Porsche, Ferrari, Jaguar, Aston Martin, Bentley, Alfa Romeo.",
+    "titulo": "Sala de motors pròpia · Valentín Motors",
+    "descripcion": "Sala de motors pròpia per diagnosticar, mesurar i reconstruir motors i caixes de canvis Porsche, clàssics i de competició.",
     "ogImagen": ""
   },
-  "h1": "Sala de motors: clàssics i competició",
+  "h1": "Sala de motors per a clàssics, Porsche i competició",
+  "menu": "Sala de motors",
   "acordeones": [],
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ],
   "secciones": [
     {
-      "nivel": 1,
-      "titulo": "Sala de motors: clàssics i competició",
+      "nivel": 2,
+      "titulo": "El servei comença per definir el problema",
       "parrafos": [
-        "De la mà d'Iván Bascuñana, cap del departament de motors, sumem una amplíssima experiència de reparació de motors clàssics de totes les marques. Preparem a més motors per a competició.",
-        "La nostra engine room",
-        "Per les mans del nostre motorista, Iván Bascuñana, han passat els següents motors:"
+        "A Valentín Motors entenem que una sala de motors pròpia permet que el diagnòstic, els mesuraments, la mecanització, el muntatge i la comprovació formin part del mateix criteri tècnic. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix dels símptomes previs, oli i filtre, compressió quan escau, estat de cada conjunt, folgures, ovalitzacions, planitud i traçabilitat de les peces. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
       ],
-      "items": [
-        "Aston Martin DBS, DB4, DB5, DB6",
-        "Austin Healey",
-        "Bentley Continental",
-        "De Tomaso Pantera 351 Cleveland",
-        "Ferrari Dino, 250 GTE, 308 GT",
-        "Ford MK1, MK2 Pinto i BDG",
-        "Jaguar XK 120/140/150, MKII, MK7, E-Type, XJ, XJR",
-        "Lamborghini 400 2+2, Islero",
-        "Maserati 3500 GT",
-        "Mercedes 300SL, 280SL, 250SE, 190SL",
-        "Peugeot 404",
-        "Rolls Royce Silver Shadow"
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/9f55a612-DSC03453.jpg",
-          "alt": ""
+          "alt": "Treball de reconstrucció a la sala de motors, imatge 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnòstic, abast i autorització",
+      "parrafos": [
+        "L´abast es planteja de forma proporcional: treballem motors Porsche refrigerats per aire i per aigua, motors de competició, caixes de canvis i mecàniques clàssiques d´altres marques ja documentades en l´experiència del departament. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: un motor obert no rep automàticament totes les peces noves. Cada element es mesura i es classifica per conservar allò vàlid, corregir el necessari i presentar les opcions abans del muntatge. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi.",
+        "Treballs inclosos, alternatives i elements pendents de confirmar.",
+        "Autorització abans d ampliar l abast."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Treball de reconstrucció a la sala de motors, imatge 2"
         }
       ]
     },
@@ -43,64 +56,58 @@
       "nivel": 2,
       "titulo": "Comptem amb experiència reparant motors clàssics de qualsevol marca",
       "parrafos": [
-        "Un dels departaments dels quals estem més orgullosos és de la nostra sala de motors on <strong>restaurem i actualitzem les unitats de potència i caixes de canvi</strong> de tots els 911 i clàssics Porsche.",
-        "De fet, el nostre nom comercial Valentín Motors prové del nom del fundador i de “motors”, en símbol de la capacitat tècnica que la nostra empresa ha tingut des de 1979.",
-        "<strong>Una sala de motors és costosíssima a nivell tècnic i de coneixement</strong>, de fet ni els concessionaris oficials de les marques en disposen.",
-        "Tenim sobrada experiència en motors Porsche tant refrigerats per aire des del 356 fins als moderns GT3 i CUP; no ens limitem a restaurar i muntar segons les especificacions d'origen sinó també millorem i potenciem segons els nostres càlculs i dades."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Un taller amb sala de motors ens permet no dependre de tercers, assegurant la garantia i la qualitat amb què executem els nostres projectes.",
-      "parrafos": [
-        "— Jordi Edo"
+        "Un dels departaments dels que estem més orgullosos és la nostra sala de motors, on restaurem i actualitzem les unitats de potència i caixes de canvi de tots els 911 i altres clàssics Porsche.",
+        "De fet, el nostre nom comercial, Valentín Motors, prové del nom del fundador i de «motors», com a símbol de la capacitat tècnica que la nostra empresa ha tingut des de 1979.",
+        "Una sala de motors requereix una inversió considerable en recursos tècnics i coneixement. De fet, ni tan sols els concessionaris oficials de les marques en disposen.",
+        "Tenim sobrada experiència en motors Porsche, des dels refrigerats per aire del 356 fins als moderns GT3 i CUP. No ens limitem a restaurar-los ni muntar-los segons les especificacions d'origen; també els millorem i potenciem segons els nostres càlculs i dades."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": ""
-        },
-        {
           "url": "/img/paginas/50280633-motor2.jpg",
-          "alt": ""
+          "alt": "Treball de reconstrucció a la sala de motors, imatge 3"
         }
       ]
     },
     {
-      "nivel": 2,
-      "titulo": "Exemples de reparacions de motors",
-      "parrafos": [],
+      "nivel": 3,
+      "titulo": "Un taller amb sala de motors ens permet no dependre de tercers, cosa que garanteix la qualitat amb què executem els nostres projectes i facilita la cobertura de la garantia.",
+      "parrafos": [
+        "Jordi Edo"
+      ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Rehabilitació completa motor 964",
+      "titulo": "Rehabilitació completa del motor 964",
       "parrafos": [
         "En tota la generació 964 Porsche va fer servir el bloc de 3.600 cc que tanta fiabilitat i satisfaccions va proporcionar als seus propietaris."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Restauració completa del motor 965 (964 turbo)",
+      "parrafos": [
+        "L'any 1991 el model 911 turbo s'impulsava amb un motor sobrealimentat de 3,3 litres i 320 CV."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Els nostres serveis",
+      "parrafos": [
+        "La sala treballa sobre quatre fronts: motors Porsche de qualsevol època, motors clàssics d'altres marques, caixes de canvi i preparació per a la competició.",
+        "Cadascú té la seva pàgina, amb la qual cosa inclou i com es treballa. Aquí hi ha el que totes quatre comparteixen: la sala, l'utillatge i la manera de mesurar abans de decidir."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/91292630-964.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 3,
-      "titulo": "Restauració completa motor 965 (964 turbo)",
-      "parrafos": [
-        "L'any 1991 el model 911 turbo s'impulsava amb un motor sobrealimentat de 3,3 litres i 320 CV."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/f09b0a71-965.jpg",
-          "alt": ""
+          "alt": "Treball de reconstrucció a la sala de motors, imatge 4"
         }
       ]
     },
@@ -108,23 +115,84 @@
       "nivel": 2,
       "titulo": "Entrevista amb Iván Bascuñana, motorista en cap",
       "parrafos": [
-        "<strong>Quin moment és el més crucial o de més estrès en el procés?<br/></strong>El moment de fer pressió d'oli ja amb el motor acoblat i posteriorment en arrencada, que és on es veu el resultat del treball complet Hi ha un alt grau de responsabilitat en tot el procés ja que els costos són alts.<br/><br/><strong>Quina és la principal qualitat que té un motorista?<br/></strong>Principalment passió i recerca contínua de la perfecció.",
-        "<strong>Quina metodologia per a tu és clau?<br/></strong>Ordre i metodologia de processos són clau en el resultat final, la sala de motors és un espai tancat, polit en el qual tot està en harmonia.",
-        "<strong>Què és mal important per a tu, l'experiència o la tècnica?<br/></strong>La suma de les dues és clau, cada dia és una recerca de la perfecció i cada dia és un repte.",
-        "<strong>Quins són els processos que es realitzen a la sala de motors?<br/></strong>Desmuntatge , diagnòstic de cada peça i comprovació de tots els elements de motor.",
-        "<strong>Quina és la fase més important del desmuntatge o muntatge d'un motor?<br/></strong>La fase més important del desmuntatge és l'adquisició d'informació del motor: fer un diagnòstic previ que ajudarà a focalitzar en el procés.<br/>I al muntatge la verificació de les toleràncies. Toleràncies de pistons i cilindres i llum oli entre cigonyal i biela.",
-        "<strong>Quin tipus de mesuraments es fan?<br/></strong>Tot el conjunt de mesuraments són importants al mateix nivell, toleràncies de pistó/cilindre és de les més importants, però la llum d'oli i alçada de vàlvules també són clau.",
-        "<strong>Podem modificar els paràmetres de fàbrica amb seguretat?</strong><br/>Per norma tots els motors tenen un marge de seguretat, el fabricant abusa de material i s'optimitza sense problemes.",
-        "<strong>Quins avantatges té un taller amb sala de motors?<br/></strong>Principalment no es depèn de tercers que és un tema clau a garantia. Afecta completament la qualitat que es vol oferir al client.",
-        "<strong>Quin procés és el de més complexitat?<br/></strong>Sens dubte és la distribució o calat de distribució en el moment de muntatge."
+        "Quin moment és el més crucial o genera més estrès en el procés? El moment de comprovar la pressió d'oli amb el motor ja acoblat i, després, durant l'arrencada quan s'observa el resultat del treball complet. Tot el procés comporta un alt grau de responsabilitat, ja que els costos són elevats. Quina és la qualitat principal d'un motorista? Principalment, la passió i la cerca contínua de la perfecció.",
+        "Quina metodologia és clau per a tu? L'ordre i la metodologia de processos són fonamentals per al resultat final. La sala de motors és un espai tancat i pulcre on tot està en harmonia.",
+        "Què és més important per a tu, lexperiència o la tècnica? La suma de totes dues és clau. Cada dia suposa una cerca de la perfecció i planteja un nou repte.",
+        "Quins són els processos que es realitzen a la sala de motors? Desmuntatge, diagnòstic de cada peça i comprovació de tots els elements del motor.",
+        "Quina és la fase més important del desmuntatge o del muntatge d'un motor? La fase més important del desmuntatge és la recopilació d'informació sobre el motor: fer un diagnòstic previ ajudarà a orientar el procés. En el muntatge, el més important és verificar les toleràncies del motor: les dels pistons i cilindres, així com la folgança d'oli entre el cigonyal i la biela.",
+        "Quin tipus de mesuraments es realitzen? Tots els mesuraments són igualment importants. Entre les principals hi ha les toleràncies entre pistó i cilindre, la folgança d'oli i l'alçada de les vàlvules.",
+        "Podem modificar els paràmetres de fàbrica amb seguretat? En general, tots els motors tenen un marge de seguretat. El fabricant fa servir un marge de material que es pot optimitzar sense problemes.",
+        "Quins avantatges té un taller amb sala de motors? El principal avantatge és no dependre de tercers, un factor clau per a la garantia i la qualitat. Això repercuteix directament en la qualitat que volem oferir al client.",
+        "Quin procés és el de més complexitat? Sens dubte, la distribució, en concret el seu calat durant el muntatge."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/f09b0a71-965.jpg",
+          "alt": "Treball de reconstrucció a la sala de motors, imatge 5"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què pot esperar el propietari",
+      "parrafos": [
+        "L'objectiu del lliurament és un conjunt muntat amb ordre de procés, toleràncies comprovades i una posada en marxa que verifica pressió d'oli, funcionament i resultat de la feina feta. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
+        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/375d4c34-IMG_0978.jpg",
-          "alt": ""
+          "alt": "Treball de reconstrucció a la sala de motors, imatge 6"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Com preparar la primera consulta",
+      "parrafos": [
+        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
+        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Serveis relacionats",
+      "parrafos": [
+        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/taller-porsche/motores\">motors Porsche</a>, <a href=\"/taller-porsche/cajas-de-cambio\">caixes de canvis</a>, <a href=\"/competicion\">competició</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntes freqüents",
+      "parrafos": [
+        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Es pot enviar només el motor?",
+      "parrafos": [
+        "Sí. Valentín Motors recull motors a tot Espanya quan el conjunt ja és fora del cotxe. La recepció ha dincloure la informació disponible sobre símptomes i intervencions prèvies."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quan es coneix l'abast real?",
+      "parrafos": [
+        "Després del diagnòstic i, si cal obrir, netejar i mesurar les peces. Abans es pot donar una orientació, però no una conclusió responsable sobre danys ocults."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -132,15 +200,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 55,
-    "total": 55,
+    "hechas": 57,
+    "total": 57,
     "completa": true
-  },
-  "menu": "Sala de motors",
-  "articulos": [
-    "rehabilitacion-motor-32-serie-g-1985",
-    "restauracion-motor-965-turbo-33",
-    "restauracion-motor-964-m64",
-    "9971-turbo-rehabilitacion-motor"
-  ]
+  }
 }

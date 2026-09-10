@@ -1,0 +1,129 @@
+{
+  "rutaId": "taller-mantenimiento",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Specialized Porsche Maintenance · Valentín Motors",
+    "descripcion": "Porsche maintenance using genuine parts and manufacturer guidelines, with prices published by model for Barcelona and Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche maintenance tailored to usage and model",
+  "menu": "Maintenance",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
+      "parrafos": [
+        "At Valentín Motors, we understand that Porsche maintenance must follow the manufacturer's plan while adapting to the vehicle's age, mileage, usage patterns, and history. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's expectations.",
+        "Our assessment is based on the vehicle's history, the date and mileage of the last service, warning lights, fluid levels, wear and tear, leaks, and owner observations. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Fixed-price vehicle maintenance"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosis, scope, and authorization",
+      "parrafos": [
+        "The scope of work is determined proportionally: we list minor and major services by model, as well as specific procedures,such as brake fluid changes, wheel alignment, and pre-purchase inspections,where applicable. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't overlooked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
+        "Technical decisions are guided by this principle: while manufacturer guidelines provide a baseline, a classic car driven occasionally ages differently than a daily-driven 992. We distinguish between scheduled maintenance and issues discovered during the inspection. If a finding alters the scope of the original request, we separate it from the approved work and explain it before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we do",
+      "parrafos": [
+        "We adhere to manufacturer-specified maintenance plans, using genuine parts and following Porsche guidelines. The difference compared to an official dealership lies not in the procedure itself, but in the cost and the personal service: the same technician works on your car every time.",
+        "All prices are published by model. There are no surprise quotes; you know the cost of a major service for your 993 before you even bring it in."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Minor and major service",
+      "parrafos": [
+        "Minor service consists of an oil and filter change plus a 23-point check. Major service includes everything in the minor service plus 30 additional checks: air and cabin filters, spark plugs (when due), and an inspection of components prone to sudden wear.",
+        "Brake fluid replacement, wheel alignment, and pre-purchase inspections are handled separately and also come with fixed pricing."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "For classic models, the service interval differs from the manual's recommendations.",
+      "parrafos": [
+        "An air-cooled 911 driven 3,000 kilometers a year does not require the same maintenance schedule as a 992 used daily. For cars driven occasionally, we recommend an annual oil change even if the mileage limit hasn't been reached; oil degrades over time,not just through use,and with a 40-year-old engine, the consequences of neglecting this can be costly."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The handover includes a service record, a checklist, and an explanation of any work requiring immediate attention, future monitoring, or a separate appointment. The final briefing ensures you understand what was done, why it was done, and what should be monitored or scheduled for the future.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and intended use, work can be coordinated based on <a href=\"/taller-porsche/tarifas\">model-specific rates</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspections</a>, or <a href=\"/taller-porsche\">Porsche workshop services</a>. Each page outlines the specific scope of work before you book an appointment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Is looking at the mileage enough?",
+      "parrafos": [
+        "No. Fluids and certain materials also age over time. For air-cooled models used occasionally, an annual oil change is recommended, even if the vehicle covers very few kilometers."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "What is the difference between a minor and a major service?",
+      "parrafos": [
+        "The minor service includes oil, a filter, and a 23-point check. The major service expands the inspection and adds the consumables scheduled for that interval."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 33,
+    "total": 33,
+    "completa": true
+  }
+}

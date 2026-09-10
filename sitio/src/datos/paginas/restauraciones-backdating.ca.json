@@ -1,0 +1,124 @@
+{
+  "rutaId": "restauraciones-backdating",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Backdating Porsche 911 · Valentín Motors",
+    "descripcion": "Backdating Porsche 911 sobre una base adequada, amb definició tècnica, estètica clàssica, ús real i estudi previ d'homologació.",
+    "ogImagen": ""
+  },
+  "h1": "Backdating Porsche 911 pensat per conduir",
+  "menu": "Backdating",
+  "acordeones": [],
+  "articulos": [
+    "backdating-base-964",
+    "backdating-964-2023"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El servei comença per definir el problema",
+      "parrafos": [
+        "A Valentín Motors entenem que un backdating ha de semblar una interpretació coherent d'un 911 anterior i alhora conservar els avantatges de la base triada per a l'ús real. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix de la generació de partida, el seu estat estructural i mecànic, la configuració que es vol recrear, la reversibilitat i els requisits dhomologació. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Laboratori Idees Porsche"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnòstic, abast i autorització",
+      "parrafos": [
+        "L'abast es planteja de manera proporcional: carrosseria, il·luminació, interior, rodes, suspensió i motor poden formar part de l'encàrrec, però no tots els cotxes necessiten el mateix grau de transformació. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: el 964 sol oferir una arquitectura adequada, però la millor base és la unitat sana i documentada que permeti assolir l'objectiu sense sacrificar-ne un exemplar singular. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi.",
+        "Treballs inclosos, alternatives i elements pendents de confirmar.",
+        "Autorització abans d ampliar l abast."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què és un backdating",
+      "parrafos": [
+        "Un backdating apropa un 911 a laspecte duna generació anterior conservant la mecànica de la seva. La idea és tenir la línia d?un cotxe dels setanta amb el comportament, els frens i la fiabilitat d?un dels noranta.",
+        "Funciona perquè els 911 refrigerats per aire comparteixen arquitectura i cotes durant gairebé trenta anys. El que en una altra marca seria una disfressa, aquí encaixa de debò."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Per què el 964 és la millor base",
+      "parrafos": [
+        "El 964 té la carrosseria amb les proporcions adequades, mecànica moderna per al que demana un ús real i una oferta suficient al mercat. Sobre aquesta base es pot arribar molt lluny sense destruir un cotxe estrany pel camí.",
+        "Un SC amb aire condicionat, o amb un motor 3.2? És possible. Cada backdating es defineix peça a peça, i sempre homologable: un cotxe que no es pot matricular no és un cotxe, és una escultura."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què pot esperar el propietari",
+      "parrafos": [
+        "L'objectiu del lliurament és un projecte definit per especificació, amb una aparença, una dinàmica i uns acabats que parlen el mateix llenguatge. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
+        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Serveis relacionats",
+      "parrafos": [
+        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>, <a href=\"/restauraciones/integrales\">restauració integral</a>, <a href=\"/taller-porsche/pintura-carroceria\">chapa i pintura</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntes freqüents",
+      "parrafos": [
+        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "S'ha de començar sempre amb un 964?",
+      "parrafos": [
+        "No. La base es tria pel seu estat, arquitectura, valor i objectiu. El 964 és freqüent però no substitueix l'anàlisi de la unitat concreta."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "S'estudia l'homologació al final?",
+      "parrafos": [
+        "No ho hauria de fer. Les modificacions amb implicacions legals s'identifiquen durant el disseny per evitar refer peces o acabar amb una configuració que no es pugui matricular."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 31,
+    "total": 31,
+    "completa": true
+  }
+}

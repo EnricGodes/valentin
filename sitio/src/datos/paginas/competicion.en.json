@@ -4,75 +4,137 @@
   "ficheroOriginal": "competicion",
   "meta": {
     "titulo": "Porsche race preparation · Valentín Motors",
-    "descripcion": "Porsche preparation for track days, GT championships and rallying: trackside support and engineering. Technical partner and installer for KW suspension.",
+    "descripcion": "Porsche preparation for track day, GT and rally use, with setup, support and track engineering by specialists established in 1979.",
     "ogImagen": ""
   },
-  "h1": "Preparation of vehicles for competition",
+  "h1": "Porsche preparation for circuit racing, GT, and rally",
+  "menu": "Competition",
   "acordeones": [],
   "secciones": [
     {
-      "nivel": 1,
-      "titulo": "Preparation of vehicles for competition",
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
       "parrafos": [
-        "We are technical partners and installation specialists with some of the <strong>best names in the automotive world</strong>. This includes KW and Bilstein suspensions, Michelin tires, AP racing, Performance Friction Corporation, Heigo and a list of excellent spare parts suppliers. <strong>All products are extensively tested and evaluated</strong> by Valentín Motors as part of our research and development operations.",
-        "In addition to aftermarket products, <strong>we have developed an extensive catalog of our own solutions </strong>custom designed to enhance your vehicle with products ranging from crown wheel and pinion conversions, comprehensive extinguishing systems, specific geometries and set ups."
+        "At Valentín Motors, we understand that preparing a Porsche for the track isn't just about adding parts; it’s about ensuring the brakes, suspension, tires, safety systems, and geometry all work in harmony for the intended use. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's desired outcome.",
+        "The assessment is based on the type of event, the driver's skill level, applicable regulations, the vehicle's current condition, and projected track mileage. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
+          "alt": "Technical preparation of a race Porsche, image 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosis, scope, and authorization",
+      "parrafos": [
+        "The scope is determined proportionally: a setup for an initial track day might be limited to inspections, consumables, and geometry, whereas a GT or rally program requires defining safety, reliability, spare parts, and support needs. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't masked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
+        "Technical decisions are made based on this criterion: every change is justified by a specific symptom, objective, or regulatory requirement. Raw power cannot compensate for an inconsistent brake pedal, uncontrolled temperatures, or an incorrect driving position. If a finding arises that alters the original brief, it is separated from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/627ae024-DSC08039.jpg",
+          "alt": "Technical preparation of a race Porsche, image 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Track day preparation",
+      "parrafos": [
+        "The brand’s spirit is rooted in motorsport; the racetrack allows a Porsche to demonstrate its full potential and deliver a driving experience distinct from city driving. In sessions held in a controlled environment, driver and vehicle can work in perfect coordination.",
+        "We adapt vehicles to any level, depending on track conditions and the degree of preparation requested by the client."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8eb0db7a-DSC07759.jpg",
+          "alt": "Technical preparation of a race Porsche, image 3"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Championships and Gentlemen Driver programs",
+      "parrafos": [
+        "We work with GT3 and CUP race cars from several generations, providing assistance, support and track engineering with personnel accustomed to championship environments."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Preparations Track Day",
-      "parrafos": [
-        "<strong>The spirit of the brand is sporty</strong> and it is on a circuit where Porsche demonstrates its potential, transmitting sensations impossible to achieve in urban driving. Carrying out runs in a controlled environment is when pilot and vehicle achieve the symbiosis with which they were conceived.",
-        "We make <strong> vehicle adaptations </strong> at any level to satisfy the required track conditions and the state that the client requests."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "GT and Gentlemen Driver Championships",
-      "parrafos": [
-        "We are present in GT3, GT3 and carrera CUP vehicles of various generations, providing <strong>assistance and support services with track engineering </strong>and regular championship operators."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/627ae024-DSC08039.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Rally",
       "parrafos": [
-        "The most common thing is to think of Porsche vehicles on a well-paved road and traveling at high speeds. But the truth is that it is not strange to see them off the asphalt. Throughout their history they have raced in all types of situations and surfaces, winning a Paris-Dakar in 1984.",
-        "Part of the <strong>preparation of a 911 for rallies</strong> involves:"
+        "It is most common to picture Porsche vehicles on well-paved roads at high speeds. However, it is not unusual to see them off-road. Throughout their history, they have competed on all kinds of surfaces and even won the Paris-Dakar in 1984.",
+        "Part of preparing a 911 for rallies consists of:"
       ],
       "items": [
-        "Lighten its weight: remove unnecessary parts, fiberglass pieces,…",
-        "Add safety components: roll cage, harnesses, buckets,…",
-        "Improve performance: modifications to the engine, dampers, tires, …"
+        "Reducing weight: removing unnecessary parts and using fiberglass components.",
+        "Adding safety components: roll cage, harnesses, and bucket seats.",
+        "Improving performance: modifying the engine, shock absorbers, and tires."
       ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8eb0db7a-DSC07759.jpg",
-          "alt": ""
-        }
-      ]
+      "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Discover adrenaline",
+      "titulo": "Discovering the adrenaline rush",
       "parrafos": [
-        "Driving a 911 in a sporty manner is unlike any previous sensation. It is discovering true adrenaline for the first time."
+        "Driving a 911 in a sporty manner offers sensations distinct from everyday driving and allows you to experience the vehicle's responsiveness."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The goal of the handover is to provide a car inspected for its intended use, along with a clear list of adjustments, components, and checks pending before returning to the track. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled next.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and the objective, the work can be coordinated with the <a href=\"/taller-porsche\">Porsche workshop</a>, <a href=\"/taller-porsche/mantenimiento\">maintenance</a>, or <a href=\"/sala-motores\">engine shop</a>. Each page explains the specific scope of work prior to booking an appointment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Does the same setup work for both road and track?",
+      "parrafos": [
+        "Not necessarily. Tires, ride height, geometry, and operating temperatures vary based on usage. We agree on the appropriate compromise for the car's performance outside the track environment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can we start with a gradual build-up?",
+      "parrafos": [
+        "Yes. Work can be prioritized by safety, reliability, and performance, allowing each modification to be verified before proceeding to the next stage."
       ],
       "items": [],
       "imagenes": []
@@ -83,9 +145,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 19,
-    "total": 19,
+    "hechas": 40,
+    "total": 40,
     "completa": true
-  },
-  "menu": "Motorsport"
+  }
 }

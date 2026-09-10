@@ -1,0 +1,139 @@
+{
+  "rutaId": "taller-pre-compra",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche pre-purchase inspection · Valentín Motors",
+    "descripcion": "Porsche pre-purchase inspection covering mechanical systems, history, bodywork, and specific tests,performed either at the workshop or on-site.",
+    "ogImagen": ""
+  },
+  "h1": "Pre-purchase inspection for data-driven decision-making",
+  "menu": "Pre-purchase inspection",
+  "acordeones": [],
+  "articulos": [
+    "10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911",
+    "porsche-bore-scoring",
+    "que-es-el-ims-de-porsche"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
+      "parrafos": [
+        "At Valentín Motors, we understand that a pre-purchase inspection turns claims made in advertisements and vehicle history records into verified facts about the car before the price is finalized. That is why our initial conversation focuses not on a list of tasks, but on the car itself, its history, and the owner's expectations.",
+        "The valuation is based on documentation, provenance, mileage, maintenance history, diagnostics, engine, gearbox, road test, bodywork, paintwork, and model-specific risks. If information is missing, the necessary checks to obtain it are identified before a hypothesis is turned into a formal quote."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
+          "alt": "Porsche inspection during a pre-purchase check"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosis, scope, and authorization",
+      "parrafos": [
+        "The scope is determined proportionally: the service can be performed at the workshop or on-site at the vehicle's location,whether in Spain or abroad,depending on the specific service requested. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't masked, and prevent replacing an entire assembly when it could still be diagnosed or repaired individually.",
+        "Technical decisions are guided by the principle that a defect does not automatically mean the vehicle should be rejected. The report distinguishes between routine maintenance, potential risks, pending repairs, and indicators that call the car's identity or description into question. If a finding alters the scope of the assignment, it is separated from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we do",
+      "parrafos": [
+        "We evaluate the car you are considering buying: its mechanical condition, bodywork state, and documented history, while cross-referencing the advertisement against the actual vehicle. This can be done at the workshop or by traveling to the vehicle's location, whether in Spain or abroad.",
+        "This is the service that saves the most money out of everything we do, yet it is the one requested least often."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we inspect",
+      "parrafos": [],
+      "items": [
+        "Documentation: ownership, liens/encumbrances, deregistration history, etc.",
+        "Consistency of mileage across the service log and the control unit.",
+        "Engine and transmission condition, including a road test.",
+        "Cylinder endoscopy for engines at risk of bore scoring.",
+        "Condition of the IMS in the affected M96 and M97 units.",
+        "Bodywork: panel gaps, paint thickness, and signs of repair.",
+        "Written report with photographs and a clear recommendation."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Before negotiating, not after.",
+      "parrafos": [
+        "Inspection makes sense before finalizing the price, because what is discovered becomes part of the negotiation. An untouched IMS or scoring in the sixth cylinder is not always a reason to walk away; it is almost always a reason to pay less."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The deliverable is a written report with photographs and a clear recommendation on whether to negotiate, proceed with further checks, or withdraw before purchasing. The final explanation should clarify what was done, why it was done, and what should be monitored or scheduled for the future.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/taller-porsche/bore-scoring\">diagnostics for bore scoring</a>, <a href=\"/herramientas/calculadora-ims-porsche\">ECU IMS</a>, and <a href=\"/porsche-en-venta\">Porsche for sale</a> services. Each page explains the specific scope before an appointment is requested."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Does it replace the maintenance history?",
+      "parrafos": [
+        "No. It cross-references it. A complete history provides better context, but on its own, it does not prove the current condition or the quality of past repairs."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "What specific tests might a M96 or M97 require?",
+      "parrafos": [
+        "Depending on the model and year, it is advisable to inspect the IMS and perform a cylinder endoscopy to assess the bore scoring before finalizing the purchase."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 38,
+    "total": 38,
+    "completa": true
+  }
+}

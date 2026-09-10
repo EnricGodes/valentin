@@ -1,0 +1,124 @@
+{
+  "rutaId": "restauraciones-backdating",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche Backdating 911 · Valentín Motors",
+    "descripcion": "Porsche 911 backdating on a suitable base, with technical definition, classic aesthetics, real-world use and prior homologation assessment.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche Backdating 911 designed for driving",
+  "menu": "Backdating",
+  "acordeones": [],
+  "articulos": [
+    "backdating-base-964",
+    "backdating-964-2023"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
+      "parrafos": [
+        "At Valentín Motors, we understand that a backdating must appear as a coherent interpretation of an earlier 911 while retaining the advantages of the chosen base vehicle for actual use. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the outcome the owner envisions.",
+        "The assessment is based on the donor generation, its structural and mechanical condition, the desired configuration, reversibility, and homologation requirements. When information is missing, the necessary checks to obtain it are specified before a hypothesis is converted into a cost estimate."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Porsche Ideas Lab"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosis, scope, and authorization",
+      "parrafos": [
+        "The scope of work is determined on a proportional basis: bodywork, lighting, interior, wheels, suspension, and engine may all be part of the job, yet not every car requires the same level of modification. Tasks are sequenced to avoid repeated disassembly, ensure symptoms are not masked, and prevent the replacement of an assembly that could still be diagnosed or repaired.",
+        "The technical decision is made based on this criterion: the 964 typically offers a suitable architecture, but the best starting point is a sound, well-documented unit that allows the objective to be met without sacrificing a rare or unique example. If a discovery arises that alters the scope of the commission, it is set apart from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What is a backdating?",
+      "parrafos": [
+        "A backdating gives a 911 the aesthetic of an earlier generation while retaining its own mechanical underpinnings. The concept is to combine the lines of a 1970s car with the handling, braking, and reliability of a 1990s model.",
+        "It works because air-cooled 911 models shared the same architecture and dimensions for nearly thirty years. What might be a mere \"costume\" on another brand is a genuine fit here."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Why the 964 is the best base",
+      "parrafos": [
+        "The 964 features a body with the right proportions, modern mechanics suited to real-world use, and ample market availability. Starting with this foundation, one can achieve remarkable results without destroying a rare car in the process.",
+        "A SC with air conditioning, or with a 3.2 engine? It is possible. Each backdating is defined component by component, and must always be road-legal: a car that cannot be registered is not a car,it is a sculpture."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The finished project is defined by its specifications, featuring an appearance, driving dynamics, and finish quality that form a cohesive whole. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled for future attention.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and the desired outcome, the work can be coordinated with <a href=\"/restauraciones/proyectos-y-diseno\">projects and design</a>, <a href=\"/restauraciones/integrales\">comprehensive restoration</a>, or <a href=\"/taller-porsche/pintura-carroceria\">bodywork and paint</a>. Each page explains the specific scope of work prior to booking an appointment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Is it always necessary to start with a 964?",
+      "parrafos": [
+        "No. The basis is selected according to its condition, architecture, value, and purpose. The 964 is common, but it does not replace the analysis of the specific unit."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Is regulatory approval considered only at the end?",
+      "parrafos": [
+        "It shouldn't be. Modifications with legal implications are identified during the design phase to avoid having to rework parts or ending up with a configuration that cannot be road-registered."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 31,
+    "total": 31,
+    "completa": true
+  }
+}

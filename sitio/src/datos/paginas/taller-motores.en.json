@@ -1,0 +1,139 @@
+{
+  "rutaId": "taller-motores",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche engines: rebuilding · Valentín Motors",
+    "descripcion": "Diagnosis and rebuilding of Porsche engines in a dedicated facility, including measurements, scope-based quotes, and pickup service throughout Spain.",
+    "ogImagen": ""
+  },
+  "h1": "Rebuilding of Porsche engines in a dedicated facility",
+  "menu": "Porsche engines",
+  "acordeones": [],
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "9971-turbo-rehabilitacion-motor",
+    "restauracion-motor-964-m64",
+    "reconstruccion-motor-968"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
+      "parrafos": [
+        "At Valentín Motors, we understand that rebuilding a Porsche engine requires translating symptoms and signs into precise measurements before selecting parts or defining the scope of work. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's desired outcome.",
+        "Assessment begins with the condition of the oil and filter, followed by compression testing (where applicable), and checks for leaks, noises, pressures, tolerances, cylinder ovality, cylinder heads, liners, the crankshaft, and the timing system. If information is missing, we specify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+          "alt": "Engine restoration"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosis, scope, and authorization",
+      "parrafos": [
+        "The scope is determined proportionally: our dedicated engine room handles air-cooled flat-six engines (M96 and M97), racing engines, the transaxle family, and modern engines backed by our workshop's extensive experience. Tasks are sequenced to avoid redundant disassembly, ensure no symptoms are overlooked, and prevent replacing an entire assembly when a specific component could still be diagnosed or repaired.",
+        "Technical decisions are guided by this principle: alternatives are presented only after disassembly, cleaning, and measurement. Repairing only the visible fault may be insufficient, yet replacing everything indiscriminately is not sound technical practice. If a discovery alters the original scope, it is separated from the approved work and explained before we proceed."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we do",
+      "parrafos": [
+        "We restore, refurbish, and repair any engine from the brand,ranging from the four-cylinder boxer of the 356 to modern units,in our dedicated engine room. This is the facility that defines our identity, a specialized space that even official dealerships often lack.",
+        "We collect engines from all over Spain. There is no need to bring the entire car; if the engine has already been removed, it can be transported on its own."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "How we work",
+      "parrafos": [
+        "We do not open an engine just to replace a single part. The engine is opened up, everything is measured, and decisions are made based on the actual figures: clearances, ovality, cylinder head flatness, and the condition of the cylinder liners and crankshaft. The quote is generated from this data,not before.",
+        "We have our own machinery and tooling, as well as a dedicated parts-sourcing department,which, for a forty-year-old engine, accounts for half the job."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Engines we service",
+      "parrafos": [],
+      "items": [
+        "Air-cooled boxer engines, from 356 to 993.",
+        "M96 and M97, including IMS and bore scoring modifications.",
+        "Racing engines and custom builds.",
+        "Transaxle: 924, 944, 968, and 928.",
+        "Classic engines from other brands, which we also service."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The final deliverable consists of a scope-based quote, a component log, and an engine that has been assembled, tuned, and tested according to approved decisions. The final explanation ensures you understand what was done, why it was done, and what should be monitored or scheduled for the future.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and the objective, the work can be coordinated with <a href=\"/sala-motores\">engine room</a>, <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>, <a href=\"/taller-porsche/cajas-de-cambio\">gearboxes</a>. Each page explains the specific scope before booking an appointment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can you collect an engine from outside Barcelona or Madrid?",
+      "parrafos": [
+        "Yes. The advertised service includes engine pickup from anywhere in Spain and return delivery upon completion. The engine can be shipped without the car if it has already been removed."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "When is the quote confirmed?",
+      "parrafos": [
+        "The definitive scope of work is determined after disassembly and measurement in cases of internal damage. Beforehand, the potential issues and the work required to verify them are explained."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 37,
+    "total": 37,
+    "completa": true
+  }
+}

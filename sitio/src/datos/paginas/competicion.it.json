@@ -4,34 +4,60 @@
   "ficheroOriginal": "competicion",
   "meta": {
     "titulo": "Preparazione Porsche da competizione · Valentín Motors",
-    "descripcion": "Preparazione Porsche per track days, campionati GT e rally: assistenza e ingegneria in pista. Partner tecnico e installatore di sospensioni KW.",
+    "descripcion": "Preparazione Porsche per track day, GT e rally, con messa a punto, assistenza e ingegneria di pista da specialisti attivi dal 1979.",
     "ogImagen": ""
   },
-  "h1": "Preparazione dei veicoli per la competizione",
+  "h1": "Preparazione Porsche per pista e rally, GT",
+  "menu": "Competizione",
   "acordeones": [],
   "secciones": [
     {
-      "nivel": 1,
-      "titulo": "Preparazione dei veicoli per la competizione",
-      "parrafos": [
-        "Siamo partner tecnici e specialisti di installazione con alcuni dei <strong>migliori nomi nel mondo automobilistico</strong>. Ciò include sospensioni KW e Bilstein, pneumatici Michelin, AP racing, Performance Friction Corporation, Heigo e un elenco di eccellenti fornitori di pezzi di ricambio. <strong>Tutti i prodotti sono ampiamente testati e valutati</strong> da Valentín Motors come parte delle nostre operazioni di ricerca e sviluppo.",
-        "Oltre ai prodotti aftermarket, <strong>abbiamo sviluppato un ampio catalogo delle nostre soluzioni </strong>progettate su misura per migliorare il Suo veicolo con prodotti che vanno dalle conversioni di corona e pignone, sistemi di spegnimento completi, geometrie e configurazioni specifiche."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
       "nivel": 2,
-      "titulo": "Preparativi Track Day",
+      "titulo": "Il servizio inizia con la definizione del problema",
       "parrafos": [
-        "<strong>Lo spirito del marchio è sportivo</strong> ed è su un circuito dove Porsche dimostra il suo potenziale, trasmettendo sensazioni impossibili da ottenere nella guida urbana. L'esecuzione di corse in un ambiente controllato è il momento in cui il pilota e il veicolo raggiungono la simbiosi con la quale sono stati concepiti.",
-        "Effettuiamo <strong> adattamenti del veicolo </strong> a qualsiasi livello per soddisfare le condizioni della pista richieste e lo stato richiesto dal cliente."
+        "Noi di Valentín Motors sappiamo che preparare una Porsche per la pista non significa solo aggiungere componenti, ma garantire che freni, sospensioni, pneumatici, dispositivi di sicurezza e geometria siano tutti ottimizzati per lo stesso utilizzo. Pertanto, la conversazione iniziale non si concentra su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
+        "La valutazione si basa sul tipo di test, sul livello di abilità del pilota, sulle normative applicabili, sulle condizioni della base e sul chilometraggio previsto in pista. In caso di informazioni mancanti, vengono specificati i controlli necessari prima di trasformare un'ipotesi in un preventivo."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/84ac2fae-DSC07852.jpg",
-          "alt": ""
+          "alt": "Preparazione tecnica di una Porsche da competizione, immagine 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosi, ambito e autorizzazione",
+      "parrafos": [
+        "L'ambito viene definito proporzionalmente: un allestimento per una track day al suo primo utilizzo potrebbe essere limitato a controlli, materiali di consumo e geometria; una GT o un programma rally richiedono la definizione di sicurezza, affidabilità, ricambi e assistenza. Le attività vengono prioritarie per evitare doppi smontaggi, nascondere i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica viene presa secondo questo criterio: ogni modifica è giustificata da un sintomo, un obiettivo o un requisito normativo. La potenza non compensa una risposta irregolare del pedale, temperature fuori controllo o una posizione di guida scorretta. Se emerge un riscontro che modifica l'ambito di lavoro, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento.",
+        "Lavori inclusi, alternative e elementi in attesa di conferma.",
+        "Autorizzazione prima di ampliare l'ambito di lavoro."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/627ae024-DSC08039.jpg",
+          "alt": "Preparazione tecnica di una Porsche da competizione, immagine 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preparazione per track days",
+      "parrafos": [
+        "Lo spirito del marchio è sportivo e la pista permette a una Porsche di dimostrare il suo potenziale e di offrire sensazioni diverse da quelle della guida in città. Nelle sessioni condotte in un ambiente controllato, il pilota e il veicolo possono lavorare in perfetta armonia.",
+        "Eseguiamo modifiche ai veicoli a qualsiasi livello, in base alle condizioni della pista e al grado di preparazione richiesto dal cliente."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8eb0db7a-DSC07759.jpg",
+          "alt": "Preparazione tecnica di una Porsche da competizione, immagine 3"
         }
       ]
     },
@@ -39,40 +65,76 @@
       "nivel": 2,
       "titulo": "Campionati GT e Gentlemen Driver",
       "parrafos": [
-        "Siamo presenti nei veicoli GT3, GT3 e carrera CUP di varie generazioni, fornendo <strong>servizi di assistenza e supporto con ingegneria di pista </strong>e operatori regolari del campionato."
+        "Trabajamos con veicoli GT3, GT3 e carrera CUP de varias generaciones, e prestamos servicios de asistencia, soporte e ingegneria de pista con operarios habituales de los campeonatos."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/627ae024-DSC08039.jpg",
-          "alt": ""
-        }
-      ]
+      "imagenes": []
     },
     {
       "nivel": 2,
       "titulo": "Rally",
       "parrafos": [
-        "La cosa più comune è pensare ai veicoli Porsche su una strada ben asfaltata e che viaggiano ad alta velocità. Ma la verità è che non è strano vederli fuori dall'asfalto. Nel corso della loro storia hanno corso in tutti i tipi di situazioni e superfici, vincendo una Parigi-Dakar nel 1984.",
-        "Parte della <strong>preparazione di un 911 per le manifestazioni</strong> prevede:"
+        "È comune immaginare le Porsche su una strada asfaltata ad alta velocità. Tuttavia, non è raro vederle anche in fuoristrada. Nel corso della loro storia, hanno gareggiato su ogni tipo di superficie e hanno persino vinto il Rally Parigi-Dakar con la 1984.",
+        "Parte della preparazione di una 911 per i rally include:"
       ],
       "items": [
-        "Alleggerisci il suo peso: rimuovi le parti non necessarie, i pezzi di fibra di vetro,..",
-        "Aggiungi componenti di sicurezza: roll-bar, imbracature, secchi,..",
-        "Migliorare le prestazioni: modifiche al motore, ammortizzatori, pneumatici,.."
+        "Riduzione del peso: rimozione di parti superflue e utilizzo di componenti in fibra di vetro.",
+        "Aggiunta di dispositivi di sicurezza: roll-bar, cinture di sicurezza e sedili avvolgenti.",
+        "Miglioramento delle prestazioni: modifica del motore, degli ammortizzatori e degli pneumatici."
       ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8eb0db7a-DSC07759.jpg",
-          "alt": ""
-        }
-      ]
+      "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Scopra l'adrenalina",
+      "titulo": "Scoprire l'adrenalina",
       "parrafos": [
-        "Guidare una 911 in modo sportivo è una sensazione diversa da qualsiasi altra sensazione precedente. È scoprire per la prima volta la vera adrenalina."
+        "La guida sportiva di una 911 offre sensazioni diverse dalla guida di tutti i giorni e permette di sperimentare la reattività del veicolo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa può aspettarsi il proprietario",
+      "parrafos": [
+        "L'obiettivo di questa consegna è un'auto ispezionata e pronta per l'uso previsto, corredata da un elenco chiaro di regolazioni, componenti e controlli necessari prima del ritorno in pista. La relazione finale dovrà spiegare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
+        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servizi correlati",
+      "parrafos": [
+        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/taller-porsche\">officina Porsche</a>, <a href=\"/taller-porsche/mantenimiento\">manutenzione</a> e <a href=\"/sala-motores\">sala motori</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Domande frequenti",
+      "parrafos": [
+        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Lo stesso assetto funziona sia su strada che in pista?",
+      "parrafos": [
+        "Non necessariamente. Pneumatici, altezza da terra, geometria e temperatura di esercizio cambiano con l'utilizzo. Si raggiunge un accordo sul compromesso che la vettura deve mantenere al di fuori della pista."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Posso iniziare con un assetto graduale?",
+      "parrafos": [
+        "Sì. È possibile ordinare interventi in base a sicurezza, affidabilità e prestazioni per verificare ogni modifica prima di procedere."
       ],
       "items": [],
       "imagenes": []
@@ -83,9 +145,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 19,
-    "total": 19,
+    "hechas": 40,
+    "total": 40,
     "completa": true
-  },
-  "menu": "Competizione"
+  }
 }

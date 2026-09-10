@@ -1,0 +1,158 @@
+{
+  "rutaId": "taller-ims",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "IMS Porsche: diagnòstic i reparació · Valentín Motors",
+    "descripcion": "Substitució preventiva del rodament IMS Porsche en motors M96 i M97, amb diagnòstic previ i preus publicats per model A Barcelona i Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "Reparació preventiva del IMS Porsche",
+  "menu": "IMS Porsche",
+  "acordeones": [],
+  "articulos": [
+    "que-es-el-ims-de-porsche",
+    "996-m96-34-rotura-arbol-intermedio-ims",
+    "porsche-bore-scoring"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El servei comença per definir el problema",
+      "parrafos": [
+        "A Valentín Motors entenem que la intervenció sobre el IMS comença identificant quin rodament correspon al model, a l'any i, en anys de transició, al número de motor. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix de configuració del cotxe, historial, oli i filtre, sorolls i revisió del rodament instal·lat quan s'hi accedeix. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnòstic, abast i autorització",
+      "parrafos": [
+        "L'abast es planteja de manera proporcional: el servei preventiu publicat es dirigeix ​​a motors M96 i M97 i als models en què el rodament es pot substituir sense obrir el bloc. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: no tots els IMS tenen el mateix risc ni permeten la mateixa intervenció. Si ja hi ha partícules metàl·liques o soroll, s'atura l'enfocament preventiu i s'avalua el mal abans de tornar a arrencar. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi.",
+        "Treballs inclosos, alternatives i elements pendents de confirmar.",
+        "Autorització abans d ampliar l abast."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què fem",
+      "parrafos": [
+        "Substituïm el rodament de l'arbre intermedi en motors M96 i M97, amb preu tancat per als models de 1997 a 2006, tant de canvi manual com automàtic. Hem fet la intervenció desenes de vegades, a les tres revisions del rodament que va muntar Porsche.",
+        "La substitució preventiva no exigeix ​​obrir el bloc: es retira la transmissió i el volant motor o el flexplate i s'accedeix al rodament per la brida. El motor no es desmunta, cosa que manté la factura en un ordre de magnitud raonable davant del que costa un trencament."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quan val la pena",
+      "parrafos": [
+        "L’avaria afecta els 911 996 i 997.1, els Boxster 986 i 987 i el Cayman, entre 1997 i 2008. No tots munten el mateix rodament: el 6204 d’una filera instal·lat entre 2000 i 2005 és el que ha tingut més incidència i també el més senzill de substituir.",
+        "Si el cotxe que t'interessa és en aquest grup i no hi consta que s'hagi intervingut, la substitució preventiva és la decisió barata. Si el motor ja fa soroll o apareixen partícules metàl·liques a l'oli, el moment preventiu ha passat i el que toca és una avaluació abans d'arrencar-lo una altra vegada."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Com saber si el teu cotxe està afectat",
+      "parrafos": [
+        "Hem publicat una calculadora que respon amb el model i l'any: diu quin rodament munta la teva unitat, si és substituïble sense obrir el motor i quines comprovacions necessita. En els anys de transició, 2000, 2001 i 2005, demana a més el número de motor, perquè conviuen dos rodaments diferents i l'any no n'hi ha prou.",
+        "La calculadora no diagnostica l'estat del cotxe. Diu què venia de fàbrica; el que hi ha a dins avui només se sap obrint."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què inclou la intervenció",
+      "parrafos": [],
+      "items": [
+        "Diagnòstic previ: anàlisi de l'oli i del filtre, a la recerca de partícules.",
+        "Desmuntatge de transmissió, volant motor o flexplate i brida del IMS.",
+        "Substitució del rodament pel kit que correspongui a aquesta revisió.",
+        "Substitució de la retenció de l'arbre intermedi i de l'embragatge si escau.",
+        "Muntatge, posada a punt i prova a la carretera.",
+        "Garantia mecànica de la intervenció."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "On es fa",
+      "parrafos": [
+        "A Barcelona ia Madrid. La intervenció es fa al taller; si el motor arriba amb danys, passa a la sala de motors on s'obre i s'avalua peça a peça."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què pot esperar el propietari",
+      "parrafos": [
+        "L'objectiu del lliurament és desmuntatge i muntatge de la transmissió i elements d'accés, kit adequat a la revisió, retens previstos, posada a punt, prova i garantia mecànica descrita per a la intervenció. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
+        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Serveis relacionats",
+      "parrafos": [
+        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/herramientas/calculadora-ims-porsche\">calculadora IMS</a>, <a href=\"/taller-porsche/motores\">motors Porsche</a>, <a href=\"/taller-porsche/tarifas\">tarifes</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntes freqüents",
+      "parrafos": [
+        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "L'any n'hi ha prou per saber què IMS porta?",
+      "parrafos": [
+        "No sempre. A 2000, 2001 i 2005 poden conviure revisions, de manera que el nombre de motor ajuda a identificar la configuració."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Canviar el IMS exigeix ​​obrir el motor?",
+      "parrafos": [
+        "A les unitats incloses a la intervenció preventiva s'accedeix retirant la caixa de canvis i el volant d'inèrcia o flexplate. Si ja hi ha dany intern, el plantejament canvia."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 43,
+    "total": 43,
+    "completa": true
+  }
+}

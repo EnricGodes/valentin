@@ -3,128 +3,196 @@
   "tipo": "servicio",
   "ficheroOriginal": "sala-motores",
   "meta": {
-    "titulo": "Classic and race engine rebuilding · Valentín Motors",
-    "descripcion": "We repair and rebuild classic and race engines of all makes: Porsche, Ferrari, Jaguar, Aston Martin, Bentley and Alfa Romeo.",
+    "titulo": "In-house Engine Shop · Valentín Motors",
+    "descripcion": "In-house engine shop for diagnosing, measuring and rebuilding Porsche engines and gearboxes, including classic and competition units.",
     "ogImagen": ""
   },
-  "h1": "Engine room: classics and competition",
+  "h1": "Engine workshop for classic, Porsche, and racing vehicles",
+  "menu": "Engine workshop",
   "acordeones": [],
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ],
   "secciones": [
     {
-      "nivel": 1,
-      "titulo": "Engine room: classics and competition",
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
       "parrafos": [
-        "With the help of Iván Bascuñana, head of the engine department, we have extensive experience in repairing classic engines of all brands. We also prepare engines for competition.",
-        "Our engine room",
-        "The following engines have passed through the hands of our motorcyclist, Iván Bascuñana:"
+        "At Valentín Motors, we understand that having our own engine workshop ensures that diagnosis, measurements, machining, assembly, and testing all align with the same technical standards. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's expected outcome.",
+        "Assessment begins with initial symptoms,checking oil and filters, compression (where applicable), and the condition of each assembly,as well as examining clearances, ovality, flatness, and part traceability. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
       ],
-      "items": [
-        "Aston Martin DBS, DB4, DB5, DB6",
-        "Austin Healey",
-        "Bentley Continental",
-        "De Tomaso Pantera 351 Cleveland",
-        "Ferrari Dino, 250 GTE, 308 GT",
-        "Ford MK1, MK2 Pinto and BDG",
-        "Jaguar XK 120/140/150, MKII, MK7, E-Type,",
-        "Lamborghini 400 2+2, Islero",
-        "Maserati 3500 GT",
-        "Mercedes 300SL, 280SL, 250SE, 190SL",
-        "Peugeot 404",
-        "Rolls Royce Silver Shadow"
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/9f55a612-DSC03453.jpg",
-          "alt": ""
+          "alt": "Rebuild work in the engine workshop, image 1"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "We have experience repairing classic engines of any brand",
+      "titulo": "Diagnosis, scope, and authorization",
       "parrafos": [
-        "One of the departments we are most proud of is our engine room where we <strong> restore and upgrade the power and gearboxes</strong> of all 911 and classic Porsche.",
-        "In fact, our commercial name Valentín Motors comes from the name of the founder and “motors”, a symbol of the technical capacity that our company has had since 1979.",
-        "<strong>An engine room is very expensive at a technical and knowledge level</strong>, in fact not even the official dealers of the brands have one.",
-        "We have plenty of experience in Porsche engines, both air-cooled from the 356 to the modern GT3 and CUP; We do not limit ourselves to restoring and assembling according to original specifications but we also improve and enhance according to our calculations and data."
+        "The scope of work is determined proportionally: we handle air- and water-cooled Porsche engines, racing engines, gearboxes, and classic mechanical systems from other brands within our department's established expertise. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't masked, and prevent replacing an assembly that can still be diagnosed or repaired.",
+        "Technical decisions are guided by this principle: an opened engine does not automatically receive all new parts. Each component is measured and classified to retain what is usable, correct what is necessary, and present options prior to assembly. If a discovery arises that alters the scope of the job, it is set aside from the approved work and explained before proceeding."
       ],
-      "items": [],
-      "imagenes": []
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Rebuild work in the engine workshop, image 2"
+        }
+      ]
     },
     {
-      "nivel": 3,
-      "titulo": "A workshop with engine room allows us not to depend on third parties, ensuring the warranty and the quality with which we execute our projects.",
+      "nivel": 2,
+      "titulo": "We have experience repairing classic engines from any brand.",
       "parrafos": [
-        "— Jordi Edo"
+        "One of the departments we are most proud of is our engine room, where we restore and upgrade the power units and gearboxes of all 911 models and other classic Porsches.",
+        "In fact, our trade name, Valentín Motors, is derived from the founder's name and the word \"engines\" (*motores*), symbolizing the technical expertise our company has possessed since 1979.",
+        "An engine room requires a significant investment in technical resources and expertise; indeed, even official brand dealerships do not have one.",
+        "We have extensive experience with Porsche engines, ranging from the air-cooled units of the 356 to the modern GT3 and CUP. We do not limit ourselves to restoring and assembling them to factory specifications; we also upgrade and boost their performance based on our own calculations and data."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": ""
-        },
-        {
           "url": "/img/paginas/50280633-motor2.jpg",
-          "alt": ""
+          "alt": "Rebuild work in the engine workshop, image 3"
         }
       ]
     },
     {
-      "nivel": 2,
-      "titulo": "Examples of engine repairs",
-      "parrafos": [],
+      "nivel": 3,
+      "titulo": "Having an in-house engine workshop allows us to avoid relying on third parties, ensuring the quality of our project execution and simplifying warranty coverage.",
+      "parrafos": [
+        "Jordi Edo"
+      ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Complete engine rehabilitation 964",
+      "titulo": "Complete overhaul of the 964 engine",
       "parrafos": [
-        "Throughout the 964 generation Porsche used the 3.600 cc that provided so much reliability and satisfaction to its owners."
+        "Across the entire 964 generation, Porsche utilized the 3.600 cc engine block, which delivered such reliability and satisfaction to its owners."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Complete restoration of the 965 engine (964 Turbo)",
+      "parrafos": [
+        "In the year 1991, the 911 Turbo model was powered by a supercharged 3,3-liter engine producing 320 CV."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Our services",
+      "parrafos": [
+        "The workshop operates on four fronts: Porsche engines from any era, classic engines from other brands, gearboxes, and race preparation.",
+        "Each area has its own dedicated page detailing what is included and our working methods. Here is what all four share: the workshop facility, the tooling, and our approach of taking measurements before making decisions."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/91292630-964.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 3,
-      "titulo": "Restoration complete engine 965 (964 turbo)",
-      "parrafos": [
-        "In the year 1991 the 911 turbo model was powered by a supercharged engine of 3,3 liters and 320 CV."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/f09b0a71-965.jpg",
-          "alt": ""
+          "alt": "Rebuild work in the engine workshop, image 4"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Interview with Iván Bascuñana, head engine builder",
+      "titulo": "Interview with Iván Bascuñana, Head Engine Technician",
       "parrafos": [
-        "<strong>What moment is the most crucial or stressful in the process?<br/></strong>The moment of applying oil pressure already with the engine assembled and subsequently starting, which is where the result of the complete work is seen. There is a high degree of responsibility in the entire process since the costs are high.<br/><br/><strong>What is the main quality that a motorcyclist has?<br/></strong>Mainly passion and continuous search for perfection.",
-        "<strong>What methodology for you is key?<br/></strong>Order and methodology of processes are key to the final result, the engine room is a closed, neat space in which everything is in harmony.",
-        "<strong>What is important to you, experience or technique? <br/></strong>The sum of the two is key, every day is a search for perfection and every day is a challenge.",
-        "<strong>What are the processes carried out in the engine room? <br/></strong>Disassembly, diagnosis of each part and checking of all engine elements.",
-        "<strong>What is the most important phase of disassembling or assembling an engine?<br/></strong>The most important phase of disassembly is the acquisition of information about the engine: making a prior diagnosis that will help focus on the process.<br/>And in the assembly the verification of the motor tolerances. Tolerances of pistons and cylinders and oil clearance between crankshaft and connecting rod.",
-        "<strong>What type of measurements are made? <br/></strong>The entire set of measurements are important at the same level, piston/cylinder tolerances are the most important, but oil clearance and valve lift are also key.",
-        "<strong>Can we modify the factory parameters safely?</strong><br/>As a rule, all motors have a safety margin, the manufacturer abuses material and can be optimized without problems.",
-        "<strong>What advantages does a workshop have with a engine room?<br/></strong>Mainly, there is no dependence on third parties, which is a key issue in warranty and quality. It completely affects the quality that you want to offer to the customer.",
-        "<strong>Which process is the most complex? <br/></strong>Without a doubt it is the timing or drafting of timing at the time of assembly."
+        "What is the most crucial or stressful moment in the process? The moment of checking the oil pressure with the engine assembled,and subsequently during startup,is when the result of the entire job is revealed. The whole process entails a high level of responsibility, given the high costs involved. What is the key quality of an engine specialist? Above all, passion and a continuous pursuit of perfection.",
+        "What methodology is key for you? Order and a methodical process are fundamental to the final result. The engine room is an enclosed, immaculate space where everything is in harmony.",
+        "What is more important to you: experience or technique? A combination of both is key. Every day involves a quest for perfection and presents a new challenge.",
+        "What processes are carried out in the engine room? Disassembly, diagnosis of each part, and inspection of all engine components.",
+        "What is the most important phase of engine disassembly or assembly? The most important phase of disassembly is gathering information about the engine; performing a preliminary diagnosis helps guide the process. During assembly, the crucial step is verifying engine tolerances,specifically those of the pistons and cylinders, as well as the oil clearance between the crankshaft and the connecting rod.",
+        "What kind of measurements are taken? All measurements are equally important. Key measurements include piston-to-cylinder tolerances, oil clearance, and valve lift.",
+        "Can factory parameters be safely modified? Generally, all engines have a safety margin. Manufacturers build in a material margin that can be optimized without issues.",
+        "What are the advantages of having a workshop with a dedicated engine room? The main advantage is not having to rely on third parties,a key factor for warranty and quality. This has a direct impact on the quality we aim to offer the customer.",
+        "Which process is the most complex? Undoubtedly the timing system,specifically, setting the timing during assembly."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/f09b0a71-965.jpg",
+          "alt": "Rebuild work in the engine workshop, image 5"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The goal of the delivery is an assembly completed according to proper process sequences and verified tolerances, followed by a start-up procedure that checks oil pressure, operation, and the results of the work performed. The final explanation should ensure an understanding of what was done, why it was done, and what should be monitored or scheduled for the future.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/375d4c34-IMG_0978.jpg",
-          "alt": ""
+          "alt": "Rebuild work in the engine workshop, image 6"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "How to prepare for the initial consultation",
+      "parrafos": [
+        "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
+        "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and the owner's goals, work can be coordinated across areas such as <a href=\"/taller-porsche/motores\">Porsche engines</a>, <a href=\"/taller-porsche/cajas-de-cambio\">gearboxes</a>, and <a href=\"/competicion\">motorsport applications</a>. Each page outlines the specific scope of service prior to booking an appointment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can just the engine be sent?",
+      "parrafos": [
+        "Yes. Valentín Motors collects engines from across Spain once the unit has been removed from the vehicle. The shipment must include all available information regarding symptoms and previous work performed."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "When is the actual scope of work determined?",
+      "parrafos": [
+        "After diagnosis,and, if disassembly is required, after cleaning and measuring the components. A preliminary assessment can be provided beforehand, but a definitive conclusion regarding hidden damage cannot be reached until then."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -132,15 +200,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 55,
-    "total": 55,
+    "hechas": 57,
+    "total": 57,
     "completa": true
-  },
-  "menu": "Engine room",
-  "articulos": [
-    "rehabilitacion-motor-32-serie-g-1985",
-    "restauracion-motor-965-turbo-33",
-    "restauracion-motor-964-m64",
-    "9971-turbo-rehabilitacion-motor"
-  ]
+  }
 }

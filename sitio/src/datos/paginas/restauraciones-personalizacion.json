@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Personalización de Porsche y proyectos one-off · Valentín Motors",
-    "descripcion": "Proyectos a medida sobre Porsche: carrocería, rendimiento e interiores, incluidos los encargos de una sola unidad.",
+    "titulo": "Personalización Porsche · Valentín Motors",
+    "descripcion": "Personalización Porsche y proyectos one-off: carrocería, dinámica e interiores, con soluciones TECHART y estudio de homologación.",
     "ogImagen": ""
   },
-  "h1": "Personalización y proyectos one-off",
+  "h1": "Personalización Porsche coherente con el coche",
   "menu": "Personalización",
   "acordeones": [],
   "articulos": [
@@ -17,10 +17,35 @@
   "secciones": [
     {
       "nivel": 2,
+      "titulo": "El servicio empieza por definir el problema",
+      "parrafos": [
+        "En Valentín Motors entendemos que personalizar un Porsche exige distinguir entre una mejora útil, un cambio estético reversible y una intervención que puede alterar de forma permanente el valor o la identidad del coche. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de el modelo, su rareza, el estado actual, el uso previsto, las prioridades del propietario y las consecuencias de homologación. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: el proyecto puede concentrarse en interior, carrocería o dinámica, o coordinar las tres áreas. También abarca soluciones TECHART para modelos actuales y encargos one-off. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: las alternativas se comparan por integración, reversibilidad, mantenimiento futuro y coherencia. Que una modificación sea técnicamente posible no significa que sea adecuada para cualquier unidad. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Qué hacemos",
       "parrafos": [
-        "Proyectos a medida sobre un coche que sigue siendo el suyo: cambios en la carrocería, mejoras de rendimiento e interiores hechos a mano. Desde una pieza concreta hasta un encargo <strong>one-off</strong>, del que solo existirá una unidad.",
-        "Somos distribuidores e instaladores autorizados <strong>TECHART</strong> desde 2019, lo que cubre el catálogo de personalización de los modelos actuales. Lo que no está en catálogo se fabrica."
+        "Proyectos a medida sobre un coche que sigue siendo el suyo: cambios en la carrocería, mejoras de rendimiento e interiores hechos a mano. Desde una pieza concreta hasta un encargo one-off, del que solo existirá una unidad.",
+        "Somos distribuidores e instaladores autorizados TECHART desde 2019, lo que cubre el catálogo de personalización de los modelos actuales. Lo que no está en catálogo se fabrica."
       ],
       "items": [],
       "imagenes": []
@@ -30,6 +55,62 @@
       "titulo": "Hasta dónde se puede llegar",
       "parrafos": [
         "La frontera no la pone la técnica, la pone la homologación y el sentido común sobre el valor del coche. Una modificación reversible sobre un coche corriente es una cosa; una irreversible sobre una unidad rara es otra, y lo decimos antes de empezar aunque el encargo se caiga."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es una especificación personal que conserva una lógica de conjunto y que puede mantenerse y explicarse con el paso del tiempo. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cómo preparar la primera consulta",
+      "parrafos": [
+        "Para orientar la consulta conviene facilitar el modelo, la versión, el año, el número de bastidor cuando sea relevante y el historial disponible. Si existe un síntoma, resulta útil describir cuándo aparece, con el motor frío o caliente, bajo carga o en retención, y si ha cambiado recientemente.",
+        "Las facturas, fotografías y diagnósticos anteriores ayudan a evitar repeticiones, aunque no sustituyen una comprobación actual. Con esa información se decide si basta una cita de inspección, si debe trasladarse el coche o si puede recibirse únicamente el componente."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/restauraciones/proyectos-y-diseno\">proyectos y diseño</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/taller-porsche\">taller Porsche</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Una personalización reduce siempre el valor?",
+      "parrafos": [
+        "No siempre, pero una modificación irreversible sobre una unidad rara merece más cautela que una mejora reversible en un coche de uso. Ese efecto se valora antes de decidir."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Se pueden combinar piezas de catálogo y fabricación propia?",
+      "parrafos": [
+        "Sí, si resuelven el mismo objetivo y se integran correctamente. La selección parte de la función, no de llenar el coche de componentes."
       ],
       "items": [],
       "imagenes": []

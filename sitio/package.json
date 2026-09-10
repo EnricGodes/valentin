@@ -18,7 +18,8 @@
     "servicios:exportar": "node scripts/exportar-servicios.ts",
     "revision:importar": "node scripts/importar-revision.ts",
     "mapa-idiomas": "node scripts/generar-mapa-idiomas.ts",
-    "probar:idioma": "node scripts/probar-middleware.mjs"
+    "probar:idioma": "node scripts/probar-middleware.mjs",
+    "servicios:importar": "node scripts/importar-servicios.ts"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

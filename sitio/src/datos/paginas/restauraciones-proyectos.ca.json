@@ -1,0 +1,129 @@
+{
+  "rutaId": "restauraciones-proyectos",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Disseny de projectes Porsche · Valentín Motors",
+    "descripcion": "Disseny i definició de projectes Porsche segons l'ús, base, pressupost i homologació abans d'iniciar el treball de taller.",
+    "ogImagen": ""
+  },
+  "h1": "Projectes Porsche definits abans de desmuntar",
+  "menu": "Projectes i disseny",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El servei comença per definir el problema",
+      "parrafos": [
+        "A Valentín Motors entenem que el departament de projectes converteix una intenció general en una especificació que el taller pot executar i el client pot avaluar abans de començar. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix de l'ús esperat, la base disponible, l'estat del cotxe, les referències estètiques, les prestacions cercades, el pressupost i l'homologació. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnòstic, abast i autorització",
+      "parrafos": [
+        "L'abast es planteja de manera proporcional: s'estudien alternatives, compatibilitats, peces, fabricació i seqüència de treball. En projectes complexos, també es decideix què s'ha de provar abans d'instal·lar-se de manera definitiva. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: dissenyar implica descartar. Es prioritzen solucions justificables i evita que una suma de bones peces acabi produint un cotxe incoherent. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi.",
+        "Treballs inclosos, alternatives i elements pendents de confirmar.",
+        "Autorització abans d ampliar l abast."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El laboratori d'idees",
+      "parrafos": [
+        "Abans que un projecte arribi al taller passa per aquí. És on s'investiga què s'està fent fora, es contrasten solucions amb altres professionals i es prova el que es muntarà abans de muntar-lo al cotxe d'un client.",
+        "D'aquest departament surten les peces pròpies que acaben als cotxes de competició i les decisions de disseny dels restomods."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Com comença un projecte",
+      "parrafos": [
+        "Amb una conversa i amb un cotxe, en aquest ordre. El primer és entendre què es vol del cotxe acabat: si és per fer servir, per guardar o per competir. Tota la resta surt d'aquí, inclosa la part incòmoda, que és quant costarà i quant trigarà."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què pot esperar el propietari",
+      "parrafos": [
+        "L'objectiu del lliurament és un abast comprensible, dividit per fases i connectat amb decisions tècniques, estètiques i d'ús que no depenen d'improvisacions durant el muntatge. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
+        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Com preparar la primera consulta",
+      "parrafos": [
+        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
+        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Serveis relacionats",
+      "parrafos": [
+        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/restauraciones\">restauracions</a>, <a href=\"/restauraciones/personalizacion\">personalització</a>, <a href=\"/builds\">builds</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntes freqüents",
+      "parrafos": [
+        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Cal tenir una idea completament tancada?",
+      "parrafos": [
+        "No. Només cal explicar com vol fer servir el cotxe i què no vol perdre. El treball inicial consisteix precisament a convertir preferències en decisions comparables."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "El pressupost forma part del disseny?",
+      "parrafos": [
+        "Sí. Condiciona materials, abast i fases. Parlar-ne al principi evita dissenyar un projecte que després s'hagi de desfer per poder executar-lo."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 33,
+    "total": 33,
+    "completa": true
+  }
+}

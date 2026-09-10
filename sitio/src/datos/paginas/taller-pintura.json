@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Pintura y carrocería Porsche · Colores originales · Valentín Motors",
-    "descripcion": "Chapa y pintura Porsche con colores originales de fábrica, tratamiento anticorrosión y preparación completa de la carrocería.",
+    "titulo": "Chapa y pintura Porsche · Valentín Motors",
+    "descripcion": "Chapa y pintura Porsche con preparación completa, colores originales, tratamiento anticorrosión y cabina propia en Barcelona.",
     "ogImagen": ""
   },
-  "h1": "Pintura y carrocería",
-  "menu": "Pintura y carrocería",
+  "h1": "Chapa y pintura Porsche con preparación completa",
+  "menu": "Chapa y pintura",
   "acordeones": [],
   "articulos": [
     "proceso-pintura-911-clase-g",
@@ -17,18 +17,43 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué hacemos",
+      "titulo": "El servicio empieza por definir el problema",
       "parrafos": [
-        "Reparación y pintura según las especificaciones de Porsche, con <strong>colores originales</strong> de fábrica y el sistema actual de códigos de pintura. Cabina propia en el taller de Barcelona.",
-        "Una pintura bien hecha no se nota. Lo que se nota es la mal hecha: los intersticios desiguales, el color que no encaja con el del vano, la moldura que ya no asienta."
+        "En Valentín Motors entendemos que una reparación de chapa y pintura Porsche depende más de la preparación, el ajuste y la compatibilidad de materiales que del brillo final de la superficie. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de espesor de pintura, intersticios, corrosión, deformaciones, reparaciones previas, código de color, piezas desmontables y estado de molduras y cromados. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
-          "alt": ""
+          "alt": "Preparación de una carrocería Porsche para pintura"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: el trabajo puede resolver una zona concreta o integrarse en una restauración completa. La cabina propia de Barcelona permite coordinar preparación, pintura y montaje. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: se desmonta lo necesario para evitar bordes enmascarados y se define si las piezas se conservan, reparan o sustituyen. En clásicos, la corrosión visible obliga a revisar las zonas relacionadas. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué hacemos",
+      "parrafos": [
+        "Reparación y pintura según las especificaciones de Porsche, con colores originales de fábrica y el sistema actual de códigos de pintura. Cabina propia en el taller de Barcelona.",
+        "Una pintura bien hecha no se nota. Lo que se nota es la mal hecha: los intersticios desiguales, el color que no encaja con el del vano, la moldura que ya no asienta."
+      ],
+      "items": [],
+      "imagenes": []
     },
     {
       "nivel": 2,
@@ -44,7 +69,53 @@
       "nivel": 2,
       "titulo": "Cuándo se hace",
       "parrafos": [
-        "Como parte de una <a href=\"/restauraciones/integrales\">restauración integral</a>, cuando la carrocería se desmonta entera, o como trabajo propio en un coche que solo necesita recuperar la pintura. Los dos procesos están contados paso a paso en los artículos de abajo."
+        "Como parte de una restauración integral, cuando la carrocería se desmonta entera, o como trabajo propio en un coche que solo necesita recuperar la pintura. Los dos procesos están contados paso a paso en los artículos de abajo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es una carrocería ajustada y pintada según el alcance, con colores de referencia, accesorios catalogados y tratamientos anticorrosión donde sean necesarios. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/restauraciones/integrales\">restauración integral</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>, <a href=\"/taller-porsche\">taller Porsche</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Se puede igualar solo una zona?",
+      "parrafos": [
+        "Depende del color, el envejecimiento y las reparaciones anteriores. La evaluación inicial decide si una reparación localizada puede integrarse o si necesita ampliar la zona de trabajo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Por qué se miden los intersticios?",
+      "parrafos": [
+        "Porque muestran la geometría y la calidad del ajuste. Corregirlos después de pintar dañaría el acabado y ocultaría el origen de una desalineación."
       ],
       "items": [],
       "imagenes": []

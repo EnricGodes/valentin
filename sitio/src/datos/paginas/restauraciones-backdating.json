@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Backdating Porsche · Valentín Motors",
-    "descripcion": "Estética clásica con mecánica moderna sobre 911 refrigerados por aire, siempre homologable.",
+    "titulo": "Backdating Porsche 911 · Valentín Motors",
+    "descripcion": "Backdating Porsche 911 sobre una base adecuada, con definición técnica, estética clásica, uso real y estudio previo de homologación.",
     "ogImagen": ""
   },
-  "h1": "Backdating",
+  "h1": "Backdating Porsche 911 pensado para conducir",
   "menu": "Backdating",
   "acordeones": [],
   "articulos": [
@@ -17,10 +17,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué es un backdating",
+      "titulo": "El servicio empieza por definir el problema",
       "parrafos": [
-        "Un backdating acerca un 911 al aspecto de una generación anterior conservando la mecánica de la suya. La idea es tener la línea de un coche de los setenta con el comportamiento, los frenos y la fiabilidad de uno de los noventa.",
-        "Funciona porque los 911 refrigerados por aire comparten arquitectura y cotas durante casi treinta años. Lo que en otra marca sería un disfraz, aquí encaja de verdad."
+        "En Valentín Motors entendemos que un backdating debe parecer una interpretación coherente de un 911 anterior y, al mismo tiempo, conservar las ventajas de la base elegida para el uso real. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de la generación de partida, su estado estructural y mecánico, la configuración que se quiere recrear, la reversibilidad y los requisitos de homologación. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
       "imagenes": [
@@ -32,10 +32,81 @@
     },
     {
       "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: carrocería, iluminación, interior, ruedas, suspensión y motor pueden formar parte del encargo, pero no todos los coches necesitan el mismo grado de transformación. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: el 964 suele ofrecer una arquitectura adecuada, pero la mejor base es la unidad sana y documentada que permita alcanzar el objetivo sin sacrificar un ejemplar singular. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué es un backdating",
+      "parrafos": [
+        "Un backdating acerca un 911 al aspecto de una generación anterior conservando la mecánica de la suya. La idea es tener la línea de un coche de los setenta con el comportamiento, los frenos y la fiabilidad de uno de los noventa.",
+        "Funciona porque los 911 refrigerados por aire comparten arquitectura y cotas durante casi treinta años. Lo que en otra marca sería un disfraz, aquí encaja de verdad."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Por qué el 964 es la mejor base",
       "parrafos": [
         "El 964 tiene la carrocería con las proporciones adecuadas, mecánica moderna para lo que pide un uso real y una oferta suficiente en el mercado. Sobre esa base se puede llegar muy lejos sin destruir un coche raro por el camino.",
-        "¿Un SC con aire acondicionado, o con un motor 3.2? Es posible. Cada backdating se define pieza a pieza, y siempre <strong>homologable</strong>: un coche que no puede matricularse no es un coche, es una escultura."
+        "¿Un SC con aire acondicionado, o con un motor 3.2? Es posible. Cada backdating se define pieza a pieza, y siempre homologable: un coche que no puede matricularse no es un coche, es una escultura."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es un proyecto definido por especificación, con una apariencia, una dinámica y unos acabados que hablan el mismo lenguaje. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/restauraciones/proyectos-y-diseno\">proyectos y diseño</a>, <a href=\"/restauraciones/integrales\">restauración integral</a>, <a href=\"/taller-porsche/pintura-carroceria\">chapa y pintura</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Hay que empezar siempre con un 964?",
+      "parrafos": [
+        "No. La base se elige por su estado, arquitectura, valor y objetivo. El 964 es frecuente, pero no sustituye el análisis de la unidad concreta."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿La homologación se estudia al final?",
+      "parrafos": [
+        "No debería. Las modificaciones con implicaciones legales se identifican durante el diseño para evitar rehacer piezas o terminar con una configuración que no pueda matricularse."
       ],
       "items": [],
       "imagenes": []

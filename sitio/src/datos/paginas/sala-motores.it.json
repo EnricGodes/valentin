@@ -3,128 +3,196 @@
   "tipo": "servicio",
   "ficheroOriginal": "sala-motores",
   "meta": {
-    "titulo": "Sala motori per auto classiche e da competizione · Valentín Motors",
-    "descripcion": "Ripariamo e prepariamo motori classici e da competizione di ogni marca: Porsche, Ferrari, Jaguar, Aston Martin, Bentley, Alfa Romeo.",
+    "titulo": "Officina meccanica interna · Valentín Motors",
+    "descripcion": "Officina meccanica interna per la diagnosi, la misurazione e la revisione di motori e cambi Porsche classici e da competizione.",
     "ogImagen": ""
   },
-  "h1": "Sala motori: classiche e competizione",
+  "h1": "Sala macchine per auto d'epoca, Porsche e auto da corsa",
+  "menu": "Sala macchine",
   "acordeones": [],
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "restauracion-motor-965-turbo-33",
+    "restauracion-motor-964-m64",
+    "9971-turbo-rehabilitacion-motor"
+  ],
   "secciones": [
     {
-      "nivel": 1,
-      "titulo": "Sala motori: classiche e competizione",
+      "nivel": 2,
+      "titulo": "Il servizio inizia con la definizione del problema",
       "parrafos": [
-        "Con l'aiuto di Ivan Bascuñana, capo del reparto motori, disponiamo di una vasta esperienza nella riparazione di motori classici di tutte le marche. Prepariamo anche motori per la competizione.",
-        "La nostra sala macchine",
-        "I seguenti motori sono passati per le mani del nostro motociclista Ivan Bascuñana:"
+        "Presso Valentín Motors, noi Comprendiamo che avere una nostra officina interna ci permette di integrare diagnosi, misurazioni, lavorazioni meccaniche, assemblaggio e collaudo in un unico approccio tecnico. Per questo motivo, il colloquio iniziale non si concentra su un catalogo di servizi, ma piuttosto sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
+        "La valutazione inizia con i sintomi iniziali, il cambio dell'olio e del filtro, la compressione (ove applicabile), le condizioni di ogni componente, il gioco, l'ovalizzazione, la planarità e la tracciabilità dei pezzi. Qualora mancassero delle informazioni, indichiamo quali test sono necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
       ],
-      "items": [
-        "Aston Martin DBS, DB4, DB5, DB6",
-        "Austin Healey",
-        "Bentley Continental",
-        "De Tomaso Pantera 351 Cleveland",
-        "Ferrari Dino, 250 GTE, 308 GT",
-        "Ford MK1, MK2 Pinto e BDG",
-        "Jaguar XK 120/140/150, MKII, MK7, Tipo E,",
-        "Lamborghini 400 2+2, Islero",
-        "Maserati 3500 GT",
-        "Mercedes 300SL, 280SL, 250SE, 190SL",
-        "Peugeot 404",
-        "Rolls Royce Argento Ombra"
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/9f55a612-DSC03453.jpg",
-          "alt": ""
+          "alt": "Ristrutturazione della sala macchine, Immagine 1"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Abbiamo esperienza nella riparazione di motori classici di qualsiasi marca",
+      "titulo": "Diagnosi, ambito e autorizzazione",
       "parrafos": [
-        "Uno dei reparti di cui siamo più orgogliosi è la nostra sala motori dove <strong> restauriamo e aggiorniamo i potenza e i cambi</strong> di tutte le 911 e delle Porsche classiche.",
-        "Infatti, il nostro nome commerciale Valentín Motors deriva dal nome del fondatore e “motors”, simbolo della capacità tecnica che la nostra azienda possiede dal 1979.",
-        "<strong>Una sala motori è molto costosa a livello tecnico e di conoscenze</strong>, infatti nemmeno i concessionari ufficiali dei marchi ne hanno una.",
-        "Abbiamo molta esperienza nei motori Porsche, sia raffreddati ad aria dal 356 al moderno GT3 e CUP; Non ci limitiamo a restaurare e assemblare secondo le specifiche originali ma miglioriamo e valorizziamo anche secondo i nostri calcoli e dati."
+        "L'entità del lavoro viene determinata proporzionalmente: lavoriamo su motori Porsche raffreddati ad aria e ad acqua, motori da competizione, cambi e componenti meccanici classici di altre marche, già documentati nell'esperienza del reparto. Le attività vengono ordinate per evitare doppi smontaggi, mascherare i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica si basa su questo criterio: un motore aperto non riceve automaticamente tutti i pezzi nuovi. Ogni componente viene misurato e classificato per conservare ciò che è utilizzabile, correggere ciò che è necessario e presentare le opzioni prima del montaggio. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
       ],
-      "items": [],
-      "imagenes": []
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento.",
+        "Lavori inclusi, alternative e elementi in attesa di conferma.",
+        "Autorizzazione prima di ampliare l'ambito di lavoro."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Ristrutturazione della sala macchine, Immagine 2"
+        }
+      ]
     },
     {
-      "nivel": 3,
-      "titulo": "Un officina con sala motori ci consente di non dipendere da terzi, garantendo la garanzia e la qualità con cui eseguiamo i nostri progetti.",
+      "nivel": 2,
+      "titulo": "Abbiamo esperienza nella riparazione di motori classici di qualsiasi marca.",
       "parrafos": [
-        "— Jordi Edo"
+        "Uno dei reparti di cui andiamo più fieri è la nostra sala motori, dove restauriamo e aggiorniamo i propulsori e i cambi di tutte le 911 e altre Porsche classiche.",
+        "Infatti, il nostro nome commerciale, Valentín Motors, deriva dal nome del fondatore e da \"motori\", a simboleggiare le capacità tecniche che la nostra azienda possiede fin dalla 1979.",
+        "Una sala macchine richiede un investimento considerevole in risorse tecniche e competenze. Infatti, nemmeno le concessionarie ufficiali del marchio ne possiedono una.",
+        "Abbiamo una vasta esperienza con i motori Porsche, dal 356 raffreddato ad aria ai moderni GT3 e CUP. Non ci limitiamo a restaurarli e assemblarli secondo le specifiche originali; li miglioriamo e ottimizziamo anche in base ai nostri calcoli e dati."
       ],
       "items": [],
       "imagenes": [
         {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": ""
-        },
-        {
           "url": "/img/paginas/50280633-motor2.jpg",
-          "alt": ""
+          "alt": "Ristrutturazione della sala macchine, Immagine 3"
         }
       ]
     },
     {
-      "nivel": 2,
-      "titulo": "Esempi di riparazioni del motore",
-      "parrafos": [],
+      "nivel": 3,
+      "titulo": "La nostra officina interna ci permette di essere indipendenti, garantendo la qualità del nostro lavoro e facilitando la copertura della garanzia.",
+      "parrafos": [
+        "Jordi Edo"
+      ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Riabilitazione completa del motore 964",
+      "titulo": "Ricostruzione completa del motore 964",
       "parrafos": [
-        "In tutta la generazione 964, la Porsche ha utilizzato il 3.600 cc che ha fornito così tanta affidabilità e soddisfazione ai suoi proprietari."
+        "Durante tutta la generazione 964, Porsche ha utilizzato il blocco motore 3.600, che ha offerto ai suoi proprietari un'affidabilità e una soddisfazione eccezionali"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Restauro completo del motore 965 (964 turbo)",
+      "parrafos": [
+        "Nell'anno 1991, il modello 911 turbo era equipaggiato con un motore sovralimentato derivato da 3,3, 320 e CV."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "I nostri servizi",
+      "parrafos": [
+        "L'officina opera su quattro fronti: motori Porsche di qualsiasi epoca, motori classici di altre marche, cambi e preparazione per competizioni.",
+        "Ciascuno ha una pagina dedicata, che descrive in dettaglio cosa include e come lavoriamo. Ecco cosa hanno in comune tutti e quattro: l'officina, gli strumenti e il processo di misurazione prima di prendere una decisione."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/91292630-964.jpg",
-          "alt": ""
-        }
-      ]
-    },
-    {
-      "nivel": 3,
-      "titulo": "Restauro completo motore 965 (964 turbo)",
-      "parrafos": [
-        "Nell'anno 1991 il modello 911 turbo era alimentato da un motore sovralimentato da 3,3 litri e 320 CV."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/f09b0a71-965.jpg",
-          "alt": ""
+          "alt": "Ristrutturazione della sala macchine, Immagine 4"
         }
       ]
     },
     {
       "nivel": 2,
-      "titulo": "Intervista a Iván Bascuñana, capo motorista",
+      "titulo": "Intervista a Iván Bascuñana, Capo Tecnico Motori",
       "parrafos": [
-        "<strong>Qual è il momento più cruciale o stressante del processo?<br/></strong>Il momento della messa in pressione dell'olio già a motore montato e successivamente avviato, dove si vede il risultato del lavoro completo. C’è un alto grado di responsabilità nell’intero processo poiché i costi sono elevati.<br/><br/><strong>Qual è la qualità principale che possiede un motociclista?<br/></strong>Principalmente passione e continua ricerca della perfezione.",
-        "<strong>Quale metodologia è fondamentale per Lei?<br/></strong>L'ordine e la metodologia dei processi sono fondamentali per il risultato finale, la sala motori è uno spazio chiuso e ordinato in cui tutto è in armonia.",
-        "<strong>Cosa è importante per Lei, l'esperienza o la tecnica? <br/></strong>La somma dei due è fondamentale, ogni giorno è una ricerca della perfezione e ogni giorno è una sfida.",
-        "<strong>Quali sono i processi svolti nella sala motori?\n<br/></strong>Smontaggio, diagnosi di ogni parte e controllo di tutti gli elementi del motore.",
-        "<strong>Qual è la fase più importante dello smontaggio o del montaggio di un motore?<br/></strong>La fase più importante dello smontaggio è l'acquisizione delle informazioni sul motore: fare una diagnosi preventiva che aiuterà a focalizzare il processo.<br/>E nel montaggio la verifica delle tolleranze del motore. Tolleranze di pistoni e cilindri e giochi d'olio tra albero motore e biella.",
-        "<strong>Che tipo di misurazioni vengono effettuate?\n<br/></strong>L'intera serie di misurazioni è importante allo stesso livello, le tolleranze pistone/cilindro sono le più importanti, ma anche il gioco dell'olio e l'alzata della valvola sono fondamentali.",
-        "<strong>Possiamo modificare i parametri di fabbrica in modo sicuro?</strong><br/>Di norma, tutti i motori hanno un margine di sicurezza, il produttore abusa del materiale e possono essere ottimizzati senza problemi.",
-        "<strong>Quali vantaggi ha un officina con una sala motori?<br/></strong>Principalmente non vi è alcuna dipendenza da terzi, il che è un aspetto fondamentale per la garanzia e la qualità. Influisce completamente sulla qualità che desidera offrire al cliente.",
-        "<strong>Quale processo è il più complesso?\n<br/></strong>Si tratta senza dubbio della distribuzione o della stesura della distribuzione al momento dell'assemblea."
+        "Qual è il momento più cruciale o stressante del processo? Il momento del controllo della pressione dell'olio con il motore già assemblato e, successivamente, durante l'avviamento, quando si osserva il risultato dell'intero processo. L'intero processo comporta un alto grado di responsabilità, poiché i costi sono elevati. Qual è la qualità principale di un tecnico motorista? Prima di tutto, la passione e la continua ricerca della perfezione.",
+        "Qual è la metodologia chiave per te? L'ordine e una metodologia di processo sono fondamentali per il risultato finale. La sala macchine è uno spazio chiuso e immacolato dove tutto è in armonia.",
+        "Cosa è più importante per te, l'esperienza o la tecnica? La combinazione di entrambi è fondamentale. Ogni giorno è una ricerca della perfezione e presenta una nuova sfida.",
+        "Quali processi vengono eseguiti in sala macchine? Smontaggio, diagnosi di ogni parte e collaudo di tutti i componenti del motore.",
+        "Qual è la fase più importante dello smontaggio o del montaggio del motore? La fase più importante dello smontaggio è la raccolta di informazioni sul motore: una diagnosi preliminare aiuterà a guidare il processo. Durante il montaggio, la chiave è la verifica delle tolleranze del motore: quelle dei pistoni e dei cilindri, nonché il gioco dell'olio tra albero motore e biella.",
+        "Che tipo di misurazioni vengono effettuate? Tutte le misurazioni sono ugualmente importanti. Tra le principali ci sono il gioco pistone-cilindro, il gioco dell'olio e l'alzata delle valvole.",
+        "Possiamo modificare in sicurezza i parametri di fabbrica? In genere, tutti i motori hanno un margine di sicurezza. Il produttore utilizza una tolleranza di materiale che può essere ottimizzata senza problemi.",
+        "Quali vantaggi offre un'officina con sala macchine? Il vantaggio principale è non dipendere da terzi, un fattore chiave per la garanzia e la qualità. Questo ha un impatto diretto sulla qualità che vogliamo offrire al cliente.",
+        "Qual è il processo più complesso? Senza dubbio, la fasatura, in particolare la sua regolazione durante l'assemblaggio."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/f09b0a71-965.jpg",
+          "alt": "Ristrutturazione della sala macchine, Immagine 5"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa può aspettarsi il proprietario",
+      "parrafos": [
+        "L'obiettivo di questa fornitura è un'unità completamente assemblata con un ordine di processo predefinito, tolleranze verificate e un collaudo che confermi la pressione dell'olio, la funzionalità e i risultati del lavoro svolto. La spiegazione finale dovrebbe illustrare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare per i lavori futuri.",
+        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/375d4c34-IMG_0978.jpg",
-          "alt": ""
+          "alt": "Ristrutturazione della sala macchine, Immagine 6"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Come prepararsi per la prima consulenza",
+      "parrafos": [
+        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
+        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servizi correlati",
+      "parrafos": [
+        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/taller-porsche/motores\">motori Porsche</a>, <a href=\"/taller-porsche/cajas-de-cambio\">cambi</a> e <a href=\"/competicion\">competizione</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Domande frequenti",
+      "parrafos": [
+        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Posso inviare solo il motore?",
+      "parrafos": [
+        "Sì. Valentín Motors ritira i motori in tutta la Spagna una volta che il gruppo motore è stato rimosso dall'auto. La ricevuta deve includere tutte le informazioni disponibili sui sintomi e sugli interventi precedentemente eseguiti."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quando si conosce l'entità completa dell'intervento?",
+      "parrafos": [
+        "Dopo la diagnosi e, se necessario, dopo la pulizia e la misurazione dei componenti. È possibile fornire una valutazione iniziale, ma non una conclusione definitiva in merito a eventuali danni occulti."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -132,15 +200,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 55,
-    "total": 55,
+    "hechas": 57,
+    "total": 57,
     "completa": true
-  },
-  "menu": "Sala motori",
-  "articulos": [
-    "rehabilitacion-motor-32-serie-g-1985",
-    "restauracion-motor-965-turbo-33",
-    "restauracion-motor-964-m64",
-    "9971-turbo-rehabilitacion-motor"
-  ]
+  }
 }

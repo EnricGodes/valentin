@@ -3,39 +3,111 @@
   "tipo": "servicio",
   "ficheroOriginal": "_derivado_de_taller",
   "meta": {
-    "titulo": "Storage Porsche: guarda tu coche en condiciones · Valentín Motors",
-    "descripcion": "Guarda tu Porsche en un entorno vigilado, con inspecciones periódicas y mantenimiento preventivo, por 250 € al mes.",
+    "titulo": "Storage Porsche especializado · Valentín Motors",
+    "descripcion": "Storage Porsche vigilado, con inspecciones periódicas y mantenimiento preventivo para conservar el coche durante periodos sin uso.",
     "ogImagen": ""
   },
-  "h1": "Storage Porsche",
+  "h1": "Storage Porsche con atención de taller especializado",
+  "menu": "Storage",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Un entorno pensado para el coche",
+      "titulo": "El servicio empieza por definir el problema",
       "parrafos": [
-        "En Valentin entendemos que un Porsche requiere cuidados específicos durante los periodos en los que no se utiliza. Por eso, nuestro servicio de <strong>Storage</strong> ofrece un espacio donde estacionarlo y un entorno diseñado para conservarlo adecuadamente, como un <strong>spa para Porsche</strong>.",
-        "Este servicio está pensado para propietarios que necesitan liberar espacio en su garaje, utilizan su Porsche de forma ocasional, pasan largas temporadas fuera de su residencia o desean conservar su vehículo en buen estado mientras no lo utilizan. Nuestras instalaciones son discretas, seguras y cuentan con vigilancia las 24 horas del día, lo que aporta tranquilidad.",
-        "Además del almacenamiento, realizamos <strong>inspecciones periódicas y mantenimiento preventivo</strong>, comprobamos el estado general del vehículo y aplicamos los cuidados necesarios para que se conserve en buenas condiciones mecánicas y estéticas. De esta forma, cuando decidas volver a conducir tu Porsche, estará preparado para circular.",
-        "Por <strong>250 €/mes</strong>, ofrecemos un servicio que combina seguridad, conservación y atención especializada como alternativa a un aparcamiento convencional. Asimismo, ponemos a disposición de nuestros clientes un <strong>protocolo específico de cuidado</strong>, con servicios opcionales adaptados a las necesidades de cada vehículo y propietario.",
-        "Taller Porsche independiente en el centro de Barcelona"
+        "En Valentín Motors entendemos que el Storage Porsche resuelve periodos prolongados sin uso con algo más que una plaza: seguimiento del estado y acceso a mantenimiento preventivo especializado. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de la duración prevista, la frecuencia con la que el propietario quiere disponer del coche, su historial reciente y cualquier necesidad mecánica o estética pendiente. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/4c090daf-DSC00895.jpg",
-          "alt": ""
-        },
+          "alt": "Porsche conservado en las instalaciones de Storage, imagen 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: el servicio actual incluye instalaciones discretas y vigiladas las 24 horas, inspecciones periódicas y un protocolo de cuidados con opciones adaptadas a cada unidad. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: antes de entrar se acuerda qué atención necesita el coche y qué trabajos opcionales requieren autorización. El Storage no debe convertir una revisión rutinaria en una intervención no solicitada. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": [
         {
           "url": "/img/paginas/cf185986-DSC03460.jpeg",
           "alt": "Taller especialista Porsche"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un entorno pensado para el coche",
+      "parrafos": [
+        "En Valentin entendemos que un Porsche requiere cuidados específicos durante los periodos en los que no se utiliza. Por eso, nuestro servicio de Storage ofrece un espacio donde estacionarlo y un entorno diseñado para conservarlo adecuadamente, como un spa para Porsche.",
+        "Este servicio está pensado para propietarios que necesitan liberar espacio en su garaje, utilizan su Porsche de forma ocasional, pasan largas temporadas fuera de su residencia o desean conservar su vehículo en buen estado mientras no lo utilizan. Nuestras instalaciones son discretas, seguras y cuentan con vigilancia las 24 horas del día, lo que aporta tranquilidad.",
+        "Además del almacenamiento, realizamos inspecciones periódicas y mantenimiento preventivo, comprobamos el estado general del vehículo y aplicamos los cuidados necesarios para que se conserve en buenas condiciones mecánicas y estéticas. De esta forma, cuando decidas volver a conducir tu Porsche, estará preparado para circular.",
+        "Por 250 €/mes, ofrecemos un servicio que combina seguridad, conservación y atención especializada como alternativa a un aparcamiento convencional. Asimismo, ponemos a disposición de nuestros clientes un protocolo específico de cuidado, con servicios opcionales adaptados a las necesidades de cada vehículo y propietario.",
+        "Taller Porsche independiente en el centro de Barcelona"
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es un Porsche conservado bajo seguimiento y preparado para volver a circular conforme al protocolo acordado con su propietario. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/mantenimiento\">mantenimiento Porsche</a>, <a href=\"/madrid\">centro de Madrid</a>, <a href=\"/contacto\">contacto</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Para quién resulta útil el Storage?",
+      "parrafos": [
+        "Para quien usa el coche de forma ocasional, pasa temporadas fuera o no dispone de un espacio adecuado y quiere centralizar conservación y atención técnica."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Incluye cualquier reparación necesaria?",
+      "parrafos": [
+        "No. Las inspecciones y el mantenimiento preventivo forman parte del servicio descrito; cualquier trabajo adicional se valora y se autoriza por separado."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "Storage"
+  }
 }

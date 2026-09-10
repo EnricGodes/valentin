@@ -1,0 +1,129 @@
+{
+  "rutaId": "taller-mantenimiento",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Entretien Porsche spécialisé · Valentín Motors",
+    "descripcion": "Entretien Porsche avec pièces d'origine, respect des recommandations du constructeur et tarifs publiés par modèle à Barcelone et Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "Entretien Porsche selon l'utilisation et le modèle",
+  "menu": "Entretien",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Notre service commence par la définition du problème",
+      "parrafos": [
+        "Chez Valentín Motors, nous savons que l'entretien d'une Porsche doit respecter le plan du constructeur et être adapté à l'âge, au kilométrage, à l'utilisation et à l'historique du véhicule. C'est pourquoi la première consultation est axée non pas sur une liste de services, mais sur la voiture, son historique et les résultats attendus par son propriétaire.",
+        "L'estimation est basée sur l'historique d'entretien, la date et le kilométrage de la dernière révision, les voyants d'alerte, les niveaux de fluides, l'usure, les fuites et les observations du propriétaire. En cas d'informations manquantes, nous indiquons les vérifications nécessaires pour les obtenir avant de transformer une hypothèse en devis."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Entretien du véhicule à prix fixe"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnostic, périmètre et autorisation",
+      "parrafos": [
+        "Le périmètre est défini au prorata : les révisions mineures et majeures sont listées par modèle, ainsi que des opérations telles que la vidange du liquide de frein, le parallélisme et les inspections avant achat, le cas échéant. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation de symptômes et le remplacement de composants alors qu'un diagnostic ou une réparation est encore possible.",
+        "La décision technique est prise selon le critère suivant : un guide sert de base, mais une voiture de collection utilisée occasionnellement et une voiture de tous les jours 992 vieillissent différemment. Les interventions planifiées sont dissociées des problèmes découverts lors de l'entretien. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant toute intervention."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention.",
+        "Travaux inclus, alternatives et éléments en attente de confirmation.",
+        "Autorisation préalable à l'extension du périmètre."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Nos services",
+      "parrafos": [
+        "Nous respectons les programmes d'entretien préconisés par le constructeur, en utilisant des pièces d'origine et en suivant les recommandations Porsche. La différence avec un centre de service officiel ne réside pas dans la méthode, mais dans le coût et le personnel : le même technicien prend en charge votre véhicule à chaque visite.",
+        "Tous les prix sont indiqués par modèle. Pas de mauvaises surprises : vous connaissez le prix d’une révision complète pour votre 993 avant de l’amener."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Révisions mineure et majeure",
+      "parrafos": [
+        "Une révision mineure comprend la vidange d'huile moteur et le remplacement du filtre, ainsi qu'un contrôle en 23 points. Une révision majeure comprend la révision mineure et ajoute 30 points : les filtres à air et d'habitacle, les bougies d'allumage lorsque cela est nécessaire, et la vérification de toutes les pièces d'usure.",
+        "Le liquide de frein, le parallélisme et l’inspection avant achat sont facturés séparément et à prix fixe."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Pour les voitures de collection, l’intervalle d’entretien peut différer de celui indiqué dans le manuel.",
+      "parrafos": [
+        "Un 911 refroidi par air qui parcourt 3 000 kilomètres par an ne nécessite pas le même programme d'entretien qu'un 992 utilisé quotidiennement. Pour les véhicules utilisés occasionnellement, nous recommandons une vidange annuelle, même si le kilométrage n'est pas atteint : l'huile se dégrade avec le temps, et pas seulement à cause de l'utilisation, ce qui peut s'avérer coûteux pour un moteur de 40 ans."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que le propriétaire peut attendre",
+      "parrafos": [
+        "Ce rapport a pour but de documenter l'entretien, de fournir une liste de contrôle et d'expliquer les travaux qui requièrent une attention immédiate, un suivi ou un rendez-vous séparé. L'explication finale doit clairement indiquer ce qui a été fait, pourquoi et ce qui doit être surveillé ou planifié ultérieurement.",
+        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Services associés",
+      "parrafos": [
+        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/taller-porsche/tarifas\">tarifs par modèle</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection préachat</a> et <a href=\"/taller-porsche\">atelier Porsche</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Foire aux questions",
+      "parrafos": [
+        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Le kilométrage suffit-il ?",
+      "parrafos": [
+        "Non. Les fluides et certains matériaux vieillissent également avec le temps. Pour les moteurs refroidis par air utilisés occasionnellement, une vidange annuelle est recommandée, même s'ils ne parcourent pas beaucoup de kilomètres."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quelle est la différence entre une révision mineure et une révision majeure ?",
+      "parrafos": [
+        "La vidange courte comprend l'huile, le changement de filtre et un contrôle en 23 points. La vidange longue étend ce contrôle et ajoute les consommables spécifiés pour cet intervalle."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 33,
+    "total": 33,
+    "completa": true
+  }
+}

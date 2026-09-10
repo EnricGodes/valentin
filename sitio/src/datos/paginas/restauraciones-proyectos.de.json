@@ -1,0 +1,129 @@
+{
+  "rutaId": "restauraciones-proyectos",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche Projektplanung · Valentín Motors",
+    "descripcion": "Planung und Definition von Porsche-Projekten hinsichtlich Verwendungszweck, Basis, Budget und Homologation vor Beginn der Werkstattarbeiten.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche-Projekte vor der Demontage",
+  "menu": "Projekte und Design",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "parrafos": [
+        "Wir bei Valentín Motors wissen, dass die Projektabteilung eine allgemeine Vorstellung in eine Spezifikation umsetzt, die die Werkstatt umsetzen und der Kunde vor Beginn prüfen kann. Deshalb konzentriert sich das Erstgespräch nicht auf einen Leistungskatalog, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das der Besitzer erwartet.",
+        "Die Bewertung basiert auf dem erwarteten Einsatzzweck, der verfügbaren Basis, dem Zustand des Fahrzeugs, ästhetischen Vorgaben, der gewünschten Leistung, dem Budget und der Homologation. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnose, Umfang und Genehmigung",
+      "parrafos": [
+        "Der Umfang wird proportional definiert: Alternativen, Kompatibilitäten, Teile, Fertigung und Arbeitsablauf werden geprüft. Bei komplexen Projekten wird zudem festgelegt, was vor der endgültigen Installation getestet werden muss. Aufgaben werden priorisiert, um doppelte Demontage, das Verschleiern von Fehlern und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung wird nach folgendem Kriterium getroffen: Konstruktion beinhaltet das Verwerfen von Unbrauchbarem. Nachvollziehbare Lösungen werden priorisiert, und aus einer Sammlung brauchbarer Teile wird kein inkonsistentes Fahrzeug erstellt. Ergibt sich eine Erkenntnis, die das Projekt verändert, wird diese vom genehmigten Arbeitsplan getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff.",
+        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
+        "Genehmigung vor Erweiterung des Umfangs."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Das Ideenlabor",
+      "parrafos": [
+        "Bevor ein Projekt in die Werkstatt kommt, durchläuft es dieses Labor. Hier recherchieren wir, was anderswo gemacht wird, vergleichen Lösungen mit anderen Fachleuten und testen die Komponenten, bevor wir sie am Fahrzeug eines Kunden montieren.",
+        "Diese Abteilung fertigt die firmeneigenen Teile, die in den Rennwagen verbaut werden, und trifft die Designentscheidungen für die Restomods."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Wie ein Projekt beginnt",
+      "parrafos": [
+        "Mit einem Gespräch und einem Auto – in genau dieser Reihenfolge. Der erste Schritt ist, zu verstehen, was Sie von Ihrem fertigen Auto erwarten: ob für den Alltag, zur Lagerung oder für den Rennsport. Alles Weitere ergibt sich daraus, einschließlich des heiklen Teils: die Kosten und die Dauer zu ermitteln."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Sie als Besitzer erwartet",
+      "parrafos": [
+        "Ziel der Lieferung ist ein klarer und verständlicher Leistungsumfang, unterteilt in Phasen und verknüpft mit technischen, ästhetischen und nutzungsbezogenen Entscheidungen, die keine Improvisation während der Montage erfordern. Die abschließende Beschreibung sollte verdeutlichen, was getan wurde, warum es getan wurde und was im Anschluss zu beachten oder einzuplanen ist.",
+        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor",
+      "parrafos": [
+        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
+        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Verwandte Leistungen",
+      "parrafos": [
+        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/restauraciones\">Restaurierungen</a>, <a href=\"/restauraciones/personalizacion\">Individualisierung</a> und <a href=\"/builds\">Builds</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Häufig gestellte Fragen",
+      "parrafos": [
+        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Benötigen Sie ein vollständig ausgearbeitetes Konzept?",
+      "parrafos": [
+        "Nein. Erklären Sie einfach, wie Sie das Auto nutzen möchten und worauf Sie nicht verzichten wollen. Die erste Aufgabe besteht darin, Ihre Präferenzen in vergleichbare Entscheidungen umzuwandeln."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Ist das Budget Teil des Designs?",
+      "parrafos": [
+        "Ja. Es bestimmt Materialien, Umfang und Phasen. Eine frühzeitige Besprechung verhindert, dass ein Projekt entworfen wird, das später für die Umsetzung verworfen werden muss."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 33,
+    "total": 33,
+    "completa": true
+  }
+}

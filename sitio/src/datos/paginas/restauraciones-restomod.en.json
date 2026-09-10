@@ -1,0 +1,118 @@
+{
+  "rutaId": "restauraciones-restomod",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche Restomod 911 · Valentín Motors",
+    "descripcion": "Porsche 911 restomod developed as a complete project covering bodywork, engine, gearbox, interior and final setup In Barcelona and Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "Restomod Porsche: a classic built to be driven",
+  "menu": "Restomod",
+  "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
+      "parrafos": [
+        "At Valentín Motors, we understand that a restomod rebuilds a classic as a complete system to enhance usability without losing the identity that made it a desirable choice in the first place. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's desired outcome.",
+        "Our assessment begins with the quality of the base vehicle,its architecture, weight, engine response, transmission, brakes, suspension, ergonomics, and aesthetics. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosis, scope, and authorization",
+      "parrafos": [
+        "The scope of work is approached holistically: bodywork, paint, engine, transmission, interior, and engineering are all defined within a single project. An isolated upgrade should not simply shift a problem to another component. Tasks are sequenced to avoid redundant disassembly, prevent masking symptoms, and avoid replacing an entire assembly when it can still be diagnosed or repaired.",
+        "Technical decisions are guided by a specific criterion: determining which character traits to preserve and which limitations to correct. Top speed alone rarely defines a car that is enjoyable, reliable, and practical to drive. If a discovery alters the scope of the commission, it is separated from the approved work and explained before we proceed."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "A classic built to be driven",
+      "parrafos": [
+        "A restomod is neither a standard restoration nor a simple customization. A restoration returns the car to its factory-original state, while a customization involves swapping parts on a car that remains fundamentally unchanged. A restomod takes a classic base and completely rebuilds it to drive like a modern car, while preserving the lines and character of the original.",
+        "It is the kind of project that brings together everything the firm does: bodywork and paint, engine shop, transmission, upholstery, and project engineering. That is why there are so few of them, and why the details of each one are defined with the client before any work begins."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "The first one was the PA10/01.",
+      "parrafos": [
+        "The PA10/01 is our interpretation of the perfect 911: a car built entirely in-house and unveiled in Madrid in 2025. It serves as a benchmark for the scope of a project of this nature."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The delivered vehicle is a unique unit developed to a specific configuration, tested and documented as a cohesive whole rather than a collection of independent modifications. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled for future attention.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and the project goal, work can be coordinated with <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">projects and design</a>, <a href=\"/sala-motores\">engine shop</a>. Each page outlines the specific scope of work prior to booking an appointment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "How does this differ from a restoration?",
+      "parrafos": [
+        "Restoration aims to return a vehicle to a previous specification; the restomod process starts with a classic car to create a new specification. Both require rigor, yet they pursue different outcomes."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can the PA10/01 be replicated?",
+      "parrafos": [
+        "The PA10/01 demonstrates capability and design philosophy. Each new project must reflect its owner and the base vehicle, meaning the definition process begins anew based on intended use."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 29,
+    "total": 29,
+    "completa": true
+  }
+}

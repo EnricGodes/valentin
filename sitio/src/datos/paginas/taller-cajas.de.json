@@ -1,0 +1,132 @@
+{
+  "rutaId": "taller-cajas",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche-Getriebe: Reparatur · Valentín Motors",
+    "descripcion": "Diagnose, Reparatur und Überholung manueller und automatischer Porsche-Getriebe, vom 356 bis zu den Generationen 991 und 992.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche-Getriebereparatur",
+  "menu": "Getriebe",
+  "acordeones": [],
+  "articulos": [
+    "restauracion-motor-965-turbo-33"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "parrafos": [
+        "Wir bei Valentín Motors wissen, dass die Diagnose eines Getriebes auf seiner Konstruktion und dem genauen Zeitpunkt des Auftretens der Symptome basieren muss, nicht nur auf dem allgemeinen Fahrgefühl. Daher konzentriert sich die Erstberatung nicht auf eine Liste von Serviceleistungen, sondern auf das Fahrzeug, seine Historie und die Wünsche des Besitzers.",
+        "Die Beurteilung beginnt mit Geräuschen, dem betroffenen Gang, Temperatur, Belastung, Ölhistorie, Leckagen, Schaltgestänge, Kupplung und dem Verhalten bei Kälte und Wärme. Sollten Informationen fehlen, teilen wir Ihnen mit, welche Tests erforderlich sind, um diese zu erhalten, bevor wir aus einer Hypothese einen Kostenvoranschlag erstellen."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
+          "alt": "Getriebe"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnose, Umfang und Genehmigung",
+      "parrafos": [
+        "Der Arbeitsumfang ist proportional gegliedert: Es werden manuelle und automatische Porsche-Getriebe der Generationen 356, 915 und G50 bis einschließlich 991 und 992, einschließlich Tiptronic und PDK, je nach Getriebe, gewartet. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Technische Entscheidungen werden nach folgendem Kriterium getroffen: Synchronringe, Lager, Schaltgabeln, Dichtungen, Differential, Kupplung und Steuerungselemente werden separat beurteilt. Bei einem Automatikgetriebe müssen die Steuerungs-, Hydraulik- und mechanischen Komponenten ebenfalls separat betrachtet werden. Ergibt sich ein Befund, der den Arbeitsauftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff.",
+        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
+        "Genehmigung vor Erweiterung des Umfangs."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was wir tun",
+      "parrafos": [
+        "Wir reparieren und überholen alle -Getriebe: von 356, 915, G50 und den Nachfolgemodellen bis 991 und 992. Auch -Automatikgetriebe, die oft als hoffnungsloser Fall gelten, sind wir instand.",
+        "Die Überholung eines Getriebes ist fast immer besser als der Austausch. Bei Oldtimern ist sie zudem die einzige Möglichkeit, die korrekte Teilenummer beizubehalten."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Unsere Arbeitsweise",
+      "parrafos": [
+        "Das Getriebe wird geöffnet, vermessen und stückweise katalogisiert. Synchronringe, Schaltgabeln, Lager und Dichtungen werden separat bewertet, und anhand dieser Liste wird der Kostenvoranschlag erstellt. Bei Fahrzeugen, bei denen das Getriebe mit dem Motor integriert ist, werden beide als Einheit demontiert und gleichzeitig bearbeitet."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Sie als Besitzer erwartet",
+      "parrafos": [
+        "Ziel dieser Lieferung ist eine Liste der Feststellungen und Teile, ein genehmigter Arbeitsumfang sowie ein montiertes und geprüftes Getriebe, ohne dass die gesamte Baugruppe ausgetauscht werden muss. Die abschließende Beschreibung sollte klar darlegen, was durchgeführt wurde, warum es durchgeführt wurde und was zu beachten oder für zukünftige Arbeiten einzuplanen ist.",
+        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor",
+      "parrafos": [
+        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
+        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Verwandte Leistungen",
+      "parrafos": [
+        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/sala-motores\">Motorenwerkstatt</a>, <a href=\"/taller-porsche/mantenimiento\">Wartung</a> und <a href=\"/taller-porsche/inspeccion-pre-compra\">Kaufberatung</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Häufig gestellte Fragen",
+      "parrafos": [
+        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Liegt jedes Problem mit der Gangwahl im Getriebe selbst?",
+      "parrafos": [
+        "Nein. Schaltgestänge, Kupplung, Lager oder Einstellungen können ähnliche Symptome verursachen. Diese werden geprüft, bevor entschieden wird, dass das Getriebe geöffnet werden muss."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Warum sollte man ein Oldtimer-Getriebe überholen?",
+      "parrafos": [
+        "Neben der Wiederherstellung der Funktionalität ermöglicht es die Erhaltung eines fahrzeugspezifischen Lagers, wenn Teilenummer und Konfiguration wichtig sind."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 33,
+    "total": 33,
+    "completa": true
+  }
+}

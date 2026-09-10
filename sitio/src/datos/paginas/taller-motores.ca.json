@@ -1,0 +1,139 @@
+{
+  "rutaId": "taller-motores",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Motors Porsche: reconstrucció · Valentín Motors",
+    "descripcion": "Diagnòstic i reconstrucció de motors Porsche a sala pròpia, amb mesuraments, pressupost per abast i recollida a tot Espanya.",
+    "ogImagen": ""
+  },
+  "h1": "Reconstrucció de motors Porsche a sala pròpia",
+  "menu": "Motors Porsche",
+  "acordeones": [],
+  "articulos": [
+    "rehabilitacion-motor-32-serie-g-1985",
+    "9971-turbo-rehabilitacion-motor",
+    "restauracion-motor-964-m64",
+    "reconstruccion-motor-968"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "El servei comença per definir el problema",
+      "parrafos": [
+        "A Valentín Motors entenem que reconstruir un motor Porsche exigeix ​​convertir símptomes i indicis en mesuraments abans d'escollir peces o prometre un abast. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
+        "La valoració parteix d'estat de l'oli i el filtre, compressió quan escau, fuites, sorolls, pressions, toleràncies, ovalització, culates, camises, cigonyal i distribució. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+          "alt": "Restauració de motors"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnòstic, abast i autorització",
+      "parrafos": [
+        "L'abast es planteja de manera proporcional: la sala pròpia rep bòxer refrigerats per aire, M96 i M97, motors de competició, famílies transaxle i motors actuals documentats a l'experiència del taller. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
+        "La decisió tècnica es pren amb aquest criteri: després de desmuntar, netejar i mesurar es presenten les alternatives. Reparar només la fallada visible pot ser insuficient, però substituir-ho tot sense classificació tampoc no és un criteri tècnic. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+      ],
+      "items": [
+        "Estat de partida i documentació disponible.",
+        "Comprovacions necessàries abans d'intervenir-hi.",
+        "Treballs inclosos, alternatives i elements pendents de confirmar.",
+        "Autorització abans d ampliar l abast."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què fem",
+      "parrafos": [
+        "Restaurem, renovem i reparem qualsevol motor de la marca, del bòxer de quatre cilindres del 356 als actuals, en una sala de motors pròpia. És la part de la casa que li dóna nom i la que ni els concessionaris oficials tenen.",
+        "Recollim motors a toda España. No cal portar el cotxe: si el motor ja és fora, viatja sol."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Com treballem",
+      "parrafos": [
+        "Un motor no s?obre per canviar una peça. S'obre, es mesura tot i es decideix amb els números davant: folgatges, ovalizacions, planitud de culates, estat de camises i cigonyal. D'aquí en surt el pressupost, i no abans.",
+        "Comptem amb maquinària i utillatge propis i amb un departament de localització de peces, que en un motor de quaranta anys és la meitat de la feina."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quins motors passen per aquí",
+      "parrafos": [],
+      "items": [
+        "Bòxer refrigerats per aire, del 356 al 993.",
+        "M96 i M97, amb les intervencions de IMS i bore scoring.",
+        "Motors de competició i preparacions específiques.",
+        "Transaxle: 924, 944, 968 i 928.",
+        "Motors clàssics d'altres marques, que també entren a la sala."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què pot esperar el propietari",
+      "parrafos": [
+        "L'objectiu del lliurament és un pressupost per abast, un registre de components i un motor muntat, posat a punt i provat d'acord amb les decisions autoritzades. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
+        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Serveis relacionats",
+      "parrafos": [
+        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/sala-motores\">sala de motors</a>, <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>, <a href=\"/taller-porsche/cajas-de-cambio\">caixes de canvis</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntes freqüents",
+      "parrafos": [
+        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Podeu recollir un motor fora de Barcelona o Madrid?",
+      "parrafos": [
+        "Sí. El servei publicat contempla recollida de motors a tot Espanya i devolució en acabar. El motor pot viatjar sense cotxe si ja està desmuntat."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quan es confirma el pressupost?",
+      "parrafos": [
+        "L'abast ferm es defineix després d'obrir i de mesurar quan el dany és intern. Abans s'expliquen les hipòtesis i la feina necessària per verificar-les."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 37,
+    "total": 37,
+    "completa": true
+  }
+}

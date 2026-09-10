@@ -1,0 +1,148 @@
+{
+  "rutaId": "taller-bore-scoring",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche bore scoring: diagnosis · Valentín Motors",
+    "descripcion": "Endoscopic diagnosis and repair of bore scoring issues in Porsche M96 and M97 engines, including a preliminary report and in-house engine work.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche bore scoring diagnosis and repair",
+  "menu": "Bore scoring",
+  "acordeones": [],
+  "articulos": [
+    "porsche-bore-scoring",
+    "997-m9701-38-a-40-nickies",
+    "motor-m97-38-a-40"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
+      "parrafos": [
+        "At Valentín Motors, we believe that the bore scoring issue must be confirmed with evidence before attributing symptoms like noise, oil consumption, or smoke to the need for an engine rebuild. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's expectations.",
+        "The assessment begins with an endoscopic inspection of the six cylinders, photographs, and an analysis of the oil and filter, followed,where appropriate,by compression and leak-down tests. If information is missing, the necessary checks to obtain it are identified before a hypothesis is converted into a formal quote."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche bore scoring"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosis, scope, and authorization",
+      "parrafos": [
+        "The scope of work is determined proportionally: diagnostics focus specifically on M96 and M97 engines from Boxster, Cayman, and 911 models manufactured between 1997 and 2008, while the repair plan is defined based on the damage discovered. Tasks are sequenced to avoid redundant disassembly, ensure symptoms are not masked, and prevent the replacement of an entire assembly when a specific component can still be diagnosed or repaired.",
+        "Technical decisions are made based on specific criteria: a superficial mark, active scoring, and a loss of compression each call for a different course of action. The report allows for a comparison between monitoring, opening the engine, and a full rebuild. Should a finding arise that alters the scope of the assignment, it is treated separately from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we do",
+      "parrafos": [
+        "We diagnose cylinder liner scoring using endoscopic inspection without dismantling the engine, and we repair it by installing new liners once the damage has occurred. This inspection is a fixed-price service and is the first thing we recommend before purchasing a M96 or M97.",
+        "The bore scoring issue affects /Boxster, /Cayman, and /911 models equipped with M96 and M97 engines manufactured between 1997 and 2008. It manifests as vertical scoring on the cylinder wall,most frequently in the sixth cylinder,and progresses until the engine begins consuming oil and losing compression."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "The inspection",
+      "parrafos": [
+        "It is performed using an endoscope inserted through the spark plug hole while the engine is still in the car. Within a single morning, we can determine if scoring is present, which cylinders are affected, and the extent of the damage. We always recommend this check before a purchase; it makes the difference between negotiating the price beforehand and discovering the issue later.",
+        "The price is listed in our rate schedule, alongside the other services available for this model."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "The repair",
+      "parrafos": [
+        "When scoring is present, the solution is not to rebore the cylinder, but to replace the liner. We install liners made of a nickel, silicon, and carbide alloy,which is harder than the original Lokasil material,and take the opportunity to inspect the rest of the engine block, as it is already open at that stage.",
+        "For many engines, if the block is being opened anyway, it makes sense to increase the displacement during the same procedure: a M97 3.8 can be upgraded to 4.0 with no additional labor cost, as the necessary work is already being performed."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What is included",
+      "parrafos": [],
+      "items": [
+        "Endoscopic inspection of all six cylinders and assessment of scoring.",
+        "Oil and filter analysis.",
+        "Compression and leak-down tests.",
+        "Report with photographs of each cylinder.",
+        "Repair quote, if applicable, provided before any work begins."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The deliverable consists of images of each cylinder, an easy-to-understand assessment, and,if applicable,a quote for cylinder sleeving and a block overhaul, all provided before work starts on the engine. The final explanation ensures you understand what was done, why it was done, and what should be monitored or scheduled for the future.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and the intended goal, the work can be coordinated with <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspections</a>, <a href=\"/taller-porsche/motores\">engine rebuilds</a>, and <a href=\"/taller-porsche/tarifas\">workshop rates</a>. Each page explains the specific scope of work prior to booking an appointment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Does an endoscopic inspection mandate repairs?",
+      "parrafos": [
+        "No. Its purpose is to reveal the engine's condition. Recommendations depend on the depth and extent of the scoring, any symptoms present, and the results of other tests."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Is it advisable to have this checked before buying?",
+      "parrafos": [
+        "Yes, for affected engine families. The results help you decide whether to proceed with the purchase, negotiate the price, or set aside a budget for future repairs."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 40,
+    "total": 40,
+    "completa": true
+  }
+}

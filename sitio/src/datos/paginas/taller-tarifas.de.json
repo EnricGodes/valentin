@@ -1,0 +1,115 @@
+{
+  "rutaId": "taller-tarifas",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Porsche Wartungspreise · Valentín Motors",
+    "descripcion": "Porsche Wartungspreise nach Modell für kleine und große Inspektionen, Bremsflüssigkeitswechsel, Achsvermessung und Inspektion.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche Werkstattpreise nach Modell und Service",
+  "menu": "Preise",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Der Service beginnt mit der Problemdefinition",
+      "parrafos": [
+        "Wir von Valentín Motors wissen, dass modellbasierte Preise Ihnen die Kosten für wiederkehrende Serviceleistungen transparent machen, ohne dass wir Ihnen ohne Besichtigung Ihres Fahrzeugs einen Kostenvoranschlag erstellen können. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf eine Liste von Serviceleistungen, sondern auf Ihr Fahrzeug, seine Historie und die von Ihnen erwarteten Ergebnisse.",
+        "Die Bewertung basiert auf Modell, Generation, Version, Getriebe, gewünschtem Service und der aktuellen Wartungshistorie. Wenn Informationen fehlen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnose, Umfang und Genehmigung",
+      "parrafos": [
+        "Der Leistungsumfang ist proportional definiert: Die veröffentlichten Tabellen umfassen kleinere und größere Wartungsarbeiten, Bremsflüssigkeitswechsel, Geometrieprüfungen und die Gebrauchtwagenprüfung für die angegebenen Produktfamilien. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verschweigen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
+        "Die technische Entscheidung erfolgt nach folgendem Kriterium: Ein Festpreis beschreibt eine Aufgabe und ihre geplanten Komponenten. Ergibt die Prüfung Verschleiß, Beschädigungen oder mangelhafte Vorarbeiten, wird vor Beginn der Arbeiten ein separates Angebot erstellt. Ergibt sich ein Befund, der den Leistungsumfang verändert, wird dieser von den genehmigten Arbeiten getrennt und vor Beginn der Arbeiten erläutert."
+      ],
+      "items": [
+        "Ausgangszustand und verfügbare Dokumentation.",
+        "Erforderliche Prüfungen vor dem Eingriff.",
+        "Umfasste Arbeiten, Alternativen und noch zu bestätigende Punkte.",
+        "Genehmigung vor Erweiterung des Umfangs."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Festpreise, modellbezogen",
+      "parrafos": [
+        "Die Wartung eines luftgekühlten 911 ist nicht so teuer wie die eines Macan. Innerhalb der 911-Reihe ist ein SC ebenfalls teurer als ein 992. Daher sind die Preise modellbezogen festgelegt: Wählen Sie Ihr Modell aus, und Sie sehen die Kosten für die einzelnen Serviceleistungen für dieses Gerät.",
+        "Dies sind feste Richtpreise. Der endgültige Kostenvoranschlag hängt vom Zustand des Fahrzeugs bei Ankunft ab und kann erst nach der Fahrzeugannahme festgelegt werden."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Sie als Besitzer erwartet",
+      "parrafos": [
+        "Ziel ist eine vergleichbare Orientierung vor der Terminvereinbarung und, nach Identifizierung des Fahrzeugs, die Bestätigung der passenden Leistung für Version und Zustand. Die abschließende Erläuterung soll verständlich machen, was durchgeführt wurde, warum es nötig war und was anschließend beobachtet oder eingeplant werden sollte.",
+        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor",
+      "parrafos": [
+        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
+        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Verwandte Leistungen",
+      "parrafos": [
+        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/porsche-911-mantenimiento-taller\">Tarife 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Tarife Cayman und Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Tarife Cayenne und Macan</a> und <a href=\"/taller-porsche/mantenimiento\">Porsche-Wartung</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Häufig gestellte Fragen",
+      "parrafos": [
+        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Warum ändert sich der Tarif zwischen den Fahrzeuggenerationen?",
+      "parrafos": [
+        "Kapazitäten, Zugang, Verbrauchsmaterialien und Arbeitszeiten ändern sich. Selbst innerhalb der 911-Reihe benötigen ein SC und ein 992 nicht denselben Vorgang."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Sind im Festpreis alle festgestellten Fehler enthalten?",
+      "parrafos": [
+        "Nein, es sei denn, im Preis selbst ist etwas anderes angegeben. Vorfälle, die nicht von der planmäßigen Wartung abgedeckt sind, werden separat erläutert und angeboten."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 30,
+    "total": 30,
+    "completa": true
+  }
+}

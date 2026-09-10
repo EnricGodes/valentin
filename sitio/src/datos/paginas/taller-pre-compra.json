@@ -4,10 +4,10 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Inspección pre-compra Porsche · Valentín Motors",
-    "descripcion": "Evaluación completa de un Porsche antes de comprarlo: estado, historial y verificación de la oferta, en taller o desplazándonos.",
+    "descripcion": "Inspección pre-compra Porsche con revisión mecánica, historial, carrocería y pruebas específicas, en taller o por desplazamiento.",
     "ogImagen": ""
   },
-  "h1": "Inspección Porsche antes de comprar",
+  "h1": "Inspección pre-compra para decidir con datos",
   "menu": "Inspección pre-compra",
   "acordeones": [],
   "articulos": [
@@ -18,18 +18,43 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué hacemos",
+      "titulo": "El servicio empieza por definir el problema",
       "parrafos": [
-        "Evaluamos el coche que te estás planteando comprar: estado mecánico, estado de carrocería, historial documentado y contraste de lo que dice el anuncio con lo que tiene el coche delante. Se hace en el taller o <strong>desplazándonos</strong> a donde esté la unidad, en España o fuera.",
-        "Es el servicio que más dinero ahorra de todo lo que hacemos, y el que menos se pide."
+        "En Valentín Motors entendemos que una inspección pre-compra transforma las afirmaciones del anuncio y del historial en comprobaciones sobre el coche antes de comprometer el precio. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de documentación, procedencia, kilometraje, mantenimiento, diagnosis, motor, caja de cambios, prueba en carretera, carrocería, pintura y riesgos propios del modelo. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
-          "alt": "Inspección vehículo pre-compra"
+          "alt": "Inspección Porsche durante una inspección pre-compra"
         }
       ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: puede hacerse en el taller o mediante desplazamiento a la ubicación de la unidad, dentro o fuera de España, según el servicio descrito. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: un defecto no significa automáticamente descartar. El informe distingue mantenimiento normal, riesgo, reparación pendiente y señales que cuestionan la identidad o la descripción del coche. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué hacemos",
+      "parrafos": [
+        "Evaluamos el coche que te estás planteando comprar: estado mecánico, estado de carrocería, historial documentado y contraste de lo que dice el anuncio con lo que tiene el coche delante. Se hace en el taller o desplazándonos a donde esté la unidad, en España o fuera.",
+        "Es el servicio que más dinero ahorra de todo lo que hacemos, y el que menos se pide."
+      ],
+      "items": [],
+      "imagenes": []
     },
     {
       "nivel": 2,
@@ -51,6 +76,52 @@
       "titulo": "Antes de negociar, no después",
       "parrafos": [
         "La inspección tiene sentido antes de cerrar el precio, porque lo que encuentre es parte de la negociación. Un IMS sin intervenir o un rayado en el sexto cilindro no siempre son motivo para no comprar; casi siempre son motivo para pagar menos."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es un informe escrito con fotografías y una recomendación clara para negociar, continuar con comprobaciones adicionales o retirarse antes de comprar. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/bore-scoring\">diagnóstico de bore scoring</a>, <a href=\"/herramientas/calculadora-ims-porsche\">calculadora IMS</a>, <a href=\"/porsche-en-venta\">Porsche en venta</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Sustituye al historial de mantenimiento?",
+      "parrafos": [
+        "No. Lo contrasta. Un historial completo mejora el contexto, pero no demuestra por sí solo el estado actual ni la calidad de reparaciones anteriores."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Qué pruebas específicas puede necesitar un M96 o M97?",
+      "parrafos": [
+        "Según el modelo y el año, conviene revisar el IMS y realizar endoscopia de cilindros para valorar bore scoring antes de cerrar la compra."
       ],
       "items": [],
       "imagenes": []

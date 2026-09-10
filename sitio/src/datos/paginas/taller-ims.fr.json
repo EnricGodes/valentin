@@ -1,0 +1,158 @@
+{
+  "rutaId": "taller-ims",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "IMS Porsche : diagnostic et réparation · Valentín Motors",
+    "descripcion": "Remplacement préventif du roulement IMS Porsche sur les moteurs M96 et M97, avec diagnostic préalable et prix indiqués par modèle.",
+    "ogImagen": ""
+  },
+  "h1": "Réparation préventive de la IMS Porsche",
+  "menu": "IMS Porsche",
+  "acordeones": [],
+  "articulos": [
+    "que-es-el-ims-de-porsche",
+    "996-m96-34-rotura-arbol-intermedio-ims",
+    "porsche-bore-scoring"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Notre service commence par la définition du problème",
+      "parrafos": [
+        "Chez Valentín Motors, nous savons que toute intervention sur la IMS commence par l'identification du roulement correspondant au modèle, à l'année et, pour les années de transition, au numéro de moteur. C'est pourquoi notre première discussion porte non pas sur une liste d'interventions, mais sur le véhicule, son historique et le résultat souhaité par son propriétaire.",
+        "L'évaluation repose sur la configuration du véhicule, son historique, le niveau d'huile et le filtre, les bruits anormaux et l'inspection du coussinet installé lors de l'accès. En cas d'informations manquantes, les contrôles nécessaires sont indiqués avant d'établir un devis."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnostic, périmètre et autorisation",
+      "parrafos": [
+        "Le périmètre de l'intervention est déterminé proportionnellement : la maintenance préventive publiée s'applique aux moteurs M96 et M97 et aux modèles pour lesquels le coussinet peut être remplacé sans ouverture du bloc-moteur. Les tâches sont priorisées afin d'éviter un double démontage, de masquer des symptômes et de remplacer un ensemble qui peut encore être diagnostiqué ou réparé.",
+        "La décision technique est prise selon les critères suivants : tous les moteurs IMS ne présentent pas le même risque ni ne permettent la même intervention. En présence de particules métalliques ou de bruits anormaux, la procédure préventive est interrompue et les dommages sont évalués avant toute reprise. Si un élément nouveau modifie la procédure, il est dissocié des travaux approuvés et expliqué avant toute poursuite."
+      ],
+      "items": [
+        "État initial et documentation disponible.",
+        "Vérifications requises avant intervention.",
+        "Travaux inclus, alternatives et éléments en attente de confirmation.",
+        "Autorisation préalable à l'extension du périmètre."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Nos services",
+      "parrafos": [
+        "Nous remplaçons le palier d'arbre intermédiaire des moteurs M96 et M97, avec un prix fixe pour les modèles 1997 à 2006, en versions manuelle et automatique. Nous avons réalisé cette intervention des dizaines de fois, lors des trois révisions du palier montées par Porsche.",
+        "Le remplacement préventif ne nécessite pas l'ouverture du bloc-moteur : la boîte de vitesses et le volant moteur ou le disque flexible sont déposés, et le palier est accessible par la bride. Le moteur n'est pas démonté, ce qui permet de maintenir un coût raisonnable par rapport au coût d'une panne."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quand est-ce avantageux ?",
+      "parrafos": [
+        "La défaillance concerne les 911 996 et 997.1, les Boxster 986 et 987 ainsi que le Cayman, entre 1997 et 2008. Tous ne reçoivent pas le même roulement : le 6204 à une rangée monté entre 2000 et 2005 est celui qui a connu l’incidence la plus élevée et aussi le plus simple à remplacer.",
+        "Si le véhicule qui vous intéresse fait partie de ce groupe et qu'aucun historique d'entretien n'est disponible, le remplacement préventif est l'option la plus économique. Si le moteur fait déjà du bruit ou si des particules métalliques apparaissent dans l'huile, la période de maintenance préventive est dépassée et un diagnostic est nécessaire avant de redémarrer le véhicule."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comment savoir si votre véhicule est concerné ?",
+      "parrafos": [
+        "Nous avons mis en ligne un outil de calcul qui, à partir du modèle et de l'année, vous indique le type de roulement utilisé par votre véhicule, s'il peut être remplacé sans ouvrir le moteur et quels contrôles sont nécessaires. Pour les années de transition 2000, 2001 et 2005, il requiert également le numéro de moteur, car deux types de roulements différents sont utilisés et l'année seule ne suffit pas.",
+        "Le calculateur ne diagnostique pas l’état de la voiture. Il indique la configuration d’usine ; seul un démontage permet de savoir ce qui se trouve aujourd’hui à l’intérieur du moteur."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Prestations incluses :",
+      "parrafos": [],
+      "items": [
+        "Diagnostic préliminaire : analyse de l'huile et du filtre, recherche de particules.",
+        "Dépose de la boîte de vitesses, du volant moteur ou du disque flexible, et de la bride du IMS.",
+        "Remplacement du roulement avec le kit correspondant à cette prestation.",
+        "Remplacement du joint d'arbre intermédiaire et de l'embrayage, le cas échéant.",
+        "Montage, réglage et essai routier.",
+        "Garantie mécanique sur les travaux."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Lieu d'intervention",
+      "parrafos": [
+        "À Barcelone et à Madrid. Les travaux sont effectués en atelier ; si le moteur arrive endommagé, il est acheminé vers la salle des moteurs, où il est ouvert et examiné pièce par pièce."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que le propriétaire peut attendre",
+      "parrafos": [
+        "Cette prestation comprend le démontage et le remontage de la transmission et des composants associés, le kit de révision approprié, les joints nécessaires, le réglage, les essais et la garantie mécanique décrite. L'explication finale permettra au client de comprendre les travaux effectués, leurs raisons et les points à surveiller ou à planifier ultérieurement.",
+        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Services associés",
+      "parrafos": [
+        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/herramientas/calculadora-ims-porsche\">calculateur IMS</a>, <a href=\"/taller-porsche/motores\">moteurs Porsche</a> et <a href=\"/taller-porsche/tarifas\">tarifs</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Foire aux questions",
+      "parrafos": [
+        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "L'année suffit-elle à identifier le IMS moteur ?",
+      "parrafos": [
+        "Pas toujours. Les intervalles d'entretien des 2000, 2001 et 2005 peuvent se chevaucher ; le numéro de moteur permet donc d'identifier la configuration."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Le remplacement du IMS nécessite-t-il l'ouverture du moteur ?",
+      "parrafos": [
+        "Pour les unités incluses dans le programme d'entretien préventif, l'accès se fait en déposant la boîte de vitesses et le volant moteur ou le disque flexible. Si des dommages internes sont déjà présents, la procédure est différente."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 43,
+    "total": 43,
+    "completa": true
+  }
+}

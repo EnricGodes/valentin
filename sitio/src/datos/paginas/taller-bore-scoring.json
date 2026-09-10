@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Bore scoring Porsche: diagnóstico y reparación · Valentín Motors",
-    "descripcion": "Chequeo endoscópico del bore scoring en motores M96 y M97, y reparación por encamisado. Barcelona y Madrid.",
+    "titulo": "Bore scoring Porsche: diagnóstico · Valentín Motors",
+    "descripcion": "Diagnóstico endoscópico y reparación del bore scoring en motores Porsche M96 y M97, con informe previo y sala de motores propia.",
     "ogImagen": ""
   },
-  "h1": "Diagnóstico y reparación del bore scoring",
+  "h1": "Diagnóstico y reparación del bore scoring Porsche",
   "menu": "Bore scoring",
   "acordeones": [],
   "articulos": [
@@ -18,10 +18,10 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué hacemos",
+      "titulo": "El servicio empieza por definir el problema",
       "parrafos": [
-        "Diagnosticamos el rayado de las camisas mediante <strong>endoscopia de los cilindros</strong>, sin desmontar el motor, y lo reparamos por encamisado cuando el daño ya está hecho. El chequeo es un servicio cerrado, y es lo primero que recomendamos antes de comprar un M96 o M97.",
-        "El bore scoring afecta a los <strong>Boxster</strong>, <strong>Cayman</strong> y <strong>911</strong> con motor M96 y M97 fabricados entre 1997 y 2008. Se manifiesta como un rayado vertical en la pared del cilindro, con más frecuencia en el sexto, y avanza hasta que el motor consume aceite y pierde compresión."
+        "En Valentín Motors entendemos que el bore scoring debe confirmarse con evidencia antes de asociar un ruido, consumo de aceite o humo a una reconstrucción del motor. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
+        "La valoración parte de endoscopia de los seis cilindros, fotografías, análisis de aceite y filtro y, cuando corresponde, pruebas de compresión y estanqueidad. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
       ],
       "items": [],
       "imagenes": [
@@ -33,10 +33,35 @@
     },
     {
       "nivel": 2,
+      "titulo": "Diagnóstico, alcance y autorización",
+      "parrafos": [
+        "El alcance se plantea de forma proporcional: el diagnóstico se dirige especialmente a motores M96 y M97 de Boxster, Cayman y 911 fabricados entre 1997 y 2008, y la reparación se define según el daño encontrado. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
+        "La decisión técnica se toma con este criterio: una marca superficial, un rayado activo y una pérdida de compresión no plantean la misma decisión. El informe sirve para comparar seguimiento, apertura y reconstrucción. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+      ],
+      "items": [
+        "Estado de partida y documentación disponible.",
+        "Comprobaciones necesarias antes de intervenir.",
+        "Trabajos incluidos, alternativas y elementos pendientes de confirmar.",
+        "Autorización antes de ampliar el alcance."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué hacemos",
+      "parrafos": [
+        "Diagnosticamos el rayado de las camisas mediante endoscopia de los cilindros, sin desmontar el motor, y lo reparamos por encamisado cuando el daño ya está hecho. El chequeo es un servicio cerrado, y es lo primero que recomendamos antes de comprar un M96 o M97.",
+        "El bore scoring afecta a los Boxster, Cayman y 911 con motor M96 y M97 fabricados entre 1997 y 2008. Se manifiesta como un rayado vertical en la pared del cilindro, con más frecuencia en el sexto, y avanza hasta que el motor consume aceite y pierde compresión."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "El chequeo",
       "parrafos": [
         "Se hace con endoscopio por el alojamiento de la bujía, con el motor montado en el coche. En una mañana se sabe si hay rayado, en qué cilindros y hasta dónde llega. Lo pedimos siempre antes de una compra: es la diferencia entre negociar el precio y descubrirlo después.",
-        "El precio está en las <a href=\"/taller-porsche/tarifas\">tarifas</a>, junto al resto de servicios del modelo."
+        "El precio está en las tarifas, junto al resto de servicios del modelo."
       ],
       "items": [],
       "imagenes": []
@@ -46,7 +71,7 @@
       "titulo": "La reparación",
       "parrafos": [
         "Cuando el rayado está, la solución no es rectificar: es sustituir la camisa. Encamisamos con camisas de aleación de níquel, silicio y carburo, más duras que el Lokasil original, y aprovechamos para revisar el resto del bloque, que a esas alturas ya está abierto.",
-        "En muchos motores, si el bloque va a abrirse de todos modos, tiene sentido <strong>subir la cilindrada</strong> en la misma intervención: un M97 3.8 pasa a 4.0 sin coste añadido de mano de obra, porque el trabajo ya está hecho."
+        "En muchos motores, si el bloque va a abrirse de todos modos, tiene sentido subir la cilindrada en la misma intervención: un M97 3.8 pasa a 4.0 sin coste añadido de mano de obra, porque el trabajo ya está hecho."
       ],
       "items": [],
       "imagenes": []
@@ -62,6 +87,52 @@
         "Informe con fotografías de cada cilindro.",
         "Presupuesto de reparación, si procede, antes de tocar nada."
       ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué puede esperar el propietario",
+      "parrafos": [
+        "El objetivo de la entrega es imágenes de cada cilindro, una valoración comprensible y, si procede, un presupuesto de encamisado y revisión del bloque antes de tocar el motor. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
+        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>, <a href=\"/taller-porsche/motores\">reconstrucción de motores</a>, <a href=\"/taller-porsche/tarifas\">tarifas del taller</a>. Cada página explica el alcance específico antes de solicitar una cita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [
+        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Una endoscopia obliga a reparar?",
+      "parrafos": [
+        "No. Su función es mostrar el estado. La recomendación depende de la profundidad y extensión del rayado, los síntomas y el resto de pruebas."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Conviene revisarlo antes de comprar?",
+      "parrafos": [
+        "Sí en las familias afectadas. El resultado ayuda a decidir si continuar, negociar el precio o reservar presupuesto para una intervención."
+      ],
+      "items": [],
       "imagenes": []
     }
   ],

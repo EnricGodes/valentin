@@ -1,0 +1,128 @@
+{
+  "rutaId": "taller-servicio-tecnico",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "Assistenza tecnica Porsche nazionale · Valentín Motors",
+    "descripcion": "Assistenza tecnica Porsche in tutta la Spagna, ritiro auto e motore, assistenza a distanza e consulenza specializzata per altre officine.",
+    "ogImagen": ""
+  },
+  "h1": "Assistenza tecnica Porsche in tutta la Spagna",
+  "menu": "Assistenza tecnica",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Il servizio inizia con la definizione del problema",
+      "parrafos": [
+        "Noi di Valentín Motors comprendiamo che un servizio di assistenza tecnica su tutto il territorio nazionale ci permette di affrontare qualsiasi problema Porsche con uno specialista, anche se l'auto o il motore non si trovano vicino a Barcellona o Madrid. Per questo motivo, la nostra conversazione iniziale non si concentra su un elenco di servizi, ma piuttosto sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
+        "La valutazione si basa su sintomi, documentazione, diagnosi precedenti, fotografie, campioni e lavori già eseguiti dall'officina che richiede assistenza. In caso di informazioni mancanti, vengono indicati i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
+          "alt": "Assistenza tecnica su tutto il territorio nazionale"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosi, ambito e autorizzazione",
+      "parrafos": [
+        "L'ambito di intervento è definito proporzionalmente: include il ritiro di auto e motori in Spagna, la diagnosi a distanza quando possibile e la consulenza per le officine in casi al di fuori del loro ambito di competenza. Le attività vengono prioritarie per evitare doppi smontaggi, la mascheratura dei sintomi e la sostituzione di un componente quando è ancora possibile diagnosticarlo o ripararlo.",
+        "La decisione tecnica viene presa secondo questo criterio: in primo luogo, si determina quali informazioni possono essere ottenute senza spostare il veicolo. Se il controllo richiede misurazioni, smontaggio o strumenti specifici, si considera il trasporto del componente necessario. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+      ],
+      "items": [
+        "Situazione iniziale e documentazione disponibile.",
+        "Verifiche richieste prima dell'intervento.",
+        "Lavori inclusi, alternative e elementi in attesa di conferma.",
+        "Autorizzazione prima di ampliare l'ambito di lavoro."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa facciamo",
+      "parrafos": [
+        "Offriamo assistenza tecnica in tutta la Spagna da entrambe le nostre sedi. Ritiriamo auto e motori ovunque si trovino e, per i problemi che non richiedono il trasporto dell'intera vettura, li risolviamo da remoto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Consulenza per altre officine",
+      "parrafos": [
+        "Gestiamo richieste di assistenza tecnica da officine che si trovano di fronte a una Porsche che si discosta dalle loro procedure abituali. Non si tratta di concorrenza: un'officina generalista che sa quando inviare un motore a un'officina specializzata esegue un lavoro migliore e l'auto ne trae beneficio."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa può aspettarsi il proprietario",
+      "parrafos": [
+        "Lo scopo del passaggio di consegne è quello di definire un piano di lavoro preciso tra il proprietario, l'officina di origine e lo specialista, evitando test duplicati o il trasporto dell'intera vettura quando è necessario intervenire su un solo componente. La relazione finale deve spiegare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
+        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Come prepararsi per la prima consulenza",
+      "parrafos": [
+        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
+        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servizi correlati",
+      "parrafos": [
+        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/centros\">centri</a>, <a href=\"/sala-motores\">sala motori</a> e <a href=\"/contacto\">contatti</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Domande frequenti",
+      "parrafos": [
+        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Devo sempre inviare l'intera auto?",
+      "parrafos": [
+        "No. Alcuni casi possono essere risolti con informazioni tecniche, mentre altri richiedono l'invio solo del motore o del cambio. La diagnosi determina l'entità dell'intervento."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Collaborate con altre officine?",
+      "parrafos": [
+        "Sì. Questa pagina include la consulenza tecnica per le officine che necessitano di supporto specializzato per una specifica Porsche."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 32,
+    "total": 32,
+    "completa": true
+  }
+}

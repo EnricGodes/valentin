@@ -1,0 +1,158 @@
+{
+  "rutaId": "taller-ims",
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "IMS Porsche: diagnostics and repair · Valentín Motors",
+    "descripcion": "Preventive bearing replacement for IMS Porsche M96 and M97 engines, including preliminary diagnostics and model-specific pricing.",
+    "ogImagen": ""
+  },
+  "h1": "Preventive repair for IMS Porsche",
+  "menu": "IMS Porsche",
+  "acordeones": [],
+  "articulos": [
+    "que-es-el-ims-de-porsche",
+    "996-m96-34-rotura-arbol-intermedio-ims",
+    "porsche-bore-scoring"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "The service begins by defining the issue",
+      "parrafos": [
+        "At Valentín Motors, we understand that work on the IMS begins by identifying the correct bearing for the specific model, year, and,in transition years,engine number. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the owner's desired outcome.",
+        "The assessment is based on the car's configuration, its history, oil and filter status, any noises, and an inspection of the installed bearing once access is gained. If information is missing, the necessary checks to obtain it are identified before a hypothesis is turned into a formal quote."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Diagnosis, scope, and authorization",
+      "parrafos": [
+        "The scope of work is determined proportionally: the advertised preventive service targets M96 and M97 engines, as well as models where the bearing can be replaced without opening the engine block. Tasks are sequenced to avoid redundant disassembly, ensure symptoms are not masked, and prevent the replacement of an entire assembly when it can still be diagnosed or repaired.",
+        "Technical decisions are guided by the following criterion: not all IMS engines carry the same risk or allow for the same type of intervention. If metal particles or noise are detected, the preventive approach is halted, and the damage is assessed before the engine is started again. Should any findings alter the scope of the job, that aspect is separated from the approved work and explained before proceeding."
+      ],
+      "items": [
+        "Initial condition and available documentation.",
+        "Necessary checks prior to intervention.",
+        "Work included, alternatives, and items pending confirmation.",
+        "Authorization required before expanding the scope of work."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we do",
+      "parrafos": [
+        "We replace the intermediate shaft bearing on M96 and M97 engines,as well as models ranging from 1997 to 2006, whether manual or automatic,at a fixed price. We have performed this procedure dozens of times across all three bearing revisions installed by Porsche.",
+        "Preventive replacement does not require opening the engine block: the transmission and the flywheel or flexplate are removed, and the bearing is accessed via the flange. The engine itself is not dismantled, keeping the cost reasonable compared to the expense of a failure."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "When it is worth doing",
+      "parrafos": [
+        "The failure affects 911 996 and 997.1, Boxster 986 and 987, and Cayman models built between 1997 and 2008. They do not all use the same bearing: the single-row 6204 fitted between 2000 and 2005 has shown the highest incidence and is also the simplest to replace.",
+        "If the car you are interested in falls into this group and there is no record of the work having been done, preventive replacement is the cost-effective choice. If the engine is already making noise or metal particles appear in the oil, the window for preventive action has passed, and an assessment is required before starting the engine again."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "How to tell if your car is affected",
+      "parrafos": [
+        "We have published a calculator that provides information based on the model and year: it indicates which bearing is installed in your unit, whether it can be replaced without opening the engine, and what checks are required. For the transition-year models,2000, 2001, and 2005,it also requests the engine number, as two different bearings were used during that period and the year alone is insufficient.",
+        "The calculator does not diagnose the car's current condition. It states what was installed at the factory; the only way to know what is inside today is by opening the engine."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the service includes",
+      "parrafos": [],
+      "items": [
+        "Preliminary diagnosis: analysis of the oil and filter to check for particles.",
+        "Removal of the transmission, flywheel or flexplate, and the IMS flange.",
+        "Replacement of the bearing with the kit corresponding to that specific revision.",
+        "Replacement of the intermediate shaft seal and the clutch, if applicable.",
+        "Reassembly, fine-tuning, and road test.",
+        "Mechanical warranty for the service performed."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Where it is performed",
+      "parrafos": [
+        "In Barcelona and Madrid. The work is carried out in the workshop; if the engine arrives with damage, it is transferred to the engine room, where it is opened and evaluated component by component."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the owner can expect",
+      "parrafos": [
+        "The service covers the removal and reinstallation of the transmission and access components, the appropriate kit for the revision, the specified seals, fine-tuning, testing, and the mechanical warranty described for the procedure. The final explanation ensures the customer understands what was done, why it was done, and what should be monitored or scheduled for the future.",
+        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Related services",
+      "parrafos": [
+        "Depending on the car's condition and the desired outcome, the work can be coordinated via the <a href=\"/herramientas/calculadora-ims-porsche\">calculator IMS</a>, <a href=\"/taller-porsche/motores\">Porsche engines</a>, and <a href=\"/taller-porsche/tarifas\">rates</a> sections. Each page outlines the specific scope of work before you book an appointment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Frequently asked questions",
+      "parrafos": [
+        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Is the model year enough to determine which IMS it has?",
+      "parrafos": [
+        "Not always. Different revisions can coexist for 2000, 2001, and 2005, so the engine number helps identify the specific configuration."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Does changing the IMS require opening up the engine?",
+      "parrafos": [
+        "For the units covered by the preventive service, access is gained by removing the gearbox and the flywheel or flexplate. If internal damage is already present, the approach changes."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 43,
+    "total": 43,
+    "completa": true
+  }
+}
