@@ -37,40 +37,32 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punto de partida para Backdating",
+      "titulo": "De qué depende que funcione",
       "parrafos": [
-        "Un backdating debe parecer una interpretación coherente de un 911 anterior y, al mismo tiempo, conservar las ventajas de la base elegida para el uso real. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de la generación de partida, su estado estructural y mecánico, la configuración que se quiere recrear, la reversibilidad y los requisitos de homologación. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+        "Un backdating debe parecer una interpretación coherente de un 911 anterior y, al mismo tiempo, conservar las ventajas de la base elegida para el uso real."
+      ],
+      "items": [
+        "La generación de partida.",
+        "Su estado estructural y mecánico.",
+        "La configuración que se quiere recrear.",
+        "La reversibilidad.",
+        "Los requisitos de homologación."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Hasta dónde llega el encargo",
+      "parrafos": [
+        "Carrocería, iluminación, interior, ruedas, suspensión y motor pueden formar parte del encargo, pero no todos los coches necesitan el mismo grado de transformación.",
+        "El 964 suele ofrecer una arquitectura adecuada, pero la mejor base es la unidad sana y documentada que permita alcanzar el objetivo sin sacrificar un ejemplar singular."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Decidir el alcance de Backdating",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: carrocería, iluminación, interior, ruedas, suspensión y motor pueden formar parte del encargo, pero no todos los coches necesitan el mismo grado de transformación. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: el 964 suele ofrecer una arquitectura adecuada, pero la mejor base es la unidad sana y documentada que permita alcanzar el objetivo sin sacrificar un ejemplar singular. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Lo que no incluye Backdating",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para Backdating.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un caso documentado: Backdating",
+      "titulo": "Un backdating sobre base 964",
       "parrafos": [
         "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/backdating-base-964\">este caso documentado</a>."
       ],
@@ -84,10 +76,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué queda al entregar Backdating",
+      "titulo": "Un coche coherente, no un disfraz",
       "parrafos": [
-        "El objetivo de la entrega es un proyecto definido por especificación, con una apariencia, una dinámica y unos acabados que hablan el mismo lenguaje. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Un proyecto definido por especificación, con una apariencia, una dinámica y unos acabados que hablan el mismo lenguaje."
       ],
       "items": [],
       "imagenes": []
@@ -96,7 +87,7 @@
       "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/restauraciones/proyectos-y-diseno\">proyectos y diseño</a>, <a href=\"/restauraciones/integrales\">restauración integral</a>, <a href=\"/taller-porsche/pintura-carroceria\">chapa y pintura</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/restauraciones/proyectos-y-diseno\">proyectos y diseño</a>, <a href=\"/restauraciones/integrales\">restauración integral</a>, <a href=\"/taller-porsche/pintura-carroceria\">chapa y pintura</a>."
       ],
       "items": [],
       "imagenes": []
@@ -104,9 +95,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },

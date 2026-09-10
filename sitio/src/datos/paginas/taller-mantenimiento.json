@@ -23,12 +23,34 @@
     },
     {
       "nivel": 2,
-      "titulo": "Lo que no incluye Mantenimiento",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para Mantenimiento.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
+      "titulo": "Qué manda, el plan o el uso",
+      "parrafos": [
+        "El mantenimiento Porsche debe seguir el plan del fabricante y adaptarse al tiempo, kilometraje, tipo de uso y antecedentes de la unidad."
       ],
+      "items": [
+        "Historial.",
+        "Fecha y kilometraje del último servicio.",
+        "Avisos.",
+        "Fluidos.",
+        "Desgaste.",
+        "Fugas.",
+        "Observaciones del propietario."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+          "alt": "Nave del taller con un 911 964 turquesa y un 911 clásico blanco en primer plano"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Lo programado y lo que aparece",
+      "parrafos": [
+        "Se publican servicio menor y servicio mayor por modelo, además de operaciones como líquido de frenos, geometría e inspección pre-compra cuando corresponden.",
+        "Una pauta sirve como base, pero un clásico de uso ocasional y un 992 diario envejecen de forma distinta. Se separan operaciones programadas de incidencias descubiertas durante la revisión."
+      ],
+      "items": [],
       "imagenes": []
     },
     {
@@ -42,7 +64,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué hacemos en Mantenimiento",
+      "titulo": "El plan del fabricante, con recambio original",
       "parrafos": [
         "Seguimos los planes de mantenimiento que especifica el fabricante, con recambios originales y las pautas de Porsche. La diferencia con el servicio oficial no está en cómo se hace, sino en lo que cuesta y en quién lo hace: el mismo técnico ve tu coche cada vez.",
         "Todos los precios están publicados por modelo. No hay presupuesto sorpresa: sabes lo que cuesta un servicio mayor de tu 993 antes de traerlo."
@@ -52,38 +74,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punto de partida para Mantenimiento",
+      "titulo": "Qué queda anotado",
       "parrafos": [
-        "El mantenimiento Porsche debe seguir el plan del fabricante y adaptarse al tiempo, kilometraje, tipo de uso y antecedentes de la unidad. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de historial, fecha y kilometraje del último servicio, avisos, fluidos, desgaste, fugas y observaciones del propietario. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
-          "alt": "Nave del taller con un 911 964 turquesa y un 911 clásico blanco en primer plano"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir el alcance de Mantenimiento",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: se publican servicio menor y servicio mayor por modelo, además de operaciones como líquido de frenos, geometría e inspección pre-compra cuando corresponden. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: una pauta sirve como base, pero un clásico de uso ocasional y un 992 diario envejecen de forma distinta. Se separan operaciones programadas de incidencias descubiertas durante la revisión. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué queda al entregar Mantenimiento",
-      "parrafos": [
-        "El objetivo de la entrega es mantenimiento registrado, lista de comprobaciones y explicación de los trabajos que necesitan atención inmediata, seguimiento o una cita independiente. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Mantenimiento registrado, lista de comprobaciones y explicación de los trabajos que necesitan atención inmediata, seguimiento o una cita independiente."
       ],
       "items": [],
       "imagenes": []
@@ -92,7 +85,7 @@
       "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/tarifas\">tarifas por modelo</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>, <a href=\"/taller-porsche\">taller Porsche</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/tarifas\">tarifas por modelo</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>, <a href=\"/taller-porsche\">taller Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -100,9 +93,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },

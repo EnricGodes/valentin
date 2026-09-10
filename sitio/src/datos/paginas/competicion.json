@@ -29,13 +29,38 @@
     },
     {
       "nivel": 2,
-      "titulo": "Lo que no incluye Competición",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para Competición.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
+      "titulo": "De qué depende la preparación",
+      "parrafos": [
+        "Preparar un Porsche para circuito no consiste en sumar piezas, sino en hacer que frenos, suspensión, neumáticos, seguridad y geometría respondan al mismo uso."
       ],
-      "imagenes": []
+      "items": [
+        "El tipo de prueba.",
+        "El nivel del piloto.",
+        "El reglamento aplicable.",
+        "El estado de la base.",
+        "Los kilómetros de pista previstos."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
+          "alt": "Preparación técnica de un Porsche de competición, imagen 1"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Del track day al programa de campeonato",
+      "parrafos": [
+        "Una puesta a punto para un primer track day puede limitarse a comprobaciones, consumibles y geometría; un programa GT o de rally exige definir seguridad, fiabilidad, recambios y asistencia.",
+        "Cada cambio se justifica por un síntoma, un objetivo o una exigencia reglamentaria. La potencia no compensa un pedal inconsistente, temperaturas fuera de control o una posición de conducción incorrecta."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/627ae024-DSC08039.jpg",
+          "alt": "Preparación técnica de un Porsche de competición, imagen 2"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -71,43 +96,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punto de partida para Competición",
+      "titulo": "Con qué vuelves a pista",
       "parrafos": [
-        "Preparar un Porsche para circuito no consiste en sumar piezas, sino en hacer que frenos, suspensión, neumáticos, seguridad y geometría respondan al mismo uso. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de el tipo de prueba, el nivel del piloto, el reglamento aplicable, el estado de la base y los kilómetros de pista previstos. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/84ac2fae-DSC07852.jpg",
-          "alt": "Preparación técnica de un Porsche de competición, imagen 1"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir el alcance de Competición",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: una puesta a punto para un primer track day puede limitarse a comprobaciones, consumibles y geometría; un programa GT o de rally exige definir seguridad, fiabilidad, recambios y asistencia. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: cada cambio se justifica por un síntoma, un objetivo o una exigencia reglamentaria. La potencia no compensa un pedal inconsistente, temperaturas fuera de control o una posición de conducción incorrecta. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/627ae024-DSC08039.jpg",
-          "alt": "Preparación técnica de un Porsche de competición, imagen 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué queda al entregar Competición",
-      "parrafos": [
-        "El objetivo de la entrega es un coche revisado para el uso acordado y una relación clara de ajustes, componentes y controles pendientes antes de volver a pista. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Un coche revisado para el uso acordado y una relación clara de ajustes, componentes y controles pendientes antes de volver a pista."
       ],
       "items": [],
       "imagenes": []
@@ -116,7 +107,7 @@
       "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche\">taller Porsche</a>, <a href=\"/taller-porsche/mantenimiento\">mantenimiento</a>, <a href=\"/sala-motores\">sala de motores</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche\">taller Porsche</a>, <a href=\"/taller-porsche/mantenimiento\">mantenimiento</a>, <a href=\"/sala-motores\">sala de motores</a>."
       ],
       "items": [],
       "imagenes": []
@@ -124,9 +115,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },

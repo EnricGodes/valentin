@@ -29,7 +29,33 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué hacemos en Bore scoring",
+      "titulo": "Confirmar antes de reconstruir",
+      "parrafos": [
+        "El bore scoring debe confirmarse con evidencia antes de asociar un ruido, consumo de aceite o humo a una reconstrucción del motor."
+      ],
+      "items": [
+        "Endoscopia de los seis cilindros.",
+        "Fotografías.",
+        "Análisis de aceite y filtro y.",
+        "Cuando corresponde.",
+        "Pruebas de compresión.",
+        "Estanqueidad."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué motores y qué decide el informe",
+      "parrafos": [
+        "El diagnóstico se dirige especialmente a motores M96 y M97 de Boxster, Cayman y 911 fabricados entre 1997 y 2008, y la reparación se define según el daño encontrado.",
+        "Una marca superficial, un rayado activo y una pérdida de compresión no plantean la misma decisión. El informe sirve para comparar seguimiento, apertura y reconstrucción."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Endoscopia sin desmontar, encamisado si hace falta",
       "parrafos": [
         "Diagnosticamos el rayado de las camisas mediante endoscopia de los cilindros, sin desmontar el motor, y lo reparamos por encamisado cuando el daño ya está hecho. El chequeo es un servicio cerrado, y es lo primero que recomendamos antes de comprar un M96 o M97.",
         "El bore scoring afecta a los Boxster, Cayman y 911 con motor M96 y M97 fabricados entre 1997 y 2008. Se manifiesta como un rayado vertical en la pared del cilindro, con más frecuencia en el sexto, y avanza hasta que el motor consume aceite y pierde compresión."
@@ -62,17 +88,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Lo que no incluye Bore scoring",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para Bore scoring.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un caso documentado: Bore scoring",
+      "titulo": "Bore scoring, con las imágenes delante",
       "parrafos": [
         "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/porsche-bore-scoring\">este caso documentado</a>."
       ],
@@ -86,33 +102,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punto de partida para Bore scoring",
+      "titulo": "Qué recibes del chequeo",
       "parrafos": [
-        "El bore scoring debe confirmarse con evidencia antes de asociar un ruido, consumo de aceite o humo a una reconstrucción del motor. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de endoscopia de los seis cilindros, fotografías, análisis de aceite y filtro y, cuando corresponde, pruebas de compresión y estanqueidad. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir el alcance de Bore scoring",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: el diagnóstico se dirige especialmente a motores M96 y M97 de Boxster, Cayman y 911 fabricados entre 1997 y 2008, y la reparación se define según el daño encontrado. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: una marca superficial, un rayado activo y una pérdida de compresión no plantean la misma decisión. El informe sirve para comparar seguimiento, apertura y reconstrucción. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué queda al entregar Bore scoring",
-      "parrafos": [
-        "El objetivo de la entrega es imágenes de cada cilindro, una valoración comprensible y, si procede, un presupuesto de encamisado y revisión del bloque antes de tocar el motor. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Imágenes de cada cilindro, una valoración comprensible y, si procede, un presupuesto de encamisado y revisión del bloque antes de tocar el motor."
       ],
       "items": [],
       "imagenes": []
@@ -121,7 +113,7 @@
       "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>, <a href=\"/taller-porsche/motores\">reconstrucción de motores</a>, <a href=\"/taller-porsche/tarifas\">tarifas del taller</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>, <a href=\"/taller-porsche/motores\">reconstrucción de motores</a>, <a href=\"/taller-porsche/tarifas\">tarifas del taller</a>."
       ],
       "items": [],
       "imagenes": []
@@ -129,9 +121,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },

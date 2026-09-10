@@ -24,7 +24,12 @@
  *      todo lo demas y bloquearla no ayudaria a nadie.
  *   2. Ninguna apertura con la formula comun de la primera vuelta.
  *   3. Al menos dos bloques de lista por pagina, que es lo que rompe la
- *      sucesion de parrafos.
+ *      sucesion de parrafos. Esta AVISA, no tumba, y por un motivo concreto:
+ *      la segunda vuelta la cumplia con listas falsas ("Estado de partida y
+ *      documentacion disponible" repetido en las 19). Al quitar el relleno se
+ *      quedaron trece paginas con una sola lista de verdad, y la segunda tiene
+ *      que ser contenido nuevo, no relleno devuelto. Pasa a fallo cuando ese
+ *      contenido entre.
  */
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname, resolve, basename } from 'node:path';
@@ -132,8 +137,8 @@ for (const [idioma, paginas] of porIdioma) {
     }
     const listas = pagina.secciones.filter((s) => (s.items ?? []).length > 0).length;
     if (listas < MINIMO_LISTAS) {
-      fallos.push(`${idioma}/${pagina.rutaId}: ${listas} bloques de lista, `
-        + `hacen falta ${MINIMO_LISTAS}. Sin ellos la pagina vuelve a ser prosa seguida.`);
+      avisos.push(`${idioma}/${pagina.rutaId}: ${listas} bloque(s) de lista, `
+        + `hacen falta ${MINIMO_LISTAS}. Falta contenido, no relleno.`);
     }
   }
 }

@@ -27,22 +27,16 @@
     },
     {
       "nivel": 2,
-      "titulo": "Lo que no incluye Storage",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para Storage.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "El punto de partida para Storage",
+      "titulo": "Qué se acuerda antes de entrar",
       "parrafos": [
-        "El Storage Porsche resuelve periodos prolongados sin uso con algo más que una plaza: seguimiento del estado y acceso a mantenimiento preventivo especializado. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de la duración prevista, la frecuencia con la que el propietario quiere disponer del coche, su historial reciente y cualquier necesidad mecánica o estética pendiente. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+        "El Storage Porsche resuelve periodos prolongados sin uso con algo más que una plaza: seguimiento del estado y acceso a mantenimiento preventivo especializado."
       ],
-      "items": [],
+      "items": [
+        "La duración prevista.",
+        "La frecuencia con la que el propietario quiere disponer del coche.",
+        "Su historial reciente.",
+        "Cualquier necesidad mecánica o estética pendiente."
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/4c090daf-DSC00895.jpg",
@@ -52,15 +46,12 @@
     },
     {
       "nivel": 2,
-      "titulo": "Decidir el alcance de Storage",
+      "titulo": "Qué incluye y qué se autoriza aparte",
       "parrafos": [
-        "El alcance se plantea de forma proporcional: el servicio actual incluye instalaciones discretas y vigiladas las 24 horas, inspecciones periódicas y un protocolo de cuidados con opciones adaptadas a cada unidad. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: antes de entrar se acuerda qué atención necesita el coche y qué trabajos opcionales requieren autorización. El Storage no debe convertir una revisión rutinaria en una intervención no solicitada. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
+        "El servicio actual incluye instalaciones discretas y vigiladas las 24 horas, inspecciones periódicas y un protocolo de cuidados con opciones adaptadas a cada unidad.",
+        "Antes de entrar se acuerda qué atención necesita el coche y qué trabajos opcionales requieren autorización. El Storage no debe convertir una revisión rutinaria en una intervención no solicitada."
       ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/cf185986-DSC03460.jpeg",
@@ -70,10 +61,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué queda al entregar Storage",
+      "titulo": "Cómo vuelve el coche",
       "parrafos": [
-        "El objetivo de la entrega es un Porsche conservado bajo seguimiento y preparado para volver a circular conforme al protocolo acordado con su propietario. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Un Porsche conservado bajo seguimiento y preparado para volver a circular conforme al protocolo acordado con su propietario."
       ],
       "items": [],
       "imagenes": []
@@ -82,7 +72,7 @@
       "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/mantenimiento\">mantenimiento Porsche</a>, <a href=\"/madrid\">centro de Madrid</a>, <a href=\"/contacto\">contacto</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/taller-porsche/mantenimiento\">mantenimiento Porsche</a>, <a href=\"/madrid\">centro de Madrid</a>, <a href=\"/contacto\">contacto</a>."
       ],
       "items": [],
       "imagenes": []
@@ -90,9 +80,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },

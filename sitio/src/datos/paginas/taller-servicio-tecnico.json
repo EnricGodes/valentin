@@ -13,22 +13,12 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué hacemos en Servicio técnico",
+      "titulo": "El motor viaja, el coche no hace falta",
       "parrafos": [
         "Un motor M96 puede viajar desde cualquier punto de España sin obligar a trasladar el coche completo.",
         "Damos servicio técnico en toda España desde los dos centros. Recogemos coches y motores donde estén, y para lo que no requiere traer el coche entero, resolvemos a distancia."
       ],
       "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Lo que no incluye Servicio técnico",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para Servicio técnico.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
-      ],
       "imagenes": []
     },
     {
@@ -42,12 +32,18 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punto de partida para Servicio técnico",
+      "titulo": "Cuando el coche no está cerca",
       "parrafos": [
-        "El servicio técnico nacional permite tratar un problema Porsche especializado aunque el coche o el motor no se encuentren cerca de Barcelona o Madrid. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de síntomas, documentación, diagnosis previa, fotografías, muestras y trabajo ya realizado por el taller que solicita apoyo. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
+        "El servicio técnico nacional permite tratar un problema Porsche especializado aunque el coche o el motor no se encuentren cerca de Barcelona o Madrid."
       ],
-      "items": [],
+      "items": [
+        "Síntomas.",
+        "Documentación.",
+        "Diagnosis previa.",
+        "Fotografías.",
+        "Muestras.",
+        "Trabajo ya realizado por el taller que solicita apoyo."
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
@@ -57,33 +53,19 @@
     },
     {
       "nivel": 2,
-      "titulo": "Decidir el alcance de Servicio técnico",
+      "titulo": "Qué se resuelve a distancia y qué no",
       "parrafos": [
-        "El alcance se plantea de forma proporcional: incluye recogida de coches y motores en España, resolución a distancia cuando es suficiente y consultoría para talleres ante casos que se salen de su actividad habitual. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: primero se decide qué información puede obtenerse sin mover el vehículo. Si la comprobación exige mediciones, desmontaje o utillaje específico, se plantea el traslado del conjunto necesario. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué queda al entregar Servicio técnico",
-      "parrafos": [
-        "El objetivo de la entrega es una vía de trabajo definida entre propietario, taller de origen y especialista, evitando duplicar pruebas o trasladar el coche completo cuando basta con un componente. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Incluye recogida de coches y motores en España, resolución a distancia cuando es suficiente y consultoría para talleres ante casos que se salen de su actividad habitual.",
+        "Primero se decide qué información puede obtenerse sin mover el vehículo. Si la comprobación exige mediciones, desmontaje o utillaje específico, se plantea el traslado del conjunto necesario."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Cómo preparar la primera consulta en Servicio técnico",
+      "titulo": "Quién hace qué",
       "parrafos": [
-        "Para orientar la consulta conviene facilitar el modelo, la versión, el año, el número de bastidor cuando sea relevante y el historial disponible. Si existe un síntoma, resulta útil describir cuándo aparece, con el motor frío o caliente, bajo carga o en retención, y si ha cambiado recientemente.",
-        "Las facturas, fotografías y diagnósticos anteriores ayudan a evitar repeticiones, aunque no sustituyen una comprobación actual. Con esa información se decide si basta una cita de inspección, si debe trasladarse el coche o si puede recibirse únicamente el componente."
+        "Una vía de trabajo definida entre propietario, taller de origen y especialista, evitando duplicar pruebas o trasladar el coche completo cuando basta con un componente."
       ],
       "items": [],
       "imagenes": []
@@ -92,7 +74,7 @@
       "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/centros\">centros</a>, <a href=\"/sala-motores\">sala de motores</a>, <a href=\"/contacto\">contacto</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/centros\">centros</a>, <a href=\"/sala-motores\">sala de motores</a>, <a href=\"/contacto\">contacto</a>."
       ],
       "items": [],
       "imagenes": []
@@ -100,9 +82,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },

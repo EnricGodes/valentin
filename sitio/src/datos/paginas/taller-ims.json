@@ -18,10 +18,35 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué hacemos en IMS Porsche",
+      "titulo": "Sustitución preventiva a precio cerrado",
       "parrafos": [
         "Sustituimos el rodamiento del árbol intermedio en motores M96 y M97, con precio cerrado para los modelos de 1997 a 2006, tanto de cambio manual como automático. Hemos hecho la intervención decenas de veces, en las tres revisiones del rodamiento que montó Porsche.",
         "La sustitución preventiva no exige abrir el bloque: se retira la transmisión y el volante motor o el flexplate, y se accede al rodamiento por la brida. El motor no se desmonta, lo que mantiene la factura en un orden de magnitud razonable frente a lo que cuesta una rotura."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Identificar el rodamiento antes de tocar nada",
+      "parrafos": [
+        "La intervención sobre el IMS comienza identificando qué rodamiento corresponde al modelo, al año y, en años de transición, al número de motor."
+      ],
+      "items": [
+        "Configuración del coche.",
+        "Historial.",
+        "Aceite y filtro.",
+        "Ruidos.",
+        "Revisión del rodamiento instalado cuando se accede a él."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Hasta dónde llega el servicio preventivo",
+      "parrafos": [
+        "El servicio preventivo publicado se dirige a motores M96 y M97 y a los modelos en los que el rodamiento puede sustituirse sin abrir el bloque.",
+        "No todos los IMS tienen el mismo riesgo ni permiten la misma intervención. Si ya hay partículas metálicas o ruido, se detiene el enfoque preventivo y se evalúa el daño antes de volver a arrancar."
       ],
       "items": [],
       "imagenes": []
@@ -62,17 +87,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Lo que no incluye IMS Porsche",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para IMS Porsche.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un caso documentado: IMS Porsche",
+      "titulo": "Qué es el IMS, en el Magazine",
       "parrafos": [
         "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/que-es-el-ims-de-porsche\">este caso documentado</a>."
       ],
@@ -95,42 +110,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punto de partida para IMS Porsche",
-      "parrafos": [
-        "La intervención sobre el IMS comienza identificando qué rodamiento corresponde al modelo, al año y, en años de transición, al número de motor. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de configuración del coche, historial, aceite y filtro, ruidos y revisión del rodamiento instalado cuando se accede a él. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir el alcance de IMS Porsche",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: el servicio preventivo publicado se dirige a motores M96 y M97 y a los modelos en los que el rodamiento puede sustituirse sin abrir el bloque. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: no todos los IMS tienen el mismo riesgo ni permiten la misma intervención. Si ya hay partículas metálicas o ruido, se detiene el enfoque preventivo y se evalúa el daño antes de volver a arrancar. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué queda al entregar IMS Porsche",
-      "parrafos": [
-        "El objetivo de la entrega es desmontaje y montaje de la transmisión y los elementos de acceso, kit adecuado a la revisión, retenes previstos, puesta a punto, prueba y garantía mecánica descrita para la intervención. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/herramientas/calculadora-ims-porsche\">calculadora IMS</a>, <a href=\"/taller-porsche/motores\">motores Porsche</a>, <a href=\"/taller-porsche/tarifas\">tarifas</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/herramientas/calculadora-ims-porsche\">calculadora IMS</a>, <a href=\"/taller-porsche/motores\">motores Porsche</a>, <a href=\"/taller-porsche/tarifas\">tarifas</a>."
       ],
       "items": [],
       "imagenes": []
@@ -138,9 +120,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },

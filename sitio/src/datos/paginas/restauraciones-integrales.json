@@ -21,7 +21,7 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Qué hacemos en Restauración integral",
+      "titulo": "Porsche enteros, con el mayor grado de originalidad",
       "parrafos": [
         "Un 911 Serie F con corrosión oculta no permite cerrar el alcance definitivo antes del desmontaje.",
         "Restauramos Porsche enteros, buscando el mayor grado de originalidad posible. La referencia es el Certificate of Authenticity de Porsche: el documento que dice con qué color, qué tapicería y qué opciones salió de fábrica esa unidad concreta.",
@@ -40,6 +40,55 @@
         {
           "url": "/img/paginas/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg",
           "alt": "Motor 930 turbo 3.0 1988"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué se cataloga antes de desmontar",
+      "parrafos": [
+        "Una restauración integral coordina carrocería, mecánica, electricidad, interiores y documentación para que ninguna disciplina corrija después lo que otra decidió antes."
+      ],
+      "items": [
+        "Números y componentes.",
+        "Especificación de fábrica.",
+        "Daños estructurales.",
+        "Corrosión.",
+        "Reparaciones antiguas.",
+        "Piezas ausentes.",
+        "Viabilidad de recambios."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Rehabilitación completa motor 2.2 1970 serie F"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Conservar, reparar o sustituir",
+      "parrafos": [
+        "El desmontaje completo y la catalogación permiten separar conservación, reparación y sustitución. El alcance se revisa cuando aparecen zonas que no podían verse con el coche montado.",
+        "La referencia puede ser el Certificate of Authenticity y la configuración de origen, aunque un coche destinado a uso frecuente puede requerir decisiones distintas de una unidad de colección."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Salpicadero de un 911 clásico con los cinco relojes y el volante de cuatro radios"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Salpicadero de un 911 T rojo con el emblema del modelo sobre la guantera"
+        },
+        {
+          "url": "/img/paginas/64d909b1-mot-2.jpg",
+          "alt": "Rehabilitación completa motor 964 M64"
         }
       ]
     },
@@ -87,61 +136,6 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punto de partida para Restauración integral",
-      "parrafos": [
-        "Una restauración integral coordina carrocería, mecánica, electricidad, interiores y documentación para que ninguna disciplina corrija después lo que otra decidió antes. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de números y componentes, especificación de fábrica, daños estructurales, corrosión, reparaciones antiguas, piezas ausentes y viabilidad de recambios. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior de un 911 serie G restaurado, con tapicería beis y asientos de cuadros"
-        },
-        {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Rehabilitación completa motor 2.2 1970 serie F"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir el alcance de Restauración integral",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: el desmontaje completo y la catalogación permiten separar conservación, reparación y sustitución. El alcance se revisa cuando aparecen zonas que no podían verse con el coche montado. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: la referencia puede ser el Certificate of Authenticity y la configuración de origen, aunque un coche destinado a uso frecuente puede requerir decisiones distintas de una unidad de colección. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Salpicadero de un 911 clásico con los cinco relojes y el volante de cuatro radios"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Salpicadero de un 911 T rojo con el emblema del modelo sobre la guantera"
-        },
-        {
-          "url": "/img/paginas/64d909b1-mot-2.jpg",
-          "alt": "Rehabilitación completa motor 964 M64"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Lo que no incluye Restauración integral",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para Restauración integral.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Los que ya hemos hecho",
       "parrafos": [
         "Abajo están seis restauraciones contadas paso a paso, con las fotos del proceso. Entre ellas, un 911 serie F de 1965 que llegó desmontado en cajas después de siete años de traslados, y un 930 Turbo que llegó tras un incendio en la zona del motor."
@@ -160,7 +154,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un caso documentado: Restauración integral",
+      "titulo": "La restauración de un 911 de 1965",
       "parrafos": [
         "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/restauracion-porsche-911-1965\">este caso documentado</a>."
       ],
@@ -174,10 +168,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué queda al entregar Restauración integral",
+      "titulo": "Qué queda registrado",
       "parrafos": [
-        "El objetivo de la entrega es un automóvil reconstruido con un registro ordenado de proceso, piezas y decisiones, y probado como un conjunto antes de considerarlo terminado. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Un automóvil reconstruido con un registro ordenado de proceso, piezas y decisiones, y probado como un conjunto antes de considerarlo terminado."
       ],
       "items": [],
       "imagenes": [
@@ -195,7 +188,7 @@
       "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/restauraciones\">restauraciones Porsche</a>, <a href=\"/sala-motores\">sala de motores</a>, <a href=\"/taller-porsche/pintura-carroceria\">chapa y pintura</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/restauraciones\">restauraciones Porsche</a>, <a href=\"/sala-motores\">sala de motores</a>, <a href=\"/taller-porsche/pintura-carroceria\">chapa y pintura</a>."
       ],
       "items": [],
       "imagenes": [
@@ -212,9 +205,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {

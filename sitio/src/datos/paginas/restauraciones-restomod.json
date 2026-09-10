@@ -26,7 +26,36 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un caso documentado: Restomod",
+      "titulo": "Qué hace falta en la base",
+      "parrafos": [
+        "Un restomod rehace un clásico como sistema completo para mejorar su uso sin disolver la identidad que justificó elegirlo."
+      ],
+      "items": [
+        "La calidad de la base.",
+        "La arquitectura.",
+        "El peso.",
+        "La respuesta del motor.",
+        "La caja de cambios.",
+        "Los frenos.",
+        "La suspensión.",
+        "La ergonomía.",
+        "La estética."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un solo proyecto, no mejoras sueltas",
+      "parrafos": [
+        "Carrocería, pintura, motor, transmisión, interior e ingeniería se definen dentro del mismo proyecto. Una mejora aislada no debe trasladar el problema a otro componente.",
+        "Se decide qué carácter debe permanecer y qué limitaciones se quieren corregir. La velocidad máxima rara vez explica por sí sola un coche agradable, fiable y utilizable."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El PA10/01, paso a paso",
       "parrafos": [
         "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/pa10-01\">este caso documentado</a>."
       ],
@@ -50,43 +79,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punto de partida para Restomod",
+      "titulo": "Probado y documentado como conjunto",
       "parrafos": [
-        "Un restomod rehace un clásico como sistema completo para mejorar su uso sin disolver la identidad que justificó elegirlo. Por eso la primera conversación no se centra en un catálogo de trabajos, sino en el coche, su historial y el resultado que espera su propietario.",
-        "La valoración parte de la calidad de la base, la arquitectura, el peso, la respuesta del motor, la caja de cambios, los frenos, la suspensión, la ergonomía y la estética. Cuando falta información, se indica qué comprobación hace falta para obtenerla antes de convertir una hipótesis en un presupuesto."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir el alcance de Restomod",
-      "parrafos": [
-        "El alcance se plantea de forma proporcional: carrocería, pintura, motor, transmisión, interior e ingeniería se definen dentro del mismo proyecto. Una mejora aislada no debe trasladar el problema a otro componente. Las tareas se ordenan para no desmontar dos veces, no ocultar un síntoma y no sustituir un conjunto cuando todavía puede diagnosticarse o repararse.",
-        "La decisión técnica se toma con este criterio: se decide qué carácter debe permanecer y qué limitaciones se quieren corregir. La velocidad máxima rara vez explica por sí sola un coche agradable, fiable y utilizable. Si aparece un hallazgo que modifica el encargo, se separa del trabajo aprobado y se explica antes de continuar."
-      ],
-      "items": [
-        "Estado de partida y documentación disponible.",
-        "Comprobaciones necesarias antes de intervenir."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Lo que no incluye Restomod",
-      "parrafos": [],
-      "items": [
-        "No incluye trabajos ajenos al alcance acordado para Restomod.",
-        "Cualquier ampliación se comprueba y se autoriza por separado."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Qué queda al entregar Restomod",
-      "parrafos": [
-        "El objetivo de la entrega es una unidad singular desarrollada con una especificación propia, probada y documentada como conjunto, no como una colección de modificaciones independientes. La explicación final debe permitir entender qué se ha hecho, por qué se ha hecho y qué conviene observar o programar después.",
-        "También señalamos las limitaciones del trabajo. Una inspección describe el estado observado; un mantenimiento no corrige por sí mismo una avería; y una restauración no debe darse por cerrada hasta comprobar el coche como conjunto."
+        "Una unidad singular desarrollada con una especificación propia, probada y documentada como conjunto, no como una colección de modificaciones independientes."
       ],
       "items": [],
       "imagenes": []
@@ -95,7 +90,7 @@
       "nivel": 2,
       "titulo": "Servicios relacionados",
       "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">proyectos y diseño</a>, <a href=\"/sala-motores\">sala de motores</a>. Cada página explica el alcance específico antes de solicitar una cita."
+        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">proyectos y diseño</a>, <a href=\"/sala-motores\">sala de motores</a>."
       ],
       "items": [],
       "imagenes": []
@@ -103,9 +98,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntas frecuentes",
-      "parrafos": [
-        "Estas respuestas ayudan a preparar la consulta. La recomendación definitiva depende de la unidad y de la evidencia disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
