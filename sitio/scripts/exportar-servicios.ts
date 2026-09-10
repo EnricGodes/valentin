@@ -1,7 +1,7 @@
 /**
  * Saca las paginas de servicio a un fichero para reescribirlas fuera.
  *
- *   npm run servicios:exportar
+ *   npm run servicios:exportar [-- --traducir]
  *
  * No es lo mismo que `revision:exportar`. Aquella saca frases sueltas para
  * corregirle las tildes al castellano y devuelve cada pieza a su sitio por
@@ -14,8 +14,12 @@
  * `nuevo` (vacio, que es lo que se rellena y lo que importa el par de este
  * script).
  *
+ * Con `--traducir` el encargo es otro: el castellano ya esta cerrado y lo que
+ * se pide fuera son las cinco traducciones. Cambia el LEEME que viaja con el
+ * fichero y se marca en `tarea`, para que no haya duda de que vuelta es esta.
+ *
  * Las instrucciones viajan con el fichero: se copian a la carpeta desde
- * scripts/servicios-leeme.md. Ahi el JSON no sirve de nada solo, y la carpeta
+ * scripts/servicios-leeme.md o servicios-traducir-leeme.md. Ahi el JSON no sirve de nada solo, y la carpeta
  * se borra cuando la tanda esta aplicada. En vez de incrustar el texto en una
  * plantilla como hace exportar-revision.ts, vive en su .md: son ciento
  * cincuenta lineas llenas de acentos graves y escaparlas lo haria ilegible
@@ -26,6 +30,7 @@ import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { RUTAS, url } from '../src/i18n/routes.ts';
 
+const traducir = process.argv.includes('--traducir');
 const aqui = dirname(fileURLToPath(import.meta.url));
 const raiz = resolve(aqui, '..');
 const destino = join(raiz, 'revision-servicios');
@@ -141,6 +146,7 @@ const salida = {
   formato: 'valentinmotors-servicios-v1',
   generado: new Date().toISOString().slice(0, 10),
   idioma: 'es',
+  tarea: traducir ? 'traducir' : 'reescribir',
   instrucciones: 'LEEME.md, al lado de este fichero. Leerlo antes de escribir.',
   referencia: {
     rutas: rutasEnlazables,
@@ -154,10 +160,13 @@ const salida = {
 mkdirSync(destino, { recursive: true });
 writeFileSync(join(destino, 'servicios-es.json'),
   `${JSON.stringify(salida, null, 2)}\n`);
-copyFileSync(join(aqui, 'servicios-leeme.md'), join(destino, 'LEEME.md'));
+copyFileSync(join(aqui, traducir ? 'servicios-traducir-leeme.md' : 'servicios-leeme.md'),
+             join(destino, 'LEEME.md'));
 
 const total = paginas.reduce((n, p) => n + p.palabrasHoy, 0);
 const pedidas = paginas.reduce((n, p) => n + p.objetivoPalabras.min, 0);
 console.log(`servicios: ${paginas.length} paginas -> revision-servicios/servicios-es.json`);
-console.log(`  ${total} palabras hoy, ${pedidas} como minimo despues`);
+console.log(traducir
+  ? `  ${total} palabras de castellano a traducir a cinco idiomas`
+  : `  ${total} palabras hoy, ${pedidas} como minimo despues`);
 console.log(`  ${magazine.length} articulos y ${rutasEnlazables.length} rutas enlazables en la referencia`);
