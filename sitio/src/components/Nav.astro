@@ -21,7 +21,7 @@
  * dejar la página desplazándose por detrás del panel.
  */
 import { IDIOMAS, POR_DEFECTO, type Idioma } from '../i18n/config';
-import { url } from '../i18n/routes';
+import { SEGMENTOS, url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import { idiomasDe, paginaPorRuta } from '../datos/pagina';
 import { CENTROS } from '../datos/centros';
@@ -60,7 +60,16 @@ const tituloDe = (id: string) => {
   return p?.menu ?? p?.h1 ?? id;
 };
 
-const hijo = (id: string) => (hay(id) ? [{ id, texto: tituloDe(id) }] : []);
+/** Una entrada de submenu. `href` solo lo traen las que no son del manifiesto. */
+interface Hijo { id: string; texto: string; href?: string }
+
+const hijo = (id: string): Hijo[] => (hay(id) ? [{ id, texto: tituloDe(id) }] : []);
+
+/* Un hijo que no es una pagina del manifiesto, sino una URL del propio sitio.
+   Lo pide el Magazine: las 18 guias de modelo viven ahi, en la categoria
+   "iconos", y son lo que antes intentaba ser la pagina de generaciones. */
+const hijoUrl = (href: string, texto: string, solo: Idioma[] = ['es']): Hijo[] =>
+  (solo.includes(idioma) ? [{ id: href, href, texto }] : []);
 
 const enlaces = [
   { id: 'coches', texto: t('nav.coches'), hijos: [
@@ -85,7 +94,10 @@ const enlaces = [
   { id: 'centros', texto: t('nav.centros'), hijos: [
       ...hijo('barcelona'), ...hijo('madrid'),
     ] },
-  { id: 'magazine', texto: t('nav.magazine'), hijos: [] },
+  { id: 'magazine', texto: t('nav.magazine'), hijos: [
+      ...hijoUrl(`${url('magazine', 'es')}/${SEGMENTOS.categoria.es}/iconos`,
+                 'Guías de modelo'),
+    ] },
   // Las herramientas solo existen en castellano por ahora.
   ...(idioma === 'es' ? [{ id: 'herramientas', texto: t('nav.herramientas'), hijos: [] }] : []),
   { id: 'quienes-somos', texto: t('nav.nosotros'), hijos: [] },
@@ -119,7 +131,7 @@ const activo = (e: { id: string; hijos: { id: string }[] }) =>
         {e.hijos.length > 0 && (
           <ul class="nav-sub">
             {e.hijos.map((h) => (
-              <li><a href={url(h.id, idioma)}
+              <li><a href={h.href ?? url(h.id, idioma)}
                      aria-current={h.id === rutaId ? 'page' : undefined}>{h.texto}</a></li>
             ))}
           </ul>
