@@ -66,6 +66,24 @@ Por debajo del 90% no se genera esa URL ni se declara en el `hreflang`. Evita
 publicar una página alemana con el noventa por ciento del texto en español,
 que sería contenido duplicado y no podría autorreferenciarse.
 
+## Qué se guarda y qué se tira
+
+Una entrega aplicada se borra. Lo que entró vive en `sitio/src`, y dejarla al
+lado invita a reimportarla encima del trabajo posterior, que es justo lo que
+estuvo a punto de pasar con la segunda vuelta de servicios.
+
+Se quedan solo las que un script sigue leyendo:
+
+| Fichero | Quién lo lee |
+|---|---|
+| `PARA-TRADUCIR.json` | 14, 15, 16, 19, 29 y 30, como referencia del original |
+| `TRADUCIDO.json` | 15 y 18 |
+| `METAS-PARA-TRADUCIR.json`, `METAS-TRADUCIDAS.json` | 29 y 30 |
+| `VALENTIN-MOTORS-GUIAS-PORSCHE-TRADUCCIONES/` | 31, que regenera las 90 guías |
+
+Las tandas de `sitio/revision/` y `sitio/revision-servicios/` no se versionan y
+se borran en cuanto están aplicadas: se regeneran con su `:exportar`.
+
 ## Glosario
 
 `sitio/src/i18n/glosario.md`: 63 términos, la tabla de equivalencias en los seis
