@@ -44,7 +44,7 @@ A partir del **997.2, en 2008, el problema quedó totalmente resuelto**.
 
 En los *watercooled* antes mencionados, Porsche instalaba un rodamiento de doble hilera de bolas de acero en los MKI y uno de hilera simple en los MKII.
 
-![**Ubicación del IMS** La flecha indica la posición del rodamiento](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
+![Brida trasera del motor abierta con una flecha roja señalando la posición del rodamiento IMS](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
 *Ubicación del IMS** La flecha indica la posición del rodamiento*
 

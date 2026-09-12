@@ -15,7 +15,7 @@ ctas:
   - texto: "More information"
     href: "/contacto"
 ---
-![Finished engine ready for delivery](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
+![Finished 968 engine on its pallet, with the dual-mass flywheel and intake manifold fitted](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
 
 *Finished engine ready for delivery*
 

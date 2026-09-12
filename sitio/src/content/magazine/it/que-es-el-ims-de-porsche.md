@@ -44,7 +44,7 @@ A partire dalla **997.2 del 2008 il problema è stato del tutto risolto**.
 
 Nei motori *watercooled* citati, Porsche monta un cuscinetto a doppia corona di sfere in acciaio sui MKI e uno a corona singola sui MKII.
 
-![**Posizione dell’IMS** La freccia indica la posizione del cuscinetto](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
+![Flangia posteriore del motore aperta, con una freccia rossa che indica la posizione del cuscinetto IMS](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
 *Posizione dell’IMS** La freccia indica la posizione del cuscinetto*
 

@@ -44,7 +44,7 @@ Les années concernées vont de 1997 à 2008 : toute la génération 986, 987 et
 
 Sur les moteurs *watercooled* évoqués plus haut, Porsche monte un roulement à double rangée de billes acier sur les MKI et un roulement à simple rangée sur les MKII.
 
-![**Emplacement de l’IMS** La flèche indique la position du roulement](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
+![Flasque arrière du moteur ouvert, une flèche rouge indiquant l'emplacement du roulement IMS](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
 *Emplacement de l’IMS** La flèche indique la position du roulement*
 

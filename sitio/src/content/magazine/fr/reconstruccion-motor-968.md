@@ -15,7 +15,7 @@ ctas:
   - texto: "Plus d'informations"
     href: "/contacto"
 ---
-![Moteur fini prêt à être livré](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
+![Moteur de 968 terminé sur sa palette, volant bimasse et collecteur d'admission montés](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
 
 *Moteur fini prêt à être livré*
 

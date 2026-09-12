@@ -15,7 +15,7 @@ ctas:
   - texto: "Weitere Informationen"
     href: "/contacto"
 ---
-![Fertiger Motor zur Auslieferung bereit](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
+![Fertiger 968-Motor auf der Palette, mit montiertem Zweimassenschwungrad und Ansaugkrümmer](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
 
 *Fertiger Motor zur Auslieferung bereit*
 

@@ -15,7 +15,7 @@ ctas:
   - texto: "Más información"
     href: "/contacto"
 ---
-![Motor terminado listo para entrega](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
+![Motor del 968 terminado sobre el palé, con el volante bimasa y el colector de admisión montados](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
 
 *Motor terminado y listo para la entrega*
 

@@ -44,7 +44,7 @@ From the **997.2 in 2008 the problem was fully resolved**.
 
 In the *watercooled* engines mentioned above, Porsche fitted a double-row steel ball bearing in the MKI and a single-row bearing in the MKII.
 
-![**IMS location** The arrow marks the position of the bearing](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
+![Rear engine flange opened up, a red arrow pointing to the position of the IMS bearing](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
 *IMS location** The arrow marks the position of the bearing*
 

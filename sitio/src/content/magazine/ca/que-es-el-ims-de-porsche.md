@@ -44,7 +44,7 @@ A partir del **997.2 del 2008 el problema va quedar totalment resolt**.
 
 En els *watercooled* esmentats, Porsche instal·la un rodament de doble filera de boles d’acer als MKI i el de filera simple als MKII.
 
-![**Ubicació de l’IMS** La fletxa indica la posició del rodament](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
+![Brida posterior del motor oberta amb una fletxa vermella que assenyala la posició del rodament IMS](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
 *Ubicació de l’IMS** La fletxa indica la posició del rodament*
 

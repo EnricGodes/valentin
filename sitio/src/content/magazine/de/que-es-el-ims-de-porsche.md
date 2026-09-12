@@ -44,7 +44,7 @@ Ab dem **997.2 von 2008 war das Problem vollständig gelöst**.
 
 In den genannten *watercooled* Motoren verbaute Porsche im MKI ein zweireihiges Stahlkugellager und im MKII ein einreihiges.
 
-![**Lage der IMS** Der Pfeil markiert die Position des Lagers](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
+![Geöffneter hinterer Motorflansch, ein roter Pfeil zeigt auf die Position des IMS-Lagers](/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg)
 
 *Lage der IMS** Der Pfeil markiert die Position des Lagers*
 

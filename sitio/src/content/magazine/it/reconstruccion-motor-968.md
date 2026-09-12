@@ -15,7 +15,7 @@ ctas:
   - texto: "Maggiori informazioni"
     href: "/contacto"
 ---
-![Motore finito e pronto per la consegna](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
+![Motore del 968 finito sul pallet, con volano bimassa e collettore di aspirazione montati](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
 
 *Motore finito pronto per la consegna*
 

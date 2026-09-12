@@ -15,7 +15,7 @@ ctas:
   - texto: "Més informació"
     href: "/contacto"
 ---
-![Motor acabat llest per entrega](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
+![Motor del 968 acabat sobre el palet, amb el volant bimassa i el col·lector d’admissió muntats](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
 
 *Motor acabat llest per entrega*
 
