@@ -17,10 +17,6 @@ sitio/public/muestra/
 sitio/public/video/
 _migracion/contenido/videos/
 
-# El contenedor de una entrega de traduccion: dentro va lo mismo que la
-# carpeta descomprimida de al lado, que si esta versionada.
-_migracion/traducciones/*.zip
-
 # Las tandas de revision del castellano se regeneran con npm run revision:exportar
 # y se borran cuando estan aplicadas: no son fuente, son un apero.
 sitio/revision/
@@ -28,7 +24,3 @@ sitio/revision/
 # Lo genera scripts/generar-mapa-idiomas.ts en cada build, con las
 # traducciones realmente publicadas. Es derivado, no fuente.
 sitio/functions/mapa-idiomas.json
-
-# La tanda de ampliacion de las paginas de servicio: se regenera con
-# npm run servicios:exportar y se borra cuando esta aplicada.
-sitio/revision-servicios/

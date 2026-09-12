@@ -4,9 +4,10 @@ La primera tanda amplió las 19 páginas de servicio de 5.810 a 15.259 palabras.
 contenido es correcto y no se tira. Lo que hay que rehacer es **la forma**: las
 19 páginas salieron con el mismo esqueleto, y eso se nota al leer dos seguidas.
 
-Este documento es el encargo de la segunda vuelta. Se trabaja sobre el mismo
-circuito: `npm run servicios:exportar`, se rellena `nuevo`, y
-`npm run servicios:importar`.
+Este documento fue el encargo de la segunda vuelta. El circuito de exportar e
+importar ya no existe: las 19 páginas están cerradas en los seis idiomas y se
+editan directamente en `src/datos/paginas/`. Lo que sigue vigente es el
+criterio, que `validar-servicios.ts` comprueba en cada build.
 
 ---
 
