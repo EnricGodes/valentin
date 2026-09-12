@@ -1,0 +1,63 @@
+{
+  "rutaId": "ocasion-911",
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-911",
+  "meta": {
+    "titulo": "Porsche 911 clásico de segunda mano (1964-1989) · Valentín Motors",
+    "descripcion": "Porsche 911 clásicos de las series F y G, de 1964 a 1989, revisados en 111 puntos y con garantía de doce meses. Carrera 2.7, SC, Carrera 3.2 y Targa.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 911 clásico de segunda mano",
+  "menu": "Porsche 911 clásico",
+  "articulos": [
+    "porsche-911-f",
+    "porsche-911g"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 911 clásico de segunda mano",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 series F y G (1964-1989)",
+      "parrafos": [
+        "El 911 refrigerado por aire de primera y segunda serie es el Porsche de referencia. La serie F (1964-1973) va del 2.0 original al 2.4 y culmina en el Carrera RS 2.7; la serie G (1974-1989) trae los paragolpes de fuelle, el 2.7, el 3.0 SC y, desde 1984, el Carrera 3.2 con inyección Motronic y, en los dos últimos años, la caja G50.",
+        "Un 911 clásico bien elegido es un coche para usar. Los SC y Carrera 3.2 son mecánicas robustas con piezas disponibles; los F tempranos y los RS son piezas de colección donde la originalidad manda sobre el kilometraje."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué revisamos en un 911 clásico antes de venderlo",
+      "parrafos": [],
+      "items": [
+        "Corrosión: torretas de suspensión, largueros, suelos, marcos de parabrisas y luneta. La carrocería galvanizada llegó en 1976 y no lo cubre todo.",
+        "Motor: compresión y fugas, tensores de cadena de distribución (hidráulicos desde el 3.2 de 1984), espárragos de culata en los 2.7 de bloque de magnesio.",
+        "Caja de cambios: sincronizadores en la 915, estado de la G50 en los Carrera 3.2 de 1987 a 1989.",
+        "Inyección: K-Jetronic en los SC, Motronic en los 3.2. Arranque en frío, ralentí y consumo.",
+        "Originalidad: números coincidentes, colores y opciones según el certificado de Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 911 clásico en Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 911 clásico que vendemos pasa nuestra revisión de 111 puntos, sale con garantía de doce meses o 10.000 km en motor y caja de cambios, y el kilometraje certificado consta en la factura de venta. Somos especialistas Porsche desde 1979, con taller propio en Barcelona y Madrid: el coche que compras aquí ha pasado por nuestro elevador antes que por tus manos.",
+        "Si el que buscas lo has encontrado en otro sitio, también podemos revisarlo por ti antes de que lo pagues: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

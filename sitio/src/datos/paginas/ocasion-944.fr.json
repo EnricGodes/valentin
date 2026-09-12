@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-944",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-944",
+  "meta": {
+    "titulo": "Porsche 944 d’occasion à vendre · Valentín Motors",
+    "descripcion": "Porsche 944, 944 S, S2 et Turbo, de 1982 à 1991, inspectées en 111 points : courroies de distribution et d’équilibrage, pompe à eau, tube de transmission. Garantie de douze mois.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 944 d’occasion",
+  "menu": "Porsche 944",
+  "articulos": [
+    "porsche-944"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 944 d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 944 (1982-1991)",
+      "parrafos": [
+        "La 944 est la transaxle que Porsche a conçue en entier : quatre cylindres de 2,5 litres à arbres d’équilibrage, 163 ch, et une carrosserie aux ailes larges héritée de la 924 Carrera GT. La Turbo est montée à 220 et 250 ch, la S à 16 soupapes à 190, la S2 de 3,0 litres à 211, et le Cabriolet a clos la série.",
+        "C’est la Porsche des années quatre-vingt qui a le mieux vieilli : robuste, équilibrée et aux pièces disponibles. La règle est simple : courroies à jour et pas de corrosion. Tout le reste se répare."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur une 944 avant de la vendre",
+      "parrafos": [],
+      "items": [
+        "Courroie de distribution et courroie d’arbres d’équilibrage : tous les quatre ans ou 60 000 km. Date, kilomètres et tendeurs.",
+        "Pompe à eau et galets, qui se changent avec les courroies ou se regrettent après.",
+        "Tube de transmission et roulements, embrayage et boîte ; sur la Turbo, turbo et refroidissement.",
+        "Joint de culasse sur les 2.5 et 3.0, fuites d’huile et état du radiateur.",
+        "Corrosion des passages de roue et du soubassement, planche de bord fissurée et toit ouvrant ; concordance avec les papiers."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter une 944 chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 944 que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

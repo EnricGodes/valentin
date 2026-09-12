@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-930",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-930",
+  "meta": {
+    "titulo": "Porsche 930 Turbo de segona mà i ocasió · Valentín Motors",
+    "descripcion": "Porsche 911 Turbo tipus 930, de 1975 a 1989, revisats en 111 punts: turbo, intercooler, embragatge i carrosseria. Garantia de dotze mesos i quilometratge certificat.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 930 Turbo de segona mà",
+  "menu": "Porsche 930 Turbo",
+  "articulos": [
+    "porsche-930"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 930 Turbo de segona mà",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 Turbo tipus 930 (1975-1989)",
+      "parrafos": [
+        "El 930 és el primer 911 Turbo: 3.0 litres i 260 CV el 1975, 3.3 amb intercooler i 300 CV des de 1978, sempre amb la caixa de quatre velocitats fins que el 1989, el seu últim any, va rebre la G50 de cinc. Aletes amples, aleró de safata i un lliurament de potència que no s’assembla a res de posterior.",
+        "És un cotxe que exigeix respecte al volant i en comprar-lo. Les unitats sense modificar i amb historial són cada cop menys, i la diferència de valor entre un 930 original i un amb kit Flachbau o motor preparat és gran en les dues direccions."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què revisem en un 930 abans de vendre’l",
+      "parrafos": [],
+      "items": [
+        "Turbo, wastegate i vàlvula de descàrrega: pressió de bufada, fum i sorolls amb el motor calent.",
+        "Intercooler, maniguets i fuites d’oli a tapes, retens i radiador d’oli.",
+        "Embragatge i caixa: el parell del 3.3 els castiga; comprovem patinatge, sorolls i sincronitzadors.",
+        "Carrosseria: aletes amples, aleró, terres i torretes. I si és un Flachbau, si ho és de fàbrica.",
+        "Historial i originalitat: motor, caixa i color segons el certificat de Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 930 Turbo a Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 930 Turbo que venem passa la nostra revisió de 111 punts, surt amb garantia de dotze mesos o 10.000 km en motor i caixa de canvis, i el quilometratge certificat consta a la factura de venda. Som especialistes Porsche des de 1979, amb taller propi a Barcelona i Madrid: el cotxe que compres aquí ha passat pel nostre elevador abans que per les teves mans.",
+        "Si el que busques l’has trobat en un altre lloc, també el podem revisar per tu abans que el paguis: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció prèvia a la compra</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

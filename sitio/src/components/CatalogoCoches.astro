@@ -48,12 +48,12 @@ const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'nume
 {(landings.length > 0 || vender) && (
   <aside class="catalogo-mas">
     {landings.length > 0 && (
-      <div class="catalogo-mas-bloque">
+      <div class="catalogo-mas-bloque catalogo-mas-bloque--ancho">
         <p class="catalogo-mas-titulo">{t('catalogo.generaciones')}</p>
-        <ul class="catalogo-mas-lista">
+        <ul class="catalogo-mas-lista catalogo-mas-lista--columnas">
           {landings.map((l) => (
             <li>
-              <a href={url(l.pagina!.rutaId, idioma)}>{l.pagina!.h1}</a>
+              <a href={url(l.pagina!.rutaId, idioma)}>{l.pagina!.menu ?? l.pagina!.h1}</a>
               <span class="catalogo-mas-cuenta">
                 {l.unidades > 0 ? `${l.unidades} ${t(l.unidades === 1 ? 'generacion.unidad' : 'generacion.unidades')}` : t('generacion.ninguna')}
               </span>

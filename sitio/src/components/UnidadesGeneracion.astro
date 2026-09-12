@@ -1,13 +1,17 @@
 ---
 /**
- * Los coches de una generacion dentro de su landing de compra.
+ * Los coches de una generacion dentro de su landing de compra. Va en dos
+ * partes porque van en dos sitios:
  *
- * Primero lo que se puede comprar hoy, con la misma tarjeta del catalogo.
- * Si no hay nada, se dice sin rodeos y se invita a dejar el aviso: el
- * formulario va justo debajo, en la propia pagina. Despues, lo que ya se
- * vendio: es la prueba de que por aqui pasan 997 de verdad, y cada uno sigue
- * teniendo su pagina. Al final, las otras generaciones, para que quien
- * dudaba entre un 996 y un 997 no tenga que volver al menu.
+ *   arriba  Lo que se puede comprar hoy, justo debajo del titulo y antes de
+ *           cualquier texto. Quien llega buscando "997 segunda mano" quiere
+ *           ver los 997, no leer primero que es un 997. Si no hay ninguno
+ *           no se pinta nada: la pagina abre con el texto.
+ *   abajo   Si no habia stock, se dice sin rodeos y se invita a dejar el
+ *           aviso (el formulario va justo debajo). Despues, lo ya vendido: es
+ *           la prueba de que por aqui pasan 997 de verdad, y cada uno sigue
+ *           teniendo su pagina. Y al final las otras generaciones, para que
+ *           quien dudaba entre un 996 y un 997 no tenga que volver al menu.
  */
 import type { Idioma } from '../i18n/config';
 import { POR_DEFECTO } from '../i18n/config';
@@ -19,13 +23,15 @@ import TarjetaCoche from './TarjetaCoche.astro';
 
 interface Props {
   generacion: string;
+  /** Nombre legible: "Porsche 997", "Porsche 986 Boxster". Sale del `menu` de la pagina. */
+  nombre: string;
   rutaId: string;
   idioma: Idioma;
-  /** Encabezado del bloque: viene de la propia pagina ("Porsche 997 de ocasion"). */
-  titulo: string;
+  parte: 'arriba' | 'abajo';
 }
-const { generacion, rutaId, idioma, titulo } = Astro.props;
+const { generacion, nombre, rutaId, idioma, parte } = Astro.props;
 const t = traductor(idioma);
+const con = (clave: Parameters<typeof t>[0]) => t(clave).replace('{gen}', nombre);
 
 const { disponibles, vendidos, sinFicha } = unidadesDeGeneracion(generacion, idioma);
 const hayVendidos = vendidos.length + sinFicha.length > 0;
@@ -37,64 +43,70 @@ const otras = GENERACIONES_CON_LANDING
   .map((g) => {
     const propio = idiomasDe(g.rutaId).includes(idioma);
     const p = paginaPorRuta(g.rutaId, propio ? idioma : POR_DEFECTO);
-    return { ...g, texto: p?.h1 ?? `Porsche ${g.generacion}`,
+    return { ...g, texto: p?.menu ?? p?.h1 ?? `Porsche ${g.generacion}`,
              href: url(g.rutaId, propio ? idioma : POR_DEFECTO),
              lang: propio ? undefined : POR_DEFECTO };
   });
 ---
-<section class="generacion" id="unidades">
-  <div class="contenido">
-    <h2 class="bloque-titulo reveal">{titulo}</h2>
-  </div>
-
-  {disponibles.length > 0 ? (
+{parte === 'arriba' && disponibles.length > 0 && (
+  <section class="generacion generacion--arriba" id="unidades">
+    <div class="contenido">
+      <h2 class="bloque-titulo reveal">{con('generacion.enVenta')}</h2>
+    </div>
     <div class="cars-grid cars-grid--generacion">
       {disponibles.map((u, i) => (
         <TarjetaCoche coche={u.coche} idioma={idioma} idiomaFicha={u.idioma} indice={i} />
       ))}
     </div>
-  ) : (
-    <div class="contenido">
-      <div class="generacion-vacio reveal">
-        <p>{t('generacion.vacio').replace('{gen}', generacion)}</p>
-        <a class="cta" href="#contacto">{t('generacion.avisame').replace('{gen}', generacion)}</a>
-      </div>
-    </div>
-  )}
+  </section>
+)}
 
-  {hayVendidos && (
-    <div class="contenido">
-      <div class="generacion-vendidos reveal">
-        <p class="catalogo-mas-titulo">{t('generacion.vendidos').replace('{gen}', generacion)}</p>
-        <ul class="generacion-lista">
-          {vendidos.map((u) => (
-            <li>
-              <a href={url('coches', u.idioma, u.coche.slug)}
-                 lang={u.idioma === idioma ? undefined : POR_DEFECTO}>
-                {u.coche.catalogo?.marca} {u.coche.catalogo?.nombre}
-              </a>
-              <span>{u.coche.catalogo?.detalle}</span>
-            </li>
-          ))}
-          {sinFicha.map((v) => (
-            <li>
-              <a href={url('coches', idioma, v.slug)}>{v.nombre}</a>
-              <span>{v.detalle}</span>
-            </li>
-          ))}
-        </ul>
+{parte === 'abajo' && (
+  <section class="generacion generacion--abajo">
+    {disponibles.length === 0 && (
+      <div class="contenido">
+        <div class="generacion-vacio reveal">
+          <h2 class="bloque-titulo">{con('generacion.enVenta')}</h2>
+          <p>{con('generacion.vacio')}</p>
+          <a class="cta" href="#contacto">{con('generacion.avisame')}</a>
+        </div>
       </div>
-    </div>
-  )}
+    )}
 
-  {otras.length > 0 && (
-    <div class="contenido">
-      <nav class="generacion-otras reveal" aria-label={t('generacion.otras')}>
-        <p class="catalogo-mas-titulo">{t('generacion.otras')}</p>
-        <ul class="catalogo-mas-lista">
-          {otras.map((g) => <li><a href={g.href} lang={g.lang} hreflang={g.lang}>{g.texto}</a></li>)}
-        </ul>
-      </nav>
-    </div>
-  )}
-</section>
+    {hayVendidos && (
+      <div class="contenido">
+        <div class="generacion-vendidos reveal">
+          <p class="catalogo-mas-titulo">{con('generacion.vendidos')}</p>
+          <ul class="generacion-lista">
+            {vendidos.map((u) => (
+              <li>
+                <a href={url('coches', u.idioma, u.coche.slug)}
+                   lang={u.idioma === idioma ? undefined : POR_DEFECTO}>
+                  {u.coche.catalogo?.marca} {u.coche.catalogo?.nombre}
+                </a>
+                <span>{u.coche.catalogo?.detalle}</span>
+              </li>
+            ))}
+            {sinFicha.map((v) => (
+              <li>
+                <a href={url('coches', idioma, v.slug)}>{v.nombre}</a>
+                <span>{v.detalle}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    )}
+
+    {otras.length > 0 && (
+      <div class="contenido">
+        <nav class="generacion-otras reveal" aria-label={t('generacion.otras')}>
+          <p class="catalogo-mas-titulo">{t('generacion.otras')}</p>
+          <ul class="catalogo-mas-lista catalogo-mas-lista--columnas">
+            {otras.map((g) => <li><a href={g.href} lang={g.lang} hreflang={g.lang}>{g.texto}</a></li>)}
+          </ul>
+        </nav>
+      </div>
+    )}
+  </section>
+)}

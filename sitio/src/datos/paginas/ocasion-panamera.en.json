@@ -1,0 +1,65 @@
+{
+  "rutaId": "ocasion-panamera",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-panamera",
+  "meta": {
+    "titulo": "Used Porsche Panamera for sale · Valentín Motors",
+    "descripcion": "Porsche Panamera of all three generations, from 2009, inspected on 111 points: air suspension, PDK, V8 cooling and hybrid batteries. Twelve-month warranty.",
+    "ogImagen": ""
+  },
+  "h1": "Used Porsche Panamera",
+  "menu": "Porsche Panamera",
+  "articulos": [],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Used Porsche Panamera",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche Panamera (from 2009)",
+      "parrafos": [
+        "The Panamera is Porsche's saloon: front engine, four real seats and from 300 to 700 hp depending on version. The first generation (2009-2016) offers V6, V8, Turbo, diesel and hybrid; the second (2016-2023) brings the Sport Turismo, the eight-speed PDK and the E-Hybrids; the third, from 2024, refines the formula with active suspension.",
+        "It is bought as a car for business and for travel, and it is inspected as such: suspension, electronics and, on hybrids, battery. A Panamera with history is a four-door grand tourer that is hard to match."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we check on a Panamera before selling it",
+      "parrafos": [],
+      "items": [
+        "Air suspension and PASM: leaks, compressor and dampers.",
+        "PDK: oil and filter service and behaviour in slow shifts.",
+        "Engine: on the V8, cooling and leaks; on diesels, injectors and particulate filter; on hybrids, battery and high-voltage system.",
+        "Electronics: PCM, driver assistance, sensors and stored codes.",
+        "Tyres, brakes (PCCB if fitted) and match of options with the Porsche certificate."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Buying a Panamera at Valentín Motors",
+      "parrafos": [
+        "Every Porsche Panamera we sell goes through our 111-point inspection, leaves with a twelve-month or 10,000 km warranty on engine and gearbox, and its certified mileage is stated on the sales invoice. We have been Porsche specialists since 1979, with our own workshops in Barcelona and Madrid: the car you buy here has been on our lift before it reaches your hands.",
+        "If you have found the one you want elsewhere, we can also check it for you before you pay for it: <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspection</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

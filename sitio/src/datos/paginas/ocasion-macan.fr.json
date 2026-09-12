@@ -1,0 +1,65 @@
+{
+  "rutaId": "ocasion-macan",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-macan",
+  "meta": {
+    "titulo": "Porsche Macan d’occasion à vendre · Valentín Motors",
+    "descripcion": "Porsche Macan, depuis 2014, inspectés en 111 points : PDK, boîte de transfert, moteurs quatre et six cylindres. Garantie de douze mois et kilométrage certifié.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche Macan d’occasion",
+  "menu": "Porsche Macan",
+  "articulos": [],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche Macan d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche Macan (depuis 2014)",
+      "parrafos": [
+        "Le Macan est la Porsche la plus vendue de l’histoire et le SUV compact qui se conduit le mieux. Quatre cylindres 2.0 sur la version de base, V6 3.0 sur le S et le GTS et 3.6 sur le Turbo, toujours avec PDK à sept rapports et transmission intégrale. Les mises à jour de 2018 et 2021 affinent moteur, intérieur et électronique. Depuis 2024, il cohabite avec le Macan électrique.",
+        "C’est une voiture qu’on achète pour tous les jours, d’où leur nombre et leurs kilomètres. L’inspection sert à séparer ceux qui ont été soignés de ceux qui ont seulement roulé."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur un Macan avant de le vendre",
+      "parrafos": [],
+      "items": [
+        "PDK : vidange et filtre et comportement à froid. Boîte de transfert : les premiers exemplaires ont posé problème et font l’objet d’une campagne.",
+        "Moteur : fuites d’huile, chaîne de distribution et, sur les V6, tubes et joints de refroidissement.",
+        "Historique d’entretien dans le réseau Porsche et campagnes de service effectuées.",
+        "Électronique : PCM, capteurs, caméras et aides à la conduite. Tout doit fonctionner.",
+        "Pneus, freins, suspension pneumatique si elle est montée et concordance des options."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter un Macan chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche Macan que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "rutaId": "ocasion-cayenne",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-cayenne",
+  "meta": {
+    "titulo": "Used Porsche Cayenne for sale · Valentín Motors",
+    "descripcion": "Porsche Cayenne of all three generations, from 2002, inspected on 111 points: propshaft, coolant pipes, air suspension and transfer case. Twelve-month warranty.",
+    "ogImagen": ""
+  },
+  "h1": "Used Porsche Cayenne",
+  "menu": "Porsche Cayenne",
+  "articulos": [],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Used Porsche Cayenne",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche Cayenne (from 2002)",
+      "parrafos": [
+        "The Cayenne is the SUV that made everything else possible. The first generation (2002-2010) uses V6 and V8 engines of up to 520 hp in the Turbo S and, from 2009, the diesel; the second (2010-2017) adds the hybrid and loses weight; the third, from 2017, brings the Coupé, the E-Hybrids and, in 2023, a thorough update.",
+        "It is a Porsche that is used a lot and serviced little, and that shows on the used market. A Cayenne with history and with its known faults sorted is an extraordinary car for the money; we make sure it is that one."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we check on a Cayenne before selling it",
+      "parrafos": [],
+      "items": [
+        "First generation: propshaft and its centre bearing, and plastic coolant pipes on the V8, which are replaced with aluminium ones.",
+        "Transfer case and differentials: noises, leaks and oil condition. Air suspension: leaks and compressor.",
+        "Interval servicing: oil, spark plugs, filters and belt or chain depending on engine. Diesel: injectors and particulate filter.",
+        "On hybrids: condition of the battery and the high-voltage system.",
+        "Tyres, brakes and electronics: sensors, driver assistance and stored codes."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Buying a Cayenne at Valentín Motors",
+      "parrafos": [
+        "Every Porsche Cayenne we sell goes through our 111-point inspection, leaves with a twelve-month or 10,000 km warranty on engine and gearbox, and its certified mileage is stated on the sales invoice. We have been Porsche specialists since 1979, with our own workshops in Barcelona and Madrid: the car you buy here has been on our lift before it reaches your hands.",
+        "If you have found the one you want elsewhere, we can also check it for you before you pay for it: <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspection</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

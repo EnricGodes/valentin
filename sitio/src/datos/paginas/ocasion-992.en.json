@@ -1,66 +1,61 @@
 {
   "rutaId": "ocasion-992",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
   "tipo": "landing",
-  "ficheroOriginal": "porsche-992-de-segunda-mano",
+  "ficheroOriginal": "ocasion-992",
   "meta": {
-    "titulo": "Porsche 992 second-hand and used — Valentín Motors",
-    "descripcion": "Used Porsche 911 (992) with a 111-point inspection, twelve months of cover and mileage certified on the sales invoice.",
+    "titulo": "Used Porsche 992 for sale · Valentín Motors",
+    "descripcion": "Porsche 911 type 992, from 2019, inspected on 111 points with a twelve-month warranty. Carrera, S, GTS, Turbo and GT3, with certified mileage.",
     "ogImagen": ""
   },
-  "h1": "Porsche 992 second hand",
+  "h1": "Used Porsche 992",
+  "menu": "Porsche 992",
+  "articulos": [
+    "porsche-992"
+  ],
   "acordeones": [],
   "secciones": [
     {
       "nivel": 1,
-      "titulo": "Porsche 992 second hand",
+      "titulo": "Used Porsche 992",
       "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Porsche 911 type 992",
+      "titulo": "Porsche 911 type 992 (from 2019)",
       "parrafos": [
-        "The Porsche 992 is the <strong>latest model in the 911</strong> series produced by Porsche AG. It was released in 2019 and is currently being manufactured. The 992 is the successor to the Porsche 991 and is considered the <strong>most advanced and technological model</strong> of the 911 series to date.",
-        "The 992 is noticeably different from previous models in the 911 series due to its <strong>body modern design</strong> and his <strong>focus on technology</strong>. The interior has also been improved with higher quality materials and more technology, including the addition of a large touch screen on the instrument panel."
+        "The 992 is the current 911: 3.0 twin-turbo with 385 hp in the Carrera, 450 in the S and 480 in the GTS, eight-speed PDK, wide body on every version and a digital interior. The Turbo S reaches 650 hp and the GT3 keeps the naturally aspirated 4.0 with 510 hp. From 2024 the second series adds the Carrera GTS with the T-Hybrid system.",
+        "Buying a used 992 means buying an almost new car for considerably less than a new one, with no waiting list. The difference lies in the options and in how much warranty is left."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "992 second-hand reviewed by experts",
-      "parrafos": [
-        "We subject all vehicles to an extensive review, verifying each unit with <strong>111 inspection elements.</strong> We have 2 engineers on our team who, together with <strong>40 years of experience</strong> working exclusively with vehicles Porsche in sales, servicing and preparation for daily use and competition makes us <strong>leaders in the sector</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 911 vehicles certified by Valentín Motors",
-      "parrafos": [
-        "The Valentín Motors approved warranty provides <strong>twelve months of coverage / a mileage limit of 10.000 kms</strong> for the engine and gearbox throughout Spain.",
-        "We have operated this warranty <strong>since 2004</strong> and all clients prefer it to warranty options backed by 'third party' insurance.",
-        "Valentín Motors prepares cars for sale <strong>at the highest level</strong>, without sparing efforts.",
-        "The Porsche vehicles that we sell end up being used in all types of scenarios: some of them enter <strong>collections</strong> for sporadic use, others are <strong>driven sportily</strong>. We make sure that all cars are <strong>prepared for any usage scenario</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Mileage certificate",
-      "parrafos": [
-        "We certify that the <strong>mileage is real </strong>and we record it on the sales invoice."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 992 used",
+      "titulo": "What we check on a 992 before selling it",
       "parrafos": [],
+      "items": [
+        "Factory and Porsche Approved warranty: how much remains and on what terms it transfers.",
+        "Service history within the Porsche network and service campaigns carried out.",
+        "Electronics and software: PCM, driver assistance, sensors and pending updates.",
+        "PDK, brakes (PCCB if fitted), tyres and wheels: condition, dates and damage.",
+        "Full specification: options, packages and match with the Porsche certificate."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Buying a 992 at Valentín Motors",
+      "parrafos": [
+        "Every Porsche 992 we sell goes through our 111-point inspection, leaves with a twelve-month or 10,000 km warranty on engine and gearbox, and its certified mileage is stated on the sales invoice. We have been Porsche specialists since 1979, with our own workshops in Barcelona and Madrid: the car you buy here has been on our lift before it reaches your hands.",
+        "If you have found the one you want elsewhere, we can also check it for you before you pay for it: <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspection</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,11 +63,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "traduccion": {
-    "hechas": 17,
-    "total": 17,
-    "completa": true
-  },
-  "menu": "992 used"
+  }
 }

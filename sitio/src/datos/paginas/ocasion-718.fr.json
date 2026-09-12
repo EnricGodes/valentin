@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-718",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-718",
+  "meta": {
+    "titulo": "Porsche 718 Boxster et Cayman d’occasion · Valentín Motors",
+    "descripcion": "Porsche 718 Boxster et Cayman type 982, depuis 2016, inspectés en 111 points : quatre cylindres turbo ou six atmosphériques en GTS 4.0, Spyder et GT4. Garantie de douze mois.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 718 Boxster et Cayman d’occasion",
+  "menu": "Porsche 718 Boxster et Cayman",
+  "articulos": [
+    "porsche-718"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 718 Boxster et Cayman d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 718 Boxster et Cayman, type 982 (depuis 2016)",
+      "parrafos": [
+        "Le 718 renouvelle Boxster et Cayman avec des quatre cylindres turbo : 2.0 de 300 ch et 2.5 de 350 sur le S et 365 sur le GTS. En 2019, le six cylindres atmosphérique revient avec le 4.0 de 400 ch sur le GTS 4.0 et de 420 sur le Spyder et le Cayman GT4, et avec lui reviennent les listes d’attente.",
+        "Les quatre cylindres sont des voitures rapides et sobres qui s’achètent bien d’occasion ; les 4.0 sont celles que le marché poursuit. Dans les deux cas, il faut regarder la garantie restante et l’usage qui en a été fait."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur un 718 avant de le vendre",
+      "parrafos": [],
+      "items": [
+        "Garantie constructeur ou Porsche Approved : ce qu’il en reste et à quelles conditions elle se transfère.",
+        "Historique d’entretien dans le réseau Porsche et campagnes de service effectuées.",
+        "Moteur turbo : pression de suralimentation, intercooler et fuites ; sur les 4.0, consommation d’huile et bruits à froid.",
+        "PDK ou manuelle, freins, pneus et jantes : état, dates et chocs.",
+        "Sur Spyder et GT4 : usage sur circuit, composants remplacés et originalité."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter un 718 chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 718 Boxster et Cayman que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

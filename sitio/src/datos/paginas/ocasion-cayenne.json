@@ -1,0 +1,60 @@
+{
+  "rutaId": "ocasion-cayenne",
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-cayenne",
+  "meta": {
+    "titulo": "Porsche Cayenne de segunda mano y ocasión · Valentín Motors",
+    "descripcion": "Porsche Cayenne de las tres generaciones, desde 2002, revisados en 111 puntos: cardán, tubos de refrigerante, suspensión neumática y transfer. Garantía de doce meses.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche Cayenne de segunda mano",
+  "menu": "Porsche Cayenne",
+  "articulos": [],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche Cayenne de segunda mano",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche Cayenne (desde 2002)",
+      "parrafos": [
+        "El Cayenne es el todocamino que hizo posible todo lo demás. La primera generación (2002-2010) monta V6 y V8 de hasta 520 CV en el Turbo S y, desde 2009, el diésel; la segunda (2010-2017) añade el híbrido y baja peso; la tercera, desde 2017, trae el Coupé, los E-Hybrid y, en 2023, una puesta al día profunda.",
+        "Es un Porsche que se usa mucho y se revisa poco, y eso se nota en el mercado de segunda mano. Un Cayenne con historial y con las averías conocidas resueltas es un coche extraordinario por lo que cuesta; nosotros nos ocupamos de que sea ese."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué revisamos en un Cayenne antes de venderlo",
+      "parrafos": [],
+      "items": [
+        "Primera generación: cardán y su rodamiento central, y tubos de refrigerante de plástico en los V8, que se sustituyen por aluminio.",
+        "Transfer y diferenciales: ruidos, fugas y estado del aceite. Suspensión neumática: fugas y compresor.",
+        "Mantenimiento a intervalos: aceite, bujías, filtros y correa o cadena según motor. Diésel: inyectores y filtro de partículas.",
+        "En los híbridos: estado de la batería y del sistema de alta tensión.",
+        "Neumáticos, frenos y electrónica: sensores, asistentes y códigos memorizados."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un Cayenne en Valentín Motors",
+      "parrafos": [
+        "Cada Porsche Cayenne que vendemos pasa nuestra revisión de 111 puntos, sale con garantía de doce meses o 10.000 km en motor y caja de cambios, y el kilometraje certificado consta en la factura de venta. Somos especialistas Porsche desde 1979, con taller propio en Barcelona y Madrid: el coche que compras aquí ha pasado por nuestro elevador antes que por tus manos.",
+        "Si el que buscas lo has encontrado en otro sitio, también podemos revisarlo por ti antes de que lo pagues: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

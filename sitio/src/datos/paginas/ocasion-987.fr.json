@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-987",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-987",
+  "meta": {
+    "titulo": "Porsche Boxster et Cayman 987 d’occasion · Valentín Motors",
+    "descripcion": "Porsche Boxster et Cayman type 987, de 2005 à 2012, inspectés en 111 points : IMS et bore scoring sur la première série, PDK sur la seconde. Garantie de douze mois.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 987 Boxster et Cayman d’occasion",
+  "menu": "Porsche 987 Boxster et Cayman",
+  "articulos": [
+    "porsche-987"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 987 Boxster et Cayman d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche Boxster et Cayman type 987 (2005-2012)",
+      "parrafos": [
+        "La deuxième génération du Boxster amène le Cayman, le coupé à moteur central que beaucoup tiennent pour la Porsche la mieux équilibrée de son époque. La première série (2005-2008) monte des 2.7 et 3.4, avec le Cayman S à 295 ch ; la seconde (2009-2012) passe à l’injection directe, 2.9 et 3.4 jusqu’à 320 ch, et inaugure le PDK. Le Boxster Spyder et le Cayman R ferment la gamme.",
+        "Un 987.2 est une mécanique sans IMS et avec PDK, presque sans point faible connu. Un 987.1 est moins cher et demande la même inspection qu’une 997.1. Savoir lequel est lequel, c’est la moitié de l’achat."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur un 987 avant de le vendre",
+      "parrafos": [],
+      "items": [
+        "<a href=\"/taller-porsche/reparacion-ims\">IMS</a> sur la première série : roulement et remplacements documentés.",
+        "<a href=\"/taller-porsche/bore-scoring\">Bore scoring</a> sur les 3.4 de première série : endoscopie et consommation d’huile.",
+        "PDK sur la seconde série : vidange et filtre et comportement à froid.",
+        "Radiateurs et condenseurs avant, capote sur le Boxster et joints de hayon sur le Cayman.",
+        "Embrayage, freins, PASM s’il est monté et concordance des options avec le certificat Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter un Boxster ou un Cayman 987 chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 987 Boxster et Cayman que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

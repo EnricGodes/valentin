@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-993",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-993",
+  "meta": {
+    "titulo": "Porsche 993 d’occasion à vendre · Valentín Motors",
+    "descripcion": "Porsche 911 type 993, la dernière refroidie par air, de 1994 à 1998. Inspectées en 111 points, garantie de douze mois et kilométrage certifié.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 993 d’occasion",
+  "menu": "Porsche 993",
+  "articulos": [
+    "porsche-993"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 993 d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 type 993 (1994-1998)",
+      "parrafos": [
+        "La 993 est la dernière 911 refroidie par air, et le marché le sait. Moteur 3.6 de 272 ch, 285 avec VarioRam à partir de 1996, boîte manuelle à six rapports, suspension arrière multibras et une carrosserie que beaucoup tiennent pour la plus équilibrée de toutes. La Turbo inaugure le biturbo et la transmission intégrale ; Carrera S et 4S portent sa carrosserie large.",
+        "C’est une voiture qui s’utilise au quotidien et qui se valorise. Les exemplaires à l’historique complet et sans corrosion font le prix ; les autres se paient en dessous, à juste titre."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur une 993 avant de la vendre",
+      "parrafos": [],
+      "items": [
+        "Guides de soupapes et consommation d’huile : le point faible du moteur. Nous mesurons compression et fuites.",
+        "Fuites aux couvre-culasses, joints et radiateur d’huile. État des radiateurs avant et des ventilateurs.",
+        "Suspension arrière multibras : silentblocs et bras, qui se révèlent par des bruits et à la géométrie.",
+        "Boîte à six rapports et embrayage ; sur la Turbo, les deux turbos et la transmission intégrale.",
+        "Carrosserie : chocs réparés, peinture d’origine et concordance avec le certificat Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter une 993 chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 993 que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

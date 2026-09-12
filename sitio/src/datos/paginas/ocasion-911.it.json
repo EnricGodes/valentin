@@ -1,0 +1,68 @@
+{
+  "rutaId": "ocasion-911",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-911",
+  "meta": {
+    "titulo": "Porsche 911 classica usata (1964-1989) · Valentín Motors",
+    "descripcion": "Porsche 911 classiche delle serie F e G, dal 1964 al 1989, ispezionate in 111 punti e con garanzia di dodici mesi. Carrera 2.7, SC, Carrera 3.2 e Targa.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 911 classica usata",
+  "menu": "Porsche 911 classica",
+  "articulos": [
+    "porsche-911-f",
+    "porsche-911g"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 911 classica usata",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 serie F e G (1964-1989)",
+      "parrafos": [
+        "La 911 raffreddata ad aria di prima e seconda serie è la Porsche di riferimento. La serie F (1964-1973) va dal 2.0 originale al 2.4 e culmina nella Carrera RS 2.7; la serie G (1974-1989) porta i paraurti a soffietto, il 2.7, la 3.0 SC e, dal 1984, la Carrera 3.2 con iniezione Motronic e, negli ultimi due anni, il cambio G50.",
+        "Una 911 classica scelta bene è un’auto da usare. SC e Carrera 3.2 sono meccaniche robuste con ricambi disponibili; le F più antiche e le RS sono pezzi da collezione dove l’originalità conta più del chilometraggio."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlliamo in una 911 classica prima di venderla",
+      "parrafos": [],
+      "items": [
+        "Corrosione: duomi delle sospensioni, longheroni, pavimenti, cornici di parabrezza e lunotto. La carrozzeria zincata arriva nel 1976 e non copre tutto.",
+        "Motore: compressione e perdite, tendicatena della distribuzione (idraulici dalla 3.2 del 1984), prigionieri delle testate sui 2.7 con carter in magnesio.",
+        "Cambio: sincronizzatori del 915, stato del G50 sulle Carrera 3.2 dal 1987 al 1989.",
+        "Iniezione: K-Jetronic sulle SC, Motronic sulle 3.2. Avviamento a freddo, minimo e consumi.",
+        "Originalità: numeri corrispondenti, colori e optional secondo il certificato Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprare una 911 classica da Valentín Motors",
+      "parrafos": [
+        "Ogni Porsche 911 classica che vendiamo passa la nostra ispezione in 111 punti, esce con garanzia di dodici mesi o 10.000 km su motore e cambio, e il chilometraggio certificato è riportato sulla fattura di vendita. Siamo specialisti Porsche dal 1979, con officine proprie a Barcellona e Madrid: l’auto che compra qui è passata sul nostro ponte prima di arrivare nelle sue mani.",
+        "Se quella che cerca l’ha trovata altrove, possiamo anche controllarla per lei prima che la paghi: <a href=\"/taller-porsche/inspeccion-pre-compra\">ispezione pre-acquisto</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

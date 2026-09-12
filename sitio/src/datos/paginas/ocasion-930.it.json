@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-930",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-930",
+  "meta": {
+    "titulo": "Porsche 930 Turbo usata in vendita · Valentín Motors",
+    "descripcion": "Porsche 911 Turbo tipo 930, dal 1975 al 1989, ispezionate in 111 punti: turbo, intercooler, frizione e carrozzeria. Garanzia di dodici mesi e chilometraggio certificato.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 930 Turbo usata",
+  "menu": "Porsche 930 Turbo",
+  "articulos": [
+    "porsche-930"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 930 Turbo usata",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 Turbo tipo 930 (1975-1989)",
+      "parrafos": [
+        "La 930 è la prima 911 Turbo: 3,0 litri e 260 CV nel 1975, 3,3 con intercooler e 300 CV dal 1978, sempre con il cambio a quattro marce fino al 1989, il suo ultimo anno, quando ricevette il G50 a cinque. Parafanghi larghi, alettone a vassoio e un’erogazione che non somiglia a nulla di successivo.",
+        "È un’auto che esige rispetto al volante e all’acquisto. Gli esemplari non modificati e con storia sono sempre meno, e la differenza di valore tra una 930 originale e una con kit Flachbau o motore elaborato è grande in entrambe le direzioni."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlliamo in una 930 prima di venderla",
+      "parrafos": [],
+      "items": [
+        "Turbo, wastegate e valvola di sfiato: pressione di sovralimentazione, fumo e rumori a motore caldo.",
+        "Intercooler, manicotti e perdite d’olio da coperchi, paraoli e radiatore dell’olio.",
+        "Frizione e cambio: la coppia del 3.3 li mette alla prova; verifichiamo slittamenti, rumori e sincronizzatori.",
+        "Carrozzeria: parafanghi larghi, alettone, pavimenti e duomi. E se è una Flachbau, se lo è di fabbrica.",
+        "Storia e originalità: motore, cambio e colore secondo il certificato Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprare una 930 Turbo da Valentín Motors",
+      "parrafos": [
+        "Ogni Porsche 930 Turbo che vendiamo passa la nostra ispezione in 111 punti, esce con garanzia di dodici mesi o 10.000 km su motore e cambio, e il chilometraggio certificato è riportato sulla fattura di vendita. Siamo specialisti Porsche dal 1979, con officine proprie a Barcellona e Madrid: l’auto che compra qui è passata sul nostro ponte prima di arrivare nelle sue mani.",
+        "Se quella che cerca l’ha trovata altrove, possiamo anche controllarla per lei prima che la paghi: <a href=\"/taller-porsche/inspeccion-pre-compra\">ispezione pre-acquisto</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-718",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-718",
+  "meta": {
+    "titulo": "Porsche 718 Boxster i Cayman de segona mà · Valentín Motors",
+    "descripcion": "Porsche 718 Boxster i Cayman tipus 982, des de 2016, revisats en 111 punts: quatre cilindres turbo o sis atmosfèrics a GTS 4.0, Spyder i GT4. Garantia de dotze mesos.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 718 Boxster i Cayman de segona mà",
+  "menu": "Porsche 718 Boxster i Cayman",
+  "articulos": [
+    "porsche-718"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 718 Boxster i Cayman de segona mà",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 718 Boxster i Cayman, tipus 982 (des de 2016)",
+      "parrafos": [
+        "El 718 renova Boxster i Cayman amb motors de quatre cilindres turbo: 2.0 de 300 CV i 2.5 de 350 a l’S i 365 al GTS. El 2019 torna el sis cilindres atmosfèric amb el 4.0 de 400 CV al GTS 4.0 i de 420 a Spyder i Cayman GT4, i amb ell tornen les llistes d’espera.",
+        "Els quatre cilindres són cotxes ràpids i sobris que es compren bé de segona mà; els 4.0 són els que el mercat persegueix. En els dos casos convé mirar la garantia que queda i com s’ha fet servir."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què revisem en un 718 abans de vendre’l",
+      "parrafos": [],
+      "items": [
+        "Garantia de fàbrica o Porsche Approved: quanta en queda i en quines condicions es transfereix.",
+        "Historial de manteniment a la xarxa Porsche i campanyes de servei aplicades.",
+        "Motor turbo: pressió de bufada, intercooler i fuites; als 4.0, consum d’oli i sorolls en fred.",
+        "PDK o manual, frens, pneumàtics i llantes: estat, dates i cops.",
+        "A Spyder i GT4: ús en circuit, components substituïts i originalitat."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 718 a Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 718 Boxster i Cayman que venem passa la nostra revisió de 111 punts, surt amb garantia de dotze mesos o 10.000 km en motor i caixa de canvis, i el quilometratge certificat consta a la factura de venda. Som especialistes Porsche des de 1979, amb taller propi a Barcelona i Madrid: el cotxe que compres aquí ha passat pel nostre elevador abans que per les teves mans.",
+        "Si el que busques l’has trobat en un altre lloc, també el podem revisar per tu abans que el paguis: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció prèvia a la compra</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

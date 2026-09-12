@@ -1,0 +1,68 @@
+{
+  "rutaId": "ocasion-911",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-911",
+  "meta": {
+    "titulo": "Porsche 911 classique d’occasion (1964-1989) · Valentín Motors",
+    "descripcion": "Porsche 911 classiques des séries F et G, de 1964 à 1989, inspectées en 111 points avec garantie de douze mois. Carrera 2.7, SC, Carrera 3.2 et Targa.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 911 classique d’occasion",
+  "menu": "Porsche 911 classique",
+  "articulos": [
+    "porsche-911-f",
+    "porsche-911g"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 911 classique d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 séries F et G (1964-1989)",
+      "parrafos": [
+        "La 911 refroidie par air de première et deuxième série est la Porsche de référence. La série F (1964-1973) va du 2.0 d’origine au 2.4 et culmine avec la Carrera RS 2.7 ; la série G (1974-1989) apporte les pare-chocs à soufflets, le 2.7, la 3.0 SC et, à partir de 1984, la Carrera 3.2 avec injection Motronic puis, les deux dernières années, la boîte G50.",
+        "Une 911 classique bien choisie est une voiture à utiliser. Les SC et Carrera 3.2 sont des mécaniques robustes aux pièces disponibles ; les F précoces et les RS sont des pièces de collection où l’originalité prime sur le kilométrage."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur une 911 classique avant de la vendre",
+      "parrafos": [],
+      "items": [
+        "Corrosion : tourelles de suspension, longerons, planchers, cadres de pare-brise et de lunette. La carrosserie galvanisée arrive en 1976 et ne couvre pas tout.",
+        "Moteur : compression et fuites, tendeurs de chaîne de distribution (hydrauliques à partir de la 3.2 de 1984), goujons de culasse sur les 2.7 à carter magnésium.",
+        "Boîte de vitesses : synchros de la 915, état de la G50 sur les Carrera 3.2 de 1987 à 1989.",
+        "Injection : K-Jetronic sur les SC, Motronic sur les 3.2. Démarrage à froid, ralenti et consommation.",
+        "Originalité : numéros concordants, couleurs et options selon le certificat Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter une 911 classique chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 911 classique que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

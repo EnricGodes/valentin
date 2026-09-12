@@ -2,27 +2,44 @@
  * Generaciones de Porsche y sus landings de compra.
  *
  * Quien busca "porsche 997 segunda mano" no quiere el catalogo entero: quiere
- * los 997. Las landings `ocasion-997`, `ocasion-996`... existian como texto
- * fijo heredado de Squarespace, sin un solo coche dentro. Aqui se les da lo
- * que les faltaba: saber que coches son suyos.
+ * los 997. Cada generacion tiene su landing (`ocasion-997`, `ocasion-986`...)
+ * y aqui se decide que coches son suyos.
  *
  * La generacion sale del slug del coche, no de un campo nuevo en 42 JSON. Un
- * slug de Valentin siempre lleva el numero de tipo ("porsche-997-manual",
- * "porsche996coupecarreratiptronic", "997-ruf-kompressor"), y un numero de
- * tres cifras que empieza por 9 y no forma parte de otro numero es un tipo
- * Porsche. "1960" no cuela: el 9 va detras de otra cifra.
+ * slug de Valentin siempre lleva el tipo ("porsche-997-manual",
+ * "porsche996coupecarreratiptronic", "997-ruf-kompressor", "porsche-981-
+ * cayman-gts") o el nombre del modelo ("cayenne"). El RUF cuenta como 997:
+ * lo es de base, y quien busca un 997 quiere verlo.
  */
 import { RUTAS } from '../i18n/routes';
 import { POR_DEFECTO, type Idioma } from '../i18n/config';
 import { cochesDe, cochePorSlug, idiomasDeCoche, type Coche } from './coche';
 import { VENDIDOS, type Vendido } from './vendido';
 
-export const generacionDe = (slug: string): string | undefined =>
-  slug.match(/(?:^|[^0-9])(9\d\d)(?![0-9])/)?.[1];
+/* Tipos de fabrica con landing propia. El 911 va aparte: un 964 o un 997
+   tambien son 911, asi que "911" solo se asigna si no hay un tipo mas concreto
+   en el slug. El 718 es el tipo 982 en la documentacion de Porsche. */
+const TIPOS = ['356', '912', '914', '924', '928', '930', '944', '964', '968',
+               '981', '986', '987', '991', '992', '993', '996', '997'];
+const ALIAS: Record<string, string> = { '718': '718', '982': '718' };
+const NOMBRES = ['cayenne', 'macan', 'panamera'];
+
+export function generacionDe(slug: string): string | undefined {
+  const s = slug.toLowerCase();
+  // Un numero de tres cifras que no forma parte de otro numero ("1960" no cuela).
+  for (const m of s.matchAll(/(?:^|\D)(\d{3})(?!\d)/g)) {
+    const n = m[1];
+    if (TIPOS.includes(n)) return n;
+    if (ALIAS[n]) return ALIAS[n];
+  }
+  for (const n of NOMBRES) if (s.includes(n)) return n;
+  if (/(?:^|\D)911(?!\d)/.test(s)) return '911';
+  return undefined;
+}
 
 /** Landings de compra que existen en el manifiesto: `ocasion-997` -> "997". */
 export const GENERACIONES_CON_LANDING: { generacion: string; rutaId: string }[] =
-  RUTAS.filter((r) => /^ocasion-\d{3}$/.test(r.id))
+  RUTAS.filter((r) => r.id.startsWith('ocasion-'))
        .map((r) => ({ generacion: r.id.slice('ocasion-'.length), rutaId: r.id }));
 
 export const landingDeGeneracion = (generacion: string | undefined): string | undefined =>

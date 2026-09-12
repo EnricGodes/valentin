@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-964",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-964",
+  "meta": {
+    "titulo": "Porsche 964 d’occasion à vendre · Valentín Motors",
+    "descripcion": "Porsche 911 type 964, de 1989 à 1994, inspectées en 111 points : fuites du carter, volant bimasse, Tiptronic et carrosserie. Garantie de douze mois.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 964 d’occasion",
+  "menu": "Porsche 964",
+  "articulos": [
+    "porsche-964"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 964 d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 type 964 (1989-1994)",
+      "parrafos": [
+        "La 964 ressemble à une 911 classique et est neuve à 87 pour cent : moteur 3.6 de 250 ch, suspension à ressorts hélicoïdaux, ABS, direction assistée, transmission intégrale sur la Carrera 4 et, pour la première fois, la boîte automatique Tiptronic. La Turbo 3.3 puis 3.6, la RS et la Speedster complètent la gamme.",
+        "C’est la dernière 911 à la silhouette d’origine et la première qui se conduit comme une voiture moderne. C’est pourquoi elle prend de la valeur et pourquoi il faut bien l’acheter : les défauts de jeunesse du moteur doivent déjà être réglés sur tout exemplaire sérieux."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur une 964 avant de la vendre",
+      "parrafos": [],
+      "items": [
+        "Fuites d’huile à la base des cylindres : les premiers moteurs sont sortis sans joints et beaucoup ont été corrigés depuis. Nous vérifions lesquels.",
+        "Volant bimasse : bruits au ralenti et vibrations. Le Freudenberg d’origine a posé problème ; le LUK, non.",
+        "Tendeurs de distribution, couvre-culasses et état de la turbine de refroidissement et de son roulement.",
+        "Suspension : silentblocs, amortisseurs et géométrie. Tiptronic : passages et fuites sur celles qui en sont équipées.",
+        "Carrosserie et originalité : aileron rétractable, pare-chocs et concordance avec le certificat Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter une 964 chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 964 que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

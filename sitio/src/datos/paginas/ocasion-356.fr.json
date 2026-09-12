@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-356",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-356",
+  "meta": {
+    "titulo": "Porsche 356 d’occasion à vendre · Valentín Motors",
+    "descripcion": "Porsche 356 inspectées en 111 points, carrosserie et numéros de châssis et de moteur vérifiés, garantie de douze mois et kilométrage certifié.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 356 d’occasion",
+  "menu": "Porsche 356",
+  "articulos": [
+    "porsche-356"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 356 d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 356 (1948-1965)",
+      "parrafos": [
+        "La 356 est la première Porsche et celle qui fixe la recette : un flat-four refroidi par air suspendu derrière l’essieu arrière et une carrosserie légère faite pour les routes de montagne. Elle a été produite en quatre séries, Pre-A, A, B et C, avec des cylindrées de 1,1 à 2,0 litres et des carrosseries coupé, cabriolet, speedster et roadster.",
+        "Une 356 s’achète pour ce qu’elle est et pour ce qu’elle a été. Les papiers, le Kardex d’usine et la concordance des numéros de châssis, de moteur et de boîte pèsent autant que l’état mécanique. C’est une voiture simple à entretenir et très coûteuse à mal restaurer."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur une 356 avant de la vendre",
+      "parrafos": [],
+      "items": [
+        "Carrosserie et soubassement : longerons, planchers, bas de portes, bac de batterie et tourelles. La corrosion fixe le prix d’une 356 plus que le moteur.",
+        "Numéros de châssis, de moteur et de boîte face aux documents et, s’il existe, au certificat d’authenticité Porsche.",
+        "Moteur : compression, fuites, état des carburateurs et du circuit électrique en 6 volts.",
+        "Freins à tambour sur les séries A et B, à disque sur la C : réglage, cylindres et flexibles.",
+        "Historique de restauration : ce qui a été fait, par qui et avec quelles pièces."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter une Porsche 356 chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 356 que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

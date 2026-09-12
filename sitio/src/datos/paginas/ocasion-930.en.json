@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-930",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-930",
+  "meta": {
+    "titulo": "Used Porsche 930 Turbo for sale · Valentín Motors",
+    "descripcion": "Porsche 911 Turbo type 930, from 1975 to 1989, inspected on 111 points: turbo, intercooler, clutch and body. Twelve-month warranty and certified mileage.",
+    "ogImagen": ""
+  },
+  "h1": "Used Porsche 930 Turbo",
+  "menu": "Porsche 930 Turbo",
+  "articulos": [
+    "porsche-930"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Used Porsche 930 Turbo",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 Turbo type 930 (1975-1989)",
+      "parrafos": [
+        "The 930 is the first 911 Turbo: 3.0 litres and 260 hp in 1975, 3.3 with intercooler and 300 hp from 1978, always with the four-speed gearbox until 1989, its last year, when it received the five-speed G50. Wide arches, whale-tail spoiler and a power delivery unlike anything that came after.",
+        "It is a car that demands respect at the wheel and when buying. Unmodified cars with history are getting scarcer, and the difference in value between an original 930 and one with a Flachbau kit or a tuned engine is large in both directions."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we check on a 930 before selling it",
+      "parrafos": [],
+      "items": [
+        "Turbo, wastegate and blow-off valve: boost pressure, smoke and noises with the engine hot.",
+        "Intercooler, hoses and oil leaks at covers, seals and oil cooler.",
+        "Clutch and gearbox: the torque of the 3.3 punishes both; we check for slip, noises and synchros.",
+        "Body: wide arches, spoiler, floors and towers. And if it is a Flachbau, whether it left the factory that way.",
+        "History and originality: engine, gearbox and colour according to the Porsche certificate."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Buying a 930 Turbo at Valentín Motors",
+      "parrafos": [
+        "Every Porsche 930 Turbo we sell goes through our 111-point inspection, leaves with a twelve-month or 10,000 km warranty on engine and gearbox, and its certified mileage is stated on the sales invoice. We have been Porsche specialists since 1979, with our own workshops in Barcelona and Madrid: the car you buy here has been on our lift before it reaches your hands.",
+        "If you have found the one you want elsewhere, we can also check it for you before you pay for it: <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspection</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

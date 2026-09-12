@@ -1,13 +1,17 @@
 {
   "rutaId": "ocasion-996",
   "tipo": "landing",
-  "ficheroOriginal": "porsche-996-de-segunda-mano",
+  "ficheroOriginal": "ocasion-996",
   "meta": {
     "titulo": "Porsche 996 de segunda mano y ocasión · Valentín Motors",
-    "descripcion": "Porsche 911 tipo 996 revisados en 111 puntos por nuestros ingenieros, con doce meses de cobertura y el kilometraje certificado en factura.",
+    "descripcion": "Porsche 911 tipo 996, de 1998 a 2005, revisados en 111 puntos: IMS, bore scoring, retén de cigüeñal y refrigeración. Garantía de doce meses y kilometraje certificado.",
     "ogImagen": ""
   },
   "h1": "Porsche 996 de segunda mano",
+  "menu": "Porsche 996",
+  "articulos": [
+    "porsche-996"
+  ],
   "acordeones": [],
   "secciones": [
     {
@@ -19,48 +23,34 @@
     },
     {
       "nivel": 2,
-      "titulo": "Porsche 911 tipo 996",
+      "titulo": "Porsche 911 tipo 996 (1998-2005)",
       "parrafos": [
-        "El Porsche 996 es un automóvil deportivo de lujo producido por Porsche AG. Se fabricó de 1998 a 2005. El 996 fue el primer modelo de la serie 911 en utilizar un <strong>motor de seis cilindros</strong> con inyección de combustible.",
-        "El Porsche 911 tipo 996 se diferencia notablemente de los modelos anteriores de la serie 911 por su <strong>nueva carrocería</strong> y su enfoque en el <strong>rendimiento</strong>. El interior también incorporó materiales de mayor calidad y más tecnología."
+        "El 996 es el primer 911 refrigerado por agua y el que salvó a Porsche. Motor M96 de 3.4 litros y 300 CV, 3.6 y 320 CV desde 2002, Tiptronic o manual de seis velocidades, y por encima el Turbo con motor Mezger de 420 CV, el GT3 y el GT2. Sus faros compartidos con el Boxster le costaron años de prejuicio y hoy son parte de su carácter.",
+        "Es el 911 más accesible y el que más exige comprar con criterio. Sus dos puntos débiles, el rodamiento del árbol intermedio y el bore scoring, se diagnostican y se resuelven: en Valentín Motors los tratamos <a href=\"/taller-porsche/reparacion-ims\">a diario</a>."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "996 de segunda mano revisado por expertos",
-      "parrafos": [
-        "Revisamos todos los vehículos mediante <strong>111 elementos de inspección.</strong> Nuestro equipo cuenta con 2 ingenieros que, junto con <strong>40 años de experiencia</strong> dedicados exclusivamente a los vehículos Porsche, su venta, su mantenimiento y su preparación para el uso diario y la competición, nos permiten ofrecer <strong>un servicio especializado</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Vehículos Porsche 911 certificados por Valentín Motors",
-      "parrafos": [
-        "La garantía aprobada por Valentín Motors proporciona a los clientes una <strong>cobertura de doce meses y un kilometraje limitado a 10.000 km</strong> para el motor y la caja de cambios en todo el territorio nacional.",
-        "Gestionamos esta garantía <strong>desde 2004</strong> y nuestros clientes la prefieren a las opciones respaldadas por un seguro de «terceros».",
-        "Valentín Motors prepara los automóviles para la venta <strong>siguiendo criterios exigentes</strong>.",
-        "Los vehículos Porsche que vendemos se destinan a todo tipo de usos: algunos pasan a formar parte de <strong>colecciones</strong> para un uso esporádico; otros son <strong>conducidos deportivamente</strong>. Nos aseguramos de que todos estén <strong>preparados para distintos escenarios de uso</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Kilometraje certificado",
-      "parrafos": [
-        "Certificamos que el <strong>kilometraje es real</strong> y lo hacemos constar en la factura de venta."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 996 de ocasión",
+      "titulo": "Qué revisamos en un 996 antes de venderlo",
       "parrafos": [],
+      "items": [
+        "<a href=\"/taller-porsche/reparacion-ims\">IMS</a>: estado del rodamiento del árbol intermedio y si se ha sustituido, por qué pieza y cuándo.",
+        "<a href=\"/taller-porsche/bore-scoring\">Bore scoring</a>: endoscopia de los cilindros, sobre todo en los 3.6, y análisis del consumo de aceite.",
+        "Retén trasero de cigüeñal, separador aire-aceite y fugas en el bloque.",
+        "Refrigeración: radiadores, condensadores, depósito de expansión y termostato.",
+        "Tiptronic o manual, embrague, y en el Turbo el estado de los dos turbos y del sistema de admisión."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 996 en Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 996 que vendemos pasa nuestra revisión de 111 puntos, sale con garantía de doce meses o 10.000 km en motor y caja de cambios, y el kilometraje certificado consta en la factura de venta. Somos especialistas Porsche desde 1979, con taller propio en Barcelona y Madrid: el coche que compras aquí ha pasado por nuestro elevador antes que por tus manos.",
+        "Si el que buscas lo has encontrado en otro sitio, también podemos revisarlo por ti antes de que lo pagues: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,6 +58,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "996 de ocasión"
+  }
 }

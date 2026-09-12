@@ -142,3 +142,16 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 
 ### Porsche 997 RUF Kompressor R (ruf.html)
 - Sin notas pendientes
+
+---
+
+## Sitio Astro (`sitio/`)
+
+El sitio publicado ya no son los microsites de la raíz sino la app Astro de `sitio/` (seis idiomas, `npm run build` con validadores). Notas que no se deducen del código:
+
+### Landings por generación (`ocasion-<gen>`)
+- Una por modelo (22): 356, 911 clásico, 930, 964, 993, 996, 997, 991, 992, 986, 987, 981, 718, 912, 914, 924, 928, 944, 968, Cayenne, Macan, Panamera. Sin Taycan a propósito.
+- Slug ES `porsche-<gen>-de-segunda-mano`: "segunda mano" se busca 9 veces más que "ocasión" y 17 más que "en venta" (Trends España, sept. 2026). No renombrar.
+- Los coches se asignan por el slug de la ficha (`src/datos/generacion.ts`). El RUF cuenta como 997. Un coche nuevo aparece solo en su landing.
+- Para añadir una generación: ruta en `routes.ts`, tipo en `generacion.ts` si es un número nuevo, y los seis JSON `ocasion-<gen>[.idioma].json` con la misma estructura (intro, qué revisamos, comprar).
+- No van en el menú: las enlazan el catálogo, las migas de cada ficha, el pie y entre sí.

@@ -1,13 +1,22 @@
 {
   "rutaId": "ocasion-996",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
   "tipo": "landing",
-  "ficheroOriginal": "porsche-996-de-segunda-mano",
+  "ficheroOriginal": "ocasion-996",
   "meta": {
-    "titulo": "Porsche 996 de segona mà i ocasió — Valentín Motors",
-    "descripcion": "Porsche 911 (996) d'ocasió, amb revisió de 111 punts pels nostres enginyers, dotze mesos de cobertura i quilometratge certificat.",
+    "titulo": "Porsche 996 de segona mà i ocasió · Valentín Motors",
+    "descripcion": "Porsche 911 tipus 996, de 1998 a 2005, revisats en 111 punts: IMS, bore scoring, retén de cigonyal i refrigeració. Garantia de dotze mesos i quilometratge certificat.",
     "ogImagen": ""
   },
   "h1": "Porsche 996 de segona mà",
+  "menu": "Porsche 996",
+  "articulos": [
+    "porsche-996"
+  ],
   "acordeones": [],
   "secciones": [
     {
@@ -19,48 +28,34 @@
     },
     {
       "nivel": 2,
-      "titulo": "Porsche 911 tipus 996",
+      "titulo": "Porsche 911 tipus 996 (1998-2005)",
       "parrafos": [
-        "El Porsche 996 és un model d'automòbil esportiu de luxe produït per Porsche AG. Va ser fabricat des de l'any 1998 fins a l'any 2005. El 996 és el primer model de la sèrie 911 a utilitzar un <strong>motor de sis cilindres</strong> amb injecció de combustible",
-        "El Porsche 911 tipus 996 és notablement diferent dels models anteriors de la sèrie 911 a causa de la seva <strong>nova carrosseria</strong> i el seu enfocament al <strong>rendiment</strong>. L'interior també va ser millorat amb materials de més qualitat i més tecnologia."
+        "El 996 és el primer 911 refrigerat per aigua i el que va salvar Porsche. Motor M96 de 3.4 litres i 300 CV, 3.6 i 320 CV des de 2002, Tiptronic o manual de sis velocitats, i per sobre el Turbo amb motor Mezger de 420 CV, el GT3 i el GT2. Els seus fars compartits amb el Boxster li van costar anys de prejudici i avui són part del seu caràcter.",
+        "És el 911 més accessible i el que més exigeix comprar amb criteri. Els seus dos punts febles, el rodament de l’arbre intermedi i el bore scoring, es diagnostiquen i es resolen: a Valentín Motors els tractem <a href=\"/taller-porsche/reparacion-ims\">cada dia</a>."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "996 de segona mà revisat per experts",
-      "parrafos": [
-        "Sotmetem tots els vehicles a una extensa revisió, verificant cada unitat amb <strong>111 elements d'inspecció.</strong> Comptem amb 2 enginyers al nostre equip que units a <strong>40 anys d'experiència</strong> treballant de forma exclusiva amb vehicles Porsche a la venda, manteniment i la preparació per a l'ús diari i la competició ens fa <strong>líders al sector</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Vehicles Porsche 911 certificats per Valentín Motors",
-      "parrafos": [
-        "La garantia aprovada per Valentín Motors ofereix una <strong>cobertura de dotze mesos / limitada a 10.000 kms</strong> per al motor i la caixa de canvis a tot el territori nacional.",
-        "Hem operat aquesta garantia <strong>des de 2004</strong> i tots els clients la prefereixen a les opcions de garantia recolzades per una assegurança de 'tercers'.",
-        "Valentín Motors prepara els automòbils per a la venda <strong>al més alt nivell</strong>, sense escatimar esforços.",
-        "Els vehicles Porsche que venem acaben utilitzant-se en tot tipus d'escenaris: alguns entren a <strong>col·leccions</strong> per a un ús esporàdic, altres són <strong>conduïts esportivament</strong>. Ens assegurem que tots els automòbils estiguin preparats <strong>per a qualsevol escenari d'ús</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Quilometratge certificat",
-      "parrafos": [
-        "Certifiquem que el <strong>quilometratge és real </strong>i ho fem constar en factura de venda."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 996 d'ocasió",
+      "titulo": "Què revisem en un 996 abans de vendre’l",
       "parrafos": [],
+      "items": [
+        "<a href=\"/taller-porsche/reparacion-ims\">IMS</a>: estat del rodament de l’arbre intermedi i si s’ha substituït, per quina peça i quan.",
+        "<a href=\"/taller-porsche/bore-scoring\">Bore scoring</a>: endoscòpia dels cilindres, sobretot als 3.6, i anàlisi del consum d’oli.",
+        "Retén posterior de cigonyal, separador aire-oli i fuites al bloc.",
+        "Refrigeració: radiadors, condensadors, dipòsit d’expansió i termòstat.",
+        "Tiptronic o manual, embragatge, i al Turbo l’estat dels dos turbos i del sistema d’admissió."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 996 a Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 996 que venem passa la nostra revisió de 111 punts, surt amb garantia de dotze mesos o 10.000 km en motor i caixa de canvis, i el quilometratge certificat consta a la factura de venda. Som especialistes Porsche des de 1979, amb taller propi a Barcelona i Madrid: el cotxe que compres aquí ha passat pel nostre elevador abans que per les teves mans.",
+        "Si el que busques l’has trobat en un altre lloc, també el podem revisar per tu abans que el paguis: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció prèvia a la compra</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,11 +63,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "traduccion": {
-    "hechas": 17,
-    "total": 17,
-    "completa": true
-  },
-  "menu": "996 de ocasión"
+  }
 }

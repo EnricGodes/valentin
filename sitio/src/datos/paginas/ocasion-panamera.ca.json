@@ -1,0 +1,65 @@
+{
+  "rutaId": "ocasion-panamera",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-panamera",
+  "meta": {
+    "titulo": "Porsche Panamera de segona mà i ocasió · Valentín Motors",
+    "descripcion": "Porsche Panamera de les tres generacions, des de 2009, revisats en 111 punts: suspensió pneumàtica, PDK, refrigeració dels V8 i bateries híbrides. Garantia de dotze mesos.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche Panamera de segona mà",
+  "menu": "Porsche Panamera",
+  "articulos": [],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche Panamera de segona mà",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche Panamera (des de 2009)",
+      "parrafos": [
+        "El Panamera és la berlina de Porsche: motor davanter, quatre places de veritat i de 300 a 700 CV segons versió. La primera generació (2009-2016) ofereix V6, V8, Turbo, dièsel i híbrid; la segona (2016-2023) porta l’Sport Turismo, el PDK de vuit velocitats i els E-Hybrid; la tercera, des de 2024, refina la fórmula amb suspensió activa.",
+        "Es compra com a cotxe de representació i de viatge, i com a tal es revisa: suspensió, electrònica i, als híbrids, bateria. Un Panamera amb historial és un gran turisme de quatre portes difícil d’igualar."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què revisem en un Panamera abans de vendre’l",
+      "parrafos": [],
+      "items": [
+        "Suspensió pneumàtica i PASM: fuites, compressor i amortidors.",
+        "PDK: servei d’oli i filtre i comportament en canvis lents.",
+        "Motor: als V8, refrigeració i fuites; als dièsel, injectors i filtre de partícules; als híbrids, bateria i sistema d’alta tensió.",
+        "Electrònica: PCM, assistents, sensors i codis memoritzats.",
+        "Pneumàtics, frens (PCCB si els munta) i coincidència d’opcions amb el certificat de Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un Panamera a Valentín Motors",
+      "parrafos": [
+        "Cada Porsche Panamera que venem passa la nostra revisió de 111 punts, surt amb garantia de dotze mesos o 10.000 km en motor i caixa de canvis, i el quilometratge certificat consta a la factura de venda. Som especialistes Porsche des de 1979, amb taller propi a Barcelona i Madrid: el cotxe que compres aquí ha passat pel nostre elevador abans que per les teves mans.",
+        "Si el que busques l’has trobat en un altre lloc, també el podem revisar per tu abans que el paguis: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció prèvia a la compra</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

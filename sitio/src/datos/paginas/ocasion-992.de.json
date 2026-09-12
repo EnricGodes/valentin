@@ -1,66 +1,61 @@
 {
   "rutaId": "ocasion-992",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
   "tipo": "landing",
-  "ficheroOriginal": "porsche-992-de-segunda-mano",
+  "ficheroOriginal": "ocasion-992",
   "meta": {
-    "titulo": "Porsche 992 gebraucht und gebraucht – Valentín Motors",
-    "descripcion": "Gebrauchte Porsche 911 (992) mit 111-Punkte-Prüfung, zwölf Monaten Garantie und auf der Verkaufsrechnung bestätigtem Kilometerstand.",
+    "titulo": "Porsche 992 gebraucht kaufen · Valentín Motors",
+    "descripcion": "Porsche 911 Typ 992, ab 2019, geprüft in 111 Punkten und mit zwölf Monaten Garantie. Carrera, S, GTS, Turbo und GT3, mit zertifiziertem Kilometerstand.",
     "ogImagen": ""
   },
-  "h1": "Porsche 992 aus zweiter Hand",
+  "h1": "Porsche 992 gebraucht",
+  "menu": "Porsche 992",
+  "articulos": [
+    "porsche-992"
+  ],
   "acordeones": [],
   "secciones": [
     {
       "nivel": 1,
-      "titulo": "Porsche 992 aus zweiter Hand",
-      "parrafos": [],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 911 Typ 992",
-      "parrafos": [
-        "Der Porsche 992 ist das <strong>neueste Modell der 911</strong>-Serie der Porsche AG. Es wurde im 2019 veröffentlicht und wird derzeit hergestellt. Der 992 ist der Nachfolger des Porsche 991 und gilt als das bisher <strong>fortschrittlichste und technologischste Modell</strong> der 911-Reihe.",
-        "Der 992 unterscheidet sich aufgrund seiner Eigenschaften deutlich von den Vorgängermodellen der 911-Serie <strong>Karosserie modernes Design</strong> und sein <strong>Fokus auf Technologie</strong>. Auch der Innenraum wurde durch hochwertigere Materialien und mehr Technologie verbessert, einschließlich der Hinzufügung eines großen Touchscreens auf der Instrumententafel."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "992 Gebrauchtwagen von Experten bewertet",
-      "parrafos": [
-        "Wir unterziehen alle Fahrzeuge einer umfassenden Überprüfung und verifizieren jedes Gerät mit <strong>111 Prüfelementen.</strong> Wir haben 2 Ingenieure in unserem Team, die zusammen mit <strong>40 Jahren Erfahrung</strong> ausschließlich mit Fahrzeugen Porsche im Verkauf arbeiten, Wartung und Vorbereitung für den täglichen Einsatz und den Wettbewerb machen uns zu <strong>Spitzenreitern in der Branche</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 911-Fahrzeuge, zertifiziert von Valentín Motors",
-      "parrafos": [
-        "Die von Valentín Motors genehmigte Garantie bietet <strong>zwölf Monate Deckung / eine Begrenzung auf 10.000 kms</strong> für Motor und Getriebe im gesamten Staatsgebiet.",
-        "Wir nutzen diese Garantie <strong>seit 2004</strong> und alle Kunden bevorzugen sie gegenüber Garantie-Optionen, die durch eine „Drittpartei“-Versicherung abgesichert sind.",
-        "Valentín Motors bereitet Autos zum Verkauf <strong>auf höchstem Niveau</strong> vor, ohne großen Aufwand zu betreiben.",
-        "Die Porsche-Fahrzeuge, die wir verkaufen, werden letztendlich in allen möglichen Szenarien eingesetzt: Einige von ihnen gelangen für den sporadischen Gebrauch in <strong>Sammlungen</strong>, andere werden <strong>sportlich gefahren</strong>. Wir stellen sicher, dass alle Autos <strong>auf jedes Einsatzszenario vorbereitet sind</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Kilometerstand",
-      "parrafos": [
-        "Wir bestätigen, dass der <strong>Kilometerstand echt ist </strong> und vermerken ihn auf der Verkaufsrechnung."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Porsche 992 gebraucht",
       "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 Typ 992 (ab 2019)",
+      "parrafos": [
+        "Der 992 ist der aktuelle 911: 3.0 Biturbo mit 385 PS im Carrera, 450 im S und 480 im GTS, Achtgang-PDK, breite Karosserie in allen Versionen und ein digitales Cockpit. Der Turbo S erreicht 650 PS, und der GT3 behält den 4,0-Liter-Saugmotor mit 510 PS. Ab 2024 ergänzt die zweite Serie den Carrera GTS mit T-Hybrid-System.",
+        "Einen gebrauchten 992 zu kaufen heißt, ein fast neues Auto für deutlich weniger als ein neues zu kaufen, ohne Lieferzeit. Den Unterschied machen die Ausstattung und die Restgarantie."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was wir an einem 992 prüfen, bevor wir ihn verkaufen",
+      "parrafos": [],
+      "items": [
+        "Werksgarantie und Porsche Approved: wie viel bleibt und zu welchen Bedingungen sie übergeht.",
+        "Wartungshistorie im Porsche-Netz und durchgeführte Serviceaktionen.",
+        "Elektronik und Software: PCM, Assistenzsysteme, Sensoren und ausstehende Updates.",
+        "PDK, Bremsen (PCCB, falls verbaut), Reifen und Räder: Zustand, Alter und Schäden.",
+        "Vollständige Spezifikation: Optionen, Pakete und Übereinstimmung mit dem Porsche-Zertifikat."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Einen 992 bei Valentín Motors kaufen",
+      "parrafos": [
+        "Jeder Porsche 992, den wir verkaufen, durchläuft unsere 111-Punkte-Prüfung, geht mit zwölf Monaten oder 10.000 km Garantie auf Motor und Getriebe zum Kunden, und der zertifizierte Kilometerstand steht auf der Verkaufsrechnung. Wir sind seit 1979 Porsche-Spezialisten mit eigenen Werkstätten in Barcelona und Madrid: Das Auto, das Sie hier kaufen, stand auf unserer Hebebühne, bevor es in Ihre Hände kommt.",
+        "Wenn Sie Ihren Wunschwagen woanders gefunden haben, prüfen wir ihn auch für Sie, bevor Sie bezahlen: <a href=\"/taller-porsche/inspeccion-pre-compra\">Ankaufsuntersuchung</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,11 +63,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "traduccion": {
-    "hechas": 17,
-    "total": 17,
-    "completa": true
-  },
-  "menu": "992 de ocasión"
+  }
 }

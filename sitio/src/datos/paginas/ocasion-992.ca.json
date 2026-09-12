@@ -1,13 +1,22 @@
 {
   "rutaId": "ocasion-992",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
   "tipo": "landing",
-  "ficheroOriginal": "porsche-992-de-segunda-mano",
+  "ficheroOriginal": "ocasion-992",
   "meta": {
-    "titulo": "Porsche 992 de segona mà i ocasió — Valentín Motors",
-    "descripcion": "Porsche 911 (992) d'ocasió, amb revisió de 111 punts, dotze mesos de cobertura i quilometratge certificat a la factura de venda.",
+    "titulo": "Porsche 992 de segona mà i ocasió · Valentín Motors",
+    "descripcion": "Porsche 911 tipus 992, des de 2019, revisats en 111 punts i amb garantia de dotze mesos. Carrera, S, GTS, Turbo i GT3, amb quilometratge certificat.",
     "ogImagen": ""
   },
   "h1": "Porsche 992 de segona mà",
+  "menu": "Porsche 992",
+  "articulos": [
+    "porsche-992"
+  ],
   "acordeones": [],
   "secciones": [
     {
@@ -19,48 +28,34 @@
     },
     {
       "nivel": 2,
-      "titulo": "Porsche 911 tipus 992",
+      "titulo": "Porsche 911 tipus 992 (des de 2019)",
       "parrafos": [
-        "El Porsche 992 és el <strong>últim model de la sèrie 911</strong> produït per Porsche AG. Va ser llançat a 2019 i s'està fabricant actualment. El 992 és el successor del Porsche 991 i és considerat com el model <strong>més avançat i tecnològic</strong> de la sèrie 911 fins ara.",
-        "El 992 és notablement diferent dels models anteriors de la sèrie 911 a causa del seu <strong>carrosseria de disseny modern</strong> i la seva <strong>enfocament en la tecnologia</strong>. L'interior també ha estat millorat amb materials de més qualitat i més tecnologia, incloent la incorporació d'una pantalla tàctil de grans dimensions al tauler d'instruments."
+        "El 992 és el 911 actual: 3.0 biturbo de 385 CV al Carrera, 450 a l’S i 480 al GTS, PDK de vuit velocitats, carrosseria ampla en totes les versions i un interior digital. El Turbo S arriba a 650 CV i el GT3 manté el 4.0 atmosfèric de 510 CV. Des de 2024, la segona sèrie incorpora el Carrera GTS amb sistema T-Hybrid.",
+        "Comprar un 992 de segona mà és comprar un cotxe gairebé nou per força menys que un de nou, i sense termini de lliurament. La diferència la marquen les opcions i la garantia que li quedi."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "992 de segona mà revisat per experts",
-      "parrafos": [
-        "Sotmetem tots els vehicles a una extensa revisió, verificant cada unitat amb <strong>111 elements d'inspecció.</strong> Comptem amb 2 enginyers al nostre equip que units a <strong>40 anys d'experiència</strong> treballant de forma exclusiva amb vehicles Porsche a la venda, manteniment i la preparació per a l'ús diari i la competició ens fa <strong>líders al sector</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Vehicles Porsche 911 certificats per Valentín Motors",
-      "parrafos": [
-        "La garantia aprovada per Valentín Motors ofereix una <strong>cobertura de dotze mesos / limitada a 10.000 kms</strong> per al motor i la caixa de canvis a tot el territori nacional.",
-        "Hem operat aquesta garantia <strong>des de 2004</strong> i tots els clients la prefereixen a les opcions de garantia recolzades per una assegurança de 'tercers'.",
-        "Valentín Motors prepara els automòbils per a la venda <strong>al més alt nivell</strong>, sense escatimar esforços.",
-        "Els vehicles Porsche que venem acaben utilitzant-se en tot tipus d'escenaris: alguns entren a <strong>col·leccions</strong> per a un ús esporàdic, altres són <strong>conduïts esportivament</strong>. Ens assegurem que tots els automòbils estiguin preparats <strong>per a qualsevol escenari d'ús</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Quilometratge certificat",
-      "parrafos": [
-        "Certifiquem que el <strong>quilometratge és real </strong>i ho fem constar en factura de venda."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 992 d'ocasió",
+      "titulo": "Què revisem en un 992 abans de vendre’l",
       "parrafos": [],
+      "items": [
+        "Garantia de fàbrica i Porsche Approved: quanta en queda i en quines condicions es transfereix.",
+        "Historial de manteniment a la xarxa Porsche i campanyes de servei aplicades.",
+        "Electrònica i programari: PCM, assistents, sensors i actualitzacions pendents.",
+        "PDK, frens (PCCB si els munta), pneumàtics i llantes: estat, dates i cops.",
+        "Especificació completa: opcions, paquets i coincidència amb el certificat de Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 992 a Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 992 que venem passa la nostra revisió de 111 punts, surt amb garantia de dotze mesos o 10.000 km en motor i caixa de canvis, i el quilometratge certificat consta a la factura de venda. Som especialistes Porsche des de 1979, amb taller propi a Barcelona i Madrid: el cotxe que compres aquí ha passat pel nostre elevador abans que per les teves mans.",
+        "Si el que busques l’has trobat en un altre lloc, també el podem revisar per tu abans que el paguis: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció prèvia a la compra</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,11 +63,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "traduccion": {
-    "hechas": 17,
-    "total": 17,
-    "completa": true
-  },
-  "menu": "992 de ocasión"
+  }
 }

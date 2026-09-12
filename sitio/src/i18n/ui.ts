@@ -173,20 +173,26 @@ export const UI = {
   'generacion.unidades': { es: 'unidades', en: 'cars', fr: 'voitures', it: 'vetture', de: 'Fahrzeuge', ca: 'unitats' },
   'generacion.ninguna':  { es: 'sin unidades ahora', en: 'none in stock now', fr: 'aucune en stock', it: 'nessuna in stock', de: 'derzeit keins', ca: 'sense unitats ara' },
   'generacion.vacio': {
-    es: 'De momento no tenemos ningún Porsche {gen} en venta. Déjanos tus datos y te avisamos cuando entre una unidad.',
-    en: 'We have no Porsche {gen} for sale at the moment. Leave us your details and we will let you know when one comes in.',
-    fr: 'Nous n’avons aucune Porsche {gen} à vendre pour le moment. Laissez-nous vos coordonnées et nous vous préviendrons dès qu’une arrive.',
-    it: 'Al momento non abbiamo nessuna Porsche {gen} in vendita. Ci lasci i suoi dati e la avviseremo quando ne arriva una.',
-    de: 'Derzeit haben wir keinen Porsche {gen} zum Verkauf. Hinterlassen Sie uns Ihre Daten und wir melden uns, sobald einer hereinkommt.',
-    ca: 'De moment no tenim cap Porsche {gen} en venda. Deixa’ns les teves dades i t’avisem quan n’entri una unitat.' },
+    es: 'De momento no tenemos ningún {gen} en venta. Déjanos tus datos y te avisamos cuando entre una unidad.',
+    en: 'We have no {gen} for sale at the moment. Leave us your details and we will let you know when one comes in.',
+    fr: 'Nous n’avons aucune {gen} à vendre pour le moment. Laissez-nous vos coordonnées et nous vous préviendrons dès qu’une arrive.',
+    it: 'Al momento non abbiamo nessuna {gen} in vendita. Ci lasci i suoi dati e la avviseremo quando ne arriva una.',
+    de: 'Derzeit haben wir keinen {gen} zum Verkauf. Hinterlassen Sie uns Ihre Daten und wir melden uns, sobald einer hereinkommt.',
+    ca: 'De moment no tenim cap {gen} en venda. Deixa’ns les teves dades i t’avisem quan n’entri una unitat.' },
+  'generacion.enVenta': {
+    es: '{gen} en venta', en: '{gen} for sale', fr: '{gen} à vendre',
+    it: '{gen} in vendita', de: '{gen} zu verkaufen', ca: '{gen} en venda' },
+  'generacion.guia': {
+    es: 'Guía de compra', en: 'Buying guide', fr: 'Guide d’achat',
+    it: 'Guida all’acquisto', de: 'Kaufberatung', ca: 'Guia de compra' },
   'generacion.avisame': {
     es: 'Avísame cuando entre un {gen}', en: 'Tell me when a {gen} comes in',
     fr: 'Prévenez-moi quand une {gen} arrive', it: 'Avvisatemi quando arriva una {gen}',
     de: 'Benachrichtigen Sie mich bei einem {gen}', ca: 'Avisa’m quan entri un {gen}' },
   'generacion.vendidos': {
-    es: 'Porsche {gen} que han pasado por Valentín Motors', en: 'Porsche {gen} sold by Valentín Motors',
-    fr: 'Porsche {gen} vendues par Valentín Motors', it: 'Porsche {gen} vendute da Valentín Motors',
-    de: 'Von Valentín Motors verkaufte Porsche {gen}', ca: 'Porsche {gen} que han passat per Valentín Motors' },
+    es: '{gen} que han pasado por Valentín Motors', en: '{gen} sold by Valentín Motors',
+    fr: '{gen} vendues par Valentín Motors', it: '{gen} vendute da Valentín Motors',
+    de: 'Von Valentín Motors verkaufte {gen}', ca: '{gen} que han passat per Valentín Motors' },
   'generacion.otras': {
     es: 'Otras generaciones', en: 'Other generations', fr: 'Autres générations',
     it: 'Altre generazioni', de: 'Andere Generationen', ca: 'Altres generacions' },

@@ -1,66 +1,61 @@
 {
   "rutaId": "ocasion-996",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
   "tipo": "landing",
-  "ficheroOriginal": "porsche-996-de-segunda-mano",
+  "ficheroOriginal": "ocasion-996",
   "meta": {
-    "titulo": "Porsche 996 gebraucht und gebraucht – Valentín Motors",
-    "descripcion": "Porsche 911 (996) mit 111-Punkte-Prüfung durch unsere Ingenieure, zwölf Monaten Garantie und bestätigtem Kilometerstand.",
+    "titulo": "Porsche 996 gebraucht kaufen · Valentín Motors",
+    "descripcion": "Porsche 911 Typ 996, von 1998 bis 2005, geprüft in 111 Punkten: IMS, bore scoring, Kurbelwellendichtring und Kühlung. Zwölf Monate Garantie und zertifizierter Kilometerstand.",
     "ogImagen": ""
   },
-  "h1": "Porsche 996 aus zweiter Hand",
+  "h1": "Porsche 996 gebraucht",
+  "menu": "Porsche 996",
+  "articulos": [
+    "porsche-996"
+  ],
   "acordeones": [],
   "secciones": [
     {
       "nivel": 1,
-      "titulo": "Porsche 996 aus zweiter Hand",
-      "parrafos": [],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 911 Typ 996",
-      "parrafos": [
-        "Der Porsche 996 ist ein Luxus-Sportwagenmodell der Porsche AG. Es wurde vom Jahr 1998 bis zum Jahr 2005 hergestellt. Der 996 ist das erste Modell der 911-Reihe, das über einen <strong>Sechszylindermotor</strong> mit Kraftstoffeinspritzung verfügt",
-        "Der Porsche 911 Typ 996 unterscheidet sich durch seine Eigenschaften deutlich von den Vorgängermodellen der 911-Reihe <strong>neuer Karosserie</strong> und sein Fokus auf <strong>Leistung</strong>. Auch der Innenraum wurde durch hochwertigere Materialien und mehr Technik verbessert."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "996 Gebrauchtwagen von Experten bewertet",
-      "parrafos": [
-        "Wir unterziehen alle Fahrzeuge einer umfassenden Überprüfung und verifizieren jedes Gerät mit <strong>111 Prüfelementen.</strong> Wir haben 2 Ingenieure in unserem Team, die zusammen mit <strong>40 Jahren Erfahrung</strong> ausschließlich mit Fahrzeugen Porsche im Verkauf arbeiten, Wartung und Vorbereitung für den täglichen Einsatz und den Wettbewerb machen uns zu <strong>Spitzenreitern in der Branche</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 911-Fahrzeuge, zertifiziert von Valentín Motors",
-      "parrafos": [
-        "Die von Valentín Motors genehmigte Garantie bietet <strong>zwölf Monate Deckung / eine Begrenzung auf 10.000 kms</strong> für Motor und Getriebe im gesamten Staatsgebiet.",
-        "Wir nutzen diese Garantie <strong>seit 2004</strong> und alle Kunden bevorzugen sie gegenüber Garantie-Optionen, die durch eine „Drittpartei“-Versicherung abgesichert sind.",
-        "Valentín Motors bereitet Autos zum Verkauf <strong>auf höchstem Niveau</strong> vor, ohne großen Aufwand zu betreiben.",
-        "Die Porsche-Fahrzeuge, die wir verkaufen, werden letztendlich in allen möglichen Szenarien eingesetzt: Einige von ihnen gelangen für den sporadischen Gebrauch in <strong>Sammlungen</strong>, andere werden <strong>sportlich gefahren</strong>. Wir stellen sicher, dass alle Autos <strong>auf jedes Einsatzszenario vorbereitet sind</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Kilometerstand",
-      "parrafos": [
-        "Wir bestätigen, dass der <strong>Kilometerstand echt ist </strong> und vermerken ihn auf der Verkaufsrechnung."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Porsche 996 gebraucht",
       "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 911 Typ 996 (1998-2005)",
+      "parrafos": [
+        "Der 996 ist der erste wassergekühlte 911 und der, der Porsche gerettet hat. M96-Motor mit 3,4 Litern und 300 PS, 3.6 und 320 PS ab 2002, Tiptronic oder Sechsgang-Schaltgetriebe, darüber der Turbo mit dem 420-PS-Mezger-Motor, der GT3 und der GT2. Seine mit dem Boxster geteilten Scheinwerfer kosteten ihn Jahre der Vorurteile und gehören heute zu seinem Charakter.",
+        "Er ist der günstigste 911 und der, der am meisten Sorgfalt beim Kauf verlangt. Seine beiden Schwachstellen, das Zwischenwellenlager und das bore scoring, lassen sich diagnostizieren und beheben: Bei Valentín Motors kümmern wir uns <a href=\"/taller-porsche/reparacion-ims\">täglich</a> darum."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was wir an einem 996 prüfen, bevor wir ihn verkaufen",
+      "parrafos": [],
+      "items": [
+        "<a href=\"/taller-porsche/reparacion-ims\">IMS</a>: Zustand des Zwischenwellenlagers und ob es ersetzt wurde, durch welches Teil und wann.",
+        "<a href=\"/taller-porsche/bore-scoring\">Bore scoring</a>: Endoskopie der Zylinder, vor allem bei den 3.6, und Analyse des Ölverbrauchs.",
+        "Hinterer Kurbelwellendichtring, Öl-Luft-Abscheider und Undichtigkeiten am Gehäuse.",
+        "Kühlung: Kühler, Kondensatoren, Ausgleichsbehälter und Thermostat.",
+        "Tiptronic oder Schaltgetriebe, Kupplung, und beim Turbo der Zustand beider Lader und der Ansaugung."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Einen 996 bei Valentín Motors kaufen",
+      "parrafos": [
+        "Jeder Porsche 996, den wir verkaufen, durchläuft unsere 111-Punkte-Prüfung, geht mit zwölf Monaten oder 10.000 km Garantie auf Motor und Getriebe zum Kunden, und der zertifizierte Kilometerstand steht auf der Verkaufsrechnung. Wir sind seit 1979 Porsche-Spezialisten mit eigenen Werkstätten in Barcelona und Madrid: Das Auto, das Sie hier kaufen, stand auf unserer Hebebühne, bevor es in Ihre Hände kommt.",
+        "Wenn Sie Ihren Wunschwagen woanders gefunden haben, prüfen wir ihn auch für Sie, bevor Sie bezahlen: <a href=\"/taller-porsche/inspeccion-pre-compra\">Ankaufsuntersuchung</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,11 +63,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "traduccion": {
-    "hechas": 17,
-    "total": 17,
-    "completa": true
-  },
-  "menu": "996 de ocasión"
+  }
 }

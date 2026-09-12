@@ -1,13 +1,22 @@
 {
   "rutaId": "ocasion-997",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
   "tipo": "landing",
-  "ficheroOriginal": "porsche-997-de-segunda-mano",
+  "ficheroOriginal": "ocasion-997",
   "meta": {
-    "titulo": "Porsche 997 de segona mà i ocasió — Valentín Motors",
-    "descripcion": "Porsche 911 (997) d'ocasió, amb revisió de 111 punts, dotze mesos de cobertura i quilometratge certificat a la factura de venda.",
+    "titulo": "Porsche 997 de segona mà i ocasió · Valentín Motors",
+    "descripcion": "Porsche 911 tipus 997, de 2004 a 2012, revisats en 111 punts: bore scoring, IMS, PDK i refrigeració. Garantia de dotze mesos i quilometratge certificat.",
     "ogImagen": ""
   },
   "h1": "Porsche 997 de segona mà",
+  "menu": "Porsche 997",
+  "articulos": [
+    "porsche-997"
+  ],
   "acordeones": [],
   "secciones": [
     {
@@ -19,48 +28,34 @@
     },
     {
       "nivel": 2,
-      "titulo": "Porsche 911 tipus 997",
+      "titulo": "Porsche 911 tipus 997 (2004-2012)",
       "parrafos": [
-        "El Porsche 997 és un model d'automòbil esportiu de luxe produït per Porsche AG. Va ser fabricat des de l'any 2004 fins a l'any 2012. El 997 és el successor del Porsche 996 i és el model més popular de la sèrie 911.",
-        "El Porsche 997 és conegut pel seu <strong>rendiment excel·lent</strong> i el seu <strong>disseny atemporal</strong>. Amb el seu potent motor i elegant exterior, aquest cotxe et transmetràs les emocions de la carretera. I gràcies a la seva qualitat de construcció, pots estar segur que us donarà anys de plaer de conducció."
+        "El 997 recupera els fars rodons i refina el 996 en tota la resta. La primera sèrie (2004-2008) munta motors M96 i M97 de 3.6 i 3.8 litres, amb 325 i 355 CV, i Tiptronic o manual; la segona (2009-2012) porta injecció directa, motors MA1 de 345 i 385 CV i el canvi PDK. Turbo, GT3 i GT2 fan servir l’arquitectura Mezger fins al final de la primera sèrie.",
+        "És el 911 modern amb la millor relació entre preu, caràcter i fiabilitat, sempre que es distingeixi bé entre una sèrie i l’altra. Un 997.1 ben revisat és una compra excel·lent; un 997.1 sense revisar pot amagar la factura més cara de la seva vida."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "997 de segona mà revisat per experts",
-      "parrafos": [
-        "Sotmetem tots els vehicles a una extensa revisió, verificant cada unitat amb <strong>111 elements d'inspecció.</strong> Comptem amb 2 enginyers al nostre equip que units a <strong>40 anys d'experiència</strong> treballant de forma exclusiva amb vehicles Porsche a la venda, manteniment i la preparació per a l'ús diari i la competició ens fa <strong>líders al sector</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Vehicles Porsche 911 certificats per Valentín Motors",
-      "parrafos": [
-        "La garantia aprovada per Valentín Motors ofereix una <strong>cobertura de dotze mesos / limitada a 10.000 kms</strong> per al motor i la caixa de canvis a tot el territori nacional.",
-        "Hem operat aquesta garantia <strong>des de 2004</strong> i tots els clients la prefereixen a les opcions de garantia recolzades per una assegurança de 'tercers'.",
-        "Valentín Motors prepara els automòbils per a la venda <strong>al més alt nivell</strong>, sense escatimar esforços.",
-        "Els vehicles Porsche que venem acaben utilitzant-se en tot tipus d'escenaris: alguns entren a <strong>col·leccions</strong> per a un ús esporàdic, altres són <strong>conduïts esportivament</strong>. Ens assegurem que tots els automòbils estiguin preparats <strong>per a qualsevol escenari d'ús</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Quilometratge certificat",
-      "parrafos": [
-        "Certifiquem que el <strong>quilometratge és real </strong>i ho fem constar en factura de venda."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 997 d'ocasió",
+      "titulo": "Què revisem en un 997 abans de vendre’l",
       "parrafos": [],
+      "items": [
+        "<a href=\"/taller-porsche/bore-scoring\">Bore scoring</a> als 997.1, especialment als 3.8: endoscòpia de cilindres i consum d’oli.",
+        "<a href=\"/taller-porsche/reparacion-ims\">IMS</a> als 997.1 fins al 2008: el rodament és més gran que al 996 i el seu estat es comprova, no s’endevina.",
+        "PDK i Tiptronic: servei d’oli i filtre, comportament en fred i en calent.",
+        "Radiadors i condensadors frontals: fulles, corrosió i fuites. És l’avaria silenciosa del 997.",
+        "PASM, pinces de fre, direcció i coincidència d’opcions amb el certificat de Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 997 a Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 997 que venem passa la nostra revisió de 111 punts, surt amb garantia de dotze mesos o 10.000 km en motor i caixa de canvis, i el quilometratge certificat consta a la factura de venda. Som especialistes Porsche des de 1979, amb taller propi a Barcelona i Madrid: el cotxe que compres aquí ha passat pel nostre elevador abans que per les teves mans.",
+        "Si el que busques l’has trobat en un altre lloc, també el podem revisar per tu abans que el paguis: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció prèvia a la compra</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,11 +63,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "traduccion": {
-    "hechas": 17,
-    "total": 17,
-    "completa": true
-  },
-  "menu": "997 de ocasión"
+  }
 }

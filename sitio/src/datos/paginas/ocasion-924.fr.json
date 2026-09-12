@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-924",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-924",
+  "meta": {
+    "titulo": "Porsche 924 d’occasion à vendre · Valentín Motors",
+    "descripcion": "Porsche 924, 924 Turbo et 924 S, de 1976 à 1988, inspectées en 111 points : courroie de distribution, tube de transmission, turbo et carrosserie. Garantie de douze mois.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 924 d’occasion",
+  "menu": "Porsche 924",
+  "articulos": [
+    "porsche-924"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 924 d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 924 (1976-1988)",
+      "parrafos": [
+        "La 924 inaugure les Porsche transaxle : moteur avant, boîte arrière et répartition des masses presque parfaite. Le 2.0 de 125 ch d’origine Audi est venu le premier ; la 924 Turbo est montée à 170 et 177 ch, la Carrera GT à 210, et la 924 S de 1986 à 1988 a reçu le 2.5 de la 944 avec 150 puis 160 ch.",
+        "C’est la Porsche classique la plus accessible et l’une de celles qui se conduisent le mieux pour leur prix. Turbo et Carrera GT sont des pièces de collection ; une 924 S est une voiture pour tous les week-ends."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur une 924 avant de la vendre",
+      "parrafos": [],
+      "items": [
+        "Courroie de distribution sur la 924 S et chaîne sur les 2.0 : état, date du dernier remplacement et tendeur.",
+        "Tube de transmission et roulements de l’arbre entre moteur et boîte : bruits et vibrations.",
+        "Sur la Turbo : turbo, wastegate, refroidissement du turbo et état des collecteurs.",
+        "Corrosion des longerons, passages de roue et bas de portes ; hayon vitré et ses charnières.",
+        "Injection K-Jetronic, démarrage à froid et concordance des numéros avec les papiers."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter une 924 chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 924 que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

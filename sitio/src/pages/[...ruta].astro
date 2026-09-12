@@ -150,23 +150,19 @@ const esIndiceTarifas = pagina?.rutaId === 'taller-tarifas';
    por su nivel y no por su titulo, que cambia en cada idioma. */
 const secciones = pagina?.secciones ?? [];
 
-/* Landing de generacion ("Porsche 997 de segunda mano"). Su texto acababa en
-   un H2 vacio, "Porsche 997 de ocasion": era el hueco donde Squarespace
-   listaba los coches y la migracion se trajo solo el titulo. Ese titulo
-   encabeza ahora el bloque dinamico de unidades. */
+/* Landing de generacion ("Porsche 997 de segunda mano"). Sus unidades van
+   debajo del titulo, antes del texto; lo demas (vacio, vendidos, otras
+   generaciones, guia y formulario de aviso) al final. El nombre legible
+   ("Porsche 986 Boxster") es el `menu` de la propia pagina. */
 const generacion = pagina?.tipo === 'landing'
-  ? pagina.rutaId.match(/^ocasion-(\d{3})$/)?.[1] : undefined;
-const ultima = secciones.at(-1);
-const huecoUnidades = generacion && ultima && ultima.nivel === 2 &&
-  !ultima.parrafos.length && !ultima.items.length && !ultima.imagenes.length;
-const seccionesLanding = huecoUnidades ? secciones.slice(0, -1) : secciones;
-const tituloUnidades = huecoUnidades ? ultima.titulo : `Porsche ${generacion}`;
+  ? pagina.rutaId.match(/^ocasion-(.+)$/)?.[1] : undefined;
+const nombreGeneracion = pagina?.menu ?? `Porsche ${generacion}`;
 
 const iTarifas = pagina?.rutaId === 'taller'
   ? secciones.findIndex((s, i) => secciones[i + 1]?.nivel === 4) : -1;
 let iFin = iTarifas;
 while (iFin >= 0 && secciones[iFin + 1]?.nivel === 4) iFin++;
-const antesDeTarifas = iTarifas >= 0 ? secciones.slice(0, iTarifas + 1) : seccionesLanding;
+const antesDeTarifas = iTarifas >= 0 ? secciones.slice(0, iTarifas + 1) : secciones;
 const despuesDeTarifas = iTarifas >= 0 ? secciones.slice(iFin + 1) : [];
 
 /* Los articulos que sostienen esta pagina, en el orden en que los declara.
@@ -214,6 +210,10 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         <div class="shimmer-line reveal"></div>
         <h1 class="page-title reveal">{pagina.h1 || titulo}</h1>
       </header>
+      {generacion && (
+        <UnidadesGeneracion generacion={generacion} nombre={nombreGeneracion}
+                            rutaId={pagina.rutaId} idioma={idioma} parte="arriba" />
+      )}
       <SeccionesPagina secciones={antesDeTarifas} idioma={idioma} />
       {iTarifas >= 0 && (
         <div class="contenido">
@@ -225,12 +225,12 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       )}
       {despuesDeTarifas.length > 0 && <SeccionesPagina secciones={despuesDeTarifas} idioma={idioma} />}
       {generacion && (
-        <UnidadesGeneracion generacion={generacion} rutaId={pagina.rutaId}
-                            idioma={idioma} titulo={tituloUnidades} />
+        <UnidadesGeneracion generacion={generacion} nombre={nombreGeneracion}
+                            rutaId={pagina.rutaId} idioma={idioma} parte="abajo" />
       )}
       {relacionados.length > 0 && (
         <section class="pagina-articulos contenido">
-          <h2 class="pagina-articulos-titulo">{t('pagina.articulos')}</h2>
+          <h2 class="pagina-articulos-titulo">{t(generacion ? 'generacion.guia' : 'pagina.articulos')}</h2>
           <ListaMagazine posts={relacionados} idioma={idioma}
                          columnas={relacionados.length > 2 ? 3 : 2} urgentes={0} />
         </section>
@@ -255,8 +255,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   {/* La landing lleva su propio formulario de aviso: haya o no unidades, quien
       busca un 997 concreto quiere que le avisen del siguiente. */}
   {generacion && <Formulario idioma={idioma} asunto="compra"
-      busca={`Porsche ${generacion}`}
-      titulo={t('generacion.formTitulo').replace('{gen}', generacion)}
+      busca={nombreGeneracion}
+      titulo={t('generacion.formTitulo').replace('{gen}', nombreGeneracion)}
       intro={t('generacion.formIntro')} />}
   {esVende && <Formulario idioma={idioma} asunto="venta"
       titulo={t('vende.formTitulo')} intro={t('vende.formIntro')} />}

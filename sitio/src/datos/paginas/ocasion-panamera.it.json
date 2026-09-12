@@ -1,0 +1,65 @@
+{
+  "rutaId": "ocasion-panamera",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-panamera",
+  "meta": {
+    "titulo": "Porsche Panamera usata in vendita · Valentín Motors",
+    "descripcion": "Porsche Panamera delle tre generazioni, dal 2009, ispezionate in 111 punti: sospensioni pneumatiche, PDK, raffreddamento dei V8 e batterie ibride. Garanzia di dodici mesi.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche Panamera usata",
+  "menu": "Porsche Panamera",
+  "articulos": [],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche Panamera usata",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche Panamera (dal 2009)",
+      "parrafos": [
+        "La Panamera è la berlina di Porsche: motore anteriore, quattro posti veri e da 300 a 700 CV secondo la versione. La prima generazione (2009-2016) offre V6, V8, Turbo, diesel e ibrida; la seconda (2016-2023) porta la Sport Turismo, il PDK a otto marce e le E-Hybrid; la terza, dal 2024, affina la formula con sospensioni attive.",
+        "Si compra come auto di rappresentanza e da viaggio, e come tale si ispeziona: sospensioni, elettronica e, sulle ibride, batteria. Una Panamera con storia è una gran turismo a quattro porte difficile da eguagliare."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlliamo in una Panamera prima di venderla",
+      "parrafos": [],
+      "items": [
+        "Sospensioni pneumatiche e PASM: perdite, compressore e ammortizzatori.",
+        "PDK: cambio olio e filtro e comportamento nelle cambiate lente.",
+        "Motore: sui V8, raffreddamento e perdite; sui diesel, iniettori e filtro antiparticolato; sulle ibride, batteria e sistema ad alta tensione.",
+        "Elettronica: PCM, assistenti, sensori e codici memorizzati.",
+        "Pneumatici, freni (PCCB se montati) e corrispondenza degli optional con il certificato Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprare una Panamera da Valentín Motors",
+      "parrafos": [
+        "Ogni Porsche Panamera che vendiamo passa la nostra ispezione in 111 punti, esce con garanzia di dodici mesi o 10.000 km su motore e cambio, e il chilometraggio certificato è riportato sulla fattura di vendita. Siamo specialisti Porsche dal 1979, con officine proprie a Barcellona e Madrid: l’auto che compra qui è passata sul nostro ponte prima di arrivare nelle sue mani.",
+        "Se quella che cerca l’ha trovata altrove, possiamo anche controllarla per lei prima che la paghi: <a href=\"/taller-porsche/inspeccion-pre-compra\">ispezione pre-acquisto</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

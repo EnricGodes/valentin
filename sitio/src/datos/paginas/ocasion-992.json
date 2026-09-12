@@ -1,13 +1,17 @@
 {
   "rutaId": "ocasion-992",
   "tipo": "landing",
-  "ficheroOriginal": "porsche-992-de-segunda-mano",
+  "ficheroOriginal": "ocasion-992",
   "meta": {
     "titulo": "Porsche 992 de segunda mano y ocasión · Valentín Motors",
-    "descripcion": "Porsche 911 tipo 992 de ocasión revisados en 111 puntos, con doce meses de cobertura y el kilometraje certificado en la factura de venta.",
+    "descripcion": "Porsche 911 tipo 992, desde 2019, revisados en 111 puntos y con garantía de doce meses. Carrera, S, GTS, Turbo y GT3, con kilometraje certificado.",
     "ogImagen": ""
   },
   "h1": "Porsche 992 de segunda mano",
+  "menu": "Porsche 992",
+  "articulos": [
+    "porsche-992"
+  ],
   "acordeones": [],
   "secciones": [
     {
@@ -19,48 +23,34 @@
     },
     {
       "nivel": 2,
-      "titulo": "Porsche 911 tipo 992",
+      "titulo": "Porsche 911 tipo 992 (desde 2019)",
       "parrafos": [
-        "El Porsche 992 es el <strong>modelo más reciente de la serie 911</strong> producido por Porsche AG. Se lanzó en 2019 y continúa en fabricación. El 992 es el sucesor del Porsche 991 y se considera uno de los modelos <strong>más avanzados tecnológicamente</strong> de la serie 911 hasta la fecha.",
-        "El 992 se diferencia notablemente de los modelos anteriores de la serie 911 por su <strong>carrocería de diseño moderno</strong> y su <strong>enfoque tecnológico</strong>. El interior también incorpora materiales de mayor calidad y más tecnología, incluida una pantalla táctil de gran tamaño en el cuadro de instrumentos."
+        "El 992 es el 911 actual: 3.0 biturbo de 385 CV en el Carrera, 450 en el S y 480 en el GTS, PDK de ocho velocidades, carrocería ancha en todas las versiones y un interior digital. El Turbo S alcanza 650 CV y el GT3 mantiene el 4.0 atmosférico de 510 CV. Desde 2024, la segunda serie incorpora el Carrera GTS con sistema T-Hybrid.",
+        "Comprar un 992 de segunda mano es comprar un coche casi nuevo por bastante menos que uno nuevo, y con plazo de entrega cero. La diferencia la marcan las opciones y la garantía que le quede."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "992 de segunda mano revisado por expertos",
-      "parrafos": [
-        "Revisamos todos los vehículos mediante <strong>111 elementos de inspección.</strong> Nuestro equipo cuenta con 2 ingenieros que, junto con <strong>40 años de experiencia</strong> dedicados exclusivamente a los vehículos Porsche, su venta, su mantenimiento y su preparación para el uso diario y la competición, nos permiten ofrecer <strong>un servicio especializado</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Vehículos Porsche 911 certificados por Valentín Motors",
-      "parrafos": [
-        "La garantía aprobada por Valentín Motors proporciona a los clientes una <strong>cobertura de doce meses y un kilometraje limitado a 10.000 km</strong> para el motor y la caja de cambios en todo el territorio nacional.",
-        "Gestionamos esta garantía <strong>desde 2004</strong> y nuestros clientes la prefieren a las opciones respaldadas por un seguro de «terceros».",
-        "Valentín Motors prepara los automóviles para la venta <strong>siguiendo criterios exigentes</strong>.",
-        "Los vehículos Porsche que vendemos se destinan a todo tipo de usos: algunos pasan a formar parte de <strong>colecciones</strong> para un uso esporádico; otros son <strong>conducidos deportivamente</strong>. Nos aseguramos de que todos estén <strong>preparados para distintos escenarios de uso</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Kilometraje certificado",
-      "parrafos": [
-        "Certificamos que el <strong>kilometraje es real</strong> y lo hacemos constar en la factura de venta."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 992 de ocasión",
+      "titulo": "Qué revisamos en un 992 antes de venderlo",
       "parrafos": [],
+      "items": [
+        "Garantía de fábrica y Porsche Approved: cuánta queda y en qué condiciones se transfiere.",
+        "Historial de mantenimiento en la red Porsche y campañas de servicio aplicadas.",
+        "Electrónica y software: PCM, asistentes, sensores y actualizaciones pendientes.",
+        "PDK, frenos (PCCB si los monta), neumáticos y llantas: estado, fechas y golpes.",
+        "Especificación completa: opciones, paquetes y coincidencia con el certificado de Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 992 en Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 992 que vendemos pasa nuestra revisión de 111 puntos, sale con garantía de doce meses o 10.000 km en motor y caja de cambios, y el kilometraje certificado consta en la factura de venta. Somos especialistas Porsche desde 1979, con taller propio en Barcelona y Madrid: el coche que compras aquí ha pasado por nuestro elevador antes que por tus manos.",
+        "Si el que buscas lo has encontrado en otro sitio, también podemos revisarlo por ti antes de que lo pagues: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,6 +58,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "menu": "992 de ocasión"
+  }
 }

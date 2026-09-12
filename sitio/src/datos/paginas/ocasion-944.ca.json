@@ -1,0 +1,67 @@
+{
+  "rutaId": "ocasion-944",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-944",
+  "meta": {
+    "titulo": "Porsche 944 de segona mà i ocasió · Valentín Motors",
+    "descripcion": "Porsche 944, 944 S, S2 i Turbo, de 1982 a 1991, revisats en 111 punts: corretges de distribució i d’equilibratge, bomba d’aigua, tub de parell. Garantia de dotze mesos.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche 944 de segona mà",
+  "menu": "Porsche 944",
+  "articulos": [
+    "porsche-944"
+  ],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche 944 de segona mà",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche 944 (1982-1991)",
+      "parrafos": [
+        "El 944 és el transaxle que Porsche va dissenyar sencer: quatre cilindres de 2.5 litres amb eixos d’equilibratge, 163 CV, i una carrosseria d’aletes amples heretada del 924 Carrera GT. El Turbo va arribar a 220 i 250 CV, l’S de 16 vàlvules a 190, l’S2 de 3.0 litres a 211, i el Cabriolet va tancar la sèrie.",
+        "És el Porsche dels vuitanta que millor ha envellit: robust, equilibrat i amb peces disponibles. La regla és senzilla: corretges al dia i sense òxid. Tota la resta s’arregla."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què revisem en un 944 abans de vendre’l",
+      "parrafos": [],
+      "items": [
+        "Corretja de distribució i corretja d’eixos d’equilibratge: cada quatre anys o 60.000 km. Data, quilòmetres i tensors.",
+        "Bomba d’aigua i corrons, que es canvien amb les corretges o es lamenten després.",
+        "Tub de parell i rodaments, embragatge i caixa; al Turbo, turbo i refrigeració.",
+        "Junta de culata als 2.5 i 3.0, fuites d’oli i estat del radiador.",
+        "Corrosió a passos de roda i baixos, tauler esquerdat i sostre solar; coincidència amb la documentació."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comprar un 944 a Valentín Motors",
+      "parrafos": [
+        "Cada Porsche 944 que venem passa la nostra revisió de 111 punts, surt amb garantia de dotze mesos o 10.000 km en motor i caixa de canvis, i el quilometratge certificat consta a la factura de venda. Som especialistes Porsche des de 1979, amb taller propi a Barcelona i Madrid: el cotxe que compres aquí ha passat pel nostre elevador abans que per les teves mans.",
+        "Si el que busques l’has trobat en un altre lloc, també el podem revisar per tu abans que el paguis: <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció prèvia a la compra</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

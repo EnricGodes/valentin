@@ -816,7 +816,7 @@ section { position: relative; }
 }
 .pie-mapa a:hover { color: var(--blanco); }
 .pie-titulo--segundo { margin-top: 28px; }
-.pie-mapa--una { columns: 1; }
+.pie-mapa--una { columns: 2; }
 
 .pie-abajo {
   display: flex; justify-content: space-between; align-items: center;
@@ -2128,10 +2128,19 @@ section { position: relative; }
   transition: border-color 0.25s var(--ease);
 }
 .catalogo-mas-lista a:hover { border-color: var(--bronce); }
+/* Veintidos generaciones no caben en una columna: se reparten en varias. */
+.catalogo-mas-bloque--ancho { grid-column: 1 / -1; }
+.catalogo-mas-lista--columnas { columns: 3; column-gap: 32px; }
+.catalogo-mas-lista--columnas li { break-inside: avoid; }
+.catalogo-mas-lista--columnas li + li { margin-top: 0; }
+.catalogo-mas-lista--columnas li { margin-bottom: 12px; }
+@media (max-width: 720px) { .catalogo-mas-lista--columnas { columns: 2; } }
 
 /* ── Landing por generación: las unidades de ese modelo ──────────────────── */
-.generacion { margin-top: 48px; }
+.generacion--arriba { margin: -24px 0 72px; }
+.generacion--abajo { margin-top: 48px; }
 .generacion .bloque-titulo { margin-bottom: 40px; }
+.generacion-vacio .bloque-titulo { margin-bottom: 20px; }
 /* La rejilla de tarjetas es la del catálogo; aquí no lleva el margen inferior
    de fin de página porque debajo siguen los vendidos y las otras generaciones. */
 .cars-grid--generacion { padding-bottom: 0; }

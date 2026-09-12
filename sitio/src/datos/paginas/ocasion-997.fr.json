@@ -1,66 +1,61 @@
 {
   "rutaId": "ocasion-997",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
   "tipo": "landing",
-  "ficheroOriginal": "porsche-997-de-segunda-mano",
+  "ficheroOriginal": "ocasion-997",
   "meta": {
-    "titulo": "Porsche 997 d'occasion et d'occasion — Valentín Motors",
-    "descripcion": "Porsche 911 (997) d'occasion : contrôle en 111 points, couverture de douze mois et kilométrage certifié sur la facture de vente.",
+    "titulo": "Porsche 997 d’occasion à vendre · Valentín Motors",
+    "descripcion": "Porsche 911 type 997, de 2004 à 2012, inspectées en 111 points : bore scoring, IMS, PDK et refroidissement. Garantie de douze mois et kilométrage certifié.",
     "ogImagen": ""
   },
-  "h1": "Porsche 997 occasion",
+  "h1": "Porsche 997 d’occasion",
+  "menu": "Porsche 997",
+  "articulos": [
+    "porsche-997"
+  ],
   "acordeones": [],
   "secciones": [
     {
       "nivel": 1,
-      "titulo": "Porsche 997 occasion",
+      "titulo": "Porsche 997 d’occasion",
       "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Porsche 911 type 997",
+      "titulo": "Porsche 911 type 997 (2004-2012)",
       "parrafos": [
-        "La Porsche 997 est un modèle de voiture de sport de luxe produit par Porsche AG. Il a été fabriqué de l'année 2004 à l'année 2012. La 997 est le successeur de la Porsche 996 et est le modèle le plus populaire de la série 911.",
-        "La Porsche 997 est connue pour ses <strong>performances exceptionnelles</strong> et son <strong>design intemporel</strong>. Avec son moteur puissant et son extérieur élégant, cette voiture transmettra les émotions de la route. Et grâce à sa qualité de fabrication, vous pouvez être sûr qu'il vous procurera des années de plaisir de conduite."
+        "La 997 retrouve les phares ronds et affine la 996 en tout le reste. La première série (2004-2008) monte des moteurs M96 et M97 de 3,6 et 3,8 litres, de 325 et 355 ch, en Tiptronic ou manuelle ; la seconde (2009-2012) apporte l’injection directe, les moteurs MA1 de 345 et 385 ch et la boîte PDK. Turbo, GT3 et GT2 gardent l’architecture Mezger jusqu’à la fin de la première série.",
+        "C’est la 911 moderne au meilleur rapport entre prix, caractère et fiabilité, à condition de bien distinguer une série de l’autre. Une 997.1 bien inspectée est un excellent achat ; une 997.1 non inspectée peut cacher la facture la plus lourde de sa vie."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "997 d'occasion examiné par des experts",
-      "parrafos": [
-        "Nous soumettons tous les véhicules à un examen approfondi, vérifiant chaque unité avec <strong>111 éléments d'inspection.</strong> Nous avons 2 ingénieurs dans notre équipe qui, avec <strong>40 ans d'expérience</strong> travaillant exclusivement avec des véhicules Porsche dans la vente, la entretien et la préparation à l'usage quotidien et à la compétition font de nous <strong>leaders du secteur</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Véhicules Porsche 911 certifiés par Valentín Motors",
-      "parrafos": [
-        "La garantie approuvée par Valentín Motors offre une <strong>couverture de douze mois / limitée à 10.000 kms</strong> pour le moteur et la boîte de vitesses sur tout le territoire national.",
-        "Nous gérons cette garantie <strong>depuis 2004</strong> et tous les clients la préfèrent aux garantie adossées à une assurance « au tiers ».",
-        "Valentín Motors prépare les voitures à la vente <strong>au plus haut niveau</strong>, sans ménager leurs efforts.",
-        "Les véhicules Porsche que nous vendons finissent par être utilisés dans tous types de scénarios : certains d'entre eux entrent dans les <strong>collections</strong> pour un usage sporadique, d'autres sont <strong>conduits de manière sportive</strong>. Nous veillons à ce que toutes les voitures soient <strong>préparées pour tout scénario d'utilisation</strong>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Certificat de Kilométrage",
-      "parrafos": [
-        "Nous certifions que le <strong>kilométrage est réel </strong>et nous l'inscrivons sur la facture de vente."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Porsche 997 d'occasion",
+      "titulo": "Ce que nous vérifions sur une 997 avant de la vendre",
       "parrafos": [],
+      "items": [
+        "<a href=\"/taller-porsche/bore-scoring\">Bore scoring</a> sur les 997.1, surtout les 3.8 : endoscopie des cylindres et consommation d’huile.",
+        "<a href=\"/taller-porsche/reparacion-ims\">IMS</a> sur les 997.1 jusqu’en 2008 : le roulement est plus gros que sur la 996 et son état se vérifie, il ne se devine pas.",
+        "PDK et Tiptronic : vidange et filtre, comportement à froid et à chaud.",
+        "Radiateurs et condenseurs avant : feuilles, corrosion et fuites. C’est la panne silencieuse de la 997.",
+        "PASM, étriers de frein, direction et concordance des options avec le certificat Porsche."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter une 997 chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche 997 que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
       "items": [],
       "imagenes": []
     }
@@ -68,11 +63,5 @@
   "contacto": {
     "telefonos": [],
     "emails": []
-  },
-  "traduccion": {
-    "hechas": 17,
-    "total": 17,
-    "completa": true
-  },
-  "menu": "997 de ocasión"
+  }
 }

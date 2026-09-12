@@ -1,0 +1,65 @@
+{
+  "rutaId": "ocasion-cayenne",
+  "traduccion": {
+    "hechas": 15,
+    "total": 15,
+    "completa": true
+  },
+  "tipo": "landing",
+  "ficheroOriginal": "ocasion-cayenne",
+  "meta": {
+    "titulo": "Porsche Cayenne d’occasion à vendre · Valentín Motors",
+    "descripcion": "Porsche Cayenne des trois générations, depuis 2002, inspectés en 111 points : arbre de transmission, tubes de liquide de refroidissement, suspension pneumatique et boîte de transfert. Garantie de douze mois.",
+    "ogImagen": ""
+  },
+  "h1": "Porsche Cayenne d’occasion",
+  "menu": "Porsche Cayenne",
+  "articulos": [],
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "Porsche Cayenne d’occasion",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Porsche Cayenne (depuis 2002)",
+      "parrafos": [
+        "Le Cayenne est le SUV qui a rendu tout le reste possible. La première génération (2002-2010) monte des V6 et V8 jusqu’à 520 ch sur le Turbo S et, dès 2009, le diesel ; la seconde (2010-2017) ajoute l’hybride et perd du poids ; la troisième, depuis 2017, apporte le Coupé, les E-Hybrid et, en 2023, une mise à jour en profondeur.",
+        "C’est une Porsche qui roule beaucoup et se révise peu, et cela se voit sur le marché de l’occasion. Un Cayenne avec historique et dont les pannes connues ont été traitées est une voiture extraordinaire pour son prix ; nous faisons en sorte que ce soit celui-là."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que nous vérifions sur un Cayenne avant de le vendre",
+      "parrafos": [],
+      "items": [
+        "Première génération : arbre de transmission et son palier central, et tubes de liquide de refroidissement en plastique sur les V8, remplacés par de l’aluminium.",
+        "Boîte de transfert et différentiels : bruits, fuites et état de l’huile. Suspension pneumatique : fuites et compresseur.",
+        "Entretien aux intervalles : huile, bougies, filtres et courroie ou chaîne selon le moteur. Diesel : injecteurs et filtre à particules.",
+        "Sur les hybrides : état de la batterie et du système haute tension.",
+        "Pneus, freins et électronique : capteurs, aides à la conduite et codes mémorisés."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Acheter un Cayenne chez Valentín Motors",
+      "parrafos": [
+        "Chaque Porsche Cayenne que nous vendons passe notre inspection en 111 points, part avec une garantie de douze mois ou 10 000 km sur le moteur et la boîte de vitesses, et son kilométrage certifié figure sur la facture de vente. Nous sommes spécialistes Porsche depuis 1979, avec nos propres ateliers à Barcelone et à Madrid : la voiture que vous achetez ici est passée sur notre pont avant d’arriver entre vos mains.",
+        "Si vous avez trouvé celle que vous cherchez ailleurs, nous pouvons aussi la vérifier pour vous avant que vous ne la payiez : <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection avant achat</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}
