@@ -3,9 +3,10 @@
  * Navegación principal.
  *
  * Pasa de siete entradas planas a ocho con submenú. El motivo no es estético:
- * las seis páginas de tarifas y las tres landings de ocasión existían sin que
- * nada las enlazara, y dos de las tarifas están entre las diez páginas con más
- * clics del sitio. Una barra plana no tenía sitio para ellas.
+ * las seis páginas de tarifas existían sin que nada las enlazara, y dos de
+ * ellas están entre las diez páginas con más clics del sitio. Una barra plana
+ * no tenía sitio para ellas. Las landings por generación (997, 996, 992) no
+ * viven aquí: las enlazan el catálogo, las migas de cada ficha y el pie.
  *
  * El submenú se abre al pasar por encima y al recibir el foco, y se puede
  * recorrer entero con el teclado: es un `<ul>` dentro del `<li>`, sin
@@ -25,6 +26,7 @@ import { SEGMENTOS, url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import { idiomasDe, paginaPorRuta } from '../datos/pagina';
 import { CENTROS } from '../datos/centros';
+import { idiomasConCatalogo } from '../datos/coche';
 
 interface Props {
   idioma: Idioma;
@@ -39,7 +41,12 @@ const t = traductor(idioma);
    manifiesto de contenido, y hoy solo se generan en castellano. */
 const SOLO_ES = new Set(['home', 'magazine', 'herramientas']);
 const hay = (id: string) =>
-  SOLO_ES.has(id) ? idioma === POR_DEFECTO : idiomasDe(id).includes(idioma);
+  SOLO_ES.has(id) ? idioma === POR_DEFECTO
+  /* El catalogo no es una pagina de datos/paginas: existe en los idiomas que
+     tienen alguna ficha traducida. Sin esto, el menu ingles mandaba al
+     catalogo espanol teniendo el suyo. */
+  : id === 'coches' ? idiomasConCatalogo().includes(idioma)
+  : idiomasDe(id).includes(idioma);
 
 /* Si una página aún no está traducida se enlaza su versión española, con
    `lang` para que el navegador y el lector de pantalla sepan qué hay al otro
@@ -71,12 +78,11 @@ const hijo = (id: string): Hijo[] => (hay(id) ? [{ id, texto: tituloDe(id) }] : 
 const hijoUrl = (href: string, texto: string, solo: Idioma[] = ['es']): Hijo[] =>
   (solo.includes(idioma) ? [{ id: href, href, texto }] : []);
 
+/* Las landings por generacion (997, 996, 992...) NO van aqui. Cada modelo
+   nuevo seria una entrada mas en un submenu que ya no cabe, y su sitio es el
+   catalogo, las migas de cada ficha y el pie, donde caben todas. */
 const enlaces = [
-  { id: 'coches', texto: t('nav.coches'), hijos: [
-      ...hijo('generaciones'),
-      ...hijo('ocasion-997'), ...hijo('ocasion-996'), ...hijo('ocasion-992'),
-      ...hijo('vende'),
-    ] },
+  { id: 'coches', texto: t('nav.coches'), hijos: [...hijo('vende')] },
   { id: 'taller', texto: t('nav.taller'), hijos: [
       ...hijo('taller-tarifas'), ...hijo('taller-mantenimiento'),
       ...hijo('taller-ims'), ...hijo('taller-bore-scoring'),
@@ -130,6 +136,16 @@ const activo = (e: { id: string; hijos: { id: string }[] }) =>
            aria-current={activo(e) ? 'page' : undefined}>{e.texto}</a>
         {e.hijos.length > 0 && (
           <ul class="nav-sub">
+            {/* La primera entrada del submenu es la propia seccion. Que la
+                cabecera de un desplegable sea a la vez un enlace no lo sabe
+                nadie hasta que lo pincha; repetirla dentro lo hace evidente y
+                en movil, donde la cabecera y el boton de desplegar se
+                disputan la misma fila, es la unica forma clara de llegar. */}
+            <li class="nav-sub-madre">
+              <a href={enlace(e.id).href} lang={enlace(e.id).lang}
+                 hreflang={enlace(e.id).lang}
+                 aria-current={e.id === rutaId ? 'page' : undefined}>{e.texto} &rarr;</a>
+            </li>
             {e.hijos.map((h) => (
               <li><a href={h.href ?? url(h.id, idioma)}
                      aria-current={h.id === rutaId ? 'page' : undefined}>{h.texto}</a></li>

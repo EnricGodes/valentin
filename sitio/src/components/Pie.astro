@@ -16,6 +16,8 @@ import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import { idiomasDe, paginaPorRuta } from '../datos/pagina';
 import { CENTROS } from '../datos/centros';
+import { idiomasConCatalogo } from '../datos/coche';
+import { GENERACIONES_CON_LANDING } from '../datos/generacion';
 import SelectorIdioma from './SelectorIdioma.astro';
 
 interface Props {
@@ -37,7 +39,12 @@ const otroIdioma = idioma !== POR_DEFECTO;
    contenido y hoy solo se generan en castellano. */
 const SOLO_ES = new Set(['home', 'magazine', 'herramientas']);
 const hay = (id: string) =>
-  SOLO_ES.has(id) ? idioma === POR_DEFECTO : idiomasDe(id).includes(idioma);
+  SOLO_ES.has(id) ? idioma === POR_DEFECTO
+  /* El catalogo no es una pagina de datos/paginas: existe en los idiomas que
+     tienen alguna ficha traducida. Sin esto, el menu ingles mandaba al
+     catalogo espanol teniendo el suyo. */
+  : id === 'coches' ? idiomasConCatalogo().includes(idioma)
+  : idiomasDe(id).includes(idioma);
 
 const SECCIONES = ['coches', 'taller', 'restauraciones', 'builds', 'centros',
                    'magazine', 'herramientas', 'quienes-somos', 'contacto'];
@@ -58,6 +65,17 @@ const secciones = SECCIONES
     href: url(id, hay(id) ? idioma : POR_DEFECTO),
     lang: hay(id) ? undefined : POR_DEFECTO,
   }));
+
+/* Las landings por generacion, enlazadas desde todas las paginas. Un enlace
+   de pie no vale lo que uno de menu, pero es el unico que llega a las 300
+   paginas del sitio, y "porsche 997 segunda mano" se busca mucho mas que
+   cualquier cosa que haya en el menu. El rotulo es el h1 de la landing. */
+const modelos = GENERACIONES_CON_LANDING.map(({ rutaId }) => ({
+  id: rutaId,
+  texto: (paginaPorRuta(rutaId, hay(rutaId) ? idioma : POR_DEFECTO))?.h1 ?? rutaId,
+  href: url(rutaId, hay(rutaId) ? idioma : POR_DEFECTO),
+  lang: hay(rutaId) ? undefined : POR_DEFECTO,
+}));
 
 ---
 <footer class="pie">
@@ -105,6 +123,16 @@ const secciones = SECCIONES
           <li><a href={s.href} lang={s.lang} hreflang={s.lang}>{s.texto}</a></li>
         ))}
       </ul>
+      {modelos.length > 0 && (
+        <>
+          <p class="pie-titulo pie-titulo--segundo">{t('pie.modelos')}</p>
+          <ul class="pie-mapa pie-mapa--una">
+            {modelos.map((m) => (
+              <li><a href={m.href} lang={m.lang} hreflang={m.lang}>{m.texto}</a></li>
+            ))}
+          </ul>
+        </>
+      )}
     </nav>
   </div>
 

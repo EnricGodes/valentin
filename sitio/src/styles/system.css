@@ -110,6 +110,10 @@ a { color: inherit; }
   font-size: 11px; line-height: 1.35; text-transform: none;
 }
 .nav-sub a:hover { background: rgba(255, 255, 255, 0.05); }
+/* La seccion madre, repetida como primera entrada: en blanco y con una linea
+   debajo, para que se lea como "esto es la seccion" y no como un hijo mas. */
+.nav-sub-madre { margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px solid var(--linea); }
+.nav-sub-madre a { color: var(--blanco); }
 /* Una flecha discreta avisa de que hay más debajo. */
 .nav-item--con-hijos > a::after {
   content: ''; display: inline-block; margin-left: 7px; vertical-align: 2px;
@@ -205,6 +209,7 @@ a { color: inherit; }
   .nav-sub a:hover, .nav-sub a[aria-current='page'] {
     background: transparent; color: var(--blanco);
   }
+  .nav-sub-madre { margin: 0; padding: 0; border: 0; }
 
   /* Llamar, al final del panel. */
   .nav-contacto {
@@ -810,6 +815,8 @@ section { position: relative; }
   transition: color 0.3s var(--ease);
 }
 .pie-mapa a:hover { color: var(--blanco); }
+.pie-titulo--segundo { margin-top: 28px; }
+.pie-mapa--una { columns: 1; }
 
 .pie-abajo {
   display: flex; justify-content: space-between; align-items: center;
@@ -2121,6 +2128,39 @@ section { position: relative; }
   transition: border-color 0.25s var(--ease);
 }
 .catalogo-mas-lista a:hover { border-color: var(--bronce); }
+
+/* ── Landing por generación: las unidades de ese modelo ──────────────────── */
+.generacion { margin-top: 48px; }
+.generacion .bloque-titulo { margin-bottom: 40px; }
+/* La rejilla de tarjetas es la del catálogo; aquí no lleva el margen inferior
+   de fin de página porque debajo siguen los vendidos y las otras generaciones. */
+.cars-grid--generacion { padding-bottom: 0; }
+.generacion-vacio {
+  max-width: 62ch; padding: 40px 0 8px;
+  font-size: var(--t-cuerpo); line-height: 1.7; color: var(--concreto);
+}
+.generacion-vacio p { margin: 0 0 28px; }
+.generacion-vendidos, .generacion-otras {
+  margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--linea);
+}
+.generacion-lista { list-style: none; margin: 18px 0 0; padding: 0; }
+.generacion-lista li {
+  display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline;
+  padding: 12px 0; border-bottom: 1px solid var(--linea);
+}
+.generacion-lista a {
+  color: var(--blanco); text-decoration: none; font-size: 16px;
+  border-bottom: 1px solid var(--linea-fuerte); padding-bottom: 2px;
+  transition: border-color 0.25s var(--ease);
+}
+.generacion-lista a:hover { border-color: var(--bronce); }
+.generacion-lista span {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.05em; color: var(--concreto);
+}
+.catalogo-mas-cuenta {
+  display: block; margin-top: 4px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.05em; color: var(--concreto);
+}
 
 /* ── Artículos que sostienen una página de servicio ──────────────────────── */
 .pagina-articulos { margin-top: 88px; padding-top: 48px; border-top: 1px solid var(--linea); }

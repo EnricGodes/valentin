@@ -18,9 +18,20 @@ interface Props {
   coche?: string;
   /** Nombre legible del coche, para prerrellenar el mensaje. */
   cocheNombre?: string;
+  /** Motivo preseleccionado. Sin el: "compra" desde una ficha, "taller" si no. */
+  asunto?: 'taller' | 'compra' | 'venta' | 'restauracion' | 'otro';
+  /** Lo que el cliente busca y no esta en stock ("Porsche 997"). Viaja en un
+      campo propio y encabeza el email: es un aviso de demanda, no una consulta. */
+  busca?: string;
+  /** Titulo e intro propios, cuando el formulario no es el de contacto general. */
+  titulo?: string;
+  intro?: string;
 }
-const { idioma, coche, cocheNombre } = Astro.props;
+const { idioma, coche, cocheNombre, busca } = Astro.props;
 const t = traductor(idioma);
+const asunto = Astro.props.asunto ?? (coche || busca ? 'compra' : 'taller');
+const titulo = Astro.props.titulo ?? t('form.titulo');
+const intro = Astro.props.intro ?? t('form.intro');
 
 // Las paginas legales existen solo en espanol: el enlace apunta siempre alli.
 const privacidad = url('privacidad', POR_DEFECTO);
@@ -35,14 +46,15 @@ const motivos = [
 ---
 <section class="formulario" id="contacto">
   <div class="shimmer-line reveal"></div>
-  <h2 class="form-titulo reveal">{t('form.titulo')}</h2>
-  <p class="form-intro reveal">{t('form.intro')}</p>
+  <h2 class="form-titulo reveal">{titulo}</h2>
+  <p class="form-intro reveal">{intro}</p>
 
   <form class="form reveal" method="post" action="/api/contacto" novalidate
         data-idioma={idioma} data-coche={coche}>
     <input type="hidden" name="idioma" value={idioma} />
     <input type="hidden" name="pagina" value={Astro.url.pathname} />
     {coche && <input type="hidden" name="coche" value={coche} />}
+    {busca && <input type="hidden" name="busca" value={busca} />}
 
     {/* Trampa para bots: invisible y fuera del orden de tabulacion. Un humano
         nunca lo rellena; casi todos los bots rellenan todo lo que encuentran. */}
@@ -73,7 +85,7 @@ const motivos = [
         <label for="f-asunto">{t('form.asunto')}</label>
         <select id="f-asunto" name="asunto">
           {motivos.map(([valor, etiqueta]) => (
-            <option value={valor} selected={coche ? valor === 'compra' : valor === 'taller'}>
+            <option value={valor} selected={valor === asunto}>
               {etiqueta}
             </option>
           ))}
@@ -97,7 +109,8 @@ const motivos = [
       <p class="campo campo--ancho">
         <label for="f-mensaje">{t('form.mensaje')}</label>
         <textarea id="f-mensaje" name="mensaje" rows="5" required maxlength="4000"
-        >{cocheNombre ? `${t('form.interes')}: ${cocheNombre}.\n\n` : ''}</textarea>
+        >{cocheNombre ? `${t('form.interes')}: ${cocheNombre}.\n\n`
+          : busca ? `${t('form.busco').replace('{que}', busca)}\n\n` : ''}</textarea>
       </p>
     </div>
 

@@ -3,28 +3,28 @@ import type { Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import type { Coche } from '../datos/coche';
-import { PAGINAS, publicables } from '../datos/pagina';
+import { publicables } from '../datos/pagina';
+import { GENERACIONES_CON_LANDING, unidadesDeGeneracion } from '../datos/generacion';
+import TarjetaCoche from './TarjetaCoche.astro';
 
 interface Props { coches: Coche[]; idioma: Idioma; }
 const { coches, idioma } = Astro.props;
 const t = traductor(idioma);
 
-const ETIQUETA_ESTADO = {
-  disponible: t('estado.disponible'),
-  reservado: t('estado.reservado'),
-  vendido: t('estado.vendido'),
-  proximamente: t('estado.disponible'),
-} as const;
-
 /* Las landings por generacion y la de venta existian sin que nada las
    enlazara: se llegaba a ellas solo desde Google. El catalogo es su sitio,
    porque quien mira coches es quien busca "997 de segunda mano" y quien se
-   plantea vender el suyo. */
-const landings = publicables()
-  .filter((x) => x.idioma === idioma && x.pagina.tipo === 'landing')
-  .map((x) => x.pagina);
-const vender = publicables()
-  .find((x) => x.idioma === idioma && x.pagina.rutaId === 'vende')?.pagina;
+   plantea vender el suyo. Ya no van en el menu: alli cada modelo nuevo era
+   una entrada mas, y aqui caben todos. Cada una dice cuantas unidades tiene
+   ahora, que es lo que decide si merece el clic. */
+const publicadas = publicables().filter((x) => x.idioma === idioma);
+const landings = GENERACIONES_CON_LANDING
+  .map((g) => ({
+    pagina: publicadas.find((x) => x.pagina.rutaId === g.rutaId)?.pagina,
+    unidades: unidadesDeGeneracion(g.generacion, idioma).disponibles.length,
+  }))
+  .filter((l) => l.pagina !== undefined);
+const vender = publicadas.find((x) => x.pagina.rutaId === 'vende')?.pagina;
 
 const disponibles = coches.filter((c) => c.catalogo?.estado !== 'vendido').length;
 const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'numeric' })
@@ -42,37 +42,7 @@ const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'nume
 </header>
 
 <div class="cars-grid">
-  {coches.map((c, i) => {
-    const cat = c.catalogo;
-    if (!cat) return null;
-    const vendido = cat.estado === 'vendido';
-    return (
-      <a class={`car-card ${cat.estado} reveal delay-${Math.min(i + 1, 6)}`}
-         href={url('coches', idioma, c.slug)}>
-        <div class="car-img-wrap">
-          <span class={`car-status-badge badge-${cat.estado}`}>
-            {cat.estadoTexto || ETIQUETA_ESTADO[cat.estado]}
-          </span>
-          <img src={cat.imagen} alt={`${cat.marca} ${cat.nombre}`}
-               width={cat.imagenAncho} height={cat.imagenAlto}
-               loading={i < 3 ? 'eager' : 'lazy'} decoding="async">
-        </div>
-        <div class="car-body">
-          <p class="car-make">{cat.marca}</p>
-          <p class="car-name">{cat.nombre}</p>
-          <p class="car-year">{cat.detalle}</p>
-          <p class="car-desc">{cat.descripcion}</p>
-          <div class="car-footer">
-            {/* Un coche vendido conserva su ficha y su URL, pero no su precio */}
-            <span class={`car-price${cat.precioPorConsultar || vendido ? ' tbd' : ''}`}>
-              {vendido ? t('estado.vendido') : cat.precio}
-            </span>
-            <span class="car-cta">{t('cta.ficha')} &rarr;</span>
-          </div>
-        </div>
-      </a>
-    );
-  })}
+  {coches.map((c, i) => <TarjetaCoche coche={c} idioma={idioma} indice={i} />)}
 </div>
 
 {(landings.length > 0 || vender) && (
@@ -81,8 +51,13 @@ const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'nume
       <div class="catalogo-mas-bloque">
         <p class="catalogo-mas-titulo">{t('catalogo.generaciones')}</p>
         <ul class="catalogo-mas-lista">
-          {landings.map((p) => (
-            <li><a href={url(p.rutaId, idioma)}>{p.h1}</a></li>
+          {landings.map((l) => (
+            <li>
+              <a href={url(l.pagina!.rutaId, idioma)}>{l.pagina!.h1}</a>
+              <span class="catalogo-mas-cuenta">
+                {l.unidades > 0 ? `${l.unidades} ${t(l.unidades === 1 ? 'generacion.unidad' : 'generacion.unidades')}` : t('generacion.ninguna')}
+              </span>
+            </li>
           ))}
         </ul>
       </div>

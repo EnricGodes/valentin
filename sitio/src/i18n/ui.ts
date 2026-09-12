@@ -37,7 +37,7 @@ export const UI = {
   'pie.soloEspanol': { es: '', en: 'in Spanish', fr: 'en espagnol', it: 'in spagnolo', de: 'auf Spanisch', ca: 'en castellà' },
 
   'catalogo.titulo': {
-    es: 'Porsche de colección en venta · Valentín Motors',
+    es: 'Porsche en venta: segunda mano y colección · Valentín Motors',
     en: 'Collector Porsche for sale · Valentín Motors',
     fr: 'Porsche de collection à vendre · Valentín Motors',
     it: 'Porsche da collezione in vendita · Valentín Motors',
@@ -167,6 +167,59 @@ export const UI = {
     es: 'Me interesa este Porsche', en: 'I am interested in this Porsche',
     fr: 'Cette Porsche m’intéresse', it: 'Mi interessa questa Porsche',
     de: 'Ich interessiere mich für diesen Porsche', ca: 'M’interessa aquest Porsche' },
+
+  // --- Landings por generacion (997, 996, 992...) ---
+  'generacion.unidad':   { es: 'unidad', en: 'car', fr: 'voiture', it: 'vettura', de: 'Fahrzeug', ca: 'unitat' },
+  'generacion.unidades': { es: 'unidades', en: 'cars', fr: 'voitures', it: 'vetture', de: 'Fahrzeuge', ca: 'unitats' },
+  'generacion.ninguna':  { es: 'sin unidades ahora', en: 'none in stock now', fr: 'aucune en stock', it: 'nessuna in stock', de: 'derzeit keins', ca: 'sense unitats ara' },
+  'generacion.vacio': {
+    es: 'De momento no tenemos ningún Porsche {gen} en venta. Déjanos tus datos y te avisamos cuando entre una unidad.',
+    en: 'We have no Porsche {gen} for sale at the moment. Leave us your details and we will let you know when one comes in.',
+    fr: 'Nous n’avons aucune Porsche {gen} à vendre pour le moment. Laissez-nous vos coordonnées et nous vous préviendrons dès qu’une arrive.',
+    it: 'Al momento non abbiamo nessuna Porsche {gen} in vendita. Ci lasci i suoi dati e la avviseremo quando ne arriva una.',
+    de: 'Derzeit haben wir keinen Porsche {gen} zum Verkauf. Hinterlassen Sie uns Ihre Daten und wir melden uns, sobald einer hereinkommt.',
+    ca: 'De moment no tenim cap Porsche {gen} en venda. Deixa’ns les teves dades i t’avisem quan n’entri una unitat.' },
+  'generacion.avisame': {
+    es: 'Avísame cuando entre un {gen}', en: 'Tell me when a {gen} comes in',
+    fr: 'Prévenez-moi quand une {gen} arrive', it: 'Avvisatemi quando arriva una {gen}',
+    de: 'Benachrichtigen Sie mich bei einem {gen}', ca: 'Avisa’m quan entri un {gen}' },
+  'generacion.vendidos': {
+    es: 'Porsche {gen} que han pasado por Valentín Motors', en: 'Porsche {gen} sold by Valentín Motors',
+    fr: 'Porsche {gen} vendues par Valentín Motors', it: 'Porsche {gen} vendute da Valentín Motors',
+    de: 'Von Valentín Motors verkaufte Porsche {gen}', ca: 'Porsche {gen} que han passat per Valentín Motors' },
+  'generacion.otras': {
+    es: 'Otras generaciones', en: 'Other generations', fr: 'Autres générations',
+    it: 'Altre generazioni', de: 'Andere Generationen', ca: 'Altres generacions' },
+  'generacion.formTitulo': {
+    es: 'Te avisamos cuando entre un {gen}', en: 'We will tell you when a {gen} comes in',
+    fr: 'Nous vous prévenons quand une {gen} arrive', it: 'La avvisiamo quando arriva una {gen}',
+    de: 'Wir melden uns, sobald ein {gen} hereinkommt', ca: 'T’avisem quan entri un {gen}' },
+  'generacion.formIntro': {
+    es: 'Dinos qué versión, cambio o color buscas y te escribimos en cuanto tengamos una unidad que encaje. Sin listas de correo: un mensaje cuando haya coche.',
+    en: 'Tell us which version, gearbox or colour you are after and we will write to you as soon as we have a matching car. No mailing lists: one message when there is a car.',
+    fr: 'Dites-nous quelle version, boîte ou couleur vous cherchez et nous vous écrirons dès qu’une voiture correspond. Pas de liste de diffusion : un message quand il y a une voiture.',
+    it: 'Ci dica quale versione, cambio o colore cerca e le scriveremo appena avremo una vettura adatta. Nessuna mailing list: un messaggio quando c’è l’auto.',
+    de: 'Sagen Sie uns, welche Version, welches Getriebe oder welche Farbe Sie suchen, und wir schreiben Ihnen, sobald ein passendes Fahrzeug da ist. Kein Verteiler: eine Nachricht, wenn es ein Auto gibt.',
+    ca: 'Digues-nos quina versió, canvi o color busques i t’escrivim quan tinguem una unitat que encaixi. Sense llistes de correu: un missatge quan hi hagi cotxe.' },
+  'form.busco': {
+    es: 'Busco un {que}. Avisadme cuando entre una unidad.',
+    en: 'I am looking for a {que}. Please let me know when one comes in.',
+    fr: 'Je cherche une {que}. Prévenez-moi quand une voiture arrive.',
+    it: 'Cerco una {que}. Avvisatemi quando ne arriva una.',
+    de: 'Ich suche einen {que}. Bitte informieren Sie mich, sobald einer hereinkommt.',
+    ca: 'Busco un {que}. Aviseu-me quan n’entri una unitat.' },
+  'vende.formTitulo': {
+    es: 'Cuéntanos qué Porsche quieres vender', en: 'Tell us which Porsche you want to sell',
+    fr: 'Dites-nous quelle Porsche vous voulez vendre', it: 'Ci dica quale Porsche vuole vendere',
+    de: 'Sagen Sie uns, welchen Porsche Sie verkaufen möchten', ca: 'Explica’ns quin Porsche vols vendre' },
+  'vende.formIntro': {
+    es: 'Modelo, año, kilómetros y estado. Te hacemos una propuesta sin compromiso.',
+    en: 'Model, year, mileage and condition. We will make you a no-obligation proposal.',
+    fr: 'Modèle, année, kilométrage et état. Nous vous faisons une proposition sans engagement.',
+    it: 'Modello, anno, chilometri e condizioni. Le facciamo una proposta senza impegno.',
+    de: 'Modell, Baujahr, Kilometerstand und Zustand. Wir machen Ihnen ein unverbindliches Angebot.',
+    ca: 'Model, any, quilòmetres i estat. Et fem una proposta sense compromís.' },
+  'pie.modelos': { es: 'Porsche por modelo', en: 'Porsche by model', fr: 'Porsche par modèle', it: 'Porsche per modello', de: 'Porsche nach Modell', ca: 'Porsche per model' },
 
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },
   'tarifas.familia':   { es: 'Familia', en: 'Family', fr: 'Famille', it: 'Famiglia', de: 'Familie', ca: 'Família' },

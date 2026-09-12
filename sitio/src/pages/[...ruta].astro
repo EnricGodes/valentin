@@ -28,6 +28,8 @@ import { cochesDe, idiomasDeCoche, idiomasConCatalogo, type Coche } from '../dat
 import { PAGINAS_CONTENIDO, idiomasDe, type Pagina } from '../datos/pagina';
 import { VENDIDOS, type Vendido } from '../datos/vendido';
 import FichaVendido from '../components/FichaVendido.astro';
+import UnidadesGeneracion from '../components/UnidadesGeneracion.astro';
+import { landingDeCoche } from '../datos/generacion';
 
 export async function getStaticPaths() {
   const rutas: any[] = [];
@@ -112,12 +114,21 @@ const idiomasPublicados = pagina
   : vendido ? IDIOMAS
   : idiomasConCatalogo();
 
-// Migas de pan: la ficha cuelga del catalogo, la pagina cuelga de la home
+/* Migas de pan: la ficha cuelga del catalogo y, si su generacion tiene
+   landing, pasa por ella: Porsche en venta > Porsche 997 de segunda mano >
+   997.1 Carrera 4S. Es la forma de que cada ficha empuje a su landing sin
+   meter las landings en el menu. Solo si la landing existe en este idioma. */
+const landingGen = (slug: string) => {
+  const id = landingDeCoche(slug);
+  if (!id || !idiomasDe(id).includes(idioma)) return [];
+  const p = PAGINAS_CONTENIDO.find((x) => x.idioma === idioma && x.pagina.rutaId === id)?.pagina;
+  return p ? [{ nombre: p.h1, rutaId: id }] : [];
+};
 const migas = coche
-  ? [{ nombre: t('nav.coches'), rutaId: 'coches' },
+  ? [{ nombre: t('nav.coches'), rutaId: 'coches' }, ...landingGen(coche.slug),
      { nombre: coche.catalogo?.nombre ?? coche.slug, rutaId: 'coches', extra: [coche.slug] }]
   : vendido
-  ? [{ nombre: t('nav.coches'), rutaId: 'coches' },
+  ? [{ nombre: t('nav.coches'), rutaId: 'coches' }, ...landingGen(vendido.slug),
      { nombre: vendido.nombre, rutaId: 'coches', extra: [vendido.slug] }]
   : pagina
     ? [{ nombre: pagina.h1 || titulo, rutaId: pagina.rutaId }]
@@ -138,11 +149,24 @@ const esIndiceTarifas = pagina?.rutaId === 'taller-tarifas';
    En su lugar va el buscador con los 57 modelos. Las subsecciones se localizan
    por su nivel y no por su titulo, que cambia en cada idioma. */
 const secciones = pagina?.secciones ?? [];
+
+/* Landing de generacion ("Porsche 997 de segunda mano"). Su texto acababa en
+   un H2 vacio, "Porsche 997 de ocasion": era el hueco donde Squarespace
+   listaba los coches y la migracion se trajo solo el titulo. Ese titulo
+   encabeza ahora el bloque dinamico de unidades. */
+const generacion = pagina?.tipo === 'landing'
+  ? pagina.rutaId.match(/^ocasion-(\d{3})$/)?.[1] : undefined;
+const ultima = secciones.at(-1);
+const huecoUnidades = generacion && ultima && ultima.nivel === 2 &&
+  !ultima.parrafos.length && !ultima.items.length && !ultima.imagenes.length;
+const seccionesLanding = huecoUnidades ? secciones.slice(0, -1) : secciones;
+const tituloUnidades = huecoUnidades ? ultima.titulo : `Porsche ${generacion}`;
+
 const iTarifas = pagina?.rutaId === 'taller'
   ? secciones.findIndex((s, i) => secciones[i + 1]?.nivel === 4) : -1;
 let iFin = iTarifas;
 while (iFin >= 0 && secciones[iFin + 1]?.nivel === 4) iFin++;
-const antesDeTarifas = iTarifas >= 0 ? secciones.slice(0, iTarifas + 1) : secciones;
+const antesDeTarifas = iTarifas >= 0 ? secciones.slice(0, iTarifas + 1) : seccionesLanding;
 const despuesDeTarifas = iTarifas >= 0 ? secciones.slice(iFin + 1) : [];
 
 /* Los articulos que sostienen esta pagina, en el orden en que los declara.
@@ -154,6 +178,7 @@ const relacionados = (pagina?.articulos ?? [])
                  ?? todos.find((p) => p.data.slugFinal === slug && p.data.lang === 'es'))
   .filter((p) => p !== undefined);
 
+const esVende = pagina?.rutaId === 'vende';
 const esCentro = pagina?.tipo === 'centro';
 const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
 ---
@@ -199,6 +224,10 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         </div>
       )}
       {despuesDeTarifas.length > 0 && <SeccionesPagina secciones={despuesDeTarifas} idioma={idioma} />}
+      {generacion && (
+        <UnidadesGeneracion generacion={generacion} rutaId={pagina.rutaId}
+                            idioma={idioma} titulo={tituloUnidades} />
+      )}
       {relacionados.length > 0 && (
         <section class="pagina-articulos contenido">
           <h2 class="pagina-articulos-titulo">{t('pagina.articulos')}</h2>
@@ -223,4 +252,12 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
 
   {(pagina?.tipo === 'contacto' || esCentro || vendido) && <Formulario idioma={idioma}
       coche={vendido?.slug} cocheNombre={vendido?.nombre} />}
+  {/* La landing lleva su propio formulario de aviso: haya o no unidades, quien
+      busca un 997 concreto quiere que le avisen del siguiente. */}
+  {generacion && <Formulario idioma={idioma} asunto="compra"
+      busca={`Porsche ${generacion}`}
+      titulo={t('generacion.formTitulo').replace('{gen}', generacion)}
+      intro={t('generacion.formIntro')} />}
+  {esVende && <Formulario idioma={idioma} asunto="venta"
+      titulo={t('vende.formTitulo')} intro={t('vende.formIntro')} />}
 </Base>

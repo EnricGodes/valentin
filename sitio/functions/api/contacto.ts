@@ -154,9 +154,14 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env, waitUnti
   const centro   = texto(datos.get('centro'), 20);
   const coche    = texto(datos.get('coche'), 120);
   const pagina   = texto(datos.get('pagina'), 300);
+  /* Un aviso de demanda: el cliente busca algo que hoy no hay en stock
+     ("Porsche 997"). Es el dato que mas vale de todo el formulario, asi que
+     va en el asunto del correo, antes que el nombre, y encabeza la tabla. */
+  const busca    = texto(datos.get('busca'), 120);
 
   // 2. Email. Es el paso que no puede fallar en silencio.
   const filas: [string, string][] = [
+    ...(busca ? [['BUSCA', busca] as [string, string]] : []),
     ['Nombre', nombre], ['Email', email], ['Telefono', telefono || '—'],
     ['Motivo', asunto], ['Su Porsche', modelo || '—'],
     ['Centro', centro || 'sin preferencia'],
@@ -169,6 +174,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env, waitUnti
     `<div style="font:15px/1.6 -apple-system,system-ui,sans-serif;color:#111">` +
     `<h2 style="font-weight:600;margin:0 0 4px">${escapar(nombre)}</h2>` +
     `<p style="margin:0 0 20px;color:#666">${escapar(asunto)}` +
+    (busca ? ` · busca <strong>${escapar(busca)}</strong>` : '') +
     (coche ? ` · ${escapar(coche)}` : '') + `</p>` +
     `<table cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin-bottom:24px">` +
     filas.map(([k, v]) =>
@@ -190,7 +196,9 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env, waitUnti
       from: env.REMITENTE ?? 'Valentin Motors <web@valentinmotors.es>',
       to: destinatarios,
       reply_to: email,
-      subject: `Web · ${asunto}${coche ? ` · ${coche}` : ''} · ${nombre}`,
+      subject: busca
+        ? `Web · BUSCA ${busca} · ${nombre}`
+        : `Web · ${asunto}${coche ? ` · ${coche}` : ''} · ${nombre}`,
       html,
     }),
   });
@@ -201,8 +209,8 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env, waitUnti
   }
 
   // 3. Aviso al movil, sin bloquear la respuesta al cliente.
-  const resumen = [nombre, telefono || email, asunto, coche || modelo,
-                   NOMBRE_IDIOMA[idioma]].filter(Boolean).join(' · ');
+  const resumen = [busca && `BUSCA ${busca}`, nombre, telefono || email, asunto,
+                   coche || modelo, NOMBRE_IDIOMA[idioma]].filter(Boolean).join(' · ');
   waitUntil(avisarMovil(env, resumen));
 
   return responder(200, idioma, GRACIAS[idioma]);

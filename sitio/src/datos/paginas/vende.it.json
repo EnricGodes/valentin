@@ -58,7 +58,7 @@
       "nivel": 2,
       "titulo": "Vogliamo aiutarLa a vendere la Sua Porsche",
       "parrafos": [
-        "Se sta pensando di vendere la Sua Porsche, <strong>ci contatti e Le faremo una proposta:</strong>",
+        "Se sta pensando di vendere la Sua Porsche, <strong><a href=\"/contacto\">ci contatti</a> e Le faremo una proposta:</strong>",
         "Può anche chiamarci al numero di telefono 933 479 856."
       ],
       "items": [],
@@ -98,5 +98,5 @@
     "total": 28,
     "completa": true
   },
-  "menu": "Vendere la tua Porsche"
+  "menu": "Vendi la tua Porsche"
 }

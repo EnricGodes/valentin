@@ -1,0 +1,62 @@
+---
+/**
+ * Tarjeta de un coche del catalogo. La misma en el catalogo entero y en las
+ * landings por generacion: un 997 se ve igual en /porsche-en-venta que en
+ * /porsche-997-de-segunda-mano.
+ */
+import type { Idioma } from '../i18n/config';
+import { POR_DEFECTO } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import type { Coche } from '../datos/coche';
+
+interface Props {
+  coche: Coche;
+  /** Idioma de la pagina que la pinta. */
+  idioma: Idioma;
+  /** Idioma en que existe la ficha enlazada, si no es el de la pagina. */
+  idiomaFicha?: Idioma;
+  /** Posicion en la rejilla: decide el retardo de entrada y la carga de la foto. */
+  indice?: number;
+}
+const { coche, idioma, idiomaFicha = idioma, indice = 0 } = Astro.props;
+const t = traductor(idioma);
+
+const ETIQUETA_ESTADO = {
+  disponible: t('estado.disponible'),
+  reservado: t('estado.reservado'),
+  vendido: t('estado.vendido'),
+  proximamente: t('estado.disponible'),
+} as const;
+
+const cat = coche.catalogo;
+const vendido = cat?.estado === 'vendido';
+/* Si la ficha no esta en este idioma se enlaza la espanola, y se dice. */
+const lang = idiomaFicha === idioma ? undefined : POR_DEFECTO;
+---
+{cat && (
+  <a class={`car-card ${cat.estado} reveal delay-${Math.min(indice + 1, 6)}`}
+     href={url('coches', idiomaFicha, coche.slug)} lang={lang} hreflang={lang}>
+    <div class="car-img-wrap">
+      <span class={`car-status-badge badge-${cat.estado}`}>
+        {cat.estadoTexto || ETIQUETA_ESTADO[cat.estado]}
+      </span>
+      <img src={cat.imagen} alt={`${cat.marca} ${cat.nombre}`}
+           width={cat.imagenAncho} height={cat.imagenAlto}
+           loading={indice < 3 ? 'eager' : 'lazy'} decoding="async">
+    </div>
+    <div class="car-body">
+      <p class="car-make">{cat.marca}</p>
+      <p class="car-name">{cat.nombre}</p>
+      <p class="car-year">{cat.detalle}</p>
+      <p class="car-desc">{cat.descripcion}</p>
+      <div class="car-footer">
+        {/* Un coche vendido conserva su ficha y su URL, pero no su precio */}
+        <span class={`car-price${cat.precioPorConsultar || vendido ? ' tbd' : ''}`}>
+          {vendido ? t('estado.vendido') : cat.precio}
+        </span>
+        <span class="car-cta">{t('cta.ficha')} &rarr;</span>
+      </div>
+    </div>
+  </a>
+)}
