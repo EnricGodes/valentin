@@ -6,6 +6,7 @@ import Pie from '../../../components/Pie.astro';
 import { url } from '../../../i18n/routes';
 import { traductor } from '../../../i18n/ui';
 import Articulo from '../../../components/seo/Articulo.astro';
+import { enlaceLandingDeGuia } from '../../../datos/generacion';
 import Migas from '../../../components/seo/Migas.astro';
 import Faq from '../../../components/seo/Faq.astro';
 import { DOMINIO, IDIOMAS, POR_DEFECTO, type Idioma } from '../../../i18n/config';
@@ -43,6 +44,9 @@ const cuerpoMd = (post.body ?? '').trim();
 const abre = /^!\[[^\]]*\]\(([^)\s]+)/.exec(cuerpoMd.split(/\n\s*\n/)[0].trim());
 const heroFoto = abre?.[1];
 const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
+
+const ventaGuia = post.data.categories.includes('iconos')
+  ? enlaceLandingDeGuia(post.data.slugFinal, idioma) : undefined;
 ---
 <Base
   idioma={idioma}
@@ -112,6 +116,17 @@ const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
         <div class="post-ctas">
           {post.data.ctas.map((c) => <a class="cta" href={url('contacto', idioma)}>{c.texto}</a>)}
         </div>
+      )}
+      {/* Quien termina la guia del 997 quiere ver 997: el enlace a su landing
+          de venta va aqui, antes de volver al indice. Solo en las guias de
+          modelo. */}
+      {ventaGuia && (
+        <aside class="post-venta">
+          <p class="post-venta-texto">{ventaGuia.nombre}</p>
+          <a class="cta" href={ventaGuia.href} lang={ventaGuia.lang} hreflang={ventaGuia.lang}>
+            {t('magazine.enVenta').replace('{gen}', ventaGuia.nombre)}
+          </a>
+        </aside>
       )}
       <footer class="post-pie">
         {/* El indice del Magazine solo se genera en castellano: los articulos

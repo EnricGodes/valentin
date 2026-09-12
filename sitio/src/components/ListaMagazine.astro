@@ -14,6 +14,8 @@
 import type { CollectionEntry } from 'astro:content';
 import type { Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import { enlaceLandingDeGuia } from '../datos/generacion';
 
 interface Props {
   posts: CollectionEntry<'magazine'>[];
@@ -39,11 +41,22 @@ const foto = (cuerpo: string) =>
   (cuerpo.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1] ?? '')
     .replace('/img/magazine/', '/img/magazine/card/');
 
+const t = traductor(idioma);
+
+/* Una guia de modelo ("Guia Porsche 997") es lo que lee quien esta pensando
+   en comprar uno. Debajo de su tarjeta va el enlace a los 997 en venta: no
+   dentro, porque la tarjeta ya es un <a> y un <a> no puede llevar otro. Solo
+   las guias (categoria "iconos"): una restauracion de un 964 no es una
+   invitacion a comprar un 964. */
+const venta = (p: CollectionEntry<'magazine'>) =>
+  p.data.categories.includes('iconos') ? enlaceLandingDeGuia(p.data.slugFinal, idioma) : undefined;
+
 const lider = destacado ? posts[0] : null;
 const resto = destacado ? posts.slice(1) : posts;
 ---
 {lider && (
-  <a class="mag-lider ancha reveal-foto" href={url('magazine', idioma, lider.data.slugFinal)}>
+  <div class="mag-lider-item ancha">
+  <a class="mag-lider reveal-foto" href={url('magazine', idioma, lider.data.slugFinal)}>
     <div class="mag-lider-foto">
       {foto(lider.body ?? '') && (
         <img src={foto(lider.body ?? '')} alt="" width="700" height="525"
@@ -59,10 +72,17 @@ const resto = destacado ? posts.slice(1) : posts;
       <p class="mag-lider-deck">{limpio(lider.data.excerpt).slice(0, 220)}</p>
     </div>
   </a>
+  {venta(lider) && (
+    <a class="mag-venta" href={venta(lider)!.href} lang={venta(lider)!.lang} hreflang={venta(lider)!.lang}>
+      {t('magazine.enVenta').replace('{gen}', venta(lider)!.nombre)} &rarr;
+    </a>
+  )}
+  </div>
 )}
 
 <div class:list={['mag-lista', 'ancha', clase]} style={`--columnas:${columnas}`}>
   {resto.map((p, i) => (
+    <div class="mag-item">
     <a class="mag-card reveal-foto" href={url('magazine', idioma, p.data.slugFinal)}>
       <div class="mag-card-foto">
         {foto(p.body ?? '')
@@ -77,5 +97,11 @@ const resto = destacado ? posts.slice(1) : posts;
       <h3 class="mag-card-titulo">{p.data.title}</h3>
       <p class="mag-card-deck">{limpio(p.data.excerpt).slice(0, 130)}</p>
     </a>
+    {venta(p) && (
+      <a class="mag-venta" href={venta(p)!.href} lang={venta(p)!.lang} hreflang={venta(p)!.lang}>
+        {t('magazine.enVenta').replace('{gen}', venta(p)!.nombre)} &rarr;
+      </a>
+    )}
+    </div>
   ))}
 </div>

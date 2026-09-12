@@ -17,7 +17,7 @@ import { traductor } from '../i18n/ui';
 import { idiomasDe, paginaPorRuta } from '../datos/pagina';
 import { CENTROS } from '../datos/centros';
 import { idiomasConCatalogo } from '../datos/coche';
-import { GENERACIONES_CON_LANDING } from '../datos/generacion';
+import { FAMILIAS, enlaceLanding } from '../datos/generacion';
 import SelectorIdioma from './SelectorIdioma.astro';
 
 interface Props {
@@ -67,15 +67,21 @@ const secciones = SECCIONES
   }));
 
 /* Las landings por generacion, enlazadas desde todas las paginas. Un enlace
-   de pie no vale lo que uno de menu, pero es el unico que llega a las 300
+   de pie no vale lo que uno de menu, pero es el unico que llega a las 750
    paginas del sitio, y "porsche 997 segunda mano" se busca mucho mas que
-   cualquier cosa que haya en el menu. El rotulo es el h1 de la landing. */
-const modelos = GENERACIONES_CON_LANDING.map(({ rutaId }) => ({
-  id: rutaId,
-  texto: (paginaPorRuta(rutaId, hay(rutaId) ? idioma : POR_DEFECTO))?.h1 ?? rutaId,
-  href: url(rutaId, hay(rutaId) ? idioma : POR_DEFECTO),
-  lang: hay(rutaId) ? undefined : POR_DEFECTO,
-}));
+   cualquier cosa que haya en el menu. Veintidos en una columna eran un
+   listado absurdo: van en cinco lineas por familia, como el indice de un
+   catalogo, con el numero como texto y la familia delante para que "997"
+   signifique algo. Google lee el <a> igual. */
+const FAM: Record<string, string> = {
+  '911': t('pie.fam.911'), boxster: t('pie.fam.boxster'), transaxle: t('pie.fam.transaxle'),
+  clasicos: t('pie.fam.clasicos'), suv: t('pie.fam.suv'),
+};
+const familias = FAMILIAS
+  .map((f) => ({ id: f.id, texto: FAM[f.id],
+                 enlaces: f.generaciones.map((g) => enlaceLanding(g, idioma))
+                           .filter((e) => e !== undefined) }))
+  .filter((f) => f.enlaces.length > 0);
 
 ---
 <footer class="pie">
@@ -123,18 +129,28 @@ const modelos = GENERACIONES_CON_LANDING.map(({ rutaId }) => ({
           <li><a href={s.href} lang={s.lang} hreflang={s.lang}>{s.texto}</a></li>
         ))}
       </ul>
-      {modelos.length > 0 && (
-        <>
-          <p class="pie-titulo pie-titulo--segundo">{t('pie.modelos')}</p>
-          <ul class="pie-mapa pie-mapa--una">
-            {modelos.map((m) => (
-              <li><a href={m.href} lang={m.lang} hreflang={m.lang}>{m.texto}</a></li>
-            ))}
-          </ul>
-        </>
-      )}
     </nav>
   </div>
+
+  {familias.length > 0 && (
+    <nav class="pie-modelos" aria-label={t('pie.modelos')}>
+      <p class="pie-titulo">{t('pie.modelos')}</p>
+      <dl class="pie-familias">
+        {familias.map((f) => (
+          <div class="pie-familia">
+            <dt>{f.texto}</dt>
+            <dd>
+              {f.enlaces.map((e, i) => (
+                <>{i > 0 && <span class="pie-sep" aria-hidden="true">·</span>}
+                  <a href={e!.href} lang={e!.lang} hreflang={e!.lang}
+                     title={e!.nombre}>{e!.corto}</a></>
+              ))}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </nav>
+  )}
 
   <div class="pie-abajo">
     <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}

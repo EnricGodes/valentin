@@ -6,6 +6,7 @@ import Pie from '../../components/Pie.astro';
 import { url } from '../../i18n/routes';
 import { traductor } from '../../i18n/ui';
 import Articulo from '../../components/seo/Articulo.astro';
+import { enlaceLandingDeGuia } from '../../datos/generacion';
 import Migas from '../../components/seo/Migas.astro';
 import Faq from '../../components/seo/Faq.astro';
 import CalculadoraIms from '../../components/CalculadoraIms.astro';
@@ -51,6 +52,9 @@ const llevaCalculadoraIms = (post.body ?? '').includes('herramienta{id="calculad
 
 const descripcion = limpio(post.data.excerpt).slice(0, 300)
   || `${post.data.title} · Magazine de Valentin Motors.`;
+
+const ventaGuia = post.data.categories.includes('iconos')
+  ? enlaceLandingDeGuia(post.data.slugFinal, idioma) : undefined;
 ---
 <Base
   idioma={idioma}
@@ -138,6 +142,17 @@ const descripcion = limpio(post.data.excerpt).slice(0, 300)
         <div class="post-ctas">
           {post.data.ctas.map((c) => <a class="cta" href={c.href}>{c.texto}</a>)}
         </div>
+      )}
+      {/* Quien termina la guia del 997 quiere ver 997: el enlace a su landing
+          de venta va aqui, antes de volver al indice. Solo en las guias de
+          modelo. */}
+      {ventaGuia && (
+        <aside class="post-venta">
+          <p class="post-venta-texto">{ventaGuia.nombre}</p>
+          <a class="cta" href={ventaGuia.href} lang={ventaGuia.lang} hreflang={ventaGuia.lang}>
+            {t('magazine.enVenta').replace('{gen}', ventaGuia.nombre)}
+          </a>
+        </aside>
       )}
       <footer class="post-pie">
         <a class="post-volver" href={url('magazine', idioma)}>&larr; {t('post.volver')}</a>

@@ -76,3 +76,39 @@ export function unidadesDeGeneracion(generacion: string, idioma: Idioma): {
     sinFicha: VENDIDOS.filter((v) => generacionDe(v.slug) === generacion),
   };
 }
+
+/* ── Lo que necesitan el pie y el Magazine ─────────────────────────────── */
+import { url } from '../i18n/routes';
+import { idiomasDe, paginaPorRuta } from './pagina';
+
+/** Enlace a la landing de una generacion en el idioma pedido (o en espanol si
+ *  no esta traducida), con su nombre legible. `undefined` si no hay landing. */
+export function enlaceLanding(generacion: string | undefined, idioma: Idioma) {
+  const rutaId = landingDeGeneracion(generacion);
+  if (!rutaId) return undefined;
+  const propio = idiomasDe(rutaId).includes(idioma);
+  const p = paginaPorRuta(rutaId, propio ? idioma : POR_DEFECTO);
+  if (!p) return undefined;
+  return {
+    rutaId, generacion: generacion!,
+    href: url(rutaId, propio ? idioma : POR_DEFECTO),
+    lang: propio ? undefined : POR_DEFECTO,
+    nombre: p.menu ?? p.h1,
+    /* "997", "911 clasico", "930 Turbo": sin la marca ni el "Boxster y
+       Cayman", que en una linea de ocho enlaces se repetiria cuatro veces. */
+    corto: (p.menu ?? p.h1).replace(/^Porsche /, '').replace(/ Boxster.*$/, ''),
+  };
+}
+
+/** La landing que corresponde a una guia de modelo del Magazine, por su slug. */
+export const enlaceLandingDeGuia = (slugFinal: string, idioma: Idioma) =>
+  enlaceLanding(generacionDe(slugFinal), idioma);
+
+/** Familias para el indice del pie: cinco lineas legibles, no veintidos filas. */
+export const FAMILIAS: { id: string; generaciones: string[] }[] = [
+  { id: '911',      generaciones: ['911', '930', '964', '993', '996', '997', '991', '992'] },
+  { id: 'boxster',  generaciones: ['986', '987', '981', '718'] },
+  { id: 'transaxle', generaciones: ['924', '944', '968', '928'] },
+  { id: 'clasicos', generaciones: ['356', '912', '914'] },
+  { id: 'suv',      generaciones: ['cayenne', 'macan', 'panamera'] },
+];

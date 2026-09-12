@@ -815,8 +815,29 @@ section { position: relative; }
   transition: color 0.3s var(--ease);
 }
 .pie-mapa a:hover { color: var(--blanco); }
-.pie-titulo--segundo { margin-top: 28px; }
-.pie-mapa--una { columns: 2; }
+/* Indice de modelos: una franja a lo ancho, cinco lineas, una por familia. */
+.pie-modelos {
+  max-width: var(--ancho-max); margin: 0 auto;
+  padding: 28px var(--pad-lateral) 36px;
+  border-top: 1px solid var(--linea);
+}
+.pie-familias { margin: 0; }
+.pie-familia {
+  display: grid; grid-template-columns: 150px 1fr; gap: 6px 24px;
+  padding: 7px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+.pie-familia:last-child { border-bottom: 0; }
+.pie-familia dt {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: rgba(167, 162, 154, 0.55); padding-top: 3px;
+}
+.pie-familia dd { margin: 0; font-size: 14px; line-height: 1.9; color: var(--concreto); }
+.pie-familia a { color: var(--concreto); text-decoration: none; transition: color 0.3s var(--ease); }
+.pie-familia a:hover { color: var(--blanco); }
+.pie-sep { margin: 0 9px; color: rgba(167, 162, 154, 0.35); }
+@media (max-width: 560px) {
+  .pie-familia { grid-template-columns: 1fr; gap: 2px; }
+}
 
 .pie-abajo {
   display: flex; justify-content: space-between; align-items: center;
@@ -1062,6 +1083,29 @@ section { position: relative; }
   font-size: 15px; line-height: 1.6; color: var(--concreto); margin-top: 10px;
 }
 
+/* El enlace a la venta, debajo de la guia de modelo: en mono y bronce, como
+   un dato mas de la tarjeta, no como un boton. */
+.mag-venta {
+  display: inline-block; margin-top: 14px;
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--bronce); text-decoration: none;
+  border-bottom: 1px solid rgba(178, 138, 91, 0.35); padding-bottom: 3px;
+  transition: border-color 0.3s var(--ease), color 0.3s var(--ease);
+}
+.mag-venta:hover { color: var(--blanco); border-color: var(--blanco); }
+/* La pieza destacada va envuelta para que el enlace de venta quede bajo su
+   columna de texto, dentro del bloque y antes de su linea de cierre. */
+.mag-lider-item {
+  display: grid; grid-template-columns: 1.35fr 1fr; column-gap: var(--gap-columnas);
+  margin: 72px 0 96px; padding-bottom: 96px; border-bottom: 1px solid var(--linea);
+}
+.mag-lider-item .mag-lider { grid-column: 1 / -1; margin: 0; padding-bottom: 0; border-bottom: 0; }
+.mag-lider-item .mag-venta { grid-column: 2; margin-top: 4px; }
+@media (max-width: 720px) {
+  .mag-lider-item { grid-template-columns: 1fr; }
+  .mag-lider-item .mag-venta { grid-column: 1; margin-top: 18px; }
+}
+
 .mag-meta {
   font-family: var(--mono); font-size: var(--t-micro);
   letter-spacing: var(--tr-label); text-transform: uppercase; color: var(--bronce);
@@ -1285,6 +1329,13 @@ section { position: relative; }
 
 /* ── Cierre ──────────────────────────────────────────────────────────── */
 .post-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 24px; }
+.post-venta {
+  margin-top: 72px; padding: 32px 0 0; border-top: 1px solid var(--linea);
+  display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+}
+.post-venta-texto {
+  font-family: var(--serif); font-size: 24px; letter-spacing: -0.01em; color: var(--blanco);
+}
 .post-pie { margin-top: 96px; padding-top: 28px; border-top: 1px solid var(--linea); }
 .post-volver {
   font-family: var(--mono); font-size: 11px; letter-spacing: var(--tr-nav);
