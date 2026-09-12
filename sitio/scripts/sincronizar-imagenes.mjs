@@ -30,8 +30,7 @@ if (existsSync(blog)) {
   const n = (await readdir(blogDest)).length;
   console.log(`fotos del magazine: ${n} ficheros -> ${blogDest}`);
 } else {
-  console.warn('AVISO: no se encuentran las imagenes del Magazine.');
-  console.warn('  Ejecuta _migracion/scripts/03_descargar_imagenes.py');
+  console.warn('AVISO: no se encuentran las imagenes del Magazine en _migracion/contenido/imagenes.');
 }
 
 // Imagenes de las paginas (home, servicios, centros) rescatadas del CDN

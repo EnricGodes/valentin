@@ -54,10 +54,9 @@ for (const g of grandes) {
 
 /* Un alt que es el nombre del fichero es lo que un lector de pantalla acaba
    leyendo en voz alta ("DSC03497 punto jpg"), y para Google Imagenes es una
-   foto sin describir. Se corrigieron a mano y las descripciones viven en
-   _migracion/contenido/alts.json; esto impide que vuelvan, que es lo que una
-   correccion no da. Un alt VACIO no entra aqui: es el marcado correcto de una
-   foto decorativa. */
+   foto sin describir. Se corrigieron a mano, mirando cada foto, y esto impide
+   que vuelvan, que es lo que una correccion no da. Un alt VACIO no entra aqui:
+   es el marcado correcto de una foto decorativa. */
 const NOMBRE_DE_FICHERO = /\.(jpe?g|png|webp|gif)$/i;
 const sinDescribir = [];
 const paginas = resolve(aqui, '../src/datos/paginas');
@@ -77,8 +76,8 @@ for (const x of sinDescribir.slice(0, 10)) {
   console.error(`ALT SIN DESCRIBIR, es el nombre del fichero: ${x}`);
 }
 if (sinDescribir.length) {
-  console.error(`  ...${sinDescribir.length} en total. Describelas en `
-    + '_migracion/contenido/alts.json y pasa 25_aplicar_alts.py');
+  console.error(`  ...${sinDescribir.length} en total. Describelas en el alt `
+    + 'de la pagina o del articulo, en los seis idiomas.');
   fallos++;
 }
 
