@@ -19,7 +19,12 @@
         "Amb una conversa i amb un cotxe, en aquest ordre. El primer és entendre què es vol del cotxe acabat: si és per fer servir, per guardar o per competir. Tota la resta surt d'aquí, inclosa la part incòmoda, que és quant costarà i quant trigarà."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/959b9abb-267ce8a3-379d-4f4f-8229-25ce50c29b30.jpg",
+          "alt": "El 911 PA10 crema al costat d'un 911 vermell de sèrie F a la sala d'exposició"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -29,16 +34,28 @@
         "D'aquest departament surten les peces pròpies que acaben als cotxes de competició i les decisions de disseny dels restomods."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/0bca650e-DSC03559.jpg",
+          "alt": "Un assistent observa l'interior del PA10/01 durant la presentació"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Projectes i disseny",
+      "titulo": "De la idea a una especificació",
       "parrafos": [
-        "El departament de projectes converteix una intenció general en una especificació que el taller pot executar i el client pot avaluar abans de començar. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de l'ús esperat, la base disponible, l'estat del cotxe, les referències estètiques, les prestacions cercades, el pressupost i l'homologació. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+        "El departament de projectes converteix una intenció general en una especificació que el taller pot executar i que el client pot avaluar abans de començar."
       ],
-      "items": [],
+      "items": [
+        "Lús esperat.",
+        "La base disponible.",
+        "L´estat del cotxe.",
+        "Les referències estètiques.",
+        "Les prestacions cercades.",
+        "El pressupost.",
+        "L'homologació."
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/980a50f4-DSC00828.jpg",
@@ -48,36 +65,36 @@
     },
     {
       "nivel": 2,
-      "titulo": "Decidir l’abast de Projectes i disseny",
+      "titulo": "Dissenyar és descartar",
       "parrafos": [
-        "L'abast es planteja de manera proporcional: s'estudien alternatives, compatibilitats, peces, fabricació i seqüència de treball. En projectes complexos, també es decideix què s'ha de provar abans d'instal·lar-se de manera definitiva. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: dissenyar implica descartar. Es prioritzen solucions justificables i evita que una suma de bones peces acabi produint un cotxe incoherent. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+        "S'hi estudien alternatives, compatibilitats, peces, fabricació i seqüència de treball. En projectes complexos, també es decideix què s'ha de provar abans d'instal·lar-se de manera definitiva.",
+        "Dissenyar implica descartar. Es prioritzen solucions justificables i evita que una suma de bones peces acabi produint un cotxe incoherent."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda definit abans de tocar el cotxe",
+      "parrafos": [
+        "El projecte acaba en paper i comença al taller, no al revés."
       ],
       "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
+        "Lús previst i les prestacions que ho justifiquen.",
+        "La base disponible i el seu estat real.",
+        "Les referències estètiques i fins on arriben.",
+        "La seqüència de treball i què depèn de què.",
+        "El pressupost per fases i quines decisions queden obertes."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Projectes i disseny",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Projectes i disseny.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un cas documentat: Projectes i disseny",
+      "titulo": "La presentació del PA10/01",
       "parrafos": [
-        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/presentacion-pa10-01-madrid\">aquest cas documentat</a>."
+        "El Magazine mostra el treball i les seves fotografies a <a href=\"/magazine/presentacion-pa10-01-madrid\">aquest cas documentat</a>."
       ],
-      "items": [
-        "[[COMPROVAR: enllaçar un projecte real del Magazine i assignar-ne la fotografia.]]"
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/magazine/dc57c760-DSC03556.jpg",
@@ -87,20 +104,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Projectes i disseny",
+      "titulo": "Un abast dividit per fases",
       "parrafos": [
-        "L'objectiu del lliurament és un abast comprensible, dividit per fases i connectat amb decisions tècniques, estètiques i d'ús que no depenen d'improvisacions durant el muntatge. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Com preparar la primera consulta en Projectes i disseny",
-      "parrafos": [
-        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
-        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
+        "Un abast comprensible, dividit per fases i connectat amb decisions tècniques, estètiques i d'ús que no depenen d'improvisacions durant el muntatge."
       ],
       "items": [],
       "imagenes": []
@@ -109,7 +115,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/restauraciones\">restauracions</a>, <a href=\"/restauraciones/personalizacion\">personalització</a>, <a href=\"/builds\">builds</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, el treball pot coordinar-se amb <a href=\"/restauraciones\">restauracions</a>, <a href=\"/restauraciones/personalizacion\">personalització</a>, <a href=\"/builds\">builds</a>."
       ],
       "items": [],
       "imagenes": []
@@ -117,9 +123,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -147,8 +151,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 39,
-    "total": 39,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

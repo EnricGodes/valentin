@@ -4,10 +4,10 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Porsche Customization · Valentín Motors",
-    "descripcion": "Porsche customization and one-off projects: bodywork, dynamics, and interiors, featuring TECHART solutions and a homologation study.",
+    "descripcion": "Porsche customization and one-off projects: bodywork, dynamics, and interiors, featuring TECHART solutions and homologation assessment.",
     "ogImagen": ""
   },
-  "h1": "Porsche customization in keeping with the vehicle",
+  "h1": "Porsche customization that respects the car's character",
   "menu": "Customization",
   "acordeones": [],
   "articulos": [
@@ -17,66 +17,82 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "What we do: Customization",
+      "titulo": "Bespoke modifications that maintain the car's integrity",
       "parrafos": [
-        "A 911 964 can take body, chassis and interior changes, but not all of them suit a rare example.",
-        "Bespoke projects for your existing car: bodywork modifications, performance upgrades, and handcrafted interiors. Options range from a specific component to a unique, one-off commission.",
-        "We are authorized distributors and installers TECHART for 2019, covering the customization catalog for current models. Items not in the catalog are custom-manufactured."
+        "A 911 964 allows for modifications to the bodywork, driving dynamics, and interior, but not all are suitable for a rare unit.",
+        "Bespoke projects based on your own car: bodywork modifications, performance upgrades, and handcrafted interiors. Ranging from a specific part to a \"one-off\" commission—a unique, singular build.",
+        "We have been authorized TECHART distributors and installers since 2019, covering the customization catalog for current models. If it isn't in the catalog, we manufacture it."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/68ce3447-f7fe04c7-a653-4e62-baf3-10b0c5c2034d.jpg",
+          "alt": "Rear of the white 964 with the engine grille and the PORSCHE light bar lit"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "How far can you go?",
+      "parrafos": [
+        "The limits aren't set by technology, but by homologation requirements and common sense regarding the car's value. A reversible modification on a standard car is one thing; an irreversible one on a rare unit is another—and we state this upfront, even if it means the project doesn't go ahead."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/f65940b6-IMG_9764.jpg",
+          "alt": "Complete KW suspension kit with yellow springs, on its assembly tray"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Practical upgrade, reversible change, or major intervention",
+      "parrafos": [
+        "Customizing a Porsche requires distinguishing between a practical upgrade, a reversible aesthetic change, and an intervention that could permanently alter the car's value or identity."
+      ],
+      "items": [
+        "The model.",
+        "Its rarity.",
+        "Its current condition.",
+        "Its intended use.",
+        "The owner's priorities.",
+        "Homologation implications."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comparing the alternatives",
+      "parrafos": [
+        "The project can focus on the interior, bodywork, or driving dynamics, or coordinate all three areas. It also encompasses TECHART solutions for current models and \"one-off\" commissions.",
+        "Alternatives are compared based on integration, reversibility, future maintenance requirements, and coherence. Just because a modification is technically feasible does not mean it is suitable for every specific vehicle."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "The limits of what is possible",
+      "titulo": "What to consider before modifying a rare vehicle",
       "parrafos": [
-        "The boundaries are not set by technical limitations, but by homologation requirements and common sense regarding the car's value. A reversible modification on a standard car is one thing; an irreversible one on a rare model is another. We state this clearly before starting, even if it means the commission does not go ahead."
+        "A technically feasible modification is not always the right choice for that specific car."
+      ],
+      "items": [
+        "How many examples like yours remain, and in what configuration.",
+        "Whether the change is reversible without leaving a trace on the bodywork.",
+        "What future maintenance the new part entails.",
+        "Whether the overall build retains a logical flow or becomes a mere collection of ideas.",
+        "The implications for road-legal certification and insurance."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "LED headlights on a 964",
+      "parrafos": [
+        "The Magazine showcases the work and photos in <a href=\"/magazine/9-eleven-headlights-964\">this documented case study</a>."
       ],
       "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Where Customization starts",
-      "parrafos": [
-        "Customizing a Porsche requires distinguishing between a functional upgrade, a reversible aesthetic change, and an intervention that could permanently alter the car's value or identity. That is why our initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's desired outcome.",
-        "The assessment takes into account the model, its rarity, its current condition, intended use, the owner's priorities, and homologation implications. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Defining the scope of Customization",
-      "parrafos": [
-        "The scope is determined proportionally: the project may focus on the interior, bodywork, or driving dynamics, or coordinate all three areas. It also encompasses TECHART solutions for current models and bespoke, one-off commissions. Tasks are sequenced to avoid redundant disassembly, masking underlying issues, or replacing an entire assembly when it could still be diagnosed or repaired.",
-        "Technical decisions are made based on the following criteria: alternatives are compared in terms of integration, reversibility, future maintenance, and coherence. Just because a modification is technically feasible does not mean it is suitable for every specific vehicle. If a discovery arises that alters the scope of the commission, it is separated from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What Customization does not include",
-      "parrafos": [],
-      "items": [
-        "It does not include work outside the agreed scope for Customization.",
-        "Any extension is checked and authorised separately."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "A documented case: Customization",
-      "parrafos": [
-        "The Magazine shows the work and its photographs in <a href=\"/magazine/9-eleven-headlights-964\">this documented case</a>."
-      ],
-      "items": [
-        "[[CHECK: assign a previously selected Magazine photograph to this case.]]"
-      ],
       "imagenes": [
         {
           "url": "/img/magazine/27d7c7b0-f6c4ca7d-4d88-4504-bf87-f1955c4272ea.jpg",
@@ -86,20 +102,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner receives after Customization",
+      "titulo": "A specification that stands the test of time",
       "parrafos": [
-        "The goal is a personalized specification that maintains a cohesive overall logic and remains maintainable and explainable over time. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled for the future.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "How to prepare for the initial consultation: Customization",
-      "parrafos": [
-        "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
-        "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
+        "A personalized specification that maintains overall coherence and can be serviced and explained over time."
       ],
       "items": [],
       "imagenes": []
@@ -108,7 +113,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the project goal, work can be coordinated with <a href=\"/restauraciones/proyectos-y-diseno\">projects and design</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/taller-porsche\">Porsche workshop</a>. Each page outlines the specific scope of work prior to booking an appointment."
+        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/restauraciones/proyectos-y-diseno\">design and planning</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/taller-porsche\">Porsche workshop services</a>."
       ],
       "items": [],
       "imagenes": []
@@ -116,9 +121,7 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
-      "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -126,16 +129,16 @@
       "nivel": 3,
       "titulo": "Does customization always reduce value?",
       "parrafos": [
-        "Not always, but an irreversible modification to a rare unit warrants more caution than a reversible upgrade on a daily driver. That impact is weighed before a decision is made."
+        "Not always, but an irreversible modification to a rare vehicle requires more caution than a reversible upgrade to a daily driver. This impact is weighed carefully before a decision is made."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Can off-the-shelf parts be combined with custom-fabricated ones?",
+      "titulo": "Can off-the-shelf parts be combined with custom-made ones?",
       "parrafos": [
-        "Yes, provided they serve the same purpose and integrate correctly. The selection process is driven by function, not by a desire to simply pack the car with components."
+        "Yes, provided they serve the same purpose and integrate correctly. The selection process is driven by function, not by simply filling the car with components."
       ],
       "items": [],
       "imagenes": []
@@ -146,8 +149,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 38,
-    "total": 38,
+    "hechas": 41,
+    "total": 41,
     "completa": true
   }
 }

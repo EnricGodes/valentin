@@ -4,10 +4,10 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Porsche Restomod 911 · Valentín Motors",
-    "descripcion": "La Porsche Restomod 911 est développée comme un projet complet incluant la carrosserie, le moteur, la boîte de vitesses, l'intérieur et la préparation.",
+    "descripcion": "Porsche Restomod 911 Développé comme un projet complet englobant la carrosserie, le moteur, la boîte de vitesses, l'intérieur et la préparation.",
     "ogImagen": ""
   },
-  "h1": "Porsche Restomod : un classique revisité pour l'usage.",
+  "h1": "Porsche Restomod : un classique repensé pour l’usage quotidien",
   "menu": "Restomod",
   "acordeones": [],
   "articulos": [
@@ -17,22 +17,74 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "La première était la PA10/01",
+      "titulo": "Le premier était le PA10/01",
       "parrafos": [
-        "La PA10/01 est notre interprétation de la 911 parfaite : une voiture entièrement conçue et fabriquée en interne et présentée à Madrid lors de 2025. Elle sert de référence pour évaluer le potentiel d’un projet de ce type."
+        "PA10/01 est notre interprétation de la 911 voiture parfaite : une voiture entièrement conçue et construite en interne et présentée à Madrid en 2025. Elle sert de référence pour ce type de projet."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/32d3ccfb-80613248-d790-46dc-bd3c-bbcfb18a1a98.jpg",
+          "alt": "La 911 PA10 crème exposée dans le showroom, portière ouverte"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Les éléments essentiels",
+      "parrafos": [
+        "Une restomod Reconstruire un classique comme un système complet afin d'améliorer son utilisation sans altérer l'identité qui a justifié son choix."
+      ],
+      "items": [
+        "La qualité du modèle de base.",
+        "L'architecture.",
+        "Le poids.",
+        "La réponse du moteur.",
+        "La boîte de vitesses.",
+        "Les freins.",
+        "La suspension.",
+        "L'ergonomie.",
+        "L'esthétique."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/e4809cf4-db2e7043-9718-4bab-bbb2-dd5f6bdf1893.jpg",
+          "alt": "Détail du phare et du clignotant de la PA10, sangle de capot en fond"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un projet unique, et non des améliorations isolées.",
+      "parrafos": [
+        "La carrosserie, la peinture, le moteur, la transmission, l'intérieur et la conception sont définis dans le cadre d'un même projet. Une amélioration isolée ne doit pas se contenter de déplacer le problème vers un autre composant.",
+        "Il convient de décider quelles caractéristiques conserver et quelles limitations corriger. La vitesse de pointe explique rarement à elle seule le caractère agréable, fiable et pratique d'une voiture."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Un cas documenté : Restomod",
+      "titulo": "Qu'est-ce qui est conservé d'une voiture classique ?",
       "parrafos": [
-        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/pa10-01\">ce cas documenté</a>."
+        "Une restomod Si tout est corrigé, la voiture cesse d'être celle qui était destinée à être préservée."
       ],
       "items": [
-        "[[VÉRIFIER : attribuer à ce cas une photographie déjà sélectionnée dans le Magazine.]]"
+        "Le caractère du moteur, même si sa silhouette change.",
+        "La position de conduite et la relation avec la voiture.",
+        "L'identité de la carrosserie, même après sa reconstruction.",
+        "Ce qui rend une génération reconnaissable par rapport à la suivante.",
+        "Ce qui n'est pas préservé est décidé et documenté ; rien n'est perdu en cours de route."
       ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "PA10/01, étape par étape",
+      "parrafos": [
+        "Le magazine présente le travail et ses photographies dans <a href=\"/magazine/pa10-01\">ce cas documenté</a>."
+      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/magazine/30b1e541-e8ee1755-2918-40bf-9839-aa5eeb460162.jpg",
@@ -42,62 +94,28 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un classique utilisable",
+      "titulo": "Un classique qui peut être utilisé",
       "parrafos": [
-        "Une restomod n'est ni une restauration ni une personnalisation. Une restauration remet la voiture dans son état d'origine ; une personnalisation modifie des pièces sur une voiture qui reste inchangée. Une restomod part d'une base classique et la reconstruit entièrement pour qu'elle se conduise comme une voiture moderne, tout en préservant les lignes et le caractère de l'original.",
-        "C'est le travail qui réunit tout dans l'atelier : carrosserie et peinture, moteur, transmission, sellerie et ingénierie du projet. C’est pourquoi elles sont si peu nombreuses et que chacune est définie avec le client avant toute intervention."
+        "Une restomod n'est ni une restauration ni une personnalisation. Une restauration remet la voiture dans son état d'origine ; une personnalisation modifie des pièces sur une voiture qui reste fondamentalement la même. restomod part d'une base classique et la reconstruit entièrement pour qu'elle se conduise comme une voiture moderne, tout en préservant les lignes et le caractère de l'original.",
+        "C'est le travail qui rassemble tous les services de l'entreprise : carrosserie et peinture, moteur, transmission, sellerie et ingénierie du projet. C'est pourquoi ils sont peu nombreux et que chacun est défini avec le client avant toute intervention."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Le point de départ de Restomod",
+      "titulo": "Testé et documenté dans son intégralité",
       "parrafos": [
-        "Une restomod transforme un classique en un système complet pour améliorer son utilisation sans altérer l'identité qui justifiait son choix. C’est pourquoi la conversation initiale ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son historique et le résultat attendu par son propriétaire.",
-        "L’évaluation commence par la qualité de la base, l’architecture, le poids, la réactivité du moteur, la boîte de vitesses, les freins, la suspension, l’ergonomie et l’esthétique. En cas d’information manquante, les vérifications nécessaires sont précisées pour l’obtenir avant de transformer une hypothèse en devis."
+        "Unité unique développée selon ses propres spécifications, testée et documentée dans son intégralité, et non comme un ensemble de modifications indépendantes."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Définir le périmètre de Restomod",
+      "titulo": "Services connexes",
       "parrafos": [
-        "Le périmètre est défini de manière proportionnelle : carrosserie, peinture, moteur, transmission, intérieur et ingénierie sont tous inclus dans un même projet. Une amélioration isolée ne doit pas simplement déplacer le problème vers un autre composant. Les tâches sont priorisées afin d’éviter un double démontage, de ne pas masquer un symptôme et d’éviter le remplacement d’un ensemble lorsqu’il est encore possible de diagnostiquer ou de réparer le problème.",
-        "La décision technique est prise selon ce critère : on détermine les caractéristiques à préserver et les limitations à corriger. La vitesse de pointe explique rarement à elle seule le caractère agréable, fiable et pratique d'une voiture. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que Restomod ne couvre pas",
-      "parrafos": [],
-      "items": [
-        "Les travaux hors du périmètre convenu pour Restomod ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Restomod",
-      "parrafos": [
-        "L’objectif de la livraison est de fournir un véhicule unique, développé selon ses propres spécifications, testé et documenté dans son ensemble, et non comme un assemblage de modifications indépendantes. L’explication finale doit permettre au client de comprendre les étapes franchies, leurs raisons et les points à surveiller ou à programmer ultérieurement.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services associés",
-      "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">projets et conception</a> et <a href=\"/sala-motores\">atelier moteurs</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">Projets et conception</a>, <a href=\"/sala-motores\">Atelier moteurs</a>."
       ],
       "items": [],
       "imagenes": []
@@ -105,26 +123,24 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "En quoi diffère-t-elle d'une restauration ?",
       "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+        "La restauration vise à retrouver une spécification antérieure ; restomod part d'un modèle classique pour créer une nouvelle spécification. Les deux approches exigent de la rigueur, mais poursuivent des résultats différents."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "En quoi est-ce différent d’une restauration ?",
+      "titulo": "Est-elle reproductible ? PA10/01 ?",
       "parrafos": [
-        "La restauration vise à récupérer une spécification antérieure ; restomod part d’une spécification classique pour en créer une nouvelle. Les deux méthodes exigent de la rigueur, mais poursuivent des résultats différents."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Peut-on copier PA10/01 ?",
-      "parrafos": [
-        "Le PA10/01 illustre un savoir-faire et une approche. Chaque nouveau projet doit répondre aux attentes de son propriétaire et tenir compte de sa base ; sa définition repart donc de l’usage prévu."
+        "PA10/01 Démontre des compétences et un jugement éclairé. Chaque nouveau projet doit répondre aux besoins de son propriétaire et s'appuyer sur ses fondements ; la définition repose donc à nouveau sur l'usage."
       ],
       "items": [],
       "imagenes": []
@@ -135,8 +151,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

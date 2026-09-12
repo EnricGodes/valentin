@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Porsche bodywork and paint · Valentín Motors",
-    "descripcion": "Porsche bodywork and paint services featuring full preparation, original colors, anti-corrosion treatment, and an in-house spray booth in Barcelona.",
+    "titulo": "Porsche Bodywork and Paint · Valentín Motors",
+    "descripcion": "Porsche bodywork and paint services featuring comprehensive preparation, original colors, anti-corrosion treatment, and an in-house spray booth in Barcelona.",
     "ogImagen": ""
   },
-  "h1": "Porsche bodywork and paint with full preparation",
+  "h1": "Porsche bodywork and paint with comprehensive preparation",
   "menu": "Bodywork and paint",
   "acordeones": [],
   "articulos": [
@@ -17,48 +17,96 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Preparation is the work itself",
+      "titulo": "Preparation is the key to the job",
       "parrafos": [
-        "Before painting, the gaps at every opening are measured; trim pieces are removed rather than masked off; and every accessory removed from the car is cataloged to ensure it returns to its proper place. Chrome parts requiring refurbishment are restored while the body is in the spray booth.",
-        "We apply anti-corrosion treatment to areas that require it,which, on a classic Porsche, are always the same spots and always the ones that remain hidden from view."
+        "Before painting, we measure the gaps at every opening, remove trim pieces rather than masking them off, and catalog every component removed from the car to ensure it is returned to its correct position. Chrome parts requiring attention are refurbished while the body is in the spray booth.",
+        "We apply anti-corrosion treatment to the areas that require it—which, on a classic Porsche, are always the same spots and always the ones that remain hidden from view."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/586a0656-3d27e9c7-2364-4e70-87d9-3c02b3fff360.jpg",
+          "alt": "Bodyshell of a G-series 911 masked up in the bodywork and paint shop"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What is measured before painting",
+      "parrafos": [
+        "A Porsche body and paint repair depends more on preparation, fit, and material compatibility than on the final surface gloss."
+      ],
+      "items": [
+        "Paint thickness.",
+        "Panel gaps.",
+        "Corrosion.",
+        "Deformations.",
+        "Previous repairs.",
+        "Color code.",
+        "Removable parts.",
+        "Condition of trim and chrome."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg",
+          "alt": "Freshly painted red 964 parts: headlight rings, mirrors and brackets"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "A specific area or the entire bodywork",
+      "parrafos": [
+        "The work can address a specific area or be part of a complete restoration. The dedicated booth in Barcelona allows for the coordination of preparation, painting, and assembly.",
+        "Components are removed as necessary to avoid masking lines, and a decision is made on whether to preserve, repair, or replace parts. With classic cars, visible corrosion necessitates an inspection of related areas."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/4aaf5fc4-7df917fe-79fb-40d0-b348-55de1dd7ac87.jpg",
+          "alt": "Wheel arch of the G-series 911 with the original seal and sealant exposed"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Factory colors and in-house spray booth",
+      "parrafos": [
+        "Repair and painting to Porsche specifications, using original factory colors and current paint code systems. In-house spray booth at the Barcelona workshop.",
+        "A well-executed paint job goes unnoticed. What stands out is a poor one: uneven panel gaps, a color that doesn't match the engine bay or door jambs, or trim that no longer sits flush."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "What we do: Bodywork and paint",
+      "titulo": "What a coat of paint can't fix",
       "parrafos": [
-        "Repair and painting performed to Porsche specifications, using original factory colors and current paint code systems. In-house spray booth at our Barcelona workshop.",
-        "A well-executed paint job goes unnoticed. What stands out is a poor one: uneven panel gaps, a color that doesn't match the engine bay, or trim that no longer sits flush."
+        "The finish is the last thing you see, yet the first thing to reveal what lies beneath."
       ],
-      "items": [],
+      "items": [
+        "Corrosion left beneath the bodywork will eventually reappear in the same spot.",
+        "An uneven panel gap isn't fixed by painting; it is fixed by adjustment.",
+        "Masking off trim instead of removing it leaves an edge visible against the light.",
+        "A color mismatch with the engine bay or interior reveals the repair.",
+        "A wheel arch left without anti-corrosion treatment simply restarts the cycle of decay."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
       "titulo": "When it is done",
       "parrafos": [
-        "As part of a comprehensive restoration,where the body is completely stripped down,or as a standalone job for a car that simply needs a paint refresh. Both processes are described step-by-step in the articles below."
+        "As part of a comprehensive restoration—where the entire body is stripped down—or as a standalone job for a car that simply needs a fresh coat of paint. Both processes are detailed step-by-step in the articles below."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "What Bodywork and paint does not include",
-      "parrafos": [],
-      "items": [
-        "It does not include work outside the agreed scope for Bodywork and paint.",
-        "Any extension is checked and authorised separately."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "A documented case: Bodywork and paint",
+      "titulo": "The painting process for a G-Series 911",
       "parrafos": [
-        "The Magazine shows the work and its photographs in <a href=\"/magazine/proceso-pintura-911-clase-g\">this documented case</a>."
+        "The Magazine showcases the work and photos in <a href=\"/magazine/proceso-pintura-911-clase-g\">this documented case study</a>."
       ],
       "items": [],
       "imagenes": [
@@ -70,33 +118,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Where Bodywork and paint starts",
+      "titulo": "The finished bodywork",
       "parrafos": [
-        "A Porsche body and paint repair depends more on preparation, fitment, and material compatibility than on the final surface gloss. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's expected outcome.",
-        "Assessment begins with paint thickness, panel gaps, corrosion, deformation, previous repairs, color codes, removable parts, and the condition of trim and chrome. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Defining the scope of Bodywork and paint",
-      "parrafos": [
-        "The scope is determined proportionally: the work can address a specific area or be part of a full restoration. Our in-house booth in Barcelona allows us to coordinate preparation, painting, and assembly. Tasks are sequenced to avoid double disassembly, ensure symptoms aren't hidden, and prevent replacing an entire assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are guided by these criteria: we disassemble only what is necessary to avoid masking lines, and we determine whether parts should be preserved, repaired, or replaced. With classic models, visible corrosion necessitates an inspection of related areas. If an issue arises that alters the scope of the project, it is separated from the approved work and explained before we proceed."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What the owner receives after Bodywork and paint",
-      "parrafos": [
-        "The final deliverable is a body with precise panel gaps and a paint finish that meets the agreed scope, utilizing reference colors, cataloged accessories, and necessary anti-corrosion treatments. The final handover explanation ensures the owner understands what was done, why it was done, and what should be monitored or scheduled for the future.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "Bodywork fitted and painted according to the agreed scope, using reference colors, catalog-correct accessories, and anti-corrosion treatments where necessary."
       ],
       "items": [],
       "imagenes": []
@@ -105,7 +129,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the objective, the work can be coordinated with <a href=\"/restauraciones/integrales\">full restoration</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspection</a>, <a href=\"/taller-porsche\">Porsche workshop</a>. Each page explains the specific scope before requesting an appointment."
+        "Depending on the car's condition and the objective, the work can be coordinated with <a href=\"/restauraciones/integrales\">full restoration</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspection</a>, or <a href=\"/taller-porsche\">Porsche workshop services</a>."
       ],
       "items": [],
       "imagenes": []
@@ -113,26 +137,24 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can just one area be matched?",
       "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+        "It depends on the color, aging, and previous repairs. The initial assessment determines whether a localized repair can be blended in or if the work area needs to be expanded."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Can just one area be color-matched?",
+      "titulo": "Why are panel gaps measured?",
       "parrafos": [
-        "It depends on the color, the paint's aging, and any previous repairs. An initial assessment determines whether a localized repair can be seamlessly blended or if the work area needs to be expanded."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Why are the panel gaps measured?",
-      "parrafos": [
-        "Because they reveal the geometry and the quality of the fit. Correcting them after painting would damage the finish and obscure the root cause of any misalignment."
+        "Because they reveal the geometry and quality of the fit. Correcting them after painting would damage the finish and obscure the root cause of any misalignment."
       ],
       "items": [],
       "imagenes": []
@@ -143,8 +165,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 36,
-    "total": 36,
+    "hechas": 46,
+    "total": 46,
     "completa": true
   }
 }

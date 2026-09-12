@@ -4,22 +4,22 @@
   "ficheroOriginal": "taller-porsche",
   "meta": {
     "titulo": "Officina Porsche Barcellona e Madrid · Valentín Motors",
-    "descripcion": "Officina Porsche indipendente dal 1979 a Barcellona e Madrid: manutenzione, motori, cambi, IMS e bore scoring A Barcellona e Madrid.",
+    "descripcion": "Officina Porsche indipendente dal 1979 a Barcellona e Madrid: manutenzione, motori, cambi, IMS e bore scoring.",
     "ogImagen": ""
   },
   "h1": "Officina Porsche indipendente a Barcellona e Madrid",
-  "menu": "Officina Porsche",
+  "menu": "Un'officina Porsche",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Specialisti Porsche di 1979",
+      "titulo": "Specialisti in veicoli Porsche dal 1979",
       "parrafos": [
-        "Una 911 996 con consumo d’olio non richiede la stessa diagnosi di una 964 con una marcia che gratta.",
-        "Valentín Motors è uno dei principali specialisti Porsche indipendenti del paese.",
-        "Fondata nel 1979 come officina specializzata in assistenza, vendita e restauro, l'azienda è cresciuta fino a diventare un punto di riferimento, con una struttura di oltre 1.300 m² nel centro di Barcellona e oltre 2.500 m² di servizio completo a Leganés (Madrid), progettato per la soddisfazione del cliente.",
-        "Oltre ai servizi di officina e manutenzione, disponiamo di reparti specializzati per progetti e restauri, revisione di motori e trasmissioni, preparazione per il motorsport, track day e una vasta gamma di personalizzazioni con il marchio tedesco TECHART.",
-        "Il reparto vendite si è evoluto negli ultimi due decenni e si specializza principalmente nella vendita della gamma 911. Il nostro team di vendita è composto da esperti del settore appassionati di tutto ciò che riguarda Porsche."
+        "Una 911 996 con un problema di consumo d'olio non richiede la stessa diagnosi di un'officina 964 con un ingranaggio che gratta.",
+        "Valentín Motors è uno dei principali specialisti indipendenti Porsche del paese.",
+        "Fondata nel 1979 come specialista in assistenza, vendita e restauro, l'officina è cresciuta fino a diventare un punto di riferimento, con una struttura di oltre 1.300 m² nel centro di Barcellona e oltre 2.500 m² di servizio completo a Leganés (Madrid), progettato per la cura del cliente.",
+        "Oltre ai servizi di officina e manutenzione, disponiamo di reparti specializzati per progetti e restauri, revisione di motori e trasmissioni, preparazione per il motorsport, track day e una vasta gamma di personalizzazioni con il marchio tedesco. TECHART.",
+        "Il reparto vendite si è evoluto negli ultimi due decenni e si specializza principalmente nella vendita della gamma Porsche. 911Il nostro team di vendita è composto da esperti del settore appassionati di tutto ciò che riguarda Porsche."
       ],
       "items": [],
       "imagenes": [
@@ -31,7 +31,7 @@
     },
     {
       "nivel": 3,
-      "titulo": "“È fondamentale avere un'officina affidabile come la vostra, che vi aiuti a prendere le decisioni giuste e sia dotata di professionisti qualificati e attrezzature diagnostiche. Non vale la pena correre rischi inutili. Dovreste sempre valutare seriamente l'opzione di rivolgervi a un'officina specializzata.”",
+      "titulo": "«È fondamentale affidarsi a un’officina di fiducia, che La aiuti a prendere la decisione giusta e disponga di professionisti qualificati e strumenti diagnostici. Non vale la pena correre rischi inutili. È importante rivolgersi sempre a un’officina specializzata.»",
       "parrafos": [
         "Daniel A."
       ],
@@ -40,9 +40,68 @@
     },
     {
       "nivel": 2,
+      "titulo": "Cosa valutiamo prima di consigliare",
+      "parrafos": [
+        "Un'officina Porsche deve considerare il sintomo, la generazione dell'auto e l'utilizzo prima di consigliare manutenzione, diagnosi o riparazione."
+      ],
+      "items": [
+        "La documentazione storica.",
+        "La versione.",
+        "Il chilometraggio.",
+        "Interventi precedenti.",
+        "Risultati della diagnosi del veicolo.",
+        "Test effettuati.",
+        "Condizioni dei componenti."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/d4f2af8a-911.jpg",
+          "alt": "Manutenzione Porsche 911"
+        },
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa viene separato in un preventivo.",
+      "parrafos": [
+        "Un preventivo che include tutto costringe il cliente a decidere alla cieca."
+      ],
+      "items": [
+        "Urgente: cosa compromette la sicurezza o peggiora se non trattato.",
+        "Preventivo: cosa è previsto in base al tempo, al chilometraggio o alla cronologia degli interventi.",
+        "Opzionale: cosa migliora le prestazioni del veicolo e può attendere.",
+        "Cosa è stato escluso e perché."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Interventi urgenti, preventivi e opzionali",
+      "parrafos": [
+        "I centri di Barcellona e Madrid si occupano di manutenzione, motori, cambi, IMS, bore scoringispezioni pre-acquisto, carrozzeria e verniciatura, Storage e preparazione.",
+        "Innanzitutto, distinguiamo tra interventi urgenti, preventivi e opzionali. Il preventivo deve illustrare le motivazioni a supporto di ogni raccomandazione e le conseguenze di un eventuale rinvio."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/914dbdfc-cayman-boxster.jpg",
+          "alt": "Porsche revisionata presso l'officina specializzata, immagine 2"
+        },
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche Bore Scoring"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
       "titulo": "Piano di manutenzione auto a prezzo fisso",
       "parrafos": [
-        "Seguiamo i piani di manutenzione specificati dal costruttore, utilizzando ricambi originali e le linee guida Porsche."
+        "Seguiamo i programmi di manutenzione specificati dal costruttore, utilizzando ricambi originali e le linee guida Porsche."
       ],
       "items": [],
       "imagenes": [
@@ -54,10 +113,10 @@
     },
     {
       "nivel": 2,
-      "titulo": "Restauro del motore",
+      "titulo": "Revisione motore",
       "parrafos": [
-        "Da 40 anni, la nostra specialità è la meccanica e, in particolare, i motori. Restauriamo, rimettiamo a nuovo e ripariamo qualsiasi tipo di motore del marchio. Offriamo un servizio di ritiro motori a livello nazionale e li riconsegniamo una volta completati.",
-        "Disponiamo dei macchinari e degli strumenti necessari per qualsiasi tipo di restauro e lavorazione, nonché di un reparto di approvvigionamento ricambi, se necessario."
+        "Da 40 anni, la nostra specialità è la meccanica, e in particolare i motori. Restauriamo, rimettiamo a nuovo e ripariamo qualsiasi tipo di motore Porsche. Offriamo un servizio di ritiro motori a livello nazionale e riconsegniamo i motori una volta completati i lavori.",
+        "Disponiamo dei macchinari e degli strumenti necessari per qualsiasi tipo di restauro e lavorazione, nonché di un reparto di reperimento ricambi, se necessario."
       ],
       "items": [],
       "imagenes": [
@@ -69,9 +128,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cambio",
+      "titulo": "Cambi",
       "parrafos": [
-        "Restauriamo tutti i tipi di cambi Porsche, dai primi modelli 356, 915 e G50 fino alle generazioni più moderne 991 e 992. Offriamo anche il servizio di assistenza e riparazione per trasmissioni automatiche () senza la necessità di acquistare trasmissioni nuove."
+        "Restauriamo tutti i tipi di cambi Porsche, dai primi modelli 356, 915 e G50 fino alle generazioni più moderne 991 e 992. Offriamo anche servizi di manutenzione e riparazione per cambi automatici senza la necessità di acquistarne di nuovi."
       ],
       "items": [],
       "imagenes": [
@@ -85,7 +144,7 @@
       "nivel": 2,
       "titulo": "Ispezione pre-acquisto del veicolo",
       "parrafos": [
-        "Se avete trovato una Porsche che desiderate acquistare, possiamo effettuare un'ispezione pre-acquisto completa, verificando le condizioni attuali del veicolo e la sua storia. Questo ci permette di accertarci che l'offerta del venditore sia equa e che non vi siano problemi nascosti. L'ispezione può essere effettuata presso la nostra officina a Barcellona, oppure possiamo raggiungervi in Spagna o all'estero. Il costo dell'ispezione pre-acquisto è di 250 € + IVA."
+        "Se avete trovato una Porsche che desiderate acquistare, possiamo effettuare una valutazione completa delle condizioni pre-acquisto, verificando lo stato attuale del veicolo e la sua storia. Questo ci permette di verificare che l'offerta del venditore sia equa e che non vi siano problemi nascosti. L'ispezione può essere effettuata presso la nostra officina a Barcellona oppure possiamo spostarci in Spagna o all'estero. Il costo dell'ispezione pre-acquisto è di 250 € + IVA."
       ],
       "items": [],
       "imagenes": [
@@ -97,9 +156,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Assistenza tecnica su tutto il territorio nazionale",
+      "titulo": "Assistenza tecnica nazionale",
       "parrafos": [
-        "Offriamo assistenza tecnica in tutto il Paese e supporto alla rete di officine mediante consulenze tecniche."
+        "Offriamo assistenza tecnica a livello nazionale, nonché supporto alla rete di officine tramite consulenze tecniche."
       ],
       "items": [],
       "imagenes": [
@@ -111,9 +170,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Riparazioni bore scoring",
+      "titulo": "Riparazioni del bore scoring",
       "parrafos": [
-        "Abbiamo una vasta esperienza nella manutenzione preventiva, nella diagnosi e nella risoluzione dei problemi derivati dal bore scoring."
+        "Vantiamo una vasta esperienza nell'applicazione della manutenzione preventiva, nella diagnosi e nella risoluzione dei problemi derivanti da graffi sui cilindri."
       ],
       "items": [],
       "imagenes": [
@@ -127,7 +186,7 @@
       "nivel": 2,
       "titulo": "Verniciatura e carrozzeria di alta gamma",
       "parrafos": [
-        "Riparazione e verniciatura della carrozzeria secondo le specifiche Porsche: colori originali in conformità con il nuovo sistema di codifica colori . Trattamenti estetici per proteggere la carrozzeria dalla corrosione con metodi moderni. Preparazione del veicolo, inclusa la misurazione degli interstizi, la rimozione di finiture e accessori, la catalogazione e la cromatura degli accessori, ecc."
+        "Riparazione e verniciatura della carrozzeria secondo le specifiche Porsche: colori originali in conformità con il nuovo sistema di codifica colori. Trattamenti estetici per proteggere la carrozzeria dalla corrosione con metodi moderni. Preparazione del veicolo mediante misurazione degli spazi interstiziali, rimozione di finiture e accessori, catalogazione e cromatura degli accessori, ecc."
       ],
       "items": [],
       "imagenes": [
@@ -139,7 +198,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Costi di manutenzione",
+      "titulo": "Tariffe di manutenzione",
       "parrafos": [
         "Seleziona un modello per visualizzare i prezzi dei servizi associati."
       ],
@@ -159,7 +218,7 @@
       "nivel": 3,
       "titulo": "Modelli 911",
       "parrafos": [
-        "Servizi per i modelli Pre 74, SC, 3.2, 964, 993, 996, 997, 991 e 992."
+        "Servizi per i modelli preliminari 74SC, 3.2, 964, 993, 996, 997, 991 e 992."
       ],
       "items": [],
       "imagenes": []
@@ -202,7 +261,7 @@
     },
     {
       "nivel": 3,
-      "titulo": "Modelli di transaxle",
+      "titulo": "Modelli di cambio",
       "parrafos": [
         "Servizi per i modelli 924, 944, 968 e 928."
       ],
@@ -211,61 +270,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Da dove inizia Officina Porsche",
+      "titulo": "Come viene documentato ogni intervento",
       "parrafos": [
-        "Un’officina Porsche deve mettere in relazione il sintomo, la generazione e l’uso dell’auto prima di consigliare manutenzione, diagnosi o riparazione. Per questo il primo colloquio non parte da un catalogo di attività, ma dall’auto, dal suo storico e dal risultato atteso dal proprietario.",
-        "La valutazione si basa sulla documentazione storica, sul modello, sul chilometraggio, sui precedenti interventi di manutenzione, sulla diagnostica del veicolo, sui test e sulle condizioni dei componenti. In caso di informazioni mancanti, vengono specificati i controlli necessari prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/d4f2af8a-911.jpg",
-          "alt": "Manutenzione Porsche 911"
-        },
-        {
-          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
-          "alt": "Porsche IMS"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Definire l’ambito di Officina Porsche",
-      "parrafos": [
-        "L'ambito dei servizi viene determinato proporzionalmente: i centri di Barcellona e Madrid coprono manutenzione, motori, trasmissioni, IMS, bore scoring, ispezione pre-acquisto, carrozzeria e verniciatura, Storage e preparazione. Gli interventi vengono prioritari per evitare doppi smontaggi, nascondere i sintomi e sostituire componenti che possono ancora essere diagnosticati o riparati.",
-        "La decisione tecnica viene presa secondo questo criterio: innanzitutto, vengono separate le attività urgenti, preventive e facoltative. Il budget deve spiegare quali prove supportano ciascuna raccomandazione e quali sarebbero le conseguenze di un eventuale rinvio. Qualora emerga un riscontro che modifichi l'incarico, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/914dbdfc-cayman-boxster.jpg",
-          "alt": "Porsche revisionata presso l'officina specializzata, immagine 2"
-        },
-        {
-          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
-          "alt": "Porsche Bore Scoring"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa non comprende Officina Porsche",
-      "parrafos": [],
-      "items": [
-        "Non comprende lavori estranei all’ambito concordato per Officina Porsche.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo Officina Porsche",
-      "parrafos": [
-        "Lo scopo del servizio è un intervento chiaramente definito e documentato, con un referente tecnico dedicato e la possibilità di affidare internamente a terzi la riparazione di motore, trasmissione o carrozzeria. La relazione finale deve indicare chiaramente cosa è stato fatto, perché è stato fatto e cosa deve essere annotato o programmato in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "Un intervento chiaramente definito e registrato, con un referente tecnico dedicato e la possibilità di affidare internamente a terzi interventi su motore, trasmissione o carrozzeria."
       ],
       "items": [],
       "imagenes": [
@@ -277,19 +284,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Come prepararsi per la prima consulenza: Officina Porsche",
-      "parrafos": [
-        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
-        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/taller-porsche/mantenimiento\">manutenzione</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">ispezione pre-acquisto</a>, <a href=\"/sala-motores\">sala motori</a> e <a href=\"/taller-porsche/tarifas\">tariffe</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/taller-porsche/mantenimiento\">Manutenzione</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">Ispezione pre-acquisto</a>, <a href=\"/sala-motores\">Sala motori</a>, <a href=\"/taller-porsche/tarifas\">Tariffe</a>."
       ],
       "items": [],
       "imagenes": [
@@ -302,9 +299,7 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
-      "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -317,16 +312,16 @@
       "nivel": 3,
       "titulo": "Eseguite interventi su Porsche classiche e moderne?",
       "parrafos": [
-        "Sì. L'offerta pubblicata copre i modelli 356 e 911 raffreddati ad aria fino alle generazioni attuali, nonché i modelli Boxster, Cayman, Cayenne, Macan e transaxle."
+        "Sì. Il servizio offerto copre i modelli 356 e 911 raffreddati ad aria fino alle generazioni attuali, così come Boxster, Cayman, Cayenne, Macan e i modelli transaxle."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Come scelgo il servizio giusto?",
+      "titulo": "Come scelgo il servizio più adatto alle mie esigenze?",
       "parrafos": [
-        "Quando si prenota un appuntamento, si prega di descrivere i sintomi, l'utilizzo e la cronologia degli interventi di manutenzione. Se non è disponibile una diagnosi affidabile, il primo tecnico incaricato dell'assistenza dovrà ottenerla prima di autorizzare qualsiasi riparazione."
+        "Descrivere il sintomo, l'utilizzo e l'anamnesi al momento della prenotazione dell'appuntamento. Se non è disponibile una diagnosi affidabile, il primo intervento deve ottenerla prima di autorizzare le riparazioni."
       ],
       "items": [],
       "imagenes": []
@@ -337,8 +332,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 82,
-    "total": 82,
+    "hechas": 84,
+    "total": 84,
     "completa": true
   }
 }

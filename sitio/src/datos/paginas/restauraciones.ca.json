@@ -15,9 +15,9 @@
       "nivel": 2,
       "titulo": "La responsabilitat del llegat",
       "parrafos": [
-        "Un 911 Sèrie F completament desmuntat obliga a decidir què es conserva abans de pensar en la pintura o el muntatge.",
+        "Un 911 Sèrie F desmuntat del tot obliga a decidir què es conserva abans de pensar en pintura o muntatge.",
         "Cada Porsche representa uns valors, una actitud i una forma determinada de concebre la conducció. La marca presenta una elegància i una bellesa atemporals, i sentim com a propi el deure de fer perdurar aquests principis.",
-        "Per això, a Valentín Motors busquem recuperar la originalitat en els projectes de restauració i afegir nous valors als projectes de personalització."
+        "Per això, a Valentín Motors busquem recuperar l'originalitat en els projectes de restauració i afegir nous valors als projectes de personalització."
       ],
       "items": [],
       "imagenes": [
@@ -37,19 +37,85 @@
     },
     {
       "nivel": 2,
+      "titulo": "Què es mira abans de començar",
+      "parrafos": [
+        "Una restauració ha de recuperar un cotxe sense esborrar-ne la història ni convertir cada troballa en una ampliació automàtica del projecte."
+      ],
+      "items": [
+        "La identitat de la unitat.",
+        "Documentació.",
+        "L'originalitat dels conjunts.",
+        "La corrosió.",
+        "Les reparacions anteriors.",
+        "Lús que espera donar-li el seu propietari."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
+          "alt": "Restauració de vehicles Porsche"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Tauler d'un 911 T vermell amb l'emblema del model sobre la guantera"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior d'un 911 sèrie G restaurat, amb tapisseria beix i seients de quadres"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quatre objectius diferents, quatre projectes",
+      "parrafos": [
+        "Podeu cercar especificació d'origen, una rehabilitació per a ús freqüent, un backdating o un restomod. Són objectius diferents i no s'han de barrejar durant el desmuntatge.",
+        "Abans d'intervenir-hi es fixa què es conserva, què es repara, què se substitueix i quines modificacions han de ser reversibles. Les decisions importants es documenten per mantenir la coherència del conjunt."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Porsche 911 993 blau fosc de tres quarts davant del taller"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Compartiment del motor obert d'un 911 marró amb la turbina daurada i els col·lectors a la vista"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Sala del laboratori d'idees, amb la taula de treball i les mostres de materials"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què no és una restauració",
+      "parrafos": [
+        "Convé dir el que no és abans de parlar de terminis, perquè és on es torcen les expectatives."
+      ],
+      "items": [
+        "No és deixar el cotxe com a nou: és tornar-lo l'estat que va tenir, amb la seva història llegible.",
+        "No és canviar tot allò que es pot canviar. Allò que funciona i és original es conserva.",
+        "No és un pressupost tancat d'entrada: l'abast es revisa quan el desmuntatge ensenya què hi havia a sota.",
+        "No és reversible per defecte. El que es vulgui desfer es decideix abans, no després."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Restauracions",
       "parrafos": [
-        "Les nostres restauracions es caracteritzen per un alto grau d'originalitat i qualitat en tots els aspectes del projecte.",
+        "Les nostres restauracions es caracteritzen per un alt grau d'originalitat i de qualitat en tots els aspectes del projecte.",
         "A les restauracions integrals busquem obtenir el Certificate of Authenticity, portant el vehicle a les seves especificacions originals.",
-        "Analitzem amb el client les possibilitats i abast de la unitat perquè el resultat sigui proporcional al valor futur de cada model de Porsche clàssic. Cada model s'analitza al 100 % en funció del seu estat perquè el resultat final sigui efectiu i d'acord amb la seva història.",
-        "Segueix el procés de restauració daquest backdating dun 964.",
-        "Segueix el procés de restauració daquest 2.7 s Targa de 1975.",
-        "Segueix el procés de restauració daquest SC Targa de 1979 que estem preparant per a la seva venda.",
+        "Analitzem amb el client les possibilitats i abast de la unitat perquè el resultat sigui proporcional al valor futur de cada model de Porsche clàssic. Cada model s'analitza al 100 % en funció del seu estat perquè el resultat final sigui efectiu i acord amb la seva història.",
+        "Segueix el procés de restauració d'aquest backdating d'un 964.",
+        "Segueix el procés de restauració d'aquest 2.7 s Targa de 1975.",
+        "Segueix el procés de restauració d'aquest Targa de 1979 que estem preparant per a la seva venda.",
         "Segueix el procés de restauració d'aquest preciós 930, que va arribar a les nostres instal·lacions després de patir un incendi a la zona del motor.",
         "Motor 2.2",
-        "Motor 2.2 1970",
+        "2.2 1970",
         "Rehabilitació de motor 964 tipus M64",
-        "Motor 930 turbo 3.0 1988"
+        "930 3.0 1988"
       ],
       "items": [],
       "imagenes": [
@@ -138,65 +204,6 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Restauracions",
-      "parrafos": [
-        "Una restauració ha de recuperar un cotxe sense esborrar la seva història ni convertir cada troballa en una ampliació automàtica del projecte. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de la identitat de la unitat, la documentació, l'originalitat dels seus conjunts, la corrosió, les reparacions anteriors i l'ús que espera donar-li el propietari. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Restauració de vehicles Porsche"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Tauler d'un 911 T vermell amb l'emblema del model sobre la guantera"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior d'un 911 sèrie G restaurat, amb tapisseria beix i seients de quadres"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir l’abast de Restauracions",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: podeu cercar especificació d'origen, una rehabilitació per a ús freqüent, un backdating o un restomod. Són objectius diferents i no s'han de barrejar durant el desmuntatge. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: abans d'intervenir-hi es fixa què es conserva, què es repara, què se substitueix i quines modificacions han de ser reversibles. Les decisions importants es documenten per mantenir la coherència del conjunt. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Porsche 911 993 blau fosc de tres quarts davant del taller"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Compartiment del motor obert d'un 911 marró amb la turbina daurada i els col·lectors a la vista"
-        },
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Sala del laboratori d'idees, amb la taula de treball i les mostres de materials"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què no inclou Restauracions",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Restauracions.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Decisions que queden documentades",
       "parrafos": [
         "En un Porsche, la versió exacta i les intervencions acumulades importen tant com el nom del model. Anotar referències, mesuraments i peces evita que una decisió vàlida avui es converteixi en una incògnita per al manteniment següent o per a un futur propietari.",
@@ -209,7 +216,7 @@
       "nivel": 2,
       "titulo": "Un criteri per a treballs que es relacionen",
       "parrafos": [
-        "Motor, caixa de canvis, frens, suspensió, pneumàtics i carrosseria no es comporten com a departaments aïllats. Una vibració pot arribar des dun suport; un desgast irregular pot assenyalar geometria; i una reparació de xapa pot revelar una intervenció estructural que canvia la valoració del cotxe.",
+        "Motor, caixa de canvis, frens, suspensió, pneumàtics i carrosseria no es comporten com a departaments aïllats. Una vibració pot arribar des d'un suport; un desgast irregular pot assenyalar geometria; i una reparació de xapa pot revelar una intervenció estructural que canvia la valoració del cotxe.",
         "Quan el cas afecta diverses àrees, s'estableix un ordre de comprovació. Així es conserva la causa visible per diagnosticar-la, evita repetir desmuntatges i es decideix quina especialitat ha d'intervenir primer sense ampliar el projecte per inèrcia."
       ],
       "items": [],
@@ -227,10 +234,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Restauracions",
+      "titulo": "Un projecte que es pot explicar peça a peça",
       "parrafos": [
-        "L'objectiu del lliurament és un projecte traçable, amb les disciplines coordinades i amb un resultat que es pugui explicar peça a peça, des de la carrosseria fins a la posada al punt final. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Un projecte traçable, amb les disciplines coordinades i amb un resultat que es pugui explicar peça a peça, des de la carrosseria fins a la posada a punt final."
       ],
       "items": [],
       "imagenes": [
@@ -246,19 +252,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Com preparar la primera consulta en Restauracions",
-      "parrafos": [
-        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
-        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l’estat i l’objectiu del cotxe, el treball es pot coordinar amb la <a href=\"/restauraciones/integrales\">restauració integral</a>, el <a href=\"/restauraciones/backdating\">backdating</a>, el <a href=\"/restauraciones/restomod\">restomod</a> i els <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>. Cada pàgina explica l’abast específic abans de demanar cita."
+        "Segons l'estat i l'objectiu del cotxe, la feina es pot coordinar amb <a href=\"/restauraciones/integrales\">restauració integral</a>, <a href=\"/restauraciones/backdating\">backdating</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>."
       ],
       "items": [],
       "imagenes": [
@@ -275,9 +271,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -292,7 +286,7 @@
     },
     {
       "nivel": 3,
-      "titulo": "Originalitat o facilitat d’ús?",
+      "titulo": "Originalitat o facilitat d'ús?",
       "parrafos": [
         "Depèn de la raresa, l'estat, la història i el propòsit del cotxe. Primer es protegeix allò irreemplaçable i després es decideix on té sentit actualitzar."
       ],
@@ -303,7 +297,7 @@
       "nivel": 3,
       "titulo": "Per què cal definir l'abast abans de desmuntar?",
       "parrafos": [
-        "Perquè una restauració descobreix feines ocultes. Un criteri previ permet valorar les troballes sense perdre de vista lobjectiu i el pressupost."
+        "Perquè una restauració descobreix feines ocultes. Un criteri previ permet valorar les troballes sense perdre de vista l'objectiu i el pressupost."
       ],
       "items": [],
       "imagenes": []
@@ -314,8 +308,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 87,
-    "total": 87,
+    "hechas": 88,
+    "total": 88,
     "completa": true
   }
 }

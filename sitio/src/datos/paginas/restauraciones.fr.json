@@ -3,21 +3,21 @@
   "tipo": "servicio",
   "ficheroOriginal": "restauraciones",
   "meta": {
-    "titulo": "Restauration de Porsche classiques · Valentín Motors",
-    "descripcion": "Restauration intégrale Porsche, backdating, restomod et projets sur mesure, avec atelier moteurs intégré et expertise technique depuis 1979.",
+    "titulo": "Restauration de Porsche classiques Valentín Motors",
+    "descripcion": "Restauration complète de Porsche, backdating, restomod et projets sur mesure, grâce à notre atelier moteur et notre expertise technique 1979.",
     "ogImagen": ""
   },
-  "h1": "Restauration de Porsche classiques et projets personnalisés",
+  "h1": "Restauration de Porsche classiques et projets sur mesure",
   "menu": "Restaurations",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "La responsabilité du patrimoine",
+      "titulo": "La responsabilité de l'héritage",
       "parrafos": [
-        "Une 911 Série F entièrement démontée oblige à décider ce qui sera conservé avant d’envisager la peinture ou le remontage.",
-        "Chaque Porsche incarne des valeurs, une attitude et une conception particulière de la conduite. La marque possède une élégance et une beauté intemporelles, et nous avons à cœur de préserver ces principes.",
-        "C'est pourquoi, chez Valentín Motors, nous nous efforçons de restaurer l'originalité dans les projets de restauration et d'apporter une valeur ajoutée aux projets de personnalisation."
+        "Une 911 Une Série F entièrement démontée nécessite de déterminer les éléments à préserver avant d'envisager la peinture ou le remontage.",
+        "Chaque Porsche représente des valeurs, une attitude et une vision particulière de la conduite. La marque incarne une élégance et une beauté intemporelles, et nous avons à cœur de perpétuer ces principes.",
+        "C’est pourquoi, chez Valentín Motors, nous cherchons à retrouver l’originalité dans les projets de restauration et à apporter une valeur ajoutée aux projets de personnalisation."
       ],
       "items": [],
       "imagenes": [
@@ -37,19 +37,85 @@
     },
     {
       "nivel": 2,
+      "titulo": "Éléments à prendre en compte avant de commencer",
+      "parrafos": [
+        "Une restauration doit redonner vie à une voiture sans effacer son histoire ni transformer chaque découverte en une extension automatique du projet."
+      ],
+      "items": [
+        "L'identité du véhicule.",
+        "Sa documentation.",
+        "L'originalité de ses assemblages.",
+        "La corrosion.",
+        "Les réparations antérieures.",
+        "L'usage prévu par son propriétaire."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
+          "alt": "Restauration de véhicules Porsche"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Tableau de bord d'une 911 T rouge avec le monogramme au-dessus de la boîte à gants"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Intérieur d'une 911 série G restaurée, sellerie beige et sièges pied-de-poule"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quatre objectifs distincts, quatre projets.",
+      "parrafos": [
+        "Vous pouvez viser une conformité aux spécifications d'origine, une remise en état pour un usage fréquent, backdating ou restomod. Ce sont des objectifs distincts et il ne faut pas les confondre lors du démontage.",
+        "Avant le début des travaux, il est déterminé ce qui sera préservé, réparé, remplacé et quelles modifications devront être réversibles. Les décisions importantes sont consignées par écrit afin de garantir la cohérence de l'ensemble."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Porsche 911 993 bleu foncé de trois quarts avant devant l'atelier"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Compartiment moteur ouvert d'une 911 marron, turbine dorée et collecteurs apparents"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Salle du laboratoire d'idées, avec la table de travail et les échantillons de matériaux"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce qu'une restauration n'est pas",
+      "parrafos": [
+        "Il est important de préciser ce qu'une restauration n'est pas avant d'aborder les délais, car c'est là que les attentes peuvent être faussées."
+      ],
+      "items": [
+        "Il ne s'agit pas de donner à la voiture une apparence neuve : il s'agit de la restaurer dans son état d'origine, en mettant clairement en évidence son histoire.",
+        "Il ne s'agit pas de changer tout ce qui peut l'être. Ce qui fonctionne et est d'origine est préservé.",
+        "Le budget n'est pas fixe dès le départ : le périmètre du projet est réévalué lorsque le démontage révèle ce qui se cachait sous le véhicule.",
+        "Par défaut, la restauration n'est pas réversible. Toute modification irréversible est décidée en amont, et non après coup."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Restaurations",
       "parrafos": [
-        "Nos restaurations se caractérisent par un haut degré d'originalité et de qualité dans tous les aspects du projet.",
-        "Dans le cadre de restaurations complètes, nous nous efforçons d'atteindre Certificate of Authenticity, en ramenant le véhicule à ses spécifications d'origine.",
-        "Nous analysons avec le client les possibilités et l'étendue des travaux afin que le résultat soit proportionnel à la valeur future de chaque modèle Porsche classique. Chaque modèle est analysé à 100% en fonction de son état, de sorte que le résultat final soit efficace et conforme à son histoire.",
-        "Suivez le processus de restauration de ce backdating à partir de 964.",
-        "Suivez le processus de restauration de ce 2.7 à partir de Targa à partir de 1975.",
-        "Suivez le processus de restauration de ce SC Targa de type 1979 que nous préparons pour la vente.",
-        "Suivez le processus de restauration de ce magnifique 930, arrivé dans nos ateliers après un incendie dans le compartiment moteur.",
+        "Nos restaurations se caractérisent par un haut degré d'originalité et de qualité à tous les niveaux du projet.",
+        "Dans le cadre de restaurations complètes, notre objectif est l'obtention du Certificat d'Authenticité, garantissant ainsi que le véhicule retrouve ses spécifications d'origine.",
+        "Nous analysons avec le client les possibilités et l'étendue des travaux afin que le résultat soit proportionné à la valeur future de chaque Porsche classique. Chaque modèle est analysé à un pourcentage 100 en fonction de son état, afin que le résultat final soit efficace et respectueux de son histoire.",
+        "Suivez le processus de restauration de ce backdating 964.",
+        "Suivez le processus de restauration de ce 2.7 s Targa de 1975.",
+        "Suivez le processus de restauration de cette SC Targa de 1979 que nous préparons pour la vente.",
+        "Suivez le processus de restauration de cette magnifique 930, arrivée dans nos locaux après un incendie dans le compartiment moteur.",
         "Moteur 2.2",
         "Moteur 2.2 1970",
-        "Réhabilitation du moteur 964 type M64",
-        "Moteur 930 Turbo 3.0 1988"
+        "Remise à neuf du moteur 964 type M64",
+        "Moteur 930 turbo 3.0 1988"
       ],
       "items": [],
       "imagenes": [
@@ -83,9 +149,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Laboratoire d’idées",
+      "titulo": "Laboratoire d'idées",
       "parrafos": [
-        "Une partie de notre temps est consacrée à la recherche afin d'identifier les tendances et d'améliorer nos processus. Nous recueillons constamment des informations, participons à des salons professionnels et échangeons avec d'autres acteurs du secteur pour proposer des solutions innovantes à nos clients."
+        "Nous consacrons une partie de notre temps à la recherche afin d’identifier les tendances et d’améliorer nos processus. Nous effectuons des recherches constantes, participons à des salons professionnels et échangeons avec d'autres acteurs du secteur afin de proposer des solutions innovantes à nos clients."
       ],
       "items": [],
       "imagenes": [
@@ -101,10 +167,10 @@
     },
     {
       "nivel": 2,
-      "titulo": "Backdating",
+      "titulo": "Rétrogradation",
       "parrafos": [
-        "Pour les clients souhaitant allier l'esthétique d'un modèle classique aux avancées technologiques d'un véhicule plus récent, le backdating pourrait être une solution. En s'appuyant sur les configurations similaires des 911 modèles refroidis par air, nous pouvons transformer les caractéristiques esthétiques d'un modèle plus moderne pour le rapprocher du design d'un modèle précédent. Une SC avec climatisation ou avec un 3.2 moteur ? C'est possible.",
-        "Ces transformations sont toujours réalisées en tenant compte de l'homologabilité du nouveau véhicule."
+        "Pour les clients souhaitant allier l'esthétique d'un modèle classique aux avancées technologiques d'un véhicule plus récent, backdating la rétrogradation est une option envisageable. En exploitant les configurations similaires des 911 modèles refroidis par air, nous pouvons transformer les caractéristiques esthétiques d'un modèle plus moderne pour le rapprocher du design d'un modèle précédent. Une SC avec climatisation ou avec un moteur 3.2 ? C'est possible.",
+        "Ces transformations sont toujours réalisées dans le respect de la réglementation routière."
       ],
       "items": [],
       "imagenes": [
@@ -120,9 +186,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Expliquez-nous vos idées.",
+      "titulo": "Partagez vos idées",
       "parrafos": [
-        "Chez Valentín Motors, vous trouverez le partenaire idéal pour mener à bien vos projets : nous possédons l’expertise de la marque, une expérience éprouvée et la sensibilité nécessaire pour comprendre vos besoins."
+        "Vous trouverez en Valentín Motors le partenaire idéal pour les concrétiser : nous possédons la connaissance de la marque, l'expérience éprouvée et la sensibilité nécessaire pour nous mettre à votre place."
       ],
       "items": [],
       "imagenes": [
@@ -138,69 +204,10 @@
     },
     {
       "nivel": 2,
-      "titulo": "Le point de départ de Restaurations",
-      "parrafos": [
-        "Une restauration doit redonner vie à une voiture sans effacer son histoire ni transformer chaque découverte en une extension automatique du projet. C'est pourquoi notre première discussion ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son histoire et le résultat attendu par son propriétaire.",
-        "L'estimation est basée sur l'identité de la voiture, sa documentation, l'originalité de ses composants, la corrosion, les réparations antérieures et l'utilisation prévue par son propriétaire. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant de transformer une hypothèse en budget."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Restauration de véhicules Porsche"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Tableau de bord d'une 911 T rouge avec le monogramme au-dessus de la boîte à gants"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Intérieur d'une 911 série G restaurée, sellerie beige et sièges pied-de-poule"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Définir le périmètre de Restaurations",
-      "parrafos": [
-        "Le périmètre est défini proportionnellement : il peut s'agir de la recherche des spécifications d'origine, d'une remise en état pour une utilisation fréquente, d'une backdating ou d'une restomod. Ces objectifs sont distincts et ne doivent pas être combinés lors du démontage. Les tâches sont ordonnées de manière à éviter les doubles démontages, la dissimulation d'un symptôme et le remplacement d'un ensemble alors qu'il est encore possible de le diagnostiquer ou de le réparer.",
-        "La décision technique est prise selon le critère suivant : avant toute intervention, il est déterminé ce qui est conservé, ce qui est réparé, ce qui est remplacé et quelles modifications doivent être réversibles. Les décisions importantes sont documentées afin de garantir la cohérence de l'ensemble. Si une constatation modifie la commission, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Porsche 911 993 bleu foncé de trois quarts avant devant l'atelier"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Compartiment moteur ouvert d'une 911 marron, turbine dorée et collecteurs apparents"
-        },
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Salle du laboratoire d'idées, avec la table de travail et les échantillons de matériaux"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que Restaurations ne couvre pas",
-      "parrafos": [],
-      "items": [
-        "Les travaux hors du périmètre convenu pour Restaurations ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Décisions documentées",
       "parrafos": [
-        "Pour une Porsche, la version exacte et l'historique d'entretien sont aussi importants que le nom du modèle. L'enregistrement des références, des dimensions et des pièces garantit qu'une décision prise aujourd'hui ne devienne pas une énigme pour le prochain entretien ou un futur propriétaire.",
-        "La documentation permet également de distinguer l'état d'origine des modifications ultérieures. Ceci est particulièrement utile pour les voitures de collection, les voitures anciennes et les véhicules modifiés, où une pièce différente peut résulter d'une amélioration délibérée, d'une ancienne réparation ou d'un remplacement mineur."
+        "Chez Porsche, la version exacte et les modifications cumulées sont aussi importantes que le nom du modèle. Consigner les références, les mesures et les pièces permet d'éviter qu'une décision prise aujourd'hui ne devienne une énigme lors de la prochaine visite d'entretien ou pour un futur propriétaire.",
+        "La documentation permet également de distinguer l'état d'origine des modifications ultérieures. Ceci est particulièrement utile pour les voitures de collection, les voitures anciennes et les véhicules modifiés, où une pièce différente peut indiquer une amélioration délibérée, une ancienne réparation ou un remplacement mineur."
       ],
       "items": [],
       "imagenes": []
@@ -209,8 +216,8 @@
       "nivel": 2,
       "titulo": "Critère pour les travaux connexes",
       "parrafos": [
-        "Le moteur, la boîte de vitesses, les freins, la suspension, les pneus et la carrosserie ne sont pas des composants isolés. Une vibration peut provenir d'un support ; une usure irrégulière peut indiquer un problème de géométrie ; et une réparation de tôlerie peut révéler une modification structurelle qui affecte la valeur du véhicule.",
-        "Lorsqu'un problème affecte plusieurs éléments, un ordre de diagnostic est établi. Ceci permet de préserver la cause visible du diagnostic, d'éviter les démontages répétés et de déterminer quelle spécialité doit intervenir en premier, sans étendre inutilement le projet."
+        "Le moteur, la boîte de vitesses, les freins, la suspension, les pneus et la carrosserie ne fonctionnent pas comme des composants isolés. Une vibration peut provenir d'un support ; une usure irrégulière peut indiquer un problème de géométrie ; et une réparation de tôlerie peut révéler une modification structurelle qui affecte la valeur du véhicule.",
+        "Lorsqu'un problème affecte plusieurs zones, un ordre de diagnostic est établi. Ceci permet de préserver la cause visible du problème pour le diagnostic, d'éviter les démontages répétés et de déterminer quelle spécialité doit intervenir en premier sans étendre inutilement le projet."
       ],
       "items": [],
       "imagenes": []
@@ -219,18 +226,17 @@
       "nivel": 2,
       "titulo": "Quand s'arrêter et mesurer",
       "parrafos": [
-        "L'expérience permet de reconnaître des schémas, mais elle ne remplace pas une mesure susceptible de modifier la décision. Avant toute intervention coûteuse, effectuez le test permettant de différencier l'usure normale, un mauvais réglage et un dommage interne. Cette pause protège à la fois le véhicule et votre budget.",
-        "Si le contrôle ne permet pas d'établir un diagnostic définitif sans démontage, expliquez cette limitation et divisez l'intervention en plusieurs phases. Le propriétaire peut ainsi autoriser le diagnostic et décider de la suite des opérations en fonction des composants identifiés."
+        "L'expérience permet de reconnaître des tendances, mais elle ne remplace pas une mesure lorsque celle-ci peut influencer la décision. Avant une intervention coûteuse, effectuez le test permettant de différencier l'usure normale, un réglage incorrect et un dommage interne. Cette pause protège à la fois le véhicule et le budget.",
+        "Si le contrôle ne peut apporter de réponse définitive sans démontage, expliquez cette limitation et divisez les travaux en phases. Le propriétaire peut ainsi autoriser le diagnostic et décider de la suite des opérations en ayant les composants sous les yeux."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Restaurations",
+      "titulo": "Un projet explicable étape par étape",
       "parrafos": [
-        "L’objectif de la livraison est un projet traçable, avec des interventions coordonnées entre les différents corps de métier et un résultat explicable étape par étape, de la carrosserie à la mise au point finale. L’explication finale doit vous permettre de comprendre ce qui a été fait, pourquoi et ce qui doit être observé ou planifié par la suite.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+        "Un projet traçable, avec des disciplines coordonnées et un résultat explicable étape par étape, de la carrosserie au réglage final."
       ],
       "items": [],
       "imagenes": [
@@ -246,19 +252,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale : Restaurations",
+      "titulo": "Services connexes",
       "parrafos": [
-        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
-        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services associés",
-      "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/restauraciones/integrales\">restauration intégrale</a>, <a href=\"/restauraciones/backdating\">backdating</a>, <a href=\"/restauraciones/restomod\">restomod</a> et <a href=\"/restauraciones/proyectos-y-diseno\">projets et conception</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/restauraciones/integrales\">Restauration complète</a>, <a href=\"/restauraciones/backdating\">backdating</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/restauraciones/proyectos-y-diseno\">Projets et conception</a>."
       ],
       "items": [],
       "imagenes": [
@@ -275,9 +271,7 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
-      "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -292,9 +286,9 @@
     },
     {
       "nivel": 3,
-      "titulo": "Originalité ou fonctionnalité ?",
+      "titulo": "Originalité ou facilité d'utilisation ?",
       "parrafos": [
-        "Cela dépend de la rareté, de l'état, de l'historique et de la destination du véhicule. Les éléments irremplaçables sont protégés en priorité, puis les améliorations pertinentes sont décidées."
+        "Cela dépend de la rareté, de l'état, de l'historique et de l'usage prévu de la voiture. Il faut d'abord préserver ce qui est irremplaçable, puis décider des améliorations à apporter."
       ],
       "items": [],
       "imagenes": []
@@ -303,7 +297,7 @@
       "nivel": 3,
       "titulo": "Pourquoi définir le périmètre des travaux avant le démontage ?",
       "parrafos": [
-        "Car une restauration révèle un travail invisible. Une approche préliminaire nous permet d'évaluer les résultats sans perdre de vue l'objectif et le budget."
+        "Parce qu'une restauration révèle des travaux cachés. Un critère préliminaire permet d'évaluer les résultats sans perdre de vue l'objectif et le budget."
       ],
       "items": [],
       "imagenes": []
@@ -314,8 +308,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 87,
-    "total": 87,
+    "hechas": 88,
+    "total": 88,
     "completa": true
   }
 }

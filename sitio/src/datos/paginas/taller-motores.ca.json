@@ -19,13 +19,59 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Què fem en Motors Porsche",
+      "titulo": "Del bòxer del 356 als actuals, en sala pròpia",
       "parrafos": [
         "Restaurem, renovem i reparem qualsevol motor de la marca, del bòxer de quatre cilindres del 356 als actuals, en una sala de motors pròpia. És la part de la casa que li dóna nom i la que ni els concessionaris oficials tenen.",
-        "Recollim motors a toda España. No cal portar el cotxe: si el motor ja és fora, viatja sol."
+        "Recollim motors a tot Espanya. No cal portar el cotxe: si el motor ja és fora, viatja sol."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/6e767ff7-0bbaf15e-eebb-456c-85f6-4d60cbe1fc13.jpg",
+          "alt": "Bloc del motor del 968 obert, amb els cilindres i els coixinets a la vista"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Dels símptomes als mesuraments",
+      "parrafos": [
+        "Reconstruir un motor Porsche exigeix convertir símptomes i indicis en mesuraments abans d'escollir peces o prometre'n un abast."
+      ],
+      "items": [
+        "Estat de l'oli i el filtre.",
+        "Compressió quan escau.",
+        "Fugides.",
+        "Sorolls.",
+        "Pressions.",
+        "Toleràncies.",
+        "Ovalització.",
+        "Culates.",
+        "Camises.",
+        "Cigonyal.",
+        "Distribució."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/1ebe8260-3f891236-ca29-4597-86b3-a5c94bad3dec.jpg",
+          "alt": "Culata del 968 amb els arbres de lleves muntats, sobre el banc"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quins motors entren i què es decideix després de mesurar",
+      "parrafos": [
+        "La sala pròpia rep bóxer refrigerats per aire, M96 i M97, motors de competició, famílies transaxle i motors actuals documentats a l'experiència del taller.",
+        "Després de desmuntar, netejar i mesurar es presenten les alternatives. Reparar només la fallada visible pot ser insuficient, però substituir-ho tot sense classificació tampoc no és un criteri tècnic."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg",
+          "alt": "Motor del 968 acabat sobre el palet, amb el volant bimassa i el col·lector d’admissió muntats"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -52,19 +98,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Motors Porsche",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Motors Porsche.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un cas documentat: Motors Porsche",
+      "titulo": "La rehabilitació d'un 3.2, pas a pas",
       "parrafos": [
-        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">aquest cas documentat</a>."
+        "El Magazine mostra el treball i les seves fotografies a <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">aquest cas documentat</a>."
       ],
       "items": [],
       "imagenes": [
@@ -76,33 +112,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Motors Porsche",
+      "titulo": "Què es lliura amb el motor",
       "parrafos": [
-        "Reconstruir un motor Porsche exigeix convertir símptomes i indicis en mesuraments abans d'escollir peces o prometre un abast. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix d'estat de l'oli i el filtre, compressió quan escau, fuites, sorolls, pressions, toleràncies, ovalització, culates, camises, cigonyal i distribució. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir l’abast de Motors Porsche",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: la sala pròpia rep bòxer refrigerats per aire, M96 i M97, motors de competició, famílies transaxle i motors actuals documentats a l'experiència del taller. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: després de desmuntar, netejar i mesurar es presenten les alternatives. Reparar només la fallada visible pot ser insuficient, però substituir-ho tot sense classificació tampoc no és un criteri tècnic. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què queda en lliurar Motors Porsche",
-      "parrafos": [
-        "L'objectiu del lliurament és un pressupost per abast, un registre de components i un motor muntat, posat a punt i provat d'acord amb les decisions autoritzades. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Un pressupost per abast, un registre de components i un motor muntat, posat a punt i provat d'acord amb les decisions autoritzades."
       ],
       "items": [],
       "imagenes": []
@@ -111,7 +123,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/sala-motores\">sala de motors</a>, <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>, <a href=\"/taller-porsche/cajas-de-cambio\">caixes de canvis</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, la feina es pot coordinar amb <a href=\"/sala-motores\">sala de motors</a>, <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>, <a href=\"/taller-porsche/cajas-de-cambio\">caixes de canvis</a>."
       ],
       "items": [],
       "imagenes": []
@@ -119,9 +131,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -149,8 +159,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 46,
+    "total": 46,
     "completa": true
   }
 }

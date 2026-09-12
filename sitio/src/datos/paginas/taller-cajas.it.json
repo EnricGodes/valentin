@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Cambio Porsche: Riparazione · Valentín Motors",
-    "descripcion": "Diagnosi, riparazione e revisione di cambi Porsche manuali e automatici, dal 356 fino alle generazioni 991 e 992 A Barcellona e Madrid.",
+    "titulo": "Cambi Porsche: Riparazione Valentín Motors",
+    "descripcion": "Diagnosi, riparazione e revisione di cambi Porsche manuali e automatici, dalle generazioni 356 fino alle 991 e 992.",
     "ogImagen": ""
   },
-  "h1": "Riparazione del cambio Porsche",
-  "menu": "Cambio",
+  "h1": "Riparazione cambi Porsche",
+  "menu": "Cambi",
   "acordeones": [],
   "articulos": [
     "restauracion-motor-965-turbo-33"
@@ -16,38 +16,88 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Cosa facciamo: Cambio",
+      "titulo": "Tutti i cambi della marca, inclusi quelli automatici",
       "parrafos": [
-        "Ripariamo e revisioniamo tutti i cambi: quelli dei modelli 356, 915, G50 e successivi fino a 991 e 992. Effettuiamo anche la manutenzione dei cambi automatici, spesso considerati irrecuperabili ma raramente tali.",
-        "Revisionare un cambio è quasi sempre preferibile alla sua sostituzione e, nel caso di un'auto d'epoca, è anche l'unico modo per mantenere la corretta numerazione dei componenti."
+        "Ripariamo e revisioniamo tutti i cambi della marca: dalle generazioni 356, 915, G50 e successive fino alle 991 e 992. Effettuiamo anche interventi sui cambi automatici, spesso considerati irrecuperabili ma raramente irrecuperabili.",
+        "Ricostruire un cambio è quasi sempre preferibile alla sua sostituzione e, nel caso di un'auto d'epoca, è anche l'unico modo per mantenere la corretta numerazione dei componenti."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/eab5e4ae-f30.jpg",
+          "alt": "Gli ingranaggi del cambio della 930 Turbo, smontati"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Come lavoriamo",
+      "titulo": "Il sintomo è più importante della sensazione.",
       "parrafos": [
-        "Il cambio viene aperto, misurato e catalogato pezzo per pezzo. Sincronizzatori, forcelle del cambio, cuscinetti e guarnizioni vengono quotati separatamente e il preventivo viene redatto tenendo conto di tale elenco. Nelle vetture in cui il cambio è integrato con il motore, entrambi vengono smontati come un'unica unità e su di essi si interviene simultaneamente."
+        "La diagnosi di un cambio deve basarsi sulla sua architettura e sul momento preciso in cui si manifesta il sintomo, non solo sulla sensazione generale di guida."
       ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa non comprende Cambio",
-      "parrafos": [],
       "items": [
-        "Non comprende lavori estranei all’ambito concordato per Cambio.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+        "Rumore.",
+        "Marcia interessata.",
+        "Temperatura.",
+        "Carico.",
+        "Storico dell'olio.",
+        "Perdite.",
+        "Comando.",
+        "Frizione.",
+        "Prestazioni a freddo e a caldo."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg",
+          "alt": "Motore e cambio della 930 Turbo visti da dietro, sul sollevatore"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Da 915 a PDK",
+      "parrafos": [
+        "I cambi manuali e automatici Porsche vengono revisionati a partire da 356, 915 e G50 fino alle 991 e 992, incluso Tiptronic e PDK a seconda dell'unità.",
+        "Sincronizzatori, cuscinetti, forcelle di innesto, guarnizioni, differenziale, frizione e comandi vengono valutati separatamente. In un cambio automatico, anche i componenti di controllo, idraulici e meccanici devono essere valutati separatamente."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/5489b26b-f7.jpg",
+          "alt": "Il cambio della 930 Turbo coperto di fuliggine, dopo l'incendio"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Come viene eseguito",
+      "parrafos": [
+        "Il cambio viene aperto, misurato e catalogato pezzo per pezzo. Sincronizzatori, forcelle del cambio, cuscinetti e guarnizioni vengono valutati separatamente e il preventivo viene preparato sulla base di questo elenco. Nelle auto in cui il cambio è integrato con il motore, entrambi vengono smontati come un'unica unità e si interviene simultaneamente."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un rumore non è sempre riconducibile al cambio.",
+      "parrafos": [
+        "Un singolo sintomo può avere diverse cause, che vanno escluse prima di aprire il cambio."
+      ],
+      "items": [
+        "Rumore che scompare premendo la frizione: di solito si tratta del cuscinetto di disinnesto, non del cambio.",
+        "Ingranaggio che gratta a freddo e migliora a caldo: sincronizzatore usurato o olio non corretto.",
+        "Cambio marcia sotto carico: forcella di innesto, molla di ritegno o denti dell'ingranaggio usurati.",
+        "Perdita dal carter della frizione: potrebbe trattarsi della guarnizione del cambio o della guarnizione posteriore dell'albero motore, e possono essere identificate senza smontare il cambio.",
+        "Vibrazioni solo in accelerazione: questo problema è quasi sempre dovuto ai supporti del cambio o del motore.",
+        "In un cambio automatico, un cambio marcia difettoso può derivare dalla centralina, dall'impianto idraulico o dai componenti meccanici, e questi problemi non vengono affrontati allo stesso modo."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Un caso documentato: Cambio",
+      "titulo": "Una 965 turbo 3.3, internamente",
       "parrafos": [
-        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/restauracion-motor-965-turbo-33\">questo caso documentato</a>."
+        "La rivista presenta il lavoro e le relative fotografie in <a href=\"/magazine/restauracion-motor-965-turbo-33\">questo caso documentato</a>."
       ],
       "items": [],
       "imagenes": [
@@ -59,43 +109,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Da dove inizia Cambio",
+      "titulo": "Cosa viene fornito con il cambio",
       "parrafos": [
-        "La diagnosi di un cambio deve basarsi sulla sua architettura e sul momento preciso in cui si manifesta il problema, non solo sull'esperienza di guida generale. Pertanto, la consulenza iniziale si concentra non su un elenco di interventi, ma sull'auto, sulla sua storia e sul risultato desiderato dal proprietario.",
-        "La valutazione inizia con l'analisi di rumori, marcia interessata, temperatura, carico, storico dell'olio, perdite, comandi, frizione e prestazioni a caldo e a freddo. Qualora mancassero informazioni, indicheremo quali test sono necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Definire l’ambito di Cambio",
-      "parrafos": [
-        "L'ambito di lavoro è strutturato in modo proporzionale: interveniamo sia su trasmissioni Porsche manuali che automatiche, dalle generazioni 356, 915 e G50 fino alle generazioni 991 e 992, incluse Tiptronic e PDK a seconda dell'unità. Le attività vengono prioritarie per evitare doppi smontaggi, mascherare i sintomi e sostituire un gruppo quando è ancora diagnosticabile o riparabile.",
-        "Le decisioni tecniche vengono prese in base a questo criterio: sincronizzatori, cuscinetti, forcelle del cambio, guarnizioni, differenziale, frizione e comandi vengono valutati separatamente. Nelle trasmissioni automatiche, anche i componenti di controllo, idraulici e meccanici devono essere considerati separatamente. Se emerge un riscontro che modifica l'ordine di lavoro, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo Cambio",
-      "parrafos": [
-        "L'obiettivo della consegna è un elenco dei risultati e dei ricambi, una descrizione autorizzata dell'intervento e un cambio assemblato e collaudato senza dover ricorrere alla sostituzione dell'intero gruppo. La relazione finale deve spiegare chiaramente cosa è stato fatto, perché è stato fatto e cosa deve essere annotato o programmato in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Come prepararsi per la prima consulenza: Cambio",
-      "parrafos": [
-        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
-        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
+        "Un elenco dei risultati e dei ricambi, un piano di lavoro autorizzato e un cambio assemblato e testato senza dover sostituire l'intero gruppo."
       ],
       "items": [],
       "imagenes": []
@@ -104,7 +120,7 @@
       "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/sala-motores\">sala motori</a>, <a href=\"/taller-porsche/mantenimiento\">manutenzione</a> e <a href=\"/taller-porsche/inspeccion-pre-compra\">ispezione pre-acquisto</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/sala-motores\">Sala motori</a>, <a href=\"/taller-porsche/mantenimiento\">Manutenzione</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">Ispezione pre-acquisto</a>."
       ],
       "items": [],
       "imagenes": []
@@ -112,17 +128,15 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
-      "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Tutti i problemi di selezione delle marce sono all'interno del cambio?",
+      "titulo": "Ogni problema si verifica quando si seleziona una marcia all'interno del cambio?",
       "parrafos": [
-        "No. Il leveraggio del cambio, la frizione, i supporti o la regolazione possono causare sintomi simili. Questi elementi vengono controllati prima di concludere che sia necessario aprire il cambio."
+        "No. La centralina, la frizione, i supporti o la regolazione possono causare sintomi simili. Questi elementi vengono controllati prima di concludere che sia necessario aprire il cambio."
       ],
       "items": [],
       "imagenes": []
@@ -142,8 +156,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 36,
-    "total": 36,
+    "hechas": 45,
+    "total": 45,
     "completa": true
   }
 }

@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Porsche Restomod 911 · Valentín Motors",
-    "descripcion": "Porsche 911 restomod developed as a complete project covering bodywork, engine, gearbox, interior and final setup In Barcelona and Madrid.",
+    "titulo": "Porsche 911 Restomod · Valentín Motors",
+    "descripcion": "Porsche 911 Restomod developed as a comprehensive project covering the bodywork, engine, gearbox, interior, and tuning.",
     "ogImagen": ""
   },
-  "h1": "Restomod Porsche: a classic built to be driven",
+  "h1": "Porsche Restomod: a classic built to be driven",
   "menu": "Restomod",
   "acordeones": [],
   "articulos": [
@@ -17,22 +17,74 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "The first one was the PA10/01.",
+      "titulo": "The first was the PA10/01",
       "parrafos": [
-        "The PA10/01 is our interpretation of the perfect 911: a car built entirely in-house and unveiled in Madrid in 2025. It serves as a benchmark for the scope of a project of this nature."
+        "The PA10/01 is our interpretation of the perfect 911: a car built entirely in-house and unveiled in Madrid in 2025. It serves as a benchmark for the scope of a project of this kind."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/32d3ccfb-80613248-d790-46dc-bd3c-bbcfb18a1a98.jpg",
+          "alt": "The cream PA10 911 on display in the showroom, door open"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What is required in the base vehicle",
+      "parrafos": [
+        "A restomod reimagines a classic as a complete system to enhance its usability without losing the identity that made it the right choice in the first place."
+      ],
+      "items": [
+        "The quality of the base vehicle.",
+        "The architecture.",
+        "The weight.",
+        "Engine response.",
+        "The gearbox.",
+        "The brakes.",
+        "The suspension.",
+        "Ergonomics.",
+        "Aesthetics."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/e4809cf4-db2e7043-9718-4bab-bbb2-dd5f6bdf1893.jpg",
+          "alt": "Detail of the PA10's headlight and indicator, with the bonnet strap behind"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "A unified project, not just a collection of upgrades",
+      "parrafos": [
+        "Bodywork, paint, engine, transmission, interior, and engineering are all defined within the same project. An isolated improvement must not shift the problem to another component.",
+        "Decisions are made regarding which character traits should remain and which limitations need correcting. Top speed alone rarely defines a car as enjoyable, reliable, and usable."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "A documented case: Restomod",
+      "titulo": "What is preserved from a classic",
       "parrafos": [
-        "The Magazine shows the work and its photographs in <a href=\"/magazine/pa10-01\">this documented case</a>."
+        "A restomod that fixes everything ceases to be the car one originally sought to preserve."
       ],
       "items": [
-        "[[CHECK: assign a previously selected Magazine photograph to this case.]]"
+        "The engine's character, even if the output figures change.",
+        "The driving position and the connection with the car.",
+        "The identity of the bodywork, even when rebuilt.",
+        "The features that make that generation recognizable compared to the next.",
+        "Decisions are made and documented regarding what is *not* preserved; nothing is simply lost along the way."
       ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "The PA10/01, step by step",
+      "parrafos": [
+        "The Magazine showcases the work and photographs of <a href=\"/magazine/pa10-01\">this documented case</a>."
+      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/magazine/30b1e541-e8ee1755-2918-40bf-9839-aa5eeb460162.jpg",
@@ -42,53 +94,19 @@
     },
     {
       "nivel": 2,
-      "titulo": "A classic built to be driven",
+      "titulo": "A classic that can actually be driven",
       "parrafos": [
-        "A restomod is neither a standard restoration nor a simple customization. A restoration returns the car to its factory-original state, while a customization involves swapping parts on a car that remains fundamentally unchanged. A restomod takes a classic base and completely rebuilds it to drive like a modern car, while preserving the lines and character of the original.",
-        "It is the kind of project that brings together everything the firm does: bodywork and paint, engine shop, transmission, upholstery, and project engineering. That is why there are so few of them, and why the details of each one are defined with the client before any work begins."
+        "A restomod is neither a restoration nor a customization. A restoration returns the car to its factory-fresh state; a customization involves swapping parts on a car that remains fundamentally the same vehicle. A restomod takes a classic base and completely rebuilds it to drive like a modern car, while preserving the lines and character of the original.",
+        "It is a project that brings together all the company's in-house capabilities at once: bodywork and paint, engine shop, transmission, upholstery, and project engineering. That is why there are so few of them, and why the specifications for each one are defined with the client before any work begins."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Where Restomod starts",
+      "titulo": "Tested and documented as a complete package",
       "parrafos": [
-        "A restomod rebuilds a classic as a complete system to enhance usability without losing the identity that made it a desirable choice in the first place. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's desired outcome.",
-        "Our assessment begins with the quality of the base vehicle,its architecture, weight, engine response, transmission, brakes, suspension, ergonomics, and aesthetics. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Defining the scope of Restomod",
-      "parrafos": [
-        "The scope of work is approached holistically: bodywork, paint, engine, transmission, interior, and engineering are all defined within a single project. An isolated upgrade should not simply shift a problem to another component. Tasks are sequenced to avoid redundant disassembly, prevent masking symptoms, and avoid replacing an entire assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are guided by a specific criterion: determining which character traits to preserve and which limitations to correct. Top speed alone rarely defines a car that is enjoyable, reliable, and practical to drive. If a discovery alters the scope of the commission, it is separated from the approved work and explained before we proceed."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What Restomod does not include",
-      "parrafos": [],
-      "items": [
-        "It does not include work outside the agreed scope for Restomod.",
-        "Any extension is checked and authorised separately."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What the owner receives after Restomod",
-      "parrafos": [
-        "The delivered vehicle is a unique unit developed to a specific configuration, tested and documented as a cohesive whole rather than a collection of independent modifications. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled for future attention.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "A unique unit developed to its own specific configuration, tested and documented as a complete package rather than a collection of independent modifications."
       ],
       "items": [],
       "imagenes": []
@@ -97,7 +115,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the project goal, work can be coordinated with <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">projects and design</a>, <a href=\"/sala-motores\">engine shop</a>. Each page outlines the specific scope of work prior to booking an appointment."
+        "Depending on the car's condition and the project goals, work can be coordinated with the <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">design and engineering team</a>, and the <a href=\"/sala-motores\">engine shop</a>."
       ],
       "items": [],
       "imagenes": []
@@ -105,17 +123,15 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
-      "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "How does this differ from a restoration?",
+      "titulo": "How does it differ from a restoration?",
       "parrafos": [
-        "Restoration aims to return a vehicle to a previous specification; the restomod process starts with a classic car to create a new specification. Both require rigor, yet they pursue different outcomes."
+        "Restoration aims to return a car to a previous specification; a restomod starts with a classic car to create a new specification. Both require rigor, but they pursue different outcomes."
       ],
       "items": [],
       "imagenes": []
@@ -124,7 +140,7 @@
       "nivel": 3,
       "titulo": "Can the PA10/01 be replicated?",
       "parrafos": [
-        "The PA10/01 demonstrates capability and design philosophy. Each new project must reflect its owner and the base vehicle, meaning the definition process begins anew based on intended use."
+        "The PA10/01 demonstrates capability and design philosophy. Each new project must reflect its owner and its base vehicle, so the definition process begins anew based on intended use."
       ],
       "items": [],
       "imagenes": []
@@ -135,8 +151,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

@@ -4,7 +4,7 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Manteniment Porsche especialitzat · Valentín Motors",
-    "descripcion": "Manteniment Porsche amb recanvis originals, pautes del fabricant i preus publicats per model a Barcelona i Madrid A Barcelona i Madrid.",
+    "descripcion": "Manteniment Porsche amb recanvis originals, pautes del fabricant i preus publicats per model a Barcelona i Madrid.",
     "ogImagen": ""
   },
   "h1": "Manteniment Porsche segons l'ús i el model",
@@ -15,49 +15,32 @@
       "nivel": 2,
       "titulo": "Servei menor i servei major",
       "parrafos": [
-        "El servei menor és filtre i oli de motor més una comprovació de vint-i-tres punts. El servei major inclou el menor i afegeix trenta punts més: filtres daire i habitacle, bugies quan toca, i la revisió de tot el que es desgasta sense avisar.",
+        "El servei menor és filtre i oli de motor més una comprovació de vint-i-tres punts. El servei major inclou el menor i afegeix trenta punts més: filtres d'aire i habitacle, bugies quan toca, i la revisió de tot allò que es desgasta sense avisar.",
         "A banda van el líquid de frens, la geometria i la inspecció pre-compra, que també tenen preu tancat."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/fe34fa7b-IMG_9274.JPG",
+          "alt": "Porsche 911 gris amb el vano motor obert sobre l'elevador del taller de Leganés"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Manteniment",
-      "parrafos": [],
+      "titulo": "Què mana, el pla o l'ús",
+      "parrafos": [
+        "El manteniment Porsche ha de seguir el pla del fabricant i adaptar-se al temps, quilometratge, tipus d'ús i antecedents de la unitat."
+      ],
       "items": [
-        "No inclou treballs aliens a l’abast acordat per a Manteniment.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
+        "Historial.",
+        "Data i quilometratge del darrer servei.",
+        "Avisos.",
+        "Fluids.",
+        "Desgast.",
+        "Fugides.",
+        "Observacions del propietari."
       ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Als clàssics, l'interval no és el del manual",
-      "parrafos": [
-        "Un 911 refrigerat per aire que fa tres mil quilòmetres per any no necessita el mateix calendari que un 992 d'ús diari. En cotxes d'ús ocasional recomanem canvi d'oli anual encara que no arribeu al quilometratge: l'oli es degrada per temps, no només per ús, i en un motor amb quaranta anys això es paga car."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què fem en Manteniment",
-      "parrafos": [
-        "Seguim els plans de manteniment que especifica el fabricant, amb recanvis originals i les pautes de Porsche. La diferència amb el servei oficial no és com es fa, sinó en el que costa i en qui ho fa: el mateix tècnic veu el teu cotxe cada vegada.",
-        "Tots els preus estan publicats per model. No hi ha pressupost sorpresa: saps el que costa un servei més gran del teu 993 abans de portar-lo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "El punt de partida de Manteniment",
-      "parrafos": [
-        "El manteniment Porsche ha de seguir el pla del fabricant i adaptar-se al temps, quilometratge, tipus d’ús i antecedents de la unitat. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix d'historial, data i quilometratge del darrer servei, avisos, fluids, desgast, fuites i observacions del propietari. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
@@ -67,23 +50,63 @@
     },
     {
       "nivel": 2,
-      "titulo": "Decidir l’abast de Manteniment",
+      "titulo": "Allò programat i allò que apareix",
       "parrafos": [
-        "L'abast es planteja de forma proporcional: es publiquen servei menor i servei major per model, a més d'operacions com a líquid de frens, geometria i inspecció precompra quan corresponen. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: una pauta serveix com a base, però un clàssic d’ús ocasional i un 992 diari envelleixen de forma diferent. Se separen operacions programades d'incidències descobertes durant la revisió. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+        "Es publiquen servei menor i servei major per model, a més d'operacions com a líquid de frens, geometria i inspecció precompra quan corresponen.",
+        "Una pauta serveix com a base, però un clàssic d'ús ocasional i un diari 992 envelleixen de forma diferent. Se separen operacions programades d'incidències descobertes durant la revisió."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/621f5a9b-20240402_120524.jpg",
+          "alt": "Detall del càrter i el filtre d'oli del 3.2 sèrie G"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Als clàssics, l'interval no és el del manual",
+      "parrafos": [
+        "Un 911 refrigerat per aire que fa tres mil quilòmetres a l'any no necessita el mateix calendari que un 992 d'ús diari. En cotxes d'ús ocasional recomanem un canvi d'oli anual encara que no s'arribi al quilometratge: l'oli es degrada per temps, no només per ús, i en un motor amb quaranta anys això es paga car."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/c338e0e5-20240725_131118.jpg",
+          "alt": "Comprovació amb rellotge comparador sobre el bloc del 3.2 sèrie G"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quan convé avançar el servei",
+      "parrafos": [
+        "El calendari del manual suposa un ús que molts Porsche d'aquí no en tenen."
       ],
       "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
+        "Menys de tres mil quilòmetres per any: oli anual encara que no arribis a l'interval.",
+        "Després de mesos aturat: oli, líquid de frens i pressions abans de tornar a fer-lo servir.",
+        "Trajectes curts i sempre en fred: l'oli es contamina abans del previst.",
+        "Track days: el líquid de frens i l'oli es passen a comptar per sessions, no per mesos.",
+        "Compra recent sense historial: es comença per un servei més gran per tenir un punt de partida."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Manteniment",
+      "titulo": "El pla del fabricant, amb recanvi original",
       "parrafos": [
-        "L'objectiu del lliurament és manteniment registrat, llista de comprovacions i explicació dels treballs que necessiten atenció immediata, seguiment o cita independent. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Seguim els plans de manteniment que especifica el fabricant, amb recanvis originals i les pautes de Porsche. La diferència amb el servei oficial no és com es fa, sinó en el que costa i en qui ho fa: el mateix tècnic veu el teu cotxe cada vegada.",
+        "Tots els preus són publicats per model. No hi ha pressupost sorpresa: saps el que costa un servei més gran del teu 993 abans de portar-ho."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què queda anotat",
+      "parrafos": [
+        "Manteniment registrat, llista de comprovacions i explicació dels treballs que necessiten atenció immediata, seguiment o cita independent."
       ],
       "items": [],
       "imagenes": []
@@ -92,7 +115,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/taller-porsche/tarifas\">tarifes per model</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a>, <a href=\"/taller-porsche\">taller Porsche</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, la feina pot coordinar-se amb <a href=\"/taller-porsche/tarifas\">tarifes per model</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a>, <a href=\"/taller-porsche\">taller Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -100,9 +123,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -110,7 +131,7 @@
       "nivel": 3,
       "titulo": "És suficient mirar el quilometratge?",
       "parrafos": [
-        "No. Els fluids i alguns materials envelleixen també per temps. En els refrigerats per aire d’ús ocasional es recomana canvi d’oli anual encara que recorrin pocs quilòmetres."
+        "No. Els fluids i alguns materials envelleixen també per temps. En els refrigerats per aire d'ús ocasional es recomana canvi d'oli anual encara que recorrin pocs quilòmetres."
       ],
       "items": [],
       "imagenes": []
@@ -130,8 +151,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

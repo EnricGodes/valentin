@@ -4,7 +4,7 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Porsche gearboxes: repair · Valentín Motors",
-    "descripcion": "Diagnosis, repair, and rebuilding of manual and automatic Porsche gearboxes, ranging from 356 to the 991 and 992 generations.",
+    "descripcion": "Diagnosis, repair, and rebuilding of manual and automatic Porsche gearboxes, ranging from the 356 to the 991 and 992 generations.",
     "ogImagen": ""
   },
   "h1": "Porsche gearbox repair",
@@ -16,38 +16,88 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "What we do: Gearboxes",
+      "titulo": "All gearboxes from the brand, including automatics",
       "parrafos": [
-        "We repair and rebuild all of the brand's gearboxes: the 356, 915, and G50 models, as well as later versions up to the 991 and 992. We also service automatic units,transmissions that are often deemed beyond repair, though rarely are.",
-        "Rebuilding a gearbox is almost always a better option than replacing it; for classic cars, it is also the only way to preserve the correct serial numbers."
+        "We repair and rebuild all the brand's gearboxes: the 356, 915, and G50 units, as well as later models up to the 991 and 992. We also service automatic transmissions, which are often written off as unrepairable—though rarely are they truly beyond saving.",
+        "Rebuilding a gearbox is almost always a better option than replacing it; for a classic car, it is also the only way to preserve the correct serial numbers."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/eab5e4ae-f30.jpg",
+          "alt": "The gears of the 930 Turbo's gearbox, stripped out"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Symptoms reveal more than just the driving feel",
+      "parrafos": [
+        "A gearbox should be diagnosed based on its architecture and the precise moment the symptom appears, not merely on the general driving sensation."
+      ],
+      "items": [
+        "Noise.",
+        "Affected gear.",
+        "Temperature.",
+        "Load.",
+        "Oil history.",
+        "Leaks.",
+        "Control.",
+        "Clutch.",
+        "Cold and hot behavior."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg",
+          "alt": "Engine and gearbox of the 930 Turbo seen from the rear, on the lift"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "From the 915 to the PDK",
+      "parrafos": [
+        "We service manual and automatic Porsche transmissions, ranging from the 356, 915, and G50 models up to the 991 and 992 generations, including Tiptronic and PDK systems, depending on the specific unit.",
+        "Synchronizers, bearings, shift forks, seals, differentials, clutches, and control mechanisms are assessed individually. For automatic transmissions, the control unit, hydraulic system, and mechanical components are also evaluated separately."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/5489b26b-f7.jpg",
+          "alt": "The 930 Turbo's gearbox covered in soot, after the fire"
+        }
+      ]
     },
     {
       "nivel": 2,
       "titulo": "Our process",
       "parrafos": [
-        "The gearbox is opened, measured, and cataloged piece by piece. Synchronizers, shift forks, bearings, and seals are evaluated individually, and the cost estimate is prepared based on this itemized list. In vehicles where the gearbox is mated to the engine, both components are removed as a single unit and serviced simultaneously."
+        "The transmission is opened, measured, and cataloged part by part. Synchronizers, shift forks, bearings, and seals are assessed individually, and the quote is prepared based on this itemized list. In vehicles where the transmission is mated to the engine, both units are removed as a single assembly and serviced simultaneously."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "What Gearboxes does not include",
-      "parrafos": [],
+      "titulo": "Noise doesn't always mean a transmission issue",
+      "parrafos": [
+        "A single symptom can have multiple causes; potential issues outside the transmission are ruled out before the unit is opened."
+      ],
       "items": [
-        "It does not include work outside the agreed scope for Gearboxes.",
-        "Any extension is checked and authorised separately."
+        "Noise that disappears when the clutch is depressed: usually the release bearing, not the transmission itself.",
+        "Gear grinds when cold but shifts smoothly when warm: worn synchronizer or incorrect oil.",
+        "Gear popping out under load: shift fork, detent spring, or worn gear teeth.",
+        "Leak at the bell housing: could be the transmission input shaft seal or the rear crankshaft seal; these can be distinguished without disassembly.",
+        "Vibration only during acceleration: almost always the driveshaft or mounts.",
+        "In an automatic transmission, a fault can stem from the control system, the hydraulics, or the mechanical components, and each requires a different approach."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "A documented case: Gearboxes",
+      "titulo": "A 965 Turbo 3.3—an inside look",
       "parrafos": [
-        "The Magazine shows the work and its photographs in <a href=\"/magazine/restauracion-motor-965-turbo-33\">this documented case</a>."
+        "The magazine showcases the work and photos in <a href=\"/magazine/restauracion-motor-965-turbo-33\">this documented case study</a>."
       ],
       "items": [],
       "imagenes": [
@@ -59,43 +109,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Where Gearboxes starts",
+      "titulo": "What is delivered with the transmission",
       "parrafos": [
-        "A gearbox must be diagnosed based on its architecture and the precise moment a symptom appears, rather than just the general driving feel. That is why our initial conversation focuses not on a service menu, but on the car, its history, and the owner's expectations.",
-        "The assessment considers noise, the affected gear, temperature, load, oil history, leaks, the shift mechanism, the clutch, and performance when cold versus hot. If information is missing, we specify the necessary checks to obtain it before turning a hypothesis into a price quote."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Defining the scope of Gearboxes",
-      "parrafos": [
-        "The scope of work is determined proportionally: we service Porsche manual and automatic transmissions,ranging from the 356, 915, and G50 models up to the 991 and 992 generations, including the Tiptronic and PDK, depending on the specific unit. Tasks are sequenced to avoid redundant disassembly, prevent masking symptoms, and avoid replacing an entire assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are based on the following criteria: synchronizers, bearings, shift forks, seals, the differential, the clutch, and control mechanisms are evaluated individually. For automatic transmissions, the control system, hydraulics, and mechanical components are also assessed separately. If a finding alters the scope of the initial request, that specific issue is separated from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What the owner receives after Gearboxes",
-      "parrafos": [
-        "The deliverable consists of a report on findings and parts, a defined scope of work, and a reassembled, tested gearbox,avoiding the default approach of simply replacing the entire unit. The final explanation ensures an understanding of the work performed, the reasons behind it, and any subsequent observations or maintenance scheduling required.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "How to prepare for the initial consultation: Gearboxes",
-      "parrafos": [
-        "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
-        "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
+        "A report on findings and parts, an authorized scope of work, and an assembled, tested transmission—without automatically resorting to replacing the entire unit."
       ],
       "items": [],
       "imagenes": []
@@ -104,7 +120,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the desired outcome, the work can be coordinated with <a href=\"/sala-motores\">engine services</a>, <a href=\"/taller-porsche/mantenimiento\">maintenance</a>, or <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspection</a>. Each page outlines the specific scope of work prior to booking an appointment."
+        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/sala-motores\">engine services</a>, <a href=\"/taller-porsche/mantenimiento\">maintenance</a>, or <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspections</a>."
       ],
       "items": [],
       "imagenes": []
@@ -112,26 +128,24 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Are all gear-shifting problems located inside the transmission?",
       "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+        "No. The shift linkage, clutch, mounts, or adjustments can cause similar symptoms. These are checked before concluding that the transmission needs to be opened."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Are all gear-selection issues caused by the gearbox itself?",
+      "titulo": "Why rebuild a classic transmission?",
       "parrafos": [
-        "No. Linkage, the clutch, mounts, or adjustments can cause similar symptoms. These components are checked before concluding that the gearbox needs to be opened."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Why rebuild a classic gearbox?",
-      "parrafos": [
-        "In addition to restoring functionality, it allows for the preservation of the original unit linked to the car,important when matching serial numbers and original configurations matter."
+        "Beyond restoring functionality, it allows for the preservation of the original unit linked to the car—important when matching numbers and configuration matter."
       ],
       "items": [],
       "imagenes": []
@@ -142,8 +156,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 36,
-    "total": 36,
+    "hechas": 45,
+    "total": 45,
     "completa": true
   }
 }

@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Manutenzione Porsche specializzata · Valentín Motors",
-    "descripcion": "Manutenzione Porsche con ricambi originali, linee guida del produttore e prezzi pubblicati per modello a Barcellona e Madrid.",
+    "titulo": "Manutenzione Porsche specializzata Valentín Motors",
+    "descripcion": "Manutenzione Porsche con ricambi originali, secondo le linee guida del costruttore e con prezzi pubblicati per modello a Barcellona e Madrid.",
     "ogImagen": ""
   },
   "h1": "Manutenzione Porsche in base all'utilizzo e al modello",
@@ -13,51 +13,34 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Tagliando ordinario e tagliando completo",
+      "titulo": "Interventi ordinari e straordinari",
       "parrafos": [
-        "Il tagliando di routine comprende il cambio dell'olio motore e del filtro, oltre a un controllo di 23 punti. Il tagliando completo include il tagliando di routine e aggiunge altri 30 punti: filtri dell'aria e dell'abitacolo, candele quando necessario e un controllo di tutto ciò che si usura inaspettatamente.",
-        "Il liquido freni, la convergenza e il controllo pre-acquisto sono servizi separati e hanno un prezzo fisso."
+        "Il tagliando base include il cambio olio motore e filtro, oltre a un controllo di 23 punti. Il tagliando completo include il tagliando base e aggiunge altri 30 punti: filtri aria e abitacolo, candele quando previste e controllo di tutti i componenti soggetti a usura anomala.",
+        "Liquido freni, convergenza e controllo pre-acquisto sono servizi separati con prezzi fissi."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/fe34fa7b-IMG_9274.JPG",
+          "alt": "Porsche 911 grigia con il vano motore aperto sul ponte dell'officina di Leganés"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Cosa non comprende Manutenzione",
-      "parrafos": [],
+      "titulo": "Cosa ha la precedenza, il piano di manutenzione o l'utilizzo?",
+      "parrafos": [
+        "La manutenzione Porsche deve seguire il piano del costruttore ed essere adattata all'età, al chilometraggio, al tipo di utilizzo e alla storia del veicolo."
+      ],
       "items": [
-        "Non comprende lavori estranei all’ambito concordato per Manutenzione.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+        "Storico.",
+        "Data e chilometraggio dell'ultimo tagliando.",
+        "Avvisi.",
+        "Fluidi.",
+        "Usura.",
+        "Perdite.",
+        "Note del proprietario."
       ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Per i modelli classici, l'intervallo di manutenzione non è quello specificato nel manuale.",
-      "parrafos": [
-        "Un 911 raffreddato ad aria che percorre 3.000 chilometri all'anno non richiede lo stesso programma di manutenzione di un 992 utilizzato quotidianamente. Per le auto utilizzate occasionalmente, raccomandiamo un cambio dell'olio annuale anche se il chilometraggio non viene raggiunto: l'olio si degrada nel tempo, non solo con l'uso, e in un motore di 40 anni, questo può essere costoso."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa facciamo: Manutenzione",
-      "parrafos": [
-        "Seguiamo i programmi di manutenzione specificati dal costruttore, utilizzando ricambi originali Porsche e seguendo le linee guida. La differenza con il centro assistenza ufficiale non sta nel modo in cui viene eseguito l'intervento, ma nel costo e nella persona che lo esegue: la vostra auto viene sempre visitata dallo stesso tecnico.",
-        "Tutti i prezzi sono elencati per modello. Niente preventivi a sorpresa: saprai quanto costerà un intervento di manutenzione importante per il Suo 993 prima di portarlo in officina."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Da dove inizia Manutenzione",
-      "parrafos": [
-        "La manutenzione di una Porsche deve seguire il piano del costruttore ed essere adattata all'età, al chilometraggio, all'utilizzo e alla storia del veicolo. Pertanto, la consulenza iniziale non si concentra su un elenco di interventi, ma sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
-        "La valutazione si basa sulla storia del veicolo, sulla data e sul chilometraggio dell'ultimo tagliando, su eventuali avvisi, sui livelli dei fluidi, sull'usura, su eventuali perdite e sulle osservazioni del proprietario. Qualora mancassero delle informazioni, indichiamo quali verifiche sono necessarie per ottenerle prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
@@ -67,23 +50,63 @@
     },
     {
       "nivel": 2,
-      "titulo": "Definire l’ambito di Manutenzione",
+      "titulo": "Manutenzione programmata ed effettiva.",
       "parrafos": [
-        "L'ambito di lavoro è strutturato proporzionalmente: i tagliandi ordinari e straordinari sono elencati per modello, oltre a operazioni come la sostituzione del liquido freni, la convergenza e i controlli pre-acquisto, ove applicabili. Le attività vengono prioritarie per evitare doppi smontaggi, per non mascherare i sintomi e per evitare di sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica viene presa utilizzando questo criterio: una linea guida serve da base, ma un classico per uso occasionale e un 992 quotidiano hanno un'età diversa. Le operazioni programmate sono separate dai problemi scoperti durante la revisione. Se emerge un riscontro che modifica l'incarico, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+        "I programmi di manutenzione ordinaria e straordinaria sono pubblicati per modello, oltre a operazioni quali la sostituzione del liquido dei freni, la regolazione della geometria delle sospensioni e i controlli pre-acquisto, ove applicabili.",
+        "Una linea guida serve da base, ma un'auto d'epoca usata occasionalmente e un'auto di uso quotidiano invecchiano in modo diverso. 992 Gli interventi programmati sono distinti dai problemi riscontrati durante l'ispezione."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/621f5a9b-20240402_120524.jpg",
+          "alt": "Dettaglio della coppa e del filtro dell'olio del 3.2 serie G"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Sulle auto d'epoca, l'intervallo di manutenzione non è quello indicato nel manuale",
+      "parrafos": [
+        "Una 911 Un'auto raffreddata ad aria che percorre 3.000 chilometri all'anno non necessita dello stesso programma di manutenzione di un'auto utilizzata quotidianamente. 992 Per le auto utilizzate occasionalmente, si consiglia un cambio olio annuale anche se il chilometraggio non viene raggiunto: l'olio si degrada nel tempo, non solo con l'utilizzo, e in un motore di 40 anni questo può comportare costi elevati."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/c338e0e5-20240725_131118.jpg",
+          "alt": "Controllo con comparatore sul monoblocco del 3.2 serie G"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quando anticipare la manutenzione",
+      "parrafos": [
+        "Il programma di manutenzione del manuale presuppone un utilizzo che molte Porsche qui non seguono."
       ],
       "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
+        "Meno di 3.000 chilometri all'anno: cambio olio annuale anche se non si raggiunge l'intervallo raccomandato.",
+        "Dopo mesi di inattività: controllo dell'olio, del liquido freni e della pressione degli pneumatici prima di riprendere l'utilizzo.",
+        "Brevi tragitti e sempre a motore freddo: l'olio si contamina più rapidamente del previsto.",
+        "Giornate in pista: i cambi del liquido freni e dell'olio sono calcolati per sessione, non per mese.",
+        "Acquistata di recente senza cronologia di manutenzione: iniziare con un tagliando completo per stabilire un punto di riferimento."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo Manutenzione",
+      "titulo": "Il piano del costruttore, utilizzando ricambi originali.",
       "parrafos": [
-        "Lo scopo di questo documento è fornire un registro di manutenzione, una checklist e una spiegazione degli interventi che richiedono attenzione immediata, un follow-up o un appuntamento separato. La spiegazione finale deve indicare chiaramente cosa è stato fatto, perché è stato fatto e cosa deve essere annotato o programmato in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "Seguiamo i programmi di manutenzione specificati dal costruttore, utilizzando ricambi originali e attenendoci alle linee guida Porsche. La differenza con il centro assistenza ufficiale non sta nel modo in cui viene eseguito l'intervento, ma nel costo e nella persona che lo esegue: lo stesso tecnico si occupa sempre della vostra auto.",
+        "Tutti i prezzi sono pubblicati per modello. Niente preventivi a sorpresa: conoscete il costo di un tagliando importante per la vostra 993 prima di portarla in officina."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa viene registrato",
+      "parrafos": [
+        "Manutenzione registrata, checklist e spiegazione di qualsiasi intervento che richieda attenzione immediata, follow-up o un appuntamento separato."
       ],
       "items": [],
       "imagenes": []
@@ -92,7 +115,7 @@
       "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/taller-porsche/tarifas\">tariffe per modello</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">ispezione pre-acquisto</a> e <a href=\"/taller-porsche\">officina Porsche</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/taller-porsche/tarifas\">Tariffe per modello</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">Ispezione pre-acquisto</a>, <a href=\"/taller-porsche\">Officina Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -100,17 +123,15 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
-      "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Basta guardare il chilometraggio?",
+      "titulo": "È sufficiente guardare solo il chilometraggio?",
       "parrafos": [
-        "No. Anche i fluidi e alcuni materiali si deteriorano nel tempo. Per i motori raffreddati ad aria utilizzati occasionalmente, si consiglia un cambio olio annuale anche se non percorrono molti chilometri."
+        "No. Anche i fluidi e alcuni materiali si deteriorano nel tempo. Per i veicoli raffreddati ad aria utilizzati occasionalmente, si raccomanda un cambio olio annuale, anche se percorrono pochi chilometri."
       ],
       "items": [],
       "imagenes": []
@@ -119,7 +140,7 @@
       "nivel": 3,
       "titulo": "Qual è la differenza tra un tagliando ordinario e un tagliando completo?",
       "parrafos": [
-        "Il servizio base include cambio olio, filtro e un controllo di 23 punti. Il servizio completo estende l'ispezione e include i materiali di consumo necessari per l'intervallo di manutenzione in questione."
+        "Un tagliando ordinario comprende cambio olio, filtro e un controllo di 23 punti. Un tagliando completo estende il controllo e include i materiali di consumo specificati per quell'intervallo di manutenzione."
       ],
       "items": [],
       "imagenes": []
@@ -130,8 +151,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "sala-motores",
   "meta": {
-    "titulo": "Atelier moteurs intégré · Valentín Motors",
-    "descripcion": "Salle des moteurs dédiée au diagnostic, au contrôle et à la réfection des moteurs et boîtes de vitesses Porsche, classiques et de compétition.",
+    "titulo": "Atelier moteurs dédié Valentín Motors",
+    "descripcion": "Atelier moteurs dédié au diagnostic, à la mesure et à la reconstruction des moteurs et boîtes de vitesses Porsche, classiques et de compétition.",
     "ogImagen": ""
   },
-  "h1": "Salle des moteurs pour moteurs classiques, Porsche et de compétition.",
-  "menu": "Salle des moteurs.",
+  "h1": "Atelier moteurs pour véhicules classiques, Porsche et compétition",
+  "menu": "Atelier moteurs",
   "acordeones": [],
   "articulos": [
     "rehabilitacion-motor-32-serie-g-1985",
@@ -19,13 +19,13 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Nous avons l’expérience de la réparation de moteurs classiques de toutes marques.",
+      "titulo": "Nous avons l'expérience de la réparation de moteurs classiques de toutes marques.",
       "parrafos": [
-        "Un moteur M64 ne révèle son état réel qu’après avoir été ouvert, nettoyé et mesuré pièce par pièce.",
-        "L'un des départements dont nous sommes le plus fiers est notre salle des machines, où nous restaurons et améliorons les groupes motopropulseurs et les boîtes de vitesses de toutes les 911 et autres Porsche classiques.",
-        "En fait, notre nom commercial, Valentín Motors, provient du nom du fondateur et de « moteurs », en tant que symbole de la capacité technique dont notre entreprise dispose depuis 1979.",
-        "Une salle des machines nécessite un investissement considérable en ressources techniques et en expertise. De fait, même les concessionnaires officiels n'en possèdent pas.",
-        "Nous possédons une vaste expérience des moteurs Porsche, des modèles refroidis par air 356 aux moteurs modernes GT3 et CUP. Nous ne nous contentons pas de les restaurer et de les assembler selon les spécifications d'origine ; nous optimisons également leurs performances grâce à nos calculs et à nos données."
+        "Un moteur M64 ne révèle son véritable potentiel que lorsqu'il est ouvert, nettoyé et mesuré pièce par pièce.",
+        "L'un des départements dont nous sommes le plus fiers est notre atelier moteurs, où nous restaurons et améliorons les groupes motopropulseurs et les boîtes de vitesses de toutes les 911 Porsche classiques et autres.",
+        "En fait, notre nom commercial, Valentín Motorsprovient du nom du fondateur et du mot « moteurs », symbolisant les compétences techniques que notre entreprise possède depuis 1979.",
+        ". Un atelier de moteurs exige un investissement considérable en ressources techniques et en expertise. De fait, même les concessions officielles des marques n'en possèdent pas.",
+        "Nous avons une vaste expérience des moteurs Porsche, des moteurs refroidis par air de 356 aux moteurs modernes GT3 et CUP. Nous ne nous contentons pas de les restaurer et de les assembler selon les spécifications d'origine ; nous les améliorons et les optimisons également en fonction de nos calculs et de nos données."
       ],
       "items": [],
       "imagenes": [
@@ -37,7 +37,7 @@
     },
     {
       "nivel": 3,
-      "titulo": "Notre atelier de moteurs intégré nous permet de travailler en toute autonomie, garantissant ainsi la qualité de notre travail et facilitant la prise en charge des garanties.",
+      "titulo": "Un atelier avec atelier moteurs nous permet d'être indépendants, garantissant ainsi la qualité de notre travail et facilitant la prise en charge des garanties.",
       "parrafos": [
         "Jordi Edo"
       ],
@@ -46,28 +46,76 @@
     },
     {
       "nivel": 3,
-      "titulo": "Reconditionnement complet du moteur 964",
+      "titulo": "Reconstruction complète du moteur 964",
       "parrafos": [
-        "Tout au long de la génération 964, Porsche a utilisé le bloc moteur 3.600 cm³ qui a offert une fiabilité et une satisfaction exceptionnelles à ses propriétaires."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Restauration complète du moteur 965 (964 Turbo)",
-      "parrafos": [
-        "En 1991, le modèle 911 Turbo était équipé d'un moteur turbocompressé de 3,3 litres et 320 CV."
+        "Tout au long de la 964 génération, Porsche a utilisé le bloc moteur 3.600 cc qui a offert une fiabilité et une satisfaction exceptionnelles à ses propriétaires."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
+      "titulo": "Mesures effectuées moteur ouvert",
+      "parrafos": [
+        "Les décisions sont basées sur les dimensions, et non sur l'apparence de la pièce."
+      ],
+      "items": [
+        "Ovalité et conicité de chaque cylindre.",
+        "Planéité du bloc-cylindres et des culasses.",
+        "Jeux du vilebrequin, des bielles et de l'arbre à cames.",
+        "État des guides, des sièges et des soupapes.",
+        "Poids et équilibrage de l'ensemble mobile, le cas échéant."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Restauration complète du moteur 965 (964 turbo)",
+      "parrafos": [
+        "En l'an 1991 le modèle 911 turbo était équipé d'un moteur turbocompressé de 3,3 litres et 320 ch."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Éléments mesurés avant ouverture.",
+      "parrafos": [
+        "Une atelier moteurs dédiée permet d'intégrer le diagnostic, les mesures, l'usinage, le remontage et les essais dans une même démarche technique."
+      ],
+      "items": [
+        "Symptômes antérieurs.",
+        "Huile et filtre.",
+        "Compression, le cas échéant.",
+        "État de chaque ensemble.",
+        "Jeux.",
+        "Ovalisation.",
+        "Planéité.",
+        "Traçabilité des pièces."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un moteur ouvert ne reçoit pas automatiquement toutes ses pièces neuves.",
+      "parrafos": [
+        "Nous travaillons sur des moteurs Porsche refroidis par air et par eau, des moteurs de compétition, des boîtes de vitesses et des composants mécaniques classiques d'autres marques, tous parfaitement documentés par l'expérience de notre département.",
+        "Un moteur ouvert ne reçoit pas automatiquement toutes ses pièces neuves. Chaque composant est mesuré et classé afin de conserver ce qui est utilisable, de corriger ce qui est nécessaire et de présenter les différentes options avant le remontage."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Travaux de réfection dans la salle des moteurs, image 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
       "titulo": "Nos services",
       "parrafos": [
         "L'atelier intervient sur quatre fronts : les moteurs Porsche de toutes époques, les moteurs classiques d'autres marques, les boîtes de vitesses et la préparation pour la compétition.",
-        "Chaque front possède sa propre page, détaillant son périmètre et son flux de travail. Voici ce que les quatre ont en commun : l'atelier, l'outillage et le processus de mesure préalable à toute décision."
+        "Chaque service possède sa propre page, détaillant ses prestations et notre mode de fonctionnement. Voici ce qu'ils ont tous en commun : l'atelier, l'outillage et la méthode de prise de mesures avant toute décision."
       ],
       "items": [],
       "imagenes": [
@@ -79,55 +127,17 @@
     },
     {
       "nivel": 2,
-      "titulo": "Le point de départ de Atelier moteurs",
+      "titulo": "Interview d'Iván Bascuñana, chef mécanicien",
       "parrafos": [
-        "Posséder notre propre atelier de moteurs nous permet d'intégrer le diagnostic, les mesures, l'usinage, le remontage et les essais dans une même approche technique. C'est pourquoi, dès le départ, nous nous concentrons non pas sur une liste de services, mais sur la voiture, son historique et le résultat attendu par son propriétaire.",
-        "L'évaluation commence par l'examen des premiers symptômes, la vérification de l'huile et du filtre, la compression (le cas échéant), l'état de chaque ensemble, le jeu, l'ovalisation, la planéité et la traçabilité des pièces. Si certaines informations sont manquantes, nous indiquons les tests nécessaires pour les obtenir avant d'établir un devis."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Définir le périmètre de Atelier moteurs",
-      "parrafos": [
-        "L'étendue des travaux est déterminée en fonction du niveau de service : nous intervenons sur les moteurs Porsche refroidis par air et par eau, les moteurs de compétition, les boîtes de vitesses et les systèmes mécaniques classiques d'autres marques, dont l'expertise est reconnue dans notre atelier. Les tâches sont priorisées afin d'éviter les démontages inutiles, de ne pas masquer un symptôme et d'éviter le remplacement d'un ensemble lorsqu'il est encore possible de le diagnostiquer ou de le réparer.",
-        "La décision technique est prise selon le critère suivant : un moteur ouvert ne reçoit pas automatiquement toutes ses pièces neuves. Chaque composant est mesuré et classé afin de conserver les pièces utilisables, de corriger celles qui le nécessitent et de présenter les différentes options avant le remontage. Si un élément nouveau modifie la commande, il est mis à part des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": "Travaux de réfection dans la salle des moteurs, image 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que Atelier moteurs ne couvre pas",
-      "parrafos": [],
-      "items": [
-        "Les travaux hors du périmètre convenu pour Atelier moteurs ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Interview d'Iván Bascuñana, chef mécanicien moteur.",
-      "parrafos": [
-        "Quel est le moment le plus crucial ou stressant du processus ? Le contrôle de la pression d'huile moteur assemblé, puis au démarrage, lorsque l'on observe le résultat de l'ensemble du processus. Ce processus implique une grande responsabilité, compte tenu des coûts élevés. Quelle est la qualité la plus importante d'un mécanicien moteur ? Avant tout, la passion et la recherche constante de la perfection.",
-        "Quelle méthodologie est essentielle pour vous ? L’ordre et une méthodologie axée sur les processus sont fondamentaux pour le résultat final. La salle des machines est un espace clos et impeccable où tout est en harmonie.",
-        "Qu’est-ce qui est le plus important pour vous : l’expérience ou la technique ? La combinaison des deux est essentielle. Chaque jour représente une quête de perfection et un nouveau défi.",
-        "Quels processus sont mis en œuvre dans la salle des machines ? Démontage, diagnostic de chaque pièce et test de tous les composants du moteur.",
-        "Quelle est la phase la plus importante du démontage ou du remontage d'un moteur ? La phase la plus importante du démontage consiste à recueillir des informations sur le moteur : un diagnostic préliminaire permettra d'orienter le processus. Lors du remontage, il est essentiel de vérifier les tolérances du moteur : celles des pistons et des cylindres, ainsi que le jeu d'huile entre le vilebrequin et la bielle.",
-        "Quels types de mesures sont effectués ? Toutes les mesures sont importantes. Parmi les plus importantes figurent les jeux piston-cylindre, le jeu d'huile et la levée des soupapes.",
-        "Peut-on modifier sans risque les paramètres d'usine ? En général, tous les moteurs présentent une marge de sécurité. Le constructeur utilise une marge de matière qui peut être facilement optimisée.",
-        "Quels sont les avantages d'un atelier avec salle des machines ? Le principal avantage est l'indépendance vis-à-vis des tiers, un facteur clé pour la garantie et la qualité. Cela a un impact direct sur la qualité que nous souhaitons offrir au client.",
-        "Quel est le processus le plus complexe ? Sans aucun doute, le calage, et plus précisément son ajustement lors de l'assemblage."
+        "Quel est le moment le plus crucial ou stressant du processus ? Le contrôle de la pression d'huile moteur remonté, puis, au démarrage, lorsque l'on constate le résultat de l'ensemble des travaux. L'ensemble du processus implique une grande responsabilité, compte tenu des coûts élevés. Quelle est la principale qualité d'un spécialiste moteur ? Avant tout, la passion et la recherche constante de la perfection.",
+        "Quelle méthodologie est essentielle pour vous ? L'ordre et une méthodologie rigoureuse sont fondamentaux pour le résultat final. La atelier moteurs est un espace propre et clos où tout est en harmonie.",
+        "Qu'est-ce qui est le plus important pour vous : l'expérience ou la technique ? La combinaison des deux est essentielle. Chaque jour est une quête de perfection et présente un nouveau défi.",
+        "Quels sont les processus réalisés en atelier moteurs ? Le démontage, le diagnostic de chaque pièce et le contrôle de tous les composants du moteur.",
+        "Quelle est la phase la plus importante du démontage ou du remontage d'un moteur ? La phase la plus importante du démontage est la collecte d'informations sur le moteur : un diagnostic préliminaire permet d'orienter le processus. Lors de l'assemblage, il est primordial de vérifier les tolérances du moteur : celles des pistons et des cylindres, ainsi que le jeu d'huile entre le vilebrequin et la bielle.",
+        "Quelles mesures sont effectuées ? Toutes les mesures sont importantes. Parmi les plus importantes figurent les tolérances piston-cylindre, le jeu d'huile et la levée des soupapes.",
+        "Peut-on modifier sans risque les paramètres d'usine ? En général, tous les moteurs présentent une marge de sécurité. Le constructeur utilise une tolérance de matière qui peut être optimisée sans problème.",
+        "Quels sont les avantages d'un atelier disposant d'un atelier moteurs ? Le principal avantage est l'indépendance vis-à-vis des sous-traitants, un facteur clé pour la garantie et la qualité. Cela influe directement sur la qualité que nous souhaitons offrir au client.",
+        "Quel est le processus le plus complexe ? Sans aucun doute, le calage, et plus précisément son réglage lors de l'assemblage."
       ],
       "items": [],
       "imagenes": [
@@ -139,9 +149,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un cas documenté : Atelier moteurs",
+      "titulo": "Une 3.2 de la série G, reconditionné",
       "parrafos": [
-        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">ce cas documenté</a>."
+        "Le magazine présente le travail et ses photographies dans <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">ce cas documenté</a>."
       ],
       "items": [],
       "imagenes": [
@@ -153,10 +163,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Atelier moteurs",
+      "titulo": "État du moteur à sa sortie d'atelier",
       "parrafos": [
-        "L'objectif de la livraison est une unité entièrement assemblée, respectant l'ordre des opérations, les tolérances vérifiées et ayant fait l'objet d'un test de mise en service contrôlant la pression d'huile, le fonctionnement et les résultats des travaux effectués. L'explication finale doit permettre au client de comprendre ce qui a été fait, pourquoi cela a été fait et ce qui doit être observé ou planifié par la suite.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+        "Unité assemblée selon l'ordre de fabrication, tolérances vérifiées et mise en marche permettant de contrôler la pression d'huile, le fonctionnement et le résultat des travaux effectués."
       ],
       "items": [],
       "imagenes": [
@@ -168,19 +177,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale : Atelier moteurs",
+      "titulo": "Services connexes",
       "parrafos": [
-        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
-        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services associés",
-      "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/taller-porsche/motores\">moteurs Porsche</a>, <a href=\"/taller-porsche/cajas-de-cambio\">boîtes de vitesses</a> et <a href=\"/competicion\">compétition</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/taller-porsche/motores\">Moteurs Porsche</a>, <a href=\"/taller-porsche/cajas-de-cambio\">Boîtes de vitesses</a>, <a href=\"/competicion\">Compétition</a>."
       ],
       "items": [],
       "imagenes": []
@@ -188,9 +187,7 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
-      "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -198,16 +195,16 @@
       "nivel": 3,
       "titulo": "Puis-je envoyer uniquement le moteur ?",
       "parrafos": [
-        "Oui. Valentín Motors récupère les moteurs dans toute l'Espagne une fois le bloc moteur déposé du véhicule. Le reçu doit mentionner toute information disponible concernant les symptômes et les travaux précédemment effectués."
+        "Oui. Valentín Motors Nous récupérons les moteurs dans toute l’Espagne une fois qu’ils ont été déposés du véhicule. Le reçu doit mentionner toutes les informations disponibles concernant les symptômes et les travaux antérieurs."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Quand le détail des travaux est-il connu ?",
+      "titulo": "Quand connaît-on l’étendue réelle des dégâts ?",
       "parrafos": [
-        "Après le diagnostic et, si nécessaire, après le nettoyage et le contrôle des pièces. Un devis peut être établi au préalable, mais pas une conclusion définitive concernant les dommages cachés."
+        "Après le diagnostic et, si nécessaire, après le nettoyage et le contrôle des pièces. Un devis peut être établi au préalable, mais pas un diagnostic définitif concernant d’éventuels dégâts cachés."
       ],
       "items": [],
       "imagenes": []
@@ -218,8 +215,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 61,
-    "total": 61,
+    "hechas": 65,
+    "total": 65,
     "completa": true
   }
 }

@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Restauration complète d'une Porsche · Valentín Motors",
-    "descripcion": "Restauration complète d'une Porsche : démontage, documentation, carrosserie, composants mécaniques et intérieur, le tout coordonné dans un périmètre défini.",
+    "titulo": "Restauration complète Porsche Valentín Motors",
+    "descripcion": "Restauration complète Porsche avec démontage, documentation, carrosserie, mécanique et intérieur coordonnés dans un périmètre défini.",
     "ogImagen": ""
   },
-  "h1": "Restauration complète d'une Porsche : une approche unique",
+  "h1": "Restauration complète Porsche selon une approche unique",
   "menu": "Restauration complète",
   "acordeones": [],
   "articulos": [
@@ -21,11 +21,11 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Nos services : Restauration complète",
+      "titulo": "Porsche complètes, avec le plus haut degré d'originalité",
       "parrafos": [
-        "La corrosion cachée d’une 911 Série F empêche d’arrêter le périmètre définitif avant le démontage.",
-        "Nous restaurons des Porsche complètes, en visant le plus haut degré d'originalité possible. La référence est le Certificate of Authenticity Porsche : le document qui spécifie la couleur, la sellerie et les options avec lesquelles ce véhicule a quitté l'usine.",
-        "Une restauration complète ne se résume pas à un budget, mais à une discussion. Avant tout démontage, nous définissons ensemble le périmètre du projet, car celui-ci détermine le résultat final et la valeur du véhicule."
+        "Une 911 Sur les véhicules de la série F présentant une corrosion cachée, il est impossible de finaliser le périmètre de la restauration avant le démontage.",
+        "Nous restaurons des Porsche complètes, en visant le plus haut degré d'originalité possible. Le document de référence est le certificat d'authenticité Porsche : il précise la couleur, la sellerie et les options d'origine du véhicule.",
+        "Une restauration complète n'est pas une question de budget ; c'est un dialogue. Avant de démonter quoi que ce soit, nous définissons ensemble l'étendue du projet, car celle-ci détermine le résultat et la valeur de la voiture par la suite."
       ],
       "items": [],
       "imagenes": [
@@ -45,54 +45,19 @@
     },
     {
       "nivel": 2,
-      "titulo": "Périmètre",
+      "titulo": "Éléments catalogués avant démontage",
       "parrafos": [
-        "Chaque voiture est unique et ne nécessite pas les mêmes travaux. Pour un modèle rare et documenté, l'authenticité est primordiale et toute déviation nuit à la restauration. Pour une voiture d'occasion, il est judicieux de privilégier la fiabilité, même au détriment de l'originalité ; c'est au propriétaire de décider, pas à nous.",
-        "Nous ne commençons jamais un projet sans avoir préalablement discuté de ce point. La moitié des projets qui nous parviennent inachevés d'autres ateliers ont été initiés sans cette étape."
+        "Une restauration complète coordonne la carrosserie, la mécanique, le système électrique, l'intérieur et la documentation afin qu'aucune discipline ne puisse ultérieurement corriger le travail d'une autre."
       ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Intérieur d'une 911 série G restaurée, sellerie beige et sièges pied-de-poule"
-        },
-        {
-          "url": "/img/paginas/418f3e8f-DSC07443.jpg",
-          "alt": "Porsche 911 classique sur le pont élévateur, capot ouvert"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Contenu du projet",
-      "parrafos": [],
       "items": [
-        "Démontage complet et inventaire de chaque pièce.",
-        "Carrosserie : tôlerie, traitement anticorrosion et peinture aux couleurs d'origine.",
-        "Moteur et transmission, dans le compartiment moteur.",
-        "Système électrique, freins, suspension et direction.",
-        "Intérieur : sellerie avec matériaux d'époque.",
-        "Recherche de pièces, ce qui représente la moitié du travail pour une voiture de soixante ans."
+        "Numéros et composants",
+        "Spécifications d'usine",
+        "Dommages structurels",
+        "Corrosion",
+        "Réparations anciennes",
+        "Pièces manquantes",
+        "Disponibilité des pièces détachées"
       ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Tableau de bord d'une 911 T rouge avec le monogramme au-dessus de la boîte à gants"
-        },
-        {
-          "url": "/img/paginas/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg",
-          "alt": "Backdating 964 (2023)"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Le point de départ de Restauration complète",
-      "parrafos": [
-        "Une restauration complète implique la coordination de la carrosserie, de la mécanique, des systèmes électriques, des intérieurs et de la documentation, afin qu'aucune discipline ne puisse ultérieurement corriger le travail d'une autre. C'est pourquoi, dès le départ, nous nous concentrons non pas sur une liste de services, mais sur la voiture, son historique et le résultat attendu par son propriétaire.",
-        "L'évaluation repose sur les numéros et composants, les spécifications d'usine, les dommages structurels, la corrosion, les réparations antérieures, les pièces manquantes et la disponibilité des pièces de rechange. En cas d'information manquante, nous indiquons les vérifications nécessaires pour l'obtenir avant de transformer une hypothèse en devis."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/980a50f4-DSC00828.jpg",
@@ -106,15 +71,12 @@
     },
     {
       "nivel": 2,
-      "titulo": "Définir le périmètre de Restauration complète",
+      "titulo": "Conserver, réparer ou remplacer",
       "parrafos": [
-        "Le périmètre des travaux est défini proportionnellement : un démontage complet et un catalogage permettent de distinguer la préservation, la réparation et le remplacement. Ce périmètre est revu lorsque des zones invisibles sur la voiture assemblée sont découvertes. Les tâches sont priorisées afin d'éviter les doubles démontages, de ne pas masquer un problème et de remplacer un ensemble alors qu'il est encore possible de le diagnostiquer ou de le réparer.",
-        "La décision technique est prise selon les critères suivants : la référence peut être Certificate of Authenticity et la configuration d'origine, même si une voiture destinée à un usage fréquent peut nécessiter des décisions différentes de celles requises pour un véhicule de collection. Si une découverte modifie la commande, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
+        "Le démontage complet et le catalogage permettent de distinguer les pièces à conserver, à réparer et à remplacer. Le périmètre est réévalué lorsque des zones invisibles sur le véhicule assemblé sont mises au jour.",
+        "La référence peut être le certificat d'authenticité et la configuration d'origine, bien qu'un véhicule destiné à un usage fréquent puisse nécessiter des décisions différentes de celles requises pour un véhicule de collection."
       ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
@@ -132,19 +94,51 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que Restauration complète ne couvre pas",
-      "parrafos": [],
-      "items": [
-        "Les travaux hors du périmètre convenu pour Restauration complète ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
+      "titulo": "Jusqu'où aller ?",
+      "parrafos": [
+        "Chaque voiture exige une approche différente. Pour un modèle rare et documenté, l'originalité est primordiale, et toute modification la dénature. Pour une voiture d'occasion, il est judicieux de privilégier la fiabilité, même au détriment de l'authenticité, et c'est au propriétaire de décider.",
+        "Nous ne commençons jamais un projet sans avoir préalablement discuté de la restauration. La moitié des projets inachevés qui nous parviennent d'ailleurs ont été initiés sans cette discussion."
       ],
-      "imagenes": []
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Intérieur d'une 911 série G restaurée, sellerie beige et sièges pied-de-poule"
+        },
+        {
+          "url": "/img/paginas/418f3e8f-DSC07443.jpg",
+          "alt": "Porsche 911 classique sur le pont élévateur, capot ouvert"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Celles-ci sont déjà terminées.",
+      "titulo": "Ce qui est inclus dans le projet",
+      "parrafos": [],
+      "items": [
+        "Démontage complet et inventaire de chaque pièce.",
+        "Carrosserie : tôlerie, traitement anticorrosion et peinture aux couleurs d'origine.",
+        "Moteur et boîte de vitesses, dans le compartiment moteur.",
+        "Système électrique, freins, suspension et direction.",
+        "Intérieur : sellerie avec matériaux d'époque.",
+        "Trouver les pièces, ce qui représente la moitié du projet pour une voiture de soixante ans."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Tableau de bord d'une 911 T rouge avec le monogramme au-dessus de la boîte à gants"
+        },
+        {
+          "url": "/img/paginas/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg",
+          "alt": "Backdating 964 (2023)"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Nos réalisations",
       "parrafos": [
-        "Ci-dessous, six restaurations décrites étape par étape, avec des photos illustrant le processus. Parmi elles, une 911 Série F 1965 arrivée démontée dans des caisses après sept ans de déménagement, et une 930 Turbo arrivée après un incendie dans le compartiment moteur."
+        "Vous trouverez ci-dessous six restaurations décrites étape par étape, avec des photos illustrant le processus. Parmi elles, une 911 Série F 1965 arrivée démontée dans des caisses après sept ans de déménagement, et une 930 Turbo arrivée après un incendie dans le compartiment moteur."
       ],
       "items": [],
       "imagenes": [
@@ -160,9 +154,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un cas documenté : Restauration complète",
+      "titulo": "Restauration d'un véhicule 911 de 1965",
       "parrafos": [
-        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/restauracion-porsche-911-1965\">ce cas documenté</a>."
+        "Le magazine présente le travail et ses photographies dans <a href=\"/magazine/restauracion-porsche-911-1965\">ce cas documenté</a>."
       ],
       "items": [],
       "imagenes": [
@@ -174,10 +168,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Restauration complète",
+      "titulo": "Éléments consignés",
       "parrafos": [
-        "L'objectif de la livraison est de remettre le véhicule reconstruit, accompagné d'un dossier complet détaillant le processus, les pièces et les décisions prises. Le véhicule est testé dans son intégralité avant d'être considéré comme terminé. L'explication finale doit permettre au client de comprendre les travaux effectués, leurs raisons et les points à surveiller ou à planifier par la suite.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+        "Une voiture reconstruite selon un processus méticuleusement documenté, pièces et décisions comprises, et testée dans son intégralité avant d'être considérée comme terminée."
       ],
       "items": [],
       "imagenes": [
@@ -193,9 +186,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Services associés",
+      "titulo": "Services connexes",
       "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/restauraciones\">restaurations Porsche</a>, <a href=\"/sala-motores\">atelier moteurs</a> et <a href=\"/taller-porsche/pintura-carroceria\">carrosserie et peinture</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/restauraciones\">Restaurations Porsche</a>, <a href=\"/sala-motores\">Atelier moteurs</a>, <a href=\"/taller-porsche/pintura-carroceria\">Carrosserie et peinture</a>."
       ],
       "items": [],
       "imagenes": [
@@ -212,9 +205,7 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
-      "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -229,18 +220,18 @@
     },
     {
       "nivel": 3,
-      "titulo": "Est-il possible d'établir un devis complet avant le démontage ?",
+      "titulo": "Est-il possible de budgétiser l'ensemble des coûts avant le démontage ?",
       "parrafos": [
-        "Un périmètre initial peut être défini, mais la corrosion cachée et les réparations antérieures ne sont correctement évaluées que lorsqu'elles sont mises au jour. Chaque constat pertinent est présenté avant toute intervention ultérieure."
+        "Un périmètre initial peut être défini, mais la corrosion cachée et les réparations antérieures ne sont correctement évaluées que lorsqu'elles sont mises au jour. Chaque constat pertinent est présenté avant d'étendre les travaux."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Quelles pièces doivent être préservées ?",
+      "titulo": "Quelles pièces doivent être conservées ?",
       "parrafos": [
-        "Les pièces d'origine récupérables, liées à l'identité du véhicule, sont prioritaires. La sécurité, l'usure et la disponibilité déterminent à quel moment la réparation n'est plus justifiée."
+        "Les pièces d'origine récupérables, liées à l'identité de la voiture, sont prioritaires. La sécurité, l'usure et la disponibilité déterminent à quel moment la réparation n'est plus justifiée."
       ],
       "items": [],
       "imagenes": []
@@ -251,8 +242,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 64,
-    "total": 64,
+    "hechas": 63,
+    "total": 63,
     "completa": true
   }
 }

@@ -16,13 +16,57 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Què fem en Caixes de canvis",
+      "titulo": "Totes les caixes de la marca, també les automàtiques",
       "parrafos": [
         "Reparem i reconstruïm totes les caixes de canvi de la marca: la de la 356, la 915, la G50 i les posteriors fins a 991 i 992. També donem servei a les automàtiques, que solen donar-se per pèrdues i poques vegades ho estan.",
         "Reconstruir una caixa gairebé sempre surt millor que substituir-la, i en un clàssic és l'única manera de mantenir la numeració correcta."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/eab5e4ae-f30.jpg",
+          "alt": "Els engranatges de la caixa de canvis del 930 Turbo, desmuntats"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "El símptoma diu més que la sensació",
+      "parrafos": [
+        "Una caixa de canvis s'ha de diagnosticar per la seva arquitectura i de moment exacte en què apareix el símptoma, no només per la sensació general en conduir."
+      ],
+      "items": [
+        "Soroll.",
+        "Marxa afectada.",
+        "Temperatura.",
+        "Càrrega.",
+        "Historial d´oli.",
+        "Fugides.",
+        "Comandament.",
+        "Embragatge.",
+        "Comportament en fred i calent."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/ba6173ac-1-images-930.Turbo-WhatsApp-Image-2019-05-06-at-16.38.35-2.jpeg",
+          "alt": "Motor i caixa de canvis del 930 Turbo vistos des del darrere, sobre l'elevador"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "De la 915 al PDK",
+      "parrafos": [
+        "Es treballen caixes manuals i automàtiques Porsche, des de 356, 915 i G50 fins a les generacions 991 i 992, incloent Tiptronic i PDK segons la unitat.",
+        "Sincronitzadors, rodaments, forquilles, retens, diferencial, embragatge i comandaments es valoren per separat. En una automàtica també cal separar control, hidràulica i elements mecànics."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/5489b26b-f7.jpg",
+          "alt": "La caixa de canvis del 930 Turbo amb restes de sutge, després de l'incendi"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -35,19 +79,25 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Caixes de canvis",
-      "parrafos": [],
+      "titulo": "Un soroll no sempre és la caixa",
+      "parrafos": [
+        "Un sol símptoma admet diverses causes, i les que són fora de la caixa es descarten abans d'obrir-la."
+      ],
       "items": [
-        "No inclou treballs aliens a l’abast acordat per a Caixes de canvis.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
+        "Soroll que desapareix en trepitjar l'embragatge: sol ser el coixinet d'empenta, no pas el canvi.",
+        "Marxa que rasca en fred i millora en calent: sincronitzador desgastat o oli que no correspon.",
+        "Salt de marxa sota càrrega: forquilla, moll de guàrdia o dentat gastat.",
+        "Fugida a la campana: pot ser el retingues de la caixa o el darrere del cigonyal, i es distingeixen sense desmuntar.",
+        "Vibració només en acceleració: gairebé sempre transmissió o suports.",
+        "En una automàtica, un canvi defectuós pot venir del control, la hidràulica o la part mecànica, i no s'aborden igual."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Un cas documentat: Caixes de canvis",
+      "titulo": "Un 965 turbo 3.3, per dins",
       "parrafos": [
-        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/restauracion-motor-965-turbo-33\">aquest cas documentat</a>."
+        "El Magazine mostra el treball i les seves fotografies a <a href=\"/magazine/restauracion-motor-965-turbo-33\">aquest cas documentat</a>."
       ],
       "items": [],
       "imagenes": [
@@ -59,43 +109,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Caixes de canvis",
+      "titulo": "Què es lliura amb la caixa",
       "parrafos": [
-        "Una caixa de canvis s'ha de diagnosticar per la seva arquitectura i pel moment exacte en què apareix el símptoma, no només per la sensació general en conduir. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de soroll, marxa afectada, temperatura, càrrega, historial d'oli, fuites, comandament, embragatge i comportament en fred i calent. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir l’abast de Caixes de canvis",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: es treballen caixes manuals i automàtiques Porsche, des de 356, 915 i G50 fins a les generacions 991 i 992, incloent-hi Tiptronic i PDK. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: sincronitzadors, rodaments, forquilles, retens, diferencial, embragatge i comandaments es valoren per separat. En una automàtica també cal separar control, hidràulica i elements mecànics. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què queda en lliurar Caixes de canvis",
-      "parrafos": [
-        "L'objectiu del lliurament és una relació de troballes i peces, un abast autoritzat i una caixa muntada i comprovada sense recórrer per defecte a substituir el conjunt complet. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Com preparar la primera consulta en Caixes de canvis",
-      "parrafos": [
-        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
-        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
+        "Una relació de troballes i peces, un abast autoritzat i una caixa muntada i comprovada sense recórrer per defecte a substituir el conjunt complet."
       ],
       "items": [],
       "imagenes": []
@@ -104,7 +120,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/sala-motores\">sala de motors</a>, <a href=\"/taller-porsche/mantenimiento\">manteniment</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, el treball pot coordinar-se amb <a href=\"/sala-motores\">sala de motors</a>, <a href=\"/taller-porsche/mantenimiento\">manteniment</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a>."
       ],
       "items": [],
       "imagenes": []
@@ -112,9 +128,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -142,8 +156,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 36,
-    "total": 36,
+    "hechas": 45,
+    "total": 45,
     "completa": true
   }
 }

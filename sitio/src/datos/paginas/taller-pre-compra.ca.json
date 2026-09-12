@@ -20,56 +20,43 @@
       "nivel": 2,
       "titulo": "Què es mira",
       "parrafos": [
-        "Un 911 996 o 997 pot ocultar un IMS pendent o bore scoring encara que l’anunci i l’historial semblin correctes."
+        "Un 911 996 o 997 pot amagar un IMS pendent o bore scoring encara que l'anunci i l'historial semblin correctes."
       ],
       "items": [
         "Documentació: titularitat, càrregues, historial de baixes i ITV.",
         "Coherència del quilometratge amb el llibre de servei i amb la unitat de control.",
         "Estat de motor i transmissió, amb prova a la carretera.",
         "Endoscòpia de cilindres als motors amb risc de bore scoring.",
-        "Estat de l’IMS als M96 i M97 afectats.",
+        "Estat del IMS en els M96 i M97 afectats.",
         "Carrosseria: intersticis, gruix de pintura i senyals de reparació.",
         "Informe escrit amb fotografies i una recomanació clara."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/2e4ded03-WhatsApp-Image-2025-06-10-at-14.17.43.jpeg",
+          "alt": "Comprovació amb rellotge comparador sobre el motor 3.2 sèrie G"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Inspecció precompra",
-      "parrafos": [],
+      "titulo": "De l'anunci a la comprovació",
+      "parrafos": [
+        "Una inspecció precompra transforma les afirmacions de l'anunci i de l'historial en comprovacions sobre el cotxe abans de comprometre'n el preu."
+      ],
       "items": [
-        "No inclou treballs aliens a l’abast acordat per a Inspecció precompra.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
+        "Documentació.",
+        "Procedència.",
+        "Quilometratge.",
+        "Manteniment.",
+        "Diagnosi.",
+        "Motor.",
+        "Caixa de canvis.",
+        "Prova a la carretera.",
+        "Carrosseria.",
+        "Pintura.",
+        "Riscos propis del model."
       ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Abans de negociar, no després",
-      "parrafos": [
-        "La inspecció té sentit abans de tancar el preu, perquè allò que trobi és part de la negociació. Un IMS sense intervenir o un ratllat al sisè cilindre no sempre són motiu per no comprar; gairebé sempre són motiu per pagar menys."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què fem en Inspecció precompra",
-      "parrafos": [
-        "Avaluem el cotxe que t'estàs plantejant comprar: estat mecànic, estat de carrosseria, historial documentat i contrast del que diu l'anunci amb allò que té el cotxe davant. Es fa al taller o desplaçant-nos on sigui la unitat, a Espanya o fora.",
-        "És el servei que més diners estalvia de tot el que fem, i el que menys es demana."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "El punt de partida de Inspecció precompra",
-      "parrafos": [
-        "Una inspecció precompra transforma les afirmacions de l'anunci i de l'historial en comprovacions sobre el cotxe abans de comprometre'n el preu. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de documentació, procedència, quilometratge, manteniment, diagnosi, motor, caixa de canvis, prova a la carretera, carrosseria, pintura i riscos propis del model. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
@@ -79,23 +66,48 @@
     },
     {
       "nivel": 2,
-      "titulo": "Decidir l’abast de Inspecció precompra",
+      "titulo": "Al taller o on estigui el cotxe",
       "parrafos": [
-        "L'abast es planteja de manera proporcional: es pot fer al taller o mitjançant desplaçament a la ubicació de la unitat, dins o fora d'Espanya, segons el servei descrit. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: un defecte no vol dir automàticament descartar. L'informe distingeix manteniment normal, risc, reparació pendent i senyals que qüestionen la identitat o la descripció del cotxe. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+        "Es pot fer al taller o mitjançant desplaçament a la ubicació de la unitat, dins o fora d'Espanya, segons el servei descrit.",
+        "Un defecte no vol dir automàticament descartar. L'informe distingeix manteniment normal, risc, reparació pendent i senyals que qüestionen la identitat o la descripció del cotxe."
       ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/b8f9a25c-WhatsApp-Image-2025-06-10-at-15.38.11.jpeg",
+          "alt": "Mesurament d'un cilindre del 3.2 sèrie G abans del muntatge"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Abans de negociar, no després",
+      "parrafos": [
+        "La inspecció té sentit abans de tancar el preu, perquè allò que trobi és part de la negociació. Un IMS sense intervenir o un ratllat al sisè cilindre no sempre són motiu per no comprar; gairebé sempre són motiu per pagar menys."
       ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/3ebd1ae2-foto-5.jpg",
+          "alt": "Càrter d'oli de l'M96 net, sobre el full de mesuraments del motor"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Contrastar l´anunci amb el cotxe",
+      "parrafos": [
+        "Avaluem el cotxe que t'estàs plantejant comprar: estat mecànic, estat de carrosseria, historial documentat i contrast del que diu l'anunci amb allò que té el cotxe davant. Es fa al taller o desplaçant-nos on sigui la unitat, a Espanya o fora.",
+        "És el servei que més diners estalvia de tot el que fem, i el que menys es demana."
+      ],
+      "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Inspecció precompra",
+      "titulo": "Un informe per negociar",
       "parrafos": [
-        "L'objectiu del lliurament és un informe escrit amb fotografies i una recomanació clara per negociar, continuar amb comprovacions addicionals o retirar-se abans de comprar. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Un informe escrit amb fotografies i una recomanació clara per negociar, continuar amb comprovacions addicionals o retirar abans de comprar."
       ],
       "items": [],
       "imagenes": []
@@ -104,7 +116,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l’estat i l’objectiu del cotxe, el treball es pot coordinar amb el <a href=\"/taller-porsche/bore-scoring\">diagnòstic de bore scoring</a>, la <a href=\"/herramientas/calculadora-ims-porsche\">calculadora IMS</a> i els <a href=\"/porsche-en-venta\">Porsche en venda</a>. Cada pàgina explica l’abast específic abans de demanar cita."
+        "Segons l'estat i l'objectiu del cotxe, la feina es pot coordinar amb <a href=\"/taller-porsche/bore-scoring\">diagnòstic de bore scoring</a>, <a href=\"/herramientas/calculadora-ims-porsche\">calculadora IMS</a>, <a href=\"/porsche-en-venta\">Porsche en venda</a>."
       ],
       "items": [],
       "imagenes": []
@@ -112,9 +124,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -131,7 +141,7 @@
       "nivel": 3,
       "titulo": "Quines proves específiques pot necessitar un M96 o M97?",
       "parrafos": [
-        "Segons el model i l'any, convé revisar l’IMS i fer endoscòpia de cilindres per valorar bore scoring abans de tancar la compra."
+        "Segons el model i l'any, convé revisar el IMS i realitzar endoscòpia de cilindres per valorar bore scoring abans de tancar la compra."
       ],
       "items": [],
       "imagenes": []
@@ -142,8 +152,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 46,
+    "total": 46,
     "completa": true
   }
 }

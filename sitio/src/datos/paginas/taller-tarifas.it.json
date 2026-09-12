@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Tariffe di manutenzione Porsche · Valentín Motors",
-    "descripcion": "Tariffe di manutenzione Porsche per modello: servizio base e completo, liquido freni, geometria e ispezione pre-acquisto.",
+    "titulo": "Tariffe di manutenzione Porsche Valentín Motors",
+    "descripcion": "Tariffe di manutenzione Porsche per modello per tagliando ordinario, tagliando completo, liquido freni, assetto e ispezione.",
     "ogImagen": ""
   },
-  "h1": "Tariffe di officina Porsche per modello e tipo di intervento",
+  "h1": "Tariffe officina Porsche per modello e tipo di intervento",
   "menu": "Tariffe",
   "acordeones": [],
   "secciones": [
@@ -15,64 +15,74 @@
       "nivel": 2,
       "titulo": "Prezzi fissi, modello per modello",
       "parrafos": [
-        "La manutenzione non ha lo stesso costo per una 911 raffreddata ad aria e per una Macan, e all'interno della gamma 911, una SC costa meno di una 992. Per questo motivo le tariffe sono elencate per modello: seleziona il Suo e vedrai il costo di ogni intervento per quello specifico veicolo.",
-        "Queste sono tariffe di riferimento fisse. Il preventivo finale dipende dalle condizioni dell'auto al momento della consegna, che possono essere determinate solo con l'auto davanti a te.",
-        "Ogni famiglia ha la sua: <a href=\"/porsche-911-mantenimiento-taller\">manutenzione per i modelli Porsche 911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">manutenzione per i modelli Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">manutenzione per i modelli Cayman e Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">manutenzione per i modelli Transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">manutenzione per i modelli GT</a> e <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">manutenzione per i modelli Cayenne e Macan</a>."
-      ],
-      "items": [
-        "[[VERIFICARE: l’export non include gli importi della tabella pubblicata; aggiungerli prima dell’importazione.]]"
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa non comprende Tariffe",
-      "parrafos": [],
-      "items": [
-        "Non comprende lavori estranei all’ambito concordato per Tariffe.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Da dove inizia Tariffe",
-      "parrafos": [
-        "Le tariffe specifiche per modello consentono di conoscere il prezzo dei servizi ricorrenti senza pretendere di poter fornire un preventivo per qualsiasi riparazione senza aver prima visionato l'auto. Per questo motivo, la conversazione iniziale non si concentra su un elenco di interventi, ma piuttosto sull'auto, sulla sua storia e sui risultati che il proprietario si aspetta.",
-        "La valutazione si basa su modello, generazione, versione, trasmissione, intervento richiesto e storico degli interventi di manutenzione recenti. In caso di informazioni mancanti, prima di convertire un'ipotesi in un preventivo, vengono specificati i controlli necessari per ottenerle."
+        "La manutenzione non costa lo stesso su una 911 raffreddata ad aria e su una Macan; anche all’interno della gamma 911, una SC non ha lo stesso costo di una 992. Per questo le tariffe sono suddivise per modello: scelga il Suo e vedrà il costo di ogni intervento per quella specifica vettura.",
+        "Sono tariffe fisse di riferimento. Il preventivo definitivo dipende dalle condizioni in cui arriva la vettura, che possono essere valutate solo avendola davanti.",
+        "Sei famiglie e cinquantasette modelli con tariffe pubblicate: <a href=\"/porsche-911-mantenimiento-taller\">911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Cayman e Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">GT</a> e <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Cayenne e Macan</a>."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/fe34fa7b-IMG_9274.JPG",
+          "alt": "Porsche 911 grigia con il vano motore aperto sul ponte dell'officina di Leganés"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Definire l’ambito di Tariffe",
+      "titulo": "Cosa è incluso in un tagliando ordinario e in un tagliando completo",
       "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: le tabelle pubblicate coprono la manutenzione ordinaria, la manutenzione straordinaria, il liquido freni, la geometria e l'ispezione pre-acquisto per le famiglie di prodotti specificate. Le attività vengono prioritarie per evitare doppi smontaggi, la mascheratura di un sintomo e la sostituzione di un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica viene presa in base a questo criterio: un prezzo fisso delinea un intervento e le sue componenti pianificate. Se l'ispezione rivela usura, danni o lavori precedenti non conformi, viene predisposto un preventivo separato prima di procedere. Se emerge un riscontro che modifica l'ambito di lavoro, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+        "Le tabelle elencano le stesse operazioni per tutte le famiglie, con il prezzo corrispondente per ciascun modello."
       ],
       "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
+        "Tagliando ordinario: olio motore e filtro, più un controllo di ventitré punti.",
+        "Tagliando completo: include il tagliando ordinario e aggiunge altri trenta punti, con filtri aria e abitacolo e candele, se necessario.",
+        "Sostituzione del liquido freni.",
+        "Assetto.",
+        "Ispezione pre-acquisto."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/621f5a9b-20240402_120524.jpg",
+          "alt": "Dettaglio della coppa e del filtro dell'olio del 3.2 serie G"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo Tariffe",
+      "titulo": "Cosa è incluso e cosa non è incluso nel prezzo.",
       "parrafos": [
-        "Lo scopo della consegna è quello di fornire un punto di riferimento comparabile prima di fissare un appuntamento e, una volta identificato il veicolo, di confermare l'intervento appropriato per la sua versione e le sue condizioni. La spiegazione finale dovrebbe consentirvi di comprendere cosa è stato fatto, perché è stato fatto e cosa è opportuno annotare o programmare in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "I prezzi pubblicati sono <strong>IVA esclusa</strong> e includono ricambi e manodopera. A ogni fattura viene aggiunto un supplemento per spese ambientali e varie, e l'auto viene pulita prima della consegna.",
+        "I prezzi dei ricambi Porsche possono variare senza preavviso, pertanto il preventivo è da considerarsi un riferimento comparativo e non un'offerta a prezzo fisso."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/d5c18ca1-20240328_114458.jpg",
+          "alt": "Dettaglio della corona dentata del volano del 3.2 serie G"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa si può preventivare in anticipo",
+      "parrafos": [
+        "La tariffazione basata sul modello consente di conoscere il prezzo delle operazioni ripetibili senza dover fingere di poter preventivare qualsiasi guasto senza vedere l'auto."
+      ],
+      "items": [
+        "Modello.",
+        "Generazione.",
+        "Versione.",
+        "Cambio.",
+        "Servizio richiesto.",
+        "Cronologia degli interventi di manutenzione recenti."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Come prepararsi per la prima consulenza: Tariffe",
+      "titulo": "Cosa portare per prenotare un appuntamento",
       "parrafos": [
-        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
-        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
+        "Un riferimento comparabile prima di prenotare un appuntamento e, una volta identificato il veicolo, la conferma del servizio appropriato per la sua versione e le sue condizioni."
       ],
       "items": [],
       "imagenes": []
@@ -81,7 +91,7 @@
       "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/porsche-911-mantenimiento-taller\">tariffe 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">tariffe Cayman e Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">tariffe Cayenne e Macan</a> e <a href=\"/taller-porsche/mantenimiento\">manutenzione Porsche</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/porsche-911-mantenimiento-taller\">Tariffe 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Tariffe Cayman e Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Tariffe Cayenne e Macan</a>, <a href=\"/taller-porsche/mantenimiento\">Manutenzione Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -89,26 +99,24 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Perché il prezzo cambia tra le diverse generazioni?",
       "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
+        "Variano capacità, accesso, materiali di consumo e tempi di manodopera. Anche all'interno del 911, un SC e un 992 non richiedono la stessa operazione."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Perché la tariffa cambia tra le diverse generazioni?",
+      "titulo": "Una tariffa fissa include i guasti riscontrati?",
       "parrafos": [
-        "Capacità, accesso, materiali di consumo e tempi di intervento possono variare. Anche all'interno della gamma 911, i modelli SC e 992 non richiedono la stessa procedura."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Il prezzo fisso include eventuali guasti riscontrati?",
-      "parrafos": [
-        "No, a meno che il prezzo stesso non indichi diversamente. Gli interventi non coperti dalla manutenzione programmata vengono illustrati e quotati separatamente."
+        "No, a meno che la tariffa stessa non lo specifichi. Gli incidenti non correlati alla manutenzione programmata vengono spiegati e quotati separatamente."
       ],
       "items": [],
       "imagenes": []
@@ -119,8 +127,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 37,
+    "total": 37,
     "completa": true
   }
 }

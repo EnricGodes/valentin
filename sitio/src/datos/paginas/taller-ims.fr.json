@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "IMS Porsche : diagnostic et réparation · Valentín Motors",
-    "descripcion": "Remplacement préventif du roulement IMS Porsche sur les moteurs M96 et M97, avec diagnostic préalable et prix indiqués par modèle.",
+    "titulo": "IMS Porsche : Diagnostic et réparation · Valentín Motors",
+    "descripcion": "Remplacement préventif des roulements IMS Moteurs Porsche M96 et M97, avec diagnostic préalable et prix publiés par modèle.",
     "ogImagen": ""
   },
-  "h1": "Réparation préventive de la IMS Porsche",
+  "h1": "Réparation préventive IMS Porsche",
   "menu": "IMS Porsche",
   "acordeones": [],
   "articulos": [
@@ -18,63 +18,93 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Nos services : IMS Porsche",
+      "titulo": "Remplacement préventif à prix fixe",
       "parrafos": [
-        "Nous remplaçons le palier d'arbre intermédiaire des moteurs M96 et M97, avec un prix fixe pour les modèles 1997 à 2006, en versions manuelle et automatique. Nous avons réalisé cette intervention des dizaines de fois, lors des trois révisions du palier montées par Porsche.",
-        "Le remplacement préventif ne nécessite pas l'ouverture du bloc-moteur : la boîte de vitesses et le volant moteur ou le disque flexible sont déposés, et le palier est accessible par la bride. Le moteur n'est pas démonté, ce qui permet de maintenir un coût raisonnable par rapport au coût d'une panne."
+        "Nous remplaçons le palier d'arbre intermédiaire des moteurs M96 et M97, à prix fixe pour les modèles 1997 à 2006, boîtes de vitesses manuelles et automatiques. Nous avons réalisé cette intervention des dizaines de fois, sur les trois versions du palier montées par Porsche.",
+        "Le remplacement préventif ne nécessite pas l'ouverture du bloc-moteur : la transmission et le volant moteur ou le disque flexible sont déposés, et le palier est accessible par la bride. Le moteur n'est pas démonté, ce qui permet de maintenir un coût raisonnable par rapport au coût d'une panne."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg",
+          "alt": "Flasque arrière du moteur ouvert, une flèche rouge indiquant l'emplacement du roulement IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Identification du palier avant toute intervention.",
+      "parrafos": [
+        "L'intervention sur le IMS commence par l'identification du palier correspondant au modèle, à l'année et, pour les années de transition, au numéro de moteur."
+      ],
+      "items": [
+        "Configuration du véhicule.",
+        "Historique.",
+        "Huile et filtre.",
+        "Bruits.",
+        "Inspection du palier installé lors de son accès."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/fd76012d-foto-2.jpg",
+          "alt": "Bloc moteur M96 3.4 sur son support, cylindres à nu"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Champ d'application de l'entretien préventif",
+      "parrafos": [
+        "L'entretien préventif publié s'applique aux moteurs M96 et M97 et aux modèles dont le coussinet peut être remplacé sans ouverture du bloc-moteur.",
+        "Tous les moteurs ne présentent pas le même risque ni ne permettent la même intervention. IMS Si des particules métalliques ou un bruit anormal sont déjà présents, la procédure préventive est interrompue et les dommages sont évalués avant toute reprise."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc331b3b-foto-4.jpg",
+          "alt": "Démontage complet du M96 trié en bacs : arbres à cames, culasse et visserie"
+        }
+      ]
     },
     {
       "nivel": 2,
       "titulo": "Quand est-ce avantageux ?",
       "parrafos": [
-        "La défaillance concerne les 911 996 et 997.1, les Boxster 986 et 987 ainsi que le Cayman, entre 1997 et 2008. Tous ne reçoivent pas le même roulement : le 6204 à une rangée monté entre 2000 et 2005 est celui qui a connu l’incidence la plus élevée et aussi le plus simple à remplacer.",
-        "Si le véhicule qui vous intéresse fait partie de ce groupe et qu'aucun historique d'entretien n'est disponible, le remplacement préventif est l'option la plus économique. Si le moteur fait déjà du bruit ou si des particules métalliques apparaissent dans l'huile, la période de maintenance préventive est dépassée et un diagnostic est nécessaire avant de redémarrer le véhicule."
+        "Le défaut affecte les 911 996 et 997.1, Boxster 986 et 987 et Cayman, entre 1997 et 2008. Toutes les unités n'utilisent pas le même roulement, et c'est là que réside la différence : le 6204 d'une rangée installée entre 2000 et 2005 est celui qui a eu le plus d'impact, et c'est aussi le plus facile à remplacer.",
+        "Si la voiture qui vous intéresse fait partie de ce groupe et qu'aucun historique d'entretien n'est disponible, le remplacement préventif est l'option la plus rentable. Si le moteur fait déjà du bruit ou si des particules métalliques apparaissent dans l'huile, la période de maintenance préventive est dépassée et un diagnostic est nécessaire avant de redémarrer le moteur."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Comment savoir si votre véhicule est concerné ?",
+      "titulo": "Comment savoir si votre voiture est concernée ?",
       "parrafos": [
-        "Nous avons mis en ligne un outil de calcul qui, à partir du modèle et de l'année, vous indique le type de roulement utilisé par votre véhicule, s'il peut être remplacé sans ouvrir le moteur et quels contrôles sont nécessaires. Pour les années de transition 2000, 2001 et 2005, il requiert également le numéro de moteur, car deux types de roulements différents sont utilisés et l'année seule ne suffit pas.",
-        "Le calculateur ne diagnostique pas l’état de la voiture. Il indique la configuration d’usine ; seul un démontage permet de savoir ce qui se trouve aujourd’hui à l’intérieur du moteur."
+        "Nous avons publié un calculateur qui, à partir du modèle et de l'année, vous indique quel roulement votre unité utilise, s'il peut être remplacé sans ouvrir le moteur et quels contrôles il doit effectuer. Pour les années de transition, 2000, 2001 et 2005, il demande également le numéro du moteur, car deux roulements différents coexistent et l'année seule ne suffit pas.",
+        "Le calculateur ne permet pas de diagnostiquer l'état du véhicule. Il indique ses spécifications d'usine ; seul un diagnostic moteur permet de déterminer son état actuel."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Prestations incluses :",
+      "titulo": "Contenu de la prestation",
       "parrafos": [],
       "items": [
         "Diagnostic préliminaire : analyse de l'huile et du filtre, recherche de particules.",
-        "Dépose de la boîte de vitesses, du volant moteur ou du disque flexible, et de la bride du IMS.",
+        "Dépose de la boîte de vitesses, du volant moteur ou du disque flexible, et de la bride. IMS.",
         "Remplacement du roulement avec le kit correspondant à cette prestation.",
         "Remplacement du joint d'arbre intermédiaire et de l'embrayage, le cas échéant.",
-        "Montage, réglage et essai routier.",
-        "Garantie mécanique sur les travaux."
+        "Remontage, réglage et essai routier.",
+        "Garantie mécanique sur la prestation."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Ce que IMS Porsche ne couvre pas",
-      "parrafos": [],
-      "items": [
-        "Les travaux hors du périmètre convenu pour IMS Porsche ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un cas documenté : IMS Porsche",
+      "titulo": "Qu'est-ce que le IMS, dans le magazine",
       "parrafos": [
-        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/que-es-el-ims-de-porsche\">ce cas documenté</a>."
+        "Le magazine présente le travail et ses photographies dans <a href=\"/magazine/que-es-el-ims-de-porsche\">ce cas documenté</a>."
       ],
       "items": [],
       "imagenes": [
@@ -88,49 +118,16 @@
       "nivel": 2,
       "titulo": "Lieu d'intervention",
       "parrafos": [
-        "À Barcelone et à Madrid. Les travaux sont effectués en atelier ; si le moteur arrive endommagé, il est acheminé vers la salle des moteurs, où il est ouvert et examiné pièce par pièce."
+        "À Barcelone et à Madrid. Les travaux sont effectués en atelier ; si le moteur arrive endommagé, il est acheminé à la atelier moteurs, où il est ouvert et examiné pièce par pièce."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Le point de départ de IMS Porsche",
+      "titulo": "Services connexes",
       "parrafos": [
-        "Toute intervention sur la IMS commence par l'identification du roulement correspondant au modèle, à l'année et, pour les années de transition, au numéro de moteur. C'est pourquoi notre première discussion porte non pas sur une liste d'interventions, mais sur le véhicule, son historique et le résultat souhaité par son propriétaire.",
-        "L'évaluation repose sur la configuration du véhicule, son historique, le niveau d'huile et le filtre, les bruits anormaux et l'inspection du coussinet installé lors de l'accès. En cas d'informations manquantes, les contrôles nécessaires sont indiqués avant d'établir un devis."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Définir le périmètre de IMS Porsche",
-      "parrafos": [
-        "Le périmètre de l'intervention est déterminé proportionnellement : la maintenance préventive publiée s'applique aux moteurs M96 et M97 et aux modèles pour lesquels le coussinet peut être remplacé sans ouverture du bloc-moteur. Les tâches sont priorisées afin d'éviter un double démontage, de masquer des symptômes et de remplacer un ensemble qui peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon les critères suivants : tous les moteurs IMS ne présentent pas le même risque ni ne permettent la même intervention. En présence de particules métalliques ou de bruits anormaux, la procédure préventive est interrompue et les dommages sont évalués avant toute reprise. Si un élément nouveau modifie la procédure, il est dissocié des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après IMS Porsche",
-      "parrafos": [
-        "Cette prestation comprend le démontage et le remontage de la transmission et des composants associés, le kit de révision approprié, les joints nécessaires, le réglage, les essais et la garantie mécanique décrite. L'explication finale permettra au client de comprendre les travaux effectués, leurs raisons et les points à surveiller ou à planifier ultérieurement.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services associés",
-      "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/herramientas/calculadora-ims-porsche\">calculateur IMS</a>, <a href=\"/taller-porsche/motores\">moteurs Porsche</a> et <a href=\"/taller-porsche/tarifas\">tarifs</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/herramientas/calculadora-ims-porsche\">Calculatrice IMS</a>, <a href=\"/taller-porsche/motores\">Moteurs Porsche</a>, <a href=\"/taller-porsche/tarifas\">Tarifs</a>."
       ],
       "items": [],
       "imagenes": []
@@ -138,26 +135,24 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "L'année suffit-elle à savoir ce qu'il a ? IMS",
       "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+        "Pas toujours. 2000, 2001 et 2005 Différents intervalles d'entretien peuvent coexister, le numéro de moteur permet donc d'identifier la configuration."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "L'année suffit-elle à identifier le IMS moteur ?",
+      "titulo": "Le changement du IMS nécessite-t-il l'ouverture du moteur ?",
       "parrafos": [
-        "Pas toujours. Les intervalles d'entretien des 2000, 2001 et 2005 peuvent se chevaucher ; le numéro de moteur permet donc d'identifier la configuration."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Le remplacement du IMS nécessite-t-il l'ouverture du moteur ?",
-      "parrafos": [
-        "Pour les unités incluses dans le programme d'entretien préventif, l'accès se fait en déposant la boîte de vitesses et le volant moteur ou le disque flexible. Si des dommages internes sont déjà présents, la procédure est différente."
+        "Sur les unités incluses dans le programme d'entretien préventif, l'accès se fait en déposant la boîte de vitesses et le volant moteur ou le disque flexible. En cas de dommages internes, la procédure est différente."
       ],
       "items": [],
       "imagenes": []
@@ -168,8 +163,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 46,
-    "total": 46,
+    "hechas": 44,
+    "total": 44,
     "completa": true
   }
 }

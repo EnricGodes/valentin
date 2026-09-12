@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "sala-motores",
   "meta": {
-    "titulo": "In-house Engine Shop · Valentín Motors",
-    "descripcion": "In-house engine shop for diagnosing, measuring and rebuilding Porsche engines and gearboxes, including classic and competition units.",
+    "titulo": "In-house engine shop · Valentín Motors",
+    "descripcion": "Dedicated engine shop for diagnosing, measuring, and rebuilding Porsche engines and gearboxes—covering classic, road, and race models.",
     "ogImagen": ""
   },
-  "h1": "Engine workshop for classic, Porsche, and racing vehicles",
-  "menu": "Engine workshop",
+  "h1": "Engine workshop for classic cars, Porsche models and racing",
+  "menu": "Engine shop",
   "acordeones": [],
   "articulos": [
     "rehabilitacion-motor-32-serie-g-1985",
@@ -19,13 +19,13 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "We have experience repairing classic engines from any brand.",
+      "titulo": "We have extensive experience repairing classic engines from any marque",
       "parrafos": [
-        "An M64 engine only reveals its true scope once it has been opened, cleaned and measured component by component.",
-        "One of the departments we are most proud of is our engine room, where we restore and upgrade the power units and gearboxes of all 911 models and other classic Porsches.",
-        "In fact, our trade name, Valentín Motors, is derived from the founder's name and the word \"engines\" (*motores*), symbolizing the technical expertise our company has possessed since 1979.",
-        "An engine room requires a significant investment in technical resources and expertise; indeed, even official brand dealerships do not have one.",
-        "We have extensive experience with Porsche engines, ranging from the air-cooled units of the 356 to the modern GT3 and CUP. We do not limit ourselves to restoring and assembling them to factory specifications; we also upgrade and boost their performance based on our own calculations and data."
+        "An M64 engine only reveals its true condition once it is opened, cleaned, and measured component by component.",
+        "One of the departments we are most proud of is our engine shop, where we restore and upgrade power units and gearboxes for all 911 models and other classic Porsches.",
+        "In fact, our trade name, Valentín Motors, combines the founder's name with \"Motors\"—symbolizing the technical expertise our company has possessed since 1979.",
+        "An engine shop requires a significant investment in technical resources and know-how. Indeed, even official brand dealerships do not have one.",
+        "We have extensive experience with Porsche engines, ranging from the air-cooled units of the 356 to the modern GT3 and CUP engines. We do not simply restore and assemble them to factory specifications; we also enhance and boost their performance based on our own calculations and data."
       ],
       "items": [],
       "imagenes": [
@@ -37,7 +37,7 @@
     },
     {
       "nivel": 3,
-      "titulo": "Having an in-house engine workshop allows us to avoid relying on third parties, ensuring the quality of our project execution and simplifying warranty coverage.",
+      "titulo": "Having an in-house engine workshop means we do not rely on third parties; this ensures the quality of our project execution and simplifies warranty coverage.",
       "parrafos": [
         "Jordi Edo"
       ],
@@ -46,28 +46,76 @@
     },
     {
       "nivel": 3,
-      "titulo": "Complete overhaul of the 964 engine",
+      "titulo": "Complete 964 engine rebuild",
       "parrafos": [
-        "Across the entire 964 generation, Porsche utilized the 3.600 cc engine block, which delivered such reliability and satisfaction to its owners."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Complete restoration of the 965 engine (964 Turbo)",
-      "parrafos": [
-        "In the year 1991, the 911 Turbo model was powered by a supercharged 3,3-liter engine producing 320 CV."
+        "Across the entire 964 generation, Porsche utilized the 3.600 cc engine block that delivered such reliability and satisfaction to its owners."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
+      "titulo": "Measurements taken with the engine disassembled",
+      "parrafos": [
+        "Decisions are based on measurements, not the part's appearance."
+      ],
+      "items": [
+        "Cylinder ovality and taper.",
+        "Flatness of the engine block and cylinder heads.",
+        "Clearances for the crankshaft, connecting rods, and camshafts.",
+        "Condition of valve guides, seats, and valves.",
+        "Weight and balancing of the rotating assembly, where applicable."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Complete 965 (964 Turbo) engine rebuild",
+      "parrafos": [
+        "In 1991, the 911 Turbo model was powered by a supercharged 3,3-liter, 320 hp engine."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Measurements taken before disassembly",
+      "parrafos": [
+        "An in-house engine workshop ensures that diagnosis, measurement, machining, assembly, and testing all follow the same technical standards."
+      ],
+      "items": [
+        "Initial symptoms.",
+        "Oil and filter.",
+        "Compression, where applicable.",
+        "Condition of each assembly.",
+        "Clearances.",
+        "Out-of-roundness.",
+        "Flatness.",
+        "Part traceability."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "An engine being rebuilt doesn't automatically get all new parts.",
+      "parrafos": [
+        "We work on air- and water-cooled Porsche engines, racing engines, gearboxes, and classic mechanics from other brands covered by the department's experience.",
+        "An engine being rebuilt does not automatically receive all new parts. Each component is measured and classified to retain what is still good, correct what is necessary, and present options before assembly."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
+          "alt": "Rebuild work in the engine workshop, image 2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
       "titulo": "Our services",
       "parrafos": [
         "The workshop operates on four fronts: Porsche engines from any era, classic engines from other brands, gearboxes, and race preparation.",
-        "Each area has its own dedicated page detailing what is included and our working methods. Here is what all four share: the workshop facility, the tooling, and our approach of taking measurements before making decisions."
+        "Each has its own dedicated page detailing what is included and the work involved. Here is what all four share: the workshop itself, the tooling, and the measurement process used before making decisions."
       ],
       "items": [],
       "imagenes": [
@@ -79,55 +127,17 @@
     },
     {
       "nivel": 2,
-      "titulo": "Where Engine workshop starts",
-      "parrafos": [
-        "Having our own engine workshop ensures that diagnosis, measurements, machining, assembly, and testing all align with the same technical standards. That is why our initial conversation focuses not on a menu of services, but on the car itself, its history, and the owner's expected outcome.",
-        "Assessment begins with initial symptoms,checking oil and filters, compression (where applicable), and the condition of each assembly,as well as examining clearances, ovality, flatness, and part traceability. If information is missing, we identify the necessary checks to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Defining the scope of Engine workshop",
-      "parrafos": [
-        "The scope of work is determined proportionally: we handle air- and water-cooled Porsche engines, racing engines, gearboxes, and classic mechanical systems from other brands within our department's established expertise. Tasks are sequenced to avoid redundant disassembly, ensure symptoms aren't masked, and prevent replacing an assembly that can still be diagnosed or repaired.",
-        "Technical decisions are guided by this principle: an opened engine does not automatically receive all new parts. Each component is measured and classified to retain what is usable, correct what is necessary, and present options prior to assembly. If a discovery arises that alters the scope of the job, it is set aside from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5d33aefb-IMG_0973.jpg",
-          "alt": "Rebuild work in the engine workshop, image 2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "What Engine workshop does not include",
-      "parrafos": [],
-      "items": [
-        "It does not include work outside the agreed scope for Engine workshop.",
-        "Any extension is checked and authorised separately."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Interview with Iván Bascuñana, Head Engine Technician",
       "parrafos": [
-        "What is the most crucial or stressful moment in the process? The moment of checking the oil pressure with the engine assembled,and subsequently during startup,is when the result of the entire job is revealed. The whole process entails a high level of responsibility, given the high costs involved. What is the key quality of an engine specialist? Above all, passion and a continuous pursuit of perfection.",
-        "What methodology is key for you? Order and a methodical process are fundamental to the final result. The engine room is an enclosed, immaculate space where everything is in harmony.",
+        "What is the most crucial or stressful moment in the process? Checking the oil pressure once the engine is assembled, and then the startup, when you see the result of the entire job. The whole process carries a high level of responsibility, given the high costs involved. What is the main quality of an engine technician? Above all, passion and a constant pursuit of perfection.",
+        "What methodology is key for you? Order and a structured process are fundamental to the final result. The engine workshop is a clean, enclosed space where everything is in harmony.",
         "What is more important to you: experience or technique? A combination of both is key. Every day involves a quest for perfection and presents a new challenge.",
-        "What processes are carried out in the engine room? Disassembly, diagnosis of each part, and inspection of all engine components.",
-        "What is the most important phase of engine disassembly or assembly? The most important phase of disassembly is gathering information about the engine; performing a preliminary diagnosis helps guide the process. During assembly, the crucial step is verifying engine tolerances,specifically those of the pistons and cylinders, as well as the oil clearance between the crankshaft and the connecting rod.",
-        "What kind of measurements are taken? All measurements are equally important. Key measurements include piston-to-cylinder tolerances, oil clearance, and valve lift.",
-        "Can factory parameters be safely modified? Generally, all engines have a safety margin. Manufacturers build in a material margin that can be optimized without issues.",
-        "What are the advantages of having a workshop with a dedicated engine room? The main advantage is not having to rely on third parties,a key factor for warranty and quality. This has a direct impact on the quality we aim to offer the customer.",
-        "Which process is the most complex? Undoubtedly the timing system,specifically, setting the timing during assembly."
+        "What processes are carried out in the engine workshop? Disassembly, diagnosis of each part, and inspection of all engine components.",
+        "What is the most important phase of engine disassembly or assembly? The most important phase of disassembly is gathering information about the engine; performing a preliminary diagnosis helps guide the process. During assembly, the crucial step is verifying engine tolerances—specifically those of the pistons and cylinders, as well as the oil clearance between the crankshaft and the connecting rod.",
+        "What types of measurements are taken? All measurements are equally important. Key measurements include piston-to-cylinder tolerances, oil clearance, and valve lift.",
+        "Can we safely modify the factory parameters? Generally, all engines have a safety margin. Manufacturers build in a margin that can be optimized without issues.",
+        "What are the advantages of a workshop with a dedicated engine workshop? The main advantage is not relying on third parties—a key factor for warranty and quality. This directly impacts the quality we aim to offer the customer.",
+        "Which process is the most complex? Undoubtedly, the timing system—specifically, setting the timing during assembly."
       ],
       "items": [],
       "imagenes": [
@@ -139,9 +149,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "A documented case: Engine workshop",
+      "titulo": "A rebuilt G-series 3.2 engine",
       "parrafos": [
-        "The Magazine shows the work and its photographs in <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">this documented case</a>."
+        "The magazine showcases the work and photos in <a href=\"/magazine/rehabilitacion-motor-32-serie-g-1985\">this documented case study</a>."
       ],
       "items": [],
       "imagenes": [
@@ -153,10 +163,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner receives after Engine workshop",
+      "titulo": "How the engine leaves the workshop",
       "parrafos": [
-        "The goal of the delivery is an assembly completed according to proper process sequences and verified tolerances, followed by a start-up procedure that checks oil pressure, operation, and the results of the work performed. The final explanation should ensure an understanding of what was done, why it was done, and what should be monitored or scheduled for the future.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "An assembly put together following a strict process, with verified tolerances and a start-up procedure that checks oil pressure, operation, and the results of the work performed."
       ],
       "items": [],
       "imagenes": [
@@ -168,19 +177,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation: Engine workshop",
-      "parrafos": [
-        "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
-        "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the owner's goals, work can be coordinated across areas such as <a href=\"/taller-porsche/motores\">Porsche engines</a>, <a href=\"/taller-porsche/cajas-de-cambio\">gearboxes</a>, and <a href=\"/competicion\">motorsport applications</a>. Each page outlines the specific scope of service prior to booking an appointment."
+        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/taller-porsche/motores\">Porsche engines</a>, <a href=\"/taller-porsche/cajas-de-cambio\">gearboxes</a>, and <a href=\"/competicion\">racing applications</a>."
       ],
       "items": [],
       "imagenes": []
@@ -188,26 +187,24 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can just the engine be sent in?",
       "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+        "Yes. Valentín Motors collects engines from across Spain once the unit has been removed from the car. The shipment should include any available information regarding symptoms and previous repairs."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Can just the engine be sent?",
+      "titulo": "When is the true scope of work determined?",
       "parrafos": [
-        "Yes. Valentín Motors collects engines from across Spain once the unit has been removed from the vehicle. The shipment must include all available information regarding symptoms and previous work performed."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "When is the actual scope of work determined?",
-      "parrafos": [
-        "After diagnosis,and, if disassembly is required, after cleaning and measuring the components. A preliminary assessment can be provided beforehand, but a definitive conclusion regarding hidden damage cannot be reached until then."
+        "After diagnosis and—if the engine needs to be opened—after cleaning and measuring the parts. A preliminary estimate can be provided beforehand, but a definitive assessment regarding hidden damage is not possible until then."
       ],
       "items": [],
       "imagenes": []
@@ -218,8 +215,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 61,
-    "total": 61,
+    "hechas": 65,
+    "total": 65,
     "completa": true
   }
 }

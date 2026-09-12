@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Porsche Komplettrestaurierung · Valentín Motors",
-    "descripcion": "Porsche-Komplettrestaurierung mit Demontage, Dokumentation, Karosserie, Mechanik und Innenraum innerhalb eines klar definierten Umfangs.",
+    "titulo": "Komplettrestaurierung von Porsche Valentín Motors",
+    "descripcion": "Komplettrestaurierung von Porsche mit Demontage, Dokumentation, Karosseriearbeiten, Mechanik und Innenausstattung – alles in einem festgelegten Umfang.",
     "ogImagen": ""
   },
-  "h1": "Porsche Komplettrestaurierung mit einzigartigem Ansatz",
+  "h1": "Komplettrestaurierung von Porsche mit einem einheitlichen Ansatz",
   "menu": "Komplettrestaurierung",
   "acordeones": [],
   "articulos": [
@@ -21,11 +21,11 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Was wir tun: Komplettrestaurierung",
+      "titulo": "Komplettrestaurierungen von Porsche mit höchstem Originalitätsgrad",
       "parrafos": [
-        "Verdeckte Korrosion an einem 911 der F-Serie lässt vor der Demontage keinen endgültigen Arbeitsumfang zu.",
-        "Wir restaurieren komplette Porsche und streben dabei nach höchstmöglicher Originalität. Referenz ist die Porsche-Dokumentation Certificate of Authenticity: Dieses Dokument spezifiziert Farbe, Polsterung und Ausstattung des jeweiligen Fahrzeugs ab Werk.",
-        "Eine Komplettrestaurierung ist kein Kostenvoranschlag, sondern ein Gespräch. Bevor wir mit der Demontage beginnen, legen wir den Umfang des Projekts fest, denn dieser bestimmt das Ergebnis und später auch den Wert des Fahrzeugs."
+        "Ein 911 Bei Fahrzeugen der F-Serie mit verdeckter Korrosion lässt sich der Umfang vor der Demontage nicht abschließend festlegen.",
+        "Wir restaurieren komplette Porsche und streben dabei nach höchstmöglichem Originalitätsgrad. Bezugspunkt ist das Porsche-Echtheitszertifikat: das Dokument, das Farbe, Polsterung und Ausstattung des jeweiligen Fahrzeugs ab Werk spezifiziert.",
+        "Eine Komplettrestaurierung ist keine Budgetfrage, sondern ein Gespräch. Bevor wir irgendetwas demontieren, einigen wir uns auf den Umfang des Projekts, denn der Umfang bestimmt das Ergebnis und auch den späteren Wert des Autos."
       ],
       "items": [],
       "imagenes": [
@@ -45,9 +45,58 @@
     },
     {
       "nivel": 2,
+      "titulo": "Katalogisierter Zustand vor der Demontage",
+      "parrafos": [
+        "Eine Komplettrestaurierung koordiniert Karosserie, Mechanik, Elektrik, Innenausstattung und Dokumentation, sodass keine einzelne Disziplin später Änderungen einer anderen korrigieren kann."
+      ],
+      "items": [
+        "Nummern und Bauteile",
+        "Werksspezifikation",
+        "Strukturelle Schäden",
+        "Korrosion",
+        "Alte Reparaturen",
+        "Fehlende Teile",
+        "Verfügbarkeit von Ersatzteilen"
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Komplette Motorüberholung 2.2 1970 F-Serie"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Erhalten, reparieren oder ersetzen",
+      "parrafos": [
+        "Die vollständige Demontage und Katalogisierung ermöglicht die Unterscheidung zwischen Erhaltung, Reparatur und Austausch. Der Umfang wird überprüft, wenn Bereiche sichtbar werden, die im zusammengebauten Zustand nicht einsehbar waren.",
+        "Als Referenz dienen das Echtheitszertifikat und die Originalkonfiguration. Bei einem Fahrzeug für den häufigen Gebrauch können jedoch andere Entscheidungen erforderlich sein als bei einem Sammlerstück."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Armaturenbrett eines klassischen 911 mit fünf Rundinstrumenten und Vierspeichenlenkrad"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Armaturenbrett eines roten 911 T mit dem Modellschriftzug über dem Handschuhfach"
+        },
+        {
+          "url": "/img/paginas/64d909b1-mot-2.jpg",
+          "alt": "Komplette Motorüberholung 964 M64"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
       "titulo": "Wie weit soll es gehen?",
       "parrafos": [
-        "Nicht alle Autos erfordern die gleiche Herangehensweise. Bei einem seltenen, dokumentierten Exemplar ist Originalität das A und O, und jede Abweichung beeinträchtigt das Gesamterlebnis. Bei einem Gebrauchtwagen ist es sinnvoll, Zuverlässigkeit zu priorisieren, selbst wenn dies die Authentizität beeinträchtigt. Die Entscheidung liegt beim Besitzer, nicht bei uns.",
+        "Nicht alle Autos erfordern die gleiche Herangehensweise. Bei einem seltenen, dokumentierten Exemplar ist Originalität von höchster Bedeutung, und jede Abweichung mindert sie. Bei einem Gebrauchtwagen ist es sinnvoll, Zuverlässigkeit zu priorisieren, selbst wenn dies die Authentizität beeinträchtigt. Diese Entscheidung liegt beim Besitzer, nicht bei uns.",
         "Wir beginnen niemals ohne dieses Gespräch. Die Hälfte aller Projekte, die unfertig von anderen zu uns kommen, wurden ohne dieses Gespräch begonnen."
       ],
       "items": [],
@@ -72,7 +121,7 @@
         "Motor und Getriebe im Motorraum.",
         "Elektrik, Bremsen, Fahrwerk und Lenkung.",
         "Innenausstattung: Polsterung mit zeitgenössischen Materialien.",
-        "Teilebeschaffung – die halbe Miete bei einem sechzig Jahre alten Auto."
+        "Die Teilebeschaffung, die bei einem sechzig Jahre alten Auto die halbe Miete ist."
       ],
       "imagenes": [
         {
@@ -87,64 +136,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ausgangspunkt für Komplettrestaurierung",
+      "titulo": "Was wir bereits gemacht haben",
       "parrafos": [
-        "Wir von Valentín Motors wissen, dass eine Komplettrestaurierung Karosserie, Mechanik, Elektrik, Interieur und Dokumentation koordiniert, sodass keine einzelne Disziplin später die Entscheidungen einer anderen korrigieren kann. Daher konzentriert sich das Erstgespräch nicht auf eine Liste von Leistungen, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das der Besitzer erwartet.",
-        "Die Bewertung basiert auf Zahlen und Bauteilen, Werksangaben, Strukturschäden, Korrosion, früheren Reparaturen, fehlenden Teilen und der Verfügbarkeit von Ersatzteilen. Sollten Informationen fehlen, erläutern wir, welche Prüfungen notwendig sind, um diese zu beschaffen, bevor wir aus einer Annahme ein Angebot erstellen."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
-        },
-        {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Komplette Motorüberholung 2.2 1970 F-Serie"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Umfang von Komplettrestaurierung festlegen",
-      "parrafos": [
-        "Der Umfang wird proportional festgelegt: Die vollständige Demontage und Katalogisierung ermöglichen die Trennung von Konservierung, Reparatur und Austausch. Der Umfang wird überprüft, sobald Bereiche entdeckt werden, die im zusammengebauten Zustand nicht einsehbar waren. Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Fehlern und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung basiert auf folgendem Kriterium: Referenz ist beispielsweise Certificate of Authenticity und die Originalkonfiguration. Ein Fahrzeug für den täglichen Gebrauch erfordert jedoch unter Umständen andere Entscheidungen als ein Sammlerstück. Sollte sich eine Entdeckung ergeben, die den Auftrag verändert, wird diese vom genehmigten Arbeitsumfang getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Armaturenbrett eines klassischen 911 mit fünf Rundinstrumenten und Vierspeichenlenkrad"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Armaturenbrett eines roten 911 T mit dem Modellschriftzug über dem Handschuhfach"
-        },
-        {
-          "url": "/img/paginas/64d909b1-mot-2.jpg",
-          "alt": "Komplette Motorüberholung 964 M64"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was Komplettrestaurierung nicht umfasst",
-      "parrafos": [],
-      "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Komplettrestaurierung sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Bereits abgeschlossene Arbeiten.",
-      "parrafos": [
-        "Im Folgenden werden sechs Restaurierungen Schritt für Schritt mit Fotos des jeweiligen Prozesses beschrieben. Darunter ein 911 der F-Serie aus dem Jahr 1965, der nach sieben Jahren Transport zerlegt in Kisten ankam, und ein 930 Turbo, der nach einem Brand im Motorraum eintraf."
+        "Im Folgenden werden sechs Restaurierungen Schritt für Schritt mit Fotos des jeweiligen Prozesses beschrieben. Darunter ein 911 F-Series von 1965, der nach sieben Jahren Transport zerlegt in Kisten ankam, und ein 930 Turbo, der nach einem Brand im Motorraum eintraf."
       ],
       "items": [],
       "imagenes": [
@@ -160,9 +154,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ein dokumentierter Fall: Komplettrestaurierung",
+      "titulo": "Die Restaurierung eines 911 von 1965",
       "parrafos": [
-        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/restauracion-porsche-911-1965\">diesem dokumentierten Fall</a>."
+        "Das Magazin präsentiert die Arbeit und ihre Fotografien in <a href=\"/magazine/restauracion-porsche-911-1965\">diesem dokumentierten Fall</a>."
       ],
       "items": [],
       "imagenes": [
@@ -174,10 +168,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was der Eigentümer nach Komplettrestaurierung erhält",
+      "titulo": "Was wird dokumentiert?",
       "parrafos": [
-        "Ziel dieser Auslieferung ist ein wiederaufgebautes Fahrzeug mit einer lückenlosen Dokumentation des Prozesses, der verwendeten Teile und der getroffenen Entscheidungen. Das Fahrzeug wird als Ganzes getestet, bevor es als fertiggestellt gilt. Die abschließende Erläuterung soll verdeutlichen, was getan wurde, warum es getan wurde und was als Nächstes zu beobachten oder einzuplanen ist.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+        "Ein wiederaufgebautes Fahrzeug mit sorgfältig dokumentiertem Prozess, Teilen und Entscheidungen, das als Ganzes getestet wird, bevor es als fertiggestellt gilt."
       ],
       "items": [],
       "imagenes": [
@@ -193,9 +186,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Verwandte Leistungen",
+      "titulo": "Zugehörige Dienstleistungen",
       "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/restauraciones\">Porsche-Restaurierungen</a>, <a href=\"/sala-motores\">Motorenwerkstatt</a> und <a href=\"/taller-porsche/pintura-carroceria\">Karosserie und Lack</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/restauraciones\">Porsche-Restaurierungen</a>, <a href=\"/sala-motores\">Motorraum</a>, <a href=\"/taller-porsche/pintura-carroceria\">Karosserie und Lackierung</a>."
       ],
       "items": [],
       "imagenes": [
@@ -212,9 +205,7 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
-      "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -229,9 +220,9 @@
     },
     {
       "nivel": 3,
-      "titulo": "Kann vor der Demontage ein Kostenvoranschlag erstellt werden?",
+      "titulo": "Lässt sich alles vor der Demontage budgetieren?",
       "parrafos": [
-        "Ein erster Leistungsumfang kann festgelegt werden, jedoch lassen sich verdeckte Korrosion und frühere Reparaturen erst nach Freilegung richtig beurteilen. Alle relevanten Befunde werden vor der Erweiterung der Arbeiten präsentiert."
+        "Ein erster Umfang kann definiert werden, doch verdeckte Korrosion und frühere Reparaturen lassen sich erst nach ihrer Freilegung richtig beurteilen. Alle relevanten Befunde werden vor der Erweiterung der Arbeiten präsentiert."
       ],
       "items": [],
       "imagenes": []
@@ -240,7 +231,7 @@
       "nivel": 3,
       "titulo": "Welche Teile sollten erhalten werden?",
       "parrafos": [
-        "Originalteile, die gerettet werden können und mit der Identität des Fahrzeugs verbunden sind, haben Priorität. Sicherheit, Verschleiß und Verfügbarkeit entscheiden darüber, wann eine Reparatur nicht mehr sinnvoll ist."
+        "Originale, wiederverwendbare Teile, die mit der Identität des Fahrzeugs verbunden sind, haben Priorität. Sicherheit, Verschleiß und Verfügbarkeit entscheiden darüber, wann eine Reparatur nicht mehr sinnvoll ist."
       ],
       "items": [],
       "imagenes": []
@@ -251,8 +242,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 64,
-    "total": 64,
+    "hechas": 63,
+    "total": 63,
     "completa": true
   }
 }

@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "IMS Porsche: diagnostics and repair · Valentín Motors",
-    "descripcion": "Preventive bearing replacement for IMS Porsche M96 and M97 engines, including preliminary diagnostics and model-specific pricing.",
+    "titulo": "Porsche IMS bearing: diagnosis and repair · Valentín Motors",
+    "descripcion": "Preventive replacement of the Porsche IMS bearing in M96 and M97 engines, including preliminary diagnosis and published pricing by model.",
     "ogImagen": ""
   },
-  "h1": "Preventive repair for IMS Porsche",
-  "menu": "IMS Porsche",
+  "h1": "Preventive Porsche IMS repair",
+  "menu": "Porsche IMS",
   "acordeones": [],
   "articulos": [
     "que-es-el-ims-de-porsche",
@@ -18,20 +18,60 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "What we do: IMS Porsche",
+      "titulo": "Preventive replacement at a fixed price",
       "parrafos": [
-        "We replace the intermediate shaft bearing on M96 and M97 engines,as well as models ranging from 1997 to 2006, whether manual or automatic,at a fixed price. We have performed this procedure dozens of times across all three bearing revisions installed by Porsche.",
-        "Preventive replacement does not require opening the engine block: the transmission and the flywheel or flexplate are removed, and the bearing is accessed via the flange. The engine itself is not dismantled, keeping the cost reasonable compared to the expense of a failure."
+        "We replace the intermediate shaft bearing on M96 and M97 engines at a fixed price for models from 1997 to 2006, with both manual and automatic transmissions. We have performed this procedure dozens of times, covering all three bearing revisions installed by Porsche.",
+        "Preventive replacement does not require opening the engine block: the transmission and the flywheel or flexplate are removed, and the bearing is accessed via the flange. The engine is not disassembled, keeping the cost reasonable compared to the expense of a failure."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg",
+          "alt": "Rear engine flange opened up, a red arrow pointing to the position of the IMS bearing"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Identifying the bearing before starting work",
+      "parrafos": [
+        "The IMS procedure begins by identifying the specific bearing for the model, year, and—in transition years—the engine number."
+      ],
+      "items": [
+        "Car configuration.",
+        "History.",
+        "Oil and filter.",
+        "Noises.",
+        "Inspection of the installed bearing upon access."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/fd76012d-foto-2.jpg",
+          "alt": "M96 3.4 engine block on the stand, with the bores exposed"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Scope of the preventive service",
+      "parrafos": [
+        "The published preventive service targets M96 and M97 engines, as well as models where the bearing can be replaced without opening the engine block.",
+        "Not all IMS units carry the same risk or allow for the same type of intervention. If metal particles or noise are already present, the preventive approach is halted, and the damage is assessed before restarting the engine."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc331b3b-foto-4.jpg",
+          "alt": "Complete M96 teardown sorted into trays: camshafts, cylinder head and hardware"
+        }
+      ]
     },
     {
       "nivel": 2,
       "titulo": "When it is worth doing",
       "parrafos": [
-        "The failure affects 911 996 and 997.1, Boxster 986 and 987, and Cayman models built between 1997 and 2008. They do not all use the same bearing: the single-row 6204 fitted between 2000 and 2005 has shown the highest incidence and is also the simplest to replace.",
-        "If the car you are interested in falls into this group and there is no record of the work having been done, preventive replacement is the cost-effective choice. If the engine is already making noise or metal particles appear in the oil, the window for preventive action has passed, and an assessment is required before starting the engine again."
+        "The failure affects the 911 (996 and 997.1 generations), the Boxster (986 and 987), and the Cayman, spanning the years 1997 to 2008. Not all models use the same bearing, and that is the key difference: the single-row 6204 bearing installed between 2000 and 2005 has shown the highest failure rate, yet it is also the easiest to replace.",
+        "If the car you are interested in falls into that group and there is no record of any work having been done on it, preventive replacement is the low-cost option. If the engine is already making noise or metal particles appear in the oil, the window for preventive action has passed; instead, an assessment is required before starting the engine again."
       ],
       "items": [],
       "imagenes": []
@@ -40,8 +80,8 @@
       "nivel": 2,
       "titulo": "How to tell if your car is affected",
       "parrafos": [
-        "We have published a calculator that provides information based on the model and year: it indicates which bearing is installed in your unit, whether it can be replaced without opening the engine, and what checks are required. For the transition-year models,2000, 2001, and 2005,it also requests the engine number, as two different bearings were used during that period and the year alone is insufficient.",
-        "The calculator does not diagnose the car's current condition. It states what was installed at the factory; the only way to know what is inside today is by opening the engine."
+        "We have published a calculator that provides answers based on the model and year: it indicates which bearing your specific unit is fitted with, whether it can be replaced without opening the engine, and what checks are required. For the transition years—2000, 2001, and 2005—it also asks for the engine number, as two different bearings were used during those periods and the year alone is not enough to distinguish between them.",
+        "The calculator does not diagnose the car's current condition. It states what was installed at the factory; the only way to know what is inside now is to open it up."
       ],
       "items": [],
       "imagenes": []
@@ -51,30 +91,20 @@
       "titulo": "What the service includes",
       "parrafos": [],
       "items": [
-        "Preliminary diagnosis: analysis of the oil and filter to check for particles.",
+        "Preliminary diagnosis: analysis of the oil and filter, checking for particles.",
         "Removal of the transmission, flywheel or flexplate, and the IMS flange.",
-        "Replacement of the bearing with the kit corresponding to that specific revision.",
+        "Replacement of the bearing with the kit appropriate for the specific service level.",
         "Replacement of the intermediate shaft seal and the clutch, if applicable.",
-        "Reassembly, fine-tuning, and road test.",
-        "Mechanical warranty for the service performed."
+        "Reassembly, final adjustments, and road test.",
+        "Mechanical warranty on the work performed."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "What IMS Porsche does not include",
-      "parrafos": [],
-      "items": [
-        "It does not include work outside the agreed scope for IMS Porsche.",
-        "Any extension is checked and authorised separately."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "A documented case: IMS Porsche",
+      "titulo": "What is the IMS? (Read more in the Magazine)",
       "parrafos": [
-        "The Magazine shows the work and its photographs in <a href=\"/magazine/que-es-el-ims-de-porsche\">this documented case</a>."
+        "The magazine showcases the work and photographs in <a href=\"/magazine/que-es-el-ims-de-porsche\">this documented case study</a>."
       ],
       "items": [],
       "imagenes": [
@@ -86,42 +116,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Where it is performed",
+      "titulo": "Where it is done",
       "parrafos": [
-        "In Barcelona and Madrid. The work is carried out in the workshop; if the engine arrives with damage, it is transferred to the engine room, where it is opened and evaluated component by component."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Where IMS Porsche starts",
-      "parrafos": [
-        "Work on the IMS begins by identifying the correct bearing for the specific model, year, and,in transition years,engine number. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the owner's desired outcome.",
-        "The assessment is based on the car's configuration, its history, oil and filter status, any noises, and an inspection of the installed bearing once access is gained. If information is missing, the necessary checks to obtain it are identified before a hypothesis is turned into a formal quote."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Defining the scope of IMS Porsche",
-      "parrafos": [
-        "The scope of work is determined proportionally: the advertised preventive service targets M96 and M97 engines, as well as models where the bearing can be replaced without opening the engine block. Tasks are sequenced to avoid redundant disassembly, ensure symptoms are not masked, and prevent the replacement of an entire assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are guided by the following criterion: not all IMS engines carry the same risk or allow for the same type of intervention. If metal particles or noise are detected, the preventive approach is halted, and the damage is assessed before the engine is started again. Should any findings alter the scope of the job, that aspect is separated from the approved work and explained before proceeding."
-      ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What the owner receives after IMS Porsche",
-      "parrafos": [
-        "The service covers the removal and reinstallation of the transmission and access components, the appropriate kit for the revision, the specified seals, fine-tuning, testing, and the mechanical warranty described for the procedure. The final explanation ensures the customer understands what was done, why it was done, and what should be monitored or scheduled for the future.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "In Barcelona and Madrid. The work is performed in the workshop; if the engine arrives damaged, it is moved to the engine workshop, where it is opened and evaluated part by part."
       ],
       "items": [],
       "imagenes": []
@@ -130,7 +127,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the desired outcome, the work can be coordinated via the <a href=\"/herramientas/calculadora-ims-porsche\">calculator IMS</a>, <a href=\"/taller-porsche/motores\">Porsche engines</a>, and <a href=\"/taller-porsche/tarifas\">rates</a> sections. Each page outlines the specific scope of work before you book an appointment."
+        "Depending on the car's condition and intended use, the work can be coordinated with the <a href=\"/herramientas/calculadora-ims-porsche\">IMS calculator</a>, <a href=\"/taller-porsche/motores\">Porsche engine workshop</a> and <a href=\"/taller-porsche/tarifas\">published rates</a>."
       ],
       "items": [],
       "imagenes": []
@@ -138,26 +135,24 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Is the year enough to know which IMS it has?",
       "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+        "Not always. Different revisions can coexist in the 2000, 2001, and 2005 model years, so the engine number helps identify the configuration."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Is the model year enough to determine which IMS it has?",
+      "titulo": "Does replacing the IMS require opening the engine?",
       "parrafos": [
-        "Not always. Different revisions can coexist for 2000, 2001, and 2005, so the engine number helps identify the specific configuration."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Does changing the IMS require opening up the engine?",
-      "parrafos": [
-        "For the units covered by the preventive service, access is gained by removing the gearbox and the flywheel or flexplate. If internal damage is already present, the approach changes."
+        "For units eligible for the preventive procedure, access is gained by removing the gearbox and the flywheel or flexplate. If internal damage already exists, the approach changes."
       ],
       "items": [],
       "imagenes": []
@@ -168,8 +163,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 46,
-    "total": 46,
+    "hechas": 44,
+    "total": 44,
     "completa": true
   }
 }

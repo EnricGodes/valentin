@@ -3,46 +3,62 @@
   "tipo": "servicio",
   "ficheroOriginal": "_derivado_de_taller",
   "meta": {
-    "titulo": "Storage Porsche Specialist · Valentín Motors",
-    "descripcion": "Storage Porsche monitoring service, featuring periodic inspections and preventive maintenance to preserve the vehicle during periods of inactivity.",
+    "titulo": "Storage Specialized Porsche storage · Valentín Motors",
+    "descripcion": "Storage Secure Porsche storage, featuring periodic inspections and preventive maintenance to preserve the car during periods of inactivity.",
     "ogImagen": ""
   },
-  "h1": "Storage Porsche specialist workshop care",
+  "h1": "Specialist Porsche storage with workshop care",
   "menu": "Storage",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "An environment designed for the car",
+      "titulo": "What happens to a Porsche that isn't driven?",
       "parrafos": [
-        "A 911 that remains unused for several months needs more than a covered parking space.",
-        "At Valentin, we understand that a Porsche requires specific care when not in use. That is why our Storage service offers a dedicated parking space and an environment designed for proper preservation,essentially a spa for Porsches.",
-        "This service is designed for owners who need to free up garage space, use their Porsche only occasionally, spend long periods away from home, or wish to keep their vehicle in top condition while it is not being driven. Our facilities are discreet and secure, featuring 24-hour surveillance to provide peace of mind.",
-        "In addition to storage, we perform periodic inspections and preventive maintenance, check the vehicle's overall condition, and apply the necessary care to ensure it remains in excellent mechanical and aesthetic shape. This way, when you decide to drive your Porsche again, it will be ready for the road.",
-        "For 250 €/month, we offer a service that combines security, preservation, and specialized care as an alternative to conventional parking. We also provide a specific care protocol, with optional services tailored to the unique needs of each vehicle and owner.",
-        "Independent Porsche workshop in the center of Barcelona"
+        "A stationary car does not maintain itself. The tires constantly rest on the same spot, leading to deformation that becomes noticeable when driving resumes. The battery discharges, and once it drops below a certain level, it cannot be recovered. Brake fluid absorbs moisture regardless of whether the car is running, and brake discs rust on the contact surface when environmental conditions are right.",
+        "Added to this are issues not visible from the outside: gaskets and seals drying out, fuel aging in the tank, and—in a standard garage—rodents. Hardly any of these problems resolve themselves simply by starting the car again."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/d137f571-IMG_9271.JPG",
+          "alt": "Two people talking in the Leganés workshop, with a covered car in the background"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "What Storage does not include",
-      "parrafos": [],
+      "titulo": "What the Storage service includes",
+      "parrafos": [
+        "The service is available at both centers—Barcelona and Madrid—and combines a storage space with monitoring of the vehicle while it is kept there. The facilities are discreet and under 24-hour surveillance; a care protocol is applied, with options tailored to each specific vehicle."
+      ],
       "items": [
-        "It does not include work outside the agreed scope for Storage.",
-        "Any extension is checked and authorised separately."
+        "Storage space in Barcelona or Madrid, depending on the owner's preference.",
+        "Discreet facility with 24-hour surveillance.",
+        "Periodic inspections of the vehicle's general condition.",
+        "Preventive maintenance according to the agreed protocol.",
+        "Optional services tailored to the vehicle and its owner.",
+        "250 € per month, as an alternative to conventional parking."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/959b9abb-267ce8a3-379d-4f4f-8229-25ce50c29b30.jpg",
+          "alt": "The cream PA10 911 beside a red F-series 911 in the showroom"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Where Storage starts",
+      "titulo": "What is agreed upon before entry",
       "parrafos": [
-        "A Storage Porsche requires more than just a parking space during long periods of inactivity; it needs condition monitoring and access to specialized preventive maintenance. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the outcome the owner desires.",
-        "The assessment is based on the planned duration, the frequency with which the owner wishes to access the car, its recent history, and any outstanding mechanical or aesthetic needs. Where information is missing, we indicate what checks are required to obtain it before turning a preliminary estimate into a formal quote."
+        "Porsche Storage addresses extended periods of non-use with more than just a parking space: status monitoring and access to specialized preventive maintenance."
       ],
-      "items": [],
+      "items": [
+        "The planned duration.",
+        "How often the owner wishes to use the car.",
+        "Its recent history.",
+        "Any outstanding mechanical or cosmetic needs."
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/4c090daf-DSC00895.jpg",
@@ -52,28 +68,29 @@
     },
     {
       "nivel": 2,
-      "titulo": "Defining the scope of Storage",
+      "titulo": "What is not included",
       "parrafos": [
-        "The scope is defined proportionally: the current service includes discreet, 24-hour monitored facilities, periodic inspections, and a care protocol with options tailored to each specific vehicle. Tasks are sequenced to avoid redundant disassembly, ensure symptoms are not masked, and prevent the replacement of an entire assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are guided by a clear principle: before work begins, we agree on the necessary care and identify which optional tasks require prior authorization. Storage ensures that a routine check-up never turns into an unauthorized intervention. If an issue arises that alters the original scope, it is separated from the approved work and explained to the client before we proceed."
+        "Inspections and preventive maintenance are part of the service. Any repairs identified during an inspection are assessed and authorized separately before work begins.",
+        "It’s the same rule as at the workshop: Storage does not turn a routine check-up into an unsolicited repair job."
       ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cf185986-DSC03460.jpeg",
-          "alt": "The Valentín Motors team in the workshop, in front of the engine room"
-        }
-      ]
+      "items": [],
+      "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "What the owner receives after Storage",
+      "titulo": "When it’s not needed",
       "parrafos": [
-        "The goal of the handover is to return a Porsche that has been professionally maintained and prepared for the road, following the protocol agreed upon with the owner. The final briefing ensures the owner understands what work was performed, the reasons behind it, and what should be monitored or scheduled for the future.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "If the car is driven every two or three weeks and kept in a dry garage with a stable temperature, you don’t need this service: you need a battery maintainer and to actually drive the car.",
+        "Storage makes sense when the car will be parked for months, when the available garage isn't ideal, or when you prefer having someone keep an eye on it and alert you before a minor issue turns into a costly repair bill."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "How the car is returned",
+      "parrafos": [
+        "A Porsche that has been preserved under supervision and prepared to return to the road according to the protocol agreed upon with its owner."
       ],
       "items": [],
       "imagenes": []
@@ -82,7 +99,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the desired outcome, work can be coordinated via <a href=\"/taller-porsche/mantenimiento\">Porsche maintenance</a>, the <a href=\"/madrid\">Madrid center</a>, or <a href=\"/contacto\">contact</a>. Each page outlines the specific scope of work prior to booking an appointment."
+        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/taller-porsche/mantenimiento\">Porsche maintenance</a>, <a href=\"/madrid\">Madrid center</a>, <a href=\"/contacto\">contact</a>."
       ],
       "items": [],
       "imagenes": []
@@ -90,9 +107,7 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
-      "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -100,7 +115,7 @@
       "nivel": 3,
       "titulo": "Who is Storage for?",
       "parrafos": [
-        "For owners who use their car occasionally, spend time away, or lack suitable storage space, and wish to centralize vehicle preservation and technical care."
+        "For those who use their car occasionally, spend time away, or lack a suitable storage space and want to centralize preservation and technical care."
       ],
       "items": [],
       "imagenes": []
@@ -120,8 +135,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 38,
+    "total": 38,
     "completa": true
   }
 }

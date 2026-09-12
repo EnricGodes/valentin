@@ -4,7 +4,7 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Porsche maintenance rates · Valentín Motors",
-    "descripcion": "Porsche maintenance rates by model for minor and major service, brake fluid, wheel alignment and pre-purchase inspection.",
+    "descripcion": "Porsche maintenance rates by model for minor service, major service, brake fluid, wheel alignment, and inspection.",
     "ogImagen": ""
   },
   "h1": "Porsche workshop rates by model and service",
@@ -15,64 +15,74 @@
       "nivel": 2,
       "titulo": "Fixed prices, model by model",
       "parrafos": [
-        "Maintenance costs differ between an air-cooled 911 and a Macan; likewise, within the 911 range, a SC and a 992 have different costs. That is why rates are listed by model: choose yours to see the cost of each service for that specific unit.",
-        "These are fixed reference rates. A firm quote depends on the car's condition upon arrival,something that can only be determined by inspecting the vehicle in person.",
-        "Each family has its own: <a href=\"/porsche-911-mantenimiento-taller\">servicing for Porsche 911 models</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">servicing for Turbo models</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">servicing for Cayman and Boxster models</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">servicing for Transaxle models</a>, <a href=\"/porsche-gt-mantenimiento-taller\">servicing for GT models</a> and <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">servicing for Cayenne and Macan models</a>."
-      ],
-      "items": [
-        "[[CHECK: the export does not include the amounts from the published rate table; add them before import.]]"
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "What Rates does not include",
-      "parrafos": [],
-      "items": [
-        "It does not include work outside the agreed scope for Rates.",
-        "Any extension is checked and authorised separately."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Where Rates starts",
-      "parrafos": [
-        "Model-specific rates allow for transparent pricing on routine procedures, without pretending that any breakdown can be quoted without seeing the car. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the owner's desired outcome.",
-        "The assessment is based on the model, generation, version, transmission type, requested service, and recent maintenance history. If information is missing, we specify what checks are needed to obtain it before turning a hypothesis into a formal quote."
+        "Maintenance costs differ between an air-cooled 911 and a Macan; even within the 911 range, the cost varies between an SC and a 992. That is why rates are broken down by model: choose yours to see the cost of each service for that specific vehicle.",
+        "These are fixed reference rates. The firm quote depends on the car's condition upon arrival, which can only be determined by inspecting the vehicle in person.",
+        "Six model families with published rates: <a href=\"/porsche-911-mantenimiento-taller\">911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Cayman and Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">GT</a>, and <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Cayenne and Macan</a>."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/fe34fa7b-IMG_9274.JPG",
+          "alt": "Grey Porsche 911 with the engine bay open on the lift at the Leganés workshop"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Defining the scope of Rates",
+      "titulo": "What is included in minor and major services",
       "parrafos": [
-        "The scope is defined proportionally: the published tables cover minor service, major service, brake fluid, wheel alignment, and pre-purchase inspections for the listed model families. Tasks are sequenced to avoid double disassembly, prevent masking symptoms, and avoid replacing an assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are made based on this criterion: a fixed price covers a specific operation and its anticipated components. If the inspection reveals wear, damage, or substandard previous work, a separate quote is prepared before expanding the scope. If a finding arises that alters the original work order, it is treated separately from the approved work and explained before proceeding."
+        "The tables list the same procedures for all model families, with the specific price for each model."
       ],
       "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
+        "Minor service: engine oil and filter, plus a 23-point check.",
+        "Major service: includes everything in the minor service plus 30 additional checks, including air and cabin filters and spark plugs when due.",
+        "Brake fluid replacement.",
+        "Wheel alignment.",
+        "Pre-purchase inspection."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/621f5a9b-20240402_120524.jpg",
+          "alt": "Detail of the 3.2 G-series sump and oil filter"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "What the owner receives after Rates",
+      "titulo": "What is included in the price and what is not",
       "parrafos": [
-        "The goal is to provide a comparable reference point before booking an appointment and,once the specific unit is identified,to confirm the appropriate service for its version and condition. The final explanation should clarify what was done, why it was done, and what should be monitored or scheduled for the future.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "Prices are published <strong>excluding VAT</strong> and include parts and labor. An environmental and miscellaneous items charge is added to each invoice, and the car is cleaned before delivery.",
+        "Porsche parts prices are subject to change without notice; therefore, a quoted rate serves as a reference point rather than a fixed, time-bound offer. A fixed price applies to a specific service and the associated components; if the inspection reveals wear, damage, or substandard previous work, a separate quote is provided before any additional work is undertaken."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/d5c18ca1-20240328_114458.jpg",
+          "alt": "Detail of the 3.2 G-series flywheel ring gear"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What can be quoted in advance",
+      "parrafos": [
+        "Model-specific rates allow you to see the cost of routine services without the pretense that any breakdown can be quoted without inspecting the vehicle."
+      ],
+      "items": [
+        "Model.",
+        "Generation.",
+        "Version.",
+        "Gearbox.",
+        "Requested service.",
+        "Recent maintenance history."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation: Rates",
+      "titulo": "What to have ready when booking an appointment",
       "parrafos": [
-        "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
-        "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
+        "A reference price before booking, and—once the specific vehicle is identified—confirmation of the appropriate service for its version and condition."
       ],
       "items": [],
       "imagenes": []
@@ -81,7 +91,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the objective, the work can be coordinated with <a href=\"/porsche-911-mantenimiento-taller\">rates 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">rates Cayman and Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">rates Cayenne and Macan</a>, <a href=\"/taller-porsche/mantenimiento\">Porsche maintenance</a>. Each page explains the specific scope before requesting an appointment."
+        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/porsche-911-mantenimiento-taller\">rates for the 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">rates for the Cayman and Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">rates for the Cayenne and Macan</a>, and <a href=\"/taller-porsche/mantenimiento\">Porsche maintenance</a>."
       ],
       "items": [],
       "imagenes": []
@@ -89,9 +99,7 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
-      "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -99,16 +107,16 @@
       "nivel": 3,
       "titulo": "Why do rates vary between generations?",
       "parrafos": [
-        "Capacities, access points, consumables, and labor times differ. Even within the 911 range, a SC and a 992 do not require the same operations."
+        "Capacities, access requirements, consumables, and work times vary. Even within the 911 range, an SC model and a 992 model do not require the same service procedures."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Does a fixed rate cover any faults discovered during the process?",
+      "titulo": "Does a fixed rate cover any faults discovered?",
       "parrafos": [
-        "Not unless the rate itself specifies otherwise. Issues outside the scope of scheduled maintenance are explained and quoted separately."
+        "No, unless the rate specifically states so. Issues outside the scope of scheduled maintenance are explained and quoted separately."
       ],
       "items": [],
       "imagenes": []
@@ -119,8 +127,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 37,
+    "total": 37,
     "completa": true
   }
 }

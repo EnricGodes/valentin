@@ -47,13 +47,21 @@ const PALABRAS_FORMULA = 3;
 const MAX_FORMULA = 6;
 const MINIMO_LISTAS = 2;
 
-/** Encabezados que son navegacion y se repiten a proposito en todas. */
+/**
+ * Encabezados que son navegacion y se repiten a proposito en todas.
+ *
+ * En frances y aleman hay dos formas porque cada tanda trajo la suya: las dos
+ * primeras vueltas "Services associés" y "Verwandte Leistungen", la de los seis
+ * idiomas "Services connexes" y "Zugehörige Dienstleistungen". Ninguna la fija
+ * el glosario ni la usa otra parte del sitio, y el rotulo es el mismo en las 19
+ * paginas de cada idioma, que es lo unico que importa aqui.
+ */
 const ESTRUCTURALES = [
   /^preguntas frecuentes$/i, /^servicios relacionados$/i,
   /^frequently asked questions$/i, /^related services$/i,
-  /^foire aux questions$/i, /^services associés$/i,
+  /^foire aux questions$/i, /^services (associés|connexes)$/i,
   /^domande frequenti$/i, /^servizi correlati$/i,
-  /^häufig gestellte fragen$/i, /^verwandte leistungen$/i,
+  /^häufig gestellte fragen$/i, /^(verwandte leistungen|zugehörige dienstleistungen)$/i,
   /^preguntes freqüents$/i, /^serveis relacionats$/i,
 ];
 const esEstructural = (t: string) => ESTRUCTURALES.some((re) => re.test(t.trim()));

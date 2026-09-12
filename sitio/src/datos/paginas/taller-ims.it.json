@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "IMS Porsche: Diagnosi e Riparazione · Valentín Motors",
-    "descripcion": "Sostituzione preventiva del cuscinetto IMS Porsche nei motori M96 e M97, con diagnosi preventiva e prezzi indicati per modello.",
+    "titulo": "IMS Porsche: diagnosi e riparazione Valentín Motors",
+    "descripcion": "Sostituzione preventiva dei cuscinetti IMS Motori Porsche M96 e M97, con diagnosi preventiva e prezzi pubblicati per modello.",
     "ogImagen": ""
   },
-  "h1": "Riparazione preventiva del cuscinetto IMS Porsche",
+  "h1": "Riparazione preventiva dell’IMS Porsche",
   "menu": "IMS Porsche",
   "acordeones": [],
   "articulos": [
@@ -18,63 +18,93 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Cosa facciamo: IMS Porsche",
+      "titulo": "Sostituzione preventiva a prezzo fisso",
       "parrafos": [
-        "Sostituiamo il cuscinetto dell'albero intermedio nei motori M96 e M97, con un prezzo fisso per i modelli, da 1997 a 2006, sia per cambio manuale che automatico. Abbiamo eseguito questo intervento decine di volte, durante le tre revisioni del cuscinetto adottate da Porsche.",
-        "La sostituzione preventiva non richiede l'apertura del blocco motore: si rimuovono il cambio e il volano o la piastra flessibile e si accede al cuscinetto tramite la flangia. Il motore non viene smontato, il che mantiene i costi contenuti rispetto al prezzo di un guasto."
+        "Sostituiamo il cuscinetto dell'albero intermedio nei motori M96 e M97, con un prezzo fisso per i modelli 1997 a 2006, sia manuali che automatici. Abbiamo eseguito questa procedura decine di volte, nelle tre revisioni del cuscinetto montato da Porsche.",
+        "La sostituzione preventiva non richiede l'apertura del blocco motore: il cambio e il volano o la piastra flessibile vengono rimossi e si accede al cuscinetto tramite la flangia. Il motore non viene smontato, il che mantiene i costi ragionevoli rispetto al costo di un guasto."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg",
+          "alt": "Flangia posteriore del motore aperta, con una freccia rossa che indica la posizione del cuscinetto IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Identificazione del cuscinetto prima di intervenire",
+      "parrafos": [
+        "L'intervento sul IMS inizia con l'identificazione del cuscinetto corrispondente al modello, all'anno e, negli anni di transizione, al numero di motore."
+      ],
+      "items": [
+        "Configurazione del veicolo.",
+        "Storico.",
+        "Olio e filtro.",
+        "Rumori.",
+        "Ispezione del cuscinetto installato, se accessibile."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/fd76012d-foto-2.jpg",
+          "alt": "Monoblocco M96 3.4 sul cavalletto, con i cilindri a vista"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Entità della manutenzione preventiva",
+      "parrafos": [
+        "La manutenzione preventiva pubblicata si applica ai motori M96 e M97 e ai modelli in cui il cuscinetto può essere sostituito senza aprire il blocco motore.",
+        "Non tutti i IMS presentano lo stesso rischio o consentono lo stesso intervento. In presenza di particelle metalliche o rumore, l'approccio preventivo viene interrotto e si valuta il danno prima di riavviare."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc331b3b-foto-4.jpg",
+          "alt": "Smontaggio completo dell'M96 diviso in vassoi: alberi a camme, testata e minuteria"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quando conviene",
+      "parrafos": [
+        "Il guasto interessa i 911 996 e 997.1, Boxster 986 e 987 e Cayman, tra 1997 e 2008. Non tutte le unità utilizzano lo stesso cuscinetto, ed è qui che sta la differenza: il 6204 di una fila installata tra 2000 e 2005 è quello che ha subito il maggior impatto ed è anche il più facile da sostituire.",
+        "Se l'auto che vi interessa rientra in questa categoria e non risulta che sia stata effettuata la manutenzione, la sostituzione preventiva è l'opzione più conveniente. Se il motore emette già rumori o se nell'olio sono presenti particelle metalliche, il periodo di manutenzione preventiva è scaduto ed è necessaria una valutazione prima di riavviarlo."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Quando ne vale la pena",
+      "titulo": "Come sapere se la vostra auto è interessata",
       "parrafos": [
-        "Il problema interessa le 911 996 e 997.1, le Boxster 986 e 987 e la Cayman prodotte tra il 1997 e il 2008. Non tutte montano lo stesso cuscinetto: il 6204 a fila singola, utilizzato tra il 2000 e il 2005, è quello con l’incidenza maggiore ed è anche il più semplice da sostituire.",
-        "Se l'auto che Le interessa appartiene a questo gruppo e non risulta che sia stata sottoposta a manutenzione, la sostituzione preventiva è l'opzione più economica. Se il motore inizia già a fare rumore o se nell'olio compaiono particelle metalliche, il periodo di manutenzione preventiva è scaduto ed è necessaria una valutazione prima di riavviare il motore."
+        "Abbiamo pubblicato un calcolatore che, inserendo modello e anno, indica quale cuscinetto utilizza la vostra unità, se può essere sostituito senza aprire il motore e quali controlli sono necessari. Negli anni di transizione, 2000, 2001 e 2005, viene richiesto anche il numero di serie del motore, perché coesistono due cuscinetti diversi e l'anno da solo non è sufficiente.",
+        "Il calcolatore non effettua una diagnosi delle condizioni dell'auto. Indica le specifiche di fabbrica; ciò che si trova all'interno oggi può essere determinato solo aprendo il veicolo."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Come scoprire se la Sua auto è interessata",
-      "parrafos": [
-        "Abbiamo pubblicato un calcolatore che, inserendo modello e anno, Le indica quale cuscinetto utilizza il Suo veicolo, se può essere sostituito senza aprire il motore e quali controlli sono necessari. Negli anni di transizione, 2000, 2001 e 2005, è richiesto anche il numero di motore perché vengono utilizzati due cuscinetti diversi e il solo anno non è sufficiente.",
-        "Il calcolatore non diagnostica le condizioni dell'auto. Indica le sue condizioni di fabbrica; ciò che si trova all'interno oggi può essere determinato solo aprendo il veicolo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa include il servizio:",
+      "titulo": "Cosa include il servizio",
       "parrafos": [],
       "items": [
-        "Diagnosi preliminare: analisi dell'olio e del filtro, ricerca di particelle.",
-        "Rimozione del cambio, del volano o della piastra flessibile e della flangia del modello IMS.",
-        "Sostituzione del cuscinetto con il kit corrispondente a tale servizio.",
-        "Sostituzione della guarnizione dell'albero intermedio e della frizione, se necessario.",
-        "Montaggio, messa a punto e collaudo su strada.",
-        "Garanzia meccanica sull'intervento."
+        "Diagnosi preliminare: analisi dell'olio e del filtro, controllo della presenza di particelle.",
+        "Rimozione del cambio, del volano o della piastra flessibile e della flangia. IMS.",
+        "Sostituzione del cuscinetto con il kit corrispondente a questo servizio.",
+        "Sostituzione del paraolio dell'albero intermedio e della frizione, se presente.",
+        "Montaggio, messa a punto e prova su strada.",
+        "Garanzia meccanica per il servizio."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Cosa non comprende IMS Porsche",
-      "parrafos": [],
-      "items": [
-        "Non comprende lavori estranei all’ambito concordato per IMS Porsche.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un caso documentato: IMS Porsche",
+      "titulo": "Cos'è il IMS, nella rivista",
       "parrafos": [
-        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/que-es-el-ims-de-porsche\">questo caso documentato</a>."
+        "La rivista presenta il lavoro e le relative fotografie in <a href=\"/magazine/que-es-el-ims-de-porsche\">questo caso documentato</a>."
       ],
       "items": [],
       "imagenes": [
@@ -86,42 +116,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Luogo di lavoro",
+      "titulo": "Dove viene eseguito il lavoro",
       "parrafos": [
-        "A Barcellona e Madrid. L'intervento viene eseguito in officina; se il motore arriva danneggiato, viene portato in sala macchine, dove viene aperto e valutato pezzo per pezzo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Da dove inizia IMS Porsche",
-      "parrafos": [
-        "Il lavoro sul cuscinetto IMS inizia con l'identificazione del cuscinetto corrispondente al modello, all'anno e, negli anni di transizione, al numero di motore. Pertanto, la conversazione iniziale non si concentra su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione si basa sulla configurazione dell'auto, sulla sua storia, sullo stato dell'olio e del filtro, sui rumori e su un controllo del cuscinetto installato al momento dell'accesso. In caso di informazioni mancanti, vengono indicati i controlli necessari prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Definire l’ambito di IMS Porsche",
-      "parrafos": [
-        "L'ambito di intervento viene determinato proporzionalmente: il servizio di manutenzione preventiva pubblicato si applica ai motori M96 e M97 e ai modelli in cui il cuscinetto può essere sostituito senza aprire il blocco motore. Gli interventi vengono prioritari per evitare doppi smontaggi, mascherare i sintomi e sostituire un componente che può ancora essere diagnosticato o riparato.",
-        "La decisione tecnica si basa sul seguente principio: non tutti i motori IMS presentano lo stesso rischio o consentono lo stesso intervento. Se sono presenti particelle metalliche o rumore, l'intervento preventivo viene interrotto e si valuta il danno prima di riprendere. Se emerge un riscontro che modifica l'incarico, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo IMS Porsche",
-      "parrafos": [
-        "La fornitura comprende lo smontaggio e il montaggio della trasmissione e dei componenti di accesso, il kit di revisione appropriato, le guarnizioni necessarie, la messa a punto, il collaudo e la garanzia meccanica descritta per l'intervento. Il resoconto finale deve spiegare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe notare o programmare in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "A Barcellona e Madrid. Il lavoro viene svolto in officina; se il motore arriva danneggiato, viene portato in sala motori, dove viene aperto e valutato pezzo per pezzo."
       ],
       "items": [],
       "imagenes": []
@@ -130,7 +127,7 @@
       "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/herramientas/calculadora-ims-porsche\">calcolatore IMS</a>, <a href=\"/taller-porsche/motores\">motori Porsche</a> e <a href=\"/taller-porsche/tarifas\">tariffe</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/herramientas/calculadora-ims-porsche\">Calcolatore IMS</a>, <a href=\"/taller-porsche/motores\">Motori Porsche</a>, <a href=\"/taller-porsche/tarifas\">Tariffe</a>."
       ],
       "items": [],
       "imagenes": []
@@ -138,17 +135,15 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
-      "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "L'anno di produzione è sufficiente per identificare il modello IMS?",
+      "titulo": "L'anno è sufficiente per sapere cosa IMS ha?",
       "parrafos": [
-        "Non sempre. I modelli 2000, 2001 e 2005 possono avere intervalli di manutenzione diversi, quindi il numero di motore aiuta a identificare la configurazione."
+        "Non sempre. In 2000, 2001 e 2005 possono coesistere diverse revisioni, quindi il numero di serie del motore aiuta a identificare la configurazione."
       ],
       "items": [],
       "imagenes": []
@@ -157,7 +152,7 @@
       "nivel": 3,
       "titulo": "La sostituzione del IMS richiede l'apertura del motore?",
       "parrafos": [
-        "Per le unità incluse nel programma di manutenzione preventiva, l'accesso si ottiene rimuovendo il cambio e il volano o la piastra flessibile. In presenza di danni interni, la procedura cambia."
+        "Nelle unità incluse nella manutenzione preventiva, l'accesso si ottiene rimuovendo il cambio e il volano o la piastra flessibile. In caso di danni interni, la procedura cambia."
       ],
       "items": [],
       "imagenes": []
@@ -168,8 +163,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 46,
-    "total": 46,
+    "hechas": 44,
+    "total": 44,
     "completa": true
   }
 }

@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Restauro completo Porsche · Valentín Motors",
-    "descripcion": "Restauro completo Porsche con smontaggio, documentazione, carrozzeria, meccanica e interni coordinati entro un ambito definito.",
+    "titulo": "Restauro completo di una Porsche Valentín Motors",
+    "descripcion": "Restauro completo di una Porsche con smontaggio, documentazione, carrozzeria, meccanica e interni coordinati entro un ambito definito.",
     "ogImagen": ""
   },
-  "h1": "Restauro completo di una Porsche con un approccio unico",
+  "h1": "Restauro integrale Porsche con un criterio unico",
   "menu": "Restauro completo",
   "acordeones": [],
   "articulos": [
@@ -21,11 +21,11 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Cosa facciamo: Restauro completo",
+      "titulo": "Porsche complete, con il massimo grado di originalità",
       "parrafos": [
-        "La corrosione nascosta su una 911 Serie F non consente di definire l’ambito finale prima dello smontaggio.",
-        "Restauriamo Porsche complete, puntando al massimo grado di originalità. Il punto di riferimento è la Porsche Certificate of Authenticity: il documento che specifica il colore, gli interni e gli optional di quella particolare vettura quando è uscita dalla fabbrica.",
-        "Un restauro completo non è un preventivo, ma una conversazione. Prima di smontare qualsiasi cosa, concordiamo l'entità del progetto, perché l'entità determina il risultato e anche il valore futuro dell'auto."
+        "Una 911 I veicoli della serie F con corrosione nascosta non consentono di definire l'ambito prima dello smontaggio.",
+        "Restauriamo Porsche complete, puntando al massimo grado di originalità possibile. Il punto di riferimento è il Certificato di Autenticità Porsche: il documento che specifica il colore, i rivestimenti e gli optional con cui quel particolare esemplare è uscito dalla fabbrica.",
+        "Un restauro completo non è una questione di budget; è una conversazione. Prima di smontare qualsiasi cosa, concordiamo sulla portata del progetto, perché la portata determina il risultato e anche il valore dell'auto in seguito."
       ],
       "items": [],
       "imagenes": [
@@ -45,10 +45,59 @@
     },
     {
       "nivel": 2,
-      "titulo": "Fino a che punto spingersi?",
+      "titulo": "Cosa viene catalogato prima dello smontaggio",
       "parrafos": [
-        "Non tutte le auto richiedono lo stesso approccio. In un raro esemplare documentato, l'originalità è fondamentale e ogni deviazione la compromette. In un'auto usata, ha senso dare priorità all'affidabilità, anche se ciò significa sacrificare la fedeltà all'originale, e questa è una decisione del proprietario, non nostra.",
-        "Non iniziamo mai un progetto senza prima aver avuto questa conversazione. La metà dei progetti che arrivano incompiuti da altre parti sono iniziati senza di essa."
+        "Un restauro completo coordina carrozzeria, meccanica, impianti elettrici, interni e documentazione, in modo che nessuna singola disciplina possa successivamente correggere ciò che un'altra ha già deciso."
+      ],
+      "items": [
+        "Numeri e componenti.",
+        "Specifiche di fabbrica.",
+        "Danni strutturali.",
+        "Corrosione.",
+        "Vecchie riparazioni.",
+        "Parti mancanti.",
+        "Disponibilità di pezzi di ricambio."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interno di una 911 serie G restaurata, con tappezzeria beige e sedili pied-de-poule"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Ricostruzione completa del motore per auto serie F 2.2 e 1970"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Conservare, riparare o sostituire.",
+      "parrafos": [
+        "Lo smontaggio completo e la catalogazione consentono di separare le fasi di conservazione, riparazione e sostituzione. L'ambito di intervento viene rivisto quando emergono aree non visibili con l'auto assemblata.",
+        "Il riferimento può essere il Certificato di Autenticità e la configurazione originale, sebbene un'auto destinata a un uso frequente possa richiedere decisioni diverse rispetto a un oggetto da collezione."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Cruscotto di una 911 classica con i cinque strumenti e il volante a quattro razze"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Cruscotto di una 911 T rossa con la sigla del modello sopra il vano portaoggetti"
+        },
+        {
+          "url": "/img/paginas/64d909b1-mot-2.jpg",
+          "alt": "Ricostruzione completa del motore per auto 964 e M64"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Fino a che punto spingersi",
+      "parrafos": [
+        "Non tutte le auto richiedono lo stesso approccio. In un raro esemplare documentato, l'originalità regna sovrana e ogni deviazione la compromette. In un'auto usata, ha senso dare priorità all'affidabilità anche a scapito della fedeltà all'originale, e questa è una decisione del proprietario, non nostra.",
+        "Ciò che non facciamo è iniziare senza prima averne discusso. La metà dei progetti che arrivano incompiuti da altre officine sono iniziati senza questo preambolo."
       ],
       "items": [],
       "imagenes": [
@@ -67,12 +116,12 @@
       "titulo": "Cosa è incluso nel progetto",
       "parrafos": [],
       "items": [
-        "Smontaggio completo e catalogazione di ogni parte.",
+        "Smontaggio completo e catalogazione di ogni singolo pezzo.",
         "Carrozzeria: lamiera, trattamento anticorrosione e verniciatura nei colori originali.",
         "Motore e trasmissione, nel vano motore.",
         "Impianto elettrico, freni, sospensioni e sterzo.",
-        "Interni: rivestimenti con materiali d'epoca.",
-        "Ricerca dei pezzi, che in un'auto di sessant'anni rappresenta metà del progetto."
+        "Interni: tappezzeria con materiali d'epoca.",
+        "Reperimento dei ricambi, che in un'auto di sessant'anni rappresenta metà del lavoro."
       ],
       "imagenes": [
         {
@@ -87,64 +136,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Da dove inizia Restauro completo",
-      "parrafos": [
-        "Un restauro completo coordina carrozzeria, meccanica, impianti elettrici, interni e documentazione, in modo che nessuna singola disciplina possa successivamente correggere ciò che un'altra ha deciso in precedenza. Per questo motivo, il colloquio iniziale non si concentra su un catalogo di servizi, ma piuttosto sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione si basa su numeri e componenti, specifiche di fabbrica, danni strutturali, corrosione, riparazioni precedenti, parti mancanti e disponibilità di ricambi. In caso di informazioni mancanti, indichiamo quali verifiche sono necessarie per ottenerle prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interno di una 911 serie G restaurata, con tappezzeria beige e sedili pied-de-poule"
-        },
-        {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Ricostruzione completa del motore per auto serie F 2.2 e 1970"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Definire l’ambito di Restauro completo",
-      "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: lo smontaggio completo e la catalogazione consentono di separare le fasi di conservazione, riparazione e sostituzione. L'ambito di intervento viene rivisto quando vengono individuate aree non visibili con l'auto assemblata. Le attività vengono prioritarie per evitare doppi smontaggi, la necessità di nascondere i sintomi e la sostituzione di un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica si basa su questo criterio: il riferimento può essere Certificate of Authenticity e la configurazione originale, sebbene un'auto destinata a un uso frequente possa richiedere decisioni diverse rispetto a un pezzo da collezione. Qualora venga effettuata una scoperta che modifichi l'incarico, questa viene separata dal lavoro approvato e spiegata prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Cruscotto di una 911 classica con i cinque strumenti e il volante a quattro razze"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Cruscotto di una 911 T rossa con la sigla del modello sopra il vano portaoggetti"
-        },
-        {
-          "url": "/img/paginas/64d909b1-mot-2.jpg",
-          "alt": "Ricostruzione completa del motore per auto 964 e M64"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa non comprende Restauro completo",
-      "parrafos": [],
-      "items": [
-        "Non comprende lavori estranei all’ambito concordato per Restauro completo.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Cosa abbiamo già fatto",
       "parrafos": [
-        "Di seguito sono descritti passo passo sei restauri, con foto del processo. Tra questi, una Nissan F-series 911 1965 arrivata smontata in casse dopo sette anni di spostamenti, e una Nissan 930 Turbo arrivata dopo un incendio nel vano motore."
+        "Di seguito sono descritti passo passo sei restauri, con foto del processo. Tra questi, una 911 Serie F della 1965 arrivata smontata in casse dopo sette anni di trasloco, e una 930 Turbo arrivata dopo un incendio nel vano motore."
       ],
       "items": [],
       "imagenes": [
@@ -160,9 +154,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un caso documentato: Restauro completo",
+      "titulo": "Il restauro di un'auto 911 di 1965",
       "parrafos": [
-        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/restauracion-porsche-911-1965\">questo caso documentato</a>."
+        "La rivista presenta il lavoro e le relative fotografie in <a href=\"/magazine/restauracion-porsche-911-1965\">questo caso documentato</a>."
       ],
       "items": [],
       "imagenes": [
@@ -174,10 +168,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo Restauro completo",
+      "titulo": "Cosa viene registrato",
       "parrafos": [
-        "L'obiettivo della consegna è un'auto ricostruita con una documentazione organizzata del processo, dei pezzi e delle decisioni prese, e testata come un'unità completa prima di essere considerata definitiva. La descrizione finale dovrebbe consentire di comprendere cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in futuro.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "Un'auto ricostruita con un processo, parti e decisioni meticolosamente documentati, e testata nella sua interezza prima di essere considerata completa."
       ],
       "items": [],
       "imagenes": [
@@ -195,7 +188,7 @@
       "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/restauraciones\">restauri Porsche</a>, <a href=\"/sala-motores\">sala motori</a> e <a href=\"/taller-porsche/pintura-carroceria\">carrozzeria e verniciatura</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/restauraciones\">Restauri Porsche</a>, <a href=\"/sala-motores\">Sala motori</a>, <a href=\"/taller-porsche/pintura-carroceria\">carrozzeria e verniciatura</a>."
       ],
       "items": [],
       "imagenes": [
@@ -212,9 +205,7 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
-      "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -229,9 +220,9 @@
     },
     {
       "nivel": 3,
-      "titulo": "È possibile ottenere un preventivo completo prima dello smontaggio?",
+      "titulo": "È possibile preventivare tutto prima dello smontaggio?",
       "parrafos": [
-        "È possibile definire un ambito iniziale, ma la corrosione nascosta e le riparazioni precedenti vengono valutate correttamente solo una volta esposte. Ogni riscontro rilevante viene presentato prima di estendere i lavori."
+        "È possibile definire un ambito iniziale, ma la corrosione nascosta e le riparazioni precedenti vengono valutate correttamente solo una volta esposte. Ogni riscontro rilevante viene presentato prima di estendere il lavoro."
       ],
       "items": [],
       "imagenes": []
@@ -240,7 +231,7 @@
       "nivel": 3,
       "titulo": "Quali parti dovrebbero essere conservate?",
       "parrafos": [
-        "Le parti originali e recuperabili, legate all'identità dell'auto, hanno la priorità. Sicurezza, usura e disponibilità determinano quando la riparazione non è più opportuna."
+        "Le parti originali e recuperabili, legate all'identità dell'auto, meritano la priorità. Sicurezza, usura e disponibilità determinano quando la riparazione non è più opportuna."
       ],
       "items": [],
       "imagenes": []
@@ -251,8 +242,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 64,
-    "total": 64,
+    "hechas": 63,
+    "total": 63,
     "completa": true
   }
 }

@@ -3,42 +3,59 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Conception de projet Porsche · Valentín Motors",
-    "descripcion": "Conception et définition des projets Porsche en fonction de l'utilisation, du véhicule de base, du budget et de l'homologation, avant le début des travaux.",
+    "titulo": "Conception des projets Porsche Valentín Motors",
+    "descripcion": "Conception et définition des projets Porsche en fonction de l'utilisation, du modèle de base, du budget et de l'homologation avant le début des travaux en atelier.",
     "ogImagen": ""
   },
-  "h1": "Définition des projets Porsche avant démontage.",
-  "menu": "Projets et conception.",
+  "h1": "Définition des projets Porsche avant démontage",
+  "menu": "Projets et Conception",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
       "titulo": "Comment un projet commence",
       "parrafos": [
-        "Une 911 destinée à la route, à la collection ou au circuit exige trois projets différents dès la première esquisse.",
-        "Par une discussion, puis par une voiture, dans cet ordre. La première étape consiste à définir vos besoins : utilisation, stockage ou compétition. Tout le reste en découle, y compris la partie délicate : estimer le coût et le délai."
+        "Une 911 Conçus pour la route, la collection ou la piste, les véhicules nécessitent trois projets distincts dès l'esquisse initiale.",
+        "Par une discussion et une voiture, dans cet ordre. La première étape consiste à définir l'aspect final souhaité du véhicule : usage quotidien, stockage ou compétition. Tout le reste en découle, y compris la partie délicate : l'estimation du coût et du délai."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/959b9abb-267ce8a3-379d-4f4f-8229-25ce50c29b30.jpg",
+          "alt": "La 911 PA10 crème à côté d'une 911 rouge de série F dans le showroom"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Le Laboratoire des Idées",
+      "titulo": "Le Laboratoire d'Idées",
       "parrafos": [
-        "Avant d'arriver à l'atelier, chaque projet passe par ici. Nous y étudions les solutions existantes, comparons celles d'autres professionnels et testons les éléments qui seront installés avant de les monter sur le véhicule du client.",
-        "Ce département fabrique les pièces sur mesure destinées aux voitures de course et prend les décisions de conception pour les restomods."
+        "Avant d'arriver à l'atelier, tout projet passe par ici. C'est ici que des recherches sont menées sur les projets existants, que les solutions sont comparées à celles d'autres professionnels et que les composants sont testés avant d'être installés sur le véhicule du client.",
+        "Ce département produit les pièces sur mesure destinées aux voitures de course et oriente les décisions de conception pour les restomods."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/0bca650e-DSC03559.jpg",
+          "alt": "Un invité observe l'intérieur du PA10/01 pendant la présentation"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Le point de départ de Projets et conception",
+      "titulo": "De l'idée au cahier des charges",
       "parrafos": [
-        "Le département projets transforme une intention générale en un cahier des charges que l'atelier peut mettre en œuvre et que le client peut évaluer avant le début des travaux. C'est pourquoi la première discussion porte non pas sur un catalogue de services, mais sur le véhicule, son historique et le résultat attendu par son propriétaire.",
-        "L'évaluation se base sur l'utilisation prévue, le véhicule de base, son état, les références esthétiques, les performances souhaitées, le budget et l'homologation. En cas d'information manquante, nous indiquons les vérifications nécessaires pour l'obtenir avant de transformer une hypothèse en devis."
+        "Le service projets transforme une intention générale en un cahier des charges que l'atelier peut mettre en œuvre et que le client peut évaluer avant le démarrage."
       ],
-      "items": [],
+      "items": [
+        "L'utilisation prévue.",
+        "La base disponible.",
+        "L'état du véhicule.",
+        "Références esthétiques.",
+        "Performances souhaitées.",
+        "Le budget.",
+        "Homologation."
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/980a50f4-DSC00828.jpg",
@@ -48,36 +65,36 @@
     },
     {
       "nivel": 2,
-      "titulo": "Définir le périmètre de Projets et conception",
+      "titulo": "La conception implique une méthode d'élimination.",
       "parrafos": [
-        "Le périmètre est défini proportionnellement : les alternatives, les compatibilités, les pièces, la fabrication et la séquence de travail sont étudiées. Dans les projets complexes, il est également déterminé ce qui doit être testé avant l’installation finale. Les tâches sont ordonnées de manière à éviter les doubles démontages, la dissimulation d’un symptôme et le remplacement d’un ensemble alors qu’il peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon ce critère : concevoir implique d’éliminer certaines options. Les solutions justifiées sont privilégiées et l’on évite qu’un assemblage de pièces de qualité ne aboutisse à un véhicule incohérent. Si une découverte modifie le projet, elle est dissociée du travail approuvé et expliquée avant de poursuivre."
+        "Les alternatives, les compatibilités, les pièces, la fabrication et la séquence de travail sont étudiées. Dans les projets complexes, des décisions sont également prises concernant les tests à effectuer avant l'installation finale.",
+        "Concevoir implique d'éliminer certaines options. Les solutions justifiées sont privilégiées, évitant ainsi qu'un assemblage de bonnes pièces ne aboutisse à une voiture incohérente."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce qui est défini avant même de toucher à la voiture.",
+      "parrafos": [
+        "Le projet se termine sur papier et commence à l'atelier, et non l'inverse."
       ],
       "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
+        "L'usage prévu et les performances qui le justifient.",
+        "La base disponible et son état actuel.",
+        "Les références esthétiques et leurs limites.",
+        "La séquence des travaux et les interdépendances.",
+        "Le budget échelonné et les décisions encore en suspens."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Ce que Projets et conception ne couvre pas",
-      "parrafos": [],
-      "items": [
-        "Les travaux hors du périmètre convenu pour Projets et conception ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un cas documenté : Projets et conception",
+      "titulo": "Présentation du projet PA10/01",
       "parrafos": [
-        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/presentacion-pa10-01-madrid\">ce cas documenté</a>."
+        "Le magazine présente le travail et ses photographies dans <a href=\"/magazine/presentacion-pa10-01-madrid\">ce cas documenté</a>."
       ],
-      "items": [
-        "[[VÉRIFIER : relier un projet réel du Magazine et lui attribuer sa photographie.]]"
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/magazine/dc57c760-DSC03556.jpg",
@@ -87,29 +104,18 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Projets et conception",
+      "titulo": "Un périmètre délimité par phases",
       "parrafos": [
-        "Ce document a pour objectif de fournir un cahier des charges clair et compréhensible, structuré en phases et lié aux choix techniques, esthétiques et d'ergonomie qui ne dépendent pas d'improvisations lors du montage. L'explication finale permettra au lecteur de comprendre les choix effectués, leurs raisons et les points à prendre en compte ou à planifier.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+        "Un périmètre clair, délimité par phases et lié à des décisions techniques, esthétiques et d'ergonomie qui ne dépendent pas d'improvisations lors du montage."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale : Projets et conception",
+      "titulo": "Services connexes",
       "parrafos": [
-        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
-        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services associés",
-      "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/restauraciones\">restaurations</a>, <a href=\"/restauraciones/personalizacion\">personnalisation</a> et <a href=\"/builds\">builds</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/restauraciones\">Restaurations</a>, <a href=\"/restauraciones/personalizacion\">Personnalisation</a>, <a href=\"/builds\">Constructions</a>."
       ],
       "items": [],
       "imagenes": []
@@ -117,26 +123,24 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Est-il nécessaire d'avoir une idée complètement finalisée ?",
       "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+        "Non. Il suffit d'expliquer comment vous souhaitez utiliser la voiture et ce que vous ne voulez pas perdre. Le travail initial consiste précisément à traduire les préférences en décisions concrètes."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Avez-vous besoin d'une idée précise ?",
+      "titulo": "Le budget fait-il partie intégrante de la conception ?",
       "parrafos": [
-        "Non. Expliquez-nous simplement comment vous souhaitez utiliser le véhicule et ce que vous souhaitez conserver. La première étape consiste précisément à traduire vos préférences en décisions concrètes."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Le budget fait-il partie de la conception ?",
-      "parrafos": [
-        "Oui. Cela détermine les matériaux, le périmètre et les phases. En discuter dès le début évite de concevoir un projet qui devra être abandonné par la suite pour être réalisé."
+        "Oui. Il détermine les matériaux, le périmètre et les phases. En discuter dès le début évite de concevoir un projet qui devra être abandonné par la suite pour être réalisé."
       ],
       "items": [],
       "imagenes": []
@@ -147,8 +151,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 39,
-    "total": 39,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

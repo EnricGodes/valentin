@@ -4,7 +4,7 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Nationwide Porsche technical service · Valentín Motors",
-    "descripcion": "Porsche technical service throughout Spain, vehicle and engine pickup, remote assistance, and specialized consulting for other workshops.",
+    "descripcion": "Porsche technical service throughout Spain, car and engine pickup, remote assistance, and specialized consulting for other workshops.",
     "ogImagen": ""
   },
   "h1": "Porsche technical service throughout Spain",
@@ -13,41 +13,47 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "What we do: Technical service",
+      "titulo": "The engine travels; the car doesn't need to",
       "parrafos": [
-        "An M96 engine can be shipped from anywhere in Spain without moving the complete car.",
-        "We provide technical service across Spain from our two centers. We collect cars and engines from their current location, and for issues that do not require the entire car, we provide remote solutions."
+        "An M96 engine can be shipped from anywhere in Spain without the need to transport the entire car.",
+        "We provide technical service across Spain from our two centers. We collect cars and engines from their current location, and for issues that don't require the whole car, we provide remote solutions."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/d137f571-IMG_9271.JPG",
+          "alt": "Two people talking in the Leganés workshop, with a covered car in the background"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "What Technical service does not include",
-      "parrafos": [],
+      "titulo": "Consulting for other workshops",
+      "parrafos": [
+        "We handle technical inquiries from workshops encountering a Porsche that falls outside their daily routine. It is not about competition: a generalist workshop that knows when to send an engine to a specialized facility does a better job, and the car ends up in better condition."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/85a86038-DSC08005.jpg",
+          "alt": "The red 964 with the engine exposed inside the garage, beside the 991 Cup"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "When the car isn't nearby",
+      "parrafos": [
+        "Our nationwide technical service allows us to address specialized Porsche issues even if the car or engine is not located near Barcelona or Madrid."
+      ],
       "items": [
-        "It does not include work outside the agreed scope for Technical service.",
-        "Any extension is checked and authorised separately."
+        "Symptoms.",
+        "Documentation.",
+        "Preliminary diagnosis.",
+        "Photographs.",
+        "Samples.",
+        "Work already performed by the workshop requesting assistance."
       ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Consultancy for other workshops",
-      "parrafos": [
-        "We handle technical inquiries from workshops encountering a Porsche that falls outside their daily routine. This is not about competition; a generalist workshop that knows when to send an engine to a specialized facility does a better job, and the car receives better care."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Where Technical service starts",
-      "parrafos": [
-        "A nationwide technical service makes it possible to address specialized Porsche issues even if the car or engine is not located near Barcelona or Madrid. That is why the initial conversation focuses not on a catalog of services, but on the car, its history, and the outcome the owner expects.",
-        "The assessment is based on symptoms, documentation, prior diagnoses, photographs, samples, and work already performed by the requesting workshop. If information is missing, we specify what checks are needed to obtain it before turning a hypothesis into a price quote."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
@@ -57,33 +63,39 @@
     },
     {
       "nivel": 2,
-      "titulo": "Defining the scope of Technical service",
+      "titulo": "What can be resolved without moving the vehicle",
       "parrafos": [
-        "The scope is determined proportionally: it includes the collection of cars and engines within Spain, remote resolution when sufficient, and consultancy for workshops dealing with cases outside their usual scope of work. Tasks are sequenced to avoid double disassembly, ensure symptoms aren't overlooked, and prevent replacing an entire assembly when it can still be diagnosed or repaired.",
-        "Technical decisions are made based on the following criteria: first, we determine what information can be obtained without moving the vehicle. If the check requires measurements, disassembly, or specific tooling, we propose transporting the necessary assembly. If a finding alters the scope of the job, that aspect is separated from the approved work and explained before proceeding."
+        "Before considering transport, everything that can be determined remotely is fully explored."
       ],
       "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
+        "Reading fault codes and counter data provided by the originating workshop.",
+        "Interpreting oil analysis results or borescope inspection reports.",
+        "Identifying the engine, transmission, and configuration based on serial numbers and documentation.",
+        "Assessing whether a fault warrants opening the engine or allows for continued monitoring.",
+        "Determining what to measure—and with which tools—before deciding to move the vehicle or components."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg",
+          "alt": "The six piston and cylinder assemblies lined up on the bench, with rods, rockers and sorted hardware"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "What the owner receives after Technical service",
+      "titulo": "What can be resolved remotely versus what cannot",
       "parrafos": [
-        "The goal of the service is to establish a clear workflow among the owner, the original workshop, and the specialist, avoiding redundant testing or transporting the entire car when only a specific component is needed. The final explanation must make it clear what was done, why it was done, and what should be monitored or programmed subsequently.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "Includes vehicle and engine pickup within Spain, remote resolution where feasible, and consulting for workshops handling cases that fall outside their standard operations.",
+        "First, we determine what information can be obtained without moving the vehicle. If the check requires measurements, disassembly, or specific tooling, we arrange for the necessary components to be transported."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation: Technical service",
+      "titulo": "Who does what",
       "parrafos": [
-        "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
-        "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
+        "A defined workflow between the owner, the original workshop, and the specialist, avoiding duplicate tests or transporting the entire car when only a component is needed."
       ],
       "items": [],
       "imagenes": []
@@ -92,7 +104,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the objective, the work can be coordinated with <a href=\"/centros\">centers</a>, <a href=\"/sala-motores\">engine shop</a>, <a href=\"/contacto\">contact</a>. Each page explains the specific scope before requesting an appointment."
+        "Depending on the car's condition and objective, work can be coordinated with <a href=\"/centros\">centers</a>, <a href=\"/sala-motores\">engine shop</a>, <a href=\"/contacto\">contact</a>."
       ],
       "items": [],
       "imagenes": []
@@ -100,17 +112,15 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
-      "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Does the entire car always need to be sent in?",
+      "titulo": "Does the whole car always have to be sent?",
       "parrafos": [
-        "No. Some cases can be addressed through technical guidance, while others require sending only the engine or the gearbox. The diagnosis determines the logistical requirements."
+        "No. Some cases can be handled via technical information, while others require sending only the engine or gearbox. The diagnosis determines the logistical scope."
       ],
       "items": [],
       "imagenes": []
@@ -119,7 +129,7 @@
       "nivel": 3,
       "titulo": "Do you work with other workshops?",
       "parrafos": [
-        "Yes. This page covers technical consulting for workshops requiring specialized support for specific Porsche models."
+        "Yes. This page covers technical consulting for workshops needing specialized support with a specific Porsche."
       ],
       "items": [],
       "imagenes": []
@@ -130,8 +140,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

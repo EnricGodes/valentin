@@ -3,51 +3,57 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Nationaler Porsche-Service · Valentín Motors",
-    "descripcion": "Porsche-Service in ganz Spanien, Abholung von Fahrzeugen und Motoren, Fernwartung und spezialisierte Beratung für andere Werkstätten.",
+    "titulo": "Nationaler Technischer Porsche-Service Valentín Motors",
+    "descripcion": "Technischer Porsche-Service in ganz Spanien, Abholung von Fahrzeug und Motor, Fernwartung und spezialisierte Beratung für andere Werkstätten.",
     "ogImagen": ""
   },
-  "h1": "Porsche-Service in ganz Spanien",
+  "h1": "Technischer Porsche-Service in ganz Spanien",
   "menu": "Technischer Service",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Was wir tun: Technischer Service",
+      "titulo": "Der Motor kann transportiert werden, das Fahrzeug muss nicht",
       "parrafos": [
-        "Ein M96-Motor kann aus ganz Spanien versandt werden, ohne das komplette Fahrzeug zu transportieren.",
-        "Wir bieten technischen Service in ganz Spanien von beiden Standorten aus an. Wir holen Fahrzeuge und Motoren unabhängig vom Standort ab und beheben Probleme, die nicht die Anlieferung des gesamten Fahrzeugs erfordern, per Fernwartung."
+        "Ein Motor M96 Er kann von jedem Ort in Spanien transportiert werden, ohne dass das gesamte Fahrzeug transportiert werden muss.",
+        "Wir bieten technischen Service in ganz Spanien von beiden Standorten aus an. Wir holen Fahrzeuge und Motoren überall ab und beheben Probleme, die nicht die Anlieferung des gesamten Fahrzeugs erfordern, per Fernwartung."
       ],
       "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was Technischer Service nicht umfasst",
-      "parrafos": [],
-      "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Technischer Service sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
-      ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/d137f571-IMG_9271.JPG",
+          "alt": "Zwei Personen im Gespräch in der Halle in Leganés, im Hintergrund ein abgedecktes Fahrzeug"
+        }
+      ]
     },
     {
       "nivel": 2,
       "titulo": "Beratung für andere Werkstätten",
       "parrafos": [
-        "Wir bearbeiten technische Anfragen von Werkstätten, die einen Porsche bearbeiten, der von ihren üblichen Vorgehensweisen abweicht. Dies ist kein Wettbewerb: Eine allgemeine Werkstatt, die weiß, wann ein Motor an eine spezialisierte Werkstatt geschickt werden muss, leistet bessere Arbeit, und das Fahrzeug befindet sich am Ende in einem besseren Zustand."
+        "Wir bearbeiten technische Anfragen von Werkstätten, die auf einen Porsche stoßen, der sich von den üblichen Fällen unterscheidet. Dies ist kein Wettbewerb: Eine allgemeine Werkstatt, die weiß, wann ein Motor an eine spezialisierte Werkstatt geschickt werden muss, leistet bessere Arbeit, und das Fahrzeug ist am Ende in einem besseren Zustand."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/85a86038-DSC08005.jpg",
+          "alt": "Der rote 964 mit offenem Motor in der Box, neben dem 991 Cup"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Ausgangspunkt für Technischer Service",
+      "titulo": "Wenn sich das Fahrzeug nicht in der Nähe befindet",
       "parrafos": [
-        "Wir von Valentín Motors wissen, dass unser nationaler Service es uns ermöglicht, auch dann auf spezielle Porsche-Probleme einzugehen, wenn sich das Fahrzeug oder der Motor nicht in der Nähe von Barcelona oder Madrid befindet. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Erwartungen des Besitzers.",
-        "Die Beurteilung basiert auf Symptomen, Dokumentation, Vordiagnosen, Fotos, Proben und bereits von der anfragenden Werkstatt durchgeführten Arbeiten. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen angegeben, bevor aus einer Hypothese ein Kostenvoranschlag erstellt wird."
+        "Der nationale technische Service ermöglicht es uns, ein spezielles Porsche-Problem auch dann zu beheben, wenn sich das Fahrzeug oder der Motor nicht in der Nähe von Barcelona oder Madrid befindet."
       ],
-      "items": [],
+      "items": [
+        "Symptome",
+        "Dokumentation.",
+        "Vorläufige Diagnose",
+        "Fotografien.",
+        "Proben",
+        "Bereits von der anfragenden Werkstatt durchgeführte Arbeiten"
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
@@ -57,42 +63,48 @@
     },
     {
       "nivel": 2,
-      "titulo": "Umfang von Technischer Service festlegen",
+      "titulo": "Was kann ohne Fahrzeugtransport behoben werden?",
       "parrafos": [
-        "Der Leistungsumfang ist verhältnismäßig: Er umfasst die Abholung von Fahrzeugen und Motoren in Spanien, die Ferndiagnose, sofern ausreichend, und die Beratung von Werkstätten in Fällen, die über deren üblichen Leistungsumfang hinausgehen. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verschweigen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung wird nach folgendem Kriterium getroffen: Zunächst wird ermittelt, welche Informationen ohne Bewegung des Fahrzeugs gewonnen werden können. Erfordert die Prüfung Messungen, Demontage oder Spezialwerkzeug, wird der Transport der benötigten Baugruppe in Betracht gezogen. Ergibt sich ein Befund, der den Auftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
+        "Vor einer Überführung sind alle Möglichkeiten der Ferndiagnose auszuschöpfen."
       ],
       "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
+        "Auslesen von Fehlercodes und Messwerten der Originalwerkstatt.",
+        "Interpretation von Ölanalysen und Endoskopieberichten.",
+        "Identifizierung von Motor, Getriebe und Konfiguration anhand von Seriennummern und Dokumentation.",
+        "Feststellung, ob ein Fehler das Öffnen des Motors erfordert oder ob er überwacht werden kann.",
+        "Welche Messungen mit welchen Werkzeugen durchzuführen sind, bevor über einen Transport entschieden wird."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg",
+          "alt": "Die sechs Kolben-Zylinder-Einheiten aufgereiht auf der Werkbank, mit Pleueln, Kipphebeln und sortierten Schrauben"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Was der Eigentümer nach Technischer Service erhält",
+      "titulo": "Was kann und was nicht per Ferndiagnose behoben werden?",
       "parrafos": [
-        "Die Übergabe dient der Festlegung eines definierten Arbeitsplans zwischen dem Besitzer, der ursprünglichen Werkstatt und dem Spezialisten. So werden Doppelprüfungen und der Transport des gesamten Fahrzeugs vermieden, wenn nur ein Bauteil benötigt wird. Die abschließende Erklärung sollte klar darlegen, was durchgeführt wurde, warum es durchgeführt wurde und was anschließend zu beobachten oder zu programmieren ist.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor: Technischer Service",
-      "parrafos": [
-        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
-        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
+        "Umfasst die Abholung von Fahrzeug und Motor in Spanien, die Ferndiagnose, sofern ausreichend, und die Beratung von Werkstätten in Fällen, die außerhalb ihres üblichen Leistungsspektrums liegen.",
+        "Zunächst wird entschieden, welche Informationen ohne Fahrzeugbewegung gewonnen werden können. Erfordert die Prüfung Messungen, Demontage oder Spezialwerkzeug, wird der Transport der benötigten Baugruppe in Betracht gezogen."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Verwandte Leistungen",
+      "titulo": "Wer übernimmt welche Aufgaben?",
       "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/centros\">Standorte</a>, <a href=\"/sala-motores\">Motorenwerkstatt</a> und <a href=\"/contacto\">Kontakt</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Ein festgelegter Arbeitsablauf zwischen Fahrzeughalter, Werkstatt und Spezialist vermeidet Doppelprüfungen und den Transport des gesamten Fahrzeugs, wenn nur ein Bauteil benötigt wird."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Zugehörige Dienstleistungen",
+      "parrafos": [
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/centros\">Zentren</a>, <a href=\"/sala-motores\">Motorraum</a>, <a href=\"/contacto\">Kontakt</a>."
       ],
       "items": [],
       "imagenes": []
@@ -100,17 +112,15 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
-      "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Muss ich immer das gesamte Fahrzeug einschicken?",
+      "titulo": "Muss immer das gesamte Fahrzeug eingeschickt werden?",
       "parrafos": [
-        "Nein. Manche Fälle lassen sich mit technischen Informationen lösen, in anderen Fällen reicht es aus, nur den Motor oder das Getriebe einzusenden. Die Diagnose bestimmt den logistischen Aufwand."
+        "Nein. Manche Fälle lassen sich mit technischen Informationen klären, andere erfordern lediglich den Transport von Motor oder Getriebe. Die Diagnose bestimmt den logistischen Aufwand."
       ],
       "items": [],
       "imagenes": []
@@ -130,8 +140,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

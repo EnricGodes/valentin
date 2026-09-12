@@ -19,20 +19,72 @@
       "nivel": 2,
       "titulo": "El primer va ser el PA10/01",
       "parrafos": [
-        "El PA10/01 és la nostra interpretació del 911 perfecte: un cotxe construït sencer a casa i presentat a Madrid el 2025. Serveix de referència fins on arriba un projecte d'aquest tipus."
+        "El PA10/01 és la nostra interpretació del 911 perfecte: un cotxe construït sencer a casa i presentat a Madrid a 2025. Serveix de referència fins on arriba un projecte d'aquest tipus."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/32d3ccfb-80613248-d790-46dc-bd3c-bbcfb18a1a98.jpg",
+          "alt": "El 911 PA10 crema exposat a la sala, amb la porta oberta"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què cal a la base",
+      "parrafos": [
+        "Un restomod refà un clàssic com a sistema complet per millorar el seu ús sense dissoldre la identitat que va justificar triar-ho."
+      ],
+      "items": [
+        "La qualitat de la base.",
+        "Larquitectura.",
+        "El pes.",
+        "La resposta del motor.",
+        "La caixa de canvis.",
+        "Els frens.",
+        "La suspensió.",
+        "L'ergonomia.",
+        "L'estètica."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/e4809cf4-db2e7043-9718-4bab-bbb2-dd5f6bdf1893.jpg",
+          "alt": "Detall del far i l'intermitent del 911 PA10, amb la corretja del capó al fons"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un sol projecte, no millores soltes",
+      "parrafos": [
+        "Carrosseria, pintura, motor, transmissió, interior i enginyeria es defineixen dins del mateix projecte. Una millora aïllada no ha de traslladar el problema a cap altre component.",
+        "Es decideix quin caràcter ha de romandre i quines limitacions es volen corregir. La velocitat màxima poques vegades explica per si sola un cotxe agradable, fiable i utilitzable."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Un cas documentat: Restomod",
+      "titulo": "Què es conserva d'un clàssic",
       "parrafos": [
-        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/pa10-01\">aquest cas documentat</a>."
+        "Un restomod que corregeix tot deixa de ser el cotxe que es va voler conservar."
       ],
       "items": [
-        "[[COMPROVAR: assignar a aquest cas una fotografia ja seleccionada del Magazine.]]"
+        "El caràcter del motor, encara que canviï la xifra.",
+        "La posició de conducció i la relació amb el cotxe.",
+        "La identitat de la carrosseria, fins i tot quan es refà.",
+        "El que fa reconeixible aquesta generació davant de la següent.",
+        "Allò que no es conserva es decideix i es documenta, no es perd pel camí."
       ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El PA10/01, pas a pas",
+      "parrafos": [
+        "El Magazine mostra el treball i les seves fotografies a <a href=\"/magazine/pa10-01\">aquest cas documentat</a>."
+      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/magazine/30b1e541-e8ee1755-2918-40bf-9839-aa5eeb460162.jpg",
@@ -44,7 +96,7 @@
       "nivel": 2,
       "titulo": "Un clàssic que es pot fer servir",
       "parrafos": [
-        "Un restomod no és una restauració ni una personalització. Una restauració torna el cotxe a com va sortir de fàbrica; una personalització canvia peces sobre un cotxe que continua sent el que era. Un restomod parteix dʻuna base clàssica i la reconstrueix sencera perquè es condueixi com un cotxe dʻavui, conservant la línia i el caràcter de lʻoriginal.",
+        "Un restomod no és una restauració ni una personalització. Una restauració torna el cotxe a com va sortir de fàbrica; una personalització canvia peces sobre un cotxe que continua sent el que era. Un restomod parteix d'una base clàssica i la reconstrueix sencera perquè es condueixi com un cotxe d'avui, conservant la línia i el caràcter de l'original.",
         "És la feina que reuneix tot el que hi ha a la casa alhora: carrosseria i pintura, sala de motors, transmissió, tapisseria i enginyeria de projecte. Per això n'hi ha pocs, i per això cadascú es defineix amb el client abans de tocar res."
       ],
       "items": [],
@@ -52,43 +104,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Restomod",
+      "titulo": "Provat i documentat com a conjunt",
       "parrafos": [
-        "Un restomod refà un clàssic com a sistema complet per millorar-ne l'ús sense dissoldre la identitat que va justificar triar-lo. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de la qualitat de la base, l'arquitectura, el pes, la resposta del motor, la caixa de canvis, els frens, la suspensió, l'ergonomia i l'estètica. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir l’abast de Restomod",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: carrosseria, pintura, motor, transmissió, interior i enginyeria es defineixen dins del mateix projecte. Una millora aïllada no ha de traslladar el problema a cap altre component. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: es decideix quin caràcter ha de romandre i quines limitacions es volen corregir. La velocitat màxima poques vegades explica per si sola un cotxe agradable, fiable i utilitzable. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què no inclou Restomod",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Restomod.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què queda en lliurar Restomod",
-      "parrafos": [
-        "L'objectiu del lliurament és una unitat singular desenvolupada amb una especificació pròpia, provada i documentada com a conjunt, no com a col·lecció de modificacions independents. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Una unitat singular desenvolupada amb una especificació pròpia, provada i documentada com a conjunt, no com una col·lecció de modificacions independents."
       ],
       "items": [],
       "imagenes": []
@@ -97,7 +115,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>, <a href=\"/sala-motores\">sala de motors</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, la feina es pot coordinar amb <a href=\"/builds/pa10-01\">PA10/01</a>, <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>, <a href=\"/sala-motores\">sala de motors</a>."
       ],
       "items": [],
       "imagenes": []
@@ -105,9 +123,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -135,8 +151,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

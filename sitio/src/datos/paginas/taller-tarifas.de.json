@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Porsche Wartungspreise · Valentín Motors",
-    "descripcion": "Porsche Wartungspreise nach Modell für kleine und große Inspektionen, Bremsflüssigkeitswechsel, Achsvermessung und Inspektion.",
+    "titulo": "Porsche Wartungstarife Valentín Motors",
+    "descripcion": "Porsche Wartungspreise nach Modell für kleine und große Inspektion, Bremsflüssigkeitswechsel, Achsvermessung und Inspektion.",
     "ogImagen": ""
   },
   "h1": "Porsche Werkstattpreise nach Modell und Service",
@@ -13,75 +13,85 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Festpreise, modellbezogen",
+      "titulo": "Festpreise, modellabhängig",
       "parrafos": [
-        "Die Wartung eines luftgekühlten 911 ist nicht so teuer wie die eines Macan. Innerhalb der 911-Reihe ist ein SC ebenfalls teurer als ein 992. Daher sind die Preise modellbezogen festgelegt: Wählen Sie Ihr Modell aus, und Sie sehen die Kosten für die einzelnen Serviceleistungen für dieses Gerät.",
-        "Dies sind feste Richtpreise. Der endgültige Kostenvoranschlag hängt vom Zustand des Fahrzeugs bei Ankunft ab und kann erst nach der Fahrzeugannahme festgelegt werden.",
-        "Jede Modellfamilie hat ihre eigene: <a href=\"/porsche-911-mantenimiento-taller\">Wartung für Porsche 911 Modelle</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Wartung für Turbo-Modelle</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Wartung für die Modelle Cayman und Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">Wartung für Transaxle-Modelle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">Wartung für GT-Modelle</a> und <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Wartung für die Modelle Cayenne und Macan</a>."
+        "Die Wartung kostet für ein 911 luftgekühltes Modell nicht dasselbe wie für ein Macanluftgekühltes Modell. 911 Innerhalb der Modellreihe kostet ein SC-Modell nicht dasselbe wie ein 992luftgekühltes Modell. Daher sind die Preise modellabhängig: Wählen Sie Ihr Modell aus, und Sie sehen die Kosten für die einzelnen Serviceleistungen für dieses Fahrzeug.",
+        "Dies sind feste Richtpreise. Der endgültige Kostenvoranschlag hängt vom Zustand des Fahrzeugs bei Ankunft ab und kann nur vor Ort ermittelt werden.",
+        "Sechs Baureihen und 57 Modelle mit veröffentlichten Preisen: <a href=\"/porsche-911-mantenimiento-taller\">911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Cayman und Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">GT</a> und <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Cayenne und Macan</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/fe34fa7b-IMG_9274.JPG",
+          "alt": "Grauer Porsche 911 mit geöffnetem Motorraum auf der Hebebühne in Leganés"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Leistungen der kleinen und großen Inspektion",
+      "parrafos": [
+        "Die Tabellen listen die gleichen Leistungen für alle Baureihen mit dem jeweiligen Preis für jedes Modell auf."
       ],
       "items": [
-        "[[PRÜFEN: Der Export enthält die Beträge der veröffentlichten Preistabelle nicht; vor dem Import ergänzen.]]"
+        "Kleine Inspektion: Motoröl- und Ölfilterwechsel sowie 23-Punkte-Check.",
+        "Große Inspektion: Beinhaltet die kleine Inspektion und zusätzlich 30 weitere Punkte, inklusive Luft- und Innenraumfilter sowie Zündkerzenwechsel (falls erforderlich).",
+        "Bremsflüssigkeitswechsel.",
+        "Lenkgeometrie.",
+        "Vorabprüfung."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/621f5a9b-20240402_120524.jpg",
+          "alt": "Detail von Ölwanne und Ölfilter des 3.2 G-Serie"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Im Preis enthalten und nicht enthalten.",
+      "parrafos": [
+        "Die angegebenen Preise <strong>verstehen sich exkl. MwSt.</strong> und beinhalten Teile und Arbeitskosten. Ein Umwelt- und Nebenkostenzuschlag wird jeder Rechnung hinzugefügt, und das Fahrzeug wird vor der Auslieferung gereinigt.",
+        "Die Preise für Porsche-Ersatzteile können sich ohne Vorankündigung ändern. Die Preisliste dient daher als Vergleichsübersicht und ist kein Festpreisangebot. Ein Festpreis beschreibt eine Leistung und die darin enthaltenen Leistungen: Sollte die Inspektion Verschleiß, Beschädigungen oder Mängel in der vorherigen Ausführung aufdecken, wird Ihnen dies separat in Rechnung gestellt, bevor weitere Arbeiten durchgeführt werden."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/d5c18ca1-20240328_114458.jpg",
+          "alt": "Detail des Zahnkranzes am Schwungrad des 3.2 G-Serie"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was kann im Voraus angeboten werden?",
+      "parrafos": [
+        "Preislisten nach Modell ermöglichen es Ihnen, die Preise für wiederkehrende Leistungen zu erfahren, ohne dass der Eindruck entsteht, dass jede Reparatur ohne Besichtigung des Fahrzeugs angeboten werden kann."
+      ],
+      "items": [
+        "Modell.",
+        "Generation.",
+        "Version.",
+        "Getriebe.",
+        "Gewünschte Leistung.",
+        "Aktuelle Wartungshistorie."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Was Preise nicht umfasst",
-      "parrafos": [],
-      "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Preise sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ausgangspunkt für Preise",
+      "titulo": "Was benötigen Sie für die Terminvereinbarung?",
       "parrafos": [
-        "Wir von Valentín Motors wissen, dass modellbasierte Preise Ihnen die Kosten für wiederkehrende Serviceleistungen transparent machen, ohne dass wir Ihnen ohne Besichtigung Ihres Fahrzeugs einen Kostenvoranschlag erstellen können. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf eine Liste von Serviceleistungen, sondern auf Ihr Fahrzeug, seine Historie und die von Ihnen erwarteten Ergebnisse.",
-        "Die Bewertung basiert auf Modell, Generation, Version, Getriebe, gewünschtem Service und der aktuellen Wartungshistorie. Wenn Informationen fehlen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
+        "Vor der Terminvereinbarung ist eine vergleichbare Referenz erforderlich. Nach Identifizierung des Geräts ist die passende Serviceleistung für dessen Version und Zustand zu bestätigen."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Umfang von Preise festlegen",
+      "titulo": "Zugehörige Dienstleistungen",
       "parrafos": [
-        "Der Leistungsumfang ist proportional definiert: Die veröffentlichten Tabellen umfassen kleinere und größere Wartungsarbeiten, Bremsflüssigkeitswechsel, Geometrieprüfungen und die Gebrauchtwagenprüfung für die angegebenen Produktfamilien. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verschweigen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung erfolgt nach folgendem Kriterium: Ein Festpreis beschreibt eine Aufgabe und ihre geplanten Komponenten. Ergibt die Prüfung Verschleiß, Beschädigungen oder mangelhafte Vorarbeiten, wird vor Beginn der Arbeiten ein separates Angebot erstellt. Ergibt sich ein Befund, der den Leistungsumfang verändert, wird dieser von den genehmigten Arbeiten getrennt und vor Beginn der Arbeiten erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was der Eigentümer nach Preise erhält",
-      "parrafos": [
-        "Ziel ist eine vergleichbare Orientierung vor der Terminvereinbarung und, nach Identifizierung des Fahrzeugs, die Bestätigung der passenden Leistung für Version und Zustand. Die abschließende Erläuterung soll verständlich machen, was durchgeführt wurde, warum es nötig war und was anschließend beobachtet oder eingeplant werden sollte.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor: Preise",
-      "parrafos": [
-        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
-        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Verwandte Leistungen",
-      "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/porsche-911-mantenimiento-taller\">Tarife 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Tarife Cayman und Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Tarife Cayenne und Macan</a> und <a href=\"/taller-porsche/mantenimiento\">Porsche-Wartung</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/porsche-911-mantenimiento-taller\">Gebühren 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Gebühren Cayman und Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Gebühren Cayenne und Macan</a>, <a href=\"/taller-porsche/mantenimiento\">Porsche Wartung</a>."
       ],
       "items": [],
       "imagenes": []
@@ -89,26 +99,24 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Warum ändert sich der Tarif zwischen den Generationen?",
       "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+        "Kapazitäten, Zugang, Verbrauchsmaterialien und Arbeitszeiten ändern sich. Selbst innerhalb derselben 911Generation benötigen ein Service Center (SC) und eine 992 Generation nicht denselben Betrieb."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Warum ändert sich der Tarif zwischen den Fahrzeuggenerationen?",
+      "titulo": "Sind festgestellte Störungen im Festpreis enthalten?",
       "parrafos": [
-        "Kapazitäten, Zugang, Verbrauchsmaterialien und Arbeitszeiten ändern sich. Selbst innerhalb der 911-Reihe benötigen ein SC und ein 992 nicht denselben Vorgang."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Sind im Festpreis alle festgestellten Fehler enthalten?",
-      "parrafos": [
-        "Nein, es sei denn, im Preis selbst ist etwas anderes angegeben. Vorfälle, die nicht von der planmäßigen Wartung abgedeckt sind, werden separat erläutert und angeboten."
+        "Nein, es sei denn, dies ist im Tarif ausdrücklich angegeben. Störungen außerhalb der planmäßigen Wartung werden separat abgerechnet."
       ],
       "items": [],
       "imagenes": []
@@ -119,8 +127,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 37,
+    "total": 37,
     "completa": true
   }
 }

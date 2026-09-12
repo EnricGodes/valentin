@@ -3,85 +3,95 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Tarifs d'entretien Porsche · Valentín Motors",
-    "descripcion": "Tarifs d'entretien Porsche par modèle pour les révisions mineures, les révisions majeures, le liquide de frein, le parallélisme et le contrôle technique.",
+    "titulo": "Tarifs d'entretien Porsche Valentín Motors",
+    "descripcion": "Tarifs d'entretien Porsche par modèle pour les révisions mineures et majeures, le liquide de frein, la géométrie et le contrôle technique.",
     "ogImagen": ""
   },
-  "h1": "Tarifs des ateliers Porsche par modèle et type d'intervention",
+  "h1": "Tarifs d’atelier Porsche par modèle et type d’entretien",
   "menu": "Tarifs",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Tarifs fixes, par modèle",
+      "titulo": "Prix fixes, par modèle",
       "parrafos": [
-        "Le coût d'entretien varie selon le modèle : un 911 refroidi par air coûte plus cher qu'un Macan, et au sein de la même gamme 911, un SC coûte également plus cher qu'un 992. C'est pourquoi les tarifs sont détaillés par modèle : sélectionnez le vôtre pour consulter le coût de chaque intervention.",
-        "Il s'agit de tarifs de référence fixes. Le devis final dépend de l'état du véhicule à son arrivée, et celui-ci ne peut être établi qu'après inspection du véhicule.",
-        "Chaque famille a la sienne : <a href=\"/porsche-911-mantenimiento-taller\">entretien pour les modèles Porsche 911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">entretien pour les modèles Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">entretien pour les modèles Cayman et Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">entretien pour les modèles Transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">entretien pour les modèles GT</a> et <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">entretien pour les modèles Cayenne et Macan</a>."
+        "L'entretien ne coûte pas le même prix pour un 911 modèle refroidi par air que pour un Macan, et au sein du même modèle, 911 un modèle SC ne coûte pas le même prix qu'un 992. C'est pourquoi les tarifs sont affichés par modèle : choisissez le vôtre et vous verrez le coût de chaque service pour ce modèle précis.",
+        "Ce sont des tarifs de référence fixes. Le devis final dépend de l'état du véhicule à son arrivée, et celui-ci ne peut être déterminé qu'en l'examinant.",
+        "Six familles et cinquante-sept modèles avec tarifs publiés : <a href=\"/porsche-911-mantenimiento-taller\">911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Cayman et Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">GT</a> et <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Cayenne et Macan</a>."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/fe34fa7b-IMG_9274.JPG",
+          "alt": "Porsche 911 grise, compartiment moteur ouvert, sur le pont de l'atelier de Leganés"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Contenu des révisions mineures et majeures.",
+      "parrafos": [
+        "Les tableaux répertorient les mêmes opérations pour toutes les familles, avec le prix correspondant pour chaque modèle."
       ],
       "items": [
-        "[[VÉRIFIER : l’export ne contient pas les montants du tableau publié ; les ajouter avant l’importation.]]"
+        "Révision mineure : vidange d'huile moteur et remplacement du filtre, plus un contrôle en vingt-trois points.",
+        "Révision majeure : comprend la révision mineure et ajoute trente points supplémentaires, avec les filtres à air et d'habitacle et les bougies d'allumage si nécessaire.",
+        "Remplacement du liquide de frein.",
+        "Géométrie de la direction.",
+        "Inspection avant achat."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/621f5a9b-20240402_120524.jpg",
+          "alt": "Détail du carter et du filtre à huile du 3.2 série G"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce qui est inclus et ce qui ne l'est pas dans le prix.",
+      "parrafos": [
+        "Les prix sont publiés <strong>hors TVA</strong> et comprennent les pièces et la main-d'œuvre. Des frais divers et environnementaux sont ajoutés à chaque facture, et le véhicule est nettoyé avant la livraison.",
+        "Les prix des pièces Porsche peuvent être modifiés sans préavis. Un devis est donc donné à titre indicatif et ne constitue pas une offre à prix fixe."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/d5c18ca1-20240328_114458.jpg",
+          "alt": "Détail de la couronne dentée du volant moteur du 3.2 série G"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Éléments pouvant faire l'objet d'un devis préalable",
+      "parrafos": [
+        "La tarification par modèle permet de connaître le prix des opérations répétitives sans supposer qu'une panne puisse être diagnostiquée sans avoir examiné le véhicule."
+      ],
+      "items": [
+        "Modèle.",
+        "Génération.",
+        "Version.",
+        "Boîte de vitesses.",
+        "Service demandé.",
+        "Historique d'entretien récent."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Ce que Tarifs ne couvre pas",
-      "parrafos": [],
-      "items": [
-        "Les travaux hors du périmètre convenu pour Tarifs ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Le point de départ de Tarifs",
+      "titulo": "Éléments à apporter pour la prise de rendez-vous",
       "parrafos": [
-        "Des tarifs spécifiques à chaque modèle vous permettent de connaître le prix des interventions courantes sans avoir à examiner votre véhicule. C’est pourquoi la conversation initiale ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son historique et les résultats attendus par son propriétaire.",
-        "L'évaluation est basée sur le modèle, la génération, la version, la boîte de vitesses, la prestation demandée et l'historique de maintenance récent. En cas d'information manquante, les vérifications nécessaires pour l'obtenir sont indiquées avant de transformer une hypothèse en devis."
+        "Une référence comparable avant la prise de rendez-vous et, une fois le véhicule identifié, la confirmation du service approprié à sa version et à son état."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Définir le périmètre de Tarifs",
+      "titulo": "Services connexes",
       "parrafos": [
-        "Le périmètre est défini proportionnellement : les tableaux publiés couvrent les interventions mineures, les interventions majeures, le liquide de frein, la géométrie et le contrôle avant achat pour les familles spécifiées. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation d'un symptôme et le remplacement d'un ensemble alors qu'il peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon le critère suivant : un prix fixe décrit une opération et ses éléments prévus. Si le contrôle révèle une usure, un dommage ou des travaux antérieurs non conformes, un devis séparé est établi avant d'étendre le périmètre. Si une constatation modifie la commande, elle est dissociée des travaux approuvés et expliquée avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Tarifs",
-      "parrafos": [
-        "Ce rapport a pour but de fournir un point de référence comparable avant la prise de rendez-vous et, une fois le véhicule identifié, de confirmer la prestation appropriée à sa version et à son état. L'explication finale doit préciser les interventions réalisées, leur justification et les points à noter ou à planifier ultérieurement.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale : Tarifs",
-      "parrafos": [
-        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
-        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services associés",
-      "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/porsche-911-mantenimiento-taller\">tarifs 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">tarifs Cayman et Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">tarifs Cayenne et Macan</a> et <a href=\"/taller-porsche/mantenimiento\">entretien Porsche</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/porsche-911-mantenimiento-taller\">Tarifs 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Tarifs Cayman et Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Tarifs Cayenne et Macan</a>, <a href=\"/taller-porsche/mantenimiento\">Entretien Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -89,26 +99,24 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Pourquoi le prix varie-t-il d'une génération à l'autre ?",
       "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+        "Les capacités, l'accès, les consommables et les temps de main-d'œuvre varient. Même dans le cadre de la section 911, une intervention de maintenance (SC) et une intervention de maintenance de sécurité (SC) 992 ne nécessitent pas la même opération."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Pourquoi le tarif varie-t-il d'une génération à l'autre ?",
+      "titulo": "Un tarif forfaitaire inclut-il les défauts constatés ?",
       "parrafos": [
-        "Les capacités, l'accès, les consommables et les temps d'exploitation varient. Même au sein d'une même 911, une SC et une 992 ne nécessitent pas les mêmes opérations."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Un tarif forfaitaire inclut-il les pannes rencontrées ?",
-      "parrafos": [
-        "Non, sauf mention contraire dans le tarif. Les incidents non liés à la maintenance planifiée font l'objet d'une explication et d'un devis séparés."
+        "Non, sauf indication contraire dans le tarif. Les incidents survenant hors maintenance planifiée sont expliqués et facturés séparément."
       ],
       "items": [],
       "imagenes": []
@@ -119,8 +127,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 37,
+    "total": 37,
     "completa": true
   }
 }

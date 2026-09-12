@@ -49,7 +49,10 @@ const sobrescribir = process.argv.includes('--sobrescribir');
 const dirArg = process.argv.find((a) => a.startsWith('--dir='))?.split('=')[1];
 
 interface SeccionEntrada {
-  nivel: number; titulo: string; parrafos: string[]; items: string[]; imagenes: number[];
+  nivel: number; titulo: string; parrafos: string[]; items: string[];
+  /* La tanda de traduccion no lo trae: copia `actual`, que no lleva
+     colocacion, y se hereda de la pagina publicada. Ver colocacionPublicada. */
+  imagenes?: number[];
 }
 interface Nuevo {
   meta: { titulo: string; descripcion: string };
@@ -167,7 +170,7 @@ function revisaPagina(p: PaginaEntrada, idioma: Idioma, fallos: string[]) {
     for (const it of s.items) {
       if (/<[a-zA-Z/]/.test(it)) fallos.push(`${donde}: HTML en un item; se escapa al pintarlo`);
     }
-    usados.push(...s.imagenes);
+    usados.push(...imagenesDe(p, s, i));
   }
 
   for (const i of usados) {
@@ -195,6 +198,34 @@ function revisaPagina(p: PaginaEntrada, idioma: Idioma, fallos: string[]) {
     if (/\bValentin Motors\b/.test(t)) fallos.push(`${donde}: "Valentin Motors" sin tilde en prosa`);
   }
 }
+
+/**
+ * Donde va cada foto cuando la tanda no lo dice.
+ *
+ * El export de traduccion saca `actual` sin `imagenes` por seccion, y el LEEME
+ * pide que `nuevo` copie esa estructura tal cual: la entrega de los seis
+ * idiomas llego sin colocacion y el importador se cayo en la primera pagina.
+ * Colocar fotos no es traducir. Las 38 ya estan puestas en el castellano
+ * publicado y van en el mismo sitio en los seis idiomas, asi que se leen de
+ * ahi, numeradas como las numera el exportador: en orden de aparicion.
+ * Una tanda que si trae `imagenes` manda sobre esto.
+ */
+const colocacionPublicada = (() => {
+  const cache = new Map<string, number[][]>();
+  return (p: PaginaEntrada): number[][] => {
+    let col = cache.get(p.fichero);
+    if (!col) {
+      const ruta = join(raiz, p.fichero);
+      const hoy = existsSync(ruta) ? JSON.parse(readFileSync(ruta, 'utf8')) : { secciones: [] };
+      let k = 0;
+      col = hoy.secciones.map((s: { imagenes?: unknown[] }) => (s.imagenes ?? []).map(() => k++));
+      cache.set(p.fichero, col!);
+    }
+    return col!;
+  };
+})();
+const imagenesDe = (p: PaginaEntrada, s: SeccionEntrada, i: number): number[] =>
+  s.imagenes ?? colocacionPublicada(p)[i] ?? [];
 
 /** Que `actual` siga siendo lo publicado: si no, la tanda esta desfasada. */
 function revisaDesfase(p: PaginaEntrada, fallos: string[]) {
@@ -272,6 +303,11 @@ const piezas = (n: Nuevo) =>
   3 + n.imagenes.length
   + n.secciones.reduce((k, s) => k + (s.titulo ? 1 : 0) + s.parrafos.length + s.items.length, 0);
 
+const destinoDe = (fichero: string, idioma: Idioma) =>
+  idioma === POR_DEFECTO
+    ? join(raiz, fichero)
+    : join(raiz, fichero.replace(/\.json$/, `.${idioma}.json`));
+
 function construye(p: PaginaEntrada, idioma: Idioma) {
   const ruta = join(raiz, p.fichero);
   const base = JSON.parse(readFileSync(ruta, 'utf8'));
@@ -282,9 +318,30 @@ function construye(p: PaginaEntrada, idioma: Idioma) {
   };
   const urlDe = new Map<number, string>(p.imagenes.map((im) => [im.i, im.url]));
   for (const im of n.imagenes) if (im.url) urlDe.set(im.i, im.url);
+  /* El LEEME de traduccion dice que los alt no se traducen porque alts.json
+     los tiene en los seis idiomas. No es verdad para la mayoria de las fotos de
+     servicios: alts.json describe las del Magazine y unas pocas de paginas, y
+     la tanda de los seis idiomas trajo el castellano tal cual, como se le
+     pidio. Aplicarlo sin mas pisaba los alt que las tandas anteriores si habian
+     traducido. Asi que, sin descripcion en alts.json y con el alt igual al
+     castellano, se conserva el que la pagina ya tenia publicado en ese idioma. */
+  const altEs = new Map(p.imagenes.map((im) => [im.i, im.alt]));
+  const previo = new Map<string, string>();
+  if (idioma !== POR_DEFECTO) {
+    const ruta = destinoDe(p.fichero, idioma);
+    if (existsSync(ruta)) {
+      const hoy = JSON.parse(readFileSync(ruta, 'utf8'));
+      for (const s of hoy.secciones ?? []) for (const im of s.imagenes ?? []) {
+        if (im.alt?.trim()) previo.set(im.url, im.alt);
+      }
+    }
+  }
   const alt = new Map(n.imagenes.map((im) => {
-    const descrito = ALTS[urlDe.get(im.i) ?? '']?.[idioma];
-    return [im.i, descrito ?? limpia(im.alt)];
+    const url = urlDe.get(im.i) ?? '';
+    const descrito = ALTS[url]?.[idioma];
+    if (descrito) return [im.i, descrito];
+    const sinTraducir = idioma !== POR_DEFECTO && im.alt === altEs.get(im.i);
+    return [im.i, sinTraducir && previo.has(url) ? previo.get(url)! : limpia(im.alt)];
   }));
 
   const salida: Record<string, unknown> = {
@@ -303,12 +360,12 @@ function construye(p: PaginaEntrada, idioma: Idioma) {
     acordeones: base.acordeones ?? [],
     /* Los articulos del pie no los reescribe la tanda: se conservan. */
     ...(base.articulos?.length ? { articulos: base.articulos } : {}),
-    secciones: n.secciones.map((s) => ({
+    secciones: n.secciones.map((s, k) => ({
       nivel: s.nivel,
       titulo: limpia(s.titulo),
       parrafos: s.parrafos.map(limpia),
       items: s.items.map(limpia),
-      imagenes: s.imagenes.map((i) => ({ url: urlDe.get(i)!, alt: alt.get(i) ?? '' })),
+      imagenes: imagenesDe(p, s, k).map((i) => ({ url: urlDe.get(i)!, alt: alt.get(i) ?? '' })),
     })),
     contacto: base.contacto ?? { telefonos: [], emails: [] },
   };
@@ -319,11 +376,6 @@ function construye(p: PaginaEntrada, idioma: Idioma) {
   }
   return salida;
 }
-
-const destinoDe = (fichero: string, idioma: Idioma) =>
-  idioma === POR_DEFECTO
-    ? join(raiz, fichero)
-    : join(raiz, fichero.replace(/\.json$/, `.${idioma}.json`));
 
 // ── Main ───────────────────────────────────────────────────────────────────
 const dir = carpeta();

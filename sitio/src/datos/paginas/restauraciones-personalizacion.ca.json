@@ -17,14 +17,19 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Què fem en Personalització",
+      "titulo": "Canvis a mida sense perdre la unitat",
       "parrafos": [
         "Un 911 964 admet canvis de carrosseria, dinàmica i interior, però no tots convenen a una unitat rara.",
         "Projectes a mida sobre un cotxe que segueix sent el seu: canvis a la carrosseria, millores de rendiment i interiors fets a mà. Des d'una peça concreta fins a un encàrrec one-off, del qual només hi haurà una unitat.",
-        "Som distribuïdors i instal·ladors autoritzats TECHART des de 2019, el que cobreix el catàleg de personalització dels models actuals. El que no està al catàleg es fabrica."
+        "Som distribuïdors i instal·ladors autoritzats TECHART des de 2019, cosa que cobreix el catàleg de personalització dels models actuals. El que no està al catàleg es fabrica."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/68ce3447-f7fe04c7-a653-4e62-baf3-10b0c5c2034d.jpg",
+          "alt": "Zaga del 964 blanc amb la reixa del motor i la banda lluminosa PORSCHE encesa"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -33,50 +38,61 @@
         "La frontera no la posa la tècnica, la posa l'homologació i el sentit comú sobre el valor del cotxe. Una modificació reversible sobre un cotxe corrent és una cosa; una irreversible sobre una unitat rara és una altra, i ho diem abans de començar encara que l'encàrrec caigui."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/f65940b6-IMG_9764.jpg",
+          "alt": "Joc complet de suspensió KW amb molles grogues, sobre la seva safata de muntatge"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Millora útil, canvi reversible o intervenció",
+      "parrafos": [
+        "Personalitzar un Porsche exigeix distingir entre una millora útil, un canvi estètic reversible i una intervenció que pot alterar de manera permanent el valor o la identitat del cotxe."
+      ],
+      "items": [
+        "El model.",
+        "La seva raresa.",
+        "L'estat actual.",
+        "Lús previst.",
+        "Les prioritats del propietari.",
+        "Les conseqüències d'homologació."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Personalització",
+      "titulo": "Com es comparen les alternatives",
       "parrafos": [
-        "Personalitzar un Porsche exigeix distingir entre una millora útil, un canvi estètic reversible i una intervenció que pot alterar de forma permanent el valor o la identitat del cotxe. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix del model, la raresa, l'estat actual, l'ús previst, les prioritats del propietari i les conseqüències d'homologació. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+        "El projecte es pot concentrar en interior, carrosseria o dinàmica, o coordinar les tres àrees. També abasta solucions TECHART per a models actuals i encàrrecs one-off.",
+        "Les alternatives es comparen per integració, reversibilitat, manteniment futur i coherència. Que una modificació sigui tècnicament possible no vol dir que sigui adequada per a qualsevol unitat."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Decidir l’abast de Personalització",
+      "titulo": "Què mirar abans de tocar una unitat rara",
       "parrafos": [
-        "L'abast es planteja de manera proporcional: el projecte es pot concentrar en interior, carrosseria o dinàmica, o coordinar les tres àrees. També abasta solucions TECHART per a models actuals i encàrrecs one-off. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: les alternatives es comparen per integració, reversibilitat, manteniment futur i coherència. Que una modificació sigui tècnicament possible no vol dir que sigui adequada per a qualsevol unitat. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+        "Una modificació tècnicament possible no sempre convé a aquest cotxe concret."
       ],
       "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
+        "Quantes unitats queden com la teva i en quina configuració.",
+        "Si el canvi és reversible sense deixar rastre a la carrosseria.",
+        "Quin manteniment futur afegeix la peça que hi entra.",
+        "Si el conjunt continua tenint una lògica o es converteix en una suma d'idees.",
+        "Quines conseqüències té per a l'homologació i l'assegurança."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Personalització",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Personalització.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un cas documentat: Personalització",
+      "titulo": "Fars LED en un 964",
       "parrafos": [
-        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/9-eleven-headlights-964\">aquest cas documentat</a>."
+        "El Magazine mostra el treball i les seves fotografies a <a href=\"/magazine/9-eleven-headlights-964\">aquest cas documentat</a>."
       ],
-      "items": [
-        "[[COMPROVAR: assignar a aquest cas una fotografia ja seleccionada del Magazine.]]"
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/magazine/27d7c7b0-f6c4ca7d-4d88-4504-bf87-f1955c4272ea.jpg",
@@ -86,20 +102,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Personalització",
+      "titulo": "Una especificació que se sosté amb el temps",
       "parrafos": [
-        "L'objectiu del lliurament és una especificació personal que conserva una lògica de conjunt i que es pot mantenir i explicar amb el pas del temps. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Com preparar la primera consulta en Personalització",
-      "parrafos": [
-        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
-        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
+        "Una especificació personal que conserva una lògica de conjunt i que es pot mantenir i explicar amb el pas del temps."
       ],
       "items": [],
       "imagenes": []
@@ -108,7 +113,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/taller-porsche\">taller Porsche</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, la feina es pot coordinar amb <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/taller-porsche\">taller Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -116,9 +121,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -126,7 +129,7 @@
       "nivel": 3,
       "titulo": "Una personalització redueix sempre el valor?",
       "parrafos": [
-        "No sempre, però una modificació irreversible sobre una unitat rara mereix més cautela que una millora reversible en un cotxe d’ús. Aquest efecte es valora abans de decidir."
+        "No sempre, però una modificació irreversible sobre una unitat rara mereix més cautela que una millora reversible en un cotxe d'ús. Aquest efecte es valora abans de decidir."
       ],
       "items": [],
       "imagenes": []
@@ -146,8 +149,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 38,
-    "total": 38,
+    "hechas": 41,
+    "total": 41,
     "completa": true
   }
 }

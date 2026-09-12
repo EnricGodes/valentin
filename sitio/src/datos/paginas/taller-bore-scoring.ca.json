@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Bore scoring Porsche: diagnòstic · Valentín Motors",
+    "titulo": "bore scoring Porsche: diagnòstic · Valentín Motors",
     "descripcion": "Diagnòstic endoscòpic i reparació del bore scoring en motors Porsche M96 i M97, amb informe previ i sala de motors pròpia.",
     "ogImagen": ""
   },
   "h1": "Diagnòstic i reparació del bore scoring Porsche",
-  "menu": "Bore scoring",
+  "menu": "bore scoring",
   "acordeones": [],
   "articulos": [
     "porsche-bore-scoring",
@@ -20,16 +20,57 @@
       "nivel": 2,
       "titulo": "La revisió",
       "parrafos": [
-        "El consum d’oli, el fum i un cop en fred poden apuntar a bore scoring, però no el confirmen.",
+        "El consum d'oli, el fum i un copejament en fred poden apuntar a bore scoring, però no ho confirmen.",
         "Es fa amb endoscopi per l'allotjament de la bugia, amb el motor muntat al cotxe. En un matí se sap si hi ha ratllat, a quins cilindres i fins on arriba. Ho demanem sempre abans d'una compra: és la diferència entre negociar el preu i descobrir-ho després.",
         "El preu és a les tarifes, juntament amb la resta de serveis del model."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg",
+          "alt": "Cilindres encamisats d'un bloc motor M97, amb el ratllat de brunyit a la vista"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Què fem en Bore scoring",
+      "titulo": "Confirmar abans de reconstruir",
+      "parrafos": [
+        "El bore scoring s'ha de confirmar amb evidència abans d'associar un soroll, consum d'oli o fum a una reconstrucció del motor."
+      ],
+      "items": [
+        "Endoscòpia dels sis cilindres.",
+        "Fotografies.",
+        "Anàlisi d'oli i filtre i.",
+        "Quan correspon.",
+        "Proves de compressió.",
+        "Estanqueïtat."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg",
+          "alt": "Tres cilindres d'un bloc M97 vistos des del pla de culata"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quins motors i què decideix l'informe",
+      "parrafos": [
+        "El diagnòstic es dirigeix especialment a motors M96 i M97 de Boxster, Cayman i 911 fabricats entre 1997 i 2008.",
+        "Una marca superficial, un ratllat actiu i una pèrdua de compressió no plantegen la mateixa decisió. L'informe serveix per comparar el seguiment, l'obertura i la reconstrucció."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg",
+          "alt": "Detall d'un cilindre encamisat acabat, al costat del forat roscat del bloc"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Endoscòpia sense desmuntar, encamisat si cal",
       "parrafos": [
         "Diagnostiquem el ratllat de les camises mitjançant endoscòpia dels cilindres, sense desmuntar el motor, i ho reparem per encamisat quan el mal ja està fet. La revisió és un servei tancat, i és el primer que recomanem abans de comprar un M96 o M97.",
         "El bore scoring afecta els Boxster, Cayman i 911 amb motor M96 i M97 fabricats entre 1997 i 2008. Es manifesta com un ratllat vertical a la paret del cilindre, amb més freqüència al sisè, i avança fins que el motor consumeix oli i perd compressió."
@@ -62,19 +103,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Bore scoring",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Bore scoring.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un cas documentat: Bore scoring",
+      "titulo": "bore scoring, amb les imatges davant",
       "parrafos": [
-        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/porsche-bore-scoring\">aquest cas documentat</a>."
+        "El Magazine mostra el treball i les seves fotografies a <a href=\"/magazine/porsche-bore-scoring\">aquest cas documentat</a>."
       ],
       "items": [],
       "imagenes": [
@@ -86,33 +117,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Bore scoring",
+      "titulo": "Què reps de la revisió mèdica",
       "parrafos": [
-        "El bore scoring s'ha de confirmar amb evidència abans d'associar un soroll, consum d'oli o fum a una reconstrucció del motor. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix d'endoscòpia dels sis cilindres, fotografies, anàlisi d'oli i filtre i, quan escau, proves de compressió i estanquitat. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir l’abast de Bore scoring",
-      "parrafos": [
-        "L'abast es planteja de forma proporcional: el diagnòstic es dirigeix especialment a motors M96 i M97 de Boxster, Cayman i 911 fabricats entre 1997 i 2008, i la reparació de M96. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: una marca superficial, un ratllat actiu i una pèrdua de compressió no plantegen la mateixa decisió. L'informe serveix per comparar el seguiment, l'obertura i la reconstrucció. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què queda en lliurar Bore scoring",
-      "parrafos": [
-        "L'objectiu del lliurament és imatges de cada cilindre, una valoració comprensible i, si escau, un pressupost d'encamisat i revisió del bloc abans de tocar el motor. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Imatges de cada cilindre, una valoració comprensible i, si escau, un pressupost d'encamisat i revisió del bloc abans de tocar el motor."
       ],
       "items": [],
       "imagenes": []
@@ -121,7 +128,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a>, <a href=\"/taller-porsche/motores\">reconstrucció de motors</a>, <a href=\"/taller-porsche/tarifas\">tarifes del taller</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, la feina es pot coordinar amb <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a>, <a href=\"/taller-porsche/motores\">reconstrucció de motors</a>, <a href=\"/taller-porsche/tarifas\">tarifes del taller</a>."
       ],
       "items": [],
       "imagenes": []
@@ -129,9 +136,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -159,8 +164,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 44,
-    "total": 44,
+    "hechas": 45,
+    "total": 45,
     "completa": true
   }
 }

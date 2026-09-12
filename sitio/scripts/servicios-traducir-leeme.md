@@ -27,6 +27,8 @@ Cada uno es una copia de `servicios-es.json` en la que:
   de párrafos y de items.
 - Todo lo demás se queda **exactamente igual**: `rutaId`, `url`, `fichero`,
   `imagenes`, `articulos` y `actual`.
+- Las secciones de `nuevo` no llevan colocación de fotos, igual que las de
+  `actual`: el importador la hereda de la página castellana publicada.
 
 El castellano también se devuelve, con `nuevo` = `actual`, para que la tanda
 entre de una vez y las seis versiones queden alineadas.
@@ -35,10 +37,11 @@ entre de una vez y las seis versiones queden alineadas.
 
 ## Lo que NO hay que traducir
 
-- **Los `alt` de las fotos.** Van en `nuevo.imagenes` porque el formato lo pide,
-  pero el importador los sobrescribe con las descripciones de
-  `_migracion/contenido/alts.json`, que ya están en los seis idiomas. Copia el
-  castellano y no pierdas tiempo ahí.
+- **Los `alt` de las fotos.** Van en `nuevo.imagenes` porque el formato lo pide.
+  Copia el castellano: las fotos que están descritas en
+  `_migracion/contenido/alts.json` entran con esa descripción en tu idioma, y
+  las que no, conservan el alt que ya tenían publicado en tu idioma. Un alt
+  que llega igual que el castellano no pisa nada.
 - **Los `href`.** Se quedan en castellano, tal como vienen. El sitio los resuelve
   al idioma de la página al pintarla (`enlazaEnIdioma()` en `src/i18n/routes.ts`),
   así que traducirlos no ayuda y romperlos sí molesta.

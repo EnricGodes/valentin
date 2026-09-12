@@ -3,21 +3,21 @@
   "tipo": "servicio",
   "ficheroOriginal": "restauraciones",
   "meta": {
-    "titulo": "Klassische Porsche-Restaurierung · Valentín Motors",
-    "descripcion": "Komplette Porsche-Restaurierung, backdating, restomod und individuelle Projekte mit eigenem Motorenraum und technischer Expertise seit 1979.",
+    "titulo": "Klassische Porsche-Restaurierung Valentín Motors",
+    "descripcion": "Komplette Porsche-Restaurierung, backdating, restomod und individuelle Projekte mit eigener Motorenwerkstatt und technischer Expertise 1979.",
     "ogImagen": ""
   },
-  "h1": "Klassische Porsche-Restaurierung und Custom-Projekte",
+  "h1": "Klassische Porsche-Restaurierung und individuelle Projekte",
   "menu": "Restaurierungen",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Legacy-Verantwortlichkeit",
+      "titulo": "Die Verantwortung für Tradition",
       "parrafos": [
-        "Bei einem vollständig zerlegten 911 der F-Serie muss vor Lackierung oder Montage feststehen, was erhalten bleibt.",
-        "Jeder Porsche verkörpert bestimmte Werte, eine Haltung und eine besondere Art, über das Fahren nachzudenken. Die Marke steht für zeitlose Eleganz und Schönheit, und wir sehen es als unsere Pflicht an, diese Prinzipien zu wahren.",
-        "Daher streben wir bei Valentín Motors danach, die Originalität in Restaurierungsprojekten wiederherzustellen und in Individualisierungsprojekten einen Mehrwert zu schaffen."
+        "Ein 911 Bei einem komplett zerlegten Fahrzeug der F-Serie muss entschieden werden, welche Teile erhalten werden sollen, bevor Lackierung oder Montage in Betracht gezogen werden.",
+        "Jeder Porsche verkörpert bestimmte Werte, eine Haltung und ein besonderes Fahrgefühl. Die Marke steht für zeitlose Eleganz und Schönheit, und wir sehen es als unsere Pflicht an, diese Prinzipien zu bewahren.",
+        "Daher streben wir in Valentín Motors danach, die Originalität in Restaurierungsprojekten wiederherzustellen und in Individualisierungsprojekten neuen Wert zu schaffen."
       ],
       "items": [],
       "imagenes": [
@@ -37,18 +37,84 @@
     },
     {
       "nivel": 2,
+      "titulo": "Worauf Sie vor Beginn achten sollten",
+      "parrafos": [
+        "Eine Restaurierung soll ein Auto wieder zum Leben erwecken, ohne seine Geschichte auszulöschen oder jede Entdeckung automatisch zu einer Erweiterung des Projekts zu machen."
+      ],
+      "items": [
+        "Die Identität des Geräts.",
+        "Seine Dokumentation.",
+        "Die Originalität seiner Baugruppen.",
+        "Korrosion.",
+        "Vorherige Reparaturen.",
+        "Die beabsichtigte Nutzung durch den Eigentümer."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
+          "alt": "Fahrzeugrestaurierung Porsche"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Armaturenbrett eines roten 911 T mit dem Modellschriftzug über dem Handschuhfach"
+        },
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Vier unterschiedliche Ziele, vier Projekte",
+      "parrafos": [
+        "Sie können die Wiederherstellung der Originalspezifikation, eine Überholung für häufigen Gebrauch, eine backdating oder eine restomodanstreben. Dies sind unterschiedliche Ziele und dürfen bei der Demontage nicht verwechselt werden.",
+        "Vor Beginn der Arbeiten wird festgelegt, was erhalten, was repariert, was ersetzt und welche Änderungen reversibel sein müssen. Wichtige Entscheidungen werden dokumentiert, um die Gesamtkonsistenz zu gewährleisten."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Dunkelblauer Porsche 911 993 im Front-Dreiviertel vor der Werkstatt"
+        },
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Offener Motorraum eines braunen 911 mit goldenem Gebläserad und sichtbaren Krümmern"
+        },
+        {
+          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
+          "alt": "Raum des Ideenlabors, mit Arbeitstisch und Materialmustern"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was eine Restaurierung nicht ist",
+      "parrafos": [
+        "Bevor wir über Zeitpläne sprechen, ist es wichtig zu klären, was eine Restaurierung nicht ist, da hier Missverständnisse entstehen können."
+      ],
+      "items": [
+        "Es geht nicht darum, das Auto wie neu aussehen zu lassen, sondern darum, es in seinen Originalzustand zurückzuversetzen, wobei seine Geschichte deutlich sichtbar bleibt.",
+        "Es geht nicht darum, alles Veränderbare zu ändern. Was funktioniert und original ist, wird erhalten.",
+        "Es gibt kein von vornherein festgelegtes Budget: Der Umfang wird überprüft, sobald die Demontage den darunterliegenden Zustand offenbart.",
+        "Die Arbeiten sind standardmäßig nicht rückgängig zu machen. Alle nicht umkehrbaren Änderungen werden im Vorfeld, nicht im Nachhinein, festgelegt."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
       "titulo": "Restaurierungen",
       "parrafos": [
         "Unsere Restaurierungen zeichnen sich durch ein hohes Maß an Originalität und Qualität in allen Projektaspekten aus.",
-        "Bei Komplettrestaurierungen ist es unser Ziel, Certificate of Authenticity das Fahrzeug in seinen Originalzustand zurückzuversetzen.",
-        "Wir analysieren gemeinsam mit dem Kunden die Möglichkeiten und den Umfang des Projekts, um sicherzustellen, dass das Ergebnis dem zukünftigen Wert jedes klassischen Porsche-Modells entspricht. Jedes Modell wird anhand seines Zustands zu 100% analysiert, sodass das Endergebnis effektiv ist und seiner Geschichte gerecht wird.",
+        "Bei umfassenden Restaurierungen streben wir die Erlangung des Echtheitszertifikats an, um das Fahrzeug in seinen Originalzustand zurückzuversetzen.",
+        "Wir analysieren gemeinsam mit dem Kunden die Möglichkeiten und den Umfang des Fahrzeugs, damit das Ergebnis dem zukünftigen Wert jedes klassischen Porsche-Modells entspricht. Jedes Modell wird 100 anhand seines Zustands prozentual analysiert, um ein stimmiges Endergebnis zu erzielen, das seiner Geschichte gerecht wird.",
         "Verfolgen Sie den Restaurierungsprozess dieses backdating eines 964.",
-        "Verfolgen Sie den Restaurierungsprozess dieses 2.7 s Targa de 1975.",
-        "Verfolgen Sie den Restaurierungsprozess dieses SC Targa de 1979, das wir für den Verkauf vorbereiten.",
-        "Verfolgen Sie den Restaurierungsprozess dieses wunderschönen 930, das nach einem Brand im Motorraum zu uns kam.",
-        "2.2 Motor",
+        "Verfolgen Sie den Restaurierungsprozess dieses 2.7 s Targa von 1975.",
+        "Verfolgen Sie den Restaurierungsprozess dieses SC Targa von 1979 den wir für den Verkauf vorbereiten.",
+        "Verfolgen Sie den Restaurierungsprozess dieses wunderschönen 930, der nach einem Brand im Motorraum zu uns kam.",
+        "Motor 2.2",
         "Motor 2.2 1970",
-        "964 Motorüberholung (Typ M64)",
+        "Motorüberholung 964 Typ M64",
         "Motor 930 Turbo 3.0 1988"
       ],
       "items": [],
@@ -67,7 +133,7 @@
       "nivel": 2,
       "titulo": "Individualisierungen",
       "parrafos": [
-        "Wir realisieren maßgeschneiderte Projekte für Kunden mit spezifischen Wünschen: Karosseriemodifikationen, Leistungssteigerungen und individuelle Innenausstattungen."
+        "Wir realisieren individuelle Projekte für Kunden mit besonderen Wünschen: Karosseriemodifikationen, Leistungssteigerungen und individuelle Innenausstattungen."
       ],
       "items": [],
       "imagenes": [
@@ -85,7 +151,7 @@
       "nivel": 2,
       "titulo": "Ideenlabor",
       "parrafos": [
-        "Wir widmen einen Teil unserer Zeit der Forschung, um Trends zu erkennen und unsere Prozesse zu optimieren. Wir forschen kontinuierlich, besuchen Fachmessen und tauschen uns mit anderen Branchenexperten aus, um unseren Kunden innovative Lösungen anbieten zu können."
+        "Wir widmen einen Teil unserer Zeit der Forschung, um Trends zu erkennen und unsere Prozesse zu optimieren. Wir dokumentieren unsere Erkenntnisse kontinuierlich, besuchen Fachmessen und tauschen uns mit anderen Branchenexperten aus, um unseren Kunden innovative Lösungen anbieten zu können."
       ],
       "items": [],
       "imagenes": [
@@ -101,10 +167,10 @@
     },
     {
       "nivel": 2,
-      "titulo": "Backdating",
+      "titulo": "Rückdatierung",
       "parrafos": [
-        "Für Kunden, die die Ästhetik eines klassischen Modells mit den technologischen Fortschritten eines neueren Fahrzeugs kombinieren möchten, könnte das backdating eine Option sein. Durch die Nutzung der ähnlichen Konfigurationen der 911 und luftgekühlten Modelle können wir die ästhetischen Merkmale eines moderneren Modells so verändern, dass es dem Design eines Vorgängermodells näherkommt. Ein SC mit Klimaanlage oder mit einem 3.2 Motor? Das ist möglich.",
-        "Diese Umbauten werden stets unter Berücksichtigung der homologierbarkeit des neuen Fahrzeugs durchgeführt."
+        "Für Kunden, die die Ästhetik eines klassischen Modells mit den technologischen Fortschritten eines neueren Fahrzeugs kombinieren möchten, backdating kann dies eine Option sein. Durch die Nutzung ähnlicher Konfigurationen von 911 luftgekühlten Modellen können wir die ästhetischen Merkmale eines moderneren Modells so verändern, dass es dem Design eines Vorgängermodells näherkommt. Ein SC mit Klimaanlage oder mit einem 3.2Motor? Das ist möglich.",
+        "Diese Umbauten werden stets unter Einhaltung der Homologation des neuen Fahrzeugs durchgeführt."
       ],
       "items": [],
       "imagenes": [
@@ -120,9 +186,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Teilen Sie uns Ihre Ideen mit.",
+      "titulo": "Teilen Sie uns Ihre Ideen mit",
       "parrafos": [
-        "Bei Valentín Motors finden Sie den richtigen Partner, um Ihre Visionen zu verwirklichen: Wir verfügen über Markenkenntnisse, langjährige Erfahrung und das nötige Einfühlungsvermögen, um Ihre Bedürfnisse zu verstehen."
+        "Bei uns finden Sie den richtigen Partner für die Umsetzung: Valentín Motors Wir verfügen über die Markenkenntnisse, die langjährige Erfahrung und das nötige Einfühlungsvermögen, um Ihre Bedürfnisse zu verstehen."
       ],
       "items": [],
       "imagenes": [
@@ -138,99 +204,39 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ausgangspunkt für Restaurierungen",
-      "parrafos": [
-        "Wir bei Valentín Motors wissen, dass eine Restaurierung ein Auto wieder zum Leben erwecken soll, ohne seine Geschichte auszulöschen oder jede Entdeckung automatisch zu einer Erweiterung des Projekts zu machen. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf eine Liste der durchzuführenden Arbeiten, sondern auf das Auto, seine Geschichte und das Ergebnis, das sich der Besitzer wünscht.",
-        "Die Bewertung beginnt mit der Identifizierung des Geräts, seiner Dokumentation, der Originalität seiner Baugruppen, Korrosion, früheren Reparaturen und dem Verwendungszweck durch den Eigentümer. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Budget umgewandelt wird."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
-          "alt": "Fahrzeugrestaurierung Porsche"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Armaturenbrett eines roten 911 T mit dem Modellschriftzug über dem Handschuhfach"
-        },
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Innenraum eines restaurierten 911 der G-Serie, mit beiger Polsterung und Hahnentritt-Sitzen"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Umfang von Restaurierungen festlegen",
-      "parrafos": [
-        "Der Umfang wird proportional definiert: Er kann die Ermittlung der Originalspezifikationen, eine Überholung für häufigen Gebrauch, eine backdating oder eine restomod umfassen. Dies sind unterschiedliche Ziele und dürfen während der Demontage nicht kombiniert werden. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
-        "Die technische Entscheidung wird auf der Grundlage dieses Kriteriums getroffen: Vor dem Eingriff wird festgelegt, was erhalten, was repariert, was ersetzt und welche Änderungen reversibel sein müssen. Wichtige Entscheidungen werden dokumentiert, um die Konsistenz der Montage zu gewährleisten. Sollte sich eine Erkenntnis ergeben, die den Auftrag verändert, wird dieser Abschnitt von der genehmigten Arbeit getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Dunkelblauer Porsche 911 993 im Front-Dreiviertel vor der Werkstatt"
-        },
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Offener Motorraum eines braunen 911 mit goldenem Gebläserad und sichtbaren Krümmern"
-        },
-        {
-          "url": "/img/paginas/6fc3fc44-laboratorio_ideas.jpg",
-          "alt": "Raum des Ideenlabors, mit Arbeitstisch und Materialmustern"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was Restaurierungen nicht umfasst",
-      "parrafos": [],
-      "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Restaurierungen sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Dokumentierte Entscheidungen",
       "parrafos": [
-        "Bei einem Porsche sind die genaue Version und die vorgenommenen Modifikationen genauso wichtig wie die Modellbezeichnung. Die Dokumentation von Teilenummern, Maßen und Details verhindert, dass eine heute korrekte Entscheidung beim nächsten Wartungsbesuch oder für einen zukünftigen Besitzer zum Rätsel wird.",
-        "Die Dokumentation hilft außerdem, den Originalzustand von nachträglichen Modifikationen zu unterscheiden. Dies ist besonders wichtig bei Oldtimern, Sammlerfahrzeugen und modifizierten Fahrzeugen, da ein anderes Teil auf ein bewusstes Upgrade, eine alte Reparatur oder einen unbedeutenden Austausch hinweisen kann."
+        "Bei einem Porsche sind die genaue Version und die vorgenommenen Modifikationen ebenso wichtig wie die Modellbezeichnung. Die Dokumentation von Teilenummern, Maßen und Teilen verhindert, dass eine heute getroffene Entscheidung beim nächsten Wartungsbesuch oder für einen zukünftigen Besitzer unverständlich wird.",
+        "Die Dokumentation dient auch dazu, den Originalzustand von nachträglichen Modifikationen zu unterscheiden. Dies ist besonders nützlich bei Oldtimern, Sammlerfahrzeugen und modifizierten Fahrzeugen, bei denen ein anderes Teil auf ein bewusstes Upgrade, eine ältere Reparatur oder einen unbedeutenden Austausch hinweisen kann."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Ein Kriterium für zusammenhängende Arbeiten",
+      "titulo": "Kriterium für zusammenhängende Arbeiten",
       "parrafos": [
         "Motor, Getriebe, Bremsen, Fahrwerk, Reifen und Karosserie verhalten sich nicht wie isolierte Komponenten. Vibrationen können von einer Halterung ausgehen; ungleichmäßiger Verschleiß kann auf ein Problem mit der Geometrie hinweisen; und eine Blechreparatur kann eine strukturelle Modifikation offenbaren, die den Wert des Fahrzeugs beeinflusst.",
-        "Wenn das Problem mehrere Bereiche betrifft, wird eine Prüfreihenfolge festgelegt. Dies erhält die sichtbare Ursache für die Diagnose, vermeidet wiederholtes Auseinanderbauen und bestimmt, welche Fachrichtung zuerst eingreifen sollte, ohne das Projekt unnötig zu erweitern."
+        "Wenn das Problem mehrere Bereiche betrifft, wird eine Prüfreihenfolge festgelegt. Dies erhält die sichtbare Fehlerursache für die Diagnose, vermeidet wiederholte Demontagen und ermöglicht die Festlegung, welche Fachrichtung zuerst eingreifen sollte, ohne das Projekt unnötig zu verlängern."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Wann anhalten und messen?",
+      "titulo": "Wann anhalten und messen",
       "parrafos": [
-        "Erfahrung ermöglicht das Erkennen von Mustern, ersetzt aber keine Messung, wenn dadurch die Entscheidung geändert werden könnte. Vor einem kostspieligen Eingriff wird der Test durchgeführt, der zwischen normalem Verschleiß, falscher Einstellung und inneren Schäden unterscheidet. Diese Pause schützt sowohl das Fahrzeug als auch das Budget.",
-        "Falls die Überprüfung ohne Auseinanderbauen keine eindeutige Antwort liefert, wird diese Einschränkung erläutert und die Arbeit in Phasen unterteilt. Der Besitzer kann die Diagnose zunächst freigeben und anhand der Bauteile über den nächsten Schritt entscheiden."
+        "Erfahrung ermöglicht das Erkennen von Mustern, ersetzt aber keine Messung, wenn dadurch die Entscheidung geändert werden könnte. Vor einem kostspieligen Eingriff wird die Prüfung durchgeführt, die zwischen normalem Verschleiß, fehlerhafter Einstellung und inneren Schäden unterscheidet. Diese Unterbrechung schützt sowohl das Fahrzeug als auch das Budget.",
+        "Kann die Prüfung ohne Demontage keine eindeutige Antwort liefern, wird diese Einschränkung erläutert und die Arbeit in Phasen unterteilt. Der Eigentümer kann die Diagnose zunächst freigeben und anhand der Bauteile über den nächsten Schritt entscheiden."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Was der Eigentümer nach Restaurierungen erhält",
+      "titulo": "Ein Projekt, das sich Schritt für Schritt erklären lässt",
       "parrafos": [
-        "Ziel des Projekts ist ein nachvollziehbares Ergebnis mit abgestimmten Fachbereichen, das sich Schritt für Schritt erklären lässt – von der Karosserie bis zum finalen Tuning. Die abschließende Erläuterung soll Ihnen verständlich machen, was gemacht wurde, warum es gemacht wurde und was im Anschluss zu beachten oder zu planen ist.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+        "Ein nachvollziehbares Projekt mit abgestimmten Fachbereichen und einem Ergebnis, das sich Schritt für Schritt erklären lässt – von der Karosserie bis zum Feinschliff."
       ],
       "items": [],
       "imagenes": [
@@ -246,19 +252,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor: Restaurierungen",
+      "titulo": "Zugehörige Dienstleistungen",
       "parrafos": [
-        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
-        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Verwandte Leistungen",
-      "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/restauraciones/integrales\">Komplettrestaurierung</a>, <a href=\"/restauraciones/backdating\">backdating</a>, <a href=\"/restauraciones/restomod\">restomod</a> und <a href=\"/restauraciones/proyectos-y-diseno\">Projektentwicklung und Design</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/restauraciones/integrales\">Umfassende Restaurierung</a>, <a href=\"/restauraciones/backdating\">backdating</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/restauraciones/proyectos-y-diseno\">Projekte und Planung</a>."
       ],
       "items": [],
       "imagenes": [
@@ -275,9 +271,7 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
-      "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -294,7 +288,7 @@
       "nivel": 3,
       "titulo": "Originalität oder Benutzerfreundlichkeit?",
       "parrafos": [
-        "Das hängt von der Seltenheit, dem Zustand, der Geschichte und dem Verwendungszweck des Fahrzeugs ab. Unersetzliche Elemente werden zuerst geschützt, und erst dann wird entschieden, wo Modernisierungen sinnvoll sind."
+        "Das hängt von der Seltenheit, dem Zustand, der Geschichte und dem Verwendungszweck des Fahrzeugs ab. Zuerst sollte man das Unersetzliche schützen und dann entscheiden, wo eine Modernisierung sinnvoll ist."
       ],
       "items": [],
       "imagenes": []
@@ -303,7 +297,7 @@
       "nivel": 3,
       "titulo": "Warum den Umfang vor der Demontage festlegen?",
       "parrafos": [
-        "Weil eine Restaurierung verborgene Arbeiten zutage fördert. Vordefinierte Kriterien ermöglichen die Bewertung der Ergebnisse, ohne das Ziel und das Budget aus den Augen zu verlieren."
+        "Weil eine Restaurierung verborgene Arbeiten ans Licht bringt. Ein vorläufiges Kriterium ermöglicht es, die Ergebnisse zu bewerten, ohne das Ziel und das Budget aus den Augen zu verlieren."
       ],
       "items": [],
       "imagenes": []
@@ -314,8 +308,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 87,
-    "total": 87,
+    "hechas": 88,
+    "total": 88,
     "completa": true
   }
 }

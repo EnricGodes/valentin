@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "IMS Porsche: Diagnose und Reparatur · Valentín Motors",
-    "descripcion": "Vorbeugender Austausch des Porsche-Lagers IMS in den Motoren M96 und M97, mit vorheriger Diagnose und modellspezifischer Preisübersicht.",
+    "titulo": "IMS Porsche: Diagnose und Reparatur Valentín Motors",
+    "descripcion": "Vorbeugender Lagerwechsel IMS Porsche-Motoren M96 und M97, mit vorheriger Diagnose und modellbezogenen Preisen.",
     "ogImagen": ""
   },
-  "h1": "Vorbeugende Reparatur des Porsche IMS",
-  "menu": "Porsche IMS",
+  "h1": "Präventive Reparatur des Porsche-IMS-Lagers",
+  "menu": "IMS Porsche",
   "acordeones": [],
   "articulos": [
     "que-es-el-ims-de-porsche",
@@ -18,63 +18,93 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Was wir tun: Porsche IMS",
+      "titulo": "Vorbeugender Austausch zum Festpreis",
       "parrafos": [
-        "Wir tauschen das Zwischenwellenlager in den Motoren M96 und M97 aus. Für die Modelle von 1997 bis 2006 bieten wir einen Festpreis an, sowohl für Schalt- als auch für Automatikgetriebe. Diese Dienstleistung haben wir bereits dutzende Male im Rahmen der drei von Porsche verbauten Lagerrevisionen durchgeführt.",
-        "Für den präventiven Austausch muss der Motorblock nicht geöffnet werden: Getriebe und Schwungrad bzw. Flexplatte werden demontiert, und das Lager ist über den Flansch zugänglich. Der Motor wird nicht zerlegt, wodurch die Kosten im Vergleich zu den Kosten eines Ausfalls gering bleiben."
+        "Wir tauschen das Zwischenwellenlager in Motoren aus M96 und M97, zum Festpreis für die Modelle 1997 bis 2006, sowohl Schalt- als auch Automatikgetriebe. Wir haben dieses Verfahren dutzende Male bei den drei von Porsche verbauten Lagerrevisionen durchgeführt.",
+        "Für einen vorbeugenden Austausch muss der Motorblock nicht geöffnet werden: Getriebe und Schwungrad bzw. Flexplatte werden ausgebaut, und das Lager ist über den Flansch zugänglich. Der Motor wird nicht zerlegt, wodurch die Kosten im Vergleich zu den Kosten eines Ausfalls gering bleiben."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/b9a35cde-1-images-que-es-el-IMS.jpeg",
+          "alt": "Geöffneter hinterer Motorflansch, ein roter Pfeil zeigt auf die Position des IMS-Lagers"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Lager identifizieren, bevor Sie etwas berühren",
+      "parrafos": [
+        "Eingriffe am IMS beginnen mit der Identifizierung des Lagers, das dem Modell, dem Baujahr und, bei Übergangsjahren, der Motornummer entspricht."
+      ],
+      "items": [
+        "Fahrzeugkonfiguration.",
+        "Historie.",
+        "Öl und Ölfilter.",
+        "Geräusche.",
+        "Prüfung des eingebauten Lagers, sofern zugänglich."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/fd76012d-foto-2.jpg",
+          "alt": "M96 3.4 Motorblock auf dem Ständer, mit freiliegenden Zylindern"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Umfang der vorbeugenden Wartung",
+      "parrafos": [
+        "Die veröffentlichten vorbeugenden Wartungsmaßnahmen gelten für Motoren M96 und M97 und Modelle, bei denen das Lager ohne Öffnen des Motorblocks ausgetauscht werden kann.",
+        "Nicht alle IMS bergen das gleiche Risiko oder erlauben den gleichen Eingriff. Wenn metallische Partikel oder Geräusche auftreten, wird die vorbeugende Maßnahme abgebrochen und der Schaden vor dem Neustart begutachtet."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dc331b3b-foto-4.jpg",
+          "alt": "Vollständige M96-Zerlegung in Wannen sortiert: Nockenwellen, Zylinderkopf und Schrauben"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Wann sich ein vorbeugender Austausch lohnt",
+      "parrafos": [
+        "Der Fehler betrifft die Lager 911 996 und 997.1, Boxster 986 und 987 und Caymanzwischen 1997 und 2008. Nicht alle Einheiten verwenden dasselbe Lager, und genau darin liegt der Unterschied: Das Lager 6204 aus einer Reihe, die zwischen 2000 und 2005 eingebaut wurde, ist am stärksten betroffen und lässt sich auch am einfachsten austauschen.",
+        "Gehört das Fahrzeug, an dem Sie interessiert sind, zu dieser Gruppe und liegen keine Wartungsnachweise vor, ist ein vorbeugender Austausch die kostengünstigste Option. Macht der Motor bereits Geräusche oder befinden sich metallische Partikel im Öl, ist die Frist für einen vorbeugenden Austausch abgelaufen, und eine Überprüfung ist vor der erneuten Inbetriebnahme erforderlich."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Wenn es sich lohnt",
+      "titulo": "Wie Sie feststellen, ob Ihr Fahrzeug betroffen ist",
       "parrafos": [
-        "Der Fehler betrifft 911 996 und 997.1, Boxster 986 und 987 und Cayman, zwischen 1997 und 2008. Nicht alle Fahrzeuge verwenden dasselbe Lager. Genau hier liegt der Unterschied: Das einreihige Lager 6204, das zwischen 2000 und 2005 verbaut ist, ist am häufigsten betroffen und lässt sich auch am einfachsten austauschen.",
-        "Wenn Ihr Fahrzeug zu dieser Gruppe gehört und keine Wartungshistorie vorliegt, ist ein vorbeugender Austausch die günstigere Option. Macht der Motor bereits Geräusche oder befinden sich Metallpartikel im Öl, ist die Frist für einen vorbeugenden Austausch abgelaufen. In diesem Fall ist eine Überprüfung erforderlich, bevor der Motor wieder gestartet wird."
+        "Wir haben einen Rechner veröffentlicht, der anhand von Modell und Baujahr die benötigten Informationen liefert: Welches Lager Ihre Einheit verwendet, ob es ohne Öffnen des Motors ausgetauscht werden kann und welche Prüfungen erforderlich sind. In Übergangsjahren, 2000, 2001 und 2005, wird zusätzlich die Motornummer abgefragt, da zwei verschiedene Lager parallel verbaut werden und das Baujahr allein nicht ausreicht.",
+        "Der Rechner dient nicht der Diagnose des Fahrzeugzustands. Er zeigt die Werksangaben an; der aktuelle Zustand kann nur durch Öffnen des Fahrzeugs festgestellt werden."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "So finden Sie heraus, ob Ihr Fahrzeug betroffen ist",
-      "parrafos": [
-        "Wir haben einen Rechner veröffentlicht, der anhand von Modell und Baujahr die benötigte Lagernummer ermittelt, ob ein Austausch ohne Motoröffnung möglich ist und welche Prüfungen erforderlich sind. In den Übergangsjahren 2000, 2001 und 2005 wird auch nach der Motornummer gefragt, da zwei verschiedene Lager nebeneinander existieren und die Jahresangabe nicht ausreicht.",
-        "Der Rechner gibt keine Diagnose zum Zustand des Fahrzeugs. Er zeigt den Zustand ab Werk an; der aktuelle Zustand lässt sich nur durch Öffnen des Fahrzeugs feststellen."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Leistungen:",
+      "titulo": "Leistungsumfang",
       "parrafos": [],
       "items": [
         "Vordiagnose: Öl- und Filteranalyse, Prüfung auf Partikel.",
-        "Ausbau von Getriebe, Schwungrad bzw. Flexplatte und Flansch (IMS).",
-        "Austausch des Lagers mit dem für diese Leistung vorgesehenen Satz.",
-        "Austausch des Zwischenwellendichtrings und der Kupplung (falls erforderlich).",
-        "Montage, Feinabstimmung und Probefahrt.",
-        "Mechanische Gewährleistung für die Serviceleistung."
+        "Ausbau von Getriebe, Schwungrad bzw. Flexplatte und Flansch. IMS.",
+        "Austausch des Lagers mit dem zu dieser Leistung gehörenden Satz.",
+        "Austausch des Zwischenwellendichtrings und der Kupplung, falls erforderlich.",
+        "Montage, Einstellung und Probefahrt.",
+        "Mechanische Gewährleistung für die Leistung."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Was Porsche IMS nicht umfasst",
-      "parrafos": [],
-      "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Porsche IMS sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ein dokumentierter Fall: Porsche IMS",
+      "titulo": "Was ist der/die/das IMS, in der Zeitschrift",
       "parrafos": [
-        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/que-es-el-ims-de-porsche\">diesem dokumentierten Fall</a>."
+        "Das Magazin präsentiert die Arbeit und ihre Fotografien in <a href=\"/magazine/que-es-el-ims-de-porsche\">diesem dokumentierten Fall</a>."
       ],
       "items": [],
       "imagenes": [
@@ -86,51 +116,18 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ort der Durchführung",
+      "titulo": "Wo es gemacht wird",
       "parrafos": [
-        "In Barcelona und Madrid. Die Arbeiten werden in der Werkstatt durchgeführt. Sollte der Motor beschädigt eintreffen, wird er in den Motorraum gebracht, wo er geöffnet und Stück für Stück begutachtet wird."
+        "In Barcelona und Madrid. Die Arbeiten werden in der Werkstatt durchgeführt; wenn der Motor beschädigt ankommt, wird er in den Maschinenraum gebracht, wo er geöffnet und Stück für Stück begutachtet wird."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Ausgangspunkt für Porsche IMS",
+      "titulo": "Zugehörige Dienstleistungen",
       "parrafos": [
-        "Wir bei Valentín Motors wissen, dass jede Arbeit am Porsche IMS mit der Identifizierung des passenden Lagers für Modell, Baujahr und, bei Übergangsjahren, Motornummer beginnt. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Wünsche des Besitzers.",
-        "Die Beurteilung basiert auf der Fahrzeugkonfiguration, der Historie, dem Öl- und Filterstatus, Geräuschen und einer Überprüfung des verbauten Lagers nach dessen Zugang. Sollten Informationen fehlen, erläutern wir Ihnen, welche Prüfungen notwendig sind, um diese zu beschaffen, bevor wir aus einer Vermutung ein Angebot erstellen."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Umfang von Porsche IMS festlegen",
-      "parrafos": [
-        "Der Umfang ist proportional definiert: Die veröffentlichte vorbeugende Wartung gilt für Motoren der Baureihen M96 und M97 sowie für Modelle, bei denen das Lager ohne Öffnen des Motorblocks ausgetauscht werden kann. Die Arbeiten werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, die noch diagnostiziert oder repariert werden kann.",
-        "Die technische Entscheidung basiert auf folgendem Prinzip: Nicht alle Motoren der Baureihe IMS bergen das gleiche Risiko oder erlauben die gleiche Intervention. Bei Auftreten von Metallpartikeln oder Geräuschen wird die vorbeugende Maßnahme unterbrochen und der Schaden vor der Fortsetzung begutachtet. Ergibt sich ein Befund, der den Arbeitsauftrag verändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was der Eigentümer nach Porsche IMS erhält",
-      "parrafos": [
-        "Diese Leistung umfasst die Demontage und Montage des Getriebes und der zugehörigen Komponenten, den passenden Überholungssatz, die notwendigen Dichtungen, die Feinabstimmung, die Prüfung sowie die beschriebene mechanische Gewährleistung für die durchgeführten Arbeiten. Die abschließende Erläuterung soll dem Kunden verständlich machen, was gemacht wurde, warum es gemacht wurde und was im Anschluss zu beachten oder einzuplanen ist.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Verwandte Leistungen",
-      "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/herramientas/calculadora-ims-porsche\">IMS-Rechner</a>, <a href=\"/taller-porsche/motores\">Porsche-Motoren</a> und <a href=\"/taller-porsche/tarifas\">Tarife</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/herramientas/calculadora-ims-porsche\">Rechner IMS</a>, <a href=\"/taller-porsche/motores\">Porsche-Motoren</a>, <a href=\"/taller-porsche/tarifas\">Gebühren</a>."
       ],
       "items": [],
       "imagenes": []
@@ -138,26 +135,24 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Reicht das Baujahr aus, um zu wissen, was IMS er hat?",
       "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+        "Nicht immer. In 2000, 2001 und 2005 können verschiedene Revisionen nebeneinander existieren, daher hilft die Motornummer, die Konfiguration zu identifizieren."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Reicht das Baujahr aus, um die Motornummer IMS zu bestimmen?",
+      "titulo": "Muss der Motor zum Wechseln des/der/des IMS geöffnet werden?",
       "parrafos": [
-        "Nicht immer. Die Motornummern 2000, 2001 und 2005 können die gleiche Servicehistorie aufweisen. Daher hilft die Motornummer bei der Identifizierung der Konfiguration."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Muss der Motor geöffnet werden, um das Teil IMS zu ersetzen?",
-      "parrafos": [
-        "Bei Einheiten, die im Rahmen des vorbeugenden Wartungsprogramms geprüft wurden, erfolgt der Zugang durch Ausbau des Getriebes und des Schwungrads bzw. der Flexplatte. Bei bereits vorhandenen inneren Schäden ist die Vorgehensweise anders."
+        "Bei Einheiten, die in die vorbeugende Wartung einbezogen sind, erfolgt der Zugang durch Ausbau des Getriebes und des Schwungrads oder der Flexplatte. Bei bereits vorhandenen inneren Schäden ändert sich die Vorgehensweise."
       ],
       "items": [],
       "imagenes": []
@@ -168,8 +163,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 46,
-    "total": 46,
+    "hechas": 44,
+    "total": 44,
     "completa": true
   }
 }

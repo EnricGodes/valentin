@@ -4,20 +4,20 @@
   "ficheroOriginal": "restauraciones",
   "meta": {
     "titulo": "Classic Porsche restoration · Valentín Motors",
-    "descripcion": "Comprehensive Porsche restoration, backdating, restomod, and custom projects, featuring an in-house engine shop and technical expertise since 1979.",
+    "descripcion": "Comprehensive Porsche restoration, backdating, restomod, and custom projects, featuring an in-house engine shop and technical expertise dating back to 1979.",
     "ogImagen": ""
   },
-  "h1": "Classic Porsche restoration and custom projects",
+  "h1": "Classic Porsche restoration and bespoke projects",
   "menu": "Restorations",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Responsibility for the legacy",
+      "titulo": "The responsibility of the legacy",
       "parrafos": [
-        "A fully stripped 911 F-Series forces a decision about what to preserve before paint or assembly is considered.",
-        "Every Porsche embodies specific values, an attitude, and a distinct approach to the driving experience. The brand represents timeless elegance and beauty, and we consider it our duty to uphold these principles.",
-        "That is why, at Valentín Motors, we aim to restore authenticity in restoration projects while adding new value to customization projects."
+        "A completely stripped-down 911 F-Series model requires decisions on what to preserve before even considering paintwork or reassembly.",
+        "Every Porsche embodies specific values, an attitude, and a distinct approach to driving. The brand exudes timeless elegance and beauty, and we feel a personal duty to ensure these principles endure.",
+        "That is why, at Valentín Motors, we aim to restore originality in restoration projects while adding new value in customization projects."
       ],
       "items": [],
       "imagenes": [
@@ -37,113 +37,18 @@
     },
     {
       "nivel": 2,
-      "titulo": "Restorations",
+      "titulo": "What we assess before starting",
       "parrafos": [
-        "Our restorations are characterized by a high degree of originality and quality across every aspect of the project.",
-        "In comprehensive restorations, we aim to achieve the Certificate of Authenticity, bringing the vehicle back to its original specifications.",
-        "We analyze the vehicle's potential and the scope of work with the client to ensure the result is commensurate with the future value of each classic Porsche model. Each model is analyzed at 100% based on its condition, ensuring the final result is effective and consistent with its history.",
-        "Follow the restoration process of this backdating 964.",
-        "Follow the restoration process of this 2.7 Targa 1975.",
-        "Follow the restoration process of this SC Targa from 1979 that we are preparing for sale.",
-        "Follow the restoration process of this beautiful 930, which arrived at our facility after suffering an engine fire.",
-        "2.2 Engine",
-        "2.2 1970 Engine",
-        "Refurbishment of 964 engine (M64 type)",
-        "930 engine (Turbo: 3.0 / 1988)"
+        "A restoration should revive a car without erasing its history or turning every discovery into an automatic expansion of the project's scope."
       ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2e996e8e-142837905_1123606771422230_4368144538445892404_n.jpg",
-          "alt": "Porsche flat-six stripped down and mounted on the engine stand"
-        },
-        {
-          "url": "/img/paginas/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg",
-          "alt": "Backdating 964 (2023)"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Customizations",
-      "parrafos": [
-        "We carry out custom projects for clients with specific aspirations: bodywork modifications, performance upgrades, and bespoke interiors."
+      "items": [
+        "The vehicle's identity.",
+        "Its documentation.",
+        "The originality of its components.",
+        "Corrosion.",
+        "Previous repairs.",
+        "The owner's intended use."
       ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior of a restored G-series 911, with beige trim and houndstooth seats"
-        },
-        {
-          "url": "/img/paginas/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg",
-          "alt": "Restoration 2.7 S 1975 domestic (N8 lime green)"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Idea Lab",
-      "parrafos": [
-        "We dedicate part of our time to research to identify trends and implement process improvements. We constantly stay informed, attend trade shows, and consult with other industry professionals to offer innovative solutions to our clients."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Dashboard of a red 911 T with the model badge above the glovebox"
-        },
-        {
-          "url": "/img/paginas/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg",
-          "alt": "Restoration 3.0 SC Targa 1979"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Backdating",
-      "parrafos": [
-        "For clients who wish to combine the aesthetics of a classic model with the technological advancements of a more recent vehicle, the backdating can be an option. By leveraging the similar configurations of 911 air-cooled models, we can transform the aesthetic characteristics of a modern model to align it with the design of an earlier unit. A SC with air conditioning or a 3.2 engine? It is possible.",
-        "These transformations are always carried out with the aim of ensuring the new vehicle is homologatable."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
-          "alt": "Open engine bay of a brown 911, gold fan and manifolds in view"
-        },
-        {
-          "url": "/img/paginas/4f053492-f-1.jpg",
-          "alt": "Fire damage restoration 911 930 turbo 1975"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Tell us about your ideas.",
-      "parrafos": [
-        "At Valentín Motors, you will find the right partner to carry them out: we possess the brand knowledge, proven experience, and the necessary sensitivity to put ourselves in your shoes."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
-          "alt": "Dark blue Porsche 911 993 from the front three-quarter outside the workshop"
-        },
-        {
-          "url": "/img/paginas/d10780ce-motor-1.jpg",
-          "alt": "Engine 1971 2.2"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Where Restorations starts",
-      "parrafos": [
-        "A restoration must revive a car without erasing its history or turning every discovery into an automatic expansion of the project scope. That is why the initial conversation focuses not on a catalog of services, but on the car itself, its history, and the owner's expected outcome.",
-        "The assessment begins with the vehicle's identity, documentation, component originality, corrosion levels, previous repairs, and the owner's intended use. If information is missing, we specify the checks needed to obtain it before turning a hypothesis into a formal quote."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/5bbd9019-Restauraciones-Porsche.jpg",
@@ -161,15 +66,12 @@
     },
     {
       "nivel": 2,
-      "titulo": "Defining the scope of Restorations",
+      "titulo": "Four distinct goals, four projects",
       "parrafos": [
-        "The scope is defined proportionally: the goal might be factory-original specifications, a rebuild for frequent driving, or a backdating or restomod build. These are distinct objectives that should not be conflated during disassembly. Tasks are sequenced to avoid redundant disassembly, ensure symptoms remain visible, and prevent the replacement of components that can still be diagnosed or repaired.",
-        "Technical decisions are made based on this criterion: before work begins, we determine what is to be preserved, repaired, or replaced, and which modifications must be reversible. Key decisions are documented to ensure overall consistency. Should a discovery arise that alters the scope of the commission, it is addressed separately from the approved work and explained before proceeding."
+        "You might be seeking factory specifications, a refurbishment for frequent use, a backdating, or a restomod. These are distinct goals that should not be conflated during the disassembly process.",
+        "Before work begins, we determine what will be preserved, repaired, or replaced, and which modifications must be reversible. Key decisions are documented to ensure the vehicle's overall coherence."
       ],
-      "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
@@ -187,50 +89,154 @@
     },
     {
       "nivel": 2,
-      "titulo": "What Restorations does not include",
-      "parrafos": [],
+      "titulo": "What a restoration is not",
+      "parrafos": [
+        "It is worth stating what it is not before discussing timelines, because that is where expectations often go off track."
+      ],
       "items": [
-        "It does not include work outside the agreed scope for Restorations.",
-        "Any extension is checked and authorised separately."
+        "It is not about making the car look brand new; it is about restoring it to its former state while preserving its visible history.",
+        "It is not about replacing everything that can be replaced; parts that work and are original are preserved.",
+        "It does not involve a fixed initial quote; the scope is reviewed once disassembly reveals what lies beneath.",
+        "It is not reversible by default; decisions regarding what should be reversible are made beforehand, not after the fact."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Documented decisions",
+      "titulo": "Restorations",
       "parrafos": [
-        "With a Porsche, the exact version and service history matter just as much as the model name. Recording part numbers, measurements, and specific components ensures that a decision made today does not become a mystery during the next service or for a future owner.",
-        "Documentation also distinguishes the original condition from subsequent modifications. This is particularly useful for classic cars, collector vehicles, and tuned models, where a non-standard part could be the result of a deliberate upgrade, an old repair, or an ill-advised replacement."
+        "Our restorations are characterized by a high degree of originality and quality across every aspect of the project.",
+        "For comprehensive restorations, we aim to obtain the Certificate of Authenticity by returning the vehicle to its original specifications.",
+        "We analyze the possibilities and scope of the unit with the client to ensure the result is commensurate with the future value of each classic Porsche model. Each model is analyzed 100 % based on its condition, so that the final result is effective and consistent with its history.",
+        "Follow the restoration process of this backdating of a 964.",
+        "Follow the restoration process of this 2.7 Targa from 1975.",
+        "Follow the restoration process of this SC Targa from 1979 that we are preparing for sale.",
+        "Follow the restoration process of this beautiful 930, which arrived at our facility after suffering an engine bay fire.",
+        "2.2 Engine",
+        "2.2 Engine 1970",
+        "Rebuild of 964 engine (Type M64)",
+        "930 Turbo 3.0 Engine 1988"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/2e996e8e-142837905_1123606771422230_4368144538445892404_n.jpg",
+          "alt": "Porsche flat-six stripped down and mounted on the engine stand"
+        },
+        {
+          "url": "/img/paginas/897230fc-21ee72b0-0cc1-4281-b96e-876a5b3d0dc0.jpg",
+          "alt": "Backdating 964 (2023)"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Customizations",
+      "parrafos": [
+        "We undertake bespoke projects for clients with specific aspirations: bodywork modifications, performance upgrades, and custom interiors."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior of a restored G-series 911, with beige trim and houndstooth seats"
+        },
+        {
+          "url": "/img/paginas/6109faf2-698a5e96-b02a-4c92-bfed-3aec1eab5c68.jpg",
+          "alt": "Restoration 2.7 S 1975 domestic (N8 lime green)"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Idea Lab",
+      "parrafos": [
+        "We dedicate part of our time to research in order to identify trends and implement process improvements. We constantly stay informed, attend trade shows, and consult with other industry professionals to offer innovative solutions to our clients."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Dashboard of a red 911 T with the model badge above the glovebox"
+        },
+        {
+          "url": "/img/paginas/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg",
+          "alt": "Restoration 3.0 SC Targa 1979"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Backdating",
+      "parrafos": [
+        "For clients wishing to combine the aesthetics of a classic model with the technological advancements of a more recent vehicle, backdating can be an excellent option. By leveraging the similar configurations of air-cooled 911 models, we can transform the visual characteristics of a modern model to mirror the design of an earlier version. An SC with air conditioning or a 3.2 engine? It is possible.",
+        "These transformations are always carried out with the goal of ensuring the new vehicle meets homologation standards."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/41ef46e7-DSC00805.jpg",
+          "alt": "Open engine bay of a brown 911, gold fan and manifolds in view"
+        },
+        {
+          "url": "/img/paginas/4f053492-f-1.jpg",
+          "alt": "Fire damage restoration 911 930 turbo 1975"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Tell us your ideas",
+      "parrafos": [
+        "At Valentín Motors, you will find the ideal partner to bring them to life: we possess the brand knowledge, proven experience, and the necessary insight to truly understand your perspective."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/a1648580-234678640_364110575330562_8256966547310030628_n.jpg",
+          "alt": "Dark blue Porsche 911 993 from the front three-quarter outside the workshop"
+        },
+        {
+          "url": "/img/paginas/d10780ce-motor-1.jpg",
+          "alt": "Engine 1971 2.2"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Decisions that are documented",
+      "parrafos": [
+        "With a Porsche, the exact version and the history of work performed are just as important as the model name. Recording part numbers, measurements, and components ensures that a decision made today does not become a mystery during future maintenance or for a subsequent owner.",
+        "Documentation also distinguishes the original state from later modifications. This is particularly useful for classic cars, collector's items, and modified vehicles, where a non-standard part could be the result of a deliberate upgrade, an old repair, or an ill-advised replacement."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "An approach for interconnected tasks",
+      "titulo": "A unified approach to interconnected work",
       "parrafos": [
-        "The engine, transmission, brakes, suspension, tires, and bodywork do not operate in isolation. A vibration might originate from a mount; uneven tire wear could point to suspension geometry issues; and bodywork repairs might reveal structural work that alters the car's valuation.",
-        "When an issue affects multiple areas, an inspection sequence is established. This preserves the visible symptoms for diagnosis, avoids repetitive disassembly, and determines which specialist should intervene first,preventing the project from expanding unnecessarily."
+        "Engine, gearbox, brakes, suspension, tires, and bodywork do not operate in isolation. A vibration might originate from a mount; uneven tire wear could point to suspension geometry issues; and bodywork repairs might reveal structural work that alters the car's valuation.",
+        "When an issue affects multiple areas, we establish a specific order for inspection. This preserves the visible cause for diagnosis, avoids repeated disassembly, and determines which specialist should intervene first, preventing the project from expanding unnecessarily."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Knowing when to pause and measure",
+      "titulo": "When it pays to pause and measure",
       "parrafos": [
-        "Experience allows for pattern recognition, but it cannot replace actual measurement when that data could change the course of action. Before undertaking costly work, technicians seek evidence to distinguish between normal wear, incorrect adjustment, and internal damage. That pause protects both the vehicle and the budget.",
-        "If an inspection cannot yield a conclusive answer without disassembly, that limitation is explained, and the work is divided into phases. The owner can authorize the diagnostic work first and decide on the next step once the components are exposed and visible."
+        "Experience allows for pattern recognition, but it cannot replace actual measurement when that measurement might alter the decision. Before a costly intervention, we seek evidence to distinguish between normal wear, incorrect adjustment, and internal damage. That pause protects both the car and the budget.",
+        "If a conclusive answer cannot be reached without disassembly, we explain this limitation and break the work down into phases. The owner can authorize the diagnosis first and decide on the next step once the components are exposed."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "What the owner receives after Restorations",
+      "titulo": "A project that can be explained part by part",
       "parrafos": [
-        "The goal of the project delivery is a fully traceable process with coordinated disciplines, resulting in a vehicle that can be explained component by component,from the bodywork to the final tuning. The final explanation should make it clear what was done, why it was done, and what should be monitored or scheduled for the future.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "A traceable project with coordinated disciplines and a result that can be explained part by part—from the bodywork to the final tuning."
       ],
       "items": [],
       "imagenes": [
@@ -246,19 +252,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "How to prepare for the initial consultation: Restorations",
-      "parrafos": [
-        "To make the most of the consultation, it is helpful to provide the model, version, year, chassis number (where relevant), and any available history. If there is a specific symptom, it is useful to describe when it occurs,such as whether the engine is cold or hot, or if the issue arises under load or during deceleration,and whether the behavior has changed recently.",
-        "Past invoices, photographs, and diagnostic reports help avoid redundant work, though they do not replace a current inspection. This information determines whether an inspection appointment suffices, whether the car needs to be transported to the shop, or if only the specific component needs to be sent in."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the objective, the work can be coordinated across <a href=\"/restauraciones/integrales\">comprehensive restoration</a>, <a href=\"/restauraciones/backdating\">backdating</a>, <a href=\"/restauraciones/restomod\">restomod</a>, and <a href=\"/restauraciones/proyectos-y-diseno\">design and projects</a>. Each page explains the specific scope prior to booking an appointment."
+        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/restauraciones/integrales\">full restoration</a>, <a href=\"/restauraciones/backdating\">backdating</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/restauraciones/proyectos-y-diseno\">design and planning</a>."
       ],
       "items": [],
       "imagenes": [
@@ -275,9 +271,7 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
-      "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -292,9 +286,9 @@
     },
     {
       "nivel": 3,
-      "titulo": "Originality or usability?",
+      "titulo": "Originality or ease of use?",
       "parrafos": [
-        "It depends on the car's rarity, condition, history, and purpose. We prioritize preserving irreplaceable elements first, then determine where upgrades make sense."
+        "It depends on the car's rarity, condition, history, and purpose. First, we protect what is irreplaceable; then, we decide where upgrades make sense."
       ],
       "items": [],
       "imagenes": []
@@ -303,7 +297,7 @@
       "nivel": 3,
       "titulo": "Why define the scope before disassembly?",
       "parrafos": [
-        "Because restoration often reveals hidden work. Establishing criteria beforehand allows us to evaluate these findings while keeping the overall goal and budget in mind."
+        "Because restoration often reveals hidden issues. Establishing criteria beforehand allows us to evaluate these findings without losing sight of the overall goal and budget."
       ],
       "items": [],
       "imagenes": []
@@ -314,8 +308,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 87,
-    "total": 87,
+    "hechas": 88,
+    "total": 88,
     "completa": true
   }
 }

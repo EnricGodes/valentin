@@ -19,11 +19,16 @@
       "nivel": 2,
       "titulo": "Què és un backdating",
       "parrafos": [
-        "Un backdating apropa un 911 a laspecte duna generació anterior conservant la mecànica de la seva. La idea és tenir la línia d?un cotxe dels setanta amb el comportament, els frens i la fiabilitat d?un dels noranta.",
+        "Un backdating apropa un 911 a l'aspecte d'una generació anterior conservant la mecànica de la seva. La idea és tenir la línia d?un cotxe dels setanta amb el comportament, els frens i la fiabilitat d?un dels noranta.",
         "Funciona perquè els 911 refrigerats per aire comparteixen arquitectura i cotes durant gairebé trenta anys. El que en una altra marca seria una disfressa, aquí encaixa de debò."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/7c7a3934-IMG_1221.jpg",
+          "alt": "El 911 backdating sobre base 964, en verd anglès, tres quarts davanter"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -33,46 +38,63 @@
         "Un SC amb aire condicionat, o amb un motor 3.2? És possible. Cada backdating es defineix peça a peça, i sempre homologable: un cotxe que no es pot matricular no és un cotxe, és una escultura."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg",
+          "alt": "Frontal del Porsche 964 blau nit amb fars rodons i llantes de tres peces"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Backdating",
+      "titulo": "De què depèn que funcioni",
       "parrafos": [
-        "Un backdating ha de semblar una interpretació coherent d'un 911 anterior i alhora conservar els avantatges de la base triada per a l'ús real. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de la generació de partida, el seu estat estructural i mecànic, la configuració que es vol recrear, la reversibilitat i els requisits dhomologació. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+        "Un backdating deu semblar una interpretació coherent d'un 911 anterior i, alhora, conservar els avantatges de la base triada per a l'ús real."
+      ],
+      "items": [
+        "La generació de partida.",
+        "El seu estat estructural i mecànic.",
+        "La configuració que es vol recrear.",
+        "La reversibilitat.",
+        "Els requisits d'homologació."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/e39b8eec-IMG_1224.jpg",
+          "alt": "El 911 backdating verd de tres quarts posterior, amb llantes Fuchs"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Fins on arriba l'encàrrec",
+      "parrafos": [
+        "Carrosseria, il·luminació, interior, rodes, suspensió i motor poden formar part de l'encàrrec, però no tots els cotxes necessiten el mateix grau de transformació.",
+        "El 964 sol oferir una arquitectura adequada, però la millor base és la unitat sana i documentada que permeti assolir l'objectiu sense sacrificar-ne un exemplar singular."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Decidir l’abast de Backdating",
+      "titulo": "Què es perd i què es guanya",
       "parrafos": [
-        "L'abast es planteja de manera proporcional: carrosseria, il·luminació, interior, rodes, suspensió i motor poden formar part de l'encàrrec, però no tots els cotxes necessiten el mateix grau de transformació. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: el 964 sol oferir una arquitectura adequada, però la millor base és la unitat sana i documentada que permeti assolir l'objectiu sense sacrificar-ne un exemplar singular. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+        "Un backdating canvia el cotxe a les dues direccions, i les dues es diuen abans de començar."
       ],
       "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
+        "Es guanya l'estètica i, segons l'abast, el pes i la resposta.",
+        "Es perd l'originalitat de fàbrica i el valor que en depengui.",
+        "L'homologació condiciona què hi pot circular i què no.",
+        "El que és reversible costa més d'executar que el que és definitiu.",
+        "El resultat es considera per coherència, no per quantitat de peces d'època."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Backdating",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Backdating.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un cas documentat: Backdating",
+      "titulo": "Un backdating sobre base 964",
       "parrafos": [
-        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/backdating-base-964\">aquest cas documentat</a>."
+        "El Magazine mostra el treball i les seves fotografies a <a href=\"/magazine/backdating-base-964\">aquest cas documentat</a>."
       ],
       "items": [],
       "imagenes": [
@@ -84,10 +106,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Backdating",
+      "titulo": "Un cotxe coherent, no una disfressa",
       "parrafos": [
-        "L'objectiu del lliurament és un projecte definit per especificació, amb una aparença, una dinàmica i uns acabats que parlen el mateix llenguatge. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Un projecte definit per especificació, amb una aparença, una dinàmica i uns acabats que parlen el mateix llenguatge."
       ],
       "items": [],
       "imagenes": []
@@ -96,7 +117,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>, <a href=\"/restauraciones/integrales\">restauració integral</a>, <a href=\"/taller-porsche/pintura-carroceria\">chapa i pintura</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/restauraciones/proyectos-y-diseno\">projectes i disseny</a>, <a href=\"/restauraciones/integrales\">restauració integral</a>, <a href=\"/taller-porsche/pintura-carroceria\">xapa i pintura</a>."
       ],
       "items": [],
       "imagenes": []
@@ -104,17 +125,15 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "S'ha de començar sempre amb un 964?",
+      "titulo": "Cal començar sempre amb un 964?",
       "parrafos": [
-        "No. La base es tria pel seu estat, arquitectura, valor i objectiu. El 964 és freqüent però no substitueix l'anàlisi de la unitat concreta."
+        "No. La base es tria pel seu estat, arquitectura, valor i objectiu. El 964 és freqüent, però no substitueix l'anàlisi de la unitat concreta."
       ],
       "items": [],
       "imagenes": []
@@ -134,8 +153,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 41,
+    "total": 41,
     "completa": true
   }
 }

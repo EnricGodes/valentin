@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Personnalisation Porsche · Valentín Motors",
-    "descripcion": "Personnalisation Porsche et projets uniques : carrosserie, dynamique et intérieurs, avec des solutions TECHART et des études d'homologation.",
+    "titulo": "Personnalisation Porsche Valentín Motors",
+    "descripcion": "Personnalisation Porsche et projets uniques : carrosserie, dynamique et intérieurs, avec solutions TECHART et étude d'homologation.",
     "ogImagen": ""
   },
-  "h1": "Une personnalisation Porsche en harmonie avec le véhicule",
+  "h1": "Personnalisation Porsche en harmonie avec le véhicule",
   "menu": "Personnalisation",
   "acordeones": [],
   "articulos": [
@@ -17,66 +17,82 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Nos services : Personnalisation",
+      "titulo": "Modifications sur mesure préservant l'unité",
       "parrafos": [
-        "Une 911 964 accepte des modifications de carrosserie, de comportement et d’habitacle, mais toutes ne conviennent pas à un exemplaire rare.",
-        "Des projets sur mesure sur une voiture qui reste la vôtre : modifications de carrosserie, améliorations des performances et intérieurs réalisés à la main. De la pièce précise à la commande one-off, produite en un seul exemplaire.",
-        "Nous sommes distributeurs et installateurs agréés TECHART depuis 2019, ce qui couvre le catalogue de personnalisation des modèles actuels. Tout élément non référencé est fabriqué sur commande."
+        "Une 911 964 Les modifications de carrosserie, dynamiques et intérieures sont autorisées, mais toutes ne conviennent pas à un véhicule rare.",
+        "Projets sur mesure pour votre Porsche : modifications de carrosserie, améliorations de performance et intérieurs réalisés à la main. De la pièce spécifique à la commande unique, dont un seul exemplaire sera produit.",
+        "Nous sommes concessionnaires et installateurs agréés TECHART depuis 2019, qui couvre le catalogue de personnalisation des modèles actuels. Ce qui n'y figure pas est fabriqué sur commande."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/68ce3447-f7fe04c7-a653-4e62-baf3-10b0c5c2034d.jpg",
+          "alt": "Arrière de la 964 blanche avec la grille moteur et le bandeau lumineux PORSCHE allumé"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Jusqu'où peut-on aller ?",
+      "parrafos": [
+        "La limite n'est pas fixée par la technique, mais par l'homologation et le bon sens quant à la valeur de la voiture. Une modification réversible sur une voiture ordinaire est une chose ; Un problème irréversible, sur un cas rare, en est un autre, et nous le précisons avant même de commencer, même si la commande est annulée."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/f65940b6-IMG_9764.jpg",
+          "alt": "Kit de suspension KW complet à ressorts jaunes, sur son plateau de montage"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Amélioration utile, modification réversible ou intervention",
+      "parrafos": [
+        "Personnaliser une Porsche implique de distinguer une amélioration utile, une modification esthétique réversible et une intervention susceptible d'altérer de façon permanente la valeur ou l'identité du véhicule."
+      ],
+      "items": [
+        "Le modèle.",
+        "Sa rareté.",
+        "Son état actuel.",
+        "L'utilisation prévue.",
+        "Les priorités du propriétaire.",
+        "Les conséquences sur l'homologation."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Comparaison des alternatives.",
+      "parrafos": [
+        "Le projet peut se concentrer sur l'intérieur, la carrosserie ou la dynamique, ou coordonner ces trois aspects. Il englobe également les solutions TECHART pour les modèles actuels et les commandes uniques.",
+        "Les alternatives sont comparées en termes d'intégration, de réversibilité, d'entretien futur et de cohérence. La faisabilité technique d'une modification ne garantit pas son adéquation à tous les véhicules."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Jusqu'où pouvons-nous aller ?",
+      "titulo": "Éléments à prendre en compte avant de modifier un véhicule rare.",
       "parrafos": [
-        "La limite n'est pas fixée par la technologie, mais par l'homologation et le bon sens quant à la valeur du véhicule. Une modification réversible sur un véhicule standard est une chose ; une modification irréversible sur un véhicule rare en est une autre, et nous le précisons avant de commencer, même si la commande est annulée."
+        "Une modification techniquement possible n'est pas toujours adaptée à ce véhicule en particulier."
+      ],
+      "items": [
+        "Combien d'exemplaires comme le vôtre restent-ils, et dans quelle configuration ?",
+        "La modification est-elle réversible sans laisser de traces sur la carrosserie ?",
+        "Quels frais d'entretien supplémentaires la nouvelle pièce engendre-t-elle ?",
+        "La conception globale reste-t-elle cohérente, ou devient-elle un assemblage d'idées disparates ?",
+        "Quelles sont les conséquences en matière d'homologation et d'assurance ?"
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Phares à LED sur un 964",
+      "parrafos": [
+        "Le magazine présente le travail et ses photographies dans <a href=\"/magazine/9-eleven-headlights-964\">ce cas documenté</a>."
       ],
       "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Le point de départ de Personnalisation",
-      "parrafos": [
-        "Personnaliser une Porsche implique de faire la distinction entre une amélioration utile, une modification esthétique réversible et une intervention susceptible d'altérer durablement la valeur ou l'identité du véhicule. C'est pourquoi notre premier échange ne porte pas sur un catalogue de services, mais sur la voiture elle-même, son historique et le résultat souhaité par son propriétaire.",
-        "L'estimation est basée sur le modèle, sa rareté, son état actuel, son utilisation prévue, les priorités du propriétaire et les exigences d'homologation. En cas d'information manquante, nous indiquons les vérifications nécessaires pour l'obtenir avant de transformer une estimation en devis."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Définir le périmètre de Personnalisation",
-      "parrafos": [
-        "Le périmètre du projet est défini proportionnellement : il peut se concentrer sur l'intérieur, la carrosserie ou la dynamique, ou coordonner ces trois aspects. Il comprend également des solutions TECHART pour les modèles existants et les commandes uniques. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation d'un problème et le remplacement d'un ensemble alors qu'il est encore possible de le diagnostiquer ou de le réparer.",
-        "La décision technique est prise selon les critères suivants : les alternatives sont comparées en termes d'intégration, de réversibilité, de maintenance future et de cohérence. La faisabilité technique d'une modification ne garantit pas son adéquation à tous les véhicules. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que Personnalisation ne couvre pas",
-      "parrafos": [],
-      "items": [
-        "Les travaux hors du périmètre convenu pour Personnalisation ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un cas documenté : Personnalisation",
-      "parrafos": [
-        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/9-eleven-headlights-964\">ce cas documenté</a>."
-      ],
-      "items": [
-        "[[VÉRIFIER : attribuer à ce cas une photographie déjà sélectionnée dans le Magazine.]]"
-      ],
       "imagenes": [
         {
           "url": "/img/magazine/27d7c7b0-f6c4ca7d-4d88-4504-bf87-f1955c4272ea.jpg",
@@ -86,29 +102,18 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Personnalisation",
+      "titulo": "Une spécification qui résiste à l'épreuve du temps",
       "parrafos": [
-        "L'objectif de la livraison est une spécification personnalisée qui conserve une logique globale et peut être maintenue et expliquée dans le temps. L'explication finale doit vous permettre de comprendre ce qui a été fait, pourquoi cela a été fait et ce qui doit être observé ou prévu par la suite.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
+        "Une spécification personnelle qui conserve une logique globale et qui peut être maintenue et expliquée dans le temps."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale : Personnalisation",
+      "titulo": "Services connexes",
       "parrafos": [
-        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
-        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services associés",
-      "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/restauraciones/proyectos-y-diseno\">projets et conception</a>, <a href=\"/restauraciones/restomod\">restomod</a> et <a href=\"/taller-porsche\">atelier Porsche</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/restauraciones/proyectos-y-diseno\">Projets et conception</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/taller-porsche\">Atelier Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -116,26 +121,24 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "La personnalisation diminue-t-elle toujours la valeur du véhicule ?",
       "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+        "Pas toujours, mais une modification irréversible sur un modèle rare exige plus de prudence qu'une amélioration réversible sur une voiture d'occasion. Il convient d'en tenir compte avant de prendre une décision."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "La personnalisation entraîne-t-elle systématiquement une dépréciation ?",
+      "titulo": "Est-il possible de combiner des pièces de catalogue et des pièces fabriquées en interne ?",
       "parrafos": [
-        "Pas toujours, mais une modification irréversible sur un véhicule rare exige plus de prudence qu'une amélioration réversible sur un véhicule d'occasion. Cet impact est évalué avant toute décision."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Peut-on combiner pièces de catalogue et pièces sur mesure ?",
-      "parrafos": [
-        "Oui, si elles poursuivent le même objectif et sont correctement intégrées. Le choix repose sur la fonction, et non sur le nombre de composants à installer."
+        "Oui, si elles poursuivent le même objectif et sont correctement intégrées. Le choix se fonde sur la fonction, et non sur le nombre de composants à installer."
       ],
       "items": [],
       "imagenes": []
@@ -146,8 +149,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 38,
-    "total": 38,
+    "hechas": 41,
+    "total": 41,
     "completa": true
   }
 }

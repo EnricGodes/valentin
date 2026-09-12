@@ -3,21 +3,21 @@
   "tipo": "servicio",
   "ficheroOriginal": "competicion",
   "meta": {
-    "titulo": "Porsche-Wettbewerbsvorbereitung · Valentín Motors",
-    "descripcion": "Porsche-Vorbereitung für track day, GT und Rallye, mit Setup, Betreuung und Streckentechnik durch Spezialisten seit 1979.",
+    "titulo": "Porsche Rennvorbereitung Valentín Motors",
+    "descripcion": "Porsche-Vorbereitung für track dayGT und Rallye, mit Tuning, Support und Streckentechnik durch Spezialisten 1979.",
     "ogImagen": ""
   },
-  "h1": "Porsche Rennstrecken-, GT und Rallye-Vorbereitung",
+  "h1": "Porsche-Vorbereitung für Rundstrecke, GT und Rallye",
   "menu": "Wettbewerb",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Vorbereitung für track days",
+      "titulo": "Vorbereitungen für Trackdays",
       "parrafos": [
-        "Ein 911 für den ersten track day benötigt nicht dieselbe Abstimmung wie ein GT3 im Renneinsatz.",
-        "Die Marke Porsche steht für Sportlichkeit, und die Rennstrecke ermöglicht es einem Porsche, sein Potenzial voll auszuschöpfen und Fahrgefühle zu vermitteln, die sich vom Stadtverkehr unterscheiden. In Trainingseinheiten unter kontrollierten Bedingungen können Fahrer und Fahrzeug perfekt zusammenarbeiten.",
-        "Wir passen Fahrzeuge an jedes Niveau an, je nach Streckenbedingungen und den vom Kunden gewünschten Vorbereitungsanforderungen."
+        "Ein 911 für seinen ersten Einsatz vorbereiteter track day benötigt nicht das gleiche Setup wie ein GT3 Meisterschaftsfahrzeug.",
+        "Der Markengeist ist sportlich, und die Rennstrecke ermöglicht es einem Porsche, sein Potenzial zu demonstrieren und ein anderes Fahrgefühl als im Stadtverkehr zu vermitteln. Bei Trainingsfahrten auf der Rennstrecke in kontrollierter Umgebung können Fahrer und Fahrzeug optimal zusammenarbeiten.",
+        "Wir passen Fahrzeuge an jedes Niveau an, entsprechend den Streckenbedingungen und dem vom Kunden gewünschten Vorbereitungsgrad."
       ],
       "items": [],
       "imagenes": [
@@ -29,54 +29,17 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was Motorsport nicht umfasst",
-      "parrafos": [],
-      "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Motorsport sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "GT- und Gentlemen-Driver-Meisterschaften",
+      "titulo": "Wovon die Vorbereitung abhängt",
       "parrafos": [
-        "Wir arbeiten an GT3- und Carrera Cup-Fahrzeugen mehrerer Generationen und bieten Betreuung, Support und Renningenieurleistungen mit im Meisterschaftsbetrieb erfahrenem Personal."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Rally",
-      "parrafos": [
-        "Man stellt sich Porsche-Fahrzeuge meist auf gut ausgebauten Straßen bei hohen Geschwindigkeiten vor. Doch auch im Gelände sind sie keine Seltenheit. Im Laufe ihrer Geschichte sind sie auf allen möglichen Untergründen angetreten und haben sogar die Rallye Paris-Dakar gewonnen 1984.",
-        "Ein Teil der Vorbereitung eines 911 für Rallyes besteht aus:"
+        "Die Vorbereitung eines Porsche für den Rennstreckeneinsatz beschränkt sich nicht nur auf den Einbau von Teilen, sondern erfordert die Gewährleistung, dass Bremsen, Fahrwerk, Reifen, Sicherheitsmerkmale und Geometrie optimal aufeinander abgestimmt sind."
       ],
       "items": [
-        "Gewichtsreduzierung: Entfernen unnötiger Teile und Verwendung von GFK-Komponenten.",
-        "Einbau von Sicherheitskomponenten: Überrollkäfig, Gurte und Schalensitze.",
-        "Leistungssteigerung: Modifizierung von Motor, Stoßdämpfern und Reifen."
+        "Die Art der Veranstaltung.",
+        "Das Fahrkönnen des Fahrers.",
+        "Das geltende Reglement.",
+        "Der Zustand der Rennstrecke.",
+        "Die geplante Streckenkilometerzahl."
       ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Erleben Sie den Adrenalinrausch",
-      "parrafos": [
-        "Das sportliche Fahrgefühl eines 911 bietet Ihnen ein völlig neues Fahrgefühl und lässt Sie die Reaktionsschnelligkeit des Fahrzeugs hautnah erleben."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ausgangspunkt für Motorsport",
-      "parrafos": [
-        "Wir bei Valentín Motors wissen, dass die Vorbereitung eines Porsche für die Rennstrecke mehr bedeutet als nur den Einbau von Teilen. Es geht darum, Bremsen, Fahrwerk, Reifen, Sicherheitsmerkmale und Fahrwerksgeometrie optimal auf den jeweiligen Einsatzzweck abzustimmen. Deshalb konzentrieren wir uns im ersten Gespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Geschichte und die Erwartungen des Besitzers.",
-        "Die Bewertung basiert auf der Art der Veranstaltung, dem Fahrkönnen des Fahrers, den geltenden Vorschriften, dem Zustand der Basis und der voraussichtlichen Streckenkilometerzahl. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/84ac2fae-DSC07852.jpg",
@@ -86,15 +49,12 @@
     },
     {
       "nivel": 2,
-      "titulo": "Umfang von Motorsport festlegen",
+      "titulo": "Vom track day Meisterschaftsprogramm",
       "parrafos": [
-        "Der Umfang wird proportional definiert: Die Vorbereitung einer ersten Veranstaltung (track day) kann sich auf Prüfungen, Verbrauchsmaterialien und Geometrie beschränken; ein Programm (GT) oder eine Rallye erfordert die Definition von Sicherheit, Zuverlässigkeit, Ersatzteilen und Support. Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
-        "Die technische Entscheidung erfolgt nach folgendem Kriterium: Jede Änderung ist durch ein Symptom, ein Ziel oder eine gesetzliche Vorgabe gerechtfertigt. Leistungssteigerungen können weder ein ungleichmäßiges Pedalgefühl noch unkontrollierte Temperaturen oder eine falsche Fahrposition ausgleichen. Sollte sich eine Erkenntnis ergeben, die den Arbeitsumfang verändert, wird diese von den genehmigten Arbeiten getrennt und vor der Durchführung erläutert."
+        "Die Vorbereitung für eine erste track day Veranstaltung beschränkt sich möglicherweise auf Kontrollen, Verbrauchsmaterialien und die Geometrie; ein GT- oder Rallye-Programm erfordert die Definition von Sicherheit, Zuverlässigkeit, Ersatzteilen und Support.",
+        "Jede Änderung ist durch ein Symptom, ein Ziel oder eine gesetzliche Vorgabe gerechtfertigt. Leistung kann ungleichmäßiges Ansprechverhalten des Pedals, unkontrollierte Temperaturen oder eine falsche Fahrposition nicht ausgleichen."
       ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
-      ],
+      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/627ae024-DSC08039.jpg",
@@ -104,19 +64,50 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was der Eigentümer nach Motorsport erhält",
+      "titulo": "GT- und Rallye-Meisterschaften Gentlemen Driver",
       "parrafos": [
-        "Ziel der Übergabe ist ein Fahrzeug, das hinsichtlich seines vorgesehenen Einsatzzwecks geprüft wurde, sowie eine übersichtliche Liste der erforderlichen Einstellungen, Komponenten und noch ausstehenden Prüfungen vor der Rückkehr auf die Rennstrecke. Die abschließende Erklärung sollte klar darlegen, was durchgeführt wurde, warum es durchgeführt wurde und was anschließend zu beobachten oder einzuplanen ist.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+        "Wir arbeiten an GT3- und Carrera Cup-Fahrzeugen mehrerer Generationen und bieten Betreuung, Support und Renningenieurleistungen mit im Meisterschaftsbetrieb erfahrenem Personal."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Verwandte Leistungen",
+      "titulo": "Rallye",
       "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/taller-porsche\">Porsche-Werkstatt</a>, <a href=\"/taller-porsche/mantenimiento\">Wartung</a> und <a href=\"/sala-motores\">Motorenwerkstatt</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Man stellt sich Porsche-Fahrzeuge meist auf gut ausgebauten Straßen bei hohen Geschwindigkeiten vor. Doch auch im Gelände sind sie keine Seltenheit. Im Laufe ihrer Geschichte sind sie auf allen möglichen Untergründen angetreten und haben sogar die Rallye Paris-Dakar gewonnen. 1984.",
+        "Zur Vorbereitung eines Fahrzeugs 911 für Rallyes gehört Folgendes:"
+      ],
+      "items": [
+        "Gewichtsreduzierung: Wegfall unnötiger Teile und Verwendung von GFK-Komponenten.",
+        "Einbau von Sicherheitskomponenten: Überrollkäfig, Gurte und Schalensitze.",
+        "Leistungssteigerung: Modifizierung von Motor, Stoßdämpfern und Reifen."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Erleben Sie den Adrenalinrausch",
+      "parrafos": [
+        "Sportliches Fahren in einem 911 bietet Ihnen ein anderes Fahrgefühl als im normalen Alltag und lässt Sie die Reaktion des Fahrzeugs hautnah erleben."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was Sie zurück auf die Rennstrecke mitnehmen",
+      "parrafos": [
+        "Ein für den vereinbarten Einsatz gewartetes Fahrzeug und eine klare Liste der Einstellungen, Komponenten und Prüfungen, die vor der Rückkehr auf die Rennstrecke durchgeführt werden müssen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Zugehörige Dienstleistungen",
+      "parrafos": [
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/taller-porsche\">Porsche Werkstatt</a>, <a href=\"/taller-porsche/mantenimiento\">Wartung</a>, <a href=\"/sala-motores\">Motorraum</a>."
       ],
       "items": [],
       "imagenes": []
@@ -124,9 +115,7 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
-      "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -134,16 +123,16 @@
       "nivel": 3,
       "titulo": "Ist die gleiche Konfiguration für Straße und Rennstrecke geeignet?",
       "parrafos": [
-        "Nicht unbedingt. Reifen, Fahrzeughöhe, Geometrie und Betriebstemperatur verändern sich mit der Nutzung. Es wird eine Vereinbarung darüber getroffen, welche Kompromisse das Fahrzeug abseits der Rennstrecke eingehen sollte."
+        "Nicht unbedingt. Reifen, Fahrzeughöhe, Fahrwerksgeometrie und Betriebstemperatur verändern sich mit der Nutzung. Für den Einsatz abseits der Rennstrecke wird eine optimale Konfiguration vereinbart."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Kann eine schrittweise Konfiguration begonnen werden?",
+      "titulo": "Kann die Vorbereitung schrittweise erfolgen?",
       "parrafos": [
-        "Ja. Die Arbeiten können nach Sicherheit, Zuverlässigkeit und Leistung priorisiert werden, um jede Änderung vor der Durchführung zu überprüfen."
+        "Ja. Die Arbeiten können nach Sicherheit, Zuverlässigkeit und Leistung geordnet werden, sodass jede Änderung vor Beginn überprüft werden kann."
       ],
       "items": [],
       "imagenes": []
@@ -154,8 +143,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 42,
-    "total": 42,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

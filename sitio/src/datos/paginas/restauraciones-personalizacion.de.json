@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Porsche Individualisierung · Valentín Motors",
-    "descripcion": "Porsche Individualisierung und Einzelanfertigungen: Karosserie, Fahrdynamik und Interieur – mit Lösungen von TECHART und Homologationsstudie.",
+    "titulo": "Porsche-Individualisierung Valentín Motors",
+    "descripcion": "Porsche-Individualisierung und Einzelanfertigungen: Karosserie, Fahrdynamik und Interieur, mit Lösungen TECHART und Homologationsstudie.",
     "ogImagen": ""
   },
   "h1": "Porsche Individualisierung im Einklang mit dem Fahrzeug",
@@ -17,66 +17,82 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Was wir tun: Individualisierung",
+      "titulo": "Maßgeschneiderte Änderungen unter Wahrung der Einheitlichkeit",
       "parrafos": [
-        "Ein 911 964 lässt Änderungen an Karosserie, Fahrwerk und Innenraum zu, doch nicht jede passt zu einem seltenen Exemplar.",
-        "Individuelle Projekte für Ihr Fahrzeug: Karosseriemodifikationen, Leistungssteigerungen und handgefertigte Innenausstattungen. Vom Einzelteil bis zum einzigartigen Auftrag, von dem es nur ein Exemplar geben wird.",
-        "Wir sind autorisierte Händler und Einbaupartner von TECHART seit 2019 und decken den Individualisierungskatalog für aktuelle Modelle ab. Was nicht im Katalog ist, fertigen wir."
+        "Ein 911 964 Karosserie-, Fahrdynamik- und Interieurmodifikationen sind zulässig, jedoch nicht alle für ein seltenes Fahrzeug geeignet.",
+        "Individuelle Projekte für Ihr Fahrzeug: Karosseriemodifikationen, Leistungssteigerungen und handgefertigte Interieurs. Von einzelnen Teilen bis hin zu Einzelanfertigungen, von denen es nur ein Exemplar gibt.",
+        "Wir sind autorisierter Händler und Einbaupartner TECHART seit 2019, der den Individualisierungskatalog für aktuelle Modelle umfasst. Was nicht im Katalog enthalten ist, wird gefertigt."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/68ce3447-f7fe04c7-a653-4e62-baf3-10b0c5c2034d.jpg",
+          "alt": "Heck des weißen 964 mit Motorgitter und leuchtendem PORSCHE-Lichtband"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Wie weit kann man gehen?",
+      "parrafos": [
+        "Die Grenze wird nicht durch die Technik, sondern durch die Homologation und den gesunden Menschenverstand hinsichtlich des Fahrzeugwerts gesetzt. Eine reversible Modifikation an einem normalen Auto ist eine Sache; Ein irreversibler Fehler in einem seltenen Fall ist ein weiterer, und das sagen wir, bevor wir überhaupt anfangen, selbst wenn der Auftrag scheitert."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/f65940b6-IMG_9764.jpg",
+          "alt": "Komplettes KW-Fahrwerk mit gelben Federn auf der Montageplatte"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Nützliche Verbesserung, reversible Änderung oder Eingriff",
+      "parrafos": [
+        "Die Individualisierung eines Porsche erfordert die Unterscheidung zwischen einer nützlichen Verbesserung, einer reversiblen ästhetischen Änderung und einem Eingriff, der den Wert oder die Identität des Fahrzeugs dauerhaft verändern kann."
+      ],
+      "items": [
+        "Das Modell.",
+        "Seine Seltenheit.",
+        "Der aktuelle Zustand.",
+        "Die beabsichtigte Nutzung.",
+        "Die Prioritäten des Besitzers.",
+        "Die Folgen der Homologation."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Vergleich der Alternativen.",
+      "parrafos": [
+        "Das Projekt kann sich auf den Innenraum, die Karosserie oder die Fahrdynamik konzentrieren oder alle drei Bereiche koordinieren. Es umfasst auch Lösungen TECHART für aktuelle Modelle und Einzelanfertigungen.",
+        "Die Alternativen werden hinsichtlich Integration, Reversibilität, zukünftiger Wartung und Konsistenz verglichen. Nur weil eine Modifikation technisch möglich ist, heißt das nicht, dass sie für jedes Fahrzeug geeignet ist."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Wie weit können wir gehen?",
+      "titulo": "Worauf Sie vor der Modifizierung eines seltenen Fahrzeugs achten sollten.",
       "parrafos": [
-        "Die Grenze setzen nicht die technischen Möglichkeiten, sondern die Zulassung und ein vernünftiger Umgang mit dem Fahrzeugwert. Eine reversible Änderung an einem gängigen Fahrzeug ist anders zu bewerten als ein irreversibler Eingriff an einem seltenen Exemplar. Darauf weisen wir vor Projektbeginn hin, auch wenn der Auftrag dadurch nicht zustande kommt."
+        "Eine technisch mögliche Modifikation ist nicht immer für das jeweilige Fahrzeug geeignet."
+      ],
+      "items": [
+        "Wie viele Fahrzeuge wie Ihres existieren noch und in welcher Konfiguration?",
+        "Ist die Änderung rückgängig zu machen, ohne Spuren an der Karosserie zu hinterlassen?",
+        "Welcher zusätzliche Wartungsaufwand entsteht durch das neue Teil?",
+        "Ist das Gesamtdesign noch stimmig oder entsteht eine Ansammlung von Ideen?",
+        "Welche Auswirkungen hat dies auf die Homologation und die Versicherung?"
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "LED-Scheinwerfer an einem 964",
+      "parrafos": [
+        "Das Magazin präsentiert die Arbeit und ihre Fotografien in <a href=\"/magazine/9-eleven-headlights-964\">diesem dokumentierten Fall</a>."
       ],
       "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ausgangspunkt für Individualisierung",
-      "parrafos": [
-        "Wir bei Valentín Motors wissen, dass die Individualisierung eines Porsche die Unterscheidung zwischen sinnvoller Verbesserung, reversibler ästhetischer Veränderung und einem Eingriff erfordert, der den Wert oder die Identität des Fahrzeugs dauerhaft verändern kann. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Geschichte und das Ergebnis, das sich der Besitzer wünscht.",
-        "Die Bewertung basiert auf dem Modell, seiner Seltenheit, dem aktuellen Zustand, dem Verwendungszweck, den Prioritäten des Eigentümers und den Auswirkungen auf die Homologation. Fehlen Informationen, werden die notwendigen Prüfungen zur Beschaffung dieser Informationen festgelegt, bevor eine Hypothese in ein Angebot umgewandelt wird."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Umfang von Individualisierung festlegen",
-      "parrafos": [
-        "Der Umfang ist proportional definiert: Das Projekt kann sich auf den Innenraum, die Karosserie oder die Fahrdynamik konzentrieren oder alle drei Bereiche kombinieren. Es umfasst auch TECHART-Lösungen für aktuelle Modelle und Einzelanfertigungen. Die Aufgaben werden priorisiert, um doppelte Demontage, das Verbergen von Symptomen und den Austausch einer Baugruppe zu vermeiden, wenn diese noch diagnostiziert oder repariert werden kann.",
-        "Die technische Entscheidung wird anhand der folgenden Kriterien getroffen: Alternativen werden hinsichtlich Integration, Reversibilität, zukünftiger Wartungsfreundlichkeit und Konsistenz verglichen. Nur weil eine Modifikation technisch machbar ist, bedeutet das nicht, dass sie für jedes Fahrzeug geeignet ist. Sollte sich eine Erkenntnis ergeben, die den Auftrag verändert, wird diese von der genehmigten Arbeit getrennt und vor dem Fortfahren erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was Individualisierung nicht umfasst",
-      "parrafos": [],
-      "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Individualisierung sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ein dokumentierter Fall: Individualisierung",
-      "parrafos": [
-        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/9-eleven-headlights-964\">diesem dokumentierten Fall</a>."
-      ],
-      "items": [
-        "[[PRÜFEN: Diesem Fall ein bereits ausgewähltes Foto aus dem Magazine zuordnen.]]"
-      ],
       "imagenes": [
         {
           "url": "/img/magazine/27d7c7b0-f6c4ca7d-4d88-4504-bf87-f1955c4272ea.jpg",
@@ -86,29 +102,18 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was der Eigentümer nach Individualisierung erhält",
+      "titulo": "Eine Spezifikation, die sich bewährt",
       "parrafos": [
-        "Ziel der Ausführung ist eine individuelle Spezifikation, die eine logische Gesamtstruktur aufweist und sich im Laufe der Zeit nachvollziehen und erklären lässt. Die abschließende Erläuterung sollte verdeutlichen, was durchgeführt wurde, warum es durchgeführt wurde und welche weiteren Schritte zu beachten oder einzuplanen sind.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+        "Eine individuelle Spezifikation, die eine übergreifende Logik beibehält und sich über die Zeit hinweg begründen und erklären lässt."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "So bereiten Sie sich auf das erste Beratungsgespräch vor: Individualisierung",
+      "titulo": "Zugehörige Dienstleistungen",
       "parrafos": [
-        "Für ein optimales Beratungsgespräch benötigen wir folgende Informationen: Modell, Version, Baujahr, Fahrgestellnummer (falls relevant) und die vorhandene Servicehistorie. Sollten Symptome auftreten, beschreiben Sie bitte, wann diese auftreten: bei kaltem oder warmem Motor, unter Last oder im Stand und ob sie sich kürzlich verändert haben.",
-        "Frühere Rechnungen, Fotos und Diagnosen helfen, erneute Besuche zu vermeiden, ersetzen aber keine aktuelle Inspektion. Anhand dieser Informationen lässt sich feststellen, ob ein Inspektionstermin ausreicht, ob das Fahrzeug transportiert werden muss oder ob nur das Ersatzteil geliefert werden kann."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Verwandte Leistungen",
-      "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/restauraciones/proyectos-y-diseno\">Projektentwicklung und Design</a>, <a href=\"/restauraciones/restomod\">restomod</a> und <a href=\"/taller-porsche\">Porsche-Werkstatt</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/restauraciones/proyectos-y-diseno\">Projekte und Planung</a>, <a href=\"/restauraciones/restomod\">restomod</a>, <a href=\"/taller-porsche\">Porsche Werkstatt</a>."
       ],
       "items": [],
       "imagenes": []
@@ -116,17 +121,15 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
-      "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Führt Individualisierung immer zu Wertminderungen?",
+      "titulo": "Verringert Individualisierung immer den Wert?",
       "parrafos": [
-        "Nicht immer, aber eine irreversible Modifikation an einem seltenen Fahrzeug erfordert mehr Vorsicht als ein reversibles Upgrade an einem Gebrauchtwagen. Dieser Effekt wird vor der Entscheidungsfindung bewertet."
+        "Nicht immer, aber eine irreversible Modifikation an einem seltenen Fahrzeug erfordert mehr Vorsicht als ein reversibles Upgrade an einem Gebrauchtwagen. Dieser Effekt sollte vor einer Entscheidung berücksichtigt werden."
       ],
       "items": [],
       "imagenes": []
@@ -135,7 +138,7 @@
       "nivel": 3,
       "titulo": "Können Katalog- und Eigenfertigungsteile kombiniert werden?",
       "parrafos": [
-        "Ja, wenn sie das gleiche Ziel erfüllen und fachgerecht integriert sind. Die Auswahl basiert auf der Funktion, nicht darauf, das Fahrzeug mit Komponenten zu füllen."
+        "Ja, wenn sie das gleiche Ziel erfüllen und sachgemäß integriert sind. Die Auswahl basiert auf der Funktion, nicht darauf, das Fahrzeug mit Komponenten zu füllen."
       ],
       "items": [],
       "imagenes": []
@@ -146,8 +149,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 38,
-    "total": 38,
+    "hechas": 41,
+    "total": 41,
     "completa": true
   }
 }

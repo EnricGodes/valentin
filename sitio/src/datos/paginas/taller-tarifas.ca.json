@@ -4,7 +4,7 @@
   "ficheroOriginal": "_redactado",
   "meta": {
     "titulo": "Tarifes manteniment Porsche · Valentín Motors",
-    "descripcion": "Tarifes de manteniment Porsche per model: servei menor i major, líquid de frens, geometria i inspecció precompra A Barcelona i Madrid.",
+    "descripcion": "Tarifes de manteniment Porsche per model per a servei menor, servei major, líquid de frens, geometria i inspecció.",
     "ogImagen": ""
   },
   "h1": "Tarifes de taller Porsche per model i servei",
@@ -15,64 +15,74 @@
       "nivel": 2,
       "titulo": "Preus tancats, model per model",
       "parrafos": [
-        "Un manteniment no costa el mateix en un 911 refrigerat per aire que en un Macan, i dins del 911 tampoc no costa el mateix un SC que un 992. Per això les tarifes estan obertes per model: tria el teu i veuràs què costa cada servei en aquesta unitat concreta.",
+        "Un manteniment no costa el mateix en un 911 refrigerat per aire que en un Macan, i dins del 911 tampoc costa el mateix un SC que un 992. Per això les tarifes estan obertes per model: tria el teu i veuràs què costa cada servei en aquesta unitat concreta.",
         "Són tarifes tancades de referència. El pressupost ferm depèn de l'estat en què arribi el cotxe, i això només se sap amb el cotxe davant.",
-        "Cada família té la seva: <a href=\"/porsche-911-mantenimiento-taller\">Preus de manteniment per als models Porsche 911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Preus de manteniment per als models Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Preus de manteniment per als models Cayman i Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">Preus de manteniment per als models Transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">Preus de manteniment per als models GT</a> i <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Preus de manteniment per als models Cayenne i Macan</a>."
-      ],
-      "items": [
-        "[[COMPROVAR: l’export no inclou els imports de la taula publicada; cal incorporar-los abans d’importar.]]"
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què no inclou Tarifes",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Tarifes.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "El punt de partida de Tarifes",
-      "parrafos": [
-        "Les tarifes per model permeten conèixer el preu de les operacions repetibles sense fingir que qualsevol avaria es pot pressupostar sense veure el cotxe. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de model, generació, versió, caixa de canvis, servei sol·licitat i historial recent de manteniment. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+        "Sis famílies i cinquanta-set models amb tarifa publicada: <a href=\"/porsche-911-mantenimiento-taller\">911</a>, <a href=\"/porsche-turbo-mantenimiento-taller\">Turbo</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Cayman i Boxster</a>, <a href=\"/porsche-transaxle-mantenimiento-taller\">transaxle</a>, <a href=\"/porsche-gt-mantenimiento-taller\">GT</a> i <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Cayenne i Macan</a>."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/fe34fa7b-IMG_9274.JPG",
+          "alt": "Porsche 911 gris amb el vano motor obert sobre l'elevador del taller de Leganés"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Decidir l’abast de Tarifes",
+      "titulo": "Què entra en un servei menor i en un de més gran",
       "parrafos": [
-        "L'abast es planteja de manera proporcional: les taules publicades cobreixen servei menor, servei major, líquid de frens, geometries i inspecció precompra per a les famílies indicades. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: un preu tancat descriu una operació i els elements prevists. Si la revisió descobreix desgast, danys o feines anteriors deficients, es prepara un pressupost separat abans d'ampliar. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+        "Les taules publiquen les mateixes operacions per a totes les famílies, amb el preu que correspon a cada model."
       ],
       "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
+        "Servei menor: oli i filtre de motor, més una comprovació de vint-i-tres punts.",
+        "Servei major: inclou el menor i afegeix trenta punts més, amb filtres d'aire i d'habitacle i bugies quan toca.",
+        "Substitució del líquid de frens.",
+        "Geometria de direcció.",
+        "Inspecció precompra."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/621f5a9b-20240402_120524.jpg",
+          "alt": "Detall del càrter i el filtre d'oli del 3.2 sèrie G"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Tarifes",
+      "titulo": "Què inclou el preu i què no",
       "parrafos": [
-        "L'objectiu del lliurament és una referència comparable abans de demanar cita i, amb la unitat identificada, confirmació del servei adequat per a la versió i l'estat. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Els preus es publiquen <strong>sense IVA</strong> i inclouen les peces i la mà d'obra. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos, i el cotxe es neteja abans del lliurament.",
+        "El preu de les peces de Porsche pot canviar sense avís previ, així que una tarifa és una referència comparable i no una oferta tancada en el temps. Un preu tancat descriu una operació i els elements previstos per a ella: si la revisió descobreix desgast, danys o feines anteriors mal fetes, es pressuposta a part abans d'ampliar res."
       ],
       "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/d5c18ca1-20240328_114458.jpg",
+          "alt": "Detall de la corona dentada del volant motor del 3.2 sèrie G"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què es pot pressupostar per endavant",
+      "parrafos": [
+        "Les tarifes per model permeten conèixer el preu de les operacions repetibles sense fingir que qualsevol avaria es pot pressupostar sense veure el cotxe."
+      ],
+      "items": [
+        "Model.",
+        "Generació.",
+        "Versió.",
+        "Caixa de canvis.",
+        "Servei sol·licitat.",
+        "Historial recent de manteniment."
+      ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Com preparar la primera consulta en Tarifes",
+      "titulo": "Amb què arribes a demanar cita",
       "parrafos": [
-        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
-        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
+        "Una referència comparable abans de demanar cita i, amb la unitat identificada, confirmació del servei adequat per a la versió i l'estat."
       ],
       "items": [],
       "imagenes": []
@@ -81,7 +91,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l’estat i l’objectiu del cotxe, el treball es pot coordinar amb les <a href=\"/porsche-911-mantenimiento-taller\">tarifes 911</a>, les <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">tarifes Cayman i Boxster</a>, les <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">tarifes Cayenne i Macan</a> i el <a href=\"/taller-porsche/mantenimiento\">manteniment Porsche</a>. Cada pàgina explica l’abast específic abans de demanar cita."
+        "Segons l'estat i l'objectiu del cotxe, la feina es pot coordinar amb <a href=\"/porsche-911-mantenimiento-taller\">tarifes 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">tarifes Cayman i Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">tarifes Cayenne i Macan</a>, <a href=\"/taller-porsche/mantenimiento\">manteniment Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -89,9 +99,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -119,8 +127,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 33,
-    "total": 33,
+    "hechas": 37,
+    "total": 37,
     "completa": true
   }
 }

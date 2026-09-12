@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Bore scoring Porsche: diagnosi · Valentín Motors",
-    "descripcion": "Diagnosi e riparazione endoscopica del guasto bore scoring nei motori Porsche M96 e M97, con referto preliminare e sala macchine dedicata.",
+    "titulo": "Diagnosi di rigatura del cilindro Porsche Valentín Motors",
+    "descripcion": "Diagnosi e riparazione endoscopica di bore scoring nei motori Porsche M96 e M97, con referto preliminare e officina dedicata.",
     "ogImagen": ""
   },
-  "h1": "Diagnosi e riparazione del guasto Porsche bore scoring",
-  "menu": "Bore scoring",
+  "h1": "Diagnosi e riparazione di bore scoring Porsche",
+  "menu": "Graffi sui cilindri",
   "acordeones": [],
   "articulos": [
     "porsche-bore-scoring",
@@ -20,19 +20,60 @@
       "nivel": 2,
       "titulo": "L'ispezione",
       "parrafos": [
-        "Consumo d’olio, fumo e battito a freddo possono indicare bore scoring, ma non lo confermano.",
-        "Questa ispezione viene eseguita con un endoscopio attraverso il foro della candela, con il motore montato sull'auto. In una mattinata, possiamo determinare se sono presenti rigature, in quali cilindri e quanto si estendono. Richiediamo sempre questa ispezione prima dell'acquisto: è la differenza tra negoziare il prezzo e scoprirlo in seguito.",
-        "Il prezzo è indicato nel listino prezzi, insieme agli altri servizi per questo modello."
+        "Consumo d'olio, fumo e battito a freddo possono indicare bore scoring, ma non lo confermano.",
+        "Questa ispezione viene effettuata con un endoscopio attraverso il foro della candela, con il motore montato sull'auto. In una mattinata, possiamo determinare se sono presenti graffi, in quali cilindri e quanto si estendono. Richiediamo sempre questa ispezione prima dell'acquisto: fa tutta la differenza tra negoziare il prezzo e scoprirlo in seguito.",
+        "Il prezzo è indicato nel listino prezzi, insieme agli altri servizi per il modello."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg",
+          "alt": "Cilindri canneggiati di un monoblocco M97, con la levigatura a vista"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Cosa facciamo: Bore scoring",
+      "titulo": "Conferma prima della ricostruzione",
       "parrafos": [
-        "Diagnostichiamo le rigature delle camicie dei cilindri tramite endoscopia, senza smontare il motore, e le ripariamo mediante l'inserimento di una camicia quando il danno si è già verificato. Questa ispezione è un servizio completo ed è la prima cosa che consigliamo prima di acquistare un motore M96 o M97.",
-        "Il problema bore scoring riguarda i motori Z, Boxster, Z, Cayman, Z e 911 con motori M96 e M97 prodotti tra 1997 e 2008. Si manifesta con rigature verticali sulla parete del cilindro, più frequentemente nel sesto cilindro, e progredisce fino a quando il motore consuma olio e perde compressione."
+        "bore scoring Deve essere confermata con prove prima di associare rumore, consumo d'olio o fumo a una revisione del motore."
+      ],
+      "items": [
+        "Ispezione di tutti e sei i cilindri.",
+        "Fotografie.",
+        "Analisi dell'olio e del filtro.",
+        "Se applicabile.",
+        "Test di compressione.",
+        "Test di tenuta."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg",
+          "alt": "Tre cilindri di un monoblocco M97 visti dal piano testata"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quali motori e cosa decide la relazione",
+      "parrafos": [
+        "La diagnosi è specificamente rivolta ai motori M96 e M97 di Boxster, Cayman e 911 prodotti tra 1997 e 2008e la riparazione è definita in base al danno riscontrato.",
+        "Un graffio superficiale, un graffio attivo e una perdita di compressione non giustificano la stessa decisione. Il referto serve a confrontare monitoraggio, apertura e ricostruzione."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg",
+          "alt": "Dettaglio di un cilindro canneggiato finito, accanto al foro filettato del monoblocco"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Endoscopia senza smontaggio, con eventuale rivestimento del cilindro",
+      "parrafos": [
+        "Diagnostichiamo le rigature della camicia del cilindro tramite endoscopia del cilindro, senza smontare il motore, e le ripariamo con un rivestimento quando il danno si è già verificato. Il controllo è un servizio completo ed è la prima cosa che consigliamo prima di acquistare un M96 o M97.",
+        "bore scoring riguarda Boxster, Cayman e 911 con motore M96 e M97 prodotti tra 1997 e 2008. Si manifesta con rigature verticali sulla parete del cilindro, più frequentemente nel sesto cilindro, e progredisce fino a quando il motore consuma olio e perde compressione."
       ],
       "items": [],
       "imagenes": []
@@ -41,8 +82,8 @@
       "nivel": 2,
       "titulo": "La riparazione",
       "parrafos": [
-        "Quando sono presenti rigature, la soluzione non è la rettifica: è la sostituzione della camicia del cilindro. Installiamo camicie in lega di nichel-carburo di silicio, più dure del Lokasil originale, e cogliamo l'occasione per ispezionare il resto del blocco, che a questo punto è già aperto.",
-        "In molti motori, se il blocco deve comunque essere aperto, conviene aumentarne la cilindrata durante la stessa procedura: un M97 o 3.8 diventa un 4.0 senza costi di manodopera aggiuntivi, poiché il lavoro è già stato eseguito."
+        "In presenza di graffi, la soluzione non è la rettifica: è la sostituzione della camicia del cilindro. Installiamo camicie in lega di nichel-carburo di silicio, più dure del Lokasil originale, e cogliamo l'occasione per ispezionare il resto del blocco motore, che a questo punto è già aperto.",
+        "In molti motori, se il blocco motore deve comunque essere aperto, conviene aumentarne la cilindrata durante la stessa procedura: un M97 3.8 diventa un 4.0 senza costi di manodopera aggiuntivi, poiché il lavoro è già stato eseguito."
       ],
       "items": [],
       "imagenes": []
@@ -52,7 +93,7 @@
       "titulo": "Cosa è incluso",
       "parrafos": [],
       "items": [
-        "Endoscopia di tutti e sei i cilindri e valutazione del punteggio.",
+        "Ispezione endoscopica di tutti e sei i cilindri e valutazione del loro stato.",
         "Analisi dell'olio e del filtro.",
         "Test di compressione e tenuta.",
         "Relazione con fotografie di ciascun cilindro.",
@@ -62,19 +103,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa non comprende Bore scoring",
-      "parrafos": [],
-      "items": [
-        "Non comprende lavori estranei all’ambito concordato per Bore scoring.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Un caso documentato: Bore scoring",
+      "titulo": "Analisi delle scanalature, con le immagini visualizzate",
       "parrafos": [
-        "Il Magazine mostra il lavoro e le fotografie in <a href=\"/magazine/porsche-bore-scoring\">questo caso documentato</a>."
+        "La rivista presenta il lavoro e le relative fotografie in <a href=\"/magazine/porsche-bore-scoring\">questo caso documentato</a>."
       ],
       "items": [],
       "imagenes": [
@@ -86,33 +117,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Da dove inizia Bore scoring",
+      "titulo": "Cosa riceverete dal controllo",
       "parrafos": [
-        "Il guasto bore scoring deve essere confermato da prove concrete prima di associare un rumore, un consumo d'olio o del fumo a una revisione del motore. Pertanto, il colloquio iniziale si concentra non su un catalogo di servizi, ma sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione inizia con un'endoscopia di tutti e sei i cilindri, fotografie, analisi dell'olio e del filtro e, ove applicabile, prove di compressione e tenuta. In caso di informazioni mancanti, vengono indicati i test necessari prima di trasformare un'ipotesi in un preventivo."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Definire l’ambito di Bore scoring",
-      "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: la diagnosi è specificamente mirata ai motori M96 e M97 dei numeri di serie Boxster, Cayman e 911, prodotti tra 1997 e 2008, e la riparazione viene definita in base al danno riscontrato. Le attività vengono prioritarie per evitare doppi smontaggi, mascherare i sintomi e sostituire un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica si basa sui seguenti criteri: un segno superficiale, un graffio attivo e una perdita di compressione non giustificano la stessa decisione. Il referto serve a confrontare il monitoraggio, l'apertura e la ricostruzione. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
-      ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo Bore scoring",
-      "parrafos": [
-        "Lo scopo di questa relazione è fornire immagini di ciascun cilindro, una valutazione chiara e, se applicabile, un preventivo per la camiciatura dei cilindri e l'ispezione del blocco motore prima di qualsiasi intervento sul motore. La spiegazione finale deve indicare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "Immagini di ogni cilindro, una valutazione chiara e, se necessario, un preventivo per l'inserimento delle camicie e la revisione del blocco motore prima di qualsiasi intervento sul motore."
       ],
       "items": [],
       "imagenes": []
@@ -121,7 +128,7 @@
       "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/taller-porsche/inspeccion-pre-compra\">ispezione pre-acquisto</a>, <a href=\"/taller-porsche/motores\">ricostruzione motori</a> e <a href=\"/taller-porsche/tarifas\">tariffe di officina</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/taller-porsche/inspeccion-pre-compra\">Ispezione pre-acquisto</a>, <a href=\"/taller-porsche/motores\">Ricostruzione del motore</a>, <a href=\"/taller-porsche/tarifas\">Costi di officina</a>."
       ],
       "items": [],
       "imagenes": []
@@ -129,26 +136,24 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Un'endoscopia richiede una riparazione?",
       "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
+        "No. Il suo scopo è quello di mostrare le condizioni. La raccomandazione dipende dalla profondità e dall'estensione delle scanalature, dai sintomi e dagli altri test."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Un'endoscopia richiede interventi di riparazione?",
+      "titulo": "È consigliabile farla controllare prima dell'acquisto?",
       "parrafos": [
-        "No. Il suo scopo è quello di mostrare la condizione. La raccomandazione dipende dalla profondità e dall'estensione delle lesioni, dai sintomi e da altri esami."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "È consigliabile farla prima dell'acquisto?",
-      "parrafos": [
-        "Sì, per le famiglie interessate. Il risultato aiuta a decidere se procedere con l'acquisto, negoziare il prezzo o accantonare un budget per le riparazioni."
+        "Sì, nelle famiglie con casi simili. Il risultato aiuta a decidere se procedere con l'acquisto, negoziare il prezzo o stanziare fondi per un intervento."
       ],
       "items": [],
       "imagenes": []
@@ -159,8 +164,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 44,
-    "total": 44,
+    "hechas": 45,
+    "total": 45,
     "completa": true
   }
 }

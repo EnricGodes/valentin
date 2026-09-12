@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Bore scoring Porsche: Diagnose · Valentín Motors",
-    "descripcion": "Endoskopische Diagnose und Reparatur von bore scoring in Porsche-Motoren M96 und M97 mit vorherigem Bericht und in einem separaten Motorraum.",
+    "titulo": "Zylinderlaufbahnrisse bei Porsche: Diagnose Valentín Motors",
+    "descripcion": "Endoskopische Diagnose und Reparatur von bore scoring in Porsche-Motoren M96 und M97mit vorherigem Bericht und in einem separaten Motorraum.",
     "ogImagen": ""
   },
-  "h1": "Diagnose und Reparatur von Porsche bore scoring",
-  "menu": "Bore scoring",
+  "h1": "Diagnose und Reparatur von bore scoring Porsche",
+  "menu": "Riefenbildung in der Zylinderlaufbahn",
   "acordeones": [],
   "articulos": [
     "porsche-bore-scoring",
@@ -20,19 +20,60 @@
       "nivel": 2,
       "titulo": "Die Inspektion",
       "parrafos": [
-        "Ölverbrauch, Rauch und Klopfgeräusche beim Kaltstart können auf bore scoring hindeuten, bestätigen ihn aber nicht.",
-        "Diese wird mit einem Endoskop durch das Zündkerzenloch bei eingebautem Motor durchgeführt. Innerhalb eines Vormittags können wir feststellen, ob Riefen vorhanden sind, in welchen Zylindern und wie weit sie sich ausbreiten. Wir fordern diese Inspektion immer vor dem Kauf an: Sie ist der entscheidende Unterschied zwischen Preisverhandlungen und der späteren Entdeckung des Schadens.",
-        "Der Preis ist in der Preisliste zusammen mit den anderen Leistungen für dieses Modell aufgeführt."
+        "Ölverbrauch, Rauchentwicklung und Klopfen im kalten Zustand können auf bore scoringhindeuten, bestätigen dies aber nicht.",
+        "Diese erfolgt mit einem Endoskop durch das Zündkerzenloch bei eingebautem Motor. Innerhalb eines Vormittags können wir feststellen, ob Riefen vorhanden sind, in welchen Zylindern und wie weit sie reichen. Wir fordern diese Inspektion grundsätzlich vor dem Kauf an: Sie ist entscheidend, um den Preis zu verhandeln und den Schaden erst später zu entdecken.",
+        "Der Preis ist in der Preisliste zusammen mit den anderen Leistungen für das jeweilige Modell aufgeführt."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/9db493cf-916a8fab-8001-4a4f-a1e4-eb27e9eb77fd.jpg",
+          "alt": "Gebüchste Zylinder eines M97 Motorblocks mit sichtbarem Honbild"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Was wir tun: Bore scoring",
+      "titulo": "Bestätigung vor der Überholung",
       "parrafos": [
-        "Wir diagnostizieren Riefen in den Zylinderlaufbuchsen mittels Zylinderendoskopie (), ohne den Motor zu demontieren, und reparieren diese bei bereits entstandenen Schäden durch Einsetzen einer neuen Laufbuchse. Diese Prüfung ist eine Komplettleistung und unsere erste Empfehlung vor dem Kauf eines Motors der Typen M96 oder M97.",
-        "bore scoring betrifft Motoren der Typen, Boxster,, Cayman, und 911 sowie Motoren der Typen M96 und M97, die zwischen 1997 und 2008 hergestellt wurden. Es äußert sich durch vertikale Riefen an der Zylinderwand, meist im sechsten Zylinder, und schreitet fort, bis der Motor Öl verbraucht und Kompression verliert."
+        "Der bore scoring Geräusche, Ölverbrauch oder Rauchentwicklung müssen vor einer Motorüberholung durch Beweise bestätigt werden."
+      ],
+      "items": [
+        "Endoskopie aller sechs Zylinder.",
+        "Fotografien.",
+        "Öl- und Filteranalyse.",
+        "Gegebenenfalls.",
+        "Kompressionsprüfung.",
+        "Dichtheitsprüfung."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/dcbf95aa-a732127c-94e7-4e9e-b015-55dcf021fdef.jpg",
+          "alt": "Drei Zylinder eines M97 Blocks von der Zylinderkopfebene aus"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Welche Motoren und wie der Bericht ausfällt",
+      "parrafos": [
+        "Die Diagnose bezieht sich speziell auf Motoren, M96 und M97 von Boxster, Cayman und 911 die zwischen 1997 und 2008hergestellt wurden, und die Reparatur richtet sich nach dem festgestellten Schaden.",
+        "Oberflächenrisse, aktive Riefen und Kompressionsverlust rechtfertigen nicht die gleiche Beurteilung. Der Bericht dient dem Vergleich von Überwachung, Öffnung und Instandsetzung."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/f633dac8-c0c60ee1-551d-4566-8ae3-87a8d134b929.jpg",
+          "alt": "Detail einer fertig gebüchsten Zylinderlaufbahn neben der Gewindebohrung des Blocks"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Endoskopie ohne Demontage, ggf. Laufbuchsenwechsel",
+      "parrafos": [
+        "Wir diagnostizieren Riefen in der Zylinderlaufbuchse mittels Zylinderendoskopie, ohne den Motor zu demontieren, und reparieren diese durch Laufbuchsenwechsel, falls der Schaden bereits entstanden ist. Diese Prüfung ist eine Komplettleistung und wird vor dem Kauf eines Motors empfohlen, der M96 oder M97.",
+        "Der bore scoring betroffen ist Boxster, Cayman und 911 mit Motor M96 und M97 die zwischen 1997 und 2008. Der Schaden äußert sich als vertikale Riefen an der Zylinderwand, meist im sechsten Zylinder, und schreitet fort, bis der Motor Öl verbraucht und Kompression verliert."
       ],
       "items": [],
       "imagenes": []
@@ -41,8 +82,8 @@
       "nivel": 2,
       "titulo": "Die Reparatur",
       "parrafos": [
-        "Bei Riefenbildung ist die Lösung nicht das Aufbohren, sondern der Austausch der Zylinderlaufbuchse. Wir verbauen Laufbuchsen aus einer Nickel-Siliziumkarbid-Legierung, die härter als die originalen Lokasil-Zylinderlaufbuchsen sind, und nutzen die Gelegenheit, den restlichen Motorblock zu inspizieren, der zu diesem Zeitpunkt bereits geöffnet ist.",
-        "Bei vielen Motoren ist es sinnvoll, den Hubraum im Zuge der Öffnung des Motorblocks zu vergrößern: M97 3.8 wird ohne zusätzliche Arbeitskosten auf 4.0 erhöht, da die Arbeiten bereits durchgeführt sind."
+        "Bei Riefenbildung ist nicht das Aufbohren der Zylinder notwendig, sondern der Austausch der Zylinderlaufbuchse. Wir verwenden Laufbuchsen aus einer Nickel-Siliziumkarbid-Legierung, die härter als die originalen Lokasil-Buchsen sind, und nutzen die Gelegenheit, den restlichen Motorblock, der zu diesem Zeitpunkt bereits geöffnet ist, zu inspizieren.",
+        "Bei vielen Motoren ist es sinnvoll, den Hubraum im Zuge der ohnehin anstehenden Öffnung des Motorblocks zu vergrößern: Aus einem M97 3.8 wird ein 4.0 ohne zusätzliche Arbeitskosten, da die Arbeiten bereits durchgeführt sind."
       ],
       "items": [],
       "imagenes": []
@@ -56,25 +97,15 @@
         "Öl- und Filteranalyse.",
         "Kompressions- und Dichtigkeitsprüfung.",
         "Bericht mit Fotos aller Zylinder.",
-        "Kostenvoranschlag für Reparaturen, falls zutreffend, vor Beginn der Arbeiten."
+        "Kostenvoranschlag für die Reparatur (falls zutreffend) vor Beginn der Arbeiten."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Was Bore scoring nicht umfasst",
-      "parrafos": [],
-      "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Bore scoring sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ein dokumentierter Fall: Bore scoring",
+      "titulo": "Zylinderlaufbahn-Rissbefund, die Bilder liegen Ihnen vor",
       "parrafos": [
-        "Das Magazine zeigt die Arbeiten und die Fotos in <a href=\"/magazine/porsche-bore-scoring\">diesem dokumentierten Fall</a>."
+        "Das Magazin präsentiert die Arbeit und ihre Fotografien in <a href=\"/magazine/porsche-bore-scoring\">diesem dokumentierten Fall</a>."
       ],
       "items": [],
       "imagenes": [
@@ -86,42 +117,18 @@
     },
     {
       "nivel": 2,
-      "titulo": "Ausgangspunkt für Bore scoring",
+      "titulo": "Was Sie von der Untersuchung erhalten",
       "parrafos": [
-        "Wir bei Valentín Motors wissen, dass bore scoring nachweislich bestätigt werden muss, bevor Geräusche, Ölverbrauch oder Rauchentwicklung mit einer Motorüberholung in Verbindung gebracht werden. Daher konzentriert sich das Erstgespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Historie und die Erwartungen des Besitzers.",
-        "Die Begutachtung beginnt mit einer Endoskopie aller sechs Zylinder, der Anfertigung von Fotos, einer Öl- und Filteranalyse sowie gegebenenfalls Kompressions- und Dichtigkeitsprüfungen. Fehlen Informationen, werden die notwendigen Prüfungen angegeben, bevor eine Hypothese in einen Kostenvoranschlag umgewandelt wird."
+        "Bilder jedes Zylinders, eine klare Beurteilung und gegebenenfalls ein Kostenvoranschlag für die Zylinderlaufbuchsen und die Motorüberholung, bevor Arbeiten am Motor durchgeführt werden."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Umfang von Bore scoring festlegen",
+      "titulo": "Zugehörige Dienstleistungen",
       "parrafos": [
-        "Der Leistungsumfang ist bedarfsgerecht: Die Diagnose konzentriert sich speziell auf Motoren der Typen M96 und M97 der Baureihen Boxster, Cayman und 911, die zwischen 1997 und 2008 gefertigt wurden. Die Reparaturen werden anhand des festgestellten Schadens definiert. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verbergen von Symptomen und den Austausch von Baugruppen zu vermeiden, die noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung basiert auf folgenden Kriterien: Eine oberflächliche Markierung, aktives Kratzen und ein Kompressionsverlust rechtfertigen nicht dieselbe Entscheidung. Der Bericht dient dem Vergleich von Überwachung, Öffnung und Rekonstruktion. Sollte sich ein Befund ergeben, der die Anordnung ändert, wird dieser von den genehmigten Arbeiten getrennt und vor dem Fortfahren erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was der Eigentümer nach Bore scoring erhält",
-      "parrafos": [
-        "Dieser Bericht enthält Bilder von jedem Zylinder, eine detaillierte Beurteilung und, falls zutreffend, einen Kostenvoranschlag für Zylinderlaufbuchsen und Blockprüfung, bevor Arbeiten am Motor durchgeführt werden. Die abschließende Beschreibung sollte klar darlegen, was durchgeführt wurde, warum es durchgeführt wurde und was anschließend zu beobachten oder einzuplanen ist.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Verwandte Leistungen",
-      "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/taller-porsche/inspeccion-pre-compra\">Kaufberatung</a>, <a href=\"/taller-porsche/motores\">Motorüberholung</a> und <a href=\"/taller-porsche/tarifas\">Werkstatttarife</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/taller-porsche/inspeccion-pre-compra\">Gebrauchtwagenprüfung</a>, <a href=\"/taller-porsche/motores\">Motorüberholung</a>, <a href=\"/taller-porsche/tarifas\">Werkstattkosten</a>."
       ],
       "items": [],
       "imagenes": []
@@ -129,26 +136,24 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Ist eine Endoskopie reparaturbedürftig?",
       "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+        "Nein. Sie dient der Beurteilung des Zustands. Die Empfehlung hängt von der Tiefe und Ausdehnung des Riefenbefunds, den Symptomen und den Ergebnissen weiterer Untersuchungen ab."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Muss eine Endoskopie repariert werden?",
+      "titulo": "Ist eine Untersuchung vor dem Kauf ratsam?",
       "parrafos": [
-        "Nein. Die Funktion besteht darin, den Zustand anzuzeigen. Die Empfehlung hängt von der Tiefe und dem Ausmaß der Bewertung, den Symptomen und den Ergebnissen weiterer Tests ab."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Ist es ratsam, das Getriebe vor dem Kauf prüfen zu lassen?",
-      "parrafos": [
-        "Ja, für betroffene Familien. Das Ergebnis hilft bei der Entscheidung, ob man den Kauf fortsetzt, über den Preis verhandelt oder ein Budget für Reparaturen einplant."
+        "Ja, in betroffenen Familien. Das Ergebnis hilft bei der Entscheidung, ob der Kauf fortgesetzt, der Preis verhandelt oder Mittel für eine Behandlung bereitgestellt werden sollen."
       ],
       "items": [],
       "imagenes": []
@@ -159,8 +164,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 44,
-    "total": 44,
+    "hechas": 45,
+    "total": 45,
     "completa": true
   }
 }

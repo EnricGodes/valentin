@@ -13,36 +13,52 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Un entorn pensat per al cotxe",
+      "titulo": "Què li passa a un Porsche que no es mou",
       "parrafos": [
-        "Un 911 que passa diversos mesos sense circular necessita més que una plaça coberta.",
-        "A Valentin entenem que un Porsche requereix cures específiques durant els períodes en què no s'utilitza. Per això, el nostre servei de Storage ofereix un espai on estacionar-lo i un entorn dissenyat per conservar-lo adequadament, com un spa per a Porsche.",
-        "Aquest servei està pensat per a propietaris que necessiten alliberar espai al seu garatge, utilitzen el Porsche de forma ocasional, passen llargues temporades fora de la seva residència o desitgen conservar el seu vehicle en bon estat mentre no l'utilitzen. Les nostres instal·lacions són discretes, segures i compten amb vigilància les 24 hores del dia, cosa que aporta tranquil·litat.",
-        "A més de l'emmagatzematge, realitzem inspeccions periòdiques i manteniment preventiu, comprovem l'estat general del vehicle i apliquem les cures necessàries perquè es conservi en bones condicions mecàniques i estètiques. D'aquesta manera, quan decideixis tornar a conduir el Porsche, estarà preparat per circular.",
-        "Per 250 €/mes, oferim un servei que combina seguretat, conservació i atenció especialitzada com a alternativa a un aparcament convencional. Així mateix, posem a disposició dels nostres clients un protocol específic de cura, amb serveis opcionals adaptats a les necessitats de cada vehicle i propietari.",
-        "Taller Porsche independent al centre de Barcelona"
+        "Un cotxe aturat no es conserva sol. Els pneumàtics recolzen sempre sobre el mateix punt i acaben amb una deformació que es nota en tornar a rodar. La bateria es descarrega, i per sota un cert nivell ja no es recupera. El líquid de frens absorbeix humitat estigui el cotxe en marxa o no, i els discos s'oxiden per la cara de contacte així que l'ambient acompanya.",
+        "A això se suma el que no es veu des de fora: juntes i retens que s'assequen, combustible que envelleix al dipòsit i, en un garatge corrent, rosegadors. Gairebé res no s'arregla només quan el cotxe torna a arrencar."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/d137f571-IMG_9271.JPG",
+          "alt": "Dues persones conversen a la nau del centre de Leganés, amb un cotxe cobert al fons"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Què no inclou Storage",
-      "parrafos": [],
+      "titulo": "Què inclou el Storage",
+      "parrafos": [
+        "El servei existeix als dos centres, Barcelona i Madrid, i combina la plaça amb el seguiment del cotxe mentre està guardat. Les instal·lacions són discretes i estan vigilades les 24 hores, i sobre aquesta base s'aplica un protocol de cura amb opcions adaptades a cada unitat."
+      ],
       "items": [
-        "No inclou treballs aliens a l’abast acordat per a Storage.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
+        "Plaça a Barcelona oa Madrid, segons convingui el propietari.",
+        "Instal·lació discreta i vigilada les 24 hores.",
+        "Inspeccions periòdiques de l‟estat general del vehicle.",
+        "Manteniment preventiu segons el protocol acordat.",
+        "Serveis opcionals adaptats a la unitat i al propietari.",
+        "250 € al mes, com a alternativa a un aparcament convencional."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/959b9abb-267ce8a3-379d-4f4f-8229-25ce50c29b30.jpg",
+          "alt": "El 911 PA10 crema al costat d'un 911 vermell de sèrie F a la sala d'exposició"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Storage",
+      "titulo": "Què recordeu abans d'entrar",
       "parrafos": [
-        "El Storage Porsche resol períodes prolongats sense ús amb alguna cosa més que una plaça: seguiment de l'estat i accés a manteniment preventiu especialitzat. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de la durada prevista, la freqüència amb què el propietari vol disposar del cotxe, el seu historial recent i qualsevol necessitat mecànica o estètica pendent. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
+        "El Storage Porsche resol períodes perllongats sense ús amb alguna cosa més que una plaça: seguiment de l'estat i accés a manteniment preventiu especialitzat."
       ],
-      "items": [],
+      "items": [
+        "La durada prevista.",
+        "La freqüència amb què el propietari vol disposar del cotxe.",
+        "El seu historial recent.",
+        "Qualsevol necessitat mecànica o estètica pendent."
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/4c090daf-DSC00895.jpg",
@@ -52,28 +68,29 @@
     },
     {
       "nivel": 2,
-      "titulo": "Decidir l’abast de Storage",
+      "titulo": "Què no inclou",
       "parrafos": [
-        "L'abast es planteja de manera proporcional: el servei actual inclou instal·lacions discretes i vigilades les 24 hores, inspeccions periòdiques i un protocol de cures amb opcions adaptades a cada unitat. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: abans d'entrar-hi s'acorda quina atenció necessita el cotxe i quines feines opcionals requereixen autorització. El Storage no ha de convertir una revisió rutinària en una intervenció no sol·licitada. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
+        "Les inspeccions i el manteniment preventiu formen part del servei. Qualsevol reparació que aparegui durant una inspecció es valora i autoritza per separat abans de tocar-la.",
+        "És la mateixa regla que al taller: el Storage no converteix una revisió rutinària en una intervenció que ningú no ha demanat."
       ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cf185986-DSC03460.jpeg",
-          "alt": "L'equip de Valentín Motors al taller, davant de la sala de motors"
-        }
-      ]
+      "items": [],
+      "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Storage",
+      "titulo": "Quan no cal",
       "parrafos": [
-        "L'objectiu del lliurament és un Porsche conservat sota seguiment i preparat per tornar a circular segons el protocol acordat amb el propietari. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Si el cotxe surt cada dues o tres setmanes i dorm en un garatge sec i de temperatura estable, no necessites aquest servei: necessites un mantenidor de bateria i fer servir el cotxe.",
+        "El Storage té sentit quan la parada durarà mesos, quan el garatge disponible no acompanya o quan prefereixes que algú ho miri mentrestant i t'avisi abans que un detall es converteixi en una factura."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Com torna el cotxe",
+      "parrafos": [
+        "Un Porsche conservat sota seguiment i preparat per tornar a circular d'acord amb el protocol acordat amb el propietari."
       ],
       "items": [],
       "imagenes": []
@@ -82,7 +99,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/taller-porsche/mantenimiento\">manteniment Porsche</a>, <a href=\"/madrid\">centre de Madrid</a>, <a href=\"/contacto\">contacto</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, el treball pot coordinar-se amb <a href=\"/taller-porsche/mantenimiento\">manteniment Porsche</a>, <a href=\"/madrid\">centre de Madrid</a>, <a href=\"/contacto\">contacte</a>."
       ],
       "items": [],
       "imagenes": []
@@ -90,9 +107,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
@@ -120,8 +135,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 38,
+    "total": 38,
     "completa": true
   }
 }

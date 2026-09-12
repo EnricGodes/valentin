@@ -21,9 +21,9 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Què fem en Restauració integral",
+      "titulo": "Porsche sencers, amb el major grau d'originalitat",
       "parrafos": [
-        "Un 911 Sèrie F amb corrosió oculta no permet tancar l’abast definitiu abans del desmuntatge.",
+        "Un 911 Sèrie F amb corrosió oculta no permet tancar l'abast definitiu abans del desmuntatge.",
         "Restaurem Porsche sencers, buscant el major grau d'originalitat possible. La referència és el Certificate of Authenticity de Porsche: el document que diu amb quin color, quina tapisseria i quines opcions va sortir de fàbrica aquesta unitat concreta.",
         "Una restauració integral no és un pressupost, és una conversa. Abans de desmuntar res no recordem fins on arriba el projecte, perquè l'abast decideix el resultat i també el valor que tindrà el cotxe després."
       ],
@@ -40,6 +40,55 @@
         {
           "url": "/img/paginas/12f5f2b7-PHOTO-2021-03-02-09-27-07.jpg",
           "alt": "Motor 930 turbo 3.0 1988"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què es cataloga abans de desmuntar",
+      "parrafos": [
+        "Una restauració integral coordina carrosseria, mecànica, electricitat, interiors i documentació perquè cap disciplina corregeixi després el que una altra va decidir abans."
+      ],
+      "items": [
+        "Números i components.",
+        "Especificació de fàbrica.",
+        "Danys estructurals.",
+        "Corrosió.",
+        "Reparacions antigues.",
+        "Peces absents.",
+        "Viabilitat de recanvis."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/980a50f4-DSC00828.jpg",
+          "alt": "Interior d'un 911 sèrie G restaurat, amb tapisseria beix i seients de quadres"
+        },
+        {
+          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
+          "alt": "Rehabilitació completa motor 2.2 1970 sèrie F"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Conservar, reparar o substituir",
+      "parrafos": [
+        "El desmuntatge complet i la catalogació permeten separar conservació, reparació i substitució. L'abast es revisa quan apareixen zones que no es podien veure amb el cotxe muntat.",
+        "La referència pot ser el Certificate of Authenticity i la configuració d'origen, encara que un cotxe destinat a ús freqüent pot requerir decisions diferents d'una unitat de col·lecció."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
+          "alt": "Tauler d'un 911 clàssic amb els cinc rellotges i el volant de quatre radis"
+        },
+        {
+          "url": "/img/paginas/68b7e904-DSC00922.jpg",
+          "alt": "Tauler d'un 911 T vermell amb l'emblema del model sobre la guantera"
+        },
+        {
+          "url": "/img/paginas/64d909b1-mot-2.jpg",
+          "alt": "Rehabilitació completa motor 964 M64"
         }
       ]
     },
@@ -71,7 +120,7 @@
         "Carrosseria: xapa, tractament anticorrosió i pintura en colors originals.",
         "Motor i transmissió, a la sala de motors.",
         "Instal·lació elèctrica, frens, suspensió i direcció.",
-        "Interiors: tapisseria amb materials dèpoca.",
+        "Interiors: tapisseria amb materials d'època.",
         "Localització de peces, que en un cotxe de seixanta anys és mig projecte."
       ],
       "imagenes": [
@@ -84,61 +133,6 @@
           "alt": "Backdating 964 (2023)"
         }
       ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "El punt de partida de Restauració integral",
-      "parrafos": [
-        "Una restauració integral coordina carrosseria, mecànica, electricitat, interiors i documentació perquè cap disciplina corregeixi després el que una altra va decidir abans. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de números i components, especificació de fàbrica, danys estructurals, corrosió, reparacions antigues, peces absents i viabilitat de recanvis. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/980a50f4-DSC00828.jpg",
-          "alt": "Interior d'un 911 sèrie G restaurat, amb tapisseria beix i seients de quadres"
-        },
-        {
-          "url": "/img/paginas/8ca01a5d-motor-1.jpg",
-          "alt": "Rehabilitació completa motor 2.2 1970 sèrie F"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir l’abast de Restauració integral",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: el desmuntatge complet i la catalogació permeten separar conservació, reparació i substitució. L'abast es revisa quan apareixen zones que no es podien veure amb el cotxe muntat. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: la referència pot ser el Certificate of Authenticity i la configuració dorigen, encara que un cotxe destinat a ús freqüent pot requerir decisions diferents duna unitat de col·lecció. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/c9cf031b-188595103_372647310843086_5169088713134967750_n.jpg",
-          "alt": "Tauler d'un 911 clàssic amb els cinc rellotges i el volant de quatre radis"
-        },
-        {
-          "url": "/img/paginas/68b7e904-DSC00922.jpg",
-          "alt": "Tauler d'un 911 T vermell amb l'emblema del model sobre la guantera"
-        },
-        {
-          "url": "/img/paginas/64d909b1-mot-2.jpg",
-          "alt": "Rehabilitació completa motor 964 M64"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què no inclou Restauració integral",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Restauració integral.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
     },
     {
       "nivel": 2,
@@ -160,9 +154,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Un cas documentat: Restauració integral",
+      "titulo": "La restauració d'un 911 de 1965",
       "parrafos": [
-        "El Magazine mostra el treball i les fotografies a <a href=\"/magazine/restauracion-porsche-911-1965\">aquest cas documentat</a>."
+        "El Magazine mostra el treball i les seves fotografies a <a href=\"/magazine/restauracion-porsche-911-1965\">aquest cas documentat</a>."
       ],
       "items": [],
       "imagenes": [
@@ -174,10 +168,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Què queda en lliurar Restauració integral",
+      "titulo": "Què queda registrat",
       "parrafos": [
-        "L'objectiu del lliurament és un automòbil reconstruït amb un registre ordenat de procés, peces i decisions, i provat com un conjunt abans de considerar-lo acabat. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Un automòbil reconstruït amb un registre ordenat de procés, peces i decisions, i provat com un conjunt abans de considerar-lo acabat."
       ],
       "items": [],
       "imagenes": [
@@ -195,7 +188,7 @@
       "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, el treball es pot coordinar amb <a href=\"/restauraciones\">restauracions Porsche</a>, <a href=\"/sala-motores\">sala de motors</a>, <a href=\"/taller-porsche/pintura-carroceria\">chapa i pintura</a>. Cada pàgina explica l'abast específic abans de demanar una cita."
+        "Segons l'estat i l'objectiu del cotxe, el treball pot coordinar-se amb <a href=\"/restauraciones\">restauracions Porsche</a>, <a href=\"/sala-motores\">sala de motors</a>, <a href=\"/taller-porsche/pintura-carroceria\">xapa i pintura</a>."
       ],
       "items": [],
       "imagenes": [
@@ -212,9 +205,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -251,8 +242,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 64,
-    "total": 64,
+    "hechas": 63,
+    "total": 63,
     "completa": true
   }
 }

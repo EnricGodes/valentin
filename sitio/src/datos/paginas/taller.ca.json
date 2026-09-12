@@ -4,7 +4,7 @@
   "ficheroOriginal": "taller-porsche",
   "meta": {
     "titulo": "Taller Porsche Barcelona i Madrid · Valentín Motors",
-    "descripcion": "Taller Porsche independent des de 1979 a Barcelona i Madrid: manteniment, motors, caixes de canvis, IMS i bore scoring A Barcelona i Madrid.",
+    "descripcion": "Taller Porsche independent des de 1979 a Barcelona i Madrid: manteniment, motors, caixes de canvis, IMS i bore scoring.",
     "ogImagen": ""
   },
   "h1": "Taller Porsche independent a Barcelona i Madrid",
@@ -15,9 +15,9 @@
       "nivel": 2,
       "titulo": "Especialistes en vehicles Porsche des de 1979",
       "parrafos": [
-        "Un 911 996 amb consum d’oli no demana el mateix diagnòstic que un 964 amb una marxa que rasca.",
+        "Un 911 996 amb consum d'oli no demana el mateix diagnòstic que un 964 amb una marxa que rasca.",
         "Valentín Motors és un dels principals especialistes independents Porsche al territori nacional.",
-        "Establert a 1979 com a especialista en servei, vendes i restauració, el taller ha crescut fins a convertir-se en un referent, amb instal·lacions de més de 1.300 m² al centre de Barcelona i més de 2.500 m² de servei integral a Leganés (Madrid), dissenyades per a l'atenció al client.",
+        "Establert a 1979 com a especialista en servei, vendes i restauració, el taller ha crescut fins a convertir-se en un referent, amb instal·lacions de més de 1.300 m² al centre de Barcelona i més de 2.500 m² de servei integral a Leganés.",
         "A més del servei de taller i manteniment, comptem amb departaments especialitzats en projectes i restauracions, reconstruccions de motors i transmissions, preparacions de motorsport, track days i un ampli catàleg de personalitzacions amb la firma alemanya TECHART.",
         "El departament de vendes ha evolucionat en les darreres dues dècades i s'especialitza principalment en la venda de la gamma 911. El nostre equip comercial està format per experts del sector apassionats per tot allò relacionat amb Porsche."
       ],
@@ -37,6 +37,65 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què es mira abans de recomanar",
+      "parrafos": [
+        "Un taller Porsche ha de relacionar el símptoma, la generació i l'ús del cotxe abans de recomanar manteniment, diagnòstic o reparació."
+      ],
+      "items": [
+        "L'historial documentat.",
+        "La versió.",
+        "El quilometratge.",
+        "Les intervencions anteriors.",
+        "La lectura del cotxe.",
+        "Les proves.",
+        "L´estat dels components."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/paginas/d4f2af8a-911.jpg",
+          "alt": "Manteniment Porsche 911"
+        },
+        {
+          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+          "alt": "Porsche IMS"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què se separa en un pressupost",
+      "parrafos": [
+        "Un pressupost que ho barreja tot obliga a decidir cegues."
+      ],
+      "items": [
+        "Allò urgent: el que afecta la seguretat o empitjora si es deixa.",
+        "El que és preventiu: el que toca per temps, quilòmetres o historial.",
+        "Allò opcional: el que millora el cotxe i pot esperar.",
+        "Allò que s'ha descartat, i per què s'ha descartat."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Urgent, preventiu i opcional",
+      "parrafos": [
+        "Els centres de Barcelona i Madrid cobreixen manteniment, motors, caixes de canvis, IMS, bore scoring, inspecció pre-compra, xapa i pintura, Storage i preparació.",
+        "Primer se separa allò urgent, allò preventiu i allò opcional. El pressupost ha d'explicar quina evidència sosté cada recomanació i quines conseqüències té ajornar-la."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/914dbdfc-cayman-boxster.jpg",
+          "alt": "Porsche atès al taller especialitzat, imatge 2"
+        },
+        {
+          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+          "alt": "Porsche Bore Scoring"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -85,7 +144,7 @@
       "nivel": 2,
       "titulo": "Inspecció de vehicles precompra",
       "parrafos": [
-        "Si heu localitzat un automòbil Porsche que voleu adquirir, podem realitzar una avaluació completa del vostre estat prèvia a la compra, comprovant l'estat actual de la unitat i estudiant el vostre historial. D'aquesta manera, verifiquem si l'oferta del venedor és adequada i no amaga problemes. La inspecció es pot fer a el nostre taller de Barcelona o desplaçant-nos dins del territori nacional oa l'estranger. Limport de la inspecció precompra és de 250 € + IVA."
+        "Si has localitzat un automòbil Porsche que vols adquirir, podem fer una avaluació completa del seu estat prèvia a la compra, comprovant l'estat actual de la unitat i estudiant el seu historial. D'aquesta manera, verifiquem si l'oferta del venedor és adequada i no amaga problemes. La inspecció es pot fer al nostre taller de Barcelona o desplaçant-nos dins del territori nacional oa l'estranger. L'import de la inspecció precompra és de 250 € + IVA."
       ],
       "items": [],
       "imagenes": [
@@ -111,9 +170,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Reparacions Bore Scoring",
+      "titulo": "Reparacions de bore scoring",
       "parrafos": [
-        "Tenim una àmplia experiència aplicant manteniments preventius, diagnosticant i resolent els problemes derivats del Bore Scoring."
+        "Tenim una àmplia experiència aplicant manteniments preventius, diagnosticant i resolent els problemes derivats del bore scoring."
       ],
       "items": [],
       "imagenes": [
@@ -127,7 +186,7 @@
       "nivel": 2,
       "titulo": "Pintura i carrosseria d'alta gamma",
       "parrafos": [
-        "Reparació i pintura de carrosseries segons les especificacions de Porsche: colors originals conforme al nou sistema de codis de pintura. Tractaments estètics per protegir la carrosseria de la corrosió mitjançant mètodes contemporanis. Preparació del vehicle mitjançant el mesurament dels espais intersticials, el desmuntatge de motllures i peces accessòries, la catalogació i el cromat d'accessoris, etc."
+        "Reparació i pintura de carrosseries segons les especificacions de Porsche: colors originals d'acord amb el nou sistema de codis de pintura. Tractaments estètics per protegir la carrosseria de la corrosió mitjançant mètodes contemporanis. Preparació del vehicle mitjançant el mesurament dels espais intersticials, el desmuntatge de motllures i peces accessòries, la catalogació i el cromat d'accessoris, etc."
       ],
       "items": [],
       "imagenes": [
@@ -186,7 +245,7 @@
       "nivel": 3,
       "titulo": "Models Cayenne i Macan",
       "parrafos": [
-        "Serveis per als models Cayenne Diesel, Cayenne Diesel S, Macan, Macan GTS, Macan S, Macan Turbo i Macan Diesel."
+        "Serveis per als models Cayenne Dièsel, Cayenne Diesel S, Macan, Macan GTS, Macan S, Macan Turbo i Macan Dièsel."
       ],
       "items": [],
       "imagenes": []
@@ -195,7 +254,7 @@
       "nivel": 3,
       "titulo": "Models Turbo",
       "parrafos": [
-        "Serveis per als models 930 Turbo, 964 3.3 Turbo, 964 3.6 Turbo, 993 Turbo, 996 Turbo, 997.1 Turbo, 997.2 Turbo, 991.1 Turbo, 991.2 Turbo i 992 Turbo."
+        "Serveis pels models 930 Turbo, 964 3.3 Turbo, 964 3.6 Turbo, 993 Turbo, 996997.1 Turbo, 997.2 Turbo, 991.1 Turbo, 991.2 Turbo i 992 Turbo."
       ],
       "items": [],
       "imagenes": []
@@ -204,68 +263,16 @@
       "nivel": 3,
       "titulo": "Models Transaxle",
       "parrafos": [
-        "Serveis per als models 924, 944, 968 i 928."
+        "Serveis pels models 924, 944, 968 i 928."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "El punt de partida de Taller Porsche",
+      "titulo": "Com es documenta cada intervenció",
       "parrafos": [
-        "Un taller Porsche ha de relacionar el símptoma, la generació i l'ús del cotxe abans de recomanar manteniment, diagnòstic o reparació. Per això la primera conversa no se centra en un catàleg de feines, sinó al cotxe, el seu historial i el resultat que espera el seu propietari.",
-        "La valoració parteix de l'historial documentat, la versió, el quilometratge, les intervencions anteriors, la lectura del cotxe, les proves i l'estat dels components. Quan falta informació, s'indica quina comprovació cal per obtenir abans de convertir una hipòtesi en un pressupost."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/d4f2af8a-911.jpg",
-          "alt": "Manteniment Porsche 911"
-        },
-        {
-          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
-          "alt": "Porsche IMS"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Decidir l’abast de Taller Porsche",
-      "parrafos": [
-        "L'abast es planteja de manera proporcional: els centres de Barcelona i Madrid cobreixen manteniment, motors, caixes de canvis, IMS, bore scoring, inspecció precompra, xapa i pintura, Storage i preparació. Les tasques s'ordenen per no desmuntar dues vegades, no amagar un símptoma i no substituir un conjunt quan encara es pot diagnosticar o reparar.",
-        "La decisió tècnica es pren amb aquest criteri: primer se separa allò urgent, allò preventiu i allò opcional. El pressupost ha d'explicar quina evidència sosté cada recomanació i quines conseqüències té ajornar-la. Si apareix una troballa que modifica l'encàrrec, se separa de la feina aprovada i s'explica abans de continuar."
-      ],
-      "items": [
-        "Estat de partida i documentació disponible.",
-        "Comprovacions necessàries abans d'intervenir-hi."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/914dbdfc-cayman-boxster.jpg",
-          "alt": "Porsche atès al taller especialitzat, imatge 2"
-        },
-        {
-          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
-          "alt": "Porsche Bore Scoring"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què no inclou Taller Porsche",
-      "parrafos": [],
-      "items": [
-        "No inclou treballs aliens a l’abast acordat per a Taller Porsche.",
-        "Qualsevol ampliació es comprova i s’autoritza per separat."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Què queda en lliurar Taller Porsche",
-      "parrafos": [
-        "L'objectiu del lliurament és una intervenció delimitada i enregistrada, amb un interlocutor tècnic i amb la possibilitat de derivar internament els treballs de motor, transmissió o carrosseria. L'explicació final ha de permetre entendre què s'ha fet, per què s'ha fet i què cal observar o programar després.",
-        "També assenyalem les limitacions del treball. Una inspecció descriu l'estat observat; un manteniment no corregeix per si mateix una avaria; i una restauració no s'ha de donar per tancada fins a comprovar el cotxe com a conjunt."
+        "Una intervenció delimitada i registrada, amb un interlocutor tècnic i amb la possibilitat de derivar internament els treballs de motor, transmissió o carrosseria."
       ],
       "items": [],
       "imagenes": [
@@ -277,19 +284,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Com preparar la primera consulta en Taller Porsche",
-      "parrafos": [
-        "Per orientar la consulta cal facilitar el model, la versió, l'any, el número de bastidor quan sigui rellevant i l'historial disponible. Si hi ha un símptoma, és útil descriure quan apareix, amb el motor fred o calent, sota càrrega o en retenció, i si ha canviat recentment.",
-        "Les factures, fotografies i diagnòstics anteriors ajuden a evitar repeticions, encara que no substitueixen una comprovació actual. Amb aquesta informació es decideix si n'hi ha prou amb una cita d'inspecció, si s'ha de traslladar el cotxe o si es pot rebre únicament el component."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Serveis relacionats",
       "parrafos": [
-        "Segons l’estat i l’objectiu del cotxe, el treball es pot coordinar amb el <a href=\"/taller-porsche/mantenimiento\">manteniment</a>, la <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció precompra</a>, la <a href=\"/sala-motores\">sala de motors</a> i les <a href=\"/taller-porsche/tarifas\">tarifes</a>. Cada pàgina explica l’abast específic abans de demanar cita."
+        "Segons l'estat i l'objectiu del cotxe, el treball pot coordinar-se amb <a href=\"/taller-porsche/mantenimiento\">manteniment</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a>, <a href=\"/sala-motores\">sala de motors</a> <a href=\"/taller-porsche/tarifas\">tarifes</a>."
       ],
       "items": [],
       "imagenes": [
@@ -302,9 +299,7 @@
     {
       "nivel": 2,
       "titulo": "Preguntes freqüents",
-      "parrafos": [
-        "Aquestes respostes ajuden a preparar la consulta. La recomanació definitiva depèn de la unitat i l'evidència disponible."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -317,7 +312,7 @@
       "nivel": 3,
       "titulo": "Treballeu Porsche clàssics i actuals?",
       "parrafos": [
-        "Sí. L'oferta publicada abasta des de 356 i 911 refrigerats per aire fins a generacions actuals, a més de Boxster, Cayman, Cayenne, Macan i models transaxle."
+        "Sí. L'oferta publicada abasta des de 356 i 911 refrigerats per aire fins a generacions actuals, a més de Boxster, Cayman, Cayenne, Macantransaxle."
       ],
       "items": [],
       "imagenes": []
@@ -337,8 +332,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 82,
-    "total": 82,
+    "hechas": 84,
+    "total": 84,
     "completa": true
   }
 }

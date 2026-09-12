@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Ispezione pre-acquisto Porsche · Valentín Motors",
-    "descripcion": "Ispezione pre-acquisto Porsche con controllo meccanico, storico, carrozzeria e prove specifiche, in officina o sul posto.",
+    "titulo": "Ispezione pre-acquisto Porsche Valentín Motors",
+    "descripcion": "Ispezione pre-acquisto Porsche con revisione meccanica, verifica dello storico, ispezione della carrozzeria e test specifici, in officina o in loco.",
     "ogImagen": ""
   },
-  "h1": "Ispezione pre-acquisto per una decisione consapevole",
+  "h1": "Ispezione pre-acquisto per prendere una decisione basata sui dati",
   "menu": "Ispezione pre-acquisto",
   "acordeones": [],
   "articulos": [
@@ -18,58 +18,45 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Cosa controlliamo",
+      "titulo": "Cosa controllare",
       "parrafos": [
-        "Una 911 996 o 997 può nascondere un intervento IMS ancora da eseguire o bore scoring anche se annuncio e storico sembrano corretti."
+        "Una 911 996 o 997 potrebbe nascondere un IMS problema preesistente o bore scoring anche se l'annuncio e la cronologia sembrano corretti."
       ],
       "items": [
-        "Documentazione: proprietà, gravami, storico di radiazione e ITV.",
-        "Corrispondenza del chilometraggio con il libretto di manutenzione e lo strumento di diagnostica del veicolo.",
-        "Condizioni del motore e della trasmissione, incluso un test su strada.",
-        "Endoscopia dei cilindri nei motori a rischio di bore scoring.",
-        "Condizioni di IMS nei motori M96 e M97 interessati.",
+        "Documentazione: proprietà, gravami, storico delle radiazioni e certificato di revisione/controllo del veicolo.",
+        "Corrispondenza del chilometraggio con il libretto di manutenzione e la centralina.",
+        "Condizioni del motore e della trasmissione, con prova su strada.",
+        "Ispezione della testata sui motori a rischio di bore scoring.",
+        "Condizioni del IMS sui M96 e M97 motori interessati.",
         "Carrozzeria: fessure, spessore della vernice e segni di riparazione.",
         "Relazione scritta con fotografie e una chiara raccomandazione."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/2e4ded03-WhatsApp-Image-2025-06-10-at-14.17.43.jpeg",
+          "alt": "Controllo con comparatore sul motore 3.2 serie G"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Cosa non comprende Ispezione pre-acquisto",
-      "parrafos": [],
+      "titulo": "Dall'annuncio alla verifica",
+      "parrafos": [
+        "Un'ispezione pre-acquisto trasforma le affermazioni contenute nell'annuncio e nella cronologia in verifiche dell'auto prima di impegnarsi su un prezzo."
+      ],
       "items": [
-        "Non comprende lavori estranei all’ambito concordato per Ispezione pre-acquisto.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
+        "Documentazione.",
+        "Provenienza.",
+        "Chilometraggio.",
+        "Manutenzione.",
+        "Diagnosi.",
+        "Motore.",
+        "Cambio.",
+        "Prova su strada.",
+        "Carrozzeria.",
+        "Verniciatura.",
+        "Rischi specifici del modello."
       ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Prima di negoziare, non dopo.",
-      "parrafos": [
-        "L'ispezione è importante prima di finalizzare il prezzo perché ciò che si riscontra è oggetto di negoziazione. Un IMS intatto o un graffio nel sesto cilindro non sono sempre un motivo per non acquistare; È quasi sempre un motivo per pagare di meno."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa facciamo: Ispezione pre-acquisto",
-      "parrafos": [
-        "Valutiamo l'auto che stai pensando di acquistare: condizioni meccaniche, condizioni della carrozzeria, storico documentato e confronto tra le informazioni pubblicizzate e le reali condizioni del veicolo. Questo può essere fatto presso la nostra officina o recandoci sul posto, in Spagna o all'estero.",
-        "Questo è il servizio che Le fa risparmiare di più ed è il meno richiesto."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Da dove inizia Ispezione pre-acquisto",
-      "parrafos": [
-        "Un'ispezione pre-acquisto trasforma le affermazioni presenti nell'annuncio e la cronologia del veicolo in verifiche concrete sull'auto prima di impegnarsi su un prezzo. Ecco perché la nostra conversazione iniziale non si concentra su un elenco di servizi, ma piuttosto sull'auto stessa, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione si basa su documentazione, origine, chilometraggio, manutenzione, diagnostica, motore, cambio, prova su strada, carrozzeria, verniciatura e rischi specifici del modello. In caso di informazioni mancanti, vengono indicati i controlli necessari per ottenerle prima di convertire un'ipotesi in un preventivo."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
@@ -79,23 +66,48 @@
     },
     {
       "nivel": 2,
-      "titulo": "Definire l’ambito di Ispezione pre-acquisto",
+      "titulo": "Presso l'officina o ovunque si trovi l'auto.",
       "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: può essere eseguito in officina o recandosi presso il luogo in cui si trova il veicolo, in Spagna o all'estero, a seconda del servizio descritto. Le attività vengono prioritarie per evitare doppi smontaggi, occultamento di sintomi e sostituzione di un componente quando è ancora diagnosticabile o riparabile.",
-        "La decisione tecnica viene presa in base a questo criterio: un difetto non comporta automaticamente il rifiuto. Il rapporto distingue tra manutenzione ordinaria, rischio, riparazioni in sospeso e segni che mettono in dubbio l'identità o la descrizione del veicolo. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+        "La diagnosi può essere effettuata presso l'officina o recandosi presso il luogo in cui si trova il veicolo, in Spagna o all'estero, a seconda del servizio descritto.",
+        "Un difetto non comporta automaticamente il rifiuto del veicolo. Il rapporto distingue tra manutenzione ordinaria, rischi, riparazioni in sospeso e segni che mettono in dubbio l'identità o la descrizione dell'auto."
       ],
-      "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/b8f9a25c-WhatsApp-Image-2025-06-10-at-15.38.11.jpeg",
+          "alt": "Misurazione di un cilindro del 3.2 serie G prima del montaggio"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Prima di negoziare, non dopo",
+      "parrafos": [
+        "L'ispezione è importante prima di finalizzare il prezzo, perché ciò che si riscontra diventa parte della negoziazione. IMS"
       ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/3ebd1ae2-foto-5.jpg",
+          "alt": "Coppa dell'olio dell'M96 pulita, sul foglio delle misure del motore"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Confronto tra l'annuncio e l'auto",
+      "parrafos": [
+        "Valutiamo l'auto che stai pensando di acquistare: condizioni meccaniche, condizioni della carrozzeria, storico documentato e confronto tra quanto riportato nell'annuncio e l'auto reale. Questa valutazione viene effettuata presso la nostra officina o recandoci sul posto, in Spagna o all'estero.",
+        "È il servizio che consente di risparmiare di più fra tutti quelli che offriamo, ed è anche il meno richiesto."
+      ],
+      "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo Ispezione pre-acquisto",
+      "titulo": "Una relazione per la negoziazione",
       "parrafos": [
-        "Lo scopo della consegna è un rapporto scritto con fotografie e una chiara raccomandazione di negoziare, procedere con ulteriori verifiche o rinunciare all'acquisto. La spiegazione finale dovrebbe chiarire cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "Una relazione scritta con fotografie e una chiara raccomandazione per la negoziazione, ulteriori verifiche o il ritiro prima dell'acquisto."
       ],
       "items": [],
       "imagenes": []
@@ -104,7 +116,7 @@
       "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/taller-porsche/bore-scoring\">diagnosi del bore scoring</a>, <a href=\"/herramientas/calculadora-ims-porsche\">calcolatore IMS</a> e <a href=\"/porsche-en-venta\">Porsche in vendita</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/taller-porsche/bore-scoring\">Diagnosi di bore scoring</a>, <a href=\"/herramientas/calculadora-ims-porsche\">Calcolatore IMS</a>, <a href=\"/porsche-en-venta\">Porsche in vendita</a>."
       ],
       "items": [],
       "imagenes": []
@@ -112,26 +124,24 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Sostituisce lo storico della manutenzione?",
       "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
+        "No. Lo confronta. Una cronologia completa degli interventi di manutenzione migliora il contesto, ma da sola non dimostra le condizioni attuali o la qualità delle riparazioni precedenti."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Sostituisce lo storico dei tagliandi?",
+      "titulo": "Quali test specifici potrebbero essere necessari? M96 o M97?",
       "parrafos": [
-        "No. La integra. Uno storico completo degli interventi di manutenzione fornisce un contesto, ma da solo non dimostra le condizioni attuali o la qualità delle riparazioni precedenti."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Quali test specifici potrebbero essere necessari per un motore M96 o M97?",
-      "parrafos": [
-        "A seconda del modello e dell'anno di produzione, è consigliabile ispezionare il motore IMS ed eseguire un'endoscopia dei cilindri per valutare il motore bore scoring prima di finalizzare l'acquisto."
+        "A seconda del modello e dell'anno, è consigliabile controllare il IMS ed eseguire un'endoscopia dei cilindri per valutare bore scoring prima di finalizzare l'acquisto."
       ],
       "items": [],
       "imagenes": []
@@ -142,8 +152,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 40,
-    "total": 40,
+    "hechas": 46,
+    "total": 46,
     "completa": true
   }
 }

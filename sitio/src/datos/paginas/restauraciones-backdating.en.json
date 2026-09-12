@@ -3,11 +3,11 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Porsche Backdating 911 · Valentín Motors",
-    "descripcion": "Porsche 911 backdating on a suitable base, with technical definition, classic aesthetics, real-world use and prior homologation assessment.",
+    "titulo": "Porsche 911 Backdating · Valentín Motors",
+    "descripcion": "Porsche 911 backdating based on a suitable platform, featuring technical specifications, classic aesthetics, suitability for real-world driving, and a preliminary homologation assessment.",
     "ogImagen": ""
   },
-  "h1": "Porsche Backdating 911 designed for driving",
+  "h1": "Porsche 911 backdating designed to be driven",
   "menu": "Backdating",
   "acordeones": [],
   "articulos": [
@@ -17,62 +17,84 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "What is a backdating?",
+      "titulo": "What is backdating?",
       "parrafos": [
-        "A backdating gives a 911 the aesthetic of an earlier generation while retaining its own mechanical underpinnings. The concept is to combine the lines of a 1970s car with the handling, braking, and reliability of a 1990s model.",
-        "It works because air-cooled 911 models shared the same architecture and dimensions for nearly thirty years. What might be a mere \"costume\" on another brand is a genuine fit here."
+        "A backdating brings it closer to 911 the look of an earlier generation while retaining the mechanics of its own. The idea is to have the styling of a 1970s car with the handling, brakes, and reliability of a 1990s model.",
+        "It works because the air-cooled 911 models shared the same architecture and dimensions for nearly thirty years. What would be a mere disguise for another brand is a genuine fit here."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/7c7a3934-IMG_1221.jpg",
+          "alt": "The 964-based backdated 911 in British racing green, front three-quarter"
+        }
+      ]
     },
     {
       "nivel": 2,
       "titulo": "Why the 964 is the best base",
       "parrafos": [
-        "The 964 features a body with the right proportions, modern mechanics suited to real-world use, and ample market availability. Starting with this foundation, one can achieve remarkable results without destroying a rare car in the process.",
-        "A SC with air conditioning, or with a 3.2 engine? It is possible. Each backdating is defined component by component, and must always be road-legal: a car that cannot be registered is not a car,it is a sculpture."
+        "The 964 features a body with the right proportions, modern mechanics suited to real-world use, and ample market availability. You can go a long way with this platform without destroying a rare car in the process.",
+        "An SC with air conditioning, or with a 3.2 engine? It’s possible. Each backdating project is defined part by part, and must always be road-legal: a car that cannot be registered isn't a car—it’s a sculpture."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/f6907ec0-ea423040-5a72-49e9-bbd4-7a3ae5965a21.jpg",
+          "alt": "Front of the midnight blue Porsche 964 with round headlights and three-piece wheels"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "What makes it work",
+      "parrafos": [
+        "A backdating must appear as a coherent interpretation of a previous 911 while simultaneously retaining the advantages of the base chosen for actual use."
+      ],
+      "items": [
+        "The starting generation.",
+        "Its structural and mechanical condition.",
+        "The configuration to be recreated.",
+        "Reversibility.",
+        "Homologation requirements."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/e39b8eec-IMG_1224.jpg",
+          "alt": "The green backdated 911 in rear three-quarter, on Fuchs wheels"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "The scope of the project.",
+      "parrafos": [
+        "Bodywork, lighting, interior, wheels, suspension, and engine can all be part of the project, but not every car requires the same level of modification.",
+        "The 964 typically offers a suitable architecture, but the best starting point is a sound, well-documented unit that allows the goal to be achieved without sacrificing a unique example."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Where Backdating starts",
+      "titulo": "What is lost and what is gained.",
       "parrafos": [
-        "A backdating must appear as a coherent interpretation of an earlier 911 while retaining the advantages of the chosen base vehicle for actual use. That is why our initial conversation focuses not on a service menu, but on the car itself, its history, and the outcome the owner envisions.",
-        "The assessment is based on the donor generation, its structural and mechanical condition, the desired configuration, reversibility, and homologation requirements. When information is missing, the necessary checks to obtain it are specified before a hypothesis is converted into a cost estimate."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Defining the scope of Backdating",
-      "parrafos": [
-        "The scope of work is determined on a proportional basis: bodywork, lighting, interior, wheels, suspension, and engine may all be part of the job, yet not every car requires the same level of modification. Tasks are sequenced to avoid repeated disassembly, ensure symptoms are not masked, and prevent the replacement of an assembly that could still be diagnosed or repaired.",
-        "The technical decision is made based on this criterion: the 964 typically offers a suitable architecture, but the best starting point is a sound, well-documented unit that allows the objective to be met without sacrificing a rare or unique example. If a discovery arises that alters the scope of the commission, it is set apart from the approved work and explained before proceeding."
+        "A backdating project transforms the car in both directions, and both aspects are defined before work begins."
       ],
       "items": [
-        "Initial condition and available documentation.",
-        "Necessary checks prior to intervention."
+        "You gain the aesthetic appeal and—depending on the scope—improvements in weight and responsiveness.",
+        "Factory originality—and the value derived from it—is lost.",
+        "Homologation determines what is road-legal and what is not.",
+        "Reversible work is more complex to execute than permanent modifications.",
+        "The result is judged by coherence, not by the number of period-correct parts."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "What Backdating does not include",
-      "parrafos": [],
-      "items": [
-        "It does not include work outside the agreed scope for Backdating.",
-        "Any extension is checked and authorised separately."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "A documented case: Backdating",
+      "titulo": "A backdating project based on the 964",
       "parrafos": [
-        "The Magazine shows the work and its photographs in <a href=\"/magazine/backdating-base-964\">this documented case</a>."
+        "The magazine showcases the work and photos in <a href=\"/magazine/backdating-base-964\">this documented case study</a>."
       ],
       "items": [],
       "imagenes": [
@@ -84,10 +106,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "What the owner receives after Backdating",
+      "titulo": "A coherent car, not a costume",
       "parrafos": [
-        "The finished project is defined by its specifications, featuring an appearance, driving dynamics, and finish quality that form a cohesive whole. The final explanation ensures an understanding of what was done, why it was done, and what should be monitored or scheduled for future attention.",
-        "We also outline the limitations of the work. An inspection describes the observed condition; maintenance does not, in itself, fix a breakdown; and a restoration should not be considered complete until the car has been tested as a whole."
+        "A project defined by its specifications, featuring an appearance, driving dynamics, and finishes that all speak the same language."
       ],
       "items": [],
       "imagenes": []
@@ -96,7 +117,7 @@
       "nivel": 2,
       "titulo": "Related services",
       "parrafos": [
-        "Depending on the car's condition and the desired outcome, the work can be coordinated with <a href=\"/restauraciones/proyectos-y-diseno\">projects and design</a>, <a href=\"/restauraciones/integrales\">comprehensive restoration</a>, or <a href=\"/taller-porsche/pintura-carroceria\">bodywork and paint</a>. Each page explains the specific scope of work prior to booking an appointment."
+        "Depending on the car's condition and the project goals, the work can be coordinated with <a href=\"/restauraciones/proyectos-y-diseno\">design and planning</a>, <a href=\"/restauraciones/integrales\">full restoration</a>, and <a href=\"/taller-porsche/pintura-carroceria\">bodywork and paint</a>."
       ],
       "items": [],
       "imagenes": []
@@ -104,26 +125,24 @@
     {
       "nivel": 2,
       "titulo": "Frequently asked questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Must you always start with a 964?",
       "parrafos": [
-        "These answers help prepare for your consultation. Final recommendations depend on the specific vehicle and available evidence."
+        "No. The base vehicle is chosen based on its condition, architecture, value, and the project's objectives. While the 964 is a common choice, it does not replace the need to analyze the specific unit in question."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Is it always necessary to start with a 964?",
+      "titulo": "Is homologation considered at the end?",
       "parrafos": [
-        "No. The basis is selected according to its condition, architecture, value, and purpose. The 964 is common, but it does not replace the analysis of the specific unit."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Is regulatory approval considered only at the end?",
-      "parrafos": [
-        "It shouldn't be. Modifications with legal implications are identified during the design phase to avoid having to rework parts or ending up with a configuration that cannot be road-registered."
+        "It shouldn't be. Modifications with legal implications are identified during the design phase to avoid having to remake parts or ending up with a configuration that cannot be registered for road use."
       ],
       "items": [],
       "imagenes": []
@@ -134,8 +153,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 41,
+    "total": 41,
     "completa": true
   }
 }

@@ -3,7 +3,7 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Assistenza tecnica Porsche nazionale · Valentín Motors",
+    "titulo": "Assistenza tecnica Porsche nazionale Valentín Motors",
     "descripcion": "Assistenza tecnica Porsche in tutta la Spagna, ritiro auto e motore, assistenza a distanza e consulenza specializzata per altre officine.",
     "ogImagen": ""
   },
@@ -13,41 +13,47 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Cosa facciamo: Assistenza tecnica",
+      "titulo": "Il motore viaggia, l'auto non ha bisogno di essere trasportata",
       "parrafos": [
-        "Un motore M96 può essere spedito da qualsiasi punto della Spagna senza trasferire l’auto completa.",
-        "Offriamo assistenza tecnica in tutta la Spagna da entrambe le nostre sedi. Ritiriamo auto e motori ovunque si trovino e, per i problemi che non richiedono il trasporto dell'intera vettura, li risolviamo da remoto."
+        "Un motore M96 Può viaggiare da qualsiasi località della Spagna senza che sia necessario trasportare l'intera auto.",
+        "Forniamo assistenza tecnica in tutta la Spagna da entrambe le sedi. Ritiriamo auto e motori ovunque si trovino e, per i problemi che non richiedono il trasporto dell'intera vettura, li risolviamo da remoto."
       ],
       "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Cosa non comprende Assistenza tecnica",
-      "parrafos": [],
-      "items": [
-        "Non comprende lavori estranei all’ambito concordato per Assistenza tecnica.",
-        "Qualsiasi estensione viene verificata e autorizzata separatamente."
-      ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/d137f571-IMG_9271.JPG",
+          "alt": "Due persone conversano nel capannone di Leganés, con un'auto coperta sullo sfondo"
+        }
+      ]
     },
     {
       "nivel": 2,
       "titulo": "Consulenza per altre officine",
       "parrafos": [
-        "Gestiamo richieste di assistenza tecnica da officine che si trovano di fronte a una Porsche che si discosta dalle loro procedure abituali. Non si tratta di concorrenza: un'officina generalista che sa quando inviare un motore a un'officina specializzata esegue un lavoro migliore e l'auto ne trae beneficio."
+        "Gestiamo richieste di assistenza tecnica da officine che si trovano di fronte a una Porsche diversa da quelle che vedono abitualmente. Non si tratta di concorrenza: un'officina generica che sa quando inviare un motore a un'officina specializzata esegue un lavoro migliore e l'auto ne trae beneficio."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/85a86038-DSC08005.jpg",
+          "alt": "La 964 rossa con il motore scoperto nel box, accanto alla 991 Cup"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Da dove inizia Assistenza tecnica",
+      "titulo": "Quando l'auto non è nelle vicinanze",
       "parrafos": [
-        "Un servizio di assistenza tecnica su tutto il territorio nazionale ci permette di affrontare qualsiasi problema Porsche con uno specialista, anche se l'auto o il motore non si trovano vicino a Barcellona o Madrid. Per questo motivo, la nostra conversazione iniziale non si concentra su un elenco di servizi, ma piuttosto sull'auto, sulla sua storia e sul risultato che il proprietario si aspetta.",
-        "La valutazione si basa su sintomi, documentazione, diagnosi precedenti, fotografie, campioni e lavori già eseguiti dall'officina che richiede assistenza. In caso di informazioni mancanti, vengono indicati i controlli necessari per ottenerle prima di trasformare un'ipotesi in un preventivo."
+        "Il servizio di assistenza tecnica nazionale ci permette di affrontare un problema specifico di una Porsche anche se l'auto o il motore non si trovano vicino a Barcellona o Madrid."
       ],
-      "items": [],
+      "items": [
+        "Sintomi.",
+        "Documentazione.",
+        "Diagnosi preliminare.",
+        "Fotografie.",
+        "Campioni.",
+        "Lavori già eseguiti dall'officina che richiede assistenza."
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
@@ -57,33 +63,39 @@
     },
     {
       "nivel": 2,
-      "titulo": "Definire l’ambito di Assistenza tecnica",
+      "titulo": "Cosa si può risolvere senza spostare l'auto",
       "parrafos": [
-        "L'ambito di intervento è definito proporzionalmente: include il ritiro di auto e motori in Spagna, la diagnosi a distanza quando possibile e la consulenza per le officine in casi al di fuori del loro ambito di competenza. Le attività vengono prioritarie per evitare doppi smontaggi, la mascheratura dei sintomi e la sostituzione di un componente quando è ancora possibile diagnosticarlo o ripararlo.",
-        "La decisione tecnica viene presa secondo questo criterio: in primo luogo, si determina quali informazioni possono essere ottenute senza spostare il veicolo. Se il controllo richiede misurazioni, smontaggio o strumenti specifici, si considera il trasporto del componente necessario. Se emerge un riscontro che modifica l'ordine, questo viene separato dal lavoro approvato e spiegato prima di procedere."
+        "Prima di considerare un trasferimento, si esaurisce tutto ciò che può essere determinato da remoto."
       ],
       "items": [
-        "Situazione iniziale e documentazione disponibile.",
-        "Verifiche richieste prima dell'intervento."
+        "Lettura dei codici di errore e degli indicatori inviati dall'officina originale.",
+        "Interpretazione di un'analisi dell'olio o di un rapporto di endoscopia.",
+        "Identificazione del motore, della trasmissione e della configurazione tramite numeri di serie e documentazione.",
+        "Determinazione se un guasto giustifica l'apertura del motore o se può essere monitorato.",
+        "Cosa misurare e con quali strumenti prima di decidere se spostare qualcosa."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg",
+          "alt": "I sei gruppi pistone-cilindro allineati sul banco, con bielle, bilancieri e minuteria divisa"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Cosa riceve il proprietario dopo Assistenza tecnica",
+      "titulo": "Cosa si può e cosa non si può risolvere da remoto",
       "parrafos": [
-        "Lo scopo del passaggio di consegne è quello di definire un piano di lavoro preciso tra il proprietario, l'officina di origine e lo specialista, evitando test duplicati o il trasporto dell'intera vettura quando è necessario intervenire su un solo componente. La relazione finale deve spiegare chiaramente cosa è stato fatto, perché è stato fatto e cosa si dovrebbe osservare o programmare in seguito.",
-        "Inoltre, indichiamo i limiti dell'intervento. Un'ispezione descrive le condizioni osservate; la sola manutenzione non risolve un guasto; e un restauro non deve considerarsi completo finché l'auto non è stata controllata nella sua interezza."
+        "Include il ritiro dell'auto e del motore in Spagna, la risoluzione da remoto quando sufficiente e la consulenza per le officine in casi al di fuori del loro ambito di competenza.",
+        "Innanzitutto, si decide quali informazioni possono essere ottenute senza spostare il veicolo. Se il controllo richiede misurazioni, smontaggio o attrezzi specifici, si valuta il trasporto del gruppo necessario."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Come prepararsi per la prima consulenza: Assistenza tecnica",
+      "titulo": "Chi fa cosa?",
       "parrafos": [
-        "Per guidare la consulenza, è utile fornire modello, versione, anno, numero di telaio (se disponibile) e qualsiasi cronologia degli interventi di manutenzione disponibile. Se si presenta un problema, è utile descrivere quando si manifesta: a motore freddo o caldo, sotto carico o da fermo, e se è cambiato di recente.",
-        "Fatture, fotografie e diagnosi precedenti aiutano a evitare di ripetere gli stessi problemi, sebbene non sostituiscano un'ispezione recente. Queste informazioni aiutano a determinare se un appuntamento per l'ispezione è sufficiente, se l'auto deve essere trasportata o se è possibile ricevere solo il pezzo."
+        "Un flusso di lavoro definito tra il proprietario, l'officina originale e lo specialista, per evitare test duplicati o il trasporto dell'intera auto quando è necessario solo un componente."
       ],
       "items": [],
       "imagenes": []
@@ -92,7 +104,7 @@
       "nivel": 2,
       "titulo": "Servizi correlati",
       "parrafos": [
-        "In base alle condizioni e all’obiettivo della vettura, il lavoro può essere coordinato con <a href=\"/centros\">centri</a>, <a href=\"/sala-motores\">sala motori</a> e <a href=\"/contacto\">contatti</a>. Ogni pagina descrive l’ambito specifico prima di richiedere un appuntamento."
+        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/centros\">Centri</a>, <a href=\"/sala-motores\">Sala motori</a>, <a href=\"/contacto\">Contatti</a>."
       ],
       "items": [],
       "imagenes": []
@@ -100,17 +112,15 @@
     {
       "nivel": 2,
       "titulo": "Domande frequenti",
-      "parrafos": [
-        "Queste risposte aiutano a prepararsi per la consulenza. La raccomandazione finale dipende dal modello e dalle prove disponibili."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Devo sempre inviare l'intera auto?",
+      "titulo": "Dobbiamo sempre inviare l'intera auto?",
       "parrafos": [
-        "No. Alcuni casi possono essere risolti con informazioni tecniche, mentre altri richiedono l'invio solo del motore o del cambio. La diagnosi determina l'entità dell'intervento."
+        "No. Alcuni casi possono essere risolti con informazioni tecniche, mentre altri richiedono l'invio solo del motore o del cambio. La diagnosi determina la portata logistica."
       ],
       "items": [],
       "imagenes": []
@@ -130,8 +140,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

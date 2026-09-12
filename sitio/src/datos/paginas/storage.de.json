@@ -3,46 +3,62 @@
   "tipo": "servicio",
   "ficheroOriginal": "_derivado_de_taller",
   "meta": {
-    "titulo": "Storage Porsche-Spezialist · Valentín Motors",
-    "descripcion": "Storage Ihr Porsche wird engmaschig betreut, mit regelmäßigen Inspektionen und vorbeugender Wartung, um das Fahrzeug während längerer Standzeiten zu erhalten.",
+    "titulo": "Storage Porsche-Spezialist Valentín Motors",
+    "descripcion": "Storage Porsche-Service unter enger Aufsicht mit regelmäßigen Inspektionen und vorbeugender Wartung zur Erhaltung des Fahrzeugs während Standzeiten.",
     "ogImagen": ""
   },
-  "h1": "Storage Porsche mit spezialisierter Werkstatt",
+  "h1": "Storage Porsche mit spezialisiertem Werkstattservice",
   "menu": "Storage",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Ein Umfeld, das auf das Fahrzeug zugeschnitten ist",
+      "titulo": "Was passiert mit einem Porsche, der nicht gefahren wird?",
       "parrafos": [
-        "Ein 911, der mehrere Monate nicht bewegt wird, braucht mehr als einen überdachten Stellplatz.",
-        "Wir bei Valentin wissen, dass ein Porsche während der Standzeiten besondere Pflege benötigt. Deshalb bietet unser Service Storage einen Stellplatz und eine Umgebung, die für die optimale Pflege Ihres Fahrzeugs ausgelegt ist, quasi ein Spa für Porsche.",
-        "Dieser Service richtet sich an Besitzer, die Platz in ihrer Garage schaffen möchten, ihren Porsche nur gelegentlich nutzen, längere Zeit abwesend sind oder ihr Fahrzeug in gutem Zustand halten möchten, wenn es nicht in Gebrauch ist. Unsere Anlage ist diskret, sicher und wird rund um die Uhr überwacht – für ein beruhigendes Gefühl. 24",
-        "Zusätzlich zur Einlagerung führen wir regelmäßige Inspektionen und vorbeugende Wartungsarbeiten durch, um den Gesamtzustand des Fahrzeugs zu überprüfen und es in einem guten mechanischen und optischen Zustand zu erhalten. So ist Ihr Porsche sofort einsatzbereit, wenn Sie ihn wieder fahren möchten.",
-        "Für 250 €/Monat bieten wir Ihnen eine Alternative zum herkömmlichen Parken, die Sicherheit, Schutz und spezialisierte Pflege vereint. Wir stellen unseren Kunden außerdem ein spezielles Pflegeprotokoll mit optionalen, auf die Bedürfnisse jedes Fahrzeugs und Besitzers zugeschnittenen Services zur Verfügung.",
-        "Freie Porsche-Werkstatt im Zentrum von Barcelona"
+        "Ein geparktes Auto erhält sich nicht von selbst. Die Reifen stehen immer an derselben Stelle und verformen sich, was erst beim erneuten Fahren sichtbar wird. Die Batterie entlädt sich und lässt sich unterhalb eines bestimmten Ladezustands nicht mehr aufladen. Die Bremsflüssigkeit zieht Feuchtigkeit, egal ob der Motor läuft oder nicht, und die Bremsscheiben rosten an der Kontaktfläche, sobald es warm genug ist.",
+        "Hinzu kommen Probleme, die von außen nicht sichtbar sind: Dichtungen trocknen aus, Kraftstoff altert im Tank und, in einer typischen Garage, Nagetiere. Fast nichts davon löst sich von selbst, wenn das Auto wieder gestartet wird."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/d137f571-IMG_9271.JPG",
+          "alt": "Zwei Personen im Gespräch in der Halle in Leganés, im Hintergrund ein abgedecktes Fahrzeug"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Was Storage nicht umfasst",
-      "parrafos": [],
+      "titulo": "Leistungen Storage",
+      "parrafos": [
+        "Der Service ist an beiden Standorten, Barcelona und Madrid, verfügbar und kombiniert Parken mit Fahrzeugüberwachung während der Abstellzeit. Die Anlage ist diskret und wird rund um die Uhr überwacht. 24 Stunden. Ein individuell auf jedes Fahrzeug abgestimmtes Pflegeprotokoll mit entsprechenden Optionen wird angewendet."
+      ],
       "items": [
-        "Arbeiten außerhalb des vereinbarten Umfangs für Storage sind nicht enthalten.",
-        "Jede Erweiterung wird gesondert geprüft und freigegeben."
+        "Parkplatz in Barcelona oder Madrid, je nach Wunsch des Fahrzeughalters.",
+        "Diskrete und rund um die Uhr überwachte Anlage. 24 Stunden.",
+        "Regelmäßige Überprüfung des Fahrzeugzustands.",
+        "Vorbeugende Wartung gemäß vereinbartem Protokoll.",
+        "Optionale, auf das Fahrzeug und seinen Besitzer zugeschnittene Serviceleistungen.",
+        "250 € pro Monat als Alternative zum herkömmlichen Parken."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/959b9abb-267ce8a3-379d-4f4f-8229-25ce50c29b30.jpg",
+          "alt": "Der cremefarbene 911 PA10 neben einem roten 911 der F-Serie im Ausstellungsraum"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Ausgangspunkt für Storage",
+      "titulo": "Was vor der Übergabe vereinbart wurde",
       "parrafos": [
-        "Wir bei Valentín Motors verstehen, dass der Porsche Storage längere Standzeiten mit mehr als nur einem Parkplatz überbrückt: Zustandsüberwachung und Zugang zu spezialisierter Wartung. Deshalb konzentrieren wir uns in unserem ersten Gespräch nicht auf einen Servicekatalog, sondern auf das Fahrzeug, seine Geschichte und die Erwartungen des Besitzers.",
-        "Die Bewertung basiert auf der erwarteten Lebensdauer, der gewünschten Nutzungshäufigkeit, der jüngsten Fahrzeughistorie und eventuellen Mängeln im mechanischen oder kosmetischen Bereich. Wenn Informationen fehlen, werden die notwendigen Prüfungen angegeben, um diese zu erhalten, bevor eine Hypothese in ein Angebot umgewandelt wird."
+        "Der Storage Porsche bietet für längere Standzeiten mehr als nur einen Parkplatz: Zustandsüberwachung und Zugang zu spezialisierter Wartung."
       ],
-      "items": [],
+      "items": [
+        "Die voraussichtliche Dauer.",
+        "Die Häufigkeit, mit der der Besitzer das Fahrzeug zur Verfügung stellen möchte.",
+        "Ihre aktuelle Servicehistorie.",
+        "Alle noch offenen mechanischen oder kosmetischen Mängel."
+      ],
       "imagenes": [
         {
           "url": "/img/paginas/4c090daf-DSC00895.jpg",
@@ -52,37 +68,38 @@
     },
     {
       "nivel": 2,
-      "titulo": "Umfang von Storage festlegen",
+      "titulo": "Was nicht enthalten ist",
       "parrafos": [
-        "Der Leistungsumfang ist proportional definiert: Der aktuelle Service umfasst diskrete, überwachte Installationen 24 rund um die Uhr, regelmäßige Inspektionen und ein auf jedes Gerät zugeschnittenes Wartungsprotokoll. Die Aufgaben werden priorisiert, um doppelte Demontagen, das Verschleiern von Symptomen und den Austausch von Bauteilen zu vermeiden, wenn diese noch diagnostiziert oder repariert werden können.",
-        "Die technische Entscheidung erfolgt nach folgenden Kriterien: Vor Betreten des Fahrzeugs wird vereinbart, welche Serviceleistungen erforderlich sind und welche optionalen Arbeiten einer Genehmigung bedürfen. Storage darf eine Routineinspektion nicht in einen unaufgeforderten Eingriff ausarten lassen. Sollte sich ein Befund ergeben, der den Auftrag ändert, wird dieser von den genehmigten Arbeiten getrennt und vor der Fortsetzung erläutert."
-      ],
-      "items": [
-        "Ausgangszustand und verfügbare Dokumentation.",
-        "Erforderliche Prüfungen vor dem Eingriff."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cf185986-DSC03460.jpeg",
-          "alt": "Das Team von Valentín Motors in der Werkstatt, vor dem Motorenraum"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Was der Eigentümer nach Storage erhält",
-      "parrafos": [
-        "Ziel des Services ist es, Ihren Porsche sorgfältig gewartet und fahrbereit zurückzugeben. Dabei wird das mit Ihnen vereinbarte Protokoll eingehalten. Die abschließende Erklärung soll Ihnen verständlich machen, was gemacht wurde, warum es gemacht wurde und was im Anschluss zu beachten oder einzuplanen ist.",
-        "Wir weisen auch auf die Grenzen der Arbeiten hin. Eine Inspektion beschreibt den festgestellten Zustand; Wartungsarbeiten allein beheben keinen Fehler; und eine Restaurierung gilt erst dann als abgeschlossen, wenn das Fahrzeug als Ganzes geprüft wurde."
+        "Inspektionen und vorbeugende Wartung sind Teil des Service. Alle im Rahmen einer Inspektion festgestellten Reparaturen werden separat geprüft und genehmigt, bevor sie durchgeführt werden.",
+        "Es gilt die gleiche Regel wie in einer Werkstatt: Storage Eine Routineprüfung wird dadurch nicht zu einer unaufgeforderten Serviceleistung."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Verwandte Leistungen",
+      "titulo": "Wann dieser Service nicht erforderlich ist",
       "parrafos": [
-        "Je nach Zustand und Ziel des Fahrzeugs können die Arbeiten mit <a href=\"/taller-porsche/mantenimiento\">Porsche-Wartung</a>, <a href=\"/madrid\">Standort Madrid</a> und <a href=\"/contacto\">Kontakt</a>. Jede Seite erläutert den konkreten Umfang vor der Terminvereinbarung."
+        "Wenn das Fahrzeug alle zwei bis drei Wochen gefahren und in einer trockenen, temperierten Garage abgestellt wird, benötigen Sie diesen Service nicht: Sie benötigen ein Batterieladegerät und müssen das Fahrzeug regelmäßig nutzen.",
+        "Der Storage Dieser Service ist sinnvoll, wenn Ihr Fahrzeug mehrere Monate außer Betrieb ist, keine Werkstatt verfügbar ist oder Sie es vorziehen, wenn jemand ein Auge darauf hat und Sie informiert, bevor aus einem kleinen Problem eine Rechnung wird."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Rückgabe des Fahrzeugs",
+      "parrafos": [
+        "Ein Porsche, der sorgfältig überwacht und gemäß dem mit dem Besitzer vereinbarten Protokoll für die Wiederinbetriebnahme vorbereitet wird."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Zugehörige Dienstleistungen",
+      "parrafos": [
+        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/taller-porsche/mantenimiento\">Porsche Wartung</a>, <a href=\"/madrid\">Servicezentrum Madrid</a>, <a href=\"/contacto\">Kontakt</a>."
       ],
       "items": [],
       "imagenes": []
@@ -90,26 +107,24 @@
     {
       "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Für wen ist dieser Service geeignet? Storage?",
       "parrafos": [
-        "Diese Antworten dienen der Vorbereitung des Beratungsgesprächs. Die endgültige Empfehlung hängt vom Fahrzeugtyp und den verfügbaren Daten ab."
+        "Für alle, die ihr Fahrzeug nur gelegentlich nutzen, viel unterwegs sind oder keinen geeigneten Platz haben und Wartung und Service zentralisieren möchten."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Wer profitiert von Storage?",
+      "titulo": "Sind notwendige Reparaturen enthalten?",
       "parrafos": [
-        "Für alle, die ihr Auto nur gelegentlich nutzen, viel unterwegs sind oder keinen geeigneten Stellplatz haben und Wartung und technischen Service zentralisieren möchten."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Sind notwendige Reparaturen inbegriffen?",
-      "parrafos": [
-        "Nein. Inspektionen und vorbeugende Wartung sind Teil des beschriebenen Service; alle weiteren Arbeiten werden separat geprüft und genehmigt."
+        "Nein. Inspektionen und vorbeugende Wartung sind Teil des beschriebenen Services. Zusätzliche Arbeiten werden separat geprüft und genehmigt."
       ],
       "items": [],
       "imagenes": []
@@ -120,8 +135,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 38,
+    "total": 38,
     "completa": true
   }
 }

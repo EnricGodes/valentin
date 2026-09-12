@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Service technique national Porsche · Valentín Motors",
-    "descripcion": "Service technique Porsche dans toute l’Espagne, enlèvement des voitures et moteurs, assistance à distance et conseil aux autres ateliers.",
+    "titulo": "Service Technique National Porsche Valentín Motors",
+    "descripcion": "Service technique Porsche dans toute l'Espagne, enlèvement du véhicule et du moteur, assistance à distance et conseils spécialisés pour les autres ateliers.",
     "ogImagen": ""
   },
   "h1": "Service technique Porsche dans toute l'Espagne",
@@ -13,41 +13,47 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "Nos services : Service technique",
+      "titulo": "Le moteur est transporté, la voiture n'a pas besoin de l'être.",
       "parrafos": [
-        "Un moteur M96 peut être expédié depuis n’importe quel point d’Espagne sans déplacer la voiture complète.",
-        "Nous assurons un service technique dans toute l'Espagne depuis nos deux centres. Nous prenons en charge les véhicules et les moteurs où qu'ils se trouvent et, pour les problèmes ne nécessitant pas le transport du véhicule complet, nous les résolvons à distance."
+        "Un moteur M96 Il peut être transporté depuis n'importe où en Espagne sans que le véhicule entier ne soit nécessaire.",
+        "Nous assurons un service technique dans toute l'Espagne depuis nos deux centres. Nous prenons en charge les voitures et les moteurs où qu'ils se trouvent et, pour les problèmes ne nécessitant pas le transport du véhicule complet, nous les résolvons à distance."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/d137f571-IMG_9271.JPG",
+          "alt": "Deux personnes discutent dans l'atelier de Leganés, une voiture bâchée au fond"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Ce que Service technique ne couvre pas",
-      "parrafos": [],
+      "titulo": "Conseils pour d'autres ateliers",
+      "parrafos": [
+        "Nous traitons les demandes techniques des ateliers confrontés à une Porsche atypique. Il ne s'agit pas de concurrence : un atelier généraliste qui sait quand confier un moteur à un atelier spécialisé effectue un meilleur travail et la voiture est ainsi en meilleur état."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/85a86038-DSC08005.jpg",
+          "alt": "La 964 rouge moteur découvert dans le stand, à côté de la 991 Cup"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Lorsque la voiture est éloignée",
+      "parrafos": [
+        "Le service technique national nous permet de résoudre un problème Porsche spécifique même si la voiture ou le moteur ne se trouve pas à proximité de Barcelone ou de Madrid."
+      ],
       "items": [
-        "Les travaux hors du périmètre convenu pour Service technique ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
+        "Symptômes.",
+        "Documentation.",
+        "Diagnostic préliminaire.",
+        "Photographies.",
+        "Prélèvements.",
+        "Travaux déjà effectués par l'atelier demandeur."
       ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Consultation pour les autres ateliers",
-      "parrafos": [
-        "Nous traitons les demandes techniques des ateliers confrontés à une Porsche présentant des caractéristiques inhabituelles. Il ne s'agit pas de concurrence : un atelier généraliste qui sait quand confier un moteur à un atelier spécialisé réalise un meilleur travail et le véhicule est finalement en meilleur état."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Le point de départ de Service technique",
-      "parrafos": [
-        "Un service technique national nous permet de prendre en charge tout problème Porsche grâce à un spécialiste, même si votre véhicule ou son moteur ne se trouve pas à proximité de Barcelone ou de Madrid. C'est pourquoi, lors de notre premier échange, nous nous concentrons non pas sur une liste de services, mais sur votre voiture, son historique et le résultat souhaité par son propriétaire.",
-        "L'évaluation repose sur les symptômes, la documentation, les diagnostics antérieurs, les photographies, les échantillons et les travaux déjà effectués par l'atelier demandeur. En cas d'informations manquantes, les vérifications nécessaires pour les obtenir sont indiquées avant de transformer une hypothèse en devis."
-      ],
-      "items": [],
       "imagenes": [
         {
           "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
@@ -57,42 +63,48 @@
     },
     {
       "nivel": 2,
-      "titulo": "Définir le périmètre de Service technique",
+      "titulo": "Que peut-on résoudre sans déplacer le véhicule ?",
       "parrafos": [
-        "Le périmètre d'intervention est défini proportionnellement : il comprend la prise en charge du véhicule et du moteur en Espagne, le dépannage à distance lorsque cela est suffisant et le conseil aux ateliers pour les cas sortant de leur champ d'intervention habituel. Les tâches sont priorisées afin d'éviter les doubles démontages, la dissimulation de symptômes et le remplacement d'un ensemble alors qu'il peut encore être diagnostiqué ou réparé.",
-        "La décision technique est prise selon le critère suivant : on détermine d'abord quelles informations peuvent être obtenues sans déplacer le véhicule. Si le contrôle nécessite des mesures, un démontage ou des outils spécifiques, l'ensemble nécessaire est transporté. Si un élément nouveau modifie la commande, il est dissocié des travaux approuvés et expliqué avant de poursuivre."
+        "Avant d'envisager un transfert, toutes les investigations pouvant être menées à distance sont épuisées."
       ],
       "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
+        "Lecture des codes défauts et des relevés transmis par l'atelier d'origine.",
+        "Interprétation d'une analyse d'huile ou d'un rapport d'endoscopie.",
+        "Identification du moteur, de la transmission et de la configuration à partir des numéros de série et de la documentation.",
+        "Détermination si un défaut justifie l'ouverture du moteur ou s'il peut être surveillé.",
+        "Mesures à effectuer et outils nécessaires avant de décider d'un éventuel déplacement."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/11d49bd8-37871ceb-125f-4ec6-9c54-264872662634.jpg",
+          "alt": "Les six ensembles piston-cylindre alignés sur l'établi, avec bielles, culbuteurs et visserie triée"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Service technique",
+      "titulo": "Ce qui peut et ne peut pas être résolu à distance.",
       "parrafos": [
-        "L'objectif de cette livraison est d'établir un flux de travail défini entre le propriétaire, l'atelier d'origine et le spécialiste, afin d'éviter les tests redondants ou le transport de l'ensemble du véhicule lorsqu'une seule pièce est nécessaire. Le compte rendu final doit clairement expliquer les interventions réalisées, leur justification et les points à surveiller ou à planifier ultérieurement.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Comment se préparer à la consultation initiale : Service technique",
-      "parrafos": [
-        "Pour orienter la consultation, il est utile de fournir le modèle, la version, l’année, le numéro VIN (le cas échéant) et tout historique d’entretien disponible. En cas de symptôme, il est utile de décrire quand il apparaît : à froid ou à chaud, en charge ou en décélération, et s’il a évolué récemment.",
-        "Les factures, les photos et les diagnostics précédents permettent d'éviter les interventions répétées, sans toutefois remplacer une inspection récente. Ces informations aident à déterminer si un rendez-vous d'inspection est suffisant, si le véhicule doit être transporté ou si seule la pièce détachée peut être commandée."
+        "Inclut la prise en charge du véhicule et du moteur en Espagne, le diagnostic à distance lorsque cela est suffisant et le conseil aux ateliers pour les cas sortant de leur champ d'intervention habituel.",
+        "On détermine d'abord quelles informations peuvent être obtenues sans déplacer le véhicule. Si le contrôle nécessite des mesures, un démontage ou des outils spécifiques, le transport de l'ensemble nécessaire est envisagé."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Services associés",
+      "titulo": "Qui fait quoi ?",
       "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/centros\">centres</a>, <a href=\"/sala-motores\">atelier moteurs</a> et <a href=\"/contacto\">contact</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Un flux de travail défini entre le propriétaire, l'atelier d'origine et le spécialiste permet d'éviter les tests redondants ou le transport de la voiture entière lorsqu'un seul composant est requis."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Services connexes",
+      "parrafos": [
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/centros\">Centres</a>, <a href=\"/sala-motores\">Atelier moteurs</a>, <a href=\"/contacto\">Contact</a>."
       ],
       "items": [],
       "imagenes": []
@@ -100,17 +112,15 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
-      "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Faut-il toujours envoyer le véhicule entier ?",
+      "titulo": "Faut-il toujours envoyer la voiture entière ?",
       "parrafos": [
-        "Non. Dans certains cas, des informations techniques suffisent, tandis que dans d'autres, seul le moteur ou la boîte de vitesses est nécessaire. Le diagnostic détermine le périmètre logistique."
+        "Non. Certains cas peuvent être traités avec des informations techniques, tandis que d'autres nécessitent l'envoi du seul moteur ou de la boîte de vitesses. Le diagnostic détermine le périmètre logistique."
       ],
       "items": [],
       "imagenes": []
@@ -119,7 +129,7 @@
       "nivel": 3,
       "titulo": "Travaillez-vous avec d'autres ateliers ?",
       "parrafos": [
-        "Oui. Cette page propose des conseils techniques aux ateliers ayant besoin d'une assistance spécialisée pour un modèle Porsche spécifique."
+        "Oui. Cette page inclut des conseils techniques pour les ateliers ayant besoin d'une assistance spécialisée pour un modèle Porsche spécifique."
       ],
       "items": [],
       "imagenes": []
@@ -130,8 +140,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 34,
-    "total": 34,
+    "hechas": 39,
+    "total": 39,
     "completa": true
   }
 }

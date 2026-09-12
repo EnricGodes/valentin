@@ -3,7 +3,7 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Carrosserie et peinture Porsche · Valentín Motors",
+    "titulo": "Carrosserie et peinture Porsche Valentín Motors",
     "descripcion": "Carrosserie et peinture Porsche avec préparation complète, couleurs d'origine, traitement anticorrosion et cabine de peinture dédiée à Barcelone.",
     "ogImagen": ""
   },
@@ -17,48 +17,96 @@
   "secciones": [
     {
       "nivel": 2,
-      "titulo": "La préparation est essentielle.",
+      "titulo": "La préparation est essentielle",
       "parrafos": [
-        "Avant la peinture, les jeux de chaque ouverture sont mesurés, les garnitures sont démontées au lieu d'être masquées, et chaque accessoire retiré de la voiture est répertorié afin d'être remis à sa place. Les pièces chromées qui le nécessitent sont remises à neuf pendant que la carrosserie est en cabine de peinture.",
-        "Nous appliquons un traitement anticorrosion aux zones concernées, qui, sur une Porsche classique, sont toujours les mêmes et toujours celles qui ne sont pas visibles."
+        "Avant la peinture, l'écart de chaque ouverture est mesuré, les moulures sont démontées au lieu d'être masquées, et chaque accessoire démonté est répertorié pour être remis en place. Les pièces chromées qui le nécessitent sont remises à neuf pendant que la carrosserie est en cabine de peinture.",
+        "Nous appliquons un traitement anticorrosion aux zones concernées, qui, sur une Porsche de collection, sont toujours les mêmes et toujours invisibles."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/magazine/586a0656-3d27e9c7-2364-4e70-87d9-3c02b3fff360.jpg",
+          "alt": "Caisse d'une 911 série G masquée à l'atelier carrosserie et peinture"
+        }
+      ]
     },
     {
       "nivel": 2,
-      "titulo": "Nos services : Carrosserie et peinture",
+      "titulo": "Éléments mesurés avant peinture",
       "parrafos": [
-        "Réparation et peinture selon les spécifications Porsche, en utilisant les teintes d’origine et le système de codage peinture actuel. Cabine de peinture dédiée à l’atelier de Barcelone.",
-        "Une peinture bien réalisée est invisible. En revanche, une peinture mal faite est flagrante : joints irréguliers, couleur qui jure avec le reste, garnitures mal ajustées."
+        "La qualité d'une réparation de carrosserie et de peinture Porsche dépend davantage de la préparation, de l'ajustement et de la compatibilité des matériaux que du brillant final."
       ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Une fois les travaux terminés",
-      "parrafos": [
-        "Dans le cadre d'une restauration complète, lorsque la carrosserie est entièrement démontée, ou ponctuellement pour une simple remise en peinture. Ces deux procédures sont décrites étape par étape dans les articles ci-dessous."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que Carrosserie et peinture ne couvre pas",
-      "parrafos": [],
       "items": [
-        "Les travaux hors du périmètre convenu pour Carrosserie et peinture ne sont pas compris.",
-        "Toute extension est vérifiée et autorisée séparément."
+        "Épaisseur de la peinture.",
+        "Jeu.",
+        "Corrosion",
+        "Déformations.",
+        "Réparations précédentes.",
+        "Code couleur.",
+        "Pièces amovibles.",
+        "État des moulures et des chromes."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/magazine/923a7e89-0d15c0ac-e405-46c2-a4c7-069b9e51c8bd.jpg",
+          "alt": "Pièces de la 964 fraîchement peintes en rouge : cerclages de phares, rétroviseurs et supports"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Une zone spécifique ou la carrosserie entière.",
+      "parrafos": [
+        "Les travaux peuvent concerner une zone spécifique ou s'inscrire dans une restauration complète. La cabine de peinture dédiée de Barcelone permet une préparation, une peinture et un remontage coordonnés.",
+        "Le démontage est effectué si nécessaire afin d'éviter les bords masqués, et une décision est prise quant à la conservation, la réparation ou le remplacement des pièces. Sur les voitures de collection, la corrosion visible nécessite une inspection des zones concernées."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/magazine/4aaf5fc4-7df917fe-79fb-40d0-b348-55de1dd7ac87.jpg",
+          "alt": "Passage de roue de la 911 série G, joint et mastic d'origine mis à nu"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Couleurs d'origine et cabine de peinture dédiée.",
+      "parrafos": [
+        "Réparation et peinture selon les spécifications Porsche, en utilisant les couleurs d'origine et le système de codage peinture actuel. Cabine de peinture dédiée dans l'atelier de Barcelone.",
+        "Une belle peinture est invisible. Ce qui saute aux yeux, c'est la piètre qualité des finitions : des écarts irréguliers, une couleur qui jure avec l'intérieur et des garnitures qui ne s'ajustent plus correctement."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce qu'une couche de peinture ne peut pas réparer.",
+      "parrafos": [
+        "La finition est la dernière chose que l'on voit et la première qui révèle ce qui se cache en dessous."
+      ],
+      "items": [
+        "La corrosion persistante sous la tôle réapparaît au même endroit.",
+        "Un écart irrégulier ne se corrige pas par la peinture ; il se corrige par un ajustement.",
+        "Une garniture masquée au lieu d'être retirée laisse un bord visible par transparence.",
+        "Une couleur qui ne correspond pas à celle des garnitures et de l'intérieur révèle la réparation.",
+        "Un passage de roue non traité contre la corrosion relance le cycle."
       ],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Un cas documenté : Carrosserie et peinture",
+      "titulo": "Quand le faire ?",
       "parrafos": [
-        "Le Magazine présente le travail et ses photographies dans <a href=\"/magazine/proceso-pintura-911-clase-g\">ce cas documenté</a>."
+        "Dans le cadre d'une restauration complète, lorsque toute la carrosserie est démontée, ou comme projet indépendant sur une voiture nécessitant uniquement une nouvelle peinture. Les deux processus sont décrits étape par étape dans les articles ci-dessous."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Processus de peinture d'une 911 Série G",
+      "parrafos": [
+        "Le magazine présente le travail et ses photographies dans <a href=\"/magazine/proceso-pintura-911-clase-g\">ce cas documenté</a>."
       ],
       "items": [],
       "imagenes": [
@@ -70,42 +118,18 @@
     },
     {
       "nivel": 2,
-      "titulo": "Le point de départ de Carrosserie et peinture",
+      "titulo": "Aspect de la carrosserie",
       "parrafos": [
-        "Une réparation de carrosserie et de peinture Porsche dépend davantage de la préparation, des réglages et de la compatibilité des matériaux que du brillant final. C'est pourquoi notre premier échange ne porte pas sur un catalogue de services, mais plutôt sur la voiture, son historique et le résultat souhaité par son propriétaire.",
-        "L'évaluation commence par l'examen de l'épaisseur de la peinture, des éventuels défauts, de la corrosion, des déformations, des réparations précédentes, du code couleur, des pièces amovibles et de l'état des garnitures et des chromes. Si certaines informations sont manquantes, nous indiquons les vérifications nécessaires pour les obtenir avant d'établir un devis."
+        "Carrosserie ajustée et peinte conformément aux spécifications, avec des couleurs de référence, des accessoires référencés et des traitements anticorrosion si nécessaire."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 2,
-      "titulo": "Définir le périmètre de Carrosserie et peinture",
+      "titulo": "Services connexes",
       "parrafos": [
-        "L'étendue des travaux est déterminée en fonction des besoins : ils peuvent concerner une zone spécifique ou s'inscrire dans le cadre d'une restauration complète. Notre cabine de peinture dédiée à Barcelone nous permet de coordonner la préparation, la peinture et le remontage. Les tâches sont priorisées afin d'éviter les doubles démontages, de masquer des problèmes et de remplacer des pièces qui peuvent encore être diagnostiquées ou réparées.",
-        "La décision technique est prise selon les critères suivants : le démontage est effectué si nécessaire afin d’éviter les bords masqués, et il est déterminé si les pièces sont conservées, réparées ou remplacées. Sur les voitures de collection, la présence de corrosion visible nécessite un examen des zones concernées. Si un élément modifie la commande, il est mis à part des travaux approuvés et expliqué avant toute poursuite."
-      ],
-      "items": [
-        "État initial et documentation disponible.",
-        "Vérifications requises avant intervention."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Ce que reçoit le propriétaire après Carrosserie et peinture",
-      "parrafos": [
-        "L'objectif de la livraison est une carrosserie ajustée et peinte conformément au cahier des charges, avec les couleurs de référence, les accessoires répertoriés et les traitements anticorrosion nécessaires. Le compte rendu final doit clairement détailler les travaux effectués, leur justification et les points à prendre en compte ou à planifier ultérieurement.",
-        "Nous vous précisons également les limites de notre intervention. Une inspection décrit l'état constaté ; la maintenance ne corrige pas, à elle seule, un défaut ; et une restauration ne doit être considérée comme terminée qu'après un contrôle complet du véhicule."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services associés",
-      "parrafos": [
-        "Selon l’état et l’objectif du véhicule, les travaux peuvent être coordonnés avec <a href=\"/restauraciones/integrales\">restauration intégrale</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspection préachat</a> et <a href=\"/taller-porsche\">atelier Porsche</a>. Chaque page décrit le périmètre précis avant la prise de rendez-vous."
+        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/restauraciones/integrales\">Restauration complète</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">Inspection avant achat</a>, <a href=\"/taller-porsche\">Atelier Porsche</a>."
       ],
       "items": [],
       "imagenes": []
@@ -113,26 +137,24 @@
     {
       "nivel": 2,
       "titulo": "Foire aux questions",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Une seule zone peut-elle être reproduite ?",
       "parrafos": [
-        "Ces réponses vous aideront à préparer votre consultation. La recommandation finale dépend du véhicule et des éléments disponibles."
+        "Cela dépend de la couleur, de l'âge et des réparations précédentes. L'évaluation initiale détermine si une réparation localisée peut être intégrée ou si elle doit être étendue."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Une seule zone peut-elle être prise en compte ?",
+      "titulo": "Pourquoi mesure-t-on les jeux ?",
       "parrafos": [
-        "Cela dépend de la couleur, de l'âge et des réparations précédentes. L'évaluation initiale détermine si une réparation localisée peut être intégrée ou si la zone de travail doit être étendue."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Pourquoi mesure-t-on les écarts ?",
-      "parrafos": [
-        "Parce qu'ils révèlent la géométrie et l'ajustement. Les corriger après la peinture endommagerait la finition et masquerait l'origine d'un défaut d'alignement."
+        "Parce qu'ils révèlent la géométrie et la qualité de l'ajustement. Les corriger après la peinture endommagerait la finition et masquerait l'origine d'un défaut d'alignement."
       ],
       "items": [],
       "imagenes": []
@@ -143,8 +165,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 36,
-    "total": 36,
+    "hechas": 46,
+    "total": 46,
     "completa": true
   }
 }
