@@ -119,7 +119,7 @@ Renueva líquido de frenos por tiempo y revisa pinzas, discos, latiguillos y rod
 
 Caja, diferencial y embrague necesitan inspección de fugas y lubricante correcto. En 1989 añade hidráulico de embrague. Si hay preparación de potencia, reduce intervalos y documenta mezcla, presión, temperatura y componentes; una modificación no documentada complica tanto el diagnóstico como la reventa.
 
-Las [tarifas de mantenimiento del Turbo](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento del Turbo](/porsche-turbo-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 

@@ -65,18 +65,30 @@ export const RUTAS: Ruta[] = [
              it: 'competizione', de: 'motorsport', ca: 'competicio' } },
 
   // ── Tarifas de mantenimiento ────────────────────────────────────────────
-  // Solo quedan las dos familias con trafico organico propio (Cayenne/Macan
-  // 95 clics y 911 85 clics en 3 meses, 8a y 9a del sitio). Cayman/Boxster,
-  // GT, Turbo y Transaxle no traian ni un clic de Google y redirigen al
-  // buscador de tarifas (public/_redirects).
   { id: 'tarifa-911', seccion: 'tarifas',
     slugs: { es: 'porsche-911-mantenimiento-taller', en: 'porsche-911-servicing',
              fr: 'entretien-porsche-911', it: 'manutenzione-porsche-911',
              de: 'porsche-911-wartung', ca: 'manteniment-porsche-911' } },
+  { id: 'tarifa-cayman', seccion: 'tarifas',
+    slugs: { es: 'porsche-cayman-boxster-mantenimiento-taller', en: 'porsche-cayman-boxster-servicing',
+             fr: 'entretien-porsche-cayman-boxster', it: 'manutenzione-porsche-cayman-boxster',
+             de: 'porsche-cayman-boxster-wartung', ca: 'manteniment-porsche-cayman-boxster' } },
   { id: 'tarifa-cayenne-macan', seccion: 'tarifas',
     slugs: { es: 'porsche-cayenne-macan-mantenimiento-taller-1', en: 'porsche-cayenne-macan-servicing',
              fr: 'entretien-porsche-cayenne-macan', it: 'manutenzione-porsche-cayenne-macan',
              de: 'porsche-cayenne-macan-wartung', ca: 'manteniment-porsche-cayenne-macan' } },
+  { id: 'tarifa-gt', seccion: 'tarifas',
+    slugs: { es: 'porsche-gt-mantenimiento-taller', en: 'porsche-gt-servicing',
+             fr: 'entretien-porsche-gt', it: 'manutenzione-porsche-gt',
+             de: 'porsche-gt-wartung', ca: 'manteniment-porsche-gt' } },
+  { id: 'tarifa-turbo', seccion: 'tarifas',
+    slugs: { es: 'porsche-turbo-mantenimiento-taller', en: 'porsche-turbo-servicing',
+             fr: 'entretien-porsche-turbo', it: 'manutenzione-porsche-turbo',
+             de: 'porsche-turbo-wartung', ca: 'manteniment-porsche-turbo' } },
+  { id: 'tarifa-transaxle', seccion: 'tarifas',
+    slugs: { es: 'porsche-transaxle-mantenimiento-taller', en: 'porsche-transaxle-servicing',
+             fr: 'entretien-porsche-transaxle', it: 'manutenzione-porsche-transaxle',
+             de: 'porsche-transaxle-wartung', ca: 'manteniment-porsche-transaxle' } },
 
   // ── Servicios del taller ────────────────────────────────────────────────
   { id: 'taller-mantenimiento', seccion: 'taller',

@@ -125,7 +125,7 @@ Durante paradas largas mantén batería y presiones, mueve capota y climatizaci�
 
 Cuando se sustituya batería, neumáticos o sensores, guarda fecha, referencia y calibración. Esta información simplifica fallos posteriores de baja tensión, presión o geometría y permite al comprador verificar que un aviso fue resuelto con procedimiento, no simplemente borrado. Incluye una lectura de errores y valores reales antes de atribuir cualquier aviso a una pieza concreta.
 
-Las [tarifas de mantenimiento de Cayman y Boxster](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento de Cayman y Boxster](/porsche-cayman-boxster-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 

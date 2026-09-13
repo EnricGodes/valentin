@@ -1,0 +1,81 @@
+{
+  "rutaId": "tarifa-transaxle",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-transaxle-mantenimiento-taller",
+  "meta": {
+    "titulo": "Manutenzione Porsche 924, 944, 968 e 928 · Prezzi chiusi",
+    "descripcion": "Tariffe chiuse per le transaxle: 924, 944, 968 e 928. Tagliando minore da 401 €, maggiore da 598 €. Barcellona e Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "manutenzione per i modelli Transaxle",
+  "acordeones": [
+    {
+      "modelo": "924",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>da 401 €</strong><br/>Tagliando maggiore: <strong>da 598 €</strong><br/>Assistenza liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>240 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "944",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>502 €</strong><br/>Tagliando maggiore: <strong>898 €</strong><br/>Servizio liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>240 €</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "968",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>601 €</strong><br/>Tagliando maggiore: <strong>898 €</strong><br/>Servizio liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>240 €</strong><br/>Ispezione pre-acquisto: <strong>375€</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "928",
+      "parrafos": [
+        "<strong><br/></strong>Tagliando minore: <strong>601 €</strong><br/>Tagliando maggiore: <strong>898 €</strong><br/>Servizio liquido freni: <strong>92 €</strong><br/>Geometrie: <strong>240</strong><br/>Ispezione pre-acquisto: <strong>375 €</strong>",
+        "<em>Prezzi IVA esclusa.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "manutenzione per i modelli Transaxle",
+      "parrafos": [
+        "Nessuna auto è affidabile al 100 % e, sulla base della nostra esperienza lavorativa, l'assistenza e la diagnosi dei guasti si concentrano su una diagnosi chiara ed efficace come chiave dell'intero processo di riparazione.",
+        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo verrà disinfettato e pulito, pronto per la consegna",
+        "Seleziona un modello"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-dsc02894.jpg",
+          "alt": "Meccanico che esamina un componente accanto a una Porsche 911 in officina"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Effettua una prenotazione",
+      "parrafos": [
+        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 21,
+    "total": 21,
+    "completa": true
+  }
+}

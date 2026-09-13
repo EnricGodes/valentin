@@ -125,7 +125,7 @@ Guarda marca, tipo y fecha de cualquier solución IMS y el número del motor. Ta
 
 Revisa escape y catalizadores después de un fallo de AOS o misfire. Que el motor vuelva a ralentizar bien no demuestra que el aceite o combustible acumulados no hayan elevado temperatura y degradado el catalizador. La diagnosis posterior debe confirmar mezcla y eficiencia.
 
-Las [tarifas de mantenimiento de Cayman y Boxster](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento de Cayman y Boxster](/porsche-cayman-boxster-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 

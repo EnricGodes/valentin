@@ -1,0 +1,81 @@
+{
+  "rutaId": "tarifa-transaxle",
+  "tipo": "tarifa",
+  "ficheroOriginal": "porsche-transaxle-mantenimiento-taller",
+  "meta": {
+    "titulo": "Entretien Porsche 924, 944, 968 et 928 · Prix fermes",
+    "descripcion": "Tarifs fermes pour les transaxle : 924, 944, 968 et 928. Petit entretien dès 401 €, grand entretien dès 598 €. Barcelone et Madrid.",
+    "ogImagen": ""
+  },
+  "h1": "entretien pour les modèles Transaxle",
+  "acordeones": [
+    {
+      "modelo": "924",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>à partir de 401 €</strong><br/>Grand entretien : <strong>à partir de 598 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>240 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "944",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>502 €</strong><br/>Grand entretien : <strong>898 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>240 €</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "968",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>601 €</strong><br/>Grand entretien : <strong>898 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>240 €</strong><br/>Inspection avant achat : <strong>375€</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    },
+    {
+      "modelo": "928",
+      "parrafos": [
+        "<strong><br/></strong>Petit entretien : <strong>601 €</strong><br/>Grand entretien : <strong>898 €</strong><br/>Service liquide de frein : <strong>92 €</strong><br/>Géométries : <strong>240</strong><br/>Inspection avant achat : <strong>375 €</strong>",
+        "<em>Prix hors taxes.</em>"
+      ],
+      "items": []
+    }
+  ],
+  "secciones": [
+    {
+      "nivel": 1,
+      "titulo": "entretien pour les modèles Transaxle",
+      "parrafos": [
+        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience professionnelle, le service et le diagnostic des pannes se concentrent sur un diagnostic clair et efficace comme clé de l'ensemble du processus de réparation.",
+        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être livré",
+        "Sélectionnez un modèle"
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-dsc02894.jpg",
+          "alt": "Mécanicien examinant une pièce à côté d’une Porsche 911 à l’atelier"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "titulo": "Faire une réservation",
+      "parrafos": [
+        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 21,
+    "total": 21,
+    "completa": true
+  }
+}

@@ -123,7 +123,7 @@ Cada dos revisiones compara compresión, consumo, presión y residuos con los da
 
 Después de cualquier trabajo de distribución, comprueba nuevamente tensión y fugas tras el periodo indicado. Conserva referencias y valores, porque una factura con bomba, rodillos y correas identificados permite planificar el siguiente servicio sin desmontar para averiguar qué se instaló.
 
-Las [tarifas de mantenimiento de los transaxle](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento de los transaxle](/porsche-transaxle-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 
