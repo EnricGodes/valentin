@@ -201,7 +201,9 @@ if (esTarifas && secciones.length) {
      va detras del buscador, no delante: el buscador abre la pagina. */
   const i0 = familiaTarifa ? -1 : secciones.findIndex((s, i) => !(i === 0 && s.nivel === 1));
   const primera = i0 >= 0 ? secciones[i0] : undefined;
-  const fotos = primera?.imagenes ?? [];
+  /* En las familias la foto cuelga de la seccion del H1, que no se pinta:
+     se rescata de ahi para que vaya debajo del buscador. */
+  const fotos = primera?.imagenes ?? (familiaTarifa ? secciones[0]?.imagenes ?? [] : []);
   antesTarifasPag = primera ? [...secciones.slice(0, i0), { ...primera, imagenes: [] }] : [];
   despuesTarifasPag = secciones.slice(i0 + 1).map((s) => ({ ...s }));
   if (fotos.length) {
