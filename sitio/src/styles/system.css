@@ -2234,6 +2234,34 @@ section { position: relative; }
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.05em; color: var(--concreto);
 }
 
+/* ── Servicios del taller: foto y texto, alternando de lado ──────────────── */
+.svc-lista { margin-top: 24px; }
+.svc { border-top: 1px solid var(--linea); }
+.svc-interior {
+  max-width: var(--ancho-max); margin: 0 auto; padding: 80px var(--pad-lateral);
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: center;
+}
+.svc--foto-derecha .svc-foto { order: 2; }
+.svc-foto { display: block; overflow: hidden; background: var(--carbon); aspect-ratio: 4 / 3; }
+.svc-foto img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1.1s var(--ease); }
+.svc-foto:hover img { transform: scale(1.03); }
+.svc-numero {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  color: var(--bronce); margin-bottom: 18px;
+}
+.svc-titulo {
+  font-size: clamp(26px, 3.2vw, 38px); font-weight: 300; line-height: 1.12;
+  letter-spacing: -0.02em; color: var(--blanco); text-wrap: balance; margin-bottom: 22px;
+}
+.svc-acciones { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; margin-top: 32px; }
+/* El resumen de tarifas dentro del plan de mantenimiento: sin su linea de
+   arriba ni su margen, que ya los pone el bloque. */
+.svc-anexo .tresumen { margin-top: 0; border-top: 0; padding-top: 0; }
+@media (max-width: 900px) {
+  .svc-interior { grid-template-columns: 1fr; gap: 32px; padding: 56px var(--pad-lateral); }
+  .svc--foto-derecha .svc-foto { order: 0; }
+}
+
 /* ── Resumen de tarifas en la pagina del taller ──────────────────────────── */
 .tresumen { margin-top: 56px; padding: 64px 0 72px; border-top: 1px solid var(--linea); }
 .tresumen-cabecera {

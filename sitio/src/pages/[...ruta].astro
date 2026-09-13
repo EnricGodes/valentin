@@ -18,6 +18,7 @@ import SeccionesPagina from '../components/SeccionesPagina.astro';
 import Acordeon from '../components/Acordeon.astro';
 import Tarifas from '../components/Tarifas.astro';
 import TarifasResumen from '../components/TarifasResumen.astro';
+import ServiciosTaller from '../components/ServiciosTaller.astro';
 import tarifas from '../datos/tarifas.json';
 import CasosMagazine from '../components/CasosMagazine.astro';
 import { getCollection } from 'astro:content';
@@ -284,6 +285,9 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       {despuesTarifasPag.length > 0 && <SeccionesPagina secciones={despuesTarifasPag} idioma={idioma} />}
       {seccionTarifas && (
         <TarifasResumen idioma={idioma} titulo={seccionTarifas.titulo} fotos={seccionTarifas.imagenes} />
+      )}
+      {pagina.servicios && pagina.servicios.length > 0 && (
+        <ServiciosTaller servicios={pagina.servicios} idioma={idioma} />
       )}
       {despuesDeTarifas.length > 0 && <SeccionesPagina secciones={despuesDeTarifas} idioma={idioma} />}
       {generacion && (

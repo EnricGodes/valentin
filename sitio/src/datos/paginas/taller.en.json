@@ -18,7 +18,8 @@
         "Valentín Motors is one of the leading independent Porsche specialists in the country.",
         "Established in 1979 as a specialist in service, sales, and restoration, the workshop has grown into a benchmark in the field, featuring facilities of over 1.300 m² in central Barcelona and over 2.500 m² dedicated to comprehensive service in Leganés (Madrid), all designed with the customer in mind.",
         "In addition to workshop and maintenance services, we have departments specializing in projects and restorations, engine and transmission rebuilds, motorsport preparation, track days, and an extensive customization catalog featuring the German firm TECHART.",
-        "Our sales department has evolved over the last two decades and specializes primarily in the 911 range. Our sales team consists of industry experts who are passionate about everything related to Porsche."
+        "Our sales department has evolved over the last two decades and specializes primarily in the 911 range. Our sales team consists of industry experts who are passionate about everything related to Porsche.",
+        "We subscribe to the brand’s official platform, P.P.N. (Porsche Partner Network), which gives us the manufacturer’s information so that we can be precise and concise in the care of our customers’ cars."
       ],
       "items": [],
       "imagenes": [
@@ -39,288 +40,97 @@
     },
     {
       "nivel": 2,
-      "titulo": "What is considered before making a recommendation",
-      "parrafos": [
-        "A Porsche workshop must correlate the symptom, the generation, and the vehicle's usage before recommending maintenance, diagnostics, or repairs."
-      ],
-      "items": [
-        "Documented history.",
-        "Model version.",
-        "Mileage.",
-        "Previous service work.",
-        "Vehicle data readout.",
-        "Test results.",
-        "Condition of components."
-      ],
-      "imagenes": [
-        {
-          "url": "/img/paginas/taller-dsc02666.jpg",
-          "alt": "Mechanic working under a silver Porsche 996 on the lift"
-        },
-        {
-          "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
-          "alt": "M96 engine case with the IMS bearing flange in view"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "How items are categorized in a quote",
-      "parrafos": [
-        "A quote that lumps everything together forces you to make a decision blindly."
-      ],
-      "items": [
-        "Urgent items: those affecting safety or that will worsen if left unaddressed.",
-        "Preventive items: those due based on time, mileage, or service history.",
-        "Optional items: those that improve the vehicle but can wait.",
-        "What has been ruled out, and why."
-      ],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Urgent, preventive, and optional",
-      "parrafos": [
-        "The Barcelona and Madrid centers cover maintenance, engines, gearboxes, IMS, bore scoring, pre-purchase inspections, bodywork and paint, Storage, and preparation.",
-        "First, items are categorized as urgent, preventive, or optional. The quote must explain the evidence supporting each recommendation and the consequences of postponing it."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/taller-dsc03506.jpg",
-          "alt": "Mechanic picking a tool with a stripped flat-six behind him"
-        },
-        {
-          "url": "/img/paginas/2644ddba-bore_scoring.jpg",
-          "alt": "Inside of a cylinder with the vertical bore scoring marks on the wall"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Fixed-price vehicle maintenance plan",
-      "parrafos": [
-        "We follow manufacturer-specified maintenance plans, using genuine parts and adhering to Porsche guidelines."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/taller-dsc03360.jpg",
-          "alt": "Red Porsche 964 with the engine out and a mechanic working on it"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Engine restoration",
-      "parrafos": [
-        "For 40 years, our specialty has been mechanics—specifically, engines. We restore, refurbish, and repair any engine from the brand. We offer a nationwide engine pickup service and return them once the work is complete.",
-        "We possess the machinery and tooling required for any type of restoration and machining, as well as a dedicated department for sourcing parts when needed."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/taller-dsc07382.jpg",
-          "alt": "Mechanic next to a flat-six on the stand, under a lifted car"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Gearboxes",
-      "parrafos": [
-        "We restore all types of Porsche gearboxes, from the early 356, 915, and G50 models to the modern 991 and 992 generations. We also offer service and repair for automatic transmissions, eliminating the need to purchase new ones."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/4c090daf-DSC00895.jpg",
-          "alt": "Front ends of a red 964 and a blue G-series 911 parked side by side in Storage"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Pre-purchase vehicle inspection",
-      "parrafos": [
-        "If you have found a Porsche you wish to purchase, we can perform a comprehensive pre-purchase inspection, assessing the vehicle's current condition and reviewing its history. This allows us to verify whether the seller's offer is fair and free of hidden issues. The inspection can be carried out at our workshop in Barcelona, or we can travel to locations within Spain or abroad. The cost of the pre-purchase inspection is 250 € + VAT."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cf185986-DSC03460.jpeg",
-          "alt": "The Valentín Motors team in the workshop, in front of the engine room"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Nationwide technical service",
-      "parrafos": [
-        "We offer nationwide technical service, as well as support for our workshop network through technical consulting."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/ecce8ca5-DSC03538.jpeg",
-          "alt": "Two mechanics working in the engine bay of a red 911 with the lid raised"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "bore scoring repairs",
-      "parrafos": [
-        "We have extensive experience in preventive maintenance, as well as diagnosing and resolving issues caused by bore scoring."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
-          "alt": "Workshop floor with a turquoise 911 964 and a white classic 911 in the foreground"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "High-end paint and bodywork",
-      "parrafos": [
-        "Bodywork repair and painting according to Porsche specifications: original colors matching the new paint code system. Cosmetic treatments to protect the bodywork against corrosion using modern methods. Vehicle preparation involving gap measurement, removal of trim and accessories, cataloging and chrome plating of accessories, etc."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
-          "alt": "Mechanic leaning into the engine bay of a red 964 with the lid open"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Maintenance rates",
-      "parrafos": [
-        "Select a model to view pricing for associated services."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/taller-dsc02900.jpg",
-          "alt": "A mechanic’s gloved hands working on a body component"
-        },
-        {
-          "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
-          "alt": "911 body with the rear wing in filler, being prepared in the bodyshop"
-        }
-      ]
-    },
-    {
-      "nivel": 3,
-      "titulo": "Models 911",
-      "parrafos": [
-        "Services for Pre-74, SC, 3.2, 964, 993, 996, 997, 991, and 992 models."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Cayman and Boxster models",
-      "parrafos": [
-        "Services for Boxster 986, Boxster 987, Cayman 987, Boxster 981, Cayman 981, Cayman 718, and Boxster 718 models."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "GT models",
-      "parrafos": [
-        "Services for models 996 GT3 MK1, 996 GT3 MK2, 996 GT3 RS, 997.1 GT3, 997.1 GT3 RS, 997.2 GT3, 997.2 GT3 RS, 991.1 GT3, 991.1 GT3 RS, 991.2 GT3, 991.2 GT3 RS, 992 GT3, 992 GT3 RS, 993 GT2, 996 GT2, 997 GT2, 997 GT2 RS, 991 GT2 RS, 981 Cayman GT4, 718 Cayman GT4 and 718 Cayman GT4 RS."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Cayenne and Macan models",
-      "parrafos": [
-        "Services for Cayenne Diesel, Cayenne Diesel S, Macan, Macan GTS, Macan S, Macan Turbo, and Macan Diesel models."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Turbo models",
-      "parrafos": [
-        "Services for 930 Turbo, 964 3.3 Turbo, 964 3.6 Turbo, 993 Turbo, 996 Turbo, 997.1 Turbo, 997.2 Turbo, 991.1 Turbo, 991.2 Turbo, and 992 Turbo models."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 3,
-      "titulo": "Transaxle models",
-      "parrafos": [
-        "Services for 924, 944, 968, and 928 models."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "How each service is documented",
-      "parrafos": [
-        "A clearly defined and recorded service, with a dedicated technical contact and the option to internally route engine, transmission, or bodywork tasks."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
-          "alt": "Black Porsche 964 on the two-post lift, with a mechanic working underneath"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
-      "titulo": "Related services",
-      "parrafos": [
-        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/taller-porsche/mantenimiento\">maintenance</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">pre-purchase inspection</a>, <a href=\"/sala-motores\">engine shop</a>, and <a href=\"/taller-porsche/tarifas\">pricing</a>."
-      ],
-      "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
-          "alt": "Gloved technician at the wheel of a grey 997 Cabriolet with its doors protected, during an inspection"
-        }
-      ]
-    },
-    {
-      "nivel": 2,
       "titulo": "Frequently asked questions",
       "parrafos": [],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
-          "alt": "Computer screen showing the exploded view of a 964 part in the parts catalogue"
-        }
-      ]
+      "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Do you work on both classic and modern Porsches?",
+      "titulo": "Do you work on classic and current Porsches?",
       "parrafos": [
-        "Yes. Our services cover everything from air-cooled 356 and 911 models to current generations, as well as the Boxster, Cayman, Cayenne, Macan, and transaxle models."
+        "Yes. From the 356 and the air-cooled 911s to the current generations, plus Boxster, Cayman, Cayenne, Macan, Panamera and the 924, 944, 968 and 928 transaxles."
       ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "How do I choose the right service?",
+      "titulo": "What is the difference between the minor and the major service?",
       "parrafos": [
-        "Explain the symptoms, usage, and history when booking your appointment. If a reliable diagnosis isn't available, the initial step is to obtain one before authorizing any repairs."
+        "The minor service is engine oil and filter plus a 23-point check. The major includes the minor, adds air and cabin filters, spark plugs when due and thirty more check points. Which one applies depends on mileage and time since the last one."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Are the published prices fixed?",
+      "parrafos": [
+        "Yes. The prices include parts and labour, excluding VAT. They are reference prices per model: if something unforeseen appears during the service, it is quoted and authorised separately before it is touched."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Do you use genuine Porsche parts?",
+      "parrafos": [
+        "Yes, and we follow the manufacturer’s maintenance schedules. We subscribe to the Porsche Partner Network, which gives us access to the official technical documentation for each model."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Do I lose the Porsche warranty by servicing outside the official network?",
+      "parrafos": [
+        "No. European regulations allow a car under warranty to be serviced at an independent workshop as long as the manufacturer’s schedules are followed and equivalent parts are used. We document every intervention so that it is on record."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "How do I know if my 996, 997 or Boxster needs the IMS replaced?",
+      "parrafos": [
+        "By the engine, not the year: in 2000, 2001 and 2005 different revisions coexist. We identify the bearing each car carries before recommending anything. If the engine is a 997.1 with the large bearing, it cannot be replaced without opening the engine and is dealt with differently."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "What is bore scoring and how is it diagnosed?",
+      "parrafos": [
+        "It is scoring of the cylinder wall from piston contact, typical of the larger-capacity M96 and M97 engines. It is diagnosed with a borescope inspection of the cylinders and oil consumption analysis; cold-start noise and the smell of burnt oil are the first warnings."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can you inspect a car before I buy it?",
+      "parrafos": [
+        "Yes. The pre-purchase inspection checks the car’s condition and history, at our workshop or wherever the car is, in Spain or abroad. It costs 250 € plus VAT and we tell you whether the offer is reasonable and what it hides."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Do you repair engines from other workshops or other regions?",
+      "parrafos": [
+        "Yes. We collect engines nationwide, rebuild them in our engine room and return them finished. We also provide technical support to other workshops through consultancy."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "How long does a service take and do I need an appointment?",
+      "parrafos": [
+        "A minor service is done the same day; a major one usually takes one or two days depending on the model. Book with the form on this page or by phone, giving model, year and what you need, and we will confirm date and price."
       ],
       "items": [],
       "imagenes": []
@@ -331,8 +141,122 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 83,
-    "total": 83,
+    "hechas": 47,
+    "total": 47,
     "completa": true
-  }
+  },
+  "servicios": [
+    {
+      "rutaId": "taller-mantenimiento",
+      "titulo": "Fixed-price vehicle maintenance plan",
+      "parrafos": [
+        "We follow manufacturer-specified maintenance plans, using genuine parts and adhering to Porsche guidelines."
+      ],
+      "foto": {
+        "url": "/img/paginas/0397d976-taller_mantenimiento.jpg",
+        "alt": "Workshop floor with a turquoise 964 and a white classic 911 in the foreground"
+      }
+    },
+    {
+      "rutaId": "taller-ims",
+      "titulo": "IMS repairs",
+      "parrafos": [
+        "We have carried out a great many interventions on the intermediate shaft bearing (IMS) on M96 and M97 engines of every generation: 986, 996, 987 and 997.1. We identify which bearing each engine carries before touching anything and replace it preventively, at a fixed price, or repair the engine when the damage is already done."
+      ],
+      "foto": {
+        "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
+        "alt": "M96 engine case with the IMS bearing flange exposed"
+      },
+      "enlace": {
+        "texto": "What is the IMS?",
+        "href": "/magazine/que-es-el-ims-de-porsche"
+      }
+    },
+    {
+      "rutaId": "taller-bore-scoring",
+      "titulo": "bore scoring repairs",
+      "parrafos": [
+        "We have extensive experience in preventive maintenance, as well as diagnosing and resolving issues caused by bore scoring."
+      ],
+      "foto": {
+        "url": "/img/paginas/2644ddba-bore_scoring.jpg",
+        "alt": "Inside of a cylinder with the vertical scoring marks on the wall"
+      },
+      "enlace": {
+        "texto": "What is bore scoring?",
+        "href": "/magazine/porsche-bore-scoring"
+      }
+    },
+    {
+      "rutaId": "taller-motores",
+      "titulo": "Engine restoration",
+      "parrafos": [
+        "For 40 years, our specialty has been mechanics—specifically, engines. We restore, refurbish, and repair any engine from the brand. We offer a nationwide engine pickup service and return them once the work is complete.",
+        "We possess the machinery and tooling required for any type of restoration and machining, as well as a dedicated department for sourcing parts when needed."
+      ],
+      "foto": {
+        "url": "/img/paginas/cc5c39cd-taller_motores.jpg",
+        "alt": "Mechanic leaning into the engine bay of a red 964 with the lid open"
+      }
+    },
+    {
+      "rutaId": "taller-cajas",
+      "titulo": "Gearboxes",
+      "parrafos": [
+        "We restore all types of Porsche gearboxes, from the early 356, 915, and G50 models to the modern 991 and 992 generations. We also offer service and repair for automatic transmissions, eliminating the need to purchase new ones."
+      ],
+      "foto": {
+        "url": "/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg",
+        "alt": "Black Porsche 964 on the two-post lift with a mechanic working underneath"
+      }
+    },
+    {
+      "rutaId": "taller-pintura",
+      "titulo": "High-end paint and bodywork",
+      "parrafos": [
+        "Bodywork repair and painting according to Porsche specifications: original colors matching the new paint code system. Cosmetic treatments to protect the bodywork against corrosion using modern methods. Vehicle preparation involving gap measurement, removal of trim and accessories, cataloging and chrome plating of accessories, etc."
+      ],
+      "foto": {
+        "url": "/img/paginas/0d90cfe7-taller_chapa_pintura.jpg",
+        "alt": "911 body with the rear wing in filler, being prepared in the bodyshop"
+      }
+    },
+    {
+      "rutaId": "taller-pre-compra",
+      "titulo": "Pre-purchase vehicle inspection",
+      "parrafos": [
+        "If you have found a Porsche you wish to purchase, we can perform a comprehensive pre-purchase inspection, assessing the vehicle's current condition and reviewing its history. This allows us to verify whether the seller's offer is fair and free of hidden issues. The inspection can be carried out at our workshop in Barcelona, or we can travel to locations within Spain or abroad. The cost of the pre-purchase inspection is 250 € + VAT."
+      ],
+      "foto": {
+        "url": "/img/paginas/0dd0d9f5-inspeccion_pre-compra.jpg",
+        "alt": "Gloved technician at the wheel of a grey 997 Cabriolet with the doors protected, during an inspection"
+      },
+      "enlace": {
+        "texto": "10 things to check before buying",
+        "href": "/magazine/10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911"
+      }
+    },
+    {
+      "rutaId": "taller-servicio-tecnico",
+      "titulo": "Nationwide technical service",
+      "parrafos": [
+        "We offer nationwide technical service, as well as support for our workshop network through technical consulting."
+      ],
+      "foto": {
+        "url": "/img/paginas/2d305aba-taller_consultoria.jpg",
+        "alt": "Computer screen showing the exploded diagram of a 964 part in the parts catalogue"
+      }
+    },
+    {
+      "rutaId": "storage",
+      "titulo": "Porsche storage: much more than a parking space",
+      "parrafos": [
+        "A Porsche that does not move does not look after itself. At our Madrid centre we offer a space under 24-hour surveillance with periodic inspections and preventive maintenance while the car is in storage, so that it returns to the road as it came in."
+      ],
+      "foto": {
+        "url": "/img/paginas/cf185986-DSC03460.jpeg",
+        "alt": "The Valentín Motors team in the workshop, in front of the engine room"
+      }
+    }
+  ]
 }

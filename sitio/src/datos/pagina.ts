@@ -18,6 +18,15 @@ export interface Acordeon {
   items: string[];
 }
 
+export interface ServicioPagina {
+  rutaId: string;
+  titulo: string;
+  parrafos: string[];
+  foto: { url: string; alt: string };
+  /** Enlace secundario, normalmente a un articulo del Magazine. */
+  enlace?: { texto: string; href: string };
+}
+
 export type TipoPagina =
   | 'home' | 'servicio' | 'tarifa' | 'centro'
   | 'institucional' | 'contacto' | 'landing' | 'legal';
@@ -40,6 +49,9 @@ export interface Pagina {
       cien fotos del trabajo. Enlazarlos es lo que convierte una pagina de
       servicio en algo que se puede leer. */
   articulos?: string[];
+  /** Bloques de servicio de la pagina del taller: uno por entrada del menu,
+      con su foto, su texto y el enlace a su pagina. */
+  servicios?: ServicioPagina[];
   secciones: SeccionPagina[];
   contacto: { telefonos: string[]; emails: string[] };
 }

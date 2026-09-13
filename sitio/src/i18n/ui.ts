@@ -278,6 +278,8 @@ export const UI = {
   'tarifas.verTodas': { es: 'Ver todas las tarifas', en: 'See all prices', fr: 'Voir tous les tarifs', it: 'Vedi tutte le tariffe', de: 'Alle Preise ansehen', ca: 'Veure totes les tarifes' },
   'tarifas.modelosN': { es: '{n} modelos', en: '{n} models', fr: '{n} modèles', it: '{n} modelli', de: '{n} Modelle', ca: '{n} models' },
   'tarifas.desde':    { es: 'desde', en: 'from', fr: 'dès', it: 'da', de: 'ab', ca: 'des de' },
+  'servicios.label':      { es: 'Servicios del taller', en: 'Workshop services', fr: 'Services de l’atelier', it: 'Servizi dell’officina', de: 'Leistungen der Werkstatt', ca: 'Serveis del taller' },
+  'tarifas.resumenTitulo': { es: 'Tarifas de mantenimiento', en: 'Maintenance prices', fr: 'Tarifs d’entretien', it: 'Tariffe di manutenzione', de: 'Wartungspreise', ca: 'Tarifes de manteniment' },
   'pie.modelos': { es: 'Porsche de segunda mano por modelo', en: 'Used Porsche by model', fr: 'Porsche d’occasion par modèle', it: 'Porsche usate per modello', de: 'Gebrauchte Porsche nach Modell', ca: 'Porsche de segona mà per model' },
 
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },

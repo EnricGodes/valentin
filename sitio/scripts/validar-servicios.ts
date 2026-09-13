@@ -142,8 +142,12 @@ for (const [idioma, paginas] of porIdioma) {
     if (APERTURAS_PROHIBIDAS.some((re) => re.test(abre))) {
       fallos.push(`${idioma}/${pagina.rutaId}: abre con la formula comun de la primera vuelta.`);
     }
+    /* La pagina del taller ya no es una sucesion de parrafos: son nueve
+       bloques de servicio con foto y enlace (campo `servicios`), y la regla
+       de las listas, que existe para romper esa sucesion, no le aplica. */
+    const esHub = ((pagina as unknown as { servicios?: unknown[] }).servicios?.length ?? 0) > 0;
     const listas = pagina.secciones.filter((s) => (s.items ?? []).length > 0).length;
-    if (listas < MINIMO_LISTAS) {
+    if (listas < MINIMO_LISTAS && !esHub) {
       fallos.push(`${idioma}/${pagina.rutaId}: ${listas} bloque(s) de lista, `
         + `hacen falta ${MINIMO_LISTAS}. Falta contenido, no relleno.`);
     }
