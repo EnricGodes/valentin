@@ -7,7 +7,7 @@
  * una columna al manifiesto, no duplicar el arbol de src/pages.
  */
 import { IDIOMAS, type Idioma } from '../i18n/config';
-import { url } from '../i18n/routes';
+import { url, urlAbsoluta } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
@@ -25,7 +25,8 @@ import NegocioLocal from '../components/seo/NegocioLocal.astro';
 import Vehiculo from '../components/seo/Vehiculo.astro';
 import Migas from '../components/seo/Migas.astro';
 import { cochesDe, idiomasDeCoche, idiomasConCatalogo, type Coche } from '../datos/coche';
-import { PAGINAS_CONTENIDO, idiomasDe, type Pagina } from '../datos/pagina';
+import { PAGINAS_CONTENIDO, idiomasDe, separarFaq, type Pagina } from '../datos/pagina';
+import PreguntasFrecuentes from '../components/PreguntasFrecuentes.astro';
 import { VENDIDOS, type Vendido } from '../datos/vendido';
 import FichaVendido from '../components/FichaVendido.astro';
 import UnidadesGeneracion from '../components/UnidadesGeneracion.astro';
@@ -148,7 +149,20 @@ const esIndiceTarifas = pagina?.rutaId === 'taller-tarifas';
    quedaron seis listas muertas y seis paginas a las que no llegaba nadie.
    En su lugar va el buscador con los 57 modelos. Las subsecciones se localizan
    por su nivel y no por su titulo, que cambia en cada idioma. */
-const secciones = pagina?.secciones ?? [];
+/* Las preguntas frecuentes salen del flujo: tienen su propia grafica al final
+   de la pagina y su FAQPage en el <head>. */
+const { resto: secciones, faq } = separarFaq(pagina?.secciones ?? []);
+const sinHtml = (s: string) => s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+const faqSchema = faq && {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  '@id': `${urlAbsoluta(pagina!.rutaId, idioma)}#faq`,
+  inLanguage: idioma,
+  mainEntity: faq.preguntas.map((p) => ({
+    '@type': 'Question', name: sinHtml(p.pregunta),
+    acceptedAnswer: { '@type': 'Answer', text: sinHtml(p.respuesta.join(' ')).slice(0, 900) },
+  })),
+};
 
 /* Landing de generacion ("Porsche 997 de segunda mano"). Sus unidades van
    debajo del titulo, antes del texto; lo demas (vacio, vendidos, otras
@@ -194,6 +208,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
     {(esCentro || pagina?.tipo === 'contacto') && <NegocioLocal centro={centro} />}
     {coche && <Vehiculo coche={coche} idioma={idioma} />}
     <Migas migas={migas} idioma={idioma} />
+    {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} is:inline></script>}
   </Fragment>
   <Nav slot="nav" idioma={idioma} rutaId={rutaId} extra={extra}
        idiomasPublicados={idiomasPublicados} />
@@ -228,6 +243,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         <UnidadesGeneracion generacion={generacion} nombre={nombreGeneracion}
                             rutaId={pagina.rutaId} idioma={idioma} parte="abajo" />
       )}
+      {faq && <PreguntasFrecuentes faq={faq} idioma={idioma} />}
       {relacionados.length > 0 && (
         <section class="pagina-articulos contenido">
           <h2 class="pagina-articulos-titulo">{t(generacion ? 'generacion.guia' : 'pagina.articulos')}</h2>

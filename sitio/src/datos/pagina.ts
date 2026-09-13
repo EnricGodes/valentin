@@ -81,3 +81,39 @@ export const publicables = () =>
 
 /** Las que se sirven por la ruta general; la home tiene pagina propia. */
 export const PAGINAS_CONTENIDO = publicables().filter((x) => x.pagina.tipo !== 'home');
+
+/**
+ * Las preguntas frecuentes de una pagina, separadas del resto.
+ *
+ * En los JSON viven como un H2 vacio ("Preguntas frecuentes", "FAQ",
+ * "Häufig gestellte Fragen"...) seguido de H3, uno por pregunta, con la
+ * respuesta en parrafos. Se localizan por la forma y no por el titulo, que
+ * cambia en cada idioma: el ultimo H2 sin contenido al que solo siguen H3
+ * con texto. Asi se pintan con su propia grafica y salen como FAQPage.
+ */
+export interface Faq { titulo: string; preguntas: { pregunta: string; respuesta: string[] }[] }
+
+export function separarFaq(secciones: SeccionPagina[]): { resto: SeccionPagina[]; faq?: Faq } {
+  const sinTexto = (s: SeccionPagina) => !s.parrafos.length && !s.items.length;
+  for (let i = secciones.length - 1; i >= 0; i--) {
+    const s = secciones[i];
+    if (s.nivel === 3) continue;
+    if (s.nivel !== 2 || !sinTexto(s)) break;
+    const hijas = secciones.slice(i + 1);
+    const preguntas = hijas
+      .filter((h) => h.nivel === 3 && !sinTexto(h))
+      .map((h) => ({ pregunta: h.titulo, respuesta: [...h.parrafos, ...h.items] }));
+    if (preguntas.length >= 2 && preguntas.length === hijas.length) {
+      /* En tres paginas la migracion colgo fotos del propio H2 de preguntas.
+         Se quedan en el flujo, como un bloque de fotos sin titulo, antes de
+         la banda de preguntas. */
+      const resto = secciones.slice(0, i);
+      if (s.imagenes.length) {
+        resto.push({ nivel: 0, titulo: '', parrafos: [], items: [], imagenes: s.imagenes });
+      }
+      return { resto, faq: { titulo: s.titulo, preguntas } };
+    }
+    break;
+  }
+  return { resto: secciones };
+}

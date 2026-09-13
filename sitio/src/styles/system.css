@@ -2222,6 +2222,52 @@ section { position: relative; }
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.05em; color: var(--concreto);
 }
 
+/* ── Preguntas frecuentes: otro registro para romper la columna ──────────── */
+.faq {
+  margin-top: 72px; padding: 72px 0 80px;
+  background: var(--grafito);
+  border-top: 1px solid var(--linea); border-bottom: 1px solid var(--linea);
+}
+.faq-cabecera { display: flex; align-items: center; gap: 24px; margin-bottom: 36px; }
+.faq-cabecera .section-label { margin: 0; white-space: nowrap; }
+.faq-cabecera .shimmer-line { flex: 1; margin: 0; }
+.faq-lista { display: grid; }
+.faq-item { border-top: 1px solid var(--linea-fuerte); }
+.faq-item:last-child { border-bottom: 1px solid var(--linea-fuerte); }
+.faq-pregunta {
+  display: grid; grid-template-columns: 44px 1fr 28px; align-items: baseline; gap: 20px;
+  padding: 26px 0; cursor: pointer; list-style: none;
+  transition: color 0.3s var(--ease);
+}
+.faq-pregunta::-webkit-details-marker { display: none; }
+.faq-pregunta:hover .faq-texto, .faq-item[open] .faq-texto { color: var(--bronce); }
+.faq-pregunta:focus-visible { outline: 2px solid var(--bronce); outline-offset: 4px; }
+.faq-numero {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: var(--tr-label);
+  color: var(--bronce); opacity: 0.75;
+}
+.faq-texto {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(20px, 2.4vw, 26px); line-height: 1.25; letter-spacing: -0.01em;
+  color: var(--blanco); text-wrap: balance; transition: color 0.3s var(--ease);
+}
+/* Un mas que gira a equis, en dos trazos: el mismo gesto que el menu movil. */
+.faq-icono { position: relative; width: 14px; height: 14px; align-self: center; }
+.faq-icono::before, .faq-icono::after {
+  content: ''; position: absolute; left: 50%; top: 50%;
+  width: 14px; height: 1px; background: var(--concreto);
+  transform: translate(-50%, -50%); transition: transform 0.3s var(--ease);
+}
+.faq-icono::after { transform: translate(-50%, -50%) rotate(90deg); }
+.faq-item[open] .faq-icono::after { transform: translate(-50%, -50%) rotate(0); }
+.faq-respuesta { padding: 0 0 32px 64px; max-width: 66ch; }
+.faq-respuesta p + p { margin-top: 14px; }
+@media (max-width: 720px) {
+  .faq { padding: 56px 0 60px; }
+  .faq-pregunta { grid-template-columns: 32px 1fr 24px; gap: 14px; padding: 22px 0; }
+  .faq-respuesta { padding-left: 0; }
+}
+
 /* ── Artículos que sostienen una página de servicio ──────────────────────── */
 .pagina-articulos { margin-top: 88px; padding-top: 48px; border-top: 1px solid var(--linea); }
 .pagina-articulos-titulo {

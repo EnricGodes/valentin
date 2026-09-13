@@ -1,0 +1,44 @@
+---
+/**
+ * Preguntas frecuentes de una pagina de servicio.
+ *
+ * Antes eran un H2 mas seguido de dos H3 mas, con la misma letra y el mismo
+ * ritmo que las diez secciones anteriores: la pagina se leia como una sola
+ * columna gris de arriba abajo. Aqui cambian de registro: una banda a lo
+ * ancho sobre grafito, la pregunta en serif, y cada respuesta plegada en un
+ * <details> nativo. Que sea nativo importa: se abre sin JavaScript, se
+ * recorre con teclado y Google lee el texto plegado igual que el visible.
+ *
+ * El JSON-LD FAQPage lo emite la pagina en el <head>, no este componente:
+ * un script dentro del cuerpo funciona, pero el sitio los lleva todos arriba.
+ */
+import type { Idioma } from '../i18n/config';
+import { POR_DEFECTO } from '../i18n/config';
+import { enlazaEnIdioma } from '../i18n/routes';
+import type { Faq } from '../datos/pagina';
+
+interface Props { faq: Faq; idioma?: Idioma; }
+const { faq, idioma = POR_DEFECTO } = Astro.props;
+---
+<section class="faq" aria-labelledby="faq-titulo">
+  <div class="contenido faq-contenido">
+    <header class="faq-cabecera reveal">
+      <p class="section-label">{faq.titulo}</p>
+      <div class="shimmer-line"></div>
+    </header>
+    <div class="faq-lista">
+      {faq.preguntas.map((p, i) => (
+        <details class="faq-item reveal" open={i === 0}>
+          <summary class="faq-pregunta">
+            <span class="faq-numero">{String(i + 1).padStart(2, '0')}</span>
+            <span class="faq-texto">{p.pregunta}</span>
+            <span class="faq-icono" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-respuesta texto-editorial">
+            {p.respuesta.map((r) => <p set:html={enlazaEnIdioma(r, idioma)} />)}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
