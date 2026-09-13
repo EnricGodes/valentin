@@ -188,6 +188,29 @@ const relacionados = (pagina?.articulos ?? [])
                  ?? todos.find((p) => p.data.slugFinal === slug && p.data.lang === 'es'))
   .filter((p) => p !== undefined);
 
+/* Paginas de tarifas (el indice y las seis familias): el buscador de precios
+   es a lo que se viene, asi que va justo despues de la primera seccion, no
+   al final de la pagina. La foto de esa primera seccion baja con el resto:
+   se cuelga de la primera seccion posterior que no tenga foto, y si todas
+   tienen, va sola detras del buscador. */
+const esTarifas = Boolean(familiaTarifa || esIndiceTarifas);
+let antesTarifasPag = secciones;
+let despuesTarifasPag: typeof secciones = [];
+if (esTarifas && secciones.length) {
+  /* En las seis familias la unica seccion con texto es "Haz una reserva", que
+     va detras del buscador, no delante: el buscador abre la pagina. */
+  const i0 = familiaTarifa ? -1 : secciones.findIndex((s, i) => !(i === 0 && s.nivel === 1));
+  const primera = i0 >= 0 ? secciones[i0] : undefined;
+  const fotos = primera?.imagenes ?? [];
+  antesTarifasPag = primera ? [...secciones.slice(0, i0), { ...primera, imagenes: [] }] : [];
+  despuesTarifasPag = secciones.slice(i0 + 1).map((s) => ({ ...s }));
+  if (fotos.length) {
+    const hueco = despuesTarifasPag.find((s) => !s.imagenes.length);
+    if (hueco) hueco.imagenes = fotos;
+    else despuesTarifasPag.unshift({ nivel: 0, titulo: '', parrafos: [], items: [], imagenes: fotos });
+  }
+}
+
 const esVende = pagina?.rutaId === 'vende';
 const esCentro = pagina?.tipo === 'centro';
 const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
@@ -229,7 +252,16 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         <UnidadesGeneracion generacion={generacion} nombre={nombreGeneracion}
                             rutaId={pagina.rutaId} idioma={idioma} parte="arriba" />
       )}
-      <SeccionesPagina secciones={antesDeTarifas} idioma={idioma} />
+      <SeccionesPagina secciones={esTarifas ? antesTarifasPag : antesDeTarifas} idioma={idioma} />
+      {esTarifas && (
+        <div class="contenido">
+          <Tarifas idioma={idioma} familia={familiaTarifa} textos={{
+            familia: t('tarifas.familia'), modelo: t('tarifas.modelo'),
+            nota: t('tarifas.nota'),
+          }} />
+        </div>
+      )}
+      {despuesTarifasPag.length > 0 && <SeccionesPagina secciones={despuesTarifasPag} idioma={idioma} />}
       {iTarifas >= 0 && (
         <div class="contenido">
           <Tarifas idioma={idioma} textos={{
@@ -248,16 +280,9 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         <CasosMagazine posts={relacionados} idioma={idioma} tipo={generacion ? 'guia' : 'caso'}
                        titulo={t(generacion ? 'generacion.guia' : 'pagina.articulos')} />
       )}
-      {(familiaTarifa || esIndiceTarifas)
-        ? <div class="contenido">
-            <Tarifas idioma={idioma} familia={familiaTarifa} textos={{
-              familia: t('tarifas.familia'), modelo: t('tarifas.modelo'),
-              nota: t('tarifas.nota'),
-            }} />
-          </div>
-        : pagina.acordeones.length > 0 && (
-            <div class="contenido"><Acordeon items={pagina.acordeones} /></div>
-          )}
+      {!esTarifas && pagina.acordeones.length > 0 && (
+        <div class="contenido"><Acordeon items={pagina.acordeones} /></div>
+      )}
     </article>
   )}
 
