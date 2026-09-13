@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Tarifes manteniment Porsche · Valentín Motors",
-    "descripcion": "Tarifes de manteniment Porsche per model per a servei menor, servei major, líquid de frens, geometria i inspecció.",
+    "titulo": "Manteniment Porsche: tarifes tancades per model · Valentín Motors",
+    "descripcion": "Manteniment Porsche amb recanvi original i pautes del fabricant, i tarifes publicades per a 57 models: servei menor, major, frens, alineació i precompra. Barcelona i Madrid.",
     "ogImagen": ""
   },
   "h1": "Tarifes de taller Porsche per model i servei",
@@ -75,6 +75,47 @@
         "Caixa de canvis.",
         "Servei sol·licitat.",
         "Historial recent de manteniment."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Als clàssics, l'interval no és el del manual",
+      "parrafos": [
+        "Un 911 refrigerat per aire que fa tres mil quilòmetres a l'any no necessita el mateix calendari que un 992 d'ús diari. En cotxes d'ús ocasional recomanem un canvi d'oli anual encara que no s'arribi al quilometratge: l'oli es degrada per temps, no només per ús, i en un motor amb quaranta anys això es paga car."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quan convé avançar el servei",
+      "parrafos": [
+        "El calendari del manual suposa un ús que molts Porsche d'aquí no en tenen."
+      ],
+      "items": [
+        "Menys de tres mil quilòmetres per any: oli anual encara que no arribis a l'interval.",
+        "Després de mesos aturat: oli, líquid de frens i pressions abans de tornar a fer-lo servir.",
+        "Trajectes curts i sempre en fred: l'oli es contamina abans del previst.",
+        "Track days: el líquid de frens i l'oli es passen a comptar per sessions, no per mesos.",
+        "Compra recent sense historial: es comença per un servei més gran per tenir un punt de partida."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què mana, el pla o l'ús",
+      "parrafos": [
+        "El manteniment Porsche ha de seguir el pla del fabricant i adaptar-se al temps, quilometratge, tipus d'ús i antecedents de la unitat."
+      ],
+      "items": [
+        "Historial.",
+        "Data i quilometratge del darrer servei.",
+        "Avisos.",
+        "Fluids.",
+        "Desgast.",
+        "Fugides.",
+        "Observacions del propietari."
       ],
       "imagenes": []
     },
@@ -181,8 +222,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 61,
+    "total": 61,
     "completa": true
   }
 }

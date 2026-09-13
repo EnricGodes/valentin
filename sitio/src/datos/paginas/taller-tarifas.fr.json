@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Tarifs d'entretien Porsche Valentín Motors",
-    "descripcion": "Tarifs d'entretien Porsche par modèle pour les révisions mineures et majeures, le liquide de frein, la géométrie et le contrôle technique.",
+    "titulo": "Entretien Porsche : tarifs fermes par modèle · Valentín Motors",
+    "descripcion": "Entretien Porsche avec pièces d’origine et préconisations du constructeur, et tarifs publiés pour 57 modèles : petit et grand entretien, freins, géométrie et inspection avant achat. Barcelone et Madrid.",
     "ogImagen": ""
   },
   "h1": "Tarifs d’atelier Porsche par modèle et type d’entretien",
@@ -75,6 +75,47 @@
         "Boîte de vitesses.",
         "Service demandé.",
         "Historique d'entretien récent."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Sur les voitures de collection, l'intervalle d'entretien n'est pas celui préconisé dans le manuel",
+      "parrafos": [
+        "Une 911 Une voiture à moteur refroidi par air qui parcourt 3 000 kilomètres par an n'a pas besoin du même programme d'entretien qu'une voiture 992 utilisée quotidiennement. Pour les voitures utilisées occasionnellement, nous recommandons une vidange annuelle, même si le kilométrage n'est pas atteint : l'huile se dégrade avec le temps, et pas seulement à cause de l'utilisation, ce qui a un impact considérable sur un moteur de 40 ans."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quand avancer l'entretien ?",
+      "parrafos": [
+        "Le programme d'entretien du manuel suppose un niveau d'utilisation que beaucoup de Porsche n'atteignent pas."
+      ],
+      "items": [
+        "Moins de 3 000 kilomètres par an : vidange annuelle, même si vous n’atteignez pas l’intervalle recommandé.",
+        "Après plusieurs mois d’inactivité : contrôle de l’huile moteur, du liquide de frein et de la pression des pneus avant toute remise en service.",
+        "Trajets courts et systématiquement par temps froid : l’huile se contamine plus rapidement que prévu.",
+        "Journées sur circuit : les vidanges d’huile et de liquide de frein sont désormais effectuées par session, et non plus par mois.",
+        "Véhicule récemment acquis sans historique d’entretien : une révision complète est réalisée."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Priorité au calendrier ou à l'utilisation ?",
+      "parrafos": [
+        "L'entretien Porsche doit respecter le calendrier du constructeur et être adapté à l'âge, au kilométrage, au type d'utilisation et à l'historique du véhicule."
+      ],
+      "items": [
+        "Historique.",
+        "Date et kilométrage de la dernière révision.",
+        "Avertissements.",
+        "Fluides.",
+        "Usure.",
+        "Fuites.",
+        "Remarques du propriétaire."
       ],
       "imagenes": []
     },
@@ -181,8 +222,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 61,
+    "total": 61,
     "completa": true
   }
 }

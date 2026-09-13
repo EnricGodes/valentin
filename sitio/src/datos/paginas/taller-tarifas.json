@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Tarifas mantenimiento Porsche · Valentín Motors",
-    "descripcion": "Tarifas de mantenimiento Porsche por modelo para servicio menor, servicio mayor, líquido de frenos, geometría e inspección.",
+    "titulo": "Mantenimiento Porsche: tarifas cerradas por modelo · Valentín Motors",
+    "descripcion": "Mantenimiento Porsche con recambio original y pautas del fabricante, y tarifas publicadas para 57 modelos: servicio menor, mayor, frenos, alineado y pre-compra. Barcelona y Madrid.",
     "ogImagen": ""
   },
   "h1": "Tarifas de taller Porsche por modelo y servicio",
@@ -75,6 +75,47 @@
         "Caja de cambios.",
         "Servicio solicitado.",
         "Historial reciente de mantenimiento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "En los clásicos, el intervalo no es el del manual",
+      "parrafos": [
+        "Un 911 refrigerado por aire que hace tres mil kilómetros al año no necesita el mismo calendario que un 992 de uso diario. En coches de uso ocasional recomendamos cambio de aceite anual aunque no se llegue al kilometraje: el aceite se degrada por tiempo, no solo por uso, y en un motor con cuarenta años eso se paga caro."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cuándo conviene adelantar el servicio",
+      "parrafos": [
+        "El calendario del manual supone un uso que muchos Porsche de aquí no tienen."
+      ],
+      "items": [
+        "Menos de tres mil kilómetros al año: aceite anual aunque no llegues al intervalo.",
+        "Después de meses parado: aceite, líquido de frenos y presiones antes de volver a usarlo.",
+        "Trayectos cortos y siempre en frío: el aceite se contamina antes de lo previsto.",
+        "Track days: el líquido de frenos y el aceite pasan a contarse por sesiones, no por meses.",
+        "Compra reciente sin historial: se empieza por un servicio mayor para tener un punto de partida."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué manda, el plan o el uso",
+      "parrafos": [
+        "El mantenimiento Porsche debe seguir el plan del fabricante y adaptarse al tiempo, kilometraje, tipo de uso y antecedentes de la unidad."
+      ],
+      "items": [
+        "Historial.",
+        "Fecha y kilometraje del último servicio.",
+        "Avisos.",
+        "Fluidos.",
+        "Desgaste.",
+        "Fugas.",
+        "Observaciones del propietario."
       ],
       "imagenes": []
     },

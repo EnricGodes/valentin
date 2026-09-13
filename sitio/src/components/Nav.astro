@@ -84,7 +84,7 @@ const hijoUrl = (href: string, texto: string, solo: Idioma[] = ['es']): Hijo[] =
 const enlaces = [
   { id: 'coches', texto: t('nav.coches'), hijos: [...hijo('vende')] },
   { id: 'taller', texto: t('nav.taller'), hijos: [
-      ...hijo('taller-tarifas'), ...hijo('taller-mantenimiento'),
+      ...hijo('taller-tarifas'),
       ...hijo('taller-ims'), ...hijo('taller-bore-scoring'),
       ...hijo('taller-motores'), ...hijo('taller-cajas'),
       ...hijo('taller-pintura'), ...hijo('taller-pre-compra'),

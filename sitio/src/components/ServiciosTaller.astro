@@ -30,7 +30,7 @@ const hrefEn = (href: string) =>
 <section class="svc-lista" aria-label={t('servicios.label')}>
   {servicios.map((s, i) => {
     const e = enlace(s.rutaId);
-    const conTarifas = s.rutaId === 'taller-mantenimiento';
+    const conTarifas = s.rutaId === 'taller-tarifas';
     return (
       <article class="svc" id={s.rutaId}>
         <a class="svc-foto reveal-foto" href={e.href} lang={e.lang} hreflang={e.lang} tabindex="-1" aria-hidden="true">

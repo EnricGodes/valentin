@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Porsche Wartungstarife Valentín Motors",
-    "descripcion": "Porsche Wartungspreise nach Modell für kleine und große Inspektion, Bremsflüssigkeitswechsel, Achsvermessung und Inspektion.",
+    "titulo": "Porsche-Wartung: Festpreise nach Modell · Valentín Motors",
+    "descripcion": "Porsche-Wartung mit Originalteilen und Herstellervorgaben, und veröffentlichte Preise für 57 Modelle: kleine und große Inspektion, Bremsen, Achsvermessung und Ankaufsuntersuchung. Barcelona und Madrid.",
     "ogImagen": ""
   },
   "h1": "Porsche Werkstattpreise nach Modell und Service",
@@ -75,6 +75,47 @@
         "Getriebe.",
         "Gewünschte Leistung.",
         "Aktuelle Wartungshistorie."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Bei Oldtimern entspricht das Wartungsintervall nicht dem im Handbuch angegebenen.",
+      "parrafos": [
+        "Ein 911 Ein luftgekühlter Wagen mit einer Jahresfahrleistung von 3.000 Kilometern benötigt nicht denselben Wartungsplan wie ein täglich gefahrener Wagen. 992 Bei gelegentlich genutzten Fahrzeugen empfehlen wir einen jährlichen Ölwechsel, auch wenn die Kilometerzahl nicht erreicht wird: Öl altert mit der Zeit, nicht nur durch den Gebrauch, und bei einem 40 Jahre alten Motor macht sich das deutlich bemerkbar."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Wann sollte die Wartung vorgezogen werden?",
+      "parrafos": [
+        "Der Wartungsplan im Handbuch geht von einer Nutzung aus, die viele Porsche-Modelle hier nicht erreichen."
+      ],
+      "items": [
+        "Weniger als 3.000 Kilometer pro Jahr: Jährlicher Ölwechsel, auch wenn das empfohlene Intervall nicht erreicht wird.",
+        "Nach mehrmonatiger Standzeit: Öl-, Bremsflüssigkeits- und Reifendruckkontrolle vor Wiederinbetriebnahme.",
+        "Kurzstreckenfahrten und stets kaltes Wetter: Das Öl verunreinigt sich schneller als erwartet.",
+        "Trackdays: Bremsflüssigkeits- und Ölwechsel werden nun pro Session und nicht mehr pro Monat gemessen.",
+        "Neu gekauftes Fahrzeug ohne Servicehistorie: Eine große Inspektion wird standardmäßig durchgeführt."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was hat Vorrang: Wartungsplan oder Nutzung?",
+      "parrafos": [
+        "Die Porsche-Wartung muss dem Wartungsplan des Herstellers entsprechen und an Alter, Laufleistung, Nutzungsart und Fahrzeughistorie angepasst sein."
+      ],
+      "items": [
+        "Historie.",
+        "Datum und Kilometerstand der letzten Wartung.",
+        "Hinweise.",
+        "Flüssigkeiten.",
+        "Verschleiß.",
+        "Leckagen.",
+        "Hinweise des Eigentümers."
       ],
       "imagenes": []
     },
@@ -181,8 +222,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 61,
+    "total": 61,
     "completa": true
   }
 }

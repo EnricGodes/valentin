@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Porsche maintenance rates · Valentín Motors",
-    "descripcion": "Porsche maintenance rates by model for minor service, major service, brake fluid, wheel alignment, and inspection.",
+    "titulo": "Porsche maintenance: fixed prices by model · Valentín Motors",
+    "descripcion": "Porsche maintenance with genuine parts and the manufacturer’s schedules, and published prices for 57 models: minor and major service, brakes, alignment and pre-purchase inspection. Barcelona and Madrid.",
     "ogImagen": ""
   },
   "h1": "Porsche workshop rates by model and service",
@@ -75,6 +75,47 @@
         "Gearbox.",
         "Requested service.",
         "Recent maintenance history."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "For classic models, the service interval differs from the manual's recommendations.",
+      "parrafos": [
+        "An air-cooled 911 driven 3,000 km a year does not require the same maintenance schedule as a daily-driven 992. For cars used occasionally, we recommend an annual oil change even if the mileage limit hasn't been reached; oil degrades over time—not just through use—and a forty-year-old engine can pay a heavy price for this."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "When to bring service forward.",
+      "parrafos": [
+        "The manual's schedule assumes usage patterns that many local Porsches do not experience."
+      ],
+      "items": [
+        "Less than 3,000 km per year: annual oil change, even if the service interval hasn't been reached.",
+        "After sitting idle for months: check oil, brake fluid, and tire pressures before driving again.",
+        "Short trips and cold starts: oil becomes contaminated sooner than expected.",
+        "Track days: brake fluid and oil changes are measured by sessions, not months.",
+        "Recent purchase with no service history: start with a major service to establish a baseline."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What takes precedence: the schedule or usage?",
+      "parrafos": [
+        "Porsche maintenance must follow the manufacturer's schedule and be tailored to the vehicle's age, mileage, usage patterns, and history."
+      ],
+      "items": [
+        "History.",
+        "Date and mileage of the last service.",
+        "Warnings.",
+        "Fluids.",
+        "Wear.",
+        "Leaks.",
+        "Owner observations."
       ],
       "imagenes": []
     },
@@ -181,8 +222,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 61,
+    "total": 61,
     "completa": true
   }
 }

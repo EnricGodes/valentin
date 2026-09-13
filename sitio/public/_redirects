@@ -12,10 +12,10 @@
 /magazine/porscheroturasmotorm96valentin  /magazine/996-m96-34-rotura-arbol-intermedio-ims  301
 /magazine/porsche9971noselift-f3whn-trwdw  /magazine/nose-lift-997-1  301
 /nuevo-centro-valentin-motors-madrid  /madrid  301
-/plan-mantenimiento-oferta  /taller-porsche/mantenimiento  301
+/plan-mantenimiento-oferta  /taller-porsche/tarifas  301
 /magazine/porsche968  /magazine/reconstruccion-motor-968  301
 /magazine/porschem9738a40  /magazine/motor-m97-38-a-40  301
-/mantenimiento-porsche-te-regalamos-un-alineado-de-precision-gratis  /taller-porsche/mantenimiento  301
+/mantenimiento-porsche-te-regalamos-un-alineado-de-precision-gratis  /taller-porsche/tarifas  301
 /magazine/porsche9971turbo  /magazine/9971-turbo-rehabilitacion-motor  301
 /magazine/porschem9738a40-y4b85  /magazine/motor-serie-g-32  301
 /magazine/restauracion27stargalimegreen-kdlc4  /magazine/restauracion-27-s-targa-lime-green  301
@@ -62,3 +62,11 @@
 /porsche-en-venta/porsche-981-cayman-gts-*  /porsche-en-venta/porsche-981-cayman-gts  301
 /archives/*  /magazine  301
 /administrator/*  /  301
+
+# Mantenimiento y tarifas eran la misma pagina: se quedo tarifas (sept. 2026).
+/taller-porsche/mantenimiento  /taller-porsche/tarifas  301
+/en/porsche-workshop/servicing  /en/porsche-workshop/prices  301
+/fr/atelier-porsche/entretien  /fr/atelier-porsche/tarifs  301
+/it/officina-porsche/manutenzione  /it/officina-porsche/tariffe  301
+/de/porsche-werkstatt/wartung  /de/porsche-werkstatt/preise  301
+/ca/taller-porsche/manteniment  /ca/taller-porsche/tarifes  301

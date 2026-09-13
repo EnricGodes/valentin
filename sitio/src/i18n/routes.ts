@@ -91,8 +91,6 @@ export const RUTAS: Ruta[] = [
              de: 'porsche-transaxle-wartung', ca: 'manteniment-porsche-transaxle' } },
 
   // ── Servicios del taller ────────────────────────────────────────────────
-  { id: 'taller-mantenimiento', seccion: 'taller',
-    slugs: { es: 'taller-porsche/mantenimiento', en: 'porsche-workshop/servicing', fr: 'atelier-porsche/entretien', it: 'officina-porsche/manutenzione', de: 'porsche-werkstatt/wartung', ca: 'taller-porsche/manteniment' } },
   { id: 'taller-tarifas', seccion: 'taller',
     slugs: { es: 'taller-porsche/tarifas', en: 'porsche-workshop/prices', fr: 'atelier-porsche/tarifs', it: 'officina-porsche/tariffe', de: 'porsche-werkstatt/preise', ca: 'taller-porsche/tarifes' } },
   { id: 'taller-ims', seccion: 'taller',

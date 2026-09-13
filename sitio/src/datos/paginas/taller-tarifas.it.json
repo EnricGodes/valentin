@@ -3,8 +3,8 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Tariffe di manutenzione Porsche Valentín Motors",
-    "descripcion": "Tariffe di manutenzione Porsche per modello per tagliando ordinario, tagliando completo, liquido freni, assetto e ispezione.",
+    "titulo": "Manutenzione Porsche: tariffe chiuse per modello · Valentín Motors",
+    "descripcion": "Manutenzione Porsche con ricambi originali e piani del costruttore, e tariffe pubblicate per 57 modelli: tagliando minore e maggiore, freni, assetto e ispezione pre-acquisto. Barcellona e Madrid.",
     "ogImagen": ""
   },
   "h1": "Tariffe officina Porsche per modello e tipo di intervento",
@@ -75,6 +75,47 @@
         "Cambio.",
         "Servizio richiesto.",
         "Cronologia degli interventi di manutenzione recenti."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Sulle auto d'epoca, l'intervallo di manutenzione non è quello indicato nel manuale",
+      "parrafos": [
+        "Una 911 Un'auto raffreddata ad aria che percorre 3.000 chilometri all'anno non necessita dello stesso programma di manutenzione di un'auto utilizzata quotidianamente. 992 Per le auto utilizzate occasionalmente, si consiglia un cambio olio annuale anche se il chilometraggio non viene raggiunto: l'olio si degrada nel tempo, non solo con l'utilizzo, e in un motore di 40 anni questo può comportare costi elevati."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quando anticipare la manutenzione",
+      "parrafos": [
+        "Il programma di manutenzione del manuale presuppone un utilizzo che molte Porsche qui non seguono."
+      ],
+      "items": [
+        "Meno di 3.000 chilometri all'anno: cambio olio annuale anche se non si raggiunge l'intervallo raccomandato.",
+        "Dopo mesi di inattività: controllo dell'olio, del liquido freni e della pressione degli pneumatici prima di riprendere l'utilizzo.",
+        "Brevi tragitti e sempre a motore freddo: l'olio si contamina più rapidamente del previsto.",
+        "Giornate in pista: i cambi del liquido freni e dell'olio sono calcolati per sessione, non per mese.",
+        "Acquistata di recente senza cronologia di manutenzione: iniziare con un tagliando completo per stabilire un punto di riferimento."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa ha la precedenza, il piano di manutenzione o l'utilizzo?",
+      "parrafos": [
+        "La manutenzione Porsche deve seguire il piano del costruttore ed essere adattata all'età, al chilometraggio, al tipo di utilizzo e alla storia del veicolo."
+      ],
+      "items": [
+        "Storico.",
+        "Data e chilometraggio dell'ultimo tagliando.",
+        "Avvisi.",
+        "Fluidi.",
+        "Usura.",
+        "Perdite.",
+        "Note del proprietario."
       ],
       "imagenes": []
     },
@@ -181,8 +222,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 61,
+    "total": 61,
     "completa": true
   }
 }
