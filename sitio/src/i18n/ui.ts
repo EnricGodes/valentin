@@ -259,6 +259,14 @@ export const UI = {
     it: 'Ci dica il modello e il servizio che le serve: confermiamo data e prezzo chiuso entro la stessa giornata lavorativa.',
     de: 'Nennen Sie uns Modell und gewünschte Leistung, und wir bestätigen Termin und Festpreis noch am selben Werktag.',
     ca: 'Digues-nos el model i el servei que necessites i et confirmem data i preu tancat el mateix dia laborable.' },
+  'restauracion.formTitulo': { es: 'Cuéntanos tu proyecto', en: 'Tell us about your project', fr: 'Parlez-nous de votre projet', it: 'Ci parli del suo progetto', de: 'Erzählen Sie uns von Ihrem Projekt', ca: 'Explica’ns el teu projecte' },
+  'restauracion.formIntro': {
+    es: 'Modelo, estado de partida y qué quieres conseguir. Te decimos cómo lo abordaríamos y con qué alcance.',
+    en: 'Model, starting condition and what you want to achieve. We will tell you how we would approach it and to what extent.',
+    fr: 'Modèle, état de départ et ce que vous voulez obtenir. Nous vous disons comment nous l’aborderions et avec quelle portée.',
+    it: 'Modello, stato di partenza e cosa vuole ottenere. Le diciamo come lo affronteremmo e con quale portata.',
+    de: 'Modell, Ausgangszustand und was Sie erreichen möchten. Wir sagen Ihnen, wie wir es angehen würden und in welchem Umfang.',
+    ca: 'Model, estat de partida i què vols aconseguir. Et diem com ho abordaríem i amb quin abast.' },
   'pie.modelos': { es: 'Porsche de segunda mano por modelo', en: 'Used Porsche by model', fr: 'Porsche d’occasion par modèle', it: 'Porsche usate per modello', de: 'Gebrauchte Porsche nach Modell', ca: 'Porsche de segona mà per model' },
 
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },

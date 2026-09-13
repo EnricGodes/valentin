@@ -214,6 +214,22 @@ if (esTarifas && secciones.length) {
 }
 
 const esVende = pagina?.rutaId === 'vende';
+
+/* Toda pagina de servicio acaba en el formulario, con el motivo ya puesto:
+   quien ha leido hasta el final de "Reparacion del IMS" no quiere buscar el
+   contacto en el menu. Restauraciones y builds piden proyecto; el taller,
+   cita; storage, competicion y el indice de centros, lo que sea. */
+const motivoServicio = pagina?.tipo === 'servicio' && !esTarifas
+  ? (/^(restauraciones|build)/.test(pagina.rutaId) ? 'restauracion'
+     : /^(storage|competicion|centros)$/.test(pagina.rutaId) ? 'otro' : 'taller')
+  : undefined;
+const formServicio = motivoServicio && {
+  asunto: motivoServicio,
+  titulo: motivoServicio === 'taller' ? t('tarifas.formTitulo')
+        : motivoServicio === 'restauracion' ? t('restauracion.formTitulo') : t('form.titulo'),
+  intro: motivoServicio === 'taller' ? t('tarifas.formIntro')
+       : motivoServicio === 'restauracion' ? t('restauracion.formIntro') : t('form.intro'),
+};
 const esCentro = pagina?.tipo === 'centro';
 const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
 ---
@@ -300,6 +316,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       intro={t('generacion.formIntro')} />}
   {/* Las paginas de tarifas acababan en "Haz una reserva" sin nada que
       reservar: el formulario va aqui, con el taller como motivo. */}
+  {formServicio && <Formulario idioma={idioma} asunto={formServicio.asunto}
+      titulo={formServicio.titulo} intro={formServicio.intro} />}
   {esTarifas && <Formulario idioma={idioma} asunto="taller"
       titulo={t('tarifas.formTitulo')} intro={t('tarifas.formIntro')} />}
   {esVende && <Formulario idioma={idioma} asunto="venta"
