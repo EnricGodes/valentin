@@ -2268,11 +2268,123 @@ section { position: relative; }
   .faq-respuesta { padding-left: 0; }
 }
 
-/* ── Artículos que sostienen una página de servicio ──────────────────────── */
-.pagina-articulos { margin-top: 88px; padding-top: 48px; border-top: 1px solid var(--linea); }
-.pagina-articulos-titulo {
+/* ── Casos del Magazine: tarjetas en otro plano ──────────────────────────── */
+/* Contenido de otro sitio traido aqui: por eso es lo unico del sitio con
+   esquinas redondeadas, relieve y sombra. Una ventana sobre la pagina. */
+.casos { margin-top: 88px; padding-top: 48px; border-top: 1px solid var(--linea); }
+.casos-cabecera {
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;
+  margin-bottom: 32px;
+}
+.casos-titulo {
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
   text-transform: uppercase; color: var(--bronce); margin-bottom: 8px;
+}
+.casos-intro { font-size: var(--t-dato); line-height: 1.6; color: var(--concreto); max-width: 48ch; }
+.casos-todo {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--concreto); text-decoration: none; white-space: nowrap;
+  transition: color 0.3s var(--ease);
+}
+.casos-todo:hover { color: var(--blanco); }
+
+.casos-lista { display: grid; gap: 24px; perspective: 1400px; }
+.casos-lista--varios { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+.caso {
+  position: relative; display: grid; text-decoration: none; color: inherit;
+  border-radius: 18px; overflow: hidden;
+  background: linear-gradient(160deg, rgba(42, 40, 36, 0.92), rgba(28, 28, 26, 0.96));
+  /* Dos bordes: uno fisico, tenue, y uno de luz por arriba que da el relieve. */
+  border: 1px solid rgba(167, 162, 154, 0.14);
+  box-shadow:
+    inset 0 1px 0 rgba(240, 237, 232, 0.10),
+    0 1px 2px rgba(0, 0, 0, 0.35),
+    0 18px 40px -18px rgba(0, 0, 0, 0.75);
+  transform: translateY(0) translateZ(0);
+  transition: transform 0.55s var(--ease), box-shadow 0.55s var(--ease), border-color 0.4s var(--ease);
+}
+.caso::after {
+  /* Un brillo diagonal muy leve, como un cristal que recoge la luz. */
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(115deg, rgba(240, 237, 232, 0.06) 0%, transparent 38%);
+  opacity: 0.8; transition: opacity 0.5s var(--ease);
+}
+.caso:hover, .caso:focus-visible {
+  transform: translateY(-6px) translateZ(0);
+  border-color: rgba(178, 138, 91, 0.45);
+  box-shadow:
+    inset 0 1px 0 rgba(240, 237, 232, 0.14),
+    0 2px 4px rgba(0, 0, 0, 0.35),
+    0 34px 60px -20px rgba(0, 0, 0, 0.85),
+    0 0 0 1px rgba(178, 138, 91, 0.12);
+}
+.caso:hover::after { opacity: 1; }
+.caso:focus-visible { outline: 2px solid var(--bronce); outline-offset: 4px; }
+
+.casos-lista--uno .caso { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); }
+.casos-lista--varios .caso { grid-template-rows: auto 1fr; }
+
+.caso-media {
+  position: relative; overflow: hidden; background: var(--carbon);
+  aspect-ratio: 4 / 3;
+}
+.casos-lista--uno .caso-media { aspect-ratio: auto; min-height: 100%; }
+.caso-media img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transition: transform 1.1s var(--ease);
+}
+.caso:hover .caso-media img { transform: scale(1.04); }
+.caso-sinfoto {
+  display: block; width: 100%; height: 100%; min-height: 220px;
+  background: linear-gradient(135deg, var(--carbon), var(--grafito));
+}
+/* La etiqueta de origen, en cristal sobre la foto. */
+.caso-chip {
+  position: absolute; top: 14px; left: 14px; z-index: 2;
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 7px 12px 7px 10px; border-radius: 999px;
+  background: rgba(11, 11, 11, 0.55); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(240, 237, 232, 0.12);
+  box-shadow: inset 0 1px 0 rgba(240, 237, 232, 0.10);
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--blanco);
+}
+.caso-chip-punto {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--bronce);
+  box-shadow: 0 0 0 3px rgba(178, 138, 91, 0.25);
+}
+
+.caso-cuerpo { padding: 26px 28px 28px; display: flex; flex-direction: column; gap: 10px; }
+.casos-lista--uno .caso-cuerpo { padding: 36px 40px; justify-content: center; }
+.caso-meta {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce);
+}
+.caso-titulo {
+  font-family: var(--serif); font-weight: 400;
+  font-size: 23px; line-height: 1.18; letter-spacing: -0.01em; color: var(--blanco);
+  text-wrap: balance; transition: color 0.3s var(--ease);
+}
+.casos-lista--uno .caso-titulo { font-size: clamp(24px, 2.6vw, 30px); }
+.caso-deck { font-size: 15px; line-height: 1.6; color: var(--concreto); }
+.caso-leer {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 10px;
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--bronce);
+}
+.caso-leer svg { transition: transform 0.4s var(--ease); }
+.caso:hover .caso-leer svg { transform: translate(2px, -2px); }
+
+@media (max-width: 720px) {
+  .casos-cabecera { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .casos-lista--uno .caso { grid-template-columns: 1fr; }
+  .casos-lista--uno .caso-media { aspect-ratio: 4 / 3; min-height: 0; }
+  .casos-lista--uno .caso-cuerpo { padding: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .caso, .caso-media img, .caso-leer svg { transition: none; }
+  .caso:hover { transform: none; }
 }
 
 /* El panel de navegación abierto congela la página de detrás. */

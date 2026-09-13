@@ -1,0 +1,97 @@
+---
+/**
+ * Los articulos del Magazine que sostienen una pagina de servicio o de
+ * modelo, como tarjetas que flotan sobre la pagina.
+ *
+ * Antes se pintaban con ListaMagazine, la misma tarjeta plana del archivo:
+ * foto, dato, titular. Dentro de una pagina de servicio se confundian con
+ * una seccion mas del texto, y no lo son: son contenido de otro sitio, el
+ * Magazine, traido aqui como prueba. Por eso van en otro plano. Superficie
+ * con relieve, esquinas redondeadas (lo unico redondeado del sitio, a
+ * proposito), un borde que recoge la luz por arriba, sombra que las despega
+ * del fondo y una etiqueta de origen con flecha de salida. Al pasar por
+ * encima se levantan un poco mas. Es la gramatica de una ventana sobre un
+ * escritorio, no la de un parrafo.
+ */
+import type { CollectionEntry } from 'astro:content';
+import type { Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+
+interface Props {
+  posts: CollectionEntry<'magazine'>[];
+  idioma: Idioma;
+  /** Rotulo del bloque: "Verlo hecho", "Guia de compra". */
+  titulo: string;
+  /** Origen que va en la etiqueta: caso real o guia. */
+  tipo?: 'caso' | 'guia';
+}
+const { posts, idioma, titulo, tipo = 'caso' } = Astro.props;
+const t = traductor(idioma);
+
+const fmt = new Intl.DateTimeFormat(idioma, { month: 'short', year: 'numeric' });
+const limpio = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+/* Cortar en palabra entera: "...han dejado de" en vez de "...desa". */
+const recortar = (s: string, n: number) => {
+  const limpia = limpio(s);
+  if (limpia.length <= n) return limpia;
+  const corte = limpia.slice(0, n).replace(/[\s,;:]+\S*$/, '');
+  return `${corte}…`;
+};
+/* El derivado de 700 px del listado, no el de 1600 del cuerpo del articulo. */
+const foto = (cuerpo: string) =>
+  (cuerpo.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1] ?? '')
+    .replace('/img/magazine/', '/img/magazine/card/');
+
+/* Un solo caso va apaisado, foto a un lado y texto al otro, para que no se
+   quede una tarjeta sola en media pagina. Dos o mas, en rejilla. */
+const apaisado = posts.length === 1;
+---
+<section class="casos contenido">
+  <header class="casos-cabecera reveal">
+    <div>
+      <p class="casos-titulo">{titulo}</p>
+      <p class="casos-intro">{t(tipo === 'guia' ? 'casos.introGuia' : 'casos.introCaso')}</p>
+    </div>
+    <a class="casos-todo" href={url('magazine', 'es')} lang={idioma === 'es' ? undefined : 'es'}>
+      Magazine &rarr;
+    </a>
+  </header>
+
+  <div class:list={['casos-lista', apaisado ? 'casos-lista--uno' : 'casos-lista--varios']}>
+    {posts.map((p, i) => {
+      const src = foto(p.body ?? '');
+      const href = url('magazine', p.data.lang as Idioma, p.data.slugFinal);
+      const lang = p.data.lang === idioma ? undefined : p.data.lang;
+      return (
+        <a class={`caso reveal delay-${Math.min(i + 1, 4)}`} href={href} lang={lang} hreflang={lang}>
+          <div class="caso-media">
+            {src
+              ? <img src={src} alt="" width="700" height="525"
+                     loading="lazy" decoding="async">
+              : <span class="caso-sinfoto"></span>}
+            <span class="caso-chip">
+              <span class="caso-chip-punto" aria-hidden="true"></span>
+              {t(tipo === 'guia' ? 'casos.chipGuia' : 'casos.chipCaso')}
+            </span>
+          </div>
+          <div class="caso-cuerpo">
+            <p class="caso-meta">
+              {fmt.format(p.data.date)}
+              {p.data.categories[0] && <> &middot; {p.data.categories[0]}</>}
+            </p>
+            <h3 class="caso-titulo">{p.data.title}</h3>
+            <p class="caso-deck">{recortar(p.data.excerpt, apaisado ? 220 : 130)}</p>
+            <span class="caso-leer">
+              {t('casos.leer')}
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                <path d="M2.5 9.5 9.5 2.5M4 2.5h5.5V8" stroke="currentColor" stroke-width="1.2"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</section>

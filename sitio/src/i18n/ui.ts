@@ -231,6 +231,23 @@ export const UI = {
   'pie.fam.clasicos': { es: 'Clásicos', en: 'Classics', fr: 'Classiques', it: 'Classiche', de: 'Klassiker', ca: 'Clàssics' },
   'pie.fam.suv':      { es: 'SUV y berlina', en: 'SUV and saloon', fr: 'SUV et berline', it: 'SUV e berlina', de: 'SUV und Limousine', ca: 'SUV i berlina' },
   'magazine.enVenta': { es: 'Ver los {gen} en venta', en: 'See the {gen} for sale', fr: 'Voir les {gen} à vendre', it: 'Vedi le {gen} in vendita', de: '{gen} zum Verkauf ansehen', ca: 'Veure els {gen} en venda' },
+  'casos.introCaso': {
+    es: 'Trabajos documentados en el Magazine, con fotos del proceso.',
+    en: 'Jobs documented in the Magazine, with photos of the process.',
+    fr: 'Travaux documentés dans le Magazine, avec photos du processus.',
+    it: 'Lavori documentati nel Magazine, con foto del processo.',
+    de: 'Im Magazine dokumentierte Arbeiten, mit Fotos des Ablaufs.',
+    ca: 'Treballs documentats al Magazine, amb fotos del procés.' },
+  'casos.introGuia': {
+    es: 'Lo que conviene saber de este modelo antes de comprarlo, en el Magazine.',
+    en: 'What to know about this model before buying it, in the Magazine.',
+    fr: 'Ce qu’il faut savoir sur ce modèle avant de l’acheter, dans le Magazine.',
+    it: 'Cosa sapere di questo modello prima di comprarlo, nel Magazine.',
+    de: 'Was man über dieses Modell vor dem Kauf wissen sollte, im Magazine.',
+    ca: 'El que convé saber d’aquest model abans de comprar-lo, al Magazine.' },
+  'casos.chipCaso': { es: 'Magazine · Caso real', en: 'Magazine · Real case', fr: 'Magazine · Cas réel', it: 'Magazine · Caso reale', de: 'Magazine · Echter Fall', ca: 'Magazine · Cas real' },
+  'casos.chipGuia': { es: 'Magazine · Guía', en: 'Magazine · Guide', fr: 'Magazine · Guide', it: 'Magazine · Guida', de: 'Magazine · Ratgeber', ca: 'Magazine · Guia' },
+  'casos.leer':     { es: 'Leer el artículo', en: 'Read the article', fr: 'Lire l’article', it: 'Leggi l’articolo', de: 'Artikel lesen', ca: 'Llegir l’article' },
   'pie.modelos': { es: 'Porsche de segunda mano por modelo', en: 'Used Porsche by model', fr: 'Porsche d’occasion par modèle', it: 'Porsche usate per modello', de: 'Gebrauchte Porsche nach Modell', ca: 'Porsche de segona mà per model' },
 
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },

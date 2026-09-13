@@ -18,7 +18,7 @@ import SeccionesPagina from '../components/SeccionesPagina.astro';
 import Acordeon from '../components/Acordeon.astro';
 import Tarifas from '../components/Tarifas.astro';
 import tarifas from '../datos/tarifas.json';
-import ListaMagazine from '../components/ListaMagazine.astro';
+import CasosMagazine from '../components/CasosMagazine.astro';
 import { getCollection } from 'astro:content';
 import Formulario from '../components/Formulario.astro';
 import NegocioLocal from '../components/seo/NegocioLocal.astro';
@@ -245,11 +245,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       )}
       {faq && <PreguntasFrecuentes faq={faq} idioma={idioma} />}
       {relacionados.length > 0 && (
-        <section class="pagina-articulos contenido">
-          <h2 class="pagina-articulos-titulo">{t(generacion ? 'generacion.guia' : 'pagina.articulos')}</h2>
-          <ListaMagazine posts={relacionados} idioma={idioma}
-                         columnas={relacionados.length > 2 ? 3 : 2} urgentes={0} />
-        </section>
+        <CasosMagazine posts={relacionados} idioma={idioma} tipo={generacion ? 'guia' : 'caso'}
+                       titulo={t(generacion ? 'generacion.guia' : 'pagina.articulos')} />
       )}
       {(familiaTarifa || esIndiceTarifas)
         ? <div class="contenido">
