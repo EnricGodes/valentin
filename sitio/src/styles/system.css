@@ -2150,6 +2150,8 @@ section { position: relative; }
 }
 .tarifas-nota { margin-top: 24px; font-size: 13px; color: var(--concreto); }
 /* El buscador cierra con aire y una linea: lo que viene despues es otra cosa. */
+.tarifas-enlaces { margin-top: 28px; }
+.tarifas-enlaces a[hidden] { display: none; }
 .tarifas-modulo { padding-bottom: 64px; border-bottom: 1px solid var(--linea); }
 .tarifas-modulo + .contenido > .bloque:first-child { padding-top: 64px; }
 

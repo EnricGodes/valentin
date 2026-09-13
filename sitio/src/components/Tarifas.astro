@@ -15,7 +15,10 @@
  * El contenido se monta en el cliente. Pintar un panel por modelo en el
  * servidor costaba 3,4 KB cada uno: 195 KB de HTML para 7 KB de precios.
  */
-import type { Idioma } from '../i18n/config';
+import { POR_DEFECTO, type Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import { idiomasDe } from '../datos/pagina';
 import tarifas from '../datos/tarifas.json';
 
 interface Props {
@@ -24,7 +27,17 @@ interface Props {
   familia?: string;
   textos: { familia: string; modelo: string; nota: string };
 }
-const { familia, textos } = Astro.props;
+const { idioma, familia, textos } = Astro.props;
+const t = traductor(idioma);
+
+/* Cada familia tiene su pagina, que posiciona por su cuenta ("porsche 911
+   mantenimiento"). El buscador la enlaza, y la pagina de familia enlaza de
+   vuelta al buscador completo: sin esto, a las seis solo se llegaba desde
+   Google. Si la pagina no esta en este idioma se enlaza la espanola. */
+const enlaceA = (rutaId: string) => {
+  const propio = idiomasDe(rutaId).includes(idioma);
+  return { href: url(rutaId, propio ? idioma : POR_DEFECTO), lang: propio ? undefined : POR_DEFECTO };
+};
 
 const modelos = tarifas.modelos.filter((m) => !familia || m.familia === familia);
 const familias = tarifas.familias.filter((f) => modelos.some((m) => m.familia === f.id));
@@ -90,5 +103,18 @@ const datos = modelos.map((m) => ({
   </div>
 
   <p class="tarifas-nota">{textos.nota}</p>
+  <p class="tarifas-enlaces">
+    {familias.length > 1
+      ? familias.map((f, i) => (
+          <a class="enlace-mono" data-tarifas-enlace data-de={f.id} hidden={i > 0}
+             href={enlaceA(f.rutaId).href} lang={enlaceA(f.rutaId).lang} hreflang={enlaceA(f.rutaId).lang}>
+            {t('tarifas.verFamilia').replace('{fam}', f.nombre)} &rarr;
+          </a>
+        ))
+      : <a class="enlace-mono" href={enlaceA('taller-tarifas').href}
+           lang={enlaceA('taller-tarifas').lang} hreflang={enlaceA('taller-tarifas').lang}>
+          {t('tarifas.todas')} &rarr;
+        </a>}
+  </p>
   <script type="application/json" data-tarifas-datos set:html={JSON.stringify(datos)} />
 </section>

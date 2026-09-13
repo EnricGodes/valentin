@@ -298,6 +298,10 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       busca={nombreGeneracion}
       titulo={t('generacion.formTitulo').replace('{gen}', nombreGeneracion)}
       intro={t('generacion.formIntro')} />}
+  {/* Las paginas de tarifas acababan en "Haz una reserva" sin nada que
+      reservar: el formulario va aqui, con el taller como motivo. */}
+  {esTarifas && <Formulario idioma={idioma} asunto="taller"
+      titulo={t('tarifas.formTitulo')} intro={t('tarifas.formIntro')} />}
   {esVende && <Formulario idioma={idioma} asunto="venta"
       titulo={t('vende.formTitulo')} intro={t('vende.formIntro')} />}
 </Base>

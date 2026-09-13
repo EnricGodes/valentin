@@ -249,6 +249,16 @@ export const UI = {
   'casos.chipGuia': { es: 'Magazine · Guía', en: 'Magazine · Guide', fr: 'Magazine · Guide', it: 'Magazine · Guida', de: 'Magazine · Ratgeber', ca: 'Magazine · Guia' },
   'casos.leer':     { es: 'Leer el artículo', en: 'Read the article', fr: 'Lire l’article', it: 'Leggi l’articolo', de: 'Artikel lesen', ca: 'Llegir l’article' },
   'testimonio.rol': { es: 'Cliente', en: 'Customer', fr: 'Client', it: 'Cliente', de: 'Kunde', ca: 'Client' },
+  'tarifas.verFamilia': { es: 'Tarifas de {fam}, en su página', en: '{fam} prices, on their own page', fr: 'Tarifs {fam}, sur leur page', it: 'Tariffe {fam}, nella loro pagina', de: 'Preise {fam}, auf eigener Seite', ca: 'Tarifes de {fam}, a la seva pàgina' },
+  'tarifas.todas':      { es: 'Todas las familias y modelos', en: 'All families and models', fr: 'Toutes les familles et modèles', it: 'Tutte le famiglie e i modelli', de: 'Alle Familien und Modelle', ca: 'Totes les famílies i models' },
+  'tarifas.formTitulo': { es: 'Pide cita para tu Porsche', en: 'Book your Porsche in', fr: 'Prenez rendez-vous pour votre Porsche', it: 'Prenota per la tua Porsche', de: 'Termin für Ihren Porsche', ca: 'Demana cita per al teu Porsche' },
+  'tarifas.formIntro': {
+    es: 'Dinos el modelo y el servicio que necesitas y te confirmamos fecha y precio cerrado en el mismo día laborable.',
+    en: 'Tell us the model and the service you need and we will confirm date and fixed price the same working day.',
+    fr: 'Indiquez-nous le modèle et le service souhaité : nous confirmons la date et le prix ferme le jour ouvré même.',
+    it: 'Ci dica il modello e il servizio che le serve: confermiamo data e prezzo chiuso entro la stessa giornata lavorativa.',
+    de: 'Nennen Sie uns Modell und gewünschte Leistung, und wir bestätigen Termin und Festpreis noch am selben Werktag.',
+    ca: 'Digues-nos el model i el servei que necessites i et confirmem data i preu tancat el mateix dia laborable.' },
   'pie.modelos': { es: 'Porsche de segunda mano por modelo', en: 'Used Porsche by model', fr: 'Porsche d’occasion par modèle', it: 'Porsche usate per modello', de: 'Gebrauchte Porsche nach Modell', ca: 'Porsche de segona mà per model' },
 
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },

@@ -54,6 +54,8 @@ export function iniciarTarifas(): void {
         if (suya && !primero) primero = b;
       }
       for (const f of familias) f.setAttribute('aria-pressed', String(f.dataset.familia === id));
+      // El enlace a la pagina de la familia elegida, y solo ese.
+      for (const a of raiz.querySelectorAll<HTMLElement>('[data-tarifas-enlace]')) a.hidden = a.dataset.de !== id;
       if (primero) pintaModelo(primero.dataset.modelo!);
     }
 
