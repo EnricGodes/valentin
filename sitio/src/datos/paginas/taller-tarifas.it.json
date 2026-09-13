@@ -80,24 +80,6 @@
     },
     {
       "nivel": 2,
-      "titulo": "Cosa portare per prenotare un appuntamento",
-      "parrafos": [
-        "Un riferimento comparabile prima di prenotare un appuntamento e, una volta identificato il veicolo, la conferma del servizio appropriato per la sua versione e le sue condizioni."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Servizi correlati",
-      "parrafos": [
-        "A seconda delle condizioni della vettura e dell'utilizzo previsto, l'intervento può essere coordinato con: <a href=\"/porsche-911-mantenimiento-taller\">Tariffe 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Tariffe Cayman e Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Tariffe Cayenne e Macan</a>, <a href=\"/taller-porsche/mantenimiento\">Manutenzione Porsche</a>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Domande frequenti",
       "parrafos": [],
       "items": [],
@@ -120,6 +102,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Cosa comprende esattamente il prezzo pubblicato?",
+      "parrafos": [
+        "Ricambi e manodopera dell’operazione descritta, IVA esclusa. A ogni fattura si aggiunge un contributo per smaltimento e materiali di consumo. Ciò che esce da quell’operazione si preventiva a parte e non si esegue senza autorizzazione."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Il mio modello non compare nella tabella?",
+      "parrafos": [
+        "La tabella raccoglie i 57 modelli che entrano più spesso in officina. Se il suo non c’è, lo porti o ci mandi telaio e chilometraggio e le diamo il prezzo chiuso sulla vettura, di solito in giornata."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Ogni quanto tocca un tagliando minore e uno maggiore?",
+      "parrafos": [
+        "Come riferimento, un minore ogni anno o 10.000 km e un maggiore ogni due anni o 20.000 km, salvo diversa indicazione Porsche per quella generazione. Nelle auto che fanno pochi chilometri comanda il tempo: olio e liquido freni invecchiano anche da ferme."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Usate ricambi originali Porsche?",
+      "parrafos": [
+        "Sì, e seguiamo i piani di manutenzione del costruttore. Siamo abbonati al Porsche Partner Network, che ci dà accesso alla documentazione tecnica ufficiale di ogni modello."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Mantengo la garanzia Porsche se faccio il tagliando qui?",
+      "parrafos": [
+        "Sì. La normativa europea consente di mantenere un’auto in garanzia in un’officina indipendente se si seguono le indicazioni del costruttore e si usano ricambi equivalenti. Documentiamo ogni intervento perché resti nello storico."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quanto tempo ci vuole e serve appuntamento?",
+      "parrafos": [
+        "Un tagliando minore si fa in giornata; uno maggiore, di solito in uno o due giorni secondo il modello. Prenoti con il modulo o per telefono indicando modello, anno e necessità, e le confermiamo data e prezzo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Posso chiedere un preventivo senza portare l’auto?",
+      "parrafos": [
+        "Per le operazioni della tabella sì: il prezzo è quello pubblicato. Per tutto il resto dobbiamo vedere l’auto, perché un preventivo alla cieca è una cifra che poi non si rispetta."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Le tariffe sono le stesse a Barcellona e a Madrid?",
+      "parrafos": [
+        "Sì. Le tariffe sono uguali nelle due sedi, con lo stesso protocollo e gli stessi ricambi."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -127,8 +181,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

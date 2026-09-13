@@ -80,24 +80,6 @@
     },
     {
       "nivel": 2,
-      "titulo": "Amb què arribes a demanar cita",
-      "parrafos": [
-        "Una referència comparable abans de demanar cita i, amb la unitat identificada, confirmació del servei adequat per a la versió i l'estat."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Serveis relacionats",
-      "parrafos": [
-        "Segons l'estat i l'objectiu del cotxe, la feina es pot coordinar amb <a href=\"/porsche-911-mantenimiento-taller\">tarifes 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">tarifes Cayman i Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">tarifes Cayenne i Macan</a>, <a href=\"/taller-porsche/mantenimiento\">manteniment Porsche</a>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Preguntes freqüents",
       "parrafos": [],
       "items": [],
@@ -120,6 +102,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Què inclou exactament el preu publicat?",
+      "parrafos": [
+        "Peces i mà d’obra de l’operació descrita, sense IVA. A cada factura s’hi afegeix un càrrec per residus i consumibles. El que aparegui fora d’aquesta operació es pressuposta a part i no es fa sense autorització."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "El meu model no apareix a la taula?",
+      "parrafos": [
+        "La taula recull els 57 models amb més entrades al taller. Si el teu no hi és, porta’l o envia’ns bastidor i quilometratge i et donem el preu tancat sobre la unitat, normalment el mateix dia."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Cada quant toca un servei menor i un de major?",
+      "parrafos": [
+        "Com a referència, un menor cada any o 10.000 km i un major cada dos anys o 20.000 km, llevat que Porsche indiqui una altra cosa per a aquella generació. En cotxes que fan pocs quilòmetres mana el temps: l’oli i el líquid de frens envelleixen encara que el cotxe estigui aturat."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Feu servir recanvi original Porsche?",
+      "parrafos": [
+        "Sí, i seguim els plans de manteniment del fabricant. Estem subscrits al Porsche Partner Network, que ens dona accés a la documentació tècnica oficial de cada model."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Mantinc la garantia de Porsche si faig el servei aquí?",
+      "parrafos": [
+        "Sí. La normativa europea permet mantenir un cotxe en garantia en un taller independent si se segueixen les pautes del fabricant i es fa servir recanvi equivalent. Documentem cada intervenció perquè consti a l’historial."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quant triga i necessito cita?",
+      "parrafos": [
+        "Un servei menor es fa en el dia; un major, normalment en un o dos dies segons el model. Demana cita amb el formulari o per telèfon amb model, any i el que necessites, i et confirmem data i preu."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Puc demanar un pressupost sense portar el cotxe?",
+      "parrafos": [
+        "Per a les operacions de la taula, sí: el preu és el publicat. Per a tota la resta necessitem veure el cotxe, perquè un pressupost a cegues és una xifra que després no es compleix."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "S’apliquen les mateixes tarifes a Barcelona i a Madrid?",
+      "parrafos": [
+        "Sí. Les tarifes són les mateixes als dos centres i es fan amb el mateix protocol i el mateix recanvi."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -127,8 +181,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

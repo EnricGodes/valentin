@@ -112,18 +112,21 @@ const datos = modelos.map((m) => ({
   </div>
 
   <p class="tarifas-nota">{textos.nota}</p>
+  {/* Pedir cita es a lo que se viene despues de ver el precio: el boton
+      lleno. La pagina de la familia, o el buscador completo, es el secundario. */}
   <p class="tarifas-enlaces">
+    <a class="cta" href="#contacto">{t('tarifas.pideCita')}</a>
     {familias.length > 1
       ? familias.map((f, i) => (
-          <a class="enlace-mono" data-tarifas-enlace data-de={f.id} hidden={i > 0}
+          <a class="cta cta--linea" data-tarifas-enlace data-de={f.id} hidden={i > 0}
              data-base={enlaceA(f.rutaId).href} href={`${enlaceA(f.rutaId).href}#modelo=${modelos.find((m) => m.familia === f.id)?.id}`}
              lang={enlaceA(f.rutaId).lang} hreflang={enlaceA(f.rutaId).lang}>
-            {t('tarifas.verFamilia')} &rarr;
+            {t('tarifas.verFamilia')}
           </a>
         ))
-      : <a class="enlace-mono" href={enlaceA('taller-tarifas').href}
+      : <a class="cta cta--linea" href={enlaceA('taller-tarifas').href}
            lang={enlaceA('taller-tarifas').lang} hreflang={enlaceA('taller-tarifas').lang}>
-          {t('tarifas.todas')} &rarr;
+          {t('tarifas.todas')}
         </a>}
   </p>
   <script type="application/json" data-tarifas-datos set:html={JSON.stringify(datos)} />

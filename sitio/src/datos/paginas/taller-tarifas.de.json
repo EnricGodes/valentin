@@ -80,24 +80,6 @@
     },
     {
       "nivel": 2,
-      "titulo": "Was benötigen Sie für die Terminvereinbarung?",
-      "parrafos": [
-        "Vor der Terminvereinbarung ist eine vergleichbare Referenz erforderlich. Nach Identifizierung des Geräts ist die passende Serviceleistung für dessen Version und Zustand zu bestätigen."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Zugehörige Dienstleistungen",
-      "parrafos": [
-        "Je nach Zustand und Verwendungszweck des Fahrzeugs können die Arbeiten mit folgenden Abteilungen abgestimmt werden: <a href=\"/porsche-911-mantenimiento-taller\">Gebühren 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Gebühren Cayman und Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Gebühren Cayenne und Macan</a>, <a href=\"/taller-porsche/mantenimiento\">Porsche Wartung</a>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Häufig gestellte Fragen",
       "parrafos": [],
       "items": [],
@@ -120,6 +102,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Was genau enthält der veröffentlichte Preis?",
+      "parrafos": [
+        "Teile und Arbeit der beschriebenen Leistung, ohne MwSt. Auf jede Rechnung kommt eine Pauschale für Entsorgung und Verbrauchsmaterial. Alles außerhalb dieser Leistung wird separat kalkuliert und nicht ohne Freigabe ausgeführt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Mein Modell steht nicht in der Tabelle?",
+      "parrafos": [
+        "Die Tabelle enthält die 57 Modelle, die am häufigsten in die Werkstatt kommen. Fehlt Ihres, bringen Sie es vorbei oder schicken Sie uns Fahrgestellnummer und Kilometerstand, und wir nennen Ihnen den Festpreis für das Fahrzeug, meist noch am selben Tag."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Wie oft sind kleine und große Inspektion fällig?",
+      "parrafos": [
+        "Als Richtwert: die kleine jedes Jahr oder alle 10.000 km, die große alle zwei Jahre oder 20.000 km, sofern Porsche für diese Generation nichts anderes vorgibt. Bei Autos mit wenig Laufleistung zählt die Zeit: Öl und Bremsflüssigkeit altern auch im Stand."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Verwenden Sie Porsche-Originalteile?",
+      "parrafos": [
+        "Ja, und wir folgen den Wartungsplänen des Herstellers. Wir sind an das Porsche Partner Network angeschlossen, das uns Zugang zur offiziellen technischen Dokumentation jedes Modells gibt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Behalte ich die Porsche-Garantie, wenn ich hier warten lasse?",
+      "parrafos": [
+        "Ja. Das EU-Recht erlaubt die Wartung eines Fahrzeugs mit Garantie in einer freien Werkstatt, wenn die Herstellervorgaben eingehalten und gleichwertige Teile verwendet werden. Wir dokumentieren jeden Eingriff, damit er in der Historie steht."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Wie lange dauert es, und brauche ich einen Termin?",
+      "parrafos": [
+        "Eine kleine Inspektion wird am selben Tag erledigt; eine große dauert je nach Modell meist ein bis zwei Tage. Vereinbaren Sie einen Termin über das Formular oder telefonisch mit Modell, Baujahr und Anliegen, und wir bestätigen Termin und Preis."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Kann ich ein Angebot bekommen, ohne das Auto vorbeizubringen?",
+      "parrafos": [
+        "Für die Leistungen der Tabelle ja: Der Preis ist der veröffentlichte. Für alles andere müssen wir das Auto sehen, denn ein Angebot ins Blaue ist eine Zahl, die hinterher nicht hält."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Gelten in Barcelona und Madrid dieselben Preise?",
+      "parrafos": [
+        "Ja. Die Preise sind an beiden Standorten gleich, mit demselben Protokoll und denselben Teilen."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -127,8 +181,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

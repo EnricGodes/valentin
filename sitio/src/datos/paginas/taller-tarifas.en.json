@@ -80,24 +80,6 @@
     },
     {
       "nivel": 2,
-      "titulo": "What to have ready when booking an appointment",
-      "parrafos": [
-        "A reference price before booking, and—once the specific vehicle is identified—confirmation of the appropriate service for its version and condition."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Related services",
-      "parrafos": [
-        "Depending on the car's condition and intended use, the work can be coordinated with <a href=\"/porsche-911-mantenimiento-taller\">rates for the 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">rates for the Cayman and Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">rates for the Cayenne and Macan</a>, and <a href=\"/taller-porsche/mantenimiento\">Porsche maintenance</a>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Frequently asked questions",
       "parrafos": [],
       "items": [],
@@ -120,6 +102,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "What exactly does the published price include?",
+      "parrafos": [
+        "Parts and labour for the operation described, excluding VAT. A charge for waste and consumables is added to every invoice. Anything outside that operation is quoted separately and is not done without authorisation."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "My model is not in the table?",
+      "parrafos": [
+        "The table covers the 57 models that most often come into the workshop. If yours is not there, bring it in or send us the chassis number and mileage and we will give you a fixed price on the car, usually the same day."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "How often is a minor and a major service due?",
+      "parrafos": [
+        "As a guide, a minor every year or 10,000 km and a major every two years or 20,000 km, unless Porsche specifies otherwise for that generation. On cars that cover few miles, time rules: oil and brake fluid age even when the car is parked."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Do you use genuine Porsche parts?",
+      "parrafos": [
+        "Yes, and we follow the manufacturer's maintenance schedules. We subscribe to the Porsche Partner Network, which gives us access to the official technical documentation for each model."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Do I keep the Porsche warranty if I service the car here?",
+      "parrafos": [
+        "Yes. European regulations allow a car under warranty to be serviced at an independent workshop if the manufacturer's schedules are followed and equivalent parts are used. We document every intervention so that it is on record."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "How long does it take and do I need an appointment?",
+      "parrafos": [
+        "A minor service is done the same day; a major one usually takes one or two days depending on the model. Book with the form or by phone with model, year and what you need, and we will confirm date and price."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can I get a quote without bringing the car in?",
+      "parrafos": [
+        "For the operations in the table, yes: the price is the published one. For everything else we need to see the car, because a blind quote is a figure that is not kept afterwards."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Are the prices the same in Barcelona and Madrid?",
+      "parrafos": [
+        "Yes. Prices are the same at both centres and the work is done with the same protocol and the same parts."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -127,8 +181,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

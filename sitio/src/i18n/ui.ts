@@ -251,6 +251,7 @@ export const UI = {
   'testimonio.rol': { es: 'Cliente', en: 'Customer', fr: 'Client', it: 'Cliente', de: 'Kunde', ca: 'Client' },
   'tarifas.verFamilia': { es: 'Más información', en: 'More information', fr: 'Plus d’informations', it: 'Maggiori informazioni', de: 'Mehr erfahren', ca: 'Més informació' },
   'tarifas.todas':      { es: 'Todas las familias y modelos', en: 'All families and models', fr: 'Toutes les familles et modèles', it: 'Tutte le famiglie e i modelli', de: 'Alle Familien und Modelle', ca: 'Totes les famílies i models' },
+  'tarifas.pideCita':   { es: 'Pide una cita', en: 'Book an appointment', fr: 'Prendre rendez-vous', it: 'Prenota un appuntamento', de: 'Termin vereinbaren', ca: 'Demana una cita' },
   'tarifas.formTitulo': { es: 'Pide cita para tu Porsche', en: 'Book your Porsche in', fr: 'Prenez rendez-vous pour votre Porsche', it: 'Prenota per la tua Porsche', de: 'Termin für Ihren Porsche', ca: 'Demana cita per al teu Porsche' },
   'tarifas.formIntro': {
     es: 'Dinos el modelo y el servicio que necesitas y te confirmamos fecha y precio cerrado en el mismo día laborable.',

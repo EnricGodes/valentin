@@ -80,24 +80,6 @@
     },
     {
       "nivel": 2,
-      "titulo": "Éléments à apporter pour la prise de rendez-vous",
-      "parrafos": [
-        "Une référence comparable avant la prise de rendez-vous et, une fois le véhicule identifié, la confirmation du service approprié à sa version et à son état."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services connexes",
-      "parrafos": [
-        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/porsche-911-mantenimiento-taller\">Tarifs 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">Tarifs Cayman et Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">Tarifs Cayenne et Macan</a>, <a href=\"/taller-porsche/mantenimiento\">Entretien Porsche</a>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Foire aux questions",
       "parrafos": [],
       "items": [],
@@ -120,6 +102,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Que comprend exactement le prix publié ?",
+      "parrafos": [
+        "Pièces et main-d’œuvre de l’opération décrite, hors TVA. Une participation aux déchets et consommables est ajoutée à chaque facture. Tout ce qui sort de cette opération est chiffré à part et n’est pas réalisé sans autorisation."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Mon modèle n’apparaît pas dans le tableau ?",
+      "parrafos": [
+        "Le tableau reprend les 57 modèles qui entrent le plus souvent à l’atelier. Si le vôtre n’y est pas, apportez-le ou envoyez-nous le numéro de châssis et le kilométrage et nous vous donnons le prix ferme sur la voiture, généralement le jour même."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "À quelle fréquence faut-il un petit et un grand entretien ?",
+      "parrafos": [
+        "À titre indicatif, un petit chaque année ou 10 000 km et un grand tous les deux ans ou 20 000 km, sauf indication contraire de Porsche pour cette génération. Sur les voitures qui roulent peu, c’est le temps qui commande : l’huile et le liquide de frein vieillissent même à l’arrêt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Utilisez-vous des pièces d’origine Porsche ?",
+      "parrafos": [
+        "Oui, et nous suivons les plans d’entretien du constructeur. Nous sommes abonnés au Porsche Partner Network, qui nous donne accès à la documentation technique officielle de chaque modèle."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Est-ce que je conserve la garantie Porsche en faisant l’entretien ici ?",
+      "parrafos": [
+        "Oui. La réglementation européenne permet d’entretenir une voiture sous garantie dans un atelier indépendant si les préconisations du constructeur sont suivies et si des pièces équivalentes sont utilisées. Nous documentons chaque intervention pour qu’elle figure dans l’historique."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Combien de temps cela prend-il et faut-il un rendez-vous ?",
+      "parrafos": [
+        "Un petit entretien se fait dans la journée ; un grand, généralement en un ou deux jours selon le modèle. Prenez rendez-vous avec le formulaire ou par téléphone en indiquant modèle, année et besoin, et nous confirmons date et prix."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Puis-je demander un devis sans apporter la voiture ?",
+      "parrafos": [
+        "Pour les opérations du tableau, oui : le prix est celui publié. Pour tout le reste, nous devons voir la voiture, car un devis à l’aveugle est un chiffre qui n’est pas tenu ensuite."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Les tarifs sont-ils les mêmes à Barcelone et à Madrid ?",
+      "parrafos": [
+        "Oui. Les tarifs sont identiques dans les deux centres, avec le même protocole et les mêmes pièces."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -127,8 +181,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 37,
-    "total": 37,
+    "hechas": 43,
+    "total": 43,
     "completa": true
   }
 }

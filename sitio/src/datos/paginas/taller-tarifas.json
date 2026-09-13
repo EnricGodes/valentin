@@ -80,24 +80,6 @@
     },
     {
       "nivel": 2,
-      "titulo": "Con qué llegas a pedir cita",
-      "parrafos": [
-        "Una referencia comparable antes de pedir cita y, con la unidad identificada, confirmación del servicio adecuado para su versión y estado."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Servicios relacionados",
-      "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/porsche-911-mantenimiento-taller\">tarifas 911</a>, <a href=\"/porsche-cayman-boxster-mantenimiento-taller\">tarifas Cayman y Boxster</a>, <a href=\"/porsche-cayenne-macan-mantenimiento-taller-1\">tarifas Cayenne y Macan</a>, <a href=\"/taller-porsche/mantenimiento\">mantenimiento Porsche</a>."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
       "titulo": "Preguntas frecuentes",
       "parrafos": [],
       "items": [],
@@ -117,6 +99,78 @@
       "titulo": "¿Una tarifa cerrada incluye averías encontradas?",
       "parrafos": [
         "No salvo que la propia tarifa lo indique. Las incidencias ajenas al mantenimiento previsto se explican y presupuestan por separado."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Qué incluye exactamente el precio publicado?",
+      "parrafos": [
+        "Piezas y mano de obra de la operación descrita, sin IVA. A cada factura se añade un cargo por residuos y consumibles. Lo que aparezca fuera de esa operación se presupuesta aparte y no se hace sin autorización."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Mi modelo no aparece en la tabla?",
+      "parrafos": [
+        "La tabla recoge los 57 modelos con más entradas en el taller. Si el tuyo no está, tráelo o mándanos bastidor y kilometraje y te damos el precio cerrado sobre la unidad, normalmente en el mismo día."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Cada cuánto toca un servicio menor y uno mayor?",
+      "parrafos": [
+        "Como referencia, un menor cada año o 10.000 km y un mayor cada dos años o 20.000 km, salvo que Porsche indique otra cosa para esa generación. En coches que hacen pocos kilómetros manda el tiempo: el aceite y el líquido de frenos envejecen aunque el coche esté parado."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Usáis recambio original Porsche?",
+      "parrafos": [
+        "Sí, y seguimos los planes de mantenimiento del fabricante. Estamos suscritos al Porsche Partner Network, que nos da acceso a la documentación técnica oficial de cada modelo."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Mantengo la garantía de Porsche si hago el servicio aquí?",
+      "parrafos": [
+        "Sí. La normativa europea permite mantener un coche en garantía en un taller independiente si se siguen las pautas del fabricante y se usa recambio equivalente. Documentamos cada intervención para que conste en el historial."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Cuánto tarda y necesito cita?",
+      "parrafos": [
+        "Un servicio menor se hace en el día; un mayor, normalmente en uno o dos días según el modelo. Pide cita con el formulario o por teléfono con modelo, año y lo que necesitas, y te confirmamos fecha y precio."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Puedo pedir un presupuesto sin traer el coche?",
+      "parrafos": [
+        "Para las operaciones de la tabla, sí: el precio es el publicado. Para todo lo demás necesitamos ver el coche, porque un presupuesto a ciegas es una cifra que luego no se cumple."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Se aplican las mismas tarifas en Barcelona y en Madrid?",
+      "parrafos": [
+        "Sí. Las tarifas son las mismas en los dos centros y se hacen con el mismo protocolo y el mismo recambio."
       ],
       "items": [],
       "imagenes": []
