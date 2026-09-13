@@ -105,9 +105,9 @@ const datos = modelos.map((m) => ({
   <p class="tarifas-nota">{textos.nota}</p>
   <p class="tarifas-enlaces">
     {familias.length > 1
-      ? familias.map((f, i) => (
-          <a class="enlace-mono" data-tarifas-enlace data-de={f.id} hidden={i > 0}
-             href={enlaceA(f.rutaId).href} lang={enlaceA(f.rutaId).lang} hreflang={enlaceA(f.rutaId).lang}>
+      ? familias.filter((f) => 'rutaId' in f && f.rutaId).map((f) => (
+          <a class="enlace-mono" data-tarifas-enlace data-de={f.id} hidden={f.id !== familias[0].id}
+             href={enlaceA(f.rutaId!).href} lang={enlaceA(f.rutaId!).lang} hreflang={enlaceA(f.rutaId!).lang}>
             {t('tarifas.verFamilia').replace('{fam}', f.nombre)} &rarr;
           </a>
         ))

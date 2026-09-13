@@ -123,7 +123,7 @@ Si el coche ha sido reprogramado, conserva versión de software, combustible pre
 
 Después de cualquier entrada de agua, seca y revisa conectores aunque el habitáculo parezca recuperado. La corrosión eléctrica aparece más tarde. Documentar la zona, limpiar drenajes y verificar consumo en reposo evita una cadena de fallos intermitentes.
 
-Las [tarifas de mantenimiento de Cayman y Boxster](/porsche-cayman-boxster-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento de Cayman y Boxster](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 

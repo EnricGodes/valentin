@@ -125,7 +125,7 @@ Tras comprar una unidad sin historial, establece una línea base con fluidos, pr
 
 Revisa también fecha de fabricación de neumáticos, rueda de repuesto, gato y puntos de apoyo. Un transaxle que ha sido elevado por la talonera equivocada puede ocultar deformación bajo revestimiento; documentarlo antes de reparar ayuda a recuperar forma y protección anticorrosiva.
 
-Las [tarifas de mantenimiento de los transaxle](/porsche-transaxle-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento de los transaxle](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 

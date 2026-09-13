@@ -125,7 +125,7 @@ Después de renovar la distribución, registra tensión, piezas y lectura de jue
 
 En coches que permanecen parados, gira y utiliza climatización, cierres y techo con regularidad y controla humedad. Un recorrido completo permite comprobar carga, temperatura, frenos y caja; arrancar el V8 unos minutos añade condensación sin verificar los sistemas bajo condiciones reales.
 
-Las [tarifas de mantenimiento de los transaxle](/porsche-transaxle-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento de los transaxle](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 

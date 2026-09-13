@@ -123,7 +123,7 @@ En una unidad recién adquirida sin historial, crea una hoja de referencia con p
 
 Después de levantar el coche, revisa que los cuatro puntos de apoyo conservan forma y protección. El daño de elevación abre la pintura y empieza corrosión donde no se ve desde arriba. Corrige y sella antes de devolver revestimientos.
 
-Las [tarifas de mantenimiento de los transaxle](/porsche-transaxle-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento de los transaxle](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 

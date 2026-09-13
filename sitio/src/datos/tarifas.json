@@ -16,25 +16,21 @@
     {
       "id": "cayman-boxster",
       "nombre": "Cayman y Boxster",
-      "rutaId": "tarifa-cayman",
       "titulo": "Precios de mantenimiento para los modelos Cayman y Boxster"
     },
     {
       "id": "gt",
       "nombre": "GT",
-      "rutaId": "tarifa-gt",
       "titulo": "Precios de mantenimiento para los modelos GT"
     },
     {
       "id": "transaxle",
       "nombre": "Transaxle",
-      "rutaId": "tarifa-transaxle",
       "titulo": "Precios de mantenimiento para los modelos Transaxle"
     },
     {
       "id": "turbo",
       "nombre": "Turbo",
-      "rutaId": "tarifa-turbo",
       "titulo": "Precios de mantenimiento para los modelos Turbo"
     }
   ],

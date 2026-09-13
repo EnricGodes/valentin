@@ -125,7 +125,7 @@ Conserva facturas que indiquen código de motor y referencias. En 987.1 y 987.2 
 
 Comprueba periódicamente soportes y escape, porque un motor que se mueve altera alineación de colas, selector y vibraciones. Resolver primero el soporte evita atribuir cada ruido a PDK, Tiptronic o al propio bloque y reduce tensión en manguitos y uniones.
 
-Las [tarifas de mantenimiento de Cayman y Boxster](/porsche-cayman-boxster-mantenimiento-taller) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
+Las [tarifas de mantenimiento de Cayman y Boxster](/taller-porsche/tarifas) orientan el alcance de cada revisión. El presupuesto final depende de lo que aparezca sobre el coche.
 
 ## Lo que hemos hecho en Valentín Motors
 
