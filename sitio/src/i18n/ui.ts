@@ -267,6 +267,17 @@ export const UI = {
     it: 'Modello, stato di partenza e cosa vuole ottenere. Le diciamo come lo affronteremmo e con quale portata.',
     de: 'Modell, Ausgangszustand und was Sie erreichen möchten. Wir sagen Ihnen, wie wir es angehen würden und in welchem Umfang.',
     ca: 'Model, estat de partida i què vols aconseguir. Et diem com ho abordaríem i amb quin abast.' },
+  'tarifas.resumenLabel': { es: 'Precios cerrados', en: 'Fixed prices', fr: 'Prix fermes', it: 'Prezzi chiusi', de: 'Festpreise', ca: 'Preus tancats' },
+  'tarifas.resumenIntro': {
+    es: 'Tarifas publicadas para {n} modelos, en seis familias, con piezas y mano de obra. Elige la tuya o consúltalas todas.',
+    en: 'Published prices for {n} models, in six families, parts and labour included. Pick yours or see them all.',
+    fr: 'Tarifs publiés pour {n} modèles, en six familles, pièces et main-d’œuvre comprises. Choisissez la vôtre ou consultez-les toutes.',
+    it: 'Tariffe pubblicate per {n} modelli, in sei famiglie, ricambi e manodopera compresi. Scelga la sua o le consulti tutte.',
+    de: 'Veröffentlichte Preise für {n} Modelle in sechs Baureihen, Teile und Arbeit inklusive. Wählen Sie Ihre oder sehen Sie alle.',
+    ca: 'Tarifes publicades per a {n} models, en sis famílies, amb peces i mà d’obra. Tria la teva o consulta-les totes.' },
+  'tarifas.verTodas': { es: 'Ver todas las tarifas', en: 'See all prices', fr: 'Voir tous les tarifs', it: 'Vedi tutte le tariffe', de: 'Alle Preise ansehen', ca: 'Veure totes les tarifes' },
+  'tarifas.modelosN': { es: '{n} modelos', en: '{n} models', fr: '{n} modèles', it: '{n} modelli', de: '{n} Modelle', ca: '{n} models' },
+  'tarifas.desde':    { es: 'desde', en: 'from', fr: 'dès', it: 'da', de: 'ab', ca: 'des de' },
   'pie.modelos': { es: 'Porsche de segunda mano por modelo', en: 'Used Porsche by model', fr: 'Porsche d’occasion par modèle', it: 'Porsche usate per modello', de: 'Gebrauchte Porsche nach Modell', ca: 'Porsche de segona mà per model' },
 
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },

@@ -2234,6 +2234,65 @@ section { position: relative; }
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.05em; color: var(--concreto);
 }
 
+/* ── Resumen de tarifas en la pagina del taller ──────────────────────────── */
+.tresumen { margin-top: 56px; padding: 64px 0 72px; border-top: 1px solid var(--linea); }
+.tresumen-cabecera {
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 32px;
+  margin-bottom: 36px;
+}
+.tresumen-cabecera .section-label { margin-bottom: 14px; }
+.tresumen-titulo {
+  font-size: clamp(26px, 3.4vw, 40px); font-weight: 300; line-height: 1.1;
+  letter-spacing: -0.02em; color: var(--blanco); text-wrap: balance;
+}
+.tresumen-intro { margin-top: 14px; font-size: var(--t-cuerpo); line-height: 1.6; color: var(--concreto); max-width: 52ch; }
+.tresumen-cabecera .cta { flex: 0 0 auto; }
+
+/* La rejilla de lineas del buscador, con una baldosa por familia. */
+.tresumen-rejilla {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+  background: var(--linea); border: 1px solid var(--linea);
+}
+.tresumen-familia {
+  display: flex; flex-direction: column; gap: 6px; height: 100%;
+  padding: 26px 26px 24px; background: var(--negro); text-decoration: none; color: inherit;
+  transition: background 0.3s var(--ease);
+}
+.tresumen-familia:hover { background: var(--grafito); }
+.tresumen-familia:focus-visible { outline: 2px solid var(--bronce); outline-offset: -2px; }
+.tresumen-modelos {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--concreto);
+}
+.tresumen-nombre {
+  font-family: var(--serif); font-size: 26px; font-weight: 400; line-height: 1.15;
+  letter-spacing: -0.01em; color: var(--blanco);
+}
+.tresumen-precio {
+  margin-top: 14px; font-family: var(--mono); font-size: 24px; color: var(--blanco);
+  font-variant-numeric: tabular-nums;
+}
+.tresumen-desde {
+  margin-right: 10px; font-size: var(--t-micro); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce);
+}
+.tresumen-ir {
+  margin-top: auto; padding-top: 18px;
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--bronce);
+  opacity: 0; transform: translateX(-6px); transition: opacity 0.3s, transform 0.3s;
+}
+.tresumen-familia:hover .tresumen-ir, .tresumen-familia:focus-visible .tresumen-ir { opacity: 1; transform: none; }
+.tresumen-nota { margin-top: 20px; font-size: 13px; color: var(--concreto); }
+.tresumen-fotos { margin-top: 48px; }
+@media (max-width: 900px) { .tresumen-rejilla { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px) {
+  .tresumen-cabecera { flex-direction: column; align-items: flex-start; }
+  .tresumen-cabecera .cta { width: 100%; text-align: center; }
+}
+@media (max-width: 520px) { .tresumen-rejilla { grid-template-columns: 1fr; } .tresumen-ir { opacity: 1; transform: none; } }
+
 /* ── Testimonio: una voz ajena dentro del texto ──────────────────────────── */
 /* No es una seccion mas: no lleva titulo de bloque ni fondo. Lleva lo que en
    el sitio significa "alguien habla": serif ligera y grande, como la cita de

@@ -1,0 +1,74 @@
+---
+/**
+ * Resumen de tarifas para la pagina del taller: una baldosa por familia con
+ * el precio de entrada y el enlace a su pagina, y el boton a todas.
+ *
+ * Aqui vivia el H2 "Tarifas de mantenimiento" con "Selecciona un modelo para
+ * conocer los precios", seguido de seis H3 que listaban modelos y no
+ * enlazaban a nada: en Squarespace eran enlaces, la migracion se los dejo, y
+ * el buscador que tenia que sustituirlos no llegaba a pintarse. Quien lee
+ * "selecciona un modelo" y no puede seleccionar nada se va.
+ *
+ * No es el buscador entero, que ya tiene su pagina: es su portada. Seis
+ * numeros grandes en mono, que es como el sitio escribe los precios, sobre
+ * una rejilla de lineas como la del propio buscador.
+ */
+import { POR_DEFECTO, type Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import { idiomasDe } from '../datos/pagina';
+import tarifas from '../datos/tarifas.json';
+
+interface Props { idioma: Idioma; titulo: string; fotos?: { url: string; alt: string }[]; }
+const { idioma, titulo, fotos = [] } = Astro.props;
+const t = traductor(idioma);
+
+const euros = (n: number) => n.toLocaleString('es-ES').replace(/^(\d)(\d{3})$/, '$1.$2');
+const enlace = (rutaId: string) => {
+  const propio = idiomasDe(rutaId).includes(idioma);
+  return { href: url(rutaId, propio ? idioma : POR_DEFECTO), lang: propio ? undefined : POR_DEFECTO };
+};
+const familias = tarifas.familias.map((f) => {
+  const modelos = tarifas.modelos.filter((m) => m.familia === f.id);
+  /* El primer servicio de cada modelo es el de entrada (menor o rapido):
+     el precio mas bajo de la familia es lo que se ensena. */
+  const desde = Math.min(...modelos.map((m) => m.servicios[0].euros));
+  return { ...f, modelos: modelos.length, desde, ...enlace(f.rutaId) };
+});
+const total = tarifas.modelos.length;
+const indice = enlace('taller-tarifas');
+---
+<section class="tresumen">
+  <div class="contenido">
+    <header class="tresumen-cabecera reveal">
+      <div>
+        <p class="section-label">{t('tarifas.resumenLabel')}</p>
+        <h2 class="tresumen-titulo">{titulo}</h2>
+        <p class="tresumen-intro">{t('tarifas.resumenIntro').replace('{n}', String(total))}</p>
+      </div>
+      <a class="cta" href={indice.href} lang={indice.lang} hreflang={indice.lang}>{t('tarifas.verTodas')}</a>
+    </header>
+
+    <ul class="tresumen-rejilla">
+      {familias.map((f, i) => (
+        <li class={`reveal delay-${Math.min(i + 1, 6)}`}>
+          <a class="tresumen-familia" href={f.href} lang={f.lang} hreflang={f.lang}>
+            <span class="tresumen-modelos">{t('tarifas.modelosN').replace('{n}', String(f.modelos))}</span>
+            <span class="tresumen-nombre">{f.nombre}</span>
+            <span class="tresumen-precio">
+              <span class="tresumen-desde">{t('tarifas.desde')}</span>{euros(f.desde)} €
+            </span>
+            <span class="tresumen-ir">{t('tarifas.verFamilia')} &rarr;</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="tresumen-nota">{t('tarifas.nota')}</p>
+
+    {fotos.length > 0 && (
+      <div class={`bloque-fotos bloque-fotos--${Math.min(fotos.length, 3)} tresumen-fotos`}>
+        {fotos.map((im) => <img src={im.url} alt={im.alt} loading="lazy" decoding="async" class="reveal-scale">)}
+      </div>
+    )}
+  </div>
+</section>

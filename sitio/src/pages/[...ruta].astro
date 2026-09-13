@@ -17,6 +17,7 @@ import CatalogoCoches from '../components/CatalogoCoches.astro';
 import SeccionesPagina from '../components/SeccionesPagina.astro';
 import Acordeon from '../components/Acordeon.astro';
 import Tarifas from '../components/Tarifas.astro';
+import TarifasResumen from '../components/TarifasResumen.astro';
 import tarifas from '../datos/tarifas.json';
 import CasosMagazine from '../components/CasosMagazine.astro';
 import { getCollection } from 'astro:content';
@@ -145,10 +146,10 @@ const esIndiceTarifas = pagina?.rutaId === 'taller-tarifas';
 
 /* La pagina del taller traia la seccion "Tarifas de mantenimiento" seguida de
    seis subsecciones que solo listaban modelos: en Squarespace cada una era un
-   enlace a su pagina de tarifas y la migracion se dejo los enlaces, asi que
-   quedaron seis listas muertas y seis paginas a las que no llegaba nadie.
-   En su lugar va el buscador con los 57 modelos. Las subsecciones se localizan
-   por su nivel y no por su titulo, que cambia en cada idioma. */
+   enlace a su pagina de tarifas y la migracion se dejo los enlaces. En su
+   lugar va el resumen de tarifas, con una baldosa por familia. Se localiza
+   por la forma (un H2 seguido de al menos tres H3; el testimonio es un H3
+   suelto) y no por el titulo, que cambia en cada idioma. */
 /* Las preguntas frecuentes salen del flujo: tienen su propia grafica al final
    de la pagina y su FAQPage en el <head>. */
 const { resto: secciones, faq } = separarFaq(pagina?.secciones ?? []);
@@ -173,10 +174,11 @@ const generacion = pagina?.tipo === 'landing'
 const nombreGeneracion = pagina?.menu ?? `Porsche ${generacion}`;
 
 const iTarifas = pagina?.rutaId === 'taller'
-  ? secciones.findIndex((s, i) => secciones[i + 1]?.nivel === 4) : -1;
+  ? secciones.findIndex((s, i) => s.nivel === 2 && [1, 2, 3].every((k) => secciones[i + k]?.nivel === 3)) : -1;
 let iFin = iTarifas;
-while (iFin >= 0 && secciones[iFin + 1]?.nivel === 4) iFin++;
-const antesDeTarifas = iTarifas >= 0 ? secciones.slice(0, iTarifas + 1) : secciones;
+while (iFin >= 0 && secciones[iFin + 1]?.nivel === 3) iFin++;
+const seccionTarifas = iTarifas >= 0 ? secciones[iTarifas] : undefined;
+const antesDeTarifas = iTarifas >= 0 ? secciones.slice(0, iTarifas) : secciones;
 const despuesDeTarifas = iTarifas >= 0 ? secciones.slice(iFin + 1) : [];
 
 /* Los articulos que sostienen esta pagina, en el orden en que los declara.
@@ -280,13 +282,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
         </div>
       )}
       {despuesTarifasPag.length > 0 && <SeccionesPagina secciones={despuesTarifasPag} idioma={idioma} />}
-      {iTarifas >= 0 && (
-        <div class="contenido">
-          <Tarifas idioma={idioma} textos={{
-            familia: t('tarifas.familia'), modelo: t('tarifas.modelo'),
-            nota: t('tarifas.nota'),
-          }} />
-        </div>
+      {seccionTarifas && (
+        <TarifasResumen idioma={idioma} titulo={seccionTarifas.titulo} fotos={seccionTarifas.imagenes} />
       )}
       {despuesDeTarifas.length > 0 && <SeccionesPagina secciones={despuesDeTarifas} idioma={idioma} />}
       {generacion && (
