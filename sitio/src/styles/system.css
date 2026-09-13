@@ -2149,6 +2149,9 @@ section { position: relative; }
   text-transform: uppercase; color: var(--concreto);
 }
 .tarifas-nota { margin-top: 24px; font-size: 13px; color: var(--concreto); }
+/* El buscador cierra con aire y una linea: lo que viene despues es otra cosa. */
+.tarifas-modulo { padding-bottom: 64px; border-bottom: 1px solid var(--linea); }
+.tarifas-modulo + .contenido > .bloque:first-child { padding-top: 64px; }
 
 @media (max-width: 700px) {
   /* Una encima de otra: dos columnas de 160 px no son dos columnas. */
@@ -2220,6 +2223,40 @@ section { position: relative; }
 .catalogo-mas-cuenta {
   display: block; margin-top: 4px;
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.05em; color: var(--concreto);
+}
+
+/* ── Testimonio: una voz ajena dentro del texto ──────────────────────────── */
+/* No es una seccion mas: no lleva titulo de bloque ni fondo. Lleva lo que en
+   el sitio significa "alguien habla": serif ligera y grande, como la cita de
+   los articulos y el cierre de las fichas, una comilla de cuerpo enorme en
+   bronce a modo de marca, y la firma en mono. Entra desde la izquierda, que
+   es el unico bloque de la pagina que lo hace. */
+.testimonio {
+  position: relative; margin: 72px 0; padding: 12px 0 12px 56px;
+  border-left: 1px solid var(--bronce);
+}
+.testimonio-comilla {
+  position: absolute; left: 14px; top: -22px;
+  font-family: var(--serif); font-size: 120px; line-height: 1; font-weight: 300;
+  color: var(--bronce); opacity: 0.28; pointer-events: none; user-select: none;
+}
+.testimonio-cita { margin: 0; }
+.testimonio-cita p {
+  font-family: var(--serif); font-weight: 300;
+  font-size: clamp(23px, 2.6vw, 34px); line-height: 1.34; letter-spacing: -0.01em;
+  color: var(--blanco); text-wrap: pretty; max-width: 30ch;
+}
+.testimonio-firma {
+  display: flex; align-items: center; gap: 14px; margin-top: 26px;
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce);
+}
+.testimonio-firma::before { content: ''; width: 28px; height: 1px; background: var(--bronce); }
+.testimonio.reveal { transform: translateX(-32px); }
+.testimonio.reveal.visible { transform: none; }
+@media (max-width: 720px) {
+  .testimonio { margin: 56px 0; padding-left: 28px; }
+  .testimonio-comilla { left: 4px; top: -16px; font-size: 84px; }
 }
 
 /* ── Preguntas frecuentes: otro registro para romper la columna ──────────── */

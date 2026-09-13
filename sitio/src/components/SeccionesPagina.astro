@@ -2,9 +2,22 @@
 import type { SeccionPagina } from '../datos/pagina';
 import { enlazaEnIdioma } from '../i18n/routes';
 import { POR_DEFECTO, type Idioma } from '../i18n/config';
+import { traductor } from '../i18n/ui';
 
 interface Props { secciones: SeccionPagina[]; idioma?: Idioma; }
 const { secciones, idioma = POR_DEFECTO } = Astro.props;
+const t = traductor(idioma);
+
+/* Un testimonio viene de Squarespace como un H3 que empieza por comillas,
+   con el nombre del cliente en el unico parrafo. No es una seccion: es una
+   voz ajena en medio del texto, y se pinta como tal, en serif y con firma.
+   Se reconoce por la forma (las comillas cambian por idioma: “ « „ "). */
+const COMILLAS = /^[“”"«»„]+|[“”"«»„]+$/g;
+const esTestimonio = (s: SeccionPagina) =>
+  s.nivel === 3 && /^[“"«„]/.test(s.titulo.trim()) && !s.items.length && !s.imagenes.length;
+const firma = (s: SeccionPagina) =>
+  s.parrafos.map((p) => p.replace(/<[^>]+>/g, '').replace(/^[\s—–-]+/, '').trim())
+            .filter(Boolean).join(' · ');
 
 /** La primera seccion suele repetir el h1: no se pinta dos veces. */
 const utiles = secciones.filter((s, i) =>
@@ -12,7 +25,17 @@ const utiles = secciones.filter((s, i) =>
   (s.titulo || s.parrafos.length || s.items.length || s.imagenes.length));
 ---
 <div class="contenido">
-  {utiles.map((s, i) => (
+  {utiles.map((s, i) => esTestimonio(s) ? (
+    <figure class="testimonio reveal">
+      <span class="testimonio-comilla" aria-hidden="true">“</span>
+      <blockquote class="testimonio-cita">
+        <p>{s.titulo.trim().replace(COMILLAS, '').trim()}</p>
+      </blockquote>
+      {firma(s) && (
+        <figcaption class="testimonio-firma">{firma(s)} &middot; {t('testimonio.rol')}</figcaption>
+      )}
+    </figure>
+  ) : (
     <section class={`bloque${s.imagenes.length ? ' bloque--con-foto' : ''}`}>
       <div class="bloque-texto">
         {s.titulo && (s.nivel <= 2

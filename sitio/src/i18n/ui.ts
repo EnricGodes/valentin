@@ -248,6 +248,7 @@ export const UI = {
   'casos.chipCaso': { es: 'Magazine · Caso real', en: 'Magazine · Real case', fr: 'Magazine · Cas réel', it: 'Magazine · Caso reale', de: 'Magazine · Echter Fall', ca: 'Magazine · Cas real' },
   'casos.chipGuia': { es: 'Magazine · Guía', en: 'Magazine · Guide', fr: 'Magazine · Guide', it: 'Magazine · Guida', de: 'Magazine · Ratgeber', ca: 'Magazine · Guia' },
   'casos.leer':     { es: 'Leer el artículo', en: 'Read the article', fr: 'Lire l’article', it: 'Leggi l’articolo', de: 'Artikel lesen', ca: 'Llegir l’article' },
+  'testimonio.rol': { es: 'Cliente', en: 'Customer', fr: 'Client', it: 'Cliente', de: 'Kunde', ca: 'Client' },
   'pie.modelos': { es: 'Porsche de segunda mano por modelo', en: 'Used Porsche by model', fr: 'Porsche d’occasion par modèle', it: 'Porsche usate per modello', de: 'Gebrauchte Porsche nach Modell', ca: 'Porsche de segona mà per model' },
 
   'footer.desde':    { es: 'Especialistas Porsche desde 1979', en: 'Porsche specialists since 1979', fr: 'Spécialistes Porsche depuis 1979', it: 'Specialisti Porsche dal 1979', de: 'Porsche-Spezialisten seit 1979', ca: 'Especialistes Porsche des de 1979' },

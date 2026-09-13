@@ -254,7 +254,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       )}
       <SeccionesPagina secciones={esTarifas ? antesTarifasPag : antesDeTarifas} idioma={idioma} />
       {esTarifas && (
-        <div class="contenido">
+        <div class="contenido tarifas-modulo">
           <Tarifas idioma={idioma} familia={familiaTarifa} textos={{
             familia: t('tarifas.familia'), modelo: t('tarifas.modelo'),
             nota: t('tarifas.nota'),
