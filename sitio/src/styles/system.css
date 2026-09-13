@@ -2234,33 +2234,94 @@ section { position: relative; }
   font-family: var(--mono); font-size: 11px; letter-spacing: 0.05em; color: var(--concreto);
 }
 
-/* ── Servicios del taller: foto y texto, alternando de lado ──────────────── */
+/* ── Servicios del taller: portada, tarjetas y filas ─────────────────────── */
 .svc-lista { margin-top: 24px; }
-.svc { border-top: 1px solid var(--linea); }
-.svc-interior {
-  max-width: var(--ancho-max); margin: 0 auto; padding: 80px var(--pad-lateral);
-  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: center;
-}
-.svc--foto-derecha .svc-foto { order: 2; }
-.svc-foto { display: block; overflow: hidden; background: var(--carbon); aspect-ratio: 4 / 3; }
-.svc-foto img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1.1s var(--ease); }
-.svc-foto:hover img { transform: scale(1.03); }
+.contenido-ancho { max-width: var(--ancho-max); margin: 0 auto; padding: 0 var(--pad-lateral); }
 .svc-numero {
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
-  color: var(--bronce); margin-bottom: 18px;
+  color: var(--bronce); margin-bottom: 14px;
 }
+.svc-titulo a, .svc-tarjeta-titulo a, .svc-fila-titulo a {
+  color: inherit; text-decoration: none; transition: color 0.3s var(--ease);
+}
+.svc-titulo a:hover, .svc-tarjeta-titulo a:hover, .svc-fila-titulo a:hover { color: var(--bronce); }
+.svc-acciones { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 28px; }
+.svc-acciones .cta { text-align: center; }
+
+/* Portada: la foto sale a sangre por la izquierda hasta el borde de la
+   pantalla, el texto queda en la columna derecha, y debajo el resumen de
+   tarifas dentro del ancho normal. */
+.svc-portada { border-top: 1px solid var(--linea); padding-top: 72px; }
+.svc-portada-foto {
+  display: block; overflow: hidden; background: var(--carbon);
+  width: min(100%, calc(50vw + var(--ancho-max) / 2 - var(--pad-lateral)));
+  aspect-ratio: 21 / 9; margin-right: auto;
+}
+.svc-portada-foto img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1.2s var(--ease); }
+.svc-portada-foto:hover img { transform: scale(1.03); }
+.svc-portada-texto {
+  max-width: var(--ancho-max); margin: -120px auto 0; padding: 0 var(--pad-lateral);
+  display: grid; grid-template-columns: 1fr minmax(0, 560px);
+}
+/* El panel de texto monta sobre la foto: negro sobre la esquina inferior
+   derecha, como un pie de foto que se ha hecho grande. */
+.svc-portada-panel { grid-column: 2; background: var(--negro); padding: 32px 0 0 40px; }
 .svc-titulo {
-  font-size: clamp(26px, 3.2vw, 38px); font-weight: 300; line-height: 1.12;
-  letter-spacing: -0.02em; color: var(--blanco); text-wrap: balance; margin-bottom: 22px;
+  font-size: clamp(28px, 3.6vw, 44px); font-weight: 300; line-height: 1.08;
+  letter-spacing: -0.02em; color: var(--blanco); text-wrap: balance; margin-bottom: 18px;
 }
-.svc-acciones { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; margin-top: 32px; }
-/* El resumen de tarifas dentro del plan de mantenimiento: sin su linea de
-   arriba ni su margen, que ya los pone el bloque. */
-.svc-anexo .tresumen { margin-top: 0; border-top: 0; padding-top: 0; }
+.svc-portada .svc-anexo { margin-top: 24px; }
+.svc-anexo .tresumen { border-top: 0; margin-top: 0; }
+
+/* Tarjetas: dos por dos, foto arriba, sobre la rejilla de lineas del sitio. */
+.svc-grupo { margin-top: 64px; padding-top: 48px; border-top: 1px solid var(--linea); }
+.svc-grupo .section-label { margin-bottom: 28px; }
+.svc-tarjetas {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px;
+  background: var(--linea); border: 1px solid var(--linea);
+}
+.svc-tarjeta { background: var(--negro); display: flex; flex-direction: column; }
+.svc-tarjeta-foto { display: block; overflow: hidden; background: var(--carbon); aspect-ratio: 16 / 9; }
+.svc-tarjeta-foto img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1.1s var(--ease); }
+.svc-tarjeta:hover .svc-tarjeta-foto img { transform: scale(1.04); }
+.svc-tarjeta-cuerpo { padding: 28px 32px 36px; display: flex; flex-direction: column; flex: 1; }
+.svc-tarjeta-titulo {
+  font-size: clamp(22px, 2.4vw, 28px); font-weight: 400; line-height: 1.15;
+  letter-spacing: -0.015em; color: var(--blanco); margin-bottom: 14px; text-wrap: balance;
+}
+.svc-tarjeta-texto p { font-size: 15px; }
+.svc-tarjeta .svc-acciones {
+  margin-top: auto; padding-top: 28px;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 12px;
+}
+.svc-tarjeta .svc-acciones .cta { padding-left: 16px; padding-right: 16px; }
+
+/* Filas: foto pequena a la izquierda, texto largo a la derecha, una linea
+   entre fila y fila. */
+.svc-filas { display: grid; }
+.svc-fila {
+  display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 5fr); gap: 48px;
+  padding: 48px 0; border-top: 1px solid var(--linea);
+}
+.svc-fila:last-child { border-bottom: 1px solid var(--linea); }
+.svc-fila-foto { display: block; overflow: hidden; background: var(--carbon); aspect-ratio: 4 / 3; align-self: start; }
+.svc-fila-foto img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1.1s var(--ease); }
+.svc-fila:hover .svc-fila-foto img { transform: scale(1.04); }
+.svc-fila-titulo {
+  font-size: clamp(22px, 2.6vw, 30px); font-weight: 300; line-height: 1.15;
+  letter-spacing: -0.02em; color: var(--blanco); margin-bottom: 14px; text-wrap: balance;
+}
+.svc-fila-texto { max-width: 66ch; }
+
 @media (max-width: 900px) {
-  .svc-interior { grid-template-columns: 1fr; gap: 32px; padding: 56px var(--pad-lateral); }
-  .svc--foto-derecha .svc-foto { order: 0; }
+  .svc-portada-foto { width: 100%; aspect-ratio: 4 / 3; }
+  .svc-portada-texto { margin-top: 32px; grid-template-columns: 1fr; }
+  .svc-portada-panel { grid-column: 1; padding: 0; }
+  .svc-tarjetas { grid-template-columns: 1fr; }
+  .svc-fila { grid-template-columns: 1fr; gap: 24px; }
+  .svc-fila-foto { aspect-ratio: 16 / 9; }
 }
+@media (max-width: 520px) { .svc-acciones .cta { width: 100%; } }
 
 /* ── Resumen de tarifas en la pagina del taller ──────────────────────────── */
 .tresumen { margin-top: 56px; padding: 64px 0 72px; border-top: 1px solid var(--linea); }

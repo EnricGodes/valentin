@@ -278,6 +278,8 @@ export const UI = {
   'tarifas.verTodas': { es: 'Ver todas las tarifas', en: 'See all prices', fr: 'Voir tous les tarifs', it: 'Vedi tutte le tariffe', de: 'Alle Preise ansehen', ca: 'Veure totes les tarifes' },
   'tarifas.modelosN': { es: '{n} modelos', en: '{n} models', fr: '{n} modèles', it: '{n} modelli', de: '{n} Modelle', ca: '{n} models' },
   'tarifas.desde':    { es: 'desde', en: 'from', fr: 'dès', it: 'da', de: 'ab', ca: 'des de' },
+  'servicios.grupoMotor': { es: 'Motor y transmisión', en: 'Engine and transmission', fr: 'Moteur et transmission', it: 'Motore e trasmissione', de: 'Motor und Getriebe', ca: 'Motor i transmissió' },
+  'servicios.grupoResto': { es: 'Carrocería, compra y servicio', en: 'Bodywork, buying and service', fr: 'Carrosserie, achat et service', it: 'Carrozzeria, acquisto e servizio', de: 'Karosserie, Kauf und Service', ca: 'Carrosseria, compra i servei' },
   'servicios.label':      { es: 'Servicios del taller', en: 'Workshop services', fr: 'Services de l’atelier', it: 'Servizi dell’officina', de: 'Leistungen der Werkstatt', ca: 'Serveis del taller' },
   'tarifas.resumenTitulo': { es: 'Tarifas de mantenimiento', en: 'Maintenance prices', fr: 'Tarifs d’entretien', it: 'Tariffe di manutenzione', de: 'Wartungspreise', ca: 'Tarifes de manteniment' },
   'pie.modelos': { es: 'Porsche de segunda mano por modelo', en: 'Used Porsche by model', fr: 'Porsche d’occasion par modèle', it: 'Porsche usate per modello', de: 'Gebrauchte Porsche nach Modell', ca: 'Porsche de segona mà per model' },

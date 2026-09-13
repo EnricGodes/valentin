@@ -1,17 +1,22 @@
 ---
 /**
- * Los servicios del taller, uno a uno, como en la pagina publicada: foto a un
- * lado, texto al otro, y el enlace a la pagina del servicio. Alternan de lado
- * para que nueve bloques seguidos no se lean como una lista.
+ * Los servicios del taller. No son nueve bloques iguales alternando de lado:
+ * eso se leia como una lista con fotos. Van en tres registros, segun lo que
+ * son:
  *
- * Cada bloque corresponde a una entrada del menu del Taller (mas el Storage,
- * que es servicio del taller aunque cuelgue del menu de Servicios), y el
- * enlace va a esa pagina: antes el CTA de todos era "Solicita una cita" al
- * contacto, y las paginas de cada servicio, que son las que explican y
- * posicionan, no recibian ni un enlace desde aqui.
+ *   portada  El plan de mantenimiento, que es a lo que viene la mayoria. Foto
+ *            grande a sangre por la izquierda y, debajo, el resumen de
+ *            tarifas. Es el unico bloque que abre a lo ancho.
+ *   tarjetas Las cuatro intervenciones de motor y transmision (IMS, bore
+ *            scoring, motores, cajas): una rejilla de dos por dos con la foto
+ *            arriba. Son del mismo tipo y se comparan entre si.
+ *   filas    Carroceria, pre-compra, servicio tecnico y Storage: filas con
+ *            foto pequena a la izquierda y texto largo. Son servicios
+ *            distintos entre si y cada uno se lee de un vistazo.
  *
- * El plan de mantenimiento lleva dentro el resumen de tarifas: son lo mismo
- * y estaban separados.
+ * Cada bloque corresponde a una entrada del menu del Taller (mas el Storage)
+ * y enlaza a esa pagina. El de mantenimiento no lleva boton propio: el suyo
+ * es el "Ver todas las tarifas" del resumen que va dentro.
  */
 import { POR_DEFECTO, type Idioma } from '../i18n/config';
 import { url, enlazaEnIdioma } from '../i18n/routes';
@@ -27,41 +32,89 @@ const enlace = (rutaId: string) => {
   const propio = idiomasDe(rutaId).includes(idioma);
   return { href: url(rutaId, propio ? idioma : POR_DEFECTO), lang: propio ? undefined : POR_DEFECTO };
 };
-/* El "10 cosas..." y los "que es" del Magazine se escriben en castellano y se
-   resuelven al idioma al pintar, como cualquier enlace interno. */
 const hrefEn = (href: string) =>
   enlazaEnIdioma(`href="${href}"`, idioma).replace(/^href="|"$/g, '');
+
+const TARJETAS = new Set(['taller-ims', 'taller-bore-scoring', 'taller-motores', 'taller-cajas']);
+const portada = servicios.find((s) => s.rutaId === 'taller-mantenimiento');
+const tarjetas = servicios.filter((s) => TARJETAS.has(s.rutaId));
+const filas = servicios.filter((s) => s !== portada && !TARJETAS.has(s.rutaId));
+let n = 0;
+const numero = () => String(++n).padStart(2, '0');
 ---
 <section class="svc-lista" aria-label={t('servicios.label')}>
-  {servicios.map((s, i) => {
-    const e = enlace(s.rutaId);
-    return (
-      <article class:list={['svc', i % 2 ? 'svc--foto-derecha' : 'svc--foto-izquierda']}
-               id={s.rutaId}>
-        <div class="svc-interior">
-          <a class="svc-foto reveal-foto" href={e.href} lang={e.lang} hreflang={e.lang} tabindex="-1" aria-hidden="true">
-            <img src={s.foto.url} alt={s.foto.alt} loading={i < 1 ? 'eager' : 'lazy'} decoding="async">
-          </a>
-          <div class="svc-texto">
-            <p class="svc-numero reveal">{String(i + 1).padStart(2, '0')}</p>
-            <h2 class="svc-titulo reveal">{s.titulo}</h2>
-            <div class="texto-editorial reveal delay-1">
-              {s.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma)} />)}
-            </div>
-            <div class="svc-acciones reveal delay-2">
-              <a class="cta" href={e.href} lang={e.lang} hreflang={e.lang}>{t('tarifas.verFamilia')}</a>
-              {s.enlace && (
-                <a class="enlace-mono" href={hrefEn(s.enlace.href)}>{s.enlace.texto} &rarr;</a>
-              )}
-            </div>
+
+  {portada && (() => { const e = enlace(portada.rutaId); return (
+    <article class="svc-portada" id={portada.rutaId}>
+      <a class="svc-portada-foto reveal-foto" href={e.href} lang={e.lang} hreflang={e.lang} tabindex="-1" aria-hidden="true">
+        <img src={portada.foto.url} alt={portada.foto.alt} loading="eager" decoding="async">
+      </a>
+      <div class="svc-portada-texto">
+        <div class="svc-portada-panel reveal">
+          <p class="svc-numero">{numero()}</p>
+          <h2 class="svc-titulo">
+            <a href={e.href} lang={e.lang} hreflang={e.lang}>{portada.titulo}</a>
+          </h2>
+          <div class="texto-editorial">
+            {portada.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma)} />)}
           </div>
         </div>
-        {s.rutaId === 'taller-mantenimiento' && (
-          <div class="svc-anexo">
-            <TarifasResumen idioma={idioma} titulo={t('tarifas.resumenTitulo')} />
-          </div>
-        )}
-      </article>
-    );
-  })}
+      </div>
+      <div class="svc-anexo">
+        <TarifasResumen idioma={idioma} titulo={t('tarifas.resumenTitulo')} />
+      </div>
+    </article>
+  ); })()}
+
+  {tarjetas.length > 0 && (
+    <div class="svc-grupo contenido-ancho">
+      <p class="section-label reveal">{t('servicios.grupoMotor')}</p>
+      <div class="svc-tarjetas">
+        {tarjetas.map((s) => { const e = enlace(s.rutaId); return (
+          <article class="svc-tarjeta reveal" id={s.rutaId}>
+            <a class="svc-tarjeta-foto" href={e.href} lang={e.lang} hreflang={e.lang} tabindex="-1" aria-hidden="true">
+              <img src={s.foto.url} alt={s.foto.alt} loading="lazy" decoding="async">
+            </a>
+            <div class="svc-tarjeta-cuerpo">
+              <p class="svc-numero">{numero()}</p>
+              <h2 class="svc-tarjeta-titulo"><a href={e.href} lang={e.lang} hreflang={e.lang}>{s.titulo}</a></h2>
+              <div class="texto-editorial svc-tarjeta-texto">
+                {s.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma)} />)}
+              </div>
+              <div class="svc-acciones">
+                <a class="cta" href={e.href} lang={e.lang} hreflang={e.lang}>{t('tarifas.verFamilia')}</a>
+                {s.enlace && <a class="cta cta--linea" href={hrefEn(s.enlace.href)}>{s.enlace.texto}</a>}
+              </div>
+            </div>
+          </article>
+        ); })}
+      </div>
+    </div>
+  )}
+
+  {filas.length > 0 && (
+    <div class="svc-grupo contenido-ancho">
+      <p class="section-label reveal">{t('servicios.grupoResto')}</p>
+      <div class="svc-filas">
+        {filas.map((s) => { const e = enlace(s.rutaId); return (
+          <article class="svc-fila reveal" id={s.rutaId}>
+            <a class="svc-fila-foto" href={e.href} lang={e.lang} hreflang={e.lang} tabindex="-1" aria-hidden="true">
+              <img src={s.foto.url} alt={s.foto.alt} loading="lazy" decoding="async">
+            </a>
+            <div class="svc-fila-cuerpo">
+              <p class="svc-numero">{numero()}</p>
+              <h2 class="svc-fila-titulo"><a href={e.href} lang={e.lang} hreflang={e.lang}>{s.titulo}</a></h2>
+              <div class="texto-editorial svc-fila-texto">
+                {s.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma)} />)}
+              </div>
+              <div class="svc-acciones">
+                <a class="cta" href={e.href} lang={e.lang} hreflang={e.lang}>{t('tarifas.verFamilia')}</a>
+                {s.enlace && <a class="cta cta--linea" href={hrefEn(s.enlace.href)}>{s.enlace.texto}</a>}
+              </div>
+            </div>
+          </article>
+        ); })}
+      </div>
+    </div>
+  )}
 </section>
