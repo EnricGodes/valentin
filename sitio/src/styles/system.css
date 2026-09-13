@@ -2376,6 +2376,34 @@ section { position: relative; }
   .testimonio-comilla { left: 4px; top: -16px; font-size: 84px; }
 }
 
+/* ── La opinion de Jordi en el Magazine: retrato y testimonio ────────────── */
+.post-cuerpo > .jordi-nota {
+  display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 48px; align-items: start;
+  margin-top: 64px; margin-bottom: 24px; padding: 40px 0; border-top: 1px solid var(--linea-bronce);
+}
+.jordi-nota-foto { position: sticky; top: 120px; }
+.jordi-nota .jordi-photo-wrap { aspect-ratio: 4 / 5; }
+.jordi-nota .jordi-name { font-size: 17px; margin-top: 18px; }
+.jordi-nota .section-label { margin-bottom: 8px; }
+/* La cita de Jordi puede ser larga: mas pequena que el testimonio del taller
+   y sin comilla gigante encima del rotulo. */
+.testimonio--jordi { margin: 0; padding: 4px 0 0 32px; }
+.testimonio--jordi .testimonio-comilla { left: -6px; top: -4px; font-size: 84px; }
+.testimonio--jordi .testimonio-cita p {
+  font-size: clamp(19px, 1.9vw, 24px); line-height: 1.4; max-width: 40ch;
+}
+.testimonio--jordi .testimonio-cita p + p { margin-top: 18px; }
+.testimonio--jordi .testimonio-cita strong { font-weight: 500; color: var(--bronce); }
+.testimonio--jordi .testimonio-cita a { color: var(--bronce); }
+.testimonio--jordi .testimonio-cita ul, .testimonio--jordi .testimonio-cita ol { padding-left: 22px; margin-top: 14px; }
+@media (max-width: 720px) {
+  .post-cuerpo > .jordi-nota { grid-template-columns: 1fr; gap: 24px; }
+  .jordi-nota-foto { position: static; display: grid; grid-template-columns: 96px 1fr; gap: 0 18px; align-items: center; }
+  .jordi-nota .jordi-photo-wrap { grid-row: 1 / 3; aspect-ratio: 1; }
+  .jordi-nota .jordi-name { margin-top: 0; }
+  .testimonio--jordi { padding-left: 24px; }
+}
+
 /* ── Preguntas frecuentes: otro registro para romper la columna ──────────── */
 .faq {
   margin-top: 72px; padding: 72px 0 80px;
