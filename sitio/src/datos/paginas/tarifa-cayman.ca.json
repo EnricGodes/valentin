@@ -52,12 +52,7 @@
     {
       "nivel": 1,
       "titulo": "Preus de manteniment per als models Cayman i Boxster",
-      "parrafos": [
-        "Cap automòbil és 100 % fiable i, a partir de la nostra experiència de treball, servei i diagnòstic de fallades.",
-        "L'equip us pot assessorar sobre les millors accions de manteniment preventiu. Els tècnics de Valentín Motors poden proporcionar solucions ben dissenyades que solucionaran el problema.<br/><br/>",
-        "Els preus estan subjectes a IVA, però inclouen peces i mà d'obra. Els preus de les peces de Porsche estan subjectes a canvis sense avís previ. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos. El seu vehicle es desinfectarà i netejarà, llest per a la recol·lecció.",
-        "Selecciona un model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -67,12 +62,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Fes una reserva",
+      "nivel": 2,
+      "titulo": "Mantenir un Boxster o un Cayman: motor central, mateixes regles que el 911",
       "parrafos": [
-        "Deixa'ns les dades del teu model, tipus de servei que requereixes i el nostre equip contactarà amb tu per confirmar la cita"
+        "Boxster i Cayman comparteixen motor i bona part de la mecànica amb el 911 de la seva època, i per tant les mateixes cures: IMS i retén de cigonyal als 986 i 987.1, bore scoring als 3.4 de la primera sèrie, PDK des del 987.2, turbo de quatre cilindres al 718. El que canvia és l’accés: el motor és al mig i la capota, al Boxster, és un element més a revisar.",
+        "La taula dona un preu tancat per generació, amb peces i mà d’obra. En un 986 de 25 anys i en un 718 amb garantia el servei s’assembla poc, i el preu ho reflecteix."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què mira el servei en un Boxster o Cayman",
+      "parrafos": [],
+      "items": [
+        "986 i 987.1: <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, retén posterior de cigonyal i fuites pel separador aire-oli.",
+        "Radiadors i condensadors darrere les preses frontals: fulles, corrosió i fuites. És on més pateixen aquests cotxes.",
+        "Capota del Boxster: motor, cables i lona; als 986, la lluneta de plàstic.",
+        "987.2, 981 i 718: servei de PDK, codis memoritzats i, als 718, pressió de bufada del turbo.",
+        "Frens, líquid de frens, alineació i pneumàtics, amb el desgast típic del motor central."
+      ],
       "imagenes": []
     }
   ],
@@ -81,8 +90,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 27,
-    "total": 27,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

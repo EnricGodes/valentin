@@ -46,11 +46,7 @@
     {
       "nivel": 1,
       "titulo": "entretien pour les modèles Transaxle",
-      "parrafos": [
-        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience professionnelle, le service et le diagnostic des pannes se concentrent sur un diagnostic clair et efficace comme clé de l'ensemble du processus de réparation.",
-        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être livré",
-        "Sélectionnez un modèle"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -60,12 +56,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Faire une réservation",
+      "nivel": 2,
+      "titulo": "Entretenir une 924, 944, 968 ou 928 : courroies, tube de transmission et pas grand-chose d’autre",
       "parrafos": [
-        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+        "Les transaxle ont le moteur à l’avant, la boîte à l’arrière et un tube de transmission entre les deux, et leur entretien se joue à trois endroits : les courroies de distribution et d’équilibrage, remplacées tous les quatre ans ou 60 000 km avec pompe à eau et galets ; le tube de transmission et ses roulements ; et sur la 928, la courroie du V8, qui emporte le moteur si elle casse. Avec cela à jour, ce sont parmi les Porsche les plus fiables qui existent.",
+        "Le tableau donne un prix ferme pour les quatre familles, pièces et main-d’œuvre comprises. Ce sont des voitures de trente et quarante ans où l’entretien est aussi une inspection : ce que nous trouvons, nous vous le disons avant d’y toucher."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que l’entretien contrôle sur une transaxle",
+      "parrafos": [],
+      "items": [
+        "Courroies de distribution et d’équilibrage, tendeurs, galets et pompe à eau : date et kilométrage du dernier remplacement, et état réel de l’ensemble.",
+        "Tube de transmission et roulements : bruits et vibrations à l’accélération et en retenue.",
+        "Embrayage et boîte arrière, manuelle ou automatique ; sur la 928, aussi la boîte automatique d’origine Mercedes.",
+        "Refroidissement et fuites : radiateur, thermostat, joint de culasse sur les 2.5 et 3.0, et joints de vilebrequin et d’arbres à cames.",
+        "Freins, liquide de frein, géométrie et pneus, et un regard sur les passages de roue et le soubassement, là où ces voitures rouillent."
+      ],
       "imagenes": []
     }
   ],
@@ -74,8 +84,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 21,
-    "total": 21,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

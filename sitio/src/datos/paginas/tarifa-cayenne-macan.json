@@ -92,12 +92,7 @@
     {
       "nivel": 1,
       "titulo": "Precios de mantenimiento para los modelos Cayenne y Macan",
-      "parrafos": [
-        "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia en mantenimiento, servicio y reparación, sabemos que un diagnóstico preciso es clave en el proceso.",
-        "Los técnicos de Valentín Motors pueden ofrecer soluciones bien diseñadas para resolver el problema.<br/><br/>",
-        "Los precios no incluyen el IVA, pero sí las piezas y la mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y por artículos varios. Su vehículo se desinfectará y limpiará antes de la recogida.",
-        "Selecciona un modelo"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,11 +103,25 @@
     },
     {
       "nivel": 2,
-      "titulo": "Haz una reserva",
+      "titulo": "Mantener un Cayenne o un Macan: el Porsche que más kilómetros hace",
       "parrafos": [
-        "Déjanos los datos de tu modelo y el tipo de servicio que necesitas. Nuestro equipo contactará contigo para confirmar la cita."
+        "Un Cayenne o un Macan hace en un año los kilómetros que un 911 hace en cinco, y el mantenimiento tiene que ir a ese ritmo: aceite y filtros a intervalo, transfer y diferenciales, suspensión neumática, frenos que trabajan con dos toneladas y, en los diésel, inyectores y filtro de partículas. Es el Porsche que más se usa y el que menos se lleva al especialista, y se nota.",
+        "La tabla recoge las versiones que más entran en el taller, con precio cerrado, piezas y mano de obra. Si tu versión no aparece, la presupuestamos sobre el coche en el mismo día."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué mira el servicio en un Cayenne o Macan",
+      "parrafos": [],
+      "items": [
+        "Aceite, filtros, bujías y, según motor, correa o cadena de distribución, a su intervalo y no al de un coche pequeño.",
+        "Transfer y diferenciales: ruidos, fugas y estado del aceite. En los primeros Macan, campaña del transfer.",
+        "Suspensión neumática si la monta: fugas, compresor y amortiguadores. Silentblocks y rótulas, que cargan con el peso.",
+        "Diésel: inyectores, EGR y filtro de partículas. Híbridos: batería y sistema de alta tensión.",
+        "Frenos, líquido de frenos, alineado y neumáticos, que en un todocamino de dos toneladas se agotan antes de lo que parece."
+      ],
       "imagenes": []
     }
   ],

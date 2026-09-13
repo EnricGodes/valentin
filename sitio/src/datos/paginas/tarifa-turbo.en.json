@@ -94,11 +94,7 @@
     {
       "nivel": 1,
       "titulo": "servicing for Turbo models",
-      "parrafos": [
-        "No car is 100 % reliable and, based on our work experience, service and fault diagnosis as key to the process of clearly locating the fault and its origin.",
-        "Prices are subject to VAT but include parts and labor. Prices for Porsche parts are subject to change without notice. An environmental and miscellaneous item charge is added to each invoice. Your vehicle will be disinfected and cleaned, ready for delivery.",
-        "Select a model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,12 +104,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Make a reservation",
+      "nivel": 2,
+      "titulo": "Maintaining a 911 Turbo: from the 930 to the 992, forced induction rules",
       "parrafos": [
-        "Leave us the information of your model, type of service you require and our team will contact you to confirm the appointment"
+        "On a Turbo everything revolves around the turbo: boost pressure, intercooler, the turbo's own cooling and the oil that lubricates it, which works hotter than on a naturally aspirated car. A 930 with a tired turbo and a 992 with a wastegate actuator out of tolerance are different problems with the same root: nobody looked at the forced induction system at the service.",
+        "The table covers ten generations, from the four-speed 930 to the 992 Turbo with PDK, at a fixed price with parts and labour. The Turbo shares its body with the Carrera and almost nothing else, and the price takes that into account."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the service checks on a 911 Turbo",
+      "parrafos": [],
+      "items": [
+        "Turbo, wastegate and blow-off valves: boost pressure, shaft play and oil leaks. On the 930, also the intercooler and its hoses.",
+        "Oil and filter with oil suited to turbo temperatures, and cooling: radiators, pump and thermostat, which work harder on a Turbo.",
+        "Clutch and gearbox, manual or PDK, and four-wheel drive from the 993: transfer case, propshaft and front differential.",
+        "Brakes: Turbos carry the biggest brakes of their generation and wear them at their own pace. Brake fluid included.",
+        "Alignment and tyres: wide sizes and fast rear wear, and on the 930, a check that the geometry has not moved."
+      ],
       "imagenes": []
     }
   ],
@@ -122,8 +132,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 39,
-    "total": 39,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

@@ -46,11 +46,7 @@
     {
       "nivel": 1,
       "titulo": "Wartung für Transaxle-Modelle",
-      "parrafos": [
-        "Kein Auto ist 100 % zuverlässig und basierend auf unserer Berufserfahrung konzentrieren wir uns bei Service und Fehlerdiagnose auf eine klare und effektive Diagnose als Schlüssel zum gesamten Reparaturprozess.",
-        "Die Preise unterliegen der Mehrwertsteuer, beinhalten jedoch Teile und Arbeit. Die Preise für Porsche-Teile können ohne vorherige Ankündigung geändert werden. Jeder Rechnung wird eine Gebühr für Umwelt- und sonstige Artikel hinzugefügt. Ihr Fahrzeug wird desinfiziert und gereinigt und steht zur Auslieferung bereit",
-        "Wählen Sie ein Modell aus"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -60,12 +56,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Machen Sie eine Reservierung",
+      "nivel": 2,
+      "titulo": "924, 944, 968 oder 928 warten: Riemen, Transaxle-Rohr und wenig mehr",
       "parrafos": [
-        "Hinterlassen Sie uns die Informationen zu Ihrem Modell und der Art der gewünschten Dienstleistung und unser Team wird sich mit Ihnen in Verbindung setzen, um den Termin zu bestätigen"
+        "Transaxle-Porsche haben den Motor vorn, das Getriebe hinten und dazwischen ein Transaxle-Rohr, und ihre Wartung entscheidet sich an drei Stellen: den Zahn- und Ausgleichswellenriemen, die alle vier Jahre oder 60.000 km samt Wasserpumpe und Rollen gewechselt werden; dem Transaxle-Rohr und seinen Lagern; und beim 928 dem Riemen des V8, der bei einem Riss den Motor mitnimmt. Ist das auf Stand, gehören sie zu den zuverlässigsten Porsche überhaupt.",
+        "Die Tabelle nennt einen Festpreis für die vier Baureihen, Teile und Arbeit inklusive. Es sind dreißig und vierzig Jahre alte Autos, bei denen die Inspektion auch eine Zustandsprüfung ist: Was wir finden, sagen wir Ihnen, bevor wir es anfassen."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was die Inspektion an einem Transaxle prüft",
+      "parrafos": [],
+      "items": [
+        "Zahn- und Ausgleichswellenriemen, Spanner, Rollen und Wasserpumpe: Datum und Kilometer des letzten Wechsels und der tatsächliche Zustand von allem.",
+        "Transaxle-Rohr und Lager: Geräusche und Vibrationen beim Beschleunigen und im Schubbetrieb.",
+        "Kupplung und Heckgetriebe, Schaltgetriebe oder Automatik; beim 928 zusätzlich die Automatik von Mercedes.",
+        "Kühlung und Undichtigkeiten: Kühler, Thermostat, Zylinderkopfdichtung bei 2.5 und 3.0 sowie Dichtringe von Kurbel- und Nockenwellen.",
+        "Bremsen, Bremsflüssigkeit, Achsvermessung und Reifen, und ein Blick auf Radläufe und Unterboden, wo diese Autos rosten."
+      ],
       "imagenes": []
     }
   ],
@@ -74,8 +84,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 21,
-    "total": 21,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

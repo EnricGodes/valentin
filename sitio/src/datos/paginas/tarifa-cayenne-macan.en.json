@@ -92,12 +92,7 @@
     {
       "nivel": 1,
       "titulo": "servicing for Cayenne and Macan models",
-      "parrafos": [
-        "No car is 100 % reliable and, based on our experience of work, service and fault diagnosis as key to the process.",
-        "The technicians at Valentín Motors can provide well-designed solutions that will solve the problem.<br/><br/>",
-        "Prices are subject to VAT but include parts and labor. Prices for Porsche parts are subject to change without notice. An environmental and miscellaneous item charge is added to each invoice. Your vehicle will be disinfected and cleaned, ready for collection.",
-        "Select a model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,11 +103,25 @@
     },
     {
       "nivel": 2,
-      "titulo": "Make a reservation",
+      "titulo": "Maintaining a Cayenne or a Macan: the Porsche that covers the most miles",
       "parrafos": [
-        "Leave us the information of your model, type of service you require and our team will contact you to confirm the appointment"
+        "A Cayenne or a Macan covers in a year the miles a 911 covers in five, and maintenance has to keep that pace: oil and filters on interval, transfer case and differentials, air suspension, brakes working with two tonnes and, on diesels, injectors and particulate filter. It is the most used Porsche and the one least taken to a specialist, and it shows.",
+        "The table covers the versions that most often come into the workshop, at a fixed price with parts and labour. If yours is not listed, we quote it on the car the same day."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the service checks on a Cayenne or Macan",
+      "parrafos": [],
+      "items": [
+        "Oil, filters, spark plugs and, depending on engine, timing belt or chain, at their interval and not a small car's.",
+        "Transfer case and differentials: noises, leaks and oil condition. On early Macans, the transfer case campaign.",
+        "Air suspension if fitted: leaks, compressor and dampers. Bushes and ball joints, which carry the weight.",
+        "Diesel: injectors, EGR and particulate filter. Hybrids: battery and high-voltage system.",
+        "Brakes, brake fluid, alignment and tyres, which on a two-tonne SUV run out sooner than it seems."
+      ],
       "imagenes": []
     }
   ],
@@ -121,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

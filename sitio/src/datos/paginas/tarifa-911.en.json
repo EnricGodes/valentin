@@ -132,12 +132,7 @@
     {
       "nivel": 1,
       "titulo": "servicing for Porsche 911 models",
-      "parrafos": [
-        "No car is 100 % reliable and, based on our work and service experience based on maximum dedication to the diagnosis process as the key to identifying the problem or problems that cause the component to not work efficiently.",
-        "At Valentin the diagnosis is the key.<br/><br/>",
-        "Prices are subject to VAT but include parts and labor. Prices for Porsche parts are subject to change without notice. An environmental and miscellaneous item charge is added to each invoice. Your vehicle will be disinfected and cleaned, ready for collection.",
-        "Select a model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -147,12 +142,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Make a reservation",
+      "nivel": 2,
+      "titulo": "Maintaining a 911: what changes between a Pre 74 and a 992",
       "parrafos": [
-        "Leave us the information of your model, type of service you require and our team will contact you to confirm the appointment"
+        "A 1970 911 and a 2023 one share a name and little else in the workshop. The air-cooled car needs valve adjustment, chain tensioners and a look at the head studs; the 996 and 997.1 need the IMS and oil consumption watched; the 991 and 992 are diagnostics cars, with PDK, sensors and updates. That is why there is not one price but one per generation.",
+        "Every price in the table is fixed, includes parts and labour, and is worked out on what that generation really needs, not on a common template. If the car needs more, we say so before touching it."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the service checks on a 911, beyond the oil",
+      "parrafos": [],
+      "items": [
+        "Air-cooled cars: valve clearances, chain tensioners, leaks at covers and seals, and the state of the head studs on the 2.7.",
+        "996 and 997.1: <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, rear main seal, front radiators and oil consumption, with a borescope inspection if there is any doubt about <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>.",
+        "997.2, 991 and 992: PDK service, stored codes, software updates and turbo condition on the 991.2 and 992.",
+        "On all of them: brakes, brake fluid, alignment and tyres, which on a 911 wear very differently front and rear.",
+        "History: what has been done, when and with which parts. We write it down and hand it to you."
+      ],
       "imagenes": []
     }
   ],
@@ -161,8 +170,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 83,
-    "total": 83,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

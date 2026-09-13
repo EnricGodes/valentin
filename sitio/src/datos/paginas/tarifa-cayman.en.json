@@ -52,12 +52,7 @@
     {
       "nivel": 1,
       "titulo": "servicing for Cayman and Boxster models",
-      "parrafos": [
-        "No car is 100 % reliable and, based on our experience of work, service and fault diagnosis.",
-        "The team can advise you on the best servicing actions. The technicians at Valentín Motors can provide well-designed solutions that will solve the problem.<br/><br/>",
-        "Prices are subject to VAT but include parts and labor. Prices for Porsche parts are subject to change without notice. An environmental and miscellaneous item charge is added to each invoice. Your vehicle will be disinfected and cleaned, ready for collection.",
-        "Select a model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -67,12 +62,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Make a reservation",
+      "nivel": 2,
+      "titulo": "Maintaining a Boxster or a Cayman: mid-engine, same rules as the 911",
       "parrafos": [
-        "Leave us the information of your model, type of service you require and our team will contact you to confirm the appointment"
+        "Boxster and Cayman share their engine and much of their mechanicals with the 911 of their era, and therefore the same care: IMS and rear main seal on the 986 and 987.1, bore scoring on the first-series 3.4, PDK from the 987.2, four-cylinder turbo on the 718. What changes is access: the engine sits in the middle and the hood, on the Boxster, is one more thing to check.",
+        "The table gives a fixed price per generation, parts and labour included. On a 25-year-old 986 and on a 718 under warranty the service has little in common, and the price reflects it."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the service checks on a Boxster or Cayman",
+      "parrafos": [],
+      "items": [
+        "986 and 987.1: <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, rear main seal and leaks from the air-oil separator.",
+        "Radiators and condensers behind the front intakes: leaves, corrosion and leaks. It is where these cars suffer most.",
+        "Boxster hood: motor, cables and fabric; on the 986, the plastic rear window.",
+        "987.2, 981 and 718: PDK service, stored codes and, on the 718, turbo boost pressure.",
+        "Brakes, brake fluid, alignment and tyres, with the wear pattern typical of a mid-engined car."
+      ],
       "imagenes": []
     }
   ],
@@ -81,8 +90,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 27,
-    "total": 27,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

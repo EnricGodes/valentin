@@ -132,12 +132,7 @@
     {
       "nivel": 1,
       "titulo": "Precios de mantenimiento para los modelos Porsche 911",
-      "parrafos": [
-        "Ningún automóvil es 100 % fiable. Nuestra experiencia en mantenimiento y diagnóstico confirma que un proceso riguroso resulta clave para identificar con precisión el problema o los problemas que impiden el funcionamiento eficiente de un componente.",
-        "En Valentin, el diagnóstico es la clave.<br/><br/>",
-        "Los precios no incluyen el IVA, pero sí las piezas y la mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y por artículos varios. Su vehículo se desinfectará y limpiará antes de la recogida.",
-        "Selecciona un modelo"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -147,12 +142,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Haz una reserva",
+      "nivel": 2,
+      "titulo": "Mantener un 911: lo que cambia entre un Pre 74 y un 992",
       "parrafos": [
-        "Déjanos los datos de tu modelo y el tipo de servicio que necesitas. Nuestro equipo contactará contigo para confirmar la cita."
+        "Un 911 de 1970 y uno de 2023 comparten nombre y poco más en el taller. El refrigerado por aire pide ajuste de válvulas, tensores de cadena y una mirada a los espárragos de culata; el 996 y el 997.1 piden vigilar el IMS y el consumo de aceite; el 991 y el 992 son coches de diagnosis, con PDK, sensores y actualizaciones. Por eso la tarifa no es una: es una por generación.",
+        "Cada precio de la tabla es cerrado, incluye piezas y mano de obra, y se ha calculado sobre lo que esa generación necesita de verdad, no sobre una plantilla común. Si el coche pide algo más, se dice antes de tocarlo."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué mira el servicio en un 911, además del aceite",
+      "parrafos": [],
+      "items": [
+        "Refrigerados por aire: holguras de válvulas, tensores de cadena, fugas en tapas y retenes, y estado de los espárragos de culata en los 2.7.",
+        "996 y 997.1: <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, retén trasero de cigüeñal, radiadores frontales y consumo de aceite, con endoscopia si hay dudas de <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>.",
+        "997.2, 991 y 992: servicio de PDK, códigos memorizados, actualizaciones de software y estado de los turbos en los 991.2 y 992.",
+        "En todos: frenos, líquido de frenos, alineado y neumáticos, que en un 911 se desgastan de forma muy distinta delante y detrás.",
+        "Historial: qué se ha hecho, cuándo y con qué piezas. Lo apuntamos y te lo entregamos."
+      ],
       "imagenes": []
     }
   ],

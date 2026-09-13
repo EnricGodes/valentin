@@ -43,6 +43,11 @@ export function iniciarTarifas(): void {
       panel.innerHTML =
         `<h3 class="tarifas-panel-titulo">${esc(m.n)}</h3><dl class="tarifas-tabla">${filas}</dl>`;
       for (const b of modelos) b.setAttribute('aria-pressed', String(b.dataset.modelo === id));
+      /* El enlace a la pagina de la familia lleva el modelo elegido: quien
+         mira el 3.2 en el indice llega a la pagina del 911 con el 3.2 abierto. */
+      for (const a of raiz.querySelectorAll<HTMLAnchorElement>('[data-tarifas-enlace]')) {
+        if (a.dataset.base) a.href = `${a.dataset.base}#modelo=${id}`;
+      }
     }
 
     function abreFamilia(id: string) {
@@ -61,5 +66,15 @@ export function iniciarTarifas(): void {
 
     for (const f of familias) f.addEventListener('click', () => abreFamilia(f.dataset.familia!));
     for (const b of modelos) b.addEventListener('click', () => pintaModelo(b.dataset.modelo!));
+
+    /* Llegada con modelo en la URL (#modelo=911-32): se abre ese, y su
+       familia si el buscador las tiene. */
+    const pedido = new URLSearchParams(location.hash.slice(1)).get('modelo');
+    const boton = pedido ? modelos.find((b) => b.dataset.modelo === pedido) : undefined;
+    if (boton) {
+      const fam = boton.closest('li')?.dataset.de;
+      if (fam && familias.length) abreFamilia(fam);
+      pintaModelo(pedido!);
+    }
   }
 }

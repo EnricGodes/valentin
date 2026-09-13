@@ -180,11 +180,7 @@
     {
       "nivel": 1,
       "titulo": "Wartung für GT-Modelle",
-      "parrafos": [
-        "Kein Auto ist 100 % zuverlässig und, basierend auf unserer Berufserfahrung, sind Service und Diagnose der Schlüssel zum Prozess, der uns zu einer erfolgreichen Arbeit führt.",
-        "Die Preise unterliegen der Mehrwertsteuer, beinhalten jedoch Teile und Arbeit. Die Preise für Porsche-Teile können ohne vorherige Ankündigung geändert werden. Jeder Rechnung wird eine Gebühr für Umwelt- und sonstige Artikel hinzugefügt. Ihr Fahrzeug wird desinfiziert und gereinigt und steht zur Auslieferung bereit.",
-        "Wählen Sie ein Modell aus"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -194,12 +190,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Machen Sie eine Reservierung",
+      "nivel": 2,
+      "titulo": "GT3, GT2 oder GT4 warten: Rennmotoren mit Straßenzulassung",
       "parrafos": [
-        "Hinterlassen Sie uns die Informationen zu Ihrem Modell und der Art der gewünschten Dienstleistung und unser Team wird sich mit Ihnen in Verbindung setzen, um den Termin zu bestätigen"
+        "Die GT-Modelle tragen Motoren, die der Rest der Baureihe nicht teilt: den Mezger in 996 und 997, den 4,0-Liter-Saugmotor in 991 und 992, den 3.8 und 4.0 des Cayman GT4. Sie drehen höher, führen mehr Öl, werden auf der Rennstrecke gefahren, und ihre Wartung ähnelt eher der eines Rennwagens als der eines Carrera: kürzere Intervalle, Bremsen und Reifen als Verbrauchsmaterial, Achsvermessung nach jedem Trackday.",
+        "Deshalb kostet die Inspektion eines GT mehr als die eines 911 desselben Jahrgangs, und deshalb machen sie dieselben Leute, die unsere Rennfahrzeuge vorbereiten. Festpreis pro Modell, einundzwanzig Versionen, vom 996 GT3 bis zum 718 Cayman GT4 RS."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was die Inspektion an einem GT prüft",
+      "parrafos": [],
+      "items": [
+        "Öl und Filter in kurzem Intervall, mit Ölanalyse bei Rennstreckeneinsatz, und Kühlmittelstand bei den Mezger-Motoren.",
+        "Bremsen: Scheiben, Beläge und bei PCCB Verschleißmessung nach Gewicht. Hochtemperatur-Bremsflüssigkeit.",
+        "Rennstrecken- oder Straßenachsvermessung je nach Einsatz sowie Zustand der Lenker und Uniball-Gelenke.",
+        "Kupplung und Getriebe, Schaltgetriebe oder PDK, und beim GT2 Lader, Ladeluftkühler und Ladedruck.",
+        "Nutzungshistorie: Trackdays, Wechsel von Verschleißteilen und ersetzte Komponenten. Bei einem GT so viel wert wie der Kilometerstand."
+      ],
       "imagenes": []
     }
   ],
@@ -208,8 +218,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 70,
-    "total": 70,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

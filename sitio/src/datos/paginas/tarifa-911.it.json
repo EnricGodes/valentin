@@ -132,12 +132,7 @@
     {
       "nivel": 1,
       "titulo": "manutenzione per i modelli Porsche 911",
-      "parrafos": [
-        "Nessuna auto è affidabile al 100 % e, in base alla nostra esperienza di lavoro e di servizio, si basa sulla massima dedizione al processo di diagnosi come chiave per identificare il problema o i problemi che causano il mancato funzionamento efficiente del componente.",
-        "Per Valentin la diagnosi è la chiave.<br/><br/>",
-        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo sarà disinfettato e pulito, pronto per il ritiro.",
-        "Seleziona un modello"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -147,12 +142,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Effettua una prenotazione",
+      "nivel": 2,
+      "titulo": "Mantenere una 911: cosa cambia tra una Pre 74 e una 992",
       "parrafos": [
-        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+        "Una 911 del 1970 e una del 2023 condividono il nome e poco altro in officina. La raffreddata ad aria chiede registrazione delle valvole, tendicatena e un’occhiata ai prigionieri delle testate; la 996 e la 997.1 chiedono di sorvegliare l’IMS e il consumo d’olio; la 991 e la 992 sono auto da diagnosi, con PDK, sensori e aggiornamenti. Per questo la tariffa non è una sola: è una per generazione.",
+        "Ogni prezzo della tabella è chiuso, comprende ricambi e manodopera, ed è calcolato su ciò di cui quella generazione ha davvero bisogno, non su un modello comune. Se l’auto chiede di più, lo diciamo prima di toccarla."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlla il tagliando in una 911, oltre all’olio",
+      "parrafos": [],
+      "items": [
+        "Raffreddate ad aria: gioco valvole, tendicatena, perdite da coperchi e paraoli, e stato dei prigionieri delle testate sui 2.7.",
+        "996 e 997.1: <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, paraolio posteriore dell’albero motore, radiatori anteriori e consumo d’olio, con endoscopia se c’è il dubbio di <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>.",
+        "997.2, 991 e 992: tagliando del PDK, codici memorizzati, aggiornamenti software e stato dei turbo su 991.2 e 992.",
+        "Su tutte: freni, liquido freni, assetto e pneumatici, che in una 911 si consumano in modo molto diverso davanti e dietro.",
+        "Storia: cosa è stato fatto, quando e con quali ricambi. Lo annotiamo e glielo consegniamo."
+      ],
       "imagenes": []
     }
   ],
@@ -161,8 +170,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 83,
-    "total": 83,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

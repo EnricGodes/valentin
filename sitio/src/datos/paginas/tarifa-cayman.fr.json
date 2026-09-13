@@ -52,12 +52,7 @@
     {
       "nivel": 1,
       "titulo": "entretien pour les modèles Cayman et Boxster",
-      "parrafos": [
-        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience en matière de travail, de service et de diagnostic des pannes.",
-        "L'équipe peut vous conseiller sur les meilleures actions de entretien. Les techniciens de Valentín Motors peuvent fournir des solutions bien conçues qui résoudront le problème.<br/><br/>",
-        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être récupéré.",
-        "Sélectionnez un modèle"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -67,12 +62,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Faire une réservation",
+      "nivel": 2,
+      "titulo": "Entretenir un Boxster ou un Cayman : moteur central, mêmes règles que la 911",
       "parrafos": [
-        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+        "Boxster et Cayman partagent moteur et une bonne part de la mécanique avec la 911 de leur époque, et donc les mêmes soins : IMS et joint de vilebrequin sur 986 et 987.1, bore scoring sur les 3.4 de première série, PDK à partir du 987.2, quatre cylindres turbo sur le 718. Ce qui change, c’est l’accès : le moteur est au milieu et la capote, sur le Boxster, est un élément de plus à contrôler.",
+        "Le tableau donne un prix ferme par génération, pièces et main-d’œuvre comprises. Sur un 986 de 25 ans et sur un 718 sous garantie, l’entretien se ressemble peu, et le prix le reflète."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que l’entretien contrôle sur un Boxster ou un Cayman",
+      "parrafos": [],
+      "items": [
+        "986 et 987.1 : <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, joint arrière de vilebrequin et fuites au séparateur air-huile.",
+        "Radiateurs et condenseurs derrière les entrées d’air avant : feuilles, corrosion et fuites. C’est là que ces voitures souffrent le plus.",
+        "Capote du Boxster : moteur, câbles et toile ; sur les 986, la lunette en plastique.",
+        "987.2, 981 et 718 : entretien du PDK, codes mémorisés et, sur les 718, pression de suralimentation du turbo.",
+        "Freins, liquide de frein, géométrie et pneus, avec l’usure typique du moteur central."
+      ],
       "imagenes": []
     }
   ],
@@ -81,8 +90,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 27,
-    "total": 27,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

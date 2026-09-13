@@ -94,11 +94,7 @@
     {
       "nivel": 1,
       "titulo": "manutenzione per i modelli Turbo",
-      "parrafos": [
-        "Nessuna auto è affidabile al 100 % e, in base alla nostra esperienza lavorativa, l'assistenza e la diagnosi dei guasti sono fondamentali per individuare chiaramente il guasto e la sua origine.",
-        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo verrà disinfettato e pulito, pronto per la consegna.",
-        "Seleziona un modello"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,12 +104,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Effettua una prenotazione",
+      "nivel": 2,
+      "titulo": "Mantenere una 911 Turbo: dalla 930 alla 992, comanda la sovralimentazione",
       "parrafos": [
-        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+        "In una Turbo tutto gira intorno al turbo: la pressione di sovralimentazione, l’intercooler, il raffreddamento del turbo stesso e l’olio che lo lubrifica, che lavora a temperature più alte che in un aspirato. Una 930 con un turbo stanco e una 992 con un attuatore della wastegate fuori tolleranza sono problemi diversi con la stessa radice: nessuno ha guardato il sistema di sovralimentazione al tagliando.",
+        "La tabella copre dieci generazioni, dalla 930 a quattro marce alla 992 Turbo con PDK, a prezzo chiuso, ricambi e manodopera compresi. La Turbo condivide la carrozzeria con la Carrera e quasi nient’altro, e la tariffa ne tiene conto."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlla il tagliando in una 911 Turbo",
+      "parrafos": [],
+      "items": [
+        "Turbo, wastegate e valvole di sfiato: pressione di sovralimentazione, gioco dell’albero e perdite d’olio. Sulle 930, anche l’intercooler e i suoi manicotti.",
+        "Olio e filtro con olio adatto alla temperatura del turbo, e raffreddamento: radiatori, pompa e termostato, che in una Turbo lavorano di più.",
+        "Frizione e cambio, manuale o PDK, e trazione integrale dalla 993: ripartitore, albero di trasmissione e differenziale anteriore.",
+        "Freni: le Turbo montano i freni più grandi della loro generazione e li consumano al loro ritmo. Liquido freni compreso.",
+        "Assetto e pneumatici: misure larghe e usura rapida dietro, e sulle 930, verifica che la geometria non si sia mossa."
+      ],
       "imagenes": []
     }
   ],
@@ -122,8 +132,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 39,
-    "total": 39,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

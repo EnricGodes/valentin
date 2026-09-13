@@ -47,6 +47,11 @@ const familias = tarifas.familias.filter((f) => modelos.some((m) => m.familia ==
    de un golpe y "1093" hay que contarlo. */
 const euros = (n: number) => n.toLocaleString('es-ES').replace(/^(\d)(\d{3})$/, '$1.$2');
 
+/* En la pagina de una familia no hay columna de familias: los modelos van a la
+   izquierda y la tabla de precios a la derecha, dentro del mismo marco. En el
+   indice, con las dos listas arriba, la tabla va debajo a todo el ancho. Lo
+   decide el CSS con la clase `tarifas--familia`. */
+const enFamilia = familias.length === 1;
 const primero = modelos[0];
 const datos = modelos.map((m) => ({
   id: m.id,
@@ -54,7 +59,7 @@ const datos = modelos.map((m) => ({
   s: m.servicios.map((s) => [s.concepto, s.detalle, euros(s.euros), s.desde ? 1 : 0]),
 }));
 ---
-<section class="tarifas ancha" data-tarifas>
+<section class:list={['tarifas', 'ancha', enFamilia && 'tarifas--familia']} data-tarifas>
   <div class="tarifas-columnas">
     {familias.length > 1 && (
       <div class="tarifas-col">
@@ -86,20 +91,24 @@ const datos = modelos.map((m) => ({
         ))}
       </ul>
     </div>
-  </div>
 
-  {/* El primero pintado: es lo que se ve al llegar y lo que queda sin
-      JavaScript. Los demas los monta el script con los mismos datos. */}
-  <div class="tarifas-panel" data-tarifas-panel aria-live="polite">
-    <h3 class="tarifas-panel-titulo">{primero.nombre}</h3>
-    <dl class="tarifas-tabla">
-      {primero.servicios.map((s) => (
-        <div class="tarifas-fila">
-          <dt>{s.concepto}{s.detalle && <span class="tarifas-detalle">{s.detalle}</span>}</dt>
-          <dd>{s.desde && <span class="tarifas-desde">desde</span>}{euros(s.euros)} €</dd>
-        </div>
-      ))}
-    </dl>
+    {/* El primero pintado: es lo que se ve al llegar y lo que queda sin
+        JavaScript. Los demas los monta el script con los mismos datos. Vive
+        dentro del marco: en el indice ocupa la fila de abajo entera, en la
+        pagina de una familia la columna derecha, al lado de sus modelos. */}
+    <div class="tarifas-col tarifas-col--panel">
+      <div class="tarifas-panel" data-tarifas-panel aria-live="polite">
+        <h3 class="tarifas-panel-titulo">{primero.nombre}</h3>
+        <dl class="tarifas-tabla">
+          {primero.servicios.map((s) => (
+            <div class="tarifas-fila">
+              <dt>{s.concepto}{s.detalle && <span class="tarifas-detalle">{s.detalle}</span>}</dt>
+              <dd>{s.desde && <span class="tarifas-desde">desde</span>}{euros(s.euros)} €</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+    </div>
   </div>
 
   <p class="tarifas-nota">{textos.nota}</p>
@@ -107,8 +116,9 @@ const datos = modelos.map((m) => ({
     {familias.length > 1
       ? familias.map((f, i) => (
           <a class="enlace-mono" data-tarifas-enlace data-de={f.id} hidden={i > 0}
-             href={enlaceA(f.rutaId).href} lang={enlaceA(f.rutaId).lang} hreflang={enlaceA(f.rutaId).lang}>
-            {t('tarifas.verFamilia').replace('{fam}', f.nombre)} &rarr;
+             data-base={enlaceA(f.rutaId).href} href={`${enlaceA(f.rutaId).href}#modelo=${modelos.find((m) => m.familia === f.id)?.id}`}
+             lang={enlaceA(f.rutaId).lang} hreflang={enlaceA(f.rutaId).lang}>
+            {t('tarifas.verFamilia')} &rarr;
           </a>
         ))
       : <a class="enlace-mono" href={enlaceA('taller-tarifas').href}

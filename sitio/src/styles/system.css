@@ -2126,12 +2126,18 @@ section { position: relative; }
 .tarifas-opcion:focus-visible { outline: 2px solid var(--bronce); outline-offset: -2px; }
 .tarifas-cuenta { font-size: 11px; color: var(--concreto); }
 
-.tarifas-panel { margin-top: 40px; }
+.tarifas-panel { margin-top: 0; }
+/* La tabla dentro del marco: en el indice, la fila de abajo entera; en la
+   pagina de una familia, la columna derecha junto a sus modelos. */
+.tarifas-col--panel { grid-column: 1 / -1; padding: 32px 28px 28px; }
+.tarifas--familia .tarifas-columnas { grid-template-columns: minmax(220px, 1fr) 2fr; }
+.tarifas--familia .tarifas-col--panel { grid-column: auto; }
+.tarifas--familia .tarifas-lista { max-height: none; }
 .tarifas-panel-titulo {
   font-family: var(--serif); font-size: clamp(24px, 3vw, 34px); font-weight: 400;
   color: var(--blanco); letter-spacing: -0.02em;
 }
-.tarifas-tabla { margin-top: 24px; border-top: 1px solid var(--linea); }
+.tarifas-tabla { margin-top: 20px; border-top: 1px solid var(--linea); }
 .tarifas-fila {
   display: flex; justify-content: space-between; align-items: baseline; gap: 32px;
   padding: 18px 0; border-bottom: 1px solid var(--linea);
@@ -2157,8 +2163,9 @@ section { position: relative; }
 
 @media (max-width: 700px) {
   /* Una encima de otra: dos columnas de 160 px no son dos columnas. */
-  .tarifas-columnas { grid-template-columns: 1fr; }
-  .tarifas-lista { max-height: 220px; }
+  .tarifas-columnas, .tarifas--familia .tarifas-columnas { grid-template-columns: 1fr; }
+  .tarifas-lista, .tarifas--familia .tarifas-lista { max-height: 220px; }
+  .tarifas-col--panel { padding: 24px 18px; }
   .tarifas-fila { flex-direction: column; gap: 6px; }
   .tarifas-fila dd { align-self: flex-start; }
 }

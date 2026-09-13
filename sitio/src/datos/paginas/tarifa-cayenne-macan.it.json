@@ -92,12 +92,7 @@
     {
       "nivel": 1,
       "titulo": "manutenzione per i modelli Cayenne e Macan",
-      "parrafos": [
-        "Nessuna auto è affidabile al 100 % e, in base alla nostra esperienza di lavoro, l'assistenza e la diagnosi dei guasti sono la chiave del processo.",
-        "I tecnici di Valentín Motors possono fornire soluzioni ben progettate che risolveranno il problema.<br/><br/>",
-        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo sarà disinfettato e pulito, pronto per il ritiro.",
-        "Seleziona un modello"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,11 +103,25 @@
     },
     {
       "nivel": 2,
-      "titulo": "Effettua una prenotazione",
+      "titulo": "Mantenere una Cayenne o una Macan: la Porsche che fa più chilometri",
       "parrafos": [
-        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+        "Una Cayenne o una Macan fa in un anno i chilometri che una 911 fa in cinque, e la manutenzione deve seguire quel ritmo: olio e filtri a intervallo, ripartitore e differenziali, sospensioni pneumatiche, freni che lavorano con due tonnellate e, sui diesel, iniettori e filtro antiparticolato. È la Porsche più usata e quella meno portata dallo specialista, e si vede.",
+        "La tabella raccoglie le versioni che entrano più spesso in officina, a prezzo chiuso, ricambi e manodopera compresi. Se la sua non compare, la preventiviamo sull’auto in giornata."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlla il tagliando in una Cayenne o Macan",
+      "parrafos": [],
+      "items": [
+        "Olio, filtri, candele e, secondo il motore, cinghia o catena di distribuzione, al loro intervallo e non a quello di un’auto piccola.",
+        "Ripartitore e differenziali: rumori, perdite e stato dell’olio. Sulle prime Macan, campagna del ripartitore.",
+        "Sospensioni pneumatiche se montate: perdite, compressore e ammortizzatori. Silentblock e snodi, che portano il peso.",
+        "Diesel: iniettori, EGR e filtro antiparticolato. Ibride: batteria e sistema ad alta tensione.",
+        "Freni, liquido freni, assetto e pneumatici, che su un SUV di due tonnellate finiscono prima di quanto sembri."
+      ],
       "imagenes": []
     }
   ],
@@ -121,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

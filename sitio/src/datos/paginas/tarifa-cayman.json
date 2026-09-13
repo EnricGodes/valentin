@@ -52,12 +52,7 @@
     {
       "nivel": 1,
       "titulo": "Precios de mantenimiento para los modelos Cayman y Boxster",
-      "parrafos": [
-        "Ningún automóvil es 100 % fiable y, a partir de nuestra experiencia de trabajo, servicio y diagnóstico de fallos.",
-        "El equipo puede asesorarte sobre las mejores acciones de mantenimiento preventivo. Los técnicos de Valentín Motors pueden ofrecer soluciones bien diseñadas para resolver el problema.<br/><br/>",
-        "Los precios no incluyen el IVA, pero sí las piezas y la mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y por artículos varios. Su vehículo se desinfectará y limpiará antes de la recogida.",
-        "Selecciona un modelo"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -67,12 +62,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Haz una reserva",
+      "nivel": 2,
+      "titulo": "Mantener un Boxster o un Cayman: motor central, mismas reglas que el 911",
       "parrafos": [
-        "Déjanos los datos de tu modelo y el tipo de servicio que necesitas. Nuestro equipo contactará contigo para confirmar la cita."
+        "Boxster y Cayman comparten motor y buena parte de la mecánica con el 911 de su época, y por tanto sus mismos cuidados: IMS y retén de cigüeñal en 986 y 987.1, bore scoring en los 3.4 de la primera serie, PDK desde el 987.2, turbo de cuatro cilindros en el 718. Lo que cambia es el acceso: el motor está en medio y la capota, en el Boxster, es un elemento más a revisar.",
+        "La tabla da un precio cerrado por generación, con piezas y mano de obra. En un 986 de 25 años y en un 718 con garantía el servicio se parece poco, y el precio lo refleja."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué mira el servicio en un Boxster o Cayman",
+      "parrafos": [],
+      "items": [
+        "986 y 987.1: <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, retén trasero de cigüeñal y fugas por el separador aire-aceite.",
+        "Radiadores y condensadores tras las tomas frontales: hojas, corrosión y fugas. Es donde más sufren estos coches.",
+        "Capota del Boxster: motor, cables y lona; en los 986, la luneta de plástico.",
+        "987.2, 981 y 718: servicio de PDK, códigos memorizados y, en los 718, presión de soplado del turbo.",
+        "Frenos, líquido de frenos, alineado y neumáticos, con el desgaste típico del motor central."
+      ],
       "imagenes": []
     }
   ],

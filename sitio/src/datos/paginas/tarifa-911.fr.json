@@ -132,12 +132,7 @@
     {
       "nivel": 1,
       "titulo": "entretien pour les modèles Porsche 911",
-      "parrafos": [
-        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience de travail et de service, basée sur un dévouement maximal au processus de diagnostic comme clé pour identifier le ou les problèmes qui empêchent le fonctionnement efficace du composant.",
-        "Chez Valentin le diagnostic est la clé.<br/><br/>",
-        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être récupéré.",
-        "Sélectionnez un modèle"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -147,12 +142,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Faire une réservation",
+      "nivel": 2,
+      "titulo": "Entretenir une 911 : ce qui change entre une Pre 74 et une 992",
       "parrafos": [
-        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+        "Une 911 de 1970 et une de 2023 partagent un nom et pas grand-chose d’autre à l’atelier. La refroidie par air demande un réglage des soupapes, des tendeurs de chaîne et un regard sur les goujons de culasse ; la 996 et la 997.1 demandent de surveiller l’IMS et la consommation d’huile ; la 991 et la 992 sont des voitures de diagnostic, avec PDK, capteurs et mises à jour. C’est pourquoi il n’y a pas un tarif mais un par génération.",
+        "Chaque prix du tableau est ferme, comprend pièces et main-d’œuvre, et a été calculé sur ce dont cette génération a réellement besoin, pas sur un modèle commun. Si la voiture demande davantage, nous le disons avant d’y toucher."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que l’entretien contrôle sur une 911, au-delà de l’huile",
+      "parrafos": [],
+      "items": [
+        "Refroidies par air : jeux aux soupapes, tendeurs de chaîne, fuites aux couvre-culasses et joints, et état des goujons de culasse sur les 2.7.",
+        "996 et 997.1 : <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, joint arrière de vilebrequin, radiateurs avant et consommation d’huile, avec endoscopie en cas de doute de <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>.",
+        "997.2, 991 et 992 : entretien du PDK, codes mémorisés, mises à jour logicielles et état des turbos sur les 991.2 et 992.",
+        "Sur toutes : freins, liquide de frein, géométrie et pneus, qui sur une 911 s’usent très différemment à l’avant et à l’arrière.",
+        "Historique : ce qui a été fait, quand et avec quelles pièces. Nous le notons et vous le remettons."
+      ],
       "imagenes": []
     }
   ],
@@ -161,8 +170,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 83,
-    "total": 83,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

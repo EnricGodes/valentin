@@ -92,12 +92,7 @@
     {
       "nivel": 1,
       "titulo": "Wartung für die Modelle Cayenne und Macan",
-      "parrafos": [
-        "Kein Auto ist 100 % zuverlässig und aufgrund unserer Arbeitserfahrung sind Service und Fehlerdiagnose der Schlüssel zum Prozess.",
-        "Die Techniker von Valentín Motors können durchdachte Lösungen anbieten, die das Problem lösen.<br/><br/>",
-        "Die Preise unterliegen der Mehrwertsteuer, beinhalten jedoch Teile und Arbeit. Die Preise für Porsche-Teile können ohne vorherige Ankündigung geändert werden. Jeder Rechnung wird eine Gebühr für Umwelt- und sonstige Artikel hinzugefügt. Ihr Fahrzeug wird desinfiziert und gereinigt und steht zur Abholung bereit.",
-        "Wählen Sie ein Modell aus"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,11 +103,25 @@
     },
     {
       "nivel": 2,
-      "titulo": "Machen Sie eine Reservierung",
+      "titulo": "Cayenne oder Macan warten: der Porsche mit den meisten Kilometern",
       "parrafos": [
-        "Hinterlassen Sie uns die Informationen zu Ihrem Modell und der Art der gewünschten Dienstleistung und unser Team wird sich mit Ihnen in Verbindung setzen, um den Termin zu bestätigen"
+        "Ein Cayenne oder Macan fährt in einem Jahr die Kilometer, die ein 911 in fünf fährt, und die Wartung muss dieses Tempo halten: Öl und Filter nach Intervall, Verteilergetriebe und Differenziale, Luftfederung, Bremsen, die mit zwei Tonnen arbeiten, und beim Diesel Injektoren und Partikelfilter. Es ist der meistgenutzte Porsche und der, der am seltensten zum Spezialisten kommt, und man sieht es.",
+        "Die Tabelle enthält die Versionen, die am häufigsten in die Werkstatt kommen, zum Festpreis mit Teilen und Arbeit. Fehlt Ihre, kalkulieren wir sie am Fahrzeug noch am selben Tag."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was die Inspektion an einem Cayenne oder Macan prüft",
+      "parrafos": [],
+      "items": [
+        "Öl, Filter, Zündkerzen und je nach Motor Zahnriemen oder Steuerkette, nach ihrem Intervall und nicht dem eines Kleinwagens.",
+        "Verteilergetriebe und Differenziale: Geräusche, Undichtigkeiten und Ölzustand. Bei frühen Macan die Serviceaktion am Verteilergetriebe.",
+        "Luftfederung, falls verbaut: Undichtigkeiten, Kompressor und Stoßdämpfer. Buchsen und Kugelgelenke, die das Gewicht tragen.",
+        "Diesel: Injektoren, AGR und Partikelfilter. Hybride: Batterie und Hochvoltsystem.",
+        "Bremsen, Bremsflüssigkeit, Achsvermessung und Reifen, die an einem Zwei-Tonnen-SUV schneller aufgebraucht sind, als es scheint."
+      ],
       "imagenes": []
     }
   ],
@@ -121,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

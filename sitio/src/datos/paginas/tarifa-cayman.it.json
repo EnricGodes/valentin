@@ -52,12 +52,7 @@
     {
       "nivel": 1,
       "titulo": "manutenzione per i modelli Cayman e Boxster",
-      "parrafos": [
-        "Nessuna auto è affidabile al 100 % e, in base alla nostra esperienza di lavoro, assistenza e diagnosi dei guasti.",
-        "Il team può consigliarLa sulle migliori azioni di manutenzione. I tecnici di Valentín Motors possono fornire soluzioni ben progettate che risolveranno il problema.<br/><br/>",
-        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo sarà disinfettato e pulito, pronto per il ritiro.",
-        "Seleziona un modello"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -67,12 +62,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Effettua una prenotazione",
+      "nivel": 2,
+      "titulo": "Mantenere una Boxster o una Cayman: motore centrale, stesse regole della 911",
       "parrafos": [
-        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+        "Boxster e Cayman condividono motore e buona parte della meccanica con la 911 della loro epoca, e quindi le stesse attenzioni: IMS e paraolio dell’albero motore su 986 e 987.1, bore scoring sui 3.4 di prima serie, PDK dalla 987.2, quattro cilindri turbo sulla 718. Cambia l’accesso: il motore sta in mezzo e la capote, sulla Boxster, è un elemento in più da controllare.",
+        "La tabella dà un prezzo chiuso per generazione, ricambi e manodopera compresi. Su una 986 di 25 anni e su una 718 in garanzia il tagliando si somiglia poco, e il prezzo lo riflette."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlla il tagliando in una Boxster o Cayman",
+      "parrafos": [],
+      "items": [
+        "986 e 987.1: <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, paraolio posteriore dell’albero motore e perdite dal separatore aria-olio.",
+        "Radiatori e condensatori dietro le prese anteriori: foglie, corrosione e perdite. È dove queste auto soffrono di più.",
+        "Capote della Boxster: motore, cavi e tela; sulle 986, il lunotto in plastica.",
+        "987.2, 981 e 718: tagliando del PDK, codici memorizzati e, sulle 718, pressione di sovralimentazione del turbo.",
+        "Freni, liquido freni, assetto e pneumatici, con l’usura tipica del motore centrale."
+      ],
       "imagenes": []
     }
   ],
@@ -81,8 +90,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 27,
-    "total": 27,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

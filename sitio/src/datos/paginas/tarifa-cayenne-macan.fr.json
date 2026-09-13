@@ -92,12 +92,7 @@
     {
       "nivel": 1,
       "titulo": "entretien pour les modèles Cayenne et Macan",
-      "parrafos": [
-        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience du travail, le service et le diagnostic des pannes sont la clé du processus.",
-        "Les techniciens de Valentín Motors peuvent fournir des solutions bien conçues qui résoudront le problème.<br/><br/>",
-        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être récupéré.",
-        "Sélectionnez un modèle"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,11 +103,25 @@
     },
     {
       "nivel": 2,
-      "titulo": "Faire une réservation",
+      "titulo": "Entretenir un Cayenne ou un Macan : la Porsche qui roule le plus",
       "parrafos": [
-        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+        "Un Cayenne ou un Macan parcourt en un an les kilomètres qu’une 911 fait en cinq, et l’entretien doit suivre ce rythme : huile et filtres aux intervalles, boîte de transfert et différentiels, suspension pneumatique, freins qui travaillent avec deux tonnes et, sur les diesels, injecteurs et filtre à particules. C’est la Porsche la plus utilisée et la moins confiée au spécialiste, et cela se voit.",
+        "Le tableau reprend les versions qui entrent le plus souvent à l’atelier, à prix ferme, pièces et main-d’œuvre comprises. Si la vôtre n’y figure pas, nous la chiffrons sur la voiture le jour même."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que l’entretien contrôle sur un Cayenne ou un Macan",
+      "parrafos": [],
+      "items": [
+        "Huile, filtres, bougies et, selon le moteur, courroie ou chaîne de distribution, à leur intervalle et non à celui d’une petite voiture.",
+        "Boîte de transfert et différentiels : bruits, fuites et état de l’huile. Sur les premiers Macan, campagne de la boîte de transfert.",
+        "Suspension pneumatique si montée : fuites, compresseur et amortisseurs. Silentblocs et rotules, qui portent le poids.",
+        "Diesel : injecteurs, EGR et filtre à particules. Hybrides : batterie et système haute tension.",
+        "Freins, liquide de frein, géométrie et pneus, qui sur un SUV de deux tonnes s’épuisent plus vite qu’il n’y paraît."
+      ],
       "imagenes": []
     }
   ],
@@ -121,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

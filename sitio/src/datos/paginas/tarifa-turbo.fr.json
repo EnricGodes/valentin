@@ -94,11 +94,7 @@
     {
       "nivel": 1,
       "titulo": "entretien pour les modèles Turbo",
-      "parrafos": [
-        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience professionnelle, le service et le diagnostic des pannes sont la clé du processus de localisation claire du défaut et de son origine.",
-        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être livré.",
-        "Sélectionnez un modèle"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,12 +104,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Faire une réservation",
+      "nivel": 2,
+      "titulo": "Entretenir une 911 Turbo : de la 930 à la 992, la suralimentation commande",
       "parrafos": [
-        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+        "Sur une Turbo, tout tourne autour du turbo : la pression de suralimentation, l’intercooler, le refroidissement du turbo lui-même et l’huile qui le lubrifie, qui travaille plus chaud que sur une atmosphérique. Une 930 au turbo fatigué et une 992 avec un actionneur de wastegate hors tolérance sont des problèmes différents avec la même origine : personne n’a regardé le système de suralimentation à l’entretien.",
+        "Le tableau couvre dix générations, de la 930 à quatre rapports à la 992 Turbo à PDK, à prix ferme, pièces et main-d’œuvre comprises. La Turbo partage sa carrosserie avec la Carrera et presque rien d’autre, et le tarif en tient compte."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que l’entretien contrôle sur une 911 Turbo",
+      "parrafos": [],
+      "items": [
+        "Turbo, wastegate et soupapes de décharge : pression de suralimentation, jeu de l’axe et fuites d’huile. Sur les 930, aussi l’intercooler et ses durites.",
+        "Huile et filtre avec une huile adaptée à la température du turbo, et refroidissement : radiateurs, pompe et thermostat, qui travaillent plus sur une Turbo.",
+        "Embrayage et boîte, manuelle ou PDK, et transmission intégrale à partir de la 993 : boîte de transfert, arbre et différentiel avant.",
+        "Freins : les Turbo ont les plus gros freins de leur génération et les usent à leur rythme. Liquide de frein compris.",
+        "Géométrie et pneus : dimensions larges et usure rapide à l’arrière, et sur les 930, vérification que la géométrie n’a pas bougé."
+      ],
       "imagenes": []
     }
   ],
@@ -122,8 +132,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 39,
-    "total": 39,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

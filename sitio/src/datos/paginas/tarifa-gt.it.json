@@ -180,11 +180,7 @@
     {
       "nivel": 1,
       "titulo": "manutenzione per i modelli GT",
-      "parrafos": [
-        "Nessuna auto è affidabile al 100 % e, in base alla nostra esperienza lavorativa, l'assistenza e la diagnosi sono la chiave del processo per guidarci verso un lavoro di successo.",
-        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo verrà disinfettato e pulito, pronto per la consegna.",
-        "Seleziona un modello"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -194,12 +190,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Effettua una prenotazione",
+      "nivel": 2,
+      "titulo": "Mantenere una GT3, una GT2 o una GT4: motori da corsa con la targa",
       "parrafos": [
-        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+        "Le GT montano motori che il resto della gamma non condivide: il Mezger su 996 e 997, il 4.0 aspirato su 991 e 992, il 3.8 e il 4.0 della Cayman GT4. Girano più in alto, portano più olio, vanno in pista, e la loro manutenzione somiglia più a quella di un’auto da corsa che a quella di una Carrera: intervalli più brevi, freni e pneumatici come consumabili, assetto controllato dopo ogni track day.",
+        "Per questo il tagliando di una GT costa più di quello di una 911 dello stesso anno, e per questo lo facciamo con le stesse persone che preparano le nostre auto da competizione. Prezzo chiuso per modello, ventuno versioni, dalla 996 GT3 alla 718 Cayman GT4 RS."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlla il tagliando in una GT",
+      "parrafos": [],
+      "items": [
+        "Olio e filtro a intervallo breve, con analisi dell’olio se l’auto va in pista, e livello del refrigerante sui Mezger.",
+        "Freni: dischi, pastiglie e, sui PCCB, misura dell’usura a peso. Liquido freni ad alta temperatura.",
+        "Assetto e convergenza da pista o da strada, secondo l’uso, e stato di bracci e snodi Uniball.",
+        "Frizione e cambio, manuale o PDK, e sulle GT2 turbo, intercooler e pressione di sovralimentazione.",
+        "Storia d’uso: track day, sostituzioni di consumabili e componenti cambiati. In una GT vale quanto il chilometraggio."
+      ],
       "imagenes": []
     }
   ],
@@ -208,8 +218,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 70,
-    "total": 70,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

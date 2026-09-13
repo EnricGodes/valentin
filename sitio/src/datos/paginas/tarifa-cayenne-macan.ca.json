@@ -92,12 +92,7 @@
     {
       "nivel": 1,
       "titulo": "Preus de manteniment per als models Cayenne i Macan",
-      "parrafos": [
-        "Cap automòbil és 100 % fiable i, a partir de la nostra experiència de treball, servei i diagnòstic de fallades com a clau del procés.",
-        "Els tècnics de Valentín Motors poden proporcionar solucions ben dissenyades que solucionaran el problema.<br/><br/>",
-        "Els preus estan subjectes a IVA, però inclouen peces i mà d'obra. Els preus de les peces de Porsche estan subjectes a canvis sense avís previ. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos. El seu vehicle es desinfectarà i netejarà, llest per a la recol·lecció.",
-        "Selecciona un model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,11 +103,25 @@
     },
     {
       "nivel": 2,
-      "titulo": "Fes una reserva",
+      "titulo": "Mantenir un Cayenne o un Macan: el Porsche que més quilòmetres fa",
       "parrafos": [
-        "Deixa'ns les dades del teu model, tipus de servei que requereixes i el nostre equip contactarà amb tu per confirmar la cita"
+        "Un Cayenne o un Macan fa en un any els quilòmetres que un 911 fa en cinc, i el manteniment ha d’anar a aquest ritme: oli i filtres a interval, transfer i diferencials, suspensió pneumàtica, frens que treballen amb dues tones i, als dièsel, injectors i filtre de partícules. És el Porsche que més es fa servir i el que menys es porta a l’especialista, i es nota.",
+        "La taula recull les versions que més entren al taller, amb preu tancat, peces i mà d’obra. Si la teva versió no hi apareix, la pressupostem sobre el cotxe el mateix dia."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què mira el servei en un Cayenne o Macan",
+      "parrafos": [],
+      "items": [
+        "Oli, filtres, bugies i, segons motor, corretja o cadena de distribució, al seu interval i no al d’un cotxe petit.",
+        "Transfer i diferencials: sorolls, fuites i estat de l’oli. Als primers Macan, campanya del transfer.",
+        "Suspensió pneumàtica si la munta: fuites, compressor i amortidors. Silentblocks i ròtules, que carreguen el pes.",
+        "Dièsel: injectors, EGR i filtre de partícules. Híbrids: bateria i sistema d’alta tensió.",
+        "Frens, líquid de frens, alineació i pneumàtics, que en un totcamí de dues tones s’esgoten abans del que sembla."
+      ],
       "imagenes": []
     }
   ],
@@ -121,8 +130,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 43,
-    "total": 43,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

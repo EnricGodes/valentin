@@ -180,11 +180,7 @@
     {
       "nivel": 1,
       "titulo": "servicing for GT models",
-      "parrafos": [
-        "No car is 100 % reliable and, based on our work experience, service and diagnosis as a key to the process to guide us towards successful work.",
-        "Prices are subject to VAT but include parts and labor. Prices for Porsche parts are subject to change without notice. An environmental and miscellaneous item charge is added to each invoice. Your vehicle will be disinfected and cleaned, ready for delivery.",
-        "Select a model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -194,12 +190,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Make a reservation",
+      "nivel": 2,
+      "titulo": "Maintaining a GT3, GT2 or GT4: racing engines with a number plate",
       "parrafos": [
-        "Leave us the information of your model, type of service you require and our team will contact you to confirm the appointment"
+        "GT cars carry engines the rest of the range does not share: the Mezger in the 996 and 997, the naturally aspirated 4.0 in the 991 and 992, the 3.8 and 4.0 of the Cayman GT4. They rev higher, carry more oil, get used on track, and their maintenance is closer to a racing car's than to a Carrera's: shorter intervals, brakes and tyres as consumables, geometry checked after every track day.",
+        "That is why servicing a GT costs more than a 911 of the same year, and why we do it with the same people who prepare our racing cars. Fixed price per model, twenty-one versions, from the 996 GT3 to the 718 Cayman GT4 RS."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What the service checks on a GT",
+      "parrafos": [],
+      "items": [
+        "Oil and filter at short intervals, with oil analysis if the car sees track use, and coolant level on the Mezgers.",
+        "Brakes: discs, pads and, on PCCB, wear measured by weight. High-temperature brake fluid.",
+        "Track or road geometry and alignment, depending on use, and condition of arms and Uniball joints.",
+        "Clutch and gearbox, manual or PDK, and on the GT2 the turbos, intercooler and boost pressure.",
+        "Usage history: track days, consumable changes and replaced components. On a GT it is worth as much as the mileage."
+      ],
       "imagenes": []
     }
   ],
@@ -208,8 +218,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 70,
-    "total": 70,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

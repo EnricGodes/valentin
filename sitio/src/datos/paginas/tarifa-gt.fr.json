@@ -180,11 +180,7 @@
     {
       "nivel": 1,
       "titulo": "entretien pour les modèles GT",
-      "parrafos": [
-        "Aucune voiture n'est 100 % fiable et, sur la base de notre expérience professionnelle, le service et le diagnostic sont la clé du processus pour nous guider vers un travail réussi.",
-        "Les prix sont soumis à la TVA mais comprennent les pièces et la main d'œuvre. Les prix des pièces Porsche sont sujets à changement sans préavis. Des frais environnementaux et divers sont ajoutés à chaque facture. Votre véhicule sera désinfecté et nettoyé, prêt à être livré.",
-        "Sélectionnez un modèle"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -194,12 +190,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Faire une réservation",
+      "nivel": 2,
+      "titulo": "Entretenir une GT3, une GT2 ou une GT4 : des moteurs de compétition immatriculés",
       "parrafos": [
-        "Laissez-nous les informations de votre modèle, le type de service dont vous avez besoin et notre équipe vous contactera pour confirmer le rendez-vous"
+        "Les GT ont des moteurs que le reste de la gamme ne partage pas : le Mezger sur 996 et 997, le 4.0 atmosphérique sur 991 et 992, le 3.8 et le 4.0 du Cayman GT4. Ils montent plus haut dans les tours, contiennent plus d’huile, roulent sur circuit, et leur entretien ressemble plus à celui d’une voiture de course qu’à celui d’une Carrera : intervalles plus courts, freins et pneus comme consommables, géométrie contrôlée après chaque track day.",
+        "C’est pourquoi l’entretien d’une GT coûte plus cher que celui d’une 911 de la même année, et pourquoi nous le confions aux mêmes personnes qui préparent nos voitures de compétition. Prix ferme par modèle, vingt et une versions, de la 996 GT3 à la 718 Cayman GT4 RS."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que l’entretien contrôle sur une GT",
+      "parrafos": [],
+      "items": [
+        "Huile et filtre à intervalle court, avec analyse d’huile si la voiture roule sur circuit, et niveau de liquide de refroidissement sur les Mezger.",
+        "Freins : disques, plaquettes et, sur les PCCB, mesure de l’usure au poids. Liquide de frein haute température.",
+        "Géométrie et parallélisme circuit ou route, selon l’usage, et état des bras et rotules Uniball.",
+        "Embrayage et boîte, manuelle ou PDK, et sur les GT2 turbos, intercooler et pression de suralimentation.",
+        "Historique d’utilisation : track days, remplacements de consommables et composants changés. Sur une GT, cela vaut autant que le kilométrage."
+      ],
       "imagenes": []
     }
   ],
@@ -208,8 +218,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 70,
-    "total": 70,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

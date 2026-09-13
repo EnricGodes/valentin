@@ -46,11 +46,7 @@
     {
       "nivel": 1,
       "titulo": "Preus de manteniment per als models Transaxle",
-      "parrafos": [
-        "Cap automòbil és 100 % fiable i, a partir de la nostra experiència de treball, servei i diagnòstic de fallades centrades en un diagnòstic clar i efectiu com a clau de tot el procés de reparació.",
-        "Els preus estan subjectes a IVA, però inclouen peces i mà d'obra. Els preus de les peces de Porsche estan subjectes a canvis sense avís previ. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos. El seu vehicle es desinfectarà i netejarà, llest per al lliurament",
-        "Selecciona un model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -60,12 +56,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Fes una reserva",
+      "nivel": 2,
+      "titulo": "Mantenir un 924, 944, 968 o 928: corretges, tub de parell i poca cosa més",
       "parrafos": [
-        "Deixa'ns les dades del teu model, tipus de servei que requereixes i el nostre equip contactarà amb tu per confirmar la cita"
+        "Els transaxle tenen el motor davant, la caixa darrere i un tub de parell entre tots dos, i el seu manteniment es decideix en tres llocs: les corretges de distribució i d’eixos d’equilibratge, que es canvien cada quatre anys o 60.000 km amb bomba d’aigua i corrons; el tub de parell i els seus rodaments; i al 928, la corretja del V8, que si falla s’emporta el motor. Amb això al dia són dels Porsche més fiables que existeixen.",
+        "La taula dona preu tancat per a les quatre famílies, peces i mà d’obra incloses. Són cotxes amb trenta i quaranta anys en què el servei és també una inspecció: el que trobem, t’ho expliquem abans de tocar-ho."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què mira el servei en un transaxle",
+      "parrafos": [],
+      "items": [
+        "Corretges de distribució i d’equilibratge, tensors, corrons i bomba d’aigua: data i quilòmetres de l’últim canvi, i estat real de tot plegat.",
+        "Tub de parell i rodaments: sorolls i vibracions en accelerar i en retenir.",
+        "Embragatge i caixa posterior, manual o automàtica; al 928, a més, el canvi automàtic d’origen Mercedes.",
+        "Refrigeració i fuites: radiador, termòstat, junta de culata als 2.5 i 3.0, i retens de cigonyal i arbres.",
+        "Frens, líquid de frens, alineació i pneumàtics, i una mirada als passos de roda i baixos, que és on aquests cotxes s’oxiden."
+      ],
       "imagenes": []
     }
   ],
@@ -74,8 +84,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 21,
-    "total": 21,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

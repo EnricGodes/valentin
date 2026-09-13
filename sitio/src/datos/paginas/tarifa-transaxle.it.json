@@ -46,11 +46,7 @@
     {
       "nivel": 1,
       "titulo": "manutenzione per i modelli Transaxle",
-      "parrafos": [
-        "Nessuna auto è affidabile al 100 % e, sulla base della nostra esperienza lavorativa, l'assistenza e la diagnosi dei guasti si concentrano su una diagnosi chiara ed efficace come chiave dell'intero processo di riparazione.",
-        "I prezzi sono soggetti a IVA ma includono ricambi e manodopera. I prezzi dei ricambi Porsche sono soggetti a modifiche senza preavviso. A ciascuna fattura viene aggiunto un addebito per articoli ambientali e vari. Il Suo veicolo verrà disinfettato e pulito, pronto per la consegna",
-        "Seleziona un modello"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -60,12 +56,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Effettua una prenotazione",
+      "nivel": 2,
+      "titulo": "Mantenere una 924, 944, 968 o 928: cinghie, tubo di trasmissione e poco altro",
       "parrafos": [
-        "Ci lasci le informazioni del Suo modello, del tipo di servizio richiesto e il nostro team La contatterà per confermare l'appuntamento"
+        "Le transaxle hanno il motore davanti, il cambio dietro e un tubo di trasmissione tra i due, e la loro manutenzione si decide in tre punti: le cinghie di distribuzione e dei contralberi, da sostituire ogni quattro anni o 60.000 km con pompa dell’acqua e rulli; il tubo di trasmissione e i suoi cuscinetti; e sulla 928, la cinghia del V8, che se cede si porta via il motore. Con questo in ordine sono tra le Porsche più affidabili che esistano.",
+        "La tabella dà un prezzo chiuso per le quattro famiglie, ricambi e manodopera compresi. Sono auto di trenta e quarant’anni in cui il tagliando è anche un’ispezione: ciò che troviamo, glielo diciamo prima di toccarlo."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa controlla il tagliando in una transaxle",
+      "parrafos": [],
+      "items": [
+        "Cinghie di distribuzione e dei contralberi, tenditori, rulli e pompa dell’acqua: data e chilometri dell’ultima sostituzione, e stato reale di tutto.",
+        "Tubo di trasmissione e cuscinetti: rumori e vibrazioni in accelerazione e in rilascio.",
+        "Frizione e cambio posteriore, manuale o automatico; sulla 928, anche l’automatico di origine Mercedes.",
+        "Raffreddamento e perdite: radiatore, termostato, guarnizione della testata sui 2.5 e 3.0, e paraoli di albero motore e alberi a camme.",
+        "Freni, liquido freni, assetto e pneumatici, e un’occhiata a passaruota e sottoscocca, che è dove queste auto arrugginiscono."
+      ],
       "imagenes": []
     }
   ],
@@ -74,8 +84,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 21,
-    "total": 21,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

@@ -94,11 +94,7 @@
     {
       "nivel": 1,
       "titulo": "Preus de manteniment per als models Turbo",
-      "parrafos": [
-        "Cap automòbil no és 100 % fiable i, a partir de la nostra experiència de treball, servei i diagnòstic de fallades com a clau del procés de localització clara de l'avaria i del seu origen.",
-        "Els preus estan subjectes a IVA, però inclouen peces i mà d'obra. Els preus de les peces de Porsche estan subjectes a canvis sense avís previ. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos. El seu vehicle es desinfectarà i netejarà, llest per al lliurament.",
-        "Selecciona un model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,12 +104,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Fes una reserva",
+      "nivel": 2,
+      "titulo": "Mantenir un 911 Turbo: del 930 al 992, mana la sobrealimentació",
       "parrafos": [
-        "Deixa'ns les dades del teu model, tipus de servei que requereixes i el nostre equip contactarà amb tu per confirmar la cita"
+        "En un Turbo tot gira al voltant del turbo: la pressió de bufada, l’intercooler, la refrigeració del mateix turbo i l’oli que el lubrica, que treballa a més temperatura que en un atmosfèric. Un 930 amb un turbo cansat i un 992 amb un actuador de wastegate fora de tolerància són problemes diferents amb la mateixa arrel: ningú va mirar el sistema de sobrealimentació al servei.",
+        "La taula cobreix deu generacions, del 930 de quatre velocitats al 992 Turbo amb PDK, amb preu tancat, peces i mà d’obra. El Turbo comparteix carrosseria amb el Carrera i gairebé res més, i la tarifa ho té en compte."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què mira el servei en un 911 Turbo",
+      "parrafos": [],
+      "items": [
+        "Turbo, wastegate i vàlvules de descàrrega: pressió de bufada, folgances de l’eix i fuites d’oli. Als 930, a més, l’estat de l’intercooler i els seus maniguets.",
+        "Oli i filtre amb oli adequat a la temperatura del turbo, i refrigeració: radiadors, bomba i termòstat, que en un Turbo treballen més.",
+        "Embragatge i caixa, manual o PDK, i tracció total des del 993: transfer, cardan i diferencial davanter.",
+        "Frens: els Turbo porten els frens més grans de la seva generació i es gasten al seu ritme. Líquid de frens inclòs.",
+        "Alineació i pneumàtics: mides amples i desgast ràpid darrere, i als 930, comprovació que la geometria no s’ha mogut."
+      ],
       "imagenes": []
     }
   ],
@@ -122,8 +132,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 39,
-    "total": 39,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

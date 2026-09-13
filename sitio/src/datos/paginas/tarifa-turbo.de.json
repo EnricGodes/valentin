@@ -94,11 +94,7 @@
     {
       "nivel": 1,
       "titulo": "Wartung für Turbo-Modelle",
-      "parrafos": [
-        "Kein Auto ist 100 % zuverlässig und, basierend auf unserer Berufserfahrung, sind Service und Fehlerdiagnose der Schlüssel zur eindeutigen Lokalisierung des Fehlers und seiner Ursache.",
-        "Die Preise unterliegen der Mehrwertsteuer, beinhalten jedoch Teile und Arbeit. Die Preise für Porsche-Teile können ohne vorherige Ankündigung geändert werden. Jeder Rechnung wird eine Gebühr für Umwelt- und sonstige Artikel hinzugefügt. Ihr Fahrzeug wird desinfiziert und gereinigt und steht zur Auslieferung bereit.",
-        "Wählen Sie ein Modell aus"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,12 +104,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Machen Sie eine Reservierung",
+      "nivel": 2,
+      "titulo": "Einen 911 Turbo warten: vom 930 bis zum 992 bestimmt die Aufladung",
       "parrafos": [
-        "Hinterlassen Sie uns die Informationen zu Ihrem Modell und der Art der gewünschten Dienstleistung und unser Team wird sich mit Ihnen in Verbindung setzen, um den Termin zu bestätigen"
+        "Beim Turbo dreht sich alles um den Lader: Ladedruck, Ladeluftkühler, die Kühlung des Laders selbst und das Öl, das ihn schmiert und heißer arbeitet als beim Saugmotor. Ein 930 mit müdem Lader und ein 992 mit einem Wastegate-Steller außerhalb der Toleranz sind verschiedene Probleme mit derselben Wurzel: Bei der Inspektion hat niemand auf die Aufladung geschaut.",
+        "Die Tabelle deckt zehn Generationen ab, vom 930 mit vier Gängen bis zum 992 Turbo mit PDK, zum Festpreis mit Teilen und Arbeit. Der Turbo teilt mit dem Carrera die Karosserie und fast nichts sonst, und der Preis berücksichtigt das."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was die Inspektion an einem 911 Turbo prüft",
+      "parrafos": [],
+      "items": [
+        "Lader, Wastegate und Abblasventile: Ladedruck, Wellenspiel und Ölundichtigkeiten. Beim 930 zusätzlich Ladeluftkühler und Schläuche.",
+        "Öl und Filter mit einem für Turbotemperaturen geeigneten Öl, und Kühlung: Kühler, Pumpe und Thermostat, die beim Turbo mehr leisten.",
+        "Kupplung und Getriebe, Schaltgetriebe oder PDK, und Allradantrieb ab dem 993: Verteilergetriebe, Kardanwelle und Vorderachsdifferenzial.",
+        "Bremsen: Turbos tragen die größten Bremsen ihrer Generation und verschleißen sie in ihrem Tempo. Bremsflüssigkeit inklusive.",
+        "Achsvermessung und Reifen: breite Größen und schneller Verschleiß hinten, und beim 930 die Kontrolle, dass die Geometrie sich nicht verändert hat."
+      ],
       "imagenes": []
     }
   ],
@@ -122,8 +132,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 39,
-    "total": 39,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

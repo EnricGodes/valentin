@@ -180,11 +180,7 @@
     {
       "nivel": 1,
       "titulo": "Preus de manteniment per als models GT",
-      "parrafos": [
-        "Cap automòbil és 100 % fiable i, a partir de la nostra experiència de treball, servei i diagnòstic com a clau del procés per orientar-nos cap a un treball exitós.",
-        "Els preus estan subjectes a IVA, però inclouen peces i mà d'obra. Els preus de les peces de Porsche estan subjectes a canvis sense avís previ. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos. El seu vehicle es desinfectarà i netejarà, llest per al lliurament.",
-        "Selecciona un model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -194,12 +190,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Fes una reserva",
+      "nivel": 2,
+      "titulo": "Mantenir un GT3, un GT2 o un GT4: motors de competició amb matrícula",
       "parrafos": [
-        "Deixa'ns les dades del teu model, tipus de servei que requereixes i el nostre equip contactarà amb tu per confirmar la cita"
+        "Els GT porten motors que no comparteixen amb la resta de la gamma: el Mezger als 996 i 997, el 4.0 atmosfèric als 991 i 992, el 3.8 i el 4.0 del Cayman GT4. Giren més alt, porten més oli, es fan servir en circuit, i el seu manteniment s’assembla més al d’un cotxe de curses que al d’un Carrera: intervals més curts, frens i pneumàtics com a consumibles, geometria que es comprova després de cada track day.",
+        "Per això el servei d’un GT costa més que el d’un 911 del mateix any, i per això el fem amb la mateixa gent que prepara els nostres cotxes de competició. Preu tancat per model, vint-i-una versions, del 996 GT3 al 718 Cayman GT4 RS."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què mira el servei en un GT",
+      "parrafos": [],
+      "items": [
+        "Oli i filtre a interval curt, amb anàlisi de l’oli si el cotxe fa circuit, i nivell de refrigerant als Mezger.",
+        "Frens: discos, pastilles i, als PCCB, mesura del desgast per pes. Líquid de frens d’alta temperatura.",
+        "Geometria i alineació de circuit o de carrer, segons ús, i estat dels braços i ròtules Uniball.",
+        "Embragatge i caixa, manual o PDK, i als GT2 turbos, intercooler i pressió de bufada.",
+        "Historial d’ús: track days, canvis de consumibles i components substituïts. En un GT val tant com el quilometratge."
+      ],
       "imagenes": []
     }
   ],
@@ -208,8 +218,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 70,
-    "total": 70,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

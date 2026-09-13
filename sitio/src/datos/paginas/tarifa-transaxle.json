@@ -46,11 +46,7 @@
     {
       "nivel": 1,
       "titulo": "Precios de mantenimiento para los modelos Transaxle",
-      "parrafos": [
-        "Ningún automóvil es 100 % fiable. Nuestra experiencia en mantenimiento, servicio y diagnóstico confirma que identificar las averías con claridad y precisión es la clave de todo el proceso de reparación.",
-        "Los precios no incluyen el IVA, pero sí las piezas y la mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y por artículos varios. Su vehículo se desinfectará y limpiará antes de la entrega.",
-        "Selecciona un modelo"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -60,12 +56,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Haz una reserva",
+      "nivel": 2,
+      "titulo": "Mantener un 924, 944, 968 o 928: correas, tubo de par y poco más",
       "parrafos": [
-        "Déjanos los datos de tu modelo y el tipo de servicio que necesitas. Nuestro equipo contactará contigo para confirmar la cita."
+        "Los transaxle tienen el motor delante, la caja detrás y un tubo de par entre los dos, y su mantenimiento se decide en tres sitios: las correas de distribución y de ejes de equilibrado, que se cambian cada cuatro años o 60.000 km con bomba de agua y rodillos; el tubo de par y sus rodamientos; y en el 928, la correa del V8, que si falla se lleva el motor. Con eso al día son de los Porsche más fiables que existen.",
+        "La tabla da precio cerrado para las cuatro familias, piezas y mano de obra incluidas. Son coches con treinta y cuarenta años en los que el servicio es también una inspección: lo que encontramos, te lo contamos antes de tocarlo."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué mira el servicio en un transaxle",
+      "parrafos": [],
+      "items": [
+        "Correas de distribución y de equilibrado, tensores, rodillos y bomba de agua: fecha y kilómetros del último cambio, y estado real de todo ello.",
+        "Tubo de par y rodamientos: ruidos y vibraciones al acelerar y al retener.",
+        "Embrague y caja trasera, manual o automática; en el 928, además, el cambio automático de origen Mercedes.",
+        "Refrigeración y fugas: radiador, termostato, junta de culata en los 2.5 y 3.0, y retenes de cigüeñal y árboles.",
+        "Frenos, líquido de frenos, alineado y neumáticos, y una mirada a los pasos de rueda y bajos, que es donde estos coches oxidan."
+      ],
       "imagenes": []
     }
   ],

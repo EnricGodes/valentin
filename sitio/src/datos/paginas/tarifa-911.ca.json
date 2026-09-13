@@ -132,12 +132,7 @@
     {
       "nivel": 1,
       "titulo": "Preus de manteniment per als models Porsche 911",
-      "parrafos": [
-        "Cap automòbil és 100 % fiable i, a partir de la nostra experiència de treball i servei basat en la dedicació màxima al procés de diagnòstic com a clau la identificació del problema o els problemes que ocasionen el no treball eficient del component.",
-        "A Valentin el diagnòstic és la clau.<br/><br/>",
-        "Els preus estan subjectes a IVA, però inclouen peces i mà d'obra. Els preus de les peces de Porsche estan subjectes a canvis sense avís previ. A cada factura s'hi afegeix un càrrec ambiental i d'articles diversos. El seu vehicle es desinfectarà i netejarà, llest per a la recol·lecció.",
-        "Selecciona un model"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -147,12 +142,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Fes una reserva",
+      "nivel": 2,
+      "titulo": "Mantenir un 911: què canvia entre un Pre 74 i un 992",
       "parrafos": [
-        "Deixa'ns les dades del teu model, tipus de servei que requereixes i el nostre equip contactarà amb tu per confirmar la cita"
+        "Un 911 de 1970 i un de 2023 comparteixen nom i poca cosa més al taller. El refrigerat per aire demana ajust de vàlvules, tensors de cadena i una mirada als espàrrecs de culata; el 996 i el 997.1 demanen vigilar l’IMS i el consum d’oli; el 991 i el 992 són cotxes de diagnosi, amb PDK, sensors i actualitzacions. Per això la tarifa no és una: és una per generació.",
+        "Cada preu de la taula és tancat, inclou peces i mà d’obra, i s’ha calculat sobre el que aquella generació necessita de veritat, no sobre una plantilla comuna. Si el cotxe demana alguna cosa més, es diu abans de tocar-lo."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què mira el servei en un 911, a més de l’oli",
+      "parrafos": [],
+      "items": [
+        "Refrigerats per aire: joc de vàlvules, tensors de cadena, fuites a tapes i retens, i estat dels espàrrecs de culata als 2.7.",
+        "996 i 997.1: <a href=\"/taller-porsche/reparacion-ims\">IMS</a>, retén posterior de cigonyal, radiadors frontals i consum d’oli, amb endoscòpia si hi ha dubtes de <a href=\"/taller-porsche/bore-scoring\">bore scoring</a>.",
+        "997.2, 991 i 992: servei de PDK, codis memoritzats, actualitzacions de programari i estat dels turbos als 991.2 i 992.",
+        "En tots: frens, líquid de frens, alineació i pneumàtics, que en un 911 es desgasten de manera molt diferent davant i darrere.",
+        "Historial: què s’ha fet, quan i amb quines peces. Ho apuntem i t’ho lliurem."
+      ],
       "imagenes": []
     }
   ],
@@ -161,8 +170,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 83,
-    "total": 83,
+    "hechas": 11,
+    "total": 11,
     "completa": true
   }
 }

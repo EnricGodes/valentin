@@ -94,11 +94,7 @@
     {
       "nivel": 1,
       "titulo": "Precios de mantenimiento para los modelos Turbo",
-      "parrafos": [
-        "Ningún automóvil es 100 % fiable. Nuestra experiencia en mantenimiento, servicio y diagnóstico confirma que localizar con claridad la avería y su origen es clave en el proceso.",
-        "Los precios no incluyen el IVA, pero sí las piezas y la mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y por artículos varios. Su vehículo se desinfectará y limpiará antes de la entrega.",
-        "Selecciona un modelo"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -108,12 +104,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Haz una reserva",
+      "nivel": 2,
+      "titulo": "Mantener un 911 Turbo: del 930 al 992, la sobrealimentación manda",
       "parrafos": [
-        "Déjanos los datos de tu modelo y el tipo de servicio que necesitas. Nuestro equipo contactará contigo para confirmar la cita."
+        "En un Turbo todo gira alrededor del turbo: la presión de soplado, el intercooler, la refrigeración del propio turbo y el aceite que lo lubrica, que trabaja a más temperatura que en un atmosférico. Un 930 con un turbo cansado y un 992 con un actuador de wastegate fuera de tolerancia son problemas distintos con la misma raíz: nadie miró el sistema de sobrealimentación en el servicio.",
+        "La tabla cubre diez generaciones, del 930 de cuatro velocidades al 992 Turbo con PDK, con precio cerrado, piezas y mano de obra. El Turbo comparte carrocería con el Carrera y casi nada más, y la tarifa lo tiene en cuenta."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué mira el servicio en un 911 Turbo",
+      "parrafos": [],
+      "items": [
+        "Turbo, wastegate y válvulas de descarga: presión de soplado, holguras del eje y fugas de aceite. En los 930, además, el estado del intercooler y sus manguitos.",
+        "Aceite y filtro con aceite adecuado a la temperatura del turbo, y refrigeración: radiadores, bomba y termostato, que en un Turbo trabajan más.",
+        "Embrague y caja, manual o PDK, y tracción total desde el 993: transfer, cardán y diferencial delantero.",
+        "Frenos: los Turbo llevan los frenos más grandes de su generación y se gastan a su ritmo. Líquido de frenos incluido.",
+        "Alineado y neumáticos: medidas anchas y desgaste rápido detrás, y en los 930, comprobación de que la geometría no se ha movido."
+      ],
       "imagenes": []
     }
   ],

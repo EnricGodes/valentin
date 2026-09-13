@@ -249,7 +249,7 @@ export const UI = {
   'casos.chipGuia': { es: 'Magazine · Guía', en: 'Magazine · Guide', fr: 'Magazine · Guide', it: 'Magazine · Guida', de: 'Magazine · Ratgeber', ca: 'Magazine · Guia' },
   'casos.leer':     { es: 'Leer el artículo', en: 'Read the article', fr: 'Lire l’article', it: 'Leggi l’articolo', de: 'Artikel lesen', ca: 'Llegir l’article' },
   'testimonio.rol': { es: 'Cliente', en: 'Customer', fr: 'Client', it: 'Cliente', de: 'Kunde', ca: 'Client' },
-  'tarifas.verFamilia': { es: 'Tarifas de {fam}, en su página', en: '{fam} prices, on their own page', fr: 'Tarifs {fam}, sur leur page', it: 'Tariffe {fam}, nella loro pagina', de: 'Preise {fam}, auf eigener Seite', ca: 'Tarifes de {fam}, a la seva pàgina' },
+  'tarifas.verFamilia': { es: 'Más información', en: 'More information', fr: 'Plus d’informations', it: 'Maggiori informazioni', de: 'Mehr erfahren', ca: 'Més informació' },
   'tarifas.todas':      { es: 'Todas las familias y modelos', en: 'All families and models', fr: 'Toutes les familles et modèles', it: 'Tutte le famiglie e i modelli', de: 'Alle Familien und Modelle', ca: 'Totes les famílies i models' },
   'tarifas.formTitulo': { es: 'Pide cita para tu Porsche', en: 'Book your Porsche in', fr: 'Prenez rendez-vous pour votre Porsche', it: 'Prenota per la tua Porsche', de: 'Termin für Ihren Porsche', ca: 'Demana cita per al teu Porsche' },
   'tarifas.formIntro': {

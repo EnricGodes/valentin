@@ -180,11 +180,7 @@
     {
       "nivel": 1,
       "titulo": "Precios de mantenimiento para los modelos GT",
-      "parrafos": [
-        "Ningún automóvil es 100 % fiable. Nuestra experiencia en mantenimiento, servicio y diagnóstico confirma que un diagnóstico preciso es clave para orientar el trabajo hacia un resultado satisfactorio.",
-        "Los precios están sujetos a IVA pero incluyen piezas y mano de obra. Los precios de las piezas de Porsche están sujetos a cambios sin previo aviso. A cada factura se le añade un cargo ambiental y de artículos varios. Su vehículo se desinfectará y limpiará, listo para su entrega.",
-        "Selecciona un modelo"
-      ],
+      "parrafos": [],
       "items": [],
       "imagenes": [
         {
@@ -194,12 +190,26 @@
       ]
     },
     {
-      "nivel": 3,
-      "titulo": "Haz una reserva",
+      "nivel": 2,
+      "titulo": "Mantener un GT3, un GT2 o un GT4: motores de competición con matrícula",
       "parrafos": [
-        "Déjanos los datos de tu modelo y el tipo de servicio que necesitas. Nuestro equipo contactará contigo para confirmar la cita."
+        "Los GT llevan motores que no comparten con el resto de la gama: el Mezger en 996 y 997, el 4.0 atmosférico en 991 y 992, el 3.8 y el 4.0 del Cayman GT4. Giran más alto, llevan más aceite, se usan en circuito, y su mantenimiento se parece más al de un coche de carreras que al de un Carrera: intervalos más cortos, frenos y neumáticos como consumibles, geometría que se comprueba después de cada track day.",
+        "Por eso el servicio de un GT cuesta más que el de un 911 del mismo año, y por eso lo hacemos con la misma gente que prepara nuestros coches de competición. Precio cerrado por modelo, veintiuna versiones, del 996 GT3 al 718 Cayman GT4 RS."
       ],
       "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué mira el servicio en un GT",
+      "parrafos": [],
+      "items": [
+        "Aceite y filtro a intervalo corto, con análisis del aceite si el coche hace circuito, y nivel de refrigerante en los Mezger.",
+        "Frenos: discos, pastillas y, en los PCCB, medición del desgaste por peso. Líquido de frenos de alta temperatura.",
+        "Geometría y alineado de circuito o de calle, según uso, y estado de los brazos y rótulas Uniball.",
+        "Embrague y caja, manual o PDK, y en los GT2 turbos, intercooler y presión de soplado.",
+        "Historial de uso: track days, cambios de consumibles y componentes sustituidos. En un GT vale tanto como el kilometraje."
+      ],
       "imagenes": []
     }
   ],
