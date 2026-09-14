@@ -213,9 +213,8 @@ export const RUTAS: Ruta[] = [
     slugs: SEGMENTOS.magazine },
 
   // ── Herramientas ────────────────────────────────────────────────────────
-  // La calculadora IMS existe en los seis idiomas (logica/ims/textos.<idioma>.ts).
-  // El hub de Herramientas y el evaluador de bore scoring siguen solo en
-  // castellano; el menu no ofrece Herramientas en los demas: ver Nav.astro.
+  // Las tres paginas de herramientas existen en los seis idiomas: los textos
+  // de cada herramienta viven en logica/<herramienta>/textos.<idioma>.ts.
   { id: 'herramientas', seccion: 'herramientas',
     slugs: { es: 'herramientas', en: 'tools', fr: 'outils',
              it: 'strumenti', de: 'werkzeuge', ca: 'eines' } },

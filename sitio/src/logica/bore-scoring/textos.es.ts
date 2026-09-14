@@ -557,3 +557,28 @@ export const HISTORIAL: PreguntaSintoma = {
   etiqueta: '¿Conserva el motor original?',
   opciones: OPCIONES.originalidad,
 };
+
+export const PAGINA = {
+  titulo: 'Calculadora de bore scoring Porsche por modelo y año · Valentin Motors',
+  descripcion: 'Selecciona modelo, año y motor para conocer su susceptibilidad al rayado de cilindros y saber cuándo conviene realizar una boroscopia.',
+  eyebrow: 'Herramienta',
+  h1: '¿Tu Porsche puede sufrir bore scoring?',
+  intro: 'Selecciona modelo y año para conocer la susceptibilidad de su motor. Después puedes añadir síntomas o pruebas para saber qué comprobación tiene sentido.',
+  explicacionTitulo: 'Qué confirma una boroscopia y qué no',
+  explicacion: [
+    'El bore scoring (rayado de cilindros) es un daño físico en la pared del cilindro y en la falda del pistón. No es una pieza de fábrica que se pueda deducir del modelo y del año: se adquiere con el uso, puede empezar deprisa y agravarse después. Por eso esta herramienta separa lo que se sabe de una familia de motores de lo que se sabe de tu unidad.',
+    'La confirmación es visual. Una boroscopia bien hecha entra por donde toca, recorre todos los cilindros necesarios y la interpreta alguien que distingue una raya de un reflejo o de un depósito de carbonilla. En los M96 y M97, el acceso solo por los alojamientos de bujía deja fuera precisamente la zona donde el rayado suele empezar: una prueba así, informada como normal, no permite dar el motor por bueno.',
+    'Los síntomas orientan y las pruebas complementarias apoyan, pero ninguno confirma. El consumo de aceite, el golpeteo rítmico, el hollín asimétrico o un fallo de encendido tienen otras causas posibles: taqués, inyectores, una fuga de escape, segmentos desgastados sin rayado. El diagnóstico diferencial es parte del trabajo, no un trámite.',
+    'Tampoco existe una cura por aditivo ni por un aceite más espeso. Cuando el rayado está confirmado, la conversación es de alcance: qué cilindros, con qué tecnología se reconstruyen y qué garantía lleva. Eso se decide con el motor delante.',
+  ],
+  faqTitulo: 'Preguntas frecuentes',
+  faq: [
+    ['¿Puede decirme esta herramienta si mi coche tiene bore scoring?', 'No, y ninguna que use solo modelo y año puede. Te dice si su configuración pertenece a un grupo con más casos publicados, qué dicen los indicios que aportes y qué comprobación tiene sentido ahora.'],
+    ['¿Todos los 997.1 y los Cayman S 3.4 están afectados?', 'No. Son los grupos que más aparecen en la experiencia de los especialistas, que es una cosa distinta. Hay muchas unidades sanas con muchos kilómetros.'],
+    ['¿Los Porsche desde 2009 están libres?', 'No. El 997.2 y el 987.2 dejaron atrás el IMS clásico, pero sus motores 9A1/MA1 con Alusil también tienen casos documentados de rayado.'],
+    ['¿Un 2.5, 2.7 o 3.2 nunca falla?', 'Aparecen bastante menos en lo publicado. Menos no es nunca: si hay síntomas, se revisan igual que cualquier otro.'],
+    ['¿Mi boroscopia salió normal, ya puedo olvidarme?', 'Describe lo que se vio ese día y en las superficies que se llegaron a ver. Si la prueba fue parcial, o si después han aparecido síntomas nuevos, conviene repetirla con el protocolo adecuado.'],
+    ['¿Sirve el análisis de aceite?', 'Como apoyo, y sobre todo en serie. Una sola muestra normal no descarta nada, y una sola muestra alta no confirma nada. Lo que dice algo es la tendencia de aluminio, hierro y silicio a lo largo del tiempo.'],
+  ],
+  revisadas: 'revisadas el',
+};

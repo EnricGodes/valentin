@@ -19,10 +19,13 @@
  *
  * El componente solo pinta. La logica vive en src/logica/bore-scoring.
  */
-import { OPCIONES, UI } from '../logica/bore-scoring/textos.es.ts';
+import { textosDe } from '../logica/bore-scoring/textos.ts';
 import { VERSION_REGLAS } from '../logica/bore-scoring/reglas-vehiculo.ts';
+import { url } from '../i18n/routes.ts';
+import type { Idioma } from '../i18n/config.ts';
 
 interface Props {
+  idioma?: Idioma;
   compacta?: boolean;
   /* Dentro del articulo no se pasa: enlazar al articulo desde el articulo. */
   enlaceArticulo?: string;
@@ -31,11 +34,13 @@ interface Props {
    *  calculadora para encontrarse, y esta seccion se hacia pasar por ella. */
   enlaceIms?: string;
 }
-const { compacta = false, enlaceArticulo, enlaceIms } = Astro.props;
+const { idioma = 'es', compacta = false, enlaceArticulo, enlaceIms } = Astro.props;
+const { OPCIONES, UI } = textosDe(idioma);
+const contacto = url('contacto', idioma);
 const anoMax = new Date().getFullYear() + 1;
 ---
-<section class:list={['herr', compacta && 'herr--compacta']} data-bs
-         data-version={VERSION_REGLAS}
+<section class:list={['herr', compacta && 'herr--compacta']} data-bs data-idioma={idioma}
+         data-version={VERSION_REGLAS} data-contacto={contacto}
          data-articulo={enlaceArticulo} data-enlace-ims={enlaceIms}>
   <form class="herr-form" data-bs-form novalidate>
     <div class="herr-campos">

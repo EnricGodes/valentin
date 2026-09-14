@@ -6,11 +6,15 @@ import {
 import type {
   Pruebas, Sintomas, Valoracion, Vehiculo,
 } from '../logica/bore-scoring/tipos.ts';
-import {
-  ACCIONES, AFINAR, AVISO, AVISOS, BOROSCOPIA_DETALLE, CONFIANZA, CONFIRMACION,
-  CTA, EVIDENCIA, GENERACION, HISTORIAL, MOTIVOS, OPCIONES, PREGUNTAS, PRUEBAS,
-  SINTOMAS, SUSCEPTIBILIDAD, TECNOLOGIA, UI, URGENCIA, VARIANTE,
-} from '../logica/bore-scoring/textos.es.ts';
+import { textosDe } from '../logica/bore-scoring/textos.ts';
+
+/* Los textos del idioma de la pagina, fijados al iniciar desde el
+   data-idioma del propio evaluador: el script es el mismo en los seis. */
+const T0 = textosDe('es');
+let { ACCIONES, AFINAR, AVISO, AVISOS, BOROSCOPIA_DETALLE, CONFIANZA, CONFIRMACION,
+      CTA, EVIDENCIA, GENERACION, HISTORIAL, MOTIVOS, OPCIONES, PREGUNTAS, PRUEBAS,
+      SINTOMAS, SUSCEPTIBILIDAD, TECNOLOGIA, UI, URGENCIA, VARIANTE } = T0;
+let CONTACTO = '/contacto';
 import { evento } from './eventos.ts';
 
 /**
@@ -80,7 +84,7 @@ function pintaResultado(
 
   /* Solo datos no sensibles en la URL: ni VIN, ni matricula, ni codigo de
      motor, ni el consumo declarado. */
-  const cta = `/contacto?motivo=bore-scoring&modelo=${encodeURIComponent(v.familia)}`
+  const cta = `${CONTACTO}?motivo=bore-scoring&modelo=${encodeURIComponent(v.familia)}`
     + (v.generacion ? `&generacion=${encodeURIComponent(v.generacion)}` : '')
     + `&resultado=${encodeURIComponent(r.susceptibilidad.toLowerCase())}`
     + `&urgencia=${encodeURIComponent(r.urgencia.toLowerCase())}`;
@@ -176,6 +180,10 @@ function pintaResultado(
 export function iniciarEvaluadorBoreScoring(): void {
   const raiz = document.querySelector<HTMLElement>('[data-bs]');
   if (!raiz) return;
+  ({ ACCIONES, AFINAR, AVISO, AVISOS, BOROSCOPIA_DETALLE, CONFIANZA, CONFIRMACION,
+     CTA, EVIDENCIA, GENERACION, HISTORIAL, MOTIVOS, OPCIONES, PREGUNTAS, PRUEBAS,
+     SINTOMAS, SUSCEPTIBILIDAD, TECNOLOGIA, UI, URGENCIA, VARIANTE } = textosDe(raiz.dataset.idioma || 'es'));
+  CONTACTO = raiz.dataset.contacto || '/contacto';
 
   /* Dentro de un articulo se sirve al final del cuerpo y se mueve al hueco de
      la directiva `:::herramienta`, con su colocacion en la rejilla. */

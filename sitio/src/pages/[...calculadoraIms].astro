@@ -3,13 +3,12 @@
  * Calculadora IMS, URL propia y compartible, en los seis idiomas.
  *
  * Los slugs salen del manifiesto (calculadora-ims) y los textos de
- * logica/ims/textos.<idioma>.ts. El hub de Herramientas sigue solo en
- * castellano, asi que las migas en los otros idiomas empiezan en la propia
- * calculadora.
+ * logica/ims/textos.<idioma>.ts.
  */
 import { IDIOMAS, type Idioma } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { textosDe } from '../logica/ims/textos';
+import { traductor } from '../i18n/ui';
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
 import Pie from '../components/Pie.astro';
@@ -24,9 +23,10 @@ export function getStaticPaths() {
 }
 const { idioma } = Astro.props as { idioma: Idioma };
 const { PAGINA } = textosDe(idioma);
+const t = traductor(idioma);
 const articulo = url('magazine', idioma, 'que-es-el-ims-de-porsche');
 const migas = [
-  ...(idioma === 'es' ? [{ nombre: 'Herramientas', rutaId: 'herramientas' }] : []),
+  { nombre: t('nav.herramientas'), rutaId: 'herramientas' },
   { nombre: PAGINA.h1, rutaId: 'calculadora-ims' },
 ];
 ---

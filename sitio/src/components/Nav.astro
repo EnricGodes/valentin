@@ -37,9 +37,10 @@ interface Props {
 const { idioma, rutaId } = Astro.props;
 const t = traductor(idioma);
 
-/* La home, el Magazine y las Herramientas viven en src/pages/, fuera del
-   manifiesto de contenido, y hoy solo se generan en castellano. */
-const SOLO_ES = new Set(['home', 'magazine', 'herramientas']);
+/* La home y el Magazine viven en src/pages/, fuera del manifiesto de
+   contenido, y hoy solo se generan en castellano. Las Herramientas tambien
+   viven ahi pero existen en los seis idiomas. */
+const SOLO_ES = new Set(['home', 'magazine']);
 const hay = (id: string) =>
   SOLO_ES.has(id) ? idioma === POR_DEFECTO
   /* El catalogo no es una pagina de datos/paginas: existe en los idiomas que
@@ -104,8 +105,7 @@ const enlaces = [
       ...hijoUrl(`${url('magazine', 'es')}/${SEGMENTOS.categoria.es}/iconos`,
                  'Guías de modelo'),
     ] },
-  // El hub de Herramientas solo existe en castellano; la calculadora IMS, en los seis.
-  ...(idioma === 'es' ? [{ id: 'herramientas', texto: t('nav.herramientas'), hijos: [] }] : []),
+  { id: 'herramientas', texto: t('nav.herramientas'), hijos: [] },
   { id: 'quienes-somos', texto: t('nav.nosotros'), hijos: [] },
   { id: 'contacto', texto: t('nav.contacto'), hijos: [] },
 ];

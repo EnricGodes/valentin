@@ -35,9 +35,9 @@ const anio = new Date().getFullYear();
 const legal = (id: string) => url(id, POR_DEFECTO);
 const otroIdioma = idioma !== POR_DEFECTO;
 
-/* La home, el Magazine y las Herramientas viven fuera del manifiesto de
-   contenido y hoy solo se generan en castellano. */
-const SOLO_ES = new Set(['home', 'magazine', 'herramientas']);
+/* La home y el Magazine viven fuera del manifiesto de contenido y hoy solo
+   se generan en castellano; las Herramientas, en los seis idiomas. */
+const SOLO_ES = new Set(['home', 'magazine']);
 const hay = (id: string) =>
   SOLO_ES.has(id) ? idioma === POR_DEFECTO
   /* El catalogo no es una pagina de datos/paginas: existe en los idiomas que

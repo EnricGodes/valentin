@@ -1,0 +1,89 @@
+---
+/**
+ * Evaluador de bore scoring, URL propia y compartible, en los seis idiomas.
+ * Los slugs salen del manifiesto (evaluador-bore-scoring) y los textos de
+ * logica/bore-scoring/textos.<idioma>.ts, incluida la explicacion y las
+ * preguntas frecuentes de la propia pagina.
+ *
+ * El titulo SEO conserva "calculadora", que es como se busca, pero la interfaz
+ * no se presenta como una calculadora de diagnostico: no lo es.
+ */
+import { IDIOMAS, type Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import { textosDe } from '../logica/bore-scoring/textos';
+import { FUENTES, REVISADO, VERSION_REGLAS } from '../logica/bore-scoring/reglas-vehiculo.ts';
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Pie from '../components/Pie.astro';
+import EvaluadorBoreScoring from '../components/EvaluadorBoreScoring.astro';
+import Migas from '../components/seo/Migas.astro';
+
+export function getStaticPaths() {
+  return IDIOMAS.map((idioma) => ({
+    params: { evaluadorBoreScoring: url('evaluador-bore-scoring', idioma).replace(/^\//, '') },
+    props: { idioma },
+  }));
+}
+const { idioma } = Astro.props as { idioma: Idioma };
+const t = traductor(idioma);
+const { PAGINA, UI } = textosDe(idioma);
+const articulo = url('magazine', idioma, 'porsche-bore-scoring');
+const ims = url('calculadora-ims', idioma);
+const migas = [
+  { nombre: t('nav.herramientas'), rutaId: 'herramientas' },
+  { nombre: PAGINA.h1, rutaId: 'evaluador-bore-scoring' },
+];
+---
+<Base
+  idioma={idioma}
+  rutaId="evaluador-bore-scoring"
+  idiomasPublicados={IDIOMAS}
+  tipoPagina="herramienta"
+  titulo={PAGINA.titulo}
+  descripcion={PAGINA.descripcion}
+>
+  <Fragment slot="head">
+    <Migas idioma={idioma} migas={migas} />
+  </Fragment>
+  <Nav slot="nav" idioma={idioma} rutaId="herramientas" idiomasPublicados={IDIOMAS} />
+  <Pie slot="pie" idioma={idioma} rutaId="evaluador-bore-scoring" idiomasPublicados={IDIOMAS} />
+
+  <header class="post-reja mag-cabecera">
+    <h1 class="mag-titulo ancha reveal">
+      <em>{PAGINA.eyebrow}</em>
+      {PAGINA.h1}
+    </h1>
+    <p class="herr-intro ancha reveal delay-1">{PAGINA.intro}</p>
+  </header>
+
+  <div class="post-reja herr-envoltorio">
+    <div class="ancha">
+      <EvaluadorBoreScoring idioma={idioma} enlaceArticulo={articulo} enlaceIms={ims} />
+    </div>
+  </div>
+
+  {/* La boroscopia se explica una vez, fuera del resultado: es la misma
+      explicación salga lo que salga. */}
+  <div class="post-reja">
+    <div class="ancha bs-explicacion">
+      <h2>{PAGINA.explicacionTitulo}</h2>
+      {PAGINA.explicacion.map((p) => <p>{p}</p>)}
+
+      <h2>{PAGINA.faqTitulo}</h2>
+      <dl class="bs-faq">
+        {PAGINA.faq.map(([q, a]) => (<><dt>{q}</dt><dd>{a}</dd></>))}
+      </dl>
+
+      <h2>{UI.fuentes}</h2>
+      <p class="bs-fuentes">
+        {Object.entries(FUENTES).map(([id, nombre], i) => (
+          <>{i > 0 && ' · '}<span>{id}. {nombre}</span></>
+        ))}
+      </p>
+      <p class="bs-version">
+        {UI.reglas} {VERSION_REGLAS} · {PAGINA.revisadas} {REVISADO}
+      </p>
+    </div>
+  </div>
+</Base>
