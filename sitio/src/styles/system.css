@@ -1414,6 +1414,8 @@ section { position: relative; }
   width: 7px; height: 1px; background: var(--bronce);
 }
 
+.bloque-enlace { margin-top: 28px; }
+.bloque--modulo { border-top: 0; padding-top: 0; }
 .bloque-fotos { display: grid; gap: 2px; margin-top: 36px; }
 .bloque-fotos--2 { grid-template-columns: 1fr 1fr; }
 .bloque-fotos--3 { grid-template-columns: repeat(3, 1fr); }

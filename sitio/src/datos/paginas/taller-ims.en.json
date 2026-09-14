@@ -102,9 +102,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "What is the IMS? (Read more in the Magazine)",
+      "titulo": "Learn more about the IMS",
       "parrafos": [
-        "The magazine showcases the work and photographs in <a href=\"/magazine/que-es-el-ims-de-porsche\">this documented case study</a>."
+        "How the failure happens, how it is detected and how it is fixed, with photos of a real job."
       ],
       "items": [],
       "imagenes": [
@@ -112,22 +112,17 @@
           "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
           "alt": "M96 engine case with the IMS bearing flange in view"
         }
-      ]
+      ],
+      "enlace": {
+        "texto": "How it happens and how it is fixed",
+        "href": "/magazine/que-es-el-ims-de-porsche"
+      }
     },
     {
       "nivel": 2,
       "titulo": "Where it is done",
       "parrafos": [
         "In Barcelona and Madrid. The work is performed in the workshop; if the engine arrives damaged, it is moved to the engine workshop, where it is opened and evaluated part by part."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Related services",
-      "parrafos": [
-        "Depending on the car's condition and intended use, the work can be coordinated with the <a href=\"/herramientas/calculadora-ims-porsche\">IMS calculator</a>, <a href=\"/taller-porsche/motores\">Porsche engine workshop</a> and <a href=\"/taller-porsche/tarifas\">published rates</a>."
       ],
       "items": [],
       "imagenes": []
@@ -163,8 +158,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 44,
-    "total": 44,
+    "hechas": 35,
+    "total": 35,
     "completa": true
   }
 }

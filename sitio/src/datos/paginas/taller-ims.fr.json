@@ -102,9 +102,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qu'est-ce que le IMS, dans le magazine",
+      "titulo": "En savoir plus sur l’IMS",
       "parrafos": [
-        "Le magazine présente le travail et ses photographies dans <a href=\"/magazine/que-es-el-ims-de-porsche\">ce cas documenté</a>."
+        "Comment la panne se produit, comment on la détecte et comment on la résout, avec les photos d’une intervention réelle."
       ],
       "items": [],
       "imagenes": [
@@ -112,22 +112,17 @@
           "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
           "alt": "Carter d'un moteur M96 avec la bride du roulement IMS apparente"
         }
-      ]
+      ],
+      "enlace": {
+        "texto": "Comment ça arrive et comment on le règle",
+        "href": "/magazine/que-es-el-ims-de-porsche"
+      }
     },
     {
       "nivel": 2,
       "titulo": "Lieu d'intervention",
       "parrafos": [
         "À Barcelone et à Madrid. Les travaux sont effectués en atelier ; si le moteur arrive endommagé, il est acheminé à la atelier moteurs, où il est ouvert et examiné pièce par pièce."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Services connexes",
-      "parrafos": [
-        "Selon l'état et l'usage de la voiture, des travaux peuvent être coordonnés avec <a href=\"/herramientas/calculadora-ims-porsche\">Calculatrice IMS</a>, <a href=\"/taller-porsche/motores\">Moteurs Porsche</a>, <a href=\"/taller-porsche/tarifas\">Tarifs</a>."
       ],
       "items": [],
       "imagenes": []
@@ -163,8 +158,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 44,
-    "total": 44,
+    "hechas": 35,
+    "total": 35,
     "completa": true
   }
 }

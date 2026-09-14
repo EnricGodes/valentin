@@ -84,7 +84,8 @@
         "La calculadora no diagnostica el estado del coche. Dice qué venía de fábrica; lo que hay dentro hoy solo se sabe abriendo."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [],
+      "modulo": "calculadora-ims"
     },
     {
       "nivel": 2,
@@ -102,9 +103,9 @@
     },
     {
       "nivel": 2,
-      "titulo": "Qué es el IMS, en el Magazine",
+      "titulo": "Saber más sobre el IMS",
       "parrafos": [
-        "El Magazine muestra el trabajo y sus fotografías en <a href=\"/magazine/que-es-el-ims-de-porsche\">este caso documentado</a>."
+        "Cómo se produce el fallo, cómo se detecta y cómo se solventa, con las fotos de una intervención real."
       ],
       "items": [],
       "imagenes": [
@@ -112,22 +113,17 @@
           "url": "/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg",
           "alt": "Cárter de un motor M96 con la brida del rodamiento IMS a la vista"
         }
-      ]
+      ],
+      "enlace": {
+        "texto": "Cómo se produce y cómo se solventa",
+        "href": "/magazine/que-es-el-ims-de-porsche"
+      }
     },
     {
       "nivel": 2,
       "titulo": "Dónde se hace",
       "parrafos": [
         "En Barcelona y en Madrid. La intervención se hace en el taller; si el motor llega con daños, pasa a la sala de motores, donde se abre y se evalúa pieza a pieza."
-      ],
-      "items": [],
-      "imagenes": []
-    },
-    {
-      "nivel": 2,
-      "titulo": "Servicios relacionados",
-      "parrafos": [
-        "Según el estado y el objetivo del coche, el trabajo puede coordinarse con <a href=\"/herramientas/calculadora-ims-porsche\">calculadora IMS</a>, <a href=\"/taller-porsche/motores\">motores Porsche</a>, <a href=\"/taller-porsche/tarifas\">tarifas</a>."
       ],
       "items": [],
       "imagenes": []

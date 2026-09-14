@@ -9,6 +9,11 @@ export interface SeccionPagina {
   parrafos: string[];
   items: string[];
   imagenes: { url: string; alt: string }[];
+  /** Boton al final de la seccion, cuando el enlace es a lo que se viene y no
+      una mencion de paso. */
+  enlace?: { texto: string; href: string };
+  /** Modulo interactivo que va detras de la seccion: "calculadora-ims". */
+  modulo?: string;
 }
 
 export interface Acordeon {

@@ -3,6 +3,8 @@ import type { SeccionPagina } from '../datos/pagina';
 import { enlazaEnIdioma } from '../i18n/routes';
 import { POR_DEFECTO, type Idioma } from '../i18n/config';
 import { traductor } from '../i18n/ui';
+import CalculadoraIms from './CalculadoraIms.astro';
+import { url } from '../i18n/routes';
 
 interface Props { secciones: SeccionPagina[]; idioma?: Idioma; }
 const { secciones, idioma = POR_DEFECTO } = Astro.props;
@@ -35,7 +37,7 @@ const utiles = secciones.filter((s, i) =>
         <figcaption class="testimonio-firma">{firma(s)} &middot; {t('testimonio.rol')}</figcaption>
       )}
     </figure>
-  ) : (
+  ) : (<>
     <section class={`bloque${s.imagenes.length ? ' bloque--con-foto' : ''}`}>
       <div class="bloque-texto">
         {s.titulo && (s.nivel <= 2
@@ -49,6 +51,11 @@ const utiles = secciones.filter((s, i) =>
         {s.items.length > 0 && (
           <ul class="bloque-lista reveal delay-1">{s.items.map((x) => <li>{x}</li>)}</ul>
         )}
+        {s.enlace && (
+          <p class="bloque-enlace reveal delay-2">
+            <a class="cta" href={enlazaEnIdioma(`href="${s.enlace.href}"`, idioma).replace(/^href="|"$/g, '')}>{s.enlace.texto}</a>
+          </p>
+        )}
       </div>
       {s.imagenes.length > 0 && (
         <div class={`bloque-fotos bloque-fotos--${Math.min(s.imagenes.length, 3)}`}>
@@ -59,5 +66,12 @@ const utiles = secciones.filter((s, i) =>
         </div>
       )}
     </section>
-  ))}
+    {/* La calculadora solo existe en castellano: en los demas idiomas la
+        seccion se queda con su texto, que ya la enlaza. */}
+    {s.modulo === 'calculadora-ims' && idioma === 'es' && (
+      <div class="bloque bloque--modulo herr-envoltorio">
+        <CalculadoraIms compacta enlaceArticulo={url('magazine', 'es', 'que-es-el-ims-de-porsche')} />
+      </div>
+    )}
+  </>))}
 </div>
