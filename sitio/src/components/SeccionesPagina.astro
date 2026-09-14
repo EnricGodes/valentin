@@ -66,11 +66,9 @@ const utiles = secciones.filter((s, i) =>
         </div>
       )}
     </section>
-    {/* La calculadora solo existe en castellano: en los demas idiomas la
-        seccion se queda con su texto, que ya la enlaza. */}
-    {s.modulo === 'calculadora-ims' && idioma === 'es' && (
+    {s.modulo === 'calculadora-ims' && (
       <div class="bloque bloque--modulo herr-envoltorio">
-        <CalculadoraIms compacta enlaceArticulo={url('magazine', 'es', 'que-es-el-ims-de-porsche')} />
+        <CalculadoraIms compacta idioma={idioma} enlaceArticulo={url('magazine', idioma, 'que-es-el-ims-de-porsche')} />
       </div>
     )}
   </>))}

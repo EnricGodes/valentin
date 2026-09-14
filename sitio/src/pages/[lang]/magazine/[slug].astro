@@ -7,6 +7,7 @@ import { url } from '../../../i18n/routes';
 import { traductor } from '../../../i18n/ui';
 import Articulo from '../../../components/seo/Articulo.astro';
 import { enlaceLandingDeGuia } from '../../../datos/generacion';
+import CalculadoraIms from '../../../components/CalculadoraIms.astro';
 import Migas from '../../../components/seo/Migas.astro';
 import Faq from '../../../components/seo/Faq.astro';
 import { DOMINIO, IDIOMAS, POR_DEFECTO, type Idioma } from '../../../i18n/config';
@@ -45,6 +46,7 @@ const abre = /^!\[[^\]]*\]\(([^)\s]+)/.exec(cuerpoMd.split(/\n\s*\n/)[0].trim())
 const heroFoto = abre?.[1];
 const portada = heroFoto ?? cuerpoMd.match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1];
 
+const llevaCalculadoraIms = (post.body ?? '').includes('herramienta{id="calculadora-ims"}');
 const ventaGuia = post.data.categories.includes('iconos')
   ? enlaceLandingDeGuia(post.data.slugFinal, idioma) : undefined;
 ---
@@ -110,6 +112,12 @@ const ventaGuia = post.data.categories.includes('iconos')
       import { iniciarModulos } from '../../../scripts/modulos.ts';
       iniciarModulos();
     </script>
+
+    {llevaCalculadoraIms && (
+      <div class="post-reja herr-envoltorio">
+        <div class="ancha"><CalculadoraIms compacta idioma={idioma} /></div>
+      </div>
+    )}
 
     <div class="post-reja">
       {post.data.ctas.length > 0 && (

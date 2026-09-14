@@ -15,19 +15,24 @@
  * El componente solo pinta. La logica vive en src/logica/ims y la comparten la
  * pagina y el articulo: un unico motor de reglas.
  */
-import { OPCIONES, UI } from '../logica/ims/textos.es.ts';
+import { textosDe } from '../logica/ims/textos.ts';
 import { VERSION_REGLAS } from '../logica/ims/reglas.ts';
+import { url } from '../i18n/routes.ts';
+import type { Idioma } from '../i18n/config.ts';
 
 interface Props {
+  idioma?: Idioma;
   compacta?: boolean;
   /* Dentro del articulo no se pasa: enlazar al articulo desde el articulo. */
   enlaceArticulo?: string;
 }
-const { compacta = false, enlaceArticulo } = Astro.props;
+const { idioma = 'es', compacta = false, enlaceArticulo } = Astro.props;
+const { OPCIONES, UI } = textosDe(idioma);
+const contacto = url('contacto', idioma);
 const anoMax = new Date().getFullYear() + 1;
 ---
-<section class:list={['herr', compacta && 'herr--compacta']} data-ims
-         data-version={VERSION_REGLAS} data-articulo={enlaceArticulo}>
+<section class:list={['herr', compacta && 'herr--compacta']} data-ims data-idioma={idioma}
+         data-version={VERSION_REGLAS} data-articulo={enlaceArticulo} data-contacto={contacto}>
   <form class="herr-form" data-ims-form novalidate>
     <div class="herr-campos">
       <p class="herr-campo">

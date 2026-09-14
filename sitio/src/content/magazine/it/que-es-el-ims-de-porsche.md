@@ -58,6 +58,9 @@ Nel video seguente il nostro direttore generale, Jordi Edo, spiega nel dettaglio
 :::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
 :::
 
+:::herramienta{id="calculadora-ims"}
+:::
+
 ## **Quali vetture sono interessate?**
 
 In linea generale sono interessati i motori M96 dal 1998 al 2004, i M97 dal 2004 al 2008 e tutte le Boxster e Cayman 986 e 987.

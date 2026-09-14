@@ -84,7 +84,8 @@
         "Le calculateur ne permet pas de diagnostiquer l'état du véhicule. Il indique ses spécifications d'usine ; seul un diagnostic moteur permet de déterminer son état actuel."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [],
+      "modulo": "calculadora-ims"
     },
     {
       "nivel": 2,

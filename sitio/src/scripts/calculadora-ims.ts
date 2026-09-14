@@ -1,9 +1,14 @@
 import { evaluarIms } from '../logica/ims/evaluador.ts';
 import type { Evaluacion, Vehiculo } from '../logica/ims/tipos.ts';
-import {
-  ACCIONES, AFINAR, AVISO, ESTADOS, GENERACION, MOTIVOS,
-  OPCIONES, PREGUNTAS, RETROFIT, RODAMIENTOS, SUSTITUIBILIDAD, UI,
-} from '../logica/ims/textos.es.ts';
+import { textosDe } from '../logica/ims/textos.ts';
+
+/* Los textos del idioma de la pagina. Se fijan al iniciar, desde el
+   data-idioma de la propia calculadora: el script es el mismo en los seis. */
+let ACCIONES = textosDe('es').ACCIONES, AFINAR = textosDe('es').AFINAR, AVISO = textosDe('es').AVISO,
+    ESTADOS = textosDe('es').ESTADOS, GENERACION = textosDe('es').GENERACION, MOTIVOS = textosDe('es').MOTIVOS,
+    OPCIONES = textosDe('es').OPCIONES, PREGUNTAS = textosDe('es').PREGUNTAS, RETROFIT = textosDe('es').RETROFIT,
+    RODAMIENTOS = textosDe('es').RODAMIENTOS, SUSTITUIBILIDAD = textosDe('es').SUSTITUIBILIDAD, UI = textosDe('es').UI;
+let CONTACTO = '/contacto';
 import { corteDe, generacionesCandidatas, motoresPosibles } from '../logica/ims/reglas.ts';
 import { evento } from './eventos.ts';
 
@@ -63,7 +68,7 @@ function pintaResultado(r: Evaluacion, v: Vehiculo, articulo?: string): string {
   const acciones = [...new Set(r.acciones)].map((a) => ACCIONES[a]).filter(Boolean) as string[];
 
   /* Solo datos no sensibles en la URL: ni VIN, ni numero de motor. */
-  const cta = `/contacto?motivo=ims&modelo=${encodeURIComponent(v.familia)}`
+  const cta = `${CONTACTO}?motivo=ims&modelo=${encodeURIComponent(v.familia)}`
     + `&anio=${v.ano}&resultado=${encodeURIComponent(r.estado.toLowerCase())}`;
 
   const afinar = afinables(r);
@@ -114,6 +119,9 @@ function pintaResultado(r: Evaluacion, v: Vehiculo, articulo?: string): string {
 export function iniciarCalculadoraIms(): void {
   const raiz = document.querySelector<HTMLElement>('[data-ims]');
   if (!raiz) return;
+  ({ ACCIONES, AFINAR, AVISO, ESTADOS, GENERACION, MOTIVOS, OPCIONES, PREGUNTAS,
+     RETROFIT, RODAMIENTOS, SUSTITUIBILIDAD, UI } = textosDe(raiz.dataset.idioma || 'es'));
+  CONTACTO = raiz.dataset.contacto || '/contacto';
 
   /* Dentro de un articulo se sirve al final del cuerpo y se mueve al hueco de
      la directiva `:::herramienta`, con su colocacion en la rejilla. */

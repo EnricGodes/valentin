@@ -1,0 +1,59 @@
+---
+/**
+ * Calculadora IMS, URL propia y compartible, en los seis idiomas.
+ *
+ * Los slugs salen del manifiesto (calculadora-ims) y los textos de
+ * logica/ims/textos.<idioma>.ts. El hub de Herramientas sigue solo en
+ * castellano, asi que las migas en los otros idiomas empiezan en la propia
+ * calculadora.
+ */
+import { IDIOMAS, type Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { textosDe } from '../logica/ims/textos';
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Pie from '../components/Pie.astro';
+import CalculadoraIms from '../components/CalculadoraIms.astro';
+import Migas from '../components/seo/Migas.astro';
+
+export function getStaticPaths() {
+  return IDIOMAS.map((idioma) => ({
+    params: { calculadoraIms: url('calculadora-ims', idioma).replace(/^\//, '') },
+    props: { idioma },
+  }));
+}
+const { idioma } = Astro.props as { idioma: Idioma };
+const { PAGINA } = textosDe(idioma);
+const articulo = url('magazine', idioma, 'que-es-el-ims-de-porsche');
+const migas = [
+  ...(idioma === 'es' ? [{ nombre: 'Herramientas', rutaId: 'herramientas' }] : []),
+  { nombre: PAGINA.h1, rutaId: 'calculadora-ims' },
+];
+---
+<Base
+  idioma={idioma}
+  rutaId="calculadora-ims"
+  idiomasPublicados={IDIOMAS}
+  tipoPagina="herramienta"
+  titulo={PAGINA.titulo}
+  descripcion={PAGINA.descripcion}
+>
+  <Fragment slot="head">
+    <Migas idioma={idioma} migas={migas} />
+  </Fragment>
+  <Nav slot="nav" idioma={idioma} rutaId="herramientas" idiomasPublicados={IDIOMAS} />
+  <Pie slot="pie" idioma={idioma} rutaId="calculadora-ims" idiomasPublicados={IDIOMAS} />
+
+  <header class="post-reja mag-cabecera">
+    <h1 class="mag-titulo ancha reveal">
+      <em>{PAGINA.eyebrow}</em>
+      {PAGINA.h1}
+    </h1>
+  </header>
+
+  <div class="post-reja ims-envoltorio">
+    <div class="ancha">
+      <CalculadoraIms idioma={idioma} enlaceArticulo={articulo} />
+    </div>
+  </div>
+</Base>

@@ -84,7 +84,8 @@
         "Der Rechner dient nicht der Diagnose des Fahrzeugzustands. Er zeigt die Werksangaben an; der aktuelle Zustand kann nur durch Öffnen des Fahrzeugs festgestellt werden."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [],
+      "modulo": "calculadora-ims"
     },
     {
       "nivel": 2,

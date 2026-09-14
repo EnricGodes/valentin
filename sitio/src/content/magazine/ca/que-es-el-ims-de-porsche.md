@@ -58,6 +58,9 @@ En el vídeo següent, el nostre director general, Jordi Edo, explica en detall 
 :::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
 :::
 
+:::herramienta{id="calculadora-ims"}
+:::
+
 ## **Quins vehicles estan afectats?**
 
 Genèricament estan afectats els motors M96 del 1998 al 2004, els M97 del 2004 al 2008 i tots els Boxster i Cayman 986 i 987.

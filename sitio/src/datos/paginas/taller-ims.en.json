@@ -84,7 +84,8 @@
         "The calculator does not diagnose the car's current condition. It states what was installed at the factory; the only way to know what is inside now is to open it up."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [],
+      "modulo": "calculadora-ims"
     },
     {
       "nivel": 2,

@@ -58,6 +58,9 @@ In the following video our managing director, Jordi Edo, explains in detail what
 :::video{src="/video/magazine/81cdb106-0a7f-40e8-9417-ef5657bea23f.mp4" ancho="1080" alto="1920"}
 :::
 
+:::herramienta{id="calculadora-ims"}
+:::
+
 ## **Which cars are affected?**
 
 Broadly, the affected engines are the M96 from 1998 to 2004, the M97 from 2004 to 2008, and every Boxster and Cayman 986 and 987.

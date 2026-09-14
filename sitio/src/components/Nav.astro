@@ -104,7 +104,7 @@ const enlaces = [
       ...hijoUrl(`${url('magazine', 'es')}/${SEGMENTOS.categoria.es}/iconos`,
                  'Guías de modelo'),
     ] },
-  // Las herramientas solo existen en castellano por ahora.
+  // El hub de Herramientas solo existe en castellano; la calculadora IMS, en los seis.
   ...(idioma === 'es' ? [{ id: 'herramientas', texto: t('nav.herramientas'), hijos: [] }] : []),
   { id: 'quienes-somos', texto: t('nav.nosotros'), hijos: [] },
   { id: 'contacto', texto: t('nav.contacto'), hijos: [] },

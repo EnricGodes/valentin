@@ -84,7 +84,8 @@
         "La calculadora no diagnostica l'estat del cotxe. Diu què venia de fàbrica; el que hi ha a dins avui només se sap obrint."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [],
+      "modulo": "calculadora-ims"
     },
     {
       "nivel": 2,

@@ -8,6 +8,9 @@ import type { Estado, Rodamiento } from './tipos.ts';
  * fichero hermano (textos.en.ts) sin mover nada mas.
  *
  * No se traducen nunca: IMS, IMSB, M96, M97, Mezger, 9A1/MA1, 6204, 6305.
+ *
+ * Los cinco hermanos (textos.en.ts...) existen desde septiembre de 2026 y se
+ * eligen en textos.ts por idioma.
  */
 
 export interface TextoEstado {
@@ -245,4 +248,11 @@ export const OPCIONES = {
     { valor: 'gt3', etiqueta: 'GT3 / GT3 RS' },
     { valor: 'desconocida', etiqueta: 'No lo sé' },
   ],
+};
+
+export const PAGINA = {
+  titulo: 'Calculadora IMS Porsche: comprueba modelo y año · Valentin Motors',
+  descripcion: 'Selecciona tu modelo y año para saber qué tipo de IMS puede montar, su nivel de afectación y qué comprobaciones necesita.',
+  eyebrow: 'Herramienta',
+  h1: '¿Tu Porsche está afectado por el IMS?',
 };
