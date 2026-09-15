@@ -157,6 +157,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quels modèles sont concernés par l’IMS ?",
+      "parrafos": [
+        "Les 911 996 et 997.1, les Boxster 986 et 987.1 et les Cayman 987.1, à moteurs M96 et M97 de 1997 à 2008. Turbo, GT2 et GT3 ont le moteur Mezger, à palier lisse, et n’ont pas cette panne ; à partir de 2009 (997.2 et 987.2) le moteur n’a plus d’arbre intermédiaire."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quels sont les symptômes d’un IMS qui commence à lâcher ?",
+      "parrafos": [
+        "Des copeaux ou particules métalliques dans le filtre à huile, un tic-tic métallique à l’arrière du moteur, des fuites au joint de l’IMS et, à un stade avancé, des ratés d’allumage dus à une distribution décalée. Souvent il ne prévient pas : c’est pourquoi on le remplace préventivement."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Combien coûte le remplacement de l’IMS ?",
+      "parrafos": [
+        "C’est une intervention à prix ferme qui dépend du modèle et de la boîte, manuelle ou Tiptronic. Nous donnons le prix avant de commencer, pièces et main-d’œuvre comprises, et nous profitons de la séparation moteur-boîte pour contrôler embrayage, joint arrière de vilebrequin et séparateur air-huile."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quel roulement montez-vous ?",
+      "parrafos": [
+        "Cela dépend de celui que porte le moteur : il existe des solutions différentes pour le double rangée, le 6204 à une rangée et le grand 6305. Nous utilisons des kits de remplacement éprouvés et, quand le moteur le permet, des solutions lubrifiées sous pression qui suppriment le roulement étanche."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "À quelle fréquence contrôler l’IMS après remplacement ?",
+      "parrafos": [
+        "Les roulements étanches de rechange ont un intervalle d’entretien, généralement tous les six ans ou entre 60 000 et 100 000 km selon le fabricant du kit. Les solutions lubrifiées sous pression n’en ont pas. Nous le notons dans l’historique."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Remplacer l’IMS affecte-t-il la garantie ou la valeur de la voiture ?",
+      "parrafos": [
+        "Au contraire : un IMS remplacé et documenté, avec facture, référence du kit et kilométrage, est la première chose que demande tout acheteur de 996, 997.1 ou Boxster. C’est l’un des travaux qui rassurent le plus lors d’une vente."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Peut-on remplacer l’IMS sur une Tiptronic ?",
+      "parrafos": [
+        "Oui. On dépose la boîte et le flexplate au lieu du volant moteur et de l’embrayage. Le prix diffère de la manuelle et est également ferme."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Mon IMS a déjà lâché et il y a des copeaux dans le moteur. Est-ce réparable ?",
+      "parrafos": [
+        "Oui, mais ce n’est plus l’intervention préventive : il faut ouvrir le moteur, nettoyer, évaluer cylindres, vilebrequin et distribution et décider de l’ampleur de la reconstruction. Nous le faisons dans notre salle des moteurs, sur devis d’après ce qui apparaît."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -164,8 +236,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 35,
-    "total": 35,
+    "hechas": 51,
+    "total": 51,
     "completa": true
   }
 }

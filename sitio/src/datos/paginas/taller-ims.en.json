@@ -157,6 +157,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Which models are affected by the IMS?",
+      "parrafos": [
+        "The 911 996 and 997.1, the Boxster 986 and 987.1 and the Cayman 987.1, with M96 and M97 engines from 1997 to 2008. Turbo, GT2 and GT3 use the Mezger engine, with a plain bearing, and do not have this failure; from 2009 (997.2 and 987.2) the engine has no intermediate shaft."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "What are the symptoms of an IMS starting to fail?",
+      "parrafos": [
+        "Metal shavings or particles in the oil filter, a metallic tick at the rear of the engine, leaks from the IMS seal and, in advanced stages, misfires from timing that has slipped. It often gives no warning: that is why it is replaced preventively."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "How much does it cost to replace the IMS?",
+      "parrafos": [
+        "It is a fixed-price job that depends on the model and the gearbox, manual or Tiptronic. We give you the price before starting, parts and labour included, and while the engine is separated from the gearbox we check the clutch, the rear main seal and the air-oil separator."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Which bearing do you fit?",
+      "parrafos": [
+        "It depends on the one the engine carries: there are different solutions for the double-row, the single-row 6204 and the large 6305. We use proven replacement kits and, where the engine allows it, pressure-fed solutions that do away with the sealed bearing."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "How often must the IMS be checked after replacement?",
+      "parrafos": [
+        "Sealed replacement bearings have a service interval, usually every six years or between 60,000 and 100,000 km depending on the kit manufacturer. Pressure-fed solutions have none. We record it in the history so that it is on file."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Does replacing the IMS affect the warranty or the car’s value?",
+      "parrafos": [
+        "The opposite: a replaced and documented IMS, with invoice, kit reference and mileage, is the first thing any buyer of a 996, 997.1 or Boxster asks about. It is one of the jobs that gives most peace of mind in a sale."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Can the IMS be replaced on a Tiptronic?",
+      "parrafos": [
+        "Yes. The gearbox and the flexplate come off instead of the flywheel and clutch. The price differs from the manual and is also fixed."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "My IMS has already failed and there are shavings in the engine. Can it be fixed?",
+      "parrafos": [
+        "Yes, but it is no longer the preventive job: the engine has to be opened, cleaned, the cylinders, crankshaft and timing assessed and the extent of the rebuild decided. We do it in our engine room, with a quote based on what we find."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -164,8 +236,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 35,
-    "total": 35,
+    "hechas": 51,
+    "total": 51,
     "completa": true
   }
 }

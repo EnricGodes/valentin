@@ -157,6 +157,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Welche Modelle sind vom IMS betroffen?",
+      "parrafos": [
+        "Die 911 996 und 997.1, die Boxster 986 und 987.1 und die Cayman 987.1 mit M96- und M97-Motoren von 1997 bis 2008. Turbo, GT2 und GT3 haben den Mezger-Motor mit Gleitlager und diesen Schaden nicht; ab 2009 (997.2 und 987.2) hat der Motor keine Zwischenwelle mehr."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Was sind die Symptome eines beginnenden IMS-Schadens?",
+      "parrafos": [
+        "Metallspäne oder -partikel im Ölfilter, ein metallisches Ticken hinten am Motor, Undichtigkeiten am IMS-Dichtring und in fortgeschrittenem Stadium Zündaussetzer durch verstellte Steuerzeiten. Oft kündigt er sich nicht an: Deshalb wird vorbeugend ersetzt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Was kostet der Austausch des IMS?",
+      "parrafos": [
+        "Es ist ein Eingriff zum Festpreis, der vom Modell und vom Getriebe abhängt, Schaltgetriebe oder Tiptronic. Sie erhalten den Preis vor Beginn, mit Teilen und Arbeit, und da Motor und Getriebe getrennt sind, prüfen wir Kupplung, hinteren Kurbelwellendichtring und Öl-Luft-Abscheider gleich mit."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Welches Lager bauen Sie ein?",
+      "parrafos": [
+        "Das hängt vom verbauten Lager ab: Es gibt verschiedene Lösungen für das zweireihige, das einreihige 6204 und das große 6305. Wir verwenden bewährte Austauschkits und, wo der Motor es erlaubt, druckgeschmierte Lösungen, die das gekapselte Lager überflüssig machen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Wie oft muss das IMS nach dem Austausch geprüft werden?",
+      "parrafos": [
+        "Gekapselte Austauschlager haben ein Serviceintervall, meist alle sechs Jahre oder zwischen 60.000 und 100.000 km je nach Kit-Hersteller. Druckgeschmierte Lösungen haben keines. Wir vermerken es in der Historie."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Beeinflusst der IMS-Austausch Garantie oder Fahrzeugwert?",
+      "parrafos": [
+        "Im Gegenteil: Ein ersetztes und dokumentiertes IMS mit Rechnung, Kit-Referenz und Kilometerstand ist das Erste, wonach jeder Käufer eines 996, 997.1 oder Boxster fragt. Es ist eine der Arbeiten, die beim Verkauf am meisten Vertrauen schaffen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Kann das IMS bei einem Tiptronic ersetzt werden?",
+      "parrafos": [
+        "Ja. Statt Schwungrad und Kupplung werden Getriebe und Flexplate ausgebaut. Der Preis unterscheidet sich vom Schaltgetriebe und ist ebenfalls ein Festpreis."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Mein IMS ist bereits ausgefallen und es sind Späne im Motor. Ist das reparabel?",
+      "parrafos": [
+        "Ja, aber es ist nicht mehr der vorbeugende Eingriff: Der Motor muss geöffnet, gereinigt, Zylinder, Kurbelwelle und Steuerung bewertet und der Umfang der Überholung entschieden werden. Das machen wir in unserem Motorenraum, mit Angebot nach Befund."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -164,8 +236,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 35,
-    "total": 35,
+    "hechas": 51,
+    "total": 51,
     "completa": true
   }
 }

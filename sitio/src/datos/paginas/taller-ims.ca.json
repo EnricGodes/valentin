@@ -157,6 +157,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quins models estan afectats per l’IMS?",
+      "parrafos": [
+        "Els 911 996 i 997.1, els Boxster 986 i 987.1 i els Cayman 987.1, amb motors M96 i M97 de 1997 a 2008. Turbo, GT2 i GT3 porten motor Mezger, amb coixinet llis, i no tenen aquesta fallada; des de 2009 (997.2 i 987.2) el motor no porta eix intermedi."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quins són els símptomes d’un IMS que comença a fallar?",
+      "parrafos": [
+        "Encenalls o partícules metàl·liques al filtre d’oli, un tic-tic metàl·lic a la part posterior del motor, fuites pel retén de l’IMS i, en fases avançades, fallades d’encesa per la distribució descol·locada. Moltes vegades no avisa: per això se substitueix de manera preventiva."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quant costa canviar l’IMS?",
+      "parrafos": [
+        "És una intervenció a preu tancat que depèn del model i del canvi, manual o Tiptronic. Et donem el preu abans de començar, amb peces i mà d’obra, i aprofitem que el motor està separat del canvi per revisar embragatge, retén posterior de cigonyal i separador aire-oli."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quin rodament hi poseu?",
+      "parrafos": [
+        "Depèn del que porti el motor: hi ha solucions diferents per al de doble filera, el 6204 d’una filera i el 6305 gran. Fem servir kits de substitució contrastats i, quan el motor ho permet, solucions lubricades a pressió que eliminen el rodament segellat."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Cada quant cal revisar l’IMS després de canviar-lo?",
+      "parrafos": [
+        "Els rodaments segellats de recanvi tenen un interval de servei, normalment cada sis anys o entre 60.000 i 100.000 km segons el fabricant del kit. Les solucions lubricades a pressió no en tenen. Ho anotem a l’historial perquè consti."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Canviar l’IMS afecta la garantia o el valor del cotxe?",
+      "parrafos": [
+        "Al contrari: un IMS substituït i documentat, amb factura, referència del kit i quilometratge, és el primer que pregunta qualsevol comprador d’un 996, 997.1 o Boxster. És una de les feines que més tranquil·litat dona en una compravenda."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Es pot canviar l’IMS en un Tiptronic?",
+      "parrafos": [
+        "Sí. Es retira el canvi i el flexplate en comptes del volant motor i l’embragatge. El preu és diferent del del manual i també està tancat."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "El meu IMS ja ha fallat i hi ha encenalls al motor. Té arranjament?",
+      "parrafos": [
+        "Sí, però ja no és la intervenció preventiva: cal obrir el motor, netejar, avaluar cilindres, cigonyal i distribució i decidir l’abast de la reconstrucció. Ho fem a la nostra sala de motors, amb pressupost sobre el que apareix."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -164,8 +236,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 35,
-    "total": 35,
+    "hechas": 51,
+    "total": 51,
     "completa": true
   }
 }

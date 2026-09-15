@@ -157,6 +157,78 @@
       ],
       "items": [],
       "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quali modelli sono interessati dall’IMS?",
+      "parrafos": [
+        "Le 911 996 e 997.1, le Boxster 986 e 987.1 e le Cayman 987.1, con motori M96 e M97 dal 1997 al 2008. Turbo, GT2 e GT3 montano il motore Mezger, con bronzina, e non hanno questo guasto; dal 2009 (997.2 e 987.2) il motore non ha albero intermedio."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quali sono i sintomi di un IMS che comincia a cedere?",
+      "parrafos": [
+        "Trucioli o particelle metalliche nel filtro dell’olio, un tic-tic metallico nella parte posteriore del motore, perdite dal paraolio dell’IMS e, in fase avanzata, mancate accensioni per la distribuzione fuori fase. Spesso non avvisa: per questo si sostituisce in via preventiva."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quanto costa sostituire l’IMS?",
+      "parrafos": [
+        "È un intervento a prezzo chiuso che dipende dal modello e dal cambio, manuale o Tiptronic. Le diamo il prezzo prima di iniziare, ricambi e manodopera compresi, e approfittiamo del motore separato dal cambio per controllare frizione, paraolio posteriore dell’albero motore e separatore aria-olio."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quale cuscinetto montate?",
+      "parrafos": [
+        "Dipende da quello che monta il motore: ci sono soluzioni diverse per il doppia fila, il 6204 a una fila e il 6305 grande. Usiamo kit di sostituzione collaudati e, quando il motore lo consente, soluzioni lubrificate a pressione che eliminano il cuscinetto sigillato."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Ogni quanto va controllato l’IMS dopo la sostituzione?",
+      "parrafos": [
+        "I cuscinetti sigillati di ricambio hanno un intervallo di servizio, di solito ogni sei anni o tra 60.000 e 100.000 km secondo il produttore del kit. Le soluzioni lubrificate a pressione non ce l’hanno. Lo annotiamo nello storico."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Sostituire l’IMS influisce sulla garanzia o sul valore dell’auto?",
+      "parrafos": [
+        "Al contrario: un IMS sostituito e documentato, con fattura, riferimento del kit e chilometraggio, è la prima cosa che chiede qualsiasi acquirente di una 996, 997.1 o Boxster. È uno dei lavori che dà più tranquillità in una compravendita."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Si può sostituire l’IMS su una Tiptronic?",
+      "parrafos": [
+        "Sì. Si smonta il cambio e il flexplate invece del volano e della frizione. Il prezzo è diverso da quello del manuale ed è anch’esso chiuso."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Il mio IMS ha già ceduto e ci sono trucioli nel motore. Si può riparare?",
+      "parrafos": [
+        "Sì, ma non è più l’intervento preventivo: bisogna aprire il motore, pulire, valutare cilindri, albero motore e distribuzione e decidere l’entità della ricostruzione. Lo facciamo nella nostra sala motori, con preventivo su ciò che emerge."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {
@@ -164,8 +236,8 @@
     "emails": []
   },
   "traduccion": {
-    "hechas": 35,
-    "total": 35,
+    "hechas": 51,
+    "total": 51,
     "completa": true
   }
 }
