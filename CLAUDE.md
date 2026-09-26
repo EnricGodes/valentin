@@ -147,7 +147,7 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 1. **Sin opinión de Jordi**: la ficha no la trae y no se inventa; la sección está fuera de la página hasta que Jordi la escriba
 2. **231 CV / 284 Nm**: cifras de catálogo del motor 930/20 que da la ficha, no vienen en ella. Es versión Suecia (062) con centralita de emisiones (154): validar con Valentin la potencia real
 3. **Interior "piel beige"**: sale de las fotos, la ficha no dice color ni material
-4. Solo está en los microsites; no tiene ficha en `sitio/`
+4. En `sitio/` tiene ficha en seis idiomas (slug `porsche-911-carrera-3-2-coupe-1984`), traducida a mano: no copiar las etiquetas de las otras fichas traducidas, que salieron de traductor automático ("Tapez", "Boxtyp")
 
 ### Porsche 997.1 Carrera 4S manual
 - Vendido (2026-09-26). Fuera de los microsites; en `sitio/` sigue su ficha con estado vendido. `img/997/` se conserva porque `sitio` copia sus fotos de `img/`

@@ -1,0 +1,463 @@
+{
+  "slug": "porsche-911-carrera-3-2-coupe-1984",
+  "archivoOriginal": "911carrera32.html",
+  "realce": "realce--911carrera32",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 3.2 Coupé 1984 Slate Blue · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera 3.2 Coupé de 1984 en Slate Blue, 48.200 km y cambio manual de 5 velocidades. Vendido por Valentin en 2015, vuelve con solo 3.000 km más. Precio: 97.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/911carrera32/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 911 Carrera 3.2 · Coupé",
+    "subtitulo": "Porsche 911 Carrera 3.2",
+    "titulo": "Coupé",
+    "claim": "Slate Blue. 48.200 km. Una unidad que vuelve a casa.",
+    "imagen": "/img/911carrera32/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Historia del vehículo",
+    "titulo": "Un coche<br/><strong>que conocemos<br/>desde hace más de una década.</strong>",
+    "parrafos": [
+      "Este <strong>Porsche 911 Carrera 3.2 Coupé</strong> procede de una colección privada. Producido el <strong>9 de septiembre de 1983</strong> como año modelo <strong>1984</strong>, combina el motor bóxer atmosférico de 3,2 litros con una caja manual de cinco velocidades y una carrocería en <strong>Slate Blue</strong>.",
+      "En <strong>2015</strong>, con unos <strong>45.000 km</strong>, lo vendimos con destino a otra colección. <strong>Diez años después</strong>, el coche vuelve a Valentin Motors con <strong>48.200 km</strong>: apenas unos 3.000 km en toda la década."
+    ],
+    "cita": "Un 911 Carrera 3.2 con historia conocida, uso muy contenido y una configuración de fábrica documentada por código de opción.",
+    "datos": [
+      {
+        "clave": "Modelo",
+        "valor": "911 Carrera 3.2 Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Producción",
+        "valor": "09/09/1983 · MY 1984",
+        "acento": false
+      },
+      {
+        "clave": "VIN",
+        "valor": "WP0ZZZ91ZES100378",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bóxer · 3,2 litros · 930/20",
+        "acento": false
+      },
+      {
+        "clave": "Transmisión",
+        "valor": "Manual de 5 velocidades · 915/67",
+        "acento": false
+      },
+      {
+        "clave": "Kilometraje",
+        "valor": "48.200 km",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Slate Blue",
+        "acento": false
+      },
+      {
+        "clave": "Precio",
+        "valor": "97.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galería",
+    "titulo": "Slate Blue.<br/><strong>Coupé y cinco<br/>velocidades manuales.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911carrera32/exterior1.jpg",
+        "alt": "Exterior frontal 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Frontal 3/4 · Slate Blue · Llantas Fuchs de 16\""
+      },
+      {
+        "src": "/img/911carrera32/exterior2.jpg",
+        "alt": "Perfil Coupé",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil completo · Silueta Coupé"
+      },
+      {
+        "src": "/img/911carrera32/exterior3.jpg",
+        "alt": "Vista trasera 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Trasera 3/4 · Spoiler trasero de fábrica, opción 473"
+      },
+      {
+        "src": "/img/911carrera32/interior1.jpg",
+        "alt": "Habitáculo",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitáculo · Asientos deportivos, opción 409"
+      },
+      {
+        "src": "/img/911carrera32/close-up2.jpg",
+        "alt": "Llanta Fuchs",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta forjada de 16\" · Opción 395"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor y mecánica",
+    "titulo": "Bóxer<br/><strong>atmosférico<br/>de 3,2 litros.</strong>",
+    "stats": [
+      {
+        "valor": "3,2",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrada",
+        "destacada": true
+      },
+      {
+        "valor": 231,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Potencia",
+        "destacada": false
+      },
+      {
+        "valor": 284,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Par máximo",
+        "destacada": false
+      },
+      {
+        "valor": "5",
+        "animado": false,
+        "unidad": "vel",
+        "etiqueta": "Manual 915",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El motor <strong>930/20</strong> es el bóxer de seis cilindros y <strong>3.164 cm³</strong> refrigerado por aire que estrenó el Carrera 3.2 en 1984, con inyección y encendido gestionados electrónicamente por la DME. Esta unidad añade de fábrica una <strong>centralita de optimización de emisiones</strong> (código 154), asociada a su especificación para Suecia.",
+      "La caja es la <strong>915/67</strong>, manual de cinco velocidades, la última generación de la 915 antes de la llegada de la G50. El chasis monta <strong>amortiguadores deportivos</strong> delante y detrás (código 474)."
+    ],
+    "tags": [
+      "Bóxer 930/20",
+      "Refrigeración por aire",
+      "Manual 915",
+      "Amortiguadores deportivos",
+      "48.200 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Equipamiento de fábrica · Códigos de opción",
+    "titulo": "Configuración<br/><strong>de origen documentada.</strong>",
+    "ancla": "equipamiento",
+    "precio": "97.000 € · 48.200 km",
+    "categorias": [
+      {
+        "titulo": "Mecánica",
+        "items": [
+          "154 · Centralita de optimización de emisiones",
+          "197 · Batería de mayor capacidad",
+          "062 · Versión para Suecia"
+        ]
+      },
+      {
+        "titulo": "Chasis y ruedas",
+        "items": [
+          "474 · Amortiguadores deportivos delanteros y traseros",
+          "395 · Llantas forjadas de 16\""
+        ]
+      },
+      {
+        "titulo": "Carrocería",
+        "items": [
+          "473 · Spoiler delantero y trasero",
+          "650 · Techo eléctrico",
+          "425 · Limpiaparabrisas trasero",
+          "528 · Retrovisor derecho convexo, eléctrico y calefactado"
+        ]
+      },
+      {
+        "titulo": "Interior",
+        "items": [
+          "409 · Asientos deportivos",
+          "441 · Preinstalación de radio"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Slate Blue.<br/><strong>Sobrio, metálico<br/>y muy de su época.</strong>",
+    "texto": "El <strong>Slate Blue</strong> es un azul grisáceo metalizado que cambia con la luz y deja leer con claridad las superficies del Coupé. La unidad sale de fábrica con el <strong>spoiler delantero y el alerón trasero</strong> (código 473), que dan al Carrera 3.2 su silueta más reconocible, y con <strong>llantas forjadas de 16 pulgadas</strong> (código 395) de diseño Fuchs, con el centro en gris y el labio pulido. Completan el conjunto el techo eléctrico y el limpiaparabrisas trasero.",
+    "fotos": [
+      {
+        "src": "/img/911carrera32/close-up1.jpg",
+        "alt": "Detalle trasero",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Alerón trasero · Inscripción Carrera y franja PORSCHE"
+      },
+      {
+        "src": "/img/911carrera32/close-up2.jpg",
+        "alt": "Llanta forjada",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta forjada de 16\" · Diseño Fuchs"
+      },
+      {
+        "src": "/img/911carrera32/close-up3.jpg",
+        "alt": "Detalle frontal",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Frontal · Faro redondo y spoiler delantero"
+      },
+      {
+        "src": "/img/911carrera32/close-up4.jpg",
+        "alt": "Trasera 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Trasera 3/4 · Proporciones del Coupé"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Piel beige.<br/><strong>Asientos deportivos<br/>de fábrica.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911carrera32/interior1.jpg",
+        "alt": "Habitáculo completo",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitáculo · Cuadro de cinco relojes"
+      },
+      {
+        "src": "/img/911carrera32/interior2.jpg",
+        "alt": "Asientos deportivos",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Asientos deportivos · Opción 409"
+      },
+      {
+        "src": "/img/911carrera32/interior3.jpg",
+        "alt": "Plazas traseras",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Plazas traseras · Respaldos abatibles"
+      }
+    ],
+    "editorial": "El habitáculo mantiene el planteamiento clásico del 911 de los años ochenta: salpicadero horizontal, cuadro de cinco relojes y palanca de cambio corta en el túnel central. Los <strong>asientos deportivos</strong> de fábrica (código 409) y la tapicería en piel beige contrastan con el Slate Blue exterior. El uso contenido de la última década se aprecia en el estado de las superficies."
+  },
+  "procedencia": {
+    "etiqueta": "Documentación y procedencia",
+    "titulo": "Historial<br/><strong>conocido por Valentin.<br/>1983, 2015 y 2026.</strong>",
+    "hitos": [
+      {
+        "anio": "1983 · Producción",
+        "titulo": "Fabricado el 9 de septiembre de 1983",
+        "cuerpo": "Año modelo <strong>1984</strong>, primer año del Carrera 3.2. Especificación para Suecia, en <strong>Slate Blue</strong>, con motor 930/20 y caja 915/67.",
+        "badge": "VIN WP0ZZZ91ZES100378"
+      },
+      {
+        "anio": "2015 · Primera venta en Valentin",
+        "titulo": "De una colección a otra, con unos 45.000 km",
+        "cuerpo": "Valentin Motors vende la unidad, procedente de una colección privada, con destino a otra colección. El coche tiene entonces aproximadamente <strong>45.000 km</strong>.",
+        "badge": "≈ 45.000 km"
+      },
+      {
+        "anio": "2026 · Regreso",
+        "titulo": "Vuelve con 48.200 km",
+        "cuerpo": "Diez años después, la unidad regresa a Valentin Motors con <strong>48.200 km</strong>. En más de una década ha recorrido unos <strong>3.000 km</strong>, un uso extraordinariamente reducido y documentado.",
+        "badge": "97.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Ficha técnica",
+    "titulo": "Especificaciones<br/><strong>completas.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Tipo",
+            "valor": "Bóxer de 6 cilindros trasero"
+          },
+          {
+            "clave": "Código de motor",
+            "valor": "930/20"
+          },
+          {
+            "clave": "Cilindrada",
+            "valor": "3.164 cm³"
+          },
+          {
+            "clave": "Potencia",
+            "valor": "231 CV"
+          },
+          {
+            "clave": "Par máximo",
+            "valor": "284 Nm"
+          },
+          {
+            "clave": "Refrigeración",
+            "valor": "Por aire"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmisión y chasis",
+        "filas": [
+          {
+            "clave": "Cambio",
+            "valor": "Manual de 5 velocidades"
+          },
+          {
+            "clave": "Código de caja",
+            "valor": "915/67"
+          },
+          {
+            "clave": "Tracción",
+            "valor": "Trasera"
+          },
+          {
+            "clave": "Amortiguación",
+            "valor": "Deportiva delantera y trasera (474)"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrocería y datos generales",
+        "filas": [
+          {
+            "clave": "Producción",
+            "valor": "09/09/1983"
+          },
+          {
+            "clave": "Año modelo",
+            "valor": "1984"
+          },
+          {
+            "clave": "VIN",
+            "valor": "WP0ZZZ91ZES100378"
+          },
+          {
+            "clave": "Código de modelo",
+            "valor": "911330"
+          },
+          {
+            "clave": "Carrocería",
+            "valor": "Coupé"
+          },
+          {
+            "clave": "Color exterior",
+            "valor": "Slate Blue"
+          }
+        ]
+      },
+      {
+        "titulo": "Historial",
+        "filas": [
+          {
+            "clave": "Kilometraje actual",
+            "valor": "48.200 km"
+          },
+          {
+            "clave": "Vendido por Valentin",
+            "valor": "2015 · ≈ 45.000 km"
+          },
+          {
+            "clave": "Regreso a Valentin",
+            "valor": "2026"
+          },
+          {
+            "clave": "Km en la última década",
+            "valor": "≈ 3.000 km"
+          },
+          {
+            "clave": "Procedencia",
+            "valor": "Colección privada"
+          }
+        ]
+      },
+      {
+        "titulo": "Opciones de fábrica",
+        "filas": [
+          {
+            "clave": "062",
+            "valor": "Versión para Suecia"
+          },
+          {
+            "clave": "154 / 197",
+            "valor": "Centralita de emisiones / Batería reforzada"
+          },
+          {
+            "clave": "395",
+            "valor": "Llantas forjadas de 16\""
+          },
+          {
+            "clave": "409",
+            "valor": "Asientos deportivos"
+          },
+          {
+            "clave": "425 / 441",
+            "valor": "Limpiaparabrisas trasero / Preinstalación de radio"
+          },
+          {
+            "clave": "473 / 474",
+            "valor": "Spoilers / Amortiguadores deportivos"
+          },
+          {
+            "clave": "528 / 650",
+            "valor": "Retrovisor derecho calefactado / Techo eléctrico"
+          }
+        ]
+      },
+      {
+        "titulo": "Condiciones de venta",
+        "filas": [
+          {
+            "clave": "Precio",
+            "valor": "97.000 €"
+          },
+          {
+            "clave": "Historial",
+            "valor": "Conocido desde 2015"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/911carrera32/exterior3.jpg",
+    "cita": "Un Porsche 911 Carrera 3.2 Coupé en <em>Slate Blue</em>, con 48.200 km y un historial que conocemos de primera mano desde 2015.",
+    "precio": "97.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 911 Carrera 3.2 Coupé · Slate Blue · 1984",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Más información",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · Carrera",
+    "nombre": "911 Carrera 3.2 Coupé",
+    "detalle": "1984 · 48.200 km · Slate Blue",
+    "descripcion": "Bóxer 3,2 L · Manual de 5 velocidades · Llantas forjadas de 16\". Vendido por Valentin en 2015 con 45.000 km; vuelve diez años después con solo 3.000 km más.",
+    "precio": "97.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/911carrera32/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "slug": "porsche-911-carrera-3-2-coupe-1984",
+  "archivoOriginal": "911carrera32.html",
+  "realce": "realce--911carrera32",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 3.2 Coupé 1984 Slate Blue · Valentín Motors",
+    "descripcion": "1984 Porsche 911 Carrera 3.2 Coupé in Slate Blue, 48,200 km, five-speed manual gearbox. Sold by Valentin in 2015, back with only 3,000 km more. Price: €97,000.",
+    "ogImagen": "https://valentin.up.railway.app/img/911carrera32/exterior1.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 911 Carrera 3.2 · Coupé",
+    "subtitulo": "Porsche 911 Carrera 3.2",
+    "titulo": "Coupé",
+    "claim": "Slate Blue. 48,200 km. A car that comes home.",
+    "imagen": "/img/911carrera32/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Vehicle history",
+    "titulo": "A car<br/><strong>we have known<br/>for more than a decade.</strong>",
+    "parrafos": [
+      "This <strong>Porsche 911 Carrera 3.2 Coupé</strong> comes from a private collection. Built on <strong>9 September 1983</strong> as a <strong>1984</strong> model year car, it pairs the naturally aspirated 3.2-litre flat-six with a five-speed manual gearbox and <strong>Slate Blue</strong> paintwork.",
+      "In <strong>2015</strong>, at around <strong>45,000 km</strong>, we sold it into another collection. <strong>Ten years later</strong> the car is back at Valentin Motors with <strong>48,200 km</strong>: barely 3,000 km in a whole decade."
+    ],
+    "cita": "A 911 Carrera 3.2 with a known history, very restrained use and a factory specification documented option by option.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera 3.2 Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Production",
+        "valor": "09/09/1983 · MY 1984",
+        "acento": false
+      },
+      {
+        "clave": "VIN",
+        "valor": "WP0ZZZ91ZES100378",
+        "acento": false
+      },
+      {
+        "clave": "Engine",
+        "valor": "Flat-six · 3.2 litres · 930/20",
+        "acento": false
+      },
+      {
+        "clave": "Transmission",
+        "valor": "Five-speed manual · 915/67",
+        "acento": false
+      },
+      {
+        "clave": "Mileage",
+        "valor": "48,200 km",
+        "acento": false
+      },
+      {
+        "clave": "Colour",
+        "valor": "Slate Blue",
+        "acento": false
+      },
+      {
+        "clave": "Price",
+        "valor": "€97,000",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Gallery",
+    "titulo": "Slate Blue.<br/><strong>Coupé and a five-speed<br/>manual gearbox.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911carrera32/exterior1.jpg",
+        "alt": "Front three-quarter view",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Front 3/4 · Slate Blue · 16\" Fuchs wheels"
+      },
+      {
+        "src": "/img/911carrera32/exterior2.jpg",
+        "alt": "Coupé profile",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Full profile · Coupé silhouette"
+      },
+      {
+        "src": "/img/911carrera32/exterior3.jpg",
+        "alt": "Rear three-quarter view",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Rear 3/4 · Factory rear spoiler, option 473"
+      },
+      {
+        "src": "/img/911carrera32/interior1.jpg",
+        "alt": "Cabin",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabin · Sports seats, option 409"
+      },
+      {
+        "src": "/img/911carrera32/close-up2.jpg",
+        "alt": "Fuchs wheel",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "16\" forged wheel · Option 395"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Engine and mechanics",
+    "titulo": "A naturally<br/><strong>aspirated<br/>3.2-litre flat-six.</strong>",
+    "stats": [
+      {
+        "valor": "3.2",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Displacement",
+        "destacada": true
+      },
+      {
+        "valor": 231,
+        "animado": true,
+        "unidad": "PS",
+        "etiqueta": "Power",
+        "destacada": false
+      },
+      {
+        "valor": 284,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Peak torque",
+        "destacada": false
+      },
+      {
+        "valor": "5",
+        "animado": false,
+        "unidad": "spd",
+        "etiqueta": "915 manual",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "The <strong>930/20</strong> engine is the air-cooled, <strong>3,164 cc</strong> flat-six that the Carrera 3.2 introduced in 1984, with injection and ignition managed electronically by the DME. From the factory, this car adds an <strong>emissions optimisation control unit</strong> (code 154), linked to its Swedish-market specification.",
+      "The gearbox is the <strong>915/67</strong> five-speed manual, the final generation of the 915 before the arrival of the G50. The chassis runs <strong>sports dampers</strong> front and rear (code 474)."
+    ],
+    "tags": [
+      "930/20 flat-six",
+      "Air-cooled",
+      "915 manual",
+      "Sports dampers",
+      "48,200 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Factory equipment · Option codes",
+    "titulo": "Original<br/><strong>specification, documented.</strong>",
+    "ancla": "equipamiento",
+    "precio": "€97,000 · 48,200 km",
+    "categorias": [
+      {
+        "titulo": "Mechanical",
+        "items": [
+          "154 · Emissions optimisation control unit",
+          "197 · Higher-capacity battery",
+          "062 · Swedish-market version"
+        ]
+      },
+      {
+        "titulo": "Chassis and wheels",
+        "items": [
+          "474 · Front and rear sports dampers",
+          "395 · 16\" forged wheels"
+        ]
+      },
+      {
+        "titulo": "Body",
+        "items": [
+          "473 · Front and rear spoiler",
+          "650 · Electric sunroof",
+          "425 · Rear wiper",
+          "528 · Convex right-hand mirror, electric and heated"
+        ]
+      },
+      {
+        "titulo": "Interior",
+        "items": [
+          "409 · Sports seats",
+          "441 · Radio preparation"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Slate Blue.<br/><strong>Understated, metallic<br/>and very much of its time.</strong>",
+    "texto": "<strong>Slate Blue</strong> is a greyish metallic blue that shifts with the light and lets the Coupé's surfaces read clearly. The car left the factory with the <strong>front spoiler and rear wing</strong> (code 473) that give the Carrera 3.2 its best-known silhouette, and with <strong>16-inch forged wheels</strong> (code 395) of Fuchs design, grey centres and polished rims. The electric sunroof and rear wiper complete the picture.",
+    "fotos": [
+      {
+        "src": "/img/911carrera32/close-up1.jpg",
+        "alt": "Rear detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Rear wing · Carrera script and PORSCHE light bar"
+      },
+      {
+        "src": "/img/911carrera32/close-up2.jpg",
+        "alt": "Forged wheel",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "16\" forged wheel · Fuchs design"
+      },
+      {
+        "src": "/img/911carrera32/close-up3.jpg",
+        "alt": "Front detail",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Front · Round headlamp and front spoiler"
+      },
+      {
+        "src": "/img/911carrera32/close-up4.jpg",
+        "alt": "Rear three-quarter view",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Rear 3/4 · Coupé proportions"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Beige leather.<br/><strong>Factory<br/>sports seats.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911carrera32/interior1.jpg",
+        "alt": "Full cabin",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabin · Five-dial instrument cluster"
+      },
+      {
+        "src": "/img/911carrera32/interior2.jpg",
+        "alt": "Sports seats",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Sports seats · Option 409"
+      },
+      {
+        "src": "/img/911carrera32/interior3.jpg",
+        "alt": "Rear seats",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Rear seats · Folding backrests"
+      }
+    ],
+    "editorial": "The cabin keeps the classic layout of the 1980s 911: a horizontal dashboard, five dials and a short gear lever on the central tunnel. The factory <strong>sports seats</strong> (code 409) and beige leather upholstery contrast with the Slate Blue exterior. The restrained use of the past decade shows in the condition of the surfaces."
+  },
+  "procedencia": {
+    "etiqueta": "Documentation and origin",
+    "titulo": "A history<br/><strong>known to Valentin.<br/>1983, 2015 and 2026.</strong>",
+    "hitos": [
+      {
+        "anio": "1983 · Production",
+        "titulo": "Built on 9 September 1983",
+        "cuerpo": "Model year <strong>1984</strong>, the first year of the Carrera 3.2. Swedish-market specification in <strong>Slate Blue</strong>, with the 930/20 engine and 915/67 gearbox.",
+        "badge": "VIN WP0ZZZ91ZES100378"
+      },
+      {
+        "anio": "2015 · First sale at Valentin",
+        "titulo": "From one collection to another, at around 45,000 km",
+        "cuerpo": "Valentin Motors sells the car, from a private collection, into another collection. It has approximately <strong>45,000 km</strong> at the time.",
+        "badge": "≈ 45,000 km"
+      },
+      {
+        "anio": "2026 · Return",
+        "titulo": "Back with 48,200 km",
+        "cuerpo": "Ten years later the car returns to Valentin Motors with <strong>48,200 km</strong>. In more than a decade it has covered around <strong>3,000 km</strong>, an exceptionally low and documented use.",
+        "badge": "€97,000"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Technical sheet",
+    "titulo": "Full<br/><strong>specifications.</strong>",
+    "grupos": [
+      {
+        "titulo": "Engine",
+        "filas": [
+          {
+            "clave": "Type",
+            "valor": "Rear flat-six"
+          },
+          {
+            "clave": "Engine code",
+            "valor": "930/20"
+          },
+          {
+            "clave": "Displacement",
+            "valor": "3,164 cc"
+          },
+          {
+            "clave": "Power",
+            "valor": "231 PS"
+          },
+          {
+            "clave": "Peak torque",
+            "valor": "284 Nm"
+          },
+          {
+            "clave": "Cooling",
+            "valor": "Air"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmission and chassis",
+        "filas": [
+          {
+            "clave": "Gearbox",
+            "valor": "Five-speed manual"
+          },
+          {
+            "clave": "Gearbox code",
+            "valor": "915/67"
+          },
+          {
+            "clave": "Drive",
+            "valor": "Rear-wheel"
+          },
+          {
+            "clave": "Damping",
+            "valor": "Sports, front and rear (474)"
+          }
+        ]
+      },
+      {
+        "titulo": "Body and general",
+        "filas": [
+          {
+            "clave": "Production",
+            "valor": "09/09/1983"
+          },
+          {
+            "clave": "Model year",
+            "valor": "1984"
+          },
+          {
+            "clave": "VIN",
+            "valor": "WP0ZZZ91ZES100378"
+          },
+          {
+            "clave": "Model code",
+            "valor": "911330"
+          },
+          {
+            "clave": "Body",
+            "valor": "Coupé"
+          },
+          {
+            "clave": "Exterior colour",
+            "valor": "Slate Blue"
+          }
+        ]
+      },
+      {
+        "titulo": "History",
+        "filas": [
+          {
+            "clave": "Current mileage",
+            "valor": "48,200 km"
+          },
+          {
+            "clave": "Sold by Valentin",
+            "valor": "2015 · ≈ 45,000 km"
+          },
+          {
+            "clave": "Returned to Valentin",
+            "valor": "2026"
+          },
+          {
+            "clave": "Km in the last decade",
+            "valor": "≈ 3,000 km"
+          },
+          {
+            "clave": "Origin",
+            "valor": "Private collection"
+          }
+        ]
+      },
+      {
+        "titulo": "Factory options",
+        "filas": [
+          {
+            "clave": "062",
+            "valor": "Swedish-market version"
+          },
+          {
+            "clave": "154 / 197",
+            "valor": "Emissions control unit / Uprated battery"
+          },
+          {
+            "clave": "395",
+            "valor": "16\" forged wheels"
+          },
+          {
+            "clave": "409",
+            "valor": "Sports seats"
+          },
+          {
+            "clave": "425 / 441",
+            "valor": "Rear wiper / Radio preparation"
+          },
+          {
+            "clave": "473 / 474",
+            "valor": "Spoilers / Sports dampers"
+          },
+          {
+            "clave": "528 / 650",
+            "valor": "Heated right-hand mirror / Electric sunroof"
+          }
+        ]
+      },
+      {
+        "titulo": "Terms of sale",
+        "filas": [
+          {
+            "clave": "Price",
+            "valor": "€97,000"
+          },
+          {
+            "clave": "History",
+            "valor": "Known since 2015"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/911carrera32/exterior3.jpg",
+    "cita": "A Porsche 911 Carrera 3.2 Coupé in <em>Slate Blue</em>, with 48,200 km and a history we have known first-hand since 2015.",
+    "precio": "€97,000",
+    "precioTachado": false,
+    "precioLabel": "Porsche 911 Carrera 3.2 Coupé · Slate Blue · 1984",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "More information",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Available",
+    "marca": "Porsche · Carrera",
+    "nombre": "911 Carrera 3.2 Coupé",
+    "detalle": "1984 · 48,200 km · Slate Blue",
+    "descripcion": "3.2 L flat-six · Five-speed manual · 16\" forged wheels. Sold by Valentin in 2015 at 45,000 km; back ten years later with only 3,000 km more.",
+    "precio": "€97,000",
+    "precioPorConsultar": false,
+    "imagen": "/img/911carrera32/exterior1.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  },
+  "traduccion": {
+    "hechas": 151,
+    "total": 151,
+    "completa": true
+  }
+}
