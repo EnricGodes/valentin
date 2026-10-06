@@ -141,7 +141,8 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 5. **Carrocería KAAN**: es KAAN, el especialista austriaco. No es Karmann. Confirmado por Enric el 2026-09-01; queda cerrado, no volver a plantearlo
 
 ### Porsche 997 RUF Kompressor R (ruf.html)
-- Sin notas pendientes
+1. **Archivo fotográfico** (2026-10-06): 57 fotos extra (`docs/coches/ruf/extras`, sesión "mottatrece") en `img/ruf/extras/` (1400 px) y `img/ruf/extras/mini/` (900 px), en cinco grupos: exterior, detalles, motor, interior, cabina. Están en `ruf.html` (sección `#fotografias`, con visor propio) y en `sitio/` (bloque `fotografias` del JSON, seis idiomas). Los textos de `ruf.html` se generaron desde el JSON en castellano: si se cambian, cambiar los dos
+2. **Kilómetros**: el cuentakilómetros de las fotos marca 52.665 km; la ficha dice 52.492. Validar con Valentin cuál es el dato comercial
 
 ### Porsche 911 Carrera 3.2 Coupé 1984 (911carrera32.html)
 1. **Sin opinión de Jordi**: la ficha no la trae y no se inventa; la sección está fuera de la página hasta que Jordi la escriba

@@ -698,6 +698,64 @@
     max-width: 100%;
   }
 
+  /* ── 7b. ARCHIVO FOTOGRÁFICO ── */
+  #fotografias { padding: 128px 56px; background: var(--black); }
+  .archivo-inner { max-width: 1200px; margin: 0 auto; }
+  .archivo-indice {
+    display: flex; flex-wrap: wrap; gap: 10px 28px;
+    margin-top: 44px; padding-top: 22px; border-top: 1px solid rgba(167,162,154,0.10);
+  }
+  .archivo-indice a {
+    font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--concrete); text-decoration: none;
+    transition: color 0.3s;
+  }
+  .archivo-indice a span { color: var(--bronze); margin-left: 6px; }
+  .archivo-indice a:hover { color: var(--white); }
+  .archivo-grupo { margin-top: 112px; scroll-margin-top: 40px; }
+  /* Columnas: verticales y apaisadas conviven sin recortes ni huecos */
+  .archivo-galeria { columns: 3; column-gap: 6px; margin-top: 52px; }
+  .archivo-foto { break-inside: avoid; margin: 0 0 6px; position: relative; overflow: hidden; cursor: none; }
+  .archivo-foto--abre { column-span: all; }
+  .archivo-foto img {
+    width: 100%; height: auto; display: block; background: var(--charcoal);
+    transition: transform 1s cubic-bezier(0.16,1,0.3,1);
+  }
+  .archivo-foto:hover img { transform: scale(1.04); }
+  .archivo-foto img:focus-visible { outline: 2px solid var(--bronze); outline-offset: -2px; }
+  .archivo-foto figcaption {
+    position: absolute; bottom: 0; left: 0; right: 0; padding: 40px 16px 14px;
+    background: linear-gradient(to top, rgba(11,11,11,0.7) 0%, transparent 100%);
+    font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em;
+    color: var(--white); text-transform: uppercase; pointer-events: none;
+    opacity: 0; transform: translateY(8px); transition: opacity 0.4s, transform 0.5s;
+  }
+  .archivo-foto:hover figcaption, .archivo-foto:focus-within figcaption { opacity: 1; transform: none; }
+
+  /* Visor: uno para toda la página; las flechas recorren el grupo pulsado */
+  .lupa {
+    position: fixed; inset: 0; z-index: 300; display: grid; place-items: center;
+    padding: 40px; background: rgba(11,11,10,0.985);
+    opacity: 0; visibility: hidden; transition: opacity 0.35s, visibility 0.35s;
+  }
+  .lupa.abierta { opacity: 1; visibility: visible; }
+  .lupa img { max-width: 100%; max-height: 86vh; object-fit: contain; }
+  .lupa-pie {
+    position: absolute; bottom: 22px; left: 0; right: 0; padding: 0 40px; text-align: center;
+    font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--concrete);
+  }
+  .lupa button {
+    position: absolute; width: 44px; height: 44px; cursor: none;
+    border: 1px solid rgba(167,162,154,0.22); background: rgba(11,11,10,0.72);
+    color: var(--white); font-size: 18px; transition: background 0.3s, border-color 0.3s;
+  }
+  .lupa button:hover { background: var(--bronze); border-color: var(--bronze); color: var(--black); }
+  .lupa button[disabled] { opacity: 0.25; pointer-events: none; }
+  .lupa-cerrar { top: 22px; right: 26px; }
+  .lupa-antes { left: 22px; top: 50%; transform: translateY(-50%); }
+  .lupa-luego { right: 22px; top: 50%; transform: translateY(-50%); }
+
   /* ── RESPONSIVE ── */
   @media (max-width: 960px) {
     nav { padding: 20px 24px; }
@@ -729,6 +787,11 @@
     footer { padding: 32px 24px; }
     body { cursor: auto; }
     #cursor, #cursor-ring { display: none; }
+    #fotografias { padding: 80px 24px; }
+    .archivo-galeria { columns: 2; }
+    .archivo-grupo { margin-top: 80px; }
+    .lupa { padding: 64px 12px; }
+    .lupa button { cursor: auto; }
   }
 
   @media (max-width: 600px) {
@@ -751,6 +814,7 @@
     <li><a href="#rufkit">RUF Kit</a></li>
     <li><a href="#exterior">Exterior</a></li>
     <li><a href="#interior">Interior</a></li>
+    <li><a href="#fotografias">Fotos</a></li>
     <li><a href="#jordi">Opinión</a></li>
     <li><a href="#specs">Ficha técnica</a></li>
   </ul>
@@ -1029,6 +1093,285 @@
   </div>
 </section>
 
+<!-- 7b. ARCHIVO FOTOGRÁFICO -->
+<section id="fotografias">
+  <div class="archivo-inner">
+    <div class="shimmer-line reveal"></div>
+    <p class="section-label reveal">Archivo fotográfico</p>
+    <h2 class="section-title reveal delay-1">57 fotografías.<br><strong>Cada detalle,<br>a la vista.</strong></h2>
+    <nav class="archivo-indice reveal delay-2" aria-label="Archivo fotográfico">
+      <a href="#fotos-exterior">Exterior <span>14</span></a>
+      <a href="#fotos-detalles">Carrocería, llantas y frenos <span>13</span></a>
+      <a href="#fotos-motor">Motor <span>06</span></a>
+      <a href="#fotos-interior">Interior <span>13</span></a>
+      <a href="#fotos-cabina">Puesto de conducción <span>11</span></a>
+    </nav>
+    <div class="archivo-grupo" id="fotos-exterior">
+      <div class="shimmer-line reveal"></div>
+      <p class="section-label reveal">Exterior</p>
+      <h2 class="section-title reveal delay-1">Irish Green<br><strong>a plena luz.</strong></h2>
+      <div class="archivo-galeria reveal">
+        <figure class="archivo-foto archivo-foto--abre">
+          <img src="/img/ruf/extras/mini/exterior-01.jpg" data-full="/img/ruf/extras/exterior-01.jpg" alt="Frontal 3/4 · Irish Green" width="1400" height="787" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Frontal 3/4 · Irish Green</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-02.jpg" data-full="/img/ruf/extras/exterior-02.jpg" alt="Frontal 3/4 · Parachoques RUF Rt 12" width="1400" height="788" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Frontal 3/4 · Parachoques RUF Rt 12</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-03.jpg" data-full="/img/ruf/extras/exterior-03.jpg" alt="Frontal 3/4 · Llantas RUF 19&quot;" width="1400" height="788" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Frontal 3/4 · Llantas RUF 19&quot;</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-04.jpg" data-full="/img/ruf/extras/exterior-04.jpg" alt="Frontal · Parachoques RUF Rt 12" width="1400" height="787" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Frontal · Parachoques RUF Rt 12</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-05.jpg" data-full="/img/ruf/extras/exterior-05.jpg" alt="Frontal 3/4 · Pinzas amarillas" width="1400" height="788" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Frontal 3/4 · Pinzas amarillas</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-06.jpg" data-full="/img/ruf/extras/exterior-06.jpg" alt="Perfil lateral" width="1400" height="788" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Perfil lateral</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-07.jpg" data-full="/img/ruf/extras/exterior-07.jpg" alt="Trasera 3/4 · Alerón RUF Rt 12" width="1400" height="787" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Trasera 3/4 · Alerón RUF Rt 12</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-08.jpg" data-full="/img/ruf/extras/exterior-08.jpg" alt="Trasera 3/4 · Parachoques RUF Rt 12" width="1400" height="787" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Trasera 3/4 · Parachoques RUF Rt 12</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-09.jpg" data-full="/img/ruf/extras/exterior-09.jpg" alt="Lateral · Línea de cintura" width="1400" height="933" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Lateral · Línea de cintura</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-10.jpg" data-full="/img/ruf/extras/exterior-10.jpg" alt="Frontal 3/4 desde el alerón" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Frontal 3/4 desde el alerón</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-11.jpg" data-full="/img/ruf/extras/exterior-11.jpg" alt="Frontal · Faros" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Frontal · Faros</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-12.jpg" data-full="/img/ruf/extras/exterior-12.jpg" alt="Lateral trasero · Llanta RUF 19&quot;" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Lateral trasero · Llanta RUF 19&quot;</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-13.jpg" data-full="/img/ruf/extras/exterior-13.jpg" alt="Trasera 3/4 · Paso de rueda" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Trasera 3/4 · Paso de rueda</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/exterior-14.jpg" data-full="/img/ruf/extras/exterior-14.jpg" alt="Frontal · Llanta RUF y faro" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Frontal · Llanta RUF y faro</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="archivo-grupo" id="fotos-detalles">
+      <div class="shimmer-line reveal"></div>
+      <p class="section-label reveal">Carrocería, llantas y frenos</p>
+      <h2 class="section-title reveal delay-1">Los detalles<br><strong>de la conversión RUF.</strong></h2>
+      <div class="archivo-galeria reveal">
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-01.jpg" data-full="/img/ruf/extras/detalles-01.jpg" alt="Logotipo RUF en el alerón" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Logotipo RUF en el alerón</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-02.jpg" data-full="/img/ruf/extras/detalles-02.jpg" alt="Emblema RUF" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Emblema RUF</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-03.jpg" data-full="/img/ruf/extras/detalles-03.jpg" alt="Alerón RUF · Fibra de carbono" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Alerón RUF · Fibra de carbono</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-04.jpg" data-full="/img/ruf/extras/detalles-04.jpg" alt="Rejilla del alerón · Fibra de carbono" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Rejilla del alerón · Fibra de carbono</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-05.jpg" data-full="/img/ruf/extras/detalles-05.jpg" alt="Faro delantero" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Faro delantero</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-06.jpg" data-full="/img/ruf/extras/detalles-06.jpg" alt="Retrovisor exterior" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Retrovisor exterior</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-07.jpg" data-full="/img/ruf/extras/detalles-07.jpg" alt="Piloto trasero" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Piloto trasero</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-08.jpg" data-full="/img/ruf/extras/detalles-08.jpg" alt="Piloto trasero y escape" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Piloto trasero y escape</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-09.jpg" data-full="/img/ruf/extras/detalles-09.jpg" alt="Piloto trasero · Paso de rueda" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Piloto trasero · Paso de rueda</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-10.jpg" data-full="/img/ruf/extras/detalles-10.jpg" alt="Llanta RUF 19&quot; · Pinza amarilla" width="1400" height="788" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Llanta RUF 19&quot; · Pinza amarilla</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-11.jpg" data-full="/img/ruf/extras/detalles-11.jpg" alt="Llanta RUF 19&quot; de cinco radios" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Llanta RUF 19&quot; de cinco radios</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-12.jpg" data-full="/img/ruf/extras/detalles-12.jpg" alt="Pinza de freno RUF" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Pinza de freno RUF</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/detalles-13.jpg" data-full="/img/ruf/extras/detalles-13.jpg" alt="Pinza de freno RUF amarilla" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Pinza de freno RUF amarilla</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="archivo-grupo" id="fotos-motor">
+      <div class="shimmer-line reveal"></div>
+      <p class="section-label reveal">Motor</p>
+      <h2 class="section-title reveal delay-1">Bóxer 3.8<br><strong>con compresor RUF.</strong></h2>
+      <div class="archivo-galeria reveal">
+        <figure class="archivo-foto archivo-foto--abre">
+          <img src="/img/ruf/extras/mini/motor-01.jpg" data-full="/img/ruf/extras/motor-01.jpg" alt="Vano motor · RUF Kompressor 3.8" width="1400" height="788" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Vano motor · RUF Kompressor 3.8</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/motor-02.jpg" data-full="/img/ruf/extras/motor-02.jpg" alt="Admisión y cubierta Kompressor" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Admisión y cubierta Kompressor</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/motor-03.jpg" data-full="/img/ruf/extras/motor-03.jpg" alt="Logotipo RUF en la cubierta del motor" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Logotipo RUF en la cubierta del motor</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/motor-04.jpg" data-full="/img/ruf/extras/motor-04.jpg" alt="Placa 3,8 · Vano motor" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Placa 3,8 · Vano motor</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/motor-05.jpg" data-full="/img/ruf/extras/motor-05.jpg" alt="Placa de identificación RUF Automobile" width="1400" height="787" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Placa de identificación RUF Automobile</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/motor-06.jpg" data-full="/img/ruf/extras/motor-06.jpg" alt="Etiqueta RUF en el vano motor" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Etiqueta RUF en el vano motor</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="archivo-grupo" id="fotos-interior">
+      <div class="shimmer-line reveal"></div>
+      <p class="section-label reveal">Interior</p>
+      <h2 class="section-title reveal delay-1">Cuero marrón<br><strong>y tejido verde.</strong></h2>
+      <div class="archivo-galeria reveal">
+        <figure class="archivo-foto archivo-foto--abre">
+          <img src="/img/ruf/extras/mini/interior-01.jpg" data-full="/img/ruf/extras/interior-01.jpg" alt="Asientos · Cuero marrón y tejido verde" width="1400" height="788" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Asientos · Cuero marrón y tejido verde</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-02.jpg" data-full="/img/ruf/extras/interior-02.jpg" alt="Cabina desde la puerta del conductor" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Cabina desde la puerta del conductor</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-03.jpg" data-full="/img/ruf/extras/interior-03.jpg" alt="Asiento del conductor" width="934" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Asiento del conductor</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-04.jpg" data-full="/img/ruf/extras/interior-04.jpg" alt="Asiento del acompañante" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Asiento del acompañante</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-05.jpg" data-full="/img/ruf/extras/interior-05.jpg" alt="Asiento y guarnecido de puerta" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Asiento y guarnecido de puerta</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-06.jpg" data-full="/img/ruf/extras/interior-06.jpg" alt="Respaldo · Escudo Porsche en relieve" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Respaldo · Escudo Porsche en relieve</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-07.jpg" data-full="/img/ruf/extras/interior-07.jpg" alt="Costuras del asiento y mandos eléctricos" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Costuras del asiento y mandos eléctricos</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-08.jpg" data-full="/img/ruf/extras/interior-08.jpg" alt="Lateral del asiento · Tejido verde" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Lateral del asiento · Tejido verde</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-09.jpg" data-full="/img/ruf/extras/interior-09.jpg" alt="Asiento del conductor y pedales" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Asiento del conductor y pedales</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-10.jpg" data-full="/img/ruf/extras/interior-10.jpg" alt="Tirador de puerta y altavoz" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Tirador de puerta y altavoz</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-11.jpg" data-full="/img/ruf/extras/interior-11.jpg" alt="Memoria de asiento" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Memoria de asiento</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-12.jpg" data-full="/img/ruf/extras/interior-12.jpg" alt="Umbral RUF" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Umbral RUF</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/interior-13.jpg" data-full="/img/ruf/extras/interior-13.jpg" alt="Alfombrilla Porsche" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Alfombrilla Porsche</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="archivo-grupo" id="fotos-cabina">
+      <div class="shimmer-line reveal"></div>
+      <p class="section-label reveal">Puesto de conducción</p>
+      <h2 class="section-title reveal delay-1">Instrumentación<br><strong>y mandos.</strong></h2>
+      <div class="archivo-galeria reveal">
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-01.jpg" data-full="/img/ruf/extras/cabina-01.jpg" alt="Volante RUF" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Volante RUF</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-02.jpg" data-full="/img/ruf/extras/cabina-02.jpg" alt="Pomo del cambio manual" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Pomo del cambio manual</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-03.jpg" data-full="/img/ruf/extras/cabina-03.jpg" alt="Consola central y cambio manual" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Consola central y cambio manual</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-04.jpg" data-full="/img/ruf/extras/cabina-04.jpg" alt="Climatizador y consola central" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Climatizador y consola central</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-05.jpg" data-full="/img/ruf/extras/cabina-05.jpg" alt="Cuentarrevoluciones RUF" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Cuentarrevoluciones RUF</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-06.jpg" data-full="/img/ruf/extras/cabina-06.jpg" alt="Instrumentación · Agujas rojas" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Instrumentación · Agujas rojas</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-07.jpg" data-full="/img/ruf/extras/cabina-07.jpg" alt="Instrumentación RUF · Esfera verde" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Instrumentación RUF · Esfera verde</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-08.jpg" data-full="/img/ruf/extras/cabina-08.jpg" alt="Reloj del cuadro" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Reloj del cuadro</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-09.jpg" data-full="/img/ruf/extras/cabina-09.jpg" alt="Velocímetro y odómetro" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Velocímetro y odómetro</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-10.jpg" data-full="/img/ruf/extras/cabina-10.jpg" alt="Velocímetro hasta 330 km/h" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Velocímetro hasta 330 km/h</figcaption>
+        </figure>
+        <figure class="archivo-foto">
+          <img src="/img/ruf/extras/mini/cabina-11.jpg" data-full="/img/ruf/extras/cabina-11.jpg" alt="Cronómetro Sport Chrono" width="933" height="1400" loading="lazy" decoding="async" tabindex="0" role="button">
+          <figcaption>Cronómetro Sport Chrono</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- 8. PROVENANCE -->
 <section id="provenance">
   <div class="provenance-inner">
@@ -1233,7 +1576,7 @@
     ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
     requestAnimationFrame(animateRing);
   })();
-  document.querySelectorAll('a, button, .gallery-slide, .closeup-item, .interior-item, .kit-category, .jordi-photo-wrap').forEach(el => {
+  document.querySelectorAll('a, button, .gallery-slide, .closeup-item, .interior-item, .kit-category, .jordi-photo-wrap, .archivo-foto, .lupa button').forEach(el => {
     el.addEventListener('mouseenter', () => {
       cursor.style.transform = 'translate(-50%,-50%) scale(2.2)';
       ring.style.width = '60px'; ring.style.height = '60px'; ring.style.opacity = '0.85';
@@ -1373,6 +1716,79 @@
     });
     btn.addEventListener('mouseleave', () => btn.style.transform = '');
   });
+
+  // ── Archivo fotográfico: visor ──
+  (function () {
+    const grupos = [...document.querySelectorAll('.archivo-galeria')];
+    if (!grupos.length) return;
+    const lupa = document.createElement('div');
+    lupa.className = 'lupa';
+    lupa.setAttribute('role', 'dialog');
+    lupa.setAttribute('aria-modal', 'true');
+    lupa.setAttribute('aria-label', 'Fotografía ampliada');
+    lupa.innerHTML = '<button class="lupa-cerrar" type="button" aria-label="Cerrar">&#10005;</button>' +
+      '<button class="lupa-antes" type="button" aria-label="Anterior">&#8592;</button>' +
+      '<img alt="">' +
+      '<button class="lupa-luego" type="button" aria-label="Siguiente">&#8594;</button>' +
+      '<p class="lupa-pie"></p>';
+    document.body.append(lupa);
+    const img = lupa.querySelector('img');
+    const pie = lupa.querySelector('.lupa-pie');
+    const cerrar = lupa.querySelector('.lupa-cerrar');
+    const antes = lupa.querySelector('.lupa-antes');
+    const luego = lupa.querySelector('.lupa-luego');
+    let fotos = [], i = 0;
+
+    function pintar() {
+      const f = fotos[i];
+      img.src = f.dataset.full || f.src;
+      img.alt = f.alt;
+      pie.textContent = f.alt + '  ·  ' + (i + 1) + ' / ' + fotos.length;
+      antes.disabled = i === 0;
+      luego.disabled = i === fotos.length - 1;
+    }
+    function abrir(conjunto, indice) {
+      fotos = conjunto; i = indice;
+      lupa.classList.add('abierta');
+      document.body.style.overflow = 'hidden';
+      pintar();
+      requestAnimationFrame(() => cerrar.focus());
+    }
+    function salir() {
+      lupa.classList.remove('abierta');
+      document.body.style.overflow = '';
+      if (fotos[i]) fotos[i].focus({ preventScroll: true });
+    }
+    function mover(paso) { i = Math.min(Math.max(i + paso, 0), fotos.length - 1); pintar(); }
+
+    grupos.forEach(g => {
+      const todas = [...g.querySelectorAll('img')];
+      todas.forEach((foto, n) => {
+        foto.addEventListener('click', () => abrir(todas, n));
+        foto.addEventListener('keydown', e => {
+          if (e.key !== 'Enter' && e.key !== ' ') return;
+          e.preventDefault(); abrir(todas, n);
+        });
+      });
+    });
+    cerrar.addEventListener('click', salir);
+    antes.addEventListener('click', () => mover(-1));
+    luego.addEventListener('click', () => mover(1));
+    lupa.addEventListener('click', e => { if (e.target === lupa) salir(); });
+    document.addEventListener('keydown', e => {
+      if (!lupa.classList.contains('abierta')) return;
+      if (e.key === 'Escape') salir();
+      if (e.key === 'ArrowLeft') mover(-1);
+      if (e.key === 'ArrowRight') mover(1);
+    });
+    // Swipe en móvil
+    let x0 = 0;
+    lupa.addEventListener('touchstart', e => x0 = e.touches[0].clientX, { passive: true });
+    lupa.addEventListener('touchend', e => {
+      const dx = e.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 50) mover(dx < 0 ? 1 : -1);
+    });
+  })();
 </script>
 </body>
 </html>
