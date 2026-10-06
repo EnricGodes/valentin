@@ -150,6 +150,9 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 3. **Interior "piel beige"**: sale de las fotos, la ficha no dice color ni material
 4. En `sitio/` tiene ficha en seis idiomas (slug `porsche-911-carrera-3-2-coupe-1984`), traducida a mano: no copiar las etiquetas de las otras fichas traducidas, que salieron de traductor automático ("Tapez", "Boxtyp")
 
+### Porsche 991 Carrera S Cabrio y 997.1 Carrera 4S Tiptronic
+- Vendidos (2026-10-06). Fuera del catálogo y `991scabrio.html` / `997tiptronic.html` borrados; en `sitio/` siguen sus fichas con estado vendido en seis idiomas. `img/991scabrio/` e `img/997tiptronic/` se conservan porque `sitio` copia sus fotos de `img/`
+
 ### Porsche 997.1 Carrera 4S manual
 - Vendido (2026-09-26). Fuera de los microsites; en `sitio/` sigue su ficha con estado vendido. `img/997/` se conserva porque `sitio` copia sus fotos de `img/`
 
