@@ -151,10 +151,14 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 4. En `sitio/` tiene ficha en seis idiomas (slug `porsche-911-carrera-3-2-coupe-1984`), traducida a mano: no copiar las etiquetas de las otras fichas traducidas, que salieron de traductor automático ("Tapez", "Boxtyp")
 
 ### Porsche 991 Carrera S Cabrio y 997.1 Carrera 4S Tiptronic
-- Vendidos (2026-10-06). Fuera del catálogo y `991scabrio.html` / `997tiptronic.html` borrados; en `sitio/` siguen sus fichas con estado vendido en seis idiomas. `img/991scabrio/` e `img/997tiptronic/` se conservan porque `sitio` copia sus fotos de `img/`
+- Vendidos (2026-10-06). Fuera del catálogo; `991scabrio.html` y `997tiptronic.html` se quedan marcados como vendidos. En `sitio/` siguen sus fichas con estado vendido en seis idiomas
 
 ### Porsche 997.1 Carrera 4S manual
-- Vendido (2026-09-26). Fuera de los microsites; en `sitio/` sigue su ficha con estado vendido. `img/997/` se conserva porque `sitio` copia sus fotos de `img/`
+- Vendido (2026-09-26). Fuera del catálogo; `997.html` se queda marcado como vendido. En `sitio/` sigue su ficha con estado vendido
+
+### Coches vendidos: nunca borrar el HTML
+- Cada ficha está incrustada en su página de valentinmotors.es (`/porsche-en-venta/<slug>`) con un iframe a `valentin.up.railway.app/<ficha>.html?embed=1`. Borrar el HTML deja esa página en blanco (404)
+- Al vender: quitar la tarjeta de `index.html` y marcar la ficha como vendida (aviso «Vehículo vendido» en hero y cierre, precio tachado, nota y botón de contacto). Las fotos de `img/` tampoco se borran
 
 ---
 
