@@ -268,6 +268,638 @@
     ],
     "editorial": "El interior combina la sobriedad del cuero marrón con detalles textiles verdes y componentes específicos RUF. La instrumentación, el volante y los umbrales convierten la cabina en una extensión directa de la conversión Kompressor R, manteniendo una lectura artesanal y técnica."
   },
+  "fotografias": {
+    "etiqueta": "Archivo fotográfico",
+    "titulo": "73 fotografías.<br/><strong>Cada detalle,<br/>a la vista.</strong>",
+    "grupos": [
+      {
+        "id": "exterior",
+        "etiqueta": "Exterior",
+        "titulo": "Irish Green<br/><strong>a plena luz.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/exterior-01.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-01.jpg",
+            "alt": "Frontal 3/4 · Irish Green",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Frontal 3/4 · Irish Green"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-02.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-02.jpg",
+            "alt": "Frontal 3/4 · Parachoques RUF Rt 12",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Frontal 3/4 · Parachoques RUF Rt 12"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-03.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-03.jpg",
+            "alt": "Frontal 3/4 · Llantas RUF 19\"",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Frontal 3/4 · Llantas RUF 19\""
+          },
+          {
+            "src": "/img/ruf/extras/exterior-04.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-04.jpg",
+            "alt": "Frontal · Parachoques RUF Rt 12",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Frontal · Parachoques RUF Rt 12"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-05.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-05.jpg",
+            "alt": "Frontal 3/4 · Pinzas amarillas",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Frontal 3/4 · Pinzas amarillas"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-06.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-06.jpg",
+            "alt": "Perfil lateral",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Perfil lateral"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-07.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-07.jpg",
+            "alt": "Trasera 3/4 · Alerón RUF Rt 12",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Trasera 3/4 · Alerón RUF Rt 12"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-08.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-08.jpg",
+            "alt": "Trasera 3/4 · Parachoques RUF Rt 12",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Trasera 3/4 · Parachoques RUF Rt 12"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-09.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-09.jpg",
+            "alt": "Lateral · Línea de cintura",
+            "ancho": 1400,
+            "alto": 933,
+            "caption": "Lateral · Línea de cintura"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-10.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-10.jpg",
+            "alt": "Frontal 3/4 desde el alerón",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Frontal 3/4 desde el alerón"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-11.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-11.jpg",
+            "alt": "Frontal · Faros",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Frontal · Faros"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-12.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-12.jpg",
+            "alt": "Lateral trasero · Llanta RUF 19\"",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Lateral trasero · Llanta RUF 19\""
+          },
+          {
+            "src": "/img/ruf/extras/exterior-13.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-13.jpg",
+            "alt": "Trasera 3/4 · Paso de rueda",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Trasera 3/4 · Paso de rueda"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-14.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-14.jpg",
+            "alt": "Frontal · Llanta RUF y faro",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Frontal · Llanta RUF y faro"
+          }
+        ]
+      },
+      {
+        "id": "detalles",
+        "etiqueta": "Carrocería, llantas y frenos",
+        "titulo": "Los detalles<br/><strong>de la conversión RUF.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/detalles-01.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-01.jpg",
+            "alt": "Logotipo RUF en el alerón",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Logotipo RUF en el alerón"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-02.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-02.jpg",
+            "alt": "Emblema RUF",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Emblema RUF"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-03.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-03.jpg",
+            "alt": "Alerón RUF · Fibra de carbono",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Alerón RUF · Fibra de carbono"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-04.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-04.jpg",
+            "alt": "Rejilla del alerón · Fibra de carbono",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Rejilla del alerón · Fibra de carbono"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-05.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-05.jpg",
+            "alt": "Faro delantero",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Faro delantero"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-06.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-06.jpg",
+            "alt": "Retrovisor exterior",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Retrovisor exterior"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-07.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-07.jpg",
+            "alt": "Piloto trasero",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Piloto trasero"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-08.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-08.jpg",
+            "alt": "Piloto trasero y escape",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Piloto trasero y escape"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-09.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-09.jpg",
+            "alt": "Piloto trasero · Paso de rueda",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Piloto trasero · Paso de rueda"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-10.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-10.jpg",
+            "alt": "Llanta RUF 19\" · Pinza amarilla",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Llanta RUF 19\" · Pinza amarilla"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-11.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-11.jpg",
+            "alt": "Llanta RUF 19\" de cinco radios",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Llanta RUF 19\" de cinco radios"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-12.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-12.jpg",
+            "alt": "Pinza de freno RUF",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Pinza de freno RUF"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-13.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-13.jpg",
+            "alt": "Pinza de freno RUF amarilla",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Pinza de freno RUF amarilla"
+          }
+        ]
+      },
+      {
+        "id": "maletero",
+        "etiqueta": "Maletero delantero",
+        "titulo": "Tejido verde<br/><strong>y placa RUF de carbono.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/maletero-01.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-01.jpg",
+            "alt": "Maletero delantero · Irish Green",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Maletero delantero · Irish Green"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-02.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-02.jpg",
+            "alt": "Maletero delantero · Tejido verde",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Maletero delantero · Tejido verde"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-03.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-03.jpg",
+            "alt": "Maletero y placa RUF",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Maletero y placa RUF"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-04.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-04.jpg",
+            "alt": "Placa RUF · Fibra de carbono",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Placa RUF · Fibra de carbono"
+          }
+        ]
+      },
+      {
+        "id": "motor",
+        "etiqueta": "Motor",
+        "titulo": "Bóxer 3.8<br/><strong>con compresor RUF.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/motor-01.jpg",
+            "mini": "/img/ruf/extras/mini/motor-01.jpg",
+            "alt": "Vano motor · RUF Kompressor 3.8",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Vano motor · RUF Kompressor 3.8"
+          },
+          {
+            "src": "/img/ruf/extras/motor-02.jpg",
+            "mini": "/img/ruf/extras/mini/motor-02.jpg",
+            "alt": "Admisión y cubierta Kompressor",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Admisión y cubierta Kompressor"
+          },
+          {
+            "src": "/img/ruf/extras/motor-03.jpg",
+            "mini": "/img/ruf/extras/mini/motor-03.jpg",
+            "alt": "Logotipo RUF en la cubierta del motor",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Logotipo RUF en la cubierta del motor"
+          },
+          {
+            "src": "/img/ruf/extras/motor-04.jpg",
+            "mini": "/img/ruf/extras/mini/motor-04.jpg",
+            "alt": "Placa 3,8 · Vano motor",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Placa 3,8 · Vano motor"
+          },
+          {
+            "src": "/img/ruf/extras/motor-05.jpg",
+            "mini": "/img/ruf/extras/mini/motor-05.jpg",
+            "alt": "Placa de identificación RUF Automobile",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Placa de identificación RUF Automobile"
+          },
+          {
+            "src": "/img/ruf/extras/motor-06.jpg",
+            "mini": "/img/ruf/extras/mini/motor-06.jpg",
+            "alt": "Etiqueta RUF en el vano motor",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Etiqueta RUF en el vano motor"
+          }
+        ]
+      },
+      {
+        "id": "interior",
+        "etiqueta": "Interior",
+        "titulo": "Cuero marrón<br/><strong>y tejido verde.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/interior-01.jpg",
+            "mini": "/img/ruf/extras/mini/interior-01.jpg",
+            "alt": "Asientos · Cuero marrón y tejido verde",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Asientos · Cuero marrón y tejido verde"
+          },
+          {
+            "src": "/img/ruf/extras/interior-02.jpg",
+            "mini": "/img/ruf/extras/mini/interior-02.jpg",
+            "alt": "Cabina desde la puerta del conductor",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Cabina desde la puerta del conductor"
+          },
+          {
+            "src": "/img/ruf/extras/interior-03.jpg",
+            "mini": "/img/ruf/extras/mini/interior-03.jpg",
+            "alt": "Asiento del conductor",
+            "ancho": 934,
+            "alto": 1400,
+            "caption": "Asiento del conductor"
+          },
+          {
+            "src": "/img/ruf/extras/interior-04.jpg",
+            "mini": "/img/ruf/extras/mini/interior-04.jpg",
+            "alt": "Asiento del acompañante",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Asiento del acompañante"
+          },
+          {
+            "src": "/img/ruf/extras/interior-05.jpg",
+            "mini": "/img/ruf/extras/mini/interior-05.jpg",
+            "alt": "Asiento y guarnecido de puerta",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Asiento y guarnecido de puerta"
+          },
+          {
+            "src": "/img/ruf/extras/interior-06.jpg",
+            "mini": "/img/ruf/extras/mini/interior-06.jpg",
+            "alt": "Respaldo · Escudo Porsche en relieve",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Respaldo · Escudo Porsche en relieve"
+          },
+          {
+            "src": "/img/ruf/extras/interior-07.jpg",
+            "mini": "/img/ruf/extras/mini/interior-07.jpg",
+            "alt": "Costuras del asiento y mandos eléctricos",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Costuras del asiento y mandos eléctricos"
+          },
+          {
+            "src": "/img/ruf/extras/interior-08.jpg",
+            "mini": "/img/ruf/extras/mini/interior-08.jpg",
+            "alt": "Lateral del asiento · Tejido verde",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Lateral del asiento · Tejido verde"
+          },
+          {
+            "src": "/img/ruf/extras/interior-09.jpg",
+            "mini": "/img/ruf/extras/mini/interior-09.jpg",
+            "alt": "Asiento del conductor y pedales",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Asiento del conductor y pedales"
+          },
+          {
+            "src": "/img/ruf/extras/interior-10.jpg",
+            "mini": "/img/ruf/extras/mini/interior-10.jpg",
+            "alt": "Tirador de puerta y altavoz",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Tirador de puerta y altavoz"
+          },
+          {
+            "src": "/img/ruf/extras/interior-11.jpg",
+            "mini": "/img/ruf/extras/mini/interior-11.jpg",
+            "alt": "Memoria de asiento",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Memoria de asiento"
+          },
+          {
+            "src": "/img/ruf/extras/interior-12.jpg",
+            "mini": "/img/ruf/extras/mini/interior-12.jpg",
+            "alt": "Umbral RUF",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Umbral RUF"
+          },
+          {
+            "src": "/img/ruf/extras/interior-13.jpg",
+            "mini": "/img/ruf/extras/mini/interior-13.jpg",
+            "alt": "Alfombrilla Porsche",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Alfombrilla Porsche"
+          },
+          {
+            "src": "/img/ruf/extras/interior-14.jpg",
+            "mini": "/img/ruf/extras/mini/interior-14.jpg",
+            "alt": "Asientos y consola central",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Asientos y consola central"
+          },
+          {
+            "src": "/img/ruf/extras/interior-15.jpg",
+            "mini": "/img/ruf/extras/mini/interior-15.jpg",
+            "alt": "Guarnecido de puerta · Tejido verde",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Guarnecido de puerta · Tejido verde"
+          },
+          {
+            "src": "/img/ruf/extras/interior-16.jpg",
+            "mini": "/img/ruf/extras/mini/interior-16.jpg",
+            "alt": "Habitáculo desde el lado del acompañante",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Habitáculo desde el lado del acompañante"
+          },
+          {
+            "src": "/img/ruf/extras/interior-17.jpg",
+            "mini": "/img/ruf/extras/mini/interior-17.jpg",
+            "alt": "Salpicadero y cambio manual",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Salpicadero y cambio manual"
+          },
+          {
+            "src": "/img/ruf/extras/interior-18.jpg",
+            "mini": "/img/ruf/extras/mini/interior-18.jpg",
+            "alt": "Puerta del conductor y salpicadero",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Puerta del conductor y salpicadero"
+          },
+          {
+            "src": "/img/ruf/extras/interior-19.jpg",
+            "mini": "/img/ruf/extras/mini/interior-19.jpg",
+            "alt": "Asiento del acompañante y consola",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Asiento del acompañante y consola"
+          }
+        ]
+      },
+      {
+        "id": "cabina",
+        "etiqueta": "Puesto de conducción",
+        "titulo": "Instrumentación<br/><strong>y mandos.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/cabina-01.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-01.jpg",
+            "alt": "Volante RUF",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Volante RUF"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-02.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-02.jpg",
+            "alt": "Pomo del cambio manual",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Pomo del cambio manual"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-03.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-03.jpg",
+            "alt": "Consola central y cambio manual",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Consola central y cambio manual"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-04.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-04.jpg",
+            "alt": "Climatizador y consola central",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Climatizador y consola central"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-05.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-05.jpg",
+            "alt": "Cuentarrevoluciones RUF",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Cuentarrevoluciones RUF"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-06.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-06.jpg",
+            "alt": "Instrumentación · Agujas rojas",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Instrumentación · Agujas rojas"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-07.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-07.jpg",
+            "alt": "Instrumentación RUF · Esfera verde",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Instrumentación RUF · Esfera verde"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-08.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-08.jpg",
+            "alt": "Reloj del cuadro",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Reloj del cuadro"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-09.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-09.jpg",
+            "alt": "Velocímetro y odómetro",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Velocímetro y odómetro"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-10.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-10.jpg",
+            "alt": "Velocímetro hasta 330 km/h",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Velocímetro hasta 330 km/h"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-11.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-11.jpg",
+            "alt": "Cronómetro Sport Chrono",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Cronómetro Sport Chrono"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-12.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-12.jpg",
+            "alt": "Puesto de conducción",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Puesto de conducción"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-13.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-13.jpg",
+            "alt": "Volante RUF · Cuero perforado",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Volante RUF · Cuero perforado"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-14.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-14.jpg",
+            "alt": "Radio del volante RUF",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Radio del volante RUF"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-15.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-15.jpg",
+            "alt": "Volante RUF y cuadro de instrumentos",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Volante RUF y cuadro de instrumentos"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-16.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-16.jpg",
+            "alt": "Pedales de aluminio y volante RUF",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Pedales de aluminio y volante RUF"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-17.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-17.jpg",
+            "alt": "Volante RUF y asiento del conductor",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Volante RUF y asiento del conductor"
+          }
+        ]
+      }
+    ]
+  },
   "procedencia": {
     "etiqueta": "Documentación y procedencia",
     "titulo": "Historial<br/><strong>completamente<br/>documentado.</strong>",

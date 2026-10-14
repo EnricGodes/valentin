@@ -598,6 +598,46 @@ section { position: relative; }
   margin-top: 52px; border-left: 1px solid rgba(178, 138, 91, 0.4);
   padding-left: 24px; max-width: 640px;
 }
+
+/* ── 7b. Archivo fotografico (reportaje completo por grupos) ──────────────── */
+.archivo-indice {
+  display: flex; flex-wrap: wrap; gap: 10px 28px;
+  margin-top: 44px; padding-top: 22px; border-top: 1px solid var(--linea);
+}
+.archivo-indice a {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-nav);
+  text-transform: uppercase; color: var(--concreto); text-decoration: none;
+  transition: color 0.3s var(--ease);
+}
+.archivo-indice a span { color: var(--bronce); margin-left: 6px; }
+.archivo-indice a:hover, .archivo-indice a:focus-visible { color: var(--blanco); }
+
+.archivo-grupo { margin-top: 112px; scroll-margin-top: 96px; }
+.archivo-galeria { margin: 52px 0 0; }
+/* Columnas en vez de rejilla: verticales y apaisadas conviven sin recortes
+   ni huecos al final del grupo. */
+.archivo-galeria .mod-pista { columns: 3; column-gap: 6px; }
+.archivo-foto {
+  break-inside: avoid; margin: 0 0 6px;
+  position: relative; overflow: hidden;
+}
+.archivo-foto--abre { column-span: all; margin-bottom: 6px; }
+.archivo-galeria .archivo-foto img {
+  aspect-ratio: auto; height: auto;
+  transition: opacity 1s var(--ease), transform 1s var(--ease);
+}
+.archivo-galeria.visible .archivo-foto:hover img { transform: scale(1.04); }
+/* El pie se ve al pasar por encima; en el lightbox se lee siempre. */
+.archivo-foto figcaption {
+  position: absolute; inset: auto 0 0 0; padding: 40px 16px 14px;
+  background: linear-gradient(to top, rgba(11, 11, 11, 0.70) 0%, transparent 100%);
+  color: var(--blanco); letter-spacing: 0.14em;
+  opacity: 0; transform: translateY(8px);
+  transition: opacity 0.4s, transform 0.5s;
+  pointer-events: none;
+}
+.archivo-foto:hover figcaption,
+.archivo-foto:focus-within figcaption { opacity: 1; transform: none; }
 .interior-editorial p {
   font-size: var(--t-cuerpo); line-height: 1.85;
   color: rgba(240, 237, 232, 0.7); font-style: italic;
@@ -883,11 +923,16 @@ section { position: relative; }
   }
   .jordi-photo-wrap { aspect-ratio: 1; }
   .jordi-verdict { grid-template-columns: 1fr; }
+  .archivo-galeria .mod-pista { columns: 2; }
+  .archivo-grupo { margin-top: 80px; }
 }
 
 @media (max-width: 600px) {
   .kit-categories { grid-template-columns: 1fr; }
   .closeup-grid { grid-auto-rows: 300px; }
+  .archivo-galeria .mod-pista { column-gap: 4px; }
+  .archivo-foto { margin-bottom: 4px; }
+  .archivo-galeria { margin-top: 36px; }
 }
 
 /* ── Catalogo de coches ───────────────────────────────────────────────────── */

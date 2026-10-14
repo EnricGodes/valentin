@@ -6,6 +6,8 @@ export interface Foto {
   src: string; alt: string; caption?: string;
   /** Dimensiones reales del fichero, leidas del JPG al extraer. */
   ancho: number; alto: number;
+  /** Version reducida para las rejillas; `src` queda para la foto ampliada. */
+  mini?: string;
 }
 export interface Cabecera { etiqueta: string; titulo?: string; destacado?: string; }
 
@@ -41,6 +43,9 @@ export interface Coche {
   };
   exterior: Cabecera & { texto: string; fotos: Foto[] };
   interior: Cabecera & { fotos: Foto[]; editorial: string };
+  /** Reportaje completo en grupos (exterior, motor, interior...). Solo lo
+      llevan las fichas con sesion de fotos extra. */
+  fotografias?: Cabecera & { grupos: (Cabecera & { id: string; fotos: Foto[] })[] };
   procedencia: Cabecera & {
     hitos: { anio: string; titulo: string; cuerpo: string; badge: string }[];
   };

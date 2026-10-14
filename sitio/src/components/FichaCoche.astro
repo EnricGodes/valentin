@@ -133,6 +133,52 @@ const t = traductor(idioma);
   </div>
 </section>
 
+{/* ── Archivo fotografico ──
+    Cada grupo es una galeria del lightbox del Magazine (.mod-galeria con
+    data-lightbox): las flechas recorren solo ese grupo. La rejilla carga la
+    version mini y el lightbox la grande (data-full). La primera foto, si es
+    apaisada, abre el grupo a todo el ancho; el resto va en columnas sin
+    recortar, porque en un coche el encuadre es parte de la foto. */}
+{c.fotografias && (
+  <section class="seccion archivo" id="fotografias">
+    <div class="contenedor">
+      <CabeceraSeccion {...c.fotografias} />
+      <nav class="archivo-indice reveal delay-2" aria-label={c.fotografias.etiqueta}>
+        {c.fotografias.grupos.map((g) => (
+          <a href={`#fotos-${g.id}`}>{g.etiqueta} <span>{String(g.fotos.length).padStart(2, '0')}</span></a>
+        ))}
+      </nav>
+      {c.fotografias.grupos.map((g) => {
+        const abre = g.fotos[0] && g.fotos[0].ancho > g.fotos[0].alto;
+        return (
+          <div class="archivo-grupo" id={`fotos-${g.id}`}>
+            <CabeceraSeccion etiqueta={g.etiqueta} titulo={g.titulo} />
+            <div class="mod-galeria archivo-galeria reveal-foto" data-lightbox
+                 data-total={g.fotos.length}>
+              <div class="mod-pista">
+                {g.fotos.map((f, i) => (
+                  <figure class={`mod-foto archivo-foto${abre && i === 0 ? ' archivo-foto--abre' : ''}`}>
+                    <img src={f.mini ?? f.src} data-full={f.src} alt={f.alt}
+                         width={f.ancho} height={f.alto} loading="lazy" decoding="async"
+                         tabindex="0" role="button">
+                    {f.caption && <figcaption>{f.caption}</figcaption>}
+                  </figure>
+                ))}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+)}
+{c.fotografias && (
+  <script>
+    import { iniciarModulos } from '../scripts/modulos.ts';
+    iniciarModulos();
+  </script>
+)}
+
 {/* ── Procedencia ── */}
 <section class="seccion" id="procedencia">
   <div class="contenedor" style="max-width:900px">

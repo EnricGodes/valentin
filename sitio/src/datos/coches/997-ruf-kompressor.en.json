@@ -268,6 +268,638 @@
     ],
     "editorial": "The interior combines the sobriety of brown leather with green textile details and specific RUF components. The instrumentation, steering wheel and sills turn the cabin into a direct extension of the Kompressor R conversion, maintaining an artisanal and technical reading."
   },
+  "fotografias": {
+    "etiqueta": "Photo archive",
+    "titulo": "73 photographs.<br/><strong>Every detail,<br/>in plain sight.</strong>",
+    "grupos": [
+      {
+        "id": "exterior",
+        "etiqueta": "Exterior",
+        "titulo": "Irish Green<br/><strong>in full daylight.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/exterior-01.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-01.jpg",
+            "alt": "Front 3/4 · Irish Green",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Front 3/4 · Irish Green"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-02.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-02.jpg",
+            "alt": "Front 3/4 · RUF Rt 12 bumper",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Front 3/4 · RUF Rt 12 bumper"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-03.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-03.jpg",
+            "alt": "Front 3/4 · RUF 19\" wheels",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Front 3/4 · RUF 19\" wheels"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-04.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-04.jpg",
+            "alt": "Front · RUF Rt 12 bumper",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Front · RUF Rt 12 bumper"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-05.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-05.jpg",
+            "alt": "Front 3/4 · Yellow calipers",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Front 3/4 · Yellow calipers"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-06.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-06.jpg",
+            "alt": "Side profile",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Side profile"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-07.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-07.jpg",
+            "alt": "Rear 3/4 · RUF Rt 12 wing",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Rear 3/4 · RUF Rt 12 wing"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-08.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-08.jpg",
+            "alt": "Rear 3/4 · RUF Rt 12 bumper",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Rear 3/4 · RUF Rt 12 bumper"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-09.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-09.jpg",
+            "alt": "Side · Waistline",
+            "ancho": 1400,
+            "alto": 933,
+            "caption": "Side · Waistline"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-10.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-10.jpg",
+            "alt": "Front 3/4 past the wing",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Front 3/4 past the wing"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-11.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-11.jpg",
+            "alt": "Front · Headlights",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Front · Headlights"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-12.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-12.jpg",
+            "alt": "Rear flank · RUF 19\" wheel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Rear flank · RUF 19\" wheel"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-13.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-13.jpg",
+            "alt": "Rear 3/4 · Wheel arch",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Rear 3/4 · Wheel arch"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-14.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-14.jpg",
+            "alt": "Front · RUF wheel and headlight",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Front · RUF wheel and headlight"
+          }
+        ]
+      },
+      {
+        "id": "detalles",
+        "etiqueta": "Body, wheels and brakes",
+        "titulo": "The details<br/><strong>of the RUF conversion.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/detalles-01.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-01.jpg",
+            "alt": "RUF logo on the wing",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF logo on the wing"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-02.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-02.jpg",
+            "alt": "RUF badge",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF badge"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-03.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-03.jpg",
+            "alt": "RUF wing · Carbon fibre",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF wing · Carbon fibre"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-04.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-04.jpg",
+            "alt": "Wing grille · Carbon fibre",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Wing grille · Carbon fibre"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-05.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-05.jpg",
+            "alt": "Headlight",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Headlight"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-06.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-06.jpg",
+            "alt": "Door mirror",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Door mirror"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-07.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-07.jpg",
+            "alt": "Tail light",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Tail light"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-08.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-08.jpg",
+            "alt": "Tail light and exhaust",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Tail light and exhaust"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-09.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-09.jpg",
+            "alt": "Tail light · Wheel arch",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Tail light · Wheel arch"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-10.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-10.jpg",
+            "alt": "RUF 19\" wheel · Yellow caliper",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "RUF 19\" wheel · Yellow caliper"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-11.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-11.jpg",
+            "alt": "Five-spoke RUF 19\" wheel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Five-spoke RUF 19\" wheel"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-12.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-12.jpg",
+            "alt": "RUF brake caliper",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF brake caliper"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-13.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-13.jpg",
+            "alt": "Yellow RUF brake caliper",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Yellow RUF brake caliper"
+          }
+        ]
+      },
+      {
+        "id": "maletero",
+        "etiqueta": "Front luggage compartment",
+        "titulo": "Green cloth<br/><strong>and RUF carbon plate.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/maletero-01.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-01.jpg",
+            "alt": "Front luggage compartment · Irish Green",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Front luggage compartment · Irish Green"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-02.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-02.jpg",
+            "alt": "Front luggage compartment · Green cloth",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Front luggage compartment · Green cloth"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-03.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-03.jpg",
+            "alt": "Luggage compartment and RUF plate",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Luggage compartment and RUF plate"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-04.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-04.jpg",
+            "alt": "RUF plate · Carbon fibre",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF plate · Carbon fibre"
+          }
+        ]
+      },
+      {
+        "id": "motor",
+        "etiqueta": "Engine",
+        "titulo": "3.8 flat six<br/><strong>with RUF supercharger.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/motor-01.jpg",
+            "mini": "/img/ruf/extras/mini/motor-01.jpg",
+            "alt": "Engine bay · RUF Kompressor 3.8",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Engine bay · RUF Kompressor 3.8"
+          },
+          {
+            "src": "/img/ruf/extras/motor-02.jpg",
+            "mini": "/img/ruf/extras/mini/motor-02.jpg",
+            "alt": "Intake and Kompressor cover",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Intake and Kompressor cover"
+          },
+          {
+            "src": "/img/ruf/extras/motor-03.jpg",
+            "mini": "/img/ruf/extras/mini/motor-03.jpg",
+            "alt": "RUF logo on the engine cover",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF logo on the engine cover"
+          },
+          {
+            "src": "/img/ruf/extras/motor-04.jpg",
+            "mini": "/img/ruf/extras/mini/motor-04.jpg",
+            "alt": "3.8 plate · Engine bay",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "3.8 plate · Engine bay"
+          },
+          {
+            "src": "/img/ruf/extras/motor-05.jpg",
+            "mini": "/img/ruf/extras/mini/motor-05.jpg",
+            "alt": "RUF Automobile identification plate",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "RUF Automobile identification plate"
+          },
+          {
+            "src": "/img/ruf/extras/motor-06.jpg",
+            "mini": "/img/ruf/extras/mini/motor-06.jpg",
+            "alt": "RUF label in the engine bay",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF label in the engine bay"
+          }
+        ]
+      },
+      {
+        "id": "interior",
+        "etiqueta": "Interior",
+        "titulo": "Brown leather<br/><strong>and green cloth.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/interior-01.jpg",
+            "mini": "/img/ruf/extras/mini/interior-01.jpg",
+            "alt": "Seats · Brown leather and green cloth",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Seats · Brown leather and green cloth"
+          },
+          {
+            "src": "/img/ruf/extras/interior-02.jpg",
+            "mini": "/img/ruf/extras/mini/interior-02.jpg",
+            "alt": "Cabin from the driver's door",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Cabin from the driver's door"
+          },
+          {
+            "src": "/img/ruf/extras/interior-03.jpg",
+            "mini": "/img/ruf/extras/mini/interior-03.jpg",
+            "alt": "Driver's seat",
+            "ancho": 934,
+            "alto": 1400,
+            "caption": "Driver's seat"
+          },
+          {
+            "src": "/img/ruf/extras/interior-04.jpg",
+            "mini": "/img/ruf/extras/mini/interior-04.jpg",
+            "alt": "Passenger seat",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Passenger seat"
+          },
+          {
+            "src": "/img/ruf/extras/interior-05.jpg",
+            "mini": "/img/ruf/extras/mini/interior-05.jpg",
+            "alt": "Seat and door panel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Seat and door panel"
+          },
+          {
+            "src": "/img/ruf/extras/interior-06.jpg",
+            "mini": "/img/ruf/extras/mini/interior-06.jpg",
+            "alt": "Backrest · Embossed Porsche crest",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Backrest · Embossed Porsche crest"
+          },
+          {
+            "src": "/img/ruf/extras/interior-07.jpg",
+            "mini": "/img/ruf/extras/mini/interior-07.jpg",
+            "alt": "Seat stitching and electric controls",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Seat stitching and electric controls"
+          },
+          {
+            "src": "/img/ruf/extras/interior-08.jpg",
+            "mini": "/img/ruf/extras/mini/interior-08.jpg",
+            "alt": "Seat bolster · Green cloth",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Seat bolster · Green cloth"
+          },
+          {
+            "src": "/img/ruf/extras/interior-09.jpg",
+            "mini": "/img/ruf/extras/mini/interior-09.jpg",
+            "alt": "Driver's seat and pedals",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Driver's seat and pedals"
+          },
+          {
+            "src": "/img/ruf/extras/interior-10.jpg",
+            "mini": "/img/ruf/extras/mini/interior-10.jpg",
+            "alt": "Door pull and speaker",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Door pull and speaker"
+          },
+          {
+            "src": "/img/ruf/extras/interior-11.jpg",
+            "mini": "/img/ruf/extras/mini/interior-11.jpg",
+            "alt": "Seat memory",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Seat memory"
+          },
+          {
+            "src": "/img/ruf/extras/interior-12.jpg",
+            "mini": "/img/ruf/extras/mini/interior-12.jpg",
+            "alt": "RUF sill plate",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF sill plate"
+          },
+          {
+            "src": "/img/ruf/extras/interior-13.jpg",
+            "mini": "/img/ruf/extras/mini/interior-13.jpg",
+            "alt": "Porsche floor mat",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Porsche floor mat"
+          },
+          {
+            "src": "/img/ruf/extras/interior-14.jpg",
+            "mini": "/img/ruf/extras/mini/interior-14.jpg",
+            "alt": "Seats and centre console",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Seats and centre console"
+          },
+          {
+            "src": "/img/ruf/extras/interior-15.jpg",
+            "mini": "/img/ruf/extras/mini/interior-15.jpg",
+            "alt": "Door panel · Green cloth",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Door panel · Green cloth"
+          },
+          {
+            "src": "/img/ruf/extras/interior-16.jpg",
+            "mini": "/img/ruf/extras/mini/interior-16.jpg",
+            "alt": "Cabin from the passenger side",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Cabin from the passenger side"
+          },
+          {
+            "src": "/img/ruf/extras/interior-17.jpg",
+            "mini": "/img/ruf/extras/mini/interior-17.jpg",
+            "alt": "Dashboard and manual gearbox",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Dashboard and manual gearbox"
+          },
+          {
+            "src": "/img/ruf/extras/interior-18.jpg",
+            "mini": "/img/ruf/extras/mini/interior-18.jpg",
+            "alt": "Driver's door and dashboard",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Driver's door and dashboard"
+          },
+          {
+            "src": "/img/ruf/extras/interior-19.jpg",
+            "mini": "/img/ruf/extras/mini/interior-19.jpg",
+            "alt": "Passenger seat and console",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Passenger seat and console"
+          }
+        ]
+      },
+      {
+        "id": "cabina",
+        "etiqueta": "Driving position",
+        "titulo": "Instruments<br/><strong>and controls.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/cabina-01.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-01.jpg",
+            "alt": "RUF steering wheel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF steering wheel"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-02.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-02.jpg",
+            "alt": "Manual gear knob",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Manual gear knob"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-03.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-03.jpg",
+            "alt": "Centre console and manual gearbox",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Centre console and manual gearbox"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-04.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-04.jpg",
+            "alt": "Climate control and centre console",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Climate control and centre console"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-05.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-05.jpg",
+            "alt": "RUF rev counter",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF rev counter"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-06.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-06.jpg",
+            "alt": "Instruments · Red needles",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Instruments · Red needles"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-07.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-07.jpg",
+            "alt": "RUF instruments · Green dial",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF instruments · Green dial"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-08.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-08.jpg",
+            "alt": "Instrument cluster clock",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Instrument cluster clock"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-09.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-09.jpg",
+            "alt": "Speedometer and odometer",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Speedometer and odometer"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-10.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-10.jpg",
+            "alt": "Speedometer to 330 km/h",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Speedometer to 330 km/h"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-11.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-11.jpg",
+            "alt": "Sport Chrono stopwatch",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Sport Chrono stopwatch"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-12.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-12.jpg",
+            "alt": "Driving position",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Driving position"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-13.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-13.jpg",
+            "alt": "RUF steering wheel · Perforated leather",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF steering wheel · Perforated leather"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-14.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-14.jpg",
+            "alt": "RUF steering wheel spoke",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "RUF steering wheel spoke"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-15.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-15.jpg",
+            "alt": "RUF steering wheel and instrument cluster",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "RUF steering wheel and instrument cluster"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-16.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-16.jpg",
+            "alt": "Aluminium pedals and RUF steering wheel",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Aluminium pedals and RUF steering wheel"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-17.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-17.jpg",
+            "alt": "RUF steering wheel and driver's seat",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF steering wheel and driver's seat"
+          }
+        ]
+      }
+    ]
+  },
   "procedencia": {
     "etiqueta": "Documentation and Origin",
     "titulo": "History<br/><strong>fully<br/>documented.</strong>",

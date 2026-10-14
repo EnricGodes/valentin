@@ -268,6 +268,638 @@
     ],
     "editorial": "Der Innenraum kombiniert die Schlichtheit von braunem Leder mit grünen Textildetails und spezifischen RUF-Komponenten. Die Instrumentierung, das Lenkrad und die Schweller verwandeln den Innenraum in eine direkte Fortsetzung des Kompressor R-Umbaus und bewahren so eine handwerkliche und technische Lesart."
   },
+  "fotografias": {
+    "etiqueta": "Fotoarchiv",
+    "titulo": "73 Fotografien.<br/><strong>Jedes Detail<br/>im Blick.</strong>",
+    "grupos": [
+      {
+        "id": "exterior",
+        "etiqueta": "Exterieur",
+        "titulo": "Irish Green<br/><strong>bei vollem Tageslicht.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/exterior-01.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-01.jpg",
+            "alt": "Front 3/4 · Irish Green",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Front 3/4 · Irish Green"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-02.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-02.jpg",
+            "alt": "Front 3/4 · RUF Rt 12 Stoßfänger",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Front 3/4 · RUF Rt 12 Stoßfänger"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-03.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-03.jpg",
+            "alt": "Front 3/4 · RUF 19\" Felgen",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Front 3/4 · RUF 19\" Felgen"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-04.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-04.jpg",
+            "alt": "Front · RUF Rt 12 Stoßfänger",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Front · RUF Rt 12 Stoßfänger"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-05.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-05.jpg",
+            "alt": "Front 3/4 · Gelbe Bremssättel",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Front 3/4 · Gelbe Bremssättel"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-06.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-06.jpg",
+            "alt": "Seitenansicht",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Seitenansicht"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-07.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-07.jpg",
+            "alt": "Heck 3/4 · RUF Rt 12 Heckflügel",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Heck 3/4 · RUF Rt 12 Heckflügel"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-08.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-08.jpg",
+            "alt": "Heck 3/4 · RUF Rt 12 Stoßfänger",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Heck 3/4 · RUF Rt 12 Stoßfänger"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-09.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-09.jpg",
+            "alt": "Seite · Gürtellinie",
+            "ancho": 1400,
+            "alto": 933,
+            "caption": "Seite · Gürtellinie"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-10.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-10.jpg",
+            "alt": "Front 3/4 hinter dem Heckflügel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Front 3/4 hinter dem Heckflügel"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-11.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-11.jpg",
+            "alt": "Front · Scheinwerfer",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Front · Scheinwerfer"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-12.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-12.jpg",
+            "alt": "Hintere Flanke · RUF 19\" Felge",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Hintere Flanke · RUF 19\" Felge"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-13.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-13.jpg",
+            "alt": "Heck 3/4 · Radhaus",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Heck 3/4 · Radhaus"
+          },
+          {
+            "src": "/img/ruf/extras/exterior-14.jpg",
+            "mini": "/img/ruf/extras/mini/exterior-14.jpg",
+            "alt": "Front · RUF Felge und Scheinwerfer",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Front · RUF Felge und Scheinwerfer"
+          }
+        ]
+      },
+      {
+        "id": "detalles",
+        "etiqueta": "Karosserie, Felgen und Bremsen",
+        "titulo": "Die Details<br/><strong>des RUF Umbaus.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/detalles-01.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-01.jpg",
+            "alt": "RUF Logo am Heckflügel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Logo am Heckflügel"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-02.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-02.jpg",
+            "alt": "RUF Emblem",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Emblem"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-03.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-03.jpg",
+            "alt": "RUF Heckflügel · Kohlefaser",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Heckflügel · Kohlefaser"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-04.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-04.jpg",
+            "alt": "Heckflügelgitter · Kohlefaser",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Heckflügelgitter · Kohlefaser"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-05.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-05.jpg",
+            "alt": "Scheinwerfer",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Scheinwerfer"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-06.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-06.jpg",
+            "alt": "Außenspiegel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Außenspiegel"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-07.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-07.jpg",
+            "alt": "Rückleuchte",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Rückleuchte"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-08.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-08.jpg",
+            "alt": "Rückleuchte und Auspuff",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Rückleuchte und Auspuff"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-09.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-09.jpg",
+            "alt": "Rückleuchte · Radhaus",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Rückleuchte · Radhaus"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-10.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-10.jpg",
+            "alt": "RUF 19\" Felge · Gelber Bremssattel",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "RUF 19\" Felge · Gelber Bremssattel"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-11.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-11.jpg",
+            "alt": "RUF 19\" Fünfspeichenfelge",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF 19\" Fünfspeichenfelge"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-12.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-12.jpg",
+            "alt": "RUF Bremssattel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Bremssattel"
+          },
+          {
+            "src": "/img/ruf/extras/detalles-13.jpg",
+            "mini": "/img/ruf/extras/mini/detalles-13.jpg",
+            "alt": "Gelber RUF Bremssattel",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Gelber RUF Bremssattel"
+          }
+        ]
+      },
+      {
+        "id": "maletero",
+        "etiqueta": "Vorderer Kofferraum",
+        "titulo": "Grüner Stoff<br/><strong>und RUF Carbonplatte.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/maletero-01.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-01.jpg",
+            "alt": "Vorderer Kofferraum · Irish Green",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Vorderer Kofferraum · Irish Green"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-02.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-02.jpg",
+            "alt": "Vorderer Kofferraum · Grüner Stoff",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Vorderer Kofferraum · Grüner Stoff"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-03.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-03.jpg",
+            "alt": "Kofferraum und RUF Platte",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Kofferraum und RUF Platte"
+          },
+          {
+            "src": "/img/ruf/extras/maletero-04.jpg",
+            "mini": "/img/ruf/extras/mini/maletero-04.jpg",
+            "alt": "RUF Platte · Kohlefaser",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Platte · Kohlefaser"
+          }
+        ]
+      },
+      {
+        "id": "motor",
+        "etiqueta": "Motor",
+        "titulo": "3.8 Boxer<br/><strong>mit RUF Kompressor.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/motor-01.jpg",
+            "mini": "/img/ruf/extras/mini/motor-01.jpg",
+            "alt": "Motorraum · RUF Kompressor 3.8",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Motorraum · RUF Kompressor 3.8"
+          },
+          {
+            "src": "/img/ruf/extras/motor-02.jpg",
+            "mini": "/img/ruf/extras/mini/motor-02.jpg",
+            "alt": "Ansaugtrakt und Kompressor Abdeckung",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Ansaugtrakt und Kompressor Abdeckung"
+          },
+          {
+            "src": "/img/ruf/extras/motor-03.jpg",
+            "mini": "/img/ruf/extras/mini/motor-03.jpg",
+            "alt": "RUF Logo auf der Motorabdeckung",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Logo auf der Motorabdeckung"
+          },
+          {
+            "src": "/img/ruf/extras/motor-04.jpg",
+            "mini": "/img/ruf/extras/mini/motor-04.jpg",
+            "alt": "3,8 Plakette · Motorraum",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "3,8 Plakette · Motorraum"
+          },
+          {
+            "src": "/img/ruf/extras/motor-05.jpg",
+            "mini": "/img/ruf/extras/mini/motor-05.jpg",
+            "alt": "RUF Automobile Typenschild",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "RUF Automobile Typenschild"
+          },
+          {
+            "src": "/img/ruf/extras/motor-06.jpg",
+            "mini": "/img/ruf/extras/mini/motor-06.jpg",
+            "alt": "RUF Etikett im Motorraum",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Etikett im Motorraum"
+          }
+        ]
+      },
+      {
+        "id": "interior",
+        "etiqueta": "Innenraum",
+        "titulo": "Braunes Leder<br/><strong>und grüner Stoff.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/interior-01.jpg",
+            "mini": "/img/ruf/extras/mini/interior-01.jpg",
+            "alt": "Sitze · Braunes Leder und grüner Stoff",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Sitze · Braunes Leder und grüner Stoff"
+          },
+          {
+            "src": "/img/ruf/extras/interior-02.jpg",
+            "mini": "/img/ruf/extras/mini/interior-02.jpg",
+            "alt": "Innenraum von der Fahrertür",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Innenraum von der Fahrertür"
+          },
+          {
+            "src": "/img/ruf/extras/interior-03.jpg",
+            "mini": "/img/ruf/extras/mini/interior-03.jpg",
+            "alt": "Fahrersitz",
+            "ancho": 934,
+            "alto": 1400,
+            "caption": "Fahrersitz"
+          },
+          {
+            "src": "/img/ruf/extras/interior-04.jpg",
+            "mini": "/img/ruf/extras/mini/interior-04.jpg",
+            "alt": "Beifahrersitz",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Beifahrersitz"
+          },
+          {
+            "src": "/img/ruf/extras/interior-05.jpg",
+            "mini": "/img/ruf/extras/mini/interior-05.jpg",
+            "alt": "Sitz und Türverkleidung",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Sitz und Türverkleidung"
+          },
+          {
+            "src": "/img/ruf/extras/interior-06.jpg",
+            "mini": "/img/ruf/extras/mini/interior-06.jpg",
+            "alt": "Rückenlehne · Geprägtes Porsche Wappen",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Rückenlehne · Geprägtes Porsche Wappen"
+          },
+          {
+            "src": "/img/ruf/extras/interior-07.jpg",
+            "mini": "/img/ruf/extras/mini/interior-07.jpg",
+            "alt": "Sitznähte und elektrische Verstellung",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Sitznähte und elektrische Verstellung"
+          },
+          {
+            "src": "/img/ruf/extras/interior-08.jpg",
+            "mini": "/img/ruf/extras/mini/interior-08.jpg",
+            "alt": "Sitzwange · Grüner Stoff",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Sitzwange · Grüner Stoff"
+          },
+          {
+            "src": "/img/ruf/extras/interior-09.jpg",
+            "mini": "/img/ruf/extras/mini/interior-09.jpg",
+            "alt": "Fahrersitz und Pedale",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Fahrersitz und Pedale"
+          },
+          {
+            "src": "/img/ruf/extras/interior-10.jpg",
+            "mini": "/img/ruf/extras/mini/interior-10.jpg",
+            "alt": "Türgriff und Lautsprecher",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Türgriff und Lautsprecher"
+          },
+          {
+            "src": "/img/ruf/extras/interior-11.jpg",
+            "mini": "/img/ruf/extras/mini/interior-11.jpg",
+            "alt": "Sitzmemory",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Sitzmemory"
+          },
+          {
+            "src": "/img/ruf/extras/interior-12.jpg",
+            "mini": "/img/ruf/extras/mini/interior-12.jpg",
+            "alt": "RUF Einstiegsleiste",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Einstiegsleiste"
+          },
+          {
+            "src": "/img/ruf/extras/interior-13.jpg",
+            "mini": "/img/ruf/extras/mini/interior-13.jpg",
+            "alt": "Porsche Fußmatte",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Porsche Fußmatte"
+          },
+          {
+            "src": "/img/ruf/extras/interior-14.jpg",
+            "mini": "/img/ruf/extras/mini/interior-14.jpg",
+            "alt": "Sitze und Mittelkonsole",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Sitze und Mittelkonsole"
+          },
+          {
+            "src": "/img/ruf/extras/interior-15.jpg",
+            "mini": "/img/ruf/extras/mini/interior-15.jpg",
+            "alt": "Türverkleidung · Grüner Stoff",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Türverkleidung · Grüner Stoff"
+          },
+          {
+            "src": "/img/ruf/extras/interior-16.jpg",
+            "mini": "/img/ruf/extras/mini/interior-16.jpg",
+            "alt": "Innenraum von der Beifahrerseite",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Innenraum von der Beifahrerseite"
+          },
+          {
+            "src": "/img/ruf/extras/interior-17.jpg",
+            "mini": "/img/ruf/extras/mini/interior-17.jpg",
+            "alt": "Armaturenbrett und Schaltgetriebe",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Armaturenbrett und Schaltgetriebe"
+          },
+          {
+            "src": "/img/ruf/extras/interior-18.jpg",
+            "mini": "/img/ruf/extras/mini/interior-18.jpg",
+            "alt": "Fahrertür und Armaturenbrett",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Fahrertür und Armaturenbrett"
+          },
+          {
+            "src": "/img/ruf/extras/interior-19.jpg",
+            "mini": "/img/ruf/extras/mini/interior-19.jpg",
+            "alt": "Beifahrersitz und Mittelkonsole",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Beifahrersitz und Mittelkonsole"
+          }
+        ]
+      },
+      {
+        "id": "cabina",
+        "etiqueta": "Fahrerplatz",
+        "titulo": "Instrumente<br/><strong>und Bedienelemente.</strong>",
+        "fotos": [
+          {
+            "src": "/img/ruf/extras/cabina-01.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-01.jpg",
+            "alt": "RUF Lenkrad",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Lenkrad"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-02.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-02.jpg",
+            "alt": "Schaltknauf",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Schaltknauf"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-03.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-03.jpg",
+            "alt": "Mittelkonsole und Schaltgetriebe",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Mittelkonsole und Schaltgetriebe"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-04.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-04.jpg",
+            "alt": "Klimaautomatik und Mittelkonsole",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Klimaautomatik und Mittelkonsole"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-05.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-05.jpg",
+            "alt": "RUF Drehzahlmesser",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Drehzahlmesser"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-06.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-06.jpg",
+            "alt": "Instrumente · Rote Zeiger",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Instrumente · Rote Zeiger"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-07.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-07.jpg",
+            "alt": "RUF Instrumente · Grünes Zifferblatt",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Instrumente · Grünes Zifferblatt"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-08.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-08.jpg",
+            "alt": "Uhr im Kombiinstrument",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Uhr im Kombiinstrument"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-09.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-09.jpg",
+            "alt": "Tachometer und Kilometerzähler",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Tachometer und Kilometerzähler"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-10.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-10.jpg",
+            "alt": "Tachometer bis 330 km/h",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Tachometer bis 330 km/h"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-11.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-11.jpg",
+            "alt": "Sport Chrono Stoppuhr",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "Sport Chrono Stoppuhr"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-12.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-12.jpg",
+            "alt": "Fahrerplatz",
+            "ancho": 1400,
+            "alto": 787,
+            "caption": "Fahrerplatz"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-13.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-13.jpg",
+            "alt": "RUF Lenkrad · Gelochtes Leder",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Lenkrad · Gelochtes Leder"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-14.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-14.jpg",
+            "alt": "Speiche des RUF Lenkrads",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Speiche des RUF Lenkrads"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-15.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-15.jpg",
+            "alt": "RUF Lenkrad und Kombiinstrument",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "RUF Lenkrad und Kombiinstrument"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-16.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-16.jpg",
+            "alt": "Aluminiumpedale und RUF Lenkrad",
+            "ancho": 1400,
+            "alto": 788,
+            "caption": "Aluminiumpedale und RUF Lenkrad"
+          },
+          {
+            "src": "/img/ruf/extras/cabina-17.jpg",
+            "mini": "/img/ruf/extras/mini/cabina-17.jpg",
+            "alt": "RUF Lenkrad und Fahrersitz",
+            "ancho": 933,
+            "alto": 1400,
+            "caption": "RUF Lenkrad und Fahrersitz"
+          }
+        ]
+      }
+    ]
+  },
   "procedencia": {
     "etiqueta": "Dokumentation und Herkunft",
     "titulo": "Verlauf<br/><strong>vollständig<br/>dokumentiert.</strong>",

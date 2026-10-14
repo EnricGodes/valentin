@@ -74,7 +74,8 @@ function lightbox() {
 
   const pintar = () => {
     const f = fotos[i];
-    img.src = f.src;
+    // Las fichas de coche ponen la mini en la rejilla y la grande en data-full
+    img.src = f.dataset.full || f.src;
     img.alt = f.alt;
     pie.textContent = f.closest('.mod-foto')?.querySelector('figcaption')?.textContent
       ?? `${i + 1} / ${fotos.length}`;
