@@ -31,6 +31,7 @@ import { PAGINAS_CONTENIDO, idiomasDe, separarFaq, type Pagina } from '../datos/
 import PreguntasFrecuentes from '../components/PreguntasFrecuentes.astro';
 import { VENDIDOS, type Vendido } from '../datos/vendido';
 import FichaVendido from '../components/FichaVendido.astro';
+import Pa10 from '../components/Pa10.astro';
 import UnidadesGeneracion from '../components/UnidadesGeneracion.astro';
 import { landingDeCoche } from '../datos/generacion';
 
@@ -218,11 +219,15 @@ if (esTarifas && secciones.length) {
 
 const esVende = pagina?.rutaId === 'vende';
 
+/* PA10/01 es una pagina editorial con su propio sistema de diseno: se pinta con
+   su componente, sin el articulo generico ni el formulario de proyecto. */
+const esPa10 = pagina?.rutaId === 'build-pa10-01';
+
 /* Toda pagina de servicio acaba en el formulario, con el motivo ya puesto:
    quien ha leido hasta el final de "Reparacion del IMS" no quiere buscar el
    contacto en el menu. Restauraciones y builds piden proyecto; el taller,
    cita; storage, competicion y el indice de centros, lo que sea. */
-const motivoServicio = pagina?.tipo === 'servicio' && !esTarifas
+const motivoServicio = pagina?.tipo === 'servicio' && !esTarifas && !esPa10
   ? (/^(restauraciones|build)/.test(pagina.rutaId) ? 'restauracion'
      : /^(storage|competicion|centros)$/.test(pagina.rutaId) ? 'otro' : 'taller')
   : undefined;
@@ -244,7 +249,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   titulo={titulo}
   descripcion={descripcion}
   realce={coche?.realce ?? ''}
-  imagen={coche?.hero.imagen}
+  imagen={coche?.hero.imagen ?? (esPa10 ? '/img/pa10-01/hero-1920.webp' : undefined)}
   tipoPagina={coche ? 'ficha' : vendido ? 'vendido' : pagina?.tipo ?? 'catalogo'}
   coche={coche?.slug ?? vendido?.slug}
 >
@@ -263,7 +268,9 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
                         cocheNombre={coche.catalogo?.nombre ?? coche.slug} />}
   {vendido && <FichaVendido coche={vendido} idioma={idioma} />}
 
-  {pagina && (
+  {esPa10 && <Pa10 />}
+
+  {pagina && !esPa10 && (
     <article class="pagina">
       <header class="page-header">
         <div class="shimmer-line reveal"></div>

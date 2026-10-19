@@ -1,0 +1,198 @@
+/* PA10/01: sistema de diseno independiente. Generado a partir de PA10-01_Web_Claude_Code.zip; todas las clases llevan el prefijo p10-. */
+@font-face{font-family:Studio;src:url('/fonts/pa10-01/nimbus-sans.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Studio;src:url('/fonts/pa10-01/nimbus-sans-bold.woff') format('woff');font-weight:700;font-style:normal;font-display:swap}
+.p10{--paper:#fff;--ink:#25251f;--muted:#797971;--line:#d7d6cf;--soft:#f3f2ed;--wine:#5b2b31;--gutter:clamp(24px,4.3vw,84px);--header:77px;--ease:cubic-bezier(.22,1,.36,1)}
+:where(.p10) *{box-sizing:border-box}
+html:has(.p10){scroll-behavior:smooth;scroll-padding-top:105px}
+.p10{margin:0;background:var(--paper);color:var(--ink);font-family:Studio,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+:where(.p10) button,:where(.p10) a{-webkit-tap-highlight-color:transparent}
+:where(.p10) a{color:inherit;text-decoration:none}
+:where(.p10) button{font:inherit;color:inherit;cursor:pointer}
+:where(.p10) button:disabled{opacity:.3;cursor:default}
+:where(.p10) button{border:0}
+:where(.p10) img{display:block;width:100%;height:auto}
+:where(.p10) figure,:where(.p10) p,:where(.p10) h1,:where(.p10) h2,:where(.p10) h3{margin:0}
+:where(.p10) button:focus-visible,:where(.p10) a:focus-visible,:where(.p10) [tabindex]:focus-visible{outline:2px solid var(--wine);outline-offset:5px}
+:where(.p10) button:focus:not(:focus-visible){outline:none}
+:where(.p10) ::selection{background:#dbd1c3;color:#25251f}
+:where(.p10) em{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.055em}
+:where(.p10) section[id]{scroll-margin-top:var(--header)}
+.p10-reading-progress{position:fixed;top:var(--header);left:0;width:100%;height:2px;z-index:40;background:var(--wine);transform:scaleX(0);transform-origin:left;pointer-events:none}
+.p10-hero{height:min(890px,calc(100svh - var(--header)));min-height:560px;position:relative;color:white;overflow:hidden;margin:0 14px;background:#777567}
+.p10-hero-media,.p10-hero-shade,.p10-hero-car{position:absolute;inset:0}
+.p10-hero-media img,.p10-hero-car img{height:100%;object-fit:cover;object-position:50% 56%;will-change:transform}
+.p10-hero-shade{background:linear-gradient(180deg,#0004,transparent 48%,#0004)}
+.p10-hero-heading{position:absolute;left:calc(var(--gutter) - 14px);top:36px;right:20px}
+.p10-eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:10px;line-height:1.5}
+
+
+.p10-hero h1{font-size:clamp(110px,17.8vw,288px);font-weight:400;line-height:.95;letter-spacing:-.078em;margin:clamp(20px,6.5vw,110px) 0 2px -9px}
+.p10-hero-subtitle{font-size:clamp(18px,2vw,30px);letter-spacing:-.03em}
+.p10-hero-bottom{position:absolute;bottom:26px;left:calc(var(--gutter) - 14px);right:calc(var(--gutter) - 14px);display:flex;align-items:center;justify-content:flex-end;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
+.p10-hero-bottom a{display:flex;align-items:center;gap:24px}
+.p10-scroll-arrow{display:grid;place-items:center;width:42px;height:42px;border:1px solid #ffffff70;border-radius:50%;font-size:21px;transition:transform .4s}
+.p10-hero-bottom a:hover .p10-scroll-arrow{transform:translateY(5px)}
+.p10-section-pad{padding-left:var(--gutter);padding-right:var(--gutter)}
+.p10-section-label{display:flex;align-items:center;justify-content:space-between;font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding-bottom:20px;border-bottom:1px solid var(--line);color:#696961}
+.p10-display{font-size:clamp(54px,6.7vw,108px);line-height:1.01;letter-spacing:-.062em;font-weight:400}
+.p10-vision{padding-top:112px;padding-bottom:110px}
+.p10-intro-grid{display:grid;grid-template-columns:1.45fr 1fr;gap:7vw;margin:70px 0 90px}
+.p10-intro-copy{max-width:400px;padding-top:7px;justify-self:end}
+.p10-intro-copy .p10-lead{font-size:20px;line-height:1.35;letter-spacing:-.025em;color:var(--ink);margin-bottom:27px}
+.p10-intro-copy p,.p10-section-summary,.p10-interior-copy p,.p10-engine-copy p,.p10-story-step p,.p10-rear-description{font-size:15px;line-height:1.65;color:#707068}
+.p10-intro-copy p+p{margin-top:18px}
+.p10-vision-composition{display:grid;grid-template-columns:1.95fr 1fr;gap:4.5vw;align-items:start}
+.p10-vision-main{margin-top:20px}
+.p10-vision-main .p10-image-frame{aspect-ratio:1.45}
+.p10-vision-main img{height:100%;object-fit:cover}
+.p10-vision-aside{padding-top:90px}
+.p10-side-thought{font-size:clamp(24px,2.6vw,42px);line-height:1.15;letter-spacing:-.035em;margin-bottom:50px}
+.p10-vision-detail .p10-image-frame{aspect-ratio:1.15}
+.p10-vision-detail img{height:100%;object-fit:cover;object-position:56% center}
+.p10-photo{min-width:0}
+.p10-image-frame{display:block;position:relative;width:100%;padding:0;background:#e7e5df;overflow:hidden;text-align:left}
+.p10-image-frame img{transition:transform 1.2s var(--ease)}
+@media(hover:hover){.p10-image-frame:hover img{transform:scale(1.035)}}
+.p10-photo figcaption{display:flex;justify-content:space-between;gap:16px;text-transform:uppercase;font-size:9px;letter-spacing:.08em;color:#75756d;padding:14px 0;line-height:1.5}
+.p10-photo figcaption>span:last-child{white-space:nowrap;opacity:.7}
+.p10-section-top{padding-top:10px}
+.p10-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:40px;padding:65px 0 75px}
+.p10-section-summary{max-width:350px}
+.p10-profile-band{position:relative;overflow:hidden}
+.p10-profile-photo .p10-image-frame{aspect-ratio:1.9}
+.p10-profile-photo img{height:100%;object-fit:cover;object-position:center}
+.p10-profile-caption{position:absolute;bottom:28px;left:var(--gutter);right:var(--gutter);display:flex;justify-content:space-between;pointer-events:none;font-size:10px;letter-spacing:.06em;color:#fff9;text-transform:uppercase}
+.p10-exterior-pair{display:grid;grid-template-columns:.83fr 1.4fr;gap:8vw;padding-top:120px;padding-bottom:140px;align-items:start}
+.p10-wheel-column{padding-top:60px}
+.p10-wheel-photo .p10-image-frame{aspect-ratio:.9}
+.p10-wheel-photo img{height:100%;object-fit:cover;object-position:38% 50%}
+.p10-detail-note{font-size:16px;line-height:1.5;margin-top:17px;color:#77776d}
+.p10-micro-heading{display:flex;gap:18px;align-items:flex-start;margin-bottom:50px;font-size:22px;line-height:1.2;letter-spacing:-.03em}
+.p10-hairline{width:45px;height:1px;background:var(--ink);margin-top:11px}
+.p10-rear-photo .p10-image-frame{aspect-ratio:1.35}
+.p10-rear-photo img{height:100%;object-fit:cover;object-position:56% center}
+.p10-rear-description{max-width:340px;margin-top:24px;margin-left:auto}
+.p10-interior{background:var(--soft);padding-top:80px;padding-bottom:70px}
+.p10-interior-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;padding:65px 0 75px}
+.p10-material-legend{display:flex;gap:24px;padding-bottom:4px;font-size:10px;color:#68675e}
+.p10-material-legend>span{display:flex;align-items:center;gap:8px}
+.p10-swatch{width:16px;height:16px;border-radius:50%;display:inline-block;border:1px solid #0001}
+.p10-cream{background:#dfd8bd}
+.p10-burgundy{background:#622e36}
+.p10-tartan{background:repeating-linear-gradient(90deg,transparent 0 4px,#bcad8b 4px 5px,transparent 5px 10px),repeating-linear-gradient(0deg,#403a30 0 4px,#9c5d40 4px 8px,#c0ad83 8px 9px)}
+.p10-interior-wide .p10-image-frame{aspect-ratio:1.9}
+.p10-interior-wide img{height:100%;object-fit:cover;object-position:50% 58%}
+.p10-interior-story{display:grid;grid-template-columns:1fr 1.1fr;gap:10vw;margin:90px 0 110px;align-items:center}
+.p10-interior-copy{max-width:370px;margin-left:3vw}
+.p10-interior-copy h3,.p10-engine-copy h3,.p10-story-step h3{font-size:clamp(38px,4vw,65px);line-height:1.05;letter-spacing:-.055em;font-weight:400;margin:28px 0}
+.p10-interior-copy p+p{margin-top:20px}
+.p10-seat-photo .p10-image-frame{aspect-ratio:1.05}
+.p10-seat-photo img{height:100%;object-fit:cover;object-position:65% 50%}
+.p10-craft{padding-top:100px;padding-bottom:120px}
+.p10-craft-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin:65px 0 90px}
+.p10-engine-layout{display:grid;grid-template-columns:1.5fr 1fr;gap:8vw;align-items:center;margin-bottom:140px}
+.p10-engine-photo .p10-image-frame{aspect-ratio:1.14}
+.p10-engine-photo img{height:100%;object-fit:cover;object-position:30% center}
+.p10-engine-copy{max-width:310px}
+.p10-detail-story{display:grid;grid-template-columns:1.35fr 1fr;gap:8vw;align-items:start}
+.p10-story-visual{position:sticky;top:calc(var(--header) + 50px)}
+.p10-story-frames{position:relative}
+.p10-story-frame:not(:first-child){margin-top:24px}
+.p10-story-frame .p10-image-frame{aspect-ratio:1.18}
+.p10-story-frame img{height:100%;object-fit:cover}
+.p10-story-step{min-height:70vh;display:flex;flex-direction:column;justify-content:center;max-width:300px;padding:40px 0}
+.p10-story-step h3{margin:24px 0}
+.p10-story-progress{display:none}
+.p10-story-enhanced .p10-story-frame{position:absolute;top:0;left:0;right:0;opacity:0;visibility:hidden;margin:0;transition:opacity .8s var(--ease),visibility .8s}
+.p10-story-enhanced .p10-story-frame:first-child{position:relative}
+.p10-story-enhanced .p10-story-frame.p10-is-active{opacity:1;visibility:visible;z-index:1}
+.p10-story-enhanced .p10-story-progress{display:flex;gap:8px;margin-top:10px}
+.p10-story-progress span{width:36px;height:2px;background:#d2d2cb;transition:background .4s}
+.p10-story-progress .p10-is-active{background:var(--ink)}
+.p10-finishing-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:9vw;margin-top:100px;align-items:start}
+.p10-luggage-photo .p10-image-frame{aspect-ratio:1.4}
+.p10-luggage-photo img{height:100%;object-fit:cover}
+.p10-emblem-column{padding-top:70px}
+.p10-emblem-column .p10-side-thought{font-size:clamp(24px,2.8vw,40px);margin-bottom:48px}
+.p10-emblem-photo .p10-image-frame{aspect-ratio:1.35}
+.p10-emblem-photo img{height:100%;object-fit:cover;object-position:62% center}
+.p10-specifications{background:var(--soft);padding-top:75px;padding-bottom:100px}
+.p10-spec-layout{display:grid;grid-template-columns:1fr 1.25fr;gap:8vw;padding-top:70px;align-items:start}
+.p10-spec-intro{position:sticky;top:calc(var(--header) + 50px)}
+.p10-spec-intro p{font-size:15px;line-height:1.6;color:#74736a;margin-top:30px}
+.p10-spec-data h3{font-size:11px;text-transform:uppercase;letter-spacing:.09em;font-weight:400;margin-bottom:20px}
+.p10-spec-data h3:not(:first-child){margin-top:48px}
+.p10-spec-data dl{margin:0}
+.p10-spec-data dl>div{display:grid;grid-template-columns:1fr 1.3fr;gap:24px;border-top:1px solid var(--line);padding:16px 0;font-size:13px;line-height:1.45}
+.p10-spec-data dl>div:last-child{border-bottom:1px solid var(--line)}
+.p10-spec-data dt{color:#77776d}
+.p10-spec-data dd{margin:0}
+.p10-closing{height:700px;max-height:90svh;min-height:500px;position:relative;overflow:hidden;color:white}
+.p10-closing-image,.p10-closing-overlay{position:absolute;inset:0}
+.p10-closing-image img{height:100%;object-fit:cover;object-position:50% 58%}
+.p10-closing-overlay{background:linear-gradient(90deg,#0006,transparent 65%),linear-gradient(0deg,#0003,transparent 50%)}
+.p10-closing-copy{position:absolute;left:var(--gutter);top:60px;right:var(--gutter)}
+.p10-closing-copy h2{font-size:clamp(42px,5.5vw,84px);line-height:1.05;letter-spacing:-.05em;font-weight:400;margin:25px 0}
+.p10-closing-button{background:transparent;border-bottom:1px solid #fff9;color:white;font-size:12px;padding:13px 0;display:flex;align-items:center;gap:60px}
+.p10-closing-button:hover{border-color:white}
+.p10-reveal{transition:opacity 1s var(--ease),transform 1.2s var(--ease)}
+.p10.p10-motion-ready .p10-reveal:not(.p10-is-visible){opacity:0;transform:translateY(30px)}
+@media(min-width:1800px){.p10-section-pad{padding-left:max(var(--gutter),calc((100vw - 1600px)/2));padding-right:max(var(--gutter),calc((100vw - 1600px)/2))}.p10-hero-heading{top:60px}.p10-display{font-size:110px}}
+@media(max-width:1100px){.p10-intro-grid{gap:5vw;grid-template-columns:1.3fr 1fr}.p10-display{font-size:7vw}.p10-material-legend{gap:12px}.p10-engine-layout{gap:6vw}.p10-detail-story{gap:6vw}.p10-closing{height:600px}}
+@media(max-width:760px){.p10{--gutter:24px;--header:68px}html:has(.p10){scroll-padding-top:82px}.p10-hero{margin:0 8px;height:calc(84svh - var(--header));min-height:480px;max-height:700px}.p10-hero-media img,.p10-hero-car img{object-position:51% 56%}.p10-hero-heading{top:30px;left:16px;right:16px}.p10-hero h1{font-size:23vw;margin:20px 0 4px -3px;line-height:1}.p10-hero-subtitle{font-size:20px}.p10-hero-bottom{bottom:22px;left:16px;right:16px;font-size:8px}.p10-hero-bottom a{gap:12px;font-size:8px;letter-spacing:.03em}.p10-scroll-arrow{height:33px;width:33px;font-size:17px}.p10-vision{padding-top:65px;padding-bottom:70px}.p10-section-label{font-size:8px;letter-spacing:.07em;padding-bottom:16px;gap:15px}.p10-section-label>span:last-child{text-align:right}.p10-intro-grid{grid-template-columns:1fr;margin:40px 0 45px;gap:30px}.p10-display{font-size:clamp(48px,10.8vw,78px);line-height:1.04}.p10-intro-copy{max-width:500px;justify-self:start;padding:0}.p10-intro-copy .p10-lead{font-size:19px;margin-bottom:20px}.p10-intro-copy p,.p10-section-summary,.p10-interior-copy p,.p10-engine-copy p,.p10-story-step p,.p10-rear-description{font-size:14px;line-height:1.7}.p10-vision-composition{grid-template-columns:1fr;gap:30px}.p10-vision-main{margin:0}.p10-vision-main .p10-image-frame{aspect-ratio:1.3}.p10-vision-aside{display:grid;grid-template-columns:1fr 1.2fr;gap:20px;align-items:center;padding:0}.p10-side-thought{font-size:23px;margin-bottom:0;line-height:1.2}.p10-vision-detail .p10-image-frame{aspect-ratio:.9}.p10-photo figcaption{font-size:8px;padding:10px 0;letter-spacing:.04em;gap:8px}.p10-photo figcaption>span:last-child{display:none}.p10-section-top{padding-top:0}.p10-section-heading{display:block;padding:40px 0}.p10-section-summary{max-width:400px;margin-top:25px}.p10-profile-photo .p10-image-frame{aspect-ratio:1.25}.p10-profile-photo img{object-fit:contain;background:#363833}.p10-profile-caption{bottom:14px;font-size:8px;left:18px;right:18px}.p10-profile-caption>span:first-child{display:none}.p10-exterior-pair{grid-template-columns:1fr;gap:45px;padding-top:45px;padding-bottom:65px}.p10-wheel-column{padding-top:0;width:78%}.p10-wheel-photo .p10-image-frame{aspect-ratio:1.1}.p10-detail-note{font-size:14px;margin-top:8px}.p10-rear-column{padding-left:12%}.p10-micro-heading{font-size:21px;margin-bottom:25px;gap:12px}.p10-hairline{width:30px}.p10-rear-photo .p10-image-frame{aspect-ratio:1.2}.p10-rear-description{margin-top:14px}.p10-interior{padding-top:45px;padding-bottom:40px}.p10-interior-heading{display:block;padding:40px 0 30px}.p10-material-legend{margin-top:30px;font-size:9px;gap:19px}.p10-swatch{height:13px;width:13px}.p10-interior-wide{margin:0 -24px}.p10-interior-wide .p10-image-frame{aspect-ratio:1.2}.p10-interior-wide img{object-position:58% 50%}.p10-interior-wide figcaption{padding-left:24px}.p10-interior-story{grid-template-columns:1fr;gap:35px;margin:50px 0 60px}.p10-interior-copy{margin:0;max-width:440px}.p10-interior-copy h3,.p10-engine-copy h3,.p10-story-step h3{font-size:43px;margin:20px 0}.p10-seat-photo{width:88%;justify-self:end}.p10-seat-photo .p10-image-frame{aspect-ratio:1.1}.p10-craft{padding-top:65px;padding-bottom:65px}.p10-craft-intro{display:block;margin:40px 0}.p10-engine-layout{grid-template-columns:1fr;gap:30px;margin-bottom:70px}.p10-engine-photo .p10-image-frame{aspect-ratio:1.25}.p10-engine-copy{max-width:400px}.p10-engine-copy h3 br:nth-child(2){display:none}.p10-detail-story{display:flex;flex-direction:column;gap:0}.p10-story-visual{position:relative;top:auto;width:100%}.p10-story-frames{display:contents}.p10-story-frame{margin-bottom:30px}.p10-story-frame:not(:first-child){margin-top:0}.p10-story-frame .p10-image-frame{aspect-ratio:1.25}.p10-story-text{display:contents}.p10-story-step{min-height:0;max-width:100%;padding:8px 0 42px;display:none}.p10-story-visual{display:contents}.p10-story-frame[data-frame="0"]{order:1}.p10-story-step[data-step="0"]{order:2}.p10-story-frame[data-frame="1"]{order:3}.p10-story-step[data-step="1"]{order:4}.p10-story-frame[data-frame="2"]{order:5}.p10-story-step[data-step="2"]{order:6}.p10-story-step{display:block}.p10-story-step h3{font-size:37px;margin:14px 0 20px}.p10-story-step h3 br{display:none}.p10-story-step p{max-width:420px}.p10-story-enhanced .p10-story-frame{position:relative;opacity:1;visibility:visible;margin-bottom:25px}.p10-story-enhanced .p10-story-progress{display:none}.p10-finishing-grid{grid-template-columns:1fr;gap:35px;margin-top:10px}.p10-luggage-photo .p10-image-frame{aspect-ratio:1.25}.p10-emblem-column{padding:0;display:grid;grid-template-columns:.9fr 1.2fr;align-items:center;gap:20px}.p10-emblem-column .p10-side-thought{font-size:22px;margin:0}.p10-emblem-photo .p10-image-frame{aspect-ratio:.85}.p10-emblem-photo img{object-position:66% center}.p10-specifications{padding-top:45px;padding-bottom:55px}.p10-spec-layout{grid-template-columns:1fr;gap:45px;padding-top:40px}.p10-spec-intro{position:static}.p10-spec-intro .p10-display br{display:none}.p10-spec-intro p{margin-top:20px;font-size:14px}.p10-spec-data h3{font-size:10px;margin-bottom:16px}.p10-spec-data dl>div{font-size:12px;gap:20px;grid-template-columns:1fr 1.3fr;padding:14px 0}.p10-spec-data h3:not(:first-child){margin-top:34px}.p10-closing{height:600px;max-height:84svh;min-height:490px}.p10-closing-copy{top:40px}.p10-closing-copy h2{font-size:41px;margin:23px 0 16px}.p10-closing-image img{object-position:51% center}.p10-closing-overlay{background:linear-gradient(180deg,#0007,transparent 55%,#0003)}.p10-closing-button{gap:45px;font-size:11px}.p10-reveal{transition-duration:.8s}}
+.p10-cockpit-sequence{padding-bottom:30px}
+.p10-cockpit-instruments{display:grid;grid-template-columns:1.8fr 1fr;gap:5vw;align-items:end}
+.p10-cockpit-instruments .p10-image-frame{aspect-ratio:1.5}
+.p10-cockpit-instruments img{height:100%;object-fit:cover}
+.p10-cockpit-caption{padding-bottom:45px}
+.p10-cockpit-caption p{font-size:clamp(25px,3vw,45px);line-height:1.12;letter-spacing:-.04em;margin-top:20px}
+.p10-cockpit-gesture{display:grid;grid-template-columns:1fr 1.2fr;gap:8vw;align-items:center;margin:100px 0}
+.p10-gesture-copy{max-width:300px;margin-left:3vw}
+.p10-gesture-copy h3{font-size:clamp(40px,4.5vw,66px);line-height:1.05;letter-spacing:-.05em;font-weight:400;margin:24px 0}
+.p10-gesture-copy p{font-size:15px;line-height:1.65;color:#707068}
+.p10-console-photo .p10-image-frame{aspect-ratio:1.25}
+.p10-console-photo img{height:100%;object-fit:cover}
+.p10-cockpit-materials{display:grid;grid-template-columns:1.15fr 1fr;gap:10vw;align-items:center;max-width:1000px}
+.p10-dashboard-photo .p10-image-frame{aspect-ratio:1.2}
+.p10-dashboard-photo img{height:100%;object-fit:cover}
+.p10-cockpit-materials .p10-side-thought{margin:0}
+.p10-spec-highlights{display:grid;grid-template-columns:repeat(3,1fr);padding:60px 0 35px;border-bottom:1px solid var(--line);gap:30px}
+.p10-spec-highlights>div{display:flex;flex-direction:column;gap:16px;border-right:1px solid var(--line);padding-left:30px}
+.p10-spec-highlights>div:first-child{padding-left:0}
+.p10-spec-highlights>div:last-child{border-right:0}
+.p10-metric-value{font-size:clamp(60px,7.5vw,120px);line-height:.95;letter-spacing:-.06em}
+.p10-metric-value small{font-size:23px;letter-spacing:-.02em;margin-left:10px}
+.p10-metric-label{text-transform:uppercase;font-size:10px;letter-spacing:.1em;color:#77776d}
+.p10-spec-draft-note{font-size:10px;line-height:1.5;color:#85857b;margin-top:14px}
+.p10-closing-button{width:max-content}
+.p10-photo figcaption>span:last-child{opacity:1;white-space:normal}
+@media(max-width:760px){.p10-cockpit-sequence{padding-bottom:0}.p10-cockpit-instruments{grid-template-columns:1fr;gap:15px}.p10-cockpit-caption{padding:10px 0 0}.p10-cockpit-caption p{font-size:28px;margin-top:12px}.p10-cockpit-gesture{grid-template-columns:1fr;gap:25px;margin:50px 0}.p10-gesture-copy{margin-left:0;max-width:380px}.p10-gesture-copy h3{font-size:40px;margin:16px 0 20px}.p10-gesture-copy p{font-size:14px}.p10-console-photo{width:90%;justify-self:end}.p10-cockpit-materials{grid-template-columns:1fr;gap:25px}.p10-dashboard-photo{width:80%}.p10-cockpit-materials .p10-side-thought{font-size:27px;margin-left:20%;margin-bottom:20px}.p10-spec-highlights{padding:35px 0 25px;gap:12px}.p10-spec-highlights>div{padding-left:10px;gap:12px}.p10-metric-value{font-size:clamp(38px,10vw,65px)}.p10-metric-value small{font-size:13px;margin-left:5px}.p10-metric-label{font-size:8px;letter-spacing:.04em}.p10-spec-draft-note{font-size:9px;max-width:280px}.p10-photo figcaption>span:last-child{display:inline}}
+@media(prefers-reduced-motion:reduce){html:has(.p10){scroll-behavior:auto}:where(.p10) *,:where(.p10) *:before,:where(.p10) *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.p10.p10-motion-ready .p10-reveal:not(.p10-is-visible){opacity:1;transform:none}.p10-hero-media img{transform:none!important}.p10-image-frame:hover img{transform:none}}
+.p10{padding-top:var(--header);background:var(--paper);overflow-x:clip}
+body:has(.p10) #cursor,body:has(.p10) #cursor-ring{display:none}
+body:has(.p10){cursor:auto}
+/* El menu del sitio es un degradado sobre fondo oscuro; sobre esta pagina clara necesita fondo solido. */
+body:has(.p10) .nav{background:#0b0b0b}
+/* Capas del hero: fondo, titulo, coche recortado por encima del titulo, sombreado. */
+.p10-hero-heading{z-index:1}
+.p10-hero-car{z-index:2;pointer-events:none}
+.p10-hero-shade{z-index:3;pointer-events:none}
+.p10-hero-bottom{z-index:4}
+/* El titulo aparece con el scroll (--p10-t, de 0 a 1, lo escribe scripts/pa10.ts) y el hero
+   se queda fijo mientras tanto; despues se suelta. Va en CSS, no en una clase que ponga el JS,
+   para que el titulo nunca se vea antes de tiempo. Con movimiento reducido, todo normal.
+   El recorrido va como espaciador, no como padding: el sticky solo se mueve dentro del area de contenido. */
+@media(prefers-reduced-motion:no-preference){
+.p10-hero-pin::after{content:"";display:block;height:65svh}
+.p10-hero{position:sticky;top:var(--header)}
+.p10-hero h1{opacity:var(--p10-t,0);transform:translateY(calc((1 - var(--p10-t,0)) * 9vh))}
+}
+/* Movil: el coche ocupa casi todo el ancho y su techo queda a ~36 % de la altura del hero, asi que
+   el titulo baja hasta ahi (en proporcion a la altura del hero) para que la carroceria lo tape.
+   El subtitulo pasa arriba: abajo lo taparia el coche. */
+@media(max-width:760px){
+.p10-hero{--p10-hero-h:clamp(480px,calc(84svh - var(--header)),700px);height:var(--p10-hero-h)}
+.p10-hero-heading{display:flex;flex-direction:column}
+.p10-hero-subtitle{order:-1}
+.p10-hero h1{margin:calc(var(--p10-hero-h) * .278 - 54px) 0 0 -3px}
+}
