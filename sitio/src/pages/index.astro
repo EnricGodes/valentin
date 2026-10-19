@@ -7,6 +7,9 @@
  * desde el JSON extraido: se compone a mano y toma los coches y los articulos
  * de sus fuentes vivas, para que no haya que tocar la home cada vez que entra
  * un coche o se publica un post.
+ *
+ * El movimiento (GSAP + ScrollTrigger) vive en src/scripts/home.ts y solo
+ * anade: sin JS o con movimiento reducido todo el contenido esta en su sitio.
  */
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
@@ -20,22 +23,60 @@ import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import { COCHES } from '../datos/coche';
 import { paginaPorRuta } from '../datos/pagina';
+import { TESTIMONIOS } from '../datos/testimonios';
+import '../styles/home.css';
 
 const idioma = 'es' as const;
 const t = traductor(idioma);
 const home = paginaPorRuta('home')!;
-const sec = (titulo: string) =>
-  home.secciones.find((s) => s.titulo.toLowerCase().startsWith(titulo.toLowerCase()));
 
-const enVenta = COCHES.filter((c) => c.catalogo?.estado !== 'vendido').slice(0, 3);
+/* Todos los que no estan vendidos, reservados incluidos. Antes habia un
+   slice(0, 3) y el cuarto coche en venta no salia en la home. */
+const enVenta = COCHES.filter((c) => c.catalogo?.estado !== 'vendido');
 /* Filtrado por idioma: sin esto getCollection devuelve las 252 entradas de
    los seis idiomas y los tres mas recientes son el MISMO articulo en espanol,
    aleman e ingles. Se veia en la portada como tres tarjetas repetidas. */
 const posts = (await getCollection('magazine', (p) => p.data.lang === idioma))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 3);
-const fmt = new Intl.DateTimeFormat('es', { month: 'short', year: 'numeric' });
 const sinHtml = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+
+const ANOS = new Date().getFullYear() - 1979;
+
+const CIFRAS = [
+  { valor: ANOS, unidad: 'años', texto: 'Solo con Porsche, desde 1979' },
+  { valor: 2, unidad: 'centros', texto: 'Barcelona y Madrid' },
+  { valor: 3820, unidad: 'm²', texto: 'De taller entre los dos' },
+  { valor: 8, unidad: 'generaciones', texto: 'Del 356 al 991, de memoria' },
+];
+
+const PILARES = [
+  { titulo: 'Precio cerrado',
+    texto: 'Tarifas de mantenimiento publicadas por modelo. Sabes lo que vas a pagar antes de dejar el coche.' },
+  { titulo: 'Sala de motores',
+    texto: 'Desmontaje, medición y reconstrucción en una sala propia. Diagnóstico de IMS y bore scoring con datos, no con suposiciones.' },
+  { titulo: 'Coches que conocemos',
+    texto: 'Vendemos pocos Porsche y los elegimos uno a uno. Cada ficha cuenta lo que tiene el coche y también lo que no.' },
+];
+
+const SERVICIOS = [
+  { id: 'taller', titulo: 'Taller mecánico',
+    foto: '/img/paginas/8c07e3b4-Cajas-de-cambio-Porsche.jpg',
+    alt: 'Porsche 964 en el elevador del taller de Valentin Motors',
+    texto: 'Mantenimiento a precio cerrado, diagnosis, IMS y bore scoring para todas las generaciones. Con sala de motores propia para desmontar, medir y reconstruir.' },
+  { id: 'restauraciones', titulo: 'Restauración',
+    foto: '/img/paginas/5be75eeb-efa871d3-06cd-4c03-ad1e-94aa3ed556e6.jpg',
+    alt: 'Carrocería de un 911 clásico preparada en la cabina de pintura',
+    texto: 'Restauración integral, backdating y restomod. Chapa, pintura, tapicería y mecánica con criterio de época y cada paso documentado.' },
+  { id: 'competicion', titulo: 'Preparación',
+    foto: '/img/paginas/84ac2fae-DSC07852.jpg',
+    alt: 'Porsche de competición en el pit lane durante una jornada en circuito',
+    texto: 'Track days, campeonatos GT y rally. Suspensión, frenos y reglajes pensados para el uso real que va a tener el coche.' },
+  { id: 'restauraciones-personalizacion', titulo: 'Personalización',
+    foto: '/img/pa10-01/interior-1280.webp',
+    alt: 'Interior a medida con tapicería de cuadros del proyecto PA10/01',
+    texto: 'Interiores a medida, tapicerías de época, iluminación y suspensión. Proyectos únicos, como el PA10/01, hechos con el cliente pieza a pieza.' },
+];
 
 const CENTROS = [
   {
@@ -44,7 +85,7 @@ const CENTROS = [
     detalle: 'Junto a la Ronda del Mig. 1.320 m² de taller.',
     telefono: '933 479 856', tel: '+34933479856',
     horario: 'Lunes a viernes, 8:00 a 18:00',
-    foto: '/img/paginas/80791f9a-Barcelona.jpg',
+    foto: '/img/paginas/6898818b-vm.jpg',
   },
   {
     id: 'madrid', nombre: 'Madrid',
@@ -56,22 +97,38 @@ const CENTROS = [
   },
 ];
 
-const SERVICIOS = [
-  { id: 'taller', titulo: 'Taller mecánico', foto: '/img/paginas/47048331-taller01.jpg',
-    texto: 'Desde 1979 con los mismos vehículos. Mantenimiento, IMS, bore scoring y servicio técnico nacional.' },
-  { id: 'restauraciones', titulo: 'Restauración', foto: '/img/paginas/d8878214-271855619_697720067882094_6512529372697218830_n.jpg',
-    texto: 'Cada proyecto se afronta como lo que es: devolver a un coche el estado que tuvo, con criterio y documentación.' },
-  { id: 'competicion', titulo: 'Competición', foto: '/img/paginas/c33a5e29-DSC00494.jpg',
-    texto: 'Preparación para track days, campeonatos GT y rally. El circuito es donde un Porsche demuestra para qué se hizo.' },
-  { id: 'sala-motores', titulo: 'Sala de motores', foto: '/img/paginas/87b8ab68-DSC07854.jpg',
-    texto: 'Banco y sala dedicada al desmontaje, medición y reconstrucción de motores, tornillo a tornillo.' },
+/* Fragmentos de 8 s de cada reel, sin audio. Los originales estan en
+   docs/ig home/. */
+const REELS = [
+  { id: 'DXMwohoiBdX', titulo: 'El 911 total', texto: 'Si solo pudieras tener un 911, ¿cuál sería?' },
+  { id: 'DY2a6a4I9vb', titulo: 'GT4, GTS o GT3', texto: 'Tres atmosféricos frente a frente. ¿Cuál es mejor?' },
+  { id: 'DbIT-GPI0Co', titulo: 'Configuración clásica', texto: 'Cabriolet, tracción trasera y cambio manual.' },
 ];
 
+/* Los perfiles de cada generacion salen de home.json; en la home anterior
+   estaban en el JSON pero no se usaban. Se ordenan por fecha, no por el orden
+   de Squarespace, y cada uno enlaza a su landing de segunda mano. */
+const GENERACIONES: Record<string, { orden: number; ruta: string }> = {
+  'Porsche 356':   { orden: 1, ruta: 'ocasion-356' },
+  'Porsche 911 F': { orden: 2, ruta: 'ocasion-911' },
+  'Porsche 911 G': { orden: 3, ruta: 'ocasion-911' },
+  'Porsche 964':   { orden: 4, ruta: 'ocasion-964' },
+  'Porsche 993':   { orden: 5, ruta: 'ocasion-993' },
+  'Porsche 996':   { orden: 6, ruta: 'ocasion-996' },
+  'Porsche 997':   { orden: 7, ruta: 'ocasion-997' },
+  'Porsche 991':   { orden: 8, ruta: 'ocasion-991' },
+};
 const ICONOS = home.secciones
-  .filter((s) => /^Porsche (356|911 F|911 G|964|993|996|997|991)$/.test(s.titulo))
-  .map((s) => ({ nombre: s.titulo, texto: sinHtml(s.parrafos[0] ?? '') }));
+  .filter((s) => s.titulo in GENERACIONES)
+  .map((s) => ({
+    nombre: s.titulo.replace(/^Porsche /, ''),
+    texto: sinHtml(s.parrafos[0] ?? ''),
+    foto: s.imagenes[0]?.url,
+    ...GENERACIONES[s.titulo],
+  }))
+  .sort((a, b) => a.orden - b.orden);
 
-const testimonio = sec('“Desde que conozco');
+const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Personalización', 'Sala de motores', 'Porsche en venta'];
 ---
 <Base
   idioma={idioma}
@@ -82,27 +139,168 @@ const testimonio = sec('“Desde que conozco');
   imagen="/img/paginas/47048331-taller01.jpg"
 >
   <NegocioLocal slot="head" centro="ambos" />
+  {/* Marca el documento antes del primer pintado: asi el titulo del hero
+      espera a GSAP en vez de verse, ocultarse y volver a entrar. Si el script
+      no llega, el CSS lo muestra igual a los 2,5 s. */}
+  <script slot="head" is:inline>document.documentElement.classList.add('home-js')</script>
   <Nav slot="nav" idioma={idioma} rutaId="home" idiomasPublicados={['es']} />
   <Pie slot="pie" idioma={idioma} rutaId="home" idiomasPublicados={['es']} />
 
   <Hero
-    eyebrow="Valentin Motors · Barcelona y Madrid"
+    clase="hero--home"
     titulo="Especialistas Porsche<br>desde 1979"
     claim="Damos nueva vida al legado Porsche combinando artesanía, excelencia y pasión."
     imagen="/video/home/hero.jpg"
     video="/video/home/hero.mp4"
     scrollLabel={t('scroll')}
     parallax={0.22}
+    sinReveal
   />
 
-  {/* ── Centros ── */}
+  {/* ── 1. Quienes somos ── */}
+  <section class="seccion nosotros" id="nosotros">
+    <div class="contenedor">
+      <CabeceraSeccion etiqueta="Quiénes somos" titulo="Taller Porsche independiente" destacado="en Barcelona y Madrid." />
+      <p class="nosotros-manifiesto" data-palabras>
+        Desde 1979 solo trabajamos con Porsche. Mantenemos, reparamos, restauramos
+        y preparamos todas sus generaciones en dos talleres propios, con sala de
+        motores. Y vendemos una selección corta de coches que conocemos por dentro.
+      </p>
+      <div class="nosotros-pilares">
+        {PILARES.map((p, i) => (
+          <div class="pilar" data-entra>
+            <span class="pilar-num">0{i + 1}</span>
+            <h3 class="pilar-titulo">{p.titulo}</h3>
+            <p class="pilar-texto">{p.texto}</p>
+          </div>
+        ))}
+      </div>
+      <dl class="cifras">
+        {CIFRAS.map((c) => (
+          <div class="cifra" data-entra>
+            <dt class="cifra-texto">{c.texto}</dt>
+            <dd class="cifra-valor">
+              <span class="count-up" data-target={c.valor} data-agrupar>
+                {new Intl.NumberFormat('es', { useGrouping: 'always' } as Intl.NumberFormatOptions).format(c.valor)}
+              </span>
+              <span class="cifra-unidad">{c.unidad}</span>
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <div class="marquesina" aria-hidden="true">
+    <div class="marquesina-pista">
+      {[0, 1].map(() => (
+        <span class="marquesina-grupo">
+          {MARQUESINA.map((m) => <span class="marquesina-item">{m}<i></i></span>)}
+        </span>
+      ))}
+    </div>
+  </div>
+
+  {/* ── 2. Que hacemos: en escritorio se recorre en horizontal ── */}
+  <section class="servicios-h" id="servicios">
+    <div class="servicios-h-pista">
+      <div class="servicios-h-intro">
+        <CabeceraSeccion etiqueta="Qué hacemos" titulo="Todo lo que un Porsche" destacado="necesita en su vida." />
+        <p class="servicios-h-entradilla">
+          Cuatro oficios bajo el mismo techo y con el mismo equipo. El coche no
+          cambia de manos entre el elevador, la cabina de pintura y el circuito.
+        </p>
+        <span class="servicios-h-pista-aviso" aria-hidden="true">Desliza &rarr;</span>
+      </div>
+      {SERVICIOS.map((s, i) => (
+        <a class="srv" href={url(s.id, idioma)}>
+          <div class="srv-foto">
+            <img src={s.foto} alt={s.alt} loading="lazy" decoding="async">
+          </div>
+          <div class="srv-cuerpo">
+            <span class="srv-num">0{i + 1} / 04</span>
+            <h3 class="srv-titulo">{s.titulo}</h3>
+            <p class="srv-texto">{s.texto}</p>
+            <span class="enlace-mono">Ver servicio &rarr;</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {/* ── 3. Coches en venta, en vivo ── */}
+  <section class="seccion kit" id="venta">
+    <div class="contenedor">
+      <div class="kit-header">
+        <CabeceraSeccion etiqueta="En venta" titulo="Porsche en venta," destacado="elegidos uno a uno." />
+        <a class="enlace-mono" href={url('coches', idioma)}>Ver todos &rarr;</a>
+      </div>
+      <div class={`cars-grid cars-grid--home cars-grid--n${enVenta.length}`}>
+        {enVenta.map((c) => (
+          <a class={`car-card ${c.catalogo!.estado}`} data-tilt
+             href={url('coches', idioma, c.slug)}>
+            <div class="car-img-wrap">
+              <span class={`car-status-badge badge-${c.catalogo!.estado}`}>
+                {c.catalogo!.estadoTexto}
+              </span>
+              <img src={c.catalogo!.imagen} alt={`${c.catalogo!.marca} ${c.catalogo!.nombre}`}
+                   width={c.catalogo!.imagenAncho} height={c.catalogo!.imagenAlto}
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="car-body">
+              <p class="car-make">{c.catalogo!.marca}</p>
+              <p class="car-name">{c.catalogo!.nombre}</p>
+              <p class="car-year">{c.catalogo!.detalle}</p>
+              <div class="car-footer">
+                <span class={`car-price${c.catalogo!.estado === 'reservado' ? ' tachado' : ''}`}>
+                  {c.catalogo!.precio}
+                </span>
+                <span class="car-cta">{t('cta.ficha')} &rarr;</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* ── 4. Testimonios ── */}
+  <section class="seccion opiniones" id="opiniones">
+    <div class="contenedor">
+      <div class="kit-header">
+        <CabeceraSeccion etiqueta="Opiniones" titulo="Lo que dicen" destacado="quienes ya nos conocen." />
+        <div class="carrusel-botones">
+          <button class="carrusel-boton" type="button" data-carrusel="anterior" aria-label="Opinión anterior">&larr;</button>
+          <button class="carrusel-boton" type="button" data-carrusel="siguiente" aria-label="Opinión siguiente">&rarr;</button>
+        </div>
+      </div>
+    </div>
+    <div class="opiniones-pista" tabindex="0" role="region" aria-label="Opiniones de clientes" data-carrusel-pista>
+      {TESTIMONIOS.map((o) => (
+        <figure class="opinion">
+          <div class="estrellas" role="img" aria-label="5 de 5 estrellas">
+            {[1, 2, 3, 4, 5].map(() => (
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9z" /></svg>
+            ))}
+          </div>
+          <blockquote class="opinion-texto"><p>{o.texto}</p></blockquote>
+          <figcaption class="opinion-firma">
+            <span class="opinion-autor">{o.autor}</span>
+            <span class="opinion-detalle">{o.detalle}</span>
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </section>
+
+  {/* ── 5. Centros ── */}
   <section class="seccion" id="centros">
     <div class="contenedor">
       <CabeceraSeccion etiqueta="Dónde estamos" titulo="Dos centros," destacado="un mismo criterio." />
       <div class="centros">
-        {CENTROS.map((c, i) => (
-          <a class={`centro reveal delay-${i + 1}`} href={url(c.id, idioma)}>
-            <div class="centro-foto">
+        {CENTROS.map((c) => (
+          <a class="centro" href={url(c.id, idioma)}>
+            <div class="centro-foto" data-cortina>
               <img src={c.foto} alt={`Taller Valentin Motors ${c.nombre}`}
                    loading="lazy" decoding="async">
             </div>
@@ -121,79 +319,36 @@ const testimonio = sec('“Desde que conozco');
     </div>
   </section>
 
-  {/* ── Coches en venta, en vivo ── */}
-  <section class="seccion kit" id="venta">
+  {/* ── 6. Redes ── */}
+  <section class="seccion redes" id="instagram">
     <div class="contenedor">
-      <div class="kit-header reveal">
-        <CabeceraSeccion etiqueta="En venta" titulo="Porsche" destacado="de colección." />
-        <a class="enlace-mono" href={url('coches', idioma)}>Ver todos &rarr;</a>
+      <div class="kit-header">
+        <CabeceraSeccion etiqueta="Instagram" titulo="El taller," destacado="también en vídeo." />
+        <a class="enlace-mono" href="https://www.instagram.com/valentinmotors" target="_blank" rel="noopener">@valentinmotors &nearr;</a>
       </div>
-      <div class="cars-grid cars-grid--home">
-        {enVenta.map((c, i) => (
-          <a class={`car-card ${c.catalogo!.estado} reveal delay-${i + 1}`}
-             href={url('coches', idioma, c.slug)}>
-            <div class="car-img-wrap">
-              <span class={`car-status-badge badge-${c.catalogo!.estado}`}>
-                {c.catalogo!.estadoTexto}
-              </span>
-              <img src={c.catalogo!.imagen} alt={`${c.catalogo!.marca} ${c.catalogo!.nombre}`}
-                   width={c.catalogo!.imagenAncho} height={c.catalogo!.imagenAlto}
-                   loading="lazy" decoding="async">
-            </div>
-            <div class="car-body">
-              <p class="car-make">{c.catalogo!.marca}</p>
-              <p class="car-name">{c.catalogo!.nombre}</p>
-              <p class="car-year">{c.catalogo!.detalle}</p>
-              <div class="car-footer">
-                <span class="car-price">{c.catalogo!.precio}</span>
-                <span class="car-cta">{t('cta.ficha')} &rarr;</span>
-              </div>
-            </div>
+      <div class="reels">
+        {REELS.map((r) => (
+          <a class="reel" href={`https://www.instagram.com/p/${r.id}/`} target="_blank" rel="noopener"
+             aria-label={`${r.titulo}: ver el vídeo completo en Instagram`}>
+            <video class="reel-video" muted loop playsinline preload="none"
+                   poster={`/video/home/instagram-${r.id}.jpg`}
+                   data-src={`/video/home/instagram-${r.id}.mp4`} aria-hidden="true"></video>
+            <span class="reel-velo"></span>
+            <span class="reel-cuerpo">
+              <span class="reel-titulo">{r.titulo}</span>
+              <span class="reel-texto">{r.texto}</span>
+              <span class="reel-enlace">Ver en Instagram &nearr;</span>
+            </span>
           </a>
         ))}
       </div>
     </div>
   </section>
 
-  {/* ── Servicios ── */}
-  <section class="seccion" id="servicios">
-    <div class="contenedor">
-      <CabeceraSeccion etiqueta="Qué hacemos" titulo="Todo lo que un Porsche" destacado="necesita en su vida." />
-      <div class="servicios">
-        {SERVICIOS.map((s, i) => (
-          <a class={`servicio reveal delay-${i + 1}`} href={url(s.id, idioma)}>
-            <div class="servicio-foto">
-              <img src={s.foto} alt={s.titulo} loading="lazy" decoding="async">
-            </div>
-            <h3 class="servicio-titulo">{s.titulo}</h3>
-            <p class="servicio-texto">{s.texto}</p>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  {/* ── Iconos ── */}
-  {ICONOS.length > 0 && (
-    <section class="seccion specs" id="iconos">
-      <div class="contenedor">
-        <CabeceraSeccion etiqueta="Ocho generaciones" titulo="Los modelos que" destacado="conocemos de memoria." />
-        <div class="iconos">
-          {ICONOS.map((m) => (
-            <div class="icono reveal">
-              <p class="icono-nombre">{m.nombre}</p>
-              <p class="icono-texto">{m.texto}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
-
-  {/* ── Magazine, en vivo ── */}
+  {/* ── 7. Magazine, en vivo ── */}
   <section class="seccion" id="magazine">
     <div class="contenedor">
-      <div class="kit-header reveal">
+      <div class="kit-header">
         <CabeceraSeccion etiqueta="Magazine" titulo="Lo que pasa" destacado="dentro del taller." />
         <a class="enlace-mono" href={url('magazine', idioma)}>Ver todos &rarr;</a>
       </div>
@@ -202,20 +357,56 @@ const testimonio = sec('“Desde que conozco');
     </div>
   </section>
 
-  {/* ── Cierre ── */}
-  <section class="closing" id="cierre">
+  {/* ── 8. Generaciones ── */}
+  {ICONOS.length > 0 && (
+    <section class="seccion modelos" id="iconos">
+      <div class="contenedor">
+        <div class="kit-header">
+          <CabeceraSeccion etiqueta="Ocho generaciones" titulo="Los modelos que" destacado="conocemos de memoria." />
+          <span class="modelos-aviso" aria-hidden="true">Arrastra &rarr;</span>
+        </div>
+      </div>
+      <div class="modelos-pista" tabindex="0" role="region" aria-label="Generaciones de Porsche" data-arrastrable>
+        {ICONOS.map((m, i) => (
+          <a class="modelo" href={url(m.ruta, idioma)}>
+            <span class="modelo-num">{String(i + 1).padStart(2, '0')}</span>
+            {m.foto && (
+              <img class="modelo-foto" src={m.foto} alt={`Perfil del Porsche ${m.nombre}`}
+                   loading="lazy" decoding="async" draggable="false">
+            )}
+            <span class="modelo-nombre">{m.nombre}</span>
+            <span class="modelo-texto">{m.texto}</span>
+            <span class="modelo-enlace">Porsche {m.nombre} de segunda mano &rarr;</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {/* ── 9. Cita ── */}
+  <section class="closing cita" id="cita">
     <div class="closing-bg" data-fondo="/img/ruf/exterior3.jpg"
          style="background-image:url('/img/ruf/exterior3.jpg')"></div>
     <div class="closing-overlay"></div>
     <div class="closing-content">
-      {testimonio && (
-        <p class="closing-quote reveal">
-          {sinHtml(testimonio.titulo).replace(/^“|”$/g, '')}
-        </p>
-      )}
-      <div class="closing-divider"></div>
-      <span class="closing-price-label">Daniel A. · cliente</span>
-      <div><a class="cta" href={url('contacto', idioma)}>Pide cita</a></div>
+      <p class="section-label">Pide cita</p>
+      <h2 class="cita-titulo" data-titular>Cuéntanos qué necesita tu Porsche.</h2>
+      <p class="cita-texto">
+        Revisión, una avería, una restauración o un coche que quieres comprar.
+        Te llamamos para concretar día y hora.
+      </p>
+      <div class="cita-acciones">
+        <a class="cta" href={url('contacto', idioma)} data-magnetico>Pide cita</a>
+      </div>
+      <p class="cita-telefonos">
+        {CENTROS.map((c) => (
+          <a href={`tel:${c.tel}`}>{c.nombre} · {c.telefono}</a>
+        ))}
+      </p>
     </div>
   </section>
 </Base>
+
+<script>
+  import '../scripts/home';
+</script>

@@ -1,6 +1,6 @@
 ---
 interface Props {
-  eyebrow: string;
+  eyebrow?: string;
   /** Subtitulo: se pinta dentro del <em> del titulo, como en el original. */
   subtitulo?: string;
   /** HTML del titulo: puede llevar <br> y <strong>. */
@@ -14,11 +14,16 @@ interface Props {
   scrollLabel: string;
   /** Intensidad del parallax; 0 lo desactiva. */
   parallax?: number;
+  /** Sin las clases .reveal: la entrada la anima la propia pagina (home). */
+  sinReveal?: boolean;
+  clase?: string;
 }
 const { eyebrow, subtitulo, titulo, claim, imagen, video, precio,
-        precioLabel, scrollLabel, parallax = 0.28 } = Astro.props;
+        precioLabel, scrollLabel, parallax = 0.28, sinReveal = false,
+        clase = '' } = Astro.props;
+const reveal = sinReveal ? '' : ' reveal';
 ---
-<section class="hero">
+<section class={`hero ${clase}`.trim()}>
   <div class="hero-parallax" data-parallax={parallax}>
     <div class="hero-bg" data-fondo={imagen} style={`background-image:url('${imagen}')`}></div>
     {video && (
@@ -29,11 +34,11 @@ const { eyebrow, subtitulo, titulo, claim, imagen, video, precio,
   <div class="hero-overlay"></div>
 
   <div class="hero-content">
-    <p class="hero-eyebrow reveal">{eyebrow}</p>
-    <h1 class="hero-title reveal" set:html={
+    {eyebrow && <p class={`hero-eyebrow${reveal}`}>{eyebrow}</p>}
+    <h1 class={`hero-title${reveal}`} set:html={
       (subtitulo ? `<em>${subtitulo}</em>` : '') + titulo
     } />
-    {claim && <p class="hero-claim reveal">{claim}</p>}
+    {claim && <p class={`hero-claim${reveal}`}>{claim}</p>}
   </div>
 
   {precio && (

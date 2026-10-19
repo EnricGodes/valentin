@@ -1,0 +1,319 @@
+/* ===========================================================================
+   Home. Solo la importa src/pages/index.astro.
+   El movimiento lo pone src/scripts/home.ts; aqui solo hay estados finales,
+   asi que sin JS o con movimiento reducido la pagina se ve completa.
+   =========================================================================== */
+
+/* ── Hero ─────────────────────────────────────────────────────────────────── */
+/* El titulo espera a GSAP (clase puesta en el <head>). Si el script no llega,
+   aparece igual a los 2,5 s. */
+@keyframes homeAparecer { to { opacity: 1; } }
+.home-js .hero--home .hero-title,
+.home-js .hero--home .hero-claim {
+  opacity: 0; animation: homeAparecer 0.6s 2.5s forwards;
+}
+.hero--home .hero-parallax { clip-path: inset(0 0 0 0 round 0px); }
+.hero--home .hero-title .linea { display: block; }
+/* La mascara de SplitText recorta a la caja de la linea, y con line-height
+   0.93 se comia la parte alta de las mayusculas y los rabos de la p. */
+.hero--home .hero-title .linea-mask { padding: 0.06em 0 0.12em; margin: -0.06em 0 -0.12em; }
+.cita-titulo .palabra-mask { padding: 0.06em 0 0.14em; margin: -0.06em 0 -0.14em; }
+@media (prefers-reduced-motion: reduce) {
+  .home-js .hero--home .hero-title,
+  .home-js .hero--home .hero-claim { opacity: 1; animation: none; }
+}
+
+/* ── 1. Quienes somos ────────────────────────────────────────────────────── */
+.nosotros-manifiesto {
+  margin-top: 64px; max-width: 980px;
+  font-size: clamp(26px, 3.6vw, 50px); font-weight: 300; line-height: 1.22;
+  letter-spacing: -0.02em; color: var(--blanco); text-wrap: pretty;
+}
+.nosotros-manifiesto .palabra { display: inline-block; }
+
+.nosotros-pilares {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  margin-top: 96px; border-top: 1px solid var(--linea-fuerte);
+}
+.pilar { padding: 36px 32px 40px 0; }
+.pilar + .pilar { padding-left: 32px; border-left: 1px solid var(--linea); }
+.pilar-num {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  color: var(--bronce);
+}
+.pilar-titulo {
+  font-size: 20px; font-weight: 600; letter-spacing: -0.01em;
+  color: var(--blanco); margin: 18px 0 12px;
+}
+.pilar-texto { font-size: 14.5px; line-height: 1.7; color: var(--concreto); }
+
+.cifras {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;
+  margin-top: 96px; padding-top: 48px; border-top: 1px solid var(--linea-fuerte);
+}
+.cifra { display: flex; flex-direction: column-reverse; gap: 12px; }
+.cifra-valor {
+  font-family: var(--mono); font-size: clamp(40px, 5vw, 72px); font-weight: 500;
+  letter-spacing: -0.04em; line-height: 1; color: var(--blanco);
+  font-variant-numeric: tabular-nums;
+}
+.cifra-unidad {
+  font-size: 0.28em; letter-spacing: 0.04em; color: var(--bronce);
+  margin-left: 10px;
+}
+.cifra-texto {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--concreto);
+}
+
+/* ── Marquesina ──────────────────────────────────────────────────────────── */
+.marquesina {
+  overflow: hidden; padding: 40px 0;
+  border-top: 1px solid var(--linea); border-bottom: 1px solid var(--linea);
+}
+.marquesina-pista { display: flex; width: max-content; }
+.marquesina-grupo { display: flex; flex-shrink: 0; }
+.marquesina-item {
+  display: inline-flex; align-items: center; gap: 48px; padding-right: 48px;
+  font-size: clamp(40px, 7vw, 104px); font-weight: 700; letter-spacing: -0.04em;
+  line-height: 1; white-space: nowrap;
+  color: transparent; -webkit-text-stroke: 1px rgba(240, 237, 232, 0.35);
+}
+.marquesina-item:nth-child(3n + 1) { color: var(--blanco); -webkit-text-stroke: 0; }
+.marquesina-item i {
+  width: 14px; height: 14px; border-radius: 50%; background: var(--bronce);
+  display: inline-block; flex-shrink: 0;
+}
+
+/* ── 2. Servicios en horizontal ──────────────────────────────────────────── */
+.servicios-h { overflow: hidden; }
+.servicios-h-pista {
+  display: flex; gap: 2px; align-items: stretch;
+  padding: var(--pad-seccion) var(--pad-lateral);
+}
+/* El padding derecho de un flex no cuenta en scrollWidth: sin este hueco la
+   ultima tarjeta acababa pegada al borde de la pantalla. */
+.servicios-h-pista::after { content: ''; flex: 0 0 calc(var(--pad-lateral) - 2px); }
+.servicios-h-intro {
+  flex: 0 0 min(440px, 34vw); padding-right: 56px;
+  display: flex; flex-direction: column; justify-content: center;
+}
+.servicios-h-entradilla {
+  margin-top: 28px; font-size: var(--t-cuerpo); line-height: 1.8; color: var(--concreto);
+}
+.servicios-h-pista-aviso {
+  margin-top: 40px; font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: var(--tr-label); text-transform: uppercase; color: var(--bronce);
+}
+.srv {
+  flex: 0 0 min(520px, 38vw); display: flex; flex-direction: column;
+  background: var(--grafito); color: inherit; text-decoration: none;
+  transition: background 0.4s;
+}
+.srv:hover { background: var(--carbon); }
+.srv-foto { aspect-ratio: 4 / 3.4; overflow: hidden; position: relative; }
+.srv-foto img {
+  position: absolute; inset: 0 -12%; width: 124%; height: 100%;
+  object-fit: cover; transition: filter 0.6s;
+  filter: saturate(0.85);
+}
+.srv:hover .srv-foto img { filter: saturate(1.05); }
+.srv-cuerpo { padding: 32px 32px 36px; display: flex; flex-direction: column; gap: 14px; flex: 1; }
+.srv-num {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label); color: var(--bronce);
+}
+.srv-titulo { font-size: clamp(24px, 2.4vw, 34px); font-weight: 700; letter-spacing: -0.03em; color: var(--blanco); }
+.srv-texto { font-size: 14.5px; line-height: 1.7; color: var(--concreto); flex: 1; }
+
+/* En escritorio la pista ocupa justo la pantalla fijada: las tarjetas no
+   pueden ser mas altas que el viewport o el texto queda cortado abajo. */
+@media (min-width: 961px) {
+  .servicios-h-pista { height: 100vh; min-height: 640px; padding-top: 112px; padding-bottom: 56px; box-sizing: border-box; }
+  .srv-foto { aspect-ratio: auto; flex: 1 1 auto; min-height: 0; }
+  .srv-cuerpo { flex: 0 0 auto; padding: 28px 32px 32px; }
+  .srv-texto { flex: none; }
+}
+
+/* En pantallas estrechas no hay pin: las tarjetas se apilan */
+@media (max-width: 960px) {
+  .servicios-h-pista { flex-direction: column; gap: 2px; }
+  .servicios-h-intro { flex: none; padding: 0 0 48px; }
+  .servicios-h-pista-aviso { display: none; }
+  .srv { flex: none; }
+  .srv-foto img { inset: 0; width: 100%; }
+}
+
+/* ── 3. Coches en venta ──────────────────────────────────────────────────── */
+.cars-grid--n4 { grid-template-columns: repeat(4, 1fr); }
+.cars-grid--n4 .car-body { padding: 24px 22px 28px; }
+.car-card[data-tilt] { transform-style: preserve-3d; will-change: transform; }
+.car-price.tachado { text-decoration: line-through; opacity: 0.55; }
+@media (max-width: 1100px) { .cars-grid--n4 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px)  { .cars-grid--n4 { grid-template-columns: 1fr; } }
+
+/* ── 4. Testimonios ──────────────────────────────────────────────────────── */
+.carrusel-botones { display: flex; gap: 8px; }
+.carrusel-boton {
+  width: 48px; height: 48px; border-radius: 50%;
+  background: transparent; color: var(--blanco); cursor: pointer;
+  border: 1px solid var(--linea-fuerte); font-size: 16px;
+  transition: background 0.3s, border-color 0.3s, color 0.3s;
+}
+.carrusel-boton:hover, .carrusel-boton:focus-visible {
+  background: var(--bronce); border-color: var(--bronce); color: var(--negro);
+}
+.opiniones-pista {
+  display: flex; gap: 2px; margin-top: 56px;
+  overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+  padding: 0 var(--pad-lateral);
+  scroll-padding: 0 var(--pad-lateral);
+  cursor: grab;
+}
+.opiniones-pista::-webkit-scrollbar { display: none; }
+.opiniones-pista.arrastrando { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+.opiniones-pista:focus-visible { outline: 1px solid var(--bronce); outline-offset: 4px; }
+.opinion {
+  flex: 0 0 min(440px, 82vw); scroll-snap-align: start;
+  background: var(--grafito); padding: 40px 36px 36px; margin: 0;
+  display: flex; flex-direction: column; gap: 28px;
+}
+.estrellas { display: flex; gap: 4px; }
+.estrellas svg { width: 16px; height: 16px; fill: var(--bronce); }
+.opinion-texto { margin: 0; flex: 1; }
+.opinion-texto p {
+  font-size: 19px; font-weight: 300; line-height: 1.55; color: var(--blanco);
+  letter-spacing: -0.01em;
+}
+.opinion-texto p::before { content: '«'; color: var(--bronce); }
+.opinion-texto p::after  { content: '»'; color: var(--bronce); }
+.opinion-firma {
+  display: flex; flex-direction: column; gap: 4px;
+  padding-top: 20px; border-top: 1px solid var(--linea);
+}
+.opinion-autor { font-size: 14px; font-weight: 600; color: var(--blanco); }
+.opinion-detalle {
+  font-family: var(--mono); font-size: var(--t-micro); letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--concreto);
+}
+
+/* ── 5. Centros ──────────────────────────────────────────────────────────── */
+.centro-foto[data-cortina] { clip-path: inset(0 0 0 0); }
+
+/* ── 6. Redes ────────────────────────────────────────────────────────────── */
+/* Material vertical: a tres columnas del contenedor completo cada reel media
+   casi 700 px de alto y no cabia en pantalla. */
+.reels {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 320px)); gap: 28px;
+  justify-content: center; margin-top: 64px;
+}
+.reel {
+  position: relative; display: block; aspect-ratio: 9 / 16; overflow: hidden;
+  background: var(--grafito); color: inherit; text-decoration: none;
+  border-radius: 18px;
+}
+.reel-video {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  transition: transform 1.2s var(--ease);
+}
+.reel:hover .reel-video { transform: scale(1.04); }
+.reel-velo {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(11, 11, 11, 0.92) 0%, rgba(11, 11, 11, 0.2) 45%, transparent 70%);
+}
+.reel-cuerpo {
+  position: absolute; left: 0; right: 0; bottom: 0; padding: 28px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.reel-titulo { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: var(--blanco); }
+.reel-texto { font-size: 14px; line-height: 1.55; color: var(--concreto); }
+.reel-enlace {
+  margin-top: 10px; font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: var(--tr-nav); text-transform: uppercase; color: var(--bronce);
+}
+@media (max-width: 960px) {
+  .reels {
+    display: flex; justify-content: flex-start;
+    overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+    margin: 56px calc(var(--pad-lateral) * -1) 0; padding: 0 var(--pad-lateral);
+    scroll-padding: 0 var(--pad-lateral); gap: 12px;
+  }
+  .reels::-webkit-scrollbar { display: none; }
+  .reel { flex: 0 0 72vw; scroll-snap-align: start; }
+}
+
+/* ── 8. Generaciones, sobre claro ────────────────────────────────────────── */
+/* El unico bloque claro de la home: los perfiles vienen sobre blanco y aqui se
+   funden con el papel en vez de verse como recortes. */
+.modelos { background: var(--blanco); color: var(--negro); padding-left: 0; padding-right: 0; }
+.modelos .contenedor { padding: 0 var(--pad-lateral); box-sizing: content-box; }
+.modelos .section-title { color: var(--negro); }
+.modelos .section-label { color: #8A6A43; }
+.modelos-aviso {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: #8A6A43; white-space: nowrap;
+}
+.modelos-pista {
+  display: flex; gap: 0; margin-top: 64px;
+  overflow-x: auto; scrollbar-width: none; cursor: grab;
+  padding: 0 var(--pad-lateral);
+}
+.modelos-pista::-webkit-scrollbar { display: none; }
+.modelos-pista.arrastrando { cursor: grabbing; user-select: none; }
+.modelos-pista.arrastrando .modelo { pointer-events: none; }
+.modelos-pista:focus-visible { outline: 1px solid #8A6A43; outline-offset: -1px; }
+.modelo {
+  flex: 0 0 min(400px, 78vw); display: flex; flex-direction: column; gap: 12px;
+  padding: 0 36px 8px; border-left: 1px solid rgba(11, 11, 11, 0.12);
+  color: inherit; text-decoration: none;
+}
+/* Mismo padding en todas: con la primera sin padding, su foto salia mas
+   ancha y por tanto mas alta, y los nombres no quedaban alineados. */
+.modelo:first-child { border-left: 0; margin-left: -36px; }
+.modelo-num { font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label); color: #8A6A43; }
+.modelo-foto {
+  width: 100%; aspect-ratio: 16 / 9; object-fit: contain;
+  mix-blend-mode: multiply; margin: 8px 0 4px;
+  transition: transform 0.9s var(--ease);
+}
+.modelo:hover .modelo-foto { transform: translateX(14px); }
+.modelo-nombre { font-size: 30px; font-weight: 700; letter-spacing: -0.03em; }
+.modelo-texto {
+  font-size: 14px; line-height: 1.65; color: #4A4741;
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+}
+.modelo-enlace {
+  margin-top: auto; padding-top: 12px; font-family: var(--mono); font-size: var(--t-label);
+  letter-spacing: 0.14em; text-transform: uppercase; color: #8A6A43;
+}
+.modelo:hover .modelo-enlace { color: var(--negro); }
+
+/* ── 9. Cita ─────────────────────────────────────────────────────────────── */
+.cita-titulo {
+  font-size: clamp(36px, 6vw, 84px); font-weight: 700; line-height: 1;
+  letter-spacing: -0.04em; color: var(--blanco); text-wrap: balance;
+}
+.cita-titulo .palabra { display: inline-block; }
+.cita-texto {
+  margin: 28px auto 0; max-width: 520px;
+  font-size: var(--t-cuerpo); line-height: 1.7; color: var(--concreto);
+}
+.cita-acciones { margin-top: 12px; }
+.cita-telefonos {
+  margin-top: 32px; display: flex; gap: 28px; justify-content: center; flex-wrap: wrap;
+}
+.cita-telefonos a {
+  font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em;
+  color: var(--blanco); text-decoration: none; border-bottom: 1px solid var(--linea-fuerte);
+  padding-bottom: 4px; transition: border-color 0.3s, color 0.3s;
+}
+.cita-telefonos a:hover { color: var(--bronce); border-color: var(--bronce); }
+
+/* ── Movil ───────────────────────────────────────────────────────────────── */
+@media (max-width: 960px) {
+  .nosotros-pilares { grid-template-columns: 1fr; margin-top: 64px; }
+  .pilar, .pilar + .pilar { padding: 28px 0 32px; border-left: 0; }
+  .pilar + .pilar { border-top: 1px solid var(--linea); }
+  .cifras { grid-template-columns: 1fr 1fr; gap: 40px 24px; margin-top: 64px; }
+  .marquesina { padding: 28px 0; }
+  .kit-header { flex-wrap: wrap; gap: 24px; }
+}

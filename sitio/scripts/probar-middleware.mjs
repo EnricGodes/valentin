@@ -34,7 +34,8 @@ const GOOGLEBOT = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.co
 
 // nombre, ruta, cabeceras, estado esperado, destino esperado
 const CASOS = [
-  ['navegador aleman en la home', '/', { 'accept-language': 'de-DE,de;q=0.9' }, 302, '/de'],
+  // La home solo existe en castellano: redirigir a /de seria mandar a un 404
+  ['navegador aleman en la home', '/', { 'accept-language': 'de-DE,de;q=0.9' }, 200, null],
   ['navegador aleman en el taller', '/taller-porsche', { 'accept-language': 'de-DE,de;q=0.9' }, 302, '/de/porsche-werkstatt'],
   ['navegador espanol', '/taller-porsche', { 'accept-language': 'es-ES,es;q=0.9' }, 200, null],
   ['espanol de Mexico', '/taller-porsche', { 'accept-language': 'es-419,es;q=0.9' }, 200, null],
