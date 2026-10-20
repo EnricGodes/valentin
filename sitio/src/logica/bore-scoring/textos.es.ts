@@ -56,9 +56,9 @@ export const SUSCEPTIBILIDAD: Record<Susceptibilidad, TextoEje> = {
     cuerpo: 'Con lo aportado hasta aquí conviven arquitecturas distintas bajo el mismo nombre comercial. Hace falta la versión, la cilindrada o el código de motor: clasificar sin eso sería dar una respuesta engañosa.',
   },
   OUTSIDE_VALIDATED_SCOPE: {
-    etiqueta: 'Fuera de la matriz validada',
-    resumen: 'No tenemos una regla suficientemente fiable para esta configuración.',
-    cuerpo: 'Esta herramienta cubre 911 desde el 996, Boxster y Cayman, y Cayenne, Panamera y Macan con motor identificable. Para el resto no hay una regla que podamos sostener, y una zona verde genérica sería peor que no decir nada. Si hay síntomas, deben evaluarse igualmente.',
+    etiqueta: 'Modelo no cubierto',
+    resumen: 'Esta herramienta no cubre este modelo.',
+    cuerpo: 'Cubre 911, Boxster, Cayman, Cayenne, Panamera y Macan, y los clásicos 356, 912, 914, 924, 928, 944 y 968. Para el resto no damos una respuesta que no podamos sostener. Si hay síntomas, conviene revisarlo igualmente.',
   },
   NOT_AFFECTED: {
     etiqueta: 'Esta unidad no está afectada',
@@ -230,7 +230,9 @@ export const MOTIVOS: Record<string, string> = {
   'regla_macan-2-0': 'Macan 2.0 EA888, fuera del patrón Alusil clásico.',
   'regla_macan-v6-mct': 'Macan V6 MCT, Alusil con casos documentados.',
   'regla_macan-v6-ea839': 'Macan V6 EA839, con camisas de hierro.',
-  'regla_otro-porsche': 'Ese Porsche no está en la matriz validada.',
+  'regla_clasicos-no-afectados': '356, 912, 914 y 924 2.0 no tienen este problema.',
+  'regla_transaxle-alusil': '924 S, 928, 944 y 968 llevan bloque Alusil, con casos documentados.',
+  'regla_otro-porsche': 'Esta herramienta no cubre ese modelo.',
 };
 
 /** Lo que hay que decir aunque no se pregunte. */
@@ -335,6 +337,8 @@ export const CTA: Record<Urgencia, string> = {
 };
 
 export const GENERACION: Record<string, string> = {
+  '924': '924 2.0 o Turbo',
+  '924s': '924 S 2.5',
   pre_996: '993 o anterior',
   '996_1': '996.1',
   '996_2': '996.2',
@@ -383,6 +387,13 @@ export const OPCIONES = {
     { valor: 'panamera', etiqueta: 'Panamera' },
     { valor: 'macan', etiqueta: 'Macan' },
     { valor: 'taycan', etiqueta: 'Taycan' },
+    { valor: '356', etiqueta: '356' },
+    { valor: '912', etiqueta: '912' },
+    { valor: '914', etiqueta: '914' },
+    { valor: '924', etiqueta: '924' },
+    { valor: '928', etiqueta: '928' },
+    { valor: '944', etiqueta: '944' },
+    { valor: '968', etiqueta: '968' },
     { valor: 'otro', etiqueta: 'Otro Porsche' },
   ],
   baseAno: [

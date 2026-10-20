@@ -97,6 +97,47 @@ const TRAMOS: Partial<Record<Familia, Tramo[]>> = {
     { desde: 2014, hasta: 2018, generacion: 'macan_95b' },
     { desde: 2019, hasta: 9999, generacion: 'macan_95b_2' },
   ],
+  356: [
+    { desde: 0, hasta: 1947, generacion: false },
+    { desde: 1948, hasta: 1965, generacion: '356' },
+    { desde: 1966, hasta: 9999, generacion: false },
+  ],
+  912: [
+    { desde: 0, hasta: 1964, generacion: false },
+    { desde: 1965, hasta: 1969, generacion: '912' },
+    { desde: 1970, hasta: 1975, generacion: false },
+    { desde: 1976, hasta: 1976, generacion: '912' },     // 912 E
+    { desde: 1977, hasta: 9999, generacion: false },
+  ],
+  914: [
+    { desde: 0, hasta: 1969, generacion: false },
+    { desde: 1970, hasta: 1976, generacion: '914' },
+    { desde: 1977, hasta: 9999, generacion: false },
+  ],
+  // El 924 S monta el 2.5 del 944, con bloque Alusil: otra historia.
+  924: [
+    { desde: 0, hasta: 1975, generacion: false },
+    { desde: 1976, hasta: 1985, generacion: '924' },
+    { desde: 1986, hasta: 1988, generacion: '924s' },
+    { desde: 1989, hasta: 9999, generacion: false },
+  ],
+  928: [
+    { desde: 0, hasta: 1977, generacion: false },
+    { desde: 1978, hasta: 1995, generacion: '928' },
+    { desde: 1996, hasta: 9999, generacion: false },
+  ],
+  944: [
+    { desde: 0, hasta: 1981, generacion: false },
+    { desde: 1982, hasta: 1991, generacion: '944' },
+    { desde: 1992, hasta: 9999, generacion: false },
+  ],
+  968: [
+    { desde: 0, hasta: 1991, generacion: false },
+    { desde: 1992, hasta: 1995, generacion: '968' },
+    { desde: 1996, hasta: 9999, generacion: false },
+  ],
+  // Carrera GT, 918, 959...: sin generacion que deducir.
+  otro: [{ desde: 0, hasta: 9999, generacion: 'desconocida' }],
 };
 
 export function generacionPorAno(
@@ -136,6 +177,7 @@ export const ANOS_AMBIGUOS_POR_MATRICULACION: Partial<Record<Familia, number[]>>
   cayenne: [2002, 2003, 2006, 2007, 2008, 2010, 2011, 2014, 2015, 2017, 2018, 2019],
   panamera: [2008, 2009, 2015, 2016, 2017],
   macan: [2013, 2014, 2018, 2019],
+  924: [1985, 1986],
 };
 
 /** Variantes que en 911 llevan motor Mezger y quedan fuera del patron M96/M97. */
@@ -446,9 +488,28 @@ export const REGLAS: ReglaVehiculo[] = [
     prioridad: 50, fuentes: ['S07', 'S08'],
   },
 
+  // ── Clasicos ─────────────────────────────────────────────────────────────
+  // 356, 912, 914 y 924 2.0: cilindros de hierro o de camisa, sin el patron.
+  {
+    id: 'clasicos-no-afectados',
+    familias: ['356', '912', '914', '924'],
+    generaciones: ['356', '912', '914', '924'],
+    tecnologia: 'desconocida',
+    susceptibilidad: 'NOT_AFFECTED',
+    prioridad: 80, fuentes: ['S07'],
+  },
+  // Transaxle con bloque Alusil: hay casos, sin llegar a los M96/M97.
+  {
+    id: 'transaxle-alusil',
+    familias: ['924', '928', '944', '968'],
+    generaciones: ['924s', '928', '944', '968'],
+    tecnologia: 'alusil',
+    susceptibilidad: 'DOCUMENTED_SUSCEPTIBILITY',
+    prioridad: 80, fuentes: ['S07', 'S13'],
+  },
+
   // ── Todo lo demas ────────────────────────────────────────────────────────
-  // 356, 912, 914, transaxle, Carrera GT, 918: hay bloques Alusil entre ellos,
-  // pero no heredan la frecuencia de los M96/M97 sin una matriz propia.
+  // Carrera GT, 918, 959: sin una regla propia no se clasifican.
   {
     id: 'otro-porsche',
     familias: ['otro'],

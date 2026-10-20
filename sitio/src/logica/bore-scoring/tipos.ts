@@ -26,7 +26,8 @@
 
 export type Familia =
   | '911' | 'boxster' | 'cayman'
-  | 'cayenne' | 'panamera' | 'macan' | 'taycan' | 'otro';
+  | 'cayenne' | 'panamera' | 'macan' | 'taycan'
+  | '356' | '912' | '914' | '924' | '928' | '944' | '968' | 'otro';
 
 /** El ano modelo (MY) no coincide necesariamente con el de matriculacion. */
 export type BaseAno = 'modelo' | 'matriculacion' | 'desconocido';
@@ -40,6 +41,8 @@ export type Generacion =
   | 'cayenne_955' | 'cayenne_957' | 'cayenne_958_1' | 'cayenne_958_2' | 'cayenne_e3'
   | 'panamera_970' | 'panamera_971'
   | 'macan_95b' | 'macan_95b_2'
+  // Clasicos: una sola generacion por modelo, salvo el 924 y el 924 S
+  | '356' | '912' | '914' | '924' | '924s' | '928' | '944' | '968'
   | 'desconocida';
 
 /**

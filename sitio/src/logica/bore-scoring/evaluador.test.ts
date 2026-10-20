@@ -323,6 +323,43 @@ test('911 anterior al 996: no afectado, sin pasos ni cuestionario', () => {
   }
 });
 
+test('Clasicos sin el patron: no afectados', () => {
+  for (const entrada of [
+    { familia: '356' as const, ano: 1960 },
+    { familia: '912' as const, ano: 1967 },
+    { familia: '914' as const, ano: 1973 },
+    { familia: '924' as const, ano: 1980 },
+  ]) {
+    const r = ev(entrada);
+    assert.equal(r.susceptibilidad, 'NOT_AFFECTED', entrada.familia);
+    assert.deepEqual(r.acciones, []);
+  }
+});
+
+test('924 S, 928, 944 y 968: Alusil con casos documentados', () => {
+  for (const entrada of [
+    { familia: '924' as const, ano: 1987 },
+    { familia: '928' as const, ano: 1990 },
+    { familia: '944' as const, ano: 1986 },
+    { familia: '968' as const, ano: 1993 },
+  ]) {
+    const r = ev(entrada);
+    assert.equal(r.susceptibilidad, 'DOCUMENTED_SUSCEPTIBILITY', entrada.familia);
+    assert.equal(r.tecnologia, 'alusil');
+  }
+});
+
+test('Clasico fuera de sus anos: se pide confirmar, no se corrige', () => {
+  const r = ev({ familia: '944', ano: 1995 });
+  assert.equal(r.siguientePregunta, 'ano_imposible');
+});
+
+test('Otro Porsche: modelo no cubierto, sin pedir una generacion que no existe', () => {
+  const r = ev({ familia: 'otro', ano: 2004 });
+  assert.equal(r.susceptibilidad, 'OUTSIDE_VALIDATED_SCOPE');
+  assert.equal(r.siguientePregunta, undefined);
+});
+
 // ── 44-47. Motor sustituido, reconstruido y combinaciones imposibles ───────
 test('44. Motor sustituido sin codigo: fabrica aparte, actual sin clasificar', () => {
   const r = ev({ ...CARRERA_997_1, originalidadMotor: 'sustituido' });

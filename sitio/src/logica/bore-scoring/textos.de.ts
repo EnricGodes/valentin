@@ -30,9 +30,9 @@ export const SUSCEPTIBILIDAD: Record<Susceptibilidad, TextoEje> = {
     cuerpo: 'Mit den bisherigen Angaben existieren unter demselben Handelsnamen verschiedene Architekturen. Version, Hubraum oder Motorcode werden benötigt: Ohne sie zu klassifizieren wäre eine irreführende Antwort.',
   },
   OUTSIDE_VALIDATED_SCOPE: {
-    etiqueta: 'Außerhalb der validierten Matrix',
-    resumen: 'Für diese Konfiguration haben wir keine ausreichend verlässliche Regel.',
-    cuerpo: 'Dieses Werkzeug deckt den 911 ab dem 996, Boxster und Cayman sowie Cayenne, Panamera und Macan mit identifizierbarem Motor ab. Für den Rest gibt es keine Regel, hinter der wir stehen könnten, und eine pauschale grüne Zone wäre schlimmer als nichts zu sagen. Symptome müssen trotzdem bewertet werden.',
+    etiqueta: 'Modell nicht abgedeckt',
+    resumen: 'Dieses Werkzeug deckt dieses Modell nicht ab.',
+    cuerpo: 'Es deckt 911, Boxster, Cayman, Cayenne, Panamera und Macan ab, dazu die Klassiker 356, 912, 914, 924, 928, 944 und 968. Für alles andere geben wir keine Antwort, hinter der wir nicht stehen können. Bei Symptomen sollte das Fahrzeug trotzdem geprüft werden.',
   },
   NOT_AFFECTED: {
     etiqueta: 'Dieses Fahrzeug ist nicht betroffen',
@@ -179,7 +179,9 @@ export const MOTIVOS: Record<string, string> = {
   'regla_macan-2-0': 'Macan 2.0 EA888, außerhalb des klassischen Alusil-Musters.',
   'regla_macan-v6-mct': 'Macan V6 MCT, Alusil mit dokumentierten Fällen.',
   'regla_macan-v6-ea839': 'Macan V6 EA839 mit Gussbuchsen.',
-  'regla_otro-porsche': 'Dieser Porsche ist nicht in der validierten Matrix.',
+  'regla_clasicos-no-afectados': '356, 912, 914 und 924 2.0 haben dieses Problem nicht.',
+  'regla_transaxle-alusil': '924 S, 928, 944 und 968 haben einen Alusil-Block, mit dokumentierten Fällen.',
+  'regla_otro-porsche': 'Dieses Werkzeug deckt dieses Modell nicht ab.',
 };
 
 export const AVISOS: Record<string, string> = {
@@ -263,6 +265,8 @@ export const CTA: Record<Urgencia, string> = {
 };
 
 export const GENERACION: Record<string, string> = {
+  '924': '924 2.0 oder Turbo',
+  '924s': '924 S 2.5',
   pre_996: '993 oder früher', '996_1': '996.1', '996_2': '996.2', '997_1': '997.1', '997_2': '997.2',
   '991_1': '991.1', '991_2': '991.2', post_991: '992 oder später', '986': '986', '987_1': '987.1', '987_2': '987.2',
   '981': '981', '718': '718',
@@ -283,7 +287,7 @@ export const OPCIONES = {
   familia: [
     { valor: '911', etiqueta: '911' }, { valor: 'boxster', etiqueta: 'Boxster' }, { valor: 'cayman', etiqueta: 'Cayman' },
     { valor: 'cayenne', etiqueta: 'Cayenne' }, { valor: 'panamera', etiqueta: 'Panamera' }, { valor: 'macan', etiqueta: 'Macan' },
-    { valor: 'taycan', etiqueta: 'Taycan' }, { valor: 'otro', etiqueta: 'Anderer Porsche' },
+    { valor: 'taycan', etiqueta: 'Taycan' }, { valor: '356', etiqueta: '356' }, { valor: '912', etiqueta: '912' }, { valor: '914', etiqueta: '914' }, { valor: '924', etiqueta: '924' }, { valor: '928', etiqueta: '928' }, { valor: '944', etiqueta: '944' }, { valor: '968', etiqueta: '968' }, { valor: 'otro', etiqueta: 'Anderer Porsche' },
   ],
   baseAno: [
     { valor: 'modelo', etiqueta: 'Modelljahr' }, { valor: 'matriculacion', etiqueta: 'Zulassungsjahr' }, { valor: 'desconocido', etiqueta: 'Weiß ich nicht' },
