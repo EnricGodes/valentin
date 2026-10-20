@@ -2087,6 +2087,19 @@ section { position: relative; }
   max-width: 62ch;
 }
 .bs-paso .herr-acciones { margin-top: 22px; }
+.bs-paso-evidencia {
+  font-size: 15px; line-height: 1.6; color: var(--blanco); margin-top: 10px;
+  max-width: 62ch;
+}
+.bs-paso-titulo--segundo { margin-top: 24px; }
+/* Al contestar el cuestionario o la situacion, el bloque se ilumina un
+   momento: es la senal de que el resultado ha cambiado. */
+.bs-paso--cambio { animation: bsPasoCambio 1.4s ease-out; }
+@keyframes bsPasoCambio {
+  from { background: color-mix(in srgb, var(--bronce) 22%, var(--grafito)); }
+  to   { background: var(--grafito); }
+}
+@media (prefers-reduced-motion: reduce) { .bs-paso--cambio { animation: none; } }
 
 /* La situacion cambia el siguiente paso, no la mecanica: va pegada a la
    accion, no dentro del cuestionario. */

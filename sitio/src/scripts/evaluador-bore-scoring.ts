@@ -65,9 +65,9 @@ function ejes(r: Valoracion): [string, string, string][] {
   }
   filas.push([UI.ejeSusceptibilidad, SUSCEPTIBILIDAD[r.susceptibilidad].etiqueta,
               SUSCEPTIBILIDAD[r.susceptibilidad].resumen]);
+  /* La evidencia no va aqui: cambia con el cuestionario, y se pinta debajo
+     de el, junto al siguiente paso, para que se vea cambiar. */
   if (r.susceptibilidad !== 'NOT_APPLICABLE_ELECTRIC') {
-    filas.push([UI.ejeEvidencia, EVIDENCIA[r.evidencia].etiqueta,
-                EVIDENCIA[r.evidencia].resumen]);
     filas.push([UI.ejeConfianza, CONFIANZA[r.confianza], '']);
   }
   return filas;
@@ -75,6 +75,7 @@ function ejes(r: Valoracion): [string, string, string][] {
 
 function pintaResultado(
   r: Valoracion, v: Vehiculo, s: Sintomas, enlaces: { articulo?: string; ims?: string },
+  cambio = false,
 ): string {
   const urg = URGENCIA[r.urgencia];
   const susc = SUSCEPTIBILIDAD[r.susceptibilidad];
@@ -129,22 +130,6 @@ function pintaResultado(
         ${esc(SUSCEPTIBILIDAD[r.susceptibilidadDeFabrica].etiqueta)}.
         ${esc(SUSCEPTIBILIDAD[r.susceptibilidadDeFabrica].resumen)}</p>` : ''}
 
-      ${litros !== undefined ? `<p class="bs-consumo">
-        <span>${esc(UI.consumoDeclarado)}</span>
-        <b>${litros} ${esc(UI.consumoUnidad)}</b></p>` : ''}
-
-      <div class="bs-paso bs-paso--${TONO[r.urgencia]}">
-        <p class="bs-paso-titulo">${esc(UI.siguientePaso)}</p>
-        <p class="bs-paso-que">${esc(urg.etiqueta)}</p>
-        <p class="bs-paso-porque">${esc(urg.resumen)}</p>
-        <div class="herr-acciones">
-          <a class="cta" href="${cta}" data-bs-cta>${esc(CTA[r.urgencia])}</a>
-          ${enlaces.articulo
-            ? `<a class="cta cta--linea" href="${enlaces.articulo}">${esc(UI.ctaArticulo)}</a>`
-            : ''}
-        </div>
-      </div>
-
       ${/* Situacion: una linea que cambia el siguiente paso, no la mecanica. */ ''}
       ${electrico ? '' : `
       <fieldset class="bs-situacion" data-bs-situacion aria-live="off">
@@ -169,6 +154,28 @@ function pintaResultado(
         <p class="herr-afinar-ayuda">${esc(AFINAR.ayuda)}</p>
         <div class="bs-preguntas" id="bs-preguntas" data-bs-preguntas></div>
       </div>`}
+
+      ${/* Lo que cambia al contestar va debajo de las preguntas: encima no se
+           ve cambiar. */ ''}
+      ${litros !== undefined ? `<p class="bs-consumo">
+        <span>${esc(UI.consumoDeclarado)}</span>
+        <b>${litros} ${esc(UI.consumoUnidad)}</b></p>` : ''}
+
+      <div class="bs-paso bs-paso--${TONO[r.urgencia]}${cambio ? ' bs-paso--cambio' : ''}"
+           data-bs-paso>
+        ${electrico ? '' : `<p class="bs-paso-titulo">${esc(UI.ejeEvidencia)}</p>
+        <p class="bs-paso-evidencia">${esc(EVIDENCIA[r.evidencia].etiqueta)}.
+          ${esc(EVIDENCIA[r.evidencia].resumen)}</p>`}
+        <p class="bs-paso-titulo${electrico ? '' : ' bs-paso-titulo--segundo'}">${esc(UI.siguientePaso)}</p>
+        <p class="bs-paso-que">${esc(urg.etiqueta)}</p>
+        <p class="bs-paso-porque">${esc(urg.resumen)}</p>
+        <div class="herr-acciones">
+          <a class="cta" href="${cta}" data-bs-cta>${esc(CTA[r.urgencia])}</a>
+          ${enlaces.articulo
+            ? `<a class="cta cta--linea" href="${enlaces.articulo}">${esc(UI.ctaArticulo)}</a>`
+            : ''}
+        </div>
+      </div>
 
       <div class="herr-detalle">
         <div class="herr-detalle-cuerpo">
@@ -493,7 +500,7 @@ export function iniciarEvaluadorBoreScoring(): void {
     const foco = activo?.getAttribute?.('name');
     const focoValor = (activo as HTMLInputElement | null)?.value;
 
-    salida.innerHTML = pintaResultado(r, v, sintomas, enlaces);
+    salida.innerHTML = pintaResultado(r, v, sintomas, enlaces, origen !== 'inicial');
     salida.hidden = false;
     cableaSituacion();
     pintaAfinado(v);
