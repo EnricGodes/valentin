@@ -212,7 +212,7 @@ export const REGLAS: ReglaVehiculo[] = [
     id: '911-pre-996',
     familias: ['911'], generaciones: ['pre_996'],
     tecnologia: 'desconocida',
-    susceptibilidad: 'OUTSIDE_VALIDATED_SCOPE',
+    susceptibilidad: 'NOT_AFFECTED',
     prioridad: 80, fuentes: ['S01'],
   },
   {

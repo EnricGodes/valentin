@@ -34,6 +34,10 @@ export const SUSCEPTIBILIDAD: Record<Susceptibilidad, TextoEje> = {
     resumen: 'Für diese Konfiguration haben wir keine ausreichend verlässliche Regel.',
     cuerpo: 'Dieses Werkzeug deckt den 911 ab dem 996, Boxster und Cayman sowie Cayenne, Panamera und Macan mit identifizierbarem Motor ab. Für den Rest gibt es keine Regel, hinter der wir stehen könnten, und eine pauschale grüne Zone wäre schlimmer als nichts zu sagen. Symptome müssen trotzdem bewertet werden.',
   },
+  NOT_AFFECTED: {
+    etiqueta: 'Dieses Fahrzeug ist nicht betroffen',
+    resumen: '911 vor dem 996 haben dieses Problem nicht.',
+  },
   NOT_APPLICABLE_ELECTRIC: {
     etiqueta: 'Nicht zutreffend',
     resumen: 'Ein Elektrofahrzeug hat keine Verbrennungszylinder.',
@@ -143,7 +147,7 @@ export const MOTIVOS: Record<string, string> = {
   una_senal_inespecifica: 'Es gibt ein einzelnes Zeichen, das mit mehreren Ursachen vereinbar ist.',
   'regla_911-mezger': 'Turbo, GT2 und GT3 dieser Generation nutzen den Mezger-Motor mit Nikasil.',
   'regla_911-991-1-especificos': 'Turbo und GT erben die Carrera-Regel nicht.',
-  'regla_911-pre-996': '911 vor dem 996 liegen außerhalb dieser Matrix.',
+  'regla_911-pre-996': '911 vor dem 996 haben dieses Problem nicht.',
   'regla_911-996-1-carrera': '996.1 Carrera 3.4 mit Lokasil-Zylindern.',
   'regla_911-996-2-carrera': '996.2 Carrera 3.6, eine der meistgenannten Gruppen.',
   'regla_911-997-1-carrera': '997.1 Carrera 3.6 und S 3.8, die Gruppe mit den meisten veröffentlichten Fällen.',

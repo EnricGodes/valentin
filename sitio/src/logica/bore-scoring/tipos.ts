@@ -77,6 +77,7 @@ export type Susceptibilidad =
   | 'LOWER_BY_BORE_TECHNOLOGY'
   | 'ENGINE_SPECIFIC_CLASSIFICATION'
   | 'OUTSIDE_VALIDATED_SCOPE'
+  | 'NOT_AFFECTED'
   | 'NOT_APPLICABLE_ELECTRIC';
 
 /** Lo que se sabe de ESTA unidad. `NO_EVIDENCE_REPORTED` no es "motor sano". */

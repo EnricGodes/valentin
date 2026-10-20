@@ -313,6 +313,16 @@ test('43. Taycan y Macan Electric: no aplica y sin cuestionario de cilindros', (
   }
 });
 
+test('911 anterior al 996: no afectado, sin pasos ni cuestionario', () => {
+  for (const ano of [1965, 1989, 1997]) {
+    const r = ev({ ano });
+    assert.equal(r.susceptibilidad, 'NOT_AFFECTED');
+    assert.equal(r.urgencia, 'INFORMATION_ONLY');
+    assert.deepEqual(r.acciones, []);
+    assert.deepEqual(r.avisos, []);
+  }
+});
+
 // ── 44-47. Motor sustituido, reconstruido y combinaciones imposibles ───────
 test('44. Motor sustituido sin codigo: fabrica aparte, actual sin clasificar', () => {
   const r = ev({ ...CARRERA_997_1, originalidadMotor: 'sustituido' });

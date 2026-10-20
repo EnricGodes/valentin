@@ -221,6 +221,21 @@ export function evaluarBoreScoring(
     tecnologia = regla.tecnologia;
     fuentes = regla.fuentes;
     motivos.push(`regla_${regla.id}`);
+
+    /* Un 911 anterior al 996 no tiene este problema: se dice tal cual, sin
+       cuestionario ni pasos, como un electrico. */
+    if (deFabrica === 'NOT_AFFECTED') {
+      return {
+        ...base(v),
+        susceptibilidad: 'NOT_AFFECTED',
+        susceptibilidadDeFabrica: 'NOT_AFFECTED',
+        urgencia: 'INFORMATION_ONLY',
+        confianza: 'alta',
+        motivos,
+        acciones: [],
+        fuentes,
+      };
+    }
   }
 
   // ── 6. Motor actual, que puede no ser el de fabrica ──────────────────────

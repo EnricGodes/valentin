@@ -78,6 +78,18 @@ function pintaResultado(
 ): string {
   const urg = URGENCIA[r.urgencia];
   const susc = SUSCEPTIBILIDAD[r.susceptibilidad];
+
+  /* No afectado: se dice y ya. Ni ejes, ni situacion, ni cuestionario. */
+  if (r.susceptibilidad === 'NOT_AFFECTED') {
+    return `
+    <div class="herr-res bs-res">
+      <p class="herr-veredicto">${esc(susc.etiqueta)}</p>
+      <p class="herr-res-resumen">${esc(susc.resumen)}</p>
+      ${enlaces.articulo ? `<div class="herr-acciones">
+        <a class="cta cta--linea" href="${enlaces.articulo}">${esc(UI.ctaArticulo)}</a>
+      </div>` : ''}
+    </div>`;
+  }
   const motivos = r.motivos.map((m) => MOTIVOS[m]).filter(Boolean) as string[];
   const avisos = r.avisos.map((a) => AVISOS[a]).filter(Boolean) as string[];
   const acciones = [...new Set(r.acciones)].map((a) => ACCIONES[a]).filter(Boolean) as string[];
