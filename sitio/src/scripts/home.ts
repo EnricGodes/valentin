@@ -33,7 +33,7 @@ function apagado(color: string): string {
   return `rgba(${r}, ${g}, ${b}, 0.14)`;
 }
 
-function onda(letras: Element[], opciones: gsap.TweenVars = {}): gsap.core.Timeline {
+function onda(letras: Element[], opciones: gsap.TimelineVars = {}): gsap.core.Timeline {
   const tl = gsap.timeline(opciones);
   letras.forEach((l, i) => {
     const final = getComputedStyle(l).color;
@@ -42,17 +42,29 @@ function onda(letras: Element[], opciones: gsap.TweenVars = {}): gsap.core.Timel
       duration: 0.75, ease: 'none',
       /* Al acabar se quita el color en linea: asi la letra vuelve a heredar
          y un :hover o un cambio de tema siguen funcionando. */
-      onComplete: () => gsap.set(l, { clearProps: 'color' }),
-    }, i * 0.028);
+      onComplete: () => { gsap.set(l, { clearProps: 'color' }); },
+    } as gsap.TweenVars, i * 0.028);
   });
   return tl;
 }
 
+/* Estos titulares ademas suben linea a linea desde una mascara, como el h1. */
+const CON_APARICION = '#venta .section-title, #opiniones .section-title';
+
 /** Todos los titulares de seccion de la home entran con la onda. */
 function titulares(): void {
+  const aparicion = new Set($$(CON_APARICION));
   for (const h of $$('main .section-title, main .cita-titulo')) {
-    const partes = SplitText.create(h, { type: 'words,chars', charsClass: 'letra' });
-    const tl = onda(partes.chars, { paused: true });
+    const sube = aparicion.has(h);
+    /* El .reveal de CabeceraSeccion los desplazaba a la vez que la mascara:
+       aqui manda la mascara. */
+    if (sube) h.classList.remove('reveal');
+    const partes = SplitText.create(h, sube
+      ? { type: 'lines,words,chars', mask: 'lines', linesClass: 'linea', charsClass: 'letra' }
+      : { type: 'words,chars', charsClass: 'letra' });
+    const tl = gsap.timeline({ paused: true });
+    if (sube) tl.from(partes.lines, { yPercent: 110, duration: 1.3, ease: 'expo.out', stagger: 0.14 }, 0);
+    tl.add(onda(partes.chars), sube ? 0.2 : 0);
     ScrollTrigger.create({ trigger: h, start: 'top 85%', once: true, onEnter: () => tl.play() });
   }
 }
@@ -129,6 +141,31 @@ function marquesina(): void {
       gsap.to(bucle, { timeScale: sentido, duration: 1.4, delay: 0.2, ease: 'power2.out' });
     },
   });
+}
+
+/** Marca la palabra de la marquesina que cruza el centro de la pantalla. */
+function marquesinaCentro(): void {
+  const pista = $('.marquesina-pista');
+  if (!pista) return;
+  const items = $$('.marquesina-item', pista);
+  let actual: HTMLElement | null = null;
+  const marcar = () => {
+    const centro = window.innerWidth / 2;
+    const elegido = items.find((it) => {
+      const r = it.getBoundingClientRect();
+      return r.left <= centro && r.right >= centro;
+    }) ?? null;
+    if (elegido === actual) return;
+    actual?.classList.remove('activo');
+    elegido?.classList.add('activo');
+    actual = elegido;
+  };
+  marcar();
+  if (sinMovimiento()) return;
+  // Solo mientras se ve: fuera de pantalla no se mide nada
+  let visible = false;
+  new IntersectionObserver(([e]) => { visible = e.isIntersecting; }).observe(pista);
+  gsap.ticker.add(() => { if (visible) marcar(); });
 }
 
 /** Servicios: pin y recorrido horizontal en escritorio; cortinas en movil. */
@@ -224,25 +261,6 @@ function cortinas(): void {
   }
 }
 
-/** Reels: entran en abanico y flotan a distinta velocidad con el scroll. */
-function reels(mm: gsap.MatchMedia): void {
-  const tarjetas = $$('.reel');
-  if (!tarjetas.length) return;
-  gsap.from(tarjetas, {
-    y: 160, opacity: 0, rotate: (i) => [-6, 0, 6][i % 3], duration: 1.3,
-    ease: 'expo.out', stagger: 0.12,
-    scrollTrigger: { trigger: '.reels', start: 'top 85%' },
-  });
-  mm.add(ESCRITORIO, () => {
-    tarjetas.forEach((t, i) => {
-      gsap.to(t, {
-        y: [-40, 30, -70][i % 3], ease: 'none',
-        scrollTrigger: { trigger: '.reels', start: 'top bottom', end: 'bottom top', scrub: true },
-      });
-    });
-  });
-}
-
 /** Generaciones: el fondo pasa de negro a papel y los coches entran rodando. */
 function modelos(): void {
   const seccion = $('.modelos');
@@ -330,28 +348,157 @@ function carrusel(): void {
   window.setInterval(() => { if (visible && !pausado && !document.hidden) ir(1); }, 5500);
 }
 
-/** Los reels solo descargan y reproducen cuando estan en pantalla. */
-function videosReels(): void {
-  const videos = $$<HTMLVideoElement>('.reel-video');
-  if (!videos.length || sinMovimiento()) return;
-  const obs = new IntersectionObserver((entradas) => {
-    for (const e of entradas) {
-      const v = e.target as HTMLVideoElement;
-      if (e.isIntersecting) {
-        if (!v.src && v.dataset.src) v.src = v.dataset.src;
-        v.play().catch(() => {});
-      } else {
-        v.pause();
-      }
-    }
-  }, { threshold: 0.35 });
-  videos.forEach((v) => obs.observe(v));
+/**
+ * Reels en un anillo 3D. Seis tarjetas repartidas en circulo; la del frente
+ * es la grande y nitida y reproduce su fragmento. Al acabar el fragmento el
+ * anillo gira a la siguiente. Las de los lados se ven mas pequenas por la
+ * perspectiva, y ademas desenfocadas y oscurecidas segun su profundidad.
+ * Clic en una lateral la trae al frente; la del frente abre Instagram.
+ */
+function anillo(): void {
+  const raiz = $('[data-anillo]');
+  if (!raiz) return;
+  const tarjetas = $$<HTMLAnchorElement>('.reel', raiz);
+  const n = tarjetas.length;
+  const videos = tarjetas.map((t) => $<HTMLVideoElement>('.reel-video', t)!);
+  const barras = tarjetas.map((t) => $('.reel-progreso i', t)!);
+  const quieto = sinMovimiento();
+  raiz.classList.add('listo');
+
+  let frente = 0;
+  let visible = false;
+
+  const cargar = (i: number) => {
+    const v = videos[(i + n) % n];
+    if (!v.src && v.dataset.src) v.src = v.dataset.src;
+  };
+
+  /* Posiciones por distancia al frente (0 = frente, 3 = detras): en un
+     circulo real las de distancia 2 quedaban tapadas por las de 1, asi que
+     el anillo se abre un poco mas en los lados. */
+  const DX = [0, 0.92, 1.62, 0];
+  const DZ = [0, -260, -540, -760];
+  const GIRO = [0, 26, 40, 0];
+
+  const colocar = (animar: boolean) => {
+    const ancho = tarjetas[0].offsetWidth;
+    const escala = Math.min(1, window.innerWidth / (ancho * 4.2));
+    tarjetas.forEach((t, i) => {
+      // Distancia circular al frente: -2..3 con seis tarjetas
+      let d = (i - frente) % n;
+      if (d > n / 2) d -= n;
+      if (d <= -n / 2) d += n;
+      const lejos = Math.abs(d);
+      const lado = Math.sign(d);
+      gsap.to(t, {
+        x: lado * DX[lejos] * ancho * escala,
+        z: DZ[lejos],
+        rotationY: -lado * GIRO[lejos],
+        scale: d === 0 ? 1 : 0.86,
+        filter: `blur(${lejos * 2.5}px) brightness(${1 - lejos * 0.24})`,
+        opacity: lejos >= 3 ? 0 : 1,
+        zIndex: 10 - lejos,
+        duration: animar && !quieto ? 1.1 : 0,
+        ease: 'power3.inOut',
+      });
+      t.classList.toggle('frente', d === 0);
+      t.tabIndex = d === 0 ? 0 : -1;
+    });
+  };
+
+  const reproducir = () => {
+    videos.forEach((v, i) => { if (i !== frente) { v.pause(); } });
+    barras.forEach((b) => gsap.set(b, { scaleX: 0 }));
+    if (quieto || !visible) return;
+    const v = videos[frente];
+    cargar(frente);
+    v.currentTime = 0;
+    v.play().catch(() => {});
+  };
+
+  const ir = (paso: number) => {
+    frente = (frente + paso + n) % n;
+    colocar(true);
+    cargar(frente + 1); cargar(frente - 1);
+    reproducir();
+  };
+
+  // Fragmento terminado: gira a la siguiente. La barra sigue al video.
+  videos.forEach((v, i) => {
+    v.addEventListener('timeupdate', () => {
+      if (i === frente && v.duration) gsap.set(barras[i], { scaleX: v.currentTime / v.duration });
+    });
+    v.addEventListener('ended', () => { if (i === frente) ir(1); });
+  });
+
+  tarjetas.forEach((t, i) => t.addEventListener('click', (e) => {
+    if (i === frente) return;
+    e.preventDefault();
+    const d = ((i - frente + n) % n);
+    ir(d > n / 2 ? d - n : d);
+  }));
+  $$('[data-anillo-ir]').forEach((b) =>
+    b.addEventListener('click', () => ir(Number(b.dataset.anilloIr))));
+  raiz.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') { e.preventDefault(); ir(1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); ir(-1); }
+  });
+  // Deslizar con el dedo
+  let x0: number | null = null;
+  raiz.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse') x0 = e.clientX; });
+  raiz.addEventListener('pointerup', (e) => {
+    if (x0 === null) return;
+    const dx = e.clientX - x0;
+    x0 = null;
+    if (Math.abs(dx) > 40) ir(dx < 0 ? 1 : -1);
+  });
+
+  new IntersectionObserver(([e]) => {
+    visible = e.isIntersecting;
+    if (visible) reproducir();
+    else videos[frente].pause();
+  }, { threshold: 0.4 }).observe(raiz);
+  window.addEventListener('resize', () => colocar(false));
+
+  cargar(0); cargar(1); cargar(n - 1);
+  colocar(false);
+  if (!quieto) {
+    gsap.from(tarjetas, {
+      opacity: 0, y: 120, duration: 1.3, ease: 'expo.out', stagger: 0.08,
+      scrollTrigger: { trigger: raiz, start: 'top 85%' },
+    });
+  }
+}
+
+/** Magazine: tres articulos al azar de la bolsa, de categorias distintas. */
+function articulosAlAzar(): void {
+  const lista = $('.mag-lista--azar');
+  if (!lista) return;
+  const items = $$('.mag-item', lista);
+  const categoria = (it: HTMLElement) =>
+    ($('.mag-meta', it)?.textContent ?? '').split('·')[1]?.trim() || 'otros';
+  const barajados = gsap.utils.shuffle([...items]);
+  const elegidos: HTMLElement[] = [];
+  const vistas = new Set<string>();
+  // Primero uno por categoria; si no hay tres categorias, se completa
+  for (const it of barajados) {
+    if (elegidos.length === 3) break;
+    if (!vistas.has(categoria(it))) { elegidos.push(it); vistas.add(categoria(it)); }
+  }
+  for (const it of barajados) {
+    if (elegidos.length === 3) break;
+    if (!elegidos.includes(it)) elegidos.push(it);
+  }
+  items.forEach((it) => { if (!elegidos.includes(it)) it.remove(); });
+  elegidos.forEach((it) => lista.append(it));
 }
 
 function iniciar(): void {
   arrastrables();
   carrusel();
-  videosReels();
+  articulosAlAzar();
+  marquesinaCentro();
+  anillo();
 
   if (sinMovimiento()) {
     document.documentElement.classList.remove('home-js');
@@ -367,7 +514,6 @@ function iniciar(): void {
   coches();
   opiniones();
   cortinas();
-  reels(mm);
   modelos();
   cita();
 

@@ -76,9 +76,11 @@
   display: inline-flex; align-items: center; gap: 48px; padding-right: 48px;
   font-size: clamp(40px, 7vw, 104px); font-weight: 700; letter-spacing: -0.04em;
   line-height: 1; white-space: nowrap;
-  color: transparent; -webkit-text-stroke: 1px rgba(240, 237, 232, 0.35);
+  color: rgba(240, 237, 232, 0); -webkit-text-stroke: 1px rgba(240, 237, 232, 0.35);
+  transition: color 0.45s ease, -webkit-text-stroke-color 0.45s ease;
 }
-.marquesina-item:nth-child(3n + 1) { color: var(--blanco); -webkit-text-stroke: 0; }
+/* La que pasa por el centro de la pantalla se rellena (home.ts la marca) */
+.marquesina-item.activo { color: var(--blanco); -webkit-text-stroke-color: rgba(240, 237, 232, 0); }
 .marquesina-item i {
   width: 14px; height: 14px; border-radius: 50%; background: var(--bronce);
   display: inline-block; flex-shrink: 0;
@@ -230,23 +232,40 @@
 /* ── 5. Centros ──────────────────────────────────────────────────────────── */
 .centro-foto[data-cortina] { clip-path: inset(0 0 0 0); }
 
-/* ── 6. Redes ────────────────────────────────────────────────────────────── */
-/* Material vertical: a tres columnas del contenedor completo cada reel media
-   casi 700 px de alto y no cabia en pantalla. */
+/* ── 7. Redes: carrusel circular en 3D ─────────────────────────────────── */
+/* Sin JS: fila de tarjetas deslizable. Con JS (.listo) las seis se colocan en
+   un anillo y home.ts las mueve; la del frente es la grande y nitida. */
 .reels {
-  display: grid; grid-template-columns: repeat(3, minmax(0, 320px)); gap: 28px;
-  justify-content: center; margin-top: 64px;
+  display: flex; gap: 16px; margin-top: 64px;
+  overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
 }
+.reels::-webkit-scrollbar { display: none; }
 .reel {
-  position: relative; display: block; aspect-ratio: 9 / 16; overflow: hidden;
+  position: relative; display: block; flex: 0 0 min(300px, 70vw); aspect-ratio: 9 / 16;
+  overflow: hidden; scroll-snap-align: center;
   background: var(--grafito); color: inherit; text-decoration: none;
   border-radius: 18px;
 }
+.reels.listo {
+  display: block; overflow: visible; position: relative;
+  height: calc(var(--reel-ancho) * 16 / 9 + 40px);
+  perspective: 1800px; perspective-origin: 50% 45%;
+  transform-style: preserve-3d;
+  --reel-ancho: min(320px, 64vw);
+}
+.reels.listo .reel {
+  position: absolute; left: 50%; top: 20px; width: var(--reel-ancho);
+  margin-left: calc(var(--reel-ancho) / -2);
+  will-change: transform, filter;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+}
+.reels.listo .reel:not(.frente) { cursor: pointer; }
+.reels.listo .reel:not(.frente) .reel-cuerpo { opacity: 0; }
+.reel-cuerpo { transition: opacity 0.5s; }
+.reels:focus-visible { outline: 1px solid var(--bronce); outline-offset: 8px; }
 .reel-video {
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
-  transition: transform 1.2s var(--ease);
 }
-.reel:hover .reel-video { transform: scale(1.04); }
 .reel-velo {
   position: absolute; inset: 0;
   background: linear-gradient(to top, rgba(11, 11, 11, 0.92) 0%, rgba(11, 11, 11, 0.2) 45%, transparent 70%);
@@ -261,16 +280,16 @@
   margin-top: 10px; font-family: var(--mono); font-size: var(--t-label);
   letter-spacing: var(--tr-nav); text-transform: uppercase; color: var(--bronce);
 }
-@media (max-width: 960px) {
-  .reels {
-    display: flex; justify-content: flex-start;
-    overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
-    margin: 56px calc(var(--pad-lateral) * -1) 0; padding: 0 var(--pad-lateral);
-    scroll-padding: 0 var(--pad-lateral); gap: 12px;
-  }
-  .reels::-webkit-scrollbar { display: none; }
-  .reel { flex: 0 0 72vw; scroll-snap-align: start; }
+/* Barra de tiempo del fragmento, como las historias de Instagram */
+.reel-progreso {
+  position: absolute; left: 16px; right: 16px; top: 14px; height: 2px;
+  background: rgba(240, 237, 232, 0.25); border-radius: 2px; overflow: hidden; opacity: 0;
+  transition: opacity 0.4s;
 }
+.reel-progreso i { display: block; height: 100%; width: 100%; background: var(--blanco); transform-origin: left; transform: scaleX(0); }
+.reel.frente .reel-progreso { opacity: 1; }
+.reels-mandos { display: none; justify-content: center; gap: 8px; margin-top: 28px; }
+.reels.listo + .reels-mandos { display: flex; }
 
 /* ── 8. Generaciones, sobre claro ────────────────────────────────────────── */
 /* El unico bloque claro de la home: los perfiles vienen sobre blanco y aqui se
@@ -317,6 +336,38 @@
   letter-spacing: 0.14em; text-transform: uppercase; color: #8A6A43;
 }
 .modelo:hover .modelo-enlace { color: var(--negro); }
+
+/* ── 8. Magazine: la bolsa trae varios, se ven tres ─────────────────────── */
+.mag-lista--azar .mag-item:nth-child(n + 4) { display: none; }
+
+/* ── 9. Herramientas ─────────────────────────────────────────────────────── */
+.herr-home { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin-top: 56px; }
+.herr-tarjeta {
+  display: grid; grid-template-columns: 0.9fr 1.1fr; background: var(--grafito);
+  color: inherit; text-decoration: none; transition: background 0.4s; overflow: hidden;
+}
+.herr-tarjeta:hover { background: var(--carbon); }
+.herr-tarjeta-foto { position: relative; overflow: hidden; min-height: 280px; }
+.herr-tarjeta-foto img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  transition: transform 1s var(--ease);
+}
+.herr-tarjeta:hover .herr-tarjeta-foto img { transform: scale(1.06); }
+.herr-tarjeta-cuerpo { padding: 32px 30px; display: flex; flex-direction: column; gap: 12px; }
+.herr-tarjeta-eyebrow {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--bronce);
+}
+.herr-tarjeta-nombre { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: var(--blanco); line-height: 1.2; }
+.herr-tarjeta-texto { font-size: 14.5px; line-height: 1.65; color: var(--concreto); }
+.herr-tarjeta-para { font-family: var(--mono); font-size: 11px; line-height: 1.6; color: var(--concreto); opacity: 0.8; }
+.herr-tarjeta-cta { align-self: flex-start; margin-top: auto; }
+.herr-tarjeta:hover .herr-tarjeta-cta { background: var(--blanco); }
+@media (max-width: 1100px) { .herr-home { grid-template-columns: 1fr; } }
+@media (max-width: 600px) {
+  .herr-tarjeta { grid-template-columns: 1fr; }
+  .herr-tarjeta-foto { min-height: 200px; }
+}
 
 /* ── 9. Cita ─────────────────────────────────────────────────────────────── */
 .cita-titulo {

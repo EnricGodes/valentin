@@ -11,7 +11,7 @@
  * El movimiento (GSAP + ScrollTrigger) vive en src/scripts/home.ts y solo
  * anade: sin JS o con movimiento reducido todo el contenido esta en su sitio.
  */
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import ListaMagazine from '../components/ListaMagazine.astro';
 import Nav from '../components/Nav.astro';
@@ -35,10 +35,24 @@ const home = paginaPorRuta('home')!;
 const enVenta = COCHES.filter((c) => c.catalogo?.estado !== 'vendido');
 /* Filtrado por idioma: sin esto getCollection devuelve las 252 entradas de
    los seis idiomas y los tres mas recientes son el MISMO articulo en espanol,
-   aleman e ingles. Se veia en la portada como tres tarjetas repetidas. */
-const posts = (await getCollection('magazine', (p) => p.data.lang === idioma))
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 3);
+   aleman e ingles. Se veia en la portada como tres tarjetas repetidas.
+
+   Los tres ultimos se parecian demasiado (casi siempre restauraciones), asi
+   que la home saca tres al azar. Aqui se prepara una bolsa variada, hasta
+   tres por categoria, y en el navegador home.ts elige tres de categorias
+   distintas en cada visita. Sin JS se ven los tres primeros de la bolsa. */
+const barajar = <T,>(a: T[]) => a.map((x) => [Math.random(), x] as const)
+  .sort((x, y) => x[0] - y[0]).map(([, x]) => x);
+const porCategoria = new Map<string, CollectionEntry<'magazine'>[]>();
+for (const p of await getCollection('magazine', (p) => p.data.lang === idioma)) {
+  const c = p.data.categories[0] ?? 'otros';
+  porCategoria.set(c, [...(porCategoria.get(c) ?? []), p]);
+}
+const bolsa = [...porCategoria.values()].map((ps) => barajar(ps).slice(0, 3));
+/* Intercalado por categoria: los tres primeros, que son los que se ven sin
+   JS, ya salen de categorias distintas. */
+const posts = Array.from({ length: 3 }, (_, i) => bolsa.map((ps) => ps[i]))
+  .flat().filter((p): p is CollectionEntry<'magazine'> => Boolean(p));
 const sinHtml = (s: string) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 
 const ANOS = new Date().getFullYear() - 1979;
@@ -128,6 +142,19 @@ const ICONOS = home.secciones
   }))
   .sort((a, b) => a.orden - b.orden);
 
+const HERRAMIENTAS = [
+  { id: 'calculadora-ims', nombre: t('herr.ims.nombre'), eyebrow: t('herr.ims.eyebrow'),
+    para: t('herr.ims.para'), cta: 'Calcular',
+    texto: 'Con el modelo y el año te dice qué rodamiento IMS puede llevar tu Porsche, qué incidencia tiene y qué hace falta para confirmarlo.',
+    foto: '/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg',
+    alt: 'Reparación del rodamiento IMS de un Porsche en el taller' },
+  { id: 'evaluador-bore-scoring', nombre: t('herr.bs.nombre'), eyebrow: t('herr.bs.eyebrow'),
+    para: t('herr.bs.para'), cta: 'Evaluar',
+    texto: 'Valora si tu motor es propenso al rayado de cilindros y si sus síntomas justifican una boroscopia.',
+    foto: '/img/paginas/2644ddba-bore_scoring.jpg',
+    alt: 'Cilindro de un motor Porsche revisado por bore scoring' },
+];
+
 /* Los colores que usa Google para el avatar con inicial */
 const AVATARES = ['#E8710A', '#1A73E8', '#0B8043', '#8430CE', '#D93025', '#00897B'];
 
@@ -167,7 +194,7 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
       <p class="nosotros-manifiesto" data-palabras>
         Desde 1979 solo trabajamos con Porsche. Mantenemos, reparamos, restauramos
         y preparamos todas sus generaciones en dos talleres propios, con sala de
-        motores. Y vendemos una selección corta de coches que conocemos por dentro.
+        motores. Y vendemos una selección de coches que conocemos por dentro.
       </p>
     </div>
   </section>
@@ -209,11 +236,39 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
     </div>
   </section>
 
-  {/* ── 3. Coches en venta, en vivo ── */}
+  {/* ── 3. Por que nosotros: puntos fuertes y cifras ── */}
+  <section class="seccion propuesta" id="propuesta">
+    <div class="contenedor">
+      <div class="nosotros-pilares">
+        {PILARES.map((p, i) => (
+          <div class="pilar" data-entra>
+            <span class="pilar-num">0{i + 1}</span>
+            <h3 class="pilar-titulo">{p.titulo}</h3>
+            <p class="pilar-texto">{p.texto}</p>
+          </div>
+        ))}
+      </div>
+      <dl class="cifras">
+        {CIFRAS.map((c) => (
+          <div class="cifra" data-entra>
+            <dt class="cifra-texto">{c.texto}</dt>
+            <dd class="cifra-valor">
+              <span class="count-up" data-target={c.valor} data-agrupar>
+                {new Intl.NumberFormat('es', { useGrouping: 'always' } as Intl.NumberFormatOptions).format(c.valor)}
+              </span>
+              <span class="cifra-unidad">{c.unidad}</span>
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  {/* ── 4. Coches en venta, en vivo ── */}
   <section class="seccion kit" id="venta">
     <div class="contenedor">
       <div class="kit-header">
-        <CabeceraSeccion etiqueta="En venta" titulo="Porsche en venta," destacado="elegidos uno a uno." />
+        <CabeceraSeccion etiqueta="En venta" titulo="Porsche en venta" />
         <a class="enlace-mono" href={url('coches', idioma)}>Ver todos &rarr;</a>
       </div>
       <div class={`cars-grid cars-grid--home cars-grid--n${enVenta.length}`}>
@@ -242,34 +297,6 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
           </a>
         ))}
       </div>
-    </div>
-  </section>
-
-  {/* ── 4. Por que nosotros: puntos fuertes y cifras ── */}
-  <section class="seccion propuesta" id="propuesta">
-    <div class="contenedor">
-      <div class="nosotros-pilares">
-        {PILARES.map((p, i) => (
-          <div class="pilar" data-entra>
-            <span class="pilar-num">0{i + 1}</span>
-            <h3 class="pilar-titulo">{p.titulo}</h3>
-            <p class="pilar-texto">{p.texto}</p>
-          </div>
-        ))}
-      </div>
-      <dl class="cifras">
-        {CIFRAS.map((c) => (
-          <div class="cifra" data-entra>
-            <dt class="cifra-texto">{c.texto}</dt>
-            <dd class="cifra-valor">
-              <span class="count-up" data-target={c.valor} data-agrupar>
-                {new Intl.NumberFormat('es', { useGrouping: 'always' } as Intl.NumberFormatOptions).format(c.valor)}
-              </span>
-              <span class="cifra-unidad">{c.unidad}</span>
-            </dd>
-          </div>
-        ))}
-      </dl>
     </div>
   </section>
 
@@ -366,14 +393,18 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
   <section class="seccion redes" id="instagram">
     <div class="contenedor">
       <div class="kit-header">
-        <CabeceraSeccion etiqueta="Instagram" titulo="El taller," destacado="también en vídeo." />
+        <CabeceraSeccion etiqueta="Instagram" titulo="Síguenos en Instagram:" destacado="el taller, en vídeo." />
         <a class="enlace-mono" href="https://www.instagram.com/valentinmotors" target="_blank" rel="noopener">@valentinmotors &nearr;</a>
       </div>
-      <div class="reels">
-        {REELS.map((r) => (
+      {/* Carrusel circular: seis tarjetas en anillo, la del centro reproduce
+          su fragmento y al acabar gira a la siguiente. Sin JS es una fila
+          deslizable. De momento son los tres reels repetidos. */}
+      <div class="reels" data-anillo tabindex="0" role="region" aria-roledescription="carrusel" aria-label="Vídeos de Instagram">
+        {[...REELS, ...REELS].map((r, i) => (
           <a class="reel" href={`https://www.instagram.com/p/${r.id}/`} target="_blank" rel="noopener"
-             aria-label={`${r.titulo}: ver el vídeo completo en Instagram`}>
-            <video class="reel-video" muted loop playsinline preload="none"
+             aria-label={`${r.titulo}: ver el vídeo completo en Instagram`}
+             aria-hidden={i >= REELS.length ? 'true' : undefined}>
+            <video class="reel-video" muted playsinline preload="none"
                    poster={`/video/home/instagram-${r.id}.jpg`}
                    data-src={`/video/home/instagram-${r.id}.mp4`} aria-hidden="true"></video>
             <span class="reel-velo"></span>
@@ -382,8 +413,13 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
               <span class="reel-texto">{r.texto}</span>
               <span class="reel-enlace">Ver en Instagram &nearr;</span>
             </span>
+            <span class="reel-progreso" aria-hidden="true"><i></i></span>
           </a>
         ))}
+      </div>
+      <div class="reels-mandos">
+        <button class="carrusel-boton" type="button" data-anillo-ir="-1" aria-label="Vídeo anterior">&larr;</button>
+        <button class="carrusel-boton" type="button" data-anillo-ir="1" aria-label="Vídeo siguiente">&rarr;</button>
       </div>
     </div>
   </section>
@@ -392,15 +428,39 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
   <section class="seccion" id="magazine">
     <div class="contenedor">
       <div class="kit-header">
-        <CabeceraSeccion etiqueta="Magazine" titulo="Lo que pasa" destacado="dentro del taller." />
+        <CabeceraSeccion etiqueta="Magazine" titulo="Artículos para conocer" destacado="mejor tu Porsche." />
         <a class="enlace-mono" href={url('magazine', idioma)}>Ver todos &rarr;</a>
       </div>
       <ListaMagazine posts={posts} idioma={idioma} columnas={3}
-                     urgentes={0} clase="mag-lista--home" />
+                     urgentes={0} clase="mag-lista--home mag-lista--azar" />
     </div>
   </section>
 
-  {/* ── 9. Generaciones ── */}
+  {/* ── 9. Herramientas: solo el gancho, el calculo vive en su pagina ── */}
+  <section class="seccion herramientas-home" id="herramientas">
+    <div class="contenedor">
+      <div class="kit-header">
+        <CabeceraSeccion etiqueta="Herramientas" titulo="Antes de venir," destacado="mide el riesgo de tu motor." />
+        <a class="enlace-mono" href={url('herramientas', idioma)}>Ver herramientas &rarr;</a>
+      </div>
+      <div class="herr-home">
+        {HERRAMIENTAS.map((h) => (
+          <a class="herr-tarjeta" href={url(h.id, idioma)}>
+            <span class="herr-tarjeta-foto"><img src={h.foto} alt={h.alt} loading="lazy" decoding="async"></span>
+            <span class="herr-tarjeta-cuerpo">
+              <span class="herr-tarjeta-eyebrow">{h.eyebrow}</span>
+              <span class="herr-tarjeta-nombre">{h.nombre}</span>
+              <span class="herr-tarjeta-texto">{h.texto}</span>
+              <span class="herr-tarjeta-para">{h.para}</span>
+              <span class="cta herr-tarjeta-cta">{h.cta} &rarr;</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* ── 10. Generaciones ── */}
   {ICONOS.length > 0 && (
     <section class="seccion modelos" id="iconos">
       <div class="contenedor">
@@ -426,7 +486,7 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
     </section>
   )}
 
-  {/* ── 10. Cita ── */}
+  {/* ── 11. Cita ── */}
   <section class="closing cita" id="cita">
     <div class="closing-bg" data-fondo="/img/ruf/exterior3.jpg"
          style="background-image:url('/img/ruf/exterior3.jpg')"></div>
