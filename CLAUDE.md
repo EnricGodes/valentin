@@ -187,3 +187,7 @@ El sitio publicado ya no son los microsites de la raíz sino la app Astro de `si
 - Los textos de la página están en `src/datos/pa10.ts` y el componente `Pa10.astro` recibe el idioma. Título, descripción y secciones van en `build-pa10-01[.idioma].json`, como el resto de páginas.
 - Género: el PA10/01 en castellano, catalán y alemán; la PA10/01 en francés e italiano (sigue al 911 de cada idioma).
 - Las cifras mecánicas siguen siendo de ejemplo, con el aviso traducido en los seis idiomas.
+
+## Pendientes
+
+1. **Sección «Nosotros».** Apuntada por Enric el 2026-10-20, sin más detalle: concretar con él el alcance antes de empezar.

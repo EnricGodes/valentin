@@ -1875,14 +1875,20 @@ section { position: relative; }
    Indice de la seccion y el armazon que comparten las herramientas: campos,
    aclaracion, resultado, afinado y detalle. Reutiliza la rejilla del articulo
    (.post-reja) y el mono de los datos tecnicos: una herramienta del taller no
-   deberia parecer de otro sitio.
+   deberia parecer de otro sitio. Por eso titulan en Inter y no en la serifa
+   del Magazine, que se les colaba con .mag-titulo: el h1 lleva .herr-titulo
+   y toma las medidas de .page-title.
 
    El prefijo es `herr-`, no el de una herramienta concreta: la calculadora IMS
    y el evaluador de bore scoring pintan el mismo armazon y solo se diferencian
    en lo que de verdad es distinto.
    ------------------------------------------------------------------------ */
+.mag-titulo.herr-titulo {
+  font-family: var(--sans); font-weight: 700; font-size: clamp(38px, 6vw, 78px);
+  line-height: 0.95; letter-spacing: -0.03em;
+}
 .herr-intro {
-  font-family: var(--serif); font-weight: 300;
+  font-weight: 300;
   font-size: clamp(19px, 2.1vw, 26px); line-height: 1.45;
   color: var(--concreto); max-width: 34ch; margin-top: 36px;
 }
@@ -1895,7 +1901,7 @@ section { position: relative; }
 }
 .herramienta:hover { background: var(--carbon); }
 .herramienta-nombre {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(24px, 2.6vw, 34px);
+  font-weight: 700; font-size: clamp(24px, 2.6vw, 34px); letter-spacing: -0.03em;
   line-height: 1.14; color: var(--blanco); margin-top: 12px;
 }
 .herramienta-desc { font-size: 17px; line-height: 1.65; color: var(--concreto); margin-top: 14px; max-width: 62ch; }
@@ -1991,7 +1997,7 @@ section { position: relative; }
 /* El veredicto es una frase, no una palabra suelta con una coletilla debajo:
    una sola linea, un solo formato, al tamaño que le deja caber entera. */
 .herr-veredicto {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(24px, 3vw, 38px);
+  font-weight: 600; font-size: clamp(24px, 3vw, 38px);
   line-height: 1.15; letter-spacing: -0.02em; color: var(--blanco);
   text-wrap: balance;
 }
@@ -2139,7 +2145,7 @@ section { position: relative; }
 /* Explicacion, preguntas frecuentes y fuentes, fuera del resultado. */
 .bs-explicacion { padding-bottom: 110px; }
 .bs-explicacion h2 {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(22px, 2.4vw, 30px);
+  font-weight: 600; letter-spacing: -0.02em; font-size: clamp(22px, 2.4vw, 30px);
   line-height: 1.2; color: var(--blanco); margin: 64px 0 22px;
 }
 .bs-explicacion p { font-size: 16px; line-height: 1.75; color: var(--concreto); max-width: 66ch; }

@@ -166,12 +166,22 @@ function servicios(mm: gsap.MatchMedia): void {
         pin: true, scrub: 0.8, invalidateOnRefresh: true, anticipatePin: 1,
       },
     });
+    /* El texto entra cuando la tarjeta asoma por la derecha. Con 'left 75%'
+       la ultima no llegaba nunca en pantallas anchas (al final del recorrido
+       su borde queda en ancho - margen - 520 px, que pasa del 75% a partir de
+       unos 2.300 px) y su texto se quedaba invisible. Las que ya se ven al
+       fijarse la seccion entran con ella, sin esperar al recorrido. */
     for (const t of tarjetas) {
+      const visibleDeEntrada = t.offsetLeft < window.innerWidth * 0.9;
       gsap.from($$('.srv-num, .srv-titulo, .srv-texto, .enlace-mono', t), {
         y: 40, opacity: 0, stagger: 0.08, duration: 0.9, ease: 'expo.out',
-        scrollTrigger: { trigger: t, containerAnimation: recorrido, start: 'left 75%' },
+        scrollTrigger: visibleDeEntrada
+          ? { trigger: seccion, start: 'top 40%' }
+          : { trigger: t, containerAnimation: recorrido, start: 'left 90%' },
       });
     }
+    // El alto igualado se mide con la fuente final, no con la de reserva
+    document.fonts.ready.then(() => ScrollTrigger.refresh());
     return () => {
       ScrollTrigger.removeEventListener('refreshInit', igualar);
       cuerpos.forEach((c) => { c.style.flexBasis = ''; });
@@ -221,8 +231,16 @@ function coches(): void {
 function opiniones(): void {
   const tarjetas = $$('.resena');
   if (!tarjetas.length) return;
+  /* Se desplaza la pista entera y las tarjetas solo se encienden. Antes cada
+     tarjeta entraba con su propio x, y como la pista tiene scroll-snap
+     obligatorio el navegador volvia a encajar el scroll a mitad de la entrada:
+     la primera vez las tarjetas se recolocaban a saltos. */
+  gsap.from('.opiniones-pista', {
+    x: 120, duration: 1.4, ease: 'expo.out',
+    scrollTrigger: { trigger: '.opiniones-pista', start: 'top 80%' },
+  });
   gsap.from(tarjetas, {
-    x: 120, opacity: 0, duration: 1.2, ease: 'expo.out', stagger: 0.08,
+    opacity: 0, duration: 1, ease: 'power2.out', stagger: 0.08,
     scrollTrigger: { trigger: '.opiniones-pista', start: 'top 80%' },
   });
   gsap.from($$('.resena .estrellas-g svg'), {
@@ -322,9 +340,22 @@ function carrusel(): void {
   pista.addEventListener('focusin', pausar);
   pista.addEventListener('focusout', seguir);
   pista.addEventListener('touchstart', pausar, { passive: true });
+  /* Los 5,5 s se cuentan desde que la pista se ve, no desde que carga la
+     pagina: con un setInterval fijo el primer avance podia caer justo cuando
+     las tarjetas acababan de entrar, y se veia como otro salto. */
+  const ESPERA = 5500;
   let visible = false;
-  new IntersectionObserver(([e]) => { visible = e.isIntersecting; }).observe(pista);
-  window.setInterval(() => { if (visible && !pausado && !document.hidden) ir(1); }, 5500);
+  let ultimo = 0;
+  new IntersectionObserver(([e]) => {
+    if (e.isIntersecting && !visible) ultimo = performance.now();
+    visible = e.isIntersecting;
+  }).observe(pista);
+  window.setInterval(() => {
+    if (!visible || pausado || document.hidden) { ultimo = performance.now(); return; }
+    if (performance.now() - ultimo < ESPERA) return;
+    ir(1);
+    ultimo = performance.now();
+  }, 250);
 }
 
 /**

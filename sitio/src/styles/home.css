@@ -48,7 +48,10 @@
   margin-top: 96px; padding-top: 48px; border-top: 1px solid var(--linea-fuerte);
 }
 .cifra { display: flex; flex-direction: column-reverse; gap: 12px; }
+/* En flex para que el espacio entre cifra y unidad de la plantilla no cuente:
+   en la mono a 72 px son 43 px, y con ellos "3.820 m²" saltaba de linea. */
 .cifra-valor {
+  display: flex; align-items: baseline; white-space: nowrap;
   font-family: var(--mono); font-size: clamp(40px, 5vw, 72px); font-weight: 500;
   letter-spacing: -0.04em; line-height: 1; color: var(--blanco);
   font-variant-numeric: tabular-nums;
