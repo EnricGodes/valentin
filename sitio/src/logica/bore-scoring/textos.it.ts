@@ -123,7 +123,7 @@ export const MOTIVOS: Record<string, string> = {
   ano_fuera_de_rango: 'L’anno non è valido.',
   ano_solapado: 'In quell’anno convissero due generazioni con motori diversi.',
   ano_de_matriculacion_en_frontera: 'È un anno di immatricolazione a ridosso di un cambio di generazione, e da lì non si può decidere.',
-  modelo_y_ano_incompatibles: 'Quel modello non si costruiva in quell’anno. Non lo correggiamo per conto nostro.',
+  modelo_y_ano_incompatibles: 'Quel modello non si costruiva in quell’anno.',
   falta_combustible: 'In una Cayenne, una Panamera o una Macan il carburante determina tutto il resto.',
   falta_version: 'La versione separa architetture diverse sotto lo stesso nome.',
   falta_cilindrada: 'La cilindrata è ciò che separa due gruppi con storie molto diverse.',
@@ -214,7 +214,7 @@ export const PREGUNTAS: Record<string, { etiqueta: string; porque: string }> = {
   variante: { etiqueta: 'Versione', porque: 'Sotto lo stesso nome convivono architetture motore diverse.' },
   combustible: { etiqueta: 'Motore', porque: 'In una Cayenne, una Panamera o una Macan, nome e anno non dicono che motore monta.' },
   cilindrada: { etiqueta: 'Cilindrata', porque: 'È ciò che separa due gruppi con storie molto diverse.' },
-  ano_imposible: { etiqueta: 'Controlli l’anno o il modello', porque: 'Quel modello non si costruiva in quell’anno, e preferiamo non correggerlo per conto nostro.' },
+  ano_imposible: { etiqueta: 'Controlli l’anno o il modello', porque: 'Quel modello non si costruiva in quell’anno.' },
 };
 
 export const AVISO = 'Risultato indicativo basato sulla configurazione di fabbrica e sui dati che ha dichiarato. L’assenza di sintomi non esclude un danno incipiente e i sintomi descritti possono avere altre cause. Solo un’ispezione endoscopica eseguita e interpretata correttamente può confermare visivamente il bore scoring. Questo strumento non sostituisce un’ispezione meccanica.';

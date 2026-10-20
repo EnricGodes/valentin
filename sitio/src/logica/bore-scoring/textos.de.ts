@@ -123,7 +123,7 @@ export const MOTIVOS: Record<string, string> = {
   ano_fuera_de_rango: 'Das Jahr ist ungültig.',
   ano_solapado: 'In diesem Jahr existierten zwei Generationen mit verschiedenen Motoren nebeneinander.',
   ano_de_matriculacion_en_frontera: 'Es ist ein Zulassungsjahr an einem Generationswechsel, und daraus lässt sich nichts entscheiden.',
-  modelo_y_ano_incompatibles: 'Dieses Modell wurde in dem Jahr nicht gebaut. Wir korrigieren das nicht eigenmächtig.',
+  modelo_y_ano_incompatibles: 'Dieses Modell wurde in dem Jahr nicht gebaut.',
   falta_combustible: 'Bei Cayenne, Panamera oder Macan bestimmt der Kraftstoff alles Weitere.',
   falta_version: 'Die Version trennt verschiedene Architekturen unter demselben Namen.',
   falta_cilindrada: 'Der Hubraum trennt zwei Gruppen mit sehr unterschiedlicher Geschichte.',
@@ -214,7 +214,7 @@ export const PREGUNTAS: Record<string, { etiqueta: string; porque: string }> = {
   variante: { etiqueta: 'Version', porque: 'Unter demselben Namen existieren verschiedene Motorarchitekturen.' },
   combustible: { etiqueta: 'Motor', porque: 'Bei Cayenne, Panamera oder Macan sagen Name und Jahr nicht, welcher Motor verbaut ist.' },
   cilindrada: { etiqueta: 'Hubraum', porque: 'Er trennt zwei Gruppen mit sehr unterschiedlicher Geschichte.' },
-  ano_imposible: { etiqueta: 'Jahr oder Modell prüfen', porque: 'Dieses Modell wurde in dem Jahr nicht gebaut, und wir korrigieren das lieber nicht eigenmächtig.' },
+  ano_imposible: { etiqueta: 'Jahr oder Modell prüfen', porque: 'Dieses Modell wurde in dem Jahr nicht gebaut.' },
 };
 
 export const AVISO = 'Orientierendes Ergebnis auf Basis der Werkskonfiguration und Ihrer Angaben. Das Fehlen von Symptomen schließt einen beginnenden Schaden nicht aus, und die beschriebenen Symptome können andere Ursachen haben. Nur eine korrekt durchgeführte und ausgewertete Endoskopie kann bore scoring visuell bestätigen. Dieses Werkzeug ersetzt keine mechanische Inspektion.';

@@ -123,7 +123,7 @@ export const MOTIVOS: Record<string, string> = {
   ano_fuera_de_rango: 'The year is not valid.',
   ano_solapado: 'In that year two generations with different engines coexisted.',
   ano_de_matriculacion_en_frontera: 'It is a registration year next to a generation change, and that cannot be decided from it.',
-  modelo_y_ano_incompatibles: 'That model was not built that year. We do not correct it on our own.',
+  modelo_y_ano_incompatibles: 'That model was not built that year.',
   falta_combustible: 'On a Cayenne, a Panamera or a Macan the fuel determines everything else.',
   falta_version: 'The version separates different architectures under the same name.',
   falta_cilindrada: 'Displacement is what separates two groups with very different histories.',
@@ -214,7 +214,7 @@ export const PREGUNTAS: Record<string, { etiqueta: string; porque: string }> = {
   variante: { etiqueta: 'Version', porque: 'Under the same name different engine architectures coexist.' },
   combustible: { etiqueta: 'Engine', porque: 'On a Cayenne, a Panamera or a Macan, the name and the year do not say which engine it carries.' },
   cilindrada: { etiqueta: 'Displacement', porque: 'It is what separates two groups with very different histories.' },
-  ano_imposible: { etiqueta: 'Check the year or the model', porque: 'That model was not built that year, and we prefer not to correct it on our own.' },
+  ano_imposible: { etiqueta: 'Check the year or the model', porque: 'That model was not built that year.' },
 };
 
 export const AVISO = 'Indicative result based on the factory configuration and on the data you have declared. The absence of symptoms does not rule out incipient damage and the symptoms described may have other causes. Only a borescope inspection performed and interpreted correctly can visually confirm bore scoring. This tool does not replace a mechanical inspection.';

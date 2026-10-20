@@ -123,7 +123,7 @@ export const MOTIVOS: Record<string, string> = {
   ano_fuera_de_rango: 'L’any no és vàlid.',
   ano_solapado: 'Aquell any van conviure dues generacions amb motors diferents.',
   ano_de_matriculacion_en_frontera: 'És un any de matriculació al costat d’un canvi de generació, i per aquí no es pot decidir.',
-  modelo_y_ano_incompatibles: 'Aquell model no es fabricava aquell any. No ho corregim pel nostre compte.',
+  modelo_y_ano_incompatibles: 'Aquell model no es fabricava aquell any.',
   falta_combustible: 'En un Cayenne, un Panamera o un Macan el combustible ordena tota la resta.',
   falta_version: 'La versió separa arquitectures diferents sota el mateix nom.',
   falta_cilindrada: 'La cilindrada és el que separa dos grups amb històries molt diferents.',
@@ -214,7 +214,7 @@ export const PREGUNTAS: Record<string, { etiqueta: string; porque: string }> = {
   variante: { etiqueta: 'Versió', porque: 'Sota el mateix nom conviuen arquitectures de motor diferents.' },
   combustible: { etiqueta: 'Motor', porque: 'En un Cayenne, un Panamera o un Macan, el nom i l’any no diuen quin motor porta.' },
   cilindrada: { etiqueta: 'Cilindrada', porque: 'És el que separa dos grups amb històries molt diferents.' },
-  ano_imposible: { etiqueta: 'Revisa l’any o el model', porque: 'Aquell model no es fabricava aquell any, i preferim no corregir-ho pel nostre compte.' },
+  ano_imposible: { etiqueta: 'Revisa l’any o el model', porque: 'Aquell model no es fabricava aquell any.' },
 };
 
 export const AVISO = 'Resultat orientatiu basat en la configuració de fàbrica i en les dades que has declarat. L’absència de símptomes no descarta dany incipient i els símptomes descrits poden tenir altres causes. Només una inspecció boroscòpica feta i interpretada correctament pot confirmar visualment el bore scoring. Aquesta eina no substitueix una inspecció mecànica.';

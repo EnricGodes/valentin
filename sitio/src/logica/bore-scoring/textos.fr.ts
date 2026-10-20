@@ -123,7 +123,7 @@ export const MOTIVOS: Record<string, string> = {
   ano_fuera_de_rango: 'L’année n’est pas valide.',
   ano_solapado: 'Cette année-là ont coexisté deux générations aux moteurs différents.',
   ano_de_matriculacion_en_frontera: 'C’est une année d’immatriculation voisine d’un changement de génération, et cela ne permet pas de trancher.',
-  modelo_y_ano_incompatibles: 'Ce modèle n’était pas fabriqué cette année-là. Nous ne le corrigeons pas de nous-mêmes.',
+  modelo_y_ano_incompatibles: 'Ce modèle n’était pas fabriqué cette année-là.',
   falta_combustible: 'Sur un Cayenne, une Panamera ou un Macan, le carburant commande tout le reste.',
   falta_version: 'La version sépare des architectures différentes sous le même nom.',
   falta_cilindrada: 'La cylindrée est ce qui sépare deux groupes aux histoires très différentes.',
@@ -214,7 +214,7 @@ export const PREGUNTAS: Record<string, { etiqueta: string; porque: string }> = {
   variante: { etiqueta: 'Version', porque: 'Sous le même nom coexistent des architectures moteur différentes.' },
   combustible: { etiqueta: 'Moteur', porque: 'Sur un Cayenne, une Panamera ou un Macan, le nom et l’année ne disent pas quel moteur est monté.' },
   cilindrada: { etiqueta: 'Cylindrée', porque: 'C’est ce qui sépare deux groupes aux histoires très différentes.' },
-  ano_imposible: { etiqueta: 'Vérifiez l’année ou le modèle', porque: 'Ce modèle n’était pas fabriqué cette année-là, et nous préférons ne pas le corriger de nous-mêmes.' },
+  ano_imposible: { etiqueta: 'Vérifiez l’année ou le modèle', porque: 'Ce modèle n’était pas fabriqué cette année-là.' },
 };
 
 export const AVISO = 'Résultat indicatif fondé sur la configuration d’usine et sur les données que vous avez déclarées. L’absence de symptômes n’exclut pas un dommage naissant et les symptômes décrits peuvent avoir d’autres causes. Seule une endoscopie réalisée et interprétée correctement peut confirmer visuellement le bore scoring. Cet outil ne remplace pas une inspection mécanique.';

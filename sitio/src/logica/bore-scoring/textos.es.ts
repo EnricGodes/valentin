@@ -173,7 +173,7 @@ export const MOTIVOS: Record<string, string> = {
   ano_fuera_de_rango: 'El año no es válido.',
   ano_solapado: 'En ese año convivieron dos generaciones con motores distintos.',
   ano_de_matriculacion_en_frontera: 'Es un año de matriculación junto a un cambio de generación, y por ahí no se puede decidir.',
-  modelo_y_ano_incompatibles: 'Ese modelo no se fabricaba ese año. No lo corregimos por nuestra cuenta.',
+  modelo_y_ano_incompatibles: 'Ese modelo no se fabricaba ese año.',
   falta_combustible: 'En un Cayenne, un Panamera o un Macan el combustible ordena todo lo demás.',
   falta_version: 'La versión separa arquitecturas distintas bajo el mismo nombre.',
   falta_cilindrada: 'La cilindrada es lo que separa dos grupos con historias muy diferentes.',
@@ -282,7 +282,7 @@ export const PREGUNTAS: Record<string, { etiqueta: string; porque: string }> = {
   },
   ano_imposible: {
     etiqueta: 'Revisa el año o el modelo',
-    porque: 'Ese modelo no se fabricaba ese año, y preferimos no corregirlo por nuestra cuenta.',
+    porque: 'Ese modelo no se fabricaba ese año.',
   },
 };
 
