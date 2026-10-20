@@ -84,12 +84,12 @@ export const UI = {
     es: 'Escríbenos', en: 'Write to us', fr: 'Écrivez-nous',
     it: 'Scrivici', de: 'Schreiben Sie uns', ca: 'Escriu-nos' },
   'form.intro': {
-    es: 'Cuéntanos qué necesitas. Te contestamos el mismo día laborable, en tu idioma.',
-    en: 'Tell us what you need. We reply the same working day, in your language.',
-    fr: 'Dites-nous ce dont vous avez besoin. Nous répondons le jour ouvré même, dans votre langue.',
-    it: 'Ci dica di cosa ha bisogno. Rispondiamo entro la stessa giornata lavorativa, nella sua lingua.',
-    de: 'Sagen Sie uns, was Sie brauchen. Wir antworten am selben Werktag, in Ihrer Sprache.',
-    ca: 'Explica’ns què necessites. Et contestem el mateix dia laborable, en el teu idioma.' },
+    es: 'Cuéntanos qué necesitas',
+    en: 'Tell us what you need',
+    fr: 'Dites-nous ce dont vous avez besoin',
+    it: 'Ci dica di cosa ha bisogno',
+    de: 'Sagen Sie uns, was Sie brauchen',
+    ca: 'Explica’ns què necessites' },
   'form.nombre': {
     es: 'Nombre', en: 'Name', fr: 'Nom', it: 'Nome', de: 'Name', ca: 'Nom' },
   'form.email': {
