@@ -105,7 +105,6 @@ const es = {
       },
     ],
     cierre: 'Hoy, <strong>Barcelona y Madrid trabajan con una misma filosofía y una misma exigencia</strong>.',
-    fotoMadridAlt: 'Fachada de Valentin Motors Madrid, en Leganés',
   },
   especialidades: {
     etiqueta: 'Especialistas Porsche, de principio a fin',
@@ -273,7 +272,6 @@ const en: TextosNosotros = {
       },
     ],
     cierre: 'Today, <strong>Barcelona and Madrid work with the same philosophy and the same standards</strong>.',
-    fotoMadridAlt: 'The façade of Valentin Motors Madrid, in Leganés',
   },
   especialidades: {
     etiqueta: 'Porsche specialists, from start to finish',
@@ -439,7 +437,6 @@ const fr: TextosNosotros = {
       },
     ],
     cierre: 'Aujourd’hui, <strong>Barcelone et Madrid travaillent avec la même philosophie et la même exigence</strong>.',
-    fotoMadridAlt: 'La façade de Valentin Motors Madrid, à Leganés',
   },
   especialidades: {
     etiqueta: 'Spécialistes Porsche, de bout en bout',
@@ -605,7 +602,6 @@ const it: TextosNosotros = {
       },
     ],
     cierre: 'Oggi <strong>Barcellona e Madrid lavorano con la stessa filosofia e la stessa esigenza</strong>.',
-    fotoMadridAlt: 'La facciata di Valentin Motors Madrid, a Leganés',
   },
   especialidades: {
     etiqueta: 'Specialisti Porsche, dall’inizio alla fine',
@@ -771,7 +767,6 @@ const de: TextosNosotros = {
       },
     ],
     cierre: 'Heute <strong>arbeiten Barcelona und Madrid mit derselben Philosophie und demselben Anspruch</strong>.',
-    fotoMadridAlt: 'Die Fassade von Valentin Motors Madrid in Leganés',
   },
   especialidades: {
     etiqueta: 'Porsche-Spezialisten, von Anfang bis Ende',
@@ -937,7 +932,6 @@ const ca: TextosNosotros = {
       },
     ],
     cierre: 'Avui, <strong>Barcelona i Madrid treballen amb una mateixa filosofia i una mateixa exigència</strong>.',
-    fotoMadridAlt: 'Façana de Valentin Motors Madrid, a Leganés',
   },
   especialidades: {
     etiqueta: 'Especialistes Porsche, de principi a fi',
