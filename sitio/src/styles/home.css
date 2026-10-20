@@ -236,7 +236,7 @@
 /* Sin JS: fila de tarjetas deslizable. Con JS (.listo) las seis se colocan en
    un anillo y home.ts las mueve; la del frente es la grande y nitida. */
 .reels {
-  display: flex; gap: 16px; margin-top: 64px;
+  display: flex; gap: 16px; margin-top: 40px;
   overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
 }
 .reels::-webkit-scrollbar { display: none; }
@@ -248,13 +248,15 @@
 }
 .reels.listo {
   display: block; overflow: visible; position: relative;
-  height: calc(var(--reel-ancho) * 16 / 9 + 40px);
+  height: calc(var(--reel-ancho) * 16 / 9 + 24px);
   perspective: 1800px; perspective-origin: 50% 45%;
   transform-style: preserve-3d;
-  --reel-ancho: min(320px, 64vw);
+  /* Alto de la tarjeta = alto de pantalla menos cabecera fija y botones: asi
+     la tarjeta del frente y las flechas se ven a la vez. */
+  --reel-ancho: min(270px, 60vw, calc((100svh - 230px) * 9 / 16));
 }
 .reels.listo .reel {
-  position: absolute; left: 50%; top: 20px; width: var(--reel-ancho);
+  position: absolute; left: 50%; top: 12px; width: var(--reel-ancho);
   margin-left: calc(var(--reel-ancho) / -2);
   will-change: transform, filter;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
@@ -271,10 +273,10 @@
   background: linear-gradient(to top, rgba(11, 11, 11, 0.92) 0%, rgba(11, 11, 11, 0.2) 45%, transparent 70%);
 }
 .reel-cuerpo {
-  position: absolute; left: 0; right: 0; bottom: 0; padding: 28px;
+  position: absolute; left: 0; right: 0; bottom: 0; padding: 22px;
   display: flex; flex-direction: column; gap: 8px;
 }
-.reel-titulo { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: var(--blanco); }
+.reel-titulo { font-size: 19px; font-weight: 700; letter-spacing: -0.02em; color: var(--blanco); }
 .reel-texto { font-size: 14px; line-height: 1.55; color: var(--concreto); }
 .reel-enlace {
   margin-top: 10px; font-family: var(--mono); font-size: var(--t-label);
@@ -288,7 +290,7 @@
 }
 .reel-progreso i { display: block; height: 100%; width: 100%; background: var(--blanco); transform-origin: left; transform: scaleX(0); }
 .reel.frente .reel-progreso { opacity: 1; }
-.reels-mandos { display: none; justify-content: center; gap: 8px; margin-top: 28px; }
+.reels-mandos { display: none; justify-content: center; gap: 8px; margin-top: 12px; }
 .reels.listo + .reels-mandos { display: flex; }
 
 /* ── 8. Generaciones, sobre claro ────────────────────────────────────────── */
@@ -338,6 +340,9 @@
 .modelo:hover .modelo-enlace { color: var(--negro); }
 
 /* ── 8. Magazine: la bolsa trae varios, se ven tres ─────────────────────── */
+/* Entre el carrusel y el Magazine sobraba casi media pantalla de negro */
+.redes { padding-bottom: 56px; }
+.redes + #magazine { padding-top: 72px; }
 .mag-lista--azar .mag-item:nth-child(n + 4) { display: none; }
 
 /* ── 9. Herramientas ─────────────────────────────────────────────────────── */
@@ -354,10 +359,6 @@
 }
 .herr-tarjeta:hover .herr-tarjeta-foto img { transform: scale(1.06); }
 .herr-tarjeta-cuerpo { padding: 32px 30px; display: flex; flex-direction: column; gap: 12px; }
-.herr-tarjeta-eyebrow {
-  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
-  text-transform: uppercase; color: var(--bronce);
-}
 .herr-tarjeta-nombre { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: var(--blanco); line-height: 1.2; }
 .herr-tarjeta-texto { font-size: 14.5px; line-height: 1.65; color: var(--concreto); }
 .herr-tarjeta-para { font-family: var(--mono); font-size: 11px; line-height: 1.6; color: var(--concreto); opacity: 0.8; }

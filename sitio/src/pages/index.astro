@@ -143,12 +143,12 @@ const ICONOS = home.secciones
   .sort((a, b) => a.orden - b.orden);
 
 const HERRAMIENTAS = [
-  { id: 'calculadora-ims', nombre: t('herr.ims.nombre'), eyebrow: t('herr.ims.eyebrow'),
+  { id: 'calculadora-ims', nombre: t('herr.ims.nombre'),
     para: t('herr.ims.para'), cta: 'Calcular',
     texto: 'Con el modelo y el año te dice qué rodamiento IMS puede llevar tu Porsche, qué incidencia tiene y qué hace falta para confirmarlo.',
     foto: '/img/paginas/42e247b6-taller_ims_porsche_reparacion.jpg',
     alt: 'Reparación del rodamiento IMS de un Porsche en el taller' },
-  { id: 'evaluador-bore-scoring', nombre: t('herr.bs.nombre'), eyebrow: t('herr.bs.eyebrow'),
+  { id: 'evaluador-bore-scoring', nombre: t('herr.bs.nombre'),
     para: t('herr.bs.para'), cta: 'Evaluar',
     texto: 'Valora si tu motor es propenso al rayado de cilindros y si sus síntomas justifican una boroscopia.',
     foto: '/img/paginas/2644ddba-bore_scoring.jpg',
@@ -178,7 +178,7 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
 
   <Hero
     clase="hero--home"
-    titulo="Especialistas Porsche<br>desde 1979"
+    titulo="Especialistas Porsche<br>desde 1979."
     claim="Damos nueva vida al legado Porsche combinando artesanía, excelencia y pasión."
     imagen="/video/home/hero.jpg"
     video="/video/home/hero.mp4"
@@ -268,7 +268,7 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
   <section class="seccion kit" id="venta">
     <div class="contenedor">
       <div class="kit-header">
-        <CabeceraSeccion etiqueta="En venta" titulo="Porsche en venta" />
+        <CabeceraSeccion etiqueta="En venta" destacado="Porsche en venta." />
         <a class="enlace-mono" href={url('coches', idioma)}>Ver todos &rarr;</a>
       </div>
       <div class={`cars-grid cars-grid--home cars-grid--n${enVenta.length}`}>
@@ -448,7 +448,6 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
           <a class="herr-tarjeta" href={url(h.id, idioma)}>
             <span class="herr-tarjeta-foto"><img src={h.foto} alt={h.alt} loading="lazy" decoding="async"></span>
             <span class="herr-tarjeta-cuerpo">
-              <span class="herr-tarjeta-eyebrow">{h.eyebrow}</span>
               <span class="herr-tarjeta-nombre">{h.nombre}</span>
               <span class="herr-tarjeta-texto">{h.texto}</span>
               <span class="herr-tarjeta-para">{h.para}</span>

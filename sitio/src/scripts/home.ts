@@ -65,7 +65,7 @@ function titulares(): void {
     const tl = gsap.timeline({ paused: true });
     if (sube) tl.from(partes.lines, { yPercent: 110, duration: 1.3, ease: 'expo.out', stagger: 0.14 }, 0);
     tl.add(onda(partes.chars), sube ? 0.2 : 0);
-    ScrollTrigger.create({ trigger: h, start: 'top 85%', once: true, onEnter: () => tl.play() });
+    ScrollTrigger.create({ trigger: h, start: 'top 72%', once: true, onEnter: () => tl.play() });
   }
 }
 
@@ -244,7 +244,7 @@ function opiniones(): void {
   if (!tarjetas.length) return;
   gsap.from(tarjetas, {
     x: 120, opacity: 0, duration: 1.2, ease: 'expo.out', stagger: 0.08,
-    scrollTrigger: { trigger: '.opiniones-pista', start: 'top 85%' },
+    scrollTrigger: { trigger: '.opiniones-pista', start: 'top 80%' },
   });
   gsap.from($$('.resena .estrellas-g svg'), {
     scale: 0, rotate: -90, duration: 0.6, ease: 'back.out(3)', stagger: 0.03,
@@ -390,7 +390,7 @@ function anillo(): void {
       if (d <= -n / 2) d += n;
       const lejos = Math.abs(d);
       const lado = Math.sign(d);
-      gsap.to(t, {
+      (animar && !quieto ? gsap.to : gsap.set)(t, {
         x: lado * DX[lejos] * ancho * escala,
         z: DZ[lejos],
         rotationY: -lado * GIRO[lejos],
@@ -398,8 +398,7 @@ function anillo(): void {
         filter: `blur(${lejos * 2.5}px) brightness(${1 - lejos * 0.24})`,
         opacity: lejos >= 3 ? 0 : 1,
         zIndex: 10 - lejos,
-        duration: animar && !quieto ? 1.1 : 0,
-        ease: 'power3.inOut',
+        duration: 1.1, ease: 'power3.inOut', overwrite: 'auto',
       });
       t.classList.toggle('frente', d === 0);
       t.tabIndex = d === 0 ? 0 : -1;
@@ -462,9 +461,11 @@ function anillo(): void {
 
   cargar(0); cargar(1); cargar(n - 1);
   colocar(false);
+  /* La entrada va sobre el contenedor, no sobre las tarjetas: animar sus
+     opacidades peleaba con las del anillo y se veia una tarjeta colocarse. */
   if (!quieto) {
-    gsap.from(tarjetas, {
-      opacity: 0, y: 120, duration: 1.3, ease: 'expo.out', stagger: 0.08,
+    gsap.from(raiz, {
+      opacity: 0, y: 80, duration: 1.3, ease: 'expo.out',
       scrollTrigger: { trigger: raiz, start: 'top 85%' },
     });
   }
@@ -516,6 +517,13 @@ function iniciar(): void {
   cortinas();
   modelos();
   cita();
+
+  /* Los triggers se calculan en el orden en que se crean, y los titulares se
+     crean antes que el pin de Servicios: sin esto, todo lo que va por debajo
+     del pin se disparaba casi una pantalla antes de tiempo (el titular de
+     Opiniones ya estaba montado al llegar). Se reordenan por posicion. */
+  ScrollTrigger.sort();
+  ScrollTrigger.refresh();
 
   // Las fotos lazy cambian alturas al cargar: recalcula los pins al final
   window.addEventListener('load', () => ScrollTrigger.refresh(), { once: true });
