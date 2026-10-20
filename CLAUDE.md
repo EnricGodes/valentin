@@ -183,10 +183,7 @@ El sitio publicado ya no son los microsites de la raíz sino la app Astro de `si
 - Los textos están en `src/datos/home.ts`, traducidos a mano. Los `home.<idioma>.json` de Squarespace ya solo aportan las fotos de las generaciones: sus textos eran de traductor automático.
 - Las reseñas de Google se quedan como están; se traducen la fecha («hace 2 meses») y el «4 reseñas · 1 foto» de debajo del nombre.
 
-## Pendientes (apuntados el 2026-10-20)
-
-Encargos de Enric para la próxima sesión, en este orden:
-
-1. **Traducir PA10/01 a los seis idiomas.** Ruta `build-pa10-01` (slug `builds/pa10-01`, igual en todos los idiomas), datos en `src/datos/paginas/build-pa10-01.json` y componente `src/components/Pa10.astro`.
-
-Traducir a mano, con el glosario de `src/i18n/glosario.md`, como la ficha del 911 Carrera 3.2. No usar traductor automático. `npm run build` tiene que pasar entero.
+### PA10/01 en seis idiomas
+- Los textos de la página están en `src/datos/pa10.ts` y el componente `Pa10.astro` recibe el idioma. Título, descripción y secciones van en `build-pa10-01[.idioma].json`, como el resto de páginas.
+- Género: el PA10/01 en castellano, catalán y alemán; la PA10/01 en francés e italiano (sigue al 911 de cada idioma).
+- Las cifras mecánicas siguen siendo de ejemplo, con el aviso traducido en los seis idiomas.

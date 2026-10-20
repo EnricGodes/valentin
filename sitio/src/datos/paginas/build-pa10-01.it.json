@@ -1,0 +1,58 @@
+{
+  "rutaId": "build-pa10-01",
+  "traduccion": {
+    "hechas": 10,
+    "total": 10,
+    "completa": true
+  },
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "PA10/01: la nostra 911 reinterpretata · Valentín Motors",
+    "descripcion": "La prima Porsche 911 reinterpretata in modo integrale da Valentín Motors. Presentata a Madrid nel novembre 2025.",
+    "ogImagen": ""
+  },
+  "h1": "PA10/01",
+  "menu": "PA10/01",
+  "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid",
+    "backdating-base-964"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Come immaginiamo la 911 perfetta",
+      "parrafos": [
+        "La PA10/01 è la prima Porsche 911 che abbiamo reinterpretato in modo integrale: carrozzeria, meccanica, interni e ogni dettaglio decisi e realizzati in casa. Non è una commessa: è ciò che nasce quando il cliente siamo noi.",
+        "È stata presentata in un evento privato nella nostra sede di Madrid, nel novembre 2025, davanti a clienti e stampa specializzata."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "L’auto",
+      "parrafos": [
+        "Esterni color crema, con paraurti in vetroresina e frecce ambra, cerchi Fuchs e spoiler a coda d’anatra. Dentro, tartan e pelle bordeaux, con la maniglia della portiera incisa. La ventola di raffreddamento, in avorio.",
+        "Ognuna di queste scelte è stata presa nell’<a href=\"/restauraciones/proyectos-y-diseno\">ufficio progetti</a> e realizzata tra la cabina di verniciatura, la sala motori e la tappezzeria."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cosa significa per una commessa",
+      "parrafos": [
+        "La PA10/01 non è in vendita, ma serve da riferimento. È la risposta lunga alla domanda su dove possa arrivare un <a href=\"/restauraciones/restomod\">restomod</a> realizzato da noi, e il punto di partenza di qualsiasi conversazione su un progetto di questo tipo."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

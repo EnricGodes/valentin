@@ -268,7 +268,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
                         cocheNombre={coche.catalogo?.nombre ?? coche.slug} />}
   {vendido && <FichaVendido coche={vendido} idioma={idioma} />}
 
-  {esPa10 && <Pa10 />}
+  {esPa10 && <Pa10 idioma={idioma} />}
 
   {pagina && !esPa10 && (
     <article class="pagina">

@@ -1,0 +1,58 @@
+{
+  "rutaId": "build-pa10-01",
+  "traduccion": {
+    "hechas": 10,
+    "total": 10,
+    "completa": true
+  },
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "PA10/01 : notre 911 réimaginée · Valentín Motors",
+    "descripcion": "La première Porsche 911 entièrement réimaginée par Valentín Motors. Présentée à Madrid en novembre 2025.",
+    "ogImagen": ""
+  },
+  "h1": "PA10/01",
+  "menu": "PA10/01",
+  "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid",
+    "backdating-base-964"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Notre idée de la 911 parfaite",
+      "parrafos": [
+        "La PA10/01 est la première Porsche 911 que nous avons réimaginée intégralement : carrosserie, mécanique, intérieur et chaque détail décidés et réalisés en interne. Ce n’est pas une commande : c’est ce qui arrive quand le client, c’est nous.",
+        "Elle a été présentée lors d’un événement privé dans nos locaux de Madrid, en novembre 2025, devant des clients et la presse spécialisée."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "La voiture",
+      "parrafos": [
+        "Extérieur crème, pare-chocs en fibre et clignotants ambre, jantes Fuchs et aileron queue de canard. À l’intérieur, tartan et cuir bordeaux, avec une poignée de porte gravée. La turbine de refroidissement, en ivoire.",
+        "Chacune de ces décisions a été prise au <a href=\"/restauraciones/proyectos-y-diseno\">bureau d’études</a> et réalisée entre la cabine de peinture, la salle des moteurs et l’atelier de sellerie."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ce que cela signifie pour une commande",
+      "parrafos": [
+        "La PA10/01 n’est pas à vendre, mais elle sert de référence. C’est la réponse longue à la question de savoir jusqu’où peut aller un <a href=\"/restauraciones/restomod\">restomod</a> réalisé chez nous, et le point de départ de toute conversation sur un projet de ce type."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

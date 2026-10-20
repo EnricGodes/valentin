@@ -1,0 +1,58 @@
+{
+  "rutaId": "build-pa10-01",
+  "traduccion": {
+    "hechas": 10,
+    "total": 10,
+    "completa": true
+  },
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "PA10/01: el nostre 911 reimaginat · Valentín Motors",
+    "descripcion": "El primer Porsche 911 reimaginat de manera integral per Valentín Motors. Presentat a Madrid el novembre de 2025.",
+    "ogImagen": ""
+  },
+  "h1": "PA10/01",
+  "menu": "PA10/01",
+  "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid",
+    "backdating-base-964"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Així imaginem el 911 perfecte",
+      "parrafos": [
+        "El PA10/01 és el primer Porsche 911 que hem reimaginat de manera integral: carrosseria, mecànica, interior i cada detall decidits i executats a casa. No és un encàrrec: és el que surt quan el client som nosaltres.",
+        "Es va presentar en un acte privat a les instal·lacions de Madrid, el novembre de 2025, davant de clients i premsa especialitzada."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "El cotxe",
+      "parrafos": [
+        "Exterior en crema, amb para-xocs de fibra i intermitents ambre, llantes Fuchs i aleró de cua d’ànec. A dins, tartà i cuir granat, amb la maneta de la porta gravada. La turbina de refrigeració, en ivori.",
+        "Cadascuna d’aquestes decisions es va prendre al <a href=\"/restauraciones/proyectos-y-diseno\">departament de projectes</a> i es va executar entre la cabina de pintura, la sala de motors i el taller de tapisseria."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què significa per a un encàrrec",
+      "parrafos": [
+        "El PA10/01 no està en venda, però serveix de referència. És la resposta llarga a la pregunta de fins on pot arribar un <a href=\"/restauraciones/restomod\">restomod</a> fet aquí, i el punt de partida de qualsevol conversa sobre un projecte d’aquest tipus."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

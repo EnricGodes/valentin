@@ -1,0 +1,58 @@
+{
+  "rutaId": "build-pa10-01",
+  "traduccion": {
+    "hechas": 10,
+    "total": 10,
+    "completa": true
+  },
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "PA10/01: our 911, reimagined · Valentín Motors",
+    "descripcion": "The first Porsche 911 reimagined from end to end by Valentín Motors. Unveiled in Madrid in November 2025.",
+    "ogImagen": ""
+  },
+  "h1": "PA10/01",
+  "menu": "PA10/01",
+  "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid",
+    "backdating-base-964"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "How we imagine the perfect 911",
+      "parrafos": [
+        "The PA10/01 is the first Porsche 911 we have reimagined from end to end: body, mechanics, interior and every detail decided and carried out in-house. It is not a commission: it is what happens when we are the client.",
+        "It was unveiled at a private event at our Madrid premises in November 2025, before clients and the specialist press."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "The car",
+      "parrafos": [
+        "Cream exterior, with fibreglass bumpers and amber indicators, Fuchs wheels and a ducktail spoiler. Inside, tartan and burgundy leather, with an engraved door pull. The cooling fan, in ivory.",
+        "Each of those decisions was made in the <a href=\"/restauraciones/proyectos-y-diseno\">design department</a> and carried out between the paint booth, the engine room and the upholstery shop."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What it means for a commission",
+      "parrafos": [
+        "The PA10/01 is not for sale, but it serves as a reference. It is the long answer to the question of how far a <a href=\"/restauraciones/restomod\">restomod</a> built here can go, and the starting point for any conversation about a project of this kind."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

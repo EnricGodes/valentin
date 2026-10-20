@@ -1,0 +1,58 @@
+{
+  "rutaId": "build-pa10-01",
+  "traduccion": {
+    "hechas": 10,
+    "total": 10,
+    "completa": true
+  },
+  "tipo": "servicio",
+  "ficheroOriginal": "_redactado",
+  "meta": {
+    "titulo": "PA10/01: unser neu gedachter 911 · Valentín Motors",
+    "descripcion": "Der erste Porsche 911, den Valentín Motors von Grund auf neu gedacht hat. Vorgestellt in Madrid im November 2025.",
+    "ogImagen": ""
+  },
+  "h1": "PA10/01",
+  "menu": "PA10/01",
+  "acordeones": [],
+  "articulos": [
+    "pa10-01",
+    "presentacion-pa10-01-madrid",
+    "backdating-base-964"
+  ],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "So stellen wir uns den perfekten 911 vor",
+      "parrafos": [
+        "Der PA10/01 ist der erste Porsche 911, den wir von Grund auf neu gedacht haben: Karosserie, Mechanik, Innenraum und jedes Detail im eigenen Haus entschieden und umgesetzt. Kein Kundenauftrag, sondern das, was entsteht, wenn wir selbst der Kunde sind.",
+        "Vorgestellt wurde er im November 2025 bei einer privaten Veranstaltung an unserem Standort Madrid, vor Kunden und Fachpresse."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Das Fahrzeug",
+      "parrafos": [
+        "Außen Creme, mit Stoßfängern aus GFK und bernsteinfarbenen Blinkern, Fuchs-Felgen und Entenbürzel. Innen Tartan und bordeauxrotes Leder, mit graviertem Türzieher. Das Kühlgebläse in Elfenbein.",
+        "Jede dieser Entscheidungen fiel in der <a href=\"/restauraciones/proyectos-y-diseno\">Projektabteilung</a> und wurde zwischen Lackierkabine, Motorenraum und Sattlerei umgesetzt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was das für einen Auftrag bedeutet",
+      "parrafos": [
+        "Der PA10/01 steht nicht zum Verkauf, dient aber als Referenz. Er ist die ausführliche Antwort auf die Frage, wie weit ein bei uns gebauter <a href=\"/restauraciones/restomod\">Restomod</a> gehen kann, und der Ausgangspunkt für jedes Gespräch über ein Projekt dieser Art."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}
