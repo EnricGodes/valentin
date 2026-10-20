@@ -2207,9 +2207,10 @@ section { position: relative; }
 .tarifas--familia .tarifas-columnas { grid-template-columns: minmax(220px, 1fr) 2fr; }
 .tarifas--familia .tarifas-col--panel { grid-column: auto; }
 .tarifas--familia .tarifas-lista { max-height: none; }
+/* En Inter, como los titulares del resto de la web (antes, serifa del Magazine) */
 .tarifas-panel-titulo {
-  font-family: var(--serif); font-size: clamp(24px, 3vw, 34px); font-weight: 400;
-  color: var(--blanco); letter-spacing: -0.02em;
+  font-size: clamp(24px, 3vw, 34px); font-weight: 700;
+  color: var(--blanco); letter-spacing: -0.03em;
 }
 .tarifas-tabla { margin-top: 20px; border-top: 1px solid var(--linea); }
 .tarifas-fila {
@@ -2389,8 +2390,8 @@ section { position: relative; }
   text-transform: uppercase; color: var(--concreto);
 }
 .tresumen-nombre {
-  font-family: var(--serif); font-size: 26px; font-weight: 400; line-height: 1.15;
-  letter-spacing: -0.01em; color: var(--blanco);
+  font-size: 26px; font-weight: 700; line-height: 1.15;
+  letter-spacing: -0.03em; color: var(--blanco);
 }
 .tresumen-precio {
   margin-top: 14px; font-family: var(--mono); font-size: 24px; color: var(--blanco);
