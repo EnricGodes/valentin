@@ -114,8 +114,8 @@
 .srv:hover { background: var(--carbon); }
 .srv-foto { aspect-ratio: 4 / 3.4; overflow: hidden; position: relative; }
 .srv-foto img {
-  position: absolute; inset: 0 -12%; width: 124%; height: 100%;
-  object-fit: cover; transition: filter 0.6s;
+  position: absolute; inset: 0 -8%; width: 116%; height: 100%;
+  object-fit: cover; object-position: center; transition: filter 0.6s;
   filter: saturate(0.85);
 }
 .srv:hover .srv-foto img { filter: saturate(1.05); }
@@ -131,8 +131,11 @@
 @media (min-width: 961px) {
   .servicios-h-pista { height: 100vh; min-height: 640px; padding-top: 112px; padding-bottom: 56px; box-sizing: border-box; }
   .srv-foto { aspect-ratio: auto; flex: 1 1 auto; min-height: 0; }
+  /* Mismo alto de texto en las cuatro (lo iguala home.ts al del mas largo):
+     con alto automatico la foto se quedaba con lo que dejaba el texto, y la
+     de Preparacion, con menos texto, salia mas alta que las otras. */
   .srv-cuerpo { flex: 0 0 auto; padding: 28px 32px 32px; }
-  .srv-texto { flex: none; }
+  .srv-texto { flex: 1; }
 }
 
 /* En pantallas estrechas no hay pin: las tarjetas se apilan */

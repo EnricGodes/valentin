@@ -176,6 +176,18 @@ function servicios(mm: gsap.MatchMedia): void {
   const tarjetas = $$('.srv', pista);
 
   mm.add(ESCRITORIO, () => {
+    /* Todas las tarjetas con el bloque de texto del alto del mas largo, para
+       que las cuatro fotos midan lo mismo. Se recalcula en cada refresh
+       (cambio de tamano), que es cuando puede cambiar el corte de lineas. */
+    const cuerpos = tarjetas.map((t) => $('.srv-cuerpo', t)!);
+    const igualar = () => {
+      cuerpos.forEach((c) => { c.style.flexBasis = ''; });
+      const alto = Math.max(...cuerpos.map((c) => c.offsetHeight));
+      cuerpos.forEach((c) => { c.style.flexBasis = `${alto}px`; });
+    };
+    igualar();
+    ScrollTrigger.addEventListener('refreshInit', igualar);
+
     const distancia = () => Math.max(0, pista.scrollWidth - window.innerWidth);
     const recorrido = gsap.to(pista, {
       x: () => -distancia(), ease: 'none',
@@ -187,8 +199,8 @@ function servicios(mm: gsap.MatchMedia): void {
     for (const t of tarjetas) {
       const img = $('img', t);
       if (img) {
-        gsap.fromTo(img, { xPercent: -8 }, {
-          xPercent: 8, ease: 'none',
+        gsap.fromTo(img, { xPercent: -5 }, {
+          xPercent: 5, ease: 'none',
           scrollTrigger: { trigger: t, containerAnimation: recorrido, start: 'left right', end: 'right left', scrub: true },
         });
       }
@@ -197,6 +209,10 @@ function servicios(mm: gsap.MatchMedia): void {
         scrollTrigger: { trigger: t, containerAnimation: recorrido, start: 'left 75%' },
       });
     }
+    return () => {
+      ScrollTrigger.removeEventListener('refreshInit', igualar);
+      cuerpos.forEach((c) => { c.style.flexBasis = ''; });
+    };
   });
 
   mm.add('(max-width: 960px)', () => {
