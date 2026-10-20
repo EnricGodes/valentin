@@ -197,13 +197,6 @@ function servicios(mm: gsap.MatchMedia): void {
       },
     });
     for (const t of tarjetas) {
-      const img = $('img', t);
-      if (img) {
-        gsap.fromTo(img, { xPercent: -5 }, {
-          xPercent: 5, ease: 'none',
-          scrollTrigger: { trigger: t, containerAnimation: recorrido, start: 'left right', end: 'right left', scrub: true },
-        });
-      }
       gsap.from($$('.srv-num, .srv-titulo, .srv-texto, .enlace-mono', t), {
         y: 40, opacity: 0, stagger: 0.08, duration: 0.9, ease: 'expo.out',
         scrollTrigger: { trigger: t, containerAnimation: recorrido, start: 'left 75%' },

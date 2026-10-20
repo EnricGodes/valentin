@@ -29,6 +29,10 @@ const destino = resolve(aqui, '../public/video/magazine');
 const heroOrigen  = join(raiz, 'home/hero.mp4');
 const heroDestino = resolve(aqui, '../public/video/home');
 const HERO_CRF = 34;   // fondo oscuro y bajo el degradado del hero: aguanta
+/* Segundos que se saltan del original: los primeros siete son un fundido
+   desde negro con el logo grande de Valentin, que bajo el titular del hero
+   no queda bien. El video empieza ya en la nave con los coches. */
+const HERO_INICIO = '7';
 
 const CRF = 28;              // calidad visualmente indistinguible a este tamano
 const MAXRATE = '1400k';     // deja margen de sobra bajo los 25 MB de Pages
@@ -102,7 +106,7 @@ if (!existsSync(heroOrigen)) {
     console.log(`hero: al dia (${MB((await stat(salidaVideo)).size)} MB)`);
   } else {
     await ejecutar('ffmpeg', [
-      '-y', '-i', heroOrigen,
+      '-y', '-ss', HERO_INICIO, '-i', heroOrigen,
       '-an',
       '-c:v', 'libx264', '-preset', 'slow', '-crf', String(HERO_CRF),
       '-profile:v', 'high', '-level', '4.0', '-pix_fmt', 'yuv420p',
@@ -113,7 +117,7 @@ if (!existsSync(heroOrigen)) {
     // El poster es el primer fotograma: cualquier otro daria un salto visible
     // en el momento en que el video arranca.
     await ejecutar('ffmpeg', [
-      '-y', '-i', heroOrigen, '-frames:v', '1', '-q:v', '4', salidaPoster,
+      '-y', '-ss', HERO_INICIO, '-i', heroOrigen, '-frames:v', '1', '-q:v', '4', salidaPoster,
     ], { maxBuffer: 1024 * 1024 * 32 });
 
     console.log(`hero: ${MB((await stat(heroOrigen)).size)} MB -> ` +
