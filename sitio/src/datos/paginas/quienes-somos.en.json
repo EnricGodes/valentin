@@ -4,36 +4,207 @@
   "ficheroOriginal": "quienes-somos",
   "meta": {
     "titulo": "About us · Porsche specialists since 1979",
-    "descripcion": "Valentín Motors began repairing air-cooled 911 models in 1979. Forty-five years later: two workshops, an in-house engine workshop and the same craft.",
-    "ogImagen": ""
+    "descripcion": "Devoted to the world of Porsche since 1979. A family business led by Jordi Edo, with workshops in Barcelona and Madrid.",
+    "ogImagen": "/img/nosotros/equipo-1920.webp"
   },
-  "h1": "More than 45 years of history",
+  "h1": "Since 1979. And always looking ahead.",
   "acordeones": [],
   "secciones": [
     {
       "nivel": 1,
-      "titulo": "More than 45 years of history",
-      "parrafos": [],
+      "titulo": "Since 1979. And always looking ahead.",
+      "parrafos": [
+        "We are Valentin Motors. Porsche specialists since 1979.",
+        "We were born in Barcelona, at a time when a Porsche 911 could take you to work from Monday to Friday and race on a circuit at the weekend. We started by preparing cars for drivers who asked more of their mechanics. That way of understanding the automobile is still part of who we are.",
+        "The models, the technology and the premises have changed. We have evolved too. Today, led by Jordi Edo, we are a team specialising in servicing, repair, restoration, performance preparation and bespoke projects for Porsche cars of every generation.",
+        "We work from Barcelona and Madrid with a very clear idea: to know every car in depth, to look after every detail and to give its owner a service that lives up to what they drive.",
+        "More than 45 years on, we keep doing what we do best. And we keep thinking about everything that is still to come."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "It all began with a way of understanding mechanics.",
+      "parrafos": [
+        "In 1979, Valentín Ibán founded Valentin Motors in Barcelona. The Porsche 911 and 914 defined our early years, with work centred on performance preparation, competition mechanics and the pursuit of the best possible performance.",
+        "Racing taught us to work with precision, to understand how every component behaves and never to settle for something that simply works. We learned to look for the reason behind every problem and the best way to solve it.",
+        "From there, our workshop grew with the cars and with our clients. We went from preparing sports cars for road and track to looking after new Porsche generations, adding more specialities and taking on ever more complete restoration projects.",
+        "Our origins lie in mechanics. Our way of working, in knowledge."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What we have learned lets us go further.",
+      "parrafos": [
+        "We are a family business, and proud of it. But our story is not only about preserving a legacy. It is about taking it forward.",
+        "With Jordi Edo leading Valentin Motors, we have opened a new chapter of growth and specialisation. We have enlarged our premises, added new technical capabilities, developed our own projects and taken our way of working beyond Barcelona with the opening in Madrid.",
+        "We love the Porsche cars that deserve to be kept exactly as they were conceived just as much as those that can be transformed to answer a new idea. We care about the history of the marque, but also about its present and its future possibilities.",
+        "That is why we keep investing in people, spaces and knowledge. Because experience is only worth something if it helps us do the next job better."
+      ],
       "items": [],
       "imagenes": []
     },
     {
       "nivel": 3,
-      "titulo": "Valentin Motors was born in 1979, serving Porsche customers with vehicles for daily use and for competition on weekends.",
+      "titulo": "Jordi Edo",
       "parrafos": [
-        "In the 70 the Porsche 911 was the perfect sports vehicle to use both on a daily basis and in competition during the weekend.",
-        "At that time we specialized in Sport and Racing preparations for 911 and 914.",
-        "This past year 2024 Valentin turned 45 years old, the best gift has been being able to fulfill the dream of opening the new facilities in Madrid.",
-        "With these new facilities we intend to be able to reach Porsche customers throughout Spain more easily and be able to provide the service we intend.",
-        "In all these years the Valentin family has been growing little by little until today, forming a great technical and human team."
+        "Leadership and vision",
+        "Jordi heads Valentin Motors and leads the growth of the company. His aim is for us to remain a close, personal specialist, with the know-how of a long-established workshop and the capabilities needed to meet the challenges of today’s Porsche cars.",
+        "Under his leadership we have expanded to Madrid, renewed our premises in Barcelona and built an offer that ranges from everyday servicing to complete restorations, performance preparation and one-off projects.",
+        "His way of understanding Valentin Motors rests on a conviction we all share: every car has a story, every owner has expectations, and our job is to find the best answer for both."
       ],
       "items": [],
-      "imagenes": [
-        {
-          "url": "/img/paginas/e6369f1e-foto-equipo-2024.jpg",
-          "alt": "The full Valentín Motors team, in the showroom"
-        }
-      ]
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Olga Ibán",
+      "parrafos": [
+        "Continuity, trust and attention to detail",
+        "Olga belongs to the second generation of Valentin Motors and, together with Jordi, has guided our evolution for years. She knows the workshop, our processes and, above all, the value of the relationship we keep with every client.",
+        "In servicing, restoration or preparation work, listening, planning properly and keeping clear communication throughout the process matter as much as the technical work itself. That personal attention is part of our identity, and Olga helps us preserve it as we grow."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Our team",
+      "parrafos": [
+        "Knowledge is built together.",
+        "Every project involves professionals with different specialities: diagnostics, mechanics, engines, bodywork, paint, restoration and preparation. We share information, compare solutions and work towards a common goal: that every Porsche leaves our premises as it should.",
+        "Premises matter. So does technology. But it is people, and the judgement they bring to their work, that make the difference."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Barcelona is where we began. Madrid, a natural step in our evolution.",
+      "parrafos": [
+        "We have grown without straying from who we are. Each new site answered a specific need: more space, more specialities or being closer to our clients."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Passatge Simó, Barcelona",
+      "parrafos": [
+        "Where we consolidated our specialisation.",
+        "Our workshop at Passatge Simó, 14 is part of the history of Valentin Motors. There we kept developing the work that had made our name: Porsche mechanics, performance preparation and a direct relationship with the owners who placed their cars in our hands.",
+        "Those were years in which we strengthened our experience, broadened our activity and built many of the relationships that have stayed with the company for decades."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Gran Via de les Corts Catalanes, Barcelona",
+      "parrafos": [
+        "A new scale for our workshop.",
+        "At Gran Via de les Corts Catalanes, 752 our evolution continued. It was a period of growth in which the servicing of everyday Porsche cars, high-performance mechanics and restoration and preparation projects worked side by side.",
+        "For years, Gran Via was the meeting point for our team and for clients who shared the same passion for Porsche."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Madrid, Leganés",
+      "parrafos": [
+        "In 2023 we opened our second centre.",
+        "Opening Valentin Motors Madrid, at calle Puig Adam, 10, Leganés, was one of the most important steps in our recent history.",
+        "We wanted to be closer to Porsche owners in Madrid and central Spain, without them having to travel to Barcelona for our experience and our services. We did it by taking the same way of working with us: direct attention, technical specialisation and care for every vehicle.",
+        "Madrid is not a secondary branch of Valentin Motors. It is an essential part of who we are today."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Varsòvia, Barcelona",
+      "parrafos": [
+        "In 2025 we began a new chapter in our city.",
+        "We moved to calle Varsòvia, 65, to new premises of 1,320 m² over two floors, where we brought together more resources, better-organised processes and new capabilities, including bodywork and paint.",
+        "The new workshop reflects our ambition: to keep growing, to take on more complex projects and to offer our clients a better experience without losing the personal touch that has always defined us."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "One world. Many ways to enjoy it.",
+      "parrafos": [
+        "For us, no two Porsche cars are the same. The generation changes, the use changes, the car’s history changes and so does what its owner expects. That is why we never work with ready-made answers.",
+        "We set out to know every model and to work on it with the judgement it needs:",
+        "We can take care of scheduled servicing, solve a complex fault or see through a transformation that lasts months. In every case we apply the same philosophy: do what the car needs, do it well and explain why."
+      ],
+      "items": [
+        "Servicing and diagnostics. We look after the running and reliability of every Porsche, classic or modern, with specific inspections, diagnostics and repairs.",
+        "Engines and transmissions. We inspect, repair and rebuild mechanical assemblies with the rigour each Porsche generation demands.",
+        "Complete restoration. We bring cars back with a complete view of the project, from the mechanics and the body to the finishes and the original details.",
+        "Bodywork and paint. We work on both the recovery and the finish of every vehicle, respecting its character and its needs.",
+        "Performance preparation and personalisation. We develop solutions for owners who want to adapt their car to a specific use or make it truly their own.",
+        "Vehicle selection. We support the buying and selling of Porsche cars with the technical knowledge we gain every day in the workshop."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "A Porsche can have many lives.",
+      "parrafos": [
+        "We are passionate about the Porsche cars that keep their original personality intact. Also about those that return to the road after a meticulous restoration, and those transformed to answer their owner’s vision.",
+        "The experience we have gathered over decades lets us approach these projects from a complete perspective. It is not only about choosing materials or improving performance. You have to understand the engineering of the car, respect its proportions, anticipate how it will behave and look after every element of the whole.",
+        "The PA10/01, unveiled in 2025, represents this side of Valentin Motors: our ability to reinterpret a Porsche 911 in a language of our own, combining experience, technique and a contemporary view of the automobile.",
+        "We will keep restoring, servicing and preparing Porsche cars. And we will keep exploring new ways to take our knowledge a little further."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "More than four decades of constant evolution.",
+      "parrafos": [],
+      "items": [
+        "1979 · We are founded in Barcelona and begin to specialise in road and competition Porsche 911 and 914 models.",
+        "1980s · We grow around performance preparation, mechanics and engine work.",
+        "Passatge Simó · We consolidate our activity at the Passatge Simó, 14 workshop, and our relationship with Porsche owners in Barcelona.",
+        "2009 · Jordi Edo and Olga Ibán begin a new chapter at the head of Valentin Motors.",
+        "Gran Via · Our story continues at the workshop on Gran Via de les Corts Catalanes, 752.",
+        "2023 · We open Valentin Motors Madrid in Leganés and bring our services closer to clients in central Spain.",
+        "2024 · We celebrate our first 45 years.",
+        "2025 · We open the new Barcelona workshop at Varsòvia, 65, with more space and new capabilities.",
+        "2025 · We unveil the PA10/01, our complete reinterpretation of the Porsche 911.",
+        "Today · Led by Jordi and with a specialist team in Barcelona and Madrid, we keep writing our story."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "We look after cars. And the trust of those who drive them.",
+      "parrafos": [
+        "Many of our clients have been with us for years. Some have come to us with several Porsche cars; others trust us with a car they have kept all their lives. Every story is different, but all of them deserve the same attention.",
+        "We believe in explaining things clearly, sharing what we know and supporting owners in the decisions that affect their car. Sometimes the best solution is major work. Other times it is doing less, preserving more and waiting for the right moment.",
+        "That close relationship is an essential part of Valentin Motors. We want anyone who walks into either of our workshops to find people who know their Porsche, listen to what it needs and take responsibility for the work until the very end."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "The best part of our story is what comes next.",
+      "parrafos": [
+        "We started in 1979 with Porsche cars that were enjoyed as much on the road as on the track. Today we work on classics, modern sports cars, competition cars and projects built around a unique idea.",
+        "We have more knowledge, more resources and two centres from which to serve our clients. But we keep what made us start: the curiosity to understand every car and the determination to do our work well.",
+        "With Jordi Edo at the helm, Olga Ibán and our whole team, we keep building the next chapter of Valentin Motors.",
+        "Valentin Motors. Porsche specialists since 1979."
+      ],
+      "items": [],
+      "imagenes": []
     }
   ],
   "contacto": {

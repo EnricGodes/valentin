@@ -32,6 +32,7 @@ import PreguntasFrecuentes from '../components/PreguntasFrecuentes.astro';
 import { VENDIDOS, type Vendido } from '../datos/vendido';
 import FichaVendido from '../components/FichaVendido.astro';
 import Pa10 from '../components/Pa10.astro';
+import Nosotros from '../components/Nosotros.astro';
 import UnidadesGeneracion from '../components/UnidadesGeneracion.astro';
 import { landingDeCoche } from '../datos/generacion';
 
@@ -222,6 +223,8 @@ const esVende = pagina?.rutaId === 'vende';
 /* PA10/01 es una pagina editorial con su propio sistema de diseno: se pinta con
    su componente, sin el articulo generico ni el formulario de proyecto. */
 const esPa10 = pagina?.rutaId === 'build-pa10-01';
+/* Quienes somos, igual: maqueta propia con los textos de datos/nosotros.ts. */
+const esNosotros = pagina?.rutaId === 'quienes-somos';
 
 /* Toda pagina de servicio acaba en el formulario, con el motivo ya puesto:
    quien ha leido hasta el final de "Reparacion del IMS" no quiere buscar el
@@ -249,7 +252,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   titulo={titulo}
   descripcion={descripcion}
   realce={coche?.realce ?? ''}
-  imagen={coche?.hero.imagen ?? (esPa10 ? '/img/pa10-01/hero-1920.webp' : undefined)}
+  imagen={coche?.hero.imagen ?? (esPa10 ? '/img/pa10-01/hero-1920.webp'
+    : esNosotros ? '/img/nosotros/equipo-1920.webp' : undefined)}
   tipoPagina={coche ? 'ficha' : vendido ? 'vendido' : pagina?.tipo ?? 'catalogo'}
   coche={coche?.slug ?? vendido?.slug}
 >
@@ -269,8 +273,9 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   {vendido && <FichaVendido coche={vendido} idioma={idioma} />}
 
   {esPa10 && <Pa10 idioma={idioma} />}
+  {esNosotros && <Nosotros idioma={idioma} />}
 
-  {pagina && !esPa10 && (
+  {pagina && !esPa10 && !esNosotros && (
     <article class="pagina">
       <header class="page-header">
         <div class="shimmer-line reveal"></div>

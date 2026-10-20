@@ -1,0 +1,215 @@
+---
+/**
+ * Quienes somos, en los seis idiomas. Se pinta desde [...ruta].astro en lugar
+ * del articulo generico, como la PA10/01.
+ *
+ * Los textos estan en src/datos/nosotros.ts; el original en castellano es
+ * docs/about_us/valentin_motors_sobre_nosotros_voz_de_marca.md. Las fotos de
+ * las personas y del equipo salen de docs/about_us y viven en img/nosotros.
+ *
+ * Sin JS propio: entra con los .reveal del sitio y el h1 con titulares.ts.
+ */
+import type { Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { TEXTOS_NOSOTROS } from '../datos/nosotros';
+import CabeceraSeccion from './CabeceraSeccion.astro';
+import '../styles/nosotros.css';
+
+interface Props { idioma: Idioma; }
+const { idioma } = Astro.props;
+const x = TEXTOS_NOSOTROS[idioma];
+
+const num = (n: number) => String(n).padStart(2, '0');
+
+/* Cada especialidad lleva a su pagina de servicio, en el mismo orden que la
+   lista de nosotros.ts. */
+const ESPECIALIDADES = ['taller', 'taller-motores', 'restauraciones-integrales', 'taller-pintura',
+  'competicion', 'coches'].map((id, i) => ({ ...x.especialidades.lista[i], href: url(id, idioma) }));
+
+const PERSONAS = [
+  { nombre: 'Jordi Edo', foto: 'jordi', ancho: 800, alto: 999, ...x.generacion.jordi },
+  { nombre: 'Olga Ibán', foto: 'olga', ancho: 900, alto: 1125, ...x.generacion.olga },
+];
+---
+<article class="nos">
+  <header class="nos-apertura">
+    <div class="shimmer-line reveal"></div>
+    <p class="section-label reveal">{x.apertura.etiqueta}</p>
+    <h1 class="page-title nos-titulo reveal" set:html={x.apertura.titulo} />
+    <p class="nos-lema reveal delay-1">{x.apertura.lema}</p>
+  </header>
+
+  <figure class="nos-equipo reveal-foto">
+    <img src="/img/nosotros/equipo-1280.webp"
+         srcset="/img/nosotros/equipo-720.webp 720w, /img/nosotros/equipo-1280.webp 1280w, /img/nosotros/equipo-1920.webp 1920w"
+         sizes="100vw" width="1920" height="1279" alt={x.apertura.fotoAlt}
+         loading="eager" decoding="async" fetchpriority="high">
+  </figure>
+
+  <section class="seccion nos-intro">
+    <div class="contenedor nos-columnas">
+      {x.apertura.parrafos.map((p, i) => <p class={`reveal delay-${(i % 2) + 1}`} set:html={p} />)}
+    </div>
+  </section>
+
+  {/* 01 · Origenes */}
+  <section class="seccion nos-origenes" id="origenes">
+    <div class="contenedor nos-dividido">
+      <figure class="nos-retrato reveal-foto">
+        <img src="/img/nosotros/valentin-900.webp"
+             srcset="/img/nosotros/valentin-480.webp 480w, /img/nosotros/valentin-900.webp 900w"
+             sizes="(max-width: 960px) 100vw, 40vw" width="900" height="1125"
+             alt={x.origenes.fotoAlt} loading="lazy" decoding="async">
+        <figcaption>{x.origenes.fotoPie}</figcaption>
+      </figure>
+      <div class="nos-texto">
+        <CabeceraSeccion etiqueta={`${num(1)} / ${x.origenes.etiqueta}`} titulo={x.origenes.titulo} />
+        {x.origenes.parrafos.map((p) => <p class="reveal" set:html={p} />)}
+        <p class="nos-sentencia reveal">{x.origenes.cierre}</p>
+      </div>
+    </div>
+  </section>
+
+  {/* 02 · Segunda generacion */}
+  <section class="seccion nos-generacion" id="generacion">
+    <div class="contenedor">
+      <div class="nos-dividido nos-dividido--texto">
+        <CabeceraSeccion etiqueta={`${num(2)} / ${x.generacion.etiqueta}`} titulo={x.generacion.titulo} />
+        <div class="nos-texto">
+          {x.generacion.parrafos.map((p) => <p class="reveal" set:html={p} />)}
+        </div>
+      </div>
+
+      <div class="nos-personas">
+        {PERSONAS.map((p) => (
+          <article class="persona reveal">
+            <div class="persona-foto">
+              <img src={`/img/nosotros/${p.foto}-${p.ancho}.webp`}
+                   srcset={`/img/nosotros/${p.foto}-480.webp 480w, /img/nosotros/${p.foto}-${p.ancho}.webp ${p.ancho}w`}
+                   sizes="(max-width: 960px) 100vw, 50vw" width={p.ancho} height={p.alto}
+                   alt={p.nombre} loading="lazy" decoding="async">
+            </div>
+            <h3 class="persona-nombre">{p.nombre}</h3>
+            <p class="persona-cargo">{p.cargo}</p>
+            {p.parrafos.map((t) => <p class="persona-texto">{t}</p>)}
+          </article>
+        ))}
+      </div>
+
+      <div class="nos-equipo-texto">
+        <p class="section-label reveal">{x.generacion.equipo.titulo}</p>
+        <p class="nos-sentencia nos-sentencia--grande reveal">{x.generacion.equipo.lema}</p>
+        <div class="nos-columnas">
+          {x.generacion.equipo.parrafos.map((p, i) => <p class={`reveal delay-${i + 1}`}>{p}</p>)}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* 03 · Talleres */}
+  <section class="seccion nos-talleres" id="talleres">
+    <div class="contenedor">
+      <div class="nos-dividido nos-dividido--texto">
+        <CabeceraSeccion etiqueta={`${num(3)} / ${x.talleres.etiqueta}`} titulo={x.talleres.titulo} />
+        <div class="nos-texto"><p class="reveal">{x.talleres.entradilla}</p></div>
+      </div>
+      <ol class="talleres">
+        {x.talleres.lista.map((t, i) => (
+          <li class="taller reveal">
+            <span class="taller-num" aria-hidden="true">{num(i + 1)}</span>
+            <div class="taller-cabecera">
+              <h3 class="taller-nombre">{t.nombre}</h3>
+              <p class="taller-lema">{t.lema}</p>
+            </div>
+            <div class="taller-texto">
+              {t.parrafos.map((p) => <p set:html={p} />)}
+            </div>
+          </li>
+        ))}
+      </ol>
+      <p class="nos-sentencia nos-centro reveal" set:html={x.talleres.cierre} />
+    </div>
+  </section>
+
+  {/* 04 · Especialidades */}
+  <section class="seccion nos-especialidades" id="especialidades">
+    <div class="contenedor">
+      <div class="nos-dividido nos-dividido--texto">
+        <CabeceraSeccion etiqueta={`${num(4)} / ${x.especialidades.etiqueta}`} titulo={x.especialidades.titulo} />
+        <div class="nos-texto">
+          {x.especialidades.parrafos.map((p) => <p class="reveal">{p}</p>)}
+        </div>
+      </div>
+      <ul class="especialidades">
+        {ESPECIALIDADES.map((e, i) => (
+          <li class="reveal">
+            <a class="especialidad" href={e.href}>
+              <span class="especialidad-num">{num(i + 1)}</span>
+              <h3 class="especialidad-titulo">{e.titulo}</h3>
+              <p class="especialidad-texto">{e.texto}</p>
+              <span class="especialidad-flecha" aria-hidden="true">&rarr;</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="nos-sentencia nos-centro reveal" set:html={x.especialidades.cierre} />
+    </div>
+  </section>
+
+  {/* 05 · Proyectos propios */}
+  <section class="seccion nos-proyectos" id="proyectos">
+    <div class="contenedor nos-dividido nos-dividido--foto-derecha">
+      <div class="nos-texto">
+        <CabeceraSeccion etiqueta={`${num(5)} / ${x.proyectos.etiqueta}`} titulo={x.proyectos.titulo} />
+        {x.proyectos.parrafos.map((p) => <p class="reveal" set:html={p} />)}
+        <a class="enlace-mono reveal" href={url('build-pa10-01', idioma)}>{x.proyectos.enlace} &rarr;</a>
+      </div>
+      <a class="nos-pa10 reveal" href={url('build-pa10-01', idioma)} tabindex="-1" aria-hidden="true">
+        <img src="/img/pa10-01/profile-1280.webp"
+             srcset="/img/pa10-01/profile-720.webp 720w, /img/pa10-01/profile-1280.webp 1280w, /img/pa10-01/profile-1920.webp 1732w"
+             sizes="(max-width: 960px) 100vw, 55vw" width="1732" height="908"
+             alt={x.proyectos.fotoAlt} loading="lazy" decoding="async">
+      </a>
+    </div>
+  </section>
+
+  {/* 06 · Hitos */}
+  <section class="seccion nos-hitos" id="hitos">
+    <div class="contenedor">
+      <CabeceraSeccion etiqueta={`${num(6)} / ${x.hitos.etiqueta}`} titulo={x.hitos.titulo} />
+      <ol class="hitos">
+        {x.hitos.lista.map(([cuando, que]) => (
+          <li class="hito reveal">
+            <span class="hito-cuando">{cuando}</span>
+            <p class="hito-que">{que}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  {/* 07 · Relacion con el cliente */}
+  <section class="seccion nos-relacion" id="relacion">
+    <div class="contenedor nos-dividido nos-dividido--texto">
+      <CabeceraSeccion etiqueta={`${num(7)} / ${x.relacion.etiqueta}`} titulo={x.relacion.titulo} />
+      <div class="nos-texto">
+        {x.relacion.parrafos.map((p) => <p class="reveal">{p}</p>)}
+      </div>
+    </div>
+  </section>
+
+  {/* 08 · Cierre */}
+  <section class="closing nos-cierre" id="futuro">
+    <div class="closing-bg" data-fondo="/img/paginas/47048331-taller01.jpg"
+         style="background-image:url('/img/paginas/47048331-taller01.jpg')"></div>
+    <div class="closing-overlay"></div>
+    <div class="closing-content">
+      <p class="section-label reveal">{num(8)}</p>
+      <h2 class="nos-cierre-titulo reveal">{x.futuro.titulo}</h2>
+      {x.futuro.parrafos.map((p) => <p class="nos-cierre-texto reveal">{p}</p>)}
+      <p class="nos-cierre-firma reveal">{x.futuro.firma}</p>
+      <p class="section-label reveal">{x.futuro.lema}</p>
+      <a class="cta reveal" href={url('contacto', idioma)} data-magnetico>{x.futuro.cta}</a>
+    </div>
+  </section>
+</article>

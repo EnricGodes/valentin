@@ -1,0 +1,220 @@
+/* ===========================================================================
+   Quienes somos (components/Nosotros.astro)
+   Usa las piezas del sitio (cabecera de seccion, reveals, cierre) y solo
+   anade la maqueta propia: columnas de lectura, retratos, talleres e hitos.
+   =========================================================================== */
+
+/* ── Apertura ─────────────────────────────────────────────────────────────── */
+.nos-apertura {
+  padding: 160px var(--pad-lateral) 72px;
+  max-width: var(--ancho-max); margin: 0 auto;
+}
+.nos-titulo { max-width: 14ch; margin-top: 4px; }
+.nos-lema {
+  margin-top: 32px; max-width: 36ch;
+  font-size: clamp(19px, 2vw, 24px); font-weight: 500; line-height: 1.4;
+  color: var(--blanco); letter-spacing: -0.01em;
+}
+
+.nos-equipo { margin: 0; }
+.nos-equipo img {
+  display: block; width: 100%; height: auto;
+  max-height: 92vh; object-fit: cover; object-position: center 45%;
+}
+
+/* ── Piezas comunes ───────────────────────────────────────────────────────── */
+.nos p { text-wrap: pretty; }
+.nos strong { color: var(--blanco); font-weight: 600; }
+
+.nos-texto > p,
+.nos-columnas > p {
+  font-size: var(--t-cuerpo); line-height: 1.85;
+  color: var(--concreto); margin-bottom: 22px;
+}
+.nos-texto .cabecera-seccion { margin-bottom: 40px; }
+
+.nos-columnas {
+  display: grid; grid-template-columns: 1fr 1fr;
+  column-gap: var(--gap-columnas);
+}
+
+/* Dos columnas: foto o cabecera a un lado, lectura al otro */
+.nos-dividido {
+  display: grid; grid-template-columns: 5fr 6fr;
+  gap: var(--gap-columnas); align-items: start;
+}
+.nos-dividido--texto .cabecera-seccion { position: sticky; top: 120px; }
+.nos-dividido--foto-derecha { grid-template-columns: 5fr 6fr; align-items: center; }
+
+/* Frase de cierre de bloque: la idea que queda */
+.nos-sentencia {
+  margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--linea-bronce);
+  font-size: clamp(20px, 2.2vw, 28px); font-weight: 300; line-height: 1.35;
+  color: var(--blanco); letter-spacing: -0.01em; text-wrap: balance;
+}
+.nos-texto > .nos-sentencia { color: var(--blanco); font-size: clamp(20px, 2.2vw, 28px); line-height: 1.35; }
+.nos-sentencia--grande { font-size: var(--t-titulo); font-weight: 300; border: 0; padding: 0; margin: 0 0 40px; max-width: 18ch; }
+.nos-centro { text-align: center; max-width: 30ch; margin: 80px auto 0; border-top: 0; }
+
+/* ── Retratos ─────────────────────────────────────────────────────────────── */
+.nos-retrato { margin: 0; }
+.nos-retrato img,
+.persona-foto img {
+  display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
+}
+.nos-retrato figcaption {
+  margin-top: 14px;
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  text-transform: uppercase; color: var(--concreto);
+}
+.nos-origenes .nos-dividido { align-items: center; }
+
+/* ── Segunda generacion ───────────────────────────────────────────────────── */
+.nos-generacion { background: var(--grafito); }
+.nos-personas {
+  display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap-columnas);
+  margin-top: 112px;
+}
+.persona-foto { overflow: hidden; margin-bottom: 32px; }
+.persona-foto img { transition: transform 1.2s var(--ease); }
+.persona:hover .persona-foto img { transform: scale(1.03); }
+.persona-nombre {
+  font-size: clamp(28px, 3vw, 40px); font-weight: 700; letter-spacing: -0.03em;
+  color: var(--blanco); line-height: 1;
+}
+.persona-cargo {
+  margin: 14px 0 24px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: var(--tr-nav);
+  text-transform: uppercase; color: var(--bronce);
+}
+.persona-texto { font-size: 16px; line-height: 1.8; color: var(--concreto); margin-bottom: 18px; }
+/* La segunda ficha baja un poco: rompe la simetria de dos retratos iguales */
+.persona:nth-child(2) { margin-top: 96px; }
+
+.nos-equipo-texto { margin-top: 128px; padding-top: 72px; border-top: 1px solid var(--linea); }
+
+/* ── Talleres ─────────────────────────────────────────────────────────────── */
+.talleres { list-style: none; margin: 96px 0 0; padding: 0; border-top: 1px solid var(--linea-fuerte); }
+.taller {
+  display: grid; grid-template-columns: 120px 4fr 6fr; gap: 0 48px;
+  padding: 48px 0; border-bottom: 1px solid var(--linea-fuerte);
+}
+.taller-num {
+  font-family: var(--mono); font-size: clamp(32px, 4vw, 56px); font-weight: 300;
+  color: var(--bronce); line-height: 1; letter-spacing: -0.04em;
+}
+.taller-nombre {
+  font-size: clamp(22px, 2.2vw, 30px); font-weight: 700; letter-spacing: -0.02em;
+  color: var(--blanco); line-height: 1.15; text-wrap: balance;
+}
+.taller-lema { margin-top: 12px; font-size: 16px; line-height: 1.5; color: var(--bronce); }
+.taller-texto p { font-size: 16px; line-height: 1.8; color: var(--concreto); margin-bottom: 14px; }
+.taller-texto p:last-child { margin-bottom: 0; }
+
+/* ── Especialidades ───────────────────────────────────────────────────────── */
+.nos-especialidades { background: var(--grafito); }
+.especialidades {
+  list-style: none; margin: 96px 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px;
+  background: var(--linea);
+}
+.especialidades li { display: flex; }
+.especialidad {
+  position: relative; display: flex; flex-direction: column; width: 100%;
+  padding: 40px 36px 72px; background: var(--grafito);
+  text-decoration: none; transition: background 0.4s var(--ease);
+}
+.especialidad:hover { background: var(--carbon); }
+.especialidad-num {
+  font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
+  color: var(--bronce); margin-bottom: 28px;
+}
+.especialidad-titulo {
+  font-size: 21px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2;
+  color: var(--blanco); margin-bottom: 14px; text-wrap: balance;
+}
+.especialidad-texto { font-size: 15px; line-height: 1.7; color: var(--concreto); }
+.especialidad-flecha {
+  position: absolute; left: 36px; bottom: 32px; color: var(--bronce);
+  transition: transform 0.4s var(--ease);
+}
+.especialidad:hover .especialidad-flecha { transform: translateX(8px); }
+
+/* ── Proyectos propios ────────────────────────────────────────────────────── */
+.nos-pa10 { display: block; overflow: hidden; }
+.nos-pa10 img { display: block; width: 100%; height: auto; transition: transform 1.4s var(--ease); }
+.nos-pa10:hover img { transform: scale(1.03); }
+.nos-proyectos .enlace-mono { display: inline-block; margin-top: 12px; }
+
+/* ── Hitos ────────────────────────────────────────────────────────────────── */
+.hitos { list-style: none; margin: 80px 0 0; padding: 0; position: relative; }
+.hitos::before {
+  content: ''; position: absolute; left: 180px; top: 8px; bottom: 8px;
+  width: 1px; background: var(--linea-bronce);
+}
+.hito {
+  display: grid; grid-template-columns: 180px 1fr; align-items: baseline;
+  padding: 22px 0; position: relative;
+}
+.hito::before {
+  content: ''; position: absolute; left: 177px; top: 33px;
+  width: 7px; height: 7px; border-radius: 50%; background: var(--bronce);
+}
+.hito-cuando {
+  font-family: var(--mono); font-size: 13px; letter-spacing: 0.08em;
+  color: var(--bronce); text-transform: uppercase; padding-right: 32px;
+}
+.hito-que {
+  padding-left: 48px; max-width: 46rem;
+  font-size: clamp(17px, 1.6vw, 20px); line-height: 1.55; color: var(--blanco); font-weight: 300;
+}
+
+/* ── Relacion ─────────────────────────────────────────────────────────────── */
+.nos-relacion { border-top: 1px solid var(--linea); }
+
+/* ── Cierre ───────────────────────────────────────────────────────────────── */
+.nos-cierre { height: auto; min-height: 92vh; padding: 140px 0; }
+.nos-cierre .closing-bg { background-position: center 30%; }
+.nos-cierre .closing-overlay { background: rgba(11, 11, 11, 0.82); }
+.nos-cierre-titulo {
+  font-size: var(--t-titulo); font-weight: 700; line-height: 1.05; letter-spacing: -0.03em;
+  color: var(--blanco); margin-bottom: 36px; text-wrap: balance;
+}
+.nos-cierre-texto {
+  font-size: var(--t-cuerpo); line-height: 1.8; color: var(--concreto);
+  max-width: 40rem; margin: 0 auto 18px;
+}
+.nos-cierre-firma {
+  margin: 40px auto 32px; max-width: 34ch;
+  font-size: clamp(19px, 2vw, 24px); font-weight: 500; line-height: 1.4; color: var(--blanco);
+  text-wrap: balance;
+}
+
+/* ── Movil ────────────────────────────────────────────────────────────────── */
+@media (max-width: 960px) {
+  .nos-apertura { padding: 120px var(--pad-lateral) 48px; }
+  .nos-columnas, .nos-dividido, .nos-dividido--foto-derecha, .nos-personas { grid-template-columns: 1fr; gap: 48px; }
+  .nos-columnas { gap: 0; }
+  .nos-dividido--texto .cabecera-seccion { position: static; }
+  .nos-dividido--foto-derecha .nos-pa10 { order: -1; }
+  .nos-retrato { max-width: 420px; }
+  .nos-personas { margin-top: 72px; gap: 72px; }
+  .persona:nth-child(2) { margin-top: 0; }
+  .nos-equipo-texto { margin-top: 80px; padding-top: 56px; }
+  .nos-equipo img { max-height: 70vh; }
+  .talleres { margin-top: 56px; }
+  .taller { grid-template-columns: 1fr; gap: 16px; padding: 36px 0; }
+  .especialidades { grid-template-columns: 1fr; margin-top: 56px; }
+  .especialidad { padding: 32px 24px 64px; }
+  .especialidad-flecha { left: 24px; }
+  .nos-centro { margin-top: 56px; }
+  .hitos { margin-top: 48px; }
+  .hitos::before { left: 3px; }
+  .hito { grid-template-columns: 1fr; padding: 18px 0 18px 32px; gap: 6px; }
+  .hito::before { left: 0; top: 24px; }
+  .hito-que { padding-left: 0; }
+  .nos-cierre { padding: 100px 0; }
+}
+@media (min-width: 961px) and (max-width: 1200px) {
+  .especialidades { grid-template-columns: 1fr 1fr; }
+}
