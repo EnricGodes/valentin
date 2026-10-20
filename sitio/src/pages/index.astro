@@ -23,7 +23,7 @@ import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import { COCHES } from '../datos/coche';
 import { paginaPorRuta } from '../datos/pagina';
-import { TESTIMONIOS } from '../datos/testimonios';
+import { RESENAS, GOOGLE_FICHA, GOOGLE_NOTA, haceCuanto } from '../datos/testimonios';
 import '../styles/home.css';
 
 const idioma = 'es' as const;
@@ -128,6 +128,9 @@ const ICONOS = home.secciones
   }))
   .sort((a, b) => a.orden - b.orden);
 
+/* Los colores que usa Google para el avatar con inicial */
+const AVATARES = ['#E8710A', '#1A73E8', '#0B8043', '#8430CE', '#D93025', '#00897B'];
+
 const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Personalización', 'Sala de motores', 'Porsche en venta'];
 ---
 <Base
@@ -166,28 +169,6 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
         y preparamos todas sus generaciones en dos talleres propios, con sala de
         motores. Y vendemos una selección corta de coches que conocemos por dentro.
       </p>
-      <div class="nosotros-pilares">
-        {PILARES.map((p, i) => (
-          <div class="pilar" data-entra>
-            <span class="pilar-num">0{i + 1}</span>
-            <h3 class="pilar-titulo">{p.titulo}</h3>
-            <p class="pilar-texto">{p.texto}</p>
-          </div>
-        ))}
-      </div>
-      <dl class="cifras">
-        {CIFRAS.map((c) => (
-          <div class="cifra" data-entra>
-            <dt class="cifra-texto">{c.texto}</dt>
-            <dd class="cifra-valor">
-              <span class="count-up" data-target={c.valor} data-agrupar>
-                {new Intl.NumberFormat('es', { useGrouping: 'always' } as Intl.NumberFormatOptions).format(c.valor)}
-              </span>
-              <span class="cifra-unidad">{c.unidad}</span>
-            </dd>
-          </div>
-        ))}
-      </dl>
     </div>
   </section>
 
@@ -264,36 +245,98 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
     </div>
   </section>
 
-  {/* ── 4. Testimonios ── */}
+  {/* ── 4. Por que nosotros: puntos fuertes y cifras ── */}
+  <section class="seccion propuesta" id="propuesta">
+    <div class="contenedor">
+      <div class="nosotros-pilares">
+        {PILARES.map((p, i) => (
+          <div class="pilar" data-entra>
+            <span class="pilar-num">0{i + 1}</span>
+            <h3 class="pilar-titulo">{p.titulo}</h3>
+            <p class="pilar-texto">{p.texto}</p>
+          </div>
+        ))}
+      </div>
+      <dl class="cifras">
+        {CIFRAS.map((c) => (
+          <div class="cifra" data-entra>
+            <dt class="cifra-texto">{c.texto}</dt>
+            <dd class="cifra-valor">
+              <span class="count-up" data-target={c.valor} data-agrupar>
+                {new Intl.NumberFormat('es', { useGrouping: 'always' } as Intl.NumberFormatOptions).format(c.valor)}
+              </span>
+              <span class="cifra-unidad">{c.unidad}</span>
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  {/* ── 5. Resenas de Google ── */}
   <section class="seccion opiniones" id="opiniones">
     <div class="contenedor">
       <div class="kit-header">
         <CabeceraSeccion etiqueta="Opiniones" titulo="Lo que dicen" destacado="quienes ya nos conocen." />
+        <div class="google-resumen">
+          <svg class="google-resumen-g" viewBox="0 0 48 48" aria-hidden="true"><use href="#logo-google" /></svg>
+          <span class="google-resumen-nota">{GOOGLE_NOTA.media.toLocaleString('es')}</span>
+          <span class="google-resumen-estrellas" role="img"
+                aria-label={`${GOOGLE_NOTA.media.toLocaleString('es')} de 5 estrellas`}
+                style={`--relleno:${(GOOGLE_NOTA.media / 5) * 100}%`}>
+            <span>{[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 20 20" aria-hidden="true"><use href="#estrella" /></svg>)}</span>
+            <span>{[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 20 20" aria-hidden="true"><use href="#estrella" /></svg>)}</span>
+          </span>
+          <a class="google-resumen-total" href={GOOGLE_FICHA} target="_blank" rel="noopener">{GOOGLE_NOTA.total} reseñas en Google</a>
+        </div>
         <div class="carrusel-botones">
-          <button class="carrusel-boton" type="button" data-carrusel="anterior" aria-label="Opinión anterior">&larr;</button>
-          <button class="carrusel-boton" type="button" data-carrusel="siguiente" aria-label="Opinión siguiente">&rarr;</button>
+          <button class="carrusel-boton" type="button" data-carrusel="anterior" aria-label="Reseña anterior">&larr;</button>
+          <button class="carrusel-boton" type="button" data-carrusel="siguiente" aria-label="Reseña siguiente">&rarr;</button>
         </div>
       </div>
     </div>
-    <div class="opiniones-pista" tabindex="0" role="region" aria-label="Opiniones de clientes" data-carrusel-pista>
-      {TESTIMONIOS.map((o) => (
-        <figure class="opinion">
-          <div class="estrellas" role="img" aria-label="5 de 5 estrellas">
-            {[1, 2, 3, 4, 5].map(() => (
-              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9z" /></svg>
-            ))}
+    <div class="opiniones-pista" tabindex="0" role="region" aria-label="Reseñas de Google" data-carrusel-pista>
+      {RESENAS.map((r, i) => (
+        <article class="resena">
+          <header class="resena-cabecera">
+            <span class="resena-avatar" style={`--avatar:${AVATARES[i % AVATARES.length]}`} aria-hidden="true">
+              {r.autor.trim()[0].toUpperCase()}
+            </span>
+            <span class="resena-quien">
+              <span class="resena-autor">{r.autor}</span>
+              {r.meta && <span class="resena-meta">{r.meta}</span>}
+            </span>
+            <svg class="resena-g" viewBox="0 0 48 48" role="img" aria-label="Reseña de Google"><use href="#logo-google" /></svg>
+          </header>
+          <div class="resena-nota">
+            <span class="estrellas-g" role="img" aria-label="5 de 5 estrellas">
+              {[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 20 20" aria-hidden="true"><use href="#estrella" /></svg>)}
+            </span>
+            <span class="resena-fecha">{haceCuanto(r.fecha)}</span>
           </div>
-          <blockquote class="opinion-texto"><p>{o.texto}</p></blockquote>
-          <figcaption class="opinion-firma">
-            <span class="opinion-autor">{o.autor}</span>
-            <span class="opinion-detalle">{o.detalle}</span>
-          </figcaption>
-        </figure>
+          <p class="resena-texto" lang={r.idioma}>
+            {r.texto}{r.truncada && <>&hellip; <a class="resena-mas" href={GOOGLE_FICHA} target="_blank" rel="noopener">Más</a></>}
+          </p>
+          {r.respondida && <p class="resena-respuesta">Respuesta del propietario</p>}
+        </article>
       ))}
     </div>
+    <div class="contenedor resenas-pie">
+      <a class="cta cta--linea" href={GOOGLE_FICHA} target="_blank" rel="noopener">Ver todas en Google &nearr;</a>
+    </div>
+    {/* Simbolos compartidos por todas las tarjetas */}
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+      <symbol id="estrella" viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9z" /></symbol>
+      <symbol id="logo-google" viewBox="0 0 48 48">
+        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+      </symbol>
+    </svg>
   </section>
 
-  {/* ── 5. Centros ── */}
+  {/* ── 6. Centros ── */}
   <section class="seccion" id="centros">
     <div class="contenedor">
       <CabeceraSeccion etiqueta="Dónde estamos" titulo="Dos centros," destacado="un mismo criterio." />
@@ -319,7 +362,7 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
     </div>
   </section>
 
-  {/* ── 6. Redes ── */}
+  {/* ── 7. Redes ── */}
   <section class="seccion redes" id="instagram">
     <div class="contenedor">
       <div class="kit-header">
@@ -345,7 +388,7 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
     </div>
   </section>
 
-  {/* ── 7. Magazine, en vivo ── */}
+  {/* ── 8. Magazine, en vivo ── */}
   <section class="seccion" id="magazine">
     <div class="contenedor">
       <div class="kit-header">
@@ -357,7 +400,7 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
     </div>
   </section>
 
-  {/* ── 8. Generaciones ── */}
+  {/* ── 9. Generaciones ── */}
   {ICONOS.length > 0 && (
     <section class="seccion modelos" id="iconos">
       <div class="contenedor">
@@ -383,7 +426,7 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
     </section>
   )}
 
-  {/* ── 9. Cita ── */}
+  {/* ── 10. Cita ── */}
   <section class="closing cita" id="cita">
     <div class="closing-bg" data-fondo="/img/ruf/exterior3.jpg"
          style="background-image:url('/img/ruf/exterior3.jpg')"></div>

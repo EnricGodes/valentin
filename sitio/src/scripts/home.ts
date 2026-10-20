@@ -23,6 +23,40 @@ const $$ = <T extends Element = HTMLElement>(sel: string, raiz: ParentNode = doc
 
 const ESCRITORIO = '(min-width: 961px)';
 
+/* Onda de color de los titulares (la de terminal-industries.com): cada letra
+   arranca casi apagada, pasa por un bronce encendido y se asienta en su color
+   final, una detras de otra de izquierda a derecha. */
+const BRONCE_VIVO = '#E2B57E';
+
+function apagado(color: string): string {
+  const [r, g, b] = color.match(/\d+(\.\d+)?/g)!.map(Number);
+  return `rgba(${r}, ${g}, ${b}, 0.14)`;
+}
+
+function onda(letras: Element[], opciones: gsap.TweenVars = {}): gsap.core.Timeline {
+  const tl = gsap.timeline(opciones);
+  letras.forEach((l, i) => {
+    const final = getComputedStyle(l).color;
+    tl.fromTo(l, { color: apagado(final) }, {
+      keyframes: { color: [apagado(final), BRONCE_VIVO, final], easeEach: 'none' },
+      duration: 0.75, ease: 'none',
+      /* Al acabar se quita el color en linea: asi la letra vuelve a heredar
+         y un :hover o un cambio de tema siguen funcionando. */
+      onComplete: () => gsap.set(l, { clearProps: 'color' }),
+    }, i * 0.028);
+  });
+  return tl;
+}
+
+/** Todos los titulares de seccion de la home entran con la onda. */
+function titulares(): void {
+  for (const h of $$('main .section-title, main .cita-titulo')) {
+    const partes = SplitText.create(h, { type: 'words,chars', charsClass: 'letra' });
+    const tl = onda(partes.chars, { paused: true });
+    ScrollTrigger.create({ trigger: h, start: 'top 85%', once: true, onEnter: () => tl.play() });
+  }
+}
+
 function hero(): void {
   const seccion = $('.hero--home');
   if (!seccion) return;
@@ -33,10 +67,13 @@ function hero(): void {
 
   if (titulo) {
     gsap.set([titulo, claim], { opacity: 1, animation: 'none' });
-    const lineas = SplitText.create(titulo, { type: 'lines', mask: 'lines', linesClass: 'linea' });
-    gsap.from(lineas.lines, {
+    const partes = SplitText.create(titulo, {
+      type: 'lines,words,chars', mask: 'lines', linesClass: 'linea', charsClass: 'letra',
+    });
+    gsap.from(partes.lines, {
       yPercent: 110, duration: 1.3, ease: 'expo.out', stagger: 0.14, delay: 0.25,
     });
+    onda(partes.chars, { delay: 0.45 });
     if (claim) gsap.from(claim, { opacity: 0, y: 24, duration: 1.2, ease: 'expo.out', delay: 0.75 });
   }
 
@@ -166,13 +203,13 @@ function coches(): void {
 }
 
 function opiniones(): void {
-  const tarjetas = $$('.opinion');
+  const tarjetas = $$('.resena');
   if (!tarjetas.length) return;
   gsap.from(tarjetas, {
     x: 120, opacity: 0, duration: 1.2, ease: 'expo.out', stagger: 0.08,
     scrollTrigger: { trigger: '.opiniones-pista', start: 'top 85%' },
   });
-  gsap.from($$('.opinion .estrellas svg'), {
+  gsap.from($$('.resena .estrellas-g svg'), {
     scale: 0, rotate: -90, duration: 0.6, ease: 'back.out(3)', stagger: 0.03,
     scrollTrigger: { trigger: '.opiniones-pista', start: 'top 80%' },
   });
@@ -228,11 +265,6 @@ function modelos(): void {
 function cita(): void {
   const titulo = $('[data-titular]');
   if (!titulo) return;
-  const partes = SplitText.create(titulo, { type: 'words', mask: 'words', wordsClass: 'palabra' });
-  gsap.from(partes.words, {
-    yPercent: 110, duration: 1.1, ease: 'expo.out', stagger: 0.06,
-    scrollTrigger: { trigger: titulo, start: 'top 85%' },
-  });
   gsap.from($$('.cita .cita-texto, .cita .cita-acciones, .cita .cita-telefonos'), {
     y: 30, opacity: 0, duration: 1, ease: 'expo.out', stagger: 0.1, delay: 0.4,
     scrollTrigger: { trigger: titulo, start: 'top 85%' },
@@ -267,11 +299,11 @@ function arrastrables(): void {
   }
 }
 
-/** Carrusel de opiniones: botones, teclado y avance solo que se pausa. */
+/** Carrusel de resenas: botones, teclado y avance solo que se pausa. */
 function carrusel(): void {
   const pista = $('[data-carrusel-pista]');
   if (!pista) return;
-  const paso = () => ($('.opinion', pista)?.getBoundingClientRect().width ?? 400) + 2;
+  const paso = () => ($('.resena', pista)?.getBoundingClientRect().width ?? 400) + 2;
   const ir = (sentido: number) => {
     const fin = pista.scrollLeft + pista.clientWidth >= pista.scrollWidth - 8;
     if (sentido > 0 && fin) pista.scrollTo({ left: 0, behavior: 'smooth' });
@@ -327,6 +359,7 @@ function iniciar(): void {
   }
   const mm = gsap.matchMedia();
   hero();
+  titulares();
   manifiesto();
   entradas();
   marquesina();

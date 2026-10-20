@@ -47,6 +47,11 @@ const og = imagen ? new URL(imagen, DOMINIO).href : undefined;
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{titulo}</title>
   <meta name="description" content={descripcion}>
+  {/* El triangulo de Valentin en bronce, sobre transparente; el de Apple va
+      sobre negro carbon porque iOS rellena de blanco la transparencia. */}
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="canonical" href={canonical}>
   {noindex && <meta name="robots" content="noindex, nofollow">}
 
