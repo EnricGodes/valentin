@@ -117,6 +117,9 @@ const REELS = [
   { id: 'DXMwohoiBdX', titulo: 'El 911 total', texto: 'Si solo pudieras tener un 911, ¿cuál sería?' },
   { id: 'DY2a6a4I9vb', titulo: 'GT4, GTS o GT3', texto: 'Tres atmosféricos frente a frente. ¿Cuál es mejor?' },
   { id: 'DbIT-GPI0Co', titulo: 'Configuración clásica', texto: 'Cabriolet, tracción trasera y cambio manual.' },
+  { id: 'DdmDavso1zy', titulo: 'Mantenimiento del motor 993', texto: 'Juntas, tapas y Variocam del último 3.6 refrigerado por aire.' },
+  { id: 'DdCAgG3IPVn', titulo: 'Interior de cuadros', texto: 'Un 911 con tapicería de tartán, visto de cerca.' },
+  { id: 'DeRL5PWI3vD', titulo: '997.1 o 997.2', texto: 'Pros y contras de las dos fases del 997.' },
 ];
 
 /* Los perfiles de cada generacion salen de home.json; en la home anterior
@@ -398,12 +401,11 @@ const MARQUESINA = ['Taller mecánico', 'Restauración', 'Preparación', 'Person
       </div>
       {/* Carrusel circular: seis tarjetas en anillo, la del centro reproduce
           su fragmento y al acabar gira a la siguiente. Sin JS es una fila
-          deslizable. De momento son los tres reels repetidos. */}
+          deslizable. */}
       <div class="reels" data-anillo tabindex="0" role="region" aria-roledescription="carrusel" aria-label="Vídeos de Instagram">
-        {[...REELS, ...REELS].map((r, i) => (
+        {REELS.map((r) => (
           <a class="reel" href={`https://www.instagram.com/p/${r.id}/`} target="_blank" rel="noopener"
-             aria-label={`${r.titulo}: ver el vídeo completo en Instagram`}
-             aria-hidden={i >= REELS.length ? 'true' : undefined}>
+             aria-label={`${r.titulo}: ver el vídeo completo en Instagram`}>
             <video class="reel-video" muted playsinline preload="none"
                    poster={`/video/home/instagram-${r.id}.jpg`}
                    data-src={`/video/home/instagram-${r.id}.mp4`} aria-hidden="true"></video>
