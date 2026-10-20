@@ -175,12 +175,14 @@ El sitio publicado ya no son los microsites de la raíz sino la app Astro de `si
 
 ---
 
+### Aparición de los h1
+- Todos los h1 del sitio entran con el efecto del hero de la home (máscara + onda de color): `src/scripts/titulares.ts`, que carga GSAP solo si hay h1. Quedan fuera la home (lo hace `home.ts` con el mismo módulo) y la PA10/01 (`.p10`, animación propia).
+
 ## Pendientes (apuntados el 2026-10-20)
 
 Encargos de Enric para la próxima sesión, en este orden:
 
-1. **Efecto de aparición en todos los h1 del sitio, menos PA10/01.** Es el de la home: las líneas suben desde una máscara mientras pasa la onda de color letra a letra (apagado, bronce `#E2B57E`, color final). Está en `sitio/src/scripts/home.ts` (funciones `onda()` y `titulares()`, `SplitText` de GSAP). Habría que sacarlo a un módulo común y cargar GSAP fuera de la home. Los h1 están en `Hero.astro` (fichas de coche), `FichaVendido.astro`, `CatalogoCoches.astro`, `[...ruta].astro`, las herramientas y el Magazine. `Pa10.astro` se queda fuera. Respetar `prefers-reduced-motion`.
-2. **Traducir la home a los seis idiomas.** Hoy `src/pages/index.astro` es castellano escrito a mano (`idiomasPublicados={['es']}`). Los `home.<idioma>.json` son de la home vieja de Squarespace y no sirven para los textos nuevos. Al publicarla, quitar `home` de `SOLO_CASTELLANO` en `scripts/generar-mapa-idiomas.ts` y devolver el caso «navegador aleman en la home» de `scripts/probar-middleware.mjs` a `302 /de`. Las reseñas de Google se quedan en su idioma original.
-3. **Traducir PA10/01 a los seis idiomas.** Ruta `build-pa10-01` (slug `builds/pa10-01`, igual en todos los idiomas), datos en `src/datos/paginas/build-pa10-01.json` y componente `src/components/Pa10.astro`.
+1. **Traducir la home a los seis idiomas.** Hoy `src/pages/index.astro` es castellano escrito a mano (`idiomasPublicados={['es']}`). Los `home.<idioma>.json` son de la home vieja de Squarespace y no sirven para los textos nuevos. Al publicarla, quitar `home` de `SOLO_CASTELLANO` en `scripts/generar-mapa-idiomas.ts` y devolver el caso «navegador aleman en la home» de `scripts/probar-middleware.mjs` a `302 /de`. Las reseñas de Google se quedan en su idioma original.
+2. **Traducir PA10/01 a los seis idiomas.** Ruta `build-pa10-01` (slug `builds/pa10-01`, igual en todos los idiomas), datos en `src/datos/paginas/build-pa10-01.json` y componente `src/components/Pa10.astro`.
 
-Para los tres: traducir a mano, con el glosario de `src/i18n/glosario.md`, como la ficha del 911 Carrera 3.2. No usar traductor automático. `npm run build` tiene que pasar entero.
+Para los dos: traducir a mano, con el glosario de `src/i18n/glosario.md`, como la ficha del 911 Carrera 3.2. No usar traductor automático. `npm run build` tiene que pasar entero.

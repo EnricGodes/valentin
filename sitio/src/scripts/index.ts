@@ -1,4 +1,5 @@
 import { iniciarReveals } from './reveal.ts';
+import { iniciarTitulares } from './titulares.ts';
 import { iniciarCursor } from './cursor.ts';
 import { iniciarFondos } from './fondos.ts';
 import { iniciarGalerias } from './galeria.ts';
@@ -17,6 +18,8 @@ import { iniciarMenu } from './menu.ts';
  * actuales un querySelector vacio rompia el resto del script.
  */
 function iniciar(): void {
+  // Antes que los reveals: les quita el .reveal a los h1 que anima
+  iniciarTitulares();
   iniciarReveals();
   iniciarCursor();
   iniciarFondos();

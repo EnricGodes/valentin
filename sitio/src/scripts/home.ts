@@ -2,6 +2,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from 'gsap/SplitText';
 import { punteroFino, sinMovimiento } from './motion.ts';
+import { aparicion, onda } from './titulares.ts';
 
 /**
  * Movimiento de la home. Todo parte de un estado final ya maquetado en el CSS:
@@ -23,39 +24,14 @@ const $$ = <T extends Element = HTMLElement>(sel: string, raiz: ParentNode = doc
 
 const ESCRITORIO = '(min-width: 961px)';
 
-/* Onda de color de los titulares (la de terminal-industries.com): cada letra
-   arranca casi apagada, pasa por un bronce encendido y se asienta en su color
-   final, una detras de otra de izquierda a derecha. */
-const BRONCE_VIVO = '#E2B57E';
-
-function apagado(color: string): string {
-  const [r, g, b] = color.match(/\d+(\.\d+)?/g)!.map(Number);
-  return `rgba(${r}, ${g}, ${b}, 0.14)`;
-}
-
-function onda(letras: Element[], opciones: gsap.TimelineVars = {}): gsap.core.Timeline {
-  const tl = gsap.timeline(opciones);
-  letras.forEach((l, i) => {
-    const final = getComputedStyle(l).color;
-    tl.fromTo(l, { color: apagado(final) }, {
-      keyframes: { color: [apagado(final), BRONCE_VIVO, final], easeEach: 'none' },
-      duration: 0.75, ease: 'none',
-      /* Al acabar se quita el color en linea: asi la letra vuelve a heredar
-         y un :hover o un cambio de tema siguen funcionando. */
-      onComplete: () => { gsap.set(l, { clearProps: 'color' }); },
-    } as gsap.TweenVars, i * 0.028);
-  });
-  return tl;
-}
-
 /* Estos titulares ademas suben linea a linea desde una mascara, como el h1. */
 const CON_APARICION = '#venta .section-title, #opiniones .section-title';
 
 /** Todos los titulares de seccion de la home entran con la onda. */
 function titulares(): void {
-  const aparicion = new Set($$(CON_APARICION));
+  const conAparicion = new Set($$(CON_APARICION));
   for (const h of $$('main .section-title, main .cita-titulo')) {
-    const sube = aparicion.has(h);
+    const sube = conAparicion.has(h);
     /* El .reveal de CabeceraSeccion los desplazaba a la vez que la mascara:
        aqui manda la mascara. */
     if (sube) h.classList.remove('reveal');
@@ -64,7 +40,7 @@ function titulares(): void {
       : { type: 'words,chars', charsClass: 'letra' });
     const tl = gsap.timeline({ paused: true });
     if (sube) tl.from(partes.lines, { yPercent: 110, duration: 1.3, ease: 'expo.out', stagger: 0.14 }, 0);
-    tl.add(onda(partes.chars), sube ? 0.2 : 0);
+    tl.add(onda(gsap, partes.chars), sube ? 0.2 : 0);
     ScrollTrigger.create({ trigger: h, start: 'top 72%', once: true, onEnter: () => tl.play() });
   }
 }
@@ -79,13 +55,7 @@ function hero(): void {
 
   if (titulo) {
     gsap.set([titulo, claim], { opacity: 1, animation: 'none' });
-    const partes = SplitText.create(titulo, {
-      type: 'lines,words,chars', mask: 'lines', linesClass: 'linea', charsClass: 'letra',
-    });
-    gsap.from(partes.lines, {
-      yPercent: 110, duration: 1.3, ease: 'expo.out', stagger: 0.14, delay: 0.25,
-    });
-    onda(partes.chars, { delay: 0.45 });
+    aparicion(gsap, SplitText, titulo, 0.25);
     if (claim) gsap.from(claim, { opacity: 0, y: 24, duration: 1.2, ease: 'expo.out', delay: 0.75 });
   }
 

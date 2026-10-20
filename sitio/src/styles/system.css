@@ -275,6 +275,15 @@ a { color: inherit; }
   opacity: 1; transform: none;
 }
 
+/* h1 con aparicion (scripts/titulares.ts): esperan ocultos a GSAP y, si el
+   script no llega, aparecen igual a los 2,5 s. */
+@keyframes titularAparecer { to { opacity: 1; } }
+.titular-espera { opacity: 0; animation: titularAparecer 0.6s 2.5s forwards; }
+h1 .linea { display: block; }
+/* La mascara de SplitText recorta a la caja de la linea: con interlineados
+   cerrados se comia la parte alta de las mayusculas y los rabos. */
+h1 .linea-mask { padding: 0.06em 0 0.12em; margin: -0.06em 0 -0.12em; }
+
 .delay-1 { transition-delay: 0.10s; }
 .delay-2 { transition-delay: 0.20s; }
 .delay-3 { transition-delay: 0.35s; }
