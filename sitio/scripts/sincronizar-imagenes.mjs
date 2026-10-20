@@ -15,6 +15,17 @@ const aqui = dirname(fileURLToPath(import.meta.url));
 const origen = resolve(aqui, '../../img');
 const destino = resolve(aqui, '../public/img');
 
+/* --solo-raiz: lo que corre en cada `npm run build`. Copia img/ encima de
+   public/img sin borrar nada, asi una carpeta nueva de img/ (las fotos de
+   Quienes somos, por ejemplo) llega al build aunque nadie haya pasado por
+   `npm run dev`. No toca Magazine ni paginas, que no estan en git. */
+if (process.argv.includes('--solo-raiz')) {
+  await mkdir(destino, { recursive: true });
+  await cp(origen, destino, { recursive: true });
+  console.log(`fotos de img/: copiadas a public/img (sin borrar nada)`);
+  process.exit(0);
+}
+
 await rm(destino, { recursive: true, force: true });
 await mkdir(destino, { recursive: true });
 await cp(origen, destino, { recursive: true });
