@@ -38,15 +38,8 @@ function idiomasDePagina(rutaId: string): string[] {
 /** ruta española -> { idioma: ruta en ese idioma } */
 const mapa: Record<string, Record<string, string>> = {};
 
-/* La home se compone a mano en src/pages/index.astro y hoy solo se construye
-   en castellano, aunque sus home.<idioma>.json esten traducidos. Si entrase en
-   el mapa, el middleware mandaria a un aleman de / a /de, que no existe. Se
-   quita de aqui el dia que la home se publique en los seis idiomas. */
-const SOLO_CASTELLANO = new Set(['home']);
-
 // 1. Las páginas del manifiesto
 for (const r of RUTAS) {
-  if (SOLO_CASTELLANO.has(r.id)) continue;
   const disponibles = idiomasDePagina(r.id);
   const otros = IDIOMAS.filter((i) => i !== POR_DEFECTO && disponibles.includes(i));
   if (!otros.length) continue;

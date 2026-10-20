@@ -86,13 +86,26 @@ export const RESENAS: Resena[] = [
   },
 ];
 
+/** Frases de "hace cuanto" de un idioma (salen de src/datos/home.ts). */
+export interface FrasesHace {
+  semanas: string; mes: string; meses: (n: number) => string;
+  ano: string; anos: (n: number) => string;
+}
+
 /** "Hace 2 meses", "Hace un año"... como Google, contado desde el build. */
-export function haceCuanto(fecha: string, hoy = new Date()): string {
+export function haceCuanto(fecha: string, frases: FrasesHace, hoy = new Date()): string {
   const [a, m] = fecha.split('-').map(Number);
   const meses = (hoy.getFullYear() - a) * 12 + (hoy.getMonth() + 1 - m);
-  if (meses < 1) return 'Hace unas semanas';
-  if (meses === 1) return 'Hace un mes';
-  if (meses < 12) return `Hace ${meses} meses`;
+  if (meses < 1) return frases.semanas;
+  if (meses === 1) return frases.mes;
+  if (meses < 12) return frases.meses(meses);
   const anos = Math.floor(meses / 12);
-  return anos === 1 ? 'Hace un año' : `Hace ${anos} años`;
+  return anos === 1 ? frases.ano : frases.anos(anos);
+}
+
+/** El "4 reseñas · 1 foto" de Google, en otro idioma. "Local Guide" se queda. */
+export function metaResena(meta: string, frases: { resenas: (n: number) => string; fotos: (n: number) => string }): string {
+  return meta
+    .replace(/(\d+) reseñas?/, (_, n) => frases.resenas(Number(n)))
+    .replace(/(\d+) fotos?/, (_, n) => frases.fotos(Number(n)));
 }

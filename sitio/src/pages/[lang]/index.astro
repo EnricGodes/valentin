@@ -1,0 +1,11 @@
+---
+/** Home en los otros cinco idiomas (/en, /fr...). La pagina vive en components/Home.astro. */
+import { IDIOMAS, POR_DEFECTO, type Idioma } from '../../i18n/config';
+import Home from '../../components/Home.astro';
+
+export function getStaticPaths() {
+  return IDIOMAS.filter((i) => i !== POR_DEFECTO).map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: Idioma };
+---
+<Home idioma={lang} />

@@ -178,11 +178,15 @@ El sitio publicado ya no son los microsites de la raíz sino la app Astro de `si
 ### Aparición de los h1
 - Todos los h1 del sitio entran con el efecto del hero de la home (máscara + onda de color): `src/scripts/titulares.ts`, que carga GSAP solo si hay h1. Quedan fuera la home (lo hace `home.ts` con el mismo módulo) y la PA10/01 (`.p10`, animación propia).
 
+### Home en seis idiomas
+- La maqueta está en `src/components/Home.astro`; `pages/index.astro` (es) y `pages/[lang]/index.astro` (los otros cinco) solo la llaman.
+- Los textos están en `src/datos/home.ts`, traducidos a mano. Los `home.<idioma>.json` de Squarespace ya solo aportan las fotos de las generaciones: sus textos eran de traductor automático.
+- Las reseñas de Google se quedan como están; se traducen la fecha («hace 2 meses») y el «4 reseñas · 1 foto» de debajo del nombre.
+
 ## Pendientes (apuntados el 2026-10-20)
 
 Encargos de Enric para la próxima sesión, en este orden:
 
-1. **Traducir la home a los seis idiomas.** Hoy `src/pages/index.astro` es castellano escrito a mano (`idiomasPublicados={['es']}`). Los `home.<idioma>.json` son de la home vieja de Squarespace y no sirven para los textos nuevos. Al publicarla, quitar `home` de `SOLO_CASTELLANO` en `scripts/generar-mapa-idiomas.ts` y devolver el caso «navegador aleman en la home» de `scripts/probar-middleware.mjs` a `302 /de`. Las reseñas de Google se quedan en su idioma original.
-2. **Traducir PA10/01 a los seis idiomas.** Ruta `build-pa10-01` (slug `builds/pa10-01`, igual en todos los idiomas), datos en `src/datos/paginas/build-pa10-01.json` y componente `src/components/Pa10.astro`.
+1. **Traducir PA10/01 a los seis idiomas.** Ruta `build-pa10-01` (slug `builds/pa10-01`, igual en todos los idiomas), datos en `src/datos/paginas/build-pa10-01.json` y componente `src/components/Pa10.astro`.
 
-Para los dos: traducir a mano, con el glosario de `src/i18n/glosario.md`, como la ficha del 911 Carrera 3.2. No usar traductor automático. `npm run build` tiene que pasar entero.
+Traducir a mano, con el glosario de `src/i18n/glosario.md`, como la ficha del 911 Carrera 3.2. No usar traductor automático. `npm run build` tiene que pasar entero.
