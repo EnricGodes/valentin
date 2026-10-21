@@ -24,6 +24,7 @@
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^5.14.1",
     "gsap": "^3.13.0",
+    "maplibre-gl": "6.11.2",
     "remark-directive": "^4.0.0",
     "sharp": "^0.34.4"
   },

@@ -21,6 +21,8 @@ export interface Centro {
   email: string;
   /** [que, cuando] — el rotulo se traduce en quien lo pinta. */
   horas: { que: 'taller' | 'ventas'; cuando: string }[];
+  /** [longitud, latitud] para el mapa, en el orden que pide MapLibre. */
+  coordenadas: [number, number];
 }
 
 export const CENTROS: Centro[] = [
@@ -30,6 +32,7 @@ export const CENTROS: Centro[] = [
     tel: '+34 933 479 856', telHref: '+34933479856',
     email: 'info@valentinmotors.es',
     horas: [{ que: 'taller', cuando: '8:00 – 18:00' }],
+    coordenadas: [2.17465, 41.42112],
   },
   {
     rutaId: 'madrid', nombre: 'Madrid',
@@ -38,5 +41,8 @@ export const CENTROS: Centro[] = [
     email: 'madrid@valentinmotors.es',
     horas: [{ que: 'taller', cuando: '8:30 – 18:00' },
             { que: 'ventas', cuando: '8:30 – 19:00' }],
+    /* OpenStreetMap no tiene el numero 10 de Puig Adam: es el centro de la
+       calle, que es corta. */
+    coordenadas: [-3.74277, 40.32658],
   },
 ];

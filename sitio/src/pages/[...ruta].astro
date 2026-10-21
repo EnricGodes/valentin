@@ -23,6 +23,7 @@ import tarifas from '../datos/tarifas.json';
 import CasosMagazine from '../components/CasosMagazine.astro';
 import { getCollection } from 'astro:content';
 import Formulario from '../components/Formulario.astro';
+import Mapa from '../components/Mapa.astro';
 import NegocioLocal from '../components/seo/NegocioLocal.astro';
 import Vehiculo from '../components/seo/Vehiculo.astro';
 import Migas from '../components/seo/Migas.astro';
@@ -316,6 +317,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
       )}
     </article>
   )}
+
+  {(pagina?.tipo === 'contacto' || esCentro) && <Mapa idioma={idioma} centro={centro} />}
 
   {props.tipo === 'catalogo' && <CatalogoCoches coches={cochesDe(idioma)} idioma={idioma} />}
 

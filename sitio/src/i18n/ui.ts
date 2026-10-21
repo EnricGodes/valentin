@@ -331,6 +331,8 @@ export const UI = {
   'pie.taller':      { es: 'Taller', en: 'Workshop', fr: 'Atelier', it: 'Officina', de: 'Werkstatt', ca: 'Taller' },
   'pie.ventas':      { es: 'Ventas', en: 'Sales', fr: 'Ventes', it: 'Vendite', de: 'Verkauf', ca: 'Vendes' },
   'pie.siguenos':    { es: 'Síguenos', en: 'Follow us', fr: 'Suivez-nous', it: 'Seguici', de: 'Folgen Sie uns', ca: 'Segueix-nos' },
+  'mapa.llegar':     { es: 'Cómo llegar', en: 'Get directions', fr: 'Itinéraire', it: 'Indicazioni', de: 'Route planen', ca: 'Com arribar-hi' },
+  'mapa.etiqueta':   { es: 'Mapa del taller de', en: 'Map of the workshop in', fr: 'Plan de l’atelier de', it: 'Mappa dell’officina di', de: 'Karte der Werkstatt in', ca: 'Mapa del taller de' },
   'nav.menu':          { es: 'Menú', en: 'Menu', fr: 'Menu', it: 'Menu', de: 'Menü', ca: 'Menú' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 

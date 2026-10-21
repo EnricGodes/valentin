@@ -1,0 +1,154 @@
+---
+/**
+ * Mapa de los talleres, en Contacto (los dos) y en cada centro (el suyo).
+ *
+ * Las teselas son de OpenFreeMap: libres para uso comercial, sin clave y sin
+ * cookies, asi que el mapa no tiene que esperar al banner de consentimiento
+ * como esperaria un iframe de Google Maps. El estilo se recolorea con los
+ * tokens del sitio en scripts/mapa.ts; aqui solo va la caja y lo que se lee
+ * sin JS: la direccion y el enlace para llegar, que abre la app de mapas del
+ * telefono.
+ */
+import type { Idioma } from '../i18n/config';
+import { traductor } from '../i18n/ui';
+import { CENTROS } from '../datos/centros';
+
+interface Props { idioma: Idioma; centro: 'barcelona' | 'madrid' | 'ambos'; }
+const { idioma, centro } = Astro.props;
+const t = traductor(idioma);
+
+const lista = CENTROS.filter((c) => centro === 'ambos' || c.rutaId === centro);
+const llegar = (c: (typeof CENTROS)[number]) =>
+  `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
+    `Valentin Motors, ${c.calle.replace(' · ', ', ')}, ${c.ciudad}`)}`;
+---
+<section class:list={['mapas', { 'mapas--uno': lista.length === 1 }]}>
+  {lista.map((c) => (
+    <figure class="mapa reveal">
+      <div class="mapa-lienzo" data-mapa={JSON.stringify(c.coordenadas)}
+           role="img" aria-label={`${t('mapa.etiqueta')} ${c.nombre}`}></div>
+      <figcaption class="mapa-pie">
+        <span class="mapa-ciudad">{c.nombre}</span>
+        <span class="mapa-direccion">{c.calle}, {c.ciudad}</span>
+        <a class="mapa-llegar" href={llegar(c)} target="_blank" rel="noopener">
+          {t('mapa.llegar')} <span aria-hidden="true">↗</span>
+        </a>
+      </figcaption>
+    </figure>
+  ))}
+</section>
+
+<script>
+  /* MapLibre pesa: solo se descarga cuando el mapa se acerca a la pantalla,
+     con margen para que al llegar ya este pintado. */
+  const lienzos = document.querySelectorAll<HTMLElement>('[data-mapa]');
+  const pintar = async (el: HTMLElement) => {
+    const { pintarMapa } = await import('../scripts/mapa.ts');
+    pintarMapa(el);
+  };
+  if (!('IntersectionObserver' in window)) lienzos.forEach(pintar);
+  else {
+    const obs = new IntersectionObserver((entradas) => {
+      for (const e of entradas) {
+        if (!e.isIntersecting) continue;
+        obs.unobserve(e.target);
+        pintar(e.target as HTMLElement);
+      }
+    }, { rootMargin: '800px 0px' });
+    lienzos.forEach((el) => obs.observe(el));
+  }
+</script>
+
+<style>
+  .mapas {
+    max-width: var(--ancho-max);
+    margin: 0 auto;
+    padding: var(--pad-seccion) var(--pad-lateral) 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+  }
+  .mapas--uno { grid-template-columns: minmax(0, 1fr); }
+
+  .mapa { margin: 0; }
+  .mapa-lienzo {
+    aspect-ratio: 4 / 3;
+    background: var(--grafito);
+    border: 1px solid var(--linea);
+  }
+  .mapas--uno .mapa-lienzo { aspect-ratio: 21 / 9; }
+
+  .mapa-pie {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--linea-bronce);
+    margin-top: 16px;
+  }
+  .mapa-ciudad {
+    font-family: var(--mono);
+    font-size: var(--t-label);
+    letter-spacing: var(--tr-label);
+    text-transform: uppercase;
+    color: var(--bronce);
+  }
+  .mapa-direccion { font-size: var(--t-dato); color: var(--concreto); }
+  .mapa-llegar {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: var(--t-label);
+    letter-spacing: var(--tr-label);
+    text-transform: uppercase;
+    color: var(--blanco);
+    text-decoration: none;
+    transition: color 0.3s var(--ease);
+  }
+  .mapa-llegar:hover, .mapa-llegar:focus-visible { color: var(--bronce); }
+
+  /* Lo que pinta MapLibre no lleva el atributo de ambito de Astro. */
+  .mapa :global(.mapa-punto) {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--bronce);
+    box-shadow: 0 0 0 4px rgba(178, 138, 91, 0.22), 0 0 0 1px var(--negro);
+  }
+  .mapa :global(.mapa-punto::after) {
+    content: ''; position: absolute; inset: -4px; border-radius: 50%;
+    border: 1px solid var(--bronce);
+    animation: mapa-onda 2.6s var(--ease) infinite;
+  }
+  @keyframes mapa-onda {
+    from { transform: scale(1); opacity: 0.8; }
+    to   { transform: scale(3.2); opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .mapa :global(.mapa-punto::after) { animation: none; opacity: 0; }
+  }
+
+  .mapa :global(.maplibregl-ctrl-group) {
+    background: var(--negro);
+    border: 1px solid var(--linea-fuerte);
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .mapa :global(.maplibregl-ctrl-group button + button) { border-top: 1px solid var(--linea-fuerte); }
+  .mapa :global(.maplibregl-ctrl-group button .maplibregl-ctrl-icon) { filter: invert(0.85) sepia(0.3); }
+  .mapa :global(.maplibregl-ctrl-group button:not(:disabled):hover) { background: var(--carbon); }
+
+  .mapa :global(.maplibregl-ctrl-attrib) {
+    background: rgba(11, 11, 11, 0.75);
+    font-family: var(--mono);
+    font-size: var(--t-micro);
+    color: var(--concreto);
+  }
+  .mapa :global(.maplibregl-ctrl-attrib a) { color: var(--concreto); }
+  .mapa :global(.maplibregl-ctrl-attrib.maplibregl-compact) { background: var(--negro); }
+  .mapa :global(.maplibregl-ctrl-attrib-button) { filter: invert(0.85); background-color: transparent; }
+
+  @media (max-width: 760px) {
+    .mapas { grid-template-columns: minmax(0, 1fr); gap: 48px; }
+    .mapas--uno .mapa-lienzo { aspect-ratio: 4 / 3; }
+    .mapa-llegar { margin-left: 0; }
+  }
+</style>
