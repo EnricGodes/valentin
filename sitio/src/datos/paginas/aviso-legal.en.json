@@ -1,0 +1,118 @@
+{
+  "rutaId": "aviso-legal",
+  "tipo": "legal",
+  "ficheroOriginal": "aviso-legal",
+  "meta": {
+    "titulo": "Legal notice · Valentín Motors",
+    "descripcion": "Company details of VM German Engineering, S.L., owner of valentinmotors.es, and terms of use of the site.",
+    "ogImagen": ""
+  },
+  "h1": "Legal notice",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Website owner",
+      "parrafos": [
+        "In accordance with article 10 of Spanish Law 34/2002 on information society services and e-commerce (LSSI), the website www.valentinmotors.es is owned by:"
+      ],
+      "items": [
+        "Company name: VM German Engineering, S.L.",
+        "Tax ID (CIF): B67459958",
+        "Registered office: Gran Via de les Corts Catalanes, 752, 08013 Barcelona, Spain",
+        "Registered in the Barcelona Companies Register on 20 June 2019, volume 46980, folio 25, sheet 537145",
+        "Telephone: +34 933 479 856",
+        "Email: info@valentinmotors.es"
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Companies and locations",
+      "parrafos": [
+        "Valentín Motors operates through VM German Engineering, S.L. and 1979 VM German Werks, S.L. (tax ID B01798735, same registered office, registered in the Barcelona Companies Register on 30 June 2020).",
+        "Our workshops are at Carrer de Varsòvia, 65, 08041 Barcelona, and Calle Puig Adam, 10, Parque Sur, 28914 Leganés, Madrid."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Terms of use",
+      "parrafos": [
+        "Access to this website is free of charge. Users agree to use it lawfully and in accordance with these terms, and not to use it for unlawful purposes or in any way that could harm the site or third parties.",
+        "Submitting a form does not create a contract: it is a request for information, which we answer by email or telephone."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Prices and vehicle information",
+      "parrafos": [
+        "Prices, technical data and photographs of the vehicles and services published here are for information only and do not constitute a binding offer. Workshop prices are shown excluding VAT. The availability of each vehicle and the final terms of any sale or job are confirmed in writing."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Independence from Porsche",
+      "parrafos": [
+        "Valentín Motors is an independent specialist. It is neither a dealer nor an official service centre of Dr. Ing. h.c. F. Porsche AG or Porsche Ibérica. Porsche, 911, Carrera, Targa, Boxster, Cayman, Cayenne, Macan and Panamera are registered trademarks of Dr. Ing. h.c. F. Porsche AG and are used on this site only to identify the vehicles we work on.",
+        "We work with Porsche’s official technical information and recommend parts approved by the manufacturer. We accept no liability for damage caused by non-original parts or accessories fitted by third parties, which may also affect the warranty on the vehicle and on our work."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Intellectual property",
+      "parrafos": [
+        "The texts, photographs, videos, design and code of this site belong to VM German Engineering, S.L. or to their authors and are protected by intellectual property law. Reproduction, distribution or transformation without written permission is prohibited, except for brief quotations that cite the source."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Links",
+      "parrafos": [
+        "This site contains links to third-party sites (Google Maps, Instagram, YouTube and others). We do not control their content and accept no liability for it."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Dispute resolution",
+      "parrafos": [
+        "VM German Engineering, S.L. does not participate in any consumer arbitration scheme. For any complaint, please write to <a href=\"mailto:info@valentinmotors.es\">info@valentinmotors.es</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Governing law",
+      "parrafos": [
+        "This legal notice is governed by Spanish law. Last updated: October 2026."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 27,
+    "total": 27,
+    "completa": true
+  }
+}

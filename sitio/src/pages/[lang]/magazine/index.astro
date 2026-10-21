@@ -1,0 +1,54 @@
+---
+/**
+ * Indice del Magazine en los cinco idiomas con prefijo. El castellano vive en
+ * src/pages/magazine/index.astro, con sus categorias.
+ *
+ * Las categorias no se traducen (son etiquetas de archivo, solo en castellano),
+ * asi que aqui el indice es el listado sin filtros. Antes no existia y las migas
+ * de cada articulo traducido apuntaban a un 404.
+ */
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Nav from '../../../components/Nav.astro';
+import Pie from '../../../components/Pie.astro';
+import ListaMagazine from '../../../components/ListaMagazine.astro';
+import { traductor } from '../../../i18n/ui';
+import { idiomasDelMagazine } from '../../../datos/magazine';
+import { POR_DEFECTO, type Idioma } from '../../../i18n/config';
+
+export async function getStaticPaths() {
+  const idiomas = await idiomasDelMagazine();
+  return idiomas.filter((i) => i !== POR_DEFECTO).map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Idioma };
+const idioma = lang;
+const t = traductor(idioma);
+const idiomasPublicados = await idiomasDelMagazine();
+const posts = (await getCollection('magazine', (p) => p.data.lang === idioma))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+<Base
+  idioma={idioma}
+  rutaId="magazine"
+  idiomasPublicados={idiomasPublicados}
+  titulo="Magazine · Valentin Motors"
+  descripcion={t('magazine.descripcion')}
+>
+  <Nav slot="nav" idioma={idioma} rutaId="magazine" idiomasPublicados={idiomasPublicados} />
+  <Pie slot="pie" idioma={idioma} rutaId="magazine" idiomasPublicados={idiomasPublicados} />
+
+  <header class="post-reja mag-cabecera">
+    <h1 class="mag-titulo ancha reveal">
+      <em>Valentin Motors</em>
+      Magazine
+    </h1>
+    <nav class="mag-filtros ancha reveal delay-1">
+      <span>{t('magazine.articulos').replace('{n}', String(posts.length))}</span>
+    </nav>
+  </header>
+
+  <div class="post-reja">
+    <ListaMagazine posts={posts} idioma={idioma} destacado columnas={2} urgentes={4} />
+  </div>
+</Base>

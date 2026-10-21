@@ -24,3 +24,11 @@ sitio/revision/
 # Lo genera scripts/generar-mapa-idiomas.ts en cada build, con las
 # traducciones realmente publicadas. Es derivado, no fuente.
 sitio/functions/mapa-idiomas.json
+
+# Secretos y estado local de Cloudflare (wrangler): nunca al repo
+.env
+.env.*
+.dev.vars
+sitio/.dev.vars
+sitio/.wrangler/
+.wrangler/

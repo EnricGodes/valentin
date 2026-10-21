@@ -54,6 +54,8 @@ const ventaGuia = post.data.categories.includes('iconos')
   idioma={idioma}
   rutaId="magazine"
   extra={[post.data.slugFinal]}
+  imagen={portada}
+  ogTipo="article"
   idiomasPublicados={idiomas}
   titulo={post.data.metaTitulo ?? `${post.data.title} · Valentín Motors`}
   descripcion={post.data.metaDescripcion ?? limpio(post.data.excerpt).slice(0, 300)}
@@ -81,7 +83,7 @@ const ventaGuia = post.data.categories.includes('iconos')
     <header class:list={['post-portada', !heroFoto && 'post-portada--texto']}>
       {heroFoto && (
         <div class="post-portada-foto">
-          <img src={heroFoto} alt="" fetchpriority="high" decoding="async">
+          <img src={heroFoto} alt={post.data.title} fetchpriority="high" decoding="async">
         </div>
       )}
 
@@ -137,12 +139,7 @@ const ventaGuia = post.data.categories.includes('iconos')
         </aside>
       )}
       <footer class="post-pie">
-        {/* El indice del Magazine solo se genera en castellano: los articulos
-            traducidos existen, su listado todavia no. Hasta que exista, se
-            vuelve al indice espanol en vez de a un 404. */}
-        <a class="post-volver" href={url('magazine', POR_DEFECTO)}
-           lang={idioma === POR_DEFECTO ? undefined : POR_DEFECTO}
-           hreflang={idioma === POR_DEFECTO ? undefined : POR_DEFECTO}>&larr; {t('post.volver')}</a>
+        <a class="post-volver" href={url('magazine', idioma)}>&larr; {t('post.volver')}</a>
       </footer>
     </div>
   </article>

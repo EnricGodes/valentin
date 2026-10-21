@@ -40,7 +40,12 @@ const YA_TIENE_IDIOMA = /^\/(en|fr|it|de|ca)(\/|$)/;
    se reconozca como bot y venga con Accept-Language se tratará como persona,
    y una persona redirigida no rompe nada. Lo que sí rompe es redirigir a
    Googlebot, y Googlebot está aquí. */
-const BOT = /bot|crawler|spider|crawling|slurp|bingpreview|facebookexternalhit|embedly|quora|pinterest|vkshare|whatsapp|telegram|gptbot|claudebot|perplexity|ccbot|applebot|duckduck|yandex|baidu|semrush|ahrefs|lighthouse|headless/i;
+const BOT = /bot|crawler|spider|crawling|slurp|bingpreview|google-inspectiontool|googleother|google-extended|chrome-lighthouse|facebookexternalhit|embedly|quora|pinterest|vkshare|whatsapp|telegram|gptbot|claudebot|perplexity|ccbot|applebot|duckduck|yandex|baidu|semrush|ahrefs|lighthouse|headless/i;
+
+/* El unico host que se indexa. La URL temporal de Cloudflare (*.pages.dev) y
+   las vistas previas de cada deploy sirven el mismo HTML, con el canonical a
+   produccion pero sin nada que impida indexarlas: se marcan noindex aqui. */
+const PRODUCCION = 'www.valentinmotors.es';
 
 /** El idioma preferido del navegador, entre los que tenemos. */
 function idiomaPreferido(cabecera: string | null): Idioma | null {
@@ -68,12 +73,18 @@ export const onRequest: PagesFunction = async (context) => {
   const { request, next } = context;
   const url = new URL(request.url);
 
+  const noIndexar = url.hostname !== PRODUCCION;
+
   const responder = async () => {
     const res = await next();
-    /* Se marca SIEMPRE, también cuando no se redirige: si no, la CDN podría
-       guardar esta respuesta y servírsela a un visitante de otro idioma. */
     const copia = new Response(res.body, res);
-    copia.headers.append('Vary', 'Accept-Language, Cookie');
+    /* Se marca SIEMPRE en los documentos, también cuando no se redirige: si
+       no, la CDN podría guardar esta respuesta y servírsela a un visitante de
+       otro idioma. */
+    if ((copia.headers.get('content-type') ?? '').includes('text/html')) {
+      copia.headers.append('Vary', 'Accept-Language, Cookie');
+    }
+    if (noIndexar) copia.headers.set('X-Robots-Tag', 'noindex, nofollow');
     return copia;
   };
 
@@ -103,6 +114,7 @@ export const onRequest: PagesFunction = async (context) => {
       Location: destino + url.search,
       'Vary': 'Accept-Language, Cookie',
       'Cache-Control': 'no-store',
+      ...(noIndexar ? { 'X-Robots-Tag': 'noindex, nofollow' } : {}),
     },
   });
 };

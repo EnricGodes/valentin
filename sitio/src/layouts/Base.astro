@@ -5,6 +5,7 @@ import { traductor } from '../i18n/ui';
 import Cursor from '../components/Cursor.astro';
 import Analitica from '../components/Analitica.astro';
 import BannerCookies from '../components/BannerCookies.astro';
+import '../styles/fuentes.css';
 import '../styles/tokens.css';
 import '../styles/system.css';
 
@@ -22,6 +23,8 @@ interface Props {
   /** Clase de realce del vehiculo, p. ej. "realce--ruf". */
   realce?: string;
   imagen?: string;
+  /** `article` en los posts del Magazine; el resto es `website`. */
+  ogTipo?: 'website' | 'article';
   noindex?: boolean;
   /** Contexto para los eventos de conversion: que tipo de pagina es y, si
       procede, de que coche. Sin esto no se sabe QUE ficha genero el contacto. */
@@ -31,14 +34,19 @@ interface Props {
 
 const {
   idioma, rutaId, extra = [], idiomasPublicados = IDIOMAS,
-  titulo, descripcion, realce = '', imagen, noindex = false,
+  titulo, descripcion, realce = '', imagen, ogTipo = 'website', noindex = false,
   tipoPagina, coche,
 } = Astro.props;
 
 const t = traductor(idioma);
 const canonical = urlAbsoluta(rutaId, idioma, ...extra);
 const alt = alternantes(rutaId, idiomasPublicados, ...extra);
-const og = imagen ? new URL(imagen, DOMINIO).href : undefined;
+/* Sin imagen propia, la del taller: compartida en WhatsApp o LinkedIn una
+   pagina sin og:image sale como un enlace desnudo. */
+const og = new URL(imagen ?? '/img/paginas/47048331-taller01.jpg', DOMINIO).href;
+const LOCALE: Record<Idioma, string> = {
+  es: 'es_ES', en: 'en_GB', fr: 'fr_FR', it: 'it_IT', de: 'de_DE', ca: 'ca_ES',
+};
 ---
 <!doctype html>
 <html lang={idioma} class={realce}>
@@ -52,28 +60,35 @@ const og = imagen ? new URL(imagen, DOMINIO).href : undefined;
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="canonical" href={canonical}>
-  {noindex && <meta name="robots" content="noindex, nofollow">}
+  {/* Una pagina noindex (la 404, /sistema) no declara canonical ni hreflang:
+      apuntar a otra URL desde algo que no se indexa solo confunde. */}
+  {noindex ? <meta name="robots" content="noindex, nofollow"> : <link rel="canonical" href={canonical}>}
 
   {/* Cada version de idioma es canonica de si misma y declara a todas las
       demas, incluida ella. Sin reciprocidad Google ignora el conjunto. */}
-  {alt.map(({ idioma: i, href }) => (
+  {!noindex && alt.map(({ idioma: i, href }) => (
     <link rel="alternate" hreflang={HREFLANG[i]} href={href}>
   ))}
-  <link rel="alternate" hreflang="x-default" href={xDefault(rutaId, ...extra)}>
+  {!noindex && <link rel="alternate" hreflang="x-default" href={xDefault(rutaId, ...extra)}>}
 
-  <meta property="og:type" content="website">
+  <meta property="og:type" content={ogTipo}>
+  <meta property="og:site_name" content="Valentín Motors">
   <meta property="og:title" content={titulo}>
   <meta property="og:description" content={descripcion}>
   <meta property="og:url" content={canonical}>
-  <meta property="og:locale" content={idioma}>
-  {og && <meta property="og:image" content={og}>}
+  <meta property="og:locale" content={LOCALE[idioma]}>
+  {!noindex && alt.filter((a) => a.idioma !== idioma).map((a) => (
+    <meta property="og:locale:alternate" content={LOCALE[a.idioma]}>
+  ))}
+  <meta property="og:image" content={og}>
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={titulo}>
+  <meta name="twitter:description" content={descripcion}>
+  <meta name="twitter:image" content={og}>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..400&display=swap">
+  {/* Inter es la del cuerpo: se precarga para que el primer pintado no
+      cambie de letra. Las demas llegan con src/styles/fuentes.css. */}
+  <link rel="preload" href="/fonts/web/inter-latin-bec94a4d.woff2" as="font" type="font/woff2" crossorigin>
 
   <slot name="head" />
   <Analitica />

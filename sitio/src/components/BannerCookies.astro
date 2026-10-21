@@ -1,6 +1,5 @@
 ---
 import type { Idioma } from '../i18n/config';
-import { POR_DEFECTO } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 
@@ -15,7 +14,7 @@ const t = traductor(idioma);
   <p class="cookies-texto">
     {t('cookies.texto')}
     {' '}
-    <a href={url('cookies', POR_DEFECTO)} lang="es" hreflang="es">{t('cookies.masInfo')}</a>
+    <a href={url('cookies', idioma)}>{t('cookies.masInfo')}</a>
   </p>
   <div class="cookies-botones">
     <button type="button" class="cookies-btn cookies-btn--no" data-cookies="rechazado">
@@ -36,21 +35,22 @@ const t = traductor(idioma);
     try { decidido = localStorage.getItem(CLAVE); } catch (e) { decidido = 'rechazado'; }
     if (!decidido) caja.hidden = false;
 
+    /* "Configurar cookies" del pie: vuelve a abrir el banner. La AEPD pide que
+       retirar el consentimiento sea tan facil como darlo. */
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('[data-abrir-cookies]')) return;
+      e.preventDefault();
+      caja.hidden = false;
+    });
+
     caja.addEventListener('click', function (e) {
       const b = e.target.closest('[data-cookies]');
       if (!b) return;
       const valor = b.dataset.cookies;
       try { localStorage.setItem(CLAVE, valor); } catch (e) { /* modo privado */ }
       caja.hidden = true;
-      if (valor === 'aceptado' && window.gtag) {
-        gtag('consent', 'update', { analytics_storage: 'granted' });
-        const s = document.createElement('script');
-        s.async = true;
-        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-7BXF6VQQMP';
-        document.head.appendChild(s);
-        gtag('js', new Date());
-        gtag('config', 'G-7BXF6VQQMP', { anonymize_ip: true });
-      }
+      if (valor === 'aceptado') window.vmIniciarGA && window.vmIniciarGA();
+      else window.vmRetirarGA && window.vmRetirarGA();
     });
   })();
 </script>

@@ -1,0 +1,127 @@
+{
+  "rutaId": "privacidad",
+  "tipo": "legal",
+  "ficheroOriginal": "poltica-de-privacidad",
+  "meta": {
+    "titulo": "Política de privacitat · Valentín Motors",
+    "descripcion": "Quines dades personals tractem, per a què, amb qui les compartim, quant de temps les conservem i com exercir els teus drets.",
+    "ogImagen": ""
+  },
+  "h1": "Política de privacitat",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Responsable del tractament",
+      "parrafos": [
+        "Els responsables del tractament de les teves dades són VM German Engineering, S.L. (CIF B67459958) i 1979 VM German Werks, S.L. (CIF B01798735), que operen conjuntament amb la marca Valentín Motors, amb domicili social a Gran Via de les Corts Catalanes, 752, 08013 Barcelona.",
+        "Per a qualsevol qüestió sobre les teves dades ens pots escriure a <a href=\"mailto:info@valentinmotors.es\">info@valentinmotors.es</a> o trucar al +34 933 479 856."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quines dades tractem",
+      "parrafos": [
+        "Només les que ens dones i les imprescindibles perquè el lloc funcioni:"
+      ],
+      "items": [
+        "Formulari de contacte: nom, correu electrònic, telèfon (opcional), model del teu Porsche (opcional), centre preferit, motiu i missatge, a més de l’idioma i la pàgina des de la qual escrius.",
+        "Clients del taller i de compravenda: les dades identificatives, de contacte, del vehicle i de facturació necessàries per pressupostar, executar i facturar el treball o l’operació.",
+        "Navegació: adreça IP i dades tècniques del navegador, que tracta el nostre proveïdor d’allotjament per servir el lloc i protegir-lo d’atacs.",
+        "Analítica: dades d’ús del lloc sense galetes i, només si ho acceptes a l’avís de galetes, Google Analytics."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Per a què les fem servir i amb quina base legal",
+      "parrafos": [],
+      "items": [
+        "Respondre la teva consulta, preparar un pressupost o donar-te cita. Base legal: aplicació de mesures precontractuals a petició teva (art. 6.1.b RGPD).",
+        "Prestar el servei de taller o la compravenda d’un vehicle i complir les obligacions comptables i fiscals. Base legal: execució del contracte i obligació legal (art. 6.1.b i 6.1.c RGPD).",
+        "Protegir el lloc i el formulari d’abusos i enviaments automàtics. Base legal: interès legítim a mantenir un servei segur (art. 6.1.f RGPD).",
+        "Mesurar l’ús del lloc per millorar-lo. Sense galetes, per interès legítim; amb Google Analytics, només amb el teu consentiment (art. 6.1.a RGPD), que pots retirar en qualsevol moment.",
+        "Enviar-te comunicacions comercials, només si ens has donat el teu consentiment exprés o ets client i no t’hi has oposat (art. 21 LSSI)."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Amb qui les compartim",
+      "parrafos": [
+        "No venem ni cedim les teves dades. Les tracten, per compte nostre i amb contracte d’encàrrec, els proveïdors imprescindibles per al servei:"
+      ],
+      "items": [
+        "Cloudflare, Inc.: allotjament del lloc, seguretat, verificació antispam del formulari (Turnstile) i estadístiques de visites sense galetes.",
+        "Resend (Plus Five Five, Inc.): enviament dels missatges del formulari a les nostres bústies.",
+        "Microsoft Ireland Operations Ltd.: correu electrònic corporatiu (Microsoft 365), on rebem i responem els teus missatges.",
+        "Google Ireland Ltd.: Google Analytics, només si acceptes les galetes d’analítica.",
+        "Google (YouTube): els vídeos del Magazine es carreguen en mode de privacitat millorada i només es connecten amb YouTube quan els reprodueixes.",
+        "OpenFreeMap: dibuixa els mapes dels nostres centres i rep la teva adreça IP per servir-los."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Transferències internacionals",
+      "parrafos": [
+        "Cloudflare, Resend i Google poden tractar dades als Estats Units. Aquestes transferències s’emparen en el Marc de Privacitat de Dades UE-EUA, en què estan certificades, o en les clàusules contractuals tipus aprovades per la Comissió Europea."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Quant de temps les conservem",
+      "parrafos": [],
+      "items": [
+        "Consultes que no esdevenen encàrrec: el temps necessari per atendre-les i, després, un màxim de dos anys, llevat que ens demanis abans que les esborrem.",
+        "Clients: mentre duri la relació i, després, durant els terminis legals de prescripció i els que exigeix la normativa fiscal i mercantil (fins a sis anys).",
+        "Dades d’analítica de Google Analytics: catorze mesos."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Els teus drets",
+      "parrafos": [
+        "Pots accedir a les teves dades, rectificar-les, suprimir-les, oposar-te al tractament, demanar-ne la limitació o la portabilitat i retirar el consentiment que hagis donat escrivint a <a href=\"mailto:info@valentinmotors.es\">info@valentinmotors.es</a>. Si no quedes satisfet amb la nostra resposta, pots reclamar davant l’Agència Espanyola de Protecció de Dades (<a href=\"https://www.aepd.es\">www.aepd.es</a>)."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Menors",
+      "parrafos": [
+        "Aquest lloc no s’adreça a menors de catorze anys i no en recollim conscientment les dades."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Seguretat i canvis",
+      "parrafos": [
+        "El lloc se serveix sempre xifrat (HTTPS) i apliquem mesures tècniques i organitzatives adequades per protegir les teves dades. Si canviem aquesta política, en publicarem aquí la nova versió. Darrera actualització: octubre de 2026."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 35,
+    "total": 35,
+    "completa": true
+  }
+}

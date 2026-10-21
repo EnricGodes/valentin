@@ -31,20 +31,41 @@ const {
     ad_user_data: 'denied',
     ad_personalization: 'denied',
     analytics_storage: 'denied',
-    wait_for_update: 500,
   });
 
-  const CLAVE = 'vm-consentimiento';
-  let leido = null;
-  try { leido = localStorage.getItem(CLAVE); } catch (e) { /* modo privado */ }
-
-  if (leido === 'aceptado') {
+  /* Arranque de GA4, el unico: lo llaman esta pagina si ya habia consentimiento
+     y el banner cuando se acepta. Fuera de www.valentinmotors.es (la URL
+     temporal de Cloudflare, astro dev) el trafico se marca como interno, y el
+     filtro de datos de GA4 lo aparta de los informes. */
+  let arrancado = false;
+  window.vmIniciarGA = function () {
+    if (arrancado) return;
+    arrancado = true;
     gtag('consent', 'update', { analytics_storage: 'granted' });
     const s = document.createElement('script');
     s.async = true;
     s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4;
     document.head.appendChild(s);
     gtag('js', new Date());
-    gtag('config', ga4, { anonymize_ip: true });
-  }
+    const interno = location.hostname !== 'www.valentinmotors.es';
+    gtag('config', ga4, interno ? { traffic_type: 'internal', debug_mode: true } : {});
+  };
+
+  /* Retirar el consentimiento: se deniega y se borran las cookies de GA, que
+     de otro modo seguirian ahi hasta caducar. */
+  window.vmRetirarGA = function () {
+    gtag('consent', 'update', { analytics_storage: 'denied' });
+    const dominio = location.hostname.replace(/^www\./, '');
+    document.cookie.split(';').map((c) => c.split('=')[0].trim())
+      .filter((n) => n === '_ga' || n.startsWith('_ga_'))
+      .forEach((n) => {
+        for (const d of ['', '; domain=' + dominio, '; domain=.' + dominio]) {
+          document.cookie = n + '=; max-age=0; path=/' + d;
+        }
+      });
+  };
+
+  let leido = null;
+  try { leido = localStorage.getItem('vm-consentimiento'); } catch (e) { /* modo privado */ }
+  if (leido === 'aceptado') window.vmIniciarGA();
 </script>

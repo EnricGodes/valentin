@@ -1,0 +1,127 @@
+{
+  "rutaId": "privacidad",
+  "tipo": "legal",
+  "ficheroOriginal": "poltica-de-privacidad",
+  "meta": {
+    "titulo": "Privacy policy · Valentín Motors",
+    "descripcion": "What personal data we process, why, who we share it with, how long we keep it and how to exercise your rights.",
+    "ogImagen": ""
+  },
+  "h1": "Privacy policy",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Data controller",
+      "parrafos": [
+        "The controllers of your data are VM German Engineering, S.L. (tax ID B67459958) and 1979 VM German Werks, S.L. (tax ID B01798735), which operate jointly under the Valentín Motors brand, with registered office at Gran Via de les Corts Catalanes, 752, 08013 Barcelona, Spain.",
+        "For any question about your data, write to <a href=\"mailto:info@valentinmotors.es\">info@valentinmotors.es</a> or call +34 933 479 856."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "What data we process",
+      "parrafos": [
+        "Only what you give us and what the site needs in order to work:"
+      ],
+      "items": [
+        "Contact form: name, email address, telephone (optional), your Porsche model (optional), preferred location, subject and message, plus the language and page you write from.",
+        "Workshop and sales customers: the identification, contact, vehicle and billing details needed to quote, carry out and invoice the job or transaction.",
+        "Browsing: IP address and technical browser data, processed by our hosting provider to serve the site and protect it from attacks.",
+        "Analytics: cookieless usage data and, only if you accept it in the cookie notice, Google Analytics."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Why we use it and on what legal basis",
+      "parrafos": [],
+      "items": [
+        "To answer your enquiry, prepare a quote or book an appointment. Legal basis: steps taken at your request before entering into a contract (Art. 6(1)(b) GDPR).",
+        "To provide workshop services or the sale of a vehicle and to meet accounting and tax obligations. Legal basis: performance of a contract and legal obligation (Art. 6(1)(b) and (c) GDPR).",
+        "To protect the site and the form from abuse and automated submissions. Legal basis: legitimate interest in a secure service (Art. 6(1)(f) GDPR).",
+        "To measure use of the site in order to improve it. Without cookies, on the basis of legitimate interest; with Google Analytics, only with your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time.",
+        "To send you marketing communications, only if you have expressly consented or are a customer and have not objected (Art. 21 LSSI)."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Who we share it with",
+      "parrafos": [
+        "We do not sell or disclose your data. It is processed on our behalf, under data processing agreements, by the providers essential to the service:"
+      ],
+      "items": [
+        "Cloudflare, Inc.: site hosting, security, anti-spam verification of the form (Turnstile) and cookieless visitor statistics.",
+        "Resend (Plus Five Five, Inc.): delivery of form messages to our mailboxes.",
+        "Microsoft Ireland Operations Ltd.: corporate email (Microsoft 365), where we receive and answer your messages.",
+        "Google Ireland Ltd.: Google Analytics, only if you accept analytics cookies.",
+        "Google (YouTube): Magazine videos load in privacy-enhanced mode and only connect to YouTube when you play them.",
+        "OpenFreeMap: draws the maps of our locations and receives your IP address in order to serve them."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "International transfers",
+      "parrafos": [
+        "Cloudflare, Resend and Google may process data in the United States. These transfers rely on the EU-US Data Privacy Framework, under which they are certified, or on the standard contractual clauses approved by the European Commission."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "How long we keep it",
+      "parrafos": [],
+      "items": [
+        "Enquiries that do not lead to an order: for as long as needed to deal with them and then for a maximum of two years, unless you ask us to delete them sooner.",
+        "Customers: for the duration of the relationship and then for the statutory limitation periods and those required by tax and commercial law (up to six years).",
+        "Google Analytics data: fourteen months."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Your rights",
+      "parrafos": [
+        "You can access, rectify or erase your data, object to its processing, request restriction or portability, and withdraw any consent you have given by writing to <a href=\"mailto:info@valentinmotors.es\">info@valentinmotors.es</a>. If you are not satisfied with our reply, you can lodge a complaint with the Spanish Data Protection Agency (<a href=\"https://www.aepd.es\">www.aepd.es</a>)."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Minors",
+      "parrafos": [
+        "This site is not aimed at children under fourteen and we do not knowingly collect their data."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Security and changes",
+      "parrafos": [
+        "The site is always served encrypted (HTTPS) and we apply appropriate technical and organisational measures to protect your data. If we change this policy, we will publish the new version here. Last updated: October 2026."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 35,
+    "total": 35,
+    "completa": true
+  }
+}

@@ -1,5 +1,5 @@
 ---
-import type { SeccionPagina } from '../datos/pagina';
+import { existeEn, type SeccionPagina } from '../datos/pagina';
 import { enlazaEnIdioma } from '../i18n/routes';
 import { POR_DEFECTO, type Idioma } from '../i18n/config';
 import { traductor } from '../i18n/ui';
@@ -45,7 +45,7 @@ const utiles = secciones.filter((s, i) =>
           : <h3 class="bloque-subtitulo reveal">{s.titulo}</h3>)}
         {s.parrafos.length > 0 && (
           <div class="texto-editorial reveal delay-1">
-            {s.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma)} />)}
+            {s.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma, existeEn(idioma))} />)}
           </div>
         )}
         {s.items.length > 0 && (
@@ -53,7 +53,7 @@ const utiles = secciones.filter((s, i) =>
         )}
         {s.enlace && (
           <p class="bloque-enlace reveal delay-2">
-            <a class="cta" href={enlazaEnIdioma(`href="${s.enlace.href}"`, idioma).replace(/^href="|"$/g, '')}>{s.enlace.texto}</a>
+            <a class="cta" href={enlazaEnIdioma(`href="${s.enlace.href}"`, idioma, existeEn(idioma)).replace(/^href="|"$/g, '')}>{s.enlace.texto}</a>
           </p>
         )}
       </div>

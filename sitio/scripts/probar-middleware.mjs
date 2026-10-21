@@ -16,8 +16,10 @@ import mapa from '../functions/mapa-idiomas.json' with { type: 'json' };
  * caia el dia que esa pagina se traducia, que es un dia bueno: lo que se
  * comprueba es la regla, no que a una pagina concreta le falte el aleman.
  */
+// Si todas las paginas del mapa tienen aleman, vale cualquier ruta que no
+// este en el: para el middleware es exactamente el mismo caso.
 const SIN_ALEMAN = Object.keys(mapa).find((r) => r !== '/' && !mapa[r]?.de)
-  ?? '/aviso-legal';
+  ?? '/pagina-solo-en-castellano';
 
 const next = async () =>
   new Response('<html>ok</html>', { headers: { 'content-type': 'text/html' } });

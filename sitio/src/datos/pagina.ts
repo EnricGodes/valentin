@@ -92,6 +92,11 @@ export const idiomasDe = (rutaId: string): Idioma[] =>
                         (x.idioma === POR_DEFECTO || x.pagina.traduccion?.completa !== false))
          .map((x) => x.idioma);
 
+/** Si la ruta esta publicada en ese idioma. Las rutas que no son paginas de
+ *  contenido (catalogo, Magazine, herramientas) existen en los seis. */
+export const existeEn = (idioma: Idioma) => (rutaId: string): boolean =>
+  !paginaPorRuta(rutaId) || idiomasDe(rutaId).includes(idioma);
+
 /** Paginas listas para publicar, con su idioma. */
 export const publicables = () =>
   PAGINAS.filter((x) => x.idioma === POR_DEFECTO || x.pagina.traduccion?.completa !== false);

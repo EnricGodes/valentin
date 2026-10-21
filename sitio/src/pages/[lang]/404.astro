@@ -1,0 +1,11 @@
+---
+/** 404 de cada prefijo de idioma: Cloudflare sirve el 404.html mas cercano. */
+import { IDIOMAS, POR_DEFECTO, type Idioma } from '../../i18n/config';
+import Error404 from '../../components/Error404.astro';
+
+export function getStaticPaths() {
+  return IDIOMAS.filter((i) => i !== POR_DEFECTO).map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: Idioma };
+---
+<Error404 idioma={lang} />

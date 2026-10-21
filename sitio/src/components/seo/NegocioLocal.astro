@@ -1,5 +1,12 @@
 ---
 import { DOMINIO } from '../../i18n/config';
+import { CENTROS as DATOS_CENTROS } from '../../datos/centros';
+import { ID_ORGANIZACION, LOGO, PERFILES } from './organizacion';
+
+const geo = (id: 'barcelona' | 'madrid') => {
+  const [longitude, latitude] = DATOS_CENTROS.find((c) => c.rutaId === id)!.coordenadas;
+  return { '@type': 'GeoCoordinates', latitude, longitude };
+};
 
 /**
  * JSON-LD de los dos centros.
@@ -12,7 +19,7 @@ import { DOMINIO } from '../../i18n/config';
  * frente al 3,1% de Madrid.
  */
 interface Props { centro?: 'barcelona' | 'madrid' | 'ambos'; }
-const { centro = 'ambos' } = Astro.props;
+const { centro = 'ambos' } = Astro.props as Props;
 
 const CENTROS = {
   barcelona: {
@@ -30,6 +37,7 @@ const CENTROS = {
     telephone: '+34933479856',
     url: `${DOMINIO}/barcelona`,
     openingHours: 'Mo-Fr 08:00-18:00',
+    geo: geo('barcelona'),
   },
   madrid: {
     '@type': 'AutoRepair',
@@ -47,13 +55,13 @@ const CENTROS = {
     email: 'madrid@valentinmotors.es',
     url: `${DOMINIO}/madrid`,
     openingHours: 'Mo-Fr 08:30-18:00',
+    geo: geo('madrid'),
   },
 } as const;
 
 const comunes = {
   priceRange: '$$$',
   email: 'info@valentinmotors.es',
-  brand: { '@type': 'Brand', name: 'Porsche' },
   areaServed: { '@type': 'Country', name: 'España' },
   knowsAbout: [
     'Mantenimiento Porsche', 'Restauración Porsche', 'Reparación IMS',
@@ -70,17 +78,21 @@ const datos = {
   '@graph': [
     {
       '@type': 'Organization',
-      '@id': `${DOMINIO}#organizacion`,
+      '@id': ID_ORGANIZACION,
       name: 'Valentín Motors',
       legalName: 'VM German Engineering, S.L.',
-      url: DOMINIO,
+      url: `${DOMINIO}/`,
+      logo: { '@type': 'ImageObject', url: LOGO },
+      image: `${DOMINIO}/img/paginas/47048331-taller01.jpg`,
+      sameAs: PERFILES,
       foundingDate: '1979',
       description: 'Especialistas Porsche desde 1979, con talleres en Barcelona y Madrid.',
       department: lista.map((c) => ({ '@id': c['@id'] })),
     },
     ...lista.map((c) => ({
       ...comunes, ...c,
-      parentOrganization: { '@id': `${DOMINIO}#organizacion` },
+      image: `${DOMINIO}/img/paginas/47048331-taller01.jpg`,
+      parentOrganization: { '@id': ID_ORGANIZACION },
     })),
   ],
 };

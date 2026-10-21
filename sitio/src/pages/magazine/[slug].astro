@@ -60,6 +60,8 @@ const ventaGuia = post.data.categories.includes('iconos')
   idioma={idioma}
   rutaId="magazine"
   extra={[post.data.slugFinal]}
+  imagen={portada}
+  ogTipo="article"
   idiomasPublicados={idiomas}
   titulo={post.data.metaTitulo ?? `${post.data.title} · Valentín Motors`}
   descripcion={post.data.metaDescripcion ?? descripcion}
@@ -87,7 +89,7 @@ const ventaGuia = post.data.categories.includes('iconos')
     <header class:list={['post-portada', !heroFoto && 'post-portada--texto']}>
       {heroFoto && (
         <div class="post-portada-foto">
-          <img src={heroFoto} alt="" fetchpriority="high" decoding="async">
+          <img src={heroFoto} alt={post.data.title} fetchpriority="high" decoding="async">
         </div>
       )}
 

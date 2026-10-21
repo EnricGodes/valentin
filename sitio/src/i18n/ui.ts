@@ -34,7 +34,7 @@ export const UI = {
   'pie.legal':       { es: 'Aviso legal', en: 'Legal notice', fr: 'Mentions légales', it: 'Note legali', de: 'Impressum', ca: 'Avis legal' },
   'pie.privacidad':  { es: 'Privacidad', en: 'Privacy', fr: 'Confidentialité', it: 'Privacy', de: 'Datenschutz', ca: 'Privacitat' },
   'pie.cookies':     { es: 'Cookies', en: 'Cookies', fr: 'Cookies', it: 'Cookie', de: 'Cookies', ca: 'Cookies' },
-  'pie.soloEspanol': { es: '', en: 'in Spanish', fr: 'en espagnol', it: 'in spagnolo', de: 'auf Spanisch', ca: 'en castellà' },
+  'pie.configurarCookies': { es: 'Configurar cookies', en: 'Cookie settings', fr: 'Paramètres des cookies', it: 'Impostazioni cookie', de: 'Cookie-Einstellungen', ca: 'Configura les galetes' },
 
   'catalogo.titulo': {
     es: 'Porsche en venta: segunda mano y colección · Valentín Motors',
@@ -334,6 +334,25 @@ export const UI = {
   'mapa.llegar':     { es: 'Cómo llegar', en: 'Get directions', fr: 'Itinéraire', it: 'Indicazioni', de: 'Route planen', ca: 'Com arribar-hi' },
   'mapa.etiqueta':   { es: 'Mapa del taller de', en: 'Map of the workshop in', fr: 'Plan de l’atelier de', it: 'Mappa dell’officina di', de: 'Karte der Werkstatt in', ca: 'Mapa del taller de' },
   'nav.menu':          { es: 'Menú', en: 'Menu', fr: 'Menu', it: 'Menu', de: 'Menü', ca: 'Menú' },
+
+  'magazine.descripcion': {
+    es: 'Restauraciones, mecánica y modelos Porsche contados por los especialistas de Valentin Motors.',
+    en: 'Porsche restorations, mechanics and models, written by the specialists at Valentin Motors.',
+    fr: 'Restaurations, mécanique et modèles Porsche racontés par les spécialistes de Valentin Motors.',
+    it: 'Restauri, meccanica e modelli Porsche raccontati dagli specialisti di Valentin Motors.',
+    de: 'Porsche-Restaurierungen, Technik und Modelle, erzählt von den Spezialisten von Valentin Motors.',
+    ca: 'Restauracions, mecànica i models Porsche explicats pels especialistes de Valentin Motors.' },
+  'magazine.articulos': { es: '{n} artículos', en: '{n} articles', fr: '{n} articles', it: '{n} articoli', de: '{n} Artikel', ca: '{n} articles' },
+
+  '404.titulo':  { es: 'Página no encontrada', en: 'Page not found', fr: 'Page introuvable', it: 'Pagina non trovata', de: 'Seite nicht gefunden', ca: 'Pàgina no trobada' },
+  '404.texto': {
+    es: 'La dirección que buscas no existe o ha cambiado de sitio. Puedes seguir por aquí:',
+    en: 'The address you are looking for does not exist or has moved. You can carry on from here:',
+    fr: 'L’adresse que vous cherchez n’existe pas ou a changé. Vous pouvez continuer ici :',
+    it: 'L’indirizzo che cerca non esiste o è stato spostato. Può proseguire da qui:',
+    de: 'Die gesuchte Adresse existiert nicht oder wurde verschoben. Hier geht es weiter:',
+    ca: 'L’adreça que busques no existeix o ha canviat de lloc. Pots continuar per aquí:' },
+  '404.inicio':  { es: 'Inicio', en: 'Home', fr: 'Accueil', it: 'Home', de: 'Startseite', ca: 'Inici' },
 } as const satisfies Record<string, Record<Idioma, string>>;
 
 export type ClaveUI = keyof typeof UI;

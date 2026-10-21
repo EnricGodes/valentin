@@ -1,5 +1,6 @@
 ---
 import { DOMINIO, type Idioma } from '../../i18n/config';
+import { ORGANIZACION_MINIMA } from './organizacion';
 
 interface Props {
   titulo: string;
@@ -22,7 +23,7 @@ const datos = {
   dateModified: fecha.toISOString(),
   inLanguage: idioma,
   author: { '@type': 'Person', name: autor || 'Valentín Motors' },
-  publisher: { '@id': `${DOMINIO}#organizacion` },
+  publisher: ORGANIZACION_MINIMA,
   mainEntityOfPage: url,
   ...(imagen ? { image: DOMINIO + imagen } : {}),
 };

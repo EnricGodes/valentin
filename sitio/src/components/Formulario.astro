@@ -10,7 +10,7 @@
  */
 import { traductor } from '../i18n/ui.ts';
 import { url } from '../i18n/routes.ts';
-import { POR_DEFECTO, type Idioma } from '../i18n/config.ts';
+import type { Idioma } from '../i18n/config.ts';
 
 interface Props {
   idioma: Idioma;
@@ -33,8 +33,7 @@ const asunto = Astro.props.asunto ?? (coche || busca ? 'compra' : 'taller');
 const titulo = Astro.props.titulo ?? t('form.titulo');
 const intro = Astro.props.intro ?? t('form.intro');
 
-// Las paginas legales existen solo en espanol: el enlace apunta siempre alli.
-const privacidad = url('privacidad', POR_DEFECTO);
+const privacidad = url('privacidad', idioma);
 
 const motivos = [
   ['taller', t('form.asunto.taller')],
@@ -49,12 +48,16 @@ const motivos = [
   <h2 class="form-titulo reveal">{titulo}</h2>
   <p class="form-intro reveal">{intro}</p>
 
-  <form class="form reveal" method="post" action="/api/contacto" novalidate
+  {/* Sin `novalidate`: si el JavaScript no carga, el navegador valida los
+      campos antes del POST. Con JavaScript la validacion la hace el script,
+      con el mensaje en el idioma de la pagina. */}
+  <form class="form reveal" method="post" action="/api/contacto"
         data-idioma={idioma} data-coche={coche}>
     <input type="hidden" name="idioma" value={idioma} />
     <input type="hidden" name="pagina" value={Astro.url.pathname} />
     {coche && <input type="hidden" name="coche" value={coche} />}
     {busca && <input type="hidden" name="busca" value={busca} />}
+    <input type="hidden" name="origen" value="" />
 
     {/* Trampa para bots: invisible y fuera del orden de tabulacion. Un humano
         nunca lo rellena; casi todos los bots rellenan todo lo que encuentran. */}
@@ -117,12 +120,13 @@ const motivos = [
     <p class="rgpd">
       <input id="f-rgpd" name="rgpd" type="checkbox" required value="si" />
       <label for="f-rgpd">
-        {t('form.rgpd')} <a href={privacidad} lang="es" hreflang="es">{t('form.rgpd.enlace')}</a>.
+        {t('form.rgpd')} <a href={privacidad}>{t('form.rgpd.enlace')}</a>.
       </label>
     </p>
 
-    {/* Turnstile invisible. Sin clave configurada el widget no se pinta y la
-        Function acepta el envio: el honeypot sigue filtrando. */}
+    {/* Turnstile en modo gestionado: casi siempre pasa sin que el visitante
+        haga nada. Sin clave configurada el widget no se pinta y la Function
+        acepta el envio: el honeypot sigue filtrando. */}
     <div class="cf-turnstile" data-sitekey={import.meta.env.PUBLIC_TURNSTILE_KEY}
          data-theme="dark" data-size="flexible"></div>
 
@@ -146,6 +150,20 @@ const motivos = [
 
   const form = document.querySelector<HTMLFormElement>('.form');
   if (form) {
+    form.noValidate = true;
+
+    /* Las calculadoras enlazan a /contacto?motivo=ims&modelo=996: el contexto
+       llega al correo en vez de perderse por el camino. */
+    const params = new URLSearchParams(location.search);
+    const motivo = params.get('motivo');
+    if (motivo) {
+      (form.elements.namedItem('origen') as HTMLInputElement).value = motivo;
+      (form.elements.namedItem('asunto') as HTMLSelectElement).value = 'taller';
+    }
+    const modelo = params.get('modelo');
+    const campoModelo = form.elements.namedItem('modelo') as HTMLInputElement | null;
+    if (modelo && campoModelo && !campoModelo.value) campoModelo.value = modelo.slice(0, 120);
+
     const boton  = form.querySelector<HTMLButtonElement>('.boton-enviar')!;
     const span   = boton.querySelector<HTMLSpanElement>('span')!;
     const aviso  = form.querySelector<HTMLParagraphElement>('.aviso')!;
@@ -194,6 +212,9 @@ const motivos = [
         form.parentElement?.append(aviso);
       } catch {
         decir('error');
+        /* El token de Turnstile es de un solo uso: sin reiniciarlo, el
+           segundo intento se rechazaria siempre. */
+        (window as any).turnstile?.reset?.();
       } finally {
         boton.disabled = false;
         span.textContent = span.dataset.enviar ?? '';

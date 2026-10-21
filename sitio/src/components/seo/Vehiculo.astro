@@ -2,6 +2,7 @@
 import { DOMINIO, type Idioma } from '../../i18n/config';
 import { urlAbsoluta } from '../../i18n/routes';
 import type { Coche } from '../../datos/coche';
+import { ORGANIZACION_MINIMA } from './organizacion';
 
 /**
  * JSON-LD de una ficha de coche.
@@ -26,7 +27,7 @@ const precio = (() => {
 
 const ESTADO = {
   disponible: 'https://schema.org/InStock',
-  reservado: 'https://schema.org/PreOrder',
+  reservado: 'https://schema.org/Reserved',
   vendido: 'https://schema.org/SoldOut',
   proximamente: 'https://schema.org/PreOrder',
 } as const;
@@ -42,17 +43,18 @@ const sinHtml = (s: string) => s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').t
 
 const datos: Record<string, unknown> = {
   '@context': 'https://schema.org',
-  '@type': 'Vehicle',
+  '@type': 'Car',
   '@id': `${url}#vehiculo`,
   name: sinHtml(`${c.hero.subtitulo} ${c.hero.titulo}`),
   description: c.meta.descripcion,
   url,
   inLanguage: idioma,
-  brand: { '@type': 'Brand', name: 'Porsche' },
+  // El RUF es un RUF, no un Porsche: RUF es fabricante con numero de bastidor propio.
+  brand: { '@type': 'Brand', name: /\bruf\b/i.test(c.slug) ? 'RUF' : 'Porsche' },
   image: c.galeria.fotos.slice(0, 6).map((f) => DOMINIO + f.src),
   vehicleConfiguration: cat?.nombre,
 };
-if (anio) datos.productionDate = anio;
+if (anio) { datos.productionDate = anio; datos.vehicleModelDate = anio; }
 if (km) datos.mileageFromOdometer = { '@type': 'QuantitativeValue', value: Number(km), unitCode: 'KMT' };
 if (dato(/^(color|außen|exterior|colore)/i)) datos.color = dato(/^(color|außen|exterior|colore)/i);
 if (dato(/(cambio|getriebe|gearbox|boîte|caixa)/i)) {
@@ -65,7 +67,7 @@ if (precio) {
     priceCurrency: 'EUR',
     availability: ESTADO[cat?.estado ?? 'disponible'],
     url,
-    seller: { '@id': `${DOMINIO}#organizacion` },
+    seller: ORGANIZACION_MINIMA,
     itemCondition: 'https://schema.org/UsedCondition',
   };
 }

@@ -5,8 +5,12 @@ import Nav from '../../components/Nav.astro';
 import Pie from '../../components/Pie.astro';
 import ListaMagazine from '../../components/ListaMagazine.astro';
 import { url } from '../../i18n/routes';
+import { traductor } from '../../i18n/ui';
+import { idiomasDelMagazine } from '../../datos/magazine';
 
 const idioma = 'es' as const;
+const t = traductor(idioma);
+const idiomasPublicados = await idiomasDelMagazine();
 const posts = (await getCollection('magazine', (p) => p.data.lang === 'es'))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
@@ -17,12 +21,12 @@ const secciones = [...new Set(posts.flatMap((p) => p.data.categories))].sort();
 <Base
   idioma={idioma}
   rutaId="magazine"
-  idiomasPublicados={['es']}
+  idiomasPublicados={idiomasPublicados}
   titulo="Magazine · Valentin Motors"
-  descripcion="Restauraciones, mecanica y modelos Porsche contados por los especialistas de Valentin Motors."
+  descripcion={t('magazine.descripcion')}
 >
-  <Nav slot="nav" idioma={idioma} rutaId="magazine" idiomasPublicados={['es']} />
-  <Pie slot="pie" idioma={idioma} rutaId="magazine" idiomasPublicados={['es']} />
+  <Nav slot="nav" idioma={idioma} rutaId="magazine" idiomasPublicados={idiomasPublicados} />
+  <Pie slot="pie" idioma={idioma} rutaId="magazine" idiomasPublicados={idiomasPublicados} />
 
   <header class="post-reja mag-cabecera">
     <h1 class="mag-titulo ancha reveal">
@@ -30,7 +34,7 @@ const secciones = [...new Set(posts.flatMap((p) => p.data.categories))].sort();
       Magazine
     </h1>
     <nav class="mag-filtros ancha reveal delay-1">
-      <span>{posts.length} artículos</span>
+      <span>{t('magazine.articulos').replace('{n}', String(posts.length))}</span>
       {secciones.map((c) => (
         <a href={url('magazine', idioma, 'category', c)}>{c}</a>
       ))}

@@ -15,7 +15,7 @@
 import type { Idioma } from '../i18n/config';
 import { POR_DEFECTO } from '../i18n/config';
 import { enlazaEnIdioma } from '../i18n/routes';
-import type { Faq } from '../datos/pagina';
+import { existeEn, type Faq } from '../datos/pagina';
 
 interface Props { faq: Faq; idioma?: Idioma; }
 const { faq, idioma = POR_DEFECTO } = Astro.props;
@@ -35,7 +35,7 @@ const { faq, idioma = POR_DEFECTO } = Astro.props;
             <span class="faq-icono" aria-hidden="true"></span>
           </summary>
           <div class="faq-respuesta texto-editorial">
-            {p.respuesta.map((r) => <p set:html={enlazaEnIdioma(r, idioma)} />)}
+            {p.respuesta.map((r) => <p set:html={enlazaEnIdioma(r, idioma, existeEn(idioma))} />)}
           </div>
         </details>
       ))}

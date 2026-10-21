@@ -5,7 +5,6 @@ import rehypeEditorial from './plugins/rehype-editorial.mjs';
 import rehypeJordi from './plugins/rehype-jordi.mjs';
 import remarkDirective from 'remark-directive';
 import remarkModulos from './plugins/remark-modulos.mjs';
-import sitemap from '@astrojs/sitemap';
 
 /**
  * El espanol vive en la raiz, sin prefijo, para que ninguna de las URLs que hoy
@@ -22,18 +21,8 @@ export default defineConfig({
     defaultLocale: 'es',
     routing: { prefixDefaultLocale: false, redirectToDefaultLocale: false },
   },
-  integrations: [
-    sitemap({
-      // La pagina interna de verificacion del sistema no entra en el sitemap
-      filter: (url) => !url.includes('/sistema'),
-      i18n: {
-        defaultLocale: 'es',
-        locales: { es: 'es-ES', en: 'en', fr: 'fr', it: 'it', de: 'de', ca: 'ca' },
-      },
-      changefreq: 'weekly',
-      lastmod: new Date(),
-    }),
-  ],
+  // Sin @astrojs/sitemap: el sitemap lo genera scripts/generar-sitemap.mjs a
+  // partir del HTML construido, con las mismas alternantes que cada <head>.
   image: { responsiveStyles: true },
   markdown: {
     // El orden importa: remarkDirective parsea `::: galeria`, y

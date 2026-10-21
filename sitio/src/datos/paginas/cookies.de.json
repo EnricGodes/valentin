@@ -1,0 +1,97 @@
+{
+  "rutaId": "cookies",
+  "tipo": "legal",
+  "ficheroOriginal": "poltica-de-cookies",
+  "meta": {
+    "titulo": "Cookie-Richtlinie · Valentín Motors",
+    "descripcion": "Welche Cookies und welchen Speicher valentinmotors.es nutzt, wozu, wie lange und wie Sie zustimmen, ablehnen oder Ihre Einwilligung widerrufen.",
+    "ogImagen": ""
+  },
+  "h1": "Cookie-Richtlinie",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Was Cookies sind",
+      "parrafos": [
+        "Cookies sind kleine Dateien, die eine Website in Ihrem Browser speichert, um sich Informationen zwischen Besuchen zu merken. Dem gleichen Zweck dient der lokale Speicher des Browsers. Diese Richtlinie erklärt, welche www.valentinmotors.es verwendet, gemäß Artikel 22.2 des spanischen LSSI und der DSGVO. Verantwortlich ist die VM German Engineering, S.L. (siehe <a href=\"/aviso-legal\">Impressum</a>)."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Technisch notwendig und Einstellungen, immer aktiv",
+      "parrafos": [
+        "Sie sind für den Betrieb der Website unverzichtbar oder werden durch Ihre eigene Auswahl gesetzt und erfordern keine Einwilligung:"
+      ],
+      "items": [
+        "vm-consentimiento (lokaler Speicher, eigener): speichert Ihre Entscheidung zu Statistik-Cookies, damit wir nicht erneut fragen. Bleibt, bis Sie die Browserdaten löschen.",
+        "idioma (eigenes Cookie): merkt sich die im Sprachwähler in der Fußzeile gewählte Sprache. Laufzeit: ein Jahr.",
+        "Cloudflare Turnstile (Kontaktseite): prüft, ob ein Mensch das Formular absendet. Kann während der Prüfung technische Daten speichern."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Statistik, nur mit Ihrer Einwilligung",
+      "parrafos": [
+        "Sie werden nur gesetzt, wenn Sie im Cookie-Hinweis auf Zustimmen klicken:"
+      ],
+      "items": [
+        "_ga (Google Analytics): unterscheidet Besucher anonym. Laufzeit: zwei Jahre.",
+        "_ga_7BXF6VQQMP (Google Analytics): speichert den Sitzungsstatus. Laufzeit: zwei Jahre."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Messung ohne Cookies",
+      "parrafos": [
+        "Zusätzlich nutzen wir Cloudflare Web Analytics, das Besuche zählt, ohne Cookies zu setzen oder jemanden zu identifizieren. Deshalb ist keine Einwilligung nötig."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Inhalte Dritter",
+      "parrafos": [
+        "Die Videos im Magazine sind von YouTube im erweiterten Datenschutzmodus eingebunden (youtube-nocookie.com): YouTube speichert nichts in Ihrem Browser, bevor Sie ein Video abspielen. Die Karten unserer Standorte liefert OpenFreeMap, ohne Cookies zu setzen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Zustimmen, ablehnen oder die Entscheidung ändern",
+      "parrafos": [
+        "Beim ersten Besuch fragen wir Sie. Ihre Entscheidung können Sie jederzeit über den Link Cookie-Einstellungen in der Fußzeile jeder Seite ändern: Widerrufen Sie Ihre Einwilligung, verwenden wir Google Analytics nicht mehr und löschen dessen Cookies. Sie können Cookies außerdem in den Einstellungen Ihres Browsers blockieren oder löschen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Übermittlungen und weitere Informationen",
+      "parrafos": [
+        "Google kann Statistikdaten in den USA auf Grundlage des EU-US Data Privacy Framework verarbeiten. Alles Weitere zu Ihren Daten finden Sie in der <a href=\"/politica-de-privacidad\">Datenschutzerklärung</a>. Stand: Oktober 2026."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

@@ -1,5 +1,8 @@
-# Mapa de redirecciones 301 - generado por 04_inventario_urls.py
-# NO editar a mano: editar el script y regenerar.
+# Mapa de redirecciones 301 del sitio Squarespace al nuevo.
+# Lo genero 04_inventario_urls.py (borrado, queda en git); desde entonces se
+# mantiene a mano. Cualquier URL que haya tenido trafico o enlaces y deje de
+# existir se redirige aqui. scripts/validar-redirecciones.mjs comprueba en cada
+# build que todos los destinos existen.
 
 /porsche-macan-mantenimiento-taller-1  /porsche-cayenne-macan-mantenimiento-taller-1  301
 /magazine/porscheupgard40m97-bore-scoring-f3whn  /magazine/997-m9701-38-a-40-nickies  301
@@ -70,3 +73,43 @@
 /it/officina-porsche/manutenzione  /it/officina-porsche/tariffe  301
 /de/porsche-werkstatt/wartung  /de/porsche-werkstatt/preise  301
 /ca/taller-porsche/manteniment  /ca/taller-porsche/tarifes  301
+
+# Legales con el slug de Squarespace (sin la i de "politica"): eran canonicas.
+/poltica-de-privacidad  /politica-de-privacidad  301
+/poltica-de-cookies  /politica-de-cookies  301
+
+# Feed de Squarespace: los lectores RSS lo conocen por ese nombre. (El
+# /sitemap.xml no se redirige: scripts/generar-sitemap.mjs lo publica.)
+/blog-feed.xml  /magazine  301
+/magazine/rss  /magazine  301
+
+# URLs con impresiones en Search Console (16 meses, export del 2026-10-21) que
+# no estaban en el inventario: coches vendidos sin ficha y variantes de slug
+# que Squarespace aceptaba. Cada una va a la pagina mas cercana a lo que se
+# buscaba: la landing de su generacion, o la ficha si el coche sigue aqui.
+/porsche-en-venta/porscheboxster2001s  /porsche-986-boxster-de-segunda-mano  301
+/porsche-en-venta/porscheboxster2007  /porsche-987-boxster-cayman-de-segunda-mano  301
+/porsche-en-venta/porschecaymangt4cajamanual  /porsche-981-boxster-cayman-de-segunda-mano  301
+/porsche-en-venta/porsche356roadster  /porsche-356-de-segunda-mano  301
+/porsche-en-venta/porsche32speedster  /porsche-911-clasico-de-segunda-mano  301
+/porsche-en-venta/porsche911carrera27mfiblanco  /porsche-911-clasico-de-segunda-mano  301
+/porsche-en-venta/porsche911t1972rallycar-*  /porsche-911-clasico-de-segunda-mano  301
+/porsche-en-venta/porsche964speedsterrs  /porsche-964-de-segunda-mano  301
+/porsche-en-venta/porsche993turbocarlossainz  /porsche-993-de-segunda-mano  301
+/porsche-en-venta/porsche-porsche-911-carrera-32-coupe  /porsche-en-venta/porsche-911-carrera-3-2-coupe-1984  301
+/porsche-en-venta/porsche-porsche-porsche-911-carrera-s-cabrio  /porsche-en-venta/porsche-porsche-991-carrera-s-cabrio  301
+/porsche-911-maintanance-taller  /porsche-911-mantenimiento-taller  301
+/magazine/que-es-porsche-ims  /magazine/que-es-el-ims-de-porsche  301
+/magazine/que-es-el-ims-porsche  /magazine/que-es-el-ims-de-porsche  301
+/magazine/que-es-ims-de-porsche  /magazine/que-es-el-ims-de-porsche  301
+/magazine/que-es-le-ims-de-porsche  /magazine/que-es-el-ims-de-porsche  301
+/magazine/que-es-oficial  /magazine  301
+/magazine/10-cosas-que-debes-saber-antes-de-comprar-un-911  /magazine/10-cosas-que-debes-saber-antes-de-comprar-un-porsche-911  301
+/magazine/10-pelculas-del-siglo-xxi-en-la-que-aparecen-coches-porsche  /magazine/10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche  301
+/magazine/10-pelculas-del-si-xxi-en-las-que-aparecen-coches-porsche  /magazine/10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche  301
+/magazine/10-pelculas-del-sido-xxi-en-las-que-aparecen-coches-porsche  /magazine/10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche  301
+/magazine/10-pelculas-del-sigio-xxi-en-las-que-aparecen-coches-porsche  /magazine/10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche  301
+/magazine/10-pelculas-del-siglo-zxi-en-las-que-aparecen-coches-porsche  /magazine/10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche  301
+/magazine/10-pelculas-del-sitio-xxi-en-la-que-aparecen-coches-porsche  /magazine/10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche  301
+/magazine/10-pelculas-del-sup-xxi-en-las-que-aparecen-coches-porsche  /magazine/10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche  301
+/magazine/10-pelculas-del-sino-xxi-en-las-que-aparecen-coches-porsche  /magazine/10-pelculas-del-siglo-xxi-en-las-que-aparecen-coches-porsche  301

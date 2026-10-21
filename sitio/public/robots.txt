@@ -2,6 +2,8 @@
 
 User-agent: *
 Allow: /
+Disallow: /sistema
+Disallow: /api/
 
 # Los crawlers de IA se permiten a proposito.
 #
@@ -19,8 +21,7 @@ User-agent: Applebot-Extended
 User-agent: CCBot
 User-agent: Meta-ExternalAgent
 Allow: /
-
-# Rutas sin valor para un buscador
+# Un grupo no hereda las reglas de `*`: las rutas sin valor se repiten aqui.
 Disallow: /sistema
 Disallow: /api/
 

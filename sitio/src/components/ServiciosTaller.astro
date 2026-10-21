@@ -13,7 +13,7 @@
 import { POR_DEFECTO, type Idioma } from '../i18n/config';
 import { url, enlazaEnIdioma } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
-import { idiomasDe, type ServicioPagina } from '../datos/pagina';
+import { idiomasDe, existeEn, type ServicioPagina } from '../datos/pagina';
 import TarifasResumen from './TarifasResumen.astro';
 
 interface Props { servicios: ServicioPagina[]; idioma: Idioma; }
@@ -25,7 +25,7 @@ const enlace = (rutaId: string) => {
   return { href: url(rutaId, propio ? idioma : POR_DEFECTO), lang: propio ? undefined : POR_DEFECTO };
 };
 const hrefEn = (href: string) =>
-  enlazaEnIdioma(`href="${href}"`, idioma).replace(/^href="|"$/g, '');
+  enlazaEnIdioma(`href="${href}"`, idioma, existeEn(idioma)).replace(/^href="|"$/g, '');
 ---
 <section class="svc-lista" aria-label={t('servicios.label')}>
   {servicios.map((s, i) => {
@@ -43,7 +43,7 @@ const hrefEn = (href: string) =>
           </div>
           <div class="svc-texto reveal delay-1">
             <div class="texto-editorial">
-              {s.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma)} />)}
+              {s.parrafos.map((p) => <p set:html={enlazaEnIdioma(p, idioma, existeEn(idioma))} />)}
             </div>
             {!conTarifas && (
               <div class="svc-acciones">

@@ -1,0 +1,127 @@
+{
+  "rutaId": "privacidad",
+  "tipo": "legal",
+  "ficheroOriginal": "poltica-de-privacidad",
+  "meta": {
+    "titulo": "Politique de confidentialité · Valentín Motors",
+    "descripcion": "Quelles données personnelles nous traitons, pourquoi, avec qui nous les partageons, combien de temps nous les conservons et comment exercer vos droits.",
+    "ogImagen": ""
+  },
+  "h1": "Politique de confidentialité",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Responsable du traitement",
+      "parrafos": [
+        "Les responsables du traitement de vos données sont VM German Engineering, S.L. (numéro fiscal B67459958) et 1979 VM German Werks, S.L. (numéro fiscal B01798735), qui exercent conjointement sous la marque Valentín Motors, dont le siège social est situé Gran Via de les Corts Catalanes, 752, 08013 Barcelone, Espagne.",
+        "Pour toute question sur vos données, écrivez-nous à <a href=\"mailto:info@valentinmotors.es\">info@valentinmotors.es</a> ou appelez le +34 933 479 856."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Données traitées",
+      "parrafos": [
+        "Uniquement celles que vous nous communiquez et celles indispensables au fonctionnement du site :"
+      ],
+      "items": [
+        "Formulaire de contact : nom, adresse e-mail, téléphone (facultatif), modèle de votre Porsche (facultatif), atelier souhaité, objet et message, ainsi que la langue et la page depuis lesquelles vous écrivez.",
+        "Clients de l’atelier et de la vente : les données d’identification, de contact, du véhicule et de facturation nécessaires pour établir un devis, réaliser et facturer l’intervention ou la transaction.",
+        "Navigation : adresse IP et données techniques du navigateur, traitées par notre hébergeur pour servir le site et le protéger des attaques.",
+        "Mesure d’audience : données d’utilisation sans cookies et, uniquement si vous l’acceptez dans le bandeau cookies, Google Analytics."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Finalités et bases légales",
+      "parrafos": [],
+      "items": [
+        "Répondre à votre demande, établir un devis ou fixer un rendez-vous. Base légale : mesures précontractuelles prises à votre demande (art. 6.1.b RGPD).",
+        "Fournir les services d’atelier ou la vente d’un véhicule et respecter les obligations comptables et fiscales. Base légale : exécution du contrat et obligation légale (art. 6.1.b et 6.1.c RGPD).",
+        "Protéger le site et le formulaire contre les abus et les envois automatisés. Base légale : intérêt légitime à assurer un service sécurisé (art. 6.1.f RGPD).",
+        "Mesurer l’utilisation du site pour l’améliorer. Sans cookies, sur la base de l’intérêt légitime ; avec Google Analytics, uniquement avec votre consentement (art. 6.1.a RGPD), que vous pouvez retirer à tout moment.",
+        "Vous adresser des communications commerciales, uniquement si vous y avez expressément consenti ou si vous êtes client et ne vous y êtes pas opposé (art. 21 LSSI)."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Destinataires",
+      "parrafos": [
+        "Nous ne vendons ni ne cédons vos données. Elles sont traitées pour notre compte, dans le cadre de contrats de sous-traitance, par les prestataires indispensables au service :"
+      ],
+      "items": [
+        "Cloudflare, Inc. : hébergement du site, sécurité, vérification antispam du formulaire (Turnstile) et statistiques de visites sans cookies.",
+        "Resend (Plus Five Five, Inc.) : acheminement des messages du formulaire vers nos boîtes de réception.",
+        "Microsoft Ireland Operations Ltd. : messagerie professionnelle (Microsoft 365), où nous recevons vos messages et y répondons.",
+        "Google Ireland Ltd. : Google Analytics, uniquement si vous acceptez les cookies de mesure d’audience.",
+        "Google (YouTube) : les vidéos du Magazine sont chargées en mode de confidentialité renforcée et ne se connectent à YouTube que lorsque vous les lancez.",
+        "OpenFreeMap : affiche les cartes de nos ateliers et reçoit votre adresse IP pour les servir."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Transferts internationaux",
+      "parrafos": [
+        "Cloudflare, Resend et Google peuvent traiter des données aux États-Unis. Ces transferts reposent sur le cadre de protection des données UE-États-Unis, auquel ils sont certifiés, ou sur les clauses contractuelles types approuvées par la Commission européenne."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Durée de conservation",
+      "parrafos": [],
+      "items": [
+        "Demandes qui n’aboutissent pas à une commande : le temps nécessaire pour y répondre, puis deux ans au maximum, sauf si vous nous demandez de les supprimer plus tôt.",
+        "Clients : pendant toute la relation, puis pendant les délais légaux de prescription et ceux qu’impose la réglementation fiscale et commerciale (jusqu’à six ans).",
+        "Données Google Analytics : quatorze mois."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Vos droits",
+      "parrafos": [
+        "Vous pouvez accéder à vos données, les rectifier, les effacer, vous opposer à leur traitement, en demander la limitation ou la portabilité et retirer votre consentement en écrivant à <a href=\"mailto:info@valentinmotors.es\">info@valentinmotors.es</a>. Si notre réponse ne vous satisfait pas, vous pouvez introduire une réclamation auprès de l’Agence espagnole de protection des données (<a href=\"https://www.aepd.es\">www.aepd.es</a>)."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Mineurs",
+      "parrafos": [
+        "Ce site ne s’adresse pas aux mineurs de moins de quatorze ans et nous ne collectons pas sciemment leurs données."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Sécurité et modifications",
+      "parrafos": [
+        "Le site est toujours servi de façon chiffrée (HTTPS) et nous appliquons des mesures techniques et organisationnelles appropriées pour protéger vos données. Si nous modifions cette politique, nous publierons ici la nouvelle version. Dernière mise à jour : octobre 2026."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 35,
+    "total": 35,
+    "completa": true
+  }
+}

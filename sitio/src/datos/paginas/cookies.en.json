@@ -1,0 +1,97 @@
+{
+  "rutaId": "cookies",
+  "tipo": "legal",
+  "ficheroOriginal": "poltica-de-cookies",
+  "meta": {
+    "titulo": "Cookie policy · Valentín Motors",
+    "descripcion": "Which cookies and storage valentinmotors.es uses, what they are for, how long they last and how to accept, reject or withdraw consent.",
+    "ogImagen": ""
+  },
+  "h1": "Cookie policy",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "What cookies are",
+      "parrafos": [
+        "Cookies are small files that a website stores in your browser to remember information between visits. The browser’s local storage is used for the same purpose. This policy explains which ones www.valentinmotors.es uses, in accordance with article 22.2 of the Spanish LSSI and the GDPR. The controller is VM German Engineering, S.L. (see the <a href=\"/aviso-legal\">legal notice</a>)."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Technical and preference cookies, always on",
+      "parrafos": [
+        "They are essential for the site to work or are set by you when you choose something, and do not require consent:"
+      ],
+      "items": [
+        "vm-consentimiento (local storage, first party): stores your choice on analytics cookies so we do not ask again. Lasts until you clear your browser data.",
+        "idioma (first-party cookie): remembers the language you choose in the footer selector. Lasts one year.",
+        "Cloudflare Turnstile (contact page): checks that whoever submits the form is a person. It may store technical data during the check."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Analytics, only with your consent",
+      "parrafos": [
+        "They are only set if you click Accept in the cookie notice:"
+      ],
+      "items": [
+        "_ga (Google Analytics): distinguishes visitors anonymously. Lasts two years.",
+        "_ga_7BXF6VQQMP (Google Analytics): keeps the session state. Lasts two years."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cookieless measurement",
+      "parrafos": [
+        "We also use Cloudflare Web Analytics, which counts visits without setting cookies or identifying anyone. That is why it does not need consent."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Third-party content",
+      "parrafos": [
+        "Magazine videos are embedded from YouTube in privacy-enhanced mode (youtube-nocookie.com): YouTube stores nothing in your browser until you play a video. The maps of our locations are served by OpenFreeMap and set no cookies."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "How to accept, reject or change your mind",
+      "parrafos": [
+        "We ask you on your first visit. You can change your choice at any time with the Cookie settings link in the footer of every page: if you withdraw consent, we stop using Google Analytics and delete its cookies. You can also block or delete cookies in your browser settings."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Transfers and further information",
+      "parrafos": [
+        "Google may process analytics data in the United States under the EU-US Data Privacy Framework. For everything relating to your data, see the <a href=\"/politica-de-privacidad\">privacy policy</a>. Last updated: October 2026."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

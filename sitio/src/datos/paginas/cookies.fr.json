@@ -1,0 +1,97 @@
+{
+  "rutaId": "cookies",
+  "tipo": "legal",
+  "ficheroOriginal": "poltica-de-cookies",
+  "meta": {
+    "titulo": "Politique de cookies · Valentín Motors",
+    "descripcion": "Quels cookies et quel stockage utilise valentinmotors.es, à quoi ils servent, leur durée et comment les accepter, les refuser ou retirer votre consentement.",
+    "ogImagen": ""
+  },
+  "h1": "Politique de cookies",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Qu’est-ce qu’un cookie",
+      "parrafos": [
+        "Les cookies sont de petits fichiers qu’un site enregistre dans votre navigateur pour mémoriser des informations d’une visite à l’autre. Le stockage local du navigateur sert au même usage. Cette politique explique ceux qu’utilise www.valentinmotors.es, conformément à l’article 22.2 de la LSSI espagnole et au RGPD. Le responsable est VM German Engineering, S.L. (voir les <a href=\"/aviso-legal\">mentions légales</a>)."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Cookies techniques et de préférences, toujours actifs",
+      "parrafos": [
+        "Ils sont indispensables au fonctionnement du site ou c’est vous qui les activez par un choix, et ne nécessitent pas de consentement :"
+      ],
+      "items": [
+        "vm-consentimiento (stockage local, interne) : enregistre votre choix concernant les cookies de mesure d’audience pour ne plus vous le demander. Conservé jusqu’à ce que vous effaciez les données du navigateur.",
+        "idioma (cookie interne) : mémorise la langue choisie dans le sélecteur du pied de page. Durée : un an.",
+        "Cloudflare Turnstile (page de contact) : vérifie que l’auteur du formulaire est une personne. Peut enregistrer des données techniques pendant la vérification."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Mesure d’audience, uniquement avec votre consentement",
+      "parrafos": [
+        "Ils ne sont déposés que si vous cliquez sur Accepter dans le bandeau cookies :"
+      ],
+      "items": [
+        "_ga (Google Analytics) : distingue les visiteurs de façon anonyme. Durée : deux ans.",
+        "_ga_7BXF6VQQMP (Google Analytics) : conserve l’état de la session. Durée : deux ans."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Mesure sans cookies",
+      "parrafos": [
+        "Nous utilisons également Cloudflare Web Analytics, qui compte les visites sans déposer de cookies ni identifier personne. C’est pourquoi il ne nécessite pas de consentement."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Contenus tiers",
+      "parrafos": [
+        "Les vidéos du Magazine sont intégrées depuis YouTube en mode de confidentialité renforcée (youtube-nocookie.com) : YouTube n’enregistre rien dans votre navigateur tant que vous ne lancez pas une vidéo. Les cartes de nos ateliers sont servies par OpenFreeMap et ne déposent aucun cookie."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Accepter, refuser ou changer d’avis",
+      "parrafos": [
+        "Nous vous le demandons lors de votre première visite. Vous pouvez modifier votre choix à tout moment avec le lien Paramètres des cookies en pied de page : si vous retirez votre consentement, nous cessons d’utiliser Google Analytics et supprimons ses cookies. Vous pouvez aussi bloquer ou supprimer les cookies dans les réglages de votre navigateur."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Transferts et informations complémentaires",
+      "parrafos": [
+        "Google peut traiter les données de mesure d’audience aux États-Unis dans le cadre de protection des données UE-États-Unis. Pour tout ce qui concerne vos données, consultez la <a href=\"/politica-de-privacidad\">politique de confidentialité</a>. Dernière mise à jour : octobre 2026."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

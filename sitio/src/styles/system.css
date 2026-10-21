@@ -912,7 +912,6 @@ section { position: relative; }
   color: rgba(167, 162, 154, 0.4);
 }
 .pie-legal a { color: inherit; }
-.pie-nota { opacity: .65; }
 
 @media (max-width: 980px) {
   .pie-rejilla { grid-template-columns: 1fr 1fr; gap: 40px; }

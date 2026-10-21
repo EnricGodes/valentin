@@ -1,0 +1,48 @@
+---
+/**
+ * Pagina de error 404, una por idioma.
+ *
+ * Sin ella, Cloudflare Pages trata el sitio como una aplicacion de una sola
+ * pagina y responde a cualquier URL inexistente con la portada y un 200: cada
+ * enlace roto se convierte en un "soft 404" que Google indexa como duplicado
+ * de la home. Con 404.html en la raiz y en cada prefijo, Cloudflare sirve el
+ * mas cercano con su codigo real.
+ *
+ * Lleva noindex y no declara canonical ni hreflang: no es una pagina, es una
+ * respuesta.
+ */
+import type { Idioma } from '../i18n/config';
+import { url } from '../i18n/routes';
+import { traductor } from '../i18n/ui';
+import Base from '../layouts/Base.astro';
+import Nav from './Nav.astro';
+import Pie from './Pie.astro';
+
+interface Props { idioma: Idioma }
+const { idioma } = Astro.props;
+const t = traductor(idioma);
+
+const destinos = [
+  { texto: t('404.inicio'), href: url('home', idioma) },
+  { texto: t('nav.coches'), href: url('coches', idioma) },
+  { texto: t('nav.taller'), href: url('taller', idioma) },
+  { texto: t('nav.magazine'), href: url('magazine', idioma) },
+  { texto: t('nav.contacto'), href: url('contacto', idioma) },
+];
+---
+<Base idioma={idioma} rutaId="home" titulo={`${t('404.titulo')} · Valentin Motors`}
+      descripcion={t('404.texto')} noindex>
+  <Nav slot="nav" idioma={idioma} rutaId="home" />
+  <Pie slot="pie" idioma={idioma} rutaId="home" />
+
+  <header class="post-reja mag-cabecera">
+    <h1 class="mag-titulo ancha">
+      <em>404</em>
+      {t('404.titulo')}
+    </h1>
+    <p class="post-entradilla ancha">{t('404.texto')}</p>
+    <nav class="mag-filtros ancha">
+      {destinos.map((d) => <a href={d.href}>{d.texto}</a>)}
+    </nav>
+  </header>
+</Base>

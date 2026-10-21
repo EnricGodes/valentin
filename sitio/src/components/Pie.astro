@@ -32,8 +32,7 @@ const anio = new Date().getFullYear();
 
 /* Las páginas legales existen SOLO en español: son textos jurídicos bajo ley
    española y la versión vinculante es esa. */
-const legal = (id: string) => url(id, POR_DEFECTO);
-const otroIdioma = idioma !== POR_DEFECTO;
+const legal = (id: string) => url(id, idioma);
 
 /* La home y el Magazine viven fuera del manifiesto de contenido y hoy solo
    se generan en castellano; las Herramientas, en los seis idiomas. */
@@ -156,10 +155,10 @@ const familias = FAMILIAS
     <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}
                     idiomasPublicados={idiomasPublicados} />
     <p class="pie-legal">
-      <a href={legal('aviso-legal')} lang="es" hreflang="es">{t('pie.legal')}</a> &middot;
-      <a href={legal('privacidad')} lang="es" hreflang="es">{t('pie.privacidad')}</a> &middot;
-      <a href={legal('cookies')} lang="es" hreflang="es">{t('pie.cookies')}</a>
-      {otroIdioma && <span class="pie-nota">({t('pie.soloEspanol')})</span>}
+      <a href={legal('aviso-legal')}>{t('pie.legal')}</a> &middot;
+      <a href={legal('privacidad')}>{t('pie.privacidad')}</a> &middot;
+      <a href={legal('cookies')}>{t('pie.cookies')}</a> &middot;
+      <a href="#cookies" data-abrir-cookies rel="nofollow">{t('pie.configurarCookies')}</a>
       &middot; VM German Engineering, S.L. &copy; {anio}
     </p>
   </div>

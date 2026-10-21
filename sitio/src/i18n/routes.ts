@@ -9,7 +9,8 @@ import { IDIOMAS, POR_DEFECTO, DOMINIO, prefijo, type Idioma } from './config.ts
  *
  * REGLA INVIOLABLE: los slugs `es` son los que hoy posicionan en Google. No se
  * corrigen, no se embellecen, no se les anaden tildes. Los que se ven raros
- * (`-taller-1`, `poltica-de-privacidad`) estan asi a proposito.
+ * (`-taller-1`) estan asi a proposito. Las legales de Squarespace
+ * (`poltica-de-...`) si se corrigieron: _redirects lleva sus 301.
  */
 export interface Ruta {
   /** Identificador estable, independiente del idioma. */
@@ -285,12 +286,16 @@ const POR_URL_ES = new Map(RUTAS.map((r) => [`/${r.slugs[POR_DEFECTO]}`, r.id]))
 /** El Magazine no esta en el manifiesto: sus articulos son contenido. */
 const MAGAZINE_ES = `/${SEGMENTOS.magazine[POR_DEFECTO]}/`;
 
-/** Reescribe al idioma dado los `href` internos de un fragmento de HTML. */
-export function enlazaEnIdioma(html: string, idioma: Idioma): string {
+/** Reescribe al idioma dado los `href` internos de un fragmento de HTML.
+ *  `existe` dice si una ruta esta publicada en ese idioma: si no lo esta, el
+ *  enlace se queda en castellano en vez de mandar a un 404 (/de/builds). */
+export function enlazaEnIdioma(
+  html: string, idioma: Idioma, existe: (id: string) => boolean = () => true,
+): string {
   if (idioma === POR_DEFECTO) return html;
   return html.replace(/href="(\/[^"#?]*)((?:[#?][^"]*)?)"/g, (todo, ruta: string, cola: string) => {
     const id = POR_URL_ES.get(ruta);
-    if (id) return `href="${url(id, idioma)}${cola}"`;
+    if (id) return existe(id) ? `href="${url(id, idioma)}${cola}"` : todo;
     if (ruta.startsWith(MAGAZINE_ES)) {
       const slug = ruta.slice(MAGAZINE_ES.length);
       return `href="${url('magazine', idioma, slug)}${cola}"`;

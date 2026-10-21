@@ -1,0 +1,97 @@
+{
+  "rutaId": "cookies",
+  "tipo": "legal",
+  "ficheroOriginal": "poltica-de-cookies",
+  "meta": {
+    "titulo": "Política de galetes · Valentín Motors",
+    "descripcion": "Quines galetes i quin emmagatzematge fa servir valentinmotors.es, per a què serveixen, quant duren i com acceptar-les, rebutjar-les o retirar el consentiment.",
+    "ogImagen": ""
+  },
+  "h1": "Política de galetes",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Què són les galetes",
+      "parrafos": [
+        "Les galetes (cookies) són petits fitxers que un lloc web desa al teu navegador per recordar informació entre visites. Amb la mateixa finalitat es fa servir l’emmagatzematge local del navegador. Aquesta política explica quines fa servir www.valentinmotors.es, en compliment de l’article 22.2 de la LSSI i del RGPD. El responsable és VM German Engineering, S.L. (vegeu l’<a href=\"/aviso-legal\">avís legal</a>)."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Tècniques i de preferències, sempre actives",
+      "parrafos": [
+        "Són imprescindibles perquè el lloc funcioni o les actives tu en triar alguna cosa, i no requereixen consentiment:"
+      ],
+      "items": [
+        "vm-consentimiento (emmagatzematge local, pròpia): desa la teva elecció sobre les galetes d’analítica per no tornar-te a preguntar. Dura fins que esborris les dades del navegador.",
+        "idioma (galeta pròpia): recorda l’idioma que tries al selector del peu. Dura un any.",
+        "Cloudflare Turnstile (pàgina de contacte): comprova que qui envia el formulari és una persona. Pot desar dades tècniques durant la verificació."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Analítica, només amb el teu consentiment",
+      "parrafos": [
+        "Només s’instal·len si prems Accepta a l’avís de galetes:"
+      ],
+      "items": [
+        "_ga (Google Analytics): distingeix visitants de manera anònima. Dura dos anys.",
+        "_ga_7BXF6VQQMP (Google Analytics): manté l’estat de la sessió. Dura dos anys."
+      ],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Mesura sense galetes",
+      "parrafos": [
+        "A més, fem servir Cloudflare Web Analytics, que compta visites sense instal·lar galetes ni identificar ningú. Per això no necessita consentiment."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Continguts de tercers",
+      "parrafos": [
+        "Els vídeos del Magazine s’insereixen des de YouTube en mode de privacitat millorada (youtube-nocookie.com): YouTube no desa res al teu navegador fins que reprodueixes un vídeo. Els mapes dels centres se serveixen des d’OpenFreeMap i no instal·len galetes."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Com acceptar, rebutjar o canviar d’opinió",
+      "parrafos": [
+        "La primera vegada que hi entres t’ho preguntem. Pots canviar la teva decisió quan vulguis amb l’enllaç Configura les galetes del peu de cada pàgina: si retires el consentiment, deixem de fer servir Google Analytics i n’esborrem les galetes. També pots bloquejar o esborrar les galetes des de la configuració del navegador."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Transferències i més informació",
+      "parrafos": [
+        "Google pot tractar les dades d’analítica als Estats Units, a l’empara del Marc de Privacitat de Dades UE-EUA. Per a tot el que fa referència a les teves dades, consulta la <a href=\"/politica-de-privacidad\">política de privacitat</a>. Darrera actualització: octubre de 2026."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "933 479 856"
+    ],
+    "emails": [
+      "info@valentinmotors.es"
+    ]
+  },
+  "traduccion": {
+    "hechas": 19,
+    "total": 19,
+    "completa": true
+  }
+}

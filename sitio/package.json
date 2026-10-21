@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run assets && astro dev",
-    "build": "npm run validar && npm run glosario && npm run servicios && npm run ortotipografia && node scripts/sincronizar-imagenes.mjs --solo-raiz && npm run medios && npm run mapa-idiomas && npm run probar:idioma && astro build && npm run validar:hreflang",
+    "build": "npm run validar && npm run glosario && npm run servicios && npm run ortotipografia && node scripts/sincronizar-imagenes.mjs --solo-raiz && npm run medios && npm run mapa-idiomas && npm run probar:idioma && astro build && node scripts/generar-sitemap.mjs && node scripts/generar-cabeceras.mjs && npm run validar:hreflang && node scripts/validar-redirecciones.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "validar": "node scripts/validar-rutas.ts",
