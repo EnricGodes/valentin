@@ -147,7 +147,7 @@ export const RETROFIT = {
 };
 
 /** Aviso fijo, siempre visible junto al resultado. */
-export const AVISO = 'Resultado orientativo basado en la configuración de fábrica. La calculadora no diagnostica el estado mecánico del coche ni sustituye una inspección especializada.';
+export const AVISO: string = 'Resultado orientativo basado en la configuración de fábrica. La calculadora no diagnostica el estado mecánico del coche ni sustituye una inspección especializada.';
 
 /* Titulo de la caja de afinado. Solo la hay donde el dato cambia el resultado:
    en un año de transicion. Con el veredicto cerrado no se pregunta nada mas. */

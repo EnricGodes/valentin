@@ -34,6 +34,7 @@ export const UI = {
   'pie.legal':       { es: 'Aviso legal', en: 'Legal notice', fr: 'Mentions légales', it: 'Note legali', de: 'Impressum', ca: 'Avis legal' },
   'pie.privacidad':  { es: 'Privacidad', en: 'Privacy', fr: 'Confidentialité', it: 'Privacy', de: 'Datenschutz', ca: 'Privacitat' },
   'pie.cookies':     { es: 'Cookies', en: 'Cookies', fr: 'Cookies', it: 'Cookie', de: 'Cookies', ca: 'Cookies' },
+  'pie.idioma': { es: 'Idioma', en: 'Language', fr: 'Langue', it: 'Lingua', de: 'Sprache', ca: 'Idioma' },
   'pie.configurarCookies': { es: 'Configurar cookies', en: 'Cookie settings', fr: 'Paramètres des cookies', it: 'Impostazioni cookie', de: 'Cookie-Einstellungen', ca: 'Configura les galetes' },
 
   'catalogo.titulo': {

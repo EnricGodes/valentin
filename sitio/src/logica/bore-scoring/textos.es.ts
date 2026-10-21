@@ -287,10 +287,10 @@ export const PREGUNTAS: Record<string, { etiqueta: string; porque: string }> = {
 };
 
 /** Aviso fijo, siempre visible junto al resultado. */
-export const AVISO = 'Resultado orientativo basado en la configuración de fábrica y en los datos que has declarado. La ausencia de síntomas no descarta daño incipiente y los síntomas descritos pueden tener otras causas. Solo una inspección boroscópica realizada e interpretada correctamente puede confirmar visualmente el bore scoring. Esta herramienta no sustituye una inspección mecánica.';
+export const AVISO: string = 'Resultado orientativo basado en la configuración de fábrica y en los datos que has declarado. La ausencia de síntomas no descarta daño incipiente y los síntomas descritos pueden tener otras causas. Solo una inspección boroscópica realizada e interpretada correctamente puede confirmar visualmente el bore scoring. Esta herramienta no sustituye una inspección mecánica.';
 
 /** La regla de confirmacion, en un solo sitio y siempre a la vista. */
-export const CONFIRMACION = 'Los síntomas pueden orientar, pero solo una inspección boroscópica adecuada permite confirmar visualmente el bore scoring.';
+export const CONFIRMACION: string = 'Los síntomas pueden orientar, pero solo una inspección boroscópica adecuada permite confirmar visualmente el bore scoring.';
 
 export const AFINAR = {
   titulo: 'Afinar el resultado con síntomas y pruebas',

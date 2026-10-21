@@ -235,13 +235,15 @@ const motivoServicio = pagina?.tipo === 'servicio' && !esTarifas && !esPa10
   ? (/^(restauraciones|build)/.test(pagina.rutaId) ? 'restauracion'
      : /^(storage|competicion|centros)$/.test(pagina.rutaId) ? 'otro' : 'taller')
   : undefined;
-const formServicio = motivoServicio && {
+/* `as const`: sin el, `asunto` se ensancha a string y Formulario solo
+   admite sus cinco motivos. */
+const formServicio = motivoServicio && ({
   asunto: motivoServicio,
   titulo: motivoServicio === 'taller' ? t('tarifas.formTitulo')
         : motivoServicio === 'restauracion' ? t('restauracion.formTitulo') : t('form.titulo'),
   intro: motivoServicio === 'taller' ? t('tarifas.formIntro')
        : motivoServicio === 'restauracion' ? t('restauracion.formIntro') : t('form.intro'),
-};
+} as const);
 const esCentro = pagina?.tipo === 'centro';
 const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
 ---

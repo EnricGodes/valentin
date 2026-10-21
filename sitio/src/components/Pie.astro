@@ -30,15 +30,14 @@ const { idioma, rutaId = 'home', extra = [], idiomasPublicados = IDIOMAS } = Ast
 const t = traductor(idioma);
 const anio = new Date().getFullYear();
 
-/* Las páginas legales existen SOLO en español: son textos jurídicos bajo ley
-   española y la versión vinculante es esa. */
+/* Las legales existen en los seis idiomas desde octubre de 2026. */
 const legal = (id: string) => url(id, idioma);
 
-/* La home y el Magazine viven fuera del manifiesto de contenido y hoy solo
-   se generan en castellano; las Herramientas, en los seis idiomas. */
-const SOLO_ES = new Set(['home', 'magazine']);
+/* La home y el Magazine viven fuera del manifiesto de contenido, pero
+   existen en los seis idiomas, igual que las Herramientas. */
+const SEIS_IDIOMAS = new Set(['home', 'magazine']);
 const hay = (id: string) =>
-  SOLO_ES.has(id) ? idioma === POR_DEFECTO
+  SEIS_IDIOMAS.has(id) ? true
   /* El catalogo no es una pagina de datos/paginas: existe en los idiomas que
      tienen alguna ficha traducida. Sin esto, el menu ingles mandaba al
      catalogo espanol teniendo el suyo. */
@@ -58,7 +57,6 @@ const ETIQUETA: Record<string, string> = {
   contacto: t('nav.contacto'),
 };
 const secciones = SECCIONES
-  .filter((id) => SOLO_ES.has(id) ? idioma === POR_DEFECTO : true)
   .map((id) => ({
     id, texto: ETIQUETA[id] ?? rotulo(id),
     href: url(id, hay(id) ? idioma : POR_DEFECTO),
@@ -98,6 +96,8 @@ const familias = FAMILIAS
         </svg>
         <span>{t('pie.siguenos')}</span>
       </a>
+      <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}
+                      idiomasPublicados={idiomasPublicados} />
     </div>
 
     {CENTROS.map((c) => (
@@ -152,8 +152,6 @@ const familias = FAMILIAS
   )}
 
   <div class="pie-abajo">
-    <SelectorIdioma idioma={idioma} rutaId={rutaId} extra={extra}
-                    idiomasPublicados={idiomasPublicados} />
     <p class="pie-legal">
       <a href={legal('aviso-legal')}>{t('pie.legal')}</a> &middot;
       <a href={legal('privacidad')}>{t('pie.privacidad')}</a> &middot;
