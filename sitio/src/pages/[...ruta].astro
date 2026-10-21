@@ -318,7 +318,8 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
     </article>
   )}
 
-  {(pagina?.tipo === 'contacto' || esCentro) && <Mapa idioma={idioma} centro={centro} />}
+  {(pagina?.tipo === 'contacto' || esCentro || pagina?.rutaId === 'centros') &&
+    <Mapa idioma={idioma} centro={centro} />}
 
   {props.tipo === 'catalogo' && <CatalogoCoches coches={cochesDe(idioma)} idioma={idioma} />}
 

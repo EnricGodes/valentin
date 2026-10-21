@@ -29,10 +29,10 @@ const llegar = (c: (typeof CENTROS)[number]) =>
            role="img" aria-label={`${t('mapa.etiqueta')} ${c.nombre}`}></div>
       <figcaption class="mapa-pie">
         <span class="mapa-ciudad">{c.nombre}</span>
-        <span class="mapa-direccion">{c.calle}, {c.ciudad}</span>
         <a class="mapa-llegar" href={llegar(c)} target="_blank" rel="noopener">
           {t('mapa.llegar')} <span aria-hidden="true">↗</span>
         </a>
+        <span class="mapa-direccion">{c.calle}, {c.ciudad}</span>
       </figcaption>
     </figure>
   ))}
@@ -78,11 +78,14 @@ const llegar = (c: (typeof CENTROS)[number]) =>
   }
   .mapas--uno .mapa-lienzo { aspect-ratio: 21 / 9; }
 
+  /* Ciudad y enlace en una linea, la direccion debajo: con la direccion en
+     medio, la de Madrid empujaba el enlace a una segunda linea y los dos
+     pies dejaban de estar a la par. */
   .mapa-pie {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: baseline;
-    gap: 6px 20px;
+    gap: 8px 20px;
     padding-top: 16px;
     border-top: 1px solid var(--linea-bronce);
     margin-top: 16px;
@@ -94,9 +97,8 @@ const llegar = (c: (typeof CENTROS)[number]) =>
     text-transform: uppercase;
     color: var(--bronce);
   }
-  .mapa-direccion { font-size: var(--t-dato); color: var(--concreto); }
+  .mapa-direccion { grid-column: 1 / -1; font-size: var(--t-dato); color: var(--concreto); }
   .mapa-llegar {
-    margin-left: auto;
     font-family: var(--mono);
     font-size: var(--t-label);
     letter-spacing: var(--tr-label);
@@ -149,6 +151,5 @@ const llegar = (c: (typeof CENTROS)[number]) =>
   @media (max-width: 760px) {
     .mapas { grid-template-columns: minmax(0, 1fr); gap: 48px; }
     .mapas--uno .mapa-lienzo { aspect-ratio: 4 / 3; }
-    .mapa-llegar { margin-left: 0; }
   }
 </style>
