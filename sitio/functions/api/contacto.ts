@@ -308,3 +308,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env, waitUnti
 /** Un GET a /api/contacto no es un error del usuario: se le manda al formulario. */
 export const onRequestGet: PagesFunction<Env> = ({ request }) =>
   Response.redirect(new URL('/contacto', request.url).href, 303);
+
+/** HEAD, igual que GET: UptimeRobot vigila esta URL con HEAD y sin esto Pages
+ *  contesta 404, que el monitor toma por caida. */
+export const onRequestHead = onRequestGet;
