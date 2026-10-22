@@ -121,7 +121,8 @@ const ICONOS = home.secciones
   .map((s) => ({
     nombre: s.titulo.replace(/^Porsche /, ''),
     texto: x.modelos.textos[s.titulo.replace(/^Porsche /, '') as keyof typeof x.modelos.textos],
-    foto: s.imagenes[0]?.url,
+    /* Version con el fondo crema ya puesto (scripts/optimizar-imagenes.mjs) */
+    foto: s.imagenes[0]?.url.replace('/img/paginas/', '/img/modelos/'),
     ...GENERACIONES[s.titulo],
   }))
   .sort((a, b) => a.orden - b.orden);

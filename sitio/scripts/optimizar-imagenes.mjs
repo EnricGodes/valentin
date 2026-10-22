@@ -20,9 +20,15 @@
  *
  * Coches: version de 800px de cada foto de img/<coche>/ en img/<coche>/800/,
  * para el srcset de las tarjetas del catalogo (TarjetaCoche.astro).
+ *
+ * Perfiles de las generaciones (home, "Los modelos que conocemos de memoria"):
+ * fotos con fondo blanco sobre la seccion crema. Se fundian con
+ * mix-blend-mode: multiply, que Safari en iPhone no aplica dentro de la pista
+ * con scroll (se veia el recuadro blanco). Aqui se hace ese mismo multiply
+ * contra el crema y se guarda en img/modelos/: la foto ya trae el fondo.
  */
 import sharp from 'sharp';
-import { mkdir, readdir, rm, stat } from 'node:fs/promises';
+import { mkdir, readFile, readdir, rm, stat } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve, join } from 'node:path';
@@ -43,6 +49,7 @@ const ANCHO_COCHE_TARJETA = 800;
 
 await optimizarPaginas();
 await tarjetasCoche();
+await perfilesModelos();
 
 if (!existsSync(origen)) {
   console.warn('AVISO: no hay imagenes del Magazine que optimizar.');
@@ -126,4 +133,21 @@ async function tarjetasCoche() {
     n += fotos.length;
   }
   console.log(`tarjetas de coche: ${n} fotos a ${ANCHO_COCHE_TARJETA}px`);
+}
+
+async function perfilesModelos() {
+  const CREMA = [0xF0, 0xED, 0xE8];   // --blanco de tokens.css, fondo de .modelos
+  const home = JSON.parse(await readFile(resolve(aqui, '../src/datos/paginas/home.json'), 'utf8'));
+  const pags = resolve(aqui, '../public/img/paginas');
+  const dest = resolve(aqui, '../public/img/modelos');
+  await mkdir(dest, { recursive: true });
+  const fotos = home.secciones
+    .filter((s) => /^Porsche /.test(s.titulo) && s.imagenes?.[0]?.url)
+    .map((s) => s.imagenes[0].url.split('/').pop());
+  await Promise.all(fotos.map((f) => sharp(join(pags, f))
+    .resize({ width: ANCHO_COCHE_TARJETA, withoutEnlargement: true })
+    .linear(CREMA.map((c) => c / 255), [0, 0, 0])
+    .jpeg({ quality: CALIDAD, mozjpeg: true })
+    .toFile(join(dest, f))));
+  console.log(`perfiles de modelos: ${fotos.length} fotos sobre crema`);
 }

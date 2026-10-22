@@ -326,7 +326,7 @@
 .modelo-num { font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label); color: #8A6A43; }
 .modelo-foto {
   width: 100%; aspect-ratio: 16 / 9; object-fit: contain;
-  mix-blend-mode: multiply; margin: 8px 0 4px;
+  margin: 8px 0 4px;   /* el fondo crema viene en la foto: ver optimizar-imagenes */
   transition: transform 0.9s var(--ease);
 }
 .modelo:hover .modelo-foto { transform: translateX(14px); }
