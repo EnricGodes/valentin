@@ -28,6 +28,9 @@ interface Props {
   intro?: string;
 }
 const { idioma, coche, cocheNombre, busca } = Astro.props;
+/* Clave publica de Turnstile (widget de valentinmotors.pages.dev y .es): va
+   en el HTML de todos modos. El secreto vive en Pages (TURNSTILE_SECRET). */
+const turnstile = import.meta.env.PUBLIC_TURNSTILE_KEY ?? '0x4AAAAAAFhKHvuG0o-yh_jO';
 const t = traductor(idioma);
 const asunto = Astro.props.asunto ?? (coche || busca ? 'compra' : 'taller');
 const titulo = Astro.props.titulo ?? t('form.titulo');
@@ -127,7 +130,7 @@ const motivos = [
     {/* Turnstile en modo gestionado: casi siempre pasa sin que el visitante
         haga nada. Sin clave configurada el widget no se pinta y la Function
         acepta el envio: el honeypot sigue filtrando. */}
-    <div class="cf-turnstile" data-sitekey={import.meta.env.PUBLIC_TURNSTILE_KEY}
+    <div class="cf-turnstile" data-sitekey={turnstile}
          data-theme="dark" data-size="flexible"></div>
 
     <div class="acciones">
@@ -141,7 +144,7 @@ const motivos = [
   </form>
 </section>
 
-{import.meta.env.PUBLIC_TURNSTILE_KEY && (
+{turnstile && (
   <script is:inline defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
 )}
 
