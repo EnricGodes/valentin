@@ -15,10 +15,10 @@ const dosCifras = (n: number) => String(n).padStart(2, '0');
       <div class="gallery-slide" role="group" aria-roledescription="diapositiva"
            aria-label={`${i + 1} / ${fotos.length}`}>
         {/* width y height explicitos: sin ellos el navegador no reserva sitio
-            y la pagina salta al cargar (CLS). Las fichas actuales no los llevan. */}
+            y la pagina salta al cargar (CLS). Las fichas actuales no los llevan.
+            Todas lazy: la galeria va debajo del hero, que es el LCP. */}
         <img src={f.src} alt={f.alt} width={f.ancho} height={f.alto}
-             loading={i === 0 ? 'eager' : 'lazy'} decoding="async"
-             fetchpriority={i === 0 ? 'high' : 'auto'}>
+             loading="lazy" decoding="async">
         {f.caption && <p class="gallery-caption">{f.caption}</p>}
       </div>
     ))}

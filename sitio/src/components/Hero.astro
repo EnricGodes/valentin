@@ -9,6 +9,8 @@ interface Props {
   imagen: string;
   /** Video de fondo opcional. La imagen queda de poster y de reserva. */
   video?: string;
+  /** Version ligera del video para movil (720 px de ancho). */
+  videoMovil?: string;
   precio?: string;
   precioLabel?: string;
   scrollLabel: string;
@@ -18,17 +20,23 @@ interface Props {
   sinReveal?: boolean;
   clase?: string;
 }
-const { eyebrow, subtitulo, titulo, claim, imagen, video, precio,
+const { eyebrow, subtitulo, titulo, claim, imagen, video, videoMovil, precio,
         precioLabel, scrollLabel, parallax = 0.28, sinReveal = false,
         clase = '' } = Astro.props;
 const reveal = sinReveal ? '' : ' reveal';
 ---
 <section class={`hero ${clase}`.trim()}>
   <div class="hero-parallax" data-parallax={parallax}>
-    <div class="hero-bg" data-fondo={imagen} style={`background-image:url('${imagen}')`}></div>
+    {/* Imagen real y no background-image: el navegador la encuentra al leer el
+        HTML y la pide la primera. Es el LCP de casi todas las paginas. */}
+    <div class="hero-bg" data-fondo={imagen}>
+      <img src={imagen} alt="" fetchpriority="high" decoding="async" />
+    </div>
+    {/* El video no lleva src: lo pone fondos.ts cuando la pagina ha cargado,
+        para que sus megas no compitan con la imagen y el texto. */}
     {video && (
-      <video class="hero-video" src={video} poster={imagen}
-             autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+      <video class="hero-video" data-src={video} data-src-movil={videoMovil}
+             poster={imagen} muted loop playsinline preload="auto" aria-hidden="true"></video>
     )}
   </div>
   <div class="hero-overlay"></div>

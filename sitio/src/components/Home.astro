@@ -163,6 +163,7 @@ const nota = GOOGLE_NOTA.media.toLocaleString(idioma);
     claim={x.hero.claim}
     imagen="/video/home/hero.jpg"
     video="/video/home/hero.mp4"
+    videoMovil="/video/home/hero-720.mp4"
     scrollLabel={t('scroll')}
     parallax={0.22}
     sinReveal
@@ -378,7 +379,7 @@ const nota = GOOGLE_NOTA.media.toLocaleString(idioma);
           <a class="reel" href={`https://www.instagram.com/p/${r.id}/`} target="_blank" rel="noopener"
              aria-label={x.instagram.completo(r.titulo)}>
             <video class="reel-video" muted playsinline preload="none"
-                   poster={`/video/home/instagram-${r.id}.jpg`}
+                   data-poster={`/video/home/instagram-${r.id}.jpg`}
                    data-src={`/video/home/instagram-${r.id}.mp4`} aria-hidden="true"></video>
             <span class="reel-velo"></span>
             <span class="reel-cuerpo">
@@ -460,8 +461,7 @@ const nota = GOOGLE_NOTA.media.toLocaleString(idioma);
 
   {/* ── 11. Cita ── */}
   <section class="closing cita" id="cita">
-    <div class="closing-bg" data-fondo="/img/ruf/exterior3.jpg"
-         style="background-image:url('/img/ruf/exterior3.jpg')"></div>
+    <div class="closing-bg" data-fondo="/img/ruf/exterior3.jpg"></div>
     <div class="closing-overlay"></div>
     <div class="closing-content">
       <p class="section-label">{x.cita.etiqueta}</p>

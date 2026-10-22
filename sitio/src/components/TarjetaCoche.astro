@@ -9,6 +9,7 @@ import { POR_DEFECTO } from '../i18n/config';
 import { url } from '../i18n/routes';
 import { traductor } from '../i18n/ui';
 import type { Coche } from '../datos/coche';
+import { existsSync } from 'node:fs';
 
 interface Props {
   coche: Coche;
@@ -33,6 +34,11 @@ const cat = coche.catalogo;
 const vendido = cat?.estado === 'vendido';
 /* Si la ficha no esta en este idioma se enlaza la espanola, y se dice. */
 const lang = idiomaFicha === idioma ? undefined : POR_DEFECTO;
+/* Version de 800 px junto a la original (img/<coche>/800/): la tarjeta no
+   pasa de ~450 px de ancho y el movil no necesita bajarse la de 1400. */
+const mini = cat?.imagen.replace(/\/([^/]+)$/, '/800/$1');
+const srcset = mini && existsSync(`public${mini}`)
+  ? `${mini} 800w, ${cat!.imagen} ${cat!.imagenAncho}w` : undefined;
 ---
 {cat && (
   <a class={`car-card ${cat.estado} reveal delay-${Math.min(indice + 1, 6)}`}
@@ -42,8 +48,10 @@ const lang = idiomaFicha === idioma ? undefined : POR_DEFECTO;
         {cat.estadoTexto || ETIQUETA_ESTADO[cat.estado]}
       </span>
       <img src={cat.imagen} alt={`${cat.marca} ${cat.nombre}`}
+           srcset={srcset} sizes={srcset && '(max-width: 760px) 100vw, (max-width: 1200px) 50vw, 33vw'}
            width={cat.imagenAncho} height={cat.imagenAlto}
-           loading={indice < 3 ? 'eager' : 'lazy'} decoding="async">
+           loading={indice < 3 ? 'eager' : 'lazy'} decoding="async"
+           fetchpriority={indice === 0 ? 'high' : 'auto'}>
     </div>
     <div class="car-body">
       <p class="car-make">{cat.marca}</p>

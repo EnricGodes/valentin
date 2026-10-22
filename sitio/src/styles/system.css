@@ -357,6 +357,10 @@ section { position: relative; }
   transition: transform var(--dur-kenburns) ease-out;
 }
 .hero-bg.loaded { transform: scale(1); }
+.hero-bg img {
+  display: block; width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+}
 /* Video de fondo (home). Va sobre la imagen, que hace de poster mientras el
    primer fotograma no esta listo, y se recorta al ancho completo del hero:
    el material es vertical 9:16 y en escritorio se ve la banda central. */
@@ -866,7 +870,7 @@ section { position: relative; }
 .pie-dir a { color: var(--concreto); text-decoration: none; }
 .pie-dir a:hover { color: var(--blanco); }
 .pie-horario { margin-top: 14px; font-size: 13px; line-height: 1.6; color: var(--concreto); }
-.pie-dias { display: block; color: rgba(167, 162, 154, 0.55); }
+.pie-dias { display: block; color: rgba(167, 162, 154, 0.78); }
 .pie-hora { display: block; }
 
 .pie-mapa { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 24px; }
@@ -890,7 +894,7 @@ section { position: relative; }
 .pie-familia:last-child { border-bottom: 0; }
 .pie-familia dt {
   font-family: var(--mono); font-size: var(--t-micro); letter-spacing: var(--tr-label);
-  text-transform: uppercase; color: rgba(167, 162, 154, 0.55); padding-top: 3px;
+  text-transform: uppercase; color: rgba(167, 162, 154, 0.78); padding-top: 3px;
 }
 .pie-familia dd { margin: 0; font-size: 14px; line-height: 1.9; color: var(--concreto); }
 .pie-familia a { color: var(--concreto); text-decoration: none; transition: color 0.3s var(--ease); }
@@ -909,7 +913,7 @@ section { position: relative; }
 }
 .pie-legal {
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.1em;
-  color: rgba(167, 162, 154, 0.4);
+  color: rgba(167, 162, 154, 0.75);
 }
 .pie-legal a { color: inherit; }
 

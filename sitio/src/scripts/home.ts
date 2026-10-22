@@ -78,7 +78,11 @@ function hero(): void {
 /** Las palabras del manifiesto se encienden a medida que se lee. */
 function manifiesto(): void {
   for (const p of $$('[data-palabras]')) {
-    const partes = SplitText.create(p, { type: 'words', wordsClass: 'palabra' });
+    const partes = SplitText.create(p, {
+      /* aria none: el texto partido se sigue leyendo tal cual; con el modo por
+         defecto SplitText pone aria-label en un <p>, que no lo admite. */
+      type: 'words', wordsClass: 'palabra', aria: 'none',
+    });
     gsap.fromTo(partes.words, { opacity: 0.14 }, {
       opacity: 1, ease: 'none', stagger: 0.1,
       scrollTrigger: { trigger: p, start: 'top 82%', end: 'bottom 48%', scrub: true },
@@ -374,6 +378,15 @@ function anillo(): void {
   const barras = tarjetas.map((t) => $('.reel-progreso i', t)!);
   const quieto = sinMovimiento();
   raiz.classList.add('listo');
+
+  /* Los posters van en data-poster: el carrusel queda lejos del hero y sus
+     300 KB no deben competir con la foto de arriba. Se ponen al acercarse. */
+  const cerca = new IntersectionObserver(([e]) => {
+    if (!e.isIntersecting) return;
+    cerca.disconnect();
+    for (const v of videos) if (v.dataset.poster) v.poster = v.dataset.poster;
+  }, { rootMargin: '800px 0px' });
+  cerca.observe(raiz);
 
   let frente = 0;
   let visible = false;
