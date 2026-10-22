@@ -13,7 +13,7 @@ author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin-ey2wg"
 ctas:
-  - texto: "Plus d'informations"
+  - texto: "Parler à l’atelier"
     href: "/contacto"
 ---
 ![Réfection moteur 3.2 série G, 1](/img/magazine/f2e62726-20240809_143706.jpg)

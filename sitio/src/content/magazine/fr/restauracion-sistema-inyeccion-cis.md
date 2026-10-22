@@ -13,7 +13,7 @@ author: "Jordi Edo"
 squarespaceId: "674093d6214a3912511a3dc0"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracionsistemacis"
 ctas:
-  - texto: "Plus d'informations"
+  - texto: "Parler à l’atelier"
     href: "/contacto"
 ---
 ![Plat de sonde avant et après](/img/magazine/3c2d72f2-b4bd5275-558c-4eae-ba55-99ab322981e6.jpg)

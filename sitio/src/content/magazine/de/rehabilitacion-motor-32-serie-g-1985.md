@@ -13,7 +13,7 @@ author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin-ey2wg"
 ctas:
-  - texto: "Weitere Informationen"
+  - texto: "Mit der Werkstatt sprechen"
     href: "/contacto"
 ---
 ![Motorüberholung 3.2 G-Serie, 1](/img/magazine/f2e62726-20240809_143706.jpg)

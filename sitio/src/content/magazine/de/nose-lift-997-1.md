@@ -13,7 +13,7 @@ author: "Jordi Edo"
 squarespaceId: "65774d930f6e82385a812863"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971noselift-f3whn-trwdw"
 ctas:
-  - texto: "Weitere Informationen"
+  - texto: "Mit der Werkstatt sprechen"
     href: "/contacto"
 ---
 ![elektrisches Vorderachshebesystem](/img/magazine/5366029a-IMG_9767.jpg)

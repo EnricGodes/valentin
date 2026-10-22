@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "68cbbfc5f6f39476e82c54de"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40-y4b85"
 ctas:
-  - texto: "Weitere Informationen"
+  - texto: "Mit der Werkstatt sprechen"
     href: "/contacto"
 ---
 ![Fertiger aufgeladener 3.2 G-Serie Motor mit elfenbeinfarbenem Gebläserad und rotem Konusfilter](/img/magazine/6da1e3ca-WhatsApp-Image-2025-09-10-at-18.05.26-1-.jpeg)

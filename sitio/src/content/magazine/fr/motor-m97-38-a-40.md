@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "6740b22b8f9098290aa92659"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40"
 ctas:
-  - texto: "Plus d'informations"
+  - texto: "Parler à l’atelier"
     href: "/contacto"
 ---
 ![Moteur terminé prêt pour](/img/magazine/144374fd-ba3af457-d7d0-44c2-93c4-f9f1f38289b4.jpg)

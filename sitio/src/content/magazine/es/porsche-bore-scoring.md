@@ -13,7 +13,7 @@ author: "Enric Godes"
 squarespaceId: "63cbaa4aa68f813126800e9b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche-bore-scoring"
 ctas:
-  - texto: "Más información"
+  - texto: "Hablar con el taller"
     href: "/contacto"
 ---
 ![Porsche Bore Scoring](/img/magazine/92bfdf8f-bore_scoring.jpg)

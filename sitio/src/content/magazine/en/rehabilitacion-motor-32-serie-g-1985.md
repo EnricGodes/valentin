@@ -13,7 +13,7 @@ author: "Jordi Edo"
 squarespaceId: "671666088692445dd11d965c"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin-ey2wg"
 ctas:
-  - texto: "More information"
+  - texto: "Talk to the workshop"
     href: "/contacto"
 ---
 ![3.2 G-series engine rebuild, 1](/img/magazine/f2e62726-20240809_143706.jpg)

@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "671772daf31416031694012b"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche9971turbo"
 ctas:
-  - texto: "Más información"
+  - texto: "Hablar con el taller"
     href: "/contacto"
 ---
 ![El motor del 997.1 Turbo embalado en un palé, dentro de la furgoneta](/img/magazine/d42ebe6b-IMG-20240702-WA0005.jpeg)

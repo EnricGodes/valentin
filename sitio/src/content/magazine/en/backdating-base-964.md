@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "65fb0b73ebc0ef381269b440"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin-9pb35"
 ctas:
-  - texto: "More information"
+  - texto: "Talk to the workshop"
     href: "/contacto"
 ---
 ![backdating in forest green](/img/magazine/f3414aff-IMG_1221.jpg)

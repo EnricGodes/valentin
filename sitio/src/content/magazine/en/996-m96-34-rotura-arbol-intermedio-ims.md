@@ -13,7 +13,7 @@ author: "Jordi Edo"
 squarespaceId: "65aff891e50d1d7bd0f4368e"
 originalUrl: "https://www.valentinmotors.es/magazine/porscheroturasmotorm96valentin"
 ctas:
-  - texto: "More information"
+  - texto: "Talk to the workshop"
     href: "/contacto"
 ---
 ![engine block already closed](/img/magazine/ca4830fe-motor-1-7-.jpg)

@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "6a60a3eb4f1e5e738e69490c"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968-abx98"
 ctas:
-  - texto: "Més informació"
+  - texto: "Parlar amb el taller"
     href: "/contacto"
 ---
 ![27 Juny Equip de Valentin al Circuit del Jarama Boxes](/img/magazine/1aab446a-WhatsApp-Image-2026-07-22-at-13.11.57.jpeg)

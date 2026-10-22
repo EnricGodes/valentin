@@ -13,7 +13,7 @@ author: "Enric Godes"
 squarespaceId: "61c83178308f6460210c092c"
 originalUrl: "https://www.valentinmotors.es/magazine/que-es-el-ims-de-porsche"
 ctas:
-  - texto: "Enquire"
+  - texto: "Talk to the workshop"
     href: "/contacto"
 ---
 ![Porsche IMS repair](/img/magazine/80e1f237-IMS-Porsche-reparaci-n.jpg)

@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "68cbbfc5f6f39476e82c54de"
 originalUrl: "https://www.valentinmotors.es/magazine/porschem9738a40-y4b85"
 ctas:
-  - texto: "Més informació"
+  - texto: "Parlar amb el taller"
     href: "/contacto"
 ---
 ![Motor sèrie G 3.2 turboalimentat acabat, amb la turbina en marfil i el filtre cònic vermell](/img/magazine/6da1e3ca-WhatsApp-Image-2025-09-10-at-18.05.26-1-.jpeg)

@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "6761b49781b18979ffb114a9"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica911"
 ctas:
-  - texto: "Maggiori informazioni"
+  - texto: "Parlare con l’officina"
     href: "/contacto"
 ---
 ![911 G](/img/magazine/6cec3ac3-dbe2351b-b7fc-4273-9b35-78f76f439dc0.jpg)

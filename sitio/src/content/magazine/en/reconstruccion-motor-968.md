@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "697386404e017262ea3e3595"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968"
 ctas:
-  - texto: "More information"
+  - texto: "Talk to the workshop"
     href: "/contacto"
 ---
 ![Finished 968 engine on its pallet, with the dual-mass flywheel and intake manifold fitted](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)

@@ -13,7 +13,7 @@ author: "Jordi Edo"
 squarespaceId: "674093d6214a3912511a3dc0"
 originalUrl: "https://www.valentinmotors.es/magazine/restauracionsistemacis"
 ctas:
-  - texto: "Weitere Informationen"
+  - texto: "Mit der Werkstatt sprechen"
     href: "/contacto"
 ---
 ![Probe Dish vorher und nachher](/img/magazine/3c2d72f2-b4bd5275-558c-4eae-ba55-99ab322981e6.jpg)

@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "67ac64971d833a36f15f5734"
 originalUrl: "https://www.valentinmotors.es/magazine/porschepinturaclasica964-9fcrx"
 ctas:
-  - texto: "Más información"
+  - texto: "Hablar con el taller"
     href: "/contacto"
 ---
 ![Carrocería 964 RS](/img/magazine/7061f8b9-b08f513e-3f0d-41cf-ad82-6494a7d35e92.jpg)

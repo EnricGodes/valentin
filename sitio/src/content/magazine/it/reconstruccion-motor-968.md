@@ -12,7 +12,7 @@ author: "Jordi Edo"
 squarespaceId: "697386404e017262ea3e3595"
 originalUrl: "https://www.valentinmotors.es/magazine/porsche968"
 ctas:
-  - texto: "Maggiori informazioni"
+  - texto: "Parlare con l’officina"
     href: "/contacto"
 ---
 ![Motore del 968 finito sul pallet, con volano bimassa e collettore di aspirazione montati](/img/magazine/387b36ed-d328efb7-553e-456e-9f8c-43ec749a173b.jpg)
