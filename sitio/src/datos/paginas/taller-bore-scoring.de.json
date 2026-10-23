@@ -3,12 +3,12 @@
   "tipo": "servicio",
   "ficheroOriginal": "_redactado",
   "meta": {
-    "titulo": "Zylinderlaufbahnrisse bei Porsche: Diagnose Valentín Motors",
+    "titulo": "Bore scoring bei Porsche: Diagnose · Valentín Motors",
     "descripcion": "Endoskopische Diagnose und Reparatur von bore scoring in Porsche-Motoren M96 und M97mit vorherigem Bericht und in einem separaten Motorraum.",
     "ogImagen": ""
   },
   "h1": "Diagnose und Reparatur von bore scoring Porsche",
-  "menu": "Riefenbildung in der Zylinderlaufbahn",
+  "menu": "Bore scoring",
   "acordeones": [],
   "articulos": [
     "porsche-bore-scoring",
@@ -20,7 +20,7 @@
       "nivel": 2,
       "titulo": "Die Inspektion",
       "parrafos": [
-        "Ölverbrauch, Rauchentwicklung und Klopfen im kalten Zustand können auf bore scoringhindeuten, bestätigen dies aber nicht.",
+        "Ölverbrauch, Rauchentwicklung und Klopfen im kalten Zustand können auf bore scoring hindeuten, bestätigen dies aber nicht.",
         "Diese erfolgt mit einem Endoskop durch das Zündkerzenloch bei eingebautem Motor. Innerhalb eines Vormittags können wir feststellen, ob Riefen vorhanden sind, in welchen Zylindern und wie weit sie reichen. Wir fordern diese Inspektion grundsätzlich vor dem Kauf an: Sie ist entscheidend, um den Preis zu verhandeln und den Schaden erst später zu entdecken.",
         "Der Preis ist in der Preisliste zusammen mit den anderen Leistungen für das jeweilige Modell aufgeführt."
       ],
@@ -103,7 +103,7 @@
     },
     {
       "nivel": 2,
-      "titulo": "Zylinderlaufbahn-Rissbefund, die Bilder liegen Ihnen vor",
+      "titulo": "Bore scoring, mit den Bildern vor Augen",
       "parrafos": [
         "Das Magazin präsentiert die Arbeit und ihre Fotografien in <a href=\"/magazine/porsche-bore-scoring\">diesem dokumentierten Fall</a>."
       ],

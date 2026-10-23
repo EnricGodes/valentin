@@ -19,7 +19,7 @@
  *      reglas de CLAUDE.md que se pierden traduciendo frase a frase.
  */
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
-import { join, dirname, resolve } from 'node:path';
+import { join, dirname, resolve, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const aqui = dirname(fileURLToPath(import.meta.url));
@@ -102,6 +102,63 @@ for (const f of readdirSync(join(POSTS, 'es')).filter((x) => x.endsWith('.md')))
       const otro = leer(idioma, f);
       if (otro && !re.test(otro)) {
         fallos.push(`${idioma}/${f}: se ha traducido "${t}", que es invariante`);
+      }
+    }
+  }
+}
+
+// --- 1 bis. Invariantes en paginas y fichas, texto a texto -------------------
+// Comparar el fichero entero no sirve aqui: los enlaces van con la ruta en
+// castellano en los seis idiomas (/restauraciones/backdating), asi que el
+// termino aparece siempre aunque el texto lo traduzca. Asi paso el
+// "Rétrogradation" del frances. Se recorren a la vez el JSON espanol y su
+// traduccion y se compara cada texto con el suyo, sin etiquetas HTML.
+const NO_ES_TEXTO = new Set(['url', 'href', 'rutaId', 'slug', 'articulos', 'ficheroOriginal', 'ogImagen']);
+const sinEtiquetas = (s: string) => s.replace(/<[^>]+>/g, ' ');
+/* `Turbo` queda fuera: en castellano "turbo" es tambien la pieza ("Turbo,
+   wastegate y valvula de descarga"), y esa si se traduce (Turbolader). */
+const terminosTexto = terminos.filter((t) => t !== 'Turbo');
+const escapar = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const reTermino = new Map(terminosTexto.map((t) => [t, new RegExp(
+  `\\b${escapar(t)}\\b`, SENSIBLES.has(t) ? '' : 'i')]));
+/* En la traduccion se acepta el termino con sus formas: el plural ("Macans",
+   "transaxles"), el participio ingles ("backdated 911") y, en aleman, como
+   primera parte de un compuesto ("Targadach"). */
+const FORMAS: Record<string, string> = { backdating: 'backdat(?:ing|ed)' };
+const reTraduccion = (t: string, idioma: string) => new RegExp(
+  `\\b(?:${FORMAS[t] ?? escapar(t)})${idioma === 'de' ? '' : '(?:e?s)?\\b'}`,
+  SENSIBLES.has(t) ? '' : 'i');
+
+function compararTextos(es: unknown, otro: unknown, ruta: string, idioma: string, salida: [string, string][]) {
+  if (typeof es === 'string' && typeof otro === 'string') {
+    const a = sinEtiquetas(es), b = sinEtiquetas(otro);
+    for (const [t, re] of reTermino) {
+      if (re.test(a) && !reTraduccion(t, idioma).test(b)) salida.push([ruta, t]);
+    }
+  } else if (Array.isArray(es) && Array.isArray(otro)) {
+    // Si la traduccion tiene otra forma, los indices ya no se corresponden.
+    if (es.length !== otro.length) return;
+    es.forEach((v, i) => compararTextos(v, otro[i], `${ruta}[${i}]`, idioma, salida));
+  } else if (es && otro && typeof es === 'object' && typeof otro === 'object') {
+    for (const [k, v] of Object.entries(es)) {
+      if (!NO_ES_TEXTO.has(k)) compararTextos(v, (otro as Record<string, unknown>)[k], ruta ? `${ruta}.${k}` : k, idioma, salida);
+    }
+  }
+}
+
+for (const dir of ['coches', 'paginas']) {
+  const base = join(raiz, 'src/datos', dir);
+  if (!existsSync(base)) continue;
+  for (const nombre of readdirSync(base)) {
+    if (!nombre.endsWith('.json') || /\.(en|fr|it|de|ca)\.json$/.test(nombre)) continue;
+    const es = JSON.parse(readFileSync(join(base, nombre), 'utf8'));
+    for (const idioma of IDIOMAS) {
+      const f = join(base, nombre.replace(/\.json$/, `.${idioma}.json`));
+      if (!existsSync(f)) continue;
+      const malos: [string, string][] = [];
+      compararTextos(es, JSON.parse(readFileSync(f, 'utf8')), '', idioma, malos);
+      for (const [ruta, t] of malos) {
+        fallos.push(`${dir}/${basename(f)} ${ruta}: se ha traducido "${t}", que es invariante`);
       }
     }
   }
