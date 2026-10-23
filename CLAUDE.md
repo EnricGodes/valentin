@@ -190,7 +190,7 @@ El sitio publicado ya no son los microsites de la raíz sino la app Astro de `si
 
 ### Colecciones (asesoría a coleccionistas)
 - Página de servicio nueva (2026-10-23), ruta `colecciones` (`/colecciones-porsche`), con la plantilla común: `colecciones[.idioma].json`. Los seis idiomas están escritos a mano.
-- No está en el menú a propósito. La enlazan los servicios relacionados de Storage, inspección pre-compra y restauraciones, y el pie del catálogo («¿Buscas una unidad concreta?»).
+- En el menú de Servicios (desde 2026-10-23, a petición de Enric). Además la enlazan los servicios relacionados de Storage, inspección pre-compra y restauraciones, y el pie del catálogo («¿Buscas una unidad concreta?»).
 - Fotos en `img/colecciones/` (WebP a 720/1280/1600), sacadas de `docs/colecciones`. A la de cierre se le recortó una marca de agua.
 - Confirmado por Enric el 2026-10-23: la revisión se hace donde esté la colección, la búsqueda incluye el extranjero y no se publica precio (propuesta por escrito tras la primera conversación).
 

@@ -110,8 +110,8 @@ export const RUTAS: Ruta[] = [
     slugs: { es: 'taller-porsche/servicio-tecnico', en: 'porsche-workshop/technical-service', fr: 'atelier-porsche/service-technique', it: 'officina-porsche/servizio-tecnico', de: 'porsche-werkstatt/technischer-service', ca: 'taller-porsche/servei-tecnic' } },
   { id: 'storage', seccion: 'servicios',
     slugs: { es: 'storage-porsche', en: 'porsche-vehicle-storage', fr: 'stockage-porsche', it: 'rimessaggio-porsche', de: 'porsche-einlagerung', ca: 'emmagatzematge-porsche' } },
-  // Asesoria a coleccionistas. No va en el menu: la enlazan storage,
-  // pre-compra, restauraciones y el catalogo.
+  // Asesoria a coleccionistas. En el menu de servicios; ademas la enlazan
+  // storage, pre-compra, restauraciones y el catalogo.
   { id: 'colecciones', seccion: 'servicios',
     slugs: { es: 'colecciones-porsche', en: 'porsche-collections', fr: 'collections-porsche', it: 'collezioni-porsche', de: 'porsche-sammlungen', ca: 'colleccions-porsche' } },
 
