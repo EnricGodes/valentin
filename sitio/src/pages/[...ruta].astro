@@ -233,7 +233,7 @@ const esNosotros = pagina?.rutaId === 'quienes-somos';
    cita; storage, competicion y el indice de centros, lo que sea. */
 const motivoServicio = pagina?.tipo === 'servicio' && !esTarifas && !esPa10
   ? (/^(restauraciones|build)/.test(pagina.rutaId) ? 'restauracion'
-     : /^(storage|competicion|centros)$/.test(pagina.rutaId) ? 'otro' : 'taller')
+     : /^(storage|competicion|centros|colecciones)$/.test(pagina.rutaId) ? 'otro' : 'taller')
   : undefined;
 /* `as const`: sin el, `asunto` se ensancha a string y Formulario solo
    admite sus cinco motivos. */
@@ -256,7 +256,7 @@ const centro = esCentro ? (pagina!.rutaId as 'barcelona' | 'madrid') : 'ambos';
   descripcion={descripcion}
   realce={coche?.realce ?? ''}
   imagen={coche?.hero.imagen ?? (esPa10 ? '/img/pa10-01/hero-1920.webp'
-    : esNosotros ? '/img/nosotros/equipo-1920.webp' : undefined)}
+    : esNosotros ? '/img/nosotros/equipo-1920.webp' : pagina?.meta.ogImagen || undefined)}
   tipoPagina={coche ? 'ficha' : vendido ? 'vendido' : pagina?.tipo ?? 'catalogo'}
   coche={coche?.slug ?? vendido?.slug}
 >

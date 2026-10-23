@@ -1,0 +1,216 @@
+{
+  "rutaId": "colecciones",
+  "tipo": "servicio",
+  "ficheroOriginal": "_nuevo",
+  "meta": {
+    "titulo": "Porsche Sammlungen: Beratung für Sammler · Valentín Motors",
+    "descripcion": "Beratung für Porsche-Sammler: Bestandsaufnahme der Sammlung, Wartungsplan, Suche und Tausch von Fahrzeugen, Originalitätsbericht und Projekte.",
+    "ogImagen": "/img/colecciones/hero-1600.webp"
+  },
+  "h1": "Sammlungen: Beratung für Porsche-Sammler",
+  "menu": "Sammlungen",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Eine Sammlung ist mehr als die Summe ihrer Autos",
+      "parrafos": [
+        "Wer mehrere Porsche zusammenträgt, verwaltet am Ende etwas anderes als ein Auto: Wartungstermine, die nie zusammenfallen, Unterlagen in verschiedenen Ordnern, Fahrzeuge, die nicht mehr zum Gedanken der Sammlung passen, und andere, die fehlen und nicht auftauchen. Mit Sammlungen begleitet Valentin Motors dieses Ganze.",
+        "Wir arbeiten seit 1979 an Porsche, vom 356 bis zum 992. Das bringen wir mit: zu wissen, worauf es bei jeder Generation ankommt, was so bleiben sollte, wie es ist, und was sich zu korrigieren lohnt."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/hero-1280.webp",
+          "alt": "Ein grauer klassischer 911, ein bordeauxroter 993 und ein silberner 992 in einer Privatgarage mit Blick auf einen Olivenhain"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Was wir für eine Sammlung tun",
+      "parrafos": [
+        "Sechs Leistungen, einzeln oder als laufende Betreuung:"
+      ],
+      "items": [
+        "Bestandsaufnahme: technischer und optischer Zustand jedes Fahrzeugs, Unterlagen und Prioritäten.",
+        "Wartungsplan: ein gemeinsamer Kalender für alle Autos, mit dem, was jedes braucht, und wann.",
+        "Fahrzeugsuche: das fehlende Auto, mit der Ausstattung, auf die es wirklich ankommt.",
+        "Tausch und Verkauf: ein diskreter Weg für Fahrzeuge, die nicht mehr passen, oder der Tausch gegen ein anderes.",
+        "Originalitätsbericht: was jedes Auto von seinem Auslieferungszustand bewahrt hat und was nicht.",
+        "Projekte: Restaurierungen, Backdating oder die Vorbereitung auf einen Concours."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/revision-1280.webp",
+          "alt": "Zwei Personen begutachten eine Sammlung von sechs Porsche, vom 356 bis zum 992, in einer Tiefgarage"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Den Bestand aufnehmen",
+      "parrafos": [
+        "Wir beginnen mit einem Besuch bei der Sammlung, wo immer sie steht. Wir sehen uns jedes Auto an: Zustand, Laufleistung, Historie, Papiere, was gemacht wurde und was aufgeschoben ist. Daraus entsteht ein Inventar mit einem Datenblatt pro Fahrzeug und einer Liste der Prioritäten.",
+        "So lässt sich auf Grundlage von Fakten entscheiden: welches Auto vor dem Sommer Aufmerksamkeit braucht, welches seit Jahren steht, ohne dass jemand danach gesehen hat, und welches in der Sammlung keinen Sinn mehr ergibt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Ein einziger Wartungskalender",
+      "parrafos": [
+        "Ein 356 und ein 997 brauchen nicht dasselbe und nicht im selben Rhythmus. Wir ordnen die Wartung der ganzen Sammlung in einem Kalender, erledigen die Arbeiten in unseren Werkstätten in Barcelona oder Madrid und melden uns, bevor ein Termin fällig wird.",
+        "Für Autos, die monatelang stehen, bietet die <a href=\"/storage-porsche\">Einlagerung</a> in Madrid regelmäßige Inspektionen und vorbeugende Wartung."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/mantenimiento-1280.webp",
+          "alt": "Werkbank mit Drehmomentschlüssel und Fotos der Autos vor einem weißen 911, einem blauen 964, einem silbernen 996 und einem grünen 992"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Das fehlende Auto finden",
+      "parrafos": [
+        "Viele Sammlungen haben eine Wunschliste: eine bestimmte Generation, eine Sonderfarbe, ein Schaltgetriebe, ein einziger Vorbesitzer. Wir gehen von dieser Liste aus und suchen das Fahrzeug in Spanien und im Ausland, auf dem Markt und bei Besitzern, die ihre Autos nicht inserieren. Bevor wir einen Kauf empfehlen, durchläuft das Auto eine <a href=\"/taller-porsche/inspeccion-pre-compra\">Ankaufsuntersuchung</a>, und seine Unterlagen werden geprüft.",
+        "Vor Beginn der Suche legen wir mit dem Sammler fest:"
+      ],
+      "items": [
+        "Modell, Generation und Version.",
+        "Welche Farben und Optionen Bedingung sind und welche Wunsch.",
+        "Den akzeptablen Zustand: original, restauriert oder zu restaurieren.",
+        "Budget und Zeitrahmen."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/busqueda-1280.webp",
+          "alt": "Sieben Porsche verschiedener Generationen, vom 356 bis zum 992, zu beiden Seiten einer Garage geparkt"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Tauschen ohne Inserat",
+      "parrafos": [
+        "Sammlungen verändern sich: Ein Auto passt nicht mehr, ein anderes nimmt seinen Platz ein. Wenn ein Fahrzeug die Sammlung verlässt, suchen wir zuerst unter unseren Kunden einen Käufer, bevor wir es veröffentlichen, oder tauschen es gegen das gesuchte. Kein Inserat, wenn der Besitzer es nicht will, und sein Name bleibt vertraulich.",
+        "Ist der offene Verkauf die beste Lösung, kommt das Auto mit eigenem Exposé und Fotos in unseren <a href=\"/porsche-en-venta\">Katalog</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Originalität messen",
+      "parrafos": [
+        "Bei einem Sammler-Porsche schlägt sich die Originalität im Preis nieder. Der Bericht vergleicht jedes Auto mit seinem Auslieferungszustand, anhand der Fahrgestell-, Motor- und Getriebenummern und der Unterlagen, die Porsche zu jedem Fahrzeug aufbewahrt.",
+        "Wir prüfen Teil für Teil und trennen, was original ist, was zeitgenössisch korrekt ist und was ersetzt wurde. Das Ergebnis ist ein bebildertes Dokument, das für die Versicherung, für den Verkauf und für die Entscheidung dient, ob sich die Suche nach einem Teil lohnt."
+      ],
+      "items": [
+        "Fahrgestell, Motor und Getriebe: ob sie mit den Werksdaten übereinstimmen.",
+        "Lack: originaler Farbcode, Nachlackierungen und Schichtdicken.",
+        "Innenraum: Polster, Teppiche, Lenkrad und Instrumente.",
+        "Technik und Ausstattung: Gemischaufbereitung, Auspuff, Felgen und Werksoptionen.",
+        "Unterlagen: Scheckheft, Rechnungen und Vorbesitzer."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/originalidad-1280.webp",
+          "alt": "Arbeitstisch mit Notizbuch, Fotos und einer Fuchsfelge, gegenüber vier 911 verschiedener Generationen"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Projekte für die Sammlung",
+      "parrafos": [
+        "Manchmal braucht ein Auto mehr als Wartung: eine <a href=\"/restauraciones/integrales\">Komplettrestaurierung</a>, ein <a href=\"/restauraciones/backdating\">Backdating</a> oder die Vorbereitung auf einen Concours d’Elegance. Wir definieren das Projekt, erstellen das Angebot und setzen es in unserer Werkstatt um, mit Zwischenberichten und Fotos jeder Phase."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Vom ersten Besuch zur laufenden Betreuung",
+      "parrafos": [
+        "Man kann eine einzelne Leistung beauftragen, etwa einen Originalitätsbericht oder eine Suche, oder die laufende Betreuung der Sammlung. Was wir über jedes Auto und seinen Besitzer wissen, bleibt unter uns."
+      ],
+      "items": [
+        "Ein erstes, unverbindliches Gespräch über die Sammlung und das, was man von ihr erwartet.",
+        "Besuch und Inventar jedes Fahrzeugs.",
+        "Bericht mit Zustand, Prioritäten und einem Jahresplan.",
+        "Betreuung: Wartungen, Erinnerungen und ein fester Ansprechpartner für alles."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/cierre-1280.webp",
+          "alt": "Ein grauer 911 SC, ein bordeauxroter 993 und ein silberner 992 in einer Privatgarage"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Zugehörige Dienstleistungen",
+      "parrafos": [
+        "Sammlungen stützt sich auf den Rest des Hauses: <a href=\"/storage-porsche\">Einlagerung</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">Ankaufsuntersuchung</a>, <a href=\"/restauraciones\">Restaurierung</a> und <a href=\"/porsche-en-venta\">Porsche kaufen</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Häufig gestellte Fragen",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Braucht man dafür viele Autos?",
+      "parrafos": [
+        "Nein. Der Service lohnt sich ab zwei oder drei Fahrzeugen, und auch für alle, die eine Sammlung beginnen und sie vom ersten Auto an mit Sachverstand aufbauen wollen."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Müssen die Autos bei Valentin Motors stehen?",
+      "parrafos": [
+        "Nein. Die Bestandsaufnahme findet dort statt, wo die Sammlung steht. Wartung und Projekte erledigen wir in unseren Werkstätten in Barcelona und Madrid; die Einlagerung gibt es nur in Madrid."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Gilt das nur für Porsche?",
+      "parrafos": [
+        "Ja. Es ist die Marke, die wir seit 1979 kennen, und die einzige, über die wir fundiert urteilen können."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Was kostet es?",
+      "parrafos": [
+        "Das hängt von der Sammlung und vom Auftrag ab. Nach dem ersten Gespräch erstellen wir ein schriftliches Angebot."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 64,
+    "total": 64,
+    "completa": true
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "rutaId": "colecciones",
+  "tipo": "servicio",
+  "ficheroOriginal": "_nuevo",
+  "meta": {
+    "titulo": "Colecciones Porsche: asesoría para coleccionistas · Valentín Motors",
+    "descripcion": "Asesoría para coleccionistas Porsche: revisión de la colección, plan de mantenimiento, búsqueda e intercambio de unidades, informe de originalidad y proyectos.",
+    "ogImagen": "/img/colecciones/hero-1600.webp"
+  },
+  "h1": "Colecciones: asesoría para coleccionistas Porsche",
+  "menu": "Colecciones",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Una colección es más que la suma de sus coches",
+      "parrafos": [
+        "Quien reúne varios Porsche acaba gestionando algo distinto de un coche: mantenimientos que no coinciden, documentación repartida en carpetas, unidades que ya no encajan con lo que se quería reunir y otras que faltan y no aparecen. Colecciones es el servicio con el que Valentin Motors acompaña ese conjunto.",
+        "Trabajamos con Porsche desde 1979, del 356 al 992. Eso es lo que aportamos: saber qué mirar en cada generación, qué merece conservarse tal cual y qué conviene corregir."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/hero-1280.webp",
+          "alt": "Un 911 clásico gris, un 993 granate y un 992 plateado en un garaje privado abierto a un jardín de olivos"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Qué hacemos por una colección",
+      "parrafos": [
+        "Seis trabajos que pueden contratarse por separado o como acompañamiento continuo:"
+      ],
+      "items": [
+        "Revisión de la colección: estado mecánico y estético de cada unidad, documentación y prioridades.",
+        "Plan de mantenimiento: un calendario único para todos los coches, con lo que toca a cada uno y cuándo.",
+        "Búsqueda de unidades: el coche que falta, con las especificaciones que de verdad importan.",
+        "Intercambio y venta: salida discreta para las unidades que ya no encajan, o canje por otra.",
+        "Informe de originalidad: qué conserva cada coche de cómo salió de fábrica y qué no.",
+        "Proyectos: restauraciones, backdating o la preparación para un concurso de elegancia."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/revision-1280.webp",
+          "alt": "Dos personas repasan una colección de seis Porsche, del 356 al 992, en un garaje subterráneo"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Revisar lo que ya hay",
+      "parrafos": [
+        "Empezamos con una visita a la colección, allí donde esté. Vemos cada coche: estado, kilómetros, historial, papeles, lo que se ha hecho y lo que se ha ido aplazando. De ahí sale un inventario con una ficha por unidad y una lista de prioridades.",
+        "Es lo que permite decidir con datos: qué coche necesita atención antes del verano, cuál lleva años parado sin que nadie lo haya mirado, cuál ha dejado de tener sentido dentro del conjunto."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un solo calendario de mantenimiento",
+      "parrafos": [
+        "Un 356 y un 997 no piden lo mismo ni con la misma frecuencia. Ordenamos el mantenimiento de toda la colección en un calendario, hacemos los trabajos en nuestros talleres de Barcelona o Madrid y avisamos antes de que venza cada intervención.",
+        "Para los coches que pasan meses sin moverse, el <a href=\"/storage-porsche\">Storage</a> de Madrid añade inspecciones periódicas y mantenimiento preventivo."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/mantenimiento-1280.webp",
+          "alt": "Banco de taller con una llave dinamométrica y fotos de los coches, delante de un 911 blanco, un 964 azul, un 996 plateado y un 992 verde"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Encontrar el coche que falta",
+      "parrafos": [
+        "Muchas colecciones tienen una lista de deseos: una generación concreta, un color de carta, una caja manual, un único propietario. Partimos de esa lista y buscamos la unidad en España y fuera, en el mercado y entre propietarios que no anuncian sus coches. Antes de recomendar una compra, el coche pasa por una <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a> y se revisa su documentación.",
+        "Antes de empezar a buscar fijamos con el coleccionista:"
+      ],
+      "items": [
+        "Modelo, generación y versión.",
+        "Qué colores y opciones son condición y cuáles preferencia.",
+        "El estado aceptable: conservado, restaurado o para restaurar.",
+        "Presupuesto y plazo."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/busqueda-1280.webp",
+          "alt": "Siete Porsche de distintas generaciones, del 356 al 992, aparcados a los dos lados de un garaje"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Intercambiar sin anunciar",
+      "parrafos": [
+        "Las colecciones cambian: un coche deja de encajar y otro ocupa su lugar. Cuando una unidad sale, le buscamos comprador entre nuestros clientes antes de publicarla, o la cambiamos por la que se busca. Sin anuncios si el propietario no los quiere y sin dar su nombre.",
+        "Si la venta abierta es la mejor opción, el coche entra en nuestro <a href=\"/porsche-en-venta\">catálogo</a> con su ficha y sus fotos."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Medir la originalidad",
+      "parrafos": [
+        "En un Porsche de colección, la originalidad cuenta en el precio. El informe compara cada coche con cómo salió de fábrica, a partir de los números de bastidor, motor y caja y de la documentación que Porsche conserva de cada unidad.",
+        "Revisamos pieza a pieza y separamos lo original, lo correcto de época y lo sustituido. El resultado es un documento con fotos que sirve para asegurar el coche, para venderlo y para decidir si merece la pena recuperar una pieza."
+      ],
+      "items": [
+        "Bastidor, motor y caja: si coinciden con los de fábrica.",
+        "Pintura: código de color original, repintados y espesores.",
+        "Interior: tapicería, moquetas, volante e instrumentación.",
+        "Mecánica y equipamiento: alimentación, escape, llantas y opciones de fábrica.",
+        "Documentación: libro de mantenimiento, facturas y propietarios anteriores."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/originalidad-1280.webp",
+          "alt": "Mesa de trabajo con una libreta, fotos y una llanta Fuchs, frente a cuatro 911 de distintas generaciones"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Proyectos para la colección",
+      "parrafos": [
+        "A veces un coche pide más que mantenimiento: una <a href=\"/restauraciones/integrales\">restauración integral</a>, un <a href=\"/restauraciones/backdating\">backdating</a> o la preparación para un concurso de elegancia. Definimos el proyecto, lo presupuestamos y lo hacemos en nuestro taller, con seguimiento y fotos de cada fase."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "De la primera visita al seguimiento",
+      "parrafos": [
+        "Se puede contratar un trabajo suelto, como un informe de originalidad o una búsqueda, o el acompañamiento continuo de la colección. Lo que sabemos de cada coche y de su propietario queda entre nosotros."
+      ],
+      "items": [
+        "Una primera conversación, sin compromiso, sobre la colección y lo que se quiere de ella.",
+        "Visita e inventario de cada unidad.",
+        "Informe con el estado, las prioridades y un plan para el año.",
+        "Seguimiento: revisiones, avisos y una persona de referencia para todo."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/cierre-1280.webp",
+          "alt": "Un 911 SC gris, un 993 granate y un 992 plateado en un garaje particular"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Servicios relacionados",
+      "parrafos": [
+        "Colecciones se apoya en el resto de la casa: <a href=\"/storage-porsche\">Storage</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspección pre-compra</a>, <a href=\"/restauraciones\">restauraciones</a> y <a href=\"/porsche-en-venta\">Porsche en venta</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntas frecuentes",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Hace falta tener muchos coches?",
+      "parrafos": [
+        "No. El servicio tiene sentido a partir de dos o tres unidades, y también para quien empieza una colección y quiere hacerlo con criterio desde el primer coche."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Los coches tienen que estar en Valentin Motors?",
+      "parrafos": [
+        "No. La revisión se hace donde está la colección. El mantenimiento y los proyectos se hacen en nuestros talleres de Barcelona y Madrid; el Storage, solo en Madrid."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Es solo para Porsche?",
+      "parrafos": [
+        "Sí. Es la marca que conocemos desde 1979 y la única sobre la que opinamos con fundamento."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "¿Cuánto cuesta?",
+      "parrafos": [
+        "Depende de la colección y de lo que se contrate. Después de la primera conversación preparamos una propuesta por escrito."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  }
+}

@@ -25,6 +25,9 @@ const landings = GENERACIONES_CON_LANDING
   }))
   .filter((l) => l.pagina !== undefined);
 const vender = publicadas.find((x) => x.pagina.rutaId === 'vende')?.pagina;
+/* Quien no encuentra aqui su coche puede encargar la busqueda: es una de las
+   patas del servicio de colecciones. */
+const colecciones = publicadas.find((x) => x.pagina.rutaId === 'colecciones')?.pagina;
 
 const disponibles = coches.filter((c) => c.catalogo?.estado !== 'vendido').length;
 const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'numeric' })
@@ -45,7 +48,7 @@ const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'nume
   {coches.map((c, i) => <TarjetaCoche coche={c} idioma={idioma} indice={i} />)}
 </div>
 
-{(landings.length > 0 || vender) && (
+{(landings.length > 0 || vender || colecciones) && (
   <aside class="catalogo-mas">
     {landings.length > 0 && (
       <div class="catalogo-mas-bloque catalogo-mas-bloque--ancho">
@@ -67,6 +70,14 @@ const actualizado = new Intl.DateTimeFormat(idioma, { month: 'long', year: 'nume
         <p class="catalogo-mas-titulo">{t('catalogo.vende')}</p>
         <ul class="catalogo-mas-lista">
           <li><a href={url(vender.rutaId, idioma)}>{vender.h1}</a></li>
+        </ul>
+      </div>
+    )}
+    {colecciones && (
+      <div class="catalogo-mas-bloque">
+        <p class="catalogo-mas-titulo">{t('catalogo.busca')}</p>
+        <ul class="catalogo-mas-lista">
+          <li><a href={url(colecciones.rutaId, idioma)}>{colecciones.h1}</a></li>
         </ul>
       </div>
     )}

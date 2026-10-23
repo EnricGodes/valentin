@@ -188,6 +188,12 @@ El sitio publicado ya no son los microsites de la raíz sino la app Astro de `si
 - Género: el PA10/01 en castellano, catalán y alemán; la PA10/01 en francés e italiano (sigue al 911 de cada idioma).
 - Las cifras mecánicas siguen siendo de ejemplo, con el aviso traducido en los seis idiomas.
 
+### Colecciones (asesoría a coleccionistas)
+- Página de servicio nueva (2026-10-23), ruta `colecciones` (`/colecciones-porsche`), con la plantilla común: `colecciones[.idioma].json`. Los seis idiomas están escritos a mano.
+- No está en el menú a propósito. La enlazan los servicios relacionados de Storage, inspección pre-compra y restauraciones, y el pie del catálogo («¿Buscas una unidad concreta?»).
+- Fotos en `img/colecciones/` (WebP a 720/1280/1600), sacadas de `docs/colecciones`. A la de cierre se le recortó una marca de agua.
+- Pendiente de validar con Valentin: que la revisión se haga allí donde esté la colección, la búsqueda fuera de España y que no haya precio publicado.
+
 ### Quiénes somos en seis idiomas
 - Rehecha el 2026-10-20 con el texto y las fotos de `docs/about_us` (fuera de git; las fotos optimizadas están en `img/nosotros/`). El castellano es el del documento, tal cual; los otros cinco, traducidos a mano.
 - Como la PA10/01: maqueta propia en `src/components/Nosotros.astro`, textos en `src/datos/nosotros.ts`. Los `quienes-somos[.idioma].json` guardan meta y el mismo texto en plano para los validadores: si se cambia el texto, cambiar los dos.

@@ -1,0 +1,216 @@
+{
+  "rutaId": "colecciones",
+  "tipo": "servicio",
+  "ficheroOriginal": "_nuevo",
+  "meta": {
+    "titulo": "Col·leccions Porsche: assessorament per a col·leccionistes · Valentín Motors",
+    "descripcion": "Assessorament per a col·leccionistes Porsche: revisió de la col·lecció, pla de manteniment, cerca i intercanvi d’unitats, informe d’originalitat i projectes.",
+    "ogImagen": "/img/colecciones/hero-1600.webp"
+  },
+  "h1": "Col·leccions: assessorament per a col·leccionistes Porsche",
+  "menu": "Col·leccions",
+  "acordeones": [],
+  "secciones": [
+    {
+      "nivel": 2,
+      "titulo": "Una col·lecció és més que la suma dels seus cotxes",
+      "parrafos": [
+        "Qui reuneix diversos Porsche acaba gestionant una cosa diferent d’un cotxe: manteniments que no coincideixen, documentació repartida en carpetes, unitats que ja no encaixen amb el que es volia reunir i d’altres que falten i no apareixen. Col·leccions és el servei amb què Valentin Motors acompanya aquest conjunt.",
+        "Treballem amb Porsche des del 1979, del 356 al 992. Això és el que aportem: saber què cal mirar en cada generació, què mereix conservar-se tal com és i què convé corregir."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/hero-1280.webp",
+          "alt": "Un 911 clàssic gris, un 993 granat i un 992 platejat en un garatge privat obert a un jardí d’oliveres"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Què fem per una col·lecció",
+      "parrafos": [
+        "Sis treballs que es poden contractar per separat o com a acompanyament continu:"
+      ],
+      "items": [
+        "Revisió de la col·lecció: estat mecànic i estètic de cada unitat, documentació i prioritats.",
+        "Pla de manteniment: un calendari únic per a tots els cotxes, amb el que toca a cadascun i quan.",
+        "Cerca d’unitats: el cotxe que falta, amb les especificacions que de debò importen.",
+        "Intercanvi i venda: una sortida discreta per a les unitats que ja no encaixen, o el canvi per una altra.",
+        "Informe d’originalitat: què conserva cada cotxe de com va sortir de fàbrica i què no.",
+        "Projectes: restauracions, backdating o la preparació per a un concurs d’elegància."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/revision-1280.webp",
+          "alt": "Dues persones repassen una col·lecció de sis Porsche, del 356 al 992, en un garatge soterrani"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Revisar el que ja hi ha",
+      "parrafos": [
+        "Comencem amb una visita a la col·lecció, allà on sigui. Mirem cada cotxe: estat, quilòmetres, historial, papers, el que s’ha fet i el que s’ha anat ajornant. D’aquí en surt un inventari amb una fitxa per unitat i una llista de prioritats.",
+        "És el que permet decidir amb dades: quin cotxe necessita atenció abans de l’estiu, quin fa anys que està aturat sense que ningú l’hagi mirat, quin ha deixat de tenir sentit dins el conjunt."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Un sol calendari de manteniment",
+      "parrafos": [
+        "Un 356 i un 997 no demanen el mateix ni amb la mateixa freqüència. Ordenem el manteniment de tota la col·lecció en un calendari, fem els treballs als nostres tallers de Barcelona o Madrid i avisem abans que venci cada intervenció.",
+        "Per als cotxes que passen mesos sense moure’s, l’<a href=\"/storage-porsche\">emmagatzematge</a> de Madrid hi afegeix inspeccions periòdiques i manteniment preventiu."
+      ],
+      "items": [],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/mantenimiento-1280.webp",
+          "alt": "Banc de taller amb una clau dinamomètrica i fotos dels cotxes, davant d’un 911 blanc, un 964 blau, un 996 platejat i un 992 verd"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Trobar el cotxe que falta",
+      "parrafos": [
+        "Moltes col·leccions tenen una llista de desitjos: una generació concreta, un color a la carta, un canvi manual, un únic propietari. Partim d’aquesta llista i busquem la unitat a Espanya i fora, al mercat i entre propietaris que no anuncien els seus cotxes. Abans de recomanar una compra, el cotxe passa una <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a> i se’n revisa la documentació.",
+        "Abans de començar a buscar fixem amb el col·leccionista:"
+      ],
+      "items": [
+        "Model, generació i versió.",
+        "Quins colors i opcions són condició i quins preferència.",
+        "L’estat acceptable: conservat, restaurat o per restaurar.",
+        "Pressupost i termini."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/busqueda-1280.webp",
+          "alt": "Set Porsche de generacions diferents, del 356 al 992, aparcats a banda i banda d’un garatge"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Intercanviar sense anunciar",
+      "parrafos": [
+        "Les col·leccions canvien: un cotxe deixa d’encaixar i un altre n’ocupa el lloc. Quan una unitat surt, li busquem comprador entre els nostres clients abans de publicar-la, o la canviem per la que es busca. Sense anuncis si el propietari no en vol i sense donar-ne el nom.",
+        "Si la venda oberta és la millor opció, el cotxe entra al nostre <a href=\"/porsche-en-venta\">catàleg</a> amb la seva fitxa i les seves fotos."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Mesurar l’originalitat",
+      "parrafos": [
+        "En un Porsche de col·lecció, l’originalitat compta en el preu. L’informe compara cada cotxe amb com va sortir de fàbrica, a partir dels números de bastidor, motor i canvi i de la documentació que Porsche conserva de cada unitat.",
+        "Revisem peça a peça i separem el que és original, el que és correcte d’època i el que s’ha substituït. El resultat és un document amb fotos que serveix per assegurar el cotxe, per vendre’l i per decidir si val la pena recuperar una peça."
+      ],
+      "items": [
+        "Bastidor, motor i canvi: si coincideixen amb els de fàbrica.",
+        "Pintura: codi de color original, repintats i gruixos.",
+        "Interior: entapissat, moquetes, volant i instrumentació.",
+        "Mecànica i equipament: alimentació, escapament, llantes i opcions de fàbrica.",
+        "Documentació: llibre de manteniment, factures i propietaris anteriors."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/originalidad-1280.webp",
+          "alt": "Taula de treball amb una llibreta, fotos i una llanta Fuchs, davant de quatre 911 de generacions diferents"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Projectes per a la col·lecció",
+      "parrafos": [
+        "De vegades un cotxe demana més que manteniment: una <a href=\"/restauraciones/integrales\">restauració integral</a>, un <a href=\"/restauraciones/backdating\">backdating</a> o la preparació per a un concurs d’elegància. Definim el projecte, el pressupostem i el fem al nostre taller, amb seguiment i fotos de cada fase."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "De la primera visita al seguiment",
+      "parrafos": [
+        "Es pot contractar un treball solt, com un informe d’originalitat o una cerca, o l’acompanyament continu de la col·lecció. El que sabem de cada cotxe i del seu propietari queda entre nosaltres."
+      ],
+      "items": [
+        "Una primera conversa, sense compromís, sobre la col·lecció i el que se n’espera.",
+        "Visita i inventari de cada unitat.",
+        "Informe amb l’estat, les prioritats i un pla per a l’any.",
+        "Seguiment: revisions, avisos i una persona de referència per a tot."
+      ],
+      "imagenes": [
+        {
+          "url": "/img/colecciones/cierre-1280.webp",
+          "alt": "Un 911 SC gris, un 993 granat i un 992 platejat en un garatge particular"
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "titulo": "Serveis relacionats",
+      "parrafos": [
+        "Col·leccions es recolza en la resta de la casa: <a href=\"/storage-porsche\">emmagatzematge</a>, <a href=\"/taller-porsche/inspeccion-pre-compra\">inspecció pre-compra</a>, <a href=\"/restauraciones\">restauracions</a> i <a href=\"/porsche-en-venta\">Porsche en venda</a>."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 2,
+      "titulo": "Preguntes freqüents",
+      "parrafos": [],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Cal tenir molts cotxes?",
+      "parrafos": [
+        "No. El servei té sentit a partir de dues o tres unitats, i també per a qui comença una col·lecció i vol fer-ho amb criteri des del primer cotxe."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Els cotxes han de ser a Valentin Motors?",
+      "parrafos": [
+        "No. La revisió es fa on és la col·lecció. El manteniment i els projectes es fan als nostres tallers de Barcelona i Madrid; l’emmagatzematge, només a Madrid."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "És només per a Porsche?",
+      "parrafos": [
+        "Sí. És la marca que coneixem des del 1979 i l’única sobre la qual opinem amb fonament."
+      ],
+      "items": [],
+      "imagenes": []
+    },
+    {
+      "nivel": 3,
+      "titulo": "Quant costa?",
+      "parrafos": [
+        "Depèn de la col·lecció i del que es contracti. Després de la primera conversa preparem una proposta per escrit."
+      ],
+      "items": [],
+      "imagenes": []
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": []
+  },
+  "traduccion": {
+    "hechas": 64,
+    "total": 64,
+    "completa": true
+  }
+}
