@@ -284,6 +284,11 @@ a { color: inherit; }
 .reveal-left  { transform: translateX(-48px); }
 .reveal-right { transform: translateX(48px); }
 .reveal-scale { transform: scale(0.94); }
+/* En movil las columnas ocupan todo el ancho: entrar de lado las sacaba 48 px
+   de la pantalla hasta aparecer y la pagina se arrastraba en horizontal. */
+@media (max-width: 960px) {
+  .reveal-left, .reveal-right { transform: translateY(36px); }
+}
 .reveal.visible, .reveal-left.visible, .reveal-right.visible, .reveal-scale.visible {
   opacity: 1; transform: none;
 }
@@ -946,7 +951,13 @@ section { position: relative; }
 /* ── Responsive de las fichas de coche ─────────────────────────────────── */
 @media (max-width: 960px) {
   .hero-badge { display: none; }
-  .dos-columnas { grid-template-columns: 1fr; gap: 48px; }
+  /* minmax(0, 1fr): con 1fr la columna crecia hasta el ancho minimo de su
+     contenido (las cifras de 40 px de .engineering-stats) y se salia de la
+     pantalla. */
+  .dos-columnas { grid-template-columns: minmax(0, 1fr); gap: 48px; }
+  .engineering-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .eng-stat { padding: 24px 20px; }
+  .eng-stat-val { font-size: 32px; }
   /* Fotos enteras: en un telefono el coche se ve de lado a lado. Con alturas
      fijas y object-fit: cover, una foto apaisada perdia dos tercios del
      ancho. El escenario de la galeria toma la proporcion de sus fotos

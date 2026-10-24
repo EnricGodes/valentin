@@ -165,6 +165,10 @@
 .carrusel-boton:hover, .carrusel-boton:focus-visible {
   background: var(--bronce); border-color: var(--bronce); color: var(--negro);
 }
+/* La pista entra desde x: 120 (home.ts): sin esto asomaba por la derecha de
+   la pantalla hasta la animacion. hidden y no clip: iOS anterior al 16 no
+   entiende clip. */
+.opiniones { overflow-x: hidden; }
 .opiniones-pista {
   display: flex; gap: 2px; margin-top: 56px;
   overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
