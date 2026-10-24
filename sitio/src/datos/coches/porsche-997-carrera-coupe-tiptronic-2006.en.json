@@ -1,0 +1,463 @@
+{
+  "slug": "porsche-997-carrera-coupe-tiptronic-2006",
+  "traduccion": {
+    "hechas": 168,
+    "total": 168,
+    "completa": true
+  },
+  "archivoOriginal": "997carrera.html",
+  "realce": "realce--997carrera",
+  "meta": {
+    "titulo": "2006 Porsche 911 Carrera 997.1 Tiptronic for sale · Valentín Motors",
+    "descripcion": "2006 Porsche 911 Carrera Coupé 997.1 with Tiptronic transmission, 113,244 km and black-on-black specification. Available at Valentín Motors for €50,000.",
+    "ogImagen": "https://valentin.up.railway.app/img/997carrera/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2006",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera Coupé",
+    "claim": "Tiptronic. Black Z4. A classic, understated 911 made to be used.",
+    "imagen": "/img/997carrera/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Vehicle history",
+    "titulo": "The first 997,<br/><strong>black on black<br/>with Tiptronic.</strong>",
+    "parrafos": [
+      "This <strong>Porsche 911 Carrera Coupé</strong> from the 997.1 generation left the factory on <strong>29 March 2006</strong> in a particularly understated specification: black paint, code <strong>Z4 / C9Z</strong>, black leather interior and <strong>Tiptronic</strong> transmission.",
+      "It keeps the clean, compact proportions that define the first 997: oval headlights, the classic fall of the tail and nothing added to spoil the Carrera's original lines. Silver five-spoke wheels, red brake calipers, the <strong>Carrera</strong> script on the tail and four exhaust outlets complete the picture. The instrument cluster reads <strong>113,244 km</strong>."
+    ],
+    "cita": "A 997.1 Carrera Coupé in an understated, recognisable and usable specification, with its Porsche vehicle data sheet on file.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generation",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Production",
+        "valor": "29/03/2006",
+        "acento": false
+      },
+      {
+        "clave": "VIN",
+        "valor": "WP0ZZZ99Z6S702730",
+        "acento": false
+      },
+      {
+        "clave": "Transmission",
+        "valor": "Tiptronic",
+        "acento": false
+      },
+      {
+        "clave": "Mileage",
+        "valor": "113,244 km",
+        "acento": false
+      },
+      {
+        "clave": "Colour",
+        "valor": "Black Z4 / C9Z",
+        "acento": false
+      },
+      {
+        "clave": "Interior",
+        "valor": "Black leather",
+        "acento": false
+      },
+      {
+        "clave": "Price",
+        "valor": "€50,000",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Gallery",
+    "titulo": "Black Z4.<br/><strong>The clean silhouette<br/>of the 997.1.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997carrera/hero.jpg",
+        "alt": "Black Porsche 997.1 Carrera Coupé, front three-quarter view",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Front three-quarter · The 997.1's oval headlights"
+      },
+      {
+        "src": "/img/997carrera/exterior2.jpg",
+        "alt": "Side profile of the Carrera Coupé",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profile · Coupé proportions"
+      },
+      {
+        "src": "/img/997carrera/exterior1.jpg",
+        "alt": "Rear three-quarter view with the Carrera script",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Rear three-quarter · Carrera script and four exhausts"
+      },
+      {
+        "src": "/img/997carrera/interior1.jpg",
+        "alt": "Black leather cabin with Tiptronic selector",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabin · Black leather and Tiptronic selector"
+      },
+      {
+        "src": "/img/997carrera/close-up2.jpg",
+        "alt": "Five-spoke wheel and red brake caliper",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detail · Five-spoke wheel and red caliper"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Engine and transmission",
+    "titulo": "Tiptronic.<br/><strong>A 911 built<br/>to be used.</strong>",
+    "stats": [
+      {
+        "valor": "3,6",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Displacement",
+        "destacada": true
+      },
+      {
+        "valor": 325,
+        "animado": true,
+        "unidad": "PS",
+        "etiqueta": "Power",
+        "destacada": false
+      },
+      {
+        "valor": 370,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Peak torque",
+        "destacada": false
+      },
+      {
+        "valor": "113,244",
+        "animado": false,
+        "unidad": "km",
+        "etiqueta": "Mileage",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "The 997.1 Carrera uses the naturally aspirated, water-cooled <strong>3.6-litre</strong> flat-six, mounted behind the rear axle as in every 911. On this car, the Porsche vehicle data sheet records engine code <strong>9605</strong> and transmission code <strong>A9701</strong>.",
+      "The <strong>Tiptronic</strong> transmission (code 249) sets the car's character: smooth, comfortable driving in town, on long trips and every day, with the option of choosing the gears from the steering-wheel controls. It is the specification of a grand-touring 911, discreet and easy to live with."
+    ],
+    "tags": [
+      "3.6 L flat-six",
+      "Tiptronic",
+      "Rear-wheel drive",
+      "Engine 9605",
+      "113,244 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Factory equipment · Option codes",
+    "titulo": "Original<br/><strong>specification, documented.</strong>",
+    "ancla": "equipamiento",
+    "precio": "€50,000 · 113,244 km",
+    "categorias": [
+      {
+        "titulo": "Transmission",
+        "items": [
+          "249 · Tiptronic",
+          "219 · Differential"
+        ]
+      },
+      {
+        "titulo": "Instruments",
+        "items": [
+          "025 · Black instrument rings and stopwatch"
+        ]
+      },
+      {
+        "titulo": "Body",
+        "items": [
+          "271 · Aspherical driver's mirror, electrically adjustable and heated",
+          "288 · Headlight washers",
+          "211 · Number-plate bracket, version 3"
+        ]
+      },
+      {
+        "titulo": "Equipment",
+        "items": [
+          "196 · 80 Ah battery",
+          "199 · Battery cut-off switch",
+          "335 · Three-point rear seat belts"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Black Z4.<br/><strong>Clean surfaces,<br/>nothing added.</strong>",
+    "texto": "The <strong>Black Z4 / C9Z</strong> paint leaves the 997's shapes to speak for themselves: the bonnet and front wings, the arc of the roof, the volume of the rear haunches and a simple tail carrying the <strong>Carrera</strong> script. The <strong>silver five-spoke wheels</strong> and <strong>red brake calipers</strong> are the only contrast, together with the tail lights and the <strong>four exhaust outlets</strong>, two on each side.",
+    "fotos": [
+      {
+        "src": "/img/997carrera/close-up1.jpg",
+        "alt": "Tail with Carrera script and four exhausts",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Tail · Carrera script and four exhaust outlets"
+      },
+      {
+        "src": "/img/997carrera/close-up2.jpg",
+        "alt": "Five-spoke wheel with red caliper",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Five-spoke wheel · Red brake caliper"
+      },
+      {
+        "src": "/img/997carrera/exterior3.jpg",
+        "alt": "Rear three-quarter view from the right",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Rear three-quarter · Engine lid grille"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Black leather.<br/><strong>Five dials<br/>and a stopwatch.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997carrera/interior2.jpg",
+        "alt": "Driving position with the five dials",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Driving position · Five analogue dials"
+      },
+      {
+        "src": "/img/997carrera/close-up3.jpg",
+        "alt": "Steering wheel and instruments",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Steering wheel and instruments · 113,244 km"
+      },
+      {
+        "src": "/img/997carrera/interior3.jpg",
+        "alt": "Black leather front seats",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Seats · Black leather"
+      }
+    ],
+    "editorial": "The cabin keeps the 997.1's own layout: <strong>five-dial</strong> analogue instruments, a <strong>stopwatch</strong> on the dashboard (code 025), the original centre console and infotainment, and the <strong>Tiptronic selector</strong> on the tunnel. Seats, door panels and dashboard in black, matching the body."
+  },
+  "procedencia": {
+    "etiqueta": "Documentation and origin",
+    "titulo": "A 997.1<br/><strong>with its Porsche<br/>data sheet.</strong>",
+    "hitos": [
+      {
+        "anio": "29/03/2006 · Production",
+        "titulo": "Built on 29 March 2006",
+        "cuerpo": "<strong>997.1</strong> generation Carrera Coupé, sales type <strong>997110</strong>, in <strong>Black Z4 / C9Z</strong> with black interior and Tiptronic transmission. Spanish-market specification.",
+        "badge": "VIN WP0ZZZ99Z6S702730"
+      },
+      {
+        "anio": "Documentation",
+        "titulo": "Porsche vehicle data sheet",
+        "cuerpo": "The vehicle data sheet records the chassis number, engine code <strong>9605</strong>, transmission <strong>A9701</strong>, the colour and the factory option codes listed on this page.",
+        "badge": "Partslink24"
+      },
+      {
+        "anio": "Today",
+        "titulo": "Available at Valentin Motors",
+        "cuerpo": "The car is offered with <strong>113,244 km</strong> on its instrument cluster, in the specification in which it left the factory.",
+        "badge": "€50,000"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Technical sheet",
+    "titulo": "Full<br/><strong>specifications.</strong>",
+    "grupos": [
+      {
+        "titulo": "Engine",
+        "filas": [
+          {
+            "clave": "Type",
+            "valor": "Rear flat-six"
+          },
+          {
+            "clave": "Engine code",
+            "valor": "9605"
+          },
+          {
+            "clave": "Displacement",
+            "valor": "3,596 cc"
+          },
+          {
+            "clave": "Power",
+            "valor": "325 PS"
+          },
+          {
+            "clave": "Peak torque",
+            "valor": "370 Nm"
+          },
+          {
+            "clave": "Cooling",
+            "valor": "Water"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmission and chassis",
+        "filas": [
+          {
+            "clave": "Gearbox",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "Transmission code",
+            "valor": "A9701"
+          },
+          {
+            "clave": "Drive",
+            "valor": "Rear-wheel"
+          },
+          {
+            "clave": "Wheels",
+            "valor": "Five-spoke, silver"
+          },
+          {
+            "clave": "Brakes",
+            "valor": "Red calipers"
+          }
+        ]
+      },
+      {
+        "titulo": "Body and general",
+        "filas": [
+          {
+            "clave": "Production",
+            "valor": "29/03/2006"
+          },
+          {
+            "clave": "Generation",
+            "valor": "997.1"
+          },
+          {
+            "clave": "VIN",
+            "valor": "WP0ZZZ99Z6S702730"
+          },
+          {
+            "clave": "Sales type",
+            "valor": "997110"
+          },
+          {
+            "clave": "Body",
+            "valor": "Coupé"
+          },
+          {
+            "clave": "Exterior colour",
+            "valor": "Black Z4 / C9Z"
+          },
+          {
+            "clave": "Interior",
+            "valor": "Black leather"
+          },
+          {
+            "clave": "Mileage",
+            "valor": "113,244 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Factory options",
+        "filas": [
+          {
+            "clave": "025",
+            "valor": "Black instrument rings, stopwatch"
+          },
+          {
+            "clave": "071 / 119",
+            "valor": "EU version / Spanish-market specification"
+          },
+          {
+            "clave": "098",
+            "valor": "Left-hand drive"
+          },
+          {
+            "clave": "196 / 199",
+            "valor": "80 Ah battery / Battery cut-off switch"
+          },
+          {
+            "clave": "211",
+            "valor": "Number-plate bracket, version 3"
+          },
+          {
+            "clave": "219",
+            "valor": "Differential"
+          },
+          {
+            "clave": "249",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "271",
+            "valor": "Aspherical driver's mirror, electrically adjustable and heated"
+          },
+          {
+            "clave": "288",
+            "valor": "Headlight washers"
+          },
+          {
+            "clave": "335",
+            "valor": "Three-point rear seat belts"
+          }
+        ]
+      },
+      {
+        "titulo": "Terms of sale",
+        "filas": [
+          {
+            "clave": "Price",
+            "valor": "€50,000"
+          },
+          {
+            "clave": "Documentation",
+            "valor": "Porsche vehicle data sheet"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997carrera/exterior3.jpg",
+    "cita": "A Porsche 911 Carrera Coupé 997.1 in <em>black on black</em>, with Tiptronic transmission and a very clean presence.",
+    "precio": "€50,000",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997.1 Carrera Coupé Tiptronic · Black Z4 · 2006",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "More information",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Available",
+    "marca": "Porsche · Carrera",
+    "nombre": "997.1 Carrera Coupé Tiptronic",
+    "detalle": "2006 · 113,244 km · Black Z4",
+    "descripcion": "3.6 L flat-six · Tiptronic · Silver five-spoke wheels. Black on black, in its factory specification and with its Porsche vehicle data sheet.",
+    "precio": "€50,000",
+    "precioPorConsultar": false,
+    "imagen": "/img/997carrera/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

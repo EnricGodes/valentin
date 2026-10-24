@@ -1,0 +1,193 @@
+{
+  "slug": "porsche-997-carrera-coupe-tiptronic-2006",
+  "archivoOriginal": "997carrera.html",
+  "realce": "realce--997carrera",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 997.1 Tiptronic 2006 en venta · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera Coupé 997.1 de 2006 con cambio Tiptronic, 113.244 km y configuración negro sobre negro. Disponible en Valentín Motors por 50.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997carrera/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2006",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera Coupé",
+    "claim": "Tiptronic. Negro Z4. Un 911 clásico, sobrio y utilizable.",
+    "imagen": "/img/997carrera/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Historia del vehículo",
+    "titulo": "El primer 997,<br/><strong>negro sobre negro<br/>y con Tiptronic.</strong>",
+    "parrafos": [
+      "Este <strong>Porsche 911 Carrera Coupé</strong> de la generación 997.1 salió de fábrica el <strong>29 de marzo de 2006</strong> en una configuración especialmente sobria: carrocería negra con código <strong>Z4 / C9Z</strong>, interior en cuero negro y transmisión <strong>Tiptronic</strong>.",
+      "Conserva las proporciones limpias y compactas que definen al primer 997: faros ovalados, la caída clásica de la zaga y ningún elemento añadido que desvirtúe la línea original del Carrera. Llantas de cinco radios en plata, pinzas de freno rojas, el emblema <strong>Carrera</strong> en la zaga y cuatro salidas de escape completan el conjunto. Su cuadro marca <strong>113.244 km</strong>."
+    ],
+    "cita": "Un Carrera Coupé 997.1 en una configuración sobria, reconocible y utilizable, con su ficha de datos Porsche identificada.",
+    "datos": [
+      { "clave": "Modelo", "valor": "911 Carrera Coupé", "acento": false },
+      { "clave": "Generación", "valor": "997.1", "acento": false },
+      { "clave": "Producción", "valor": "29/03/2006", "acento": false },
+      { "clave": "VIN", "valor": "WP0ZZZ99Z6S702730", "acento": false },
+      { "clave": "Transmisión", "valor": "Tiptronic", "acento": false },
+      { "clave": "Kilometraje", "valor": "113.244 km", "acento": false },
+      { "clave": "Color", "valor": "Negro Z4 / C9Z", "acento": false },
+      { "clave": "Interior", "valor": "Cuero negro", "acento": false },
+      { "clave": "Precio", "valor": "50.000 €", "acento": true }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galería",
+    "titulo": "Negro Z4.<br/><strong>La silueta limpia<br/>del 997.1.</strong>",
+    "fotos": [
+      { "src": "/img/997carrera/hero.jpg", "alt": "Porsche 997.1 Carrera Coupé negro, vista frontal 3/4", "ancho": 1400, "alto": 788, "caption": "Vista frontal 3/4 · Faros ovalados del 997.1" },
+      { "src": "/img/997carrera/exterior2.jpg", "alt": "Perfil lateral del Carrera Coupé", "ancho": 1400, "alto": 788, "caption": "Perfil · Proporciones del Coupé" },
+      { "src": "/img/997carrera/exterior1.jpg", "alt": "Vista trasera 3/4 con el emblema Carrera", "ancho": 1400, "alto": 788, "caption": "Trasera 3/4 · Emblema Carrera y cuatro escapes" },
+      { "src": "/img/997carrera/interior1.jpg", "alt": "Habitáculo en cuero negro con selector Tiptronic", "ancho": 1400, "alto": 1050, "caption": "Habitáculo · Cuero negro y selector Tiptronic" },
+      { "src": "/img/997carrera/close-up2.jpg", "alt": "Llanta de cinco radios y pinza de freno roja", "ancho": 1400, "alto": 1050, "caption": "Detalle · Llanta de cinco radios y pinza roja" }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor y transmisión",
+    "titulo": "Tiptronic.<br/><strong>El 911 pensado<br/>para usarse.</strong>",
+    "stats": [
+      { "valor": "3,6", "animado": false, "unidad": "L", "etiqueta": "Cilindrada", "destacada": true },
+      { "valor": 325, "animado": true, "unidad": "CV", "etiqueta": "Potencia", "destacada": false },
+      { "valor": 370, "animado": true, "unidad": "Nm", "etiqueta": "Par máximo", "destacada": false },
+      { "valor": "113.244", "animado": false, "unidad": "km", "etiqueta": "Kilometraje", "destacada": false }
+    ],
+    "parrafos": [
+      "El Carrera 997.1 monta el bóxer atmosférico de seis cilindros y <strong>3,6 litros</strong>, refrigerado por agua y colocado detrás del eje trasero, como en todo 911. En esta unidad, la ficha de datos Porsche identifica el código de motor <strong>9605</strong> y el de transmisión <strong>A9701</strong>.",
+      "La transmisión <strong>Tiptronic</strong> (código 249) define el carácter del coche: una conducción fluida y cómoda en ciudad, en viaje y en el día a día, con la posibilidad de elegir las relaciones desde los mandos del volante. Es la configuración de un 911 de gran turismo, discreto y fácil de vivir."
+    ],
+    "tags": [ "Bóxer 3,6 L", "Tiptronic", "Propulsión trasera", "Motor 9605", "113.244 km" ]
+  },
+  "kit": {
+    "etiqueta": "Equipamiento de fábrica · Códigos de opción",
+    "titulo": "Configuración<br/><strong>de origen documentada.</strong>",
+    "ancla": "equipamiento",
+    "precio": "50.000 € · 113.244 km",
+    "categorias": [
+      { "titulo": "Transmisión", "items": [ "249 · Tiptronic", "219 · Diferencial" ] },
+      { "titulo": "Instrumentación", "items": [ "025 · Aros de instrumentos en negro y cronómetro" ] },
+      { "titulo": "Carrocería", "items": [ "271 · Retrovisor del conductor asférico, eléctrico y calefactado", "288 · Lavafaros", "211 · Soporte de matrícula, versión 3" ] },
+      { "titulo": "Equipo", "items": [ "196 · Batería de 80 Ah", "199 · Desconectador de batería", "335 · Cinturones traseros de tres puntos" ] }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Negro Z4.<br/><strong>Volúmenes limpios,<br/>sin añadidos.</strong>",
+    "texto": "La carrocería en <strong>negro Z4 / C9Z</strong> deja todo el protagonismo a las formas del 997: el capó y las aletas delanteras, el arco del techo, el volumen de las aletas traseras y una zaga sencilla presidida por el emblema <strong>Carrera</strong>. Las <strong>llantas de cinco radios en plata</strong> y las <strong>pinzas de freno rojas</strong> son el único contraste, junto a los pilotos traseros y las <strong>cuatro salidas de escape</strong>, dos a cada lado.",
+    "fotos": [
+      { "src": "/img/997carrera/close-up1.jpg", "alt": "Zaga con emblema Carrera y cuatro escapes", "ancho": 1400, "alto": 1050, "caption": "Zaga · Emblema Carrera y cuatro salidas de escape" },
+      { "src": "/img/997carrera/close-up2.jpg", "alt": "Llanta de cinco radios con pinza roja", "ancho": 1400, "alto": 1050, "caption": "Llanta de cinco radios · Pinza de freno roja" },
+      { "src": "/img/997carrera/exterior3.jpg", "alt": "Vista trasera 3/4 desde el lado derecho", "ancho": 1400, "alto": 788, "caption": "Trasera 3/4 · Rejilla de la tapa del motor" }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Cuero negro.<br/><strong>Cinco relojes<br/>y cronómetro.</strong>",
+    "fotos": [
+      { "src": "/img/997carrera/interior2.jpg", "alt": "Puesto de conducción con los cinco relojes", "ancho": 1400, "alto": 1050, "caption": "Puesto de conducción · Cinco relojes analógicos" },
+      { "src": "/img/997carrera/close-up3.jpg", "alt": "Volante e instrumentación", "ancho": 1400, "alto": 1050, "caption": "Volante e instrumentación · 113.244 km" },
+      { "src": "/img/997carrera/interior3.jpg", "alt": "Asientos delanteros en cuero negro", "ancho": 1400, "alto": 1050, "caption": "Asientos · Cuero negro" }
+    ],
+    "editorial": "El habitáculo mantiene la arquitectura propia del 997.1: instrumentación analógica de <strong>cinco esferas</strong>, <strong>cronómetro</strong> sobre el salpicadero (código 025), consola central y equipo multimedia de origen y <strong>selector Tiptronic</strong> en el túnel. Asientos, paneles de puerta y salpicadero en negro, a juego con la carrocería."
+  },
+  "procedencia": {
+    "etiqueta": "Documentación y procedencia",
+    "titulo": "Un 997.1<br/><strong>con su ficha<br/>de datos Porsche.</strong>",
+    "hitos": [
+      { "anio": "29/03/2006 · Producción", "titulo": "Fabricado el 29 de marzo de 2006", "cuerpo": "Carrera Coupé de la generación <strong>997.1</strong>, tipo de venta <strong>997110</strong>, en negro <strong>Z4 / C9Z</strong> con interior negro y transmisión Tiptronic. Ejecución para España.", "badge": "VIN WP0ZZZ99Z6S702730" },
+      { "anio": "Documentación", "titulo": "Ficha de datos Porsche", "cuerpo": "La ficha de datos del vehículo identifica el bastidor, el código de motor <strong>9605</strong>, la transmisión <strong>A9701</strong>, el color y los códigos de opción de fábrica que se recogen en esta ficha.", "badge": "Partslink24" },
+      { "anio": "Hoy", "titulo": "Disponible en Valentin Motors", "cuerpo": "La unidad se presenta con <strong>113.244 km</strong> en su cuadro de instrumentos, en la configuración con la que salió de fábrica.", "badge": "50.000 €" }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Ficha técnica",
+    "titulo": "Especificaciones<br/><strong>completas.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          { "clave": "Tipo", "valor": "Bóxer de 6 cilindros trasero" },
+          { "clave": "Código de motor", "valor": "9605" },
+          { "clave": "Cilindrada", "valor": "3.596 cm³" },
+          { "clave": "Potencia", "valor": "325 CV" },
+          { "clave": "Par máximo", "valor": "370 Nm" },
+          { "clave": "Refrigeración", "valor": "Por agua" }
+        ]
+      },
+      {
+        "titulo": "Transmisión y chasis",
+        "filas": [
+          { "clave": "Cambio", "valor": "Tiptronic" },
+          { "clave": "Código de transmisión", "valor": "A9701" },
+          { "clave": "Tracción", "valor": "Trasera" },
+          { "clave": "Llantas", "valor": "Cinco radios, en plata" },
+          { "clave": "Frenos", "valor": "Pinzas rojas" }
+        ]
+      },
+      {
+        "titulo": "Carrocería y datos generales",
+        "filas": [
+          { "clave": "Producción", "valor": "29/03/2006" },
+          { "clave": "Generación", "valor": "997.1" },
+          { "clave": "VIN", "valor": "WP0ZZZ99Z6S702730" },
+          { "clave": "Tipo de venta", "valor": "997110" },
+          { "clave": "Carrocería", "valor": "Coupé" },
+          { "clave": "Color exterior", "valor": "Negro Z4 / C9Z" },
+          { "clave": "Interior", "valor": "Cuero negro" },
+          { "clave": "Kilometraje", "valor": "113.244 km" }
+        ]
+      },
+      {
+        "titulo": "Opciones de fábrica",
+        "filas": [
+          { "clave": "025", "valor": "Aros de instrumentos en negro, cronómetro" },
+          { "clave": "071 / 119", "valor": "Versión UE / Ejecución España" },
+          { "clave": "098", "valor": "Volante a la izquierda" },
+          { "clave": "196 / 199", "valor": "Batería de 80 Ah / Desconectador de batería" },
+          { "clave": "211", "valor": "Soporte de matrícula, versión 3" },
+          { "clave": "219", "valor": "Diferencial" },
+          { "clave": "249", "valor": "Tiptronic" },
+          { "clave": "271", "valor": "Retrovisor del conductor asférico, eléctrico y calefactado" },
+          { "clave": "288", "valor": "Lavafaros" },
+          { "clave": "335", "valor": "Cinturones traseros de tres puntos" }
+        ]
+      },
+      {
+        "titulo": "Condiciones de venta",
+        "filas": [
+          { "clave": "Precio", "valor": "50.000 €" },
+          { "clave": "Documentación", "valor": "Ficha de datos Porsche" }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997carrera/exterior3.jpg",
+    "cita": "Un Porsche 911 Carrera Coupé 997.1 en <em>negro sobre negro</em>, con transmisión Tiptronic y una presencia exterior muy limpia.",
+    "precio": "50.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997.1 Carrera Coupé Tiptronic · Negro Z4 · 2006",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Más información",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · Carrera",
+    "nombre": "997.1 Carrera Coupé Tiptronic",
+    "detalle": "2006 · 113.244 km · Negro Z4",
+    "descripcion": "Bóxer 3,6 L · Tiptronic · Llantas de cinco radios en plata. Negro sobre negro, en la configuración con la que salió de fábrica y con su ficha de datos Porsche.",
+    "precio": "50.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997carrera/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

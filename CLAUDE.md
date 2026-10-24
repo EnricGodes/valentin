@@ -150,6 +150,13 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 3. **Interior "piel beige"**: sale de las fotos, la ficha no dice color ni material
 4. En `sitio/` tiene ficha en seis idiomas (slug `porsche-911-carrera-3-2-coupe-1984`), traducida a mano: no copiar las etiquetas de las otras fichas traducidas, que salieron de traductor automático ("Tapez", "Boxtyp")
 
+### Porsche 997.1 Carrera Coupé Tiptronic 2006 (997carrera.html)
+1. Ficha fuente en `docs/porsche_997_1_carrera_coupe_tiptronic_2006.md`; fotos originales en `docs/Web/997carrera/`. En `sitio/` tiene ficha en seis idiomas (slug `porsche-997-carrera-coupe-tiptronic-2006`), traducida a mano. Segundo en el catálogo, detrás del RUF
+2. **3,6 L / 325 CV / 370 Nm**: cifras de catálogo del Carrera 997.1, no vienen en la ficha. Validar con Valentin
+3. **Códigos 022 y 233**: la ficha los da sin descripción legible; no están en la web. La ficha Partslink24 tiene una segunda página que no tenemos: no añadir equipamiento sin ella, y no mencionarlo nunca en la web
+4. **Sin opinión de Jordi**: la ficha no la trae y no se inventa
+5. **113.244 km**: lectura del cuadro en las fotos. Confirmar con Valentin que sigue siendo la actual
+
 ### Porsche 991 Carrera S Cabrio y 997.1 Carrera 4S Tiptronic
 - Vendidos (2026-10-06). Fuera del catálogo; `991scabrio.html` y `997tiptronic.html` se quedan marcados como vendidos. En `sitio/` siguen sus fichas con estado vendido en seis idiomas
 

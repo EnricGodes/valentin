@@ -1,0 +1,463 @@
+{
+  "slug": "porsche-997-carrera-coupe-tiptronic-2006",
+  "traduccion": {
+    "hechas": 168,
+    "total": 168,
+    "completa": true
+  },
+  "archivoOriginal": "997carrera.html",
+  "realce": "realce--997carrera",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 997.1 Tiptronic 2006 en venda · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera Coupé 997.1 del 2006 amb canvi Tiptronic, 113.244 km i configuració negre sobre negre. Disponible a Valentín Motors per 50.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997carrera/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2006",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera Coupé",
+    "claim": "Tiptronic. Negre Z4. Un 911 clàssic, sobri i per fer servir.",
+    "imagen": "/img/997carrera/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Història del vehicle",
+    "titulo": "El primer 997,<br/><strong>negre sobre negre<br/>i amb Tiptronic.</strong>",
+    "parrafos": [
+      "Aquest <strong>Porsche 911 Carrera Coupé</strong> de la generació 997.1 va sortir de fàbrica el <strong>29 de març del 2006</strong> en una configuració especialment sòbria: carrosseria negra amb codi <strong>Z4 / C9Z</strong>, interior de cuir negre i transmissió <strong>Tiptronic</strong>.",
+      "Conserva les proporcions netes i compactes que defineixen el primer 997: fars ovalats, la caiguda clàssica de la part posterior i cap element afegit que desvirtuï la línia original del Carrera. Llantes de cinc radis en plata, pinces de fre vermelles, l'emblema <strong>Carrera</strong> a la part del darrere i quatre sortides d'escapament completen el conjunt. El quadre marca <strong>113.244 km</strong>."
+    ],
+    "cita": "Un Carrera Coupé 997.1 en una configuració sòbria, reconeixible i utilitzable, amb la seva fitxa de dades Porsche.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generació",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Producció",
+        "valor": "29/03/2006",
+        "acento": false
+      },
+      {
+        "clave": "VIN",
+        "valor": "WP0ZZZ99Z6S702730",
+        "acento": false
+      },
+      {
+        "clave": "Transmissió",
+        "valor": "Tiptronic",
+        "acento": false
+      },
+      {
+        "clave": "Quilometratge",
+        "valor": "113.244 km",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Negre Z4 / C9Z",
+        "acento": false
+      },
+      {
+        "clave": "Interior",
+        "valor": "Cuir negre",
+        "acento": false
+      },
+      {
+        "clave": "Preu",
+        "valor": "50.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galeria",
+    "titulo": "Negre Z4.<br/><strong>La silueta neta<br/>del 997.1.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997carrera/hero.jpg",
+        "alt": "Porsche 997.1 Carrera Coupé negre, vista frontal 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vista frontal 3/4 · Fars ovalats del 997.1"
+      },
+      {
+        "src": "/img/997carrera/exterior2.jpg",
+        "alt": "Perfil lateral del Carrera Coupé",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil · Proporcions del Coupé"
+      },
+      {
+        "src": "/img/997carrera/exterior1.jpg",
+        "alt": "Vista posterior 3/4 amb l'emblema Carrera",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posterior 3/4 · Emblema Carrera i quatre escapaments"
+      },
+      {
+        "src": "/img/997carrera/interior1.jpg",
+        "alt": "Habitacle de cuir negre amb selector Tiptronic",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitacle · Cuir negre i selector Tiptronic"
+      },
+      {
+        "src": "/img/997carrera/close-up2.jpg",
+        "alt": "Llanta de cinc radis i pinça de fre vermella",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detall · Llanta de cinc radis i pinça vermella"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor i transmissió",
+    "titulo": "Tiptronic.<br/><strong>El 911 pensat<br/>per fer-lo servir.</strong>",
+    "stats": [
+      {
+        "valor": "3,6",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrada",
+        "destacada": true
+      },
+      {
+        "valor": 325,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Potència",
+        "destacada": false
+      },
+      {
+        "valor": 370,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Parell màxim",
+        "destacada": false
+      },
+      {
+        "valor": "113.244",
+        "animado": false,
+        "unidad": "km",
+        "etiqueta": "Quilometratge",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El Carrera 997.1 munta el bòxer atmosfèric de sis cilindres i <strong>3,6 litres</strong>, refrigerat per aigua i situat darrere l'eix posterior, com en tot 911. En aquesta unitat, la fitxa de dades Porsche identifica el codi de motor <strong>9605</strong> i el de transmissió <strong>A9701</strong>.",
+      "La transmissió <strong>Tiptronic</strong> (codi 249) defineix el caràcter del cotxe: una conducció fluida i còmoda a la ciutat, de viatge i en el dia a dia, amb la possibilitat de triar les relacions des dels comandaments del volant. És la configuració d'un 911 de gran turisme, discret i fàcil de viure."
+    ],
+    "tags": [
+      "Bòxer 3,6 L",
+      "Tiptronic",
+      "Propulsió posterior",
+      "Motor 9605",
+      "113.244 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Equipament de fàbrica · Codis d'opció",
+    "titulo": "Configuració<br/><strong>d'origen documentada.</strong>",
+    "ancla": "equipamiento",
+    "precio": "50.000 € · 113.244 km",
+    "categorias": [
+      {
+        "titulo": "Transmissió",
+        "items": [
+          "249 · Tiptronic",
+          "219 · Diferencial"
+        ]
+      },
+      {
+        "titulo": "Instrumentació",
+        "items": [
+          "025 · Cèrcols dels instruments en negre i cronòmetre"
+        ]
+      },
+      {
+        "titulo": "Carrosseria",
+        "items": [
+          "271 · Retrovisor del conductor asfèric, elèctric i calefactat",
+          "288 · Rentafars",
+          "211 · Suport de matrícula, versió 3"
+        ]
+      },
+      {
+        "titulo": "Equip",
+        "items": [
+          "196 · Bateria de 80 Ah",
+          "199 · Desconnectador de bateria",
+          "335 · Cinturons posteriors de tres punts"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Negre Z4.<br/><strong>Volums nets,<br/>sense afegits.</strong>",
+    "texto": "La carrosseria en <strong>negre Z4 / C9Z</strong> deixa tot el protagonisme a les formes del 997: el capó i les aletes davanteres, l'arc del sostre, el volum de les aletes posteriors i una part posterior senzilla presidida per l'emblema <strong>Carrera</strong>. Les <strong>llantes de cinc radis en plata</strong> i les <strong>pinces de fre vermelles</strong> són l'únic contrast, juntament amb els pilots posteriors i les <strong>quatre sortides d'escapament</strong>, dues a cada costat.",
+    "fotos": [
+      {
+        "src": "/img/997carrera/close-up1.jpg",
+        "alt": "Part posterior amb emblema Carrera i quatre escapaments",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Part posterior · Emblema Carrera i quatre sortides d'escapament"
+      },
+      {
+        "src": "/img/997carrera/close-up2.jpg",
+        "alt": "Llanta de cinc radis amb pinça vermella",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta de cinc radis · Pinça de fre vermella"
+      },
+      {
+        "src": "/img/997carrera/exterior3.jpg",
+        "alt": "Vista posterior 3/4 des del costat dret",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posterior 3/4 · Reixeta de la tapa del motor"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Cuir negre.<br/><strong>Cinc rellotges<br/>i cronòmetre.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997carrera/interior2.jpg",
+        "alt": "Lloc de conducció amb els cinc rellotges",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Lloc de conducció · Cinc rellotges analògics"
+      },
+      {
+        "src": "/img/997carrera/close-up3.jpg",
+        "alt": "Volant i instrumentació",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Volant i instrumentació · 113.244 km"
+      },
+      {
+        "src": "/img/997carrera/interior3.jpg",
+        "alt": "Seients davanters de cuir negre",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Seients · Cuir negre"
+      }
+    ],
+    "editorial": "L'habitacle manté l'arquitectura pròpia del 997.1: instrumentació analògica de <strong>cinc esferes</strong>, <strong>cronòmetre</strong> sobre el tauler (codi 025), consola central i equip multimèdia d'origen i <strong>selector Tiptronic</strong> al túnel. Seients, panells de porta i tauler en negre, conjuntats amb la carrosseria."
+  },
+  "procedencia": {
+    "etiqueta": "Documentació i procedència",
+    "titulo": "Un 997.1<br/><strong>amb la seva fitxa<br/>de dades Porsche.</strong>",
+    "hitos": [
+      {
+        "anio": "29/03/2006 · Producció",
+        "titulo": "Fabricat el 29 de març del 2006",
+        "cuerpo": "Carrera Coupé de la generació <strong>997.1</strong>, tipus de venda <strong>997110</strong>, en <strong>negre Z4 / C9Z</strong> amb interior negre i transmissió Tiptronic. Execució per a Espanya.",
+        "badge": "VIN WP0ZZZ99Z6S702730"
+      },
+      {
+        "anio": "Documentació",
+        "titulo": "Fitxa de dades Porsche",
+        "cuerpo": "La fitxa de dades del vehicle identifica el bastidor, el codi de motor <strong>9605</strong>, la transmissió <strong>A9701</strong>, el color i els codis d'opció de fàbrica que es recullen en aquesta fitxa.",
+        "badge": "Partslink24"
+      },
+      {
+        "anio": "Avui",
+        "titulo": "Disponible a Valentin Motors",
+        "cuerpo": "La unitat es presenta amb <strong>113.244 km</strong> al quadre d'instruments, en la configuració amb què va sortir de fàbrica.",
+        "badge": "50.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fitxa tècnica",
+    "titulo": "Especificacions<br/><strong>completes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Tipus",
+            "valor": "Bòxer de 6 cilindres posterior"
+          },
+          {
+            "clave": "Codi de motor",
+            "valor": "9605"
+          },
+          {
+            "clave": "Cilindrada",
+            "valor": "3.596 cm³"
+          },
+          {
+            "clave": "Potència",
+            "valor": "325 CV"
+          },
+          {
+            "clave": "Parell màxim",
+            "valor": "370 Nm"
+          },
+          {
+            "clave": "Refrigeració",
+            "valor": "Per aigua"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmissió i xassís",
+        "filas": [
+          {
+            "clave": "Canvi",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "Codi de transmissió",
+            "valor": "A9701"
+          },
+          {
+            "clave": "Tracció",
+            "valor": "Posterior"
+          },
+          {
+            "clave": "Llantes",
+            "valor": "Cinc radis, en plata"
+          },
+          {
+            "clave": "Frens",
+            "valor": "Pinces vermelles"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosseria i dades generals",
+        "filas": [
+          {
+            "clave": "Producció",
+            "valor": "29/03/2006"
+          },
+          {
+            "clave": "Generació",
+            "valor": "997.1"
+          },
+          {
+            "clave": "VIN",
+            "valor": "WP0ZZZ99Z6S702730"
+          },
+          {
+            "clave": "Tipus de venda",
+            "valor": "997110"
+          },
+          {
+            "clave": "Carrosseria",
+            "valor": "Coupé"
+          },
+          {
+            "clave": "Color exterior",
+            "valor": "Negre Z4 / C9Z"
+          },
+          {
+            "clave": "Interior",
+            "valor": "Cuir negre"
+          },
+          {
+            "clave": "Quilometratge",
+            "valor": "113.244 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Opcions de fàbrica",
+        "filas": [
+          {
+            "clave": "025",
+            "valor": "Cèrcols dels instruments en negre, cronòmetre"
+          },
+          {
+            "clave": "071 / 119",
+            "valor": "Versió UE / Execució Espanya"
+          },
+          {
+            "clave": "098",
+            "valor": "Volant a l'esquerra"
+          },
+          {
+            "clave": "196 / 199",
+            "valor": "Bateria de 80 Ah / Desconnectador de bateria"
+          },
+          {
+            "clave": "211",
+            "valor": "Suport de matrícula, versió 3"
+          },
+          {
+            "clave": "219",
+            "valor": "Diferencial"
+          },
+          {
+            "clave": "249",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "271",
+            "valor": "Retrovisor del conductor asfèric, elèctric i calefactat"
+          },
+          {
+            "clave": "288",
+            "valor": "Rentafars"
+          },
+          {
+            "clave": "335",
+            "valor": "Cinturons posteriors de tres punts"
+          }
+        ]
+      },
+      {
+        "titulo": "Condicions de venda",
+        "filas": [
+          {
+            "clave": "Preu",
+            "valor": "50.000 €"
+          },
+          {
+            "clave": "Documentació",
+            "valor": "Fitxa de dades Porsche"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997carrera/exterior3.jpg",
+    "cita": "Un Porsche 911 Carrera Coupé 997.1 en <em>negre sobre negre</em>, amb transmissió Tiptronic i una presència exterior molt neta.",
+    "precio": "50.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997.1 Carrera Coupé Tiptronic · Negre Z4 · 2006",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Més informació",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · Carrera",
+    "nombre": "997.1 Carrera Coupé Tiptronic",
+    "detalle": "2006 · 113.244 km · Negre Z4",
+    "descripcion": "Bòxer 3,6 L · Tiptronic · Llantes de cinc radis en plata. Negre sobre negre, en la configuració amb què va sortir de fàbrica i amb la seva fitxa de dades Porsche.",
+    "precio": "50.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997carrera/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}
