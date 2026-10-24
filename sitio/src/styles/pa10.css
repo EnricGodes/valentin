@@ -200,3 +200,5 @@ body:has(.p10) .nav{background:#0b0b0b}
 /* Minimo de lectura en movil: la maqueta bajaba etiquetas y pies de foto a
    8-9 px. Va al final para ganar al bloque de 760 px de arriba. */
 @media(max-width:760px){.p10-eyebrow,.p10-hero-bottom,.p10-hero-bottom a,.p10-section-label,.p10-photo figcaption,.p10-profile-caption,.p10-material-legend,.p10-spec-data h3,.p10-metric-label,.p10-spec-draft-note{font-size:12px}}
+/* Texto de lectura en movil: 17 px como minimo, como el resto del sitio (ver system.css); el boton de cierre, al minimo de etiqueta. */
+@media(max-width:960px){.p10-intro-copy p,.p10-section-summary,.p10-interior-copy p,.p10-engine-copy p,.p10-story-step p,.p10-rear-description,.p10-detail-note,.p10-spec-intro p,.p10-gesture-copy p,.p10-spec-data dd,.p10-spec-draft-note{font-size:17px}.p10-spec-data dt{font-size:15px}.p10-closing-button{font-size:12px}}

@@ -223,3 +223,8 @@
 @media (max-width: 960px) {
   .persona-cargo { font-size: 12px; }
 }
+
+/* Texto de lectura en movil: 17 px como minimo (ver system.css). */
+@media (max-width: 960px) {
+  .persona-texto, .taller-lema, .taller-texto p, .especialidad-texto { font-size: var(--t-cuerpo); }
+}

@@ -361,4 +361,9 @@ const motivos = [
     .campos { grid-template-columns: 1fr; }
     .boton-enviar { width: 100%; }
   }
+
+  /* Texto de lectura en movil: 17 px como minimo (ver system.css). */
+  @media (max-width: 960px) {
+    .rgpd label, .aviso { font-size: var(--t-cuerpo); }
+  }
 </style>

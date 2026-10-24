@@ -923,7 +923,10 @@ section { position: relative; }
 .pie-familia a:hover { color: var(--blanco); }
 .pie-sep { margin: 0 9px; color: rgba(167, 162, 154, 0.35); }
 @media (max-width: 560px) {
-  .pie-familia { grid-template-columns: 1fr; gap: 2px; }
+  .pie-familia { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  /* Enlaces y separadores van pegados, sin espacios: a 17 px la linea del
+     911 no cabia y no tenia donde partirse. */
+  .pie-familia dd { display: flex; flex-wrap: wrap; }
 }
 
 .pie-abajo {
@@ -2725,4 +2728,31 @@ body.sin-scroll { overflow: hidden; }
   .hero--ficha .hero-overlay { display: none; }
   .hero--ficha .hero-content { padding-top: 28px; padding-bottom: 56px; }
   .hero--ficha .hero-scroll { display: none; }
+}
+
+/* ── Texto de lectura en movil: 17 px como minimo ─────────────────────────
+   El tamaño del cuerpo (--t-cuerpo, el de la entradilla de servicios de la
+   home) es el suelo de todo texto que se lee en el telefono: parrafos,
+   listas, descripciones, notas y pie. Quedan fuera las etiquetas en
+   mayusculas (12 px, bloque de arriba), los botones y la navegacion. En
+   escritorio no cambia nada. home.css, nosotros.css, pa10.css y los
+   componentes con estilo propio repiten la regla para lo suyo. */
+@media (max-width: 960px) {
+  .hero-claim, .kit-items li, .timeline-body, .spec-key, .spec-val,
+  .jordi-bio, .verdict-list li,
+  .pie-claim, .pie-dir, .pie-horario, .pie-mapa a, .pie-familia dd,
+  .car-desc, .mag-card-deck, .bloque-lista li, .acordeon-cuerpo p,
+  .acordeon-lista li, .centro-detalle, .servicio-texto, .icono-texto,
+  .cookies-texto,
+  .herr select, .herr input[type="text"], .herr input[type="number"],
+  .herr-ayuda, .herr-pregunta-porque, .herr-error, .herr-res-datos dd,
+  .herr-res-retro, .herr-afinar-ayuda, .herr-detalle-cuerpo p,
+  .herr-detalle-cuerpo li, .bs-eje-pie, .bs-paso-porque,
+  .bs-paso-evidencia, .bs-pregunta legend, .bs-pregunta--detalle legend,
+  .bs-explicacion p, .bs-faq dt, .bs-faq dd,
+  .tarifas-fila dt, .tarifas-detalle, .tarifas-nota, .tresumen-nota,
+  .catalogo-mas-lista a, .generacion-lista a, .casos-intro, .caso-deck {
+    font-size: var(--t-cuerpo);
+  }
+  .herr-aviso { font-size: var(--t-cuerpo) !important; }
 }

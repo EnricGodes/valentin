@@ -412,3 +412,12 @@
 @media (max-width: 960px) {
   .google-resumen-total, .herr-tarjeta-para { font-size: 12px; }
 }
+
+/* Texto de lectura en movil: 17 px como minimo (ver system.css). Las
+   resenas mantienen la jerarquia del widget de Google con el peso y el
+   color, no con el tamaño. */
+@media (max-width: 960px) {
+  .pilar-texto, .srv-texto, .resena-autor, .resena-meta, .resena-fecha,
+  .resena-texto, .resena-respuesta, .reel-texto, .modelo-texto,
+  .herr-tarjeta-texto { font-size: var(--t-cuerpo); }
+}

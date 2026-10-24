@@ -61,4 +61,9 @@ const opciones = IDIOMAS.map((i) => {
   }
   .selector-idioma a:hover { color: var(--blanco); }
   .selector-idioma a[aria-current='true'] { color: var(--bronce); }
+
+  /* Texto de lectura en movil: 17 px como minimo (ver system.css). */
+  @media (max-width: 960px) {
+    .selector-idioma a { font-size: var(--t-cuerpo); }
+  }
 </style>
