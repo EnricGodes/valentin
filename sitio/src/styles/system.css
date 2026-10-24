@@ -155,7 +155,14 @@ a { color: inherit; }
 .nav-menu > .nav-links { display: flex; }
 
 @media (max-width: 1180px) {
-  .nav { position: relative; }
+  /* La barra acompaña al scroll: sin ella, a media ficha no había forma de
+     llegar a la hamburguesa. Sticky y no fixed, para que conserve su hueco
+     y ninguna página se desplace. El fondo es sólido porque el degradado a
+     transparente dejaba el texto pasando por detrás del botón. */
+  .nav {
+    position: sticky; top: 0;
+    background: var(--negro); border-bottom: 1px solid var(--linea);
+  }
   /* Aquí sí es una caja: es la que ancla el panel desplegable. */
   .nav-menu { display: block; }
 
@@ -930,15 +937,19 @@ section { position: relative; }
 @media (max-width: 960px) {
   .hero-badge { display: none; }
   .dos-columnas { grid-template-columns: 1fr; gap: 48px; }
-  .gallery-stage { height: 480px; }
+  /* Fotos enteras: en un telefono el coche se ve de lado a lado. Con alturas
+     fijas y object-fit: cover, una foto apaisada perdia dos tercios del
+     ancho. El escenario de la galeria toma la proporcion de sus fotos
+     (Galeria.astro) y las rejillas dejan a cada foto la suya. */
+  .gallery-stage { height: auto; aspect-ratio: var(--proporcion-galeria, 16 / 9); }
   .gallery-header, .gallery-controls {
     padding-left: var(--pad-lateral); padding-right: var(--pad-lateral);
   }
   .kit-categories { grid-template-columns: repeat(2, 1fr); }
-  .closeup-grid { grid-template-columns: 1fr; grid-auto-rows: 340px; }
+  .closeup-grid { grid-template-columns: 1fr; grid-auto-rows: auto; }
   .interior-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
-  .interior-item { height: 260px; }
-  .interior-item:first-child { grid-row: span 1; height: 320px; }
+  .interior-item:first-child { grid-row: span 1; }
+  .closeup-item img, .interior-item img { height: auto; }
   .specs-grid { grid-template-columns: 1fr; }
   .jordi-inner { grid-template-columns: 1fr; gap: 48px; }
   .jordi-photo-col {
@@ -953,7 +964,6 @@ section { position: relative; }
 
 @media (max-width: 600px) {
   .kit-categories { grid-template-columns: 1fr; }
-  .closeup-grid { grid-auto-rows: 300px; }
   .archivo-galeria .mod-pista { column-gap: 4px; }
   .archivo-foto { margin-bottom: 4px; }
   .archivo-galeria { margin-top: 36px; }
@@ -2662,3 +2672,18 @@ section { position: relative; }
 
 /* El panel de navegación abierto congela la página de detrás. */
 body.sin-scroll { overflow: hidden; }
+
+/* ── Minimo de lectura en movil ───────────────────────────────────────────
+   Los tokens --t-label y --t-micro ya suben a 12 px en tokens.css; esto son
+   las etiquetas que llevan el tamaño escrito a mano. Muchos compradores leen
+   la ficha en el telefono y sin gafas. */
+@media (max-width: 960px) {
+  .nav-brand, .hero-eyebrow, .gallery-caption, .gallery-counter,
+  .closeup-caption, .interior-caption, .timeline-year,
+  .closing-price-label, .cta, .car-year, .post-volver, .enlace-mono,
+  .tarifas-cuenta, .tarifas-desde, .generacion-lista span,
+  .catalogo-mas-cuenta { font-size: 12px; }
+  .spec-key, .spec-val { font-size: 14px; }
+  .gallery-caption { right: var(--pad-lateral); letter-spacing: 0.12em; line-height: 1.5; }
+  .gallery-counter { white-space: nowrap; }
+}

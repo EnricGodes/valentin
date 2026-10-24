@@ -196,3 +196,7 @@ body:has(.p10) .nav{background:#0b0b0b}
 .p10-hero-subtitle{order:-1}
 .p10-hero h1{margin:calc(var(--p10-hero-h) * .278 - 54px) 0 0 -3px}
 }
+
+/* Minimo de lectura en movil: la maqueta bajaba etiquetas y pies de foto a
+   8-9 px. Va al final para ganar al bloque de 760 px de arriba. */
+@media(max-width:760px){.p10-eyebrow,.p10-hero-bottom,.p10-hero-bottom a,.p10-section-label,.p10-photo figcaption,.p10-profile-caption,.p10-material-legend,.p10-spec-data h3,.p10-metric-label,.p10-spec-draft-note{font-size:12px}}

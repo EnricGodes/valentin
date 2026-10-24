@@ -401,3 +401,8 @@
   .marquesina { padding: 28px 0; }
   .kit-header { flex-wrap: wrap; gap: 24px; }
 }
+
+/* Minimo de lectura en movil (ver system.css). */
+@media (max-width: 960px) {
+  .google-resumen-total, .herr-tarjeta-para { font-size: 12px; }
+}

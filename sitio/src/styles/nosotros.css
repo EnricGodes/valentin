@@ -218,3 +218,8 @@
 @media (min-width: 961px) and (max-width: 1200px) {
   .especialidades { grid-template-columns: 1fr 1fr; }
 }
+
+/* Minimo de lectura en movil (ver system.css). */
+@media (max-width: 960px) {
+  .persona-cargo { font-size: 12px; }
+}

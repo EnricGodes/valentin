@@ -7,10 +7,22 @@ interface Props { fotos: Foto[]; idioma: Idioma; }
 const { fotos, idioma } = Astro.props;
 const t = traductor(idioma);
 const dosCifras = (n: number) => String(n).padStart(2, '0');
+
+/* En movil el escenario toma la proporcion de las fotos en vez de una altura
+   fija: con 480 px de alto, una foto 16:9 en un telefono enseñaba un tercio
+   del coche. Se usa la proporcion mas repetida, que en las fichas es la de los
+   exteriores; una foto distinta pierde algo arriba y abajo, no por los lados. */
+const cuenta = new Map<string, number>();
+for (const f of fotos) {
+  if (!f.ancho || !f.alto) continue;
+  const r = `${f.ancho} / ${f.alto}`;
+  cuenta.set(r, (cuenta.get(r) ?? 0) + 1);
+}
+const proporcion = [...cuenta].sort((a, b) => b[1] - a[1])[0]?.[0] ?? '16 / 9';
 ---
 <div class="gallery-envoltorio" data-galeria role="group" aria-roledescription="carrusel"
      aria-label={t('a11y.galeria')}>
-  <div class="gallery-stage">
+  <div class="gallery-stage" style={`--proporcion-galeria: ${proporcion}`}>
     {fotos.map((f, i) => (
       <div class="gallery-slide" role="group" aria-roledescription="diapositiva"
            aria-label={`${i + 1} / ${fotos.length}`}>

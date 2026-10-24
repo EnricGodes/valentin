@@ -79,6 +79,10 @@
     --pad-lateral:  24px;
     --pad-seccion:   80px;
     --gap-columnas:  48px;
+    /* Minimo de lectura en un telefono: 12 px. A 9 y 10 px, en mono de
+       mayusculas con tracking, etiquetas como «Modelo» no se leian. */
+    --t-label: 12px;
+    --t-micro: 12px;
   }
 }
 
