@@ -301,10 +301,12 @@
 .modelos { background: var(--blanco); color: var(--negro); padding-left: 0; padding-right: 0; }
 .modelos .contenedor { padding: 0 var(--pad-lateral); box-sizing: content-box; }
 .modelos .section-title { color: var(--negro); }
-.modelos .section-label { color: #8A6A43; }
+/* Bronce oscurecido para el fondo crema: el #8A6A43 de antes daba 4,3:1 y no
+   llegaba a AA; este da 5,3. */
+.modelos .section-label { color: #7A5C38; }
 .modelos-aviso {
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label);
-  text-transform: uppercase; color: #8A6A43; white-space: nowrap;
+  text-transform: uppercase; color: #7A5C38; white-space: nowrap;
 }
 .modelos-pista {
   display: flex; gap: 0; margin-top: 64px;
@@ -314,7 +316,7 @@
 .modelos-pista::-webkit-scrollbar { display: none; }
 .modelos-pista.arrastrando { cursor: grabbing; user-select: none; }
 .modelos-pista.arrastrando .modelo { pointer-events: none; }
-.modelos-pista:focus-visible { outline: 1px solid #8A6A43; outline-offset: -1px; }
+.modelos-pista:focus-visible { outline: 1px solid #7A5C38; outline-offset: -1px; }
 .modelo {
   flex: 0 0 min(400px, 78vw); display: flex; flex-direction: column; gap: 12px;
   padding: 0 36px 8px; border-left: 1px solid rgba(11, 11, 11, 0.12);
@@ -323,7 +325,7 @@
 /* Mismo padding en todas: con la primera sin padding, su foto salia mas
    ancha y por tanto mas alta, y los nombres no quedaban alineados. */
 .modelo:first-child { border-left: 0; margin-left: -36px; }
-.modelo-num { font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label); color: #8A6A43; }
+.modelo-num { font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-label); color: #7A5C38; }
 .modelo-foto {
   width: 100%; aspect-ratio: 16 / 9; object-fit: contain;
   margin: 8px 0 4px;   /* el fondo crema viene en la foto: ver optimizar-imagenes */
@@ -337,7 +339,7 @@
 }
 .modelo-enlace {
   margin-top: auto; padding-top: 12px; font-family: var(--mono); font-size: var(--t-label);
-  letter-spacing: 0.14em; text-transform: uppercase; color: #8A6A43;
+  letter-spacing: 0.14em; text-transform: uppercase; color: #7A5C38;
 }
 .modelo:hover .modelo-enlace { color: var(--negro); }
 

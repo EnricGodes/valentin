@@ -540,6 +540,10 @@ section { position: relative; }
   color: var(--concreto); text-transform: uppercase; margin-top: 10px;
 }
 .eng-stat.highlight { background: var(--realce-hondo); }
+/* Sobre el realce oscuro de algunas fichas (el teja del Targa) el concreto no
+   llegaba a AA: 3,6:1. En blanco rebajado pasa de 5,5 en todas. */
+.eng-stat.highlight .eng-stat-label,
+.eng-stat.highlight .unit { color: rgba(240, 237, 232, 0.85); }
 .eng-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 36px; }
 .eng-tag {
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: 0.15em;
@@ -984,7 +988,7 @@ section { position: relative; }
 }
 .catalog-meta {
   font-family: var(--mono); font-size: var(--t-label); letter-spacing: var(--tr-nav);
-  color: rgba(167, 162, 154, 0.4); text-transform: uppercase; margin-bottom: 48px;
+  color: var(--concreto); text-transform: uppercase; margin-bottom: 48px;
 }
 
 .cars-grid {
@@ -1950,7 +1954,7 @@ section { position: relative; }
   padding: 12px 14px; width: 100%; border-radius: 0;
   transition: border-color 0.25s var(--ease);
 }
-.herr input::placeholder { color: rgba(167, 162, 154, 0.35); }
+.herr input::placeholder { color: rgba(167, 162, 154, 0.7); }
 .herr select:hover, .herr input:hover { border-color: var(--linea-bronce); }
 .herr select:focus-visible, .herr input:focus-visible,
 .herr summary:focus-visible, .herr button:focus-visible, .herr a:focus-visible {
@@ -2686,4 +2690,22 @@ body.sin-scroll { overflow: hidden; }
   .spec-key, .spec-val { font-size: 14px; }
   .gallery-caption { right: var(--pad-lateral); letter-spacing: 0.12em; line-height: 1.5; }
   .gallery-counter { white-space: nowrap; }
+}
+
+/* ── Hero de las fichas en movil: el coche entero ─────────────────────────
+   En vertical, una foto apaisada a pantalla completa solo enseñaba un trozo
+   del coche. En las fichas la foto va arriba, completa, y titulo y claim
+   debajo sobre negro. El resto de heroes (home, servicios) no cambia. */
+@media (max-width: 960px) {
+  .hero--ficha { height: auto; min-height: 0; flex-direction: column; align-items: stretch; }
+  .hero--ficha .hero-parallax {
+    position: relative; inset: auto; aspect-ratio: 16 / 9; transform: none;
+  }
+  .hero--ficha .hero-parallax::after {
+    content: ''; position: absolute; inset: auto 0 0 0; height: 30%;
+    background: linear-gradient(to top, var(--negro), transparent);
+  }
+  .hero--ficha .hero-overlay { display: none; }
+  .hero--ficha .hero-content { padding-top: 28px; padding-bottom: 56px; }
+  .hero--ficha .hero-scroll { display: none; }
 }

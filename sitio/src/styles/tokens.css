@@ -47,8 +47,10 @@
   --t-badge:   clamp(28px, 3vw, 44px);
   --t-cuerpo:  17px;
   --t-dato:    14px;
-  --t-label:   10px;
-  --t-micro:    9px;
+  /* 11 px como minimo tambien en escritorio: a 9 y 10 px las etiquetas en
+     mono costaban de leer. En movil suben a 12 (bloque de abajo). */
+  --t-label:   11px;
+  --t-micro:   11px;
 
   /* Tracking: es el rasgo mas reconocible del sistema */
   --tr-nav:     0.20em;

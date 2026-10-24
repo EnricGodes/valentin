@@ -263,7 +263,9 @@ const motivos = [
     text-transform: uppercase;
     color: var(--concreto);
   }
-  .opcional { color: var(--linea-fuerte); letter-spacing: var(--tr-nav); }
+  /* Mas apagado que la etiqueta, pero legible: con el color de las lineas
+     daba 1,4:1 y no se veia. */
+  .opcional { color: rgba(167, 162, 154, 0.8); letter-spacing: var(--tr-nav); }
 
   input, select, textarea {
     width: 100%;
@@ -278,7 +280,7 @@ const motivos = [
     transition: border-color 0.3s var(--ease);
   }
   textarea { resize: vertical; line-height: 1.65; }
-  input::placeholder, textarea::placeholder { color: rgba(167, 162, 154, 0.45); }
+  input::placeholder, textarea::placeholder { color: rgba(167, 162, 154, 0.7); }
 
   /* El select nativo hereda el fondo del sistema en el desplegable: el
      option necesita su propio color o queda texto claro sobre claro. */
