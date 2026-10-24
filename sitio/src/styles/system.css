@@ -27,6 +27,12 @@ body {
   overflow-x: hidden;
 }
 
+/* El hidden del body no basta en iOS: con una animacion de entrada que
+   empieza fuera de pantalla (la pista de resenas, x: 120) la pagina se podia
+   arrastrar de lado y se veian franjas negras. clip recorta sin crear un
+   contenedor de scroll, asi que no rompe el sticky ni los pin de GSAP. */
+main { overflow-x: clip; }
+
 img, video { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
 
