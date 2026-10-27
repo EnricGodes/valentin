@@ -21,7 +21,7 @@ const es = {
   },
   nosotros: {
     etiqueta: 'Quiénes somos', titulo: 'Taller Porsche independiente', destacado: 'en Barcelona y Madrid.',
-    manifiesto: 'Desde 1979 solo trabajamos con Porsche. Mantenemos, reparamos, restauramos y preparamos todas sus generaciones en dos talleres propios, con sala de motores. Y vendemos una selección de coches que conocemos por dentro.',
+    manifiesto: 'Desde 1979 solo trabajamos con Porsche. Mantenemos, reparamos, restauramos y preparamos todas sus generaciones en dos talleres propios, con sala de motores, carrocería, pintura y tapicería interna. Y seleccionamos las mejores unidades de 911 que conocemos y mantenemos desde hace años.',
   },
   marquesina: ['Taller mecánico', 'Restauración', 'Preparación', 'Personalización', 'Sala de motores', 'Porsche en venta'],
   servicios: {
@@ -31,7 +31,7 @@ const es = {
     taller: {
       titulo: 'Taller mecánico',
       alt: 'Porsche 964 en el elevador del taller de Valentin Motors',
-      texto: 'Mantenimiento a precio cerrado, diagnosis, IMS y bore scoring para todas las generaciones. Con sala de motores propia para desmontar, medir y reconstruir.',
+      texto: 'Mantenimiento a precio cerrado y diagnosis. Con sala de motores propia para desmontar, medir y reconstruir.',
     },
     restauracion: {
       titulo: 'Restauración',
@@ -39,14 +39,14 @@ const es = {
       texto: 'Restauración integral, backdating y restomod. Chapa, pintura, tapicería y mecánica con criterio de época y cada paso documentado.',
     },
     preparacion: {
-      titulo: 'Preparación',
+      titulo: 'Track day set ups',
       alt: 'Porsche de competición en el pit lane durante una jornada en circuito',
-      texto: 'Track days, campeonatos GT y rally. Suspensión, frenos y reglajes pensados para el uso real que va a tener el coche.',
+      texto: 'Preparamos tu coche para el día de pista, antes y después. Pregunta por nuestras tarifas a precio cerrado.',
     },
     personalizacion: {
       titulo: 'Personalización',
       alt: 'Interior a medida con tapicería de cuadros del proyecto PA10/01',
-      texto: 'Interiores a medida, tapicerías de época, iluminación y suspensión. Proyectos únicos, como el PA10/01, hechos con el cliente pieza a pieza.',
+      texto: 'Interiores a medida, tapicerías de época, iluminación y suspensión. Proyectos únicos, como el PA10/01, la primera unidad realizada íntegramente en nuestros talleres.',
     },
   },
   pilares: [
@@ -144,7 +144,7 @@ const en: TextosHome = {
   },
   nosotros: {
     etiqueta: 'About us', titulo: 'Independent Porsche workshop', destacado: 'in Barcelona and Madrid.',
-    manifiesto: 'Since 1979 we have worked on nothing but Porsche. We service, repair, restore and prepare every generation in two workshops of our own, with an in-house engine room. And we sell a selection of cars we know inside out.',
+    manifiesto: 'Since 1979 we have worked on nothing but Porsche. We service, repair, restore and prepare every generation in two workshops of our own, with in-house engine, bodywork, paint and upholstery shops. And we select the best 911s among those we know and have looked after for years.',
   },
   marquesina: ['Workshop', 'Restoration', 'Preparation', 'Customization', 'Engine room', 'Porsche for sale'],
   servicios: {
@@ -154,7 +154,7 @@ const en: TextosHome = {
     taller: {
       titulo: 'Workshop',
       alt: 'Porsche 964 on a lift in the Valentin Motors workshop',
-      texto: 'Fixed-price servicing, diagnostics, IMS and bore scoring for every generation. With an in-house engine room to strip, measure and rebuild.',
+      texto: 'Fixed-price servicing and diagnostics. With an in-house engine room to strip, measure and rebuild.',
     },
     restauracion: {
       titulo: 'Restoration',
@@ -162,14 +162,14 @@ const en: TextosHome = {
       texto: 'Full restoration, backdating and restomod. Bodywork and paint, upholstery and mechanics done with period judgement, every step documented.',
     },
     preparacion: {
-      titulo: 'Preparation',
+      titulo: 'Track day set ups',
       alt: 'Porsche race car in the pit lane during a track day',
-      texto: 'Track days, GT championships and rally. Suspension, brakes and set-up designed for the way the car will really be used.',
+      texto: 'We get your car ready for track day, before and after. Ask about our fixed-price rates.',
     },
     personalizacion: {
       titulo: 'Customization',
       alt: 'Bespoke tartan interior from the PA10/01 project',
-      texto: 'Bespoke interiors, period upholstery, lighting and suspension. One-off projects, like the PA10/01, built piece by piece with the client.',
+      texto: 'Bespoke interiors, period upholstery, lighting and suspension. One-off projects, like the PA10/01, the first car built entirely in our own workshops.',
     },
   },
   pilares: [
@@ -265,7 +265,7 @@ const fr: TextosHome = {
   },
   nosotros: {
     etiqueta: 'Qui sommes-nous', titulo: 'Atelier Porsche indépendant', destacado: 'à Barcelone et Madrid.',
-    manifiesto: 'Depuis 1979, nous ne travaillons que sur Porsche. Nous entretenons, réparons, restaurons et préparons toutes ses générations dans deux ateliers qui nous appartiennent, avec une salle des moteurs. Et nous vendons une sélection de voitures que nous connaissons de l’intérieur.',
+    manifiesto: 'Depuis 1979, nous ne travaillons que sur Porsche. Nous entretenons, réparons, restaurons et préparons toutes ses générations dans deux ateliers qui nous appartiennent, avec salle des moteurs, carrosserie, peinture et sellerie intégrées. Et nous sélectionnons les meilleures 911 parmi celles que nous connaissons et entretenons depuis des années.',
   },
   marquesina: ['Atelier mécanique', 'Restauration', 'Préparation', 'Personnalisation', 'Salle des moteurs', 'Porsche à vendre'],
   servicios: {
@@ -275,7 +275,7 @@ const fr: TextosHome = {
     taller: {
       titulo: 'Atelier mécanique',
       alt: 'Porsche 964 sur le pont élévateur de l’atelier Valentin Motors',
-      texto: 'Entretien à prix fixe, diagnostic, IMS et bore scoring pour toutes les générations. Avec une salle des moteurs pour démonter, mesurer et reconstruire.',
+      texto: 'Entretien à prix fixe et diagnostic. Avec une salle des moteurs pour démonter, mesurer et reconstruire.',
     },
     restauracion: {
       titulo: 'Restauration',
@@ -283,14 +283,14 @@ const fr: TextosHome = {
       texto: 'Restauration complète, backdating et restomod. Carrosserie et peinture, sellerie et mécanique dans l’esprit de l’époque, chaque étape documentée.',
     },
     preparacion: {
-      titulo: 'Préparation',
+      titulo: 'Track day set ups',
       alt: 'Porsche de course dans la pit lane lors d’une journée sur circuit',
-      texto: 'Track days, championnats GT et rallye. Suspension, freins et réglages pensés pour l’usage réel de la voiture.',
+      texto: 'Nous préparons votre voiture pour la journée sur circuit, avant et après. Demandez nos tarifs à prix fixe.',
     },
     personalizacion: {
       titulo: 'Personnalisation',
       alt: 'Intérieur sur mesure en tissu écossais du projet PA10/01',
-      texto: 'Intérieurs sur mesure, selleries d’époque, éclairage et suspension. Des projets uniques, comme la PA10/01, réalisés pièce par pièce avec le client.',
+      texto: 'Intérieurs sur mesure, selleries d’époque, éclairage et suspension. Des projets uniques, comme la PA10/01, la première voiture réalisée entièrement dans nos ateliers.',
     },
   },
   pilares: [
@@ -385,7 +385,7 @@ const it: TextosHome = {
   },
   nosotros: {
     etiqueta: 'Chi siamo', titulo: 'Officina Porsche indipendente', destacado: 'a Barcellona e Madrid.',
-    manifiesto: 'Dal 1979 lavoriamo solo su Porsche. Curiamo la manutenzione, ripariamo, restauriamo e prepariamo tutte le sue generazioni in due officine di proprietà, con sala motori. E vendiamo una selezione di auto che conosciamo da dentro.',
+    manifiesto: 'Dal 1979 lavoriamo solo su Porsche. Curiamo la manutenzione, ripariamo, restauriamo e prepariamo tutte le sue generazioni in due officine di proprietà, con sala motori, carrozzeria, verniciatura e tappezzeria interne. E selezioniamo le migliori 911 tra quelle che conosciamo e seguiamo da anni.',
   },
   marquesina: ['Officina meccanica', 'Restauro', 'Preparazione', 'Personalizzazione', 'Sala motori', 'Porsche in vendita'],
   servicios: {
@@ -395,7 +395,7 @@ const it: TextosHome = {
     taller: {
       titulo: 'Officina meccanica',
       alt: 'Porsche 964 sul ponte sollevatore dell’officina Valentin Motors',
-      texto: 'Manutenzione a prezzo fisso, diagnosi, IMS e bore scoring per tutte le generazioni. Con una sala motori propria per smontare, misurare e ricostruire.',
+      texto: 'Manutenzione a prezzo fisso e diagnosi. Con una sala motori propria per smontare, misurare e ricostruire.',
     },
     restauracion: {
       titulo: 'Restauro',
@@ -403,14 +403,14 @@ const it: TextosHome = {
       texto: 'Restauro integrale, backdating e restomod. Carrozzeria e verniciatura, tappezzeria e meccanica con criterio d’epoca e ogni passaggio documentato.',
     },
     preparacion: {
-      titulo: 'Preparazione',
+      titulo: 'Track day set ups',
       alt: 'Porsche da competizione in pit lane durante una giornata in circuito',
-      texto: 'Track day, campionati GT e rally. Sospensioni, freni e regolazioni pensati per l’uso reale che avrà l’auto.',
+      texto: 'Prepariamo la Sua auto per la giornata in pista, prima e dopo. Chieda le nostre tariffe a prezzo fisso.',
     },
     personalizacion: {
       titulo: 'Personalizzazione',
       alt: 'Interni su misura in tessuto scozzese del progetto PA10/01',
-      texto: 'Interni su misura, tappezzerie d’epoca, illuminazione e sospensioni. Progetti unici, come la PA10/01, realizzati pezzo per pezzo insieme al cliente.',
+      texto: 'Interni su misura, tappezzerie d’epoca, illuminazione e sospensioni. Progetti unici, come la PA10/01, la prima vettura realizzata interamente nelle nostre officine.',
     },
   },
   pilares: [
@@ -505,7 +505,7 @@ const de: TextosHome = {
   },
   nosotros: {
     etiqueta: 'Über uns', titulo: 'Unabhängige Porsche Werkstatt', destacado: 'in Barcelona und Madrid.',
-    manifiesto: 'Seit 1979 arbeiten wir nur an Porsche. Wir warten, reparieren, restaurieren und bereiten alle Generationen vor, in zwei eigenen Werkstätten mit Motorenraum. Und wir verkaufen eine Auswahl an Fahrzeugen, die wir von innen kennen.',
+    manifiesto: 'Seit 1979 arbeiten wir nur an Porsche. Wir warten, reparieren, restaurieren und bereiten alle Generationen vor, in zwei eigenen Werkstätten mit Motorenraum, Karosseriebau, Lackiererei und Sattlerei im Haus. Und wir wählen die besten 911 aus, die wir kennen und seit Jahren betreuen.',
   },
   marquesina: ['Werkstatt', 'Restaurierung', 'Vorbereitung', 'Individualisierung', 'Motorenraum', 'Porsche kaufen'],
   servicios: {
@@ -515,7 +515,7 @@ const de: TextosHome = {
     taller: {
       titulo: 'Werkstatt',
       alt: 'Porsche 964 auf der Hebebühne in der Werkstatt von Valentin Motors',
-      texto: 'Wartung zum Festpreis, Diagnose, IMS und bore scoring für alle Generationen. Mit eigenem Motorenraum zum Zerlegen, Vermessen und Neuaufbauen.',
+      texto: 'Wartung zum Festpreis und Diagnose. Mit eigenem Motorenraum zum Zerlegen, Vermessen und Neuaufbauen.',
     },
     restauracion: {
       titulo: 'Restaurierung',
@@ -523,14 +523,14 @@ const de: TextosHome = {
       texto: 'Komplette Restaurierung, backdating und Restomod. Karosserie und Lack, Polsterung und Mechanik mit Gespür für die Epoche, jeder Schritt dokumentiert.',
     },
     preparacion: {
-      titulo: 'Vorbereitung',
+      titulo: 'Track day set ups',
       alt: 'Porsche-Rennwagen in der Boxengasse bei einem Streckentag',
-      texto: 'Track days, GT-Meisterschaften und Rallye. Fahrwerk, Bremsen und Abstimmung für den Einsatz, den das Fahrzeug wirklich haben wird.',
+      texto: 'Wir bereiten Ihr Fahrzeug auf den Streckentag vor, davor und danach. Fragen Sie nach unseren Festpreisen.',
     },
     personalizacion: {
       titulo: 'Individualisierung',
       alt: 'Maßgefertigter Innenraum mit Karostoff aus dem Projekt PA10/01',
-      texto: 'Innenräume nach Maß, Polsterungen im Stil der Epoche, Beleuchtung und Fahrwerk. Einzelstücke wie der PA10/01, Teil für Teil mit dem Kunden gebaut.',
+      texto: 'Innenräume nach Maß, Polsterungen im Stil der Epoche, Beleuchtung und Fahrwerk. Einzelstücke wie der PA10/01, das erste Fahrzeug, das vollständig in unseren Werkstätten entstanden ist.',
     },
   },
   pilares: [
@@ -625,7 +625,7 @@ const ca: TextosHome = {
   },
   nosotros: {
     etiqueta: 'Qui som', titulo: 'Taller Porsche independent', destacado: 'a Barcelona i Madrid.',
-    manifiesto: 'Des de 1979 només treballem amb Porsche. Mantenim, reparem, restaurem i preparem totes les seves generacions en dos tallers propis, amb sala de motors. I venem una selecció de cotxes que coneixem per dins.',
+    manifiesto: 'Des de 1979 només treballem amb Porsche. Mantenim, reparem, restaurem i preparem totes les seves generacions en dos tallers propis, amb sala de motors, carrosseria, pintura i tapisseria internes. I seleccionem les millors unitats de 911 que coneixem i mantenim des de fa anys.',
   },
   marquesina: ['Taller mecànic', 'Restauració', 'Preparació', 'Personalització', 'Sala de motors', 'Porsche en venda'],
   servicios: {
@@ -635,7 +635,7 @@ const ca: TextosHome = {
     taller: {
       titulo: 'Taller mecànic',
       alt: 'Porsche 964 a l’elevador del taller de Valentin Motors',
-      texto: 'Manteniment a preu tancat, diagnosi, IMS i bore scoring per a totes les generacions. Amb sala de motors pròpia per desmuntar, mesurar i reconstruir.',
+      texto: 'Manteniment a preu tancat i diagnosi. Amb sala de motors pròpia per desmuntar, mesurar i reconstruir.',
     },
     restauracion: {
       titulo: 'Restauració',
@@ -643,14 +643,14 @@ const ca: TextosHome = {
       texto: 'Restauració integral, backdating i restomod. Xapa, pintura, tapisseria i mecànica amb criteri d’època i cada pas documentat.',
     },
     preparacion: {
-      titulo: 'Preparació',
+      titulo: 'Track day set ups',
       alt: 'Porsche de competició al pit lane durant una jornada en circuit',
-      texto: 'Track days, campionats GT i ral·li. Suspensió, frens i reglatges pensats per a l’ús real que tindrà el cotxe.',
+      texto: 'Preparem el teu cotxe per al dia de pista, abans i després. Pregunta per les nostres tarifes a preu tancat.',
     },
     personalizacion: {
       titulo: 'Personalització',
       alt: 'Interior a mida amb tapisseria de quadres del projecte PA10/01',
-      texto: 'Interiors a mida, tapisseries d’època, il·luminació i suspensió. Projectes únics, com el PA10/01, fets amb el client peça a peça.',
+      texto: 'Interiors a mida, tapisseries d’època, il·luminació i suspensió. Projectes únics, com el PA10/01, la primera unitat feta íntegrament als nostres tallers.',
     },
   },
   pilares: [

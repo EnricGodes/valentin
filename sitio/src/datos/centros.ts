@@ -30,7 +30,7 @@ export const CENTROS: Centro[] = [
     rutaId: 'barcelona', nombre: 'Barcelona',
     calle: 'Carrer de Varsòvia, 65', ciudad: '08041 Barcelona',
     tel: '+34 933 479 856', telHref: '+34933479856',
-    email: 'info@valentinmotors.es',
+    email: 'jordi@valentinmotors.es',
     horas: [{ que: 'taller', cuando: '8:00 – 18:00' }],
     coordenadas: [2.17465, 41.42112],
   },
