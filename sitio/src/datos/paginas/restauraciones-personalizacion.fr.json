@@ -59,7 +59,12 @@
         "Les priorités du propriétaire.",
         "Les conséquences sur l'homologation."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-freno-suspension.jpg",
+          "alt": "Disque et étrier de frein avec amortisseur fileté jaune, montés sur une 911 dont l'aile est protégée"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -84,7 +89,12 @@
         "La conception globale reste-t-elle cohérente, ou devient-elle un assemblage d'idées disparates ?",
         "Quelles sont les conséquences en matière d'homologation et d'assurance ?"
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pinza-freno-valentin.jpg",
+          "alt": "Étrier de frein peint en vert avec le nom Valentin sérigraphié"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -107,7 +117,12 @@
         "Une spécification personnelle qui conserve une logique globale et qui peut être maintenue et expliquée dans le temps."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-tapiceria.jpg",
+          "alt": "Atelier de sellerie avec des peaux de couleur, une table de coupe et une machine à coudre"
+        }
+      ]
     },
     {
       "nivel": 2,

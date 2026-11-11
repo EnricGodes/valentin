@@ -94,7 +94,12 @@
         "Nous disposons de nos propres machines et outils, ainsi que d'un service de recherche de pièces détachées, ce qui, pour un moteur de quarante ans, représente la moitié du travail."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-motor-banco.jpg",
+          "alt": "Moteur boxer sur son support dans la salle des moteurs, près de la camionnette Valentin Motors"
+        }
+      ]
     },
     {
       "nivel": 2,

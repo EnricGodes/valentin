@@ -101,7 +101,12 @@
         "Es el servicio que más dinero ahorra de todo lo que hacemos, y el que menos se pide."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-revision-coche.jpg",
+          "alt": "Dos personas revisan un 911 rojo en la nave del taller de Madrid"
+        }
+      ]
     },
     {
       "nivel": 2,

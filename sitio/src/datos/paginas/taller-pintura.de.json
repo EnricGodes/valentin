@@ -76,7 +76,12 @@
         "Eine gute Lackierung ist unsichtbar. Auffällig ist die mangelhafte Verarbeitung: ungleichmäßige Spaltmaße, eine Farbe, die nicht zum Interieur passt, und Zierteile, die nicht mehr richtig sitzen."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pintura-colores.jpg",
+          "alt": "Techniker wählt Pigmente an der Farbmischwand der Lackierkabine"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -91,7 +96,12 @@
         "Eine Farbe, die nicht zu den Zierteilen und dem Interieur passt, verrät die Reparatur.",
         "Ein Radlauf ohne Korrosionsschutzbehandlung führt zu einem erneuten Reparaturvorgang."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-carroceria-cabina.jpg",
+          "alt": "Karosserie eines roten 911 in Reparatur vor der Lackierkabine"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -123,7 +133,12 @@
         "Eine angepasste und lackierte Karosserie gemäß dem Leistungsumfang, mit Referenzfarben, katalogisiertem Zubehör und gegebenenfalls Korrosionsschutzbehandlungen."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-cabina-pintura.jpg",
+          "alt": "911 in der Vorbereitung neben der Lackierkabine der Werkstatt Madrid"
+        }
+      ]
     },
     {
       "nivel": 2,

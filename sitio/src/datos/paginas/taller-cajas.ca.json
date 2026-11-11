@@ -75,7 +75,12 @@
         "La caixa s'obre, es mesura i cataloga peça a peça. Sincronitzadors, forquetes, rodaments i retens es valoren per separat, i el pressupost surt amb aquesta llista al davant. Als cotxes en què la caixa va aparellada al motor, les dues coses es desmunten com una càpsula i es treballen alhora."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-elevador-930.jpg",
+          "alt": "911 blanc desmuntat sobre un elevador de dues columnes"
+        }
+      ]
     },
     {
       "nivel": 2,

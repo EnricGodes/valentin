@@ -76,7 +76,12 @@
         "Una pintura ben feta no es nota. El que es nota és la mal feta: els intersticis desiguals, el color que no encaixa amb el de la va, la motllura que ja no assenta."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pintura-colores.jpg",
+          "alt": "Tècnic triant pigments a la paret del laboratori de color de la cabina de pintura"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -91,7 +96,12 @@
         "Un color que no encaixa amb el de l'obertura i l'interior delata la reparació.",
         "Un pas de roda sense tractament anticorrosió torna a començar el cicle."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-carroceria-cabina.jpg",
+          "alt": "Carrosseria d'un 911 vermell en reparació, davant de la cabina de pintura"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -123,7 +133,12 @@
         "Una carrosseria ajustada i pintada segons l'abast, amb colors de referència, accessoris catalogats i tractaments anticorrosió on calguin."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-cabina-pintura.jpg",
+          "alt": "911 en preparació al costat de la cabina de pintura del taller de Madrid"
+        }
+      ]
     },
     {
       "nivel": 2,

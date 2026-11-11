@@ -66,7 +66,12 @@
         "Estado de guías, asientos y válvulas.",
         "Peso y equilibrado del conjunto móvil cuando corresponde."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-motor-detalle.jpg",
+          "alt": "Motor bóxer refrigerado por aire sobre su bancada, visto de cerca"
+        }
+      ]
     },
     {
       "nivel": 3,

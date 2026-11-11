@@ -76,7 +76,12 @@
         "Una buona verniciatura è invisibile. Ciò che salta subito all'occhio è la scarsa qualità della lavorazione: spazi irregolari, un colore che stona con gli interni e finiture che non si adattano più correttamente."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pintura-colores.jpg",
+          "alt": "Tecnico che sceglie i pigmenti alla parete del laboratorio colore della cabina di verniciatura"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -91,7 +96,12 @@
         "Un colore che non corrisponde alle finiture e agli interni rivela la riparazione.",
         "Un passaruota senza trattamento anticorrosione fa ricominciare il ciclo."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-carroceria-cabina.jpg",
+          "alt": "Scocca di una 911 rossa in riparazione davanti alla cabina di verniciatura"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -123,7 +133,12 @@
         "Una carrozzeria montata e verniciata secondo le specifiche, con colori di riferimento, accessori a catalogo e trattamenti anticorrosione ove necessario."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-cabina-pintura.jpg",
+          "alt": "911 in preparazione accanto alla cabina di verniciatura dell'officina di Madrid"
+        }
+      ]
     },
     {
       "nivel": 2,

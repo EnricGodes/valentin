@@ -59,7 +59,12 @@
         "Las prioridades del propietario.",
         "Las consecuencias de homologación."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-freno-suspension.jpg",
+          "alt": "Disco y pinza de freno con amortiguador roscado amarillo, montados en un 911 con la aleta protegida"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -84,7 +89,12 @@
         "Si el conjunto sigue teniendo una lógica o se convierte en una suma de ideas.",
         "Qué consecuencias tiene para la homologación y el seguro."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pinza-freno-valentin.jpg",
+          "alt": "Pinza de freno pintada en verde con el nombre Valentin serigrafiado"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -107,7 +117,12 @@
         "Una especificación personal que conserva una lógica de conjunto y que puede mantenerse y explicarse con el paso del tiempo."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-tapiceria.jpg",
+          "alt": "Taller de tapicería con pieles de colores, mesa de corte y máquina de coser"
+        }
+      ]
     },
     {
       "nivel": 2,

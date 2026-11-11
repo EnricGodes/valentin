@@ -59,7 +59,12 @@
         "Le priorità del proprietario.",
         "Le conseguenze dell'omologazione."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-freno-suspension.jpg",
+          "alt": "Disco e pinza freno con ammortizzatore filettato giallo, montati su una 911 con il parafango protetto"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -84,7 +89,12 @@
         "Il design complessivo ha ancora senso o diventa un insieme di idee?",
         "Quali sono le implicazioni per l'omologazione e l'assicurazione?"
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pinza-freno-valentin.jpg",
+          "alt": "Pinza freno verniciata di verde con il nome Valentin serigrafato"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -107,7 +117,12 @@
         "Una specifica personalizzata che mantiene una logica complessiva e può essere sostenuta e spiegata nel tempo."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-tapiceria.jpg",
+          "alt": "Laboratorio di selleria con pelli colorate, tavolo da taglio e macchina da cucire"
+        }
+      ]
     },
     {
       "nivel": 2,

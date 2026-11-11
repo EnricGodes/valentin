@@ -66,7 +66,12 @@
         "Estat de guies, seients i vàlvules.",
         "Pes i equilibrat del conjunt mòbil quan pertoca."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-motor-detalle.jpg",
+          "alt": "Motor bòxer refrigerat per aire sobre el seu banc, vist de a prop"
+        }
+      ]
     },
     {
       "nivel": 3,

@@ -76,7 +76,12 @@
         "Una pintura bien hecha no se nota. Lo que se nota es la mal hecha: los intersticios desiguales, el color que no encaja con el del vano, la moldura que ya no asienta."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pintura-colores.jpg",
+          "alt": "Técnico eligiendo pigmentos en la pared del laboratorio de color de la cabina de pintura"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -91,7 +96,12 @@
         "Un color que no encaja con el del vano y el interior delata la reparación.",
         "Un paso de rueda sin tratamiento anticorrosión vuelve a empezar el ciclo."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-carroceria-cabina.jpg",
+          "alt": "Carrocería de un 911 rojo en reparación, frente a la cabina de pintura"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -123,7 +133,12 @@
         "Una carrocería ajustada y pintada según el alcance, con colores de referencia, accesorios catalogados y tratamientos anticorrosión donde sean necesarios."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-cabina-pintura.jpg",
+          "alt": "911 en preparación junto a la cabina de pintura del taller de Madrid"
+        }
+      ]
     },
     {
       "nivel": 2,

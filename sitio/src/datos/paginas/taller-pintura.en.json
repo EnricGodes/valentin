@@ -76,7 +76,12 @@
         "A well-executed paint job goes unnoticed. What stands out is a poor one: uneven panel gaps, a color that doesn't match the engine bay or door jambs, or trim that no longer sits flush."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pintura-colores.jpg",
+          "alt": "Technician choosing pigments at the colour-mixing wall of the paint booth"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -91,7 +96,12 @@
         "A color mismatch with the engine bay or interior reveals the repair.",
         "A wheel arch left without anti-corrosion treatment simply restarts the cycle of decay."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-carroceria-cabina.jpg",
+          "alt": "Body of a red 911 under repair in front of the paint booth"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -123,7 +133,12 @@
         "Bodywork fitted and painted according to the agreed scope, using reference colors, catalog-correct accessories, and anti-corrosion treatments where necessary."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-cabina-pintura.jpg",
+          "alt": "911 being prepared next to the paint booth of the Madrid workshop"
+        }
+      ]
     },
     {
       "nivel": 2,

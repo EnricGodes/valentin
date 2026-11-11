@@ -59,7 +59,12 @@
         "Les prioritats del propietari.",
         "Les conseqüències d'homologació."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-freno-suspension.jpg",
+          "alt": "Disc i pinça de fre amb amortidor roscat groc, muntats en un 911 amb l'aleta protegida"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -84,7 +89,12 @@
         "Si el conjunt continua tenint una lògica o es converteix en una suma d'idees.",
         "Quines conseqüències té per a l'homologació i l'assegurança."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pinza-freno-valentin.jpg",
+          "alt": "Pinça de fre pintada de verd amb el nom Valentin serigrafiat"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -107,7 +117,12 @@
         "Una especificació personal que conserva una lògica de conjunt i que es pot mantenir i explicar amb el pas del temps."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-tapiceria.jpg",
+          "alt": "Taller de tapisseria amb pells de colors, taula de tall i màquina de cosir"
+        }
+      ]
     },
     {
       "nivel": 2,

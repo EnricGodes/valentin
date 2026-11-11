@@ -59,7 +59,12 @@
         "The owner's priorities.",
         "Homologation implications."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-freno-suspension.jpg",
+          "alt": "Brake disc and caliper with a yellow coilover damper fitted to a 911 with the wing masked off"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -84,7 +89,12 @@
         "Whether the overall build retains a logical flow or becomes a mere collection of ideas.",
         "The implications for road-legal certification and insurance."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pinza-freno-valentin.jpg",
+          "alt": "Brake caliper painted green with the Valentin name printed on it"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -107,7 +117,12 @@
         "A personalized specification that maintains overall coherence and can be serviced and explained over time."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-tapiceria.jpg",
+          "alt": "Upholstery workshop with coloured leather hides, a cutting table and a sewing machine"
+        }
+      ]
     },
     {
       "nivel": 2,

@@ -101,7 +101,12 @@
         "Dies ist die kostengünstigste und am seltensten nachgefragte unserer Leistungen."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-revision-coche.jpg",
+          "alt": "Zwei Personen begutachten einen roten 911 in der Werkstatt Madrid"
+        }
+      ]
     },
     {
       "nivel": 2,

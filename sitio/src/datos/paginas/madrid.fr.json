@@ -21,6 +21,10 @@
       "items": [],
       "imagenes": [
         {
+          "url": "/img/paginas/madrid-exposicion.jpg",
+          "alt": "Salle d'exposition du centre de Madrid avec une 911 orange et une 911 bleue au premier plan"
+        },
+        {
           "url": "/img/paginas/c5f42fd5-madrid_entrada.jpg",
           "alt": "Vitrine du centre de Madrid avec une Porsche 911 Cabriolet bleue à l'intérieur"
         }
@@ -42,7 +46,12 @@
         "• <strong>Achat et vente de Porsche d’occasion. </strong>Nous sélectionnons, essayons et préparons les meilleures voitures du marché. Nous vous les proposons au meilleur prix et avec douze mois de garantie."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-elevador-carrera.jpg",
+          "alt": "911 Carrera sur un pont à deux colonnes dans l'atelier de Madrid"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -82,6 +91,10 @@
       "items": [],
       "imagenes": [
         {
+          "url": "/img/paginas/madrid-nave-elevadores.jpg",
+          "alt": "Atelier de Madrid avec ponts élévateurs et plusieurs Porsche en cours de travail"
+        },
+        {
           "url": "/img/paginas/b02c577e-fachada_madrid.jpg",
           "alt": "Façade rouge du centre de Madrid, enseigne Valentín se détachant sur le ciel"
         },
@@ -103,7 +116,12 @@
         "Vous pouvez également nous appeler au +34 913 017 575."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-zona-espera.jpg",
+          "alt": "Espace d'accueil du centre de Madrid, avec des canapés Chesterfield et deux Porsche au fond"
+        }
+      ]
     }
   ],
   "contacto": {

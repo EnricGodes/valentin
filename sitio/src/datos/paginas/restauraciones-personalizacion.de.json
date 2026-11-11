@@ -59,7 +59,12 @@
         "Die Prioritäten des Besitzers.",
         "Die Folgen der Homologation."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-freno-suspension.jpg",
+          "alt": "Bremsscheibe und Sattel mit gelbem Gewindefahrwerk an einem 911 mit abgedecktem Kotflügel"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -84,7 +89,12 @@
         "Ist das Gesamtdesign noch stimmig oder entsteht eine Ansammlung von Ideen?",
         "Welche Auswirkungen hat dies auf die Homologation und die Versicherung?"
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pinza-freno-valentin.jpg",
+          "alt": "Grün lackierter Bremssattel mit dem aufgedruckten Namen Valentin"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -107,7 +117,12 @@
         "Eine individuelle Spezifikation, die eine übergreifende Logik beibehält und sich über die Zeit hinweg begründen und erklären lässt."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-tapiceria.jpg",
+          "alt": "Sattlerwerkstatt mit farbigen Lederhäuten, Zuschneidetisch und Nähmaschine"
+        }
+      ]
     },
     {
       "nivel": 2,

@@ -76,7 +76,12 @@
         "Une belle peinture est invisible. Ce qui saute aux yeux, c'est la piètre qualité des finitions : des écarts irréguliers, une couleur qui jure avec l'intérieur et des garnitures qui ne s'ajustent plus correctement."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/taller-pintura-colores.jpg",
+          "alt": "Technicien choisissant des pigments au mur du laboratoire de teinte de la cabine de peinture"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -91,7 +96,12 @@
         "Une couleur qui ne correspond pas à celle des garnitures et de l'intérieur révèle la réparation.",
         "Un passage de roue non traité contre la corrosion relance le cycle."
       ],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-carroceria-cabina.jpg",
+          "alt": "Carrosserie d'une 911 rouge en réparation devant la cabine de peinture"
+        }
+      ]
     },
     {
       "nivel": 2,
@@ -123,7 +133,12 @@
         "Carrosserie ajustée et peinte conformément aux spécifications, avec des couleurs de référence, des accessoires référencés et des traitements anticorrosion si nécessaire."
       ],
       "items": [],
-      "imagenes": []
+      "imagenes": [
+        {
+          "url": "/img/paginas/madrid-cabina-pintura.jpg",
+          "alt": "911 en préparation près de la cabine de peinture de l'atelier de Madrid"
+        }
+      ]
     },
     {
       "nivel": 2,
