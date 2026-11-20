@@ -1,0 +1,463 @@
+{
+  "slug": "porsche-boxster-s-987-manual-2005",
+  "traduccion": {
+    "hechas": 189,
+    "total": 189,
+    "completa": true
+  },
+  "archivoOriginal": "boxster987.html",
+  "realce": "realce--boxster987",
+  "meta": {
+    "titulo": "Porsche Boxster S 987 boîte manuelle 2005 à vendre · Valentín Motors",
+    "descripcion": "Porsche Boxster S 987 de 2005, boîte manuelle, 78 131 km et moteur neuf monté en 2026. Argent, intérieur gris. Disponible chez Valentín Motors, prix sur demande.",
+    "ogImagen": "https://valentin.up.railway.app/img/boxster987/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 987 · 2005",
+    "subtitulo": "Porsche Boxster S",
+    "titulo": "987 boîte manuelle",
+    "claim": "Moteur central, boîte manuelle et un moteur neuf monté en 2026.",
+    "imagen": "/img/boxster987/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Faire défiler"
+  },
+  "intro": {
+    "etiqueta": "Historique du véhicule",
+    "titulo": "Une Boxster S manuelle<br/><strong>avec un moteur<br/>neuf.</strong>",
+    "parrafos": [
+      "Cette <strong>Porsche Boxster S</strong> de la génération <strong>987</strong> est sortie d'usine le <strong>26 avril 2005</strong>, en exécution pour l'Espagne, avec une <strong>boîte manuelle</strong>. Le compteur affiche <strong>78 131 km</strong>.",
+      "Ce qui la distingue, c'est le <strong>moteur neuf monté en 2026</strong> : un élément de grande valeur mécanique et une sérénité d'usage que peu d'exemplaires de cet âge peuvent offrir. La 987 est l'une des générations de Boxster les plus appréciées, pour son gabarit contenu, son toucher analogique et son architecture à moteur central."
+    ],
+    "cita": "Une Boxster S à boîte manuelle, la configuration que recherchent ceux qui aiment conduire, et avec un moteur neuf.",
+    "datos": [
+      {
+        "clave": "Modèle",
+        "valor": "Boxster S",
+        "acento": false
+      },
+      {
+        "clave": "Génération",
+        "valor": "987",
+        "acento": false
+      },
+      {
+        "clave": "Fabrication",
+        "valor": "26/04/2005",
+        "acento": false
+      },
+      {
+        "clave": "NIV",
+        "valor": "WP0ZZZ98Z5S720608",
+        "acento": false
+      },
+      {
+        "clave": "Transmission",
+        "valor": "Manuelle",
+        "acento": false
+      },
+      {
+        "clave": "Kilométrage",
+        "valor": "78 131 km",
+        "acento": false
+      },
+      {
+        "clave": "Moteur",
+        "valor": "Neuf, monté en 2026",
+        "acento": false
+      },
+      {
+        "clave": "Couleur",
+        "valor": "Argent 92T",
+        "acento": false
+      },
+      {
+        "clave": "Prix",
+        "valor": "Sur demande",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galerie",
+    "titulo": "Argent.<br/><strong>Moteur central<br/>et capote en toile.</strong>",
+    "fotos": [
+      {
+        "src": "/img/boxster987/hero.jpg",
+        "alt": "Porsche Boxster S 987 argent, vue avant trois quarts",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Avant trois quarts · Phares de la 987"
+      },
+      {
+        "src": "/img/boxster987/exterior2.jpg",
+        "alt": "Profil de la Boxster S capote ouverte",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profil · Capote ouverte"
+      },
+      {
+        "src": "/img/boxster987/exterior1.jpg",
+        "alt": "Vue arrière trois quarts de la Boxster S capote fermée",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Arrière trois quarts · Capote fermée"
+      },
+      {
+        "src": "/img/boxster987/interior1.jpg",
+        "alt": "Habitacle de la Boxster S vu d'en haut",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitacle · Deux places et levier manuel"
+      },
+      {
+        "src": "/img/boxster987/close-up2.jpg",
+        "alt": "Jante de 18 pouces et étrier de frein rouge",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Détail · Jante de 18\" et étrier rouge"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Moteur et transmission",
+    "titulo": "Moteur neuf.<br/><strong>Flat-six central<br/>et six rapports.</strong>",
+    "stats": [
+      {
+        "valor": "3,2",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cylindrée",
+        "destacada": true
+      },
+      {
+        "valor": 280,
+        "animado": true,
+        "unidad": "ch",
+        "etiqueta": "Puissance",
+        "destacada": false
+      },
+      {
+        "valor": 320,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Couple maximal",
+        "destacada": false
+      },
+      {
+        "valor": 6,
+        "animado": true,
+        "unidad": "rapp.",
+        "etiqueta": "Boîte manuelle",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "La Boxster S 987 reçoit le flat-six atmosphérique de <strong>3,2 litres</strong>, refroidi par eau et placé devant l'essieu arrière, en position centrale. C'est ce qui donne à la Boxster son équilibre et sa façon d'entrer en courbe. La fiche de données Porsche indique le code de transmission <strong>G8720</strong>, la <strong>boîte manuelle</strong> à six rapports.",
+      "En <strong>2026</strong>, elle a reçu un <strong>moteur neuf</strong>. Pour qui achète une sportive de cet âge, c'est la meilleure réponse à la question qui compte le plus : l'état du moteur."
+    ],
+    "tags": [
+      "Flat-six 3,2 L",
+      "Moteur central",
+      "Manuelle à 6 rapports",
+      "Moteur neuf 2026",
+      "78 131 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Équipement d'usine · Codes d'option",
+    "titulo": "Configuration<br/><strong>d'origine documentée.</strong>",
+    "ancla": "equipamiento",
+    "precio": "Sur demande · 78 131 km",
+    "categorias": [
+      {
+        "titulo": "Mécanique",
+        "items": [
+          "Moteur neuf monté en 2026",
+          "G8720 · Boîte manuelle",
+          "219 · Différentiel"
+        ]
+      },
+      {
+        "titulo": "Roues et carrosserie",
+        "items": [
+          "397 · Jantes Boxster S de 18\"",
+          "271 · Rétroviseur conducteur asphérique, électrique et dégivrant",
+          "211 · Support de plaque, version 3"
+        ]
+      },
+      {
+        "titulo": "Équipement électrique",
+        "items": [
+          "195 · Batterie de 70 Ah",
+          "198 · Démarreur renforcé (1,7 kW)",
+          "199 · Coupe-batterie"
+        ]
+      },
+      {
+        "titulo": "Exécution",
+        "items": [
+          "119 · Exécution Espagne",
+          "071 · Version UE",
+          "098 · Conduite à gauche",
+          "424 · Compartiment CD"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Extérieur",
+    "titulo": "Argent 92T.<br/><strong>Les formes<br/>de la 987.</strong>",
+    "texto": "La teinte <strong>argent</strong> dessine les lignes de la 987 : les phares ovales inaugurés par cette génération, les <strong>prises d'air latérales</strong> devant les roues arrière et la poupe avec le monogramme <strong>Boxster S</strong> et la <strong>double sortie d'échappement</strong> centrale. Les <strong>jantes Boxster S de 18 pouces</strong> laissent voir les <strong>étriers de frein rouges</strong>.",
+    "fotos": [
+      {
+        "src": "/img/boxster987/close-up1.jpg",
+        "alt": "Poupe de la Boxster S avec double sortie d'échappement",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Poupe · Monogramme Boxster S et double échappement central"
+      },
+      {
+        "src": "/img/boxster987/close-up3.jpg",
+        "alt": "Phare et aile avant de la Boxster S",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Avant · Phares de la 987"
+      },
+      {
+        "src": "/img/boxster987/close-up2.jpg",
+        "alt": "Jante de 18 pouces avec étrier rouge",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Jante Boxster S de 18\" · Étrier de frein rouge"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Intérieur",
+    "titulo": "Intérieur gris.<br/><strong>Deux places<br/>et boîte manuelle.</strong>",
+    "fotos": [
+      {
+        "src": "/img/boxster987/interior2.jpg",
+        "alt": "Poste de conduite de la Boxster S",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Poste de conduite · Volant et compteurs"
+      },
+      {
+        "src": "/img/boxster987/interior3.jpg",
+        "alt": "Sièges et levier de vitesses manuel",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Sièges · Levier de vitesses manuel"
+      },
+      {
+        "src": "/img/boxster987/interior1.jpg",
+        "alt": "Habitacle de la Boxster S vu d'en haut",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitacle · Deux places"
+      }
+    ],
+    "editorial": "Un habitacle <strong>deux places</strong> en <strong>gris</strong>, avec la position de conduite basse et centrée propre à la Boxster : trois compteurs face au volant, une console centrale et le <strong>levier de la boîte manuelle</strong> à portée de main. Tout s'organise autour du conducteur."
+  },
+  "procedencia": {
+    "etiqueta": "Documentation et origine",
+    "titulo": "De 2005<br/><strong>à un moteur<br/>neuf en 2026.</strong>",
+    "hitos": [
+      {
+        "anio": "26/04/2005 · Fabrication",
+        "titulo": "Fabriquée le 26 avril 2005",
+        "cuerpo": "Boxster S de la génération <strong>987</strong>, type commercial <strong>987320</strong>, en argent <strong>92T</strong>, boîte manuelle et exécution pour l'Espagne.",
+        "badge": "VIN WP0ZZZ98Z5S720608"
+      },
+      {
+        "anio": "2026 · Moteur",
+        "titulo": "Moteur neuf",
+        "cuerpo": "En 2026, elle reçoit un <strong>moteur neuf</strong>. La voiture est identifiée par sa fiche de données Porsche : numéro de châssis, transmission <strong>G8720</strong>, teinte et codes d'option.",
+        "badge": "Moteur neuf"
+      },
+      {
+        "anio": "Aujourd'hui",
+        "titulo": "Disponible chez Valentin Motors",
+        "cuerpo": "La voiture se présente avec <strong>78 131 km</strong>, boîte manuelle et le moteur fraîchement monté.",
+        "badge": "Sur demande"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fiche technique",
+    "titulo": "Spécifications<br/><strong>complètes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Moteur",
+        "filas": [
+          {
+            "clave": "Architecture",
+            "valor": "Flat-six central"
+          },
+          {
+            "clave": "État",
+            "valor": "Neuf, monté en 2026"
+          },
+          {
+            "clave": "Cylindrée",
+            "valor": "3 179 cm³"
+          },
+          {
+            "clave": "Puissance",
+            "valor": "280 ch"
+          },
+          {
+            "clave": "Couple maximal",
+            "valor": "320 Nm"
+          },
+          {
+            "clave": "Refroidissement",
+            "valor": "Par eau"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmission et châssis",
+        "filas": [
+          {
+            "clave": "Boîte",
+            "valor": "Manuelle à 6 rapports"
+          },
+          {
+            "clave": "Code de transmission",
+            "valor": "G8720"
+          },
+          {
+            "clave": "Transmission aux roues",
+            "valor": "Arrière"
+          },
+          {
+            "clave": "Jantes",
+            "valor": "Boxster S de 18\""
+          },
+          {
+            "clave": "Freins",
+            "valor": "Étriers rouges"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosserie et généralités",
+        "filas": [
+          {
+            "clave": "Fabrication",
+            "valor": "26/04/2005"
+          },
+          {
+            "clave": "Génération",
+            "valor": "987"
+          },
+          {
+            "clave": "NIV",
+            "valor": "WP0ZZZ98Z5S720608"
+          },
+          {
+            "clave": "Type commercial",
+            "valor": "987320"
+          },
+          {
+            "clave": "Carrosserie",
+            "valor": "Roadster, capote en toile"
+          },
+          {
+            "clave": "Couleur extérieure",
+            "valor": "Argent 92T"
+          },
+          {
+            "clave": "Intérieur",
+            "valor": "Gris"
+          },
+          {
+            "clave": "Kilométrage",
+            "valor": "78 131 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Options d'usine",
+        "filas": [
+          {
+            "clave": "071 / 119",
+            "valor": "Version UE / Exécution Espagne"
+          },
+          {
+            "clave": "098",
+            "valor": "Conduite à gauche"
+          },
+          {
+            "clave": "195 / 199",
+            "valor": "Batterie de 70 Ah / Coupe-batterie"
+          },
+          {
+            "clave": "198",
+            "valor": "Démarreur renforcé (1,7 kW)"
+          },
+          {
+            "clave": "211",
+            "valor": "Support de plaque, version 3"
+          },
+          {
+            "clave": "219",
+            "valor": "Différentiel"
+          },
+          {
+            "clave": "271",
+            "valor": "Rétroviseur conducteur asphérique, électrique et dégivrant"
+          },
+          {
+            "clave": "397",
+            "valor": "Jantes Boxster S de 18\""
+          },
+          {
+            "clave": "424",
+            "valor": "Compartiment CD"
+          }
+        ]
+      },
+      {
+        "titulo": "Conditions de vente",
+        "filas": [
+          {
+            "clave": "Prix",
+            "valor": "Sur demande"
+          },
+          {
+            "clave": "Documentation",
+            "valor": "Fiche de données Porsche"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/boxster987/exterior3.jpg",
+    "cita": "Une Porsche Boxster S 987 à <em>boîte manuelle</em>, 78 131 km et moteur neuf.",
+    "precio": "Sur demande",
+    "precioTachado": false,
+    "precioLabel": "Porsche Boxster S 987 · Argent · 2005",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Plus d'informations",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · Boxster",
+    "nombre": "Boxster S 987",
+    "detalle": "2005 · 78 131 km · Argent",
+    "descripcion": "Flat-six central 3,2 L · Manuelle à 6 rapports · Jantes de 18\". Moteur neuf monté en 2026.",
+    "precio": "Sur demande",
+    "precioPorConsultar": true,
+    "imagen": "/img/boxster987/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

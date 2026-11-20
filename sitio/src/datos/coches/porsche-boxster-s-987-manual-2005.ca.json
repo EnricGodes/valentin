@@ -1,0 +1,463 @@
+{
+  "slug": "porsche-boxster-s-987-manual-2005",
+  "traduccion": {
+    "hechas": 189,
+    "total": 189,
+    "completa": true
+  },
+  "archivoOriginal": "boxster987.html",
+  "realce": "realce--boxster987",
+  "meta": {
+    "titulo": "Porsche Boxster S 987 manual 2005 en venda · Valentín Motors",
+    "descripcion": "Porsche Boxster S 987 del 2005 amb canvi manual, 78.131 km i motor nou muntat el 2026. Plata amb interior gris. Disponible a Valentín Motors, preu a consultar.",
+    "ogImagen": "https://valentin.up.railway.app/img/boxster987/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 987 · 2005",
+    "subtitulo": "Porsche Boxster S",
+    "titulo": "987 manual",
+    "claim": "Motor central, canvi manual i un motor nou muntat el 2026.",
+    "imagen": "/img/boxster987/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Història del vehicle",
+    "titulo": "Un Boxster S manual<br/><strong>amb el motor<br/>per estrenar.</strong>",
+    "parrafos": [
+      "Aquest <strong>Porsche Boxster S</strong> de la generació <strong>987</strong> va sortir de fàbrica el <strong>26 d'abril del 2005</strong>, en execució per a Espanya, amb <strong>canvi manual</strong>. El quadre marca <strong>78.131 km</strong>.",
+      "El que el distingeix és el <strong>motor nou muntat el 2026</strong>: un element de gran valor mecànic i una tranquil·litat d'ús que poques unitats de la seva edat poden oferir. El 987 és una de les generacions més apreciades del Boxster per la mida continguda, el tacte analògic i l'arquitectura de motor central."
+    ],
+    "cita": "Un Boxster S amb canvi manual, la configuració que busca qui vol conduir, i amb el motor nou.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "Boxster S",
+        "acento": false
+      },
+      {
+        "clave": "Generació",
+        "valor": "987",
+        "acento": false
+      },
+      {
+        "clave": "Producció",
+        "valor": "26/04/2005",
+        "acento": false
+      },
+      {
+        "clave": "VIN",
+        "valor": "WP0ZZZ98Z5S720608",
+        "acento": false
+      },
+      {
+        "clave": "Transmissió",
+        "valor": "Manual",
+        "acento": false
+      },
+      {
+        "clave": "Quilometratge",
+        "valor": "78.131 km",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Nou, muntat el 2026",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Plata 92T",
+        "acento": false
+      },
+      {
+        "clave": "Preu",
+        "valor": "A consultar",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galeria",
+    "titulo": "Plata.<br/><strong>Motor central<br/>i capota de lona.</strong>",
+    "fotos": [
+      {
+        "src": "/img/boxster987/hero.jpg",
+        "alt": "Porsche Boxster S 987 plata, vista frontal 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vista frontal 3/4 · Fars del 987"
+      },
+      {
+        "src": "/img/boxster987/exterior2.jpg",
+        "alt": "Perfil lateral del Boxster S amb la capota oberta",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil · Capota oberta"
+      },
+      {
+        "src": "/img/boxster987/exterior1.jpg",
+        "alt": "Vista posterior 3/4 del Boxster S amb la capota tancada",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posterior 3/4 · Capota tancada"
+      },
+      {
+        "src": "/img/boxster987/interior1.jpg",
+        "alt": "Habitacle del Boxster S vist des de dalt",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitacle · Dues places i palanca manual"
+      },
+      {
+        "src": "/img/boxster987/close-up2.jpg",
+        "alt": "Llanta de 18 polzades i pinça de fre vermella",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detall · Llanta de 18\" i pinça vermella"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor i transmissió",
+    "titulo": "Motor nou.<br/><strong>Bòxer central<br/>i sis marxes.</strong>",
+    "stats": [
+      {
+        "valor": "3,2",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrada",
+        "destacada": true
+      },
+      {
+        "valor": 280,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Potència",
+        "destacada": false
+      },
+      {
+        "valor": 320,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Parell màxim",
+        "destacada": false
+      },
+      {
+        "valor": 6,
+        "animado": true,
+        "unidad": "vel.",
+        "etiqueta": "Canvi manual",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El Boxster S 987 munta el bòxer atmosfèric de sis cilindres i <strong>3,2 litres</strong>, refrigerat per aigua i situat davant de l'eix posterior, en posició central. És el que dona al Boxster el seu equilibri i la manera d'entrar als revolts. La fitxa de dades Porsche identifica el codi de transmissió <strong>G8720</strong>, el <strong>canvi manual</strong> de sis velocitats.",
+      "El <strong>2026</strong> se li va muntar un <strong>motor nou</strong>. Per a qui compra un esportiu d'aquesta edat, és la millor resposta a la pregunta que més pesa: l'estat del motor."
+    ],
+    "tags": [
+      "Bòxer 3,2 L",
+      "Motor central",
+      "Manual de 6 velocitats",
+      "Motor nou 2026",
+      "78.131 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Equipament de fàbrica · Codis d'opció",
+    "titulo": "Configuració<br/><strong>d'origen documentada.</strong>",
+    "ancla": "equipamiento",
+    "precio": "A consultar · 78.131 km",
+    "categorias": [
+      {
+        "titulo": "Mecànica",
+        "items": [
+          "Motor nou muntat el 2026",
+          "G8720 · Canvi manual",
+          "219 · Diferencial"
+        ]
+      },
+      {
+        "titulo": "Rodes i carrosseria",
+        "items": [
+          "397 · Llantes Boxster S de 18\"",
+          "271 · Retrovisor del conductor asfèric, elèctric i calefactat",
+          "211 · Suport de matrícula, versió 3"
+        ]
+      },
+      {
+        "titulo": "Equip elèctric",
+        "items": [
+          "195 · Bateria de 70 Ah",
+          "198 · Motor d'arrencada reforçat (1,7 kW)",
+          "199 · Desconnectador de bateria"
+        ]
+      },
+      {
+        "titulo": "Execució",
+        "items": [
+          "119 · Execució Espanya",
+          "071 · Versió UE",
+          "098 · Volant a l'esquerra",
+          "424 · Compartiment per a CD"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Plata 92T.<br/><strong>Les formes<br/>del 987.</strong>",
+    "texto": "La carrosseria <strong>plata</strong> marca les línies del 987: els fars ovalats que va estrenar aquesta generació, les <strong>preses d'aire laterals</strong> davant de les rodes posteriors i la part posterior amb l'emblema <strong>Boxster S</strong> i la <strong>doble sortida d'escapament</strong> central. Les <strong>llantes Boxster S de 18 polzades</strong> deixen veure les <strong>pinces de fre vermelles</strong>.",
+    "fotos": [
+      {
+        "src": "/img/boxster987/close-up1.jpg",
+        "alt": "Part posterior del Boxster S amb doble sortida d'escapament",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Part posterior · Emblema Boxster S i doble escapament central"
+      },
+      {
+        "src": "/img/boxster987/close-up3.jpg",
+        "alt": "Far davanter i aleta del Boxster S",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Frontal · Fars del 987"
+      },
+      {
+        "src": "/img/boxster987/close-up2.jpg",
+        "alt": "Llanta de 18 polzades amb pinça vermella",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta Boxster S de 18\" · Pinça de fre vermella"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Interior gris.<br/><strong>Dues places<br/>i canvi manual.</strong>",
+    "fotos": [
+      {
+        "src": "/img/boxster987/interior2.jpg",
+        "alt": "Lloc de conducció del Boxster S",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Lloc de conducció · Volant i rellotges"
+      },
+      {
+        "src": "/img/boxster987/interior3.jpg",
+        "alt": "Seients i palanca del canvi manual",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Seients · Palanca del canvi manual"
+      },
+      {
+        "src": "/img/boxster987/interior1.jpg",
+        "alt": "Habitacle del Boxster S vist des de dalt",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitacle · Dues places"
+      }
+    ],
+    "editorial": "Un habitacle de <strong>dues places</strong> en <strong>gris</strong>, amb el lloc de conducció baix i centrat que caracteritza el Boxster: tres rellotges davant del volant, consola central i la <strong>palanca del canvi manual</strong> a mà. Tot s'ordena al voltant del conductor."
+  },
+  "procedencia": {
+    "etiqueta": "Documentació i procedència",
+    "titulo": "Del 2005<br/><strong>a un motor<br/>nou el 2026.</strong>",
+    "hitos": [
+      {
+        "anio": "26/04/2005 · Producció",
+        "titulo": "Fabricat el 26 d'abril del 2005",
+        "cuerpo": "Boxster S de la generació <strong>987</strong>, tipus de venda <strong>987320</strong>, en plata <strong>92T</strong>, amb canvi manual i execució per a Espanya.",
+        "badge": "VIN WP0ZZZ98Z5S720608"
+      },
+      {
+        "anio": "2026 · Motor",
+        "titulo": "Motor nou",
+        "cuerpo": "El 2026 se li munta un <strong>motor nou</strong>. La unitat queda identificada amb la seva fitxa de dades Porsche: bastidor, transmissió <strong>G8720</strong>, color i codis d'opció.",
+        "badge": "Motor nou"
+      },
+      {
+        "anio": "Avui",
+        "titulo": "Disponible a Valentin Motors",
+        "cuerpo": "La unitat es presenta amb <strong>78.131 km</strong>, canvi manual i el motor acabat de muntar.",
+        "badge": "A consultar"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fitxa tècnica",
+    "titulo": "Especificacions<br/><strong>completes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Tipus",
+            "valor": "Bòxer de 6 cilindres central"
+          },
+          {
+            "clave": "Estat",
+            "valor": "Nou, muntat el 2026"
+          },
+          {
+            "clave": "Cilindrada",
+            "valor": "3.179 cm³"
+          },
+          {
+            "clave": "Potència",
+            "valor": "280 CV"
+          },
+          {
+            "clave": "Parell màxim",
+            "valor": "320 Nm"
+          },
+          {
+            "clave": "Refrigeració",
+            "valor": "Per aigua"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmissió i xassís",
+        "filas": [
+          {
+            "clave": "Canvi",
+            "valor": "Manual de 6 velocitats"
+          },
+          {
+            "clave": "Codi de transmissió",
+            "valor": "G8720"
+          },
+          {
+            "clave": "Tracció",
+            "valor": "Posterior"
+          },
+          {
+            "clave": "Llantes",
+            "valor": "Boxster S de 18\""
+          },
+          {
+            "clave": "Frens",
+            "valor": "Pinces vermelles"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosseria i dades generals",
+        "filas": [
+          {
+            "clave": "Producció",
+            "valor": "26/04/2005"
+          },
+          {
+            "clave": "Generació",
+            "valor": "987"
+          },
+          {
+            "clave": "VIN",
+            "valor": "WP0ZZZ98Z5S720608"
+          },
+          {
+            "clave": "Tipus de venda",
+            "valor": "987320"
+          },
+          {
+            "clave": "Carrosseria",
+            "valor": "Roadster, capota de lona"
+          },
+          {
+            "clave": "Color exterior",
+            "valor": "Plata 92T"
+          },
+          {
+            "clave": "Interior",
+            "valor": "Gris"
+          },
+          {
+            "clave": "Quilometratge",
+            "valor": "78.131 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Opcions de fàbrica",
+        "filas": [
+          {
+            "clave": "071 / 119",
+            "valor": "Versió UE / Execució Espanya"
+          },
+          {
+            "clave": "098",
+            "valor": "Volant a l'esquerra"
+          },
+          {
+            "clave": "195 / 199",
+            "valor": "Bateria de 70 Ah / Desconnectador de bateria"
+          },
+          {
+            "clave": "198",
+            "valor": "Motor d'arrencada reforçat (1,7 kW)"
+          },
+          {
+            "clave": "211",
+            "valor": "Suport de matrícula, versió 3"
+          },
+          {
+            "clave": "219",
+            "valor": "Diferencial"
+          },
+          {
+            "clave": "271",
+            "valor": "Retrovisor del conductor asfèric, elèctric i calefactat"
+          },
+          {
+            "clave": "397",
+            "valor": "Llantes Boxster S de 18\""
+          },
+          {
+            "clave": "424",
+            "valor": "Compartiment per a CD"
+          }
+        ]
+      },
+      {
+        "titulo": "Condicions de venda",
+        "filas": [
+          {
+            "clave": "Preu",
+            "valor": "A consultar"
+          },
+          {
+            "clave": "Documentació",
+            "valor": "Fitxa de dades Porsche"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/boxster987/exterior3.jpg",
+    "cita": "Un Porsche Boxster S 987 amb <em>canvi manual</em>, 78.131 km i el motor nou.",
+    "precio": "A consultar",
+    "precioTachado": false,
+    "precioLabel": "Porsche Boxster S 987 · Plata · 2005",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Més informació",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · Boxster",
+    "nombre": "Boxster S 987",
+    "detalle": "2005 · 78.131 km · Plata",
+    "descripcion": "Bòxer central 3,2 L · Manual de 6 velocitats · Llantes de 18\". Motor nou muntat el 2026.",
+    "precio": "A consultar",
+    "precioPorConsultar": true,
+    "imagen": "/img/boxster987/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

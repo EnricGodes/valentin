@@ -1,0 +1,490 @@
+{
+  "slug": "porsche-997-carrera-4s-tiptronic-2006",
+  "traduccion": {
+    "hechas": 207,
+    "total": 207,
+    "completa": true
+  },
+  "archivoOriginal": "997c4stiptronic.html",
+  "realce": "realce--997c4stiptronic",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 4S 997.1 Tiptronic 2006 en venda · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera 4S Coupé 997.1 del 2006 amb canvi Tiptronic, 61.300 km, negre amb interior de cuir beix, PASM i Sport Chrono Plus. Disponible a Valentín Motors per 57.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997c4stiptronic/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2006",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera 4S",
+    "claim": "Tiptronic i tracció integral. Negre, cuir beix i 61.300 km.",
+    "imagen": "/img/997c4stiptronic/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "Història del vehicle",
+    "titulo": "Carrosseria ampla,<br/><strong>tracció integral<br/>i un equipament complet.</strong>",
+    "parrafos": [
+      "Aquest <strong>Porsche 911 Carrera 4S Coupé</strong> de la generació 997.1 es va produir el <strong>22 de novembre del 2005</strong> i correspon a l'any <strong>2006</strong>. Uneix la carrosseria ampla i la tracció integral del 4S a la transmissió <strong>Tiptronic</strong>, amb carrosseria negra i interior de cuir beix.",
+      "La seva configuració de fàbrica és especialment completa: <strong>PASM</strong>, <strong>Sport Chrono Plus</strong>, seients Sport amb calefacció, fars de xenó, navegació PCM i llantes <strong>Carrera S de 19 polzades</strong>. El quadre marca <strong>61.300 km</strong>."
+    ],
+    "cita": "Un Carrera 4S 997.1 amb Tiptronic, pocs quilòmetres i una de les configuracions de fàbrica més completes de la seva època.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera 4S Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generació",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Producció",
+        "valor": "22/11/2005",
+        "acento": false
+      },
+      {
+        "clave": "VIN",
+        "valor": "WP0ZZZ99Z6S732977",
+        "acento": false
+      },
+      {
+        "clave": "Transmissió",
+        "valor": "Tiptronic",
+        "acento": false
+      },
+      {
+        "clave": "Quilometratge",
+        "valor": "61.300 km",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Negre 041",
+        "acento": false
+      },
+      {
+        "clave": "Interior",
+        "valor": "Cuir beix",
+        "acento": false
+      },
+      {
+        "clave": "Preu",
+        "valor": "57.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galeria",
+    "titulo": "Negre i beix.<br/><strong>El 4S de<br/>carrosseria ampla.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/hero.jpg",
+        "alt": "Porsche 997.1 Carrera 4S negre, vista frontal 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vista frontal 3/4 · Fars de xenó"
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior2.jpg",
+        "alt": "Perfil lateral del Carrera 4S Coupé",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil · Llantes Carrera S de 19\""
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior1.jpg",
+        "alt": "Vista posterior 3/4 amb l'emblema Carrera 4S",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posterior 3/4 · Aletes amples del 4S"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior1.jpg",
+        "alt": "Lloc de conducció en cuir beix amb selector Tiptronic",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitacle · Cuir beix i selector Tiptronic"
+      },
+      {
+        "src": "/img/997c4stiptronic/close-up2.jpg",
+        "alt": "Llanta Carrera S de 19 polzades i pinça de fre vermella",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detall · Llanta Carrera S i pinça vermella"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor i transmissió",
+    "titulo": "Tracció integral.<br/><strong>Tiptronic<br/>i Sport Chrono Plus.</strong>",
+    "stats": [
+      {
+        "valor": "3,8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrada",
+        "destacada": true
+      },
+      {
+        "valor": 355,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Potència",
+        "destacada": false
+      },
+      {
+        "valor": 400,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Parell màxim",
+        "destacada": false
+      },
+      {
+        "valor": "61.300",
+        "animado": false,
+        "unidad": "km",
+        "etiqueta": "Quilometratge",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El Carrera 4S 997.1 munta el bòxer atmosfèric de sis cilindres i <strong>3,8 litres</strong>, refrigerat per aigua i situat darrere l'eix posterior, amb <strong>tracció integral</strong>. La fitxa de dades Porsche identifica el codi de motor <strong>9701</strong> i el de transmissió <strong>A9731</strong>.",
+      "La transmissió <strong>Tiptronic</strong> (codi 249) també es governa des del volant (432). La completen la suspensió d'amortiment variable <strong>PASM</strong> (475), el control d'estabilitat <strong>PSM</strong> (476) i el paquet <strong>Sport Chrono Plus</strong> (640), amb el cronòmetre damunt del tauler."
+    ],
+    "tags": [
+      "Bòxer 3,8 L",
+      "Tiptronic",
+      "Tracció integral",
+      "PASM",
+      "Sport Chrono Plus",
+      "61.300 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Equipament de fàbrica · Codis d'opció",
+    "titulo": "Configuració<br/><strong>d'origen documentada.</strong>",
+    "ancla": "equipamiento",
+    "precio": "57.000 € · 61.300 km",
+    "categorias": [
+      {
+        "titulo": "Xassís i conducció",
+        "items": [
+          "475 · Amortiment variable PASM",
+          "476 · Porsche Stability Management (PSM)",
+          "640 · Sport Chrono Plus",
+          "403 · Llantes Carrera S de 19\""
+        ]
+      },
+      {
+        "titulo": "Transmissió",
+        "items": [
+          "249 · Tiptronic",
+          "432 · Volant amb comandaments Tiptronic",
+          "219 · Diferencial"
+        ]
+      },
+      {
+        "titulo": "Interior",
+        "items": [
+          "375 / 376 · Seients Sport, conductor i acompanyant",
+          "342 · Seients davanters calefactats",
+          "983 · Tapisseria davantera de cuir",
+          "435 · Volant esportiu",
+          "XSC · Escut Porsche als capçals",
+          "X70 · Motllures d'accés d'acer inoxidable"
+        ]
+      },
+      {
+        "titulo": "Confort i tecnologia",
+        "items": [
+          "601 · Fars de xenó",
+          "288 · Rentafars",
+          "670 / 610 · Navegació PCM2 amb DVD, Europa",
+          "666 · Telèfon PCM",
+          "490 · Sistema de so ASK",
+          "573 · Aire condicionat"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Negre 041.<br/><strong>La part posterior ampla<br/>del Carrera 4S.</strong>",
+    "texto": "La carrosseria en <strong>negre (codi 041)</strong> subratlla el que distingeix el 4S: les aletes posteriors eixamplades respecte al Carrera de propulsió, que donen al cotxe una postura més baixa i plantada. Les <strong>llantes Carrera S de 19 polzades</strong> en plata, les <strong>pinces de fre vermelles</strong>, l'emblema <strong>Carrera 4S</strong> i les <strong>quatre sortides d'escapament</strong> completen un exterior sense afegits.",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/close-up1.jpg",
+        "alt": "Part posterior amb l'emblema Carrera 4S i quatre escapaments",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Part posterior · Emblema Carrera 4S i quatre sortides d'escapament"
+      },
+      {
+        "src": "/img/997c4stiptronic/close-up2.jpg",
+        "alt": "Llanta Carrera S de 19 polzades amb pinça vermella",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta Carrera S de 19\" · Pinça de fre vermella"
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior3.jpg",
+        "alt": "Vista posterior del Carrera 4S",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posterior · Aletes eixamplades del 4S"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Cuir beix.<br/><strong>Seients Sport<br/>i cronòmetre.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/interior3.jpg",
+        "alt": "Lloc de conducció amb volant esportiu i cronòmetre Sport Chrono",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Lloc de conducció · Volant esportiu i cronòmetre"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior2.jpg",
+        "alt": "Seients Sport de cuir beix i consola central",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Seients Sport · Cuir beix"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior4.jpg",
+        "alt": "Places posteriors en beix",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Places posteriors · Respatllers abatibles per separat"
+      }
+    ],
+    "editorial": "El cuir <strong>beix</strong> de l'habitacle contrasta amb la carrosseria negra. Els <strong>seients Sport</strong> (375 / 376) tenen calefacció i l'escut Porsche gravat als capçals; el volant esportiu porta els comandaments <strong>Tiptronic</strong>. Al tauler, el cronòmetre del <strong>Sport Chrono Plus</strong>, la navegació <strong>PCM2</strong> i els cèrcols dels instruments en plata (023 / 026)."
+  },
+  "procedencia": {
+    "etiqueta": "Documentació i procedència",
+    "titulo": "Un 997.1 4S<br/><strong>amb la seva fitxa<br/>de dades Porsche.</strong>",
+    "hitos": [
+      {
+        "anio": "22/11/2005 · Producció",
+        "titulo": "Fabricat el 22 de novembre del 2005",
+        "cuerpo": "Carrera 4S Coupé de la generació <strong>997.1</strong>, tipus de venda <strong>997430</strong>, any model 2006. Pintura negra <strong>041</strong>, transmissió Tiptronic i execució per a Alemanya.",
+        "badge": "VIN WP0ZZZ99Z6S732977"
+      },
+      {
+        "anio": "Documentació",
+        "titulo": "Fitxa de dades Porsche",
+        "cuerpo": "La fitxa de dades del vehicle identifica el bastidor, el codi de motor <strong>9701</strong>, la transmissió <strong>A9731</strong>, el color i els codis d'opció de fàbrica que es recullen en aquesta fitxa.",
+        "badge": "Partslink24"
+      },
+      {
+        "anio": "Avui",
+        "titulo": "Disponible a Valentin Motors",
+        "cuerpo": "La unitat es presenta amb <strong>61.300 km</strong> i la configuració amb què va sortir de fàbrica.",
+        "badge": "57.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fitxa tècnica",
+    "titulo": "Especificacions<br/><strong>completes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Tipus",
+            "valor": "Bòxer de 6 cilindres posterior"
+          },
+          {
+            "clave": "Codi de motor",
+            "valor": "9701"
+          },
+          {
+            "clave": "Cilindrada",
+            "valor": "3.824 cm³"
+          },
+          {
+            "clave": "Potència",
+            "valor": "355 CV"
+          },
+          {
+            "clave": "Parell màxim",
+            "valor": "400 Nm"
+          },
+          {
+            "clave": "Refrigeració",
+            "valor": "Per aigua"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmissió i xassís",
+        "filas": [
+          {
+            "clave": "Canvi",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "Codi de transmissió",
+            "valor": "A9731"
+          },
+          {
+            "clave": "Tracció",
+            "valor": "Integral"
+          },
+          {
+            "clave": "Suspensió",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Llantes",
+            "valor": "Carrera S de 19\""
+          },
+          {
+            "clave": "Frens",
+            "valor": "Pinces vermelles"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrosseria i dades generals",
+        "filas": [
+          {
+            "clave": "Producció",
+            "valor": "22/11/2005"
+          },
+          {
+            "clave": "Any",
+            "valor": "2006"
+          },
+          {
+            "clave": "Generació",
+            "valor": "997.1"
+          },
+          {
+            "clave": "VIN",
+            "valor": "WP0ZZZ99Z6S732977"
+          },
+          {
+            "clave": "Tipus de venda",
+            "valor": "997430"
+          },
+          {
+            "clave": "Carrosseria",
+            "valor": "Coupé"
+          },
+          {
+            "clave": "Color exterior",
+            "valor": "Negre 041"
+          },
+          {
+            "clave": "Interior",
+            "valor": "Cuir beix"
+          },
+          {
+            "clave": "Quilometratge",
+            "valor": "61.300 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Opcions de fàbrica",
+        "filas": [
+          {
+            "clave": "023 / 026",
+            "valor": "Cèrcols dels instruments i cronòmetre en plata"
+          },
+          {
+            "clave": "249 / 432",
+            "valor": "Tiptronic amb comandaments al volant"
+          },
+          {
+            "clave": "342",
+            "valor": "Seients davanters calefactats"
+          },
+          {
+            "clave": "375 / 376",
+            "valor": "Seients Sport"
+          },
+          {
+            "clave": "403",
+            "valor": "Llantes Carrera S de 19\""
+          },
+          {
+            "clave": "435",
+            "valor": "Volant esportiu"
+          },
+          {
+            "clave": "475",
+            "valor": "PASM"
+          },
+          {
+            "clave": "490",
+            "valor": "Sistema de so ASK"
+          },
+          {
+            "clave": "601 / 288",
+            "valor": "Fars de xenó i rentafars"
+          },
+          {
+            "clave": "640",
+            "valor": "Sport Chrono Plus"
+          },
+          {
+            "clave": "670 / 610",
+            "valor": "Navegació PCM2 amb DVD"
+          },
+          {
+            "clave": "983",
+            "valor": "Tapisseria davantera de cuir"
+          }
+        ]
+      },
+      {
+        "titulo": "Condicions de venda",
+        "filas": [
+          {
+            "clave": "Preu",
+            "valor": "57.000 €"
+          },
+          {
+            "clave": "Documentació",
+            "valor": "Fitxa de dades Porsche"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997c4stiptronic/exterior3.jpg",
+    "cita": "Un Porsche 911 Carrera 4S 997.1 en <em>negre i cuir beix</em>, amb Tiptronic, tracció integral i 61.300 km.",
+    "precio": "57.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997.1 Carrera 4S Tiptronic · Negre · 2006",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Més informació",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · 4S",
+    "nombre": "997.1 Carrera 4S Tiptronic",
+    "detalle": "2006 · 61.300 km · Negre",
+    "descripcion": "Bòxer 3,8 L · Tiptronic · Tracció integral · PASM i Sport Chrono Plus. Negre amb interior de cuir beix, seients Sport i llantes Carrera S de 19\".",
+    "precio": "57.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997c4stiptronic/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

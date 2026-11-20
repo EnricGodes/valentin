@@ -1,0 +1,490 @@
+{
+  "slug": "porsche-997-carrera-4s-tiptronic-2006",
+  "traduccion": {
+    "hechas": 207,
+    "total": 207,
+    "completa": true
+  },
+  "archivoOriginal": "997c4stiptronic.html",
+  "realce": "realce--997c4stiptronic",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 4S 997.1 Tiptronic 2006 in vendita · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera 4S Coupé 997.1 del 2006 con cambio Tiptronic, 61.300 km, nera con interni in pelle beige, PASM e Sport Chrono Plus. Disponibile da Valentín Motors a 57.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997c4stiptronic/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2006",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera 4S",
+    "claim": "Tiptronic e trazione integrale. Nero, pelle beige e 61.300 km.",
+    "imagen": "/img/997c4stiptronic/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scorri"
+  },
+  "intro": {
+    "etiqueta": "Storia del veicolo",
+    "titulo": "Carrozzeria larga,<br/><strong>trazione integrale<br/>e una dotazione completa.</strong>",
+    "parrafos": [
+      "Questa <strong>Porsche 911 Carrera 4S Coupé</strong> della generazione 997.1 è stata prodotta il <strong>22 novembre 2005</strong>, anno modello <strong>2006</strong>. Unisce la carrozzeria larga e la trazione integrale della 4S al cambio <strong>Tiptronic</strong>, in nero con interni in pelle beige.",
+      "La configurazione di fabbrica è particolarmente completa: <strong>PASM</strong>, <strong>Sport Chrono Plus</strong>, sedili Sport riscaldati, fari allo xeno, navigazione PCM e cerchi <strong>Carrera S da 19 pollici</strong>. Il contachilometri segna <strong>61.300 km</strong>."
+    ],
+    "cita": "Una Carrera 4S 997.1 con Tiptronic, pochi chilometri e una delle configurazioni di fabbrica più complete della sua epoca.",
+    "datos": [
+      {
+        "clave": "Modello",
+        "valor": "911 Carrera 4S Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generazione",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Produzione",
+        "valor": "22/11/2005",
+        "acento": false
+      },
+      {
+        "clave": "VIN",
+        "valor": "WP0ZZZ99Z6S732977",
+        "acento": false
+      },
+      {
+        "clave": "Trasmissione",
+        "valor": "Tiptronic",
+        "acento": false
+      },
+      {
+        "clave": "Chilometraggio",
+        "valor": "61.300 km",
+        "acento": false
+      },
+      {
+        "clave": "Colore",
+        "valor": "Nero 041",
+        "acento": false
+      },
+      {
+        "clave": "Interni",
+        "valor": "Pelle beige",
+        "acento": false
+      },
+      {
+        "clave": "Prezzo",
+        "valor": "57.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galleria",
+    "titulo": "Nero e beige.<br/><strong>La 4S a<br/>carrozzeria larga.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/hero.jpg",
+        "alt": "Porsche 997.1 Carrera 4S nera, vista anteriore tre quarti",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Anteriore tre quarti · Fari allo xeno"
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior2.jpg",
+        "alt": "Profilo laterale della Carrera 4S Coupé",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profilo · Cerchi Carrera S da 19\""
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior1.jpg",
+        "alt": "Vista posteriore tre quarti con la scritta Carrera 4S",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posteriore tre quarti · Parafanghi larghi della 4S"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior1.jpg",
+        "alt": "Posto guida in pelle beige con selettore Tiptronic",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Abitacolo · Pelle beige e selettore Tiptronic"
+      },
+      {
+        "src": "/img/997c4stiptronic/close-up2.jpg",
+        "alt": "Cerchio Carrera S da 19 pollici e pinza freno rossa",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Dettaglio · Cerchio Carrera S e pinza rossa"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motore e trasmissione",
+    "titulo": "Trazione integrale.<br/><strong>Tiptronic<br/>e Sport Chrono Plus.</strong>",
+    "stats": [
+      {
+        "valor": "3,8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrata",
+        "destacada": true
+      },
+      {
+        "valor": 355,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Potenza",
+        "destacada": false
+      },
+      {
+        "valor": 400,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Coppia massima",
+        "destacada": false
+      },
+      {
+        "valor": "61.300",
+        "animado": false,
+        "unidad": "km",
+        "etiqueta": "Chilometraggio",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "La Carrera 4S 997.1 monta il boxer aspirato a sei cilindri da <strong>3,8 litri</strong>, raffreddato ad acqua e collocato dietro l'asse posteriore, con <strong>trazione integrale</strong>. La scheda dati Porsche indica il codice motore <strong>9701</strong> e il codice cambio <strong>A9731</strong>.",
+      "Il cambio <strong>Tiptronic</strong> (codice 249) si comanda anche dal volante (432). Lo completano gli ammortizzatori a controllo elettronico <strong>PASM</strong> (475), il controllo di stabilità <strong>PSM</strong> (476) e il pacchetto <strong>Sport Chrono Plus</strong> (640), con il cronometro sulla plancia."
+    ],
+    "tags": [
+      "Boxer 3,8 L",
+      "Tiptronic",
+      "Trazione integrale",
+      "PASM",
+      "Sport Chrono Plus",
+      "61.300 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Dotazione di fabbrica · Codici optional",
+    "titulo": "Configurazione<br/><strong>originale documentata.</strong>",
+    "ancla": "equipamiento",
+    "precio": "57.000 € · 61.300 km",
+    "categorias": [
+      {
+        "titulo": "Telaio e guida",
+        "items": [
+          "475 · Ammortizzatori a controllo elettronico PASM",
+          "476 · Porsche Stability Management (PSM)",
+          "640 · Sport Chrono Plus",
+          "403 · Cerchi Carrera S da 19\""
+        ]
+      },
+      {
+        "titulo": "Trasmissione",
+        "items": [
+          "249 · Tiptronic",
+          "432 · Volante con comandi Tiptronic",
+          "219 · Differenziale"
+        ]
+      },
+      {
+        "titulo": "Interni",
+        "items": [
+          "375 / 376 · Sedili Sport, guidatore e passeggero",
+          "342 · Sedili anteriori riscaldati",
+          "983 · Tappezzeria anteriore in pelle",
+          "435 · Volante sportivo",
+          "XSC · Stemma Porsche sui poggiatesta",
+          "X70 · Battitacco in acciaio inox"
+        ]
+      },
+      {
+        "titulo": "Comfort e tecnologia",
+        "items": [
+          "601 · Fari allo xeno",
+          "288 · Lavafari",
+          "670 / 610 · Navigazione PCM2 con DVD, Europa",
+          "666 · Telefono PCM",
+          "490 · Impianto audio ASK",
+          "573 · Aria condizionata"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Esterno",
+    "titulo": "Nero 041.<br/><strong>La coda larga<br/>della Carrera 4S.</strong>",
+    "texto": "La vernice <strong>nera (codice 041)</strong> sottolinea ciò che distingue la 4S: i parafanghi posteriori allargati rispetto alla Carrera a trazione posteriore, che danno all'auto un assetto più basso e piantato. I <strong>cerchi Carrera S da 19 pollici</strong> argento, le <strong>pinze freno rosse</strong>, la scritta <strong>Carrera 4S</strong> e i <strong>quattro terminali di scarico</strong> completano un esterno senza aggiunte.",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/close-up1.jpg",
+        "alt": "Coda con la scritta Carrera 4S e quattro scarichi",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Coda · Scritta Carrera 4S e quattro terminali di scarico"
+      },
+      {
+        "src": "/img/997c4stiptronic/close-up2.jpg",
+        "alt": "Cerchio Carrera S da 19 pollici con pinza rossa",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cerchio Carrera S da 19\" · Pinza freno rossa"
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior3.jpg",
+        "alt": "Vista posteriore della Carrera 4S",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posteriore · Parafanghi allargati della 4S"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interni",
+    "titulo": "Pelle beige.<br/><strong>Sedili Sport<br/>e cronometro.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/interior3.jpg",
+        "alt": "Posto guida con volante sportivo e cronometro Sport Chrono",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Posto guida · Volante sportivo e cronometro"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior2.jpg",
+        "alt": "Sedili Sport in pelle beige e consolle centrale",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Sedili Sport · Pelle beige"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior4.jpg",
+        "alt": "Posti posteriori in beige",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Posti posteriori · Schienali abbattibili separatamente"
+      }
+    ],
+    "editorial": "La pelle <strong>beige</strong> dell'abitacolo contrasta con la carrozzeria nera. I <strong>sedili Sport</strong> (375 / 376) sono riscaldati e hanno lo stemma Porsche impresso sui poggiatesta; il volante sportivo porta i comandi <strong>Tiptronic</strong>. Sulla plancia, il cronometro dello <strong>Sport Chrono Plus</strong>, la navigazione <strong>PCM2</strong> e le cornici degli strumenti argento (023 / 026)."
+  },
+  "procedencia": {
+    "etiqueta": "Documentazione e origine",
+    "titulo": "Una 997.1 4S<br/><strong>con la sua scheda<br/>dati Porsche.</strong>",
+    "hitos": [
+      {
+        "anio": "22/11/2005 · Produzione",
+        "titulo": "Prodotta il 22 novembre 2005",
+        "cuerpo": "Carrera 4S Coupé della generazione <strong>997.1</strong>, tipo di vendita <strong>997430</strong>, anno modello 2006. Vernice nera <strong>041</strong>, cambio Tiptronic ed esecuzione per la Germania.",
+        "badge": "VIN WP0ZZZ99Z6S732977"
+      },
+      {
+        "anio": "Documentazione",
+        "titulo": "Scheda dati Porsche",
+        "cuerpo": "La scheda dati del veicolo indica il numero di telaio, il codice motore <strong>9701</strong>, il cambio <strong>A9731</strong>, il colore e i codici optional di fabbrica riportati in questa pagina.",
+        "badge": "Partslink24"
+      },
+      {
+        "anio": "Oggi",
+        "titulo": "Disponibile da Valentin Motors",
+        "cuerpo": "L'esemplare si presenta con <strong>61.300 km</strong> e la configurazione con cui è uscito dalla fabbrica.",
+        "badge": "57.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Scheda tecnica",
+    "titulo": "Specifiche<br/><strong>complete.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motore",
+        "filas": [
+          {
+            "clave": "Architettura",
+            "valor": "Boxer a 6 cilindri posteriore"
+          },
+          {
+            "clave": "Codice motore",
+            "valor": "9701"
+          },
+          {
+            "clave": "Cilindrata",
+            "valor": "3.824 cm³"
+          },
+          {
+            "clave": "Potenza",
+            "valor": "355 CV"
+          },
+          {
+            "clave": "Coppia massima",
+            "valor": "400 Nm"
+          },
+          {
+            "clave": "Raffreddamento",
+            "valor": "Ad acqua"
+          }
+        ]
+      },
+      {
+        "titulo": "Trasmissione e telaio",
+        "filas": [
+          {
+            "clave": "Cambio",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "Codice trasmissione",
+            "valor": "A9731"
+          },
+          {
+            "clave": "Trazione",
+            "valor": "Integrale"
+          },
+          {
+            "clave": "Sospensioni",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Cerchi",
+            "valor": "Carrera S da 19\""
+          },
+          {
+            "clave": "Freni",
+            "valor": "Pinze rosse"
+          }
+        ]
+      },
+      {
+        "titulo": "Carrozzeria e dati generali",
+        "filas": [
+          {
+            "clave": "Produzione",
+            "valor": "22/11/2005"
+          },
+          {
+            "clave": "Anno",
+            "valor": "2006"
+          },
+          {
+            "clave": "Generazione",
+            "valor": "997.1"
+          },
+          {
+            "clave": "VIN",
+            "valor": "WP0ZZZ99Z6S732977"
+          },
+          {
+            "clave": "Tipo di vendita",
+            "valor": "997430"
+          },
+          {
+            "clave": "Carrozzeria",
+            "valor": "Coupé"
+          },
+          {
+            "clave": "Colore esterno",
+            "valor": "Nero 041"
+          },
+          {
+            "clave": "Interni",
+            "valor": "Pelle beige"
+          },
+          {
+            "clave": "Chilometraggio",
+            "valor": "61.300 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Optional di fabbrica",
+        "filas": [
+          {
+            "clave": "023 / 026",
+            "valor": "Cornici degli strumenti e cronometro argento"
+          },
+          {
+            "clave": "249 / 432",
+            "valor": "Tiptronic con comandi al volante"
+          },
+          {
+            "clave": "342",
+            "valor": "Sedili anteriori riscaldati"
+          },
+          {
+            "clave": "375 / 376",
+            "valor": "Sedili Sport"
+          },
+          {
+            "clave": "403",
+            "valor": "Cerchi Carrera S da 19\""
+          },
+          {
+            "clave": "435",
+            "valor": "Volante sportivo"
+          },
+          {
+            "clave": "475",
+            "valor": "PASM"
+          },
+          {
+            "clave": "490",
+            "valor": "Impianto audio ASK"
+          },
+          {
+            "clave": "601 / 288",
+            "valor": "Fari allo xeno e lavafari"
+          },
+          {
+            "clave": "640",
+            "valor": "Sport Chrono Plus"
+          },
+          {
+            "clave": "670 / 610",
+            "valor": "Navigazione PCM2 con DVD"
+          },
+          {
+            "clave": "983",
+            "valor": "Tappezzeria anteriore in pelle"
+          }
+        ]
+      },
+      {
+        "titulo": "Condizioni di vendita",
+        "filas": [
+          {
+            "clave": "Prezzo",
+            "valor": "57.000 €"
+          },
+          {
+            "clave": "Documentazione",
+            "valor": "Scheda dati Porsche"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997c4stiptronic/exterior3.jpg",
+    "cita": "Una Porsche 911 Carrera 4S 997.1 in <em>nero e pelle beige</em>, con Tiptronic, trazione integrale e 61.300 km.",
+    "precio": "57.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997.1 Carrera 4S Tiptronic · Nero · 2006",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Maggiori informazioni",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponibile",
+    "marca": "Porsche · 4S",
+    "nombre": "997.1 Carrera 4S Tiptronic",
+    "detalle": "2006 · 61.300 km · Nero",
+    "descripcion": "Boxer 3,8 L · Tiptronic · Trazione integrale · PASM e Sport Chrono Plus. Nera con interni in pelle beige, sedili Sport e cerchi Carrera S da 19\".",
+    "precio": "57.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997c4stiptronic/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

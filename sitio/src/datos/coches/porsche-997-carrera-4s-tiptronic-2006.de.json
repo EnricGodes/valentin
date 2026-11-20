@@ -1,0 +1,490 @@
+{
+  "slug": "porsche-997-carrera-4s-tiptronic-2006",
+  "traduccion": {
+    "hechas": 207,
+    "total": 207,
+    "completa": true
+  },
+  "archivoOriginal": "997c4stiptronic.html",
+  "realce": "realce--997c4stiptronic",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 4S 997.1 Tiptronic 2006 zu verkaufen · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera 4S Coupé 997.1 von 2006 mit Tiptronic, 61.300 km, Schwarz mit Lederausstattung in Beige, PASM und Sport Chrono Plus. Bei Valentín Motors für 57.000 €.",
+    "ogImagen": "https://valentin.up.railway.app/img/997c4stiptronic/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 997.1 · 2006",
+    "subtitulo": "Porsche 997.1",
+    "titulo": "Carrera 4S",
+    "claim": "Tiptronic und Allradantrieb. Schwarz, Leder in Beige, 61.300 km.",
+    "imagen": "/img/997c4stiptronic/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scrollen"
+  },
+  "intro": {
+    "etiqueta": "Fahrzeughistorie",
+    "titulo": "Breite Karosserie,<br/><strong>Allradantrieb<br/>und volle Ausstattung.</strong>",
+    "parrafos": [
+      "Dieser <strong>Porsche 911 Carrera 4S Coupé</strong> der Generation 997.1 wurde am <strong>22. November 2005</strong> gebaut und ist ein Modelljahr <strong>2006</strong>. Er verbindet die breite Karosserie und den Allradantrieb des 4S mit dem <strong>Tiptronic</strong>-Getriebe, in Schwarz mit Lederausstattung in Beige.",
+      "Die Werksausstattung ist besonders umfangreich: <strong>PASM</strong>, <strong>Sport Chrono Plus</strong>, beheizte Sportsitze, Xenonscheinwerfer, PCM-Navigation und <strong>19-Zoll-Räder Carrera S</strong>. Der Tacho zeigt <strong>61.300 km</strong>."
+    ],
+    "cita": "Ein Carrera 4S 997.1 mit Tiptronic, wenig Kilometern und einer der umfangreichsten Werksausstattungen seiner Zeit.",
+    "datos": [
+      {
+        "clave": "Modell",
+        "valor": "911 Carrera 4S Coupé",
+        "acento": false
+      },
+      {
+        "clave": "Generation",
+        "valor": "997.1",
+        "acento": false
+      },
+      {
+        "clave": "Produktion",
+        "valor": "22/11/2005",
+        "acento": false
+      },
+      {
+        "clave": "FIN",
+        "valor": "WP0ZZZ99Z6S732977",
+        "acento": false
+      },
+      {
+        "clave": "Getriebe",
+        "valor": "Tiptronic",
+        "acento": false
+      },
+      {
+        "clave": "Laufleistung",
+        "valor": "61.300 km",
+        "acento": false
+      },
+      {
+        "clave": "Farbe",
+        "valor": "Schwarz 041",
+        "acento": false
+      },
+      {
+        "clave": "Innenraum",
+        "valor": "Leder beige",
+        "acento": false
+      },
+      {
+        "clave": "Preis",
+        "valor": "57.000 €",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galerie",
+    "titulo": "Schwarz und Beige.<br/><strong>Der 4S mit<br/>breiter Karosserie.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/hero.jpg",
+        "alt": "Schwarzer Porsche 997.1 Carrera 4S, Dreiviertelansicht von vorn",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Dreiviertel vorn · Xenonscheinwerfer"
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior2.jpg",
+        "alt": "Seitenprofil des Carrera 4S Coupé",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profil · 19-Zoll-Räder Carrera S"
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior1.jpg",
+        "alt": "Dreiviertelansicht von hinten mit Carrera-4S-Schriftzug",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Dreiviertel hinten · Breite Kotflügel des 4S"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior1.jpg",
+        "alt": "Fahrerplatz in beigem Leder mit Tiptronic-Wählhebel",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Innenraum · Beiges Leder und Tiptronic-Wählhebel"
+      },
+      {
+        "src": "/img/997c4stiptronic/close-up2.jpg",
+        "alt": "19-Zoll-Rad Carrera S und roter Bremssattel",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Detail · Rad Carrera S und roter Bremssattel"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor und Getriebe",
+    "titulo": "Allradantrieb.<br/><strong>Tiptronic<br/>und Sport Chrono Plus.</strong>",
+    "stats": [
+      {
+        "valor": "3,8",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Hubraum",
+        "destacada": true
+      },
+      {
+        "valor": 355,
+        "animado": true,
+        "unidad": "PS",
+        "etiqueta": "Leistung",
+        "destacada": false
+      },
+      {
+        "valor": 400,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Max. Drehmoment",
+        "destacada": false
+      },
+      {
+        "valor": "61.300",
+        "animado": false,
+        "unidad": "km",
+        "etiqueta": "Laufleistung",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Der Carrera 4S 997.1 hat den wassergekühlten <strong>3,8-Liter</strong>-Saugmotor, einen Sechszylinder-Boxer hinter der Hinterachse, und <strong>Allradantrieb</strong>. Das Porsche-Datenblatt nennt den Motorcode <strong>9701</strong> und den Getriebecode <strong>A9731</strong>.",
+      "Die <strong>Tiptronic</strong> (Code 249) lässt sich auch über Tasten am Lenkrad schalten (432). Dazu kommen die verstellbaren Dämpfer <strong>PASM</strong> (475), die Stabilitätskontrolle <strong>PSM</strong> (476) und das Paket <strong>Sport Chrono Plus</strong> (640) mit der Stoppuhr auf dem Armaturenbrett."
+    ],
+    "tags": [
+      "3,8-l-Boxer",
+      "Tiptronic",
+      "Allradantrieb",
+      "PASM",
+      "Sport Chrono Plus",
+      "61.300 km"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Werksausstattung · Optionscodes",
+    "titulo": "Dokumentierte<br/><strong>Originalausstattung.</strong>",
+    "ancla": "equipamiento",
+    "precio": "57.000 € · 61.300 km",
+    "categorias": [
+      {
+        "titulo": "Fahrwerk und Fahrdynamik",
+        "items": [
+          "475 · Verstellbare Dämpfer PASM",
+          "476 · Porsche Stability Management (PSM)",
+          "640 · Sport Chrono Plus",
+          "403 · 19-Zoll-Räder Carrera S"
+        ]
+      },
+      {
+        "titulo": "Getriebe",
+        "items": [
+          "249 · Tiptronic",
+          "432 · Lenkrad mit Tiptronic-Tasten",
+          "219 · Differenzial"
+        ]
+      },
+      {
+        "titulo": "Innenraum",
+        "items": [
+          "375 / 376 · Sportsitze, Fahrer und Beifahrer",
+          "342 · Sitzheizung vorn",
+          "983 · Lederpolsterung vorn",
+          "435 · Sportlenkrad",
+          "XSC · Porsche-Wappen in den Kopfstützen",
+          "X70 · Einstiegsblenden aus Edelstahl"
+        ]
+      },
+      {
+        "titulo": "Komfort und Technik",
+        "items": [
+          "601 · Xenonscheinwerfer",
+          "288 · Scheinwerferreinigung",
+          "670 / 610 · PCM2-Navigation mit DVD, Europa",
+          "666 · PCM-Telefon",
+          "490 · Soundsystem ASK",
+          "573 · Klimaanlage"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Außen",
+    "titulo": "Schwarz 041.<br/><strong>Das breite Heck<br/>des Carrera 4S.</strong>",
+    "texto": "Die <strong>schwarze Lackierung (Code 041)</strong> betont, was den 4S ausmacht: die gegenüber dem hinterradgetriebenen Carrera verbreiterten hinteren Kotflügel. Sie geben dem Wagen eine tiefere, satte Haltung. <strong>19-Zoll-Räder Carrera S</strong> in Silber, <strong>rote Bremssättel</strong>, der Schriftzug <strong>Carrera 4S</strong> und <strong>vier Endrohre</strong> runden ein Äußeres ohne Anbauteile ab.",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/close-up1.jpg",
+        "alt": "Heck mit Carrera-4S-Schriftzug und vier Endrohren",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Heck · Carrera-4S-Schriftzug und vier Endrohre"
+      },
+      {
+        "src": "/img/997c4stiptronic/close-up2.jpg",
+        "alt": "19-Zoll-Rad Carrera S mit rotem Bremssattel",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "19-Zoll-Rad Carrera S · Roter Bremssattel"
+      },
+      {
+        "src": "/img/997c4stiptronic/exterior3.jpg",
+        "alt": "Heckansicht des Carrera 4S",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Heck · Verbreiterte Kotflügel des 4S"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Innenraum",
+    "titulo": "Leder in Beige.<br/><strong>Sportsitze<br/>und Stoppuhr.</strong>",
+    "fotos": [
+      {
+        "src": "/img/997c4stiptronic/interior3.jpg",
+        "alt": "Fahrerplatz mit Sportlenkrad und Sport-Chrono-Stoppuhr",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Fahrerplatz · Sportlenkrad und Stoppuhr"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior2.jpg",
+        "alt": "Sportsitze in beigem Leder und Mittelkonsole",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Sportsitze · Leder in Beige"
+      },
+      {
+        "src": "/img/997c4stiptronic/interior4.jpg",
+        "alt": "Fondsitze in Beige",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Fondsitze · Einzeln umklappbare Lehnen"
+      }
+    ],
+    "editorial": "Das <strong>beige</strong> Leder im Innenraum steht im Kontrast zur schwarzen Karosserie. Die <strong>Sportsitze</strong> (375 / 376) sind beheizt und tragen das Porsche-Wappen in den Kopfstützen; am Sportlenkrad sitzen die <strong>Tiptronic</strong>-Tasten. Auf dem Armaturenbrett: die Stoppuhr des <strong>Sport Chrono Plus</strong>, die <strong>PCM2</strong>-Navigation und silberne Instrumentenringe (023 / 026)."
+  },
+  "procedencia": {
+    "etiqueta": "Dokumentation und Herkunft",
+    "titulo": "Ein 997.1 4S<br/><strong>mit seinem<br/>Porsche-Datenblatt.</strong>",
+    "hitos": [
+      {
+        "anio": "22/11/2005 · Produktion",
+        "titulo": "Gebaut am 22. November 2005",
+        "cuerpo": "Carrera 4S Coupé der Generation <strong>997.1</strong>, Verkaufstyp <strong>997430</strong>, Modelljahr 2006. Lackierung Schwarz <strong>041</strong>, Tiptronic und Ausführung für Deutschland.",
+        "badge": "VIN WP0ZZZ99Z6S732977"
+      },
+      {
+        "anio": "Dokumentation",
+        "titulo": "Porsche-Fahrzeugdatenblatt",
+        "cuerpo": "Das Datenblatt des Fahrzeugs nennt die Fahrgestellnummer, den Motorcode <strong>9701</strong>, das Getriebe <strong>A9731</strong>, die Farbe und die Werksoptionen, die auf dieser Seite aufgeführt sind.",
+        "badge": "Partslink24"
+      },
+      {
+        "anio": "Heute",
+        "titulo": "Bei Valentin Motors erhältlich",
+        "cuerpo": "Das Fahrzeug wird mit <strong>61.300 km</strong> und in der Ausstattung angeboten, mit der es das Werk verlassen hat.",
+        "badge": "57.000 €"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Technisches Datenblatt",
+    "titulo": "Vollständige<br/><strong>Spezifikationen.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Bauart",
+            "valor": "Sechszylinder-Boxer, Heck"
+          },
+          {
+            "clave": "Motorcode",
+            "valor": "9701"
+          },
+          {
+            "clave": "Hubraum",
+            "valor": "3.824 cm³"
+          },
+          {
+            "clave": "Leistung",
+            "valor": "355 PS"
+          },
+          {
+            "clave": "Max. Drehmoment",
+            "valor": "400 Nm"
+          },
+          {
+            "clave": "Kühlung",
+            "valor": "Wasser"
+          }
+        ]
+      },
+      {
+        "titulo": "Getriebe und Fahrwerk",
+        "filas": [
+          {
+            "clave": "Getriebe",
+            "valor": "Tiptronic"
+          },
+          {
+            "clave": "Getriebecode",
+            "valor": "A9731"
+          },
+          {
+            "clave": "Antrieb",
+            "valor": "Allrad"
+          },
+          {
+            "clave": "Fahrwerk",
+            "valor": "PASM"
+          },
+          {
+            "clave": "Räder",
+            "valor": "Carrera S, 19 Zoll"
+          },
+          {
+            "clave": "Bremsen",
+            "valor": "Rote Bremssättel"
+          }
+        ]
+      },
+      {
+        "titulo": "Karosserie und Allgemeines",
+        "filas": [
+          {
+            "clave": "Produktion",
+            "valor": "22/11/2005"
+          },
+          {
+            "clave": "Baujahr",
+            "valor": "2006"
+          },
+          {
+            "clave": "Generation",
+            "valor": "997.1"
+          },
+          {
+            "clave": "FIN",
+            "valor": "WP0ZZZ99Z6S732977"
+          },
+          {
+            "clave": "Verkaufstyp",
+            "valor": "997430"
+          },
+          {
+            "clave": "Karosserie",
+            "valor": "Coupé"
+          },
+          {
+            "clave": "Außenfarbe",
+            "valor": "Schwarz 041"
+          },
+          {
+            "clave": "Innenraum",
+            "valor": "Leder beige"
+          },
+          {
+            "clave": "Laufleistung",
+            "valor": "61.300 km"
+          }
+        ]
+      },
+      {
+        "titulo": "Werksoptionen",
+        "filas": [
+          {
+            "clave": "023 / 026",
+            "valor": "Instrumentenringe und Stoppuhr in Silber"
+          },
+          {
+            "clave": "249 / 432",
+            "valor": "Tiptronic mit Lenkradtasten"
+          },
+          {
+            "clave": "342",
+            "valor": "Sitzheizung vorn"
+          },
+          {
+            "clave": "375 / 376",
+            "valor": "Sportsitze"
+          },
+          {
+            "clave": "403",
+            "valor": "19-Zoll-Räder Carrera S"
+          },
+          {
+            "clave": "435",
+            "valor": "Sportlenkrad"
+          },
+          {
+            "clave": "475",
+            "valor": "PASM"
+          },
+          {
+            "clave": "490",
+            "valor": "Soundsystem ASK"
+          },
+          {
+            "clave": "601 / 288",
+            "valor": "Xenonscheinwerfer und Scheinwerferreinigung"
+          },
+          {
+            "clave": "640",
+            "valor": "Sport Chrono Plus"
+          },
+          {
+            "clave": "670 / 610",
+            "valor": "PCM2-Navigation mit DVD"
+          },
+          {
+            "clave": "983",
+            "valor": "Lederpolsterung vorn"
+          }
+        ]
+      },
+      {
+        "titulo": "Verkaufsbedingungen",
+        "filas": [
+          {
+            "clave": "Preis",
+            "valor": "57.000 €"
+          },
+          {
+            "clave": "Dokumentation",
+            "valor": "Porsche-Fahrzeugdatenblatt"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/997c4stiptronic/exterior3.jpg",
+    "cita": "Ein Porsche 911 Carrera 4S 997.1 in <em>Schwarz mit beigem Leder</em>, mit Tiptronic, Allradantrieb und 61.300 km.",
+    "precio": "57.000 €",
+    "precioTachado": false,
+    "precioLabel": "Porsche 997.1 Carrera 4S Tiptronic · Schwarz · 2006",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Weitere Informationen",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Verfügbar",
+    "marca": "Porsche · 4S",
+    "nombre": "997.1 Carrera 4S Tiptronic",
+    "detalle": "2006 · 61.300 km · Schwarz",
+    "descripcion": "3,8-l-Boxer · Tiptronic · Allradantrieb · PASM und Sport Chrono Plus. Schwarz mit Leder in Beige, Sportsitzen und 19-Zoll-Rädern Carrera S.",
+    "precio": "57.000 €",
+    "precioPorConsultar": false,
+    "imagen": "/img/997c4stiptronic/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}
