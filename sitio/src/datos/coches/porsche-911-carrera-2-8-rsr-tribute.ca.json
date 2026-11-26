@@ -1,0 +1,485 @@
+{
+  "slug": "porsche-911-carrera-2-8-rsr-tribute",
+  "traduccion": {
+    "hechas": 227,
+    "total": 227,
+    "completa": true
+  },
+  "archivoOriginal": "911rsr.html",
+  "realce": "realce--911rsr",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 2.8 RSR Tribute a la venda · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera 2.8 RSR Tribute: bòxer de 2.994 cc i 300 CV amb carburadors, canvi manual de 5 velocitats i 960 kg. Disponible a Valentín Motors, preu a consultar.",
+    "ogImagen": "https://valentin.up.railway.app/img/911rsr/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 911 · RSR Tribute",
+    "subtitulo": "Porsche 911 Carrera",
+    "titulo": "2.8 RSR Tribute",
+    "claim": "Bòxer refrigerat per aire, 300 CV i 960 kg en buit.",
+    "imagen": "/img/911rsr/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "El vehicle",
+    "titulo": "Un homenatge<br/><strong>al Carrera<br/>de competició.</strong>",
+    "parrafos": [
+      "Aquest <strong>Porsche 911</strong> està configurat com a <strong>Carrera 2.8 RSR Tribute</strong>: una interpretació del Carrera de competició del 1973, no un RSR de fàbrica. Carrosseria coupé, dues places i la cua d'ànec que identifica la nissaga.",
+      "Al darrere munta un bòxer de <strong>2.994 cc</strong> alimentat per carburadors, que declara <strong>300 CV</strong> a 7.120 rpm, unit a un canvi manual de cinc velocitats. El pes en buit declarat és de <strong>960 kg</strong>."
+    ],
+    "cita": "Poc pes, motor d'aire i canvi manual: la fórmula del Carrera, sense afegits.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera 2.8 RSR Tribute",
+        "acento": false
+      },
+      {
+        "clave": "Carrosseria",
+        "valor": "Coupé, 2 places",
+        "acento": false
+      },
+      {
+        "clave": "Motor",
+        "valor": "Bòxer 2.994 cc",
+        "acento": false
+      },
+      {
+        "clave": "Potència",
+        "valor": "300 CV a 7.120 rpm",
+        "acento": false
+      },
+      {
+        "clave": "Transmissió",
+        "valor": "Manual de 5 velocitats",
+        "acento": false
+      },
+      {
+        "clave": "Pes en buit",
+        "valor": "960 kg",
+        "acento": false
+      },
+      {
+        "clave": "Color",
+        "valor": "Gris blavós",
+        "acento": false
+      },
+      {
+        "clave": "Preu",
+        "valor": "A consultar",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galeria",
+    "titulo": "Gris blavós.<br/><strong>Cua d'ànec<br/>i llantes Fuchs.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911rsr/hero.jpg",
+        "alt": "Porsche 911 Carrera 2.8 RSR Tribute gris blavós, vista frontal 3/4",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vista frontal 3/4"
+      },
+      {
+        "src": "/img/911rsr/exterior3.jpg",
+        "alt": "Perfil lateral del 911 RSR Tribute amb la franja Carrera",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Perfil · Franja Carrera"
+      },
+      {
+        "src": "/img/911rsr/exterior2.jpg",
+        "alt": "Vista posterior 3/4 del 911 RSR Tribute amb cua d'ànec",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Posterior 3/4 · Cua d'ànec"
+      },
+      {
+        "src": "/img/911rsr/close-up1.jpg",
+        "alt": "Motor bòxer refrigerat per aire del 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Motor · Bòxer amb carburadors"
+      },
+      {
+        "src": "/img/911rsr/interior3.jpg",
+        "alt": "Volant de tres radis i quadre de cinc rellotges",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Lloc de conducció"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Motor i transmissió",
+    "titulo": "Aire i oli.<br/><strong>Tres-cents<br/>cavalls.</strong>",
+    "stats": [
+      {
+        "valor": "3,0",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cilindrada",
+        "destacada": true
+      },
+      {
+        "valor": 300,
+        "animado": true,
+        "unidad": "CV",
+        "etiqueta": "Potència",
+        "destacada": false
+      },
+      {
+        "valor": 294,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Parell màxim",
+        "destacada": false
+      },
+      {
+        "valor": 960,
+        "animado": true,
+        "unidad": "kg",
+        "etiqueta": "Pes en buit",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "El sis cilindres bòxer cubica <strong>2.994 cc</strong>, amb un diàmetre per cursa de 95,0 x 70,4 mm i una compressió de 10,5:1. Bloc i culates són d'alumini, amb un arbre de lleves en capçalera per bancada, dues vàlvules per cilindre i distribució per cadena.",
+      "L'alimentació és per <strong>carburadors</strong>, la lubricació per <strong>càrter sec</strong> amb 13 litres d'oli i la refrigeració per aire i oli. Lliura <strong>294 Nm</strong> a 4.450 rpm a les rodes posteriors a través d'un canvi manual de cinc velocitats totalment sincronitzades."
+    ],
+    "tags": [
+      "Bòxer 2.994 cc",
+      "Carburadors",
+      "Càrter sec",
+      "Manual de 5 velocitats",
+      "Propulsió posterior"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Configuració tècnica",
+    "titulo": "Mecànica<br/><strong>de competició.</strong>",
+    "ancla": "configuracio",
+    "precio": "A consultar · 300 CV",
+    "categorias": [
+      {
+        "titulo": "Motor",
+        "items": [
+          "2.994 cc i 300 CV",
+          "Alimentació per carburadors",
+          "Lubricació per càrter sec",
+          "Benzina sense plom de 98 octans"
+        ]
+      },
+      {
+        "titulo": "Transmissió",
+        "items": [
+          "Manual de 5 velocitats sincronitzades",
+          "Embragatge de disc en sec",
+          "Accionament mecànic",
+          "Relació de l'eix 3,88:1"
+        ]
+      },
+      {
+        "titulo": "Xassís i frens",
+        "items": [
+          "Suspensió independent a les quatre rodes",
+          "Barres de torsió i estabilitzadores",
+          "Discos ventilats davant i darrere",
+          "Direcció de cremallera"
+        ]
+      },
+      {
+        "titulo": "Rodes i pes",
+        "items": [
+          "Fuchs d'alumini forjat",
+          "Davant 9J x 15",
+          "Darrere 11J x 15",
+          "960 kg en buit"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Gris blavós.<br/><strong>La silueta<br/>del Carrera.</strong>",
+    "texto": "Sobre el gris blavós destaquen la <strong>franja lateral Carrera</strong> en negre, la <strong>cua d'ànec</strong> i les <strong>llantes Fuchs</strong> amb el centre fosc i la vora polida. Les aletes posteriors eixamplades allotgen la via més ampla pròpia d'aquesta configuració.",
+    "fotos": [
+      {
+        "src": "/img/911rsr/close-up2.jpg",
+        "alt": "Cua d'ànec i pilot posterior del 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Part posterior · Cua d'ànec"
+      },
+      {
+        "src": "/img/911rsr/close-up3.jpg",
+        "alt": "Llanta Fuchs posterior i aleta eixamplada",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Llanta Fuchs · Aleta eixamplada"
+      },
+      {
+        "src": "/img/911rsr/exterior1.jpg",
+        "alt": "Frontal 3/4 esquerre del 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Frontal 3/4"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Pota de gall.<br/><strong>Dos bàquets<br/>i res més.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911rsr/interior1.jpg",
+        "alt": "Seients bàquet de pota de gall",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Seients bàquet · Pota de gall"
+      },
+      {
+        "src": "/img/911rsr/interior2.jpg",
+        "alt": "Habitacle del 911 RSR Tribute des de la porta del conductor",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitacle"
+      },
+      {
+        "src": "/img/911rsr/interior3.jpg",
+        "alt": "Volant de tres radis i quadre de cinc rellotges",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Volant i instrumentació"
+      }
+    ],
+    "editorial": "Dos <strong>seients bàquet</strong> entapissats en <strong>pota de gall</strong>, el mateix teixit als panells de porta, volant de tres radis i la instrumentació de cinc rellotges amb el comptarevolucions al centre. Tot el que cal per conduir."
+  },
+  "procedencia": {
+    "etiqueta": "Context",
+    "titulo": "De la referència<br/><strong>a aquesta<br/>unitat.</strong>",
+    "hitos": [
+      {
+        "anio": "1973 · La referència",
+        "titulo": "Carrera RSR 2.8",
+        "cuerpo": "Porsche desenvolupa el <strong>Carrera RSR 2.8</strong> com a versió de competició del Carrera RS 2.7. És el model al qual ret homenatge aquesta unitat.",
+        "badge": "Referència històrica"
+      },
+      {
+        "anio": "La configuració",
+        "titulo": "RSR Tribute",
+        "cuerpo": "Coupé de dues places amb bòxer de <strong>2.994 cc</strong> i <strong>300 CV</strong>, canvi manual de cinc velocitats, propulsió posterior i <strong>960 kg</strong> declarats.",
+        "badge": "300 CV · 960 kg"
+      },
+      {
+        "anio": "Avui",
+        "titulo": "Disponible a Valentin Motors",
+        "cuerpo": "La unitat està disponible, amb <strong>preu a consultar</strong>.",
+        "badge": "A consultar"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fitxa tècnica",
+    "titulo": "Especificacions<br/><strong>completes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Motor",
+        "filas": [
+          {
+            "clave": "Tipus",
+            "valor": "Bòxer de 6 cilindres posterior"
+          },
+          {
+            "clave": "Cilindrada",
+            "valor": "2.994 cc"
+          },
+          {
+            "clave": "Diàmetre x cursa",
+            "valor": "95,0 x 70,4 mm"
+          },
+          {
+            "clave": "Potència",
+            "valor": "300 CV (223 kW) a 7.120 rpm"
+          },
+          {
+            "clave": "Parell màxim",
+            "valor": "294 Nm a 4.450 rpm"
+          },
+          {
+            "clave": "Compressió",
+            "valor": "10,5:1"
+          },
+          {
+            "clave": "Bloc i culates",
+            "valor": "Alumini"
+          },
+          {
+            "clave": "Distribució",
+            "valor": "2 vàlvules per cilindre, cadena"
+          },
+          {
+            "clave": "Cigonyal",
+            "valor": "8 suports"
+          },
+          {
+            "clave": "Alimentació",
+            "valor": "Carburadors"
+          },
+          {
+            "clave": "Lubricació",
+            "valor": "Càrter sec, 13 litres"
+          },
+          {
+            "clave": "Refrigeració",
+            "valor": "Aire i oli"
+          },
+          {
+            "clave": "Combustible",
+            "valor": "Sense plom 98"
+          },
+          {
+            "clave": "Sistema elèctric",
+            "valor": "12 V, 66 Ah, alternador de 980 W"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmissió",
+        "filas": [
+          {
+            "clave": "Tracció",
+            "valor": "Posterior"
+          },
+          {
+            "clave": "Canvi",
+            "valor": "Manual de 5 velocitats"
+          },
+          {
+            "clave": "Embragatge",
+            "valor": "Disc en sec, mecànic"
+          },
+          {
+            "clave": "Relacions",
+            "valor": "3,18 / 1,83 / 1,26 / 1,00 / 0,82"
+          },
+          {
+            "clave": "Relació de l'eix",
+            "valor": "3,88:1"
+          },
+          {
+            "clave": "En 5a a 1.000 rpm",
+            "valor": "38,5 km/h"
+          }
+        ]
+      },
+      {
+        "titulo": "Xassís",
+        "filas": [
+          {
+            "clave": "Estructura",
+            "valor": "Autoportant d'acer"
+          },
+          {
+            "clave": "Suspensió davantera",
+            "valor": "Independent, barra de torsió i estabilitzadora"
+          },
+          {
+            "clave": "Suspensió posterior",
+            "valor": "Braços oblics, amortidors de gas"
+          },
+          {
+            "clave": "Direcció",
+            "valor": "Cremallera"
+          },
+          {
+            "clave": "Frens",
+            "valor": "Discos ventilats, doble circuit"
+          },
+          {
+            "clave": "Fre de mà",
+            "valor": "Tambor a les rodes posteriors"
+          },
+          {
+            "clave": "Llantes",
+            "valor": "Fuchs 9J x 15 / 11J x 15"
+          }
+        ]
+      },
+      {
+        "titulo": "Mides i pesos",
+        "filas": [
+          {
+            "clave": "Llarg x ample x alt",
+            "valor": "4.291 x 1.652 x 1.320 mm"
+          },
+          {
+            "clave": "Batalla",
+            "valor": "2.272 mm"
+          },
+          {
+            "clave": "Amplada interior dav. / post.",
+            "valor": "1.330 / 1.050 mm"
+          },
+          {
+            "clave": "Cercle de gir dreta / esquerra",
+            "valor": "10,8 / 10,6 m"
+          },
+          {
+            "clave": "Volant",
+            "valor": "380 mm de diàmetre"
+          },
+          {
+            "clave": "Dipòsit",
+            "valor": "80 litres"
+          },
+          {
+            "clave": "Pes en buit",
+            "valor": "960 kg"
+          },
+          {
+            "clave": "Repartiment dav. / post.",
+            "valor": "41,2 % / 58,8 %"
+          }
+        ]
+      },
+      {
+        "titulo": "Condicions de venda",
+        "filas": [
+          {
+            "clave": "Preu",
+            "valor": "A consultar"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/911rsr/exterior2.jpg",
+    "cita": "Un 911 en configuració <em>RSR Tribute</em>: 300 CV, 960 kg i canvi manual.",
+    "precio": "A consultar",
+    "precioTachado": false,
+    "precioLabel": "Porsche 911 Carrera 2.8 RSR Tribute · Gris blavós",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Més informació",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · 911",
+    "nombre": "911 Carrera 2.8 RSR Tribute",
+    "detalle": "300 CV · 960 kg · Gris blavós",
+    "descripcion": "Bòxer 2.994 cc amb carburadors · Manual de 5 velocitats · Llantes Fuchs. Configuració RSR Tribute amb cua d'ànec.",
+    "precio": "A consultar",
+    "precioPorConsultar": true,
+    "imagen": "/img/911rsr/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

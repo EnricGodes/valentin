@@ -144,8 +144,17 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 1. **Archivo fotográfico** (2026-10-06, ampliado 2026-10-14): 73 fotos extra (`docs/coches/ruf/extras` y `extras2`, sesión "mottatrece") en `img/ruf/extras/` (1400 px) y `img/ruf/extras/mini/` (900 px), en seis grupos: exterior, detalles, maletero, motor, interior, cabina. Están en `ruf.html` (sección `#fotografias`, con visor propio) y en `sitio/` (bloque `fotografias` del JSON, seis idiomas). Los textos de `ruf.html` se generaron desde el JSON en castellano: si se cambian, cambiar los dos
 2. **Kilómetros**: el cuentakilómetros de las fotos marca 52.665 km; la ficha dice 52.492. Validar con Valentin cuál es el dato comercial
 
+### Porsche 911 Carrera 2.8 RSR Tribute (911rsr.html)
+1. Añadido el 2026-11-26. Ficha fuente en `docs/coches/porsche_911_rsr/` junto con las fotos originales. En `sitio/` tiene ficha en seis idiomas (slug `porsche-911-carrera-2-8-rsr-tribute`), traducida a mano. Segundo en el catálogo, detrás del RUF. Sale en la landing del 911 clásico
+2. **Es un homenaje, no un RSR de fábrica**: así se dice en la web
+3. **Sin año, kilómetros ni precio**: la ficha no da año ni kilometraje; precio a consultar. No inventarlos
+4. **Neumáticos fuera de la web**: la ficha da 18/60 R15 y 26/61 R15 (TB5R), pero en las fotos se lee 245/45 ZR 16. Validar con Valentin neumáticos y diámetro de llanta (la web dice 9J y 11J x 15)
+5. **Vías fuera de la web**: la ficha da "360 / 1.342 mm", la delantera es errónea
+6. **Color "gris azulado"** e interior en pata de gallo: salen de las fotos. Validar el nombre comercial
+7. **Sin opinión de Jordi**: la ficha no la trae y no se inventa
+
 ### Porsche 997.1 Carrera 4S Tiptronic 2006 (997c4stiptronic.html)
-1. Añadido el 2026-11-20. Ficha fuente en `docs/porsche_997_1_carrera_4s_tiptronic_2006.md`; fotos originales en `docs/Web/997.1 Carrera 4S Tiptronic 2006/`. En `sitio/` tiene ficha en seis idiomas (slug `porsche-997-carrera-4s-tiptronic-2006`), traducida a mano. Segundo en el catálogo, detrás del RUF
+1. Añadido el 2026-11-20. Ficha fuente en `docs/porsche_997_1_carrera_4s_tiptronic_2006.md`; fotos originales en `docs/Web/997.1 Carrera 4S Tiptronic 2006/`. En `sitio/` tiene ficha en seis idiomas (slug `porsche-997-carrera-4s-tiptronic-2006`), traducida a mano. Tercero en el catálogo, detrás del RUF y del 911 RSR Tribute
 2. **No confundir** con el 997.1 Carrera 4S Tiptronic vendido (`997tiptronic.html`, slug `porsche-997-carrera-4s-triptronic`, 2007, Negro Z4): son dos coches distintos
 3. **3,8 L / 355 CV / 400 Nm**: cifras de catálogo del Carrera 4S 997.1, no vienen en la ficha
 4. **Interior "cuero beige"**: sale de las fotos; la ficha solo dice tapicería delantera en cuero (983). Color exterior: la ficha da el código 041 sin nombre, en la web va como "Negro 041"

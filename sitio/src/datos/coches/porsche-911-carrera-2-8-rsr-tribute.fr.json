@@ -1,0 +1,485 @@
+{
+  "slug": "porsche-911-carrera-2-8-rsr-tribute",
+  "traduccion": {
+    "hechas": 227,
+    "total": 227,
+    "completa": true
+  },
+  "archivoOriginal": "911rsr.html",
+  "realce": "realce--911rsr",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 2.8 RSR Tribute à vendre · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera 2.8 RSR Tribute : flat-six de 2 994 cm³ et 300 ch à carburateurs, boîte manuelle à 5 rapports et 960 kg. Chez Valentín Motors, prix sur demande.",
+    "ogImagen": "https://valentin.up.railway.app/img/911rsr/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 911 · RSR Tribute",
+    "subtitulo": "Porsche 911 Carrera",
+    "titulo": "2.8 RSR Tribute",
+    "claim": "Flat-six refroidi par air, 300 ch et 960 kg à vide.",
+    "imagen": "/img/911rsr/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Faire défiler"
+  },
+  "intro": {
+    "etiqueta": "La voiture",
+    "titulo": "Un hommage<br/><strong>à la Carrera<br/>de course.</strong>",
+    "parrafos": [
+      "Cette <strong>Porsche 911</strong> est configurée en <strong>Carrera 2.8 RSR Tribute</strong> : une interprétation de la Carrera de course de 1973, et non une RSR d'usine. Carrosserie coupé, deux places et la queue de canard qui signe la lignée.",
+      "À l'arrière, un flat-six de <strong>2 994 cm³</strong> à carburateurs, donné pour <strong>300 ch</strong> à 7 120 tr/min, associé à une boîte manuelle à cinq rapports. Le poids à vide annoncé est de <strong>960 kg</strong>."
+    ],
+    "cita": "Peu de poids, moteur à air et boîte manuelle : la formule Carrera, sans rien ajouter.",
+    "datos": [
+      {
+        "clave": "Modèle",
+        "valor": "911 Carrera 2.8 RSR Tribute",
+        "acento": false
+      },
+      {
+        "clave": "Carrosserie",
+        "valor": "Coupé, 2 places",
+        "acento": false
+      },
+      {
+        "clave": "Moteur",
+        "valor": "Flat-six, 2 994 cm³",
+        "acento": false
+      },
+      {
+        "clave": "Puissance",
+        "valor": "300 ch à 7 120 tr/min",
+        "acento": false
+      },
+      {
+        "clave": "Boîte",
+        "valor": "Manuelle à 5 rapports",
+        "acento": false
+      },
+      {
+        "clave": "Poids à vide",
+        "valor": "960 kg",
+        "acento": false
+      },
+      {
+        "clave": "Couleur",
+        "valor": "Gris bleuté",
+        "acento": false
+      },
+      {
+        "clave": "Prix",
+        "valor": "Sur demande",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Galerie",
+    "titulo": "Gris bleuté.<br/><strong>Queue de canard<br/>et jantes Fuchs.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911rsr/hero.jpg",
+        "alt": "Porsche 911 Carrera 2.8 RSR Tribute gris bleuté, vue trois quarts avant",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Vue trois quarts avant"
+      },
+      {
+        "src": "/img/911rsr/exterior3.jpg",
+        "alt": "Profil de la 911 RSR Tribute avec la bande Carrera",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profil · Bande Carrera"
+      },
+      {
+        "src": "/img/911rsr/exterior2.jpg",
+        "alt": "Vue trois quarts arrière de la 911 RSR Tribute avec queue de canard",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Trois quarts arrière · Queue de canard"
+      },
+      {
+        "src": "/img/911rsr/close-up1.jpg",
+        "alt": "Flat-six refroidi par air de la 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Moteur · Flat-six à carburateurs"
+      },
+      {
+        "src": "/img/911rsr/interior3.jpg",
+        "alt": "Volant à trois branches et combiné à cinq cadrans",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Poste de conduite"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Moteur et transmission",
+    "titulo": "Air et huile.<br/><strong>Trois cents<br/>chevaux.</strong>",
+    "stats": [
+      {
+        "valor": "3,0",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Cylindrée",
+        "destacada": true
+      },
+      {
+        "valor": 300,
+        "animado": true,
+        "unidad": "ch",
+        "etiqueta": "Puissance",
+        "destacada": false
+      },
+      {
+        "valor": 294,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Couple maximal",
+        "destacada": false
+      },
+      {
+        "valor": 960,
+        "animado": true,
+        "unidad": "kg",
+        "etiqueta": "Poids à vide",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "Le flat-six cube <strong>2 994 cm³</strong>, avec un alésage et une course de 95,0 x 70,4 mm et un taux de compression de 10,5:1. Bloc et culasses sont en aluminium, avec un arbre à cames en tête par banc, deux soupapes par cylindre et une distribution par chaîne.",
+      "L'alimentation se fait par <strong>carburateurs</strong>, la lubrification par <strong>carter sec</strong> avec 13 litres d'huile et le refroidissement par air et huile. Il transmet <strong>294 Nm</strong> à 4 450 tr/min aux roues arrière par une boîte manuelle à cinq rapports entièrement synchronisés."
+    ],
+    "tags": [
+      "Flat-six 2 994 cm³",
+      "Carburateurs",
+      "Carter sec",
+      "Manuelle à 5 rapports",
+      "Propulsion"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Configuration technique",
+    "titulo": "Une mécanique<br/><strong>de compétition.</strong>",
+    "ancla": "configuration",
+    "precio": "Sur demande · 300 ch",
+    "categorias": [
+      {
+        "titulo": "Moteur",
+        "items": [
+          "2 994 cm³ et 300 ch",
+          "Alimentation par carburateurs",
+          "Lubrification par carter sec",
+          "Essence sans plomb 98"
+        ]
+      },
+      {
+        "titulo": "Transmission",
+        "items": [
+          "Manuelle à 5 rapports synchronisés",
+          "Embrayage à disque à sec",
+          "Commande mécanique",
+          "Rapport de pont 3,88:1"
+        ]
+      },
+      {
+        "titulo": "Châssis et freins",
+        "items": [
+          "Suspension indépendante aux quatre roues",
+          "Barres de torsion et barres antiroulis",
+          "Disques ventilés à l'avant et à l'arrière",
+          "Direction à crémaillère"
+        ]
+      },
+      {
+        "titulo": "Roues et poids",
+        "items": [
+          "Fuchs en aluminium forgé",
+          "Avant 9J x 15",
+          "Arrière 11J x 15",
+          "960 kg à vide"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Extérieur",
+    "titulo": "Gris bleuté.<br/><strong>La silhouette<br/>de la Carrera.</strong>",
+    "texto": "Sur la peinture gris bleuté ressortent la <strong>bande latérale Carrera</strong> noire, la <strong>queue de canard</strong> et les <strong>jantes Fuchs</strong> au centre sombre et au rebord poli. Les ailes arrière élargies accueillent la voie plus large propre à cette configuration.",
+    "fotos": [
+      {
+        "src": "/img/911rsr/close-up2.jpg",
+        "alt": "Queue de canard et feu arrière de la 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Arrière · Queue de canard"
+      },
+      {
+        "src": "/img/911rsr/close-up3.jpg",
+        "alt": "Jante Fuchs arrière et aile élargie",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Jante Fuchs · Aile élargie"
+      },
+      {
+        "src": "/img/911rsr/exterior1.jpg",
+        "alt": "Trois quarts avant gauche de la 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Trois quarts avant"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Intérieur",
+    "titulo": "Pied-de-poule.<br/><strong>Deux baquets<br/>et rien d'autre.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911rsr/interior1.jpg",
+        "alt": "Sièges baquets en pied-de-poule",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Sièges baquets · Pied-de-poule"
+      },
+      {
+        "src": "/img/911rsr/interior2.jpg",
+        "alt": "Habitacle de la 911 RSR Tribute depuis la portière conducteur",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Habitacle"
+      },
+      {
+        "src": "/img/911rsr/interior3.jpg",
+        "alt": "Volant à trois branches et combiné à cinq cadrans",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Volant et instrumentation"
+      }
+    ],
+    "editorial": "Deux <strong>sièges baquets</strong> garnis de <strong>pied-de-poule</strong>, le même tissu sur les panneaux de porte, un volant à trois branches et cinq cadrans avec le compte-tours au centre. Tout ce qu'il faut pour conduire."
+  },
+  "procedencia": {
+    "etiqueta": "Contexte",
+    "titulo": "De la référence<br/><strong>à cet<br/>exemplaire.</strong>",
+    "hitos": [
+      {
+        "anio": "1973 · La référence",
+        "titulo": "Carrera RSR 2.8",
+        "cuerpo": "Porsche développe la <strong>Carrera RSR 2.8</strong>, version de compétition de la Carrera RS 2.7. C'est à elle que cet exemplaire rend hommage.",
+        "badge": "Référence historique"
+      },
+      {
+        "anio": "La configuration",
+        "titulo": "RSR Tribute",
+        "cuerpo": "Coupé deux places à flat-six de <strong>2 994 cm³</strong> et <strong>300 ch</strong>, boîte manuelle à cinq rapports, propulsion et <strong>960 kg</strong> annoncés.",
+        "badge": "300 ch · 960 kg"
+      },
+      {
+        "anio": "Aujourd'hui",
+        "titulo": "Disponible chez Valentin Motors",
+        "cuerpo": "L'exemplaire est disponible, <strong>prix sur demande</strong>.",
+        "badge": "Sur demande"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Fiche technique",
+    "titulo": "Caractéristiques<br/><strong>complètes.</strong>",
+    "grupos": [
+      {
+        "titulo": "Moteur",
+        "filas": [
+          {
+            "clave": "Type",
+            "valor": "Flat-six à l'arrière"
+          },
+          {
+            "clave": "Cylindrée",
+            "valor": "2 994 cm³"
+          },
+          {
+            "clave": "Alésage x course",
+            "valor": "95,0 x 70,4 mm"
+          },
+          {
+            "clave": "Puissance",
+            "valor": "300 ch (223 kW) à 7 120 tr/min"
+          },
+          {
+            "clave": "Couple maximal",
+            "valor": "294 Nm à 4 450 tr/min"
+          },
+          {
+            "clave": "Compression",
+            "valor": "10,5:1"
+          },
+          {
+            "clave": "Bloc et culasses",
+            "valor": "Aluminium"
+          },
+          {
+            "clave": "Distribution",
+            "valor": "2 soupapes par cylindre, chaîne"
+          },
+          {
+            "clave": "Vilebrequin",
+            "valor": "8 paliers"
+          },
+          {
+            "clave": "Alimentation",
+            "valor": "Carburateurs"
+          },
+          {
+            "clave": "Lubrification",
+            "valor": "Carter sec, 13 litres"
+          },
+          {
+            "clave": "Refroidissement",
+            "valor": "Air et huile"
+          },
+          {
+            "clave": "Carburant",
+            "valor": "Sans plomb 98"
+          },
+          {
+            "clave": "Circuit électrique",
+            "valor": "12 V, 66 Ah, alternateur de 980 W"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmission",
+        "filas": [
+          {
+            "clave": "Roues motrices",
+            "valor": "Arrière"
+          },
+          {
+            "clave": "Boîte",
+            "valor": "Manuelle à 5 rapports"
+          },
+          {
+            "clave": "Embrayage",
+            "valor": "Disque à sec, mécanique"
+          },
+          {
+            "clave": "Rapports",
+            "valor": "3,18 / 1,83 / 1,26 / 1,00 / 0,82"
+          },
+          {
+            "clave": "Rapport de pont",
+            "valor": "3,88:1"
+          },
+          {
+            "clave": "En 5e à 1 000 tr/min",
+            "valor": "38,5 km/h"
+          }
+        ]
+      },
+      {
+        "titulo": "Châssis",
+        "filas": [
+          {
+            "clave": "Structure",
+            "valor": "Monocoque en acier"
+          },
+          {
+            "clave": "Suspension avant",
+            "valor": "Indépendante, barre de torsion et antiroulis"
+          },
+          {
+            "clave": "Suspension arrière",
+            "valor": "Bras obliques, amortisseurs à gaz"
+          },
+          {
+            "clave": "Direction",
+            "valor": "Crémaillère"
+          },
+          {
+            "clave": "Freins",
+            "valor": "Disques ventilés, double circuit"
+          },
+          {
+            "clave": "Frein à main",
+            "valor": "Tambour sur les roues arrière"
+          },
+          {
+            "clave": "Jantes",
+            "valor": "Fuchs 9J x 15 / 11J x 15"
+          }
+        ]
+      },
+      {
+        "titulo": "Dimensions et poids",
+        "filas": [
+          {
+            "clave": "Longueur x largeur x hauteur",
+            "valor": "4 291 x 1 652 x 1 320 mm"
+          },
+          {
+            "clave": "Empattement",
+            "valor": "2 272 mm"
+          },
+          {
+            "clave": "Largeur intérieure av. / arr.",
+            "valor": "1 330 / 1 050 mm"
+          },
+          {
+            "clave": "Diamètre de braquage droite / gauche",
+            "valor": "10,8 / 10,6 m"
+          },
+          {
+            "clave": "Volant",
+            "valor": "380 mm de diamètre"
+          },
+          {
+            "clave": "Réservoir",
+            "valor": "80 litres"
+          },
+          {
+            "clave": "Poids à vide",
+            "valor": "960 kg"
+          },
+          {
+            "clave": "Répartition av. / arr.",
+            "valor": "41,2 % / 58,8 %"
+          }
+        ]
+      },
+      {
+        "titulo": "Conditions de vente",
+        "filas": [
+          {
+            "clave": "Prix",
+            "valor": "Sur demande"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/911rsr/exterior2.jpg",
+    "cita": "Une 911 en configuration <em>RSR Tribute</em> : 300 ch, 960 kg et boîte manuelle.",
+    "precio": "Sur demande",
+    "precioTachado": false,
+    "precioLabel": "Porsche 911 Carrera 2.8 RSR Tribute · Gris bleuté",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "Plus d'informations",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Disponible",
+    "marca": "Porsche · 911",
+    "nombre": "911 Carrera 2.8 RSR Tribute",
+    "detalle": "300 ch · 960 kg · Gris bleuté",
+    "descripcion": "Flat-six 2 994 cm³ à carburateurs · Manuelle à 5 rapports · Jantes Fuchs. Configuration RSR Tribute avec queue de canard.",
+    "precio": "Sur demande",
+    "precioPorConsultar": true,
+    "imagen": "/img/911rsr/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}

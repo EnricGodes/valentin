@@ -96,6 +96,7 @@ const TODOS: { idioma: Idioma; coche: Coche }[] =
 /** Orden de aparicion en el catalogo. Los que no estan aqui van al final. */
 const ORDEN = [
   '997-ruf-kompressor',
+  'porsche-911-carrera-2-8-rsr-tribute',
   'porsche-997-carrera-4s-tiptronic-2006',
   'porsche-boxster-s-987-manual-2005',
   'porsche-997-carrera-coupe-tiptronic-2006',

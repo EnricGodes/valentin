@@ -1,0 +1,485 @@
+{
+  "slug": "porsche-911-carrera-2-8-rsr-tribute",
+  "traduccion": {
+    "hechas": 227,
+    "total": 227,
+    "completa": true
+  },
+  "archivoOriginal": "911rsr.html",
+  "realce": "realce--911rsr",
+  "meta": {
+    "titulo": "Porsche 911 Carrera 2.8 RSR Tribute for sale · Valentín Motors",
+    "descripcion": "Porsche 911 Carrera 2.8 RSR Tribute: 2,994 cc flat-six with 300 PS on carburettors, five-speed manual and 960 kg. Available at Valentín Motors, price on request.",
+    "ogImagen": "https://valentin.up.railway.app/img/911rsr/hero.jpg"
+  },
+  "hero": {
+    "eyebrow": "Porsche · 911 · RSR Tribute",
+    "subtitulo": "Porsche 911 Carrera",
+    "titulo": "2.8 RSR Tribute",
+    "claim": "Air-cooled flat-six, 300 PS and a kerb weight of 960 kg.",
+    "imagen": "/img/911rsr/hero.jpg",
+    "precio": "",
+    "precioLabel": "",
+    "scrollLabel": "Scroll"
+  },
+  "intro": {
+    "etiqueta": "The car",
+    "titulo": "A tribute<br/><strong>to the racing<br/>Carrera.</strong>",
+    "parrafos": [
+      "This <strong>Porsche 911</strong> is configured as a <strong>Carrera 2.8 RSR Tribute</strong>: an interpretation of the 1973 racing Carrera, not a factory RSR. Coupé body, two seats and the ducktail that marks out the line.",
+      "At the rear sits a <strong>2,994 cc</strong> flat-six on carburettors, rated at <strong>300 PS</strong> at 7,120 rpm and mated to a five-speed manual gearbox. The stated kerb weight is <strong>960 kg</strong>."
+    ],
+    "cita": "Low weight, an air-cooled engine and a manual gearbox: the Carrera formula, with nothing added.",
+    "datos": [
+      {
+        "clave": "Model",
+        "valor": "911 Carrera 2.8 RSR Tribute",
+        "acento": false
+      },
+      {
+        "clave": "Body",
+        "valor": "Coupé, 2 seats",
+        "acento": false
+      },
+      {
+        "clave": "Engine",
+        "valor": "Flat-six, 2,994 cc",
+        "acento": false
+      },
+      {
+        "clave": "Power",
+        "valor": "300 PS at 7,120 rpm",
+        "acento": false
+      },
+      {
+        "clave": "Gearbox",
+        "valor": "Five-speed manual",
+        "acento": false
+      },
+      {
+        "clave": "Kerb weight",
+        "valor": "960 kg",
+        "acento": false
+      },
+      {
+        "clave": "Colour",
+        "valor": "Blue-grey",
+        "acento": false
+      },
+      {
+        "clave": "Price",
+        "valor": "On request",
+        "acento": true
+      }
+    ]
+  },
+  "galeria": {
+    "etiqueta": "Gallery",
+    "titulo": "Blue-grey.<br/><strong>Ducktail<br/>and Fuchs wheels.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911rsr/hero.jpg",
+        "alt": "Blue-grey Porsche 911 Carrera 2.8 RSR Tribute, front three-quarter view",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Front three-quarter view"
+      },
+      {
+        "src": "/img/911rsr/exterior3.jpg",
+        "alt": "Side profile of the 911 RSR Tribute with the Carrera stripe",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Profile · Carrera stripe"
+      },
+      {
+        "src": "/img/911rsr/exterior2.jpg",
+        "alt": "Rear three-quarter view of the 911 RSR Tribute with ducktail",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Rear three-quarter · Ducktail"
+      },
+      {
+        "src": "/img/911rsr/close-up1.jpg",
+        "alt": "Air-cooled flat-six of the 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Engine · Flat-six on carburettors"
+      },
+      {
+        "src": "/img/911rsr/interior3.jpg",
+        "alt": "Three-spoke steering wheel and five-dial instrument cluster",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Driving position"
+      }
+    ]
+  },
+  "ingenieria": {
+    "etiqueta": "Engine and gearbox",
+    "titulo": "Air and oil.<br/><strong>Three hundred<br/>horsepower.</strong>",
+    "stats": [
+      {
+        "valor": "3.0",
+        "animado": false,
+        "unidad": "L",
+        "etiqueta": "Displacement",
+        "destacada": true
+      },
+      {
+        "valor": 300,
+        "animado": true,
+        "unidad": "PS",
+        "etiqueta": "Power",
+        "destacada": false
+      },
+      {
+        "valor": 294,
+        "animado": true,
+        "unidad": "Nm",
+        "etiqueta": "Maximum torque",
+        "destacada": false
+      },
+      {
+        "valor": 960,
+        "animado": true,
+        "unidad": "kg",
+        "etiqueta": "Kerb weight",
+        "destacada": false
+      }
+    ],
+    "parrafos": [
+      "The flat-six displaces <strong>2,994 cc</strong>, with a bore and stroke of 95.0 x 70.4 mm and a 10.5:1 compression ratio. Block and heads are aluminium, with one overhead camshaft per bank, two valves per cylinder and chain-driven timing.",
+      "Fuelling is by <strong>carburettors</strong>, lubrication by <strong>dry sump</strong> with 13 litres of oil, and cooling by air and oil. It sends <strong>294 Nm</strong> at 4,450 rpm to the rear wheels through a fully synchronised five-speed manual gearbox."
+    ],
+    "tags": [
+      "2,994 cc flat-six",
+      "Carburettors",
+      "Dry sump",
+      "Five-speed manual",
+      "Rear-wheel drive"
+    ]
+  },
+  "kit": {
+    "etiqueta": "Technical configuration",
+    "titulo": "Competition<br/><strong>mechanicals.</strong>",
+    "ancla": "configuration",
+    "precio": "On request · 300 PS",
+    "categorias": [
+      {
+        "titulo": "Engine",
+        "items": [
+          "2,994 cc and 300 PS",
+          "Carburettor fuelling",
+          "Dry-sump lubrication",
+          "98-octane unleaded fuel"
+        ]
+      },
+      {
+        "titulo": "Transmission",
+        "items": [
+          "Synchronised five-speed manual",
+          "Dry-plate clutch",
+          "Mechanical actuation",
+          "Final drive 3.88:1"
+        ]
+      },
+      {
+        "titulo": "Chassis and brakes",
+        "items": [
+          "Independent suspension all round",
+          "Torsion bars and anti-roll bars",
+          "Ventilated discs front and rear",
+          "Rack and pinion steering"
+        ]
+      },
+      {
+        "titulo": "Wheels and weight",
+        "items": [
+          "Forged aluminium Fuchs",
+          "Front 9J x 15",
+          "Rear 11J x 15",
+          "960 kg kerb weight"
+        ]
+      }
+    ]
+  },
+  "exterior": {
+    "etiqueta": "Exterior",
+    "titulo": "Blue-grey.<br/><strong>The Carrera<br/>silhouette.</strong>",
+    "texto": "Against the blue-grey paint stand the black <strong>Carrera side stripe</strong>, the <strong>ducktail</strong> and the <strong>Fuchs wheels</strong> with dark centres and polished rims. The flared rear wings house the wider track that belongs to this configuration.",
+    "fotos": [
+      {
+        "src": "/img/911rsr/close-up2.jpg",
+        "alt": "Ducktail and rear light of the 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Rear · Ducktail"
+      },
+      {
+        "src": "/img/911rsr/close-up3.jpg",
+        "alt": "Rear Fuchs wheel and flared wing",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Fuchs wheel · Flared wing"
+      },
+      {
+        "src": "/img/911rsr/exterior1.jpg",
+        "alt": "Left front three-quarter view of the 911 RSR Tribute",
+        "ancho": 1400,
+        "alto": 788,
+        "caption": "Front three-quarter"
+      }
+    ]
+  },
+  "interior": {
+    "etiqueta": "Interior",
+    "titulo": "Houndstooth.<br/><strong>Two bucket seats<br/>and nothing more.</strong>",
+    "fotos": [
+      {
+        "src": "/img/911rsr/interior1.jpg",
+        "alt": "Houndstooth bucket seats",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Bucket seats · Houndstooth"
+      },
+      {
+        "src": "/img/911rsr/interior2.jpg",
+        "alt": "Cabin of the 911 RSR Tribute from the driver's door",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Cabin"
+      },
+      {
+        "src": "/img/911rsr/interior3.jpg",
+        "alt": "Three-spoke steering wheel and five-dial instrument cluster",
+        "ancho": 1400,
+        "alto": 1050,
+        "caption": "Steering wheel and instruments"
+      }
+    ],
+    "editorial": "Two <strong>bucket seats</strong> trimmed in <strong>houndstooth</strong>, the same fabric on the door panels, a three-spoke steering wheel and five dials with the rev counter in the centre. Everything needed to drive."
+  },
+  "procedencia": {
+    "etiqueta": "Background",
+    "titulo": "From the original<br/><strong>to this<br/>car.</strong>",
+    "hitos": [
+      {
+        "anio": "1973 · The reference",
+        "titulo": "Carrera RSR 2.8",
+        "cuerpo": "Porsche develops the <strong>Carrera RSR 2.8</strong> as the racing version of the Carrera RS 2.7. It is the model this car pays tribute to.",
+        "badge": "Historical reference"
+      },
+      {
+        "anio": "The configuration",
+        "titulo": "RSR Tribute",
+        "cuerpo": "Two-seat coupé with a <strong>2,994 cc</strong> flat-six and <strong>300 PS</strong>, five-speed manual, rear-wheel drive and a stated <strong>960 kg</strong>.",
+        "badge": "300 PS · 960 kg"
+      },
+      {
+        "anio": "Today",
+        "titulo": "Available at Valentin Motors",
+        "cuerpo": "The car is available, with <strong>price on request</strong>.",
+        "badge": "On request"
+      }
+    ]
+  },
+  "specs": {
+    "etiqueta": "Technical data",
+    "titulo": "Full<br/><strong>specification.</strong>",
+    "grupos": [
+      {
+        "titulo": "Engine",
+        "filas": [
+          {
+            "clave": "Type",
+            "valor": "Rear-mounted flat-six"
+          },
+          {
+            "clave": "Displacement",
+            "valor": "2,994 cc"
+          },
+          {
+            "clave": "Bore x stroke",
+            "valor": "95.0 x 70.4 mm"
+          },
+          {
+            "clave": "Power",
+            "valor": "300 PS (223 kW) at 7,120 rpm"
+          },
+          {
+            "clave": "Maximum torque",
+            "valor": "294 Nm at 4,450 rpm"
+          },
+          {
+            "clave": "Compression",
+            "valor": "10.5:1"
+          },
+          {
+            "clave": "Block and heads",
+            "valor": "Aluminium"
+          },
+          {
+            "clave": "Valvetrain",
+            "valor": "2 valves per cylinder, chain"
+          },
+          {
+            "clave": "Crankshaft",
+            "valor": "8 main bearings"
+          },
+          {
+            "clave": "Fuelling",
+            "valor": "Carburettors"
+          },
+          {
+            "clave": "Lubrication",
+            "valor": "Dry sump, 13 litres"
+          },
+          {
+            "clave": "Cooling",
+            "valor": "Air and oil"
+          },
+          {
+            "clave": "Fuel",
+            "valor": "98 unleaded"
+          },
+          {
+            "clave": "Electrical system",
+            "valor": "12 V, 66 Ah, 980 W alternator"
+          }
+        ]
+      },
+      {
+        "titulo": "Transmission",
+        "filas": [
+          {
+            "clave": "Drive",
+            "valor": "Rear-wheel"
+          },
+          {
+            "clave": "Gearbox",
+            "valor": "Five-speed manual"
+          },
+          {
+            "clave": "Clutch",
+            "valor": "Dry plate, mechanical"
+          },
+          {
+            "clave": "Gear ratios",
+            "valor": "3.18 / 1.83 / 1.26 / 1.00 / 0.82"
+          },
+          {
+            "clave": "Final drive",
+            "valor": "3.88:1"
+          },
+          {
+            "clave": "In 5th at 1,000 rpm",
+            "valor": "38.5 km/h"
+          }
+        ]
+      },
+      {
+        "titulo": "Chassis",
+        "filas": [
+          {
+            "clave": "Structure",
+            "valor": "Steel monocoque"
+          },
+          {
+            "clave": "Front suspension",
+            "valor": "Independent, torsion bar and anti-roll bar"
+          },
+          {
+            "clave": "Rear suspension",
+            "valor": "Semi-trailing arms, gas dampers"
+          },
+          {
+            "clave": "Steering",
+            "valor": "Rack and pinion"
+          },
+          {
+            "clave": "Brakes",
+            "valor": "Ventilated discs, dual circuit"
+          },
+          {
+            "clave": "Handbrake",
+            "valor": "Drum on rear wheels"
+          },
+          {
+            "clave": "Wheels",
+            "valor": "Fuchs 9J x 15 / 11J x 15"
+          }
+        ]
+      },
+      {
+        "titulo": "Dimensions and weights",
+        "filas": [
+          {
+            "clave": "Length x width x height",
+            "valor": "4,291 x 1,652 x 1,320 mm"
+          },
+          {
+            "clave": "Wheelbase",
+            "valor": "2,272 mm"
+          },
+          {
+            "clave": "Interior width front / rear",
+            "valor": "1,330 / 1,050 mm"
+          },
+          {
+            "clave": "Turning circle right / left",
+            "valor": "10.8 / 10.6 m"
+          },
+          {
+            "clave": "Steering wheel",
+            "valor": "380 mm diameter"
+          },
+          {
+            "clave": "Fuel tank",
+            "valor": "80 litres"
+          },
+          {
+            "clave": "Kerb weight",
+            "valor": "960 kg"
+          },
+          {
+            "clave": "Distribution front / rear",
+            "valor": "41.2% / 58.8%"
+          }
+        ]
+      },
+      {
+        "titulo": "Terms of sale",
+        "filas": [
+          {
+            "clave": "Price",
+            "valor": "On request"
+          }
+        ]
+      }
+    ]
+  },
+  "cierre": {
+    "imagen": "/img/911rsr/exterior2.jpg",
+    "cita": "A 911 in <em>RSR Tribute</em> configuration: 300 PS, 960 kg and a manual gearbox.",
+    "precio": "On request",
+    "precioTachado": false,
+    "precioLabel": "Porsche 911 Carrera 2.8 RSR Tribute · Blue-grey",
+    "aviso": "",
+    "nota": "",
+    "ctaTexto": "More information",
+    "ctaHref": "https://www.valentinmotors.es/contacto"
+  },
+  "catalogo": {
+    "estado": "disponible",
+    "estadoTexto": "Available",
+    "marca": "Porsche · 911",
+    "nombre": "911 Carrera 2.8 RSR Tribute",
+    "detalle": "300 PS · 960 kg · Blue-grey",
+    "descripcion": "2,994 cc flat-six on carburettors · Five-speed manual · Fuchs wheels. RSR Tribute configuration with ducktail.",
+    "precio": "On request",
+    "precioPorConsultar": true,
+    "imagen": "/img/911rsr/hero.jpg",
+    "imagenAncho": 1400,
+    "imagenAlto": 788
+  }
+}
