@@ -115,6 +115,21 @@ Ejemplos de mensajes de commit:
 
 El repositorio está en GitHub. Cada push actualiza la versión publicada. Hacer commit y push al terminar cada sesión de trabajo, no acumular cambios sin publicar.
 
+### 7. Alta en Squarespace (valentinmotors.es)
+Panel del blog «Porsche en venta»: `https://valentinmotors.squarespace.com/config/pages/61b091ed63390f1a1b618498`. Hacerlo después del push, cuando la ficha ya responda en Railway.
+
+1. Duplicar un post reciente (menú `···` > Duplicar)
+2. Configuración > Contenido: imagen destacada (`img/<slug>/hero.jpg`), extracto (línea de código `año · color en inglés · 📍ciudad` y un párrafo) y **URL de la publicación** = slug de `sitio/` (la copia trae la del post original con un sufijo aleatorio). La ciudad no está en las fichas: preguntarla. Guardar
+3. Editor > bloque de código: cambiar solo `VM_CAR_TITLE`, `VM_CAR_PAGE_TITLE`, `VM_CAR_IFRAME_URL` (`https://valentin.up.railway.app/<ficha>.html?embed=1`) y `VM_CAR_DESCRIPTION`. Guardar
+4. **Título del post (workaround)**: el propio bloque de código oculta la cabecera y el cambio de título no se guarda, aunque se fuerce a mostrarlo. Hay que desactivar el código:
+   - En el bloque de código, activar **Mostrar el código fuente** (queda como texto, no se ejecuta)
+   - Guardar, Salir, recargar la página y volver a Editar
+   - Cambiar el título, ya visible, y Guardar
+   - Desactivar **Mostrar el código fuente** y Guardar
+5. Publicar y comprobar `https://www.valentinmotors.es/porsche-en-venta/<slug>`
+
+No publicar nunca con «Mostrar el código fuente» activado.
+
 ---
 
 ## Design system
