@@ -9,7 +9,7 @@
   "realce": "realce--boxster987",
   "meta": {
     "titulo": "2005 Porsche Boxster S 987 manual for sale · Valentín Motors",
-    "descripcion": "2005 Porsche Boxster S 987 with manual gearbox, 78,131 km and a new engine fitted in 2026. Silver with grey interior. Available at Valentín Motors, price on request.",
+    "descripcion": "2005 Porsche Boxster S 987 with manual gearbox, 78,131 km and a new engine fitted in 2026. Silver with grey interior. Available at Valentín Motors for €36,500.",
     "ogImagen": "https://valentin.up.railway.app/img/boxster987/hero.jpg"
   },
   "hero": {
@@ -73,7 +73,7 @@
       },
       {
         "clave": "Price",
-        "valor": "On request",
+        "valor": "€36,500",
         "acento": true
       }
     ]
@@ -168,7 +168,7 @@
     "etiqueta": "Factory equipment · Option codes",
     "titulo": "Original<br/><strong>specification, documented.</strong>",
     "ancla": "equipamiento",
-    "precio": "On request · 78,131 km",
+    "precio": "€36,500 · 78,131 km",
     "categorias": [
       {
         "titulo": "Mechanical",
@@ -281,7 +281,7 @@
         "anio": "Today",
         "titulo": "Available at Valentin Motors",
         "cuerpo": "The car is offered with <strong>78,131 km</strong>, a manual gearbox and the newly fitted engine.",
-        "badge": "On request"
+        "badge": "€36,500"
       }
     ]
   },
@@ -426,7 +426,7 @@
         "filas": [
           {
             "clave": "Price",
-            "valor": "On request"
+            "valor": "€36,500"
           },
           {
             "clave": "Documentation",
@@ -439,7 +439,7 @@
   "cierre": {
     "imagen": "/img/boxster987/exterior3.jpg",
     "cita": "A Porsche Boxster S 987 with a <em>manual gearbox</em>, 78,131 km and a new engine.",
-    "precio": "On request",
+    "precio": "€36,500",
     "precioTachado": false,
     "precioLabel": "Porsche Boxster S 987 · Silver · 2005",
     "aviso": "",
@@ -454,8 +454,8 @@
     "nombre": "Boxster S 987",
     "detalle": "2005 · 78,131 km · Silver",
     "descripcion": "Mid-mounted 3.2 L flat-six · Six-speed manual · 18\" wheels. New engine fitted in 2026.",
-    "precio": "On request",
-    "precioPorConsultar": true,
+    "precio": "€36,500",
+    "precioPorConsultar": false,
     "imagen": "/img/boxster987/hero.jpg",
     "imagenAncho": 1400,
     "imagenAlto": 788

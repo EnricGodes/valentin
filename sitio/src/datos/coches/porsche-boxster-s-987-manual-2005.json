@@ -4,7 +4,7 @@
   "realce": "realce--boxster987",
   "meta": {
     "titulo": "Porsche Boxster S 987 manual 2005 en venta · Valentín Motors",
-    "descripcion": "Porsche Boxster S 987 de 2005 con cambio manual, 78.131 km y motor nuevo montado en 2026. Plata con interior gris. Disponible en Valentín Motors, precio a consultar.",
+    "descripcion": "Porsche Boxster S 987 de 2005 con cambio manual, 78.131 km y motor nuevo montado en 2026. Plata con interior gris. Disponible en Valentín Motors por 36.500 €.",
     "ogImagen": "https://valentin.up.railway.app/img/boxster987/hero.jpg"
   },
   "hero": {
@@ -68,7 +68,7 @@
       },
       {
         "clave": "Precio",
-        "valor": "A consultar",
+        "valor": "36.500 €",
         "acento": true
       }
     ]
@@ -163,7 +163,7 @@
     "etiqueta": "Equipamiento de fábrica · Códigos de opción",
     "titulo": "Configuración<br/><strong>de origen documentada.</strong>",
     "ancla": "equipamiento",
-    "precio": "A consultar · 78.131 km",
+    "precio": "36.500 € · 78.131 km",
     "categorias": [
       {
         "titulo": "Mecánica",
@@ -276,7 +276,7 @@
         "anio": "Hoy",
         "titulo": "Disponible en Valentin Motors",
         "cuerpo": "La unidad se presenta con <strong>78.131 km</strong>, cambio manual y el motor recién montado.",
-        "badge": "A consultar"
+        "badge": "36.500 €"
       }
     ]
   },
@@ -421,7 +421,7 @@
         "filas": [
           {
             "clave": "Precio",
-            "valor": "A consultar"
+            "valor": "36.500 €"
           },
           {
             "clave": "Documentación",
@@ -434,7 +434,7 @@
   "cierre": {
     "imagen": "/img/boxster987/exterior3.jpg",
     "cita": "Un Porsche Boxster S 987 con <em>cambio manual</em>, 78.131 km y el motor nuevo.",
-    "precio": "A consultar",
+    "precio": "36.500 €",
     "precioTachado": false,
     "precioLabel": "Porsche Boxster S 987 · Plata · 2005",
     "aviso": "",
@@ -449,8 +449,8 @@
     "nombre": "Boxster S 987",
     "detalle": "2005 · 78.131 km · Plata",
     "descripcion": "Bóxer central 3,2 L · Manual de 6 velocidades · Llantas de 18\". Motor nuevo montado en 2026.",
-    "precio": "A consultar",
-    "precioPorConsultar": true,
+    "precio": "36.500 €",
+    "precioPorConsultar": false,
     "imagen": "/img/boxster987/hero.jpg",
     "imagenAncho": 1400,
     "imagenAlto": 788

@@ -9,7 +9,7 @@
   "realce": "realce--boxster987",
   "meta": {
     "titulo": "Porsche Boxster S 987 Schaltgetriebe 2005 zu verkaufen · Valentín Motors",
-    "descripcion": "Porsche Boxster S 987 von 2005 mit Schaltgetriebe, 78.131 km und neuem Motor, eingebaut 2026. Silber mit grauem Innenraum. Bei Valentín Motors, Preis auf Anfrage.",
+    "descripcion": "Porsche Boxster S 987 von 2005 mit Schaltgetriebe, 78.131 km und neuem Motor, eingebaut 2026. Silber mit grauem Innenraum. Bei Valentín Motors für 36.500 €.",
     "ogImagen": "https://valentin.up.railway.app/img/boxster987/hero.jpg"
   },
   "hero": {
@@ -73,7 +73,7 @@
       },
       {
         "clave": "Preis",
-        "valor": "Auf Anfrage",
+        "valor": "36.500 €",
         "acento": true
       }
     ]
@@ -168,7 +168,7 @@
     "etiqueta": "Werksausstattung · Optionscodes",
     "titulo": "Dokumentierte<br/><strong>Originalausstattung.</strong>",
     "ancla": "equipamiento",
-    "precio": "Auf Anfrage · 78.131 km",
+    "precio": "36.500 € · 78.131 km",
     "categorias": [
       {
         "titulo": "Mechanik",
@@ -281,7 +281,7 @@
         "anio": "Heute",
         "titulo": "Bei Valentin Motors erhältlich",
         "cuerpo": "Das Fahrzeug wird mit <strong>78.131 km</strong>, Schaltgetriebe und dem frisch eingebauten Motor angeboten.",
-        "badge": "Auf Anfrage"
+        "badge": "36.500 €"
       }
     ]
   },
@@ -426,7 +426,7 @@
         "filas": [
           {
             "clave": "Preis",
-            "valor": "Auf Anfrage"
+            "valor": "36.500 €"
           },
           {
             "clave": "Dokumentation",
@@ -439,7 +439,7 @@
   "cierre": {
     "imagen": "/img/boxster987/exterior3.jpg",
     "cita": "Ein Porsche Boxster S 987 mit <em>Schaltgetriebe</em>, 78.131 km und neuem Motor.",
-    "precio": "Auf Anfrage",
+    "precio": "36.500 €",
     "precioTachado": false,
     "precioLabel": "Porsche Boxster S 987 · Silber · 2005",
     "aviso": "",
@@ -454,8 +454,8 @@
     "nombre": "Boxster S 987",
     "detalle": "2005 · 78.131 km · Silber",
     "descripcion": "3,2-l-Boxer, Mittelmotor · Sechsgang-Schaltgetriebe · 18-Zoll-Räder. Neuer Motor, eingebaut 2026.",
-    "precio": "Auf Anfrage",
-    "precioPorConsultar": true,
+    "precio": "36.500 €",
+    "precioPorConsultar": false,
     "imagen": "/img/boxster987/hero.jpg",
     "imagenAncho": 1400,
     "imagenAlto": 788

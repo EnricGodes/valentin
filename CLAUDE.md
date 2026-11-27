@@ -177,7 +177,7 @@ Ver `design_system.md` para todos los detalles visuales. Resumen:
 
 ### Porsche Boxster S 987 manual 2005 (boxster987.html)
 1. Añadido el 2026-11-20. Ficha fuente en `docs/porsche_boxster_s_987_manual.md`; fotos originales en `docs/Web/Boxster S 987 Manual/`. En `sitio/` tiene ficha en seis idiomas (slug `porsche-boxster-s-987-manual-2005`), traducida a mano. Sale en la landing del 987
-2. **Precio a consultar**: así lo da la ficha. Sin precio no se emite Offer en el JSON-LD
+2. **Precio 36.500 €**: puesto por Enric el 2026-11-27 (la ficha lo daba a consultar)
 3. **3,2 L / 280 CV / 320 Nm / 6 velocidades**: cifras de catálogo del Boxster S 987, no vienen en la ficha. El código de motor de la ficha (9626) es el del motor original y no está en la web, porque lleva motor nuevo de 2026
 4. **Color "Plata 92T"** e **interior gris**: el código sale de la ficha, el nombre y el interior de las fotos. Validar con Valentin el nombre comercial del color
 5. **Sin opinión de Jordi**: la ficha no la trae y no se inventa

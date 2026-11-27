@@ -9,7 +9,7 @@
   "realce": "realce--boxster987",
   "meta": {
     "titulo": "Porsche Boxster S 987 manuale 2005 in vendita · Valentín Motors",
-    "descripcion": "Porsche Boxster S 987 del 2005 con cambio manuale, 78.131 km e motore nuovo montato nel 2026. Argento con interni grigi. Disponibile da Valentín Motors, prezzo su richiesta.",
+    "descripcion": "Porsche Boxster S 987 del 2005 con cambio manuale, 78.131 km e motore nuovo montato nel 2026. Argento con interni grigi. Disponibile da Valentín Motors a 36.500 €.",
     "ogImagen": "https://valentin.up.railway.app/img/boxster987/hero.jpg"
   },
   "hero": {
@@ -73,7 +73,7 @@
       },
       {
         "clave": "Prezzo",
-        "valor": "Su richiesta",
+        "valor": "36.500 €",
         "acento": true
       }
     ]
@@ -168,7 +168,7 @@
     "etiqueta": "Dotazione di fabbrica · Codici optional",
     "titulo": "Configurazione<br/><strong>originale documentata.</strong>",
     "ancla": "equipamiento",
-    "precio": "Su richiesta · 78.131 km",
+    "precio": "36.500 € · 78.131 km",
     "categorias": [
       {
         "titulo": "Meccanica",
@@ -281,7 +281,7 @@
         "anio": "Oggi",
         "titulo": "Disponibile da Valentin Motors",
         "cuerpo": "L'esemplare si presenta con <strong>78.131 km</strong>, cambio manuale e il motore appena montato.",
-        "badge": "Su richiesta"
+        "badge": "36.500 €"
       }
     ]
   },
@@ -426,7 +426,7 @@
         "filas": [
           {
             "clave": "Prezzo",
-            "valor": "Su richiesta"
+            "valor": "36.500 €"
           },
           {
             "clave": "Documentazione",
@@ -439,7 +439,7 @@
   "cierre": {
     "imagen": "/img/boxster987/exterior3.jpg",
     "cita": "Una Porsche Boxster S 987 con <em>cambio manuale</em>, 78.131 km e il motore nuovo.",
-    "precio": "Su richiesta",
+    "precio": "36.500 €",
     "precioTachado": false,
     "precioLabel": "Porsche Boxster S 987 · Argento · 2005",
     "aviso": "",
@@ -454,8 +454,8 @@
     "nombre": "Boxster S 987",
     "detalle": "2005 · 78.131 km · Argento",
     "descripcion": "Boxer centrale 3,2 L · Manuale a 6 marce · Cerchi da 18\". Motore nuovo montato nel 2026.",
-    "precio": "Su richiesta",
-    "precioPorConsultar": true,
+    "precio": "36.500 €",
+    "precioPorConsultar": false,
     "imagen": "/img/boxster987/hero.jpg",
     "imagenAncho": 1400,
     "imagenAlto": 788
